@@ -54,7 +54,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 25 | AIM dictionary code on Landais 1860: 19 of 27 published words at their references (random mean 0.09); both unsolved ads partly read | completed 2026-11-09 |
 | 26 | AIM: 25 more known references from solved scans; automatic entry counter parked (12 of 52 exact); key entries counted by eye; 20 Jan 1882 ad read | completed 2026-11-09 |
 | 27 | Ads grouped by table (14 tables with families); blank-cell inference (hidden cells: 55 of 69 answered correct, 121 tested); R=O in table 2119 with 15 of 15 held-out folds | completed 2026-11-09 |
-| 28 | Read the 2119 and 2402 families by hand as correspondences; clean the numeric-table families; irregular transposition models | next |
+| 28 | Six family leads checked against scans; numeric families cleaned (hidden cells 51 of 65 answered correct); irregular columnar and word anagrams (control 28 of 30, no real reading) | completed 2026-11-09 |
+| 29 | Add table 2119 homophones as alternatives and read the whole 2119 family as one correspondence; fix Workbench Quagmire III miss; extend transposition beyond width 7 | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -191,4 +192,10 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Numeric families include plain ads with figures, because clear letters count as read. Mixed-table families are cleaner.
 - A family view surfaces more than a per-ad search: the 2119 family repeats mari, ma femme and ma cherie across 1883 to 1887.
 - New idea: known homophones (symbol 1 as X and B in table 2119) should be modelled as alternatives, not errors.
+
+## Added 2026-11-09: Round 28
+- A clean negative: irregular columnar widths 3 to 7 and word anagrams found no reading on 402 ads. Longer keys remain untested.
+- Plain abbreviated French scores high on anagram tests, because real words are their own anagrams; a coverage filter of 0.35 was not enough for short words.
+- The Workbench benchmark missed only Quagmire III (48 of 49 recovered at 18 seconds; 38 called readable, none wrongly).
+- Lesson (Workbench): ranking by word coverage alone rewards overfitting on short text. Evidence depends on how many keys were searched: exact decodings have none, and unicity distance limits the rest.
 

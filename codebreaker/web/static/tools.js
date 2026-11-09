@@ -7,13 +7,14 @@ function freqBars(obs, exp) {
 }
 
 route(/^\/workbench$/, async () => {
-  view().innerHTML = `<h1>Workbench</h1><p class="lead">Paste any ciphertext for a statistical profile and a best guess at the system.</p>
-    <div class="panel"><label for="t">Ciphertext</label><textarea id="t"></textarea><button id="go">Analyse</button><button id="ab" class="alt">Autobreak</button></div><div id="abo"></div><div id="o"></div>`;
-  $("#ab").onclick = ev => busy(ev.target, $("#abo"), async () => {
-    const r = await api("/autobreak", { text: $("#t").value });
-    $("#abo").innerHTML = `<div class="panel"><h3>Autobreak</h3><p class="mute">${esc(r.note)}</p>${r.guesses.length ? `<h3>The network's guesses</h3>${table(["System", "Probability"], r.guesses.map(g => [g.name, `${Math.round(g.probability * 100)}%`]))}` : ""}
-      ${r.best ? `<h3>Best reading: ${esc(r.best.cipher)}</h3><pre>${esc(r.best.spaced)}</pre>${table(["System tried", "Word coverage", "Score"], r.results.map(x => [x.cipher, `${Math.round(x.coverage * 100)}%`, x.score.toFixed(2)]))}` : ""}</div>`;
-  });
+  view().innerHTML = `<h1>Workbench</h1><p class="lead">Paste any ciphertext. Crack it runs every method available and shows each stage, or save it for the hunter to keep working on.</p>
+    <div class="panel"><label for="t">Ciphertext</label><textarea id="t"></textarea>
+    <div class="row crackopts"><div><label for="cb">Time allowed</label><select id="cb"><option value="15">15 seconds</option><option value="45" selected>45 seconds</option><option value="120">2 minutes</option></select></div>
+    <div><label for="cl">Language</label><select id="cl"><option value="">Try all six</option><option value="en">English</option><option value="fr">French</option><option value="de">German</option><option value="it">Italian</option><option value="es">Spanish</option><option value="la">Latin</option></select></div></div>
+    <button id="crack">Crack it</button><button id="stop" class="alt" disabled>Stop</button><button id="go" class="alt">Statistics only</button></div>
+    <div id="abo"></div><div id="o"></div>${submitPanel()}`;
+  crackSetup();
+  submitSetup();
   $("#go").onclick = ev => busy(ev.target, $("#o"), async () => {
     const r = await api("/analyze", { text: $("#t").value });
     const periods = [...r.periods].sort((a, b) => b.ic - a.ic).slice(0, 6);

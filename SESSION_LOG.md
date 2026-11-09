@@ -143,3 +143,12 @@ The OCR-based dictionary control on the enlarged set is now 44 of 54 published w
 ## 2026-11-09: Round 27
 Grouped ads by documented table and tested blank-cell inference: with known cells hidden it answered 69 of 121 and 55 were right. Proposed R=O for table 2119 (15 of 15 held-out folds). Checked four more family ads against scans, including a New Year greeting of 30 Dec 1883; six more are machine readings. Irregular transpositions moved to Round 28.
 
+## 2026-11-09: Workbench crack and submissions (user requests)
+Crack it now streams each stage: text inspection, plain-text and encoding checks, statistics, rule and neural guesses, worked traces (frequency, Caesar sweep, Vigenere columns, annealing), then every attack across six languages within a time budget. The best reading is tested against shuffled letters. Codes the Workbench cannot read can be sent to the hunter; the server refuses a code unless a crack finished without a readable result.
+
+## 2026-11-09: Round 28
+Checked six more family ads against scans, all real and improved by hand. Numeric families now exclude plain ads with figures. Irregular columnar and word-anagram searches on 402 unsolved ads found nothing, with the columnar control at 28 of 30. Next: Round 29.
+
+## 2026-11-09: Workbench short-text fixes (user report)
+A Base64 message was decoded correctly but outranked by a meaningless short Italian reading. Exact decodings that read as language now end the crack; decoded text that is not language is attacked in layers. Readings from methods whose key space is too large for the text length are marked as not trusted and cannot be reported as cracked.
+

@@ -15,6 +15,7 @@ RESULT = ROOT / "data/results/figaro_table_cells.json"
 MIN_FAMILY_READ = 0.45
 MIN_GAIN = 5
 MIN_USES = 2
+MIN_NUMBER_SHARE = 0.6
 
 
 def mixed_tokens(lines: list[str]) -> list[list[str]]:
@@ -63,11 +64,17 @@ def uses(ads: list, sym: str) -> int:
     return sum(sum(tok.count(sym) for tok in a) for a in ads)
 
 
+def number_share(ad: list) -> float:
+    """Share of an ad's pieces that are numbers, so plain ads with a few figures can be excluded."""
+    ps = [p for tok in ad for p in tok]
+    return sum(p.isdigit() for p in ps) / len(ps) if ps else 0.0
+
+
 def family(table: dict, pool: list, numeric: bool) -> list:
     best = {}
     for name, sets in pool:
         for s in sets:
-            if len(s) >= 3:
+            if len(s) >= 3 and (not numeric or number_share(s) >= MIN_NUMBER_SHARE):
                 v = share(s, table["key"], numeric)
                 if v >= MIN_FAMILY_READ and v > best.get(name, (0,))[0]:
                     best[name] = (v, s)

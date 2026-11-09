@@ -1,9 +1,9 @@
 {
  "id": "figaro_table_cells",
  "tables_with_family": 14,
- "hidden_cells": 121,
- "answered": 69,
- "correct": 55,
+ "hidden_cells": 108,
+ "answered": 65,
+ "correct": 51,
  "rows": [
   {
    "id": "2119",
@@ -724,10 +724,6 @@
      0.5
     ],
     [
-     "1890_18900430-BMA.jpg",
-     0.556
-    ],
-    [
      "1890_18901007-B4.jpg",
      0.6
     ],
@@ -755,12 +751,6 @@
      "table": "2300",
      "symbol": "2",
      "truth": "B",
-     "guess": null
-    },
-    {
-     "table": "2300",
-     "symbol": "3",
-     "truth": "C",
      "guess": null
     },
     {
@@ -796,20 +786,12 @@
      0.714
     ],
     [
-     "1888_18881227-Psee.jpg",
-     0.5
-    ],
-    [
      "1889_18890106-Psee.jpg",
      0.5
     ],
     [
      "1889_18890201-MIG.jpg",
      0.571
-    ],
-    [
-     "1889_18891024-B4.jpg",
-     0.556
     ],
     [
      "1898_18981031-19.jpg",
@@ -825,38 +807,14 @@
     },
     {
      "table": "2301",
-     "symbol": "3",
-     "truth": "X",
-     "guess": null
-    },
-    {
-     "table": "2301",
-     "symbol": "5",
-     "truth": "V",
-     "guess": null
-    },
-    {
-     "table": "2301",
      "symbol": "6",
      "truth": "U",
      "guess": "U"
     },
     {
      "table": "2301",
-     "symbol": "8",
-     "truth": "S",
-     "guess": null
-    },
-    {
-     "table": "2301",
      "symbol": "9",
      "truth": "R",
-     "guess": null
-    },
-    {
-     "table": "2301",
-     "symbol": "26",
-     "truth": "A",
      "guess": null
     }
    ],
@@ -879,10 +837,6 @@
      0.667
     ],
     [
-     "1888_18881227-Psee.jpg",
-     0.5
-    ],
-    [
      "1889_18890427a-MIG.jpg",
      0.5
     ],
@@ -896,12 +850,6 @@
      "table": "2302",
      "symbol": "1",
      "truth": "L",
-     "guess": null
-    },
-    {
-     "table": "2302",
-     "symbol": "5",
-     "truth": "P",
      "guess": null
     },
     {
@@ -988,32 +936,12 @@
      0.5
     ],
     [
-     "1886_18861202-Emma.jpg",
-     0.833
-    ],
-    [
-     "1887_18870705-MIG.jpg",
-     0.778
-    ],
-    [
-     "1888_18881013-B4.jpg",
-     0.467
-    ],
-    [
-     "1888_18881019-B4.jpg",
-     0.6
-    ],
-    [
      "1888_18881227-Psee.jpg",
-     0.75
+     0.5
     ],
     [
      "1889_18890411-MIG.jpg",
      0.6
-    ],
-    [
-     "1889_18891017-M9.jpg",
-     0.5
     ],
     [
      "1893_18930516-Nic.jpg",
@@ -1043,32 +971,8 @@
     },
     {
      "table": "2305",
-     "symbol": "3",
-     "truth": "U",
-     "guess": null
-    },
-    {
-     "table": "2305",
-     "symbol": "4",
-     "truth": "A",
-     "guess": "A"
-    },
-    {
-     "table": "2305",
-     "symbol": "5",
-     "truth": "S",
-     "guess": null
-    },
-    {
-     "table": "2305",
-     "symbol": "6",
-     "truth": "O",
-     "guess": "O"
-    },
-    {
-     "table": "2305",
-     "symbol": "8",
-     "truth": "T",
+     "symbol": "9",
+     "truth": "N",
      "guess": null
     }
    ],
@@ -1157,16 +1061,8 @@
      0.5
     ],
     [
-     "1886_18861202-Emma.jpg",
-     0.833
-    ],
-    [
      "1887_18870609-MIG.jpg",
      0.5
-    ],
-    [
-     "1888_18880617-B4.jpg",
-     0.538
     ],
     [
      "1888_18881227-Psee.jpg",
@@ -1175,14 +1071,6 @@
     [
      "1889_18890201-MIG.jpg",
      0.5
-    ],
-    [
-     "1890_18900226-BMA.jpg",
-     0.5
-    ],
-    [
-     "1890_18900430-BMA.jpg",
-     0.556
     ],
     [
      "1890_18901001-B4.jpg",
@@ -1216,24 +1104,12 @@
      "table": "2307",
      "symbol": "2",
      "truth": "E",
-     "guess": "E"
-    },
-    {
-     "table": "2307",
-     "symbol": "3",
-     "truth": "I",
      "guess": null
     },
     {
      "table": "2307",
      "symbol": "4",
      "truth": "O",
-     "guess": null
-    },
-    {
-     "table": "2307",
-     "symbol": "5",
-     "truth": "U",
      "guess": null
     },
     {
@@ -1264,24 +1140,12 @@
      0.75
     ],
     [
-     "1887_18870705-MIG.jpg",
-     0.778
-    ],
-    [
-     "1888_18880602-B4.jpg",
-     0.5
-    ],
-    [
      "1889_18890123-MIG.jpg",
      0.5
     ],
     [
      "1889_18890427a-MIG.jpg",
      0.5
-    ],
-    [
-     "1890_18900205-BMA.jpg",
-     0.556
     ],
     [
      "1891_18910611-VE3.jpg",
@@ -1307,12 +1171,6 @@
     },
     {
      "table": "2308",
-     "symbol": "3",
-     "truth": "M",
-     "guess": null
-    },
-    {
-     "table": "2308",
      "symbol": "5",
      "truth": "A",
      "guess": null
@@ -1321,7 +1179,7 @@
      "table": "2308",
      "symbol": "6",
      "truth": "O",
-     "guess": "O"
+     "guess": null
     },
     {
      "table": "2308",

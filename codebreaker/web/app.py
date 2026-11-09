@@ -5,7 +5,7 @@ import secrets
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
@@ -128,6 +128,57 @@ def solve(cid: str, body: SolveIn):
 @app.post("/api/analyze")
 def analyze(body: TextIn):
     return guarded(analysis.report, body.text)
+
+
+class CrackIn(BaseModel):
+    text: str
+    budget: float = 45
+    lang: str | None = None
+
+
+@app.post("/api/crack")
+def run_crack(body: CrackIn):
+    """Send each stage as one line of JSON as soon as it is finished."""
+    import json
+
+    from ..crack import crack
+    from ..submissions import record_verdict
+
+    if not body.text.strip():
+        raise HTTPException(400, "Paste some ciphertext first.")
+
+    def lines():
+        try:
+            for ev in crack(body.text, min(max(body.budget, 8), 180), body.lang):
+                if ev["event"] == "finish":
+                    record_verdict(body.text, ev["verdict"]["level"])
+                yield json.dumps(ev, ensure_ascii=False, default=str) + "\n"
+        except Exception as exc:  # shown beside the steps that have already arrived
+            yield json.dumps({"event": "error", "message": f"{type(exc).__name__}: {exc}"}) + "\n"
+
+    return StreamingResponse(lines(), media_type="application/x-ndjson")
+
+
+class SubmitIn(BaseModel):
+    name: str
+    text: str
+    source: str = ""
+    notes: str = ""
+    best: dict | None = None
+
+
+@app.post("/api/submissions")
+def add_submission(body: SubmitIn):
+    from ..submissions import submit
+
+    return guarded(submit, body.name, body.text, body.source, body.notes, body.best)
+
+
+@app.get("/api/submissions")
+def list_submissions():
+    from ..submissions import listing
+
+    return listing()
 
 
 @app.post("/api/autobreak")

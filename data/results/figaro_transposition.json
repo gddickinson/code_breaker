@@ -1,0 +1,7929 @@
+{
+ "id": "figaro_transposition",
+ "columnar_control": {
+  "n": 30,
+  "solved": 28
+ },
+ "anagram_control": {
+  "n": 60,
+  "above_cut": 60,
+  "cut": 0.4
+ },
+ "tested": 402,
+ "null_max": 0.538,
+ "rows": [
+  {
+   "image": "1886_18860415-ArH.jpg",
+   "letters": 25,
+   "text": "MERCID SOU BNPRES DO KFREPR AR",
+   "columnar": 0.6,
+   "null": 0.2,
+   "method": "undo width 7",
+   "order": [
+    1,
+    6,
+    3,
+    4,
+    2,
+    0,
+    5
+   ],
+   "reading": "fmsopri reduraderoberspckn",
+   "anagram": 0.12,
+   "anagram_null": 0.08
+  },
+  {
+   "image": "1882_18821215-42.jpg",
+   "letters": 28,
+   "text": "VY TR CR BPCDE BREF BIT TRDE SRD PRS",
+   "columnar": 0.321,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    2,
+    4,
+    1,
+    5,
+    6,
+    0,
+    3
+   ],
+   "reading": "dcvdcriedy pretsetrbftrbrspbr",
+   "anagram": 0.143,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1900_19001002-ABM.jpg",
+   "letters": 40,
+   "text": "BS MON EUR ETTEROL ED DIN SERTTEL TROFENARF OPPE",
+   "columnar": 0.25,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    5,
+    3,
+    2,
+    4,
+    0
+   ],
+   "reading": "rerd rebfutdorsortifomp eeneloptlsnenettea",
+   "anagram": 0.375,
+   "anagram_null": 0.125
+  },
+  {
+   "image": "1893_18930511-Nic.jpg",
+   "letters": 31,
+   "text": "NIC PS INSERT TS TS CONTR TN AFF ES TT PR",
+   "columnar": 0.355,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    5,
+    3,
+    2,
+    1,
+    0
+   ],
+   "reading": "snossentantir itftsntcpfrcstpret",
+   "anagram": 0.258,
+   "anagram_null": 0.065
+  },
+  {
+   "image": "1894_18940920-25.jpg",
+   "letters": 37,
+   "text": "GVRITH FILPHT DYHE XQL QY UHTDK XTHU SGLPHEG",
+   "columnar": 0.216,
+   "null": 0.0,
+   "method": "redo width 6",
+   "order": [
+    0,
+    5,
+    2,
+    1,
+    4,
+    3
+   ],
+   "reading": "g fdldsghtqtuerlhyxl viyqkgthxhhhipeutp",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18841214.jpg",
+   "letters": 24,
+   "text": "BICE SRE FEDTRE OCT TPOT BICT",
+   "columnar": 0.208,
+   "null": 0.0,
+   "method": "redo width 7",
+   "order": [
+    0,
+    4,
+    1,
+    3,
+    5,
+    6,
+    2
+   ],
+   "reading": "bfcisr oietcetpreteobcdtt",
+   "anagram": 0.0,
+   "anagram_null": 0.125
+  },
+  {
+   "image": "1889_18890627-MIG.jpg",
+   "letters": 25,
+   "text": "LHPPLL RASSNREE ME GI FOR EVER",
+   "columnar": 0.36,
+   "null": 0.16,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    1,
+    0,
+    3,
+    5,
+    4
+   ],
+   "reading": "ralevol eshgerlespirermnpf",
+   "anagram": 0.36,
+   "anagram_null": 0.16
+  },
+  {
+   "image": "1882_18821212-PAUL.jpg",
+   "letters": 36,
+   "text": "PAT GOOD LOTTER THIS TIME SO SORRY NOT BE GRP",
+   "columnar": 0.306,
+   "null": 0.111,
+   "method": "undo width 7",
+   "order": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    3,
+    0
+   ],
+   "reading": "tportiebadressetly rtoggontisrotohmop",
+   "anagram": 0.139,
+   "anagram_null": 0.083
+  },
+  {
+   "image": "1894_18940911-25.jpg",
+   "letters": 27,
+   "text": "VRXV DIGG YRXG FRPQEV DDKVTY SYE",
+   "columnar": 0.185,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    2,
+    3,
+    6,
+    1,
+    5,
+    0,
+    4
+   ],
+   "reading": "dgvdyqykf riservrxgyvxtpvged",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960722-P.jpg",
+   "letters": 33,
+   "text": "FVO FORA ITA LAMO PROB CHANVRE OU DE IBIS",
+   "columnar": 0.182,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    2,
+    4,
+    3,
+    5,
+    6
+   ],
+   "reading": "rflaroiavanoubi omvbditforcesaopeh",
+   "anagram": 0.212,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1888_18880725-B4.jpg",
+   "letters": 45,
+   "text": "RE ENVY TOUT HAS CE MES DU LE TU MO LARR TOUT PREVU ENF AMI",
+   "columnar": 0.289,
+   "null": 0.111,
+   "method": "undo width 7",
+   "order": [
+    1,
+    2,
+    5,
+    6,
+    4,
+    3,
+    0
+   ],
+   "reading": "uroulelee utamenetpretfnhrrs uavaetdmmysvouoitc",
+   "anagram": 0.644,
+   "anagram_null": 0.133
+  },
+  {
+   "image": "1896_18960709-P.jpg",
+   "letters": 55,
+   "text": "HIAIA ACHAT RCNSEIGN SDAGOTK ACARO GUTO AUC RETAN LEMON AVOIL ESP",
+   "columnar": 0.164,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    5,
+    3,
+    1,
+    0
+   ],
+   "reading": "a thuitavaitgktonaon ariliasccleaudanem acarssocrgoepnheog",
+   "anagram": 0.255,
+   "anagram_null": 0.055
+  },
+  {
+   "image": "1876_18760608-2.jpg",
+   "letters": 26,
+   "text": "CH AM AD OE TEND TIM PASS FOL TOUJ",
+   "columnar": 0.154,
+   "null": 0.0,
+   "method": "undo width 4",
+   "order": [
+    3,
+    1,
+    2,
+    0
+   ],
+   "reading": "foicoemh ltpateamonsaudsdjt",
+   "anagram": 0.192,
+   "anagram_null": 0.308
+  },
+  {
+   "image": "1882_18820506-7.jpg",
+   "letters": 26,
+   "text": "CBHQ RELE TR CHAMF TPAPTL NRPEQ",
+   "columnar": 0.308,
+   "null": 0.154,
+   "method": "undo width 6",
+   "order": [
+    5,
+    3,
+    4,
+    2,
+    1,
+    0
+   ],
+   "reading": "npartcra merbppflchettehqql",
+   "anagram": 0.154,
+   "anagram_null": 0.154
+  },
+  {
+   "image": "1892_18920808-AC.jpg",
+   "letters": 26,
+   "text": "OUBLP ETEABS ENVSOUV REVAVBON",
+   "columnar": 0.154,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    5,
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "reading": "pbrvsoes eboutevoubenanvlav",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960922-V.jpg",
+   "letters": 52,
+   "text": "BOBI HEUR FLEGO MIRO FRAPA MIEUX MAINT EEE RATAAPESEEEENASTH",
+   "columnar": 0.25,
+   "null": 0.096,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    0,
+    5,
+    6,
+    2,
+    3
+   ],
+   "reading": "rrtebinofaeoetfl anbuerepaixeageshm epostearamehuiamie",
+   "anagram": 0.192,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "letters": 33,
+   "text": "DO MISS YOU CHI CH SO MUCH VXDR HXDL LEH TF",
+   "columnar": 0.152,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    4,
+    2,
+    0,
+    5,
+    3,
+    1
+   ],
+   "reading": "ilsdduclyrocheo hmhshuxivotcdsxmfh",
+   "anagram": 0.061,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1889_18891101-VE3.jpg",
+   "letters": 33,
+   "text": "ER EE SERAI JZIX SZUXQVZH YMNJV HEYZ TAV",
+   "columnar": 0.152,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    2,
+    0,
+    5,
+    3,
+    6
+   ],
+   "reading": "uezjehzxrivrytq axhemaviseenvzjzys",
+   "anagram": 0.212,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1899_18990222-13.jpg",
+   "letters": 33,
+   "text": "ME SI VOUD AD BYE DS BR SEN CO BA VIO REG HIE",
+   "columnar": 0.152,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    1,
+    5,
+    3,
+    6,
+    0
+   ],
+   "reading": "ebonmbvgyucerih edossoidabieresdav",
+   "anagram": 0.212,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1892_18920721-VE3.jpg",
+   "letters": 53,
+   "text": "EK POSTE REST IMPOSS FIX JOUR ECRIV NOUVELLES IZSTXI VIPKT KXMT",
+   "columnar": 0.34,
+   "null": 0.189,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    4,
+    1,
+    5,
+    2,
+    6
+   ],
+   "reading": "eriesupkezsfvkpcs tietortixlksixmjlx tvipoemenvoustrois",
+   "anagram": 0.415,
+   "anagram_null": 0.075
+  },
+  {
+   "image": "1888_18880609-B4.jpg",
+   "letters": 74,
+   "text": "AM DEUX AY TES CH LET LE DU RET APP QUEL BON AP TANT SOUF MAIS TE REV SOUT COUR MEUDON FRANCE MI",
+   "columnar": 0.257,
+   "null": 0.108,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    5,
+    1,
+    3,
+    4,
+    6
+   ],
+   "reading": "an cmutomahatandplicp fetesopruattuqaxnl erunatermecysdeele touvubmeursdoisfeo",
+   "anagram": 0.689,
+   "anagram_null": 0.149
+  },
+  {
+   "image": "1898_18980101-W2.jpg",
+   "letters": 27,
+   "text": "SES MEIL SOUH ET PENSEES REGR ABS",
+   "columnar": 0.333,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    1,
+    2,
+    6,
+    5,
+    3
+   ],
+   "reading": "sotresseu paireshebleemenssg",
+   "anagram": 0.556,
+   "anagram_null": 0.185
+  },
+  {
+   "image": "1899_18990623-13.jpg",
+   "letters": 34,
+   "text": "NON PA BON COM LE MGQDON PRF HIL BY TTP RENH",
+   "columnar": 0.294,
+   "null": 0.147,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    4,
+    1,
+    0,
+    3,
+    5
+   ],
+   "reading": "pgalopnrqbbmrofd oylenhontenpinctmh",
+   "anagram": 0.235,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960710-P.jpg",
+   "letters": 70,
+   "text": "PP AMAS TE NR AN TACHER TARR AUTREM RENC QUE DES SI ARD ME PAR DIFF SOUH SUC DU PL PROF DEM",
+   "columnar": 0.214,
+   "null": 0.071,
+   "method": "undo width 6",
+   "order": [
+    0,
+    3,
+    5,
+    2,
+    1,
+    4
+   ],
+   "reading": "prdtdtpdeauraisc pemfshlmafieprssar retortoneudafcnhmr dqrsereuaupamencau",
+   "anagram": 0.357,
+   "anagram_null": 0.143
+  },
+  {
+   "image": "1881_18811016-J.jpg",
+   "letters": 35,
+   "text": "OU ES TU TRES ING PAS COMPRIS ZFKQFKEPKEHG",
+   "columnar": 0.143,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    4,
+    3
+   ],
+   "reading": "ouipksrutnkqcierg efossephkmztsagepf",
+   "anagram": 0.571,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1894_18941003-25.jpg",
+   "letters": 35,
+   "text": "KROPG XX ZQYFUCY ORK UGVVH RDTFU ZEQFUGQK",
+   "columnar": 0.143,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    3,
+    5,
+    6,
+    0,
+    1
+   ],
+   "reading": "ffxfkrvuuxurkhzgz coureqqypgdqkyogvt",
+   "anagram": 0.057,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1876_18760706-2S.jpg",
+   "letters": 57,
+   "text": "MERCI DE TA LETT MA JE PAS ALL MA PEN EST TOUJ AVEC LE PAS APRES KCR DAV OO",
+   "columnar": 0.14,
+   "null": 0.0,
+   "method": "undo width 5",
+   "order": [
+    1,
+    3,
+    0,
+    2,
+    4
+   ],
+   "reading": "mma traevmepreaseccjkn ilecedeprsepadttas atasavolaloueplojt",
+   "anagram": 0.614,
+   "anagram_null": 0.088
+  },
+  {
+   "image": "1882_18820413.jpg",
+   "letters": 36,
+   "text": "ETES PITID SOUFF AFF NE CHANG PAS QLEF UXHQH",
+   "columnar": 0.25,
+   "null": 0.111,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    3,
+    2,
+    5,
+    6,
+    0
+   ],
+   "reading": "fefoihautfutasxenf inqhsefdglqpcaspeh",
+   "anagram": 0.25,
+   "anagram_null": 0.056
+  },
+  {
+   "image": "1895_18951014.jpg",
+   "letters": 29,
+   "text": "POMPADOUR FAGT AL OM DS FX CREP DO GR",
+   "columnar": 0.276,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    2,
+    3,
+    0,
+    6,
+    5
+   ],
+   "reading": "mprtadcdofa dorsmalogefpgourpx",
+   "anagram": 0.069,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1895_18950711-AF.jpg",
+   "letters": 30,
+   "text": "KDS QDME CD INKD ZH DN CDRKQ SAME AZKR",
+   "columnar": 0.133,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    5,
+    1,
+    2,
+    6,
+    3
+   ],
+   "reading": "kzdamisdhrze nasdkkckmqnqrddedc",
+   "anagram": 0.0,
+   "anagram_null": 0.067
+  },
+  {
+   "image": "1896_18960808b-V.jpg",
+   "letters": 69,
+   "text": "AGO EZI ERZO MIR LARSO GALBO DRIVO DRIZO NIILO LARZO ERBO MITO FRATA MISO GALDA MICO",
+   "columnar": 0.188,
+   "null": 0.058,
+   "method": "undo width 7",
+   "order": [
+    1,
+    2,
+    6,
+    4,
+    0,
+    5,
+    3
+   ],
+   "reading": "aamortlrgigiobz orazfooellordezadn arriraitibesmiavor oilmomzgcoidioaols",
+   "anagram": 0.188,
+   "anagram_null": 0.058
+  },
+  {
+   "image": "1882_18821217-PAUL.jpg",
+   "letters": 31,
+   "text": "CRF EBFPEC LCOG SRECDCA ERP TR ORJDCA",
+   "columnar": 0.129,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    0,
+    1,
+    5,
+    3,
+    4
+   ],
+   "reading": "lrbtjaccefrde rocpocrfgderapescc",
+   "anagram": 0.097,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18841113-78.jpg",
+   "letters": 31,
+   "text": "HE RYBMPE RE TMGP CQR KML QCS ZMITCESP",
+   "columnar": 0.129,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    5,
+    1,
+    2,
+    6,
+    3
+   ],
+   "reading": "bpmchezmcleet mpqqsrmiercpygtrks",
+   "anagram": 0.129,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1894_18940909-25.jpg",
+   "letters": 31,
+   "text": "CI HOCFJDV ELGQ HLPLG OLMOG ECLULITY",
+   "columnar": 0.129,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    4,
+    6,
+    2,
+    0,
+    3
+   ],
+   "reading": "gcglechefoili lcjltghpldmyqoluvo",
+   "anagram": 0.065,
+   "anagram_null": 0.226
+  },
+  {
+   "image": "1899_18990402-13.jpg",
+   "letters": 31,
+   "text": "DESO VR TJ PEI PQ PI REGA FE MAL DIM QD LA",
+   "columnar": 0.258,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    4,
+    3,
+    5,
+    2,
+    1,
+    0,
+    6
+   ],
+   "reading": "agqvdpqlapree ddfitsilierjopamme",
+   "anagram": 0.29,
+   "anagram_null": 0.419
+  },
+  {
+   "image": "1888_18880517-B4.jpg",
+   "letters": 55,
+   "text": "RT ND REC LET TOUT DACE SOUF AFI SLECT LETT SOUT COUR PRESQ FRANCE MI",
+   "columnar": 0.291,
+   "null": 0.164,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    6,
+    3,
+    5,
+    1,
+    2
+   ],
+   "reading": "e offrecturittetrasn tsopnldsourceroute eceufdsmtctaaqillc",
+   "anagram": 0.527,
+   "anagram_null": 0.036
+  },
+  {
+   "image": "1891_18911030-COCO.jpg",
+   "letters": 64,
+   "text": "FOCO HTJPQBSQHEDRXYJT VHPLTITHPS ROME GKSDT ME IEYVDT IYJHTJPSCHTRXTHYT",
+   "columnar": 0.125,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    3,
+    2,
+    6,
+    1,
+    4
+   ],
+   "reading": "ftptcsdois vhqtcyrhthmojopree hhmlxdittettrejjgi hxyppktyyvqsshtjdb",
+   "anagram": 0.094,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960723-P.jpg",
+   "letters": 64,
+   "text": "ACHAT AGAR SOUV AV FOUR ACARO PROB VOUDR ADIVO DE CAMAM TACHE CARON GUXO ENN NA",
+   "columnar": 0.125,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    0,
+    2,
+    1,
+    6,
+    3
+   ],
+   "reading": "rovgasaado ucocceuxhuhacdoave raretacomanavapadn gfrrminaoootvarunb",
+   "anagram": 0.234,
+   "anagram_null": 0.047
+  },
+  {
+   "image": "1898_18980929-F.jpg",
+   "letters": 32,
+   "text": "VS AVZ CALM ING MORT JI SR EXCTRDZVS TAD",
+   "columnar": 0.25,
+   "null": 0.125,
+   "method": "undo width 6",
+   "order": [
+    4,
+    1,
+    2,
+    3,
+    5,
+    0
+   ],
+   "reading": "zcgjvxvamiscsl osattmrrvraitezddn",
+   "anagram": 0.125,
+   "anagram_null": 0.094
+  },
+  {
+   "image": "1888_18881021-B4.jpg",
+   "letters": 48,
+   "text": "PEETE EAE OMN TEXP CE DE BONH SOMB PRES MERC ATOI ESP FOI LUX",
+   "columnar": 0.292,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    6,
+    5,
+    1,
+    2,
+    3
+   ],
+   "reading": "ppcpeoperafo nceetomhetsoinsdem iltoeeeeuembarsxxb",
+   "anagram": 0.292,
+   "anagram_null": 0.104
+  },
+  {
+   "image": "1898_18980208-13.jpg",
+   "letters": 33,
+   "text": "THEOR ENIV QL DOIV AD BY CAR PRV RES QD VOL",
+   "columnar": 0.273,
+   "null": 0.152,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "reading": "riqyvtrvvdcqher avalenedordoisblpo",
+   "anagram": 0.182,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1883_18830612-5.jpg",
+   "letters": 33,
+   "text": "EG CD TPEF FEE RY TOES ERP JIC GRP RO COAMF",
+   "columnar": 0.303,
+   "null": 0.182,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    1,
+    3,
+    0,
+    5,
+    6
+   ],
+   "reading": "jepeepoiresgrac yfecomgtfrdcfroept",
+   "anagram": 0.152,
+   "anagram_null": 0.273
+  },
+  {
+   "image": "1893_18930908-Mm.jpg",
+   "letters": 33,
+   "text": "MM PRVISSNGORWGAETTUNIJAVXOJKVDPPR",
+   "columnar": 0.121,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "reading": "vvmguaidxmonesp opritspjrwjtnrkvga",
+   "anagram": 0.061,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960626-P.jpg",
+   "letters": 25,
+   "text": "AGAR MEIL QUE JA JAM CORNO PART",
+   "columnar": 0.44,
+   "null": 0.32,
+   "method": "undo width 7",
+   "order": [
+    3,
+    4,
+    2,
+    0,
+    1,
+    6,
+    5
+   ],
+   "reading": "jmlaman acqgerojouaitparer",
+   "anagram": 0.28,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860109.jpg",
+   "letters": 43,
+   "text": "CQRRESPONDANCES PERSONNELLES SOUH TS SINC AU REVR",
+   "columnar": 0.233,
+   "null": 0.116,
+   "method": "redo width 7",
+   "order": [
+    1,
+    4,
+    5,
+    2,
+    6,
+    3,
+    0
+   ],
+   "reading": "qnpeuce nsesrscosserdelhap ensivrarltucosnonr",
+   "anagram": 0.047,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1892_18921103-Marion.jpg",
+   "letters": 34,
+   "text": "MARION KORQTIVG QUIWORT POLE NORD NKDIQ",
+   "columnar": 0.235,
+   "null": 0.118,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    3,
+    1,
+    6,
+    2,
+    5
+   ],
+   "reading": "muetnntainikkprw ovodoiorgrilordqqq",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960805-V.jpg",
+   "letters": 43,
+   "text": "EE DAZO ACO LARSO FLEBO ERDO ERBO FRASA JARZO EE EE EN",
+   "columnar": 0.116,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    2,
+    4,
+    0,
+    1,
+    3,
+    5
+   ],
+   "reading": "foeacol eesoeerdalebbajaeo ozareeforserrazond",
+   "anagram": 0.349,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18890621-M9.jpg",
+   "letters": 43,
+   "text": "HO GHEDOM AF SOUF ID QUE ER AT DE VA BONH GE EF QUE ET SOM",
+   "columnar": 0.209,
+   "null": 0.093,
+   "method": "undo width 6",
+   "order": [
+    2,
+    5,
+    1,
+    4,
+    3,
+    0
+   ],
+   "reading": "qihoamu dontaeqghdfeuhgest eeevosedeauorofbfm",
+   "anagram": 0.512,
+   "anagram_null": 0.233
+  },
+  {
+   "image": "1899_18990308-13.jpg",
+   "letters": 35,
+   "text": "DSCOE MI TANA PAS TEN HIM IMPNE POUR SUP ODI",
+   "columnar": 0.229,
+   "null": 0.114,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    6,
+    2,
+    5,
+    0,
+    3
+   ],
+   "reading": "pdeumiaosnpimpuch otparoidansseminet",
+   "anagram": 0.2,
+   "anagram_null": 0.086
+  },
+  {
+   "image": "1877_18771111-VTA.jpg",
+   "letters": 44,
+   "text": "YOU WILL HAVE THIS QXL HXDL TH PMIVTIR HXD FAIL FRIDAY",
+   "columnar": 0.114,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    0,
+    5,
+    6,
+    3,
+    2
+   ],
+   "reading": "iyfxhdis ordalvquifvttxwdae hiliaitprhlylhmhxl",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1891_18910815-LOU.jpg",
+   "letters": 45,
+   "text": "AI VY LDT FH REM ENY CEL IDI BUF ET CEL ET AY AUREZ LA ESP AV",
+   "columnar": 0.2,
+   "null": 0.089,
+   "method": "undo width 6",
+   "order": [
+    2,
+    3,
+    4,
+    0,
+    1,
+    5
+   ],
+   "reading": "utahclfai reaeyveletaymiscul edperdnialetybvezf",
+   "anagram": 0.4,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1892_18920730-H.jpg",
+   "letters": 36,
+   "text": "SJFORVF UPJ PDVAQF QFOTF EFTJS IBUF UF XPJS",
+   "columnar": 0.111,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    1,
+    4,
+    3,
+    2,
+    5
+   ],
+   "reading": "sdieqffjvbffxufaut oppoqfjtjjrfusfspv",
+   "anagram": 0.0,
+   "anagram_null": 0.056
+  },
+  {
+   "image": "1878_18780418-MA.jpg",
+   "letters": 27,
+   "text": "JE SUIS ICI JUSQ AS TU REGU LET ECR",
+   "columnar": 0.296,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    1,
+    6,
+    3,
+    0,
+    2
+   ],
+   "reading": "gittijquj eusealucrissesrecu",
+   "anagram": 0.593,
+   "anagram_null": 0.444
+  },
+  {
+   "image": "1896_18960305-R74.jpg",
+   "letters": 27,
+   "text": "CHARM NE PENSE VS VENDR VICT VS ST",
+   "columnar": 0.296,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    3,
+    4,
+    1,
+    5,
+    0
+   ],
+   "reading": "vecpevmsn hevinsdanscetrrsvt",
+   "anagram": 0.259,
+   "anagram_null": 0.259
+  },
+  {
+   "image": "1893_18930730-MI.jpg",
+   "letters": 55,
+   "text": "IG COMPR CANARI TR CHOIS PASSE PARTOUT ME VEXE SI COM EN DE AND BARDI",
+   "columnar": 0.255,
+   "null": 0.145,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    3,
+    2,
+    6,
+    1,
+    4
+   ],
+   "reading": "i iehaamgcponnecoaid avomrsbremetpaixpn oarterdusdrscetsic",
+   "anagram": 0.364,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960704-P.jpg",
+   "letters": 65,
+   "text": "ABAGO BALO ESITYORABAME EPIR DEBS AHALO BARO EVIR BOULE GURO IBIS CORNO COSIO",
+   "columnar": 0.185,
+   "null": 0.077,
+   "method": "undo width 7",
+   "order": [
+    2,
+    4,
+    0,
+    1,
+    5,
+    3,
+    6
+   ],
+   "reading": "asageeomabu svrehariineagotrop loiybciobbooorbair usdalsalierocbeobo",
+   "anagram": 0.123,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18900209.jpg",
+   "letters": 28,
+   "text": "VEUX VOIRE VOI CRAIN AI FUI NE CH TD",
+   "columnar": 0.321,
+   "null": 0.214,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    3,
+    0,
+    5,
+    2,
+    6
+   ],
+   "reading": "cvuevncroi veahainouitireixfd",
+   "anagram": 0.393,
+   "anagram_null": 0.321
+  },
+  {
+   "image": "1896_18960702-P.jpg",
+   "letters": 77,
+   "text": "ARTI EA BAJO AVAR LAMO IVO ADIVO DORA BALO ELVIR SUIS TOUJOURS COBRO PAR MILLE TE GOLMO GURO WE",
+   "columnar": 0.156,
+   "null": 0.052,
+   "method": "undo width 7",
+   "order": [
+    4,
+    6,
+    1,
+    2,
+    3,
+    5,
+    0
+   ],
+   "reading": "gdooa ovoieurpalvljtarmo voirlodiuemagorrai murssbloraucaliobi ojevwasbotoeltraea",
+   "anagram": 0.403,
+   "anagram_null": 0.052
+  },
+  {
+   "image": "1877_18771009-OPQ.jpg",
+   "letters": 39,
+   "text": "PP VIS PLU DEPUI LET POURQ MEFIAN SOUF LOIN DE TO",
+   "columnar": 0.103,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    1,
+    5,
+    3,
+    0,
+    6
+   ],
+   "reading": "oup eponuilfpudfluivre ledaiqtotensmoipps",
+   "anagram": 0.564,
+   "anagram_null": 0.179
+  },
+  {
+   "image": "1882_18820701-5.jpg",
+   "letters": 40,
+   "text": "IQUHUIQ SG VHS EH BLQUH HBFHDQCEH BIGB BH KIQDHE",
+   "columnar": 0.1,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    6,
+    1,
+    3,
+    4,
+    2
+   ],
+   "reading": "iqkh bqsquidiseuhqqgghh hdcbvbubhebhlifehh",
+   "anagram": 0.05,
+   "anagram_null": 0.05
+  },
+  {
+   "image": "1883_18830725.jpg",
+   "letters": 40,
+   "text": "ALBERTI CALME PRUDENCE ASZHVEMX EHVIXXI AZKZI",
+   "columnar": 0.2,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    2,
+    3,
+    1,
+    5,
+    6,
+    4,
+    0
+   ],
+   "reading": "ipai echarlchevzubavaek delismzermxzxintex",
+   "anagram": 0.325,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960728-P.jpg",
+   "letters": 60,
+   "text": "PP AVAR ABAT EXQ ATT REP QUEST MA DERN IBIS MAIS UN PEU LEMON IVO RETAN GUTO",
+   "columnar": 0.167,
+   "null": 0.067,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    3,
+    2,
+    5,
+    0,
+    1
+   ],
+   "reading": "uraram pledetapetepeiamar qxsvonnuquangieanr iubstpavtitteboosm",
+   "anagram": 0.45,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1899_18990802-SB26.jpg",
+   "letters": 50,
+   "text": "GHD SS RND KH SS OQZH DS WE EKDTQ BL TM EQ RZU UNTK ING DS OZ TM GDZ",
+   "columnar": 0.1,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    0,
+    6,
+    5,
+    2,
+    3
+   ],
+   "reading": "zgtodedhhkzkqt ddithrqssnmszbwsgg sulerddoutenszqnmk",
+   "anagram": 0.0,
+   "anagram_null": 0.16
+  },
+  {
+   "image": "1899_18990916-13.jpg",
+   "letters": 30,
+   "text": "PR AD SS REST FIL SI COE SOCE DEV BY FOL",
+   "columnar": 0.233,
+   "null": 0.133,
+   "method": "undo width 7",
+   "order": [
+    1,
+    6,
+    4,
+    0,
+    5,
+    2,
+    3
+   ],
+   "reading": "spdytssireff orcavoiceodblleses",
+   "anagram": 0.3,
+   "anagram_null": 0.233
+  },
+  {
+   "image": "1887_18870116-52.jpg",
+   "letters": 81,
+   "text": "RP UN MO JC PRI AV OP ANC INI PO MAR VOU EB TE VOI CAR SUI PA MAL AISU ATTEN MAI TROP PEU SAN AU NOU AI PIT OO",
+   "columnar": 0.198,
+   "null": 0.099,
+   "method": "undo width 7",
+   "order": [
+    4,
+    3,
+    5,
+    6,
+    1,
+    2,
+    0
+   ],
+   "reading": "aaaarmoul ivpainatourcoirpnv ausoamoraupnousiap cjeupteicbiitunptp tesireaonapivmomno",
+   "anagram": 0.42,
+   "anagram_null": 0.148
+  },
+  {
+   "image": "1888_18880523-B4.jpg",
+   "letters": 51,
+   "text": "REC LET AV FLEUR LECT ADOUE CHAG SK CRUEL UNIQ ESP EN TOI LUX ALL",
+   "columnar": 0.176,
+   "null": 0.078,
+   "method": "undo width 7",
+   "order": [
+    2,
+    4,
+    6,
+    0,
+    1,
+    3,
+    5
+   ],
+   "reading": "erreviecuesflch ecplutalleexaguenu adsnttrlokiaollucq",
+   "anagram": 0.392,
+   "anagram_null": 0.118
+  },
+  {
+   "image": "1878_18780707-GDMP.jpg",
+   "letters": 75,
+   "text": "AD TU REGU MON ILME TARDE REV TU ES TOUJ MA REINE MERCI EER ENC LONG ICISI TU COM AUT DUP CH BLEU",
+   "columnar": 0.16,
+   "null": 0.067,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    6,
+    5,
+    4,
+    2,
+    1
+   ],
+   "reading": "iui aiavltcdertmditeeu eusurietpirensacte netrhugcmodbculeue lomorjremoncmeuang",
+   "anagram": 0.413,
+   "anagram_null": 0.213
+  },
+  {
+   "image": "1896_18960910-V.jpg",
+   "letters": 65,
+   "text": "ADO BIDU LARTO TOUJ LARDO DRILO ERGOE DIBRO CAGRO SUPPL ERXO VERITE ERDO FRAPA",
+   "columnar": 0.092,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    2,
+    4,
+    3,
+    0,
+    5,
+    1
+   ],
+   "reading": "btaropredit loeoloecrbouradiej xgodrlorfugavorlor esaaedruprdoipatid",
+   "anagram": 0.154,
+   "anagram_null": 0.077
+  },
+  {
+   "image": "1890_18901009-B4.jpg",
+   "letters": 56,
+   "text": "BT SOL ENF PARIS AI TANT SOUF AV BONH CE MES TE DIT SIC LOR MER FAR LUX MI",
+   "columnar": 0.232,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    2,
+    1,
+    5,
+    3,
+    6
+   ],
+   "reading": "bv aipeftbncasasotlrt ronsoiellhorsduecu maixnefeitmfmartsi",
+   "anagram": 0.589,
+   "anagram_null": 0.089
+  },
+  {
+   "image": "1879_18790918-444.jpg",
+   "letters": 46,
+   "text": "VOY MARD DER ESP ETR LYON URG MOI SAV AV QUE EC PARIS MP OOS",
+   "columnar": 0.196,
+   "null": 0.109,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    2,
+    3,
+    0,
+    5,
+    6
+   ],
+   "reading": "aveudesvot recmayrgrppvmlmeao qayosrouroipisedns",
+   "anagram": 0.391,
+   "anagram_null": 0.217
+  },
+  {
+   "image": "1879_18790814-R.jpg",
+   "letters": 35,
+   "text": "JAICR VBXUS ILCUI VIJSE BLSOI VIBIO MAGVN",
+   "columnar": 0.229,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    2,
+    3,
+    5,
+    4,
+    1,
+    0,
+    6
+   ],
+   "reading": "vbjvvimilabilabsi xjcgiocusuvoirsein",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18900611.jpg",
+   "letters": 35,
+   "text": "SOF PLUS QV MBRI AUL SONT AREV AV WF EPG RGER",
+   "columnar": 0.229,
+   "null": 0.143,
+   "method": "undo width 6",
+   "order": [
+    5,
+    3,
+    4,
+    2,
+    0,
+    1
+   ],
+   "reading": "vpoursagnsiovrtqa fwgavupfermllerebs",
+   "anagram": 0.286,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1899_18990701-P.jpg",
+   "letters": 47,
+   "text": "YWNOSVIIYJXIIVWJXYIIF GWZCXJWNYZYATNWYJR NOON EN EE",
+   "columnar": 0.17,
+   "null": 0.085,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    4,
+    1,
+    6,
+    5,
+    2
+   ],
+   "reading": "igoywnnywow jwyjznnxyzxceoyjyi xnsiraijevintvweif",
+   "anagram": 0.043,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1898_18980512.jpg",
+   "letters": 61,
+   "text": "EEN TEND LET CAUS GR JOIE TIRS TRIST SS RAOPAINTES SEM VAIN FUX FBB RIZ SEAS",
+   "columnar": 0.23,
+   "null": 0.148,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    4,
+    3,
+    0,
+    2,
+    5
+   ],
+   "reading": "aeviobe itasirenciteintans tzteufsisessurrens gxasaderfotslmjbpr",
+   "anagram": 0.328,
+   "anagram_null": 0.131
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "letters": 50,
+   "text": "CSMATOMAGINESINE SMA JY QAIAAL EE PT OT BE NT SHIRL MOND ERES",
+   "columnar": 0.18,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    6,
+    3,
+    2,
+    1,
+    0
+   ],
+   "reading": "mneqcanotpasge nstimisdhoaanmeita tearrblosjeleemiys",
+   "anagram": 0.0,
+   "anagram_null": 0.18
+  },
+  {
+   "image": "1896_18960809-V.jpg",
+   "letters": 62,
+   "text": "AJO ERZO BAJO FRADA LARJA ANODRILO ANGE LARVO OARBO MIXO FRASA FRAVA CHERI",
+   "columnar": 0.145,
+   "null": 0.065,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    3,
+    5,
+    1,
+    4,
+    2
+   ],
+   "reading": "arraiijj varxlooovjoofeoaaf arracarnazrhnagdob eoseabordallamirfa",
+   "anagram": 0.145,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930514-Nic.jpg",
+   "letters": 76,
+   "text": "NIC TON COM EA REGA QUA VIL CONV RETR LIB SR REGAR ERAI OU AS DI PRINT SER LIB CE MEM JR MEM END SIT",
+   "columnar": 0.132,
+   "null": 0.053,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    3,
+    5,
+    6,
+    4,
+    0
+   ],
+   "reading": "jrno srureineramgcvrese atrlgdmqoeiaieuntb rpnacrcerdvolerisi mimanilebeittcasmo",
+   "anagram": 0.289,
+   "anagram_null": 0.171
+  },
+  {
+   "image": "1888_18881028-Fin.jpg",
+   "letters": 52,
+   "text": "TFSB OT XPJS BQ EJO NBDI TPSUJS TFSBJ NIN TIS BVT NFSD FO PR EFXBO",
+   "columnar": 0.154,
+   "null": 0.077,
+   "method": "undo width 6",
+   "order": [
+    2,
+    4,
+    1,
+    3,
+    5,
+    0
+   ],
+   "reading": "fdtfssoifsbbptsb qvrpbjetesonjnfuti ofxjxnnsbsptbdotji",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1897_18970513-13.jpg",
+   "letters": 26,
+   "text": "MALA MER AM SOUT ING ETERTAB EME",
+   "columnar": 0.308,
+   "null": 0.231,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    3,
+    6,
+    0,
+    1,
+    5
+   ],
+   "reading": "grmmmete tesamitarolenebaua",
+   "anagram": 0.346,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960823.jpg",
+   "letters": 66,
+   "text": "NE NFS GBN NBM QBT NBDGJBWIM JOEFDJT TVS QSPHSBN EFWPJS JUQPTF MF WRAST ME NJUJT",
+   "columnar": 0.076,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    3,
+    4,
+    5,
+    6,
+    1,
+    0,
+    2
+   ],
+   "reading": "jhanbjdussem bjqbtnqwtpnmfbitte estmvffngnjsmwjbbo qfpundeswjjngfprst",
+   "anagram": 0.061,
+   "anagram_null": 0.045
+  },
+  {
+   "image": "1889_18890305-MIG.jpg",
+   "letters": 27,
+   "text": "PAS ENCO CERTITU MAIS DOUX ESP NO",
+   "columnar": 0.444,
+   "null": 0.37,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    1,
+    6,
+    2,
+    4,
+    0
+   ],
+   "reading": "seapontpr iaucuntssxomoideec",
+   "anagram": 0.481,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18961004-V.jpg",
+   "letters": 67,
+   "text": "AGO DRITO LARSO RET CABRO DRIKO MIJO DRIVO ETRE MILO LARZO AV FRASA FRAXA ET GALDA",
+   "columnar": 0.134,
+   "null": 0.06,
+   "method": "undo width 7",
+   "order": [
+    5,
+    3,
+    4,
+    1,
+    0,
+    6,
+    2
+   ],
+   "reading": "ejaaraamoxrog vidasdoflreordroit riralvgekisaoatota relcmofztdailrorab",
+   "anagram": 0.269,
+   "anagram_null": 0.03
+  },
+  {
+   "image": "1880_18801125-7.jpg",
+   "letters": 54,
+   "text": "WE SEUL NGS UF SHZHUMULF ZTTUXF JU EJULGU FL ZEF JZHF NELVQ JAM LET",
+   "columnar": 0.074,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    3,
+    1,
+    6,
+    0,
+    5,
+    2
+   ],
+   "reading": "lmvswjxguquezfuljf shjffasefulzmhunez tlzlejetehnlufutug",
+   "anagram": 0.13,
+   "anagram_null": 0.093
+  },
+  {
+   "image": "1893_18930530-Chav.jpg",
+   "letters": 54,
+   "text": "PEERS ANS GR REG PR BON COUR SMZRG TEPE PERG RCIG VBH RXQ VGZ IMCS KI",
+   "columnar": 0.074,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    1,
+    6,
+    2,
+    3,
+    5
+   ],
+   "reading": "popvgzzenebrirecrh rmgrogrectsurxgsea rcqpkpnsivriesmggb",
+   "anagram": 0.241,
+   "anagram_null": 0.148
+  },
+  {
+   "image": "1890_18901003-B4.jpg",
+   "letters": 27,
+   "text": "MA MEIL PENS EN TOI FOI ESP MER LUX",
+   "columnar": 0.296,
+   "null": 0.222,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    2,
+    3,
+    1,
+    0,
+    5
+   ],
+   "reading": "sfenermpo ntilamisolumeeeipx",
+   "anagram": 0.481,
+   "anagram_null": 0.148
+  },
+  {
+   "image": "1896_18960804-V.jpg",
+   "letters": 96,
+   "text": "DRIBO LARKO ET LARPO DEALOAMOAD LARDO GALKO DE GALBO SUR FRAXA DRIJO ETERN MICO OD CATS KININASE IAIN BS THA SPENT GE",
+   "columnar": 0.135,
+   "null": 0.062,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    4,
+    0,
+    2,
+    6,
+    3
+   ],
+   "reading": "lajild abronartopebrissot sdbkudetooirerhgln fanaaairlmslrnaoip kkaxaceoosamondeed ootetiradgglaidcea",
+   "anagram": 0.125,
+   "anagram_null": 0.115
+  },
+  {
+   "image": "1888_18880613-B4.jpg",
+   "letters": 55,
+   "text": "QUI CONS ET SOU COUR ECR CH COM TU DIS LIR ENS AU BEN DU REV OU AMILUX ML",
+   "columnar": 0.073,
+   "null": 0.0,
+   "method": "redo width 7",
+   "order": [
+    5,
+    1,
+    0,
+    6,
+    4,
+    2,
+    3
+   ],
+   "reading": "n ccdndalutroluelqeu csarisohisumouruen umisemibvucoctreox",
+   "anagram": 0.418,
+   "anagram_null": 0.382
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "letters": 56,
+   "text": "YOT PXVES MXDL YIND ANE WILL BE WOKING FRIDAY WRITE THERE MARG TUESD",
+   "columnar": 0.143,
+   "null": 0.071,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    1,
+    3,
+    0,
+    4,
+    6
+   ],
+   "reading": "ra yetmainowexrdetotd gawpkhltyixieyuwlv nrierlegensibsfmdd",
+   "anagram": 0.0,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1888_18880822-B4.jpg",
+   "letters": 57,
+   "text": "BE REC DEP BL OURECONN LA DEL DE TON CE AL CONF ABS AUR COUR ANCRE FRANCE",
+   "columnar": 0.158,
+   "null": 0.088,
+   "method": "undo width 7",
+   "order": [
+    3,
+    1,
+    6,
+    4,
+    5,
+    0,
+    2
+   ],
+   "reading": "ubr becnrleetoncofronl ourenfauraccadrend ebeacceaslnoepladc",
+   "anagram": 0.649,
+   "anagram_null": 0.105
+  },
+  {
+   "image": "1894_18940916-25.jpg",
+   "letters": 57,
+   "text": "QD GY YYCLOFPY VRXV DIGQ GQHDPXU VEERNDLIE ME CLO EX VHPZGLG ECLUHTY",
+   "columnar": 0.14,
+   "null": 0.07,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    5,
+    0,
+    2,
+    3,
+    6
+   ],
+   "reading": "pol eqdgxfixdieupevggc vymhyqlevepyguercz yqhrxlgchtnvolldyd",
+   "anagram": 0.035,
+   "anagram_null": 0.035
+  },
+  {
+   "image": "1896_18960822-V.jpg",
+   "letters": 72,
+   "text": "AGO BEBA TOUT CE QUE FAIT MIDO MIDO LARVO LARSO DRILO UTAY DRIKO LARPO FRASA TRAVA NBYKE",
+   "columnar": 0.125,
+   "null": 0.056,
+   "method": "undo width 3",
+   "order": [
+    1,
+    0,
+    2
+   ],
+   "reading": "marigidokobolelaba rarvtpooolufatrrca sesoqadutrerifalav oiautntmbaiyydkdoe",
+   "anagram": 0.306,
+   "anagram_null": 0.069
+  },
+  {
+   "image": "1879_18790731-5225.jpg",
+   "letters": 58,
+   "text": "HIOR VOUS SUIS ED OBL MAIS MON PAS DE QUI SE DANS EN OU EN EOINME VOUD PROB",
+   "columnar": 0.207,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    4,
+    3,
+    0,
+    6,
+    1
+   ],
+   "reading": "sesp lhuevuamiedoisaona usdirendeesvospdqm oierouounnobinsmob",
+   "anagram": 0.638,
+   "anagram_null": 0.241
+  },
+  {
+   "image": "1893_18930726-MI.jpg",
+   "letters": 29,
+   "text": "MI GARI BAR BARDI AS TU REV CHOISEUL",
+   "columnar": 0.345,
+   "null": 0.276,
+   "method": "redo width 6",
+   "order": [
+    0,
+    3,
+    5,
+    1,
+    2,
+    4
+   ],
+   "reading": "mbdriabscui ruoiaiesgraverathl",
+   "anagram": 0.276,
+   "anagram_null": 0.069
+  },
+  {
+   "image": "1896_18960826-V.jpg",
+   "letters": 66,
+   "text": "ACO BEGA DRIBO AFO FRADA LARSO DRISO DRILO MUDY MOI DRIKO MICO MIJO DESVO AXO AZO",
+   "columnar": 0.136,
+   "null": 0.076,
+   "method": "undo width 5",
+   "order": [
+    4,
+    0,
+    1,
+    2,
+    3
+   ],
+   "reading": "fiojaosiocfo ddordrebarisedikvg alooalomadamixrruc oisdoaboymzodmioar",
+   "anagram": 0.121,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1898_18980903-FFCC.jpg",
+   "letters": 67,
+   "text": "RTA TRIST SS NOUV DE PENS TE QUIT PAS LIBR PARIS XFXJHTAXZ HQJXRTSZ JS FXLTSSJ TDS",
+   "columnar": 0.119,
+   "null": 0.06,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    4,
+    2,
+    6,
+    5,
+    1
+   ],
+   "reading": "nflrtqfoxitej xulbaqxjvtrturhdsp rittesaitsapjrspzx etitajzndsssshssxs",
+   "anagram": 0.224,
+   "anagram_null": 0.06
+  },
+  {
+   "image": "1876_18761220-24J.jpg",
+   "letters": 35,
+   "text": "QH EPARWE ULIGEST ET LALPHVER PESPERE TOI",
+   "columnar": 0.286,
+   "null": 0.229,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    4,
+    6,
+    0,
+    5,
+    3
+   ],
+   "reading": "prqripehwhegetvee tesleuposparlaitel",
+   "anagram": 0.143,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1888_18880812.jpg",
+   "letters": 53,
+   "text": "ERR PR OU AD TEN COUR SIT AI ESP EEE MEENIENTIOGS SETON ACETATE EE",
+   "columnar": 0.245,
+   "null": 0.189,
+   "method": "undo width 7",
+   "order": [
+    4,
+    6,
+    0,
+    2,
+    1,
+    5,
+    3
+   ],
+   "reading": "unscesaripersdsee tretineaptettetron aimeoncioeeuaoegee",
+   "anagram": 0.151,
+   "anagram_null": 0.189
+  },
+  {
+   "image": "1888_18880707-B4.jpg",
+   "letters": 73,
+   "text": "JUST AV DU REV QUEL JOIE AU COE APR TANT SOUF TOUT PENS EST FIX VERS CET INST ET BRIL JE OU LUX",
+   "columnar": 0.164,
+   "null": 0.11,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    1,
+    0,
+    3,
+    4,
+    2
+   ],
+   "reading": "s ubssjvocrecuquoise sufeltttetajfialop einvjuroxsdottuvtu ipaleereenurteantx",
+   "anagram": 0.616,
+   "anagram_null": 0.26
+  },
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "letters": 221,
+   "text": "HAVE YOU FORGOTTEN EXPECTED LETTER TODAY AND GOT NONE DID YOU GET LETTER AND PARCEL QUITE SAFE AM FREE ON FRIDAY WHAT AM TO SEE YOU ARE MRNTS MA PER FEL ST HXD FOVG MOP DX TE XF OXDVP MBP HXD FH WRITE SOON AM DYING FOR IT ELSE WILL THINK YOU CARE FOR ME ANY LONGER SHIRLEY MONDAY",
+   "columnar": 0.072,
+   "null": 0.018,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    4,
+    6,
+    3,
+    5,
+    1
+   ],
+   "reading": "hudda stacafroavayocomer aventyenglaoofdmqm suogoudefropiyeomt dtiyrenxenogaotsgu onneafatyexfortldf ereeoioaimnndxmtre gydfenxeovrltprupe ssesgmeemchebowati tpniperlhfledlexrl rletditfeytfdhetme hailtorwynsenarwkt rdnihyhtadtaoxoype",
+   "anagram": 0.204,
+   "anagram_null": 0.081
+  },
+  {
+   "image": "1877_18770621-LABUNOW.jpg",
+   "letters": 96,
+   "text": "URSTIMA ARJAJ NMJDORESEG ARMGEZEG DZIGCLPIRA UR EROMETA BYSIMKY ILSYRW AVTSIMIGA DR CLEBIG SZGSC MAGEROLIPUTY",
+   "columnar": 0.135,
+   "null": 0.083,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    6,
+    2,
+    4,
+    0,
+    3
+   ],
+   "reading": "imusku zgjrcyreademisgdor altdrrogsizcemeymi lserrageetowacbgal arliabivjpgryptais msusjrzgitinagemym",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1883_18830226.jpg",
+   "letters": 40,
+   "text": "SMAADR SJDRIDGT MENL ROQGSLD BHSTSBH JSHE GDTS",
+   "columnar": 0.2,
+   "null": 0.15,
+   "method": "undo width 6",
+   "order": [
+    3,
+    0,
+    4,
+    2,
+    5,
+    1
+   ],
+   "reading": "jsqs msdhgmetresansigla lbddddrhgtbrojtshs",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1876_18760902-Jean.jpg",
+   "letters": 40,
+   "text": "HEER REMPLA ACC BIGU PAR GRAVE PAR ZAEV VAQSCMIZ",
+   "columnar": 0.15,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    6,
+    5,
+    3,
+    2,
+    4
+   ],
+   "reading": "hmza qpcepavsabeleecrir avpmggravairuecarz",
+   "anagram": 0.375,
+   "anagram_null": 0.075
+  },
+  {
+   "image": "1896_18961001-V.jpg",
+   "letters": 105,
+   "text": "ADO LARCO MISO FRALA ESBO COUR CONF FRAJA DRIKO MICO LARZO EXIST PR MISO VIHBYOM LYJIM EZI FRAMA NUKA RIEN NUDA TT ERDO ERCO MIXO",
+   "columnar": 0.124,
+   "null": 0.076,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    6,
+    5,
+    3
+   ],
+   "reading": "rrlaarizaatdaho jetombeaselayxdbra noirodrumsicockltk oeoaypourmrjrmrcii imicosemicomoneson ifnzolfxruivafoadf",
+   "anagram": 0.19,
+   "anagram_null": 0.048
+  },
+  {
+   "image": "1886_18860411-52.jpg",
+   "letters": 65,
+   "text": "HE PEN CESS NE PAS ATT AV IMP MO VEN DON NOUV COM FOIS DOU PA MOI NE POUR FAIRE CHANG",
+   "columnar": 0.185,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    0,
+    4,
+    3,
+    5,
+    1
+   ],
+   "reading": "vfhfomniaeo noemipinippresonam enduesoccovpavheuc oteaspoutnnsamradg",
+   "anagram": 0.462,
+   "anagram_null": 0.185
+  },
+  {
+   "image": "1896_18961003-V.jpg",
+   "letters": 67,
+   "text": "AFO LARPO DRITO CHER NUBA LARJO PRIE MIFO MIXO ERBO MITO FRATA AV FRAPA ERDO LARCO",
+   "columnar": 0.134,
+   "null": 0.09,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    3,
+    0,
+    5,
+    2,
+    6
+   ],
+   "reading": "erabaremitafb ritaloodfoaalmoocv railmhfjrtaieropor xrapofconprdroeuai",
+   "anagram": 0.343,
+   "anagram_null": 0.045
+  },
+  {
+   "image": "1896_18960821-V.jpg",
+   "letters": 69,
+   "text": "AFO BAZO LARVO MITO LICM JOC DRISO FLEDO MIJO FRAPA FRATA DRITO MIXO FLEBO MUFA MIGO",
+   "columnar": 0.174,
+   "null": 0.13,
+   "method": "undo width 5",
+   "order": [
+    0,
+    2,
+    4,
+    1,
+    3
+   ],
+   "reading": "aatofffoflorlle baiedatcbozamomodj milroujaicfortdafv ormromiiamisgpixoo",
+   "anagram": 0.072,
+   "anagram_null": 0.058
+  },
+  {
+   "image": "1896_18960811b-V.jpg",
+   "letters": 70,
+   "text": "EE VIE LARCO DRISO APO FLERO CAGRO DRIVO DRIZO MIZO LARVO LARMO QUE POURRAIS ET LARZO",
+   "columnar": 0.129,
+   "null": 0.086,
+   "method": "undo width 6",
+   "order": [
+    1,
+    4,
+    3,
+    5,
+    0,
+    2
+   ],
+   "reading": "oerciileraszavag ooriirammesopioled ozqatrfourlillecav eapororrodzdovuror",
+   "anagram": 0.3,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1896_18960902-V.jpg",
+   "letters": 70,
+   "text": "ACO ANO FLEBO CECO AZO DRISO DRIXO MIJS MIRO NUDA DRIZO MILO DIBRO FRAXA JUSQUE GALBE",
+   "columnar": 0.114,
+   "null": 0.071,
+   "method": "undo width 6",
+   "order": [
+    2,
+    0,
+    4,
+    3,
+    1,
+    5
+   ],
+   "reading": "elaorjcocniuodou xsaiadoqzbnamuorod iedofrjgrflisairez mlsaboiboxomredaci",
+   "anagram": 0.086,
+   "anagram_null": 0.143
+  },
+  {
+   "image": "1896_18960903-V.jpg",
+   "letters": 69,
+   "text": "ADO BERA LARPO MISO FRATA GALDA KLEUR DRITO LARSO FLEPO CACRO DRIVO DRIZO FLEMO AZO",
+   "columnar": 0.13,
+   "null": 0.087,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    3,
+    5,
+    0,
+    6,
+    2
+   ],
+   "reading": "opzaarofoogdddl mfaorreillbiipsede tvoomaroocfokaldar allarcazearirtours",
+   "anagram": 0.203,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960918-V.jpg",
+   "letters": 70,
+   "text": "AFO LARMO DRISO PROCH FLEGO MIHO DRIVO DRIXO MIZO DRIZO GALBO LARZO DRILO MIRO FRAPA",
+   "columnar": 0.114,
+   "null": 0.071,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    4,
+    1,
+    5,
+    6,
+    2
+   ],
+   "reading": "avoieoofomsgdlod iooralrrpmiraioriz zrxfohoomorcogdoma hdardipfrlirzalibl",
+   "anagram": 0.071,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1875_18750617-fleur.jpg",
+   "letters": 24,
+   "text": "EE FF AE FRO EEAC LE SR ROE PM SO",
+   "columnar": 0.417,
+   "null": 0.375,
+   "method": "undo width 6",
+   "order": [
+    1,
+    3,
+    5,
+    0,
+    4,
+    2
+   ],
+   "reading": "ceparo lemereefsfoesforea",
+   "anagram": 0.292,
+   "anagram_null": 0.333
+  },
+  {
+   "image": "1885_18851129-52.jpg",
+   "letters": 25,
+   "text": "RE VU TRIESU JUS OU ILI GQGUMOI",
+   "columnar": 0.2,
+   "null": 0.16,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    6,
+    4,
+    3,
+    5,
+    2
+   ],
+   "reading": "truuugs remisquivologjeuii",
+   "anagram": 0.36,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960830-V.jpg",
+   "letters": 102,
+   "text": "AJO CAPRO DRIBO DRICO PEYH ACO ATT NUFA MIVO DRITO LARSO FLEBO CABRO ERXO DESVO LARVO FRAPA FRASA MIFO GALDA MILO LARZO ERDO",
+   "columnar": 0.078,
+   "null": 0.039,
+   "method": "undo width 6",
+   "order": [
+    3,
+    1,
+    5,
+    0,
+    2,
+    4
+   ],
+   "reading": "covaavapojlo befoddryrcarohaami eappitrcarloxofool oardladtararetsirs snabzovumoofofidel lafrreamoidbrigcoo",
+   "anagram": 0.137,
+   "anagram_null": 0.049
+  },
+  {
+   "image": "1886_18861231-JN22.jpg",
+   "letters": 26,
+   "text": "ENVY SESVD BAD SON ENF ATT SA VIS",
+   "columnar": 0.346,
+   "null": 0.308,
+   "method": "undo width 7",
+   "order": [
+    4,
+    3,
+    1,
+    0,
+    5,
+    2,
+    6
+   ],
+   "reading": "sdtsenvo btenfinassvasedavy",
+   "anagram": 0.308,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860713-90.jpg",
+   "letters": 27,
+   "text": "QO MERCI JO JE EY PET BES DE LE DIRE",
+   "columnar": 0.333,
+   "null": 0.296,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    4,
+    2,
+    5,
+    6,
+    3
+   ],
+   "reading": "rqydobeco pijelimeresejeteed",
+   "anagram": 0.556,
+   "anagram_null": 0.148
+  },
+  {
+   "image": "1877_18771009-VTA.jpg",
+   "letters": 84,
+   "text": "AFRAID MADE BLUNDER MMS SENT ME BILL FOR QVX FELT AND STUP PAID IT IS IT YOU OR WLHO WROTE FOR THEI MAR SAT",
+   "columnar": 0.155,
+   "null": 0.119,
+   "method": "undo width 7",
+   "order": [
+    5,
+    0,
+    2,
+    4,
+    6,
+    3,
+    1
+   ],
+   "reading": "uomofaanrere fidtbwlrdehiltaire lhaitmilondimmfwdm ssaorsaisrrotdtesq tueynavepbottxfplu",
+   "anagram": 0.238,
+   "anagram_null": 0.155
+  },
+  {
+   "image": "1883_18831228-A.jpg",
+   "letters": 28,
+   "text": "BAE FRPT NRPET BRPE HRPOS GRP HDFM",
+   "columnar": 0.179,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    3,
+    4,
+    1,
+    5,
+    0
+   ],
+   "reading": "hhrrbsbdrp prgafptepremontepf",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18881220-Psee.jpg",
+   "letters": 28,
+   "text": "PSEE QT ES BONNE AD EC EB EY EN EP TLB",
+   "columnar": 0.357,
+   "null": 0.321,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    3,
+    6,
+    0,
+    4,
+    1
+   ],
+   "reading": "cppbyqeets oetablennedebenese",
+   "anagram": 0.393,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "letters": 113,
+   "text": "YOT AND SLAVE WRITEN STX UNDER PALSE PRETENSE TO QUIETEN YOUR MIND SLAVE YOU GOT LETTER SENT YESTERDAY AND PTY LHXD FOR SHIRLEY SATURDAY",
+   "columnar": 0.106,
+   "null": 0.071,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    6,
+    3,
+    0,
+    2,
+    5
+   ],
+   "reading": "onroy retsduostltartheex ymaintuainrstnnndl eedddsetrepslyosrt lasqepyavaunalveti tlhewueysxyrrteedo idespfutantrogeyye",
+   "anagram": 0.327,
+   "anagram_null": 0.062
+  },
+  {
+   "image": "1898_18980511.jpg",
+   "letters": 28,
+   "text": "MA GJH FNGQ EJS KF OFT KPVJS ET CSBT",
+   "columnar": 0.214,
+   "null": 0.179,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    6,
+    1,
+    0,
+    4,
+    5
+   ],
+   "reading": "tkhmjcqkff assepongebjvfgjtts",
+   "anagram": 0.143,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1894_18940624-13.jpg",
+   "letters": 29,
+   "text": "BI EMEP FE MIL BI MIL KA DEP COMPRO ES",
+   "columnar": 0.172,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    1,
+    2,
+    3,
+    0,
+    6
+   ],
+   "reading": "pmikbercima ipoolidefemblemesp",
+   "anagram": 0.069,
+   "anagram_null": 0.103
+  },
+  {
+   "image": "1898_18980330-13.jpg",
+   "letters": 29,
+   "text": "CRAZ ME DIS PREF VR SL REG LON BY YX AD",
+   "columnar": 0.172,
+   "null": 0.138,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    2,
+    3,
+    5,
+    1
+   ],
+   "reading": "eyrscldyelr oixfransavezbpdrgm",
+   "anagram": 0.276,
+   "anagram_null": 0.138
+  },
+  {
+   "image": "1893_18930606-Chav.jpg",
+   "letters": 61,
+   "text": "CHAV AI LET WI ESP POSTE QUE LE TEMPS EST LONG DON NOUY SANT PEN CES BI LMC BXZ",
+   "columnar": 0.213,
+   "null": 0.18,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    0,
+    5,
+    3,
+    1,
+    4
+   ],
+   "reading": "tscnsmw eahgbpiqnadiseutvo lesepanmspleinctpe nloblotceuxoseetyz",
+   "anagram": 0.541,
+   "anagram_null": 0.098
+  },
+  {
+   "image": "1899_18991231-13.jpg",
+   "letters": 31,
+   "text": "SOU SAN BONH REA TT DESI ACEP DEJ OATTT",
+   "columnar": 0.194,
+   "null": 0.161,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    4,
+    5,
+    0,
+    6,
+    3
+   ],
+   "reading": "insartdaboted ecoutaejensttsopha",
+   "anagram": 0.323,
+   "anagram_null": 0.097
+  },
+  {
+   "image": "1899_18991003-13.jpg",
+   "letters": 31,
+   "text": "MENV SIRA PAU BB CELUI LA RES TAN FJFRW",
+   "columnar": 0.161,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    2,
+    3,
+    5,
+    0,
+    4,
+    1,
+    6
+   ],
+   "reading": "csmilajeterau flanarbrunvpebwifs",
+   "anagram": 0.355,
+   "anagram_null": 0.097
+  },
+  {
+   "image": "1881_18811206-42.jpg",
+   "letters": 32,
+   "text": "AES OP SE AJN IOU SSODIND DAY INTERESTS",
+   "columnar": 0.281,
+   "null": 0.25,
+   "method": "redo width 7",
+   "order": [
+    2,
+    6,
+    3,
+    5,
+    4,
+    1,
+    0
+   ],
+   "reading": "snditesdroiins sudepontejoysaasae",
+   "anagram": 0.156,
+   "anagram_null": 0.156
+  },
+  {
+   "image": "1876_18761006-2S.jpg",
+   "letters": 33,
+   "text": "AL ENTENDU APARECE AVVEETAKE ION ENE NN",
+   "columnar": 0.152,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    3,
+    6,
+    5,
+    1,
+    4
+   ],
+   "reading": "ekapeeenelanead ieretvuonenavantcn",
+   "anagram": 0.273,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1876_18761007-2S.jpg",
+   "letters": 33,
+   "text": "OP QUEL BONH ENCORE FIN REVE ET ONY FAD AT",
+   "columnar": 0.152,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    0,
+    2,
+    6,
+    3,
+    4
+   ],
+   "reading": "hereforeletapen bfodqvcoinaueonnyt",
+   "anagram": 0.636,
+   "anagram_null": 0.273
+  },
+  {
+   "image": "1881_18810701-ANONYME.jpg",
+   "letters": 97,
+   "text": "PPEKTPITE BL BJD SJGLH RKIN KIJ BR HIBIEALA IFPRETI ELNHD PLEATEVL JH RIDLJ PLUSICURS LETTRES TVATTENDENT IA POSTE",
+   "columnar": 0.093,
+   "null": 0.062,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    2,
+    5,
+    3,
+    0,
+    6
+   ],
+   "reading": "rphjsie spihjenlebrgldekii lnettedhhntpalrdtr iljkpietapilaseiln eptbfukaovlpsitsab rijettjecbvetdturl",
+   "anagram": 0.144,
+   "anagram_null": 0.093
+  },
+  {
+   "image": "1882_18820402.jpg",
+   "letters": 102,
+   "text": "RMEONB IC IABMENAB INLINLNT EI IE TENAB EBCENE IE IE OAB TNL LNACI GNELNE GAT NE MACAME EO NEGNOCT MNB TLBIE ANBIE CEMAOCE CE",
+   "columnar": 0.078,
+   "null": 0.049,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    2,
+    6,
+    3,
+    1,
+    5
+   ],
+   "reading": "rnenbaamenei nbegagnbtonbalinno etielbcbnnclitcele ncmemnmainnatacabe ceoibtiaicgmlemien ebieecenieetelaeoo",
+   "anagram": 0.118,
+   "anagram_null": 0.127
+  },
+  {
+   "image": "1900_19000218-13.jpg",
+   "letters": 35,
+   "text": "MOI AUS RAVI LET AN SUGG PEN EXQ QDJCQDOATT",
+   "columnar": 0.143,
+   "null": 0.114,
+   "method": "redo width 3",
+   "order": [
+    2,
+    0,
+    1
+   ],
+   "reading": "isvengexdqamarits gnqjdtoualaupeqcot",
+   "anagram": 0.343,
+   "anagram_null": 0.086
+  },
+  {
+   "image": "1879_18790911-444.jpg",
+   "letters": 35,
+   "text": "BIEN JE ET STUN AI CEP VOS USEZ SANS ECT PRDV",
+   "columnar": 0.286,
+   "null": 0.257,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    0,
+    6,
+    4,
+    3,
+    5
+   ],
+   "reading": "uebauteneinsppate servisnezdoctjcsvs",
+   "anagram": 0.571,
+   "anagram_null": 0.257
+  },
+  {
+   "image": "1888_18881103-B4.jpg",
+   "letters": 147,
+   "text": "BE GE LAY COP MERCI DE CE TON CO TROUV PAGER DELI ESS DE CALM MA SOUF HELAS QUEL CHAG FAIS QUE JE ECR BIENTET CA SERASI GR SOUL TE CONF CE CH JOUR JE SOUF PENSE ONPERE EN TOI CONF ET FOI LUX",
+   "columnar": 0.082,
+   "null": 0.054,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    5,
+    6,
+    3,
+    4,
+    1
+   ],
+   "reading": "bpn tceheeccecagroacag eetshlflerejmaanor omiytuauascovsrsqo ipijoupcageuemogrs fjenesoherfroueece duflcitelpardfltes beoienqiciecsueels oeentusnoltoxdfnce",
+   "anagram": 0.531,
+   "anagram_null": 0.184
+  },
+  {
+   "image": "1877_18771031-VTA.jpg",
+   "letters": 108,
+   "text": "SENT BY UNKNOWN COM FOR MME LA GIVING NO NAME CHEER UP AND TAKE CARE OF YOURSELF FOR MY SAKE IF YOU CAN LEAVE ON THE XICYH WEEK MONDAY SO",
+   "columnar": 0.074,
+   "null": 0.046,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    0,
+    5,
+    3,
+    4,
+    6
+   ],
+   "reading": "nfsfckcaoefaeymrno nchemtrlawcmbmereh eyyaeeelusvokeanae fmrgkkoyouinenonpv oitudaiwfhrannnyes ydgcoxestnouiloaom",
+   "anagram": 0.315,
+   "anagram_null": 0.167
+  },
+  {
+   "image": "1877_18770914-VTA.jpg",
+   "letters": 139,
+   "text": "YOU ARE SUCH TEE YOU EXCITE YOURSELF SO MUCH YOU WILL LOSE YOUR GOOD LOOKS AND YOUR YOU MUST BE VERY CAREFUL ABOUT DT COME TO MARGATE AS SOON AS YOU CAN IT WOULD MAKE ME HAPPY",
+   "columnar": 0.086,
+   "null": 0.058,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    1,
+    5,
+    0,
+    6,
+    4
+   ],
+   "reading": "cityaamaleonn arlyuidreloatygfou rwoausreoutlessure ayeulyabolcdosoufh musurstamotgoekuod omeesntouymtacdcoe bsolhuheymoyeavoeo oxpeutkucprcoswiyy",
+   "anagram": 0.122,
+   "anagram_null": 0.129
+  },
+  {
+   "image": "1896_18960804-EC.jpg",
+   "letters": 50,
+   "text": "NP ESINI YB AADVRBMM BI HXBR ERIE THE CIRCE ARD ABD AES OA NATA",
+   "columnar": 0.12,
+   "null": 0.1,
+   "method": "undo width 5",
+   "order": [
+    3,
+    2,
+    1,
+    4,
+    0
+   ],
+   "reading": "dxancabdpierve rserscorbieaimnane miratbydthibaaehab",
+   "anagram": 0.0,
+   "anagram_null": 0.1
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "letters": 52,
+   "text": "HDX HDX MVL FTVL XDL MVL WRITE WOKING FTVL HAVE TLURSDAY TIME TO",
+   "columnar": 0.096,
+   "null": 0.077,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    3,
+    4,
+    1,
+    5,
+    2
+   ],
+   "reading": "hgalteldfymetfxt tvwlthvilouvdlmwkr lxherisxmatinddvvo",
+   "anagram": 0.0,
+   "anagram_null": 0.058
+  },
+  {
+   "image": "1896_18961106-KP.jpg",
+   "letters": 168,
+   "text": "DVPSH SVUNBLTX QL UHP ZLJC KL TVB TL XZVCDHUB YCL BC HPTL LBXLUAL BVCQVCZ TVP XVCZHHUB BHPTL HDLJ BHUB KLMVZJLA KL BLUKZLAA BC LA TVU AVCJP TH QVPL IB DHPA LUMPU BL XZLUALZ IPLU MVZB ACZ TVU JVLCZ BPKYSH YCP",
+   "columnar": 0.048,
+   "null": 0.03,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    3,
+    1,
+    2,
+    6,
+    5
+   ],
+   "reading": "dhuxtm ivpklvvbptzubzdsll atbhhhallapsdabxca vlbvzzlujccvtunblq cvmbhavduplutchjut bvzuvbxkutbllqlavy cxlmvpczzuvcxlblhz jvbpupjpcckazltzhy llahhpszjkqhthiclv ulypkbpblcllllbbpu",
+   "anagram": 0.012,
+   "anagram_null": 0.054
+  },
+  {
+   "image": "1896_18960812-V.jpg",
+   "letters": 65,
+   "text": "ACO BALO ET FLERO NULA DRILO UN FRAPA ERBO ANO FRAGA ERDO AREJO TONJ MIJO ET MILO",
+   "columnar": 0.138,
+   "null": 0.123,
+   "method": "undo width 7",
+   "order": [
+    1,
+    6,
+    4,
+    2,
+    3,
+    5,
+    0
+   ],
+   "reading": "mapfralicar irejoealerobrgojoe abauontloentumoarf oliendrnaltooajdof",
+   "anagram": 0.215,
+   "anagram_null": 0.108
+  },
+  {
+   "image": "1894_18940903-GO.jpg",
+   "letters": 68,
+   "text": "REGU LET ENVOY PROS VAIS DANS SOUVENT OT ZPLT CJDUGZPF ET CGTKUAT RR ENER MERECE OE",
+   "columnar": 0.132,
+   "null": 0.118,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    2,
+    0,
+    6,
+    3,
+    1
+   ],
+   "reading": "nesgrodtrdteyu omakgpgtenuurzzrsa loppestesflcortvet eureatcovenicjeenv",
+   "anagram": 0.294,
+   "anagram_null": 0.088
+  },
+  {
+   "image": "1896_18960811-V.jpg",
+   "letters": 72,
+   "text": "ABO BAKO DONC LARKO DRITO PLAISIR DRISO DRILO MUAY ERBO FRANTA ET ZIONALY DE GALDA MILO",
+   "columnar": 0.069,
+   "null": 0.056,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    2,
+    5,
+    6,
+    4,
+    3
+   ],
+   "reading": "alleeoebaagtdroria zrbbksliioaoidolfk dranorordmamadiril unotilyatnosodyacp",
+   "anagram": 0.333,
+   "anagram_null": 0.056
+  },
+  {
+   "image": "1875_18750902-curieuse.jpg",
+   "letters": 448,
+   "text": "ALS ANGUSTINE BROHAN EST NEE EN DEJAZET EN EM GUYON EN NATHALIE EN ENG DOCHE EN FARGUEIL EN SCRIWANECK EN VIARDOT EN UGALDE EN MARIE LAURENT EN AGAR EN IPHONSINE EN ARMOND PLESSY EN ZULMA BOUFFAR EN MADELEINE BROHAN EN MARIE CABEL EN FRANCINE CELLIEREN JANE ESSLER EN FAVART EN GUEYMARD LAUTERS EN SUZANNE LAGIER EN MACE MONTROUGE EN MIOLAN CARVALHO EN CELINE MONTALAND EN CHRISTINE NILSSON EN ADELE PAGE EN ADELINA PATTI EN BLANCHE PIERSON EN ROUSSEIL EN MARIC SASS EN HORTENSE SCHNEIDER EN ET MAINTENANT FAITES VOS EALCULS TEMPORAL MORES",
+   "columnar": 0.06,
+   "null": 0.047,
+   "method": "undo width 6",
+   "order": [
+    1,
+    2,
+    5,
+    4,
+    3,
+    0
+   ],
+   "reading": "iacorlllrntmesit eanawanbmnalgoagna uuruenefiscdyfctke masienaranncresevh dnsbirlmeraiaanors udhhdtteoaoielrntn reteeesiesnnenntui nesnglsbeeasursels zocedoahhnennandee nneenneeijmalndaad amezregareiliretee einelpreenaaecteug nammrembageeaeiunn clnytaeetoedmnenne ofnealnrangitannan rntaraocftepuiahna gniaiteetlpteceihi neseoemlvennilonsb oiseilleennaaragen neldeccnconhajucae ralhrpvnsemiaeteoe leennrhsmfdsospapo elorlnnergeecrausn eelesrlnmiyoifoleu narensevenzsmassue",
+   "anagram": 0.295,
+   "anagram_null": 0.087
+  },
+  {
+   "image": "1896_18960912-V.jpg",
+   "letters": 106,
+   "text": "BIGN BIJO LARPO LARJO AGO NULA RUFA LARSO LARFO DRIPO DRIKO FLEZONUBA DESIRES TU LARKO MIXO MILO LARZO DRIDO PLUTOT DRIVO DRIZO",
+   "columnar": 0.085,
+   "null": 0.075,
+   "method": "undo width 6",
+   "order": [
+    4,
+    3,
+    1,
+    2,
+    5,
+    0
+   ],
+   "reading": "daooboornaimpfug gilobonxudanbotrdu imoieljitpsaoldoir lordrualirefravisa proktlozdoualorflr adilasrrzerojiozkl",
+   "anagram": 0.123,
+   "anagram_null": 0.038
+  },
+  {
+   "image": "1896_18960715.jpg",
+   "letters": 101,
+   "text": "SIT SFDPOOBJTTBOU EF UPVU WPVT BUUFOCT UPV KPYST PV FU DPNNFOU FOWPZFS CPVRVJO EFTJSF SFQPOEFA QBS BOOBMFT BJNFLT SZTDL",
+   "columnar": 0.05,
+   "null": 0.04,
+   "method": "undo width 6",
+   "order": [
+    1,
+    5,
+    3,
+    0,
+    2,
+    4
+   ],
+   "reading": "osfuofuitpo uftjvbposskmvwffpf updsytwzpfsbpfoqtj vsoppntcbovfbpjefl uvtfuturtadsfvbqpz ojobntcousndteebfl",
+   "anagram": 0.0,
+   "anagram_null": 0.02
+  },
+  {
+   "image": "1896_18960911-V.jpg",
+   "letters": 106,
+   "text": "AFO BIFU LARVO DRIKO LARJO GONFILAN DRICO BITU BIZU DRIJO CABRO ERBO FRAZA FLERO RUFA DRIVO DRIXO MIJO ET FRASA GALDA DESVO ERDO",
+   "columnar": 0.047,
+   "null": 0.038,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    2,
+    5,
+    4,
+    3,
+    1
+   ],
+   "reading": "kardajaogirfofla cilcoaloxeabrdborb ijaimorfodtirougeu juelosbofranvieabr foztdovieufrfolrdr irdadravarnoisozid",
+   "anagram": 0.094,
+   "anagram_null": 0.066
+  },
+  {
+   "image": "1876_18761104-P.jpg",
+   "letters": 32,
+   "text": "BEO IGEL VI FEZ CIE TF PINTOOSO POV POGO",
+   "columnar": 0.25,
+   "null": 0.25,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    2,
+    3,
+    1,
+    5,
+    6
+   ],
+   "reading": "gnfebopetetepo lozfoogvocpivoisii",
+   "anagram": 0.062,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1877_18770927-VTA.jpg",
+   "letters": 98,
+   "text": "HAVE WRITTEN TO TOPSY THAT OS YOU MIGH TALK ABOUT THERE HAVE ME NOT BEEN ALLE TO TO MAR GO TO LETTERJ YET HXDL RATE POST YXD",
+   "columnar": 0.092,
+   "null": 0.092,
+   "method": "undo width 5",
+   "order": [
+    2,
+    3,
+    0,
+    1,
+    4
+   ],
+   "reading": "tlhajtla tyhevoeetestrowyhe troxhoiudamtmlvati reregamgnhteottent oapootlotloksbepat etsbyetyoxnetudarh",
+   "anagram": 0.112,
+   "anagram_null": 0.133
+  },
+  {
+   "image": "1877_18771108-R.jpg",
+   "letters": 46,
+   "text": "UML LVCLM BFVN NVCF MDSXVSR VT BEVC RYGF VLSY CKMAGBXSN",
+   "columnar": 0.087,
+   "null": 0.087,
+   "method": "undo width 5",
+   "order": [
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "reading": "scfcuxkvrm vmnylsanglrgvfvvbc vctxfllbsmsmendybv",
+   "anagram": 0.0,
+   "anagram_null": 0.043
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "letters": 32,
+   "text": "VE RBXFTDS MAP FMAZR XQ FXD RAIL THURSD",
+   "columnar": 0.125,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    0,
+    4,
+    6,
+    2,
+    1,
+    3,
+    5
+   ],
+   "reading": "vqmafumefaitra rxzldspbdrtsdfxrxh",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1878_18780611-SALAM.jpg",
+   "letters": 29,
+   "text": "XUEYD CCE MEI EMOTREIBE CHERC CERB",
+   "columnar": 0.207,
+   "null": 0.207,
+   "method": "undo width 7",
+   "order": [
+    1,
+    2,
+    4,
+    0,
+    5,
+    3,
+    6
+   ],
+   "reading": "mxdhmicouce ebetecrierryececbe",
+   "anagram": 0.0,
+   "anagram_null": 0.138
+  },
+  {
+   "image": "1879_18790309-ZAD.jpg",
+   "letters": 42,
+   "text": "HEE IS FES RI IE NU MA LANAB POL GAL SIV JU COL MACH YED",
+   "columnar": 0.214,
+   "null": 0.214,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    2,
+    1,
+    4,
+    5,
+    3
+   ],
+   "reading": "hnnagj eeaucausebmhlcripa ysoisoleilifladvme",
+   "anagram": 0.214,
+   "anagram_null": 0.262
+  },
+  {
+   "image": "1881_18810609-8.jpg",
+   "letters": 27,
+   "text": "HDQM FMBDT FI GDI SE FI FMDCD TF TT",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    0,
+    2,
+    4,
+    1,
+    3,
+    5
+   ],
+   "reading": "hsmmitdeb dgfqfdcdtmitditfff",
+   "anagram": 0.222,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1881_18810731-LB48.jpg",
+   "letters": 42,
+   "text": "ST EZOVIB XZFC IFY SZEI WF NZRHLM XZKRGZRMY IRASVI",
+   "columnar": 0.119,
+   "null": 0.119,
+   "method": "undo width 7",
+   "order": [
+    6,
+    3,
+    1,
+    2,
+    5,
+    0,
+    4
+   ],
+   "reading": "riiiih sgfwbrltzyfxamersn zsxzmzzfvzoyercikv",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1881_18810924-7.jpg",
+   "letters": 52,
+   "text": "ET MIEU COUS ING TRIS REPENT COM VA ET RD NOUVY REST ICI SOIGN TOI",
+   "columnar": 0.173,
+   "null": 0.173,
+   "method": "undo width 7",
+   "order": [
+    6,
+    3,
+    0,
+    5,
+    1,
+    4,
+    2
+   ],
+   "reading": "rtsorteirouectsd issomrngitmieonniv eputgcauevotiecnyi",
+   "anagram": 0.308,
+   "anagram_null": 0.365
+  },
+  {
+   "image": "1881_18811012.jpg",
+   "letters": 41,
+   "text": "BERAMI DITHZ KIGGH NPHEQH EH LQUH BLGB EISQDDIGD",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    5,
+    1,
+    2,
+    3,
+    0
+   ],
+   "reading": "qphli kbdhlgdiedeqbigriq uetgaghhihhmdebszn",
+   "anagram": 0.049,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1881_18811119-ZZ.jpg",
+   "letters": 74,
+   "text": "LQ XHBBCH UHERG ULQD HNCEQDX DHUCHBH IS FHD LGED BLFICH QDHGEGSQH FIE KIQDH BHD XHREHD UL",
+   "columnar": 0.054,
+   "null": 0.054,
+   "method": "undo width 6",
+   "order": [
+    4,
+    3,
+    2,
+    5,
+    1,
+    0
+   ],
+   "reading": "dh dgllhghuqgbeulxehg cqhddshdbbxqbhblhh hncfrfichieiseuche fqhhdkhdequidxrdlq",
+   "anagram": 0.095,
+   "anagram_null": 0.027
+  },
+  {
+   "image": "1882_18820203-42.jpg",
+   "letters": 28,
+   "text": "JE BITT QIDT THIO BF SIBOOB CIDF NB",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    3,
+    4,
+    2,
+    1,
+    6
+   ],
+   "reading": "josditdebi totfbcbtbqniiohfib",
+   "anagram": 0.071,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1882_18820309-7.jpg",
+   "letters": 25,
+   "text": "GBT JOH HIFM ERP TR ERF SREJ CBA",
+   "columnar": 0.16,
+   "null": 0.16,
+   "method": "undo width 6",
+   "order": [
+    0,
+    4,
+    5,
+    2,
+    1,
+    3
+   ],
+   "reading": "gftjhmb srchetrebirjerafpo",
+   "anagram": 0.36,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1882_18820406.jpg",
+   "letters": 33,
+   "text": "PENSCC RAP VS LETT NOY CHAN JAM JQFQU LUX",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    6,
+    2,
+    3,
+    0,
+    1
+   ],
+   "reading": "aqtcpcvmuthersj lnanalquonspefxyjc",
+   "anagram": 0.091,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1882_18820407-G.jpg",
+   "letters": 42,
+   "text": "OA EE AT MNOEV EINBNE INLIE TLBI CNAOIT NBSOE ANBIE",
+   "columnar": 0.214,
+   "null": 0.214,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    4,
+    1,
+    0,
+    2,
+    6
+   ],
+   "reading": "bnioim eiltannacinebonneb enebatsaeviolotiee",
+   "anagram": 0.19,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1882_18820430-PAUL.jpg",
+   "letters": 39,
+   "text": "POET SE FERDT RJKB BIT FB TPDT BBETHB ERP SE ORJB",
+   "columnar": 0.103,
+   "null": 0.103,
+   "method": "undo width 6",
+   "order": [
+    4,
+    3,
+    5,
+    2,
+    1,
+    0
+   ],
+   "reading": "pbf fpjsebeokettrebohp dtbrbdtsijetretbrb",
+   "anagram": 0.179,
+   "anagram_null": 0.103
+  },
+  {
+   "image": "1882_18820601-5.jpg",
+   "letters": 37,
+   "text": "VISCYSIQ VID HNCQCH JLBGHD OCLEF VHQGH LUGH",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    0,
+    1,
+    6,
+    4,
+    2
+   ],
+   "reading": "d hhvfsdhjlivionlush qccbgcqvlqghygiech",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1882_18821023.jpg",
+   "letters": 39,
+   "text": "BCMHJRS QCECBSTSJDUCM FSHCHGRAAS SHICT TQBS",
+   "columnar": 0.103,
+   "null": 0.103,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   "reading": "dch atbrubcstcscshsqmq mtghbhcfsrisjesjac",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1882_18821224-5.jpg",
+   "letters": 77,
+   "text": "BEQDBHFLIFGHS DQ JCIQF BIQUH YSIGF UHUH BHFHDQCH JIXXHUHG BH KIQDH VICKIE AL SHCBPH NPHEQH",
+   "columnar": 0.052,
+   "null": 0.052,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    0,
+    3,
+    5,
+    6,
+    4
+   ],
+   "reading": "qhbhh xdusebcxhhdqhbhvyq dfpuisjbhhhcichdng kgifqpbifqlchheufi hekahbfjqiluigihqs",
+   "anagram": 0.026,
+   "anagram_null": 0.026
+  },
+  {
+   "image": "1883_18830222-42.jpg",
+   "letters": 33,
+   "text": "KE HRED FHR MRPET BREFE FEE FRPF BRPE ERP",
+   "columnar": 0.242,
+   "null": 0.242,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    1,
+    3,
+    2,
+    6,
+    4
+   ],
+   "reading": "kmfbpdperereffh peeehbreffrrretrep",
+   "anagram": 0.091,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1883_18830304-X.jpg",
+   "letters": 33,
+   "text": "PASSE VR RJLBQGS MLILS QHSHHB SCHEGDBS",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    4,
+    2,
+    3,
+    5,
+    6
+   ],
+   "reading": "vplhbsgraisqcdr slhghbjsshsesleqbm",
+   "anagram": 0.152,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1883_18830607.jpg",
+   "letters": 26,
+   "text": "BEBE TROP TRI RIEN PS PR DEP PERE",
+   "columnar": 0.308,
+   "null": 0.308,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    4,
+    2,
+    0,
+    3,
+    5
+   ],
+   "reading": "perdpebs tietrepreprebronpi",
+   "anagram": 0.577,
+   "anagram_null": 0.308
+  },
+  {
+   "image": "1883_18830609-42.jpg",
+   "letters": 32,
+   "text": "JI FRPF NRPERP ARETFR ERP TF MRH GRP RHE",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    5,
+    6,
+    3,
+    1,
+    4
+   ],
+   "reading": "fmjeprenrirrpt rhfphafpgrterrerpf",
+   "anagram": 0.094,
+   "anagram_null": 0.094
+  },
+  {
+   "image": "1883_18830702.jpg",
+   "letters": 52,
+   "text": "CI TTS PRSTS ENTR MDM RUILS FTS TS VS FFRTS PV LTR GRBL EHF SPRM OE",
+   "columnar": 0.077,
+   "null": 0.077,
+   "method": "undo width 7",
+   "order": [
+    1,
+    5,
+    4,
+    2,
+    6,
+    0,
+    3
+   ],
+   "reading": "tcffdtfritsmsrgt spretrttrunsbssmit plpvolrversesmlhsf",
+   "anagram": 0.038,
+   "anagram_null": 0.096
+  },
+  {
+   "image": "1884_18840428.jpg",
+   "letters": 32,
+   "text": "SI LE SCI SERAA CLEL AD REV REGR PA FOL BT",
+   "columnar": 0.25,
+   "null": 0.25,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    3,
+    0,
+    4,
+    2,
+    6
+   ],
+   "reading": "esgresolcravil aiparlbdsaceetrefl",
+   "anagram": 0.125,
+   "anagram_null": 0.344
+  },
+  {
+   "image": "1884_18840806-ArH.jpg",
+   "letters": 33,
+   "text": "REC JOL SOUV REG GPVX BMMFS REMER NFSDSF",
+   "columnar": 0.121,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    3,
+    1,
+    0,
+    6,
+    4
+   ],
+   "reading": "mprvflmfversses xcedorrbjgsunemogf",
+   "anagram": 0.212,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18841227-O.jpg",
+   "letters": 25,
+   "text": "OX TRE RP BOCPOF TD BIT RPD FP OT",
+   "columnar": 0.16,
+   "null": 0.16,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    3,
+    2,
+    6,
+    1,
+    0
+   ],
+   "reading": "ftpprod probexbopfortitdtc",
+   "anagram": 0.0,
+   "anagram_null": 0.2
+  },
+  {
+   "image": "1885_18850105-CLB.jpg",
+   "letters": 28,
+   "text": "YO SER HOD COMP MARD PAL IND HOR FID",
+   "columnar": 0.143,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    1,
+    5,
+    6,
+    0,
+    3,
+    4,
+    2
+   ],
+   "reading": "myrpnrcaof adhorsilhomdediodp",
+   "anagram": 0.0,
+   "anagram_null": 0.107
+  },
+  {
+   "image": "1885_18850716-KSV.jpg",
+   "letters": 50,
+   "text": "PNDBOF SVVTVKERVEW NVDFFI SKEUFEFGUVU TFTFFQTOFFT BREES",
+   "columnar": 0.1,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    4,
+    1,
+    6,
+    2,
+    5
+   ],
+   "reading": "pitveffnsftwtg dkfvnbubeqkvrvoute deufforfetsefvfsfv",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1885_18851222-52.jpg",
+   "letters": 45,
+   "text": "RE RECU MER SU DE EN NE CEDPAS SUR PAS DE IER MAU SOU DO NOU",
+   "columnar": 0.2,
+   "null": 0.2,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    2,
+    4,
+    0,
+    5,
+    3
+   ],
+   "reading": "pmeuprrae ndamesrnosardsensu eeucouscideuroueed",
+   "anagram": 0.689,
+   "anagram_null": 0.289
+  },
+  {
+   "image": "1886_18860727-90.jpg",
+   "letters": 31,
+   "text": "SUIS TR DEM ET JAM AF GC RES LA VOICI ENS",
+   "columnar": 0.258,
+   "null": 0.258,
+   "method": "undo width 7",
+   "order": [
+    4,
+    5,
+    0,
+    1,
+    6,
+    2,
+    3
+   ],
+   "reading": "mmaistreaveur etfonidsjgisselacc",
+   "anagram": 0.419,
+   "anagram_null": 0.323
+  },
+  {
+   "image": "1886_18860808-90.jpg",
+   "letters": 39,
+   "text": "LS AV ENY PAR OCC SCR FER NOUV PL SEM PR TRAV MRE US",
+   "columnar": 0.103,
+   "null": 0.103,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    2,
+    3,
+    5,
+    4,
+    1
+   ],
+   "reading": "lvc eppysmcrrlparsntsa vecorereuruamonsfv",
+   "anagram": 0.41,
+   "anagram_null": 0.103
+  },
+  {
+   "image": "1886_18860828-77.jpg",
+   "letters": 32,
+   "text": "MA QUE VOUD ET VY PL VITE SOY VY DI VY ET VY",
+   "columnar": 0.125,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    3,
+    0,
+    1,
+    2,
+    6
+   ],
+   "reading": "peydemelsdevat voitoqviyvvuuytvyy",
+   "anagram": 0.406,
+   "anagram_null": 0.062
+  },
+  {
+   "image": "1886_18861228.jpg",
+   "letters": 42,
+   "text": "AAETRIN AS TE COIX REV FN MS OSE PL RN FRE VOEUX PR SVZ",
+   "columnar": 0.214,
+   "null": 0.214,
+   "method": "undo width 7",
+   "order": [
+    1,
+    5,
+    6,
+    0,
+    4,
+    3,
+    2
+   ],
+   "reading": "faxren onapepaimervlsxsts ortrorveneesizufcv",
+   "anagram": 0.357,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1887_18870116-Marie.jpg",
+   "letters": 27,
+   "text": "WEE APR ACT RECIT TJ PR CONS AY AGA",
+   "columnar": 0.185,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    1,
+    3,
+    6,
+    0,
+    4,
+    2,
+    5
+   ],
+   "reading": "cwopjytie nrpartesargetaacca",
+   "anagram": 0.296,
+   "anagram_null": 0.296
+  },
+  {
+   "image": "1887_18870611-Marie.jpg",
+   "letters": 37,
+   "text": "MARIE ADA JVAJYV FHDMEEDMV JSAVEJVYETEVST",
+   "columnar": 0.108,
+   "null": 0.108,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    2,
+    5,
+    0,
+    3,
+    4
+   ],
+   "reading": "m ajetdmvdyjemajavvv ersjfyseiavhetdeva",
+   "anagram": 0.135,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1887_18871231-Marie.jpg",
+   "letters": 80,
+   "text": "WASTIE DERN COMM PREM CENE TONY SM VOOUX POUR CC DORDASIE AE SOUH OU PLUTDT YOUD DOWN RAW DCTLL EAT",
+   "columnar": 0.05,
+   "null": 0.05,
+   "method": "undo width 7",
+   "order": [
+    2,
+    4,
+    6,
+    3,
+    5,
+    0,
+    1
+   ],
+   "reading": "lnwomiou raumentasrpaydwtcr estdicesmycedmovot docuoulerehodlrdno udenaeuxoacstppwto",
+   "anagram": 0.125,
+   "anagram_null": 0.062
+  },
+  {
+   "image": "1888_18880304.jpg",
+   "letters": 28,
+   "text": "JUNU TRANG DIR QUOI ABS LUNVMXTIA",
+   "columnar": 0.179,
+   "null": 0.179,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    3,
+    4,
+    6,
+    5,
+    1
+   ],
+   "reading": "txjgquartu dunbainiovsnauriml",
+   "anagram": 0.25,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880630-B4.jpg",
+   "letters": 53,
+   "text": "BEE IS DCINIEE VOTE CE MOM PROCH OU MON DEJA CET PENS CONS SOUF LUX",
+   "columnar": 0.075,
+   "null": 0.075,
+   "method": "undo width 6",
+   "order": [
+    5,
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "reading": "oncnebuiesmemetso eoepominveupsdonfr detslocjecuciacoxh",
+   "anagram": 0.377,
+   "anagram_null": 0.283
+  },
+  {
+   "image": "1888_18880704-B4.jpg",
+   "letters": 112,
+   "text": "GE REC LEF MERCI DE TOUT TA PENS TROUV DE BON SOUT COU ET ADOU CHAG OUI ET OU SER SI HEUR PRES DEN MOM DE REYA APP ET AL HATE DE TE VOIR HEUR LUX ML",
+   "columnar": 0.116,
+   "null": 0.116,
+   "method": "redo width 7",
+   "order": [
+    4,
+    0,
+    2,
+    1,
+    6,
+    5,
+    3
+   ],
+   "reading": "cctt bcouernetdrxgfepus ehtiemaheureonduag uedeptolemtevotaoh sdpavredaonucesroa ltellitroouirpmyae hmerusetdosuereeiu",
+   "anagram": 0.518,
+   "anagram_null": 0.134
+  },
+  {
+   "image": "1888_18880711-B4.jpg",
+   "letters": 81,
+   "text": "RE MERCI FOIS MES INS SURLEN PAS CRAIN MAUV PRES MEUDON ET FRANCE FAIS REF MEEDBL ET AVEE DIS VOUS NG",
+   "columnar": 0.123,
+   "null": 0.123,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    2,
+    0,
+    4,
+    6,
+    1
+   ],
+   "reading": "pvprfeere aersfeesmaimsdcenn emirrcseesacesduvi ifubdonfarloumoile nsaisetenusrnatgvm",
+   "anagram": 0.556,
+   "anagram_null": 0.333
+  },
+  {
+   "image": "1888_18880711-GA.jpg",
+   "letters": 27,
+   "text": "TATTS MAUDIS AUG RET VB TROP MB VT",
+   "columnar": 0.296,
+   "null": 0.296,
+   "method": "undo width 6",
+   "order": [
+    3,
+    2,
+    5,
+    0,
+    1,
+    4
+   ],
+   "reading": "gbstmirtm abseratvatouttuvpd",
+   "anagram": 0.148,
+   "anagram_null": 0.185
+  },
+  {
+   "image": "1888_18880803-930.jpg",
+   "letters": 71,
+   "text": "QR NZFE DFT NZYE OPATE ALCW NZYETYF TXA DFTG NZYD ITX ECZ OPALE LACP WPE CPN PN XLRO MPDP",
+   "columnar": 0.056,
+   "null": 0.056,
+   "method": "undo width 6",
+   "order": [
+    5,
+    2,
+    0,
+    1,
+    3,
+    4
+   ],
+   "reading": "zgyppqyneanrezolp ntypenzydalxffital ettecrdxxapofaelwm tdccppnfzwedztoncp",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880812-97.jpg",
+   "letters": 36,
+   "text": "CPRE MLGLE ITPNZYQT GEMDTXLWWOTCE PXM ALE",
+   "columnar": 0.111,
+   "null": 0.111,
+   "method": "undo width 7",
+   "order": [
+    1,
+    5,
+    4,
+    3,
+    6,
+    0,
+    2
+   ],
+   "reading": "wcxqtldopmtpgttrag nlxcelezelememyiwp",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18890120-Psee.jpg",
+   "letters": 30,
+   "text": "PSDE BAD TIB CA EY EB EC AVEC FRENESIE",
+   "columnar": 0.167,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    1,
+    0,
+    5,
+    3
+   ],
+   "reading": "cepeifbayssb ravedicedebeeantce",
+   "anagram": 0.267,
+   "anagram_null": 0.133
+  },
+  {
+   "image": "1889_18890224-MIG.jpg",
+   "letters": 25,
+   "text": "COMMUNION SIMILITUDE ILLUSI",
+   "columnar": 0.16,
+   "null": 0.16,
+   "method": "redo width 7",
+   "order": [
+    2,
+    0,
+    1,
+    6,
+    4,
+    3,
+    5
+   ],
+   "reading": "msuscoi lontuillumemidinii",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18890418-MIG.jpg",
+   "letters": 47,
+   "text": "WA EC CERE LY REGR GEEMY QER WE VE LEA MAW FEM NED RATT VEH AE",
+   "columnar": 0.17,
+   "null": 0.17,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    5,
+    6,
+    3,
+    4,
+    1
+   ],
+   "reading": "wtelegeatle merevyanewcermemec headyveagwrqererfa",
+   "anagram": 0.043,
+   "anagram_null": 0.213
+  },
+  {
+   "image": "1889_18890706-M9.jpg",
+   "letters": 74,
+   "text": "ME QUI ME DON ESP ET ADOU AFF CHAG ENV WI MESS DEMAIN PAR EN TOI SEUL ESP CD DIS MOI QUE OV VIENS",
+   "columnar": 0.122,
+   "null": 0.122,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    1,
+    0,
+    2,
+    4,
+    3
+   ],
+   "reading": "mf aiemeefrqsessceupq pshnecuedatoditego vdmameiviedansisdo iveemounwunonapils",
+   "anagram": 0.595,
+   "anagram_null": 0.203
+  },
+  {
+   "image": "1889_18890713-MIG.jpg",
+   "letters": 29,
+   "text": "MIG PUI JE TENVO QUEL PA GRAV NTIL NO",
+   "columnar": 0.172,
+   "null": 0.172,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    0,
+    3,
+    1,
+    5,
+    2
+   ],
+   "reading": "tpiquamealu ivingnejngvroletpo",
+   "anagram": 0.276,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18890808.jpg",
+   "letters": 31,
+   "text": "ARLVBATPFS QU POURR TV TEMP LON ECR PL",
+   "columnar": 0.129,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    5,
+    0,
+    3,
+    1,
+    6,
+    2,
+    4
+   ],
+   "reading": "bopscavaulqrr ttroupleprnplvmfte",
+   "anagram": 0.065,
+   "anagram_null": 0.129
+  },
+  {
+   "image": "1889_18891023-VS.jpg",
+   "letters": 27,
+   "text": "ET INSTMDI OUI ME CIO SM DIRVERVS",
+   "columnar": 0.148,
+   "null": 0.148,
+   "method": "undo width 5",
+   "order": [
+    3,
+    0,
+    1,
+    2,
+    4
+   ],
+   "reading": "tisevmmmt edediricinvoirssuo",
+   "anagram": 0.259,
+   "anagram_null": 0.185
+  },
+  {
+   "image": "1889_18891111-Y7.jpg",
+   "letters": 77,
+   "text": "FATE ETH APT ELGQ SIX UGZ NAYBDA TYBDG BD AZ BIDFTD LBDPE HAPG IDO FDTE LZZTH AEP PZH QX YTX FPZO",
+   "columnar": 0.052,
+   "null": 0.052,
+   "method": "undo width 6",
+   "order": [
+    4,
+    5,
+    3,
+    1,
+    2,
+    0
+   ],
+   "reading": "pfdaf qptotaszdfytihldbe xqbtdeuxdegtgyplbh ztezdanxhzapafatzt ypphbebzgaildoiedg",
+   "anagram": 0.039,
+   "anagram_null": 0.065
+  },
+  {
+   "image": "1889_18891115-Y7.jpg",
+   "letters": 26,
+   "text": "IT ND NAZFI AMP QGDT BXLTZE UP LO",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "redo width 7",
+   "order": [
+    6,
+    3,
+    5,
+    0,
+    1,
+    4,
+    2
+   ],
+   "reading": "zgzdmxla qtifdetitunplonabp",
+   "anagram": 0.077,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18900130-F21.jpg",
+   "letters": 27,
+   "text": "AVOZ LETT KILIQBGOIG VAIS TRIST",
+   "columnar": 0.148,
+   "null": 0.148,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    1,
+    5,
+    2,
+    3
+   ],
+   "reading": "livragela ivotiisoitqstzgkbt",
+   "anagram": 0.148,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18900519-Jean.jpg",
+   "letters": 26,
+   "text": "LET PLFAM PTF REP AU ATTEND VIEN",
+   "columnar": 0.192,
+   "null": 0.192,
+   "method": "undo width 5",
+   "order": [
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "reading": "udfflava retimettepppentaln",
+   "anagram": 0.538,
+   "anagram_null": 0.192
+  },
+  {
+   "image": "1890_18900619-GEO.jpg",
+   "letters": 24,
+   "text": "RHJEXJX SNDJDDNME DYEDJDYR",
+   "columnar": 0.167,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    0,
+    1,
+    4,
+    6,
+    3
+   ],
+   "reading": "sdeder endxydhddnjryjjjmx",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18900727-KET.jpg",
+   "letters": 29,
+   "text": "YVFSKY PEREOULOK ANX KF RUQM KISSE",
+   "columnar": 0.138,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    3,
+    5,
+    2,
+    6,
+    0
+   ],
+   "reading": "kknrylriyxe vouspkofkqsefusame",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18901004-MH.jpg",
+   "letters": 36,
+   "text": "USPQ UBSE NBSF EFDB EPOFA SFOEFA XPVT MFUSF",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    5,
+    0,
+    1,
+    6,
+    2,
+    4,
+    3
+   ],
+   "reading": "bfsmaueseffxspefou ppondesvqfbbfftuas",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1891_18910810-886.jpg",
+   "letters": 33,
+   "text": "PS NOU MQZ PRO BN CHG VT INDIF CONF DEP LET",
+   "columnar": 0.121,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    6,
+    0,
+    3,
+    2,
+    5
+   ],
+   "reading": "hmonppogqndslbv zfinentpdfotcirecu",
+   "anagram": 0.091,
+   "anagram_null": 0.121
+  },
+  {
+   "image": "1891_18911226-VE3.jpg",
+   "letters": 47,
+   "text": "AE EY AA EEE EEE CEE ENE EE ESP UIPX UMX KGZUGX SINON LENDEM",
+   "columnar": 0.191,
+   "null": 0.191,
+   "method": "undo width 7",
+   "order": [
+    2,
+    4,
+    0,
+    5,
+    3,
+    1,
+    6
+   ],
+   "reading": "egaueslexem epensexeuneiykeide nagepeeoazcxmeneue",
+   "anagram": 0.106,
+   "anagram_null": 0.106
+  },
+  {
+   "image": "1892_18920804.jpg",
+   "letters": 36,
+   "text": "TPUGSF SFOUSF TBNFEJ USPJ IFVEF UBJMF GPMJ",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 6",
+   "order": [
+    2,
+    1,
+    3,
+    0,
+    5,
+    4
+   ],
+   "reading": "usttmvsfpbfepoungf jugfpuissembfffjjj",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930305.jpg",
+   "letters": 37,
+   "text": "AT SEOK OT SI SERAIT VV IL EN AU EK AL PAH BG SE BH",
+   "columnar": 0.216,
+   "null": 0.216,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    6,
+    0,
+    2,
+    5,
+    3
+   ],
+   "reading": "v kagalevoustpritees aalskbehieiahobtns",
+   "anagram": 0.541,
+   "anagram_null": 0.27
+  },
+  {
+   "image": "1893_18930608-EVA.jpg",
+   "letters": 24,
+   "text": "ZUY QUWN SUPRYMXZWY CZNDYTY",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    4,
+    6,
+    1,
+    2,
+    0
+   ],
+   "reading": "dmyznq pyxcusurtzzyuwyywn",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930707-W2.jpg",
+   "letters": 24,
+   "text": "MES MEIJL TOUJ ECRIRE PL SOUV",
+   "columnar": 0.167,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    1,
+    0,
+    6,
+    3,
+    5
+   ],
+   "reading": "jlmpmo ieteleurcoissveruj",
+   "anagram": 0.542,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930913-TRE.jpg",
+   "letters": 31,
+   "text": "PNFIJGPDJRE LL AJVCAM AAAYNGU ZBKTP",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "redo width 6",
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    5,
+    4
+   ],
+   "reading": "ndaaupplmgpir vabfjjazglantjecyk",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18931030-JS.jpg",
+   "letters": 34,
+   "text": "JS BN LON SAN NIC MAD BN HEUR RQVUVR DQMKVN",
+   "columnar": 0.235,
+   "null": 0.235,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    4,
+    2,
+    3,
+    6,
+    1
+   ],
+   "reading": "jqdunousmbrinvbk nrcsrnvhqmadlnevan",
+   "anagram": 0.088,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1894_18940101-W2.jpg",
+   "letters": 26,
+   "text": "ENV SA SES MOIL SOUH DE BH ET SANT",
+   "columnar": 0.154,
+   "null": 0.154,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    6,
+    5,
+    2,
+    3,
+    0
+   ],
+   "reading": "saubelma shhnsonedevoitsets",
+   "anagram": 0.346,
+   "anagram_null": 0.077
+  },
+  {
+   "image": "1895_18950110-Loute.jpg",
+   "letters": 29,
+   "text": "LOUTE ADOR BINTO LI PTI NIC MILE CAR",
+   "columnar": 0.276,
+   "null": 0.276,
+   "method": "undo width 6",
+   "order": [
+    4,
+    3,
+    2,
+    5,
+    1,
+    0
+   ],
+   "reading": "lnialieindo pcctoutamortirilbe",
+   "anagram": 0.172,
+   "anagram_null": 0.138
+  },
+  {
+   "image": "1896_18960523-EARI.jpg",
+   "letters": 27,
+   "text": "MAI HKRH ERUZ JGRH JBKS JBR WA IRN",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    5,
+    0,
+    1,
+    2,
+    6,
+    3,
+    4
+   ],
+   "reading": "krgjambru rbiakhzhrrisejjwnh",
+   "anagram": 0.111,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960613-AVZ.jpg",
+   "letters": 32,
+   "text": "HEUREUX DE TA LET GAR BKSBDY XNDR BISBY",
+   "columnar": 0.125,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    4,
+    6,
+    5,
+    2,
+    3
+   ],
+   "reading": "uhybakgxexilsa dunsebrerdbtdbtery",
+   "anagram": 0.438,
+   "anagram_null": 0.062
+  },
+  {
+   "image": "1896_18960628-EA.jpg",
+   "letters": 24,
+   "text": "SUI MARSEIL JUSQ JUIT OZUKOU",
+   "columnar": 0.167,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    1,
+    4,
+    6,
+    2,
+    5
+   ],
+   "reading": "metsuk jaiousourlziquisju",
+   "anagram": 0.0,
+   "anagram_null": 0.125
+  },
+  {
+   "image": "1896_18960707-J29.jpg",
+   "letters": 25,
+   "text": "VUP TOU TR GRI PR HIST CON VE MYU",
+   "columnar": 0.16,
+   "null": 0.16,
+   "method": "redo width 6",
+   "order": [
+    0,
+    3,
+    1,
+    2,
+    4,
+    5
+   ],
+   "reading": "vtroutr seurhnpgivoitmupcy",
+   "anagram": 0.0,
+   "anagram_null": 0.16
+  },
+  {
+   "image": "1896_18960717-U55.jpg",
+   "letters": 40,
+   "text": "PEO EE EE EEE EE SUI DAN PET CHEM JOUR ET SEN CHER AD",
+   "columnar": 0.275,
+   "null": 0.275,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    3,
+    4,
+    1,
+    6,
+    0
+   ],
+   "reading": "cepe neehmespetejoueesr oeiteeauedcendreah",
+   "anagram": 0.25,
+   "anagram_null": 0.225
+  },
+  {
+   "image": "1896_18960719-P.jpg",
+   "letters": 56,
+   "text": "AVAL AI ENC ESP SUIS INV COBRO REVAN FR ACAMO IBIS AV AJPDGZPNZ DS CAM",
+   "columnar": 0.071,
+   "null": 0.071,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    3,
+    6,
+    0,
+    2,
+    1
+   ],
+   "reading": "cp aicaranvnevemzavsa vodjcplaisposanbcd buifiagriersmzosna",
+   "anagram": 0.196,
+   "anagram_null": 0.089
+  },
+  {
+   "image": "1896_18960813-V.jpg",
+   "letters": 69,
+   "text": "ADO BAMO FRADA TONI LARTO DRIKO PLEIN FRAPA CONFIANCE MIFO ERCO MIXO LARZO DE GALDA",
+   "columnar": 0.058,
+   "null": 0.058,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    0,
+    4,
+    3,
+    2,
+    6
+   ],
+   "reading": "odrinazdacafdor tonrodiomcabekniep agoixmamaploicolla lfofderaonraitrefa",
+   "anagram": 0.232,
+   "anagram_null": 0.159
+  },
+  {
+   "image": "1896_18960816-V.jpg",
+   "letters": 70,
+   "text": "AJO BARO DRILO LARVO HRADA LARSO DRISO AUSSI CAGRO DRIDO GALBO MIXO LARZO DRIJO MILO",
+   "columnar": 0.114,
+   "null": 0.114,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    4,
+    5,
+    2,
+    6,
+    3
+   ],
+   "reading": "larodsbojodaoolo drlamabriauiraijrs xvrdossoooomoilhdg idcarralrarailoigz",
+   "anagram": 0.143,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1896_18960819-V.jpg",
+   "letters": 71,
+   "text": "ACO BAVO ET FLERO NULA LARPO DRIKO TARCO FRADA RHHM ARBO FRASA FRAXA FRATA GALDA LARZO",
+   "columnar": 0.056,
+   "null": 0.056,
+   "method": "undo width 6",
+   "order": [
+    5,
+    4,
+    0,
+    2,
+    1,
+    3
+   ],
+   "reading": "dratearadarcisago okaranbofhluatrhdl vaamaaorxallecaraa tofbrrffrozplrafoo",
+   "anagram": 0.028,
+   "anagram_null": 0.155
+  },
+  {
+   "image": "1896_18960825-V.jpg",
+   "letters": 69,
+   "text": "ABO BEDA BEFA LARPO FRAMA EZI FLEZO NUFA ERDO DRIVO DRIXO MIPO DRIZO MILO ERVO GALUA",
+   "columnar": 0.058,
+   "null": 0.058,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    5,
+    0,
+    1,
+    3
+   ],
+   "reading": "ipaomnavobeaulo dorefadrbvzarrieoi epizdgfroxoaaldfom bleormieuzdailfaor",
+   "anagram": 0.058,
+   "anagram_null": 0.072
+  },
+  {
+   "image": "1896_18960827-V.jpg",
+   "letters": 63,
+   "text": "ADO BEJA LARPO MAIS SUPP LIS JAM INSALS LARDO LARCO SEP CRUEL ERCO GALDA MILO",
+   "columnar": 0.143,
+   "null": 0.143,
+   "method": "undo width 6",
+   "order": [
+    3,
+    4,
+    0,
+    1,
+    2,
+    5
+   ],
+   "reading": "lssapoile dogsapomajrcbaladr eidmoujsaileasmnal luisreaplacrrpoloc",
+   "anagram": 0.19,
+   "anagram_null": 0.175
+  },
+  {
+   "image": "1896_18960904-V.jpg",
+   "letters": 70,
+   "text": "ARY AFO BETA BETA LARVO ATT NUFA AZO MIVO REVE DRIPO MIIZO CACRO DRITO MILO MIXO LARZO",
+   "columnar": 0.057,
+   "null": 0.057,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    5,
+    1,
+    3,
+    6,
+    4
+   ],
+   "reading": "biapotrevromtoto ymindaraixurlefiof iavozlatreboaaovde crzmortazoiaiacoml",
+   "anagram": 0.129,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960905-V.jpg",
+   "letters": 71,
+   "text": "AGO BEVA GALLIO MECHE LARVO LARMO AVOIR NUFA LARXO ERBO FRAZA FRASA FRAXA GALBO FRASA",
+   "columnar": 0.056,
+   "null": 0.056,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    5,
+    4,
+    6,
+    0,
+    3
+   ],
+   "reading": "alagorxfigaivoroo lroeambbnlrseeouab acvffrofharamfrega loralasaaaxalarvza",
+   "anagram": 0.197,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960909-57E.jpg",
+   "letters": 29,
+   "text": "IMPOSS ACC QTOSTQD SS DVOKHB ECR DE",
+   "columnar": 0.138,
+   "null": 0.138,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    3,
+    5,
+    6,
+    4,
+    2
+   ],
+   "reading": "iscqktsmart hqdpcdobdvocesesos",
+   "anagram": 0.069,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960913-V.jpg",
+   "letters": 70,
+   "text": "AJO ERBD FRAZA DRICO CEGO AKO AZO DRITO NUBA LARIO ERDO ESDO FRATAMISO FRAVA AV FRAPA",
+   "columnar": 0.114,
+   "null": 0.114,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    0,
+    4,
+    2,
+    1,
+    6
+   ],
+   "reading": "oroatzaaaejoavkt rondaoadeuraamorbi vziebacfossdlordod facarforrepirfaiga",
+   "anagram": 0.157,
+   "anagram_null": 0.114
+  },
+  {
+   "image": "1896_18961015-A.jpg",
+   "letters": 64,
+   "text": "ID LAFEC LARDO GARDANT NLOYF GALKO AMO ERBO FRAPA FRAJA POUR CHER NLEA ERDC AA",
+   "columnar": 0.125,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    0,
+    6,
+    3,
+    5,
+    2
+   ],
+   "reading": "tilrrponde adoallapoumoaeagro yfrfacefedrrhrgcca debalajarolaaannfk",
+   "anagram": 0.25,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1897_18970803-L5.jpg",
+   "letters": 24,
+   "text": "CZ ECR VIT NLE VR GD YU UMID VER",
+   "columnar": 0.167,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    0,
+    5,
+    2,
+    3,
+    6
+   ],
+   "reading": "tcdmrv vnzyivreleudigrecu",
+   "anagram": 0.125,
+   "anagram_null": 0.167
+  },
+  {
+   "image": "1898_18980827-13.jpg",
+   "letters": 29,
+   "text": "VO SI BON AMI VX CH BAU AD VXM MINCTCH",
+   "columnar": 0.172,
+   "null": 0.172,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    1,
+    3,
+    4,
+    5,
+    2
+   ],
+   "reading": "bichamvovtb dmonxcavisachuxnim",
+   "anagram": 0.345,
+   "anagram_null": 0.276
+  },
+  {
+   "image": "1898_18981026-13.jpg",
+   "letters": 29,
+   "text": "VR PEIM MALATS VOUD EC AD APP TTE PUR",
+   "columnar": 0.172,
+   "null": 0.172,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    1,
+    6,
+    2,
+    5,
+    4
+   ],
+   "reading": "vacmeportam ppupsdautdevalrtei",
+   "anagram": 0.172,
+   "anagram_null": 0.138
+  },
+  {
+   "image": "1899_18990417-13.jpg",
+   "letters": 41,
+   "text": "ASSESS HX SUC DI QD VER VIP TOISS JEOSD UT TU PLAMOI",
+   "columnar": 0.098,
+   "null": 0.098,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    1,
+    2
+   ],
+   "reading": "xeuda tsopvsouslesicdare sdumvssitoisjqtiph",
+   "anagram": 0.098,
+   "anagram_null": 0.195
+  },
+  {
+   "image": "1899_18990510-13.jpg",
+   "letters": 34,
+   "text": "PQ PVU VX VR ES TP OUIATRO NI BY NI CAR ADTAN",
+   "columnar": 0.118,
+   "null": 0.118,
+   "method": "undo width 6",
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "reading": "pabrtxqtyapvprnd orvoitueuncaisvian",
+   "anagram": 0.324,
+   "anagram_null": 0.176
+  },
+  {
+   "image": "1899_18990824-13.jpg",
+   "letters": 27,
+   "text": "PARDP MOIN AV VOY SUPPRI HIV VISI",
+   "columnar": 0.296,
+   "null": 0.296,
+   "method": "undo width 6",
+   "order": [
+    0,
+    4,
+    3,
+    2,
+    1,
+    5
+   ],
+   "reading": "pryamvais voirhuvisdiponipvp",
+   "anagram": 0.074,
+   "anagram_null": 0.296
+  },
+  {
+   "image": "1899_18991014-P.jpg",
+   "letters": 32,
+   "text": "FNR JSA XZNY HJ YFN IJS FA STZA XFSY GFNX",
+   "columnar": 0.0,
+   "null": 0.0,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    0,
+    3,
+    6,
+    1,
+    2
+   ],
+   "reading": "nzyfsffyagnana hxfixrsjfnjzjtysxs",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18881019-B4.jpg",
+   "letters": 120,
+   "text": "DEP BONH MERCI CHAQ JOUR DOUL REC AY DUR ESP EN ATT LET AV AUGM VIE TROP PAR IMP DIS MOI VERRIERES DONN BIEN QUEL MOY ECR SEULE ESP ET FOI LUX VITE TOI EN",
+   "columnar": 0.067,
+   "null": 0.075,
+   "method": "undo width 6",
+   "order": [
+    5,
+    2,
+    0,
+    1,
+    4,
+    3
+   ],
+   "reading": "lmdendeposbe tdupipaileebvsrtno amefqnuocouhgiaiem mvyllevedumriruxoc errvyitieiecrestch orperapeetsqpsnoej adaiuoroteluintner",
+   "anagram": 0.517,
+   "anagram_null": 0.058
+  },
+  {
+   "image": "1877_18771109-VTA.jpg",
+   "letters": 89,
+   "text": "TEKS GREATLY DISAPPOINTED AT YOUR COMING SO LATE WILL WRITE AND SEND YOU THE IXYV QITPMF SHIRLEY WEDNESDAY",
+   "columnar": 0.09,
+   "null": 0.101,
+   "method": "undo width 6",
+   "order": [
+    5,
+    1,
+    4,
+    0,
+    2,
+    3
+   ],
+   "reading": "lauhctwptioerphrm kioelistiiengenxyg ratywseneveoaddqdl tsainalettetynypse ddomdwiyufaisorsyl",
+   "anagram": 0.045,
+   "anagram_null": 0.09
+  },
+  {
+   "image": "1889_18891108-M9.jpg",
+   "letters": 76,
+   "text": "ADNCB PIDEE QUE GAR QUE DE NOUV DEJA ETRE TE DIRE QUE QUE ET MER QUE LOR NG PL MOC AAA GAR AV ET LUX",
+   "columnar": 0.105,
+   "null": 0.118,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    5,
+    0,
+    3,
+    6,
+    1
+   ],
+   "reading": "taue aoregeedundagtnvgi ramcdprarebelevqrp jmqeuqiaouteudecel deetaquelerauxnoqe",
+   "anagram": 0.526,
+   "anagram_null": 0.211
+  },
+  {
+   "image": "1896_18960917-V.jpg",
+   "letters": 74,
+   "text": "EE VIE BINU BIPU LARVO DRITO CACRO LARXO SUIVR CONS ATT MIVO ARO GALDA FRATA GALBO LARZO VI",
+   "columnar": 0.108,
+   "null": 0.122,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    3,
+    0,
+    5,
+    1,
+    4
+   ],
+   "reading": "oa itlteslpobteuducom vialaliivfacaverrr rrobcavozaiotolorn nadavousgrrigbaaix",
+   "anagram": 0.135,
+   "anagram_null": 0.041
+  },
+  {
+   "image": "1896_18960823-V.jpg",
+   "letters": 69,
+   "text": "AJO BECA ERBO FRAZA DRIDO MILO DRICO JARZO DRIJO MJPO FRAXAS GALBO GALDA MIZO LARVO",
+   "columnar": 0.13,
+   "null": 0.145,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    4,
+    0,
+    3,
+    5,
+    6
+   ],
+   "reading": "joamogmafjjmair ropilzzabolboozefo oldacrdgardaararir exilvjiracdoodbsoa",
+   "anagram": 0.058,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960828-V.jpg",
+   "letters": 67,
+   "text": "AFO BEKA FRADA LARTO HYCAY FIETO FLEBO DRIJA CAPRO ANO FRATA FRAVA RUDA ADOR ERDO",
+   "columnar": 0.06,
+   "null": 0.075,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    5,
+    4,
+    2,
+    3,
+    0
+   ],
+   "reading": "dacalcaadatea faapabyodlrfofboao rdierraareketnvita rooajofdhfrafroyru",
+   "anagram": 0.119,
+   "anagram_null": 0.045
+  },
+  {
+   "image": "1896_18961014-V.jpg",
+   "letters": 68,
+   "text": "WE PRIE LARJO NUBA DRIVO MIRO FRAPA DE NUDA EN FLEBO MIGO DRIXO MIJO DRIZO MILO ERDO",
+   "columnar": 0.059,
+   "null": 0.074,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    1,
+    0,
+    6,
+    3,
+    4
+   ],
+   "reading": "dojizweemoxoeb ninompourumirmdobi liiafajoegerdoelon ardradfpirdrrlavio",
+   "anagram": 0.176,
+   "anagram_null": 0.132
+  },
+  {
+   "image": "1896_18960807-V.jpg",
+   "letters": 66,
+   "text": "MEE RE AFO BAFO MERCI LARMO DRITO LARSO ALEPO CAGRO ERXO DESVO MIRO SEUL BON ERCO",
+   "columnar": 0.121,
+   "null": 0.136,
+   "method": "undo width 6",
+   "order": [
+    3,
+    0,
+    2,
+    1,
+    4,
+    5
+   ],
+   "reading": "oldmxsmereoe epiedurotrelccoesb ialavolgafonarrome rosbirmeoarcorafoo",
+   "anagram": 0.439,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18961009-V.jpg",
+   "letters": 66,
+   "text": "LARPO LARVO FLEROS ET GALKO LARSO ERBO FRASA FRAXA FRATA GALDA DRIVO DRIXO MIJO",
+   "columnar": 0.121,
+   "null": 0.136,
+   "method": "undo width 7",
+   "order": [
+    3,
+    4,
+    0,
+    5,
+    1,
+    6,
+    2
+   ],
+   "reading": "gfoloegardaf ralarrlblkxipeodoa xorfalfolordarmasa rrairesistjvtavoao",
+   "anagram": 0.167,
+   "anagram_null": 0.167
+  },
+  {
+   "image": "1889_18890913-M9.jpg",
+   "letters": 59,
+   "text": "WE MESS VISTRIST SEUL ATT IMPA AAA ADNCB GARDE NOUS TA PENS ME SOUT LUX MI",
+   "columnar": 0.22,
+   "null": 0.237,
+   "method": "undo width 6",
+   "order": [
+    1,
+    5,
+    3,
+    0,
+    2,
+    4
+   ],
+   "reading": "dwote rneutsicmsiosbetmu tgsaptsaspalerveau udinaxlessamantmai",
+   "anagram": 0.356,
+   "anagram_null": 0.22
+  },
+  {
+   "image": "1896_18960630-P.jpg",
+   "letters": 57,
+   "text": "ABADO BADO OIDETO PREFERERAIS ACARO MAIS BEAUCOUP IBIS ACAPO DE CAM",
+   "columnar": 0.07,
+   "null": 0.088,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    4
+   ],
+   "reading": "aoe saiubifapspadecobi deradebotereaiboro cusapamacadriamoco",
+   "anagram": 0.246,
+   "anagram_null": 0.07
+  },
+  {
+   "image": "1882_18821012-42.jpg",
+   "letters": 55,
+   "text": "YONERE DRA BETTER COME IT PRO BABLY ONTIGED DONT ORJE ERP BUSY HERE",
+   "columnar": 0.073,
+   "null": 0.091,
+   "method": "redo width 7",
+   "order": [
+    0,
+    5,
+    4,
+    3,
+    6,
+    2,
+    1
+   ],
+   "reading": "y rrpydjsetibgoberte aitpreembtnredetle runboonoehoacrodey",
+   "anagram": 0.127,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1880_18801105-R.jpg",
+   "letters": 49,
+   "text": "NANA EAN TE CMBHS IGEVG SOMBAC VGVOI NVUSI CVAC GERMAV SEED",
+   "columnar": 0.184,
+   "null": 0.204,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    2,
+    1,
+    6
+   ],
+   "reading": "tcoinmmevigab acanenavmcvvacsbgu gevehessagesrionvd",
+   "anagram": 0.041,
+   "anagram_null": 0.041
+  },
+  {
+   "image": "1881_18811007.jpg",
+   "letters": 49,
+   "text": "DEESVAIVET VY NLJR SJVPLA LADCDM LMJDT SIVQIVAT VQ LRJREL",
+   "columnar": 0.082,
+   "null": 0.102,
+   "method": "undo width 7",
+   "order": [
+    1,
+    5,
+    0,
+    3,
+    2,
+    6,
+    4
+   ],
+   "reading": "jdlaqvvremlle qsejartijsddjvvvvt cryapasdentliimllv",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18901004-B4.jpg",
+   "letters": 50,
+   "text": "GE LET CONF EN TOI PT SE RDAL COM DIT AAA IDT AF MA PENS TOI MER MI",
+   "columnar": 0.24,
+   "null": 0.26,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    1,
+    2,
+    3,
+    6,
+    0
+   ],
+   "reading": "tplangfotcafem isoaelamemineperdd tterditocnmataiosi",
+   "anagram": 0.48,
+   "anagram_null": 0.4
+  },
+  {
+   "image": "1896_18960910-CRAD.jpg",
+   "letters": 146,
+   "text": "DTCMZJWGROD YQANRKYOBQRG IQOSHK JCZKAJAYHPC DOGAKYEYYPQDKZALFNNW BBNCRXMGWGALFZCC QHMBNLNWMFBNEVQMR LYEESBARGPRYNJAQ BJQACRYBEHLWHY AAHFIALXSNWHBAKGICM KPER",
+   "columnar": 0.034,
+   "null": 0.055,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    1,
+    3,
+    5,
+    2
+   ],
+   "reading": "qp ycdboqactasdaqcrhk hhmgkzfmzpjaibjrcl anwyzfllgnknxnrjan swoajwnmdqabwfybyb hbqjhnbnaqpcaenacr kvrcdxgqkromimyygg crobawmlbekgkyqhya perleleegwyfrsihyz",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880714-B4.jpg",
+   "letters": 88,
+   "text": "ENVER DER MESS ENF TOUT LES SOUFF PASS DEV CET CHER ET DOUC PENS OUI OU BONH ET PT QUE TOUT SOIT PREP AMI FRANCE",
+   "columnar": 0.114,
+   "null": 0.136,
+   "method": "undo width 6",
+   "order": [
+    5,
+    0,
+    3,
+    1,
+    4,
+    2
+   ],
+   "reading": "foishetutsenocpd tvuprepeteevtrlnpc qdesaeuesomtersuic tmoifhoeuoreusfuar tsfbnesepoctonaned",
+   "anagram": 0.489,
+   "anagram_null": 0.273
+  },
+  {
+   "image": "1889_18891005-M.jpg",
+   "letters": 43,
+   "text": "PLA SIL INAD TRO AS MAL DES OTAI IR DO AL PL LO SI SEU NGN",
+   "columnar": 0.186,
+   "null": 0.209,
+   "method": "undo width 6",
+   "order": [
+    5,
+    4,
+    2,
+    3,
+    0,
+    1
+   ],
+   "reading": "oisonpa smtalleaadapulitsl ndirilgerolonsdais",
+   "anagram": 0.419,
+   "anagram_null": 0.326
+  },
+  {
+   "image": "1876_18760907-DIX.jpg",
+   "letters": 41,
+   "text": "ZAEV QCIEQM VAFUIN FQME FMOBM TCA FER FER TENFMYV",
+   "columnar": 0.122,
+   "null": 0.146,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    3,
+    5,
+    6,
+    4,
+    1
+   ],
+   "reading": "iezfe mmenauretqfeiffcmm vnemavyqfrofavcqtb",
+   "anagram": 0.244,
+   "anagram_null": 0.073
+  },
+  {
+   "image": "1877_18770918-VTA.jpg",
+   "letters": 116,
+   "text": "HAVE GREAT DEAL OF TROUBLE NOW ABOUT MY NIXZEBED JUST NOW YOUR SIGHT WILL BE GODSEND TO ME WILL WAIT FOR YOU IN MARGATE ON THURS SHIRLEY SUNDAY",
+   "columnar": 0.078,
+   "null": 0.103,
+   "method": "undo width 6",
+   "order": [
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "reading": "oliebhnw ldlataljevhibuneut esogrfgtwrsoonaesr dobahyswotioeyudru notelidumaentrylym osnosamiifuregxtng whzrdaiteoatlwbuye",
+   "anagram": 0.172,
+   "anagram_null": 0.052
+  },
+  {
+   "image": "1898_18980306-13.jpg",
+   "letters": 38,
+   "text": "VRVENN JUSK CEJ TT SAC PADMEDEMSIBFE ES EN EET",
+   "columnar": 0.211,
+   "null": 0.237,
+   "method": "undo width 6",
+   "order": [
+    4,
+    2,
+    1,
+    5,
+    0,
+    3
+   ],
+   "reading": "mj jsvastuerditsnvmbs keeefacendecetneep",
+   "anagram": 0.263,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860731-90.jpg",
+   "letters": 76,
+   "text": "GY SAUF CONTR ABS MME PAS ANC ET PART SERAI SUIV CIRC DAB CALC TEM REP UT QUIT EC ENS RES OU SI NEC",
+   "columnar": 0.105,
+   "null": 0.132,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    4,
+    2,
+    3,
+    1,
+    6
+   ],
+   "reading": "guib carytscebesquatssa uilpmouivcamuftctr esceietpiocrmsanne cresetnderacrsapan",
+   "anagram": 0.5,
+   "anagram_null": 0.145
+  },
+  {
+   "image": "1877_18771012-VTA.jpg",
+   "letters": 105,
+   "text": "EEE ERE WHEN IS IT YOU WANT GO LONDON AGAIN HOPE TO SEE YOU IN MEEE BEFORE LT POSSIBLE AVOID HXD HAVE YOU GOT SAFILET MAR SH TWESDAY",
+   "columnar": 0.086,
+   "null": 0.114,
+   "method": "undo width 7",
+   "order": [
+    6,
+    3,
+    0,
+    4,
+    2,
+    1,
+    5
+   ],
+   "reading": "gdpouleahouieei aswntenvsammeheine aroybterepolgesweu eobhhtgaleteoovofw nstonoeiesidrssead oediyfhnlatoixatyy",
+   "anagram": 0.114,
+   "anagram_null": 0.105
+  },
+  {
+   "image": "1878_18780525-SALAM.jpg",
+   "letters": 72,
+   "text": "REIH NOYAR TO DAY ECNECSBAL YTIS ORBENET LEZ WWHE AR ANSW IMMEDLY WILL NEWS FREQUENTLY",
+   "columnar": 0.111,
+   "null": 0.139,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    1,
+    3,
+    6,
+    0,
+    2
+   ],
+   "reading": "dbfnoralarederylet aiawyqlyhnitueensl iezcowlsnwnyinotwe amerlhcrmwbyestese",
+   "anagram": 0.125,
+   "anagram_null": 0.083
+  },
+  {
+   "image": "1899_18991218-13.jpg",
+   "letters": 35,
+   "text": "ABSUR ET ALL BOURSE FEE TR PEN MS AV PRI PS VR",
+   "columnar": 0.257,
+   "null": 0.286,
+   "method": "undo width 6",
+   "order": [
+    1,
+    3,
+    2,
+    5,
+    0,
+    4
+   ],
+   "reading": "nautrembraitssslp rauelspvrfbvepeeor",
+   "anagram": 0.286,
+   "anagram_null": 0.2
+  },
+  {
+   "image": "1886_18860629-CH.jpg",
+   "letters": 35,
+   "text": "VECKGD EZKYEU UENVTIFYUIZ TAC NIHYLTY CT",
+   "columnar": 0.114,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    5,
+    1,
+    0,
+    3,
+    4
+   ],
+   "reading": "uvvcleditentuezic iyuztfkhcekaygytny",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960916-V.jpg",
+   "letters": 69,
+   "text": "ENCBINULARMO OPENS DRIDO DESDO DRIVO ACOEZIE MAINTFEBO MILE ERDO GALDA TOUJ MIJO",
+   "columnar": 0.116,
+   "null": 0.145,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    6,
+    1,
+    0,
+    3,
+    4
+   ],
+   "reading": "mimidedavolanoi ooetcdnapeobetceru isfondjndeesomuobz dgildoirajarmeilor",
+   "anagram": 0.058,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930918-Mm.jpg",
+   "letters": 33,
+   "text": "MN MIAPPMOIMRITTJVERRTUAVDMOARJE OS",
+   "columnar": 0.121,
+   "null": 0.152,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    4,
+    0,
+    1,
+    3,
+    5
+   ],
+   "reading": "tradijmjtpmmenv uporomeamaisirvort",
+   "anagram": 0.061,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1896_18960930-V.jpg",
+   "letters": 32,
+   "text": "ABO LARPO FRATA DRIKO DRIJO ABSOL MICO",
+   "columnar": 0.125,
+   "null": 0.156,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    6,
+    5,
+    3,
+    0,
+    2
+   ],
+   "reading": "oalordrabmdpra boiroitslcifkaoaoj",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1897_18970302-13.jpg",
+   "letters": 32,
+   "text": "VOUD EC TS LES OUI CES OUI OSE DIRE LES BY",
+   "columnar": 0.125,
+   "null": 0.156,
+   "method": "undo width 6",
+   "order": [
+    1,
+    0,
+    3,
+    2,
+    4,
+    5
+   ],
+   "reading": "tvouelsouidelu icisedoerbsesseyoc",
+   "anagram": 0.75,
+   "anagram_null": 0.188
+  },
+  {
+   "image": "1884_18840529.jpg",
+   "letters": 32,
+   "text": "FIN ADES NIENT RICEV AF CIAM PAR DOU PBR",
+   "columnar": 0.25,
+   "null": 0.281,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    5,
+    3,
+    1,
+    0,
+    6
+   ],
+   "reading": "pfdifeuacecinp risentbdanvarromia",
+   "anagram": 0.188,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18901007-B4.jpg",
+   "letters": 31,
+   "text": "MERC PR CH PENS TT EST TA GAR FOI ESP LUX",
+   "columnar": 0.129,
+   "null": 0.161,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    5,
+    6,
+    0,
+    4,
+    1
+   ],
+   "reading": "tspmfetapreon eglcrissauhcettrxp",
+   "anagram": 0.258,
+   "anagram_null": 0.226
+  },
+  {
+   "image": "1896_18960908-V.jpg",
+   "letters": 63,
+   "text": "BEZA DRIPO LARXO ABO NUFA LARMO ERDO GALDA DRIMOT TOUJ MILO MIRO GALBO CHERI",
+   "columnar": 0.095,
+   "null": 0.127,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    1,
+    6,
+    0,
+    4,
+    3
+   ],
+   "reading": "rulambrif aliedmarblzoolxooa gtaocmdatrahirlomb eriduooropajenigod",
+   "anagram": 0.317,
+   "anagram_null": 0.143
+  },
+  {
+   "image": "1885_18851214-52.jpg",
+   "letters": 30,
+   "text": "RE ECR ICI MAL PAR EU ET LOI SU DOU OU ES",
+   "columnar": 0.267,
+   "null": 0.3,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    5,
+    3,
+    1,
+    0
+   ],
+   "reading": "uiremaroseta riuuellecedcopuiso",
+   "anagram": 0.8,
+   "anagram_null": 0.3
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "letters": 146,
+   "text": "WAS SO HAPPY TO GETTWO LETTERS THIS AFERNOON WILL GOTO MARGATE FRIDAY EVERENG TO SEND YOU BOOKS NEAT OF COURSE YOU ARE MARIAGE TO GO AND SEC TOPSY AGAIN SOON SHIRLEY MONDAY NIGHT",
+   "columnar": 0.082,
+   "null": 0.116,
+   "method": "undo width 7",
+   "order": [
+    3,
+    5,
+    0,
+    1,
+    2,
+    4,
+    6
+   ],
+   "reading": "on fwototgcagenotosor smousashasrontires hdhrgneasiladypese tyopcayeouytfmfuat oeorbroprnioegsndd omeyoaakataoyysrtg nneniwawiveaoiigea glnlhrteeslteottog",
+   "anagram": 0.171,
+   "anagram_null": 0.055
+  },
+  {
+   "image": "1885_18850528-H.jpg",
+   "letters": 28,
+   "text": "VEE GOTF ARF FIEF DE OPTS IRPF FIEF",
+   "columnar": 0.143,
+   "null": 0.179,
+   "method": "redo width 7",
+   "order": [
+    3,
+    6,
+    1,
+    4,
+    5,
+    0,
+    2
+   ],
+   "reading": "gfpfffifer epoititesevadrefof",
+   "anagram": 0.071,
+   "anagram_null": 0.107
+  },
+  {
+   "image": "1896_18961016-A.jpg",
+   "letters": 57,
+   "text": "SPE PET TOUS CES LARCG FRADA ERTO ENC GNY FRASES LVATANATT AGO CSO REE",
+   "columnar": 0.175,
+   "null": 0.211,
+   "method": "undo width 7",
+   "order": [
+    4,
+    1,
+    2,
+    5,
+    6,
+    3,
+    0
+   ],
+   "reading": "auc vsrygsgaptfocfteor cerapeassanensolda tceraattgseretonle",
+   "anagram": 0.193,
+   "anagram_null": 0.158
+  },
+  {
+   "image": "1884_18840727-LOUIS.jpg",
+   "letters": 27,
+   "text": "DICE OB EOKE LOMO CF IM FJDE MJ EDE",
+   "columnar": 0.148,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    6,
+    3,
+    4,
+    1,
+    2
+   ],
+   "reading": "djjofokid emibecedomelemecfo",
+   "anagram": 0.0,
+   "anagram_null": 0.074
+  },
+  {
+   "image": "1893_18930919-TRE.jpg",
+   "letters": 27,
+   "text": "YXP RMQXM IPJDP UFXQENAQ VHIRQI",
+   "columnar": 0.148,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    5,
+    3,
+    0,
+    1,
+    4
+   ],
+   "reading": "xardimyqq mprixevquqppnhxfij",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1894_18940111.jpg",
+   "letters": 27,
+   "text": "QOYEZ LA ET PAU DELA NOVEZ SERA NI",
+   "columnar": 0.148,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    6,
+    2,
+    4,
+    3,
+    5
+   ],
+   "reading": "zqueartlo dznapayesonaeelevi",
+   "anagram": 0.519,
+   "anagram_null": 0.074
+  },
+  {
+   "image": "1892_18921216-Violette.jpg",
+   "letters": 27,
+   "text": "VIOLETTE TIVG CE SOIR QWORT AU AL",
+   "columnar": 0.296,
+   "null": 0.333,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    3,
+    1,
+    2,
+    6,
+    0
+   ],
+   "reading": "acitevoue ritirasqvtotlowgel",
+   "anagram": 0.37,
+   "anagram_null": 0.259
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "letters": 80,
+   "text": "OE YOUR LETTERS ARE ALWAYS TOO SHORT SO CHATTER AWAY LIKE IT WRITE UNDER COVER OF MR OXV QNITE SAFE",
+   "columnar": 0.062,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    4,
+    3,
+    6,
+    1,
+    2,
+    0,
+    5
+   ],
+   "reading": "ehkroxtr aesevoctiayqoottro nsveweuiherrartora illerowtwestfaeata smyuytforlnseecoid",
+   "anagram": 0.175,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18891003-B4.jpg",
+   "letters": 53,
+   "text": "FH NAA ATTE MANJVAN VAR ABH TA OEPSAV PIQUE JANHNS EN TOIFOI ET EN",
+   "columnar": 0.151,
+   "null": 0.189,
+   "method": "undo width 6",
+   "order": [
+    0,
+    5,
+    4,
+    1,
+    2,
+    3
+   ],
+   "reading": "fpjoamhsairananfa navhobjapnihvaiset atqetantuneoveetne",
+   "anagram": 0.377,
+   "anagram_null": 0.113
+  },
+  {
+   "image": "1891_18910831-886.jpg",
+   "letters": 26,
+   "text": "LU AUL RY RET HR SLE LET DE ECZ AVZ",
+   "columnar": 0.154,
+   "null": 0.192,
+   "method": "undo width 7",
+   "order": [
+    6,
+    4,
+    5,
+    1,
+    3,
+    0,
+    2
+   ],
+   "reading": "dhzeurle ralleuesvertaclzty",
+   "anagram": 0.385,
+   "anagram_null": 0.192
+  },
+  {
+   "image": "1876_18760305-V.jpg",
+   "letters": 51,
+   "text": "VAI KAVXOUXY EXOU VS VZ CRIRE RIGHT ICIA NOM AVEC SIGNATURE OE",
+   "columnar": 0.157,
+   "null": 0.196,
+   "method": "undo width 6",
+   "order": [
+    0,
+    2,
+    1,
+    5,
+    3,
+    4
+   ],
+   "reading": "vzxmnhacyaatire vtikixeucarocriveu seaxrvionoisgeougv",
+   "anagram": 0.412,
+   "anagram_null": 0.176
+  },
+  {
+   "image": "1896_18961004-LL.jpg",
+   "letters": 25,
+   "text": "VAB GPHTGKPF EQO GZE OXHN CFQT",
+   "columnar": 0.16,
+   "null": 0.2,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    1,
+    2,
+    5,
+    3,
+    4
+   ],
+   "reading": "ggexfzv pkqhqeahpontobtfgc",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880314.jpg",
+   "letters": 24,
+   "text": "TJ ME FACTUM SUR EP CHE FAI OUB",
+   "columnar": 0.167,
+   "null": 0.208,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    0,
+    3,
+    4,
+    1,
+    2
+   ],
+   "reading": "chiset eteoupjfufurcmamab",
+   "anagram": 0.208,
+   "anagram_null": 0.25
+  },
+  {
+   "image": "1889_18891010-M9.jpg",
+   "letters": 24,
+   "text": "PARIS MOC MER PHARE LOR LUX ML",
+   "columnar": 0.167,
+   "null": 0.208,
+   "method": "undo width 5",
+   "order": [
+    4,
+    3,
+    2,
+    0,
+    1
+   ],
+   "reading": "rlespe urmalxporomhcirlam",
+   "anagram": 0.542,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18840730-CH.jpg",
+   "letters": 98,
+   "text": "LETTRE ET RISOLUT PROF TOUCHE NE DOUT PAS DE MON AFFECT CT SOUV EN VOUT EVICKGETXIJDKJALVCROXTIEGHENX ECR PROJ BIENT",
+   "columnar": 0.051,
+   "null": 0.092,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    5,
+    2,
+    1,
+    3
+   ],
+   "reading": "rxuhlsoi veedfjentetdnxtmok veroujocencaureahl tptfeverrfncvoieer ijscdocbotoxkilcut geuttientspettpoag",
+   "anagram": 0.357,
+   "anagram_null": 0.051
+  },
+  {
+   "image": "1896_18960829-V.jpg",
+   "letters": 70,
+   "text": "AGO BELA GALKO LARVO FRADA LARDO DRIBO APO ERSO ET COMPRI FRAZA GALDA ENO FRATA GALBO",
+   "columnar": 0.057,
+   "null": 0.1,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    0,
+    5,
+    1,
+    4,
+    3
+   ],
+   "reading": "dtafzbkacgraoolo oagalambtaparpealo rdrlgdevoiaaarodfg lesfrrabnorialooea",
+   "anagram": 0.086,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18881124-B4.jpg",
+   "letters": 66,
+   "text": "SERAI PHARE GD AV CO PENS FIX ACE MOM OT OU DEJA CE BONH INES EST PRDS DE DIEU RES LUX",
+   "columnar": 0.091,
+   "null": 0.136,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    4,
+    0,
+    3,
+    6,
+    1
+   ],
+   "reading": "mdeesseoigbf estedoirtouanxapur vhairdecicpdesoneh sjlpemadauesorecxn",
+   "anagram": 0.5,
+   "anagram_null": 0.318
+  },
+  {
+   "image": "1896_18960814-V.jpg",
+   "letters": 65,
+   "text": "AFO BANO GALKO ET FERO DUCA TOUT LARVO FRADA LARJO DIRIKO MICO DRIVO DRIXO MIJO",
+   "columnar": 0.138,
+   "null": 0.185,
+   "method": "undo width 5",
+   "order": [
+    0,
+    4,
+    1,
+    3,
+    2
+   ],
+   "reading": "alrjtfaiofo rvdebvoiraodronfri dorikugaxocadomala mitklicooajouerodt",
+   "anagram": 0.092,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960818-V.jpg",
+   "letters": 64,
+   "text": "ABO BASO BATO SUPP POT MYVYL FRABA ZUVLY ERDO DRIPO MIGO PALLA DRIMO MILO ERCO",
+   "columnar": 0.078,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    4,
+    6,
+    2,
+    0,
+    3
+   ],
+   "reading": "otoomaapod mybzasrivouluilybv lppolalapoefsydpmr roeroicabritgobadm",
+   "anagram": 0.062,
+   "anagram_null": 0.047
+  },
+  {
+   "image": "1885_18851020-22.jpg",
+   "letters": 41,
+   "text": "HER DP PET KGJ PEE YRR KYP MS KEP BEN MEN EPBIIS IR PS",
+   "columnar": 0.098,
+   "null": 0.146,
+   "method": "undo width 5",
+   "order": [
+    4,
+    2,
+    1,
+    3,
+    0
+   ],
+   "reading": "prkph bkgbeiyjerippndsme mpiseeprkyneperets",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960725-P.jpg",
+   "letters": 63,
+   "text": "GIRO VOUDR TE ATYL PAR CALMO CORNO PTIE PR IZA AFT PATIENC ARDEM RETOUR CATON",
+   "columnar": 0.079,
+   "null": 0.127,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    5,
+    1,
+    4,
+    2,
+    6
+   ],
+   "reading": "gontactip ceaaortaafluoirttm rvedypocopelacaurm ptotdirairorzerenn",
+   "anagram": 0.254,
+   "anagram_null": 0.127
+  },
+  {
+   "image": "1896_18960927-V.jpg",
+   "letters": 62,
+   "text": "BOJILARMO APO CACRO ESBO FLEGO UNE SEC ERCO FRAXA GALDA TOUT FRAVA LARVO VO",
+   "columnar": 0.081,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    6,
+    1,
+    5,
+    4,
+    2
+   ],
+   "reading": "buvadoso napafbjelotroisaco aflerauxlacvctaere orfggmrvoraoocoeal",
+   "anagram": 0.161,
+   "anagram_null": 0.048
+  },
+  {
+   "image": "1877_18771020-VTA.jpg",
+   "letters": 115,
+   "text": "HAVE POSREE MYSELF FUNDAY EVENING HXDL OF THD DID NOT DARE CHANE GING DIRECTION MUST BE IN MARGATE REEEIVED NOT YET SHIRLEY THURSDAY SRA EE",
+   "columnar": 0.07,
+   "null": 0.122,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    2,
+    1,
+    4,
+    3,
+    6
+   ],
+   "reading": "haoeuul anfesnevetitdyeghv batpideeyhonddieus ginnvrrddomeseinta nderoyriametegnyyc dtagsstasthreirhex aloeirdefncrelefmh",
+   "anagram": 0.2,
+   "anagram_null": 0.026
+  },
+  {
+   "image": "1888_18880620-B4.jpg",
+   "letters": 77,
+   "text": "DERN MESS PU ET INS DIM MERCI AS BIEN COMP SENS CROIX CRAY PQ TOUT PRET TON ARR SI HEUR AMI FRANCE",
+   "columnar": 0.104,
+   "null": 0.156,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    2,
+    4,
+    5,
+    3,
+    1
+   ],
+   "reading": "tuits adirateyenasonprsm bnsqndiiactmiferro emrnrousmacsitseno ixpprcmhcruceperee",
+   "anagram": 0.649,
+   "anagram_null": 0.091
+  },
+  {
+   "image": "1886_18860907-77.jpg",
+   "letters": 37,
+   "text": "AV PANI PROT CEP AV ECR UN MOT HOT EST BI MAIS TR",
+   "columnar": 0.135,
+   "null": 0.189,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    1,
+    5,
+    4,
+    3,
+    2
+   ],
+   "reading": "i eastrappithuvrasbo npovtitmatermeoncc",
+   "anagram": 0.649,
+   "anagram_null": 0.162
+  },
+  {
+   "image": "1881_18810523.jpg",
+   "letters": 37,
+   "text": "BONIC DO VISOL LIBLINIS CAR SAV NIN TSIGAT DO",
+   "columnar": 0.108,
+   "null": 0.162,
+   "method": "undo width 7",
+   "order": [
+    3,
+    1,
+    5,
+    2,
+    0,
+    4,
+    6
+   ],
+   "reading": "a dibilgrononlasvint itaisisbdvsccilono",
+   "anagram": 0.162,
+   "anagram_null": 0.054
+  },
+  {
+   "image": "1888_18881201-B4.jpg",
+   "letters": 92,
+   "text": "VEUIL CE TU ECR SE REA TU SAIS ET MON MG MIL FOIS PENS ET PHAR CELA DI QUI PARAIT SE RAP DE EN AI CONF EN ET EN FRANCE LUX",
+   "columnar": 0.054,
+   "null": 0.109,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    0,
+    4,
+    1,
+    5,
+    3
+   ],
+   "reading": "oq eespvnurtedemieete ugpanpeimatfhnliru raaclasariefiancct oticeouisselneseel afcprtudereamxinsn",
+   "anagram": 0.641,
+   "anagram_null": 0.152
+  },
+  {
+   "image": "1882_18820608-PAUL.jpg",
+   "letters": 54,
+   "text": "PET IDO THINK OF RPE ABEO TELL MOE MRH MUCH GRP NO NEWS YET OF HARDLY",
+   "columnar": 0.111,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    3,
+    1,
+    5,
+    0
+   ],
+   "reading": "ouplenifcemaenhhto bwkagieesorrdmoyfd porterlnthetpyohml",
+   "anagram": 0.093,
+   "anagram_null": 0.056
+  },
+  {
+   "image": "1896_18960815-V.jpg",
+   "letters": 70,
+   "text": "GER RE RR RA AGO BAPO FLESO DESVO MIRO SEUL FRAGA MITO FRATA GALA GALBO MEME LHOAY ERDO",
+   "columnar": 0.129,
+   "null": 0.186,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    1,
+    0,
+    3,
+    4,
+    5
+   ],
+   "reading": "sogilegedetaloue roghblsrfaoafverla prorabyoamrtoefgir amrlaragedemoaamos",
+   "anagram": 0.243,
+   "anagram_null": 0.057
+  },
+  {
+   "image": "1882_18820607-42.jpg",
+   "letters": 35,
+   "text": "FE TPE APS GF SPD CRPT FP SRO BOPF CRPT NPAGE",
+   "columnar": 0.143,
+   "null": 0.2,
+   "method": "undo width 7",
+   "order": [
+    1,
+    4,
+    5,
+    3,
+    6,
+    0,
+    2
+   ],
+   "reading": "ffnpasrceptpporta fsdbppgpgcoteesfrp",
+   "anagram": 0.086,
+   "anagram_null": 0.086
+  },
+  {
+   "image": "1888_18880705-GA.jpg",
+   "letters": 34,
+   "text": "RID TATTSPQJ VB MB ICI TEMP TRIS COM CCEUR",
+   "columnar": 0.118,
+   "null": 0.176,
+   "method": "redo width 6",
+   "order": [
+    2,
+    3,
+    5,
+    1,
+    0,
+    4
+   ],
+   "reading": "dpbmcutqiportvir cismesertbticajctm",
+   "anagram": 0.088,
+   "anagram_null": 0.059
+  },
+  {
+   "image": "1888_18881026-B4.jpg",
+   "letters": 69,
+   "text": "REC MERCI BONH SEUL SOUT DANS MA TERR DOUL CH ATT IM PAT LEMOY VENV ES TU PORT DE LUX AMI",
+   "columnar": 0.13,
+   "null": 0.188,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    6,
+    1,
+    5,
+    2,
+    3
+   ],
+   "reading": "nrvrridhdetemas ondcpneuvemasulele tmlcsurlashtxcetoa uaimeutpmborttoioy",
+   "anagram": 0.464,
+   "anagram_null": 0.145
+  },
+  {
+   "image": "1896_18961008-V.jpg",
+   "letters": 69,
+   "text": "LARPO GATA LARMO FLEGOS DRISO FLERO ERDO DRIVO DRIZO GALDA MILO AV MITO FRATA LARZO",
+   "columnar": 0.087,
+   "null": 0.145,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    2,
+    6,
+    5,
+    4,
+    1
+   ],
+   "reading": "afdlmderrrairrm airlidotspozofaooa odllfgvgrealamaigr etilvozratdosooloa",
+   "anagram": 0.159,
+   "anagram_null": 0.101
+  },
+  {
+   "image": "1893_18930510-Nic.jpg",
+   "letters": 50,
+   "text": "NEO ER PEED OHUTAST OT PLIANT LIB SOJR ET MAT LIEUCONV SIT VEU",
+   "columnar": 0.1,
+   "null": 0.16,
+   "method": "undo width 6",
+   "order": [
+    2,
+    5,
+    1,
+    0,
+    3,
+    4
+   ],
+   "reading": "ionandbtetvosp olsholeiiujirettra puvaenecestteoutml",
+   "anagram": 0.2,
+   "anagram_null": 0.12
+  },
+  {
+   "image": "1896_18960906-V.jpg",
+   "letters": 66,
+   "text": "AJO BEXA ERBO ENC FRAZADANS FLERO NUFA DRIVO FRASA FRAVA FRATA GALBO MILO LARZO",
+   "columnar": 0.061,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    6,
+    4,
+    5,
+    1,
+    0
+   ],
+   "reading": "oabanfdmfoju raireofanlanbassot cedaflafxrflagrair eraaevarzlzrovooba",
+   "anagram": 0.061,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860717-90.jpg",
+   "letters": 49,
+   "text": "SI NEC PR MAIS CELA AP PI ON ET EN ATT TR PUIS DE DE AV OT SUR TR OT",
+   "columnar": 0.204,
+   "null": 0.265,
+   "method": "undo width 6",
+   "order": [
+    5,
+    1,
+    2,
+    0,
+    4,
+    3
+   ],
+   "reading": "naptssaipsdit siuentcordetentecr lerappatovruaetomi",
+   "anagram": 0.592,
+   "anagram_null": 0.367
+  },
+  {
+   "image": "1897_18970502-13.jpg",
+   "letters": 32,
+   "text": "COE ASP VR SOU JE JE AD GA MOI BES PR RESIS",
+   "columnar": 0.188,
+   "null": 0.25,
+   "method": "undo width 6",
+   "order": [
+    3,
+    2,
+    4,
+    0,
+    1,
+    5
+   ],
+   "reading": "aipcurdbvojege reesassajimposesor",
+   "anagram": 0.406,
+   "anagram_null": 0.156
+  },
+  {
+   "image": "1896_18960627-P.jpg",
+   "letters": 64,
+   "text": "ENSEMBLE TOUT TOUTA ACARO GUTO MERCI DOCA ADITO PAR INALT AFF IBIS ACAMO UNIS",
+   "columnar": 0.125,
+   "null": 0.188,
+   "method": "undo width 5",
+   "order": [
+    1,
+    0,
+    4,
+    3,
+    2
+   ],
+   "reading": "oeitmunboe tsipraesacamaricbc idalanoremacotolag outauunadttifiotsf",
+   "anagram": 0.453,
+   "anagram_null": 0.078
+  },
+  {
+   "image": "1876_18760915-2S.jpg",
+   "letters": 62,
+   "text": "MERCI CHER ECR CGLPS BEGN MEME ADR SI TU NE COMP PAS ECRIR POUR OU TOUJ ET PART",
+   "columnar": 0.145,
+   "null": 0.21,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    2,
+    4,
+    3,
+    1,
+    5
+   ],
+   "reading": "ribodome remruecpgpsjrronpi eccumattigresupclo menahpuecerestarct",
+   "anagram": 0.629,
+   "anagram_null": 0.129
+  },
+  {
+   "image": "1896_18960918-23.jpg",
+   "letters": 31,
+   "text": "OUI RSATILMPE UTNKINQAULELMPEONAT",
+   "columnar": 0.129,
+   "null": 0.194,
+   "method": "undo width 6",
+   "order": [
+    1,
+    4,
+    0,
+    2,
+    3,
+    5
+   ],
+   "reading": "poilaeeunetou iqlintramlansupmtk",
+   "anagram": 0.097,
+   "anagram_null": 0.097
+  },
+  {
+   "image": "1899_18991226-13.jpg",
+   "letters": 61,
+   "text": "REC LET NOUV REC ENIG PRUD EXPLIC DERN EXCEL CHIF INDIQ POS TEND AM DOM TOUT",
+   "columnar": 0.098,
+   "null": 0.164,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    1,
+    4,
+    6,
+    5,
+    3
+   ],
+   "reading": "rrvadqc eurmephcdedroileco nsfexemetitpntxenn liocndoiguediucptl",
+   "anagram": 0.213,
+   "anagram_null": 0.295
+  },
+  {
+   "image": "1896_18960624-P.jpg",
+   "letters": 59,
+   "text": "ABAT DONT AV BES LEMON ESP RETAN GUXO CASA OBTENU RENSEIGN SDAGOTK GURO",
+   "columnar": 0.153,
+   "null": 0.22,
+   "method": "undo width 6",
+   "order": [
+    1,
+    0,
+    4,
+    5,
+    3,
+    2
+   ],
+   "reading": "badup cebarrasageesltont aedtsaomokenbongig tntugueearnxnsvoso",
+   "anagram": 0.288,
+   "anagram_null": 0.068
+  },
+  {
+   "image": "1896_18961219-Pierre.jpg",
+   "letters": 89,
+   "text": "BSE TES KNDKSPFNSBBIF TF VPKR FN PFRSPNNF MBKS NPN PPXR TF SXPPLKF PPXR IB TVPKSKFMF FPKS FKXFR RFNDTZ VPXS",
+   "columnar": 0.0,
+   "null": 0.067,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    6,
+    3,
+    1,
+    0,
+    4
+   ],
+   "reading": "ppbkxnfkpssfsnsle nrbpkktprbfffenfir mpspnfsfpkpdtpfxnx tfnprdrzvnkiktvpfs bsfpkmftpsxrbkvfxs",
+   "anagram": 0.034,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1895_18950906-FL.jpg",
+   "letters": 74,
+   "text": "REGU LETT TU ME TROUV AU AI PEUR TRE EMPECHE PAR DE OU DE VOUDRAIS ENS FAIS POSS ME JOURNGE AT",
+   "columnar": 0.081,
+   "null": 0.149,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    0,
+    5,
+    6,
+    1,
+    4
+   ],
+   "reading": "en ereheustejevrfrgop otaouuauriulrrdesv endrepatgeamouteoi psatausesiutdecmpm",
+   "anagram": 0.595,
+   "anagram_null": 0.081
+  },
+  {
+   "image": "1889_18891024-B4.jpg",
+   "letters": 59,
+   "text": "BEESTES CHER LET CONS AF DOUL VAR AME ENF PA RIS MOC LORCAR OUI MER AT AV MI",
+   "columnar": 0.068,
+   "null": 0.136,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    4,
+    6,
+    2,
+    3,
+    1
+   ],
+   "reading": "bmpos eaeeararrerrcflasa iademttsroteeamouc esvouloncmcivnfhil",
+   "anagram": 0.39,
+   "anagram_null": 0.119
+  },
+  {
+   "image": "1892_18920611-B4.jpg",
+   "letters": 29,
+   "text": "RL GR CHAG ABS ADND SER SI HS REV TJ FF",
+   "columnar": 0.138,
+   "null": 0.207,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    5,
+    3,
+    6,
+    2,
+    4
+   ],
+   "reading": "rhsntbrlard jssggesfairavefdhc",
+   "anagram": 0.172,
+   "anagram_null": 0.31
+  },
+  {
+   "image": "1880_18801016-J.jpg",
+   "letters": 57,
+   "text": "REGU TOUTES LETTRES OTQD VJZVBIVJVKP GNUTG PV WIGN VK KIWVJ XV PTGJV",
+   "columnar": 0.0,
+   "null": 0.07,
+   "method": "undo width 7",
+   "order": [
+    6,
+    5,
+    0,
+    1,
+    3,
+    4,
+    2
+   ],
+   "reading": "sbj ngeroixunsetvvtvlg qjpgkeudvtpkttvkgv itojpjwwruzgvivetv",
+   "anagram": 0.263,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18931008-Bob24.jpg",
+   "letters": 56,
+   "text": "PE OBJET PAS GRATUI TEMENT NE OIGR PAS VILLE JE TOUT LE ET SUIS SQORSZ",
+   "columnar": 0.089,
+   "null": 0.161,
+   "method": "undo width 7",
+   "order": [
+    2,
+    3,
+    4,
+    5,
+    0,
+    1,
+    6
+   ],
+   "reading": "iu patoilteseisllogmg seebrerqjejanpoete ttartstunssoupievz",
+   "anagram": 0.571,
+   "anagram_null": 0.214
+  },
+  {
+   "image": "1893_18931004-MI.jpg",
+   "letters": 27,
+   "text": "TH LUCHOISNAVRE OJ EDE OU SIL AND",
+   "columnar": 0.148,
+   "null": 0.222,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    3,
+    5,
+    6,
+    2,
+    1
+   ],
+   "reading": "clostreha unhedonsaloeidivuj",
+   "anagram": 0.185,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880624-B4.jpg",
+   "letters": 40,
+   "text": "AICOU POUV ECR ENF AV RET AUR REVA DE SOUF BONH AMI",
+   "columnar": 0.125,
+   "null": 0.2,
+   "method": "undo width 6",
+   "order": [
+    3,
+    1,
+    0,
+    4,
+    5,
+    2
+   ],
+   "reading": "fuba udavoirevencrsrcho eoerauvutempafanio",
+   "anagram": 0.275,
+   "anagram_null": 0.1
+  },
+  {
+   "image": "1896_18960820-V.jpg",
+   "letters": 66,
+   "text": "ADO BAXO ERBO FRAZA ESBO ZYL ZLEMYOL WBHUOX ERDO FRATA GALBO XICANM FRAXA GALDA",
+   "columnar": 0.0,
+   "null": 0.076,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    6,
+    0,
+    1,
+    5,
+    3
+   ],
+   "reading": "odbrabolooad ozwffxoxybrrabilha agaczutzaxaloaalon exgedemmeasarfyrlb",
+   "anagram": 0.121,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1876_18760206-bonjour.jpg",
+   "letters": 26,
+   "text": "NE EE EE EE ANE BRRR MI DE CC THIAM",
+   "columnar": 0.462,
+   "null": 0.538,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    3,
+    0,
+    6,
+    4,
+    5
+   ],
+   "reading": "renaciir eencadreeetmemeebh",
+   "anagram": 0.154,
+   "anagram_null": 0.346
+  },
+  {
+   "image": "1888_18880530-B4.jpg",
+   "letters": 52,
+   "text": "LET TUADOU TRIST IM VIV SEP MERCI IY PENS FIXEE AU JOUR OV FRANCE",
+   "columnar": 0.077,
+   "null": 0.154,
+   "method": "undo width 6",
+   "order": [
+    3,
+    4,
+    0,
+    2,
+    5,
+    1
+   ],
+   "reading": "iriltxvoieresvyt ieefptsapreutumana ijensdmorcfovuceiu",
+   "anagram": 0.481,
+   "anagram_null": 0.115
+  },
+  {
+   "image": "1896_18960817.jpg",
+   "letters": 64,
+   "text": "INQPTT RVJUU HSPVQF WBJT MVDFSOF FCSJT TFSBJ HBSF FQJOBX MF NFSDJ BNJF SZTDL",
+   "columnar": 0.0,
+   "null": 0.078,
+   "method": "undo width 6",
+   "order": [
+    0,
+    1,
+    4,
+    5,
+    2,
+    3
+   ],
+   "reading": "ihfdvtnsqj dtqpjbffpvonsstqbj obtfxffjrwmsfhvbfz cbjjntssutfdjfumsl",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960901-V.jpg",
+   "letters": 64,
+   "text": "ABO BEMA BENA BEPA ET FORO NULA LARMO LARPO FRASA FRAVA LARVO DRIDO MILO LARZO",
+   "columnar": 0.062,
+   "null": 0.141,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    3,
+    6,
+    5,
+    4,
+    1
+   ],
+   "reading": "nmaraamaib orsoblonvaleobuofa pleldrraamaraperal ivotzbadaffoerolro",
+   "anagram": 0.109,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18840722.jpg",
+   "letters": 50,
+   "text": "PREF SOUF PR IMP AG AV SAG FERM CONT EC ENDT DET RN DE NOU CR TOUJ",
+   "columnar": 0.16,
+   "null": 0.24,
+   "method": "redo width 6",
+   "order": [
+    0,
+    4,
+    3,
+    2,
+    5,
+    1
+   ],
+   "reading": "pupacetousivre detfraettdrepgfndn comsmcenorfagonruj",
+   "anagram": 0.2,
+   "anagram_null": 0.04
+  },
+  {
+   "image": "1890_18901008-B4.jpg",
+   "letters": 25,
+   "text": "GH LET MQ RET ADNCB SUCLOR NO ML",
+   "columnar": 0.16,
+   "null": 0.24,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    4,
+    3,
+    6,
+    2,
+    1
+   ],
+   "reading": "gncartb holdemslmontquelrc",
+   "anagram": 0.2,
+   "anagram_null": 0.08
+  },
+  {
+   "image": "1875_18750919-Minet.jpg",
+   "letters": 50,
+   "text": "MET SOI CH LET MER PEN FOL DIT DET SOU REND ET PL SOU CES DEP AT IB",
+   "columnar": 0.08,
+   "null": 0.16,
+   "method": "undo width 7",
+   "order": [
+    4,
+    0,
+    5,
+    3,
+    1,
+    6,
+    2
+   ],
+   "reading": "hrdtmelleedens enpetfotdatsoumets olcetioiderpbucisp",
+   "anagram": 0.64,
+   "anagram_null": 0.3
+  },
+  {
+   "image": "1891_18910605-243S.jpg",
+   "letters": 75,
+   "text": "TROIT SI TJRS PXZR ESPR BTOT ITR OBPWHS ONES YS OOT SOTXR NT VDRS YYZSROR PWRTYZT SOVRS VS EE",
+   "columnar": 0.107,
+   "null": 0.187,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    5,
+    6,
+    1,
+    0,
+    4
+   ],
+   "reading": "yop tztoztxrtinsxzoste rrriorsonetvoyrtss rbspvpispowdrtvwor rbjshttstressyyose",
+   "anagram": 0.12,
+   "anagram_null": 0.093
+  },
+  {
+   "image": "1896_18960729-P.jpg",
+   "letters": 50,
+   "text": "ACHAT ATT IMP REYAN GUXO ACAMORAIS CAM COSIO AY DOCA APR COLL",
+   "columnar": 0.08,
+   "null": 0.16,
+   "method": "undo width 7",
+   "order": [
+    6,
+    3,
+    4,
+    0,
+    5,
+    2,
+    1
+   ],
+   "reading": "caotacaapainac mrymgmhocdpucaroor xotalceosailayaits",
+   "anagram": 0.06,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1876_18760120-MEA.jpg",
+   "letters": 37,
+   "text": "ESP PAS MAL IR SI RETOUR SI EMP ECR SAM OU SI MAL",
+   "columnar": 0.243,
+   "null": 0.324,
+   "method": "undo width 7",
+   "order": [
+    6,
+    0,
+    1,
+    4,
+    3,
+    2,
+    5
+   ],
+   "reading": "s ssmusemiaprisarmes mpleociapiturelaro",
+   "anagram": 0.622,
+   "anagram_null": 0.432
+  },
+  {
+   "image": "1883_18830220-7.jpg",
+   "letters": 49,
+   "text": "TR CRH ARDCA FR EOS FEG FR DCRH HMR OBFFEBT SRCTROBE BIT JP FP",
+   "columnar": 0.102,
+   "null": 0.184,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    5,
+    4,
+    1,
+    0,
+    6
+   ],
+   "reading": "rbdtcsbcfcrrf itfachetrefrhgjobr hmfpbtearrfesorodp",
+   "anagram": 0.061,
+   "anagram_null": 0.041
+  },
+  {
+   "image": "1886_18860423-52.jpg",
+   "letters": 60,
+   "text": "HE UN MOT RES CE SILE PAR AI EUE NOU CROI BIEN SUIS OUB ENTIE PAR TOUR MA POUR",
+   "columnar": 0.083,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    2,
+    6,
+    5,
+    4,
+    3
+   ],
+   "reading": "hsrons cecauturueiriionse mesimiuapobolepaui tenorberpouteneaur",
+   "anagram": 0.633,
+   "anagram_null": 0.15
+  },
+  {
+   "image": "1886_18860815-77.jpg",
+   "letters": 46,
+   "text": "TI PRO SI VM SOY PAS MIN ET PARL LES LES NE PAS SUIS LIS CECI",
+   "columnar": 0.13,
+   "null": 0.217,
+   "method": "redo width 4",
+   "order": [
+    3,
+    2,
+    1,
+    0
+   ],
+   "reading": "rvymtllesl epiosersnsscissana esaisitompiplepuic",
+   "anagram": 0.63,
+   "anagram_null": 0.196
+  },
+  {
+   "image": "1896_18960909-V.jpg",
+   "letters": 69,
+   "text": "ACO BIBU BICULARVO MAIS FRAMA DRIKO JALOUX CAGRO DRILA NUBA LARJO ERBO FRATA LARZO",
+   "columnar": 0.072,
+   "null": 0.159,
+   "method": "undo width 7",
+   "order": [
+    5,
+    3,
+    2,
+    1,
+    0,
+    4,
+    6
+   ],
+   "reading": "ojfulardarlacar laarotiomrjbaluavo ilaxdoebancrmrurua iabbzbgkioioarosfc",
+   "anagram": 0.203,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1897_18970908-FL.jpg",
+   "letters": 46,
+   "text": "QUE NE PAS INE TARD AE DOS NE ME EGP NE PAS RECEV AVIS CONTR",
+   "columnar": 0.174,
+   "null": 0.261,
+   "method": "undo width 7",
+   "order": [
+    1,
+    2,
+    6,
+    0,
+    4,
+    3,
+    5
+   ],
+   "reading": "nqsensdeui cecamenepoeenevand eetastogpavrrspari",
+   "anagram": 0.609,
+   "anagram_null": 0.217
+  },
+  {
+   "image": "1896_18960625-P.jpg",
+   "letters": 33,
+   "text": "PE AL ACHAT TON EXACT FAIT BON TBIS CESIO",
+   "columnar": 0.152,
+   "null": 0.242,
+   "method": "undo width 7",
+   "order": [
+    6,
+    5,
+    1,
+    2,
+    3,
+    4,
+    0
+   ],
+   "reading": "ctxanapetaitces octbhaintbialoefos",
+   "anagram": 0.364,
+   "anagram_null": 0.061
+  },
+  {
+   "image": "1894_18940706-NE.jpg",
+   "letters": 54,
+   "text": "IRAI PLE HKI WEL VIS KEU PHA NWD KJE ZXL MKS ZZL OEZ IZT IMP ANC GPS JZ",
+   "columnar": 0.0,
+   "null": 0.093,
+   "method": "undo width 6",
+   "order": [
+    3,
+    5,
+    2,
+    4,
+    0,
+    1
+   ],
+   "reading": "lpuieioaprzwenhaxe zcaillignpmvzpwlki tsdessijkhzkmzjkze",
+   "anagram": 0.13,
+   "anagram_null": 0.056
+  },
+  {
+   "image": "1888_18880718-B4.jpg",
+   "letters": 52,
+   "text": "HEUR AV IMP ATT DEPE POURV RIEN NAP OBST SOUF AFF CET PENS AMI LUX",
+   "columnar": 0.173,
+   "null": 0.269,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    2,
+    4,
+    1,
+    6,
+    5
+   ],
+   "reading": "msehesfptpenacas ounmetouraitturapl pdfvvoueearibxnpfi",
+   "anagram": 0.365,
+   "anagram_null": 0.135
+  },
+  {
+   "image": "1896_18960915-V.jpg",
+   "letters": 70,
+   "text": "AGO BILU BIVU LARPO FRAVA LARDO CROIS ABS MILO DRICO BIMU ERFO FLEVO COGA FRATA GALBO",
+   "columnar": 0.071,
+   "null": 0.171,
+   "method": "undo width 6",
+   "order": [
+    3,
+    0,
+    4,
+    1,
+    5,
+    2
+   ],
+   "reading": "aigaderlagorpofo cfodrbrofraiofritl ilacausevogbavabai bolilvscambumoruol",
+   "anagram": 0.114,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18861226.jpg",
+   "letters": 59,
+   "text": "ARIE VOY COM BI ACT BON AD CT VY ACT VV AE ACT VEE VY THE VY FI ACT QS JVJ ERE DV",
+   "columnar": 0.068,
+   "null": 0.169,
+   "method": "undo width 6",
+   "order": [
+    1,
+    0,
+    3,
+    4,
+    2,
+    5
+   ],
+   "reading": "bahce siretajaivvcvceyyt jtvfaveboiceroyate enccvvdaotvyvdmqat",
+   "anagram": 0.085,
+   "anagram_null": 0.203
+  },
+  {
+   "image": "1893_18931013-JT.jpg",
+   "letters": 69,
+   "text": "VIENS TU ANRAGIRECOMP SOIS BS TRIST DONNE COUR ME GARDE DES NIFXSVILMH PR TOI CH JAL",
+   "columnar": 0.087,
+   "null": 0.188,
+   "method": "undo width 6",
+   "order": [
+    1,
+    5,
+    0,
+    4,
+    2,
+    3
+   ],
+   "reading": "bvdhcisieportes ruernntrcisiomostf iemtuxcgpdashasonv jronriadinallesegm",
+   "anagram": 0.478,
+   "anagram_null": 0.101
+  },
+  {
+   "image": "1889_18891031-M9.jpg",
+   "letters": 39,
+   "text": "MERCI LECT REL COUR ENF MOC PL MIL LOR MR AV FAR MI",
+   "columnar": 0.103,
+   "null": 0.205,
+   "method": "undo width 7",
+   "order": [
+    4,
+    6,
+    3,
+    1,
+    5,
+    0,
+    2
+   ],
+   "reading": "lev emplonflelerfacrmc mmrocitromuilracir",
+   "anagram": 0.282,
+   "anagram_null": 0.231
+  },
+  {
+   "image": "1880_18801211.jpg",
+   "letters": 29,
+   "text": "COMPRENDS PAS NI II NI PASREMKHVEG",
+   "columnar": 0.138,
+   "null": 0.241,
+   "method": "undo width 7",
+   "order": [
+    2,
+    0,
+    4,
+    3,
+    5,
+    6,
+    1
+   ],
+   "reading": "rhcipirevoi apenemisamdgpnnsks",
+   "anagram": 0.621,
+   "anagram_null": 0.172
+  },
+  {
+   "image": "1883_18830720-GIVE.jpg",
+   "letters": 58,
+   "text": "MFDPF XTVQX UQMFJ FTQFO UGGUD FI BDDPN RTIBE OUTBO IEAUD INES CUUGY FO",
+   "columnar": 0.069,
+   "null": 0.172,
+   "method": "undo width 6",
+   "order": [
+    4,
+    1,
+    5,
+    0,
+    2,
+    3
+   ],
+   "reading": "dxun modutefupqbsdgnmoc pgrfiufutjeuxdifag tfbtuyvieqdfqbofio",
+   "anagram": 0.19,
+   "anagram_null": 0.034
+  },
+  {
+   "image": "1896_18960714-P.jpg",
+   "letters": 77,
+   "text": "AR ABAT MAIS IMPL SOUV MEIL ET GWENDO MERCI EXQ SURPR CARON REMAN PROJ ACAMO GUROAM NON PL AA TS",
+   "columnar": 0.0,
+   "null": 0.104,
+   "method": "undo width 6",
+   "order": [
+    5,
+    1,
+    0,
+    4,
+    2,
+    3
+   ],
+   "reading": "wpars aelnournsparadormp bouonramvjoctemana mrecpracialoiilman seeoarixtgtemqgusm",
+   "anagram": 0.234,
+   "anagram_null": 0.208
+  },
+  {
+   "image": "1896_18960602-13m.jpg",
+   "letters": 29,
+   "text": "CH VR VR COM BY TEN ME BR AUT COUP SUPP",
+   "columnar": 0.172,
+   "null": 0.276,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    1,
+    3,
+    6,
+    0,
+    4
+   ],
+   "reading": "tmcesvbcbhn urroyvmpcautrepoup",
+   "anagram": 0.207,
+   "anagram_null": 0.138
+  },
+  {
+   "image": "1887_18870227.jpg",
+   "letters": 38,
+   "text": "NOUV MARIE FT ANI CONF PR DED EC FA AV YS ET DAI EX",
+   "columnar": 0.105,
+   "null": 0.211,
+   "method": "undo width 6",
+   "order": [
+    4,
+    0,
+    3,
+    1,
+    2,
+    5
+   ],
+   "reading": "rr aintidacodeevouafd ynvitesfmeacepaxnf",
+   "anagram": 0.289,
+   "anagram_null": 0.105
+  },
+  {
+   "image": "1895_18950803-NE.jpg",
+   "letters": 47,
+   "text": "ARSE ONY AXS TZC KIC KZR UDE JRH VPS YMY OST BOE EST STH RE ES",
+   "columnar": 0.0,
+   "null": 0.106,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    6,
+    5,
+    3,
+    1,
+    0
+   ],
+   "reading": "stapaditbxs rechosysjkretmerze ezyohresconvustksy",
+   "anagram": 0.298,
+   "anagram_null": 0.128
+  },
+  {
+   "image": "1898_18980811-13.jpg",
+   "letters": 28,
+   "text": "RET VOIR ALO EH BIEN REST REDI MSNH",
+   "columnar": 0.179,
+   "null": 0.286,
+   "method": "undo width 6",
+   "order": [
+    5,
+    4,
+    2,
+    0,
+    3,
+    1
+   ],
+   "reading": "iilsoremot ienserrtrnheavehbd",
+   "anagram": 0.643,
+   "anagram_null": 0.143
+  },
+  {
+   "image": "1889_18890524-M9.jpg",
+   "letters": 63,
+   "text": "DU RET DU PARTI AV AA ET ET PL JAM SOM DE CHAG AA SOIS HEUR ESP ET FOI ABS EN MON LUX",
+   "columnar": 0.079,
+   "null": 0.19,
+   "method": "undo width 6",
+   "order": [
+    0,
+    4,
+    3,
+    2,
+    1,
+    5
+   ],
+   "reading": "duhlibura jasregaveesamantpa samdesoeoutomtnpfi delaoseturihcpxtae",
+   "anagram": 0.54,
+   "anagram_null": 0.143
+  },
+  {
+   "image": "1893_18930610-Mimi.jpg",
+   "letters": 36,
+   "text": "MIMI KV GIVG CX OVKG DRIV RIGE CVM KRU AI EIZK",
+   "columnar": 0.0,
+   "null": 0.111,
+   "method": "undo width 7",
+   "order": [
+    3,
+    2,
+    4,
+    5,
+    0,
+    1,
+    6
+   ],
+   "reading": "rmvmcgiikgixdegrim orieuvivizcagkkvkv",
+   "anagram": 0.056,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1888_18880602-B4.jpg",
+   "letters": 44,
+   "text": "MEM CHAG HEUW COM ENTR AV JD CE COIN DE NOT OU BONH AT LUX",
+   "columnar": 0.182,
+   "null": 0.295,
+   "method": "undo width 7",
+   "order": [
+    3,
+    0,
+    5,
+    6,
+    2,
+    4,
+    1
+   ],
+   "reading": "gnomomvh hietejeanmondutdcu tcwlehbrecunaoacox",
+   "anagram": 0.455,
+   "anagram_null": 0.273
+  },
+  {
+   "image": "1890_18901006-B4.jpg",
+   "letters": 78,
+   "text": "CE EE EE EE EE OE PEE TRIS AV LET SANS AUC ATT DEM IMP AAA DDNEB GARDE NOUS DEUX MAR LOR SIM MIL LUX MI",
+   "columnar": 0.064,
+   "null": 0.179,
+   "method": "undo width 6",
+   "order": [
+    1,
+    4,
+    3,
+    5,
+    2,
+    0
+   ],
+   "reading": "ocenep renseaseoataieuura mescidmedasdieetan leutvelexdlbuemeeg xoamtamerisriplmad",
+   "anagram": 0.346,
+   "anagram_null": 0.167
+  },
+  {
+   "image": "1891_18911005-ADA.jpg",
+   "letters": 61,
+   "text": "MIE LE MOT TS TR AV MEREC VOUDR TE CONS HUM TU SUB ENC AUP ON NES ENC ICI DUN NEV",
+   "columnar": 0.164,
+   "null": 0.279,
+   "method": "undo width 6",
+   "order": [
+    4,
+    5,
+    2,
+    1,
+    0,
+    3
+   ],
+   "reading": "chocmta uuiirumdceaptrilvo utdemnseumenucnore bontesenetcensvsvn",
+   "anagram": 0.361,
+   "anagram_null": 0.311
+  },
+  {
+   "image": "1881_18810729-TELLY.jpg",
+   "letters": 69,
+   "text": "PEN CEMLVEPOIDCIEEAOCSI TNUPIOTDSDETIEM AUIAIEUELPSEESRERDTJRRESMRZIAKTE",
+   "columnar": 0.232,
+   "null": 0.348,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    5,
+    6,
+    4,
+    2,
+    1
+   ],
+   "reading": "peeoissessiaidn mrditecrecentezriu uimideepelatelimvk japoaetrostuperced",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1889_18890228-MIG.jpg",
+   "letters": 26,
+   "text": "OH OUI SIMILIT DESIRS TOI FOR EV",
+   "columnar": 0.192,
+   "null": 0.308,
+   "method": "undo width 6",
+   "order": [
+    2,
+    5,
+    3,
+    4,
+    0,
+    1
+   ],
+   "reading": "rfoidiso hlestroisioeutimiv",
+   "anagram": 0.654,
+   "anagram_null": 0.231
+  },
+  {
+   "image": "1899_18991020-13.jpg",
+   "letters": 34,
+   "text": "DESO CRO PEN MOI JUR RES LIB APP CO AFTJQDR",
+   "columnar": 0.118,
+   "null": 0.235,
+   "method": "undo width 6",
+   "order": [
+    5,
+    0,
+    2,
+    3,
+    1,
+    4
+   ],
+   "reading": "rpoetdopisjepcjl qseouidonarbrcmfra",
+   "anagram": 0.088,
+   "anagram_null": 0.088
+  },
+  {
+   "image": "1890_18901002-B4.jpg",
+   "letters": 60,
+   "text": "LET DE MEDAIL MERCI CAR SUIS SI TRIS DIS MOIQUE VIS AY T MI SEUL PENS LOR MER",
+   "columnar": 0.083,
+   "null": 0.2,
+   "method": "undo width 7",
+   "order": [
+    3,
+    6,
+    5,
+    1,
+    4,
+    0,
+    2
+   ],
+   "reading": "ytelia itrneqrlmistusmisl deuesdoevireirmisc usmessilmedaicpora",
+   "anagram": 0.533,
+   "anagram_null": 0.233
+  },
+  {
+   "image": "1878_18780207-BF.jpg",
+   "letters": 25,
+   "text": "LL NO RES LO MAS PO MA DIP NEG MIL",
+   "columnar": 0.24,
+   "null": 0.36,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    1,
+    5,
+    4,
+    6,
+    2
+   ],
+   "reading": "lograpp lmmedonnaisimeosll",
+   "anagram": 0.16,
+   "anagram_null": 0.32
+  },
+  {
+   "image": "1884_18840112-D.jpg",
+   "letters": 25,
+   "text": "DETE BIT PIPE PE FRD FRPN SRETF",
+   "columnar": 0.24,
+   "null": 0.36,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    0,
+    3,
+    1,
+    5,
+    4
+   ],
+   "reading": "pdepend ifbetsepriffrteptr",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960923-V.jpg",
+   "letters": 33,
+   "text": "BOCI DRISO FLEGO AVANT FLEBO NYVRO ERCO",
+   "columnar": 0.0,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    4,
+    2,
+    5,
+    1,
+    3
+   ],
+   "reading": "boaoffronvellic yareesivncgbodrtoo",
+   "anagram": 0.152,
+   "anagram_null": 0.152
+  },
+  {
+   "image": "1899_18991202-13.jpg",
+   "letters": 33,
+   "text": "GH BAU PR GA DI JR HR JYFRFJFTO ASSOTIDQR",
+   "columnar": 0.0,
+   "null": 0.121,
+   "method": "undo width 7",
+   "order": [
+    5,
+    1,
+    6,
+    3,
+    0,
+    4,
+    2
+   ],
+   "reading": "ruthogdfpirahij rdjsbjfgqysartarfo",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1875_18751121-Merci.jpg",
+   "letters": 32,
+   "text": "AY BEES VS VS VS VS NI VS VS VS VS LV VS VS LP",
+   "columnar": 0.0,
+   "null": 0.125,
+   "method": "undo width 7",
+   "order": [
+    4,
+    2,
+    0,
+    5,
+    3,
+    6,
+    1
+   ],
+   "reading": "ssevansvvssyil ssvvbvvvlssesvspvv",
+   "anagram": 0.125,
+   "anagram_null": 0.25
+  },
+  {
+   "image": "1883_18831201-I.jpg",
+   "letters": 32,
+   "text": "OW AK GTF SRE FO SRCTRO JRDE SRPE SICD EB",
+   "columnar": 0.125,
+   "null": 0.25,
+   "method": "undo width 7",
+   "order": [
+    3,
+    1,
+    5,
+    4,
+    6,
+    2,
+    0
+   ],
+   "reading": "itsocfjcfrwtor dsparsderekorebesg",
+   "anagram": 0.125,
+   "anagram_null": 0.188
+  },
+  {
+   "image": "1889_18890907-M9.jpg",
+   "letters": 31,
+   "text": "MQ ADNCH PENSE ET VIS AY TOI LUX NO NE MI",
+   "columnar": 0.0,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    1,
+    0,
+    5,
+    2,
+    4,
+    6,
+    3
+   ],
+   "reading": "cmvntsuhqieoe xpasmienedailtonny",
+   "anagram": 0.548,
+   "anagram_null": 0.226
+  },
+  {
+   "image": "1900_19000609-13.jpg",
+   "letters": 31,
+   "text": "TS LES MAR LE JOURNAL AVZ COMPR QDRQDT",
+   "columnar": 0.0,
+   "null": 0.129,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    1,
+    4,
+    3,
+    0,
+    2
+   ],
+   "reading": "oldartsmervns mpjqzalarodclerqut",
+   "anagram": 0.161,
+   "anagram_null": 0.065
+  },
+  {
+   "image": "1888_18880617-B4.jpg",
+   "letters": 53,
+   "text": "SPR CERE ET JEF MIL PROJ DEUX TE VEU SI HEUR MA CONST PENS ET FRANCE",
+   "columnar": 0.151,
+   "null": 0.283,
+   "method": "undo width 7",
+   "order": [
+    2,
+    5,
+    3,
+    1,
+    4,
+    6,
+    0
+   ],
+   "reading": "etspetnteprujsfvr oretrecjmfpauedame nsrecincieuolsehex",
+   "anagram": 0.434,
+   "anagram_null": 0.151
+  },
+  {
+   "image": "1883_18830301-7.jpg",
+   "letters": 30,
+   "text": "GP FY DA FR GP ARCI AR AR BREF SSEPHF RM",
+   "columnar": 0.167,
+   "null": 0.3,
+   "method": "undo width 7",
+   "order": [
+    6,
+    5,
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "reading": "gishbdgpasfr aparereffrapmfrycr",
+   "anagram": 0.267,
+   "anagram_null": 0.067
+  },
+  {
+   "image": "1883_18831125-J.jpg",
+   "letters": 29,
+   "text": "TR TREEG CRF GRP FRI IRPF ORPE BREFE",
+   "columnar": 0.138,
+   "null": 0.276,
+   "method": "undo width 7",
+   "order": [
+    5,
+    4,
+    3,
+    6,
+    1,
+    0,
+    2
+   ],
+   "reading": "oirretprref erfppfggtrefercrib",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1897_18970731-13.jpg",
+   "letters": 29,
+   "text": "PEUT VER OUI FERE TT VR BY YX MIL JE AD",
+   "columnar": 0.172,
+   "null": 0.31,
+   "method": "undo width 7",
+   "order": [
+    3,
+    6,
+    2,
+    4,
+    5,
+    0,
+    1
+   ],
+   "reading": "yjuprvvxeie eremafutbridettyol",
+   "anagram": 0.448,
+   "anagram_null": 0.345
+  },
+  {
+   "image": "1898_18980120-13.jpg",
+   "letters": 29,
+   "text": "BHSEQ VOUD EMB DI TT AM MAFI JREN LUI",
+   "columnar": 0.0,
+   "null": 0.138,
+   "method": "undo width 5",
+   "order": [
+    0,
+    4,
+    3,
+    2,
+    1
+   ],
+   "reading": "brmbohemdus naidelftequitmvija",
+   "anagram": 0.31,
+   "anagram_null": 0.069
+  },
+  {
+   "image": "1875_18751223-Daisy.jpg",
+   "letters": 28,
+   "text": "DAISY DE CR DAT PR QG HIER VE LU AC FE",
+   "columnar": 0.214,
+   "null": 0.357,
+   "method": "undo width 7",
+   "order": [
+    3,
+    4,
+    6,
+    1,
+    0,
+    5,
+    2
+   ],
+   "reading": "hpadyvrirc adedeqfielargescut",
+   "anagram": 0.357,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1884_18840109-N.jpg",
+   "letters": 35,
+   "text": "REOG DEBH FM GRPE TUR FR DEB HD FEG ERPTJRSC",
+   "columnar": 0.0,
+   "null": 0.143,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "reading": "gureeterrebgjbpfo herhergdrsftddfpcm",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1890_18901026-VE3.jpg",
+   "letters": 28,
+   "text": "UZIVGR IXCPIH CFSHPY UQ OSIV AMIT",
+   "columnar": 0.143,
+   "null": 0.286,
+   "method": "undo width 7",
+   "order": [
+    3,
+    6,
+    1,
+    4,
+    5,
+    2,
+    0
+   ],
+   "reading": "acoucpgmps zfyriiiisuithvvhqx",
+   "anagram": 0.214,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930914-MI.jpg",
+   "letters": 28,
+   "text": "TH AND IN ON GR RD GDEL FR BO FO QNREP",
+   "columnar": 0.143,
+   "null": 0.286,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    4,
+    0,
+    6,
+    3,
+    1
+   ],
+   "reading": "dndontlgri fghfdenorarepoqrnb",
+   "anagram": 0.143,
+   "anagram_null": 0.071
+  },
+  {
+   "image": "1899_18991024-DM.jpg",
+   "letters": 28,
+   "text": "RILYD CRIDI TRB TE DES FOL MIL AMIT",
+   "columnar": 0.0,
+   "null": 0.143,
+   "method": "undo width 5",
+   "order": [
+    2,
+    0,
+    3,
+    1,
+    4
+   ],
+   "reading": "rsrblifita dolemilyditmdetric",
+   "anagram": 0.179,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1894_18940802-GO.jpg",
+   "letters": 34,
+   "text": "ZPLIT LIP OT FJDSSGT LZPF EJP IJDG OZLZPF",
+   "columnar": 0.0,
+   "null": 0.147,
+   "method": "undo width 6",
+   "order": [
+    0,
+    5,
+    1,
+    4,
+    2,
+    3
+   ],
+   "reading": "zjjolipdpzzplsil poisjzfttgdpefltgf",
+   "anagram": 0.088,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1899_18991111-13.jpg",
+   "letters": 34,
+   "text": "EXP ACTE ABO RETR SS COE CRAL FAI PLEU AMER",
+   "columnar": 0.147,
+   "null": 0.294,
+   "method": "undo width 7",
+   "order": [
+    2,
+    1,
+    0,
+    6,
+    4,
+    3,
+    5
+   ],
+   "reading": "rteacuseexiracta ppamorballeesocefr",
+   "anagram": 0.235,
+   "anagram_null": 0.235
+  },
+  {
+   "image": "1890_18900930-B4.jpg",
+   "letters": 54,
+   "text": "SENS TA CH VEIL DEUX SUR SOUT PENS COUR PEND TRIST DE LAB LOR MER MIL",
+   "columnar": 0.093,
+   "null": 0.241,
+   "method": "undo width 7",
+   "order": [
+    6,
+    2,
+    1,
+    3,
+    0,
+    5,
+    4
+   ],
+   "reading": "pxhpotsesverdenuen mendriselstslcratr odombaiueuilcsturl",
+   "anagram": 0.537,
+   "anagram_null": 0.204
+  },
+  {
+   "image": "1896_18960806-V.jpg",
+   "letters": 54,
+   "text": "DRITO LARSO FLEBO CAPRO CAGRO DRIVO FECO GALDA MILO ATT FERO MIVO",
+   "columnar": 0.074,
+   "null": 0.222,
+   "method": "undo width 6",
+   "order": [
+    0,
+    4,
+    2,
+    5,
+    1,
+    3
+   ],
+   "reading": "dlrtoirdoffviacelo tmarefoigobellrmoc aooicoradvagstropa",
+   "anagram": 0.185,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860804-90.jpg",
+   "letters": 33,
+   "text": "REC LET ET JREP LUND REN PROJSI NOUY VV AY",
+   "columnar": 0.152,
+   "null": 0.303,
+   "method": "undo width 7",
+   "order": [
+    0,
+    5,
+    2,
+    4,
+    1,
+    3,
+    6
+   ],
+   "reading": "rprintverendevc oportaljluejyesuyn",
+   "anagram": 0.152,
+   "anagram_null": 0.303
+  },
+  {
+   "image": "1888_18880630-GA.jpg",
+   "letters": 26,
+   "text": "MMBB VTB ATT IMP TATTS QUAND REV",
+   "columnar": 0.154,
+   "null": 0.308,
+   "method": "undo width 7",
+   "order": [
+    0,
+    2,
+    3,
+    1,
+    6,
+    5,
+    4
+   ],
+   "reading": "mpvtdutm tttrasbabienqbtamv",
+   "anagram": 0.192,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1896_18960926-V.jpg",
+   "letters": 32,
+   "text": "BOFI LARPO NOUV PR AFF ERDO FRATA LARZO",
+   "columnar": 0.0,
+   "null": 0.156,
+   "method": "redo width 6",
+   "order": [
+    5,
+    2,
+    4,
+    3,
+    1,
+    0
+   ],
+   "reading": "aufrrfordaloff ainaolopprtobrveaz",
+   "anagram": 0.125,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1893_18930112.jpg",
+   "letters": 32,
+   "text": "TOUT AU AU PAR PAR ET AU MAIS NE AI LE DE EF",
+   "columnar": 0.125,
+   "null": 0.281,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    2,
+    5,
+    3,
+    0,
+    4
+   ],
+   "reading": "eaamdetauraeto iapieauluasfuteprn",
+   "anagram": 0.938,
+   "anagram_null": 0.25
+  },
+  {
+   "image": "1886_18860721-90.jpg",
+   "letters": 25,
+   "text": "JOREG LOT LE DIT RI AV SURT QU DM",
+   "columnar": 0.16,
+   "null": 0.32,
+   "method": "undo width 6",
+   "order": [
+    1,
+    5,
+    4,
+    3,
+    0,
+    2
+   ],
+   "reading": "vjqtlgs ourelurdidoremaitt",
+   "anagram": 0.36,
+   "anagram_null": 0.44
+  },
+  {
+   "image": "1893_18930711-MI.jpg",
+   "letters": 25,
+   "text": "MI AND BAR BEAN CARI COALS SOIR",
+   "columnar": 0.16,
+   "null": 0.32,
+   "method": "undo width 7",
+   "order": [
+    6,
+    1,
+    5,
+    4,
+    2,
+    0,
+    3
+   ],
+   "reading": "onasarm adronbilbiiceasacr",
+   "anagram": 0.32,
+   "anagram_null": 0.2
+  },
+  {
+   "image": "1876_18761015-P.jpg",
+   "letters": 24,
+   "text": "GIBFISCOSO SPSV AL PSGO TROT",
+   "columnar": 0.167,
+   "null": 0.333,
+   "method": "undo width 7",
+   "order": [
+    0,
+    3,
+    6,
+    4,
+    5,
+    2,
+    1
+   ],
+   "reading": "gtpisv oirsspasbogcslofto",
+   "anagram": 0.25,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1898_18980722-13.jpg",
+   "letters": 30,
+   "text": "ALO GN DIJR HR REV AD SOUF PROB PYPR ME",
+   "columnar": 0.0,
+   "null": 0.167,
+   "method": "undo width 7",
+   "order": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    2,
+    0
+   ],
+   "reading": "yardhvoploir aurobjrdfmgprespen",
+   "anagram": 0.2,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1884_18840128-S.jpg",
+   "letters": 29,
+   "text": "AGR BE TRDE FE FMER BRTF TFRB MF FL FE",
+   "columnar": 0.0,
+   "null": 0.172,
+   "method": "undo width 7",
+   "order": [
+    0,
+    1,
+    6,
+    4,
+    2,
+    3,
+    5
+   ],
+   "reading": "attreffgrfb rlerdtmbffbeffreme",
+   "anagram": 0.0,
+   "anagram_null": 0.069
+  },
+  {
+   "image": "1898_18980503-13.jpg",
+   "letters": 29,
+   "text": "ENC DIOU VR BY BFT OLES QD CH BAU BIAR",
+   "columnar": 0.0,
+   "null": 0.172,
+   "method": "undo width 7",
+   "order": [
+    3,
+    6,
+    0,
+    1,
+    5,
+    4,
+    2
+   ],
+   "reading": "rtbehsiboin bqoylacaduberducvf",
+   "anagram": 0.0,
+   "anagram_null": 0.345
+  },
+  {
+   "image": "1884_18840417.jpg",
+   "letters": 38,
+   "text": "AREQ SUIS PAS CH DE JEAN DE NIVELLE AHCHSSMERH",
+   "columnar": 0.132,
+   "null": 0.316,
+   "method": "undo width 6",
+   "order": [
+    0,
+    2,
+    1,
+    4,
+    3,
+    5
+   ],
+   "reading": "ad slesrepensejaaimqe shvesaccerunhhlhid",
+   "anagram": 0.395,
+   "anagram_null": 0.237
+  },
+  {
+   "image": "1886_18861231-90.jpg",
+   "letters": 27,
+   "text": "COM AN DER CNTR CR MAIN MI PL JA DON",
+   "columnar": 0.0,
+   "null": 0.185,
+   "method": "undo width 7",
+   "order": [
+    2,
+    6,
+    4,
+    0,
+    1,
+    5,
+    3
+   ],
+   "reading": "racarinci odcpdrnmonlemmantj",
+   "anagram": 0.333,
+   "anagram_null": 0.222
+  },
+  {
+   "image": "1879_18790703-5225.jpg",
+   "letters": 39,
+   "text": "YY AST JC MA UNE FOIS JE BED TES ET TE DE MOI JE TE DE",
+   "columnar": 0.103,
+   "null": 0.308,
+   "method": "undo width 7",
+   "order": [
+    0,
+    6,
+    3,
+    1,
+    4,
+    2,
+    5
+   ],
+   "reading": "yed esecybefetmaemotea sdoitduttiseenjejj",
+   "anagram": 0.744,
+   "anagram_null": 0.128
+  },
+  {
+   "image": "1883_18830225-YOU.jpg",
+   "letters": 26,
+   "text": "YOU SPT SRE JECDE ERPT BEBCDE SE",
+   "columnar": 0.154,
+   "null": 0.385,
+   "method": "undo width 7",
+   "order": [
+    5,
+    6,
+    4,
+    1,
+    3,
+    0,
+    2
+   ],
+   "reading": "bedesyse cerropbdspeutceetj",
+   "anagram": 0.231,
+   "anagram_null": 0.115
+  },
+  {
+   "image": "1896_18960920-V.jpg",
+   "letters": 30,
+   "text": "TJO BIVU APO DRIVO FRATA FRAXA GALDA",
+   "columnar": 0.0,
+   "null": 0.233,
+   "method": "undo width 7",
+   "order": [
+    6,
+    3,
+    0,
+    1,
+    4,
+    2,
+    5
+   ],
+   "reading": "pvaitatooxva ljdfaufdorrgarabia",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1900_19000404-13.jpg",
+   "letters": 33,
+   "text": "NUAG NOT AM FER REG DOE TP AD FRT JOT EE EET",
+   "columnar": 0.152,
+   "null": 0.394,
+   "method": "undo width 6",
+   "order": [
+    0,
+    4,
+    3,
+    2,
+    1,
+    5
+   ],
+   "reading": "nforteureraeatt emegjpgfenoadetotd",
+   "anagram": 0.424,
+   "anagram_null": 0.364
+  },
+  {
+   "image": "1877_18771006-OPQ.jpg",
+   "letters": 37,
+   "text": "MERCI LET SAMED MERCRED AM TAD MIT SCHMEYZEN",
+   "columnar": 0.0,
+   "null": 0.243,
+   "method": "undo width 5",
+   "order": [
+    1,
+    4,
+    0,
+    3,
+    2
+   ],
+   "reading": "r mhascemdarremmecyi ediztdalesmmencett",
+   "anagram": 0.486,
+   "anagram_null": 0.081
+  },
+  {
+   "image": "1899_18990529-13.jpg",
+   "letters": 34,
+   "text": "MMM AAD PUISQ TP RESTZ MI JUIN AR COMP PA SR",
+   "columnar": 0.118,
+   "null": 0.382,
+   "method": "undo width 7",
+   "order": [
+    5,
+    2,
+    3,
+    1,
+    0,
+    6,
+    4
+   ],
+   "reading": "jsdqpmrutptpmciz upamonmirsamaisera",
+   "anagram": 0.0,
+   "anagram_null": 0.265
+  },
+  {
+   "image": "1896_18960726-P.jpg",
+   "letters": 59,
+   "text": "HEUR GUTO CARNEAM TEREM DECORNO ESP CATON IMPL VIS CARON IBIS CAM COSIO",
+   "columnar": 0.085,
+   "null": 0.356,
+   "method": "redo width 7",
+   "order": [
+    6,
+    5,
+    0,
+    1,
+    4,
+    2,
+    3
+   ],
+   "reading": "taden sbouemooiichomesic isectcpmasignentvn muaeocprcorrrraloa",
+   "anagram": 0.288,
+   "anagram_null": 0.068
+  },
+  {
+   "image": "1880_18800910-F5.jpg",
+   "letters": 32,
+   "text": "ALLEVONPOMI GIFVENSIVOLLIMIBINAME",
+   "columnar": 0.0,
+   "null": 0.281,
+   "method": "undo width 7",
+   "order": [
+    1,
+    6,
+    0,
+    5,
+    4,
+    3,
+    2
+   ],
+   "reading": "mailivoilniven glamonpiemilsofveb",
+   "anagram": 0.0,
+   "anagram_null": 0.0
+  },
+  {
+   "image": "1886_18860903-77.jpg",
+   "letters": 24,
+   "text": "MY COMP DIF EC ET JAP PR MAIS ET",
+   "columnar": 0.0,
+   "null": 0.375,
+   "method": "redo width 7",
+   "order": [
+    1,
+    2,
+    0,
+    4,
+    5,
+    6,
+    3
+   ],
+   "reading": "yfpece ptmiasmemptadjiocr",
+   "anagram": 0.417,
+   "anagram_null": 0.125
+  }
+ ]
+}

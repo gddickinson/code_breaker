@@ -1,0 +1,450 @@
+{
+ "budget": 18.0,
+ "ciphers": 49,
+ "recovered": 48,
+ "called_readable": 38,
+ "wrong_but_readable": 0,
+ "rows": [
+  {
+   "cipher": "caesar",
+   "name": "Caesar shift",
+   "family": "Monoalphabetic",
+   "found_by": "Caesar shift",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "rot13",
+   "name": "ROT13",
+   "family": "Monoalphabetic",
+   "found_by": "ROT13",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "atbash",
+   "name": "Atbash",
+   "family": "Monoalphabetic",
+   "found_by": "Atbash",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "affine",
+   "name": "Affine",
+   "family": "Monoalphabetic",
+   "found_by": "Affine",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "substitution",
+   "name": "Simple substitution",
+   "family": "Monoalphabetic",
+   "found_by": "Simple substitution",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "baconian",
+   "name": "Baconian",
+   "family": "Monoalphabetic",
+   "found_by": "Baconian",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 38
+  },
+  {
+   "cipher": "morse",
+   "name": "Morse code",
+   "family": "Codes",
+   "found_by": "Morse code",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 49
+  },
+  {
+   "cipher": "polybius",
+   "name": "Polybius square",
+   "family": "Monoalphabetic",
+   "found_by": "Polybius square",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "tap",
+   "name": "Tap code",
+   "family": "Codes",
+   "found_by": "Tap code",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 48
+  },
+  {
+   "cipher": "a1z26",
+   "name": "A1Z26",
+   "family": "Codes",
+   "found_by": "A1Z26",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "quagmire1",
+   "name": "Quagmire I",
+   "family": "Polyalphabetic",
+   "found_by": "Quagmire I",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "quagmire2",
+   "name": "Quagmire II",
+   "family": "Polyalphabetic",
+   "found_by": "Quagmire II",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "nicodemus",
+   "name": "Nicodemus",
+   "family": "Transposition",
+   "found_by": "Nicodemus",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "fracmorse",
+   "name": "Fractionated Morse",
+   "family": "Fractionating",
+   "found_by": "Fractionated Morse",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "slidefair",
+   "name": "Slidefair",
+   "family": "Polygraphic",
+   "found_by": "Slidefair",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "gromark",
+   "name": "Gromark",
+   "family": "Polyalphabetic",
+   "found_by": "Gromark",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "alberti",
+   "name": "Alberti disk",
+   "family": "Polyalphabetic",
+   "found_by": "Alberti disk",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "enigma",
+   "name": "Enigma I",
+   "family": "Machines",
+   "found_by": "Enigma I",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "jefferson",
+   "name": "Jefferson wheel",
+   "family": "Machines",
+   "found_by": "Jefferson wheel",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "book",
+   "name": "Book cipher",
+   "family": "Book and homophonic",
+   "found_by": "Book cipher",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "homophonic",
+   "name": "Homophonic substitution",
+   "family": "Book and homophonic",
+   "found_by": "Polybius square",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "vigenere",
+   "name": "Vigenere",
+   "family": "Polyalphabetic",
+   "found_by": "Vigenere",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "beaufort",
+   "name": "Beaufort",
+   "family": "Polyalphabetic",
+   "found_by": "Beaufort",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "variant",
+   "name": "Variant Beaufort",
+   "family": "Polyalphabetic",
+   "found_by": "Variant Beaufort",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "porta",
+   "name": "Porta",
+   "family": "Polyalphabetic",
+   "found_by": "Porta",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "gronsfeld",
+   "name": "Gronsfeld",
+   "family": "Polyalphabetic",
+   "found_by": "Gronsfeld",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "trithemius",
+   "name": "Trithemius",
+   "family": "Polyalphabetic",
+   "found_by": "Trithemius",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "autokey",
+   "name": "Autokey",
+   "family": "Polyalphabetic",
+   "found_by": "Autokey",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "running",
+   "name": "Running key",
+   "family": "Polyalphabetic",
+   "found_by": "Running key",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "quagmire",
+   "name": "Quagmire III (keyed Vigenere)",
+   "family": "Polyalphabetic",
+   "found_by": "ADFGX",
+   "accuracy": 0.035,
+   "verdict": "none",
+   "tried": 51
+  },
+  {
+   "cipher": "chaocipher",
+   "name": "Chaocipher",
+   "family": "Polyalphabetic",
+   "found_by": "Chaocipher",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "playfair",
+   "name": "Playfair",
+   "family": "Polygraphic",
+   "found_by": "Playfair",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 51
+  },
+  {
+   "cipher": "twosquare",
+   "name": "Two-square",
+   "family": "Polygraphic",
+   "found_by": "Two-square",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "foursquare",
+   "name": "Four-square",
+   "family": "Polygraphic",
+   "found_by": "Four-square",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "hill",
+   "name": "Hill",
+   "family": "Polygraphic",
+   "found_by": "Hill",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "bifid",
+   "name": "Bifid",
+   "family": "Fractionating",
+   "found_by": "Bifid",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "trifid",
+   "name": "Trifid",
+   "family": "Fractionating",
+   "found_by": "Trifid",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 52
+  },
+  {
+   "cipher": "adfgx",
+   "name": "ADFGX",
+   "family": "Fractionating",
+   "found_by": "ADFGX",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 49
+  },
+  {
+   "cipher": "adfgvx",
+   "name": "ADFGVX",
+   "family": "Fractionating",
+   "found_by": "ADFGVX",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 50
+  },
+  {
+   "cipher": "nihilist",
+   "name": "Nihilist",
+   "family": "Fractionating",
+   "found_by": "Nihilist",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "checkerboard",
+   "name": "Straddling checkerboard",
+   "family": "Fractionating",
+   "found_by": "Straddling checkerboard",
+   "accuracy": 1.0,
+   "verdict": "partial",
+   "tried": 50
+  },
+  {
+   "cipher": "railfence",
+   "name": "Rail fence",
+   "family": "Transposition",
+   "found_by": "Rail fence",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "scytale",
+   "name": "Scytale",
+   "family": "Transposition",
+   "found_by": "Scytale",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "columnar",
+   "name": "Columnar transposition",
+   "family": "Transposition",
+   "found_by": "Myszkowski",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "double",
+   "name": "Double columnar",
+   "family": "Transposition",
+   "found_by": "Double columnar",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "route",
+   "name": "Route (spiral)",
+   "family": "Transposition",
+   "found_by": "Route (spiral)",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "myszkowski",
+   "name": "Myszkowski",
+   "family": "Transposition",
+   "found_by": "Myszkowski",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "amsco",
+   "name": "AMSCO",
+   "family": "Transposition",
+   "found_by": "AMSCO",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  },
+  {
+   "cipher": "grille",
+   "name": "Turning grille",
+   "family": "Transposition",
+   "found_by": "Turning grille",
+   "accuracy": 1.0,
+   "verdict": "readable",
+   "tried": 51
+  }
+ ]
+}
