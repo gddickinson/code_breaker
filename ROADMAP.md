@@ -135,3 +135,12 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - 2026-11-08: Offline translation through Argos; Latin has no model.
 - 2026-11-08: The user asked for plan-and-implement across the ledger, so several rows are worked per session.
 - 2026-11-08: Private GitHub repository created at the user's request. `data/models`, `.venv` and third-party code copies are ignored; a fresh clone needs `pip install -r requirements.txt` and `scripts/install_translation_models.py`.
+
+## Added 2026-11-09: scan review and Recovering Data
+- Seven flagged ads checked against scans: 3 readable (5 on 1 Jul 1882, 78 on 13 Nov 1884, 25 on 20 Sep 1894), 1 partly read (23), 1 unread (N), 2 rejected as abbreviated plain French. Novelty unconfirmed.
+- OCR on 7 hand-read ads: rapidocr on Otsu 91%, tesseract on base 89%, worst setting 74%. Small sample.
+- Reconstruction on 40 synthetic lines: 23% damaged, 96% after flatten, straighten, denoise and Wiener; enlarging and thresholding afterwards lost 2 points.
+- Lesson: the `cipher_words` filter silently drops tokens with digits. 367 of 1,317 OCR-read ads have 3+ letter-digit tokens in a line. NEXT: attack these as mixed alphabets, Round 21 or later.
+- Lesson: key-aware repair fixed both errors in the 1894 ad, but on controls fully repaired only 49 of 120 and wrongly changed 10 of 120 clean fragments. It is a suggestion tool, not an automatic fix.
+- Lesson: a word-list null with no positive control is meaningless. The first UNIQUEMENT test returned 0.0 because the word was not in the list.
+

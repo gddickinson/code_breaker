@@ -87,4 +87,27 @@ function classifyCube(samples) {
   return out.join("");
 }
 
-if (typeof module !== "undefined") module.exports = { cubeFromFacelets, classifyCube, newCube, applyMove, facelets, SOLVED_CUBE, CUBE_MOVES, solveSudoku };
+/* Turn one read side clockwise in a 54-entry array. */
+function rotateFace(arr, f) {
+  const out = [...arr], s = f * 9;
+  for (let r = 0; r < 3; r++) for (let c = 0; c < 3; c++) out[s + r * 3 + c] = arr[s + (2 - c) * 3 + r];
+  return out;
+}
+
+/* Exchange two read sides in a 54-entry array. */
+function swapFaces(arr, a, b) {
+  const out = [...arr];
+  for (let i = 0; i < 9; i++) { out[a * 9 + i] = arr[b * 9 + i]; out[b * 9 + i] = arr[a * 9 + i]; }
+  return out;
+}
+
+/* Name every sticker after the side whose centre shares its colour; null if the colours are inconsistent. */
+function scanFacelets(cols) {
+  const order = "URFDLB", name = {};
+  [...order].forEach((l, f) => { name[cols[f * 9 + 4]] = l; });
+  if (Object.keys(name).length !== 6) return null;
+  const out = [...cols].map(c => name[c]);
+  return [...order].every(l => out.filter(c => c === l).length === 9) ? out.join("") : null;
+}
+
+if (typeof module !== "undefined") module.exports = { rotateFace, swapFaces, scanFacelets, cubeFromFacelets, classifyCube, newCube, applyMove, facelets, SOLVED_CUBE, CUBE_MOVES, solveSudoku };

@@ -114,3 +114,7 @@ Every step of all 10 Learn to Solve guides now has a code-drawn illustration: is
 
 ## 2026-11-09: Round 20 and Theory section
 Choosing OCR by language score ties the best control result, 16 of 56. Added a Theory section of 13 topics: entropy, Huffman and Shannon-Fano, randomness tests, LFSRs and Berlekamp-Massey, Monte Carlo, MCMC, belief propagation, hidden Markov models, variational inference, Shor's algorithm, differential cryptanalysis, Pollard's rho and an attack catalogue. Each algorithm is tested. Next: Round 21, using these methods on the Le Figaro OCR.
+
+## 2026-11-09: Scan review, Recovering Data page, cube scanner
+Checked the 7 new flagged Le Figaro ads by eye: 3 readable, 1 partly read, 1 unread, 2 rejected. Leads, facts and an avenue are recorded per ad. Added `#/recovery` with real scans, an interactive threshold, measured OCR comparison, image reconstruction with known answers, error spread and key-aware repair. The cube scanner now lets you choose the side to photograph, drag sides to swap them, rotate a side, and shows real read colours; checked with real mouse events in headless Chrome. A 5-minute hunt ran. Next: Round 21.
+

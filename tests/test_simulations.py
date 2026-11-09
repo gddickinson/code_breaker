@@ -123,3 +123,19 @@ def test_genetic_code_translation():
     code = src[src.index('const BASES'):src.index('route(')]
     out = subprocess.run(["node", "-e", code + "console.log(JSON.stringify([translateDNA('ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG'),translateDNA('UUUAAAGGG')]))"], capture_output=True, text=True, check=True).stdout
     assert json.loads(out) == ["MAIVMGR*KGAR*", "FKG"]
+
+
+def test_scanned_sides_can_be_moved_back_into_place():
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    js = """const s=C.newCube();"R U2 F' D L2 B R' F2 U' L D2".split(" ").forEach(m=>C.applyMove(s,m));const f=C.facelets(s);
+    const paint={U:'a',R:'b',F:'c',D:'d',L:'e',B:'f'};const cols=[...f].map(l=>paint[l]);
+    let m=C.swapFaces(cols,0,3);m=C.rotateFace(m,2);m=C.rotateFace(C.rotateFace(C.rotateFace(m,2),2),2);m=C.swapFaces(m,3,0);
+    const once=C.rotateFace([...Array(54).keys()],0).slice(0,9);
+    const bad=[...cols];bad[0]=bad[4];bad[13]=bad[4];
+    console.log(JSON.stringify([C.scanFacelets(m),f,once,C.scanFacelets(Array(54).fill('a'))]))"""
+    got, want, once, none = _node_cube(js)
+    assert got == want
+    assert once == [6, 3, 0, 7, 4, 1, 8, 5, 2]
+    assert none is None
+

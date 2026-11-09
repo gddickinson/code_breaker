@@ -1,0 +1,488 @@
+{
+ "gallery": [
+  "ad25",
+  "adn"
+ ],
+ "ocr": {
+  "ads": 7,
+  "table": [
+   {
+    "variant": "otsu",
+    "engine": "rapidocr",
+    "mean": 0.912,
+    "worst": 0.639
+   },
+   {
+    "variant": "base",
+    "engine": "tesseract + whitelist",
+    "mean": 0.893,
+    "worst": 0.782
+   },
+   {
+    "variant": "base",
+    "engine": "tesseract",
+    "mean": 0.889,
+    "worst": 0.782
+   },
+   {
+    "variant": "adaptive",
+    "engine": "rapidocr",
+    "mean": 0.882,
+    "worst": 0.546
+   },
+   {
+    "variant": "otsu",
+    "engine": "tesseract",
+    "mean": 0.855,
+    "worst": 0.41
+   },
+   {
+    "variant": "otsu",
+    "engine": "tesseract + whitelist",
+    "mean": 0.855,
+    "worst": 0.41
+   },
+   {
+    "variant": "denoise",
+    "engine": "tesseract",
+    "mean": 0.835,
+    "worst": 0.41
+   },
+   {
+    "variant": "denoise",
+    "engine": "tesseract + whitelist",
+    "mean": 0.835,
+    "worst": 0.41
+   },
+   {
+    "variant": "big",
+    "engine": "tesseract",
+    "mean": 0.832,
+    "worst": 0.397
+   },
+   {
+    "variant": "big",
+    "engine": "tesseract + whitelist",
+    "mean": 0.832,
+    "worst": 0.397
+   },
+   {
+    "variant": "big",
+    "engine": "rapidocr",
+    "mean": 0.807,
+    "worst": 0.0
+   },
+   {
+    "variant": "denoise",
+    "engine": "rapidocr",
+    "mean": 0.8,
+    "worst": 0.0
+   },
+   {
+    "variant": "base",
+    "engine": "rapidocr",
+    "mean": 0.789,
+    "worst": 0.0
+   },
+   {
+    "variant": "adaptive",
+    "engine": "tesseract + whitelist",
+    "mean": 0.75,
+    "worst": 0.0
+   },
+   {
+    "variant": "adaptive",
+    "engine": "tesseract",
+    "mean": 0.744,
+    "worst": 0.0
+   }
+  ],
+  "samples": {
+   "1896_18960715.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": ": \u2018sit stdpoobjttbou ef upvu \u2014 wpvt buufoet upv- t kpyst \u2014 pv fu penton fowpzfs cpvrvjo eftjsf \u00bb~ \u2014 sfqpocfa qbs boobmft bjnflt \u2014 Sztdl.",
+     "recovered": 0.897
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "sit stdpoobjttbou ef upvu  wpvt buufoet upv- t kpyst - pv fu penton fowpzfs cpvrvjo eftjsf -  sfqpocfa qbs boobmft bjnflt - Sztdl.",
+     "recovered": 0.897
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "upvu -wpvt buufoet upv- eft sfdpoobjttbou ef kpvst-pv fu dpnnfou fowpzfs cpvrvjo eftjsf boobmft bjnfft- Sztdl. -sfqpoefa qbs",
+     "recovered": 0.691
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "\u2018E-sit, sfdpoobjttbou ef upvu \u2014 wpvt buufoct upv- t kpyst \u2014 pv fu dpnnfou fowpzfs cpvrvjo eftjsf /-- \u2014 sfqpoefa qbs boobmft bjnflt \u2014 Sztdl.",
+     "recovered": 0.948
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "E-sit, sfdpoobjttbou ef upvu - wpvt buufoct upv- t kpyst - pv fu dpnnfou fowpzfs cpvrvjo eftjsf --  sfqpoefa qbs boobmft bjnflt - Sztdl.",
+     "recovered": 0.948
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "wpvt buufoet upy- Y:sit stdpoobjttbou ef nAdn kpyst -- dpnnfou fowpzfs fu  cpvrvjo eftjsf py boobmft bjnft - - sfqpoofa Sztdl. qbs",
+     "recovered": 0.639
+    }
+   ],
+   "1896_18961106-KP.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "P; oy paki svunbltx ql uhp zljc kl tvb tl xzvedhub K yel bet ia Ib xlual bveqvez h tvp xvezbhub qi bhptl hdlj bhub kKlmvzjla lb kl blukzlaa  be la tvu avejp th qvpl ql dhpa lumpu'\u2019 bl xzlualz iplu mvzb acz tvu jvlez yep bpkvsh.",
+     "recovered": 0.868
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "P. oy paki svunbltx ql uhp zljc kl tvb tl xzvedhub K yel bet ia Ib xlual bveqvez h tvp xvezbhub qi bhptl hdlj bhub kKlmvzjla lb kl blukzlaa  be la tvu avejp th qvpl ql dhpa lumpu' bl xzlualz iplu mvzb acz tvu jvlez yep bpkvsh.",
+     "recovered": 0.868
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "P.Dvpsh svunbltx ql uhp zljc kl tvb tl xzvcdhub ycl bc t hptl lbxlual bvcqvcz h tvp xvczbhub bhptl 1hdlj bhub klmvzjla1b klblukzlaa ql bc la tvu avcjp th qvpl ql dhpa lumpu'bl xzlualz iplu mvzb acz tvu jvlcz ycp bpkvsh.",
+     "recovered": 0.987
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "P. Dvpsh svunblitx ql uhp zljc kl tvb tl xzvedhub K ycl be t hp lb xlual bveqvez h tvp xvezbhub ql bhptl hdlj bhub klmvzjla 1b kl blukziaa  be la tvu avcjp th qvpl ql dhpa lumpu'\u2019 bl] xZlualz iplu mvzb acz tvu jvlez yep bpkvsh.",
+     "recovered": 0.925
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "P. Dvpsh svunblitx ql uhp zljc kl tvb tl xzvedhub K ycl be t hp lb xlual bveqvez h tvp xvezbhub ql bhptl hdlj bhub klmvzjla 1b kl blukziaa  be la tvu avcjp th qvpl ql dhpa lumpu' b1 xZlualz iplu mvzb acz tvu jvlez yep bpkvsh.",
+     "recovered": 0.918
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "P.Dvpsh svunbltx ql uhp zljc kl tvb tl xzvcdhub ycl bc t hptl lbxlual bvcqvcz h tvp xvczhhub 1b bhptl hdlj bhub klmvzjla 1b kl blukzlaa bc la tvu avcjp th qvpl ib dhpa lumpu bl xzlualz iplu mvzb acz tvu jvlcz bpkysh. ycp",
+     "recovered": 0.925
+    }
+   ],
+   "1882_18820701-5.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "\u00a9\u00bb Iquhuiq sg vhs eh blquh hbfhdqceh bigb bh kiqdhe.",
+     "recovered": 0.897
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "Iquhuiq sg vhs eh blquh hbfhdqceh bigb bh kiqdhe.",
+     "recovered": 0.897
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "5 lquh uiq sg vhs eh blquh hbfhdqch blgb bh klqdhc.",
+     "recovered": 1.0
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "5 Iquh uiq sg vhs eh blquh hb fhdqch blgb bh kiqdhe.",
+     "recovered": 0.923
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "5 Iquh uiq sg vhs eh blquh hb fhdqch blgb bh kiqdhe.",
+     "recovered": 0.923
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "5 lquh uiq sg vhs eh blquh hb fhdqch blgb bh klqdhc.",
+     "recovered": 1.0
+    }
+   ],
+   "1884_18840109-N.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "N \u2014 Reog debh fm 6j6\u00a2.grpe 4rdcat tur o7f6 fr deb 45 orj6 467e0g hd feg ber2 71\u00a306 e786e6eb erptjrsc.",
+     "recovered": 0.782
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "N  Reog debh fm 6j6.grpe 4rdcat tur o7f6 fr deb 45 orj6 467e0g hd feg ber2 71606 e786e6eb erptjrsc.",
+     "recovered": 0.782
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "",
+     "recovered": 0.0
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "N \u2014 Reog dc6oh fm 6j6c grpe 4rdcat fer o7f6 fr de6",
+     "recovered": 0.41
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "N  Reog dc6oh fm 6j6c grpe 4rdcat fer o7f6 fr de6",
+     "recovered": 0.41
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "Rcog dc6h fm 6j6c grpe 4r5cat fur 0716 fr h5e6 5 orj6 467eog h5 feg ber271t06 e786c6e b crpt jr5e.",
+     "recovered": 0.936
+    }
+   ],
+   "1894_18940920-25.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "25. Gvrith filpht dyhe xql, qy uhtdk xthu sglpheg.",
+     "recovered": 0.971
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "25. Gvrith filpht dyhe xql, qy uhtdk xthu sglpheg.",
+     "recovered": 0.971
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "25.Gvrfth fpht dyhe xql, qy uhtdk xthu sglphg.",
+     "recovered": 0.943
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "25.Gvrfth fipht dyhe xql, qy uhtdk xthu sglphg.",
+     "recovered": 0.943
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "25.Gvrfth fipht dyhe xql, qy uhtdk xthu sglphg.",
+     "recovered": 0.943
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "25.Gvrfth fpht dyhe xql, qy uhtdk xthu sglpbg.",
+     "recovered": 0.914
+    }
+   ],
+   "1896_18960918-23.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "23. Oui rsatilmpe utnkinqaulelmpeonat 24...",
+     "recovered": 1.0
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "23. Oui rsatilmpe utnkinqaulelmpeonat 24...",
+     "recovered": 1.0
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "23. Oui rsatilmpe utnkinqaulelmpeonat 24.",
+     "recovered": 1.0
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "23. Oui rsatilmpe utnkinqaulelmpeonat 24. :",
+     "recovered": 1.0
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "23. Oui rsatilmpe utnkinqaulelmpeonat 24.",
+     "recovered": 1.0
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "23. Oui rsatilmpe 1 utnkinqaulelmpeonat 24.",
+     "recovered": 1.0
+    }
+   ],
+   "1884_18841113-78.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "73 He rybmpe. Re tmgp:cqr kml qcs) zmitcesp.",
+     "recovered": 0.806
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "73 He rybmpe. Re tmgp-cqr kml qcsj zmitcesp.",
+     "recovered": 0.839
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "78Hc rybmpe. Rc tmgp. cqr kml qesj zmlfesp.",
+     "recovered": 0.903
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "7 He rybmpe. Re tmgp'cqr kml qcsj zinlicsp.",
+     "recovered": 0.839
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "7 He rybmpe. Re tmgp'cqr kml qcsj zinlicsp.",
+     "recovered": 0.839
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "78 Hc r'ybmpc. Rc tmgp cqr kml qcsj zmlfesp.",
+     "recovered": 0.968
+    }
+   ]
+  }
+ },
+ "reconstruction": {
+  "lines": 40,
+  "clean": 0.987,
+  "stages": [
+   {
+    "stage": "damaged",
+    "recovered": 0.226
+   },
+   {
+    "stage": "flatten background",
+    "recovered": 0.555
+   },
+   {
+    "stage": "straighten",
+    "recovered": 0.697
+   },
+   {
+    "stage": "remove noise",
+    "recovered": 0.945
+   },
+   {
+    "stage": "undo blur",
+    "recovered": 0.957
+   },
+   {
+    "stage": "enlarge",
+    "recovered": 0.946
+   },
+   {
+    "stage": "threshold",
+    "recovered": 0.937
+   }
+  ]
+ },
+ "spread": {
+  "rates": [
+   0,
+   0.01,
+   0.02,
+   0.05,
+   0.1,
+   0.2
+  ],
+  "series": {
+   "Caesar, deletion": [
+    1.0,
+    0.99,
+    0.979,
+    0.949,
+    0.9,
+    0.798
+   ],
+   "Vigenere, misread": [
+    1.0,
+    0.99,
+    0.98,
+    0.953,
+    0.901,
+    0.798
+   ],
+   "Vigenere, deletion": [
+    1.0,
+    0.515,
+    0.314,
+    0.309,
+    0.315,
+    0.267
+   ]
+  },
+  "trials": 60,
+  "length": 300
+ },
+ "repair_control": {
+  "margin": 3.19,
+  "fragments": 120,
+  "length": 40,
+  "fully_repaired": 49,
+  "wrong_before": 240,
+  "wrong_after": 89,
+  "clean_changed": 10
+ },
+ "repair_real": {
+  "ocr": "GVRFTHFIPHTDYHEXQLQYUHTDKXTHUSGLPHG",
+  "ocr_plain": "ESPCREDFNERAVECTOIOUSERAITRESPEINEE",
+  "repaired": "GVRHTHFLPHTDYHEXQLQYUHTDKXTHUSGLPHG",
+  "plain": "ESPEREDINERAVECTOIOUSERAITRESPEINEE",
+  "edits": [
+   {
+    "position": 7,
+    "from": "I",
+    "to": "L",
+    "gain": 13.8
+   },
+   {
+    "position": 3,
+    "from": "F",
+    "to": "H",
+    "gain": 11.4
+   }
+  ]
+ },
+ "digits": {
+  "ads_read": 1317,
+  "letter_digit_ads": 367,
+  "examples": [
+   "1875_18750902-curieuse.jpg",
+   "1875_18750919-Minet.jpg",
+   "1875_18751223-Daisy.jpg",
+   "1876_18760206-bonjour.jpg",
+   "1876_18760325-A.jpg",
+   "1876_18760902-Jean.jpg",
+   "1876_18760907-DIX.jpg",
+   "1876_18760915-2S.jpg",
+   "1876_18761014-R.jpg",
+   "1876_18761015-P.jpg",
+   "1876_18761104-P.jpg",
+   "1876_18761220-24J.jpg"
+  ]
+ }
+}

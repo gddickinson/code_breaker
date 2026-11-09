@@ -21,39 +21,102 @@ function loadFile(file) { return new Promise((ok, no) => { const i = new Image()
 const FACE_STEPS = [["U", "white", "Top face. Keep the front face towards the bottom of the picture."], ["R", "right", "Right face, with the top face upward."], ["F", "front", "Front face, with the top face upward."], ["D", "bottom", "Bottom face. Keep the front face towards the top of the picture."], ["L", "left", "Left face, with the top face upward."], ["B", "back", "Back face, with the top face upward."]];
 
 route(/^\/puzzles\/scan-cube$/, async () => {
-  view().innerHTML = `<a href="#/puzzles">← Puzzles</a><h1>Scan a real cube</h1><p class="lead">Show each face in turn, lined up with the grid. Pictures stay on this computer. Tap any sticker to correct it.</p>
-    <div class="panel"><div class="scanbox"><video id="v" playsinline muted></video><div class="gridov"></div></div><p id="msg" class="err"></p><p id="st" class="reading"></p>
-    <button id="cam">Start camera</button><button id="snap">Capture this face</button><label class="filebtn">Use a photo instead<input id="file" type="file" accept="image/*"></label></div>
-    <div class="panel"><h3>What was read</h3><div id="net" class="net"></div><p id="n" class="mute"></p><button id="solve">Solve this cube</button><button id="clear" class="alt">Start again</button></div>`;
+  view().innerHTML = `<a href="#/puzzles">← Puzzles</a><h1>Scan a real cube</h1><p class="lead">Click a side on the map, then photograph it. Drag sides to where they belong. Pictures stay on this computer.</p>
+    <div class="scanlay"><div class="panel"><div class="scanbox"><video id="v" playsinline muted></video><div class="gridov"></div></div><p id="msg" class="err"></p><p id="st" class="reading" aria-live="polite"></p>
+    <button id="cam">Start camera</button><button id="snap">Capture this side</button><label class="filebtn">Use a photo instead<input id="file" type="file" accept="image/*"></label></div>
+    <div class="panel"><h3>Your cube</h3><div id="net" class="net"></div><p class="mute">Click a side to choose it. Drag a side onto another to swap them. Once all six are read, click a side&#39;s centre to choose it, or any other sticker to change its colour.</p><div class="row"><button id="rot" class="alt">Rotate chosen side ↻</button></div><p id="n" class="mute"></p><button id="solve">Solve this cube</button><button id="clear" class="alt">Start again</button></div></div>`;
   const cam = camera($("#v"), $("#msg")); leaveOff(cam, "#/puzzles/scan-cube");
-  let face = 0, samples = Array(54).fill(null), letters54 = null;
-  const COLS = l => CUBE_COL[l];
-  const note = () => { $("#st").textContent = face < 6 ? `Face ${face + 1} of 6. ${FACE_STEPS[face][2]}` : "All six faces read."; };
+  const NET = [[3, 0], [6, 3], [3, 3], [3, 6], [0, 3], [9, 3]], NAMES = ["Top", "Right", "Front", "Bottom", "Left", "Back"];
+  let sel = 0, samples = Array(54).fill(null), cols = null, palette = {}, drag = null, justDragged = false;
+  const faceRead = f => samples[f * 9] !== null;
+  const reclassify = () => {
+    if (!samples.every(Boolean)) { cols = null; return; }
+    cols = [...classifyCube(samples)]; palette = {};
+    for (const l of "URFDLB") { const m = samples.filter((_, i) => cols[i] === l); palette[l] = [0, 1, 2].map(k => Math.round(m.reduce((a, s) => a + s[k], 0) / m.length)); }
+  };
+  const colour = n => cols ? `rgb(${palette[cols[n]]})` : samples[n] ? `rgb(${samples[n]})` : "#1b1638";
+  const note = () => { $("#st").textContent = sel < 0 ? "All six sides read. Click a side to photograph it again." : `Next photo: ${NAMES[sel]}. ${FACE_STEPS[sel][2]}`; };
   const draw = () => {
-    const pos = { U: [3, 0], L: [0, 3], F: [3, 3], R: [6, 3], B: [9, 3], D: [3, 6] };
     let h = "";
-    "URFDLB".split("").forEach((f, fi) => { for (let i = 0; i < 9; i++) { const n = fi * 9 + i, s = samples[n], col = letters54 ? COLS(letters54[n]) : s ? `rgb(${s})` : "#1b1638"; h += `<button type="button" class="st" data-n="${n}" aria-label="Sticker ${n + 1}" style="grid-column:${pos[f][0] + (i % 3) + 1};grid-row:${pos[f][1] + Math.floor(i / 3) + 1};background:${col}"></button>`; } });
+    NET.forEach(([x, y], f) => {
+      for (let i = 0; i < 9; i++) { const n = f * 9 + i; h += `<button type="button" class="st" data-n="${n}" aria-label="${NAMES[f]} side, sticker ${i + 1}" style="grid-column:${x + (i % 3) + 1};grid-row:${y + Math.floor(i / 3) + 1};background:${colour(n)}">${i === 4 ? `<span>${NAMES[f]}</span>` : ""}</button>`; }
+      h += `<i class="netface${f === sel ? " sel" : ""}${drag && drag.over === f ? " over" : ""}" style="grid-column:${x + 1}/span 3;grid-row:${y + 1}/span 3"></i>`;
+    });
     $("#net").innerHTML = h;
-    document.querySelectorAll(".st").forEach(b => { b.onclick = () => { if (!letters54) return; const n = +b.dataset.n; if (n % 9 === 4) return; const o = "URFDLB", arr = [...letters54]; arr[n] = o[(o.indexOf(arr[n]) + 1) % 6]; letters54 = arr.join(""); draw(); }; });
-    if (letters54) { const c = {}; [...letters54].forEach(l => { c[l] = (c[l] || 0) + 1; }); $("#n").textContent = Object.values(c).every(v => v === 9) ? "Nine stickers of each colour." : "Each colour must appear exactly nine times. Tap stickers to correct them."; }
+    if (cols) { const f = scanFacelets(cols); $("#n").textContent = f ? "Nine stickers of each colour." : "Each colour must appear nine times, with a different colour in the centre of every side."; }
+    else $("#n").textContent = `${[0, 1, 2, 3, 4, 5].filter(faceRead).length} of 6 sides read.`;
+  };
+  const choose = f => { sel = f; note(); draw(); };
+  const stickerAt = (x, y) => { const e = document.elementFromPoint(x, y), b = e && e.closest && e.closest(".st"); return b ? +b.dataset.n : null; };
+  $("#net").onclick = e => {
+    const b = e.target.closest(".st");
+    if (!b || justDragged) { justDragged = false; return; }
+    const n = +b.dataset.n, f = Math.floor(n / 9);
+    if (cols && n % 9 !== 4) { const o = "URFDLB"; cols[n] = o[(o.indexOf(cols[n]) + 1) % 6]; draw(); return; }
+    choose(f);
+  };
+  $("#net").onpointerdown = e => {
+    const b = e.target.closest(".st");
+    if (!b || e.button) return;
+    const from = Math.floor(+b.dataset.n / 9), sx = e.clientX, sy = e.clientY;
+    if (!faceRead(from)) return;
+    let ghost = null;
+    const move = m => {
+      if (!ghost && Math.hypot(m.clientX - sx, m.clientY - sy) < 8) return;
+      if (!ghost) {
+        ghost = document.createElement("div"); ghost.className = "netghost";
+        ghost.innerHTML = Array.from({ length: 9 }, (_, i) => `<b style="background:${colour(from * 9 + i)}"></b>`).join("");
+        document.body.append(ghost); drag = { from, over: null };
+      }
+      ghost.style.left = `${m.clientX}px`; ghost.style.top = `${m.clientY}px`;
+      const n = stickerAt(m.clientX, m.clientY), over = n === null ? null : Math.floor(n / 9);
+      if (over !== drag.over) { drag.over = over; draw(); }
+    };
+    const up = u => {
+      removeEventListener("pointermove", move); removeEventListener("pointerup", up); removeEventListener("pointercancel", up);
+      if (!ghost) return;
+      ghost.remove(); justDragged = true; setTimeout(() => { justDragged = false; }, 0);
+      const n = u.type === "pointerup" ? stickerAt(u.clientX, u.clientY) : null, to = n === null ? from : Math.floor(n / 9);
+      drag = null;
+      if (to !== from) {
+        samples = swapFaces(samples, from, to);
+        if (cols) cols = swapFaces(cols, from, to);
+        if (sel === from) sel = to; else if (sel === to) sel = from;
+        note();
+      }
+      draw();
+    };
+    addEventListener("pointermove", move); addEventListener("pointerup", up); addEventListener("pointercancel", up);
+  };
+  $("#rot").onclick = () => {
+    if (sel < 0 || !faceRead(sel)) { $("#n").textContent = "Choose a side that has been read."; return; }
+    samples = rotateFace(samples, sel);
+    if (cols) cols = rotateFace(cols, sel);
+    draw();
   };
   const take = canvas => {
-    if (face >= 6) return;
+    if (sel < 0) { $("#msg").textContent = "Click the side you want to photograph."; return; }
+    $("#msg").textContent = "";
     const g = canvas.getContext("2d", { willReadFrequently: true }), size = canvas.width, cell = size / 3;
     for (let i = 0; i < 9; i++) {
       const cx = (i % 3 + 0.5) * cell, cy = (Math.floor(i / 3) + 0.5) * cell, r = cell * 0.18, d = g.getImageData(cx - r, cy - r, 2 * r, 2 * r).data, ch = [[], [], []];
       for (let j = 0; j < d.length; j += 4) for (let k = 0; k < 3; k++) ch[k].push(d[j + k]);
-      samples[face * 9 + i] = ch.map(v => v.sort((a, b) => a - b)[v.length >> 1]);
+      samples[sel * 9 + i] = ch.map(v => v.sort((a, b) => a - b)[v.length >> 1]);
     }
-    face++;
-    if (face === 6) letters54 = classifyCube(samples);
-    note(); draw();
+    const next = [1, 2, 3, 4, 5].map(k => (sel + k) % 6).find(f => !faceRead(f));
+    sel = next === undefined ? -1 : next;
+    reclassify(); note(); draw();
   };
   $("#cam").onclick = () => cam.start();
   $("#snap").onclick = () => { if (!cam.on) { $("#msg").textContent = "Start the camera first, or use a photo."; return; } take(squareCanvas($("#v"), $("#v").videoWidth, $("#v").videoHeight, 300)); };
   $("#file").onchange = async e => { try { const i = await loadFile(e.target.files[0]); take(squareCanvas(i, i.naturalWidth, i.naturalHeight, 300)); e.target.value = ""; } catch (x) { $("#msg").textContent = x.message; } };
-  $("#clear").onclick = () => { face = 0; samples = Array(54).fill(null); letters54 = null; $("#n").textContent = ""; note(); draw(); };
-  $("#solve").onclick = async () => { if (!letters54) { $("#n").textContent = "Scan all six faces first."; return; } try { await api("/cube/solve", { facelets: letters54 }); window.PENDING_CUBE = letters54; location.hash = "#/puzzles/cube"; } catch { $("#n").textContent = "That is not a reachable cube position, so a sticker was probably misread. Correct it and try again."; } };
+  $("#clear").onclick = () => { sel = 0; samples = Array(54).fill(null); cols = null; note(); draw(); };
+  $("#solve").onclick = async () => {
+    const f = cols && scanFacelets(cols);
+    if (!cols) { $("#n").textContent = "Scan all six sides first."; return; }
+    if (!f) { $("#n").textContent = "Each colour must appear nine times, with a different colour in the centre of every side."; return; }
+    try { await api("/cube/solve", { facelets: f }); window.PENDING_CUBE = f; location.hash = "#/puzzles/cube"; } catch { $("#n").textContent = "That is not a reachable cube position. Check that each side is in the right place and turned the right way."; }
+  };
   note(); draw();
 }, "puzzles");
 
