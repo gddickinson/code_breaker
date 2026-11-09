@@ -235,4 +235,5 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Identification must weigh how hard each protocol's own checks are to pass by chance. UART's two framing bits per byte let it "decode" SPI and CAN lines; a CAN CRC-15 almost never passes by luck.
 - A test that only checks the common case hides bugs: identification skipped chip-select lines because they change only twice, and UART assumed no parity. Both showed up only in the mixed control.
 - A held-out set matters even for generated data: rules tuned on seed 9 were rechecked on seed 21 after every change.
+- Process: never gate a commit on `pytest ... | tail`; the pipeline returns tail's status. Run pytest, keep its exit code, then commit.
 

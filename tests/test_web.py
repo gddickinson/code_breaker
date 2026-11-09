@@ -196,7 +196,7 @@ def test_theory_pages_are_complete_and_linked():
     static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
     data = json.loads((static / "theory.json").read_text())
     ids = {x["id"] for x in data}
-    sims = "".join((static / f).read_text() for f in ("theory.js", "theory_sims2.js"))
+    sims = "".join((static / f).read_text() for f in ("theory.js", "theory_sims2.js", "ecc_sims.js"))
     history = {e["id"] for e in json.loads((static / "history.json").read_text())}
     links = []
     for x in data:
@@ -206,7 +206,7 @@ def test_theory_pages_are_complete_and_linked():
         links += [h for _, h in x.get("links", [])] + [r[3] for r in x.get("table", [])[1:]]
     for h in links:
         kind = h.removeprefix("#/").split("/")
-        assert (kind[0] == "cipher" and kind[1] in REGISTRY) or (kind[0] == "mystery" and kind[1] in CASES) or (kind[0] == "history" and kind[1] in history) or (kind[0] == "theory" and kind[1] in ids) or kind[0] in ("how", "machine", "math", "puzzles", "help"), h
+        assert (kind[0] == "cipher" and kind[1] in REGISTRY) or (kind[0] == "mystery" and kind[1] in CASES) or (kind[0] == "history" and kind[1] in history) or (kind[0] == "theory" and kind[1] in ids) or kind[0] in ("how", "machine", "math", "puzzles", "help", "logic", "recovery", "files", "biology", "sounds", "signals"), h
     assert client.get("/api/ciphers").status_code == 200
 
 
