@@ -86,3 +86,6 @@ OCR usable on 73 of 1,257 unsolved ads. 12 were plain French, so an unchanged-te
 
 ## 2026-11-09: Le Figaro documented systems
 Unfiltered OCR on all 1,317 images. Caesar (with and without W), Vigenere keys and reversals, applied to 613 unsolved ads with at least 20 letters. Control recovered 9 of 56 known ads. Six ads recorded as candidate readings after checking scans, including a second ad by Rysck. Novelty unconfirmed; nothing sent to the maintainer.
+
+## 2026-11-09: Le Figaro documented tables
+Parsed 60 substitution tables and their writers from the database. Control rose to 14 of 56 known ads. KP's ad decodes with the table listed only for KP, matching the blind solve. MH and H also matched tables linked to them. New candidates recorded as needs_review, several partly read. Nothing emailed.

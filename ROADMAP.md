@@ -95,13 +95,16 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Use the historical record: writers' documented systems beat general statistics on short ads.
 
+- Independent routes to one answer beat a single score: a blind solve and a writer's own table reached the same KP text.
+- When a parser finds 1 of 60 tables, do not trust the run: check counts before reading results.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
 | E4 | Z340: section A exact; section B breaks at position 99. Word and GRU scorers rank the achievable key above decoys, but word-model annealing (`kernels_word.py`, `scripts/z340_word.py`) failed its planted 10%-noise control at temperatures 0.4 to 10, and lowered accuracy from its starts. PARKED: little return from more runs; revisit with a better search idea such as crib-seeded or population methods | parked |
-| E6 | Le Figaro: documented-system search on 613 unsolved ads with enough OCR; control recovered 9 of 56 known ads. Eight ads flagged; six checked against scans and recorded, two partly read. Novelty unconfirmed. NEXT: add more documented systems from `codes.html` (vowel insertion and others), use writers' known systems, ask the user before emailing the maintainer | in_progress |
+| E6 | Le Figaro: 60 documented tables plus Caesar, Vigenere and reversal on 613 ads; control 14 of 56 known ads. 12 flagged; writers' own tables independently confirm KP, MH and H. Candidates recorded in leads. Novelty unconfirmed. NEXT: better OCR for short ads, vowel-insertion and dictionary-code systems; ask the user before emailing the maintainer | in_progress |
 | E8 | Beale drift model | completed 2026-11-09: narrow-window honest encoder reaches r=0.68; hoax inference withdrawn. D'Agapeyeff digit transposition still an idea |
 | E9 | Voynich: closer self-citation and independent-space verbose models added; each matches H2 and word length but fails on vocabulary or Zipf. Liber Primus running keys still pending | partial |
 | E10 | Multilingual Autobreak with fallback attacks | completed 2026-11-09 |

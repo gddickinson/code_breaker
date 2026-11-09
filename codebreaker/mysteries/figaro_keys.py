@@ -4,6 +4,7 @@ import random
 import re
 from concurrent.futures import ProcessPoolExecutor
 from difflib import SequenceMatcher
+from html import unescape
 
 import numpy as np
 
@@ -45,8 +46,35 @@ def vig(t, key, alpha):
     return "".join(out)
 
 
+def load_tables() -> list[dict]:
+    """Substitution tables, and the writers who used them, from the database's list of systems."""
+    raw = (OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
+    out = []
+    parts = re.split(r"<tr><td>(\d+)</td><td><center>([^<]*)</center>", raw)
+    for i in range(1, len(parts) - 2, 3):
+        sid, name, chunk = parts[i], parts[i + 1], parts[i + 2]
+        m = re.search(r"<table.*?</table>", chunk, flags=re.S | re.I)
+        if not m:
+            continue
+        rows = re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(0), flags=re.S | re.I)
+        cells = [[unescape(re.sub(r"<[^>]+>|\s+", "", c)) for c in re.findall(r"<td[^>]*>(.*?)</td>", r, flags=re.S | re.I)] for r in rows]
+        if len(cells) < 2 or not cells[0] or not cells[0][0].lower().startswith("chiffr"):
+            continue
+        mapping = {c.upper(): p.upper() for c, p in zip(cells[0][1:], cells[1][1:]) if len(c) == 1 and c.isalpha() and len(p) == 1 and p.isalpha()}
+        after = re.sub(r"<[^>]+>", " ", chunk[m.end():])
+        users = [u for u in unescape(after).replace("\xa0", " ").split()][1:]
+        if len(mapping) >= 12:
+            out.append({"id": sid, "name": unescape(name), "desc": re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", chunk[:m.start()])))[:90], "map": mapping, "users": users})
+    return out
+
+
+TABLES = load_tables() if (OUT / "codes.html").exists() else []
+
+
 def candidates(t):
     for source, x in (("", t), ("reversed, ", t[::-1])):
+        for tab in TABLES:
+            yield f"{source}table {tab['id']}", "".join(tab["map"].get(c, c) for c in x)
         if source:
             yield "reversed", x
         for k in range(1, 26):
@@ -81,7 +109,10 @@ def job(a):
     sh = list(t)
     r.shuffle(sh)
     null_c = best("".join(sh))[0]
-    return {"image": name, "letters": len(t), "raw": t, "plain_coverage": plain_cov, "coverage": c, "null_coverage": null_c, "score": s, "method": method, "plaintext": p, "reading": segment(p[:260], "fr")}
+    sig = re.sub(r"\.jpg$", "", name.split("-", 1)[1]) if "-" in name else ""
+    tab = next((x for x in TABLES if method.endswith(f"table {x['id']}")), None)
+    author = bool(tab and sig and sig in tab["users"])
+    return {"signature": sig, "author_match": author, "image": name, "letters": len(t), "raw": t, "plain_coverage": plain_cov, "coverage": c, "null_coverage": null_c, "score": s, "method": method, "plaintext": p, "reading": segment(p[:260], "fr")}
 
 
 def run_all(raw, names):

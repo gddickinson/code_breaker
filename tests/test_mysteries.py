@@ -140,3 +140,11 @@ def test_figaro_documented_systems_decode_known_samples():
 
     assert shift("SJFORVFUPJ", 25, A) == "RIENQUETOI"
     assert vig("UZIVGRIXCPIHCFSHPYUQOSIV", "CEAD", NOW) == "SUISENITALIEABSENTUNMOIS"
+
+
+def test_figaro_tables_parse_and_kp_table_reads():
+    from codebreaker.mysteries.figaro_keys import TABLES
+
+    t = {x["id"]: x for x in TABLES}
+    assert len(TABLES) >= 50 and "KP" in t["1108"]["users"]
+    assert "".join(t["1108"]["map"][c] for c in "DVPSH") == "VOILA"
