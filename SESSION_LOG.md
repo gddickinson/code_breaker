@@ -186,3 +186,6 @@ Added 19 entries in five new groups (chemical messages, light and colour, sound 
 Added an Error correction group to Theory with four topics and simulations: detection (parity, Luhn, ISBN-10, CRC-8), Hamming(7,4) with syndromes, Reed-Solomon over GF(256) with Berlekamp-Massey, Chien search and Forney, and convolutional codes with Viterbi decoding compared against Shannon capacity. Tested: Hamming 128 of 128 single errors; Reed-Solomon 200 of 200 with 5 errors in 10 check bytes, with few silent miscorrections beyond that. Linked from the Logic Analyser's CRC checks and Codes in Nature's proofreading entry.
 Process lesson: a commit chained after `pytest | tail` went through with a failing test, because the pipe's status is tail's. Commits now check pytest's own exit status.
 
+## 2026-11-09: README (user request)
+Wrote README.md (there was none) with 14 screenshots in docs/images, taken from the running app by a scripted headless Chrome: library, Workbench cracking a Vigenere, Enigma, the Le Figaro correspondence, Solutions, the Viterbi simulation, the Signal Workbench (Kinect depth), Logic Analyser (CAN), Sound Lab, File Inspector, Live Devices (simulated GPS only, so no personal device names appear), Recovering Data, the cube and Codes in Nature. Figures quoted come from the database and results files.
+
