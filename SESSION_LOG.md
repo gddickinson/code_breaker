@@ -68,3 +68,6 @@ GPU-trained GRU (final loss 1.34) and a word-segmentation scorer both rank the b
 
 ## 2026-11-09: Round 14 complete
 Word-model annealing failed its planted control and did not improve Z340, so its Z340 results were not used and that benchmark is parked. The three-gate verdict now accepts very high word coverage, for real ciphers with errors. Next: Round 15, changing target.
+
+## 2026-11-09: Round 15 complete
+Vigenere, Beaufort, Variant and Porta attacks on all 16 letter-only unsolved texts, forwards and reversed, in six languages: nothing readable. Added a VIC-style teaching model (70 systems) and retrained the classifier. Next: Round 16.

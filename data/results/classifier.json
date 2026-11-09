@@ -3,59 +3,59 @@
  "classes": 48,
  "train": 15360,
  "test": 2400,
- "gpu_seconds_2_epochs": 0.5,
- "cpu_seconds_2_epochs": 22.2,
- "top1": 0.5679,
- "top3": 0.7408,
- "family": 0.8287,
+ "gpu_seconds_2_epochs": 0.6,
+ "cpu_seconds_2_epochs": 22.1,
+ "top1": 0.5621,
+ "top3": 0.7488,
+ "family": 0.8283,
  "per_class": {
   "a1z26": 1.0,
   "adfgvx": 1.0,
   "adfgx": 1.0,
-  "affine": 0.14,
-  "alberti": 0.44,
-  "amsco": 0.72,
+  "affine": 0.2,
+  "alberti": 0.42,
+  "amsco": 0.58,
   "atbash": 1.0,
-  "autokey": 0.4,
+  "autokey": 0.36,
   "baconian": 1.0,
-  "beaufort": 0.38,
-  "bifid": 0.62,
+  "beaufort": 0.34,
+  "bifid": 0.46,
   "caesar": 0.38,
-  "chaocipher": 0.16,
+  "chaocipher": 0.3,
   "checkerboard": 1.0,
-  "columnar": 0.24,
-  "double": 0.14,
-  "enigma": 0.16,
-  "foursquare": 0.82,
-  "fracmorse": 0.9,
+  "columnar": 0.18,
+  "double": 0.2,
+  "enigma": 0.18,
+  "foursquare": 0.8,
+  "fracmorse": 0.86,
   "grille": 0.92,
-  "gromark": 0.26,
-  "gronsfeld": 0.2,
-  "hill": 0.22,
+  "gromark": 0.24,
+  "gronsfeld": 0.18,
+  "hill": 0.24,
   "homophonic": 1.0,
-  "jefferson": 0.2,
+  "jefferson": 0.08,
   "morse": 1.0,
-  "myszkowski": 0.22,
+  "myszkowski": 0.34,
   "nicodemus": 0.22,
   "nihilist": 1.0,
-  "playfair": 0.68,
+  "playfair": 0.72,
   "polybius": 1.0,
-  "porta": 0.38,
-  "quagmire": 0.04,
+  "porta": 0.3,
+  "quagmire": 0.06,
   "quagmire1": 0.08,
-  "quagmire2": 0.2,
-  "railfence": 0.12,
+  "quagmire2": 0.14,
+  "railfence": 0.18,
   "rot13": 1.0,
-  "route": 0.7,
-  "scytale": 0.26,
-  "slidefair": 0.32,
-  "substitution": 0.84,
+  "route": 0.66,
+  "scytale": 0.18,
+  "slidefair": 0.34,
+  "substitution": 0.86,
   "tap": 1.0,
   "trifid": 0.96,
-  "trithemius": 0.62,
-  "twosquare": 0.66,
-  "variant": 0.38,
-  "vigenere": 0.3,
+  "trithemius": 0.7,
+  "twosquare": 0.7,
+  "variant": 0.44,
+  "vigenere": 0.2,
   "plaintext": 0.98
  },
  "autobreak_trials": [
@@ -85,9 +85,9 @@
   },
   {
    "cipher": "alberti",
-   "identified": "enigma",
-   "recovered": 0.053,
-   "top_system": "Gromark"
+   "identified": "chaocipher",
+   "recovered": 1.0,
+   "top_system": "Alberti disk"
   },
   {
    "cipher": "amsco",
@@ -116,12 +116,12 @@
   {
    "cipher": "beaufort",
    "identified": "hill",
-   "recovered": 0.122,
-   "top_system": "Porta"
+   "recovered": 0.063,
+   "top_system": "Vigenere"
   },
   {
    "cipher": "bifid",
-   "identified": "bifid",
+   "identified": "playfair",
    "recovered": 0.997,
    "top_system": "Bifid"
   },
@@ -139,9 +139,9 @@
   },
   {
    "cipher": "columnar",
-   "identified": "columnar",
+   "identified": "myszkowski",
    "recovered": 1.0,
-   "top_system": "Columnar transposition"
+   "top_system": "Myszkowski"
   },
   {
    "cipher": "enigma",
@@ -169,15 +169,15 @@
   },
   {
    "cipher": "gronsfeld",
-   "identified": "porta",
+   "identified": "hill",
    "recovered": 1.0,
-   "top_system": "Gronsfeld"
+   "top_system": "Vigenere"
   },
   {
    "cipher": "hill",
-   "identified": "variant",
-   "recovered": 0.103,
-   "top_system": "Beaufort"
+   "identified": "beaufort",
+   "recovered": 0.075,
+   "top_system": "Simple substitution"
   },
   {
    "cipher": "homophonic",
@@ -187,7 +187,7 @@
   },
   {
    "cipher": "jefferson",
-   "identified": "chaocipher",
+   "identified": "quagmire1",
    "recovered": 1.0,
    "top_system": "Jefferson wheel"
   },
@@ -204,5 +204,5 @@
    "top_system": "Columnar transposition"
   }
  ],
- "autobreak_solved": 19
+ "autobreak_solved": 20
 }

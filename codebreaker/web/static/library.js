@@ -72,7 +72,7 @@ route(/^\/cipher\/([\w-]+)$/, async id => {
   });
 }, "library");
 
-const PLANNED = ["Purple", "SIGABA", "Typex", "VIC (full system)", "Ragbaby", "Bazeries", "Portax", "Pollux", "Morbit", "Cadenus", "Swagman", "Digrafid", "Tri-square", "Phillips", "Nomenclators", "Post-quantum toy (LWE)"];
+const PLANNED = ["Purple", "SIGABA", "Typex", "Ragbaby", "Bazeries", "Portax", "Pollux", "Morbit", "Cadenus", "Swagman", "Digrafid", "Tri-square", "Phillips", "Nomenclators", "Post-quantum toy (LWE)"];
 route(/^\/coverage$/, async () => {
   const fam = {};
   state.ciphers.forEach(c => (fam[c.family] ||= []).push(c));

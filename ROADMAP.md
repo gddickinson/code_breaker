@@ -41,7 +41,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 12 | Longer Z340 search; D'Agapeyeff digit transposition; Liber Primus running keys; cheap Autobreak fallbacks | completed 2026-11-09 |
 | 13 | Scorers judged against the achievable key on Z340: word-aware and neural (GPU) | completed 2026-11-09 |
 | 14 | Word-guided annealing (negative, control failed); readable gate now accepts very high word coverage | completed 2026-11-09 |
-| 15 | Change target: French n-gram solver for newspaper ads, hunter on French and Latin-heavy texts; Purple or VIC machine model; new data sources | next |
+| 15 | Vigenere-family sweep of all letter texts; VIC teaching model (Purple deferred: no verified wiring) | completed 2026-11-09 |
+| 16 | Benchmark suite from AZdecrypt's solved folders; new data sources; animated bombe stops | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -82,6 +83,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - A failed planted control stops the line: the Z340 numbers from that method were not interpreted.
 - When several rounds of effort on one benchmark give shrinking returns, park it and move on.
+
+- With short texts and periods up to 20, solvers overfit: require coverage plus a control at that length.
 
 ## Emergent tasks
 | ID | Note | Status |

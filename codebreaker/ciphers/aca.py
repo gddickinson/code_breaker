@@ -223,3 +223,51 @@ def m209_demo(seed):
 
 add(id="m209", name="M-209 (teaching model)", family="Machines", era="Hagelin, US Army, WWII and Korea", summary="A pocket mechanical cipher with six pin wheels and a lug cage.", how="Wheels of 26 to 17 pins step together. A cage of 27 bars counts how many engaged wheels push it, giving a shift for that letter. This model fixes pins and lugs from a seed; the key is the wheel start.", weakness="Long periods, but the key is not random. German analysts read it routinely when messages were sent in depth or with known text.",
     encrypt=m209, decrypt=m209, key={"seed": 1942, "start": "AAAAAA"}, example="Field message", params=[Param("seed", "Pin and lug seed", "int"), Param("start", "Six start letters")], demo_attack=m209_demo)
+
+
+def _vic_stream(primer, n):
+    d = [int(c) for c in str(primer)]
+    while len(d) < n:
+        d.append((d[len(d) - len(str(primer))] + d[len(d) - len(str(primer)) + 1]) % 10)
+    return d[:n]
+
+
+def _vic_key(primer):
+    return "".join("ABCDEFGHIJ"[d] for d in _vic_stream(primer, 40)[-9:])
+
+
+def vic_e(t, keyword="SNOWFALL", primer="74125"):
+    from .columns import col_encrypt
+    from .polygraphic import sc_e
+
+    digits = sc_e(t, keyword)
+    added = "".join(str((int(c) + g) % 10) for c, g in zip(digits, _vic_stream(primer, len(digits))))
+    return col_encrypt(added, _vic_key(primer))
+
+
+def vic_d(t, keyword="SNOWFALL", primer="74125"):
+    from .columns import col_decrypt
+    from .polygraphic import sc_d
+
+    added = col_decrypt(t, _vic_key(primer))
+    digits = "".join(str((int(c) - g) % 10) for c, g in zip(added, _vic_stream(primer, len(added))))
+    return sc_d(digits, keyword)
+
+
+def vic_demo(seed):
+    r = random.Random(seed)
+    word, primer = r.choice(keywords("en", 80, 6)), f"{r.randrange(10000, 99999)}"
+    a, b = "MEETTHECONTACTATTHEOLDCHURCHONFRIDAYEVENINGBRINGTHEDOCUMENTS", "SENDMONEYANDPASSPORTSTOTHEADDRESSINVIENNAWITHOUTDELAYPLEASEX"
+    from .polygraphic import sc_e
+
+    ca, cb = sc_e(a, word), sc_e(b, word)
+    n = min(len(ca), len(cb))
+    stream = _vic_stream(primer, n)
+    xa = [(int(c) + s) % 10 for c, s in zip(ca, stream)]
+    xb = [(int(c) + s) % 10 for c, s in zip(cb, stream)]
+    rec = "".join(str((x - y + int(c)) % 10) for x, y, c in zip(xb, xa, ca))
+    return {"kind": "modern", "title": "Reused additive key", "steps": ["The VIC cipher added a long digit stream to a straddling-checkerboard message, then transposed it twice.", "The real system was never broken until the defector Reino Hayhanen explained it in 1957. Its security rested on fresh key material for every message.", "If an operator reuses the additive stream, the difference of two messages cancels the key, and a known message reveals the other. This demo shows that step before transposition."], "recovered": rec, "truth": cb[:n], "success": rec == cb[:n]}
+
+
+add(id="vic", name="VIC-style cipher (teaching model)", family="Fractionating", era="Soviet spy Reino Hayhanen, 1950s", summary="Straddling checkerboard, a chain-added key, then transposition.", how="Letters become digits by checkerboard. A lagged-Fibonacci stream is added without carrying, and the digits are transposed. The real system derived its keys from a date, a phrase and a personal number, and transposed twice with irregular patterns; this simplified model keeps the main stages.", weakness="The full system resisted analysts until a defector explained it. Fresh key material per message was essential.",
+    encrypt=vic_e, decrypt=vic_d, key={"keyword": "SNOWFALL", "primer": "74125"}, example="Meet at the bridge after dark", params=[Param("keyword", "Checkerboard keyword"), Param("primer", "Five-digit primer")], demo_attack=vic_demo)
