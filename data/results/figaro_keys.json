@@ -1,17 +1,17 @@
 {
  "id": "figaro_keys",
  "tested": 641,
- "plain_ads": 193,
+ "plain_ads": 188,
  "thresholds": {
-  "1": 0.615,
+  "1": 0.409,
   "2": 0.293,
   "4": 0.187,
   "3": 0.294,
-  "6": 0.133,
+  "6": 0.132,
   "5": 0.114
  },
  "control_ads": 56,
- "control_recovered": 15,
+ "control_recovered": 16,
  "control_rows": [
   {
    "image": "1892_18920901-LN.jpg",
@@ -30,20 +30,20 @@
    "match": 0.856
   },
   {
+   "image": "1885_18850918-ArH.jpg",
+   "letters": 147,
+   "coverage": 0.653,
+   "null": 0.054,
+   "method": "table 1101",
+   "match": 0.854
+  },
+  {
    "image": "1889_18890731-P52.jpg",
    "letters": 89,
    "coverage": 0.393,
    "null": 0.09,
    "method": "table 2218",
    "match": 0.802
-  },
-  {
-   "image": "1885_18850918-ArH.jpg",
-   "letters": 130,
-   "coverage": 0.654,
-   "null": 0.062,
-   "method": "table 1101",
-   "match": 0.778
   },
   {
    "image": "1881_18810621-PAV.jpg",
@@ -62,19 +62,19 @@
    "match": 0.73
   },
   {
+   "image": "1894_18941213-TR.jpg",
+   "letters": 147,
+   "coverage": 0.367,
+   "null": 0.054,
+   "method": "table 2216",
+   "match": 0.71
+  },
+  {
    "image": "1882_18820713-AL.jpg",
    "letters": 129,
    "coverage": 0.775,
    "null": 0.07,
    "method": "table 1011",
-   "match": 0.709
-  },
-  {
-   "image": "1892_18920920-LG.jpg",
-   "letters": 85,
-   "coverage": 0.506,
-   "null": 0.059,
-   "method": "table 1002",
    "match": 0.709
   },
   {
@@ -94,20 +94,20 @@
    "match": 0.69
   },
   {
-   "image": "1894_18941213-TR.jpg",
-   "letters": 149,
-   "coverage": 0.456,
-   "null": 0.087,
-   "method": "table 2216",
+   "image": "1892_18920920-LG.jpg",
+   "letters": 82,
+   "coverage": 0.415,
+   "null": 0.049,
+   "method": "table 1002",
    "match": 0.682
   },
   {
-   "image": "1899_18990204-P.jpg",
-   "letters": 62,
-   "coverage": 0.339,
-   "null": 0.097,
-   "method": "table 1005",
-   "match": 0.643
+   "image": "1896_18960822-Jean.jpg",
+   "letters": 59,
+   "coverage": 0.068,
+   "null": 0.102,
+   "method": "table 2222",
+   "match": 0.68
   }
  ],
  "flagged": [
@@ -238,6 +238,20 @@
    "reading": "RIEN QUE TOI OCUPE PENSE DESIR HATE TE VOIR"
   },
   {
+   "signature": "5",
+   "author_match": false,
+   "image": "1882_18820701-5.jpg",
+   "letters": 39,
+   "raw": "LQUHUIQSGVHSEHBLQUHHBFHDQCHBLGBBHKLQDHC",
+   "plain_coverage": 0.0,
+   "coverage": 0.615,
+   "null_coverage": 0.128,
+   "score": -4.054343613272434,
+   "method": "table 2217",
+   "plaintext": "AIMEMOIUNPEUJETAIMEETDESIRETANTTEBAISER",
+   "reading": "AIME MOI UN PEU J ET AIME ET DESIRE TANT TE BAISER"
+  },
+  {
    "signature": "R",
    "author_match": true,
    "image": "1880_18801105-R.jpg",
@@ -280,19 +294,103 @@
    "reading": "TRISTE D ADIEU SI FROID TON ME QU ON D MEME TE DESIRE FOLLE M EN TE BAISE PARTOUT AABERTPECPERIE"
   },
   {
-   "signature": "",
+   "signature": "AMI",
    "author_match": false,
-   "image": "1896_18960817.jpg",
-   "letters": 64,
-   "raw": "INQPTTRVJUUHSPVQFWBJTMVDFSOFFCSJTTFSBJHBSFFQJOBXMFNFSDJBNJFSZTDL",
+   "image": "1881_18810902-AMI.jpg",
+   "letters": 22,
+   "raw": "MAISUNTESETESEDITOUSUI",
+   "plain_coverage": 0.182,
+   "coverage": 0.545,
+   "null_coverage": 0.273,
+   "score": -4.010761541202823,
+   "method": "reversed word order",
+   "plaintext": "SUITOUDISETESETEUNMAIS",
+   "reading": "SUIT OU DIS ETES ETE UN MAIS"
+  },
+  {
+   "signature": "N",
+   "author_match": false,
+   "image": "1884_18840109-N.jpg",
+   "letters": 22,
+   "raw": "RCOGFMGRPEFURFRFEGCRPT",
    "plain_coverage": 0.0,
+   "coverage": 0.545,
+   "null_coverage": 0.273,
+   "score": -4.76267302613202,
+   "method": "table 2221",
+   "plaintext": "ESOTMOTEREMUEMEMETSERB",
+   "reading": "ES O T M OTER EMUE MEME TSERB"
+  },
+  {
+   "signature": "25",
+   "author_match": false,
+   "image": "1894_18940920-25.jpg",
+   "letters": 35,
+   "raw": "GVRFTHFIPHTDYHEXQLQYUHTDKXTHUSGLPHG",
+   "plain_coverage": 0.0,
+   "coverage": 0.514,
+   "null_coverage": 0.114,
+   "score": -4.697641654966899,
+   "method": "Vigenere CD, no W",
+   "plaintext": "ESPCREDFNERAVECTOIOUSERAITRESPEINEE",
+   "reading": "ESPCREDFNER AVEC TOI OU SERAI TRES PEINE E"
+  },
+  {
+   "signature": "severe",
+   "author_match": false,
+   "image": "1890_18900206-severe.jpg",
+   "letters": 22,
+   "raw": "SEVEREVOYSAUCSACONSVIE",
+   "plain_coverage": 0.273,
    "coverage": 0.5,
-   "null_coverage": 0.125,
-   "score": -5.11686165838718,
-   "method": "table 1001",
-   "plaintext": "HMPOSSQUITTGROUPEVAISLUCERNEEBRISSERAIGAREEPINAWLEMERCIAMIERYSCK",
-   "reading": "HMPOSSQUITT GROUPE VAIS LU CE R NEE BRIS SERAI GARE EPINAW LE MERCI AMIE RYSCK"
+   "null_coverage": 0.182,
+   "score": -5.038514847311842,
+   "method": "reversed word order",
+   "plaintext": "VIENSCOSAVOYSAUCSEVERE",
+   "reading": "VIENS COSAVOYSAUC SEVERE"
+  },
+  {
+   "signature": "23",
+   "author_match": false,
+   "image": "1896_18960918-23.jpg",
+   "letters": 31,
+   "raw": "OUIRSATILMPEUTNKINQAULELMPEONAT",
+   "plain_coverage": 0.129,
+   "coverage": 0.5,
+   "null_coverage": 0.129,
+   "score": -4.936135427040394,
+   "method": "every second letter from first",
+   "plaintext": "OISTLPUNIQUEMENT",
+   "reading": "O IS T L PUNI QUE MENT"
+  },
+  {
+   "signature": "78",
+   "author_match": false,
+   "image": "1884_18841113-78.jpg",
+   "letters": 25,
+   "raw": "HCRCTMGPCQRKMLQCSJZMLFESP",
+   "plain_coverage": 0.0,
+   "coverage": 0.48,
+   "null_coverage": 0.2,
+   "score": -4.47608559900713,
+   "method": "table 1024",
+   "plaintext": "JETEVOIRESTMONSEULBONHGUR",
+   "reading": "JETE VOIR EST MON SEUL BON HGUR"
+  },
+  {
+   "signature": "42",
+   "author_match": false,
+   "image": "1883_18830217-42.jpg",
+   "letters": 22,
+   "raw": "REFROTICTBPBTSPSTRFPTS",
+   "plain_coverage": 0.0,
+   "coverage": 0.455,
+   "null_coverage": 0.182,
+   "score": -5.290551280469839,
+   "method": "reversed, Caesar 11",
+   "plaintext": "DEAQCEDADEMAMENTEZCQPC",
+   "reading": "DE AQ CEDA DE MA MENTEZ CQPC"
   }
  ],
- "runtime_s": 26.4
+ "runtime_s": 26.9
 }

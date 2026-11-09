@@ -165,7 +165,7 @@ def run_best(sources, names):
     best = {}
     for raw in sources:
         for r in run_all(raw, names):
-            if r["image"] not in best or (r["coverage"], r["letters"]) > (best[r["image"]]["coverage"], best[r["image"]]["letters"]):
+            if r["image"] not in best or r["score"] > best[r["image"]]["score"]:  # chosen by testing on known ads
                 best[r["image"]] = r
     return list(best.values())
 

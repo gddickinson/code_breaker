@@ -1,0 +1,30 @@
+{
+ "first OCR": {
+  "recovered": 14,
+  "mean_match": 0.418
+ },
+ "Otsu OCR": {
+  "recovered": 16,
+  "mean_match": 0.458
+ },
+ "highest coverage": {
+  "recovered": 15,
+  "mean_match": 0.448
+ },
+ "highest language score": {
+  "recovered": 16,
+  "mean_match": 0.46
+ },
+ "coverage above null": {
+  "recovered": 16,
+  "mean_match": 0.451
+ },
+ "agreement then coverage": {
+  "recovered": 14,
+  "mean_match": 0.436
+ },
+ "writer's own table first": {
+  "recovered": 15,
+  "mean_match": 0.453
+ }
+}

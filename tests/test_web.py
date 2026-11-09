@@ -184,3 +184,44 @@ def test_tutorials_link_to_real_pages():
     assert len(data) >= 10
     for t in data:
         assert re.search(re.escape(t["puzzle"].removeprefix("#/").split("/")[-1]), routes), t["puzzle"]
+
+
+def test_theory_pages_are_complete_and_linked():
+    import json
+    from pathlib import Path
+
+    from codebreaker.ciphers import REGISTRY
+    from codebreaker.mysteries.casefiles import CASES
+
+    static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
+    data = json.loads((static / "theory.json").read_text())
+    ids = {x["id"] for x in data}
+    sims = "".join((static / f).read_text() for f in ("theory.js", "theory_sims2.js"))
+    history = {e["id"] for e in json.loads((static / "history.json").read_text())}
+    links = []
+    for x in data:
+        assert x["sections"] and x["example"] and x["solve"]
+        if x.get("sim"):
+            assert f"SIMS.{x['sim']} =" in sims, x["id"]
+        links += [h for _, h in x.get("links", [])] + [r[3] for r in x.get("table", [])[1:]]
+    for h in links:
+        kind = h.removeprefix("#/").split("/")
+        assert (kind[0] == "cipher" and kind[1] in REGISTRY) or (kind[0] == "mystery" and kind[1] in CASES) or (kind[0] == "history" and kind[1] in history) or (kind[0] == "theory" and kind[1] in ids) or kind[0] in ("how", "machine", "math", "puzzles", "help"), h
+    assert client.get("/api/ciphers").status_code == 200
+
+
+def test_page_scripts_do_not_redeclare_globals():
+    """All page scripts share one global scope, so a repeated name silently breaks a whole file."""
+    import re
+    from collections import defaultdict
+    from pathlib import Path
+
+    static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
+    seen = defaultdict(set)
+    for f in static.glob("*.js"):
+        for line in f.read_text().splitlines():
+            m = re.match(r"(?:const|let|var|class|function|async function)\s+([A-Za-z_$][\w$]*)", line)
+            if m:
+                seen[m.group(1)].add(f.name)
+    clashes = {k: v for k, v in seen.items() if len(v) > 1}
+    assert not clashes, clashes

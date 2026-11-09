@@ -261,6 +261,19 @@ def sudoku_read(body: ImageIn):
     return {"grid": guarded(lambda: read_grid(decode_image(body.image)))}
 
 
+@app.get("/api/theory/bigrams")
+def theory_bigrams():
+    """English letter-pair probabilities, for the inference simulations."""
+    import numpy as np
+
+    from ..text import to_ints
+
+    t = to_ints(corpus_text("en"))
+    c = np.bincount(t[:-1] * 26 + t[1:], minlength=676).astype(float) + 0.5
+    m = c.reshape(26, 26)
+    return {"transition": (m / m.sum(1, keepdims=True)).round(5).tolist(), "sample": letters(corpus_text("en"))[60000:60900]}
+
+
 @app.get("/api/leads/feed")
 def lead_feed():
     from .. import leads as L

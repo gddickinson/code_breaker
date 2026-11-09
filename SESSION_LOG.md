@@ -111,3 +111,6 @@ Period detection from repeated pairs found all 6 planted transpositions, and 5 w
 
 ## 2026-11-09: Guide illustrations (user request)
 Every step of all 10 Learn to Solve guides now has a code-drawn illustration: isometric cube stages, worked sudoku examples, computed Lights Out boards, and diagrams for the other puzzles and ciphers.
+
+## 2026-11-09: Round 20 and Theory section
+Choosing OCR by language score ties the best control result, 16 of 56. Added a Theory section of 13 topics: entropy, Huffman and Shannon-Fano, randomness tests, LFSRs and Berlekamp-Massey, Monte Carlo, MCMC, belief propagation, hidden Markov models, variational inference, Shor's algorithm, differential cryptanalysis, Pollard's rho and an attack catalogue. Each algorithm is tested. Next: Round 21, using these methods on the Le Figaro OCR.

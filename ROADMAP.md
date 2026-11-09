@@ -46,7 +46,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 17 | Le Figaro non-table systems: mirror, alternate word Caesars, letter insertion, rail, five-column (no new readings) | completed 2026-11-09 |
 | 18 | Le Figaro OCR cleanup tested on known answers; Otsu chosen | completed 2026-11-09 |
 | 19 | Period-step search for combined ciphers (controls 5 of 6, benchmark 0 of 84); bigram solver (control failed, 4-16%, parked) | completed 2026-11-09 |
-| 20 | Le Figaro: per-ad OCR choice that does not rely on coverage alone, French n-gram scoring for tied ads, number-code ads where the codebook is public (Brunswik, Louis); combined benchmark needs irregular transposition models | next |
+| 20 | Le Figaro OCR choice by language score (16 of 56, ties best) | completed 2026-11-09 |
+| 21 | Use theory in practice: HMM repair of Le Figaro OCR, soft fusion of OCR engines with belief propagation; AIM dictionary code from the archive.org scan; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -111,6 +112,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Planted single-step transpositions are much easier than real benchmark ciphers: a passing control does not mean the method generalises.
 - Bigram search over 676 values per symbol overfits at 1,000 letters; penalising letter frequencies did not rescue it.
+
+- Page scripts share a global scope: one repeated name silently removes a whole file, so a test now forbids clashes.
 
 ## Emergent tasks
 | ID | Note | Status |
