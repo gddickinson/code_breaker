@@ -21,6 +21,12 @@
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 
+## codebreaker/devices/ (Live Devices page)
+`discover.py` finds USB, camera, audio, display, Bluetooth, serial and network devices from system_profiler, pyserial and psutil · `streams.py` read-only serial and network-rate streams · `analysis.py` structure of unknown byte streams (entropy, NMEA, JSON, CSV, AT, key-value, fixed binary packets) · `sim.py` simulated GPS, sensor and packet devices. Front end: `devices.js`, `devices_media.js` (camera and microphone analysed in the browser).
+
+## codebreaker/signals/ (Signal Workbench page)
+`raw_formats.py` camera and sensor pixel formats (8/16-bit, RAW10, RAW12, Kinect 11-bit, YUYV, RGB24, RGB565, Bayer) as encoders and decoders · `raw_detect.py` row length from byte differences, then the smoothest format; generated scenes and the control · `service.py` previews, examples and per-format reliability. Front end `signals.js`. Device and signal routes are in `web/routes_devices.py`.
+
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·

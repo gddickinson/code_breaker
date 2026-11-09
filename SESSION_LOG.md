@@ -158,3 +158,9 @@ Submissions now have exact encodings removed (Base64, hex, binary, character cod
 ## 2026-11-09: Round 29
 Fixed the Workbench's only benchmark miss: Quagmire III now searches 6,000 alphabet keywords and recovered 30 of 30 random keys. An alphabet-swap refinement was tried and dropped. The 2119 (17 ads, 13 checked) and 2402 (16 ads, 10 checked) families are now dated correspondences on the Le Figaro case page. A dictionary test did not support symbol 1=B, so that stays an eye-reading. Wider transposition keys moved to Round 30, together with the user's signals and devices request.
 
+## 2026-11-09: Live Devices (user request)
+New Tools page, Live Devices. It lists everything attached (61 devices found: USB, 3 cameras, audio, displays, Bluetooth, serial ports, network) and monitors live streams read-only: serial ports with automatic format recognition (NMEA with checksums, JSON, CSV readings, AT commands, key-value, fixed binary packets, random or encrypted data), cameras and microphones analysed in the browser (brightness, colour, motion, sharpness, QR codes; spectrum, loudest frequency, DTMF keys), and network throughput per interface. Simulated serial devices allow testing without hardware. Checked in headless Chrome with fake media devices.
+
+## 2026-11-09: Round 30
+Added the Signal Workbench: rebuild raw camera and sensor frames from bytes, with generated examples (Kinect depth, webcam YUYV, RAW10, RGB565, Bayer, 16-bit). Automatic detection is right for format and width in 51 of 80 generated cases, with all 8 correct for 8-bit, RAW10, Kinect 11-bit, YUYV and RGB24, and weak for 16-bit, RAW12, RGB565 and Bayer, so the page shows that reliability and offers manual format, width, offset and Bayer controls. Live Devices monitors (serial, camera, microphone, network) now each have their own stop button, checked in Chrome. Device and signal routes moved to web/routes_devices.py to keep app.py under 500 lines.
+

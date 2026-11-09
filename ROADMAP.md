@@ -56,7 +56,13 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 27 | Ads grouped by table (14 tables with families); blank-cell inference (hidden cells: 55 of 69 answered correct, 121 tested); R=O in table 2119 with 15 of 15 held-out folds | completed 2026-11-09 |
 | 28 | Six family leads checked against scans; numeric families cleaned (hidden cells 51 of 65 answered correct); irregular columnar and word anagrams (control 28 of 30, no real reading) | completed 2026-11-09 |
 | 29 | Quagmire III fixed (keyword list 1,500 to 6,000; 30 of 30 random keys); 2119 and 2402 correspondences on the case page; symbol 1=B not supported by a dictionary test | completed 2026-11-09 |
-| 30 | Transposition keys wider than 7 by hill-climbing, with controls; signals and devices section (user request, scoped from the kinect_interface project) | next |
+| 29b | Live Devices page: discovery, read-only serial, camera, microphone and network monitors with stream analysis (user request) | completed 2026-11-09 |
+| 30 | Signal Workbench: raw frames in 9 formats; automatic detection 51 of 80 (8 of 8 for 8-bit, RAW10, Kinect 11-bit, YUYV, RGB24; weak for 16-bit, RAW12, RGB565, Bayer), with manual controls; Live Devices stop buttons | completed 2026-11-09 |
+| 30b | Raise detection for 16-bit, RAW12, RGB565 and Bayer: model bit fields per format instead of one smoothness score | next |
+| 31 | Signals part 2: serial and bus protocols decoded from sampled logic: UART (baud detection), I2C, SPI, CAN (bit stuffing, CRC-15), USB low/full speed (NRZI, bit stuffing, PID, CRC5/16), 1-Wire | pending |
+| 32 | Signals part 3: line codes and links: Manchester, 4B5B, 8b/10b, HDMI/DVI TMDS, Ethernet frames and CRC-32, VGA/composite video timing from samples | pending |
+| 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
+| 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -204,4 +210,13 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Benchmark misses can come from test keys outside the attack's search space: the Quagmire keygen drew keywords from deeper in the list than the attack searched. A wider list fixed it at about 2.6 seconds per attack.
 - Letter-swap refinement of a near-miss alphabet lowered accuracy (0.45 to 0.39), because a better letter score did not track the true alphabet. Parked.
 - Dictionary tests cannot judge abbreviated words. The 1=B evidence in table 2119 rests on reading by eye.
+
+## Added 2026-11-09: Signals and devices (user request)
+Teach and solve the decoding of data from electronic equipment, in the spirit of the kinect_interface project (libfreenect frames: 640x480 RGB, 16-bit depth from 11-bit packed raw). Every decoder must be tested on generated signals with known content, and every example must be generated or recorded from a cited source. No live hardware capture at first: the app reads files and pasted data, with simulations to show each layer (physical signal, line code, framing, checksum, payload).
+- Live capture limits on macOS: USB and HDMI traffic cannot be read without kernel access, and packet capture needs administrator rights, so the page uses device-level streams (serial, camera, microphone) and system counters. A Kinect could be read through libfreenect, which is installed.
+
+## Added 2026-11-09: Round 30
+- A single smoothness score favours formats that average bytes together, so wrong formats can look smoother than the true one. Per-lane checks fixed RGB24 and YUYV, but RAW12, 16-bit and Bayer need format-specific bit-field models.
+- Find the row length in bytes before choosing a format: compare against lengths 60 bytes away, a multiple of every interleave, so channel layout cannot fake a row.
+- A half-stride Bayer rule made the control worse (15 of 80) and was removed. Detection is shipped with its per-format reliability shown on the page, not one headline number.
 

@@ -1,0 +1,648 @@
+{
+ "cases": 80,
+ "format_ok": 59,
+ "width_ok": 62,
+ "both_ok": 51,
+ "rows": [
+  {
+   "kind": "gray8",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 320"
+  },
+  {
+   "kind": "gray8",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 320"
+  },
+  {
+   "kind": "gray8",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 640"
+  },
+  {
+   "kind": "gray8",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 640"
+  },
+  {
+   "kind": "gray8",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 752"
+  },
+  {
+   "kind": "gray8",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 752"
+  },
+  {
+   "kind": "gray8",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 176"
+  },
+  {
+   "kind": "gray8",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray8 176"
+  },
+  {
+   "kind": "gray16le",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16le 318"
+  },
+  {
+   "kind": "gray16le",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16le 320"
+  },
+  {
+   "kind": "gray16le",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16le 33"
+  },
+  {
+   "kind": "gray16le",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16le 640"
+  },
+  {
+   "kind": "gray16le",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16le 36"
+  },
+  {
+   "kind": "gray16le",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16le 749"
+  },
+  {
+   "kind": "gray16le",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16le 176"
+  },
+  {
+   "kind": "gray16le",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16le 176"
+  },
+  {
+   "kind": "gray16be",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16be 319"
+  },
+  {
+   "kind": "gray16be",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "yuyv 320"
+  },
+  {
+   "kind": "gray16be",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16be 640"
+  },
+  {
+   "kind": "gray16be",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "yuyv 639"
+  },
+  {
+   "kind": "gray16be",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "gray16be 35"
+  },
+  {
+   "kind": "gray16be",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "yuyv 750"
+  },
+  {
+   "kind": "gray16be",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "yuyv 175"
+  },
+  {
+   "kind": "gray16be",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "yuyv 177"
+  },
+  {
+   "kind": "raw10",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 320"
+  },
+  {
+   "kind": "raw10",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 320"
+  },
+  {
+   "kind": "raw10",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 640"
+  },
+  {
+   "kind": "raw10",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 640"
+  },
+  {
+   "kind": "raw10",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 752"
+  },
+  {
+   "kind": "raw10",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 752"
+  },
+  {
+   "kind": "raw10",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 176"
+  },
+  {
+   "kind": "raw10",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw10 176"
+  },
+  {
+   "kind": "raw12",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 160"
+  },
+  {
+   "kind": "raw12",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 160"
+  },
+  {
+   "kind": "raw12",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 320"
+  },
+  {
+   "kind": "raw12",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 320"
+  },
+  {
+   "kind": "raw12",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 376"
+  },
+  {
+   "kind": "raw12",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": false,
+   "got": "rgb24 376"
+  },
+  {
+   "kind": "raw12",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 176"
+  },
+  {
+   "kind": "raw12",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 176"
+  },
+  {
+   "kind": "kinect11",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 320"
+  },
+  {
+   "kind": "kinect11",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 320"
+  },
+  {
+   "kind": "kinect11",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 640"
+  },
+  {
+   "kind": "kinect11",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 640"
+  },
+  {
+   "kind": "kinect11",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 752"
+  },
+  {
+   "kind": "kinect11",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 752"
+  },
+  {
+   "kind": "kinect11",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 176"
+  },
+  {
+   "kind": "kinect11",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "kinect11 176"
+  },
+  {
+   "kind": "yuyv",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 320"
+  },
+  {
+   "kind": "yuyv",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 320"
+  },
+  {
+   "kind": "yuyv",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 640"
+  },
+  {
+   "kind": "yuyv",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 640"
+  },
+  {
+   "kind": "yuyv",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 752"
+  },
+  {
+   "kind": "yuyv",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 752"
+  },
+  {
+   "kind": "yuyv",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 176"
+  },
+  {
+   "kind": "yuyv",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "yuyv 176"
+  },
+  {
+   "kind": "rgb24",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 320"
+  },
+  {
+   "kind": "rgb24",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 320"
+  },
+  {
+   "kind": "rgb24",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 640"
+  },
+  {
+   "kind": "rgb24",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 640"
+  },
+  {
+   "kind": "rgb24",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 752"
+  },
+  {
+   "kind": "rgb24",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 752"
+  },
+  {
+   "kind": "rgb24",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 176"
+  },
+  {
+   "kind": "rgb24",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb24 176"
+  },
+  {
+   "kind": "rgb565",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb565 320"
+  },
+  {
+   "kind": "rgb565",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb565 320"
+  },
+  {
+   "kind": "rgb565",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "rgb565 32"
+  },
+  {
+   "kind": "rgb565",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 640"
+  },
+  {
+   "kind": "rgb565",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": false,
+   "got": "rgb565 35"
+  },
+  {
+   "kind": "rgb565",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb565 752"
+  },
+  {
+   "kind": "rgb565",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": true,
+   "width_ok": true,
+   "got": "rgb565 176"
+  },
+  {
+   "kind": "rgb565",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 176"
+  },
+  {
+   "kind": "bayer",
+   "size": "320x240",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 320"
+  },
+  {
+   "kind": "bayer",
+   "size": "320x240",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 320"
+  },
+  {
+   "kind": "bayer",
+   "size": "640x480",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 640"
+  },
+  {
+   "kind": "bayer",
+   "size": "640x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 640"
+  },
+  {
+   "kind": "bayer",
+   "size": "752x480",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 752"
+  },
+  {
+   "kind": "bayer",
+   "size": "752x480",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 752"
+  },
+  {
+   "kind": "bayer",
+   "size": "176x144",
+   "seed": 1,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 176"
+  },
+  {
+   "kind": "bayer",
+   "size": "176x144",
+   "seed": 2,
+   "format_ok": false,
+   "width_ok": true,
+   "got": "gray16le 176"
+  }
+ ]
+}

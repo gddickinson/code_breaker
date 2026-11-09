@@ -406,3 +406,8 @@ app.mount("/static", StaticFiles(directory=STATIC), name="static")
 @app.get("/")
 def home():
     return FileResponse(STATIC / "index.html")
+
+
+from .routes_devices import router as _devices  # noqa: E402  (after app exists, to keep this file short)
+
+app.include_router(_devices)
