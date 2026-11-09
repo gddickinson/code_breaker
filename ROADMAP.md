@@ -12,8 +12,8 @@ Never type a ciphertext from memory; extract it from a recorded source and add a
 | R0 | First build: 61 ciphers, web app, five case files | Tests pass | completed 2026-11-08 | See SESSION_LOG |
 | R1 | Stronger homophonic solver and a solvability map | Reliable at 48 symbols on 8 of 8 keys; map of recoverable length vs symbols | completed 2026-11-08 | 9 of 9 keys at w=2, t0=3. Map in `data/results/solvability.json`. Beale density recovers under 15%; see E3 |
 | R2 | Zodiac benchmarks (Z408, Z340) and Dorabella data | Verified ciphertext or a documented failure; Z408 solved by our tools; Z340 period-19 signal shown | completed 2026-11-08 | Z408 91.9%. Z340 period 19, 37 repeats vs shuffled max 34; after undoing, period 1 with 39. Letters not yet read (E4). Dorabella: 3 transcriptions, 0.7-2.2% pair disagreement |
-| R3 | Beale forensics: derived key rules, human-number tests, the pamphlet as key | Each hypothesis has a control and a null; hoax evidence quantified | pending | |
-| R4 | D'Agapeyeff: 14x14 routes, shifted coordinates, transposition + substitution | Every model has a positive control | pending | |
+| R3 | Beale forensics: derived key rules, human-number tests, the pamphlet as key | Each hypothesis has a control and a null; hoax evidence quantified | completed 2026-11-09 | Adjacent-number correlation: B2 0.05, B1 0.25, B3 0.62. Key rules: best z 2.5 of 48; planted control z 40 |
+| R4 | D'Agapeyeff: 14x14 routes, shifted coordinates, transposition + substitution | Every model has a positive control | completed 2026-11-09 | 196 pairs = 14x14. 138 tests: 0 readable, 115 no evidence, 23 inconclusive |
 | R5 | Tamam Shud: mnemonic search of known texts with fuzzy letters | Null-calibrated search across large corpora | pending | |
 | R6 | Kryptos K4: layered models, autokey, transposition + key elimination | Elimination counts by model family, with vacuous cases excluded | pending | |
 | R7 | Voynich generator lab: which mechanism reproduces the statistics | Verbose cipher, self-citation, table/grille models scored against the measured profile | pending | |
@@ -29,8 +29,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 |---|---|---|
 | 1 | Foundation: solver, simulators, verdict gates, leads database, hunter, catalogue, cyberpunk UI | completed 2026-11-08 |
 | 2 | Calibration: fix E3 and E4 (read Z340), rerun sweep, Dorabella and D'Agapeyeff under the new verdict | completed 2026-11-09 (E4 carried over) |
-| 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | in_progress next |
-| 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | pending |
+| 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | completed 2026-11-09 |
+| 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | next |
 | 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | pending |
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | pending |
 | 7 | Data hunt: Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | pending |
@@ -51,6 +51,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - The stricter verdict correctly demoted Dorabella and seven sweep entries from 'signal' to 'structure only'.
 
+- Compare a cipher against its solved sibling: Beale 2 made the correlation test interpretable.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
@@ -58,6 +60,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
 | E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. Single-cut phase changes, regular walks and row swaps were all tested and fail (`scripts/diagnose_z340b.py`). On the 286 verified positions the solver reaches 32%, so it needs a stronger language model or more search as well. NEXT: 5-gram scoring and many more CPU hours on this benchmark |
 | E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
+| E8 | Beale: model an encoder working through one region at a time and test whether it reproduces B1 and B3 correlation; D'Agapeyeff: digit transposition avenue | pending |
 | E7 | Hunter idea: combine reversal with each other transform, and add n-gram scoring in French for newspaper ads | pending |
 | E5 | GPU: all three search loops are slower on MPS than one CPU core (`data/results/gpu_benchmark.json`); use GPU for neural work | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |

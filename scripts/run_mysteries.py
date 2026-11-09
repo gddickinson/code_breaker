@@ -18,7 +18,7 @@ def job(name):
 
 
 if __name__ == "__main__":
-    names = sys.argv[1:] or ["kryptos", "voynich", "tamam", "dagapeyeff", "beale", "solvability", "zodiac", "dorabella", "sweep", "scriptlab"]
+    names = sys.argv[1:] or ["kryptos", "voynich", "tamam", "dagapeyeff", "beale", "solvability", "zodiac", "dorabella", "sweep", "scriptlab", "beale_forensics", "dagapeyeff_models"]
     OUT.mkdir(parents=True, exist_ok=True)
     with ProcessPoolExecutor(4) as ex:
         for f in as_completed([ex.submit(job, n) for n in names]):

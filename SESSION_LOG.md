@@ -32,3 +32,6 @@ Hunter's first readable result: the 1896 Le Figaro ad reads as coherent French w
 
 ## 2026-11-09: Round 2 complete
 Hunts reached 1,017 attempts. Reran Zodiac, Dorabella, D'Agapeyeff, Tamam Shud and the sweep under the three-gate verdict: Sweep 16 no evidence, 12 inconclusive, 7 structure only. Dorabella is structure only. Z340: reading verified on 286 of 340 positions; solver 32% there. Le Figaro database located but needs a form submission (E6, waiting on the user). Next: Round 3.
+
+## 2026-11-09: Round 3 complete
+Beale forensics: neighbouring numbers correlate at 0.62 in B3 and 0.25 in B1, against 0.05 in the genuine B2. Alternative key rules give no signal. D'Agapeyeff is exactly 14x14; 138 reordering tests found nothing readable. Next: Round 4.

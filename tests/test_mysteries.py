@@ -40,3 +40,17 @@ def test_phaistos_published_counts():
 
     seq = [s for w in phaistos() for s in w]
     assert len(seq) == 241 and len(set(seq)) == 45
+
+
+def test_beale_last_letter_control_finds_planted_key():
+    from codebreaker.mysteries.beale_forensics import rule_control
+
+    r = rule_control()
+    assert r["found"] and r["z"] > 8
+
+
+def test_dagapeyeff_is_a_square():
+    from codebreaker.mysteries.dagapeyeff import digits, pairs_of
+
+    d = digits()
+    assert len(pairs_of(d[:-3])) == 196

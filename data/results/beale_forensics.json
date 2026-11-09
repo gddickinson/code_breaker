@@ -1,0 +1,542 @@
+{
+ "id": "beale_forensics",
+ "control": {
+  "planted_offset": 300,
+  "found_offset": 300,
+  "z": 40.34,
+  "found": true
+ },
+ "rules": [
+  {
+   "cipher": "B3",
+   "key_text": "Declaration of Independence",
+   "rule": "first letter",
+   "offsets": 350,
+   "score": -6.159,
+   "z": 2.51,
+   "best_offset": 17
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Federalist Papers",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -5.996,
+   "z": 1.83,
+   "best_offset": 2175
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Shakespeare",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -5.938,
+   "z": 1.45,
+   "best_offset": 54108
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Common Sense",
+   "rule": "first letter",
+   "offsets": 21045,
+   "score": -6.163,
+   "z": 1.35,
+   "best_offset": 9387
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Common Sense",
+   "rule": "second letter",
+   "offsets": 21045,
+   "score": -6.05,
+   "z": 1.22,
+   "best_offset": 5243
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Declaration of Independence",
+   "rule": "second letter",
+   "offsets": 350,
+   "score": -6.22,
+   "z": 1.11,
+   "best_offset": 324
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Common Sense",
+   "rule": "first letter",
+   "offsets": 19114,
+   "score": -6.199,
+   "z": 0.99,
+   "best_offset": 7607
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Declaration of Independence",
+   "rule": "first letter",
+   "offsets": 1,
+   "score": -6.521,
+   "z": 0.97,
+   "best_offset": 0
+  },
+  {
+   "cipher": "B3",
+   "key_text": "King James Bible",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -6.003,
+   "z": 0.96,
+   "best_offset": 18729
+  },
+  {
+   "cipher": "B3",
+   "key_text": "US Constitution",
+   "rule": "first letter",
+   "offsets": 3732,
+   "score": -6.116,
+   "z": 0.91,
+   "best_offset": 2347
+  },
+  {
+   "cipher": "B1",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "first letter",
+   "offsets": 9412,
+   "score": -6.264,
+   "z": 0.9,
+   "best_offset": 2733
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Wealth of Nations",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -6.009,
+   "z": 0.83,
+   "best_offset": 20486
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Shakespeare",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.662,
+   "z": 0.81,
+   "best_offset": 18147
+  },
+  {
+   "cipher": "B1",
+   "key_text": "US Constitution",
+   "rule": "second letter",
+   "offsets": 1801,
+   "score": -6.158,
+   "z": 0.51,
+   "best_offset": 66
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Wealth of Nations",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.703,
+   "z": 0.27,
+   "best_offset": 42519
+  },
+  {
+   "cipher": "B3",
+   "key_text": "King James Bible",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -5.986,
+   "z": 0.23,
+   "best_offset": 59966
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Federalist Papers",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.099,
+   "z": 0.09,
+   "best_offset": 118062
+  },
+  {
+   "cipher": "B1",
+   "key_text": "King James Bible",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.012,
+   "z": 0.05,
+   "best_offset": 76116
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Declaration of Independence",
+   "rule": "second letter",
+   "offsets": 1,
+   "score": -6.504,
+   "z": 0.02,
+   "best_offset": 0
+  },
+  {
+   "cipher": "B3",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "last letter",
+   "offsets": 11343,
+   "score": -5.797,
+   "z": -0.03,
+   "best_offset": 5343
+  },
+  {
+   "cipher": "B1",
+   "key_text": "King James Bible",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -6.022,
+   "z": -0.05,
+   "best_offset": 6897
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Declaration of Independence",
+   "rule": "last letter",
+   "offsets": 1,
+   "score": -6.155,
+   "z": -0.1,
+   "best_offset": 0
+  },
+  {
+   "cipher": "B3",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "first letter",
+   "offsets": 11343,
+   "score": -6.22,
+   "z": -0.15,
+   "best_offset": 9612
+  },
+  {
+   "cipher": "B3",
+   "key_text": "King James Bible",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.73,
+   "z": -0.16,
+   "best_offset": 67732
+  },
+  {
+   "cipher": "B3",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "second letter",
+   "offsets": 11343,
+   "score": -6.065,
+   "z": -0.18,
+   "best_offset": 8125
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Shakespeare",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.108,
+   "z": -0.19,
+   "best_offset": 94479
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Common Sense",
+   "rule": "last letter",
+   "offsets": 19114,
+   "score": -5.739,
+   "z": -0.2,
+   "best_offset": 7771
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Shakespeare",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.176,
+   "z": -0.2,
+   "best_offset": 94500
+  },
+  {
+   "cipher": "B1",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "last letter",
+   "offsets": 9412,
+   "score": -5.816,
+   "z": -0.23,
+   "best_offset": 9044
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Federalist Papers",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.692,
+   "z": -0.27,
+   "best_offset": 99646
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Shakespeare",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -5.96,
+   "z": -0.35,
+   "best_offset": 54087
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Wealth of Nations",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.106,
+   "z": -0.38,
+   "best_offset": 43139
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Wealth of Nations",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.728,
+   "z": -0.42,
+   "best_offset": 26282
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Common Sense",
+   "rule": "last letter",
+   "offsets": 21045,
+   "score": -5.714,
+   "z": -0.43,
+   "best_offset": 12270
+  },
+  {
+   "cipher": "B3",
+   "key_text": "US Constitution",
+   "rule": "second letter",
+   "offsets": 3732,
+   "score": -6.174,
+   "z": -0.48,
+   "best_offset": 86
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Federalist Papers",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.692,
+   "z": -0.52,
+   "best_offset": 100169
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Wealth of Nations",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.11,
+   "z": -0.53,
+   "best_offset": 31750
+  },
+  {
+   "cipher": "B1",
+   "key_text": "US Constitution",
+   "rule": "first letter",
+   "offsets": 1801,
+   "score": -6.176,
+   "z": -0.55,
+   "best_offset": 508
+  },
+  {
+   "cipher": "B1",
+   "key_text": "US Constitution",
+   "rule": "last letter",
+   "offsets": 1801,
+   "score": -5.86,
+   "z": -0.7,
+   "best_offset": 65
+  },
+  {
+   "cipher": "B1",
+   "key_text": "King James Bible",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.768,
+   "z": -0.7,
+   "best_offset": 83659
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Federalist Papers",
+   "rule": "first letter",
+   "offsets": 120000,
+   "score": -6.144,
+   "z": -0.8,
+   "best_offset": 41526
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Common Sense",
+   "rule": "second letter",
+   "offsets": 19114,
+   "score": -6.08,
+   "z": -0.82,
+   "best_offset": 12632
+  },
+  {
+   "cipher": "B3",
+   "key_text": "Declaration of Independence",
+   "rule": "last letter",
+   "offsets": 350,
+   "score": -5.955,
+   "z": -0.83,
+   "best_offset": 335
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Wealth of Nations",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -6.063,
+   "z": -0.84,
+   "best_offset": 34845
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Shakespeare",
+   "rule": "last letter",
+   "offsets": 120000,
+   "score": -5.739,
+   "z": -1.04,
+   "best_offset": 18146
+  },
+  {
+   "cipher": "B3",
+   "key_text": "US Constitution",
+   "rule": "last letter",
+   "offsets": 3732,
+   "score": -5.835,
+   "z": -1.1,
+   "best_offset": 105
+  },
+  {
+   "cipher": "B1",
+   "key_text": "Federalist Papers",
+   "rule": "second letter",
+   "offsets": 120000,
+   "score": -6.062,
+   "z": -1.5,
+   "best_offset": 81155
+  },
+  {
+   "cipher": "B1",
+   "key_text": "The Beale pamphlet itself",
+   "rule": "second letter",
+   "offsets": 9412,
+   "score": -6.127,
+   "z": -1.82,
+   "best_offset": 5875
+  }
+ ],
+ "human": {
+  "B1": {
+   "distinct_ratio": {
+    "observed": 0.5731,
+    "sim_mean": 0.7489,
+    "z": -11.0
+   },
+   "share_under_100": {
+    "observed": 0.4365,
+    "sim_mean": 0.0875,
+    "z": 28.0
+   },
+   "last_digit_chi2": {
+    "observed": 47.4231,
+    "sim_mean": 13.8082,
+    "z": 5.6
+   },
+   "small_steps": {
+    "observed": 0.0096,
+    "sim_mean": 0.0053,
+    "z": 1.4
+   },
+   "lag1_corr": {
+    "observed": 0.2524,
+    "sim_mean": -0.0051,
+    "z": 5.4
+   },
+   "repeat_within_8": {
+    "observed": 0.0154,
+    "sim_mean": 0.0097,
+    "z": 1.3
+   }
+  },
+  "B2": {
+   "distinct_ratio": {
+    "observed": 0.2375,
+    "sim_mean": 0.6734,
+    "z": -31.9
+   },
+   "share_under_100": {
+    "observed": 0.5315,
+    "sim_mean": 0.0879,
+    "z": 42.6
+   },
+   "last_digit_chi2": {
+    "observed": 78.9449,
+    "sim_mean": 16.1079,
+    "z": 8.6
+   },
+   "small_steps": {
+    "observed": 0.0368,
+    "sim_mean": 0.0053,
+    "z": 12.5
+   },
+   "lag1_corr": {
+    "observed": 0.0456,
+    "sim_mean": -0.0043,
+    "z": 1.3
+   },
+   "repeat_within_8": {
+    "observed": 0.0381,
+    "sim_mean": 0.0098,
+    "z": 7.9
+   }
+  },
+  "B3": {
+   "distinct_ratio": {
+    "observed": 0.4256,
+    "sim_mean": 0.7162,
+    "z": -19.2
+   },
+   "share_under_100": {
+    "observed": 0.5388,
+    "sim_mean": 0.0877,
+    "z": 38.8
+   },
+   "last_digit_chi2": {
+    "observed": 38.0518,
+    "sim_mean": 14.764,
+    "z": 3.6
+   },
+   "small_steps": {
+    "observed": 0.0097,
+    "sim_mean": 0.0053,
+    "z": 1.5
+   },
+   "lag1_corr": {
+    "observed": 0.6224,
+    "sim_mean": -0.0055,
+    "z": 14.7
+   },
+   "repeat_within_8": {
+    "observed": 0.0227,
+    "sim_mean": 0.0097,
+    "z": 3.2
+   }
+  }
+ },
+ "runtime_s": 412.3
+}
