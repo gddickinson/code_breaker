@@ -228,6 +228,9 @@ def test_page_scripts_do_not_redeclare_globals():
 
 
 def test_codes_in_nature_covers_every_channel():
+    import json
+    from pathlib import Path
+
     d = json.loads((Path(__file__).resolve().parent.parent / "codebreaker/web/static/biology.json").read_text())
     groups = {x["group"] for x in d}
     assert {"Chemical messages", "Light and colour", "Sound and vibration", "Electric signals", "Honest signals and trust", "Birdsong"} <= groups
