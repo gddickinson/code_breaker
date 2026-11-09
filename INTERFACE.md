@@ -15,6 +15,7 @@
 | `leads.py` / `litedb.py` | Leads database and its apsw wrapper (Anaconda's sqlite3 is broken here) | `connect`, `add_lead`, `add_avenue`, `summary` |
 | `attacks/bombe.py` | Crib-based plugboard Enigma attack | `attack`, `demo` |
 | `classifier.py` / `autobreak.py` | CNN cipher-type classifier (GPU) and the identify-and-solve pipeline | `classify`, `train`, `autobreak` |
+| `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)

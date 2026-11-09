@@ -113,3 +113,9 @@ def test_liber_running_key_control():
 
     p = pages()
     assert control(p, [("page 0", p[min(p)])])["recovered"]
+
+
+def test_word_score_prefers_english():
+    from codebreaker.segment import word_score
+
+    assert word_score("THEMANWENTHOMEBEFOREITWASDARK") > word_score("QJXZVKWQPLMZXJQKVZPWLKXQZJVBM")

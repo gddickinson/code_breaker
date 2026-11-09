@@ -39,7 +39,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 10 | Return to the hardest targets: E8 Beale drift, E9 Voynich, E10 multilingual Autobreak, E7 reversal combos, E4 diagnosis (E11 and the E4 fix carried over) | completed 2026-11-09 |
 | 11 | 5-gram scorer on Z340 (E4), E11 Rongorongo alignment, short-passage Beale keys | completed 2026-11-09 (neural scorer deferred: 5-grams fixed the ranking) |
 | 12 | Longer Z340 search; D'Agapeyeff digit transposition; Liber Primus running keys; cheap Autobreak fallbacks | completed 2026-11-09 |
-| 13 | Scorers judged against the achievable key on Z340: word-aware and neural (GPU), with error tolerance; then section B's break | next |
+| 13 | Scorers judged against the achievable key on Z340: word-aware and neural (GPU) | completed 2026-11-09 |
+| 14 | Neural or word-guided annealing for error-prone homophonics; apply the better scorer in the hunter's readable gate | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -75,12 +76,15 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Recheck favourable comparisons for fairness: the 5-gram 'win' on Z340 compared against an unreachable text.
 
+- A scorer that handles the planted error case is what real historic ciphers need: quadgram methods reward clean-looking wrong text.
+- A better scorer does not by itself help search: polishing from wrong starts stays in local optima.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
-| E4 | Z340: section A reading is exact; section B breaks at position 99. CORRECTION: the 5-gram model only ranks the published text above decoys; the best single key matches it on 90% of letters and scores -1687 against -1595 for decoys, so the model still prefers wrong text. Longer search plateaus at about 41-44%. NEXT: error-tolerant scoring, a word-aware or neural scorer judged against the best achievable key | in_progress |
+| E4 | Z340: section A exact; section B breaks at position 99. Word model and GRU rank the best achievable key above all 28 decoys, and do the same on English with 10% errors, while quadgram and 5-gram models fail. GRU steepest-ascent polish (`scripts/z340_polish.py`) barely changes accuracy (0.42 best): local optima. NEXT: anneal with word or GRU scoring, not just polish; then section B's break | in_progress |
 | E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
 | E8 | Beale drift model | completed 2026-11-09: narrow-window honest encoder reaches r=0.68; hoax inference withdrawn. D'Agapeyeff digit transposition still an idea |
 | E9 | Voynich: closer self-citation and independent-space verbose models added; each matches H2 and word length but fails on vocabulary or Zipf. Liber Primus running keys still pending | partial |

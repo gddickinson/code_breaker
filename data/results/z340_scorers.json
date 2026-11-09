@@ -1,0 +1,28 @@
+{
+ "decoys": 28,
+ "share_of_decoys_beaten": {
+  "Z340 best key": {
+   "quadgram": 0.0,
+   "5-gram": 0.0,
+   "word model": 1.0,
+   "neural GRU": 1.0,
+   "word + GRU": 1.0
+  },
+  "clean English control": {
+   "quadgram": 1.0,
+   "5-gram": 1.0,
+   "word model": 1.0,
+   "neural GRU": 1.0,
+   "word + GRU": 1.0
+  },
+  "English with 10% errors": {
+   "quadgram": 0.0,
+   "5-gram": 0.0,
+   "word model": 1.0,
+   "neural GRU": 1.0,
+   "word + GRU": 1.0
+  }
+ },
+ "best_key_match": 0.902,
+ "decoy_sample": "A HOSE DO FAME HER ANGLE T I ON NOT AND LYING TO TIS T HIES HER WILFDITOFTHETRU HOW THAT H CLING E S SAME AND ARE N DIE A O IT OR IN SEA P ON THE GAUTHEIRANCE TO I IS IS T I STRAND IS COME POLLTAELLS "
+}

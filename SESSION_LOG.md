@@ -62,3 +62,6 @@ Z340: the 5-gram model ranks the true text above found decoys; long runs reach 4
 
 ## 2026-11-09: Round 12 complete
 Correction to Round 11: the 5-gram model does not prefer the correct key on Z340. The best single key matches the published text on 90% of letters and scores -1687, below decoys at -1595. Longer searches plateau at 41-44%. D'Agapeyeff digit transpositions (372 tests) and Liber Primus running keys found nothing. Autobreak now has fallback attacks. Next: Round 13.
+
+## 2026-11-09: Round 13 complete
+GPU-trained GRU (final loss 1.34) and a word-segmentation scorer both rank the best achievable Z340 key above all 28 decoys, and handle 10% errors; quadgram and 5-gram models fail both. GRU-guided polishing did not improve accuracy (best 42%), so search needs to anneal under the better scorer. Next: Round 14.
