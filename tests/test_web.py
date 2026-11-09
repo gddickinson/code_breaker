@@ -137,3 +137,50 @@ def test_channel_links_resolve():
 
 def test_static_files_are_not_cached():
     assert client.get("/static/core.js").headers["cache-control"] == "no-store"
+
+
+def test_sudoku_photo_reading():
+    import cv2
+    import numpy as np
+
+    from codebreaker.sudoku_vision import read_grid
+
+    puzzle = [int(c) for c in "530070000600195000098000060800060003400803001700020006060000280000419005000080079"]
+    size, m = 900, 80
+    img = np.full((size + 2 * m, size + 2 * m), 245, dtype=np.uint8)
+    step = size / 9
+    for i in range(10):
+        w = 8 if i % 3 == 0 else 2
+        p = int(m + i * step)
+        cv2.line(img, (p, m), (p, m + size), 20, w)
+        cv2.line(img, (m, p), (m + size, p), 20, w)
+    for i, v in enumerate(puzzle):
+        if v:
+            cv2.putText(img, str(v), (int(m + (i % 9) * step + 30), int(m + (i // 9) * step + 75)), cv2.FONT_HERSHEY_SIMPLEX, 2.2, 15, 5, cv2.LINE_AA)
+    h, w = img.shape
+    src = np.float32([[0, 0], [w, 0], [w, h], [0, h]])
+    dst = np.float32([[60, 40], [w - 20, 10], [w - 50, h - 30], [15, h - 70]])
+    photo = cv2.warpPerspective(img, cv2.getPerspectiveTransform(src, dst), (w, h), borderValue=210)
+    got = read_grid(photo)
+    assert sum(a == b for a, b in zip(got, puzzle)) >= 79
+
+
+def test_biology_page_data():
+    import json
+    from pathlib import Path
+
+    d = json.loads((Path(__file__).resolve().parent.parent / "codebreaker/web/static/biology.json").read_text())
+    assert len(d) >= 12
+
+
+def test_tutorials_link_to_real_pages():
+    import json
+    import re
+    from pathlib import Path
+
+    static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
+    routes = "".join(p.read_text() for p in static.glob("*.js"))
+    data = json.loads((static / "tutorials.json").read_text())
+    assert len(data) >= 10
+    for t in data:
+        assert re.search(re.escape(t["puzzle"].removeprefix("#/").split("/")[-1]), routes), t["puzzle"]

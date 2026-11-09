@@ -160,11 +160,21 @@ def run_all(raw, names):
         return [r for r in ex.map(job, jobs, chunksize=8) if r]
 
 
-def control(raw, ads):
+def run_best(sources, names):
+    """Run each OCR version and keep the most readable result per ad."""
+    best = {}
+    for raw in sources:
+        for r in run_all(raw, names):
+            if r["image"] not in best or (r["coverage"], r["letters"]) > (best[r["image"]]["coverage"], best[r["image"]]["letters"]):
+                best[r["image"]] = r
+    return list(best.values())
+
+
+def control(sources, ads):
     known = {a["image"].replace("/", "_"): a for a in ads if a["solved"]}
     names = [p.name for p in (OUT / "control").glob("*.jpg")]
     rows = []
-    for r in run_all(raw, names):
+    for r in run_best(sources, names):
         truth = letters(re.sub(r"\([a-z]+\)\s*$|\[|\]|\?", "", known[r["image"]]["text"]))
         rows.append({"image": r["image"], "letters": r["letters"], "coverage": r["coverage"], "null": r["null_coverage"], "method": r["method"], "match": round(SequenceMatcher(None, truth, r["plaintext"]).ratio(), 3)})
     return rows
@@ -180,10 +190,11 @@ def threshold(rows):
 
 def run() -> dict:
     raw = json.loads((OUT / "ocr_raw.json").read_text())
+    sources = [raw] + ([json.loads((OUT / "ocr_otsu.json").read_text())] if (OUT / "ocr_otsu.json").exists() else [])
     ads = json.loads((OUT / "ads.json").read_text())
-    ctrl = control(raw, ads)
+    ctrl = control(sources, ads)
     unsolved = sorted({a["image"].replace("/", "_") for a in ads if not a["solved"]})
-    rows = run_all(raw, unsolved)
+    rows = run_best(sources, unsolved)
     th = threshold(rows)
     flagged = [r for r in rows if r["coverage"] > max(th[min(r["letters"] // 20, 6)], 0.45) and r["plain_coverage"] < 0.35]
     flagged.sort(key=lambda r: -r["coverage"])

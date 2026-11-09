@@ -44,7 +44,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 15 | Vigenere-family sweep of all letter texts; VIC teaching model (Purple deferred: no verified wiring) | completed 2026-11-09 |
 | 16 | Benchmark on 170 AZdecrypt ciphers; rescan of stored attempts (animated bombe deferred) | completed 2026-11-09 |
 | 17 | Le Figaro non-table systems: mirror, alternate word Caesars, letter insertion, rail, five-column (no new readings) | completed 2026-11-09 |
-| 18 | Le Figaro OCR: more ads with usable text, using image cleanup and character-level comparison of the two engines; then combined substitution and transposition search with the repeat-pair statistic and a bigram solver | next |
+| 18 | Le Figaro OCR cleanup tested on known answers; Otsu chosen | completed 2026-11-09 |
+| 19 | Combined substitution and transposition search with the repeat-pair statistic; bigram solver; per-ad choice of OCR version without using coverage alone | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -103,6 +104,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - A finder that adds names needs deduplication against what is already tracked, or lists fill with aliases.
 - Keyword searches return off-topic papers: filter and spot-check them.
+
+- Merging two OCR versions by best coverage slightly lowered the control (15 against 16 for Otsu alone): picking the most readable output can favour a wrong reading.
+- Improving the input beat adding more cipher systems.
 
 ## Emergent tasks
 | ID | Note | Status |

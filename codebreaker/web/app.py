@@ -250,6 +250,17 @@ def publications(q: str = "", topic: str = "", page: int = 0):
     return {"total": total, "rows": rows, "topics": topics, "page": page}
 
 
+class ImageIn(BaseModel):
+    image: str
+
+
+@app.post("/api/sudoku/read")
+def sudoku_read(body: ImageIn):
+    from ..sudoku_vision import decode_image, read_grid
+
+    return {"grid": guarded(lambda: read_grid(decode_image(body.image)))}
+
+
 @app.get("/api/leads/feed")
 def lead_feed():
     from .. import leads as L

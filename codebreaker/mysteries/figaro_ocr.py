@@ -39,9 +39,26 @@ def cipher_lines(lines: list[str]) -> list[str]:
     return out
 
 
-def tesseract_lines(img: np.ndarray) -> list[str]:
+def variant(path: str, name: str) -> np.ndarray:
+    """Image cleanup variants, compared on ads with known answers."""
+    if name == "base":
+        return prepare(path)
+    if name == "big":
+        return prepare(path, 4.0)
+    img = prepare(path, 3.5)
+    if name == "otsu":
+        return cv2.threshold(cv2.GaussianBlur(img, (3, 3), 0), 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)[1]
+    if name == "adaptive":
+        return cv2.adaptiveThreshold(cv2.GaussianBlur(img, (3, 3), 0), 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 41, 15)
+    if name == "denoise":
+        return cv2.fastNlMeansDenoising(img, None, 18, 7, 21)
+    raise ValueError(name)
+
+
+def tesseract_lines(img: np.ndarray, whitelist: bool = False) -> list[str]:
     ok, buf = cv2.imencode(".png", img)
-    r = subprocess.run(["tesseract", "stdin", "stdout", "--psm", "6", "-l", "eng"], input=buf.tobytes(), capture_output=True, timeout=60)
+    extra = ["-c", "tessedit_char_whitelist=abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,-' "] if whitelist else []
+    r = subprocess.run(["tesseract", "stdin", "stdout", "--psm", "6", "-l", "eng", *extra], input=buf.tobytes(), capture_output=True, timeout=60)
     return r.stdout.decode("utf-8", "ignore").splitlines()
 
 

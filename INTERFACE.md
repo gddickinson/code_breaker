@@ -14,6 +14,7 @@
 | `validation.py` | False-positive controls; three-gate verdict | `null_test`, `positive_control`, `coverage`, `verdict` |
 | `leads.py` / `litedb.py` | Leads database and its apsw wrapper (Anaconda's sqlite3 is broken here) | `connect`, `add_lead`, `add_avenue`, `summary` |
 | `attacks/bombe.py` | Crib-based plugboard Enigma attack | `attack`, `demo` |
+| `sudoku_vision.py` | Reads a sudoku grid from a photo | `read_grid`, `find_board` |
 | `classifier.py` / `autobreak.py` | CNN cipher-type classifier (GPU) and the identify-and-solve pipeline | `classify`, `train`, `autobreak` |
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
@@ -32,7 +33,7 @@
 `casefiles.py` case metadata and `case()`; `casefile_sections.py` and `casefile_extra.py` turn results into displayed sections.
 
 ## codebreaker/web/
-`app.py` routes under `/api`. `static/`: `core.js` (helpers, router), `library.js`, `tools.js` (workbench, translate, challenge), `mysteries.js`, `leads.js` (Lead Board), `charts.js` (SVG charts, background), `sim_engine.js` (pure simulation logic, node-testable), `sim_enigma.js`, `sim_mech.js`, `sim_trace.js`, `sim_bombe.js`, `sim_anneal.js`, `sim_how.js`, `sim_computer.js` (How It Works pages), `sim_crypto_engine.js` (pure AES, S-DES, Colossus logic), `registers.js` (open codes and solutions), `cube_engine.js` and `puzzles.js` (cube, sudoku), `math.js` and `math.json`, `channels.js` and `channels.json` (hidden and transmitted messages), `community.json`, `help.js` (help, glossary, history pages), `history.json` (timeline data), `style.css`.
+`app.py` routes under `/api`. `static/`: `core.js` (helpers, router), `library.js`, `tools.js` (workbench, translate, challenge), `mysteries.js`, `leads.js` (Lead Board), `charts.js` (SVG charts, background), `sim_engine.js` (pure simulation logic, node-testable), `sim_enigma.js`, `sim_mech.js`, `sim_trace.js`, `sim_bombe.js`, `sim_anneal.js`, `sim_how.js`, `sim_computer.js` (How It Works pages), `sim_crypto_engine.js` (pure AES, S-DES, Colossus logic), `puzzles_scan.js` (camera and photo reading), `puzzles_engine.js` and `puzzles_more.js` (extra puzzles), `tutorials.js` and `tutorials.json` (guides), `biology.js` and `biology.json` (codes in nature), `registers.js` (open codes and solutions), `cube_engine.js` and `puzzles.js` (cube, sudoku), `math.js` and `math.json`, `channels.js` and `channels.json` (hidden and transmitted messages), `community.json`, `help.js` (help, glossary, history pages), `history.json` (timeline data), `style.css`.
 
 ## scripts/, tests/, data/
 `scripts/run_mysteries.py [names]` regenerates results. `scripts/extract_sources.py` extracts Beale numbers. `scripts/install_translation_models.py` installs Argos models. `scripts/check.py` runs all attack demos. `scripts/hunt.py --minutes N` seeds and runs the hunt. `scripts/benchmark_gpu.py` records GPU vs CPU. `scripts/train_classifier.py` trains the classifier. `scripts/find_problems.py` finds new codes. `scripts/harvest_publications.py` rebuilds publications. `scripts/check_community.py` rechecks links.

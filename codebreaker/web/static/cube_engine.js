@@ -59,4 +59,32 @@ function solveSudoku(grid, trace = []) {
   return false;
 }
 
-if (typeof module !== "undefined") module.exports = { newCube, applyMove, facelets, SOLVED_CUBE, CUBE_MOVES, solveSudoku };
+/* Load a facelet string into the sticker model, for a cube read from a photo. */
+function cubeFromFacelets(str) {
+  const c = newCube();
+  for (const s of c) s.color = str[faceletIndex(s.pos, s.n)];
+  return c;
+}
+
+function rgbToLab([r, g, b]) {
+  const f = v => { v /= 255; return v > 0.04045 ? ((v + 0.055) / 1.055) ** 2.4 : v / 12.92; };
+  const [R, G, B] = [f(r), f(g), f(b)];
+  const h = t => (t > 0.008856 ? Math.cbrt(t) : 7.787 * t + 16 / 116);
+  const x = h((0.4124 * R + 0.3576 * G + 0.1805 * B) / 0.95047), y = h(0.2126 * R + 0.7152 * G + 0.0722 * B), z = h((0.0193 * R + 0.1192 * G + 0.9505 * B) / 1.08883);
+  return [116 * y - 16, 500 * (x - y), 200 * (y - z)];
+}
+
+/* Assign 54 sampled colours to six faces using the centres, keeping exactly nine stickers per face. */
+function classifyCube(samples) {
+  const order = "URFDLB", lab = samples.map(rgbToLab), centres = [...order].map((_, f) => lab[f * 9 + 4]);
+  const dist = (a, b) => (a[0] - b[0]) ** 2 * 0.35 + (a[1] - b[1]) ** 2 + (a[2] - b[2]) ** 2;
+  const pairs = [];
+  lab.forEach((c, i) => centres.forEach((m, f) => pairs.push([dist(c, m), i, f])));
+  pairs.sort((a, b) => a[0] - b[0]);
+  const out = Array(54).fill(null), used = Array(6).fill(0);
+  order.split("").forEach((l, f) => { out[f * 9 + 4] = l; used[f] = 1; });
+  for (const [, i, f] of pairs) if (out[i] === null && used[f] < 9) { out[i] = order[f]; used[f]++; }
+  return out.join("");
+}
+
+if (typeof module !== "undefined") module.exports = { cubeFromFacelets, classifyCube, newCube, applyMove, facelets, SOLVED_CUBE, CUBE_MOVES, solveSudoku };

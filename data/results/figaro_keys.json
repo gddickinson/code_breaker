@@ -1,33 +1,41 @@
 {
  "id": "figaro_keys",
- "tested": 613,
- "plain_ads": 179,
+ "tested": 641,
+ "plain_ads": 193,
  "thresholds": {
   "1": 0.615,
   "2": 0.293,
-  "5": 0.122,
+  "4": 0.187,
   "3": 0.294,
-  "6": 0.132,
-  "4": 0.205
+  "6": 0.133,
+  "5": 0.114
  },
  "control_ads": 56,
- "control_recovered": 14,
+ "control_recovered": 15,
  "control_rows": [
   {
    "image": "1892_18920901-LN.jpg",
    "letters": 111,
-   "coverage": 0.595,
-   "null": 0.081,
+   "coverage": 0.649,
+   "null": 0.045,
    "method": "table 1101",
-   "match": 0.823
+   "match": 0.892
   },
   {
    "image": "1889_18890816-PROPHETE.jpg",
-   "letters": 162,
-   "coverage": 0.29,
-   "null": 0.056,
+   "letters": 161,
+   "coverage": 0.41,
+   "null": 0.075,
    "method": "table 2218",
-   "match": 0.782
+   "match": 0.856
+  },
+  {
+   "image": "1889_18890731-P52.jpg",
+   "letters": 89,
+   "coverage": 0.393,
+   "null": 0.09,
+   "method": "table 2218",
+   "match": 0.802
   },
   {
    "image": "1885_18850918-ArH.jpg",
@@ -44,14 +52,6 @@
    "null": 0.141,
    "method": "alternate Caesar by word (24,1), no W",
    "match": 0.746
-  },
-  {
-   "image": "1889_18890731-P52.jpg",
-   "letters": 87,
-   "coverage": 0.241,
-   "null": 0.092,
-   "method": "table 2218",
-   "match": 0.738
   },
   {
    "image": "1899_18991003-JBC.jpg",
@@ -140,6 +140,20 @@
    "reading": "POURQUOI PAS ECRIRE FAT I ES GRAND PEINE AMIE"
   },
   {
+   "signature": "R",
+   "author_match": true,
+   "image": "1879_18790814-R.jpg",
+   "letters": 35,
+   "raw": "JAICRVBXUSILCUIVLJSCBLSOIVLBIOMAGVN",
+   "plain_coverage": 0.0,
+   "coverage": 0.743,
+   "null_coverage": 0.114,
+   "score": -4.34651280388706,
+   "method": "table 2211",
+   "plaintext": "PRISDEUXBAINSBIENPASUNAMIENUIMORTEL",
+   "reading": "PRIS DEUX BAIN S BIEN PAS UN AMIE NU I MORTEL"
+  },
+  {
    "signature": "VE3",
    "author_match": false,
    "image": "1890_18901026-VE3.jpg",
@@ -157,15 +171,15 @@
    "signature": "CH",
    "author_match": false,
    "image": "1886_18860629-CH.jpg",
-   "letters": 35,
-   "raw": "VECKGDEZKYEUUENVTIFYUIZTACNIHYLTYCT",
+   "letters": 34,
+   "raw": "VECKGDEZKYEUUENVTIFYUIZTACNIHYKYCT",
    "plain_coverage": 0.0,
-   "coverage": 0.657,
-   "null_coverage": 0.143,
-   "score": -5.474009031678683,
+   "coverage": 0.676,
+   "null_coverage": 0.118,
+   "score": -5.414457976026002,
    "method": "Vigenere CEAD, no W",
-   "plaintext": "TACHEZEVITERSANSREFUSEZQYYNFFTLQVYT",
-   "reading": "TACHEZ EVITER SANS REFUSEZ QYYNFFTLQVYT"
+   "plaintext": "TACHEZEVITERSANSREFUSEZQYYNFFTKUAP",
+   "reading": "TACHEZ EVITER SANS REFUSEZ QYYNFFTKUAP"
   },
   {
    "signature": "25",
@@ -210,6 +224,20 @@
    "reading": "U ON NE S NOUVELLES VOYAGE AVEC UEES DIT VENAIS PORT UGAL"
   },
   {
+   "signature": "H",
+   "author_match": true,
+   "image": "1892_18920730-H.jpg",
+   "letters": 35,
+   "raw": "SJFORVFUPJPDVQFQFOTFEFTJSIBUFUFXPJS",
+   "plain_coverage": 0.0,
+   "coverage": 0.629,
+   "null_coverage": 0.114,
+   "score": -4.6779891369646736,
+   "method": "table 1101",
+   "plaintext": "RIENQUETOIOCUPEPENSEDESIRHATETEVOIR",
+   "reading": "RIEN QUE TOI OCUPE PENSE DESIR HATE TE VOIR"
+  },
+  {
    "signature": "R",
    "author_match": true,
    "image": "1880_18801105-R.jpg",
@@ -222,6 +250,34 @@
    "method": "table 2211",
    "plaintext": "SOUHAITFETAMOURSETEMILEBAISERSUCTADORELD",
    "reading": "SOUHAIT F ET AMOURS ETE M ILE BAISER SU C T ADORE L D"
+  },
+  {
+   "signature": "KP",
+   "author_match": true,
+   "image": "1896_18961106-KP.jpg",
+   "letters": 168,
+   "raw": "DVPSHSVUNBLTXQLUHPZLJCKLTVBTLXZVCDHUBYCLBCHPTLLBXLUALBVCQVCZTVPXVCZHHUBBHPTLHDLJBHUBKLMVZJLAKLBLUKZLAABCLATVUAVCJPTHQVPLIBDHPALUMPUBLXZLUALZIPLUMVZBACZTVUJVLCZBPKYSHYCP",
+   "plain_coverage": 0.0,
+   "coverage": 0.577,
+   "null_coverage": 0.054,
+   "score": -4.323027989998482,
+   "method": "table 1108",
+   "plaintext": "VOILALONGTEMPJENAIRECUDEMOTMEPROUVANTQUETUAIMEETPENSETOUJOURMOIPOURAANTTAIMEAVECTANTDEFORCESDETENDRESSTUESMONSOUCIMAJOIEBTVAISENFINTEPRENSERBIENFORTSURMONCOEURTIDQLAQUI",
+   "reading": "VOILA LONG TE M P JE N AI RECU DE MOT M EPROUVA N T QUE TU AIME ET PENSE T OU JOUR MOI POUR A A N T T AIME AVEC TANT DE FORCES DE TENDRES S TUES MON SOUCI MA JOIE B T VAIS ENFIN TE PRE N SE R BIEN FORT SUR MON COEUR TIDQ LA QUI"
+  },
+  {
+   "signature": "5",
+   "author_match": false,
+   "image": "1882_18821224-5.jpg",
+   "letters": 77,
+   "raw": "BCQDBHFLFQHSDQJCIQFBIGUHYSIGFUHUHBHFHDQCHJIXXHUHGBHKLQDHVLCBISBALKHCBPHNPHCQH",
+   "plain_coverage": 0.0,
+   "coverage": 0.558,
+   "null_coverage": 0.065,
+   "score": -4.542607981312674,
+   "method": "table 2217",
+   "plaintext": "TRISTEDADIEUSIFROIDTONMEQUONDMEMETEDESIREFOLLEMENTEBAISEPARTOUTAABERTPECPERIE",
+   "reading": "TRISTE D ADIEU SI FROID TON ME QU ON D MEME TE DESIRE FOLLE M EN TE BAISE PARTOUT AABERTPECPERIE"
   },
   {
    "signature": "",
@@ -238,5 +294,5 @@
    "reading": "HMPOSSQUITT GROUPE VAIS LU CE R NEE BRIS SERAI GARE EPINAW LE MERCI AMIE RYSCK"
   }
  ],
- "runtime_s": 14.3
+ "runtime_s": 26.4
 }

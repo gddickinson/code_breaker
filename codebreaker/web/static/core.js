@@ -40,7 +40,7 @@ async function render() {
     document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", a.dataset.nav === r.nav));
     document.querySelectorAll("nav.groups details").forEach(d => { d.classList.toggle("on", !!d.querySelector(`[data-nav="${r.nav}"]`)); d.open = false; });
     view().innerHTML = '<p class="mute">Loading…</p>';
-    try { await r.fn(...m.slice(1)); }
+    try { await r.fn(...m.slice(1)); window.afterRender?.(hash); }
     catch (e) { view().innerHTML = `<p class="err">${esc(e.message)}</p>`; }
     window.scrollTo(0, 0);
     view().focus({ preventScroll: true });

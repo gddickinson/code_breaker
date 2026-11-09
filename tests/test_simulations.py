@@ -93,3 +93,33 @@ def test_sudoku_solver():
     cube_path = ENGINE.with_name("cube_engine.js")
     out = json.loads(subprocess.run(["node", "-e", f"const C=require({json.dumps(str(cube_path))});const g=[...{json.dumps(p)}].map(Number);C.solveSudoku(g);console.log(JSON.stringify(g.join('')))"], capture_output=True, text=True, check=True).stdout)
     assert out == "534678912672195348198342567859761423426853791713924856961537284287419635345286179"
+
+
+def _node_cube(body):
+    return json.loads(subprocess.run(["node", "-e", f"const C=require({json.dumps(str(ENGINE.with_name('cube_engine.js')))});{body}"], capture_output=True, text=True, check=True).stdout)
+
+
+def test_cube_photo_colours_are_classified():
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    js = """const pal={U:[235,235,225],R:[190,30,45],F:[20,160,75],D:[225,200,20],L:[245,120,20],B:[25,85,205]};
+    const s=C.newCube();"R U2 F' D L2 B R' F2 U' L D2".split(" ").forEach(m=>C.applyMove(s,m));const f=C.facelets(s);let seed=5;const r=()=>{seed=(seed*1664525+1013904223)%4294967296;return seed/4294967296};
+    const samples=[...f].map(l=>{const b=0.75+r()*0.4;return pal[l].map(v=>Math.min(255,Math.round(v*b+(r()-0.5)*18)))});console.log(JSON.stringify([C.classifyCube(samples),f]))"""
+    got, want = _node_cube(js)
+    assert sum(a == b for a, b in zip(got, want)) >= 52
+    assert all(got.count(c) == 9 for c in "URFDLB")
+
+
+def test_cube_loads_from_facelets():
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    assert _node_cube("const s=C.newCube();C.applyMove(s,'R');C.applyMove(s,'U');const f=C.facelets(s);console.log(JSON.stringify(C.facelets(C.cubeFromFacelets(f))===f))")
+
+
+def test_genetic_code_translation():
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    src = ENGINE.with_name("biology.js").read_text()
+    code = src[src.index('const BASES'):src.index('route(')]
+    out = subprocess.run(["node", "-e", code + "console.log(JSON.stringify([translateDNA('ATGGCCATTGTAATGGGCCGCTGAAAGGGTGCCCGATAG'),translateDNA('UUUAAAGGG')]))"], capture_output=True, text=True, check=True).stdout
+    assert json.loads(out) == ["MAIVMGR*KGAR*", "FKG"]

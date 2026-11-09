@@ -101,3 +101,7 @@ Added the Le Figaro systems that are not simple tables. No new readings, and the
 
 ## 2026-11-09: Community, Puzzles, Maths, Publications, How Secrets Travel (user requests)
 Added Community links (26 checked), Puzzles (3D Rubik's cube with Kociemba solver, sudoku), 14 maths topics with tested worked examples, a Publications table of 1,264 Crossref records, a page on steganography and transmission with a working image demo, and grouped navigation. `scripts/find_problems.py` adds new codes from Wikipedia categories and the AZdecrypt list, and added 11 new entries. A session timer runs it every 6 hours.
+
+## 2026-11-09: Round 18 and user requests
+Otsu thresholding plus a character whitelist recovered 16 of 56 known ads, against 14. Merged with earlier OCR across all ads: 641 tested, control 15 of 56, 13 flagged, including the KP ad automatically and a new ad by writer 5 (24 Dec 1882).
+Added camera and photo reading for the cube and sudoku, Codes in Nature with a genetic-code translator and waggle dance model, seven more puzzles (Mastermind, Lights Out, sliding tiles, Hanoi, N-Queens, Knight's Tour, Nonogram) and Learn to Solve guides. Solvers and quoted algorithms are tested.

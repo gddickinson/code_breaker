@@ -4,7 +4,7 @@ const SIZE = 56;
 
 route(/^\/puzzles$/, async () => {
   view().innerHTML = `<p class="kicker">// PUZZLES</p><h1>Puzzles</h1><p class="lead">Solving a Rubik's cube and breaking a cipher are both searches through an enormous space, guided by structure.</p>
-    <div class="grid"><a class="card" href="#/puzzles/cube"><b>Rubik's cube</b><span>Scramble it, turn it, and watch a two-phase solver finish it.</span></a><a class="card" href="#/puzzles/sudoku"><b>Sudoku</b><span>Watch constraint search fill the grid.</span></a><a class="card" href="#/math/groups"><b>The maths of permutations</b><span>Why the cube and Enigma are the same kind of object.</span></a></div>`;
+    <div class="grid"><a class="card" href="#/learn"><b>Learn to solve</b><span>Step-by-step guides for doing these yourself.</span></a><a class="card" href="#/puzzles/cube"><b>Rubik's cube</b><span>Scramble it, turn it, and watch a two-phase solver finish it.</span></a><a class="card" href="#/puzzles/sudoku"><b>Sudoku</b><span>Watch constraint search fill the grid.</span></a><a class="card" href="#/puzzles/scan-cube"><b>Scan a real cube</b><span>Show each face to the camera, or use photos, and get a solution.</span></a><a class="card" href="#/puzzles/scan-sudoku"><b>Scan a sudoku</b><span>Photograph a puzzle, correct any misreads, and solve it.</span></a><a class="card" href="#/puzzles/mastermind"><b>Mastermind</b><span>Codebreaking by deduction, with minimax guesses.</span></a><a class="card" href="#/puzzles/lights"><b>Lights Out</b><span>A puzzle solved by linear algebra.</span></a><a class="card" href="#/puzzles/sliding"><b>Sliding tiles</b><span>Shortest solutions by A* search.</span></a><a class="card" href="#/puzzles/hanoi"><b>Tower of Hanoi</b><span>Recursion you can watch.</span></a><a class="card" href="#/puzzles/queens"><b>N-Queens</b><span>Backtracking, the idea behind the bombe.</span></a><a class="card" href="#/puzzles/knight"><b>Knight's Tour</b><span>A simple rule that visits every square.</span></a><a class="card" href="#/puzzles/nonogram"><b>Nonogram</b><span>Pictures revealed by pure logic.</span></a><a class="card" href="#/math/groups"><b>The maths of permutations</b><span>Why the cube and Enigma are the same kind of object.</span></a></div>`;
 }, "puzzles");
 
 function matrixFor(pos, n, scale) {
@@ -21,9 +21,11 @@ route(/^\/puzzles\/cube$/, async () => {
   view().innerHTML = `<a href="#/puzzles">← Puzzles</a><h1>Rubik's cube</h1><p class="lead">The cube has 43,252,003,274,489,856,000 positions, yet every one can be solved in 20 moves or fewer. Drag the cube to look around it.</p>
     <div class="panel"><div class="scene" id="scene"><div class="cube" id="cube"></div></div>
     <div class="cubekeys">${faces.map(f => `<button type="button" data-m="${f}">${f}</button><button type="button" class="alt" data-m="${f}'">${f}'</button>`).join("")}</div>
+    <div class="row"><div><label for="alg">Type your own moves</label><input id="alg" placeholder="For example, R U R' U'"></div></div><button id="runalg" class="alt">Run moves</button>
     <button id="scr">Scramble</button><button id="sol">Solve it</button><button id="rst" class="alt">Reset</button><p id="st" class="mute"></p><pre id="log"> </pre></div>
     <h2>How the solver works</h2><p>Herbert Kociemba's two-phase algorithm first reaches a much smaller subgroup of positions, then solves within it using only moves that stay in that subgroup. Like a good cipher attack, it replaces one impossible search with two manageable ones.</p>`;
-  let cube = newCube(), els = [], busy = false, rx = -28, ry = -36;
+  let cube = window.PENDING_CUBE ? cubeFromFacelets(window.PENDING_CUBE) : newCube(), els = [], busy = false, rx = -28, ry = -36;
+  window.PENDING_CUBE = null;
   const root = $("#cube");
   const paint = (angle = null, m = null) => {
     root.style.transform = `rotateX(${rx}deg) rotateY(${ry}deg)`;
@@ -58,6 +60,8 @@ route(/^\/puzzles\/cube$/, async () => {
     try { const r = await api("/cube/solve", { facelets: facelets(cube) }); $("#log").textContent = r.moves.length ? `Solution in ${r.moves.length} moves: ${r.moves.join(" ")}` : "Already solved."; await run(r.moves); }
     catch (e) { $("#st").textContent = e.message; }
   };
+  $("#runalg").onclick = () => { const m = $("#alg").value.trim().split(/\s+/).filter(Boolean); if (m.every(x => CUBE_MOVES.includes(x))) run(m); else $("#st").textContent = "Use moves such as R, U', or F2, separated by spaces."; };
+  if (window.PENDING_ALG) { $("#alg").value = window.PENDING_ALG; window.PENDING_ALG = null; }
   $("#rst").onclick = () => { if (busy) return; cube = newCube(); paint(); status(); $("#log").textContent = " "; };
   let drag = null;
   $("#scene").onpointerdown = e => { drag = [e.clientX, e.clientY, rx, ry]; e.target.setPointerCapture?.(e.pointerId); };

@@ -1,0 +1,37 @@
+{
+ "base": {
+  "long_enough": 56,
+  "recovered": 14,
+  "mean_match": 0.418
+ },
+ "base whitelist": {
+  "long_enough": 56,
+  "recovered": 14,
+  "mean_match": 0.437
+ },
+ "big": {
+  "long_enough": 56,
+  "recovered": 14,
+  "mean_match": 0.43
+ },
+ "otsu": {
+  "long_enough": 56,
+  "recovered": 16,
+  "mean_match": 0.451
+ },
+ "otsu whitelist": {
+  "long_enough": 56,
+  "recovered": 16,
+  "mean_match": 0.458
+ },
+ "adaptive": {
+  "long_enough": 56,
+  "recovered": 13,
+  "mean_match": 0.39
+ },
+ "denoise": {
+  "long_enough": 56,
+  "recovered": 12,
+  "mean_match": 0.428
+ }
+}
