@@ -39,3 +39,31 @@ def test_autobreak_reports_clearly():
     assert r.status_code == 200
     if classifier.PATH.exists():
         assert r.json()["best"] is not None
+
+
+def test_history_links_all_resolve():
+    import json
+    import re
+    from pathlib import Path
+
+    from codebreaker.ciphers import REGISTRY
+    from codebreaker.mysteries.casefiles import CASES
+
+    static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
+    events = json.loads((static / "history.json").read_text())
+    ids = {e["id"] for e in events}
+    assert len(ids) == len(events)
+    machines = set(re.findall(r"machine\\/(\w+)\$/", "".join(p.read_text() for p in static.glob("*.js"))))
+    for e in events:
+        for _, href in e["links"]:
+            kind = href.removeprefix("#/").split("/")
+            if kind[0] == "cipher":
+                assert kind[1] in REGISTRY, href
+            elif kind[0] == "mystery":
+                assert kind[1] in CASES, href
+            elif kind[0] == "history":
+                assert kind[1] in ids, href
+            elif kind[0] == "machine":
+                assert kind[1] in machines, href
+            else:
+                assert kind[0] in ("", "machines", "workbench"), href

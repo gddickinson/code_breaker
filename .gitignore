@@ -14,3 +14,7 @@ data/sources/beale_try*
 nohup.out
 data/results/*.log
 data/sources/figaro/*.pdf
+data/sources/figaro/images/
+data/sources/figaro/control/
+data/sources/figaro/y1*.html
+data/sources/figaro/*.jpg

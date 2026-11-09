@@ -74,3 +74,6 @@ Vigenere, Beaufort, Variant and Porta attacks on all 16 letter-only unsolved tex
 
 ## 2026-11-09: Round 16 complete
 Benchmark on 170 solved ciphers at the strict 55% coverage line: substitution 4 of 65, transposition 1 of 14, bigram 1 of 7, combined 0 of 84. Coverage undercounts partial reads. Rescanning about 5,000 stored attempts found no missed partial solve; other high-coverage readings are overfit word salad. Next: Round 17.
+
+## 2026-11-09: Help page and history timeline (user request)
+Added a Help page with an app guide, how to read verdicts and a 37-term glossary, and a 37-event History timeline with a page for each event linking to its ciphers, machines and case files. A test checks every internal link. Le Figaro: the user approved querying the database; index done (4,054 ads, 1,257 unsolved), images downloading; our 1896 ad was already solved there, so it is a re-solve and not a discovery.
