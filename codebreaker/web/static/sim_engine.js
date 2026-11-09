@@ -127,4 +127,33 @@ function grilleHoles(key) {
 }
 const grilleRotate = holes => holes.map(p => [p[1], 5 - p[0]]);
 
-if (typeof module !== "undefined") module.exports = { Enigma, AZ, playfairSquare, playfairPairs, playfairStep, vigenereTrace, railPattern, grilleHoles, grilleRotate };
+/* Simulated annealing on a substitution key, scored by trigrams. */
+class SubAnneal {
+  constructor(cipher, trigrams, total = 45000, seed = 1) {
+    this.ct = cipher; this.tri = trigrams; this.total = total; this.done = 0; this.rand = seed >>> 0;
+    this.key = [...Array(26).keys()];
+    for (let i = 25; i > 0; i--) { const j = Math.floor(this.random() * (i + 1)); [this.key[i], this.key[j]] = [this.key[j], this.key[i]]; }
+    this.score = this.evaluate(this.key); this.best = this.score; this.bestKey = [...this.key];
+  }
+  random() { this.rand = (Math.imul(this.rand, 1664525) + 1013904223) >>> 0; return this.rand / 4294967296; }
+  evaluate(k) {
+    const c = this.ct, t = this.tri; let s = 0;
+    for (let i = 0; i + 2 < c.length; i++) s += t[k[c[i]] * 676 + k[c[i + 1]] * 26 + k[c[i + 2]]];
+    return s;
+  }
+  step(n) {
+    for (let i = 0; i < n && this.done < this.total; i++, this.done++) {
+      const a = Math.floor(this.random() * 26), b = Math.floor(this.random() * 26);
+      [this.key[a], this.key[b]] = [this.key[b], this.key[a]];
+      const s = this.evaluate(this.key), temp = 18 * (1 - this.done / this.total) + 0.01;
+      if (s >= this.score || this.random() < Math.exp((s - this.score) / temp)) {
+        this.score = s;
+        if (s > this.best) { this.best = s; this.bestKey = [...this.key]; }
+      } else [this.key[a], this.key[b]] = [this.key[b], this.key[a]];
+    }
+    return this.done >= this.total;
+  }
+  text(k = this.key) { return this.ct.map(c => AZ[k[c]]).join(""); }
+}
+
+if (typeof module !== "undefined") module.exports = { SubAnneal, Enigma, AZ, playfairSquare, playfairPairs, playfairStep, vigenereTrace, railPattern, grilleHoles, grilleRotate };

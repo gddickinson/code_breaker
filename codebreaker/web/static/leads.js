@@ -2,11 +2,32 @@
 const LEAD_STATES = ["open", "needs_review", "testing", "promising", "rejected", "confirmed"];
 const stateTag = s => `<span class="tag ${s === "promising" || s === "confirmed" ? "good" : s === "rejected" ? "bad" : "warn"}">${esc(s.replace("_", " "))}</span>`;
 
+const VERDICTS = [["Readable", "var(--c3)"], ["Structure only", "var(--c2)"], ["No evidence", "var(--c1)"], ["Inconclusive", "var(--c4)"]];
+
+function stacked(counts) {
+  const total = Object.values(counts).reduce((a, b) => a + b, 0) || 1;
+  const bar = VERDICTS.filter(([k]) => counts[k]).map(([k, c]) => `<div style="flex:${counts[k]} 1 0;background:${c}" title="${k}: ${counts[k]}"></div>`).join("");
+  return `<div class="stack" role="img" aria-label="Attempts by verdict">${bar}</div><div class="legend">${VERDICTS.map(([k, c]) => `<span><i style="background:${c}"></i>${k}: ${(counts[k] || 0).toLocaleString()} (${((counts[k] || 0) / total * 100).toFixed(1)}%)</span>`).join("")}</div>`;
+}
+
+function timeline(hourly) {
+  if (!hourly.length) return "";
+  const w = 900, h = 130, max = Math.max(...hourly.map(x => x.attempts)), bw = Math.min(26, (w - 60) / hourly.length - 2);
+  const bars = hourly.map((x, i) => { const bh = x.attempts / max * (h - 44); return `<rect x="${44 + i * (bw + 2)}" y="${h - 22 - bh}" width="${bw}" height="${bh}" rx="3" fill="var(--c1)"><title>${esc(x.hour)}:00 UTC, ${x.attempts} attempts</title></rect>`; }).join("");
+  return `<svg class="chart" viewBox="0 0 ${w} ${h}" role="img" aria-label="Attempts per hour"><text x="10" y="16" class="charttitle">Attempts per hour (UTC)</text><text x="38" y="${h - 22}" text-anchor="end" class="axisl">0</text><text x="38" y="30" text-anchor="end" class="axisl">${max}</text><text x="44" y="${h - 6}" class="axisl">${esc(hourly[0].hour.slice(5).replace("T", " "))}:00</text><text x="${w - 10}" y="${h - 6}" text-anchor="end" class="axisl">${esc(hourly[hourly.length - 1].hour.slice(5).replace("T", " "))}:00</text>${bars}</svg>`;
+}
+
+function feedView(f) {
+  return `${stacked(f.verdicts)}${timeline(f.hourly)}<h3>Latest attempts</h3>${table(["UTC", "Code", "Method", "Language", "z", "Verdict"], f.latest.map(a => [a.at.slice(11, 19), a.name, `${a.strategy} ${a.param}`, a.lang, a.z, a.verdict.split(/[:(]/)[0]]))}
+    <h3>Lead timeline</h3>${table(["Found", "Code", "Lead", "Status"], f.events.map(e => [e.created.slice(0, 16).replace("T", " "), e.name, e.title, e.status.replace("_", " ")]))}`;
+}
+
 route(/^\/leads$/, async () => {
   const d = await api("/leads"), s = d.summary;
   const tiles = [["Codes tracked", s.codes], ["With ciphertext", s.with_data], ["Open leads", s.open_leads], ["Avenues", s.avenues], ["Attempts run", s.attempts], ["Readable hits", s.readable]];
   view().innerHTML = `<p class="kicker">// LEAD_DATABASE</p><h1>Lead Board</h1><p class="lead">Every known mystery, what we know about it, and what is still worth trying. The hunter keeps working through these and writes back here.</p>
     <div class="tiles">${tiles.map(([k, v]) => `<div class="tile"><b>${Number(v).toLocaleString()}</b><span>${k}</span></div>`).join("")}</div>
+    <h2>Hunter status</h2><div id="feed"><p class="mute">Connecting…</p></div>
     <h2>The field</h2>${codeMap(d.codes)}
     <h2>Live leads</h2>${d.leads.map(l => `<div class="panel">${stateTag(l.status)} <a href="#/lead/${esc(l.code)}">${esc(l.code_name)}</a><h3>${esc(l.title)}</h3><p>${esc(l.detail)}</p><p class="mute">${esc(l.evidence)}</p></div>`).join("")}
     <h2>All codes</h2><label for="q">Filter</label><input id="q" class="filter" placeholder="Name or status"><div id="tb"></div>
@@ -16,6 +37,12 @@ route(/^\/leads$/, async () => {
     $("#tb").innerHTML = `<div class="scroll"><table><thead><tr>${["Code", "Type", "Status", "Length", "Symbols", "Leads", "Attempts"].map(c => `<th scope="col">${c}</th>`).join("")}</tr></thead><tbody>${rows.map(c => `<tr><td><a href="#/lead/${esc(c.slug)}">${esc(c.name)}</a></td><td>${esc(c.category)}</td><td>${esc(c.status)}</td><td>${c.tokens ?? "no data yet"}</td><td>${c.symbols ?? ""}</td><td>${c.open_leads}</td><td>${c.attempts}</td></tr>`).join("")}</tbody></table></div>`;
   };
   $("#q").oninput = draw; draw();
+  const refresh = async () => {
+    if (location.hash !== "#/leads") return;
+    try { $("#feed").innerHTML = feedView(await api("/leads/feed")); } catch (e) { $("#feed").innerHTML = `<p class="err">${esc(e.message)}</p>`; return; }
+    setTimeout(refresh, 8000);
+  };
+  refresh();
 }, "leads");
 
 route(/^\/lead\/([\w-]+)$/, async slug => {

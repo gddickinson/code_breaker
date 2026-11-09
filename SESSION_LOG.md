@@ -50,3 +50,6 @@ Added the Bletchingley pigeon message (statistically random, consistent with a o
 
 ## 2026-11-09: Round 8 complete
 Added a working bombe: from a 32-letter crib it found rotors, start and all 8 plug pairs with one stop in about 3 seconds. Added Quagmire I and II, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti and the M-209 model (69 systems). Classifier retrained: 48 classes, top-1 58%, family 83%; Autobreak 21 of 24. Next: Round 9.
+
+## 2026-11-09: Round 9 complete
+Live annealer page (`#/machine/anneal`), checked to break a substitution under node. Lead Board now has a hunter feed, a verdict bar, an attempts-per-hour chart and a lead timeline. Next: Round 10, back to the hardest targets.

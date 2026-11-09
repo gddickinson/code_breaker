@@ -43,3 +43,24 @@ def test_grille_matches_python():
     got = node(f"let h=S.grilleHoles({json.dumps(key)}),o=[];for(let q=0;q<4;q++){{o=o.concat(h.map(p=>p[0]*6+p[1]).sort((a,b)=>a-b));h=S.grilleRotate(h)}};console.log(JSON.stringify(o))")
     assert got == _grille_order(key)
     assert sorted(got) == list(range(36))
+
+
+def test_browser_annealer_breaks_a_substitution():
+    import numpy as np
+
+    from codebreaker.languages import corpus_text
+    from codebreaker.text import letters, similarity, to_ints
+
+    t = to_ints(corpus_text("en"))
+    c = np.bincount(t[:-2] * 676 + t[1:-1] * 26 + t[2:], minlength=17576).astype(float)
+    table = np.log10((c + 0.3) / c.sum()).round(2).tolist()
+    text = letters(corpus_text("en"))[50000:50520]
+    key = "QWERTYUIOPASDFGHJKLZXCVBNM"
+    ct = [key.index(ch) for ch in text]
+    tmp = Path(__file__).parent / "_anneal_fixture.json"
+    tmp.write_text(json.dumps({"t": table, "c": ct}))
+    try:
+        got = node(f"const d=JSON.parse(require('fs').readFileSync({json.dumps(str(tmp))}));let best='',bs=-1e18;for(let s=1;s<=4;s++){{const a=new S.SubAnneal(d.c,Float32Array.from(d.t),45000,s*7919);while(!a.step(5000));if(a.best>bs){{bs=a.best;best=a.text(a.bestKey)}}}};console.log(JSON.stringify(best))")
+    finally:
+        tmp.unlink()
+    assert similarity(got, text) > 0.8

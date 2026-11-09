@@ -35,8 +35,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | completed 2026-11-09 |
 | 7 | Data hunt (completed 2026-11-09): Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | completed 2026-11-09 |
 | 8 | R9 breadth: M-209, more ACA types, bombe, coverage page (Purple and VIC deferred, listed on the coverage page) | completed 2026-11-09 |
-| 9 | Graphics: animated attack visualisers, live hunter feed, lead timeline | next |
-| 10 | Return to the hardest targets with lessons learned: E4 Z340, E8 Beale drift model, E9 Voynich, E10 multilingual Autobreak, E11 Rongorongo alignment | pending |
+| 9 | Graphics: animated attack visualiser, live hunter feed, lead timeline | completed 2026-11-09 |
+| 10 | Return to the hardest targets with lessons learned: E4 Z340, E8 Beale drift model, E9 Voynich, E10 multilingual Autobreak, E11 Rongorongo alignment | next |
+| 11 | New ideas: E7 reversal combined with other transforms; animate the Enigma bombe stops; train a language model scorer on the GPU | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.

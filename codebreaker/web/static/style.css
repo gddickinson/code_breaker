@@ -81,3 +81,5 @@ pre, input, textarea, select { background:rgba(5,4,14,.86); } .verdict { border-
 .heat { border-collapse:separate; border-spacing:2px; width:auto; } .heat td, .heat th { text-align:center; padding:0; border:0; font:12px var(--mono); } .heat td { width:68px; height:42px; color:var(--ink); vertical-align:middle; }
 .status-open { color:var(--accent); } .filter { max-width:320px; }
 @media (prefers-reduced-motion: reduce) { #rain { display:none; } .glitch::before, .glitch::after { animation:none; display:none; } }
+.stack { display:flex; gap:2px; height:22px; margin:10px 0; } .stack div { border-radius:3px; min-width:3px; }
+.anneal { font:16px/1.65 var(--mono); word-break:break-all; min-height:9em; } .keygrid { display:grid; grid-template-columns:repeat(13,1fr); gap:4px; font:13px var(--mono); text-align:center; margin:10px 0; } .keygrid div { background:rgba(5,4,14,.8); border:1px solid var(--line); padding:3px; } .keygrid .good { border-color:var(--good); color:var(--good); }

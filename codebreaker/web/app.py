@@ -166,6 +166,18 @@ def lead_overview():
             "journal": [r.as_dict() for r in db.execute("SELECT * FROM journal ORDER BY id DESC LIMIT 12")]}
 
 
+@app.get("/api/leads/feed")
+def lead_feed():
+    from .. import leads as L
+
+    db = L.connect()
+    verdicts = {r[0]: r[1] for r in db.execute("""SELECT CASE WHEN verdict LIKE 'Readable%' THEN 'Readable' WHEN verdict LIKE 'Structure%' THEN 'Structure only' WHEN verdict LIKE 'No evidence%' THEN 'No evidence' ELSE 'Inconclusive' END v, count(*) FROM attempts GROUP BY v""")}
+    latest = [r.as_dict() for r in db.execute("SELECT t.at, c.name, a.strategy, a.param, a.lang, t.z, t.verdict FROM attempts t JOIN avenues a ON a.id=t.avenue JOIN codes c ON c.slug=a.code ORDER BY t.id DESC LIMIT 14")]
+    hourly = [{"hour": r[0], "attempts": r[1]} for r in db.execute("SELECT substr(at,1,13), count(*) FROM attempts GROUP BY 1 ORDER BY 1")]
+    events = [r.as_dict() for r in db.execute("SELECT l.created, c.name, l.title, l.status FROM leads l JOIN codes c ON c.slug=l.code ORDER BY l.created DESC LIMIT 20")]
+    return {"verdicts": verdicts, "latest": latest, "hourly": hourly, "events": events, "summary": L.summary(db)}
+
+
 @app.get("/api/leads/{slug}")
 def lead_code(slug: str):
     from .. import leads as L
@@ -195,6 +207,18 @@ def machine(name: str):
 
     if name == "jefferson":
         return {"discs": _discs()}
+    if name == "anneal":
+        import numpy as np
+
+        from ..text import to_ints
+
+        t = to_ints(corpus_text("en"))
+        c = np.bincount(t[:-2] * 676 + t[1:-1] * 26 + t[2:], minlength=17576).astype(float)
+        table = np.log10((c + 0.3) / c.sum()).round(2).tolist()
+        r = random.Random()
+        text = letters(corpus_text("en"))
+        start = r.randrange(20000, len(text) - 20000)
+        return {"trigrams": table, "passage": text[start:start + 520]}
     if name == "bombe":
         from ..attacks.bombe import demo
 
