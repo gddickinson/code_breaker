@@ -1,4 +1,6 @@
 """Lost-script lab: what can statistics say about texts in unknown languages?"""
+import json
+import random
 import re
 from collections import Counter
 
@@ -36,6 +38,41 @@ def liber_primus() -> list[list[str]]:
     return [list(w) for w in re.split(r"[^ᚠ-᛿]+", raw) if w]
 
 
+def rongorongo() -> list[list[str]]:
+    """Each hyphen-separated unit is a word; dots join ligated glyphs, and marks after digits are variants."""
+    d = json.loads((LAB / "rongo_tablets.json").read_text())
+    out = []
+    for tablet in d.values():
+        for line in tablet.values():
+            for unit in line.split("-"):
+                signs = [m.lstrip("0") or "0" for m in re.findall(r"\d{1,3}", unit)]
+                if signs:
+                    out.append(signs)
+    return out
+
+
+def rongo_parallels(n=4, trials=40, seed=0) -> dict:
+    """How many glyph runs recur on a different tablet, against shuffled tablets?"""
+    d = json.loads((LAB / "rongo_tablets.json").read_text())
+    tabs = {k: [g for line in v.values() for u in line.split("-") for g in re.findall(r"\d{1,3}", u)] for k, v in d.items()}
+
+    def shared(t):
+        seen = {}
+        for k, seq in t.items():
+            for i in range(len(seq) - n + 1):
+                seen.setdefault(tuple(seq[i:i + n]), set()).add(k)
+        total = sum(len(s) - n + 1 for s in t.values() if len(s) >= n)
+        return sum(1 for k, seq in t.items() for i in range(len(seq) - n + 1) if len(seen[tuple(seq[i:i + n])]) > 1) / total
+
+    real = shared(tabs)
+    r = random.Random(seed)
+    nulls = []
+    for _ in range(trials):
+        x = {k: r.sample(v, len(v)) for k, v in tabs.items()}
+        nulls.append(shared(x))
+    return {"run_length": n, "tablets": len(tabs), "share_on_multiple_tablets": round(real, 4), "shuffled_mean": round(sum(nulls) / trials, 4), "shuffled_max": round(max(nulls), 4)}
+
+
 def chao1(counts: Counter) -> float:
     """Estimated total inventory, counting signs not yet seen, from singletons and doubletons."""
     f1, f2 = sum(v == 1 for v in counts.values()), sum(v == 2 for v in counts.values())
@@ -62,7 +99,7 @@ def profile(words: list[list[str]]) -> dict:
 
 
 def run() -> dict:
-    res = {"id": "scriptlab", "scripts": {"Phaistos Disc": profile(phaistos()), "Linear A": profile(linear_a()), "Liber Primus": profile(liber_primus())}, "baselines": {}}
+    res = {"id": "scriptlab", "scripts": {"Phaistos Disc": profile(phaistos()), "Linear A": profile(linear_a()), "Liber Primus": profile(liber_primus()), "Rongorongo": profile(rongorongo())}, "baselines": {}, "rongo_parallels": rongo_parallels()}
     for code, name in LANGS.items():
         w = [list(letters(x)) for x in strip_accents(corpus_text(code)).split()[:6000]]
         res["baselines"][name] = profile([x for x in w if x])

@@ -59,3 +59,9 @@ def _k4():
 def _voy():
     from .voynich import glyphs, parse
     return glyphs([w for r in parse()[:260] for w in r["words"]], True)
+
+
+@loader("pigeon")
+def _pigeon():
+    from .pigeon import text
+    return list(text())

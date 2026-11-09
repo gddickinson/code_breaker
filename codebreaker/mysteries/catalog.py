@@ -18,6 +18,7 @@ WITH_DATA = [
     ("kryptos-k4", "Kryptos K4", "cipher", "solved privately, unpublished", "1990", "data/sources/wp_kryptos.txt", "https://en.wikipedia.org/wiki/Kryptos"),
     ("voynich", "Voynich manuscript", "script", "unsolved", "15th century", "data/sources/vms_ZL3b-n.txt", "https://voynich.nu/extra/legacy.html"),
     ("dorabella", "Dorabella cipher", "cipher", "unsolved", "1897", "data/sources/unsolved/Dorabella.txt", "https://en.wikipedia.org/wiki/Dorabella_Cipher"),
+    ("pigeon", "Bletchingley pigeon message", "cipher", "unsolved", "c. 1944", "data/sources/research/wp_nps.txt", "https://en.wikipedia.org/wiki/National_Pigeon_Service"),
     ("zodiac-z13", "Zodiac Z13", "cipher", "unsolved", "1970", "data/sources/zodiac/z13.txt", "https://github.com/doranchak/azdecrypt"),
     ("zodiac-z32", "Zodiac Z32", "cipher", "unsolved", "1970", "data/sources/zodiac/z32.txt", "https://github.com/doranchak/azdecrypt"),
 ]
@@ -109,10 +110,10 @@ def seed() -> dict:
         seq = load(slug, rel)
         _facts(db, slug, seq)
         _avenues(db, slug, len(seq))
-    for slug, name, cat, src in (("phaistos-disc", "Phaistos Disc", "script", "https://en.wikipedia.org/wiki/Phaistos_Disc"), ("linear-a", "Linear A", "script", "https://github.com/mwenge/lineara.xyz"), ("liber-primus", "Liber Primus (Cicada 3301)", "cipher", "https://github.com/henkman/liberprimus")):
+    for slug, name, cat, src in (("phaistos-disc", "Phaistos Disc", "script", "https://en.wikipedia.org/wiki/Phaistos_Disc"), ("linear-a", "Linear A", "script", "https://github.com/mwenge/lineara.xyz"), ("liber-primus", "Liber Primus (Cicada 3301)", "cipher", "https://github.com/henkman/liberprimus"), ("rongorongo", "Rongorongo", "script", "https://github.com/jgregoriods/rongopy")):
         L.upsert_code(db, slug, name, cat, "unsolved", "", "data/results/scriptlab.json", source=src)
     res = json.loads((RES / "scriptlab.json").read_text())["scripts"] if (RES / "scriptlab.json").exists() else {}
-    for slug, key in (("phaistos-disc", "Phaistos Disc"), ("linear-a", "Linear A"), ("liber-primus", "Liber Primus")):
+    for slug, key in (("phaistos-disc", "Phaistos Disc"), ("linear-a", "Linear A"), ("liber-primus", "Liber Primus"), ("rongorongo", "Rongorongo")):
         if key in res:
             p = res[key]
             db.execute("UPDATE codes SET tokens=?, symbols=? WHERE slug=?", (p["tokens"], p["signs"], slug))

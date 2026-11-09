@@ -45,6 +45,21 @@
    "top_initial_share": 0.042,
    "distinct_words": 2859,
    "repeated_word_share": 0.149
+  },
+  "Rongorongo": {
+   "tokens": 11744,
+   "words": 8727,
+   "signs": 568,
+   "estimated_inventory": 732.2,
+   "class": "logographic or mixed",
+   "h1": 7.209,
+   "h2": 4.739,
+   "mean_word_length": 1.35,
+   "singleton_share": 0.28,
+   "top_initial_sign": "1",
+   "top_initial_share": 0.057,
+   "distinct_words": 1883,
+   "repeated_word_share": 0.784
   }
  },
  "baselines": {
@@ -139,5 +154,12 @@
    "repeated_word_share": 0.599
   }
  },
- "runtime_s": 1.4
+ "rongo_parallels": {
+  "run_length": 4,
+  "tablets": 13,
+  "share_on_multiple_tablets": 0.1054,
+  "shuffled_mean": 0.0003,
+  "shuffled_max": 0.0009
+ },
+ "runtime_s": 1.9
 }

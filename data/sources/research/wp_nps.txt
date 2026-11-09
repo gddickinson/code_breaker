@@ -1,0 +1,51 @@
+{{Short description|Civilian organisation formed in Britain in 1938}}
+{{Use dmy dates|date=July 2025}}
+{{Use British English|date=July 2025}}
+The '''National Pigeon Service''' (NPS) was a volunteer civilian organisation formed in Britain in 1938 as result of representations made to the [[Committee of Imperial Defence]] and the British Government by Major W. H. Osman.<ref name = "Levi">{{cite book |last=Levi |first=Wendell |title= The Pigeon|year= 1977|publisher= Levi Publishing Co, Inc|location= Sumter, S.C.|isbn=0-85390-013-2 }}</ref>
+During 1939-45 over 200,000 young pigeons were given to the services by the British pigeon breeders of the NPS.<ref name = "Levi" />
+The birds were used by the [[Royal Air Force]] and the Army and Intelligence Services, Special Section of the Army Pigeon Service (which was formed in World War I by Lt. Col. [[A. H. Osman]]). During three and a half years of [[World War II]], 16,554 [[war pigeon]]s were parachuted onto the continent.<ref name = "Levi" /> One of these was [[Commando (pigeon)|Commando]], a red chequer cock bird that became a recipient of the [[Dickin Medal]].<ref name="pdsa">{{cite web|url=http://www.pdsa.org.uk/page309_3.html |title=PDSA Dickin Medal: 'the animals' VC', Pigeons&nbsp;— Roll of Honour |accessdate=28 December 2008 |publisher=PDSA |url-status=dead |archiveurl=https://web.archive.org/web/20080922204813/http://www.pdsa.org.uk/page309_3.html |archivedate=22 September 2008 }}</ref> Many other NPS pigeons also received the Dickin Medal.<ref name=pdsapigeon>{{cite web|url=http://www.pdsa.org.uk/about-us/animal-bravery-awards/dickin-medal-pigeons |title=Dickin medal pigeons |publisher=PDSA |accessdate=22 February 2011 |url-status=dead |archiveurl=https://web.archive.org/web/20100213211708/http://www.pdsa.org.uk/about-us/animal-bravery-awards/dickin-medal-pigeons |archivedate=13 February 2010 }}</ref>
+
+==Canister colour code==
+Pigeons were used by a variety of services and the canisters affixed to their legs were colour-coded to distinguish recipients.<ref>WO 205/225 – pages 1/2/3, [http://www.ciphermysteries.com/2012/12/11/at-last-the-secret-history-of-that-dead-cipher-pigeon referenced in ''At last, the secret history of that dead cipher pigeon...Cipher Mysteries'']</ref>
+
+* Red = US Forces + British Army
+* Blue = US Forces + British RAF
+* Blue with coloured disk = British RAF
+* Blue with white patch = RAF
+* Red with coloured disk = British Special Service
+* Grey = British Special Service
+* Green = British Special Service
+* Black = [[British Civil Police]]
+* Yellow = British Commercial
+
+==Pigeon NURP 40 TW 194==
+[[File:Large-pigeon-message.png|thumb|NURP 40 TW 194's Pigeon Service message.]]
+[[File:Army-wireless-addressees.jpg|thumb|Army Wireless Operating Signals 1941 (UK) Addresses]]
+In 1982, the skeleton of a [[carrier pigeon]] was found inside a home chimney in [[Bletchingley]], Surrey, in the southeast United Kingdom. Inside a red canister (see above) attached to one of its legs was an encrypted message handwritten on a Pigeon Service form.  The message was addressed to "XO2," which is thought by some to be [[RAF Bomber Command]], alternatively corresponds to a signals routing code "forward to second recipient",<ref>{{Cite web|url=https://ciphermysteries.com/2013/04/27/cipher-pigeon-message-x02-decoded|title=Cipher pigeon message - "X02" decoded!|date=27 April 2013}}</ref> - the recipients being identified in the code text - and is signed  "W Stot Sjt." probably Sergeant William Stott.  It is believed to have been sent from France on 6 June 1944 during the World War II [[Normandy landings|D-day invasion]].  The message consists of 27 five-letter groups, with the first and last group identical.  As of February 2019, the message has not been deciphered.  Britain's [[GCHQ]], the successor to [[Bletchley Park]] has asked for any information the public might have about the message.<ref>{{cite web|url=https://www.telegraph.co.uk/news/uknews/defence/9697929/Wanted-for-one-last-mission-call-for-Bletchley-Park-codebreakers-to-crack-the-D-Day-pigeon-cipher.html |title=Wanted for one last mission: call for Bletchley Park codebreakers to crack the D-Day pigeon cipher |publisher=Telegraph |date= 23 November 2012|accessdate=2013-08-14}}</ref>
+
+The cipher text reads:
+<blockquote>{{mono|
+AOAKN HVPKD FNFJU YIDDC<br />
+RQXSR DJHFP GOVFN MIAPX<br />
+PABUZ WYYNP CMPNW HJRZH<br />
+NLXKG MEMKK ONOIB AKEEQ<br />
+UAOTA RBQRH DJOFM TPZEH<br />
+LKXGH RGGHT JRZCQ FNKTQ<br />
+KLDTS GQIRU AOAKN 27 1525/6<br />
+}}</blockquote>
+
+The form indicates that two copies of the message were sent. Additional notations, in a colour different from the code groups and signature, are "NURP 40 TW 194" and "NURP 37 OK(or DK) 76."<ref>{{cite web|url=http://worldnews.nbcnews.com/_news/2012/11/23/15384954-experts-unbreakable-code-message-found-on-wwii-carrier-pigeon |title=Experts: Unbreakable code message found on WWII carrier pigeon - World News |publisher=Worldnews.nbcnews.com |date= |accessdate=2013-08-14}}</ref> These identify the specific birds used.<ref>{{cite web|url=https://www.gchq.gov.uk/information/pigeon-takes-secret-message-grave|title=Pigeon takes secret message to the grave|publisher=Gchq.gov.uk |date=2019-01-25 |accessdate=2020-11-13}}</ref>  NURP stands for "National Union of Racing Pigeons."<ref>{{cite web|url=http://www.ciphermysteries.com/2012/11/23/dead-ww2-pigeon-a-ring-of-truth |title=Dead WW2 pigeon – a ring of truth?Cipher Mysteries |publisher=Cipher Mysteries |date= 23 November 2012|accessdate=2013-08-14}}</ref> The pigeon whose remains were found is apparently 40 TW 194.<ref>{{Cite web|url=https://www.nytimes.com/2012/11/02/world/europe/world-war-ii-pigeons-message-a-mystery.html?_r=0&pagewanted=all|title=World War II Pigeon's Message a Mystery, Alan Cowell, New York Times, 1 November 2012}}</ref>  40 and 37 refer to the year the pigeons were hatched.<ref name=CAPG>{{Cite book| title = Codebreaking: A Practical Guide| page=366| author= Elonka Dunin, Klaus Schmeh | date= 2023}}</ref>  The code DK and TW are believed to refer to Dorking and Twickenham.<ref name=CAPG/>
+
+Wide press coverage was given to a solution proposed by Gord Young of Canada, based on a World War I coding book. It explains 7 of the 26 unique code groups as ad hoc acronyms, such as "FNFJW - Final Note [ confirming ] Found Jerry's Whereabouts"<ref name=BBC-uk-20749632>[https://www.bbc.co.uk/news/uk-20749632 "Has World War II carrier pigeon message been cracked?"] ''BBC News'', 16 December 2012</ref> — the usual reading of the group is "FNFJU", while the hand has a very square U, the W is quite distinct.   However, [[Michael Smith (newspaper reporter)|Michael Smith]], a former British army intelligence operator and advisor to Bletchley Park, dismissed Young's purported decryption as "nonsense",<ref name=expert-debunk>{{Cite web|url=https://www.independent.co.uk/news/uk/home-news/expert-dismisses-claims-wwii-pigeon-code-has-been-cracked-8431463.html|title=Expert dismisses claims WWII pigeon code has been cracked|date=26 December 2012|website=The Independent}}</ref> explaining "a World War One code … wouldn’t have been used because it would have been well known to the Germans and insecure." The [[Government Communications Headquarters]] (GCHQ) has stated "without access to the original code books, details of any additional encryption, or any context around the message, it will be impossible to decode. Similarly it means that any proposed solutions sent to GCHQ will, without such material, be impossible to prove correct."<ref>{{cite web|url=http://www.gchq.gov.uk/Press/Pages/Pigeon-Message-Update.aspx |title=Pigeon Message Update |publisher=Gchq.gov.uk |date=2012-12-17 |accessdate=2013-08-14}}</ref>
+
+Some sources have suggested the code was a [[one-time pad]].<ref name=CAPG/>
+
+==References==
+{{reflist}}
+
+{{War pigeons}}
+{{Authority control}}
+
+[[Category:Birds in the United Kingdom]]
+[[Category:Domestic pigeons]]
+[[Category:Military animals of World War II]]

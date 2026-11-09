@@ -80,3 +80,10 @@ def test_voynich_generators_preserve_substitution_entropy():
     from codebreaker.mysteries.voynich_generators import latin_words, measure, monoalpha
 
     assert abs(measure(latin_words(4000, 1))["h2"] - measure(monoalpha(4000, 1))["h2"]) < 1e-6
+
+
+def test_pigeon_message_structure():
+    from codebreaker.mysteries.pigeon import groups, text
+
+    g = groups()
+    assert len(g) == 27 and g[0] == g[-1] == "AOAKN" and len(text()) == 125

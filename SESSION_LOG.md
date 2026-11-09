@@ -44,3 +44,6 @@ Voynich generator lab: noise floor 0.37, no candidate reaches it; verbose cipher
 
 ## 2026-11-09: Round 6 complete
 CNN cipher-type classifier over 41 classes: top-1 62%, top-3 80%, family 86% on unseen keys and texts. Autobreak solved 21 of 24 hidden ciphers. GPU trained 5.5x faster than CPU. `data/models/classifier.pt` is not in git: rebuild with `scripts/train_classifier.py`. Next: Round 7.
+
+## 2026-11-09: Round 7 complete
+Added the Bletchingley pigeon message (statistically random, consistent with a one-time key) and the Rongorongo corpus (10.5% of 4-glyph runs recur across tablets, against 0.03% shuffled). Shugborough recorded as too short. Indus and Debosnys need transcribed data. Next: Round 8.

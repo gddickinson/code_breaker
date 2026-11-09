@@ -33,8 +33,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | completed 2026-11-09 |
 | 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | completed 2026-11-09 |
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | completed 2026-11-09 |
-| 7 | (next) Data hunt: Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | pending |
-| 8 | R9 breadth: M-209, Purple, VIC, more ACA types; a bombe simulation; catalogue page | pending |
+| 7 | Data hunt (completed 2026-11-09): Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | completed 2026-11-09 |
+| 8 | R9 breadth: M-209, Purple, VIC, more ACA types; a bombe simulation; catalogue page | next |
 | 9 | Graphics: animated attack visualisers, live hunter feed, lead timeline | pending |
 
 ## Lessons learned
@@ -59,6 +59,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Near-miss classification is fine when the next step can test several guesses cheaply.
 
+- Do not type ciphertext from memory: the query for the pigeon message used a wrong letter that the published form corrected.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
@@ -69,6 +71,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | E8 | Beale: model an encoder working through one region at a time and test whether it reproduces B1 and B3 correlation; D'Agapeyeff: digit transposition avenue | pending |
 | E9 | Voynich: implement Timm and Schinner's self-citation faithfully, and a verbose cipher with word breaks inside groups. Liber Primus: running keys from solved text | pending |
 | E10 | Autobreak: always include substitution and shift attacks as cheap fallbacks; train on multiple plaintext languages; many labels are inherently confusable, so report families | pending |
+| E11 | Rongorongo: align parallel passages to merge sign variants; needs a transcribed Indus corpus and Debosnys symbols | pending |
 | E7 | Hunter idea: combine reversal with each other transform, and add n-gram scoring in French for newspaper ads | pending |
 | E5 | GPU: search loops stay on CPU; neural training runs on MPS, 5.5x faster (`data/results/classifier.json`) | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
