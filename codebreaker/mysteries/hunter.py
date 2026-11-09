@@ -45,8 +45,27 @@ def transform(seq: list, strategy: str, param: str) -> list:
     raise ValueError(strategy)
 
 
+CRACK_BASE, CRACK_CAP = 45, 150
+WORKBENCH = "Workbench readable"
+
+
+def crack_work(job: dict) -> dict:
+    """Run the whole Workbench pipeline with more time at each level. Its check is weaker than the three gates."""
+    from ..crack import crack
+    from ..languages import ROOT
+
+    raw = (ROOT / job["path"]).read_text(errors="ignore")
+    budget = min(CRACK_CAP, (int(job["param"]) if job["param"] else CRACK_BASE) * (1 + job["level"]))
+    end = list(crack(raw, budget, job["lang"] or None, workers=3))[-1]
+    best, v = end.get("best") or {}, end["verdict"]
+    label = f"{WORKBENCH}: {v['why']} Shuffle and length checks only, with no positive control, so a person must read it." if v["level"] == "readable" else f"Workbench {v['label'].lower()} ({budget:.0f} s, {end['tried']} attempts): {v['why']}"
+    return {**job, "control": {"mean": 0.0, "kind": "workbench crack"}, "z": 0.0, "score": best.get("score", -99.0), "verdict": label, "reading": (best.get("spaced") or "")[:220]}
+
+
 def work(job: dict) -> dict:
     os.nice(10)
+    if job["strategy"] == "crack":
+        return crack_work(job)
     seq = transform(load(job["code"], job["path"]), job["strategy"], job["param"])
     homo = len(set(seq)) > 26
     iters = BASE_ITERS[homo] * (1 + job["level"])
@@ -93,7 +112,7 @@ def hunt(minutes: float = 5, workers: int = 9, seed: int | None = None) -> dict:
                 db.execute("INSERT OR REPLACE INTO controls VALUES(?,?)", (r["ck"], json.dumps(r["control"])))
                 db.execute("INSERT INTO attempts(avenue,at,seed,level,z,score,control,verdict,reading) VALUES(?,?,?,?,?,?,?,?,?)", (r["id"], L.now(), r["seed"], r["level"], r["z"], r["score"], r["control"]["mean"], r["verdict"], r["reading"]))
                 db.execute("UPDATE avenues SET runs=runs+1, level=level+?, last_run=?, best_z=MAX(COALESCE(best_z,-99),?), best_score=MAX(COALESCE(best_score,-99),?) WHERE id=?", (1 if rng.random() < 0.25 else 0, L.now(), r["z"], r["score"], r["id"]))
-                if r["verdict"].startswith(READABLE):
+                if r["verdict"].startswith((READABLE, WORKBENCH)):
                     found.append(r)
                     L.add_lead(db, r["code"], f"Readable output: {r['strategy']} {r['param']} {r['lang']}".strip(), r["reading"], r["verdict"], "needs_review", "hunter")
                 db.commit()

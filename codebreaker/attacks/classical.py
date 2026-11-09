@@ -127,7 +127,7 @@ def quagmire(ct, decrypt_fn, lang="en"):
     letter = np.log(model(lang)["letter"] + 1e-6)
     p = likely_period(t, 20)[0]
     best = (-1e18, None)
-    for word in keywords(lang, 1500, 4) + ["KRYPTOS"]:
+    for word in keywords(lang, 6000, 4) + ["KRYPTOS"]:
         alpha = np.array([ord(c) - 65 for c in keyed_alphabet(word)])
         idx = np.argsort(alpha)  # position of each letter in the keyed alphabet
         pos = idx[t]

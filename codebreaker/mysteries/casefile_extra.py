@@ -93,6 +93,23 @@ def benchmark_sections(r):
             {"heading": "Best and worst", "table": _t(["Type", "Cipher", "Length", "Symbols", "Word coverage", "Output"], [[x["folder"], x["name"], x["length"], x["symbols"], f"{x['coverage']:.0%}", x["reading"][:60]] for x in sorted(r["rows"], key=lambda x: -x["coverage"])[:14]])}]
 
 
+def _correspondences():
+    """Ads under one documented table, checked against their scans, in date order."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_correspondence.json"
+    if not path.exists():
+        return []
+    out = []
+    for f in json.loads(path.read_text())["families"]:
+        rows = [[t["date"], t["signature"] or "-", t["reading"][:150]] for t in f["timeline"] if t["checked"]]
+        alt = f["alternative_for_1"]
+        note = f" A dictionary test of a second value for symbol 1 favoured {alt[0]['letter']} by only {alt[0]['gain']} letters, which is noise. The B readings seen by eye are in abbreviations no dictionary holds, so B remains an eye-reading only." if alt else ""
+        out.append({"heading": f"Correspondence under table {f['table']}", "paragraphs": [f"{f['ads']} unsolved ads read under documented table {f['table']}" + (f" with {', '.join(f'{k}={v}' for k, v in f['extra'].items())} added" if f["extra"] else "") + f". The {len(rows)} below were checked against their scans. Words in brackets are completions, and none of these readings is confirmed as new." + note], "table": _t(["Date", "Signed", "Reading"], rows)})
+    return out
+
+
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}]
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences()

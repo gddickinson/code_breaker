@@ -55,7 +55,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 26 | AIM: 25 more known references from solved scans; automatic entry counter parked (12 of 52 exact); key entries counted by eye; 20 Jan 1882 ad read | completed 2026-11-09 |
 | 27 | Ads grouped by table (14 tables with families); blank-cell inference (hidden cells: 55 of 69 answered correct, 121 tested); R=O in table 2119 with 15 of 15 held-out folds | completed 2026-11-09 |
 | 28 | Six family leads checked against scans; numeric families cleaned (hidden cells 51 of 65 answered correct); irregular columnar and word anagrams (control 28 of 30, no real reading) | completed 2026-11-09 |
-| 29 | Add table 2119 homophones as alternatives and read the whole 2119 family as one correspondence; fix Workbench Quagmire III miss; extend transposition beyond width 7 | next |
+| 29 | Quagmire III fixed (keyword list 1,500 to 6,000; 30 of 30 random keys); 2119 and 2402 correspondences on the case page; symbol 1=B not supported by a dictionary test | completed 2026-11-09 |
+| 30 | Transposition keys wider than 7 by hill-climbing, with controls; signals and devices section (user request, scoped from the kinect_interface project) | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -198,4 +199,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Plain abbreviated French scores high on anagram tests, because real words are their own anagrams; a coverage filter of 0.35 was not enough for short words.
 - The Workbench benchmark missed only Quagmire III (48 of 49 recovered at 18 seconds; 38 called readable, none wrongly).
 - Lesson (Workbench): ranking by word coverage alone rewards overfitting on short text. Evidence depends on how many keys were searched: exact decodings have none, and unicity distance limits the rest.
+
+## Added 2026-11-09: Round 29
+- Benchmark misses can come from test keys outside the attack's search space: the Quagmire keygen drew keywords from deeper in the list than the attack searched. A wider list fixed it at about 2.6 seconds per attack.
+- Letter-swap refinement of a near-miss alphabet lowered accuracy (0.45 to 0.39), because a better letter score did not track the true alphabet. Parked.
+- Dictionary tests cannot judge abbreviated words. The 1=B evidence in table 2119 rests on reading by eye.
 

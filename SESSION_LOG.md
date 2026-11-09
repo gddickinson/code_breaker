@@ -152,3 +152,9 @@ Checked six more family ads against scans, all real and improved by hand. Numeri
 ## 2026-11-09: Workbench short-text fixes (user report)
 A Base64 message was decoded correctly but outranked by a meaningless short Italian reading. Exact decodings that read as language now end the crack; decoded text that is not language is attacked in layers. Readings from methods whose key space is too large for the text length are marked as not trusted and cannot be reported as cracked.
 
+## 2026-11-09: Hunter support for Workbench submissions (user request)
+Submissions now have exact encodings removed (Base64, hex, binary, character codes, up to three layers), and the hunter works on the inner text, with the original kept. Each submission also gets a "crack" avenue that reruns the full Workbench pipeline with more time at each level (45 s, rising to a 150 s cap). Its readable results go to the Lead Board as needing review, labelled as weaker than the three-gate verdict.
+
+## 2026-11-09: Round 29
+Fixed the Workbench's only benchmark miss: Quagmire III now searches 6,000 alphabet keywords and recovered 30 of 30 random keys. An alphabet-swap refinement was tried and dropped. The 2119 (17 ads, 13 checked) and 2402 (16 ads, 10 checked) families are now dated correspondences on the Le Figaro case page. A dictionary test did not support symbol 1=B, so that stays an eye-reading. Wider transposition keys moved to Round 30, together with the user's signals and devices request.
+

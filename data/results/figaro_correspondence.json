@@ -1,0 +1,319 @@
+{
+ "id": "figaro_correspondence",
+ "families": [
+  {
+   "table": "2119",
+   "users": [
+    "42"
+   ],
+   "extra": {
+    "R": "O"
+   },
+   "ads": 17,
+   "checked": 13,
+   "alternative_for_1": [
+    {
+     "letter": "T",
+     "gain": 6
+    },
+    {
+     "letter": "U",
+     "gain": 5
+    },
+    {
+     "letter": "S",
+     "gain": 5
+    },
+    {
+     "letter": "N",
+     "gain": 5
+    },
+    {
+     "letter": "M",
+     "gain": 3
+    }
+   ],
+   "timeline": [
+    {
+     "image": "1876_18760114.jpg",
+     "date": "14.01.1876",
+     "signature": "",
+     "source": "OCR",
+     "checked": false,
+     "reading": "OX FF AL MM AL MM ME FI FI CE EO CE"
+    },
+    {
+     "image": "1883_18831226-J.jpg",
+     "date": "26.12.1883",
+     "signature": "J",
+     "source": "hand",
+     "checked": true,
+     "reading": "Menn tant, ma pet[ite] femm[e]. Merci fl[eurs]. Refuse reveil pour rester avec ta pensee. T'aime a passion. M. Tilly. This ad is partly read: menn is not understood."
+    },
+    {
+     "image": "1883_18831230-R.jpg",
+     "date": "30.12.1883",
+     "signature": "R",
+     "source": "hand",
+     "checked": true,
+     "reading": "Mari pas content, mais suis premier te souhait[er] jour [de l']an. T'embrasse avec adoration, ma femme."
+    },
+    {
+     "image": "1884_18840112-E.jpg",
+     "date": "12.01.1884",
+     "signature": "E",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read."
+    },
+    {
+     "image": "1884_18840219-H.jpg",
+     "date": "19.02.1884",
+     "signature": "H",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Je te.. avant de partir, ma petite femme ador[ee]."
+    },
+    {
+     "image": "1884_18840306-O.jpg",
+     "date": "06.03.1884",
+     "signature": "O",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read."
+    },
+    {
+     "image": "1884_18840312-N.jpg",
+     "date": "12.03.1884",
+     "signature": "N",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X."
+    },
+    {
+     "image": "1884_18840427-H.jpg",
+     "date": "27.04.1884",
+     "signature": "H",
+     "source": "hand",
+     "checked": false,
+     "reading": "Si gr[and] vide sans toi. Merci devin pensee fille. This ad is partly read."
+    },
+    {
+     "image": "1884_18840531-J.jpg",
+     "date": "31.05.1884",
+     "signature": "J",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame."
+    },
+    {
+     "image": "1884_18840604-D.jpg",
+     "date": "04.06.1884",
+     "signature": "D",
+     "source": "OCR",
+     "checked": false,
+     "reading": "MM .NO.S UO..O. SENT SI XON MERCI MARI TAD ROSE"
+    },
+    {
+     "image": "1884_18840605-I.jpg",
+     "date": "05.06.1884",
+     "signature": "I",
+     "source": "hand",
+     "checked": true,
+     "reading": "Ne trou[b]l[e] pas, ma cherie, tu es ma femme adoree. The second word prints as TOU1L; this ad is partly read."
+    },
+    {
+     "image": "1884_18841221-S.jpg",
+     "date": "21.12.1884",
+     "signature": "S",
+     "source": "hand",
+     "checked": true,
+     "reading": "Ma cherie, merc[i] lett[re], je t'aim[e], ma femme, ma vie."
+    },
+    {
+     "image": "1885_18850212-E.jpg",
+     "date": "12.02.1885",
+     "signature": "E",
+     "source": "hand",
+     "checked": true,
+     "reading": "T'embr[asse] en me levant, mon amour, ma femme. Pass.. This ad is partly read."
+    },
+    {
+     "image": "1886_18860121-E.jpg",
+     "date": "21.01.1886",
+     "signature": "E",
+     "source": "hand",
+     "checked": true,
+     "reading": "Cert[ain] lund[i] par.. je t'ad[ore], ma femme, ne pense qu'a toi. This ad is partly read."
+    },
+    {
+     "image": "1886_18860403-L.jpg",
+     "date": "03.04.1886",
+     "signature": "L",
+     "source": "OCR",
+     "checked": false,
+     "reading": "O... MENN DE TO. MA CHER AIME DE MECR DAIC"
+    },
+    {
+     "image": "1886_18860529-P.jpg",
+     "date": "29.05.1886",
+     "signature": "P",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read."
+    },
+    {
+     "image": "1887_18870111-5.jpg",
+     "date": "11.01.1887",
+     "signature": "5",
+     "source": "hand",
+     "checked": true,
+     "reading": "Bonj[our] mad[ame] et chere epou[se], je vs aime a l'ad[oration], ma vie."
+    }
+   ]
+  },
+  {
+   "table": "2402",
+   "users": [
+    "(pas",
+    "d'id)",
+    "47",
+    "74"
+   ],
+   "extra": {},
+   "ads": 16,
+   "checked": 10,
+   "alternative_for_1": [],
+   "timeline": [
+    {
+     "image": "1875_18750103-J.jpg",
+     "date": "03.01.1875",
+     "signature": "J",
+     "source": "OCR",
+     "checked": false,
+     "reading": "AA AD X.X"
+    },
+    {
+     "image": "1877_18770412-OPQ.jpg",
+     "date": "12.04.1877",
+     "signature": "OPQ",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad is partly read."
+    },
+    {
+     "image": "1879_18790222.jpg",
+     "date": "22.02.1879",
+     "signature": "",
+     "source": "OCR",
+     "checked": false,
+     "reading": "MM AA SOI AUO OMU MI MU AR"
+    },
+    {
+     "image": "1879_18790309b.jpg",
+     "date": "09.03.1879",
+     "signature": "",
+     "source": "hand",
+     "checked": true,
+     "reading": "Serai Paris jeudi deux dix avec mere."
+    },
+    {
+     "image": "1879_18790311b.jpg",
+     "date": "11.03.1879",
+     "signature": "",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood."
+    },
+    {
+     "image": "1879_18790410.jpg",
+     "date": "10.04.1879",
+     "signature": "",
+     "source": "hand",
+     "checked": true,
+     "reading": "Courage, mon coeur, vous sui[s].. 47. This ad is partly read."
+    },
+    {
+     "image": "1879_18791230-4.jpg",
+     "date": "30.12.1879",
+     "signature": "4",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read)."
+    },
+    {
+     "image": "1881_18810202.jpg",
+     "date": "02.02.1881",
+     "signature": "",
+     "source": "hand",
+     "checked": true,
+     "reading": "Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred."
+    },
+    {
+     "image": "1881_18811107.jpg",
+     "date": "07.11.1881",
+     "signature": "",
+     "source": "hand",
+     "checked": false,
+     "reading": "DOUX SOUVENIR TENDRES BAISERS MY OVVN"
+    },
+    {
+     "image": "1882_18821010-LINETTE.jpg",
+     "date": "10.10.1882",
+     "signature": "LINETTE",
+     "source": "OCR",
+     "checked": false,
+     "reading": "QG.... MU MB OD MA MS MU MI MR MU MB"
+    },
+    {
+     "image": "1883_18830427-pella.jpg",
+     "date": "27.04.1883",
+     "signature": "pella",
+     "source": "OCR",
+     "checked": false,
+     "reading": "..HH. .R... .OO E...J. NQ.G O... .. ..E.X .R.X FN X.G.. MRD OR MA MA OS OI MA OR"
+    },
+    {
+     "image": "1886_18860122-2Fev.jpg",
+     "date": "22.01.1886",
+     "signature": "2Fev",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read)."
+    },
+    {
+     "image": "1886_18860307-2F.jpg",
+     "date": "07.03.1886",
+     "signature": "2F",
+     "source": "hand",
+     "checked": true,
+     "reading": "[P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as MMARDON; PARDON is inferred, so this ad is partly read."
+    },
+    {
+     "image": "1887_18870125-2F.jpg",
+     "date": "25.01.1887",
+     "signature": "2F",
+     "source": "hand",
+     "checked": true,
+     "reading": "Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir]."
+    },
+    {
+     "image": "1889_18890109-2F.jpg",
+     "date": "09.01.1889",
+     "signature": "2F",
+     "source": "OCR",
+     "checked": true,
+     "reading": "Timbre mal mis par accident. Tendre baisers."
+    },
+    {
+     "image": "1889_18890510-AVRIL.jpg",
+     "date": "10.05.1889",
+     "signature": "AVRIL",
+     "source": "OCR",
+     "checked": false,
+     "reading": ".T.QH MR OR MU AI .. OR"
+    }
+   ]
+  }
+ ]
+}

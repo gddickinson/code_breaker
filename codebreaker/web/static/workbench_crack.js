@@ -126,7 +126,7 @@ function submitSetup() {
   $("#sGo").onclick = ev => busy(ev.target, $("#sMsg"), async () => {
     const b = WBRUN && WBRUN.result && WBRUN.result.best, v = WBRUN && WBRUN.result && WBRUN.result.verdict;
     const r = await api("/submissions", { name: $("#sN").value, text: $("#t").value, source: $("#sS").value, notes: $("#sM").value, best: b && v && v.level !== "none" ? { cipher: b.cipher, lang: b.lang, coverage: b.coverage, reading: b.spaced, verdict: v.label } : null });
-    $("#sMsg").innerHTML = r.status === "solved" ? esc(r.message) : r.status === "duplicate" ? `This text is already tracked as <a href="#/lead/${esc(r.slug)}">${esc(r.name)}</a>, so nothing was added.` : `Added <a href="#/lead/${esc(r.slug)}">${esc(r.name)}</a>. ${r.hunted ? `${r.avenues} avenues are queued for the hunter's next run.` : "It is too short for the hunter (20 symbols minimum), so it is stored for reference."}`;
+    $("#sMsg").innerHTML = r.status === "solved" ? esc(r.message) : r.status === "duplicate" ? `This text is already tracked as <a href="#/lead/${esc(r.slug)}">${esc(r.name)}</a>, so nothing was added.` : `Added <a href="#/lead/${esc(r.slug)}">${esc(r.name)}</a>. ${r.layers && r.layers.length ? `${esc(r.layers.join(" then "))} was removed first, so the hunter works on the text inside. ` : ""}${r.hunted ? `${r.avenues} avenues are queued for the hunter's next run.` : "It is too short for the hunter (20 symbols minimum), so it is stored for reference."}`;
     await submitList();
   });
 }

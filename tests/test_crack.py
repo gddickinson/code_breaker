@@ -145,3 +145,38 @@ def test_a_solved_crack_records_its_verdict():
 def test_submission_needs_name_and_text():
     assert client.post("/api/submissions", json={"name": "", "text": "ABCDEFG"}).status_code == 400
     assert client.post("/api/submissions", json={"name": "x", "text": ""}).status_code == 400
+
+
+def test_peel_removes_encodings_in_layers():
+    inner = REGISTRY["caesar"].encrypt(DEMO_PLAIN[:120], shift=4)
+    wrapped = base64.b64encode(base64.b64encode(inner.encode())).decode()
+    got, layers = U.peel(wrapped)
+    assert got == inner and layers == ["Base64", "Base64"]
+    assert U.peel("ORDINARY CIPHER TEXT HERE") == ("ORDINARY CIPHER TEXT HERE", [])
+
+
+def test_hunter_cracks_a_submitted_vigenere(tmp_path, monkeypatch):
+    import shutil
+
+    from codebreaker.mysteries import hunter as H
+
+    db = tmp_path / "leads.db"
+    shutil.copy(L.DB, db)
+    monkeypatch.setattr(L, "DB", db)
+    inner = REGISTRY["vigenere"].encrypt(DEMO_PLAIN, key="MIRADOR")
+    text = base64.b64encode(inner.encode()).decode()
+    U.record_verdict(text, "none")
+    try:
+        r = U.submit("Pytest vigenere", text, "unit test")
+        assert r["layers"] == ["Base64"]
+        conn = L.connect()
+        path = list(conn.execute("SELECT data_path FROM codes WHERE slug=?", (r["slug"],)))[0][0]
+        assert path.endswith(".inner.txt")
+        assert list(conn.execute("SELECT count(*) FROM avenues WHERE code=? AND strategy='crack'", (r["slug"],)))[0][0] == 1
+        out = H.work({"id": 0, "code": r["slug"], "path": path, "strategy": "crack", "param": "25", "lang": "en", "level": 0, "seed": 1, "tests": 1, "control": None, "ck": "x"})
+        assert out["verdict"].startswith(H.WORKBENCH)
+        got = letters(out["reading"])
+        assert len(got) > 100 and letters(DEMO_PLAIN).startswith(got)
+    finally:
+        for f in (U.ROOT / "data/sources/submitted").glob("sub-pytest-vigenere*"):
+            f.unlink()

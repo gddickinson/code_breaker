@@ -35,3 +35,28 @@ def test_family_hand_readings():
     key = {**next(t for t in X.digit_tables() if t["id"] == "2119")["key"], "R": "O"}
     assert X.apply(H["1884_18841221-S.jpg"]["words"], key)[:2] == ["MA", "CHERIE"]
     assert "RESTER" in X.apply(H["1883_18831226-J.jpg"]["words"], key)
+
+
+def test_correspondence_slug_and_alternatives():
+    from codebreaker.mysteries import figaro_correspondence as F
+
+    assert F.slug("1879_18790309b.jpg") == "figaro-1879-03-09b"
+    assert F.slug("1884_18840605-I.jpg") == "figaro-1884-06-05-i"
+    assert F.read_alt([list("1ON")], {"O": "O", "N": "N", "1": "X"}, {"1": ["X", "B"]}) == 3
+
+
+def test_correspondence_section_on_case_page():
+    from codebreaker.mysteries.casefiles import case
+
+    heads = [s["heading"] for s in case("figaro_keys")["sections"]]
+    assert "Correspondence under table 2119" in heads
+
+
+def test_quagmire_finds_a_long_alphabet_keyword():
+    from codebreaker.ciphers import REGISTRY
+    from codebreaker.ciphers.base import DEMO_PLAIN
+    from codebreaker.text import letters, similarity
+
+    c = REGISTRY["quagmire"]
+    ct = c.encrypt(DEMO_PLAIN, alphabet="ENGAGEMENTS", key="GAINED")
+    assert similarity(letters(c.decrypt(ct, alphabet="ENGAGEMENTS", key="GAINED")), letters(c.attack(ct, "en")["plaintext"])) > 0.95

@@ -34,6 +34,20 @@ def _duplicate(db, text: str):
     return None
 
 
+def peel(text: str, depth: int = 3) -> tuple[str, list[str]]:
+    """Remove exact encodings (Base64, hex, binary, character codes), so the hunter works on what is inside."""
+    from .crack_steps import encodings
+
+    layers = []
+    for _ in range(depth):
+        strict = next((f for f in encodings(text) if f["strict"]), None)
+        if not strict:
+            break
+        text = strict["text"].strip()
+        layers.append(strict["name"])
+    return text, layers
+
+
 def _free_slug(db, name: str) -> str:
     base = "sub-" + (_slugify(name)[:50] or "untitled")
     slug, n = base, 2
@@ -56,20 +70,27 @@ def submit(name: str, text: str, source: str = "", notes: str = "", best: dict |
     if level == "readable":
         return {"status": "solved", "message": "The Workbench has already read this one, so it does not need further work."}
     db = L.connect()
-    dup = _duplicate(db, text)
+    inner, layers = peel(text)
+    dup = _duplicate(db, text) or (_duplicate(db, inner) if layers else None)
     if dup:
         return {"status": "duplicate", **dup}
     slug = _free_slug(db, name)
     FOLDER.mkdir(parents=True, exist_ok=True)
-    path = FOLDER / f"{slug}.txt"
-    path.write_text(text + "\n")
-    seq = tokens(text)
+    (FOLDER / f"{slug}.txt").write_text(text + "\n")
+    path = FOLDER / f"{slug}.inner.txt" if layers else FOLDER / f"{slug}.txt"
+    if layers:
+        path.write_text(inner + "\n")
+    seq = tokens(inner)
     L.upsert_code(db, slug, name, "cipher", "submitted, being worked on", ORIGIN, str(path.relative_to(ROOT)), len(seq), len(set(seq)), source)
     L.add_fact(db, slug, f"Submitted from the Workbench. Source given: {source or 'none'}.", "workbench")
     if notes:
         L.add_fact(db, slug, f"Submitter's note: {notes}", "workbench")
+    if layers:
+        L.add_fact(db, slug, f"Exact encoding removed before hunting: {' then '.join(layers)}. The original is kept as {slug}.txt and the hunter works on {slug}.inner.txt.", "workbench")
     before = list(db.execute("SELECT count(*) FROM avenues WHERE code=?", (slug,)))[0][0]
     _avenues(db, slug, len(seq))
+    if len(seq) >= MIN_TOKENS:
+        L.add_avenue(db, slug, "crack", "", "", 3.5, "Full Workbench pipeline, with more time at each level.")
     count = list(db.execute("SELECT count(*) FROM avenues WHERE code=?", (slug,)))[0][0] - before
     if best and best.get("reading"):
         L.add_lead(db, slug, f"Workbench reading ({best.get('cipher', 'unknown method')}, {best.get('lang', '')})", str(best["reading"])[:900], f"Workbench verdict: {best.get('verdict', 'not given')}. Coverage {best.get('coverage')}. Needs checking by a person.", "needs_review", "workbench")
@@ -77,7 +98,7 @@ def submit(name: str, text: str, source: str = "", notes: str = "", best: dict |
         L.add_fact(db, slug, f"Only {len(seq)} symbols, below the {MIN_TOKENS} the hunter needs. Kept on file.", "workbench")
     L.log(db, f"Workbench submission added: {name} ({len(seq)} symbols, {count} avenues).")
     db.commit()
-    return {"status": "added", "slug": slug, "name": name, "symbols": len(seq), "avenues": count, "hunted": count > 0}
+    return {"status": "added", "slug": slug, "name": name, "symbols": len(seq), "avenues": count, "hunted": count > 0, "layers": layers}
 
 
 def listing() -> list[dict]:
