@@ -48,7 +48,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 19 | Period-step search for combined ciphers (controls 5 of 6, benchmark 0 of 84); bigram solver (control failed, 4-16%, parked) | completed 2026-11-09 |
 | 20 | Le Figaro OCR choice by language score (16 of 56, ties best) | completed 2026-11-09 |
 | 21 | Le Figaro OCR fusion with a French HMM (control 18 of 56, up from 16; majority vote 16); letter-digit attack (planted 40 of 40, no real ad read) | completed 2026-11-09 |
-| 22 | AIM dictionary code from the archive.org scan; irregular transposition models; letter-digit ads with plain-line exclusion, homophones and 30-letter controls | next |
+| 22 | Letter-digit ads: dictionary beam (planted 87 of 90, including 29 of 30 at 30 letters), 32 documented digit tables recovered, shared key matches table 2119 | completed 2026-11-09 |
+| 23 | Hand-transcribe the letter-digit family and apply tables 2119 and 2402; fix load_tables to keep digit symbols and re-run the Le Figaro sweep; AIM dictionary code; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -151,3 +152,11 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Lesson: `plain_coverage` must run on digit-bearing ads as well. The top digit hits were ordinary French with figures.
 - New idea: HMM fusion could use confidence values from the OCR engines instead of equal votes.
 - OCR benchmark rerun on 9 hand-read ads: tesseract on base 90%, rapidocr on Otsu 89%. The ranking changed from the 7-ad run, so the top settings are ties.
+
+## Added 2026-11-09: Round 22
+- Word breaks beat letter statistics on short text: dictionary beam 29 of 30 at 30 letters, where quadgram fitting read nothing.
+- A parser that keeps only `c.isalpha()` silently dropped 32 documented tables. Count what a parser drops by category, not only in total.
+- Independent confirmation: a key fitted from one ad agrees with table 2119 on 13 of 16 shared symbols. Held-out fitting was weak (1 of 5 splits; planted control found members in 5 of 6), so the table match is the evidence.
+- Only 4 solved digit ads had OCR and none read well: OCR on digit tokens is the bottleneck. Digit-only words are lost by the token filter.
+- Candidates 7 Nov 1881, 9 Mar 1879, 27 Apr 1884, 5 Jun 1883 recorded. Novelty unconfirmed.
+

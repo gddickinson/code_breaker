@@ -121,3 +121,6 @@ Checked the 7 new flagged Le Figaro ads by eye: 3 readable, 1 partly read, 1 unr
 ## 2026-11-09: Round 21
 OCR fusion with a French letter HMM recovered 18 of 56 known ads, against 16 before. On unsolved ads it flagged 16, of which 3 are new; 2 of those are candidates after checking scans (7 Oct 1881 and 11 Sep 1894), and one is a plain heading. The letter-digit solver passed 40 of 40 planted controls but read no real ad among 467, so that family stays open. A spot check found 3 of 4 letter-digit ads are real mixed-symbol ciphers. AIM and irregular transpositions moved to Round 22.
 
+## 2026-11-09: Round 22
+A dictionary beam search over word breaks solved 29 of 30 planted letter-digit ads at 30 letters. Recovered 32 documented digit tables that the parser had been dropping. A key fitted from one ad matched documented table 2119 on 13 of 16 shared symbols. Four new candidates are recorded after checking scans. Held-out key fitting was weak and is reported as such. AIM and irregular transpositions moved to Round 23.
+

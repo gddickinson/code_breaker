@@ -1,0 +1,34 @@
+{
+ "1876_18760206-bonjour.jpg": {
+  "words": "L5N83 92N2C M1A83 L3A2 9C5 M1 D3 J2 613B2 C2 7H1AM",
+  "note": "Read by eye from the scan; 3 in D3 and L3A2 is unclear."
+ },
+ "1876_18760915-2S.jpg": {
+  "words": "LL2EPBL3P E2L3A2 EL2 SN2 CGLPS BEGN",
+  "note": "Read by eye from the scan."
+ },
+ "1876_18761220-24J.jpg": {
+  "words": "EPA2GE ULGE3RET E4LPA2ER",
+  "note": "Read by eye from the scan; plain French follows."
+ },
+ "1884_18840109-N.jpg": {
+  "words": "RCOG DC6H FM 6J6C GRPE 4R5CAT FRR O7F6 FR H5E6 ORJ6 467COG H5 FEG BER271T06 E786C6E CRPT JR5C",
+  "note": "Read by eye from the scan; frr, h5e6 and e786c6e are uncertain."
+ },
+ "1883_18830605-7.jpg": {
+  "words": "TP5T T5 87PJ MP8 6TB6E75T F7CF FP JR5T E5J7PL AP6E5T 06 J5F6 J56CT T6E5RCT T5 M6PE6PL FRC 87E5",
+  "note": "Read by eye from the scan. Seed for the shared-key fit."
+ },
+ "1881_18811107.jpg": {
+  "words": "329S 729KMB80 VMB30M7 6487M07 1X 2KKB",
+  "note": "Read by eye from the scan; signature 74 follows. Table 2402, whose listed users include 74."
+ },
+ "1879_18790309b.jpg": {
+  "words": "7M048 G4087 HM938 3M9S 1 38S 4KMZ 1M0M",
+  "note": "Read by eye from the scan; table 2402."
+ },
+ "1884_18840427-H.jpg": {
+  "words": "T5 AE J546 T7CT FR5 86E35 46J5C B6CT66 25006",
+  "note": "Read by eye from the scan; table 2119 extended with R=O, A=G."
+ }
+}

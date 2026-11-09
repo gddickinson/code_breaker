@@ -1,0 +1,331 @@
+{
+ "id": "figaro_digit_family",
+ "planted": [
+  {
+   "train": 40,
+   "family_in_train": 8,
+   "test": 40,
+   "members": 8,
+   "null_members": 0,
+   "null_max": 0.135,
+   "family_total": 20,
+   "key_correct": 22,
+   "key_size": 24
+  },
+  {
+   "train": 40,
+   "family_in_train": 0,
+   "test": 40,
+   "members": 0,
+   "null_members": 0,
+   "null_max": 0.135,
+   "family_total": 20,
+   "key_correct": 15,
+   "key_size": 16
+  },
+  {
+   "train": 40,
+   "family_in_train": 8,
+   "test": 40,
+   "members": 11,
+   "null_members": 0,
+   "null_max": 0.083,
+   "family_total": 20,
+   "key_correct": 22,
+   "key_size": 24
+  },
+  {
+   "train": 40,
+   "family_in_train": 9,
+   "test": 40,
+   "members": 11,
+   "null_members": 0,
+   "null_max": 0.114,
+   "family_total": 20,
+   "key_correct": 24,
+   "key_size": 24
+  },
+  {
+   "train": 40,
+   "family_in_train": 11,
+   "test": 40,
+   "members": 8,
+   "null_members": 0,
+   "null_max": 0.135,
+   "family_total": 20,
+   "key_correct": 24,
+   "key_size": 24
+  },
+  {
+   "train": 40,
+   "family_in_train": 6,
+   "test": 40,
+   "members": 9,
+   "null_members": 0,
+   "null_max": 0.143,
+   "family_total": 20,
+   "key_correct": 24,
+   "key_size": 25
+  }
+ ],
+ "heldout": [
+  {
+   "train": 179,
+   "family_in_train": 4,
+   "test": 179,
+   "members": 0,
+   "null_members": 0,
+   "null_max": 0.2
+  },
+  {
+   "train": 179,
+   "family_in_train": 2,
+   "test": 179,
+   "members": 0,
+   "null_members": 0,
+   "null_max": 0.194
+  },
+  {
+   "train": 179,
+   "family_in_train": 3,
+   "test": 179,
+   "members": 0,
+   "null_members": 0,
+   "null_max": 0.207
+  },
+  {
+   "train": 179,
+   "family_in_train": 2,
+   "test": 179,
+   "members": 1,
+   "null_members": 0,
+   "null_max": 0.188
+  },
+  {
+   "train": 179,
+   "family_in_train": 4,
+   "test": 179,
+   "members": 0,
+   "null_members": 0,
+   "null_max": 0.207
+  }
+ ],
+ "tested": 359,
+ "key": {
+  "0": "E",
+  "2": "F",
+  "3": "C",
+  "4": "S",
+  "5": "I",
+  "6": "E",
+  "7": "A",
+  "8": "M",
+  "B": "P",
+  "C": "N",
+  "E": "R",
+  "F": "T",
+  "J": "V",
+  "L": "X",
+  "M": "H",
+  "N": "S",
+  "P": "U",
+  "R": "O",
+  "T": "S"
+ },
+ "members": [
+  {
+   "image": "1883_18830605-7.jpg",
+   "text": "TP5T T5 87PJ 6TB6E75T F7CF FP E5J7PL MP8 JR5T J5F6 J56CT T6E5RCT T5 M6PE6PL AP6E5T FRC 87E5",
+   "read": 0.787,
+   "null": 0.0,
+   "words": [
+    "SUIS",
+    "SI",
+    "MAUV",
+    "ESPERAIS",
+    "TANT",
+    "TU",
+    "RIVAUX",
+    "HUM",
+    "VOIS",
+    "VITE",
+    "VIENS",
+    "SERIONS",
+    "SI",
+    "HEUREUX",
+    ".UERIS",
+    "TON",
+    "MARI"
+   ]
+  },
+  {
+   "image": "1884_18840112-E.jpg",
+   "text": "86E35 B6F MR880 B7T JE75 875T F56CT B7T",
+   "read": 0.906,
+   "null": 0.0,
+   "words": [
+    "MERCI",
+    "PET",
+    "HOMME",
+    "PAS",
+    "VRAI",
+    "MAIS",
+    "TIENS",
+    "PAS"
+   ]
+  },
+  {
+   "image": "1884_18840306-O.jpg",
+   "text": "M56E 6F6 378B7A 86E6 B6CT6 FR5 B7EF56 46N F74R",
+   "read": 0.737,
+   "null": 0.0,
+   "words": [
+    "HIER",
+    "ETE",
+    "CAMPA.",
+    "MERE",
+    "PENSE",
+    "TOI",
+    "PARTIE",
+    "SES",
+    "TASO"
+   ]
+  },
+  {
+   "image": "1884_18840312-N.jpg",
+   "text": "275T FR5 3M7CF6E B7EF 875T 071T6C36 B7E",
+   "read": 0.758,
+   "null": 0.0,
+   "words": [
+    "FAIS",
+    "TOI",
+    "CHANTER",
+    "PART",
+    "MAIS",
+    "EA.SENCE",
+    "PAR"
+   ]
+  },
+  {
+   "image": "1885_18850618-A.jpg",
+   "text": "T75T E56C 8P6 B7E FR5 F68IE FRPF 3R6PE 0RJ",
+   "read": 0.765,
+   "null": 0.0,
+   "words": [
+    "SAIS",
+    "RIEN",
+    "MUE",
+    "PAR",
+    "TOI",
+    "TEM.R",
+    "TOUT",
+    "COEUR",
+    "EOV"
+   ]
+  },
+  {
+   "image": "1887_18870120-8.jpg",
+   "text": "8RIM T5 B7T E54 B6F EP6 RP 3RCF5CP6",
+   "read": 0.75,
+   "null": 0.0,
+   "words": [
+    "MO.H",
+    "SI",
+    "PAS",
+    "RIS",
+    "PET",
+    "RUE",
+    "OU",
+    "CONTINUE"
+   ]
+  }
+ ],
+ "digit_tables": [
+  {
+   "table": "2402",
+   "name": "47",
+   "image": "1881_18811107.jpg",
+   "read": 0.812,
+   "null": 0.062,
+   "author": false,
+   "words": [
+    "DOUX",
+    "SOUVENIR",
+    "TENDRES",
+    "BAISERS",
+    "MY",
+    "OVVN"
+   ]
+  },
+  {
+   "table": "2119",
+   "name": "42",
+   "image": "1884_18840112-E.jpg",
+   "read": 0.75,
+   "null": 0.0,
+   "author": false,
+   "words": [
+    "MERCI",
+    "PET",
+    "H.MML",
+    "PAS",
+    "VRAI",
+    "MAIS",
+    "TIENS",
+    "PAS"
+   ]
+  },
+  {
+   "table": "2119",
+   "name": "42",
+   "image": "1884_18840427-H.jpg",
+   "read": 0.677,
+   "null": 0.0,
+   "author": false,
+   "words": [
+    "SI",
+    ".R",
+    "VIDE",
+    "SANS",
+    "T..",
+    "MERCI",
+    "DEVIN",
+    "PENSEE"
+   ]
+  },
+  {
+   "table": "2119",
+   "name": "42",
+   "image": "1884_18840312-N.jpg",
+   "read": 0.667,
+   "null": 0.0,
+   "author": false,
+   "words": [
+    "FAIS",
+    "T.I",
+    "CHANTER",
+    "PART",
+    "MAIS",
+    "LAXSENCE",
+    "PAR"
+   ]
+  },
+  {
+   "table": "2402",
+   "name": "47",
+   "image": "1879_18790309b.jpg",
+   "read": 0.667,
+   "null": 0.0,
+   "author": false,
+   "words": [
+    "SERAI",
+    "PARISJEUDI",
+    "DEUX",
+    "DIX",
+    "AVEC",
+    "MERE"
+   ]
+  }
+ ],
+ "n_tables": 32
+}
