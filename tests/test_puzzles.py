@@ -71,3 +71,14 @@ def test_lights_out_chase_table_solves_boards():
     r = node(f"""const T={json.dumps(tab)};const chase=g=>{{for(let y=1;y<5;y++)for(let x=0;x<5;x++)if(g[(y-1)*5+x])g=P.lightsApply(g,5,y*5+x);return g}};
     let ok=0;for(let t=0;t<200;t++){{let g=Array(25).fill(0);for(let i=0;i<25;i++)if(R()<0.5)g=P.lightsApply(g,5,i);g=chase(g);const row=g.slice(20).join('');if(row!=='00000'){{[...T[row]].forEach((v,i)=>{{if(v==='1')g=P.lightsApply(g,5,i)}});g=chase(g)}}if(g.every(v=>!v))ok++}}console.log(JSON.stringify(ok))""")
     assert r == 200
+
+
+def test_every_guide_step_has_a_diagram():
+    data = json.loads(ENGINE.with_name("tutorials.json").read_text())
+    p = ENGINE.with_name("guide_diagrams.js")
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    out = json.loads(subprocess.run(["node", "-e", f"const P=require({json.dumps(str(ENGINE))});global.lightsApply=P.lightsApply;const D=require({json.dumps(str(p))}).diagramsFor();console.log(JSON.stringify(Object.fromEntries(Object.entries(D).map(([k,v])=>[k,v.map(x=>x.includes('undefined'))]))))"], capture_output=True, text=True, check=True).stdout)
+    for t in data:
+        assert len(out[t["id"]]) == len(t["steps"]), t["id"]
+        assert not any(out[t["id"]]), t["id"]

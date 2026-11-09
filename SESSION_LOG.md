@@ -108,3 +108,6 @@ Added camera and photo reading for the cube and sudoku, Codes in Nature with a g
 
 ## 2026-11-09: Round 19 complete
 Period detection from repeated pairs found all 6 planted transpositions, and 5 were solved at 93-99%. None of the 84 AZdecrypt combined benchmark ciphers reached readable coverage. The bigram solver failed its control (4-16%) at every setting tried, so it is parked. Next: Round 20.
+
+## 2026-11-09: Guide illustrations (user request)
+Every step of all 10 Learn to Solve guides now has a code-drawn illustration: isometric cube stages, worked sudoku examples, computed Lights Out boards, and diagrams for the other puzzles and ciphers.

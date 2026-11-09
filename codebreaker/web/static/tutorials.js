@@ -13,9 +13,10 @@ route(/^\/learn\/(\w+)$/, async id => {
   const t = g[i], prev = g[i - 1], next = g[i + 1];
   let done = {}; try { done = JSON.parse(localStorage.getItem("guide-" + id) || "{}"); } catch { done = {}; }
   const save = () => { try { localStorage.setItem("guide-" + id, JSON.stringify(done)); } catch { /* optional progress only */ } };
+  const pics = diagramsFor()[id] || [];
   const algs = s => s ? `<div class="algs">${s.split("|").map(a => `<code>${esc(a)}</code>${t.id === "cube" ? `<a href="#/puzzles/cube" data-alg="${esc(a)}">Try it</a>` : ""}`).join("")}</div>` : "";
   view().innerHTML = `<a href="#/learn">← All guides</a><h1>${esc(t.title)}</h1><p class="lead">${esc(t.lead)}</p><p>${esc(t.intro)}</p>
-    <ol class="guide">${t.steps.map((s, n) => `<li class="${done[n] ? "done" : ""}"><div class="panel"><label class="stepchk"><input type="checkbox" class="check" data-n="${n}" ${done[n] ? "checked" : ""}> <h3>Step ${n + 1}: ${esc(s[0])}</h3></label><p>${esc(s[1])}</p>${algs(s[2])}</div></li>`).join("")}</ol>
+    <ol class="guide">${t.steps.map((s, n) => `<li class="${done[n] ? "done" : ""}"><div class="panel"><label class="stepchk"><input type="checkbox" class="check" data-n="${n}" ${done[n] ? "checked" : ""}> <h3>Step ${n + 1}: ${esc(s[0])}</h3></label>${pics[n] ? `<div class="gdfig">${pics[n]}</div>` : ""}<p>${esc(s[1])}</p>${algs(s[2])}</div></li>`).join("")}</ol>
     ${t.table ? table(t.table[0], t.table.slice(1)) : ""}
     <div class="verdict">${esc(t.tip)}</div><p><a class="cta" href="${esc(t.puzzle)}">Practise now</a></p>
     <nav class="eventnav">${prev ? `<a href="#/learn/${esc(prev.id)}">← ${esc(prev.title)}</a>` : "<span></span>"}${next ? `<a href="#/learn/${esc(next.id)}">${esc(next.title)} →</a>` : ""}</nav>`;
