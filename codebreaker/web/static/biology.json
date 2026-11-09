@@ -89,5 +89,119 @@
 "group": "Birdsong",
 "title": "Identifying the singer",
 "text": "BirdNET, a neural network from the Cornell Lab of Ornithology and Chemnitz University of Technology, names species from 3-second clips. It is very good but not a judge: on our five reference recordings it ranked the right species first every time, yet runner-up species often scored above 0.6. Treat it as a list of candidates, confirmed by the spectrogram and by where the recording was made."
+},
+{
+"group": "Chemical messages",
+"title": "Pheromones: messages made of molecules",
+"text": "Adolf Butenandt identified the first pheromone, bombykol from the silk moth, in 1959 after processing hundreds of thousands of moths. A male's antennae can respond to tiny amounts drifting downwind. Many moth species use blends of two or three compounds, and males respond best to their own species' ratio.",
+"encoding": "Which molecules are present and in what ratio: a species-specific key."
+},
+{
+"group": "Chemical messages",
+"title": "Ant trails that forget",
+"text": "Foraging ants lay trail pheromone on the way back from food, and other ants follow and reinforce it. The chemical evaporates, so trails to exhausted sources fade without anyone deciding to stop. The same idea, reinforcement plus decay, inspired ant colony optimisation algorithms in the early 1990s.",
+"encoding": "Concentration along a path, which rises with use and decays with time."
+},
+{
+"group": "Chemical messages",
+"title": "Plants calling for bodyguards",
+"text": "Maize attacked by caterpillars releases a blend of volatile chemicals that attracts parasitic wasps, which lay eggs in the caterpillars. Turlings, Tumlinson and Lewis reported this in 1990. The blend differs from the response to simple mechanical damage, so it carries information about the attacker.",
+"encoding": "A changed mixture of airborne compounds, triggered by chemicals in the caterpillar's saliva."
+},
+{
+"group": "Chemical messages",
+"title": "Bacteria that compare now with then",
+"text": "An E. coli cell cannot sense a gradient across its tiny body. Instead it swims, compares the current concentration of food with what it sensed a few seconds earlier, and tumbles less often when things are improving. The short-term memory is stored chemically, in methyl groups added to its receptors.",
+"encoding": "A difference over time, held as a chemical memory on the receptors."
+},
+{
+"group": "Chemical messages",
+"title": "The disputed wood wide web",
+"text": "Fungal threads connect the roots of many plants, and popular accounts describe trees warning and feeding one another through them. A 2023 review by Karst, Jones and Hoeksema found that the field evidence for these claims is much weaker than often stated. The network is real; what flows through it, and whether it carries messages, is still debated.",
+"encoding": "Unknown: this is an open question, not an established code."
+},
+{
+"group": "Light and colour",
+"title": "Firefly flash codes",
+"text": "Each firefly species has its own pattern of flashes: their length, the gaps between them, and the delay before a female answers. Males and females identify each other by timing, much like Morse code. That is what lets Photuris females forge another species' reply.",
+"encoding": "Timing: flash length, interval and response delay."
+},
+{
+"group": "Light and colour",
+"title": "Skin that displays patterns",
+"text": "Cuttlefish, squid and octopuses change their skin within a fraction of a second using thousands of colour-filled sacs, the chromatophores, each opened by muscles under direct nervous control. Cuttlefish can send dark bands rippling across the body, the 'passing cloud' display. Most cephalopods appear to have only one type of visual pigment, so how they match colours remains a puzzle.",
+"encoding": "Spatial patterns and moving waves across the skin, switched by nerves."
+},
+{
+"group": "Light and colour",
+"title": "Warning colours as a shared standard",
+"text": "Toxic animals often advertise with bold colours, and predators learn to avoid them. When several toxic species share the same pattern, as in some Heliconius butterflies, each pays less of the cost of teaching predators. Fritz Müller described this in 1878. It is a shared standard, unlike the forged warnings of harmless mimics.",
+"encoding": "A conspicuous pattern whose meaning predators learn from experience."
+},
+{
+"group": "Sound and vibration",
+"title": "Alarm calls that name the predator",
+"text": "Vervet monkeys give different alarm calls for leopards, eagles and snakes. In playback experiments, Seyfarth, Cheney and Marler (1980) found that monkeys hearing a recorded call responded as if to that predator, running into trees, looking up or looking down. The calls behave like words for categories.",
+"encoding": "Discrete call types, each mapped to a kind of predator."
+},
+{
+"group": "Sound and vibration",
+"title": "Dolphins' names",
+"text": "Bottlenose dolphins develop a signature whistle with a distinctive pattern of rising and falling pitch. Janik, Sayigh and Wells reported in 2006 that dolphins respond to the whistle's contour even when the caller's voice is removed by synthesis, so the identity lies in the pattern, like a name.",
+"encoding": "The shape of a whistle's pitch over time, independent of the voice."
+},
+{
+"group": "Sound and vibration",
+"title": "Whale song that spreads",
+"text": "Payne and McVay showed in 1971 that humpback whales sing long songs built from units, phrases and repeated themes. Garland and colleagues reported in 2011 that new songs spread eastward across South Pacific populations over several years, a cultural change moving through an ocean.",
+"encoding": "A hierarchy of units, phrases and themes, learned and copied."
+},
+{
+"group": "Sound and vibration",
+"title": "Bat sonar and moths that jam it",
+"text": "Bats locate prey from echoes: the delay gives distance, and in horseshoe bats the Doppler shift gives relative speed, which they correct for by adjusting their call frequency. Some tiger moths fight back: Corcoran, Barber and Conner reported in 2009 that Bertholdia trigona produces ultrasonic clicks that jam bat sonar.",
+"encoding": "Echo delay for distance and frequency shift for speed; the moth's clicks add noise to the channel."
+},
+{
+"group": "Sound and vibration",
+"title": "Messages through stems and leaves",
+"text": "Many insects, including treehoppers, communicate by vibrating the plant they stand on. These signals are nearly silent through the air, so they form a channel that predators and people easily miss. Rex Cocroft and others recorded them with laser vibrometers.",
+"encoding": "Patterns of vibration travelling through the plant."
+},
+{
+"group": "Sound and vibration",
+"title": "Rumbles below hearing",
+"text": "Elephants make low rumbles that reach below the range of human hearing and can carry for kilometres. Caitlin O'Connell-Rodwell and colleagues have proposed that elephants also detect the vibrations these calls send through the ground, possibly through their feet.",
+"encoding": "Low frequencies, which lose less energy over distance."
+},
+{
+"group": "Electric signals",
+"title": "Fish that broadcast on their own channel",
+"text": "Weakly electric fish sense their surroundings with an electric field and also communicate with it. Each discharge has a species-typical waveform and frequency. When two Eigenmannia with similar frequencies meet, each shifts its frequency away from the other's, the jamming avoidance response, much as radios keep to separate channels.",
+"encoding": "Discharge waveform and frequency, adjusted to avoid interference."
+},
+{
+"group": "Electric signals",
+"title": "Maps inside the brain",
+"text": "Edgar Adrian found in the 1920s that a sensory nerve signals stronger stimuli by firing more often: a rate code. Later, John O'Keefe found place cells (1971) that fire when an animal is at a particular spot, and May-Britt and Edvard Moser found grid cells (2005) that fire on a hexagonal lattice across space. The three shared the 2014 Nobel Prize.",
+"encoding": "Firing rate for intensity; which cells fire, and when, for position."
+},
+{
+"group": "Honest signals and trust",
+"title": "Signals that are costly to fake",
+"text": "Amotz Zahavi argued in 1975 that some signals are honest because they are costly, like a peacock's tail that only a fit male can afford. Alan Grafen gave the idea a formal model in 1990, and how widely it applies is still argued. The logic resembles proof of work: a message is believable when producing it is expensive.",
+"encoding": "Cost: only a sender of high quality can afford the signal."
+},
+{
+"group": "Honest signals and trust",
+"title": "Marking your own DNA",
+"text": "Many bacteria cut foreign DNA with restriction enzymes at particular short sequences. Their own DNA carries methyl marks at those same sites, which protect it. This works like an access list: unmarked DNA, such as an invading virus's, is treated as hostile.",
+"encoding": "Chemical marks at specific sequences that distinguish self from foreign."
+},
+{
+"group": "Honest signals and trust",
+"title": "Showing the inside on the outside",
+"text": "Most cells of the body display fragments of the proteins they are making on molecules called MHC. Patrolling T cells inspect these fragments, and a cell showing foreign fragments, for example from a virus, can be destroyed. It is a continuous audit of each cell's contents.",
+"encoding": "Short protein fragments presented at the cell surface for inspection."
 }
 ]

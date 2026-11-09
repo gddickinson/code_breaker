@@ -179,3 +179,6 @@ Added a Sound Lab and a Birdsong group in Codes in Nature. From the user's bird_
 ## 2026-11-09: Round 31
 Added a Logic Analyser (Tools): UART, SPI, I2C, CAN and 1-Wire decoders on sampled wires, with baud, parity, polarity, SPI mode, CAN bit rate and wiring found automatically and every decoder ranked by how strongly its checks pass. The control of 50 generated captures with glitches, and a fresh set of 50, both decode protocol and bytes 50 of 50. CSV exports from sigrok or Saleae can be opened. USB moved to Round 31b.
 
+## 2026-11-09: Codes in Nature expansion (user request)
+Added 19 entries in five new groups (chemical messages, light and colour, sound and vibration, electric signals, honest signals and trust), each with a line on how the information is encoded, and a table comparing channels by speed, range, strengths and weaknesses. Contested claims, such as trees signalling through fungal networks, are marked as disputed.
+

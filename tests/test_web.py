@@ -225,3 +225,12 @@ def test_page_scripts_do_not_redeclare_globals():
                 seen[m.group(1)].add(f.name)
     clashes = {k: v for k, v in seen.items() if len(v) > 1}
     assert not clashes, clashes
+
+
+def test_codes_in_nature_covers_every_channel():
+    d = json.loads((Path(__file__).resolve().parent.parent / "codebreaker/web/static/biology.json").read_text())
+    groups = {x["group"] for x in d}
+    assert {"Chemical messages", "Light and colour", "Sound and vibration", "Electric signals", "Honest signals and trust", "Birdsong"} <= groups
+    newer = [x for x in d if x["group"] in ("Chemical messages", "Light and colour", "Sound and vibration", "Electric signals", "Honest signals and trust")]
+    assert len(newer) >= 15 and all(x.get("encoding") for x in newer)
+    assert len({x["title"] for x in d}) == len(d)
