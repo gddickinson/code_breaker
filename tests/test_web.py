@@ -67,3 +67,11 @@ def test_history_links_all_resolve():
                 assert kind[1] in machines, href
             else:
                 assert kind[0] in ("", "machines", "workbench"), href
+
+
+def test_latin_translation_when_model_is_available():
+    from codebreaker.translate import latin_to_english
+
+    out = latin_to_english("Gallia est omnis divisa in partes tres.")
+    if out is not None:
+        assert "part" in out.lower()

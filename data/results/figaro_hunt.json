@@ -1,0 +1,243 @@
+{
+ "id": "figaro_hunt",
+ "images": 1257,
+ "usable_ocr": 73,
+ "tested": 73,
+ "control": {
+  "sampled": 60,
+  "ocr_long_enough": 36,
+  "median_match": 0.226,
+  "read_ok": 1,
+  "flagged": 1
+ },
+ "control_rows": [
+  {
+   "image": "1889/18890816-PROPHETE.jpg",
+   "ocr_letters": 163,
+   "truth_letters": 173,
+   "coverage": 0.227,
+   "null": 0.054,
+   "match": 0.738,
+   "positional": 0.185
+  },
+  {
+   "image": "1894/18941017-TR.jpg",
+   "ocr_letters": 54,
+   "truth_letters": 134,
+   "coverage": 0.074,
+   "null": 0.171,
+   "match": 0.17,
+   "positional": 0.022
+  },
+  {
+   "image": "1894/18940329-TR.jpg",
+   "ocr_letters": 111,
+   "truth_letters": 263,
+   "coverage": 0.135,
+   "null": 0.09,
+   "match": 0.198,
+   "positional": 0.03
+  },
+  {
+   "image": "1881/18810621-PAV.jpg",
+   "ocr_letters": 84,
+   "truth_letters": 102,
+   "coverage": 0.155,
+   "null": 0.074,
+   "match": 0.366,
+   "positional": 0.059
+  },
+  {
+   "image": "1894/18941211-TR.jpg",
+   "ocr_letters": 166,
+   "truth_letters": 242,
+   "coverage": 0.139,
+   "null": 0.057,
+   "match": 0.348,
+   "positional": 0.095
+  },
+  {
+   "image": "1893/18931003-TR.jpg",
+   "ocr_letters": 103,
+   "truth_letters": 209,
+   "coverage": 0.223,
+   "null": 0.131,
+   "match": 0.224,
+   "positional": 0.014
+  },
+  {
+   "image": "1895/18950314-TR.jpg",
+   "ocr_letters": 79,
+   "truth_letters": 178,
+   "coverage": 0.203,
+   "null": 0.123,
+   "match": 0.078,
+   "positional": 0.034
+  },
+  {
+   "image": "1897/18971231-Jean.jpg",
+   "ocr_letters": 64,
+   "truth_letters": 103,
+   "coverage": 0.203,
+   "null": 0.137,
+   "match": 0.359,
+   "positional": 0.019
+  },
+  {
+   "image": "1893/18930914-TR.jpg",
+   "ocr_letters": 83,
+   "truth_letters": 325,
+   "coverage": 0.169,
+   "null": 0.102,
+   "match": 0.181,
+   "positional": 0.009
+  },
+  {
+   "image": "1894/18940412-TR.jpg",
+   "ocr_letters": 105,
+   "truth_letters": 158,
+   "coverage": 0.2,
+   "null": 0.119,
+   "match": 0.213,
+   "positional": 0.044
+  },
+  {
+   "image": "1889/18890811-ROMEO.jpg",
+   "ocr_letters": 137,
+   "truth_letters": 253,
+   "coverage": 0.153,
+   "null": 0.108,
+   "match": 0.318,
+   "positional": 0.032
+  },
+  {
+   "image": "1885/18850918-ArH.jpg",
+   "ocr_letters": 74,
+   "truth_letters": 176,
+   "coverage": 0.77,
+   "null": 0.108,
+   "match": 0.528,
+   "positional": 0.034
+  },
+  {
+   "image": "1896/18960802-Al.jpg",
+   "ocr_letters": 63,
+   "truth_letters": 138,
+   "coverage": 0.46,
+   "null": 0.131,
+   "match": 0.448,
+   "positional": 0.036
+  },
+  {
+   "image": "1893/18930916-TR.jpg",
+   "ocr_letters": 78,
+   "truth_letters": 215,
+   "coverage": 0.269,
+   "null": 0.09,
+   "match": 0.232,
+   "positional": 0.014
+  },
+  {
+   "image": "1894/18940318-TR.jpg",
+   "ocr_letters": 105,
+   "truth_letters": 160,
+   "coverage": 0.152,
+   "null": 0.123,
+   "match": 0.189,
+   "positional": 0.056
+  }
+ ],
+ "flagged": [
+  {
+   "name": "1876_18760528-perroquet.jpg",
+   "direction": "forward",
+   "plaintext": "ELEVELEMENSONGEALAHAUTEURDUNCRIMEVOTREVICTIMEMAINTENANTDANSLADESOLATIONVOILAVOTREQUAESSAYERDUNREMEDEPROMPTEMENTEFFICACESURTOUT",
+   "score": -3.963,
+   "coverage": 0.873,
+   "letters": 126,
+   "null_coverage": 0.048,
+   "reading": "ELEVE LE MENSONGE A LA HAUTEUR D UN CRIME VOTRE VICTIME MAINTENANT DANS LA DESOLATION VOILA VOTRE QU A ESSAYER D UN REMEDE PROMPTEMENT EFFICACE SURTOUT"
+  },
+  {
+   "name": "1895_18950814-FL.jpg",
+   "direction": "forward",
+   "plaintext": "PASALLERENREVENIRAPRESADRESSEQUEDECIDERAIENALLANTECRIRE",
+   "score": -3.806,
+   "coverage": 0.818,
+   "letters": 55,
+   "null_coverage": 0.168,
+   "reading": "PAS ALLER EN REVENIR APRES ADRESSE QUE DECIDERAI EN ALLANT ECRIRE"
+  },
+  {
+   "name": "1889_18890408-Psee.jpg",
+   "direction": "forward",
+   "plaintext": "TERMINEECONTINUATIONABSOLUMENTIMPOSSIBLEAUPOINTDEQUENILARGENT",
+   "score": -4.014,
+   "coverage": 0.787,
+   "letters": 61,
+   "null_coverage": 0.184,
+   "reading": "TERMINEE CONTINUAT I ON ABSOLUMENT IMPOSSIBLE AU POINT DE QU EN IL ARGENT"
+  },
+  {
+   "name": "1896_18960715.jpg",
+   "direction": "forward",
+   "plaintext": "TOUTVOUSATTENDSTOUDESRECONNAISSANTDEPOURSOUETCOMMENTENVOYERANNALESAIMEES",
+   "score": -3.814,
+   "coverage": 0.708,
+   "letters": 72,
+   "null_coverage": 0.122,
+   "reading": "TOUT VOUS ATTENDS T OU DES RECONNAISSANT DE POUR S OU ET COMMENT ENVOYER A N N A LES AIMEE S"
+  },
+  {
+   "name": "1889_18890129-MIG.jpg",
+   "direction": "forward",
+   "plaintext": "PRIGTROMPEJECROISMAISCORRESPONDSCOMMEPRIXDAVANCEENVOYERSEULEMENTAJOURNALLIGNESAINSERERPRECEDEESAINSIPAROUIOUSCRUVOIRCONTINUERCEMODEDE",
+   "score": -4.237,
+   "coverage": 0.692,
+   "letters": 133,
+   "null_coverage": 0.116,
+   "reading": "PRIG TROMPE JE CROIS MAIS COR RE S P ON D S COMME PRIX D AVANCE ENVOYER SEULEMENT A JOURNAL LIGNE SAINS ER ER PRECEDE ES AINSI PAR OUI OU S CRU VOIR CONTINUER CE MODE DE"
+  },
+  {
+   "name": "1875_18750912-Volte.jpg",
+   "direction": "forward",
+   "plaintext": "NOIXTRENTERAISINSDIXABRICOTSONZEFIACREUNECAMIONUNEDEDEMENAGEMENTSETTONCOEURVOILAMONOPINIONSICETTEFOISONCOMPRENDQUELQUECHOSEJERENONCEATECRIREPARRLAVOIEDELAPRESSE",
+   "score": -4.243,
+   "coverage": 0.594,
+   "letters": 160,
+   "null_coverage": 0.076,
+   "reading": "NOIX TRENTE RAISINSDIXABRICOTS ONZE FIA C RE UNE C AMI ON UNE DE DEMENAGEMENT S ET TON COEUR VOILA MON OPINION SI CETTE FOIS ON COMPREND QUELQUE CHOSE JE RENONCE A T ECRIRE PAR R LA VOIE DE LA PRESSE"
+  },
+  {
+   "name": "1879_18790819-CHARLES.jpg",
+   "direction": "forward",
+   "plaintext": "JETATTENDSDEPUISJOURSTRAINSEPTUQUINCELATIMIBIENSILLEDHESOIN",
+   "score": -4.295,
+   "coverage": 0.593,
+   "letters": 59,
+   "null_coverage": 0.165,
+   "reading": "J ET ATTENDS DEPUIS JOURS TRAIN SEPT UQUINCELATIMI BIEN S IL LE D HE SOIN"
+  },
+  {
+   "name": "1896_18960811b-V.jpg",
+   "direction": "reversed",
+   "plaintext": "TEFAISPOURIAANECONGEMAISETAISEFRMEFRADETRADEAVILEAOSJECIEURADELAISORT",
+   "score": -4.359,
+   "coverage": 0.551,
+   "letters": 69,
+   "null_coverage": 0.108,
+   "reading": "TE FAIS POUR I A A NE CONGE MAIS ETAIS EFRMEFRAD ET RADE A VILE A OS JE CI EU RADE L AI SORT"
+  },
+  {
+   "name": "1896_18961106-KP.jpg",
+   "direction": "forward",
+   "plaintext": "IVOILALONGTEMPJENAIRECUDEMOTMEPROUVANTQUETUMAIMEETPENSETOUJOURAMOIDEFORCESTDETENDRESSTUESMONSOUCIMAJOIEJEVAISPRENSERBIENMONCOEURQUI",
+   "score": -4.174,
+   "coverage": 0.55,
+   "letters": 131,
+   "null_coverage": 0.107,
+   "reading": "I VOILA LONG TE M P JE N AI RECU DE MOT M EPROUVA N T QUE TU M AIME ET PENSE T OU JOUR A MOI DE FORCES T DE TENDRES S TUES MON SOUCI MA JOIE JE VAIS PRE N SE R BIEN MON COEUR QUI"
+  }
+ ],
+ "runtime_s": 722.1
+}

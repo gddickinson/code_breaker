@@ -1,0 +1,3 @@
+{"test": "Caesar, De Bello Gallico, Book I, first 18 chapters, word-overlap F1 against McDevitte and Bohn's English",
+ "Helsinki-NLP/opus-mt-mul-en": {"same_chapter": 0.418, "wrong_chapter": 0.285},
+ "Kankanaghosh/latin_english_translation_model": {"same_chapter": 0.255, "wrong_chapter": 0.23, "note": "degenerates into repeated phrases"}}

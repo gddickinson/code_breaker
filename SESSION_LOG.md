@@ -77,3 +77,6 @@ Benchmark on 170 solved ciphers at the strict 55% coverage line: substitution 4 
 
 ## 2026-11-09: Help page and history timeline (user request)
 Added a Help page with an app guide, how to read verdicts and a 37-term glossary, and a 37-event History timeline with a page for each event linking to its ciphers, machines and case files. A test checks every internal link. Le Figaro: the user approved querying the database; index done (4,054 ads, 1,257 unsolved), images downloading; our 1896 ad was already solved there, so it is a re-solve and not a discovery.
+
+## 2026-11-09: Latin translation (user request)
+Integrated Helsinki-NLP/opus-mt-mul-en for Latin. Scored on Caesar Book I, first 18 chapters, against a published translation: word overlap 0.418 with the right chapter and 0.285 with a wrong one. A Latin-English community T5 scored 0.255 and 0.23 and repeats itself, so it was rejected. Output is labelled a rough draft.

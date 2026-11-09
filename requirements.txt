@@ -7,7 +7,12 @@ numpy==2.5.4
 pycryptodome==4.4.0
 pypdf==7.0.0
 pytest==9.2.0
+rapidocr-onnxruntime==1.4.4
+sacremoses==0.1.1
+safetensors==0.8.0
 scikit-learn==1.9.1
+sentencepiece==0.2.3
 sympy==1.14.0
 torch==2.15.0
+transformers==5.22.2
 uvicorn==0.54.0

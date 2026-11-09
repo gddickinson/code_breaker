@@ -8,3 +8,9 @@ for code in ("fr", "de", "it", "es"):
         p = next(x for x in index if x.from_code == a and x.to_code == b)
         pkg.install_from_path(p.download())
         print("installed", a, b, flush=True)
+
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
+
+AutoTokenizer.from_pretrained("Helsinki-NLP/opus-mt-mul-en")
+AutoModelForSeq2SeqLM.from_pretrained("Helsinki-NLP/opus-mt-mul-en")
+print("installed Latin via Helsinki-NLP/opus-mt-mul-en", flush=True)

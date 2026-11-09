@@ -10,7 +10,7 @@
 | `kernels.py` | Numba loops | `quad_score`, `anneal_mapping`, `climb_columnar`, `anneal_playfair`, `book_offset_scan`, `enigma_run`, `enigma_scan` |
 | `analysis.py` | IC, entropy, Kasiski, cipher-type guess | `report`, `identify`, `ic` |
 | `segment.py` | Restores word breaks | `segment` |
-| `translate.py` | Offline translation via Argos (no Latin model) | `translate` |
+| `translate.py` | Offline translation via Argos; Latin via Helsinki opus-mt-mul-en, labelled a rough draft | `translate` |
 | `validation.py` | False-positive controls; three-gate verdict | `null_test`, `positive_control`, `coverage`, `verdict` |
 | `leads.py` / `litedb.py` | Leads database and its apsw wrapper (Anaconda's sqlite3 is broken here) | `connect`, `add_lead`, `add_avenue`, `summary` |
 | `attacks/bombe.py` | Crib-based plugboard Enigma attack | `attack`, `demo` |
