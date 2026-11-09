@@ -66,3 +66,17 @@ def test_tamam_mnemonic_control():
     from codebreaker.mysteries.tamam_mnemonic import control
 
     assert control()["success"]
+
+
+def test_liber_primus_known_pages_are_recovered():
+    from codebreaker.mysteries.liber_primus import best, pages, to_latin
+
+    p = pages()
+    assert "PARABLE" in to_latin(best(p[57])[2].tolist())
+    assert "DEEPWEB" in to_latin(best(p[56])[2].tolist())
+
+
+def test_voynich_generators_preserve_substitution_entropy():
+    from codebreaker.mysteries.voynich_generators import latin_words, measure, monoalpha
+
+    assert abs(measure(latin_words(4000, 1))["h2"] - measure(monoalpha(4000, 1))["h2"]) < 1e-6

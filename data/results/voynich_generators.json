@@ -1,0 +1,86 @@
+{
+ "id": "voynich_generators",
+ "target": {
+  "h1": 3.846,
+  "h2": 2.236,
+  "mean_word_length": 5.05,
+  "zipf_slope": -1.03,
+  "adjacent_word_repeat_rate": 0.009,
+  "vocab_ratio": 0.264
+ },
+ "split_half_distance": 0.37,
+ "words": 12000,
+ "rows": [
+  {
+   "model": "Character Markov chain (fitted)",
+   "distance": 1.15,
+   "h1": 3.862,
+   "h2": 2.41,
+   "mean_word_length": 4.953,
+   "zipf_slope": -0.903,
+   "adjacent_word_repeat_rate": 0.008,
+   "vocab_ratio": 0.381
+  },
+  {
+   "model": "Simple substitution of Latin",
+   "distance": 2.93,
+   "h1": 3.987,
+   "h2": 3.444,
+   "mean_word_length": 6.01,
+   "zipf_slope": -0.902,
+   "adjacent_word_repeat_rate": 0.0,
+   "vocab_ratio": 0.331
+  },
+  {
+   "model": "Plain Latin",
+   "distance": 2.93,
+   "h1": 3.987,
+   "h2": 3.444,
+   "mean_word_length": 6.01,
+   "zipf_slope": -0.902,
+   "adjacent_word_repeat_rate": 0.0,
+   "vocab_ratio": 0.331
+  },
+  {
+   "model": "Latin with vowels removed",
+   "distance": 3.14,
+   "h1": 3.618,
+   "h2": 3.414,
+   "mean_word_length": 3.3,
+   "zipf_slope": -0.981,
+   "adjacent_word_repeat_rate": 0.003,
+   "vocab_ratio": 0.244
+  },
+  {
+   "model": "Table and grille",
+   "distance": 3.25,
+   "h1": 3.847,
+   "h2": 2.931,
+   "mean_word_length": 5.697,
+   "zipf_slope": -0.78,
+   "adjacent_word_repeat_rate": 0.001,
+   "vocab_ratio": 0.573
+  },
+  {
+   "model": "Verbose cipher of Latin",
+   "distance": 4.21,
+   "h1": 3.745,
+   "h2": 2.433,
+   "mean_word_length": 8.99,
+   "zipf_slope": -0.904,
+   "adjacent_word_repeat_rate": 0.0,
+   "vocab_ratio": 0.326
+  },
+  {
+   "model": "Self-citation copying",
+   "distance": 6.3,
+   "h1": 3.8,
+   "h2": 3.747,
+   "mean_word_length": 8.72,
+   "zipf_slope": -0.444,
+   "adjacent_word_repeat_rate": 0.007,
+   "vocab_ratio": 0.574
+  }
+ ],
+ "runtime_s": 1.8
+}

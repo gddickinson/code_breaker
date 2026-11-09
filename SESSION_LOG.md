@@ -38,3 +38,6 @@ Beale forensics: neighbouring numbers correlate at 0.62 in B3 and 0.25 in B1, ag
 
 ## 2026-11-09: Round 4 complete
 K4: 58.9M two-layer settings, 0 survivors; autokey and Hill excluded; control found. Tamam Shud mnemonic search of six books found nothing. Next: Round 5.
+
+## 2026-11-09: Round 5 complete
+Voynich generator lab: noise floor 0.37, no candidate reaches it; verbose cipher matches H2 but not word length. Liber Primus: known pages 56 and 57 recovered as controls; other pages flat. Next: Round 6.
