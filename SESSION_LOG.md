@@ -49,4 +49,4 @@ CNN cipher-type classifier over 41 classes: top-1 62%, top-3 80%, family 86% on 
 Added the Bletchingley pigeon message (statistically random, consistent with a one-time key) and the Rongorongo corpus (10.5% of 4-glyph runs recur across tablets, against 0.03% shuffled). Shugborough recorded as too short. Indus and Debosnys need transcribed data. Next: Round 8.
 
 ## 2026-11-09: Round 8 complete
-Added a working bombe: from a 32-letter crib it found rotors, start and all 8 plug pairs with one stop in about 3 seconds. Added Quagmire I and II, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti and the M-209 model (68 systems). Classifier retrained: 48 classes, top-1 58%, family 83%; Autobreak 21 of 24. Next: Round 9.
+Added a working bombe: from a 32-letter crib it found rotors, start and all 8 plug pairs with one stop in about 3 seconds. Added Quagmire I and II, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti and the M-209 model (69 systems). Classifier retrained: 48 classes, top-1 58%, family 83%; Autobreak 21 of 24. Next: Round 9.
