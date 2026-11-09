@@ -19,6 +19,15 @@ from ..text import letters, similarity
 
 STATIC = Path(__file__).parent / "static"
 app = FastAPI(title="Code Breaker")
+
+
+@app.middleware("http")
+async def no_stale_pages(request, call_next):
+    """This is a local app under active development, so browsers must not keep old files."""
+    response = await call_next(request)
+    response.headers["Cache-Control"] = "no-store"
+    return response
+
 _challenges: dict[str, dict] = {}
 CHALLENGE_POOL = {
     "easy": ["caesar", "atbash", "affine", "railfence", "scytale"],

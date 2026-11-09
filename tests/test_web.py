@@ -133,3 +133,7 @@ def test_channel_links_resolve():
         if "link" in e:
             kind = e["link"][1].removeprefix("#/").split("/")
             assert (kind[0] == "cipher" and kind[1] in REGISTRY) or (kind[0] == "mystery" and kind[1] in CASES) or (kind[0] == "history" and kind[1] in history) or kind[0] in ("machine", "how"), e["link"]
+
+
+def test_static_files_are_not_cached():
+    assert client.get("/static/core.js").headers["cache-control"] == "no-store"
