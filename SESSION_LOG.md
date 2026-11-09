@@ -127,3 +127,6 @@ A dictionary beam search over word breaks solved 29 of 30 planted letter-digit a
 ## 2026-11-09: Round 23
 Swept 32 mixed and 11 numeric documented tables over all 1,257 unsolved ads. Added leads for the strong results; 9 were checked against scans and all are real ciphers, including the CHERY ad of 19 Oct 1889 and an ad naming rue Miromesnil. The rest are marked as machine readings. The solved-ad control produced no hits, so it validates nothing. Novelty unconfirmed. AIM and irregular transpositions moved to Round 24.
 
+## 2026-11-09: Problem finder check
+Ran `scripts/find_problems.py`. It added no codes (170 tracked before and after), so there were no duplicates or aliases to remove and no ciphertext was added.
+
