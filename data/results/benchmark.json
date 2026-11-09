@@ -1,0 +1,1724 @@
+{
+ "id": "benchmark",
+ "summary": {
+  "substitution": {
+   "files": 65,
+   "readable": 4
+  },
+  "transposition": {
+   "files": 14,
+   "readable": 1
+  },
+  "bigram": {
+   "files": 7,
+   "readable": 1
+  },
+  "combined": {
+   "files": 84,
+   "readable": 0
+  }
+ },
+ "rows": [
+  {
+   "folder": "bigram",
+   "name": "Navy test problem 1",
+   "length": 260,
+   "symbols": 26,
+   "coverage": 0.581,
+   "lang": "de",
+   "reading": "K FAUST MEIN DER S T ER WOHIN ZUGEN S IST OPHELE SICH MICH T ERST UND I EH EIN GEN DER MEINER LICHT FAUST DAS ICH E NUN DER SCHWER DER EINEN ABEND RANG EBEN ALLE IST O",
+   "readable": true
+  },
+  {
+   "folder": "bigram",
+   "name": "Navy test problem 2",
+   "length": 332,
+   "symbols": 26,
+   "coverage": 0.548,
+   "lang": "de",
+   "reading": "UR NEIN WIE REINE MICH TEN ICH WEIST DER GEN UND ER MENGE N MIT GEN IHR END ERSTEN SOLL ES TUN DAS VOLLEN S T HALTEN DEN SIE BESTER SCHE R SICH MICH T DA AU STICHT ERLAUB ER KOPFEN DIE NSC HOHE",
+   "readable": false
+  },
+  {
+   "folder": "bigram",
+   "name": "Klaus Schmeh Bigram 600 challenge",
+   "length": 600,
+   "symbols": 26,
+   "coverage": 0.535,
+   "lang": "de",
+   "reading": "AN KEINE MICH T ER GEB END ALLE I STEHEN SCHAUER WAS T MICH SO LANGEN Z UBER LICHT EIN ENG END ERSTEN ICH IST UND DER GEN IST AUF ELBSTEN MICH T ER KANN AUS T MIR ZU GRUN DER SCHAU CHENDEINSCH",
+   "readable": false
+  },
+  {
+   "folder": "bigram",
+   "name": "Klaus Schmeh Bigram 1346 challenge",
+   "length": 1346,
+   "symbols": 26,
+   "coverage": 0.48,
+   "lang": "de",
+   "reading": "ZTANDERROCHN WARET ES T REINER WAREN N DIE SICHRE NUN DEINEN S IST ALT AUS T ES T EIN DU N DEIN MEINEN DIE HT EINE GEN DER GEN ICH NUN EIMMUN STEHT ICH TERALLHMEPHE LEIDER VOR DEN SOLLT DIC",
+   "readable": false
+  },
+  {
+   "folder": "bigram",
+   "name": "Klaus Schmeh Bigram 750 challenge",
+   "length": 750,
+   "symbols": 26,
+   "coverage": 0.463,
+   "lang": "de",
+   "reading": "O SCHAU SCH WIR HAB ERST UND ER EIN FAUST DER WIE BEINE MEIN EIN UND DOCH END ERGEBEN MEPH IST DER KEIN MEIST SOLLEN FRI EBEN DOCH ENG EH T MEIN DIE MAN ACHT ER WAS SEINEN GEIST OPHELE SICH A",
+   "readable": false
+  },
+  {
+   "folder": "bigram",
+   "name": "Klaus Schmeh Bigram 1000 challenge",
+   "length": 1000,
+   "symbols": 26,
+   "coverage": 0.455,
+   "lang": "de",
+   "reading": "EW IN DEIN MAN DIE R GEHT ER GEB R UNS T ER KEIN ZU FAUST MIR DER AN GEN WEIN EIN EUER SCH WEICHT SCHEN ERST RECH EIN EINE NUN GSTRANDERGEFAU SCHEINEN FAUST EIN N ICH WILLEN WIND ER MAR GAR EN",
+   "readable": false
+  },
+  {
+   "folder": "bigram",
+   "name": "smokie",
+   "length": 306,
+   "symbols": 59,
+   "coverage": 0.373,
+   "lang": "en",
+   "reading": "WRYINNE SEE IT AND HIS SO COMMARTERTHFEEOEI THINE RELINIHONTTOE ARE IN THE CO AINT ALL STRANTERCHEDROUPE DART HEAL THE LL HE H ON OFF BUT ST EARTH ATE ME S WERE DWHECLUOIDIA MORE WAY I",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "glurk 2015 challenge 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.385,
+   "lang": "en",
+   "reading": "H AN IN AN ER AMPLE CAT HER ERE ATE D TO THE SPECIFIC T I ON OF HARLPE AT WAS CREATED ON THE THIRD SAY OF HANUAHY OF TWO THOUSAND AN S FIFTEEN THERE IN ABSOLUTELY NOTHING IN S ERE NT ING TO SEA D",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 48b",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.294,
+   "lang": "en",
+   "reading": "E ON SO LUMBSEEELENEUR HATE THE TIC TOOK IN HAST NOT ELUNDFIESWHFSYSHA MOTE WHEERTEREARDSONLE ONE EN I THAT CLUTITEHETEIDI RETAIN IN D S AND HEAD IT AS THEE I TH RE PART O IS ACT WEEN AN",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve Jaws",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.279,
+   "lang": "de",
+   "reading": "I ER I SEINER NIE USMADHOFL NIE AULERUNE HAST DEN ARCHUHENESEE EIN NTMICARNAUNSDHT DER LEIDE BEIN WIE BELNSTVERANENS HIER TESENMIRDLMAE SEHN HEUTE LASS HERAN DIE R WEIN ENDE GES I",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 11",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.274,
+   "lang": "en",
+   "reading": "T TOO TIMES IN AT ATE SHE IS NO AOHPRIEEH IT HORN A DO ALL ING S TENTH CYREETOFTHESTNU IT A TEE IN MERE PAIN AS T LE AGED SIR I SCALE GE O US HE WASH TO EAT H STONE DNERSTERNFRENTSEEL AT ILE ARM",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "glurk 2015 challenge 2",
+   "length": 357,
+   "symbols": 63,
+   "coverage": 0.272,
+   "lang": "fr",
+   "reading": "TOI UMISPOULEE VIDES SELLES CONNAIT DENT LE VI CET EU I ON S EN CI A TOUS OU ELSSAIDEUSURSAVE MA UN ETAIT DE URMORTDIRRACESINTS ETE DETTE OFRER CORPS N IL ER VOUS SE TIRI RUELLE ET AI TE M",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b9",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.271,
+   "lang": "en",
+   "reading": "SPAR THE TH LONE WITS H HIS ON LAND BY TWSER NO A UNITE VE LOW A CHMOTITHNTEHLNEANE I NOTED RE S ER LOT AN ENGINE TH HE T RE AS TOWN OIEDTOTESS TO EM A CANT T ERE DURIORMSUSHERYG AT I HA THE OLD",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 48a",
+   "length": 340,
+   "symbols": 58,
+   "coverage": 0.271,
+   "lang": "en",
+   "reading": "MAVNRYS NO THIN ALHESITURRELSTSTRE AND MOON EETNG AN AN THEN IOITRTEDSATEAET TO RIDE HA I H WHAT TORSO SOOT E LED IN AN E PEN DEVIL A LIST TO GGYWES ERE ARE T NO OWN MR SHUT T WENT LECOFFEC",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve (multiple transcription rectangles, by rows, period 19)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.268,
+   "lang": "fr",
+   "reading": "UUER UN AU MAIRE AU SOI ELLE ET MME A SE CROUTILEIAUSSEREO NE PEU TE SE MOI ENCRE T L ON EST A P AI S J AI UNE RE MON T I EPEE L OR A D A S DENTS EU NE AURA ENVERRAIT EESATTERNERAUTIE MA LE CI A SENS O",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 39",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.268,
+   "lang": "fr",
+   "reading": "EALATAINU ON SE REAUSTREESONCIE TROU LIE IL A CE DOUE ME EN TE AVARE SI N T S DURE SE VIN EN T DE M AVOUE DE AU TCRASSIENLATRONSEE DU SI AIR ET AI EN UN SAUT ELLE NEE CA SI ON RE SA VINT ER N A LE EN",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie (polyliteral transposition)",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.265,
+   "lang": "fr",
+   "reading": "M TE LENTS O NE SE M EN ETES CA MALADE FEU ETAIS NE COR AI ET T RE ON PAS NI LE VIE CE SUR UN ON SE R TITRE LE POUCE AMI NU TA TETES LA N DIT MME ON SE EATSEPTAITAGN EN VOIS NE A NOUES DOIS SE MIT A LA RP",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 45a",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.262,
+   "lang": "fr",
+   "reading": "EE LE NE RIVE EPEE N SU AIT RE NE R LA COEUR SE M PRISE OU S CET A S S ICI MAIS AI PART DE A R D EVEIL ES O ET ER A OUI EN LIT CE AUCUNE EST UERRUTABLIEUR EST NI VI A LA LE EST ECEOUTDERDEUNERT SA N EUT A",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 56b",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.262,
+   "lang": "fr",
+   "reading": "NLIVISIEDAAREIEI NE COURE AU T AIR A D M EN TANT TE NETTE NEE ENTRE NOIRE EPARALOEREASO LES D OEURESPOURLPEERRIE CES DE VA LE ES ETE L O DESIR ELLE NTPUE IL D AI CE L ET SA SOT LIAIT S DES IEI",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b6",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.259,
+   "lang": "en",
+   "reading": "O TAR TIS TO EVER M ON DE TO THEN AGE SETH A NO EE RS HIT AS ELSE WIT COME ATE LEFT TOO EGNANYHAIPR OUT DAR LE I SEA I LEE T AS S EN A TO AND LYE IT IS THE FOR ARNTDELESHI MADE S TIC H TO T RAN HE T HER WA",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 58",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.259,
+   "lang": "en",
+   "reading": "EPHEAOTTLE SEE AN YE THEE NE IN D S DE ALL I A THAT O LAIN WHO LONISHMTSEYEAHC ON TH ROAR TOO I MET I TIES HA U SENT S SON DEED LED EVER EEANYRRECER TO STATE T AT OR WHY NIESTTAVLLCHI HE AS NE S S",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b3",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.253,
+   "lang": "fr",
+   "reading": "LE OU EU NDIEAAESVIERANTTEA NIER TAIEUSATOUE LOIN TIEREAENERRUEE CELA NE TONS CAR UN TRELIMINI LES ET SE TRIOMP LAISSE D ROI LA PEUR IRNUR EN AIT CE LES IL EU A ET UEUESRSNNESERDR EST",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 55b",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.253,
+   "lang": "fr",
+   "reading": "UESUIDISOUARECTER EN ERULEASUNONELEORTI ME AIR ESIPRORIRMECONEEAS ETRE A TRES QUE P ET DE ETRE EU NE DIE A LU CI M AI EN ET S SOT SOL ON REPART A LOIS IEMINU MERE NON TE NOUE A R D DIE LE CET",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 56a",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.253,
+   "lang": "de",
+   "reading": "TRNAS MEINT IN IENEERMEGENRIE DIE IDAEDENE HOFF NACH DER S T ES I ERDE LNRITTICCSBISGHE ICH ENSOSTESAUMLAUFSTE RAT GER EIBRNACSDHIMALEN EHRST O DNEHENFEINBERNBANE SCHULD ES WE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve 2015 challenge 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.25,
+   "lang": "en",
+   "reading": "R THE DR TAILS THEN ASH OR ILTRULENASTERBEGAL THAT LINT LE AS ONCE R I FRET ING BOOT THE THILISHHEYHBLE GOES IN E AND DO THAN A STARE EYE PROW EDIRIMPETISFA THAT IN THERE RYMYSESACONTR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Largo (split diagonal)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.25,
+   "lang": "en",
+   "reading": "HGTCUTOTHIAEEONOS HO FEEL TAR SEE OR NEYHNOTTOOODISPEAH SOFT ERRAND THY L AIR ST FIRE A THE ST HA MATE NHINDEFRONGACOUE TOWN TIS SCHANOIATHLO BEEN THE ILE IS S SHE RADEGATINHEWILA",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 38",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.25,
+   "lang": "fr",
+   "reading": "EITISTENIENERTR EST DU EEEESUS UNE S OR ME A LIT C L VIENT P LE IL LES ASUSTRO NIER SI LA CE ET AIR DANS ECHENTMITESIEAURE SERAS PRET EN DE EH BIEN SU NEE A DIT A A RE ES SURE RALE COU T SUIS DUE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 51b",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.25,
+   "lang": "de",
+   "reading": "MCGLIEENST ENDEN WER DEM ET MIR NENGARHERSEN HEIDE T REIB STDIEELAUHENNST NICHTS HOLLA UTERFLCN SAGEN SIE NSERINRNUIESDABENI STEHN EILE DRE KANN TNIBTERENTLFGEU UND IHN S N MAR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 55a",
+   "length": 340,
+   "symbols": 59,
+   "coverage": 0.25,
+   "lang": "fr",
+   "reading": "N S TOUT A RE MA D I RIENS ET A PAR ELARETRAN DE METTE ON ES S ALLEE C LA ISSUES T POSE CRIE IENTPITAULESCR ET AVAIT CES TE ME A VERS ETE VA N NE OUI ET S LE R D S AI TRAIN S C EUT A SA TIOISUEAUROUPES",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Largo (period 2)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.247,
+   "lang": "fr",
+   "reading": "ER DE C EPUISEE SUR USCADESARETAVEETUT DE M R S IL EPEE TE MIEN D ITALIE S SE EN CE DE L AU ET TE IL EN REEEEPOQUIE NUIRE N C LA SUR UTATIERESD OU ET TENDU N S C ON S T RE DONNE URELSPLIRDRE SE ROI",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 54b",
+   "length": 340,
+   "symbols": 61,
+   "coverage": 0.247,
+   "lang": "en",
+   "reading": "T PATH TRI ONE OH GOWN LARD EAT IN THE SLORSPHENIE DATE I THE D AND C RAN I ME E SAME HEN HUES TO TEE RS L ON SO AT HER ME BE LI LA HAP TO THE ERE S IN TTEDTODANITHTANFO SEE T IRE HE ME I NO WHAT ON HAV",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve (multiple transcription rectangles, by characters, period 19)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.244,
+   "lang": "de",
+   "reading": "SUISTHCIURUN DEN WIE LLT OFFEN A SEIN HAT ER UCNINIDSIEELEFRUN END WAND SEELE CLTI GEN S FASST IN IEEREU DIE HAT HER S END IHOGDENESHEERMN IN ER NASE SEERHGENN UBENDE RTSIEHDUCHESE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 54a",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.241,
+   "lang": "en",
+   "reading": "C NOR STAND FOR TLENICTCIE TEN OUTS HA SED IT SHE S BE ERE SHALL AS T HAPLY TON HER IERSTWHESTEIRENI AGE HE ARE DNCHBOOANSSOLAMEH USE FOOL ARSIFDLGNATERA NOW S MEET H DIS SIT ALL TE ROW I",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve 441",
+   "length": 441,
+   "symbols": 63,
+   "coverage": 0.238,
+   "lang": "en",
+   "reading": "NGAWANSYATSITIE TILL IN OWN TH A IS I RED SIRE IS RUOAW HE BE A OWN IAMLEOWSOFNRPITHS TREE MY LDWCIBHSWEAUT SEE COAT ON OR D CON T TO IN EAT T I A EYED IT ISN HAVE D HE BOA FOR ETURATETTL BOWS",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 45b",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.238,
+   "lang": "en",
+   "reading": "WOO HE NOR L SIDE AGE TO OR WAS HIDE AT ERCLONHEHUT TINT SEE I RAYS TUSFRONGOOE DON THE HAS MR D RAIL DINLYTHERETURIESE CHEST HER S ER THE PALE N HER ST OH ON ASH TE RAIN A DIS S MR DE AN CALL IT",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Largo challenge cipher",
+   "length": 334,
+   "symbols": 62,
+   "coverage": 0.237,
+   "lang": "fr",
+   "reading": "LEUR TA RE SE A SON PIS TRIETAUELSTRE NE SES ENTRA I AI N COR T EN OU TA D MUR ALLE ME DES ETES EPORAIFACTERA VOUS CES TRACTENSENARIN ET A L DIRE PAIE EAIESTERE EN OUI SE SURE M I NU ELLE N D S T S",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 9",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.235,
+   "lang": "en",
+   "reading": "O P A I MEET AGAIN TRILSONEWNCOUTRD MORE SEE THEN HIS HA SUN ANY AS T A LO USE DE SEE TH IT ART OR MFLE LET ICE AIR NT HOUR NO ST A I APSILESIFDHETOREWS THE SPACE E DO MEAT IN AH I LI AT AID NEST O T",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b1",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.232,
+   "lang": "en",
+   "reading": "Y OR I EN A THEE S ST WHERE RIACHTRNALATTEATER S IS NOT EE IT FOOHLNESAFSEEDOAB HEE AN MARY TH PER ILLS A TENSION D A HER ST T S IN MY THE DWIEPENTES BUT TO LONE DHILEHESC AT YE THE I THE ON T I R",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b7",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.232,
+   "lang": "en",
+   "reading": "EENUERS INTER EAST TE SHEM OR S IN ONCE IN A I EN TO TERTATUREEAGINEPE AT BE THEY O DAR ITS THE HERE NESEWOFITCWO IN AND THE LO RS DE AS AS M AS NIGHT ILL CFTUODEOUSI THING O PEAR OF IT HATH NE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 44a",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.232,
+   "lang": "fr",
+   "reading": "LOREEDREE SORTE UN ETRE A DE ET M L L ME UEEETRAVILOINSTER ET LUT TENUS SE EETARSSLESOE UN A ON PERE LE D AIT T R AU DIE TON L RE PUT UNE R A N TAIS A ON UNE S ET VOL AISE ON D C EST D ET ME RUE ALORS AU",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Zodiac 340",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.229,
+   "lang": "fr",
+   "reading": "ELUE ET S DE N AIT ERADREESISLEMAIEIN SON S NOTRE UN RAINTSREMIEETSTAN DUE LE EU SA PARER EN D A CE E ET UN TE AU S ET L ON DU NEE AMIS CES DEFAUT OR DE R T AIR A MON S LE PRIRENT A DIRE VENU A EST N P",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 51c",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.229,
+   "lang": "en",
+   "reading": "O Y SWELLS US H TEN IDSEAPPERTOODINR COLT ER OUR E S THE SHELF UHUNDIFETH IT AS EEL ER S SAILS I VE B HE LINT NAT THAT HAD POOWEDFANE LIVE TO OF AS THE REST I ONE T A NOT ME WAND BY B RE AN I ERE LO A",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve (for Largo)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.226,
+   "lang": "en",
+   "reading": "LTOHCIDERNES AN A NEED I BE RYBIALW HE TRY THE WATEDCR IT TOLD S S A RATED HE ONE ME A D EH APPLE MEN TO HTIGONERTITESTOSEC ON SITS FLEA IN THEM TO YE DLIGATN OUT A TREE T S RE SLIT TOO I TEN A HO",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 12",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.226,
+   "lang": "de",
+   "reading": "RITNHENNDEREITE HAUS T ES TMEILIUIIRRESIWNAT IHN GEB ESSEN EIHRLEUCHMERT EIN GENIE WKDOTHCAIRSDENTNAU GEHN LEESONESSTRCKIMH AUE NIE ALLES SCHEN T ER BUND WIDENDURAEGSOEDEH",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 14",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.226,
+   "lang": "en",
+   "reading": "CAT AYE GTONISOFTSHROO ITEM THE NE S SO FAIN AYSHRNOTAGEOU LARD TO EDIOUSONETYNESEN THE HAT NIGH OS START EE MAN L ON DEEP ARE LE NET AIR A IT CHEDISTICLINGNEEF AS I OR NIATONEESTEIMI",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 51a",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.226,
+   "lang": "en",
+   "reading": "O THE HANTOCOURHONDBS TO REFILL EAPTEDTHEHEABA IN US T ME I HAT T ERE S SAIL D SET IN HO LI AND S NO THEY HE A U T STAND AT CETHRNPARD NOT IMPEATCHPRESL IT ON ST OF O THE SURE D HINT ERE T LATER O",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 54c",
+   "length": 340,
+   "symbols": 58,
+   "coverage": 0.226,
+   "lang": "en",
+   "reading": "TEN ST R IDLE TENT TO US AT SMASIWHEINOCIES TO TEA S AWE END OF LASH OTHER ERMOTICLEDDONLUNTS HAR STEER IEDGUAREGENETATOHT FAIR EN E DINT BE LONHOOTACELE SEE T NOT AT SLIT HHORERH AND",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b5",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.224,
+   "lang": "en",
+   "reading": "LEMRLRYTHAAUTIEN ART WEEN AND IT EFOUTSTITESHH FOR NSGRACHEELWNTHITEF ERE EAT E D S AM OR SO DEN SING HE T T LET A BONE CEAYPOLOONUE AS A CARE TESALIHEFR CAN SIR VOID ET OF T ER I A MAN N HE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "doranchak (3 column keyed columnar transposition)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.224,
+   "lang": "en",
+   "reading": "PBESTRALITM INGIN GTHITERLESHOEW HALLS THE G RE THE O THEY IS T SENT ABOURAFETE ORION HAS SUETEONINTMEETW HE ST GE TRY TO T ER HE SOUTH S BEND T R YARD WITH EENSMETOALOONSGA THE I D REAR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 50c",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.224,
+   "lang": "en",
+   "reading": "SEOSEERARIE NOT ET SLED T RE A GETS TETE HEED NO DIDST TRANCUR IN HIS EN TEE SEA PEELNLISHOLRE NOT WHOSE EAT ARM ON A D AS I AT TEA VE HE ROOT AT IT HMEERIOIANDSPLATRC T I SEA LET TO A GAILY D I",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b4",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.218,
+   "lang": "en",
+   "reading": "EE END ET HO RING WAS E DO SAILER TEDMENPLIDROSTI SEE TSNTTACLIEBOOEN SUN ERLTCMEHUENTI THEE ARTER NFRINDESANEANAIO LET AT T I FOR ST TERRA H THEY HE HE A BO MINDS UNO THE HIS OR SO SE O T",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 15",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.218,
+   "lang": "fr",
+   "reading": "LA BOUT DE RNELITTEEE EN TU NOM AI RIT DE LES A VETU A RE C R AIE UN EPIER P LE RE S CONTE ES AIT DIS ON M ET T R VINT DE UNE DES TFOLEEUNIRUREUR ET DE DINE SAIS NE OU A SE ESECRE LASSE VOUS NTERDROL",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 23",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.218,
+   "lang": "en",
+   "reading": "DPUGN ITS TO HERE TO EN S BE E LION S IS FRO ACT TO HE S I A NEST NE D WAS E HE HE T S BUT ALE CHAT HTDINFRIGUEI OR IS FEEBORLE AUNT TENT SAW MAIEEITHHLINETORYS THAT AT I MINE AT IS ANT FOR HER N IS W",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 56c",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.218,
+   "lang": "en",
+   "reading": "ESANTEDIRENT THE HAD A FEW ET OH HO US A HA TELL TH A VINE IN GO ERE SPDUEENSEWHYTALGPN ER AT SIGN O AT ER OR LE DEED IN ER ARMS SCHIMANOTTEDTHNWS TEN SO NOT ENEHNLEATERIER TEN HUMP LAID ON",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b10",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.215,
+   "lang": "en",
+   "reading": "ILDNINETRLE ARE HAT TOO SEES WE THIS ING TO ABRARYSLTTEHESOL INTO NOW AN DIE HER AND AS ST AS EYE IT HO L HIM ON SIALOPEORDTHEENTTE DETAIN M OR IT EDASUREDTOMSUAWN IN EVE AT EDTOHMAESN",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 10",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.215,
+   "lang": "en",
+   "reading": "THEN AT AS T TRY IN SEWOFRONAIRESSN HIS ST A SENT IF E LET O EAR EM TO THEY BOTH COSCUTEERNNED HER DUST ALINYWITAVEDEA OUTER HEARD HEE OH ING S THAT IT OF OLGCN CAN REYEHNOLATUEENIOAL AN",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 45c",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.215,
+   "lang": "fr",
+   "reading": "N T DE LA N OU LE ME DE LA C CES ETE ROIS MOINDRE AEE AME D OU S VOUS LE TUAI N SE CET UNE SUIS AU RE LA NE MIRITOLER ONT ET D UNE A D ROI R SE SE L EST A ES MOI SI NE EUT DES P ALLA RE AI NE CE AU IRECRASIE QU",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Largo (diagonal)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.212,
+   "lang": "en",
+   "reading": "ELHGTOODISTALEAWRE DR IT HRELSENGABCOASATWN MEANS SPREDURECILENTOCO LOG MET IN ST W HER IN E IN IS BATHE LFUSTEDEDONEEREY HAP INTER RE AT IT HGATHWEHASLI NOT THLEENC ENDS THY OUT",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 53c",
+   "length": 340,
+   "symbols": 52,
+   "coverage": 0.209,
+   "lang": "fr",
+   "reading": "ER T S S OUIES SA RGEEETAUDRETAVMNTD ET RUE I LUE C EST LA L OR TU NIE ER EST S FAIT A SE NE NARMINUELCOER DONT EAITENERAE SES LA S M AUSSI PLUS D I RIT DES ET ARRAIEAIANSLNDRA CE ET IL OR UNE LE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Largo (mirrored)",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.206,
+   "lang": "en",
+   "reading": "T V AGE ATE D NO THE FIND E SIR I ET ON AND LO OR SENT T HAS PLEHST WAS T SING HAR OUT TEST RHTSHORATESENDEPET I ON TERINSWHEERNCAUG HAS D IDLE A HE IT MR CURSE EN T SAT TEA DO FOR ILYMEETONONWH",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 13",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.206,
+   "lang": "en",
+   "reading": "EN I GONE VAEEDHIMSTOSTRESE IALTRHEINDSARIOTEH IN AND SO O DE TWAS IT SEE EIFMUNRI SEND I A THEN ABLE I WON Y FIT SUN D IT AN OH THINE E ERE PEAR TO NWOD IN S AIR HE SHE BE LIAR D S ANT TO WINE HE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 44c",
+   "length": 340,
+   "symbols": 45,
+   "coverage": 0.206,
+   "lang": "en",
+   "reading": "EH DIN A NOT NO DIE SWEET IDBHT THE IN GOT TNSTEILTERONM AS OUT TH FEE N SHOT TE ON S A THE DECK THE ELSOIESASEDHEN BE TOOTH SIR D AID NE AS TIME I THY WOO S LET OTORDHEWASCHI ENDS I AT LT A GOES",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b8",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.203,
+   "lang": "fr",
+   "reading": "TRANEREIN VOUS N A CET A S TES SE R SIT D AI TE SINON CELA TA L HOMME T RE QUI S LA D ON SE ECRIENAVEEAEU SES LA T S N EU RE MAIS ONT M AIDE DOIRETTEENOOT SA LE AU D S AI ECU ELLE M AI TE RE D RE TROUE DES",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 53b",
+   "length": 340,
+   "symbols": 53,
+   "coverage": 0.203,
+   "lang": "en",
+   "reading": "USE ET DID O E A IN ACTS WHEN LE ARE WOOL S AM OH SHE WORD CHAT OH THEY NORSE LDTERTTERTTATES AM AND S DING ETHSIRIEINATESOCI AT IN D CLEAN S THREE R TEN OWN SEE MY SEE TITAEIDEUTDEELL ONE HA",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Jarlve b2",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.197,
+   "lang": "en",
+   "reading": "T N ARE HER OF AIR BE NALYAL AT I NO OF NO MY LIT IS HE ANY LADEN E A I ON HE INTO RMWHFSODEREARSG TO THE ON T OH T THE LEST ECREEARSNHISESTTH AGE NE S HIS E DON I E DATE YOU S D EAST EAT AN OUR M MERE A",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 55c",
+   "length": 340,
+   "symbols": 61,
+   "coverage": 0.191,
+   "lang": "de",
+   "reading": "IEL ER DER S EHRE IM WEST ERST UND H DURCH ZU UNS MAN TEIDHT LEIER BRENGESTANBSMNEFIE ERST GE FAANGINERWEIDINLT ES CHIESSIEEUENSWEIF UND STRRTINE ICH THBGIENOSTETNKANL ER EH ENGE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 53a",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.188,
+   "lang": "de",
+   "reading": "SEEL UEGTDSIEETSEAND ERNST GNUGE NEMBERIEN ALS ENSIHESERTE NUR DIE ICH UM SEH WEICHE GERN GLAUKTRESLITDAAH DEN EELESTRRHE ALS SNHEDFEDIG STEHE UM DEN S T HE EESIENNFRACKTEHRHS",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 44b",
+   "length": 340,
+   "symbols": 46,
+   "coverage": 0.185,
+   "lang": "fr",
+   "reading": "S D AU I ON SEUL CE TIEU RE S N LES PAR DINUTMMESOUATREEA LA VENT ISENTSERORIESOLEE SI A DE N ET NE CE R A PU A N CE ET TE EN TDRVE NE A SOIT LE SE ANCRE ROMERLAEE EN DU AI EN DE ET N EST ER EAU ON S T TE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 48c",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.185,
+   "lang": "en",
+   "reading": "MGHMANDERTSSEDSAI ANT IN HER SLOOONDRHONC LET AT AT EISTERSPSFIE AS IN ALL M THE BED DID IHOREHOOSSTCI ON IN T MANE WE D TO THE RARE S S A TEA L SAT EEL A INTENSE A EE RS THE SET HAD Y STUN ALE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 47b",
+   "length": 340,
+   "symbols": 48,
+   "coverage": 0.174,
+   "lang": "de",
+   "reading": "RLDIETA ALTER ICH IEWECGIEDLTUMR END MEIN EINST T ES S HER END ASSEELBTHENENICHUL ER EIN GASENMTISCLSERDGT MIR STEHE ACH WIE LNDSBLIESUNERSNTH INDES MICH NENN FLESIENEDESEIIG",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 50b",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.174,
+   "lang": "en",
+   "reading": "T AS T FOR HIS EEEERIAANDAPEETHT HAD IT E LO AT A TALE I SEEMS TEE EAT STILES ARE T WENT OTYOFATEDNEYIATHSU A L HEEDS ON ARE WHERANICHIA AS SO IS ST GONE O SO LIT A TIES M NATE IN AYE A ARC I ET A",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 47c",
+   "length": 340,
+   "symbols": 42,
+   "coverage": 0.165,
+   "lang": "en",
+   "reading": "E OH GOT DIE CO NO OR MASON ER DE AT A SONG WE RNHUERMEATFOLASTN AND HGESEHEBEITINTHL ON SEA MAST RDSEMENTL AND E RIGHT NOW NTMDRULHBAILE AT NECREEMNEISHTE REEL ILANSTLAOTOUSH LIFE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Mr lowe (diagonal + period column order)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.159,
+   "lang": "fr",
+   "reading": "N AI SA LU OU ES ERRER EETTUETEEAL AI SIRE EN TUE M IRA NOS LA RE EUT EN VOUS SI NCUEETUTRE ET SA LUI TREENSADNNALEPO EN SES AUSSI ON RE ENTRA ILS LE A ES EST EAU CET IE ELITE SSOURUDAILAADAE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 47a",
+   "length": 340,
+   "symbols": 41,
+   "coverage": 0.147,
+   "lang": "de",
+   "reading": "A WEM EH NEST EDENMUHLAGEEAMNEBE ER USTINIERFUN GEH ER UBRINSTOHLUMDNSURA WEDELT NGEEINELCRMIAG DIR SEHT T ES AUMCICTLFOHDESTIGI STERN R NWENDNUIDENERLASEN IHR DREHEN RENGD",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 42",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.135,
+   "lang": "en",
+   "reading": "EQDIARGSNNSHATYS OF TEA DIS GRIFCOULASUEWBENN SHLHTSBTRWHNOMSWMO IT UNO NO O BY AM LET MLSYMYSILLHORTE WIFE VILIRIETRNL BRIT THIS S TEA AFWYSAMIDOROTBYO WGLSCLKMISSSPSORRR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 43c",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.135,
+   "lang": "fr",
+   "reading": "EMVTMIVJCNTTDC AIE QUE CHER IGEETMDPVPSOCIEAT BOOOSMLRAVEGUEQIOR TRAAGAAADOSOCDIBXG AU EOSBESPSTMEIRIGSIR S DE ME BU ETE A C BUTOR RG NE OU C ME AU OU ET S SA EN MAL GULTERDRE POUR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 50a",
+   "length": 340,
+   "symbols": 42,
+   "coverage": 0.129,
+   "lang": "en",
+   "reading": "YRGENESE TO AS TO HE EPDORIOSAELSEMORH THE ERR T L OF AS ODRINTNTRTESOMONTT I NEW AS RE T I LOT A SCORE EDAPLEIFITERT HAINT E HE S LE A BANDS HAS I THE IN TLFE DEEP A TREAT ET RAN O LI TIDE T IN",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 41",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.126,
+   "lang": "en",
+   "reading": "ZHMOBCEOFCYQGOANND TAIL OR AESIAGREDIAIIE BE SABEOOROAMNHN LOAF UBIAHIGESHSWUBGNNL IF NECHNAFWBTNCYOREOS TO HARE ET AWATHHTIEMEWTEONWK HORN QULICFTEOYRCSE SANE S M NO S EH",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 46c",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.124,
+   "lang": "en",
+   "reading": "S ALOW TERMS TH R LIST A SUN UM AT T RANT M KEPT SO RAEOSHO AS ARE TNATHYSRAIHCIAATY IS MHFIGNESSNM TO HE EEHIIURYIPHXACHSHL COIL FOR GANDOUHNSJOSMBINE NEAFTARCISSHWOETCN DAFT JOB",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 49c",
+   "length": 340,
+   "symbols": 25,
+   "coverage": 0.118,
+   "lang": "fr",
+   "reading": "EU I DIT LE FONCPOIUQSS DES SJUPLPEIEMINP ERAT IGIZYALLFPUDSERMDG MCNJYPUIALHLESLRAP RIRE NE SUBI A SE P AGILE PTMOPDISSALLOE LA NDHPSJSGDSONSVJDAC A A NDLPHELMPGUXBOUTEE JE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 46a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.112,
+   "lang": "de",
+   "reading": "S DENK N REGT R LEB UNS MEER AUVMVCDTREESGDCA EIN ULEIIDDNLURECHLETM ZU EUTGRIHDM SRAEDGKPSSISSETEGS DER RISNMDNSUNGNETDO IST SENSEHAREUDEXMANNL TDAMVUVIASTHEREGTE NUN DU",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 52c",
+   "length": 340,
+   "symbols": 22,
+   "coverage": 0.109,
+   "lang": "de",
+   "reading": "UDEHTSEGFAUIQUI WIE AUNBEKAUUOLWLNIRAS S HA KCUUWWZWIRTENIDASW CI TAU TAT S SKCNURUSTURERSWDUU LEIMT HOFF R ER TAT ZTFMFNREDLUUSZELG GUTE LIRENHELEAGE TIUIAZGGNNGEIFRTEM",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 40",
+   "length": 340,
+   "symbols": 21,
+   "coverage": 0.097,
+   "lang": "en",
+   "reading": "EYDSRSSREROLNESWEG BENT OTLWIIUSLANLAPMOAE FUSHTREPOOSMBDEHNN DR I STIR MLHRCOMNRRSALSEEHW FSSARINRUITIEOEMEC T SOME OR A DIN DICHTATEEOSANALEDC DTEHSESSMSTBELMGRN MY",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 46b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.094,
+   "lang": "fr",
+   "reading": "TANT RIRE IMQPODLMMPO SOI EN FKRNATINSIECOAPIGL TAIS NVEICCISTUDLL NE ET TEL DE RFUSEJUIGE UN SI OISOHTNANTV AVIS Y PAS A LA UASDSENIIEE ET EN TLALUQVSUFHCUPSIGN NE A D NI N TON D AI",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "Tiago Rodrigues CT2",
+   "length": 294,
+   "symbols": 22,
+   "coverage": 0.082,
+   "lang": "en",
+   "reading": "OR ETHILMAIUNUNUMYRA DEEP OR PSEWDNOOLATTDETNEN SALFTBONHOENOLSSID TO FULNEEABTJUNRREITH RAIN ON D WHIT O AT TDAEMLYAINTAAOEYS TEE HE ACRIEHCONOEJUNNIEI ALAS S D HERE GRMLL",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 49a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.079,
+   "lang": "en",
+   "reading": "GYEANDBREPAOE IS DO LL MAT IT LVBMIMELQML THAN TEE GSAMNDSQGELPERCYYD A DSVNSKTOOSANADUAYV I ME PESOLDLMADAVIAMEF CETUS FIRLLLENDWEMATDS AS TNEHTNBOWTHEYPOE DON WILL ONE SE",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 43b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.074,
+   "lang": "en",
+   "reading": "S LL T L WELL AN S YTOABYJSTCJOSTYELS HLMYLOSWANIAMDLLIM AND LOLSDAYBCONSSE IN YDSMIRYNICKWHSSHR EPTGEJDSIXZRZJGLZY HILLS T ER S TO TEE N GLIM SAL HE S S D INN JHNEDBORDSITSOESIM",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 52a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.074,
+   "lang": "en",
+   "reading": "IMQUEHALLMERSIEDI BFNNSEVEITTALINDDI EARS BNEDDOLERJUSENNTM URTEBPDYSSIWRTOWIH HE I EN NDYQUDHLDEUFDHLGWA NOW FURL MDSPUNEOOLRDND HOW AS BOIQYALEHPSNTAAGF POMP T WING A",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 52b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.074,
+   "lang": "fr",
+   "reading": "UTUELSGEMITMANH NUOPSTREINVELTONRI EUX S ZNYYSTYREMIERDUMPZ EU AEIIREEEERTEFPJMS SGREAEMRUCTAFENABT EN S FAIRE PSNRAR ICI M VASE ON S D A C AI J A M PRE D ET BIDOSEEILGMIMNAOPZ C",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 43a",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.071,
+   "lang": "en",
+   "reading": "SWHLRETUPTIAMFR SAT UM S TOE AFT HELP RUDIEWMGYTRID AT LMELRYDBIGSSHAPPO IS HHTEMMUBBSBVDMSH AT TIHIENNESNHOHA HAS ST HAS ELPHSINUAOUUSR SO SEA BLEEAFFHTN MORE NTRUMOMOVEHR",
+   "readable": false
+  },
+  {
+   "folder": "combined",
+   "name": "smokie 49b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.065,
+   "lang": "de",
+   "reading": "RSFDDUNTTERASIHLEI TOR DEGLZNWIRFTIEGNTRE BTWZUSHESEBEBSULNO GAGE UJNALTINSALMGSEE TAL CJYCTSNBNLRASLUGFR TOUEGKTTUHSDEALMPK S KLEIN DNNDUDEIRT GEGNTUKSUORGEMSMVE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Boys' Life July 1931 page 29",
+   "length": 156,
+   "symbols": 19,
+   "coverage": 0.667,
+   "lang": "en",
+   "reading": "ELEVEN MILES SOUTH EAST FROM THE EAST T I GO FOLD GO IN T COMFORT LIES A SMALL ISLANDS H AGED LIKE A HUMAN FOOT THE TREASURE IS BURIED IN THE S AND AT THE BOTTOM OF THE CRATER IN THE TOE OF THE",
+   "readable": true
+  },
+  {
+   "folder": "substitution",
+   "name": "W.B. Tyler 1",
+   "length": 230,
+   "symbols": 22,
+   "coverage": 0.635,
+   "lang": "en",
+   "reading": "WORLDS OF CRUSH THE AND MATTER OF WRECK THE ELEMENTS OF WAR THE AMID UN HURT YOUTH IMMORTAL IN FLOURISH SHALL THOU BUT YEARS IN SINK NATURE AND APE WITH DIM PROW HIMSELF SUN THE AWAY FA D",
+   "readable": true
+  },
+  {
+   "folder": "substitution",
+   "name": "King and Bahler",
+   "length": 200,
+   "symbols": 35,
+   "coverage": 0.6,
+   "lang": "en",
+   "reading": "FOUR SCORE AND S EVE SHEARS AGO OUR FATHERS BROUGHT FORTH ON THIS CON T I SENT A NEWS AT I ON CONCEIVED IS LI BERTH AND DEDICATED TO THE PRO POSITION THAT ALL YES ARE CREATED ENUAL NOW WEAR",
+   "readable": true
+  },
+  {
+   "folder": "substitution",
+   "name": "Escape the Pike - Name the Zodiac Killer contest",
+   "length": 433,
+   "symbols": 53,
+   "coverage": 0.582,
+   "lang": "en",
+   "reading": "I LIT E TILL ING PEOPLE BECAUSE IT IS SO MUCH FUN THE WORLD IS MADE UPON TWO CLASS E S THE HUNTERS AND THE HUNT EE S SO YOU WANT TO BE THE HUNTER THIS IS A MOST DANGEROUS GAME YOU ARE PLAYING SO",
+   "readable": true
+  },
+  {
+   "folder": "substitution",
+   "name": "Crypto Quote",
+   "length": 66,
+   "symbols": 15,
+   "coverage": 0.545,
+   "lang": "en",
+   "reading": "EDUCATION IS A CAPITAL TO THE POOR MAN AND AN INTEREST TO THE RICH MAN HO RACE MAN N",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Nick Pelling challenge 1",
+   "length": 153,
+   "symbols": 76,
+   "coverage": 0.542,
+   "lang": "fr",
+   "reading": "GESER LES A N TIRE POUR ET AI RE VOUS ELLE MEME N TE FAITE C HELA COU S PLAN SERAI RE QUI SE MENT EN OU TE POUR E VOUS ET AI RE QUEL ET DE SON DU LE TAIRE S DE L AVAIT ETAIT EN DIRE C ONT A SON MANDE S ET",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "_pi 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.515,
+   "lang": "en",
+   "reading": "I APPROACHED THE WITNESS STAND WITH ALARM AND LE L COMING SMILE THIS OF COURSE BELIE D MY TRUE INTENT WHICH LAST O DESTROY THE WOMAN WHO SAT THERE LIT H HER EYES FINE DON ME CLAIREWELT ON",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Thang Dao",
+   "length": 327,
+   "symbols": 60,
+   "coverage": 0.514,
+   "lang": "en",
+   "reading": "S HERE WAS NOTHING SO VERY RE MAR N ABLE IN THAT NOR DE D A L ICE THINK IT SO VERY MUCH OUT OF THE WAY TO HEART HER A B BIT SAY TO ITSELF OH DEAR OH DE ARE SHALL BE TOOL AS E WHEN SHE THOUGHT IT OVER A",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Ken Harthun challenge",
+   "length": 86,
+   "symbols": 53,
+   "coverage": 0.512,
+   "lang": "fr",
+   "reading": "CROIS QUE LA RENDE LA PORTA GNANT DES SE ETAIT UNE CETTE ON S DE SA VAILLE SA VOUS EN SIEUR M AIT POUR MOI NE EE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Luis Campos",
+   "length": 71,
+   "symbols": 16,
+   "coverage": 0.507,
+   "lang": "en",
+   "reading": "THE WORLD HAS LOST A GREAT TALENT HE WAS THE YES T AT WHAT HE DID YY KING ON JOHN LEE HOOK ER",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "glurk 1",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.465,
+   "lang": "en",
+   "reading": "INTER NATIVE LY AND FAR NE S S GLORIOUSLY THE SIT HER S SOUL D BE THE BASTLISHOFALUCTE LOW DOWN CRIM I MA L WITH A TEST BOOT ON HOW TO BEAT F RE SEEN SEA MANY S IS THE FIRST SIT HER WAS SOLVED BE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Project MK-ZODIAC Message to the Zodiac part 2",
+   "length": 136,
+   "symbols": 48,
+   "coverage": 0.463,
+   "lang": "de",
+   "reading": "R LIESS TMENSINDH EINANDER SAUFT DOCH T ICH ER NUN IN SOLL GE GEHT DER MIR BESSCHTS WEIN IN GERN KLEWERTR AN ZU BESTEN DEM EIN D FAUST SOLCHE WERT OPHAA SIE NEIN DES EAKH",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "ALisowky",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.432,
+   "lang": "en",
+   "reading": "IRECIDED NO WRITE A TIC HER THAT S TO SELY RESEMBLES THE ONE CREATED THAT NO ONE HAS SO T VERY ET I WANT THE NUMBER OF THAR AS T ER S TO MATCH SIT WA THE T AN USE INTO IMP ROBE THE TOOLS HE USE TIE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Boys' Life May 1931 page 35",
+   "length": 83,
+   "symbols": 19,
+   "coverage": 0.422,
+   "lang": "en",
+   "reading": "NEUROWWERENDAF HALF WAND FIND GET TLEMORIED ME THEE NT HAS PARTS TO RDY WAS T S LAST BE HE L SURE INSIDE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Project MK-ZODIAC Message to the Zodiac part 3",
+   "length": 136,
+   "symbols": 52,
+   "coverage": 0.419,
+   "lang": "en",
+   "reading": "E A TETE EN T AND EN SOIL A C HIS OR DON YOU SIGHT E S FORE HENCE WAS TO BE STILL T HEAD IN TOP ARE FOR SOME NT HIRE THE GO N ANY T HAD U AT T HER THIS ER ME IS RECALL O USED WAS T THEN EM",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve Beale 3 emulation 1 (names)",
+   "length": 621,
+   "symbols": 263,
+   "coverage": 0.402,
+   "lang": "en",
+   "reading": "NUA LAST LET HEE NOW PROLLIESPECTLYTOT AT THAT HIS ONSET THEY ONE SSLASITISERYWITHEW ASPECT I CAT OR ST IO NEEDED BUT THE ALL ING S OF HIS A R IN T INTO BLEW AYE D TO MAN A MERE T HER OR SOME H",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve (numerals) 1",
+   "length": 323,
+   "symbols": 61,
+   "coverage": 0.387,
+   "lang": "en",
+   "reading": "WERE I DE THOSE RAIMOURCA LED AND A MINE A GET NON A TIDE LL WAYS HILL E THEN TLERFEUR SEEN FACT LAND AFT IERBLWENTL IN EACH SEA N NON I SEEN SHED TO SHE NT A IN I SHED SO THE THLYS IS PRE ETHER S",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Eastern entrance",
+   "length": 245,
+   "symbols": 77,
+   "coverage": 0.38,
+   "lang": "en",
+   "reading": "SHEARS MOOECOUARTLIED MOST U RIB LEPER HAND D SOMEWHAT U E OF HAS IN THE AN EDBYHETORTIVER OUT WITT E AH ANYONE CORD ERE MET HER N SE CRUISING FINEST E AN TINT IF HALLS E TO S ALL THE ST THE G",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "smokie American stories 1",
+   "length": 340,
+   "symbols": 100,
+   "coverage": 0.365,
+   "lang": "en",
+   "reading": "HER WHICH ING SAME AND CALLS AGES TTETOITHNEVIA THE S ER THE PIT BEAR FUL THEN THOUSAND HARD GALE ENEDITATSONOTRO YEA AND MAINE ERE AS T WITH OULE AS HER BE NEST OTHER MISS IN T THE P OS IT",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "smokie American stories 2",
+   "length": 340,
+   "symbols": 98,
+   "coverage": 0.362,
+   "lang": "de",
+   "reading": "MAUS POK EHREN DOM T ERDEN IHREN NEU REGT EAU SEH TEILEN N DIE ICH ISRND UNSER AU ER DASS EW EIN N T ER SIE AN T IN ENSTSTROHRTELMLHAL UND OCNPFUNG DEN DER INDES T REICHER AN SEACHUTEN IN EH",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Beale 2",
+   "length": 762,
+   "symbols": 182,
+   "coverage": 0.356,
+   "lang": "en",
+   "reading": "A HA MEDAL O PIT E DINT HIS OUNTYAPPEDFORTAB OUR SOUTH IRE S S TO THE PORCRIEANESS AM AT I ON OR M O ULTRA S SEE THALEWTHESUR PALE OF M IN GROVE D THE SO FLOWING ART ALL E SHE CONGINGTOINILYT",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Attack",
+   "length": 34,
+   "symbols": 13,
+   "coverage": 0.353,
+   "lang": "en",
+   "reading": "AT T AND THE EAST R ALL OF THEN AS T LE AT MARK",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve Carl Sagan",
+   "length": 322,
+   "symbols": 94,
+   "coverage": 0.348,
+   "lang": "de",
+   "reading": "LEINEIDATICG MEIN AUS T IHR VON DER LA ES NUR SCHEN HERAN N GEN IST ER T ET WIE DIE SCHEN FEONAL EINEM EINE ISST ER ET UND ER SO EHRE DER ALBLCNNBESGRE NUN TEICH UFRIEUNDEIESSENBE DAS T EW",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "daikon 3 (numerals)",
+   "length": 378,
+   "symbols": 63,
+   "coverage": 0.344,
+   "lang": "en",
+   "reading": "YFTTCIESIRSTDACU US IN BE TTLEP THE HE AN E NOT ME D THERE IS STORE HE F ONE DO WIN GRIN O BE LAST S UP A NO THIN O M ELSE SO DIN A HA NOT IS C RE T THEN THE READ AS T TO AN TBEROP TO FILES ONE D OWEN G HA",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "gardi",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.332,
+   "lang": "en",
+   "reading": "ROSES ARE RE A VIOLETS ARE PRE EN GLOBE ST N KILL AND S HAT IS ON S TEN EH A BEEN UEITUREDEA THE LOST WIT HER YE TO THERE ARE COUTPAROWSERSG AT THAT AN E SET MEAN THERE OR ECOUSNLASIONSOSM IS",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Michael Cole",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.326,
+   "lang": "en",
+   "reading": "RE MEAN W HE TIME FRO NEABOIBRATINDOL AT HER LOST AND TROD RIM MISS ELM A THERE AT SURE D THE TROD R ON BORE IRE O LO NORSE B US SAT ILE TERSE OF SO S WIND THE VI LIE DE AS SUN P LA THERE NCY THE SHY",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "doranchak 2 pan-grams",
+   "length": 65,
+   "symbols": 26,
+   "coverage": 0.323,
+   "lang": "en",
+   "reading": "CKENDABLY WORTH OUGDZX JOVE WIFIMPSOQXIBLZP YOU RACK HAVE SOME TFANDOWGDQJ",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Bryianzum",
+   "length": 161,
+   "symbols": 32,
+   "coverage": 0.317,
+   "lang": "de",
+   "reading": "NKENGEEIINE UM SEEN DIE SIEB ES GEH I R S TU DIR EINS GEH ULLEEINI DES TAGE HEULEN RIDNEEEENDNIND GEHT ZEESTEIEERINE DESSEN T HALLEN IEIGDNR RENNE IERIMIRSNNEBENDELI GEHT ET MIR S S",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Project MK-ZODIAC Message to the Zodiac part 1",
+   "length": 136,
+   "symbols": 49,
+   "coverage": 0.316,
+   "lang": "fr",
+   "reading": "N TIRE SE TOUR A L AI S QU A RE PUIS I EN TE RIT QUEL EUE S SAIT SA VE ENCORE M OU TES ER IL PAR DE N A N CE MES EU TE D AIENT EE POUVAIT DE LA N SUR NE SUR CE MOINS DIT LA ET OU R LE RE S SA N D",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "daikon 1",
+   "length": 347,
+   "symbols": 63,
+   "coverage": 0.314,
+   "lang": "en",
+   "reading": "S Y BE AS SOME DO WIT FA WHAT EN THAT AVICTASMUSTLEPEUN DIVE GOT ON IT T LE MIST OF SO CIETWAYPENEERS THE FIGHT T ER ILE AND ER GROUND THO TO UN E NEVER LE S IS SED THAT EALD NEVER LE MISS EE THE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "glurk (easy Beale 3 emulation)",
+   "length": 607,
+   "symbols": 123,
+   "coverage": 0.312,
+   "lang": "en",
+   "reading": "O O IS HAULING E IN SOU TO BE T I ON THE A MALE BUT TE L SAT HER LEYVENFALFIDETHRSE HIM IS RAIN IS THE PRE T HER SING IN S CALL E SO UN TEST SE THEN ON OPEN NERTERALAR TIME O LED AT HER NOR M OR TH DE O",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "jroberson 405",
+   "length": 385,
+   "symbols": 92,
+   "coverage": 0.312,
+   "lang": "fr",
+   "reading": "CE RE S SA L AI NOUS CRIE EISMITTEREVAITE EN SE C O REPONDU S L ON P ROI RENDU TA DINE S ET LE LA M EU R DE SAINT GERE TUER SA VIE N TOUT DE CES N EN T QUE R S LA SOIN ES APPUIS TEEA MOI DE TINT DE LE SUIT",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "smokie American stories 3",
+   "length": 340,
+   "symbols": 97,
+   "coverage": 0.312,
+   "lang": "en",
+   "reading": "M S IN T HER POSE N TEETH ERE AS A NEST HE HE WHAT HE EALHUALTIENEMARMCH MOTH COURONESSTHAUTHF HERE S HIST ERE THEN ILL Y LOO ING THOU ALL Y OFF AN ARE EAR U EN TICKS D OR AFTER THAT S AM ON DE BY",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "RayN",
+   "length": 165,
+   "symbols": 37,
+   "coverage": 0.309,
+   "lang": "en",
+   "reading": "SEE T T AND THRO IN CEOETHSI ON WERE T EH I MR DAR TO AND S TOO ET AN TO HE DRIETRANSCAL SATIN GOEST TH I R NOT D RE ASHES AUNT LHINCTEL EATS AT TO HO I DERE BEEN S LEST HE BE I MUD TRUE ARNAF TENT SO",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "kiuku",
+   "length": 330,
+   "symbols": 63,
+   "coverage": 0.309,
+   "lang": "fr",
+   "reading": "S ROIS M DE TAS IV OR A LA POUR IREFERESECUR LE NEE MIEN AIE SE UUEMMEETSENP ROUER OUTRE R ET NE MENEES EEARERSAS SA CE C ETE ET I NEE A DENT LA LE ETE NUE D NON DE EMEUVEEREUSNSAISAE A LI TE RE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "ccactus",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.303,
+   "lang": "en",
+   "reading": "R HIST ARE GRAPHESENESUAL FOR ITS BLATANTOWISSIONAF THAT MOST COLL ENGLI THREAT BIND S OUR DEN S ONE NT S IS A NOR THE NE THAT HOSEA D THEE TH ROUT HIS BUREDSPERESINR AND UNCOMMON VE RS I",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve (numerals) 2",
+   "length": 286,
+   "symbols": 83,
+   "coverage": 0.297,
+   "lang": "en",
+   "reading": "LOW IN W HAR THE ME IN THEN HER YES OF S MAR IN H AN SEA WANT HERE EASCURSTHEUND FITTING TO AT IN LOSE THAT IN EE RED PALE NCHALEDSITM ONE DID O YOU TAR BE TO THEN T IO USE HARES E WAS THE ME D A HE A",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "glurk 2",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.285,
+   "lang": "en",
+   "reading": "P IS E NIGHT ALMOST THRISTMA SANE ALL THE HE CHTHETROOMARARMWH YES STIR RIND TO HE DNOEAGUOOM AND MA SITTIN DETER DAY CORN AND TATRENORIUUNET START ON ALONG REN TRY NATE BE BE SON THAT",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "_pi 2",
+   "length": 408,
+   "symbols": 59,
+   "coverage": 0.284,
+   "lang": "fr",
+   "reading": "OTER A SOTTE NE SEIN SE PERE EN A EUE S SI LEUR C EN EU A N D ILE EN NU RE N SOTTE R ET ETAGE ME ENTRA EILLESUPEREESEMENO SUR AMI SURES DE LINSOREMETIT ET SUIS ET S SI LEUR ES D DE MES DE UREDINUTP",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Bosley June 1936",
+   "length": 78,
+   "symbols": 20,
+   "coverage": 0.282,
+   "lang": "en",
+   "reading": "RAHUPOSIG NOBLER YOUR ALE W HE MANY TO HIT HIRE FLBINYSLIEADY IN SRELSTUDTOT HOLD OYEHMBHTOC",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Largo Dracula 2",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.282,
+   "lang": "fr",
+   "reading": "A T S NE LE EU NE RITPREAVOIU ALORS MIT ES C EPEE D A EN T IL LE ES EN SEUL A N T TIRA NE TAILLEE M I CE ET S N DE A RE A T IL SA UN D ELLE ET N EU R SA MUR MES N OU TES N ETE SOURDES P A D UN C L AI EU SE LA REVE NOM P",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Mike Eaton",
+   "length": 340,
+   "symbols": 61,
+   "coverage": 0.279,
+   "lang": "fr",
+   "reading": "HE IL ET EUT C O ES ETE UNE RE DUPE TES EN ER MENT A SONNA V AI ET EN RE S CRU AU SE I CA IRAIT PRIT A LE ASSURE D ON EU RE LI NOUER A CA PITIE DE M OR EN T LE L ON VESDERESSETRAV AIE ET ETE NOTE CHERS AIE A",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Colonel Richards 25 February 1709",
+   "length": 236,
+   "symbols": 62,
+   "coverage": 0.275,
+   "lang": "en",
+   "reading": "N IT HER SE HE I ANT AND S AS EN HIM E D T OF THE BE E A CUT D I A NEST THAR GE AS P LED ROMAN D HIS WAS TH ALOATECERTSWONTAG ALOFT HALF RECEINTHELESHRO WEEKS A MELT NOR S THING IN NET THE NO RE EN A BO",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Largo (dates and names)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.274,
+   "lang": "en",
+   "reading": "LA BALLY S THIS TO THING TTUNDDINDETOMENDCR AT A HA HE MOST TORE WE COUNTER ESRESEHEGINSPALP ALL Y THIS OF THE TOO NO WAS TIDE RE AN I MESS AS PALL YHATTERTIFT NO IN AND DE WOO ME S HO U ERE A",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Tony Baloney 2",
+   "length": 340,
+   "symbols": 71,
+   "coverage": 0.274,
+   "lang": "fr",
+   "reading": "NUIT ET CES D ELLE POUR ES DUT REEL A MA A SE CASSE EH MOI SIRE RARMOURETU VIT ROI SI TE A RE ET DE SAIT CE L L AI ADMIS DE JE N A N SE ES AI TOUT UN T REVE UTEPERTANU SE NE LES PLAIRE COU T AI TIRE EN SE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Tony Baloney 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.268,
+   "lang": "fr",
+   "reading": "A OR SA RDAUIENTI LE SUR AI PAR EN EDOUDI DE SURE LES SERS N O IS PAS ART REVU A LA CAR ENTRE LE ME PRIE TAIRE TE RE M OU L EN DOIS EPARUIT AIT EN PUT DE LA NE SE MME S VER ROI ON AI SCUEENARDELI AISE",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "rtf",
+   "length": 400,
+   "symbols": 63,
+   "coverage": 0.268,
+   "lang": "en",
+   "reading": "THE DIS THE EN S OF THE BEGIN NENTHERTIEIRMED AN YOU D HALL NOT T IN SE OF WILL NOT BED ACESTY THE BELL I DO E ARE LE IN THE COMING TOO S TIME R THE HOSE ST LAD ERE AN I E HAD RESENT ROM AT IT WELL O T",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve (random words)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.262,
+   "lang": "en",
+   "reading": "N F I WAS T IMPART HEY HAD E D T RAN MATE A DE MINT HOLD AN S OF ANNE R NO REPRESS BIT AT IT AT LI REST CAT EE P SHE LED TO EIRELSLIARYTASHEW MIND ER TO ON T HER HAD STOUT TEDASILLUHTM ON I AND WAS IN",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Largo Dracula 1",
+   "length": 324,
+   "symbols": 57,
+   "coverage": 0.247,
+   "lang": "fr",
+   "reading": "M OU T ET NIER ESOITEE DIRE S C LA TOPPERREUTARTITRAV D N ETES EN AMENE NI R LE EST ET S SES A CE E DE MES FILS NU ET TA VOUS P OR ETE D ART CENSE ER A S SENT D MURE L AIES SA NOTATDEUROTPREILER ET OU",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Jarlve (days and months)",
+   "length": 118,
+   "symbols": 22,
+   "coverage": 0.246,
+   "lang": "en",
+   "reading": "RYCHISOEATHISKAHCA THIS O LENT HIST IO EN HIS TECH I SPICE IN S MAD NE IN SRINBLIGNFURISPE CAPE US I EVE TO TAGOARDANYBOYDANCY WARD AN HA BAR DAN",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "smokie 1",
+   "length": 340,
+   "symbols": 59,
+   "coverage": 0.241,
+   "lang": "fr",
+   "reading": "N AI RE SE DEVOUE LA EN LI R DE ETE C UNS ENTRA LA PEAU TE SE RIDES O NE MAIS ET N LASSO MPEEATUR EN CES AVEC UELEUD EN AI S ET C EN N AI RE RE RE S TUE DIT SE L OU TEE PAR MIS EN ME LA LA NTILTUEOEDERRNN",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Validator",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.238,
+   "lang": "fr",
+   "reading": "D SES TROUE QUI A LE A T TE AIME N PAR D ET ROI TESFELTAA CRI MA DE USBEARRAITUREINTDA CES OU ES EN A N SE LIA TELLE PALE SENT ET SI N T IN A L TOUR ES SOUS DOMEENEI NE SA LE SIT M IL ON COR ETES LE DE C",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "The Gold Bug",
+   "length": 178,
+   "symbols": 17,
+   "coverage": 0.236,
+   "lang": "en",
+   "reading": "A G GRASS IN THE LISHMSHSTER IN THEE I RS SEAT TWENTY NE EGO EE SANTHIOTEENFINUTES NO THE AS TANLYNOTHFAINLOANH SEEN TH RIFLE AS TSIESHTD OF THE RED T EYED THEE A TH SHE A ALE ER IN E D OF TH",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Largo (names)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.235,
+   "lang": "fr",
+   "reading": "LE BATQONELEICIERIE OU MAIN EN T EU R S LE GARNIE RETARESPOUSISTE DENT AVEU L C RIEUSE N AIE DE VOURERANSUACERETTR IL SENS TA NE A CE R AI TE A SE PIE MOT UN LAINE DE NE ET LE TAME OU R SUR D RE M",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Forty feet",
+   "length": 39,
+   "symbols": 17,
+   "coverage": 0.231,
+   "lang": "fr",
+   "reading": "DE P ON D S SOUS LE M O METAL LA ECHERCIGQP SUR PAS I",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "smithy",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.226,
+   "lang": "fr",
+   "reading": "TU CES UUAL ET A TE NE SE NE LA ITEARAV OU DES LE SONORE A RE UN A SI LIT EELEREEPO EST OU ES UN N AI SONDA MME EN T ILE ES A RIEN CE IN AU TSMEADARUTERTIEE LE AVEREEAPDS METS TOUR AIT EU LOIS EN D A",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Largo Bryan Adams",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.206,
+   "lang": "fr",
+   "reading": "ELEU SI LE MA UNE A N N AI N T POUR VELLRTES AUTRE LE RE A C EN A S OU PAIE NOS SENS IL EU ROI D UN T ET A AU D INISSEMELLAITIEOUE SES C N DES O LUI A L MES ARDEEPR EN A VA CES EN TES ME ON I T EN DAME MES SI B",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "mikec",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.206,
+   "lang": "en",
+   "reading": "ENARDERT OF A TIC IT AS IS HEAD ELYLOUOFHAMANH AN IT TIS HER SAL HER LOHMO ROTTEN AS TRI ST THAT TEREUTOUTALINNES AND GENERA TE SAT IS HOROFEGIHODC END THE SING AGE HE NNEMBEROFSYMBAC",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "daikon 2 (astrology and numerals)",
+   "length": 342,
+   "symbols": 63,
+   "coverage": 0.202,
+   "lang": "la",
+   "reading": "USEICIEMSTUUNUEN EUM PARTE RIRIOREINIESS IACTA E SUA DENT IPEMSERTIOREELO NE NTATUMCONSUERSAE SUAM ENCITU ITA TURNIARIPRINUMNTES IS SE E AD SE RTRITATIUNCDABALO NE ET IN T PER",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Ian Menkins",
+   "length": 408,
+   "symbols": 65,
+   "coverage": 0.201,
+   "lang": "fr",
+   "reading": "C GRINSOUETITELENNER UNE DONNE UROSENSTREAARMEER ELLE SUR EURERDEDASEREINT ETRE COLERE LUT TROMPLILASPE NE S CE EN CI AU M OU S DETTE T AI SI ET FIT DANS TA UN OUI ME PRE A CE M IER NE ES V",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "moonrock",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.194,
+   "lang": "en",
+   "reading": "RARE THAT S EASE HIM NESROHEWORL AND FINE AN ING USE AS THE DEN LIE DNOHTHATTAITSBLICT WAS TO G TEND ERE ROW O AS OLD A SAL S S THE PRE E WASH T ROSE LET E SSERMIDELONGMCONAR IN E BUT D LIES AT",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Project MK-ZODIAC Message to the Zodiac",
+   "length": 408,
+   "symbols": 53,
+   "coverage": 0.191,
+   "lang": "en",
+   "reading": "NTHTERESTORISTWHAE EAST I ON SELF IGHLADEA WOMAN DYTRICEEARTAEST IS WHIT H STERN IN TU RE S IN EE FINDS EN S WET TO COOL EMATLRIGUEA DARES THAN NSTRIESTOTSERERNDU NOT YE LSORSANIEL",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "daikon 4",
+   "length": 340,
+   "symbols": 57,
+   "coverage": 0.179,
+   "lang": "fr",
+   "reading": "SE ETAT SE RRILNOSPROMORAS LE SUR LUE CAR D I AI RUELLE R AI SI N D AIT RE ET IL ETE EN TCETIEDOIUR VOUS MER A S N A L AI RUES O LU A N T AI N AI S SA AI A LA REPARE EST RE R LE C AUSSI L LE M EN CES DE LE AU S S",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Mobyelectra (numerals)",
+   "length": 131,
+   "symbols": 26,
+   "coverage": 0.168,
+   "lang": "la",
+   "reading": "URNQYAUJJVLUMOAIKQ P DE SQJIQJRTFVQRZQOPCQ HIONEFUGARCOPIBVLO NE SUB FYIBDLWFTE SUB FJDGQLJZEMYCQHILDG FUGA REMI COS EXTRA T DIEM IS EXTRA TVIMULDJFG",
+   "readable": false
+  },
+  {
+   "folder": "substitution",
+   "name": "Fire, fire burning bright by Ah Tin Dhu",
+   "length": 95,
+   "symbols": 22,
+   "coverage": 0.084,
+   "lang": "en",
+   "reading": "RHIMPR IN GET I ONE WITH SWNHESWILOBUL OF THE S LILZVFPHIRTEDTRAEW A LIP YMAEFVINGMOCHTS OVAL S MAY BFYPULSINGSP",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "zresearch",
+   "length": 87,
+   "symbols": 19,
+   "coverage": 0.77,
+   "lang": "en",
+   "reading": "WOW VERY INTERESTING STUFF I AM GOING TO HAVE TO TAKE A GOOD LOOK AT ALL OF THIS WHEN I HAVE A LITTLE MORE TIME",
+   "readable": true
+  },
+  {
+   "folder": "transposition",
+   "name": "Reunion",
+   "length": 81,
+   "symbols": 20,
+   "coverage": 0.272,
+   "lang": "en",
+   "reading": "RH BURST T HIRE AT HER THE SUEWS BOAT WON USE IT Y DO RAT A MRS GMTEMORDCAAD ME HIND WAT SANTA WOULLSPK",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Boys' Life June 1931 page 35",
+   "length": 100,
+   "symbols": 20,
+   "coverage": 0.18,
+   "lang": "en",
+   "reading": "SE BAT ACFFARARCRNPSFEAD BE OR A SAID TGLEREWUNOSSITDL MOON TALOISLASVVWW BYE END ERMINE E DO SO BEAT ELEASBNEFOOTOCU",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Geoffrey Rochefort",
+   "length": 148,
+   "symbols": 22,
+   "coverage": 0.115,
+   "lang": "en",
+   "reading": "HA I ON SCENT HCWEYPT MAID ADVRATBGMADVEMEILK AND IEOTFORJSLIZTDSPAI NO ROSE NEDWIUMPNOWMHFRZGU EM OVER I PEN TO SAT TACERNEALUNKIHAMSM OF EE ANY AS WE ACT IWANOBNOSOYSEINSU",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Kryptos 3",
+   "length": 337,
+   "symbols": 25,
+   "coverage": 0.107,
+   "lang": "en",
+   "reading": "QEFEDEDINGW WAR HNIGMOYBORENGAE DOOR ESSHINDTREYTEI THE SEA IDPNAUAPFNDNWTTHEC HE OF O A D OF A EAST RTSELINSEMERLAOUD IS AIM BAND NYHADMECARATRPNCNE RED HAWEEANERLOYHTTHXC",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Klaus DCT challenge 599",
+   "length": 655,
+   "symbols": 48,
+   "coverage": 0.106,
+   "lang": "en",
+   "reading": "BOTH KEY WORDS SHOULD HAVE TO CHARACTERS ENGLISH PLAIN TEXT VESINTNVONMWS FEW NO EALWRNRNCFITEEICRH CODE E A HE ACAEOHMYTONTDFIFMD AN GTDRVAONRRTORMTD HE OUALTHNFHHWHLESLII",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Norbert Roche's first method",
+   "length": 366,
+   "symbols": 23,
+   "coverage": 0.104,
+   "lang": "en",
+   "reading": "SRCHYRRYMMABTSCOWI AS I AT IRTELABLEIELW ART YOU MUNRTTTU MR IT ODSSIEWHBTYSNRU TO LYLLOSEDBERSWH TITLE TSLPWDVPWMFDA RIREERLLBIEOFMGTCH STOP MR WHAT TINT IN TTWWSOWECOYSS",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Jarlve Columnar rearrangement",
+   "length": 320,
+   "symbols": 24,
+   "coverage": 0.091,
+   "lang": "en",
+   "reading": "SMOHVJHMLTTHEL NO YE AN HOME EIHINWODEOUUCJOE ANON DSGBTFLIPOSIFMNIKE INN A IN ME DLCTCABUEGESIBUUTP SED WE A LOT COST GEDESNNGLARGRE SO RRTMARASYHFBGA AT TSNLCOIONSENBOROI",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Boys' Life April 1931 page 31",
+   "length": 90,
+   "symbols": 19,
+   "coverage": 0.089,
+   "lang": "en",
+   "reading": "D A IN TILIEARCLORSCDCPOT WE HAV LOST ERCHEDSESTHAVCIG TO HAS ERE BE WET S I NOT HIS TUPBFDSNDWAPOREVU CELL R",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Klaus DCT challenge 456",
+   "length": 456,
+   "symbols": 23,
+   "coverage": 0.086,
+   "lang": "en",
+   "reading": "OCCNDT TECH SO DNRCOTLYRPEEAVO TO ROT DAFRHYLWESIUBTSS NO E BID RMIEISDGCRVOHMAE ISN ST THEN DIES CNNRECEHFALCSSEPN SLICE EHUTTWNELISTSPDATC S A OOACUEERPAOIETIITY A E A TAIL",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Feynman 1",
+   "length": 380,
+   "symbols": 23,
+   "coverage": 0.076,
+   "lang": "en",
+   "reading": "WE RALNTONVDAEBM PIP KSILSELNSREE HE GO A SHE CRRETDRSIANDROMTER AS HTPLLEARTOJRAAE SAKE HLMIGHTERMRBF YRDDDSIFCEEEERHPWD ITS S MY ARE SE LIKE T TE LA AT S WE OF SO TNDLEAMLTITEW",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Jarlve DCT 17 by 19",
+   "length": 599,
+   "symbols": 24,
+   "coverage": 0.072,
+   "lang": "en",
+   "reading": "US OBEEREDCUUSTENG IN OELNOEEARIIZNMVG LABEL URNUTEFSREEIEHAH TO GEVLAVAYSAITAUONAU BOA ME S AH SEE OF UOTEOUEPNPR DEAD IDLE OCTNTAISOSRLTTET THE LKE DO PKNIKFILHTNENTUZIO",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Jarlve Columnar transposition",
+   "length": 172,
+   "symbols": 21,
+   "coverage": 0.07,
+   "lang": "en",
+   "reading": "ESKWOTCSKIESREESS CHIP OF NLMFFOSLISEFRAI ON TO FETNTSRDLEDEORLDYS SEAS ALPRORSFAVA AN AN ADD RAISLILLFAHFAALRI ICY OR EENVELFRYTHAINMYEG ST TO IROOLEERTYISHMNNS AMID OFF",
+   "readable": false
+  },
+  {
+   "folder": "transposition",
+   "name": "Klaus DCT challenge 480",
+   "length": 480,
+   "symbols": 24,
+   "coverage": 0.067,
+   "lang": "en",
+   "reading": "LTDNSTWAIDAA IN ROW AN HE TEKMNHVEIREESS IT YTLTMDOUAUSGRHSS OF GATE O A ACT A WSERDFHRNDEFETADIO I I MADE OLGRERTA AIAGWSSGSTTNNMBTEE HFYLEUEOPNRNEDRRHT IN RCRNMNENRGASSAU",
+   "readable": false
+  }
+ ],
+ "runtime_s": 120.7
+}

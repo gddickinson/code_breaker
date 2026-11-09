@@ -85,3 +85,9 @@ def rongo_align_sections(r):
 
 def liber_keys_sections(r):
     return [{"heading": "Running keys from its own pages", "paragraphs": [f"Control: a page encrypted under another page as a running key was recovered: {r['control']['recovered']}.", f"We tried {len(r['keywords'])} community keywords and the solved text as running keys on all {r['pages']} unsolved pages, with shuffled controls. The highest word coverage on any page is {r['max_coverage']:.0%}, which is nowhere near English."], "table": _t(["Page", "Best key", "z", "Word coverage", "Output (not a solution)"], [[x["page"], x["key"], x["z"], f"{x['coverage']:.0%}", x["reading"][:60]] for x in r["rows"][:8]])}]
+
+
+def benchmark_sections(r):
+    s = r["summary"]
+    return [{"heading": "How well do these tools work on real solved ciphers?", "paragraphs": ["This suite uses solved ciphers collected in AZdecrypt, with no knowledge of the answers. A result counts as readable if at least 55% of letters fall in dictionary words of four or more letters.", "That threshold undercounts partial reads: at 30-43% coverage, many readings are visibly on the right track, such as 'roses are red, violets are'. Dense homophonics and combined transposition ciphers are where these tools are weakest."], "table": _t(["Type", "Files", "Readable"], [[k, v["files"], v["readable"]] for k, v in s.items()]), "bars": {"title": "Files reaching readable coverage", "items": [{"label": k, "value": v["readable"], "hit": False} for k, v in s.items()], "unit": "files"}},
+            {"heading": "Best and worst", "table": _t(["Type", "Cipher", "Length", "Symbols", "Word coverage", "Output"], [[x["folder"], x["name"], x["length"], x["symbols"], f"{x['coverage']:.0%}", x["reading"][:60]] for x in sorted(r["rows"], key=lambda x: -x["coverage"])[:14]])}]

@@ -42,7 +42,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 13 | Scorers judged against the achievable key on Z340: word-aware and neural (GPU) | completed 2026-11-09 |
 | 14 | Word-guided annealing (negative, control failed); readable gate now accepts very high word coverage | completed 2026-11-09 |
 | 15 | Vigenere-family sweep of all letter texts; VIC teaching model (Purple deferred: no verified wiring) | completed 2026-11-09 |
-| 16 | Benchmark suite from AZdecrypt's solved folders; new data sources; animated bombe stops | next |
+| 16 | Benchmark on 170 AZdecrypt ciphers; rescan of stored attempts (animated bombe deferred) | completed 2026-11-09 |
+| 17 | Lift the benchmark: combined substitution and transposition is 0 of 84, so add period-19-style transposition search with the repeat-pair statistic; bigram solver | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -85,6 +86,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - When several rounds of effort on one benchmark give shrinking returns, park it and move on.
 
 - With short texts and periods up to 20, solvers overfit: require coverage plus a control at that length.
+
+- Word coverage alone is fooled by dense solvers on short texts: the control gate is doing necessary work.
+- A benchmark of real solved ciphers shows limits synthetic tests hide.
 
 ## Emergent tasks
 | ID | Note | Status |

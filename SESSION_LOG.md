@@ -71,3 +71,6 @@ Word-model annealing failed its planted control and did not improve Z340, so its
 
 ## 2026-11-09: Round 15 complete
 Vigenere, Beaufort, Variant and Porta attacks on all 16 letter-only unsolved texts, forwards and reversed, in six languages: nothing readable. Added a VIC-style teaching model (70 systems) and retrained the classifier. Next: Round 16.
+
+## 2026-11-09: Round 16 complete
+Benchmark on 170 solved ciphers at the strict 55% coverage line: substitution 4 of 65, transposition 1 of 14, bigram 1 of 7, combined 0 of 84. Coverage undercounts partial reads. Rescanning about 5,000 stored attempts found no missed partial solve; other high-coverage readings are overfit word salad. Next: Round 17.
