@@ -51,11 +51,16 @@ def run() -> dict:
     raw = solve_symbols(list(z340), "en", True, restarts=6)
     undone = untranspose(z340)
     r340 = solve_symbols(list(undone), "en", True, restarts=12)
+    # Calibration only: positions 252-305 are a reading break found using the published solution.
+    keep = list(range(153 + 99)) + list(range(306, 340))
+    partial = solve_symbols([undone[i] for i in keep], "en", True, restarts=12)
+    partial_truth = "".join(truth340[i] for i in keep)
     key = r408["key"]
     z13, z32 = load("z13.txt"), load("z32.txt")
     apply = lambda t, k: "".join(k.get(c, "?") for c in t)
     return {"id": "zodiac", "z408": {"symbols": len(set(z408)), "accuracy": round(similarity(truth408, r408["plaintext"]), 3), "plaintext": segment(r408["plaintext"])[:420]},
             "z340": {"symbols": len(set(z340)), "period_scan_raw": period_scan(list(z340)), "period_scan_z408_control": period_scan(list(z408)),
                      "period_scan_after_untransposing": period_scan(list(undone)), "raw_accuracy": round(similarity(truth340, raw["plaintext"]), 3), "raw_score": raw["score"],
-                     "untransposed_score": r340["score"], "untransposed_plaintext": segment(r340["plaintext"])[:420], "solved_truth": truth340[:120], "untransposed_accuracy": round(similarity(truth340, r340["plaintext"]), 3)},
+                     "untransposed_score": r340["score"], "untransposed_plaintext": segment(r340["plaintext"])[:420], "solved_truth": truth340[:120], "untransposed_accuracy": round(similarity(truth340, r340["plaintext"]), 3),
+                     "partial_positions": len(keep), "partial_accuracy": round(similarity(partial_truth, partial["plaintext"]), 3), "partial_plaintext": segment(partial["plaintext"])[:420]},
             "short": {"z13": z13, "z32": z32, "z13_with_z408_key": apply(z13, key), "z32_with_z408_key": apply(z32, key), "z13_symbols": len(set(z13)), "z32_symbols": len(set(z32))}}

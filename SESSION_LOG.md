@@ -29,3 +29,6 @@ No cipher has been solved. Next: Round 2 in ROADMAP.md.
 Homophonic temperature now scales with length. Z340 diagnostics show section A is exact and section B breaks near reading position 99. Resume at E4 in ROADMAP.md, then rerun the sweep, Dorabella and D'Agapeyeff under the new verdict.
 
 Hunter's first readable result: the 1896 Le Figaro ad reads as coherent French when reversed and solved as a substitution. Reproduced from independent seeds and read by eye. Whether it was already solved is not yet known (E6).
+
+## 2026-11-09: Round 2 complete
+Hunts reached 1,017 attempts. Reran Zodiac, Dorabella, D'Agapeyeff, Tamam Shud and the sweep under the three-gate verdict: Sweep 16 no evidence, 12 inconclusive, 7 structure only. Dorabella is structure only. Z340: reading verified on 286 of 340 positions; solver 32% there. Le Figaro database located but needs a form submission (E6, waiting on the user). Next: Round 3.

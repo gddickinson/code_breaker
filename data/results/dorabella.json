@@ -352,7 +352,9 @@
     1.0,
     0.989
    ],
-   "mean": 0.996
+   "mean": 0.996,
+   "solved_score": -4.144,
+   "true_coverage": 0.743
   },
   "French": {
    "accuracies": [
@@ -360,7 +362,9 @@
     1.0,
     1.0
    ],
-   "mean": 1.0
+   "mean": 1.0,
+   "solved_score": -3.849,
+   "true_coverage": 0.778
   },
   "German": {
    "accuracies": [
@@ -368,7 +372,9 @@
     1.0,
     1.0
    ],
-   "mean": 1.0
+   "mean": 1.0,
+   "solved_score": -3.919,
+   "true_coverage": 0.701
   },
   "Italian": {
    "accuracies": [
@@ -376,7 +382,9 @@
     1.0,
     1.0
    ],
-   "mean": 0.996
+   "mean": 0.996,
+   "solved_score": -3.919,
+   "true_coverage": 0.694
   },
   "Spanish": {
    "accuracies": [
@@ -384,7 +392,9 @@
     0.977,
     1.0
    ],
-   "mean": 0.989
+   "mean": 0.989,
+   "solved_score": -3.893,
+   "true_coverage": 0.724
   },
   "Latin": {
    "accuracies": [
@@ -392,10 +402,12 @@
     1.0,
     1.0
    ],
-   "mean": 1.0
+   "mean": 1.0,
+   "solved_score": -3.858,
+   "true_coverage": 0.839
   }
  },
  "tests": 36,
- "verdict": "Candidate signal (z=5.7 over a bar of 5.6). Needs independent human reading before any claim.",
- "runtime_s": 52.9
+ "verdict": "Structure only: the symbol order is non-random (z=5.7), but the output does not read as text (score -4.73 against -3.86 for a real solve; word coverage 8% against 84%).",
+ "runtime_s": 45.8
 }

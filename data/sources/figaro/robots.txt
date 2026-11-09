@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Page introuvable</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="https://www.apprendre-en-ligne.net/style.css">
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td> 
+      <img src="https://www.apprendre-en-ligne.net/icones/non.gif" width="398" height="398">
+      </td>
+    <td> 
+      <h1>Page introuvable !</h1>
+      <h2>Vous &eacute;tiez dans la partie cryptologie ?</h2>
+      <p>Si vous &eacute;tiez &agrave; la poursuite du <a href="https://www.apprendre-en-ligne.net/crypto/9/index.html">facteur</a>, 
+        ou si vous tentiez de venir &agrave; bout des <a href="https://www.apprendre-en-ligne.net/crypto/csd2/cryptogrammes.html">12 
+        cryptogrammes</a>, la r&eacute;ponse que vous avez donn&eacute;e n'&eacute;tait 
+        pas la bonne. Revenez &agrave; la page pr&eacute;c&eacute;dente.</p>
+      <h2>Non ?</h2>
+      <p>L'adresse de la page que vous souhaitiez voir a chang&eacute;. Allez 
+        sur la <a href="https://www.apprendre-en-ligne.net/">page d'accueil</a>. 
+        Vous devriez pouvoir la retrouver depuis l&agrave;. </p>
+      <p>Vous pouvez aussi faire une recherche par mots-clefs ci-dessous.</p>
+      <p>Si la page reste introuvable, c'est qu'elle a &eacute;t&eacute; supprim&eacute;e.</p>
+    </td>
+  </tr>
+</table>
+<hr>
+<h1><img src="https://www.apprendre-en-ligne.net/icones/loupe.png" width="120" height="120" align="left"></h1>
+<h1>Recherche par mots-clefs</h1>
+<script async src="https://cse.google.com/cse.js?cx=003715114951971099942:tikt7klb77e"></script>
+<div class="gcse-search"></div>
+</body>
+</html>

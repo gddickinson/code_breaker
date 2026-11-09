@@ -13,3 +13,4 @@ data/sources/beale_try*
 !data/sources/beale_try8
 nohup.out
 data/results/*.log
+data/sources/figaro/*.pdf

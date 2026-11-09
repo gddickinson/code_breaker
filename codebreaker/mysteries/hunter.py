@@ -73,7 +73,12 @@ def hunt(minutes: float = 5, workers: int = 9, seed: int | None = None) -> dict:
             for a in rows:
                 ck = f"{a['code']}|{a['lang']}|{a['level']}"
                 jobs.append({"id": a["id"], "code": a["code"], "path": a["data_path"], "strategy": a["strategy"], "param": a["param"], "lang": a["lang"], "level": a["level"], "seed": rng.randrange(10**8), "tests": tests.get(a["code"], 1), "control": controls.get(ck), "ck": ck})
-            for f in as_completed([ex.submit(work, j) for j in jobs]):
+            futures = [ex.submit(work, j) for j in jobs]
+            for f in as_completed(futures):
+                if time.time() > deadline + 120:  # stop waiting on unusually slow avenues
+                    for other in futures:
+                        other.cancel()
+                    break
                 try:
                     r = f.result()
                 except Exception as exc:

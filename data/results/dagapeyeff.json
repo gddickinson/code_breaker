@@ -933,9 +933,11 @@
    1.0,
    1.0
   ],
-  "mean": 1.0
+  "mean": 1.0,
+  "solved_score": -4.135,
+  "true_coverage": 0.746
  },
  "tests": 90,
  "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.6).",
- "runtime_s": 51.4
+ "runtime_s": 70.3
 }

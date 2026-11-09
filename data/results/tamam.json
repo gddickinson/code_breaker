@@ -118,8 +118,10 @@
    0.523,
    0.159
   ],
-  "mean": 0.348
+  "mean": 0.348,
+  "solved_score": -4.208,
+  "true_coverage": 0.667
  },
  "verdict": "Inconclusive: this solver recovers only 35% of a known message of this size, so a failure here says little.",
- "runtime_s": 6.8
+ "runtime_s": 8.8
 }

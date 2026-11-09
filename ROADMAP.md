@@ -28,8 +28,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | Round | Focus | Status |
 |---|---|---|
 | 1 | Foundation: solver, simulators, verdict gates, leads database, hunter, catalogue, cyberpunk UI | completed 2026-11-08 |
-| 2 | Calibration: fix E3 and E4 (read Z340), rerun sweep, Dorabella and D'Agapeyeff under the new verdict | in_progress |
-| 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | pending |
+| 2 | Calibration: fix E3 and E4 (read Z340), rerun sweep, Dorabella and D'Agapeyeff under the new verdict | completed 2026-11-09 (E4 carried over) |
+| 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | in_progress next |
 | 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | pending |
 | 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | pending |
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | pending |
@@ -49,13 +49,16 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Simple transforms before substitution are worth trying everywhere: one reversal unlocked a real message.
 
+- The stricter verdict correctly demoted Dorabella and seven sweep entries from 'signal' to 'structure only'.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
-| E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. NEXT: in `scripts/diagnose_z340.py`, search a cut point and new start offset for section B, then fold it into `zodiac.untranspose` and rerun |
-| E6 | Le Figaro ad solved by the hunter (reversed substitution, French). Check it against the Dunin et al. database; obtain their 1,400 unsolved ads as a new corpus | pending, high priority |
+| E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. Single-cut phase changes, regular walks and row swaps were all tested and fail (`scripts/diagnose_z340b.py`). On the 286 verified positions the solver reaches 32%, so it needs a stronger language model or more search as well. NEXT: 5-gram scoring and many more CPU hours on this benchmark |
+| E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
+| E7 | Hunter idea: combine reversal with each other transform, and add n-gram scoring in French for newspaper ads | pending |
 | E5 | GPU: all three search loops are slower on MPS than one CPU core (`data/results/gpu_benchmark.json`); use GPU for neural work | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
 
