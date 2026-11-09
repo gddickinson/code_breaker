@@ -40,5 +40,17 @@
   "signature_cipher": "78",
   "ciphertext": "Hc r'ybmpc. Rc tmgp cqr kml qcsj zmlfcsp.",
   "note": "Transcribed by eye from the scan. OCR dropped the second word."
+ },
+ "1881_18811007.jpg": {
+  "date": "7 October 1881",
+  "signature_cipher": "Littlnndli",
+  "ciphertext": "Nljr sjvpla ladedm lmjdt sivqivqt vq lrjrcl t p m",
+  "note": "Transcribed by eye from the scan. Numeral 17 omitted. Reversed text under table 2210; c in lrjrcl and j in sivqivqt do not fit and may be printing errors."
+ },
+ "1894_18940911-25.jpg": {
+  "date": "11 September 1894",
+  "signature_cipher": "25",
+  "ciphertext": "Vrxv dlgq yrxg frpqgv ddkvtv syg m'gqxrk",
+  "note": "Transcribed by eye from the scan. Vigenere CD without W; final g of yrxg gives D where S is expected."
  }
 }

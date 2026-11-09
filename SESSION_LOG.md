@@ -118,3 +118,6 @@ Choosing OCR by language score ties the best control result, 16 of 56. Added a T
 ## 2026-11-09: Scan review, Recovering Data page, cube scanner
 Checked the 7 new flagged Le Figaro ads by eye: 3 readable, 1 partly read, 1 unread, 2 rejected. Leads, facts and an avenue are recorded per ad. Added `#/recovery` with real scans, an interactive threshold, measured OCR comparison, image reconstruction with known answers, error spread and key-aware repair. The cube scanner now lets you choose the side to photograph, drag sides to swap them, rotate a side, and shows real read colours; checked with real mouse events in headless Chrome. A 5-minute hunt ran. Next: Round 21.
 
+## 2026-11-09: Round 21
+OCR fusion with a French letter HMM recovered 18 of 56 known ads, against 16 before. On unsolved ads it flagged 16, of which 3 are new; 2 of those are candidates after checking scans (7 Oct 1881 and 11 Sep 1894), and one is a plain heading. The letter-digit solver passed 40 of 40 planted controls but read no real ad among 467, so that family stays open. A spot check found 3 of 4 letter-digit ads are real mixed-symbol ciphers. AIM and irregular transpositions moved to Round 22.
+

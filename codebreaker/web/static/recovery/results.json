@@ -4,96 +4,96 @@
   "adn"
  ],
  "ocr": {
-  "ads": 7,
+  "ads": 9,
   "table": [
-   {
-    "variant": "otsu",
-    "engine": "rapidocr",
-    "mean": 0.912,
-    "worst": 0.639
-   },
    {
     "variant": "base",
     "engine": "tesseract + whitelist",
-    "mean": 0.893,
+    "mean": 0.899,
     "worst": 0.782
    },
    {
     "variant": "base",
     "engine": "tesseract",
-    "mean": 0.889,
+    "mean": 0.895,
     "worst": 0.782
+   },
+   {
+    "variant": "otsu",
+    "engine": "rapidocr",
+    "mean": 0.894,
+    "worst": 0.639
    },
    {
     "variant": "adaptive",
     "engine": "rapidocr",
-    "mean": 0.882,
+    "mean": 0.884,
     "worst": 0.546
    },
    {
     "variant": "otsu",
     "engine": "tesseract",
-    "mean": 0.855,
+    "mean": 0.862,
     "worst": 0.41
    },
    {
     "variant": "otsu",
     "engine": "tesseract + whitelist",
-    "mean": 0.855,
+    "mean": 0.862,
     "worst": 0.41
    },
    {
     "variant": "denoise",
     "engine": "tesseract",
-    "mean": 0.835,
+    "mean": 0.851,
     "worst": 0.41
    },
    {
     "variant": "denoise",
     "engine": "tesseract + whitelist",
-    "mean": 0.835,
+    "mean": 0.851,
     "worst": 0.41
    },
    {
     "variant": "big",
     "engine": "tesseract",
-    "mean": 0.832,
+    "mean": 0.848,
     "worst": 0.397
    },
    {
     "variant": "big",
     "engine": "tesseract + whitelist",
-    "mean": 0.832,
+    "mean": 0.848,
     "worst": 0.397
    },
    {
     "variant": "big",
     "engine": "rapidocr",
-    "mean": 0.807,
+    "mean": 0.838,
     "worst": 0.0
    },
    {
     "variant": "denoise",
     "engine": "rapidocr",
-    "mean": 0.8,
+    "mean": 0.829,
     "worst": 0.0
    },
    {
     "variant": "base",
     "engine": "rapidocr",
-    "mean": 0.789,
+    "mean": 0.821,
     "worst": 0.0
    },
    {
     "variant": "adaptive",
     "engine": "tesseract + whitelist",
-    "mean": 0.75,
+    "mean": 0.771,
     "worst": 0.0
    },
    {
     "variant": "adaptive",
     "engine": "tesseract",
-    "mean": 0.744,
+    "mean": 0.766,
     "worst": 0.0
    }
   ],
@@ -362,6 +362,82 @@
      "engine": "rapidocr",
      "text": "78 Hc r'ybmpc. Rc tmgp cqr kml qcsj zmlfesp.",
      "recovered": 0.968
+    }
+   ],
+   "1881_18811007.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "Pipi tealr des \u2014 Nljr sjvpla 17. ladedm ? Imjdt.- sivqivgt. vq lrjrel. t.\"p. m. ;",
+     "recovered": 0.925
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "Pipi tealr des  Nljr sjvpla 17. ladedm  Imjdt.- sivqivgt. vq lrjrel. t.-p. m. ,",
+     "recovered": 0.925
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "Nljr sjvpla 17. 1adedm ? Imjdt. TTLNNDLI. srvqivqt.vq lrjrcl, t. p. m.",
+     "recovered": 0.925
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "Deesvaivet. vy \u2014 Nljr sjvpla 17. ladcdm ? lmjdt. - sivqivat. vq lrjrel. t.\"p. m.",
+     "recovered": 0.925
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "Deesvaivet. vy  Nljr sjvpla 17. ladcdm 7 lmjdt. - sivqivat. vq lrjrel. t.p. m.",
+     "recovered": 0.925
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "Nljr S ladcdm ? Imjdt. TTLNNDLI. sjvpla 17. sivqivqt. vq lrjrcl. t. p. 1 m.",
+     "recovered": 0.725
+    }
+   ],
+   "1894_18940911-25.jpg": [
+    {
+     "variant": "base",
+     "engine": "tesseract",
+     "text": "20. \u2014 Vrxv digq yrxg frpqev ddkvty syg-m\u2019gqxrk.",
+     "recovered": 0.909
+    },
+    {
+     "variant": "base",
+     "engine": "tesseract + whitelist",
+     "text": "20. - Vrxv digq yrxg frpqev ddkvty syg-m'gqxrk.",
+     "recovered": 0.909
+    },
+    {
+     "variant": "base",
+     "engine": "rapidocr",
+     "text": "25.Vrxy dlgq yrxg frpqgv ddkvty syg m'gqxrk.",
+     "recovered": 0.939
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract",
+     "text": "20. \u2014 Vrxv digg yrxg frpqev ddkvty sye-m\u2019gqxrk.",
+     "recovered": 0.848
+    },
+    {
+     "variant": "otsu",
+     "engine": "tesseract + whitelist",
+     "text": "20. - Vrxv digg yrxg frpqev ddkvty sye-m'gqxrk.",
+     "recovered": 0.848
+    },
+    {
+     "variant": "otsu",
+     "engine": "rapidocr",
+     "text": "25. - Vrxy ( dlgq yrxg frpqgv ddkvty syg.m'gqxrk.",
+     "recovered": 0.939
     }
    ]
   }

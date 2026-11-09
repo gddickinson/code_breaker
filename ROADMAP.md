@@ -47,7 +47,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 18 | Le Figaro OCR cleanup tested on known answers; Otsu chosen | completed 2026-11-09 |
 | 19 | Period-step search for combined ciphers (controls 5 of 6, benchmark 0 of 84); bigram solver (control failed, 4-16%, parked) | completed 2026-11-09 |
 | 20 | Le Figaro OCR choice by language score (16 of 56, ties best) | completed 2026-11-09 |
-| 21 | Use theory in practice: HMM repair of Le Figaro OCR, soft fusion of OCR engines with belief propagation; AIM dictionary code from the archive.org scan; irregular transposition models | next |
+| 21 | Le Figaro OCR fusion with a French HMM (control 18 of 56, up from 16; majority vote 16); letter-digit attack (planted 40 of 40, no real ad read) | completed 2026-11-09 |
+| 22 | AIM dictionary code from the archive.org scan; irregular transposition models; letter-digit ads with plain-line exclusion, homophones and 30-letter controls | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -144,3 +145,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Lesson: key-aware repair fixed both errors in the 1894 ad, but on controls fully repaired only 49 of 120 and wrongly changed 10 of 120 clean fragments. It is a suggestion tool, not an automatic fix.
 - Lesson: a word-list null with no positive control is meaningless. The first UNIQUEMENT test returned 0.0 because the word was not in the list.
 
+## Added 2026-11-09: Round 21
+- Fusion flagged 16 ads, 3 new. Two are real candidates (7 Oct 1881, 11 Sep 1894). The third is a plain section heading.
+- Lesson: a planted control can be much easier than the real target. The digit solver passed 40 of 40 at 90 letters, yet real ads are near 30 letters and mix in plain French.
+- Lesson: `plain_coverage` must run on digit-bearing ads as well. The top digit hits were ordinary French with figures.
+- New idea: HMM fusion could use confidence values from the OCR engines instead of equal votes.
+- OCR benchmark rerun on 9 hand-read ads: tesseract on base 90%, rapidocr on Otsu 89%. The ranking changed from the 7-ad run, so the top settings are ties.

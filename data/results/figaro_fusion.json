@@ -1,0 +1,197 @@
+{
+ "id": "figaro_fusion",
+ "baseline_recovered": 16,
+ "control_ads": 56,
+ "control": {
+  "majority": 16,
+  "hmm": 18
+ },
+ "chosen": "hmm",
+ "tested": 641,
+ "thresholds": {
+  "1": 0.45,
+  "2": 0.2,
+  "5": 0.14,
+  "3": 0.156,
+  "6": 0.11,
+  "4": 0.113
+ },
+ "flagged": [
+  {
+   "image": "1882_18820601-5.jpg",
+   "letters": 37,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.757,
+   "null_coverage": 0.108,
+   "score": -4.168374052966049,
+   "method": "table 2217",
+   "plaintext": "POURQUOIPASECRIREFATIESGRANDPEINEAMIE"
+  },
+  {
+   "image": "1879_18790814-R.jpg",
+   "letters": 35,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.743,
+   "null_coverage": 0.114,
+   "score": -4.34651280388706,
+   "method": "table 2211",
+   "plaintext": "PRISDEUXBAINSBIENPASUNAMIENUIMORTEL"
+  },
+  {
+   "image": "1890_18901026-VE3.jpg",
+   "letters": 28,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.714,
+   "null_coverage": 0.143,
+   "score": -4.803383612888336,
+   "method": "Vigenere CEAD, no W",
+   "plaintext": "SUISENITALIEABSENTUNMOISYIIQ"
+  },
+  {
+   "image": "1896_18960715.jpg",
+   "letters": 101,
+   "readings": 4,
+   "plain_coverage": 0.04,
+   "coverage": 0.683,
+   "null_coverage": 0.04,
+   "score": -4.185037768895058,
+   "method": "table 1001",
+   "plaintext": "TOUTVOUSATTENDSTOURESRECONNAISSANTDEJOURSOUETCOMMENTENVOYERBOUQUINDESIREANNALESAIMEESRYSCKREPONDEZPAR"
+  },
+  {
+   "image": "1881_18811007.jpg",
+   "letters": 49,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.673,
+   "null_coverage": 0.102,
+   "score": -4.576301841068672,
+   "method": "reversed, table 2210",
+   "plaintext": "EBRIREOUTOUJOURSTAIMEMALADEDEPUISRIENSLAREDLTJPJP"
+  },
+  {
+   "image": "1886_18860629-CH.jpg",
+   "letters": 35,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.657,
+   "null_coverage": 0.114,
+   "score": -5.474009031678683,
+   "method": "Vigenere CEAD, no W",
+   "plaintext": "TACHEZEVITERSANSREFUSEZQYYNFFTLQVYT"
+  },
+  {
+   "image": "1894_18941003-25.jpg",
+   "letters": 35,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.657,
+   "null_coverage": 0.0,
+   "score": -4.295334427485169,
+   "method": "Vigenere CD, no W",
+   "plaintext": "COMMETUVOUDRASMOIRESTEPARCSVENDRENI"
+  },
+  {
+   "image": "1877_18771108-R.jpg",
+   "letters": 46,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.63,
+   "null_coverage": 0.109,
+   "score": -4.077786344638577,
+   "method": "table 2214",
+   "plaintext": "UONNESNOUVELLESVOYAGEAVECUEESDITVENAISPORTUGAL"
+  },
+  {
+   "image": "1886_18860109.jpg",
+   "letters": 43,
+   "readings": 4,
+   "plain_coverage": 0.279,
+   "coverage": 0.628,
+   "null_coverage": 0.116,
+   "score": -4.2748779469818645,
+   "method": "table 2216",
+   "plaintext": "CORRESPONDANCESPERSONNELLESSOUHTSSINCAUREVR"
+  },
+  {
+   "image": "1882_18820701-5.jpg",
+   "letters": 40,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.625,
+   "null_coverage": 0.125,
+   "score": -4.174394194037437,
+   "method": "table 2217",
+   "plaintext": "AIMEMOIUNPEUJETAIMEETDESIRJETANTTEBAISER"
+  },
+  {
+   "image": "1890_18901004-MH.jpg",
+   "letters": 36,
+   "readings": 3,
+   "plain_coverage": 0.0,
+   "coverage": 0.611,
+   "null_coverage": 0.222,
+   "score": -4.27487136360953,
+   "method": "table 1101",
+   "plaintext": "TROPTARDMAREDECADONEZRENDEZVOUSLETRE"
+  },
+  {
+   "image": "1892_18920730-H.jpg",
+   "letters": 36,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.611,
+   "null_coverage": 0.111,
+   "score": -4.8987578557427724,
+   "method": "table 1101",
+   "plaintext": "RIENQUETOIOCUZPEPENSEDESIRHATETEVOIR"
+  },
+  {
+   "image": "1896_18961106-KP.jpg",
+   "letters": 168,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.601,
+   "null_coverage": 0.048,
+   "score": -4.231508055008253,
+   "method": "table 1108",
+   "plaintext": "VOILALONGTEMPJENAIRECUDEMOTMEPROUVANTQUETUAIMEETPENSETOUJOURMOIPOURTANTTAIMEAVECTANTDEFORCESDETENDRESSTUESMONSOUCIMAJOIEJEVAISENFINTEPRENSERBIENFORTSURMONCOEURTIDOLAQUI"
+  },
+  {
+   "image": "1894_18940911-25.jpg",
+   "letters": 27,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.519,
+   "null_coverage": 0.148,
+   "score": -4.610974505766859,
+   "method": "Vigenere CD, no W",
+   "plaintext": "TOUSBIENVOUDDONNESBAISRUQUE"
+  },
+  {
+   "image": "1882_18821224-5.jpg",
+   "letters": 77,
+   "readings": 4,
+   "plain_coverage": 0.0,
+   "coverage": 0.506,
+   "null_coverage": 0.104,
+   "score": -4.842717235341139,
+   "method": "table 2217",
+   "plaintext": "TRISTEDADIEUSIFROIDTAIMEQUONDMEMETEDESIREFOLLEMENTEBOISEPORBOJAAUREJTPECPERIE"
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "letters": 22,
+   "readings": 1,
+   "plain_coverage": 0.0,
+   "coverage": 0.455,
+   "null_coverage": 0.364,
+   "score": -5.290551280469839,
+   "method": "reversed, Caesar 11",
+   "plaintext": "DEAQCEDADEMAMENTEZCQPC"
+  }
+ ]
+}
