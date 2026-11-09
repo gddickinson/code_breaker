@@ -64,3 +64,32 @@ def test_browser_annealer_breaks_a_substitution():
     finally:
         tmp.unlink()
     assert similarity(got, text) > 0.8
+
+
+def test_cube_engine_works_with_the_solver():
+    import random
+
+    import kociemba
+
+    cube_path = ENGINE.with_name("cube_engine.js")
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    run = lambda body: json.loads(subprocess.run(["node", "-e", f"const C=require({json.dumps(str(cube_path))});{body}"], capture_output=True, text=True, check=True).stdout)
+    moves = "U R F D L B U' R' F' D' L' B' U2 R2 F2 D2 L2 B2".split()
+    assert run("console.log(JSON.stringify(C.facelets(C.newCube())))") == "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+    r = random.Random(4)
+    for _ in range(8):
+        seq = [r.choice(moves) for _ in range(25)]
+        state = run(f"const s=C.newCube();{json.dumps(seq)}.forEach(m=>C.applyMove(s,m));console.log(JSON.stringify(C.facelets(s)))")
+        sol = kociemba.solve(state).split()
+        assert len(sol) <= 26
+        assert run(f"const s=C.newCube();{json.dumps(seq + sol)}.forEach(m=>C.applyMove(s,m));console.log(JSON.stringify(C.facelets(s)))") == "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB"
+
+
+def test_sudoku_solver():
+    if not shutil.which("node"):
+        pytest.skip("node not installed")
+    p = "530070000600195000098000060800060003400803001700020006060000280000419005000080079"
+    cube_path = ENGINE.with_name("cube_engine.js")
+    out = json.loads(subprocess.run(["node", "-e", f"const C=require({json.dumps(str(cube_path))});const g=[...{json.dumps(p)}].map(Number);C.solveSudoku(g);console.log(JSON.stringify(g.join('')))"], capture_output=True, text=True, check=True).stdout)
+    assert out == "534678912672195348198342567859761423426853791713924856961537284287419635345286179"

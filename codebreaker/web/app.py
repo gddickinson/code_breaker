@@ -209,6 +209,38 @@ def solutions():
     return {"verified": VERIFIED, "candidates": items}
 
 
+class CubeIn(BaseModel):
+    facelets: str
+
+
+@app.post("/api/cube/solve")
+def cube_solve(body: CubeIn):
+    import kociemba
+
+    if body.facelets == "UUUUUUUUURRRRRRRRRFFFFFFFFFDDDDDDDDDLLLLLLLLLBBBBBBBBB":
+        return {"moves": []}
+    return {"moves": guarded(kociemba.solve, body.facelets).split()}
+
+
+@app.get("/api/publications")
+def publications(q: str = "", topic: str = "", page: int = 0):
+    from .. import leads as L
+
+    db = L.connect()
+    where, args = ["1=1"], []
+    if topic:
+        where.append("topic=?")
+        args.append(topic)
+    for w in q.split()[:6]:
+        where.append("(title LIKE ? OR authors LIKE ? OR venue LIKE ?)")
+        args += [f"%{w}%"] * 3
+    cond = " AND ".join(where)
+    total = db.execute(f"SELECT count(*) FROM publications WHERE {cond}", tuple(args)).fetchone()[0]
+    rows = [r.as_dict() for r in db.execute(f"SELECT * FROM publications WHERE {cond} ORDER BY citations DESC, year DESC LIMIT 40 OFFSET ?", tuple(args) + (max(page, 0) * 40,))]
+    topics = [{"topic": r[0], "n": r[1]} for r in db.execute("SELECT topic, count(*) FROM publications GROUP BY 1 ORDER BY 2 DESC")]
+    return {"total": total, "rows": rows, "topics": topics, "page": page}
+
+
 @app.get("/api/leads/feed")
 def lead_feed():
     from .. import leads as L

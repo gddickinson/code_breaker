@@ -38,6 +38,7 @@ async function render() {
     const m = hash.match(r.re);
     if (!m) continue;
     document.querySelectorAll("[data-nav]").forEach(a => a.classList.toggle("on", a.dataset.nav === r.nav));
+    document.querySelectorAll("nav.groups details").forEach(d => { d.classList.toggle("on", !!d.querySelector(`[data-nav="${r.nav}"]`)); d.open = false; });
     view().innerHTML = '<p class="mute">Loading…</p>';
     try { await r.fn(...m.slice(1)); }
     catch (e) { view().innerHTML = `<p class="err">${esc(e.message)}</p>`; }
@@ -47,6 +48,8 @@ async function render() {
   }
   view().innerHTML = "<h1>Page not found</h1>";
 }
+
+document.addEventListener("click", e => { document.querySelectorAll("nav.groups details[open]").forEach(d => { if (!d.contains(e.target)) d.open = false; }); });
 
 async function start() {
   window.addEventListener("hashchange", render);

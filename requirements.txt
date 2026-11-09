@@ -2,6 +2,7 @@ apsw
 argostranslate==1.11.0
 fastapi==0.162.2
 httpx==0.28.1
+kociemba==1.2.1
 numba==0.68.1
 numpy==2.5.4
 pycryptodome==4.4.0

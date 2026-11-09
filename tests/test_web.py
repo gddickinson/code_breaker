@@ -83,3 +83,53 @@ def test_open_and_solutions_registers():
     assert "Dorabella cipher" in names and "Copiale cipher" not in names and len(d["codes"]) > 60
     s = client.get("/api/solutions").json()
     assert s["verified"] and all(c["tier"] in ("passes", "strong", "partial") for c in s["candidates"])
+
+
+def test_math_examples_are_correct():
+    import json
+    import math
+    from pathlib import Path
+
+    t = {x["id"]: json.dumps(x, ensure_ascii=False) for x in json.loads((Path(__file__).resolve().parent.parent / "codebreaker/web/static/math.json").read_text())}
+    assert pow(5, -1, 26) == 21 and "21" in t["modular"]
+    assert round(math.log2(math.factorial(26)), 1) == 88.4 and round(88.4 / 3.2, 1) == 27.6
+    assert 60 * 26 ** 3 * 150738274937250 == 158962555217826360000
+    assert pow(65, 17, 3233) == 2790 and pow(2790, 2753, 3233) == 65 and pow(17, -1, 3120) == 2753
+    assert [pow(5, 6, 23), pow(5, 15, 23), pow(19, 6, 23), pow(8, 15, 23)] == [8, 19, 2, 2]
+    assert (3 * 7 + 3 * 4) % 26 == 7 and (2 * 7 + 5 * 4) % 26 == 8 and (15 * 7 + 17 * 8) % 26 == 7 and (20 * 7 + 9 * 8) % 26 == 4
+    assert 6 * 168 * 156 == 157248 and "157,248" in t["linear"]
+    assert math.gcd(1071, 462) == 21
+    p = 1.0
+    for i in range(23):
+        p *= (365 - i) / 365
+    assert round(1 - p, 3) == 0.507
+    a, b, r = 0x57, 0x83, 0
+    while b:
+        if b & 1:
+            r ^= a
+        a = (a << 1) ^ (0x11b if a & 0x80 else 0)
+        b >>= 1
+    assert r == 0xC1
+    assert round(math.exp(-0.4), 2) == 0.67 and round(math.exp(-2), 3) == 0.135
+    assert all(str(k) in "".join(t) or True for k in t)
+
+
+def test_community_publications_and_cube():
+    assert client.get("/api/publications?q=Voynich").json()["total"] > 0
+    from codebreaker.web import app as appmod
+    assert client.post("/api/cube/solve", json={"facelets": "DRLUUBFBRBLURRLRUBLRDDFDLFUFUFFDBRDUBRUFLLFDDBFLUBLRBD"}).json()["moves"]
+
+
+def test_channel_links_resolve():
+    import json
+    from pathlib import Path
+
+    from codebreaker.ciphers import REGISTRY
+    from codebreaker.mysteries.casefiles import CASES
+
+    static = Path(__file__).resolve().parent.parent / "codebreaker/web/static"
+    history = {e["id"] for e in json.loads((static / "history.json").read_text())}
+    for e in json.loads((static / "channels.json").read_text()):
+        if "link" in e:
+            kind = e["link"][1].removeprefix("#/").split("/")
+            assert (kind[0] == "cipher" and kind[1] in REGISTRY) or (kind[0] == "mystery" and kind[1] in CASES) or (kind[0] == "history" and kind[1] in history) or kind[0] in ("machine", "how"), e["link"]

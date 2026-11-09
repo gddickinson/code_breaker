@@ -1,0 +1,184 @@
+[
+{
+"category": "Contests and challenges",
+"name": "MysteryTwister",
+"url": "https://mysterytwister.org/",
+"note": "Graded cipher challenges from easy to very hard.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "CryptoHack",
+"url": "https://cryptohack.org/",
+"note": "Modern cryptography challenges and lessons.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "CTFtime",
+"url": "https://ctftime.org/",
+"note": "Calendar and rankings for capture-the-flag events.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "National Cipher Challenge",
+"url": "https://www.cipherchallenge.org/",
+"note": "Annual UK classical-cipher contest. Prizes are for school students, but anyone can follow it.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "NSA Codebreaker Challenge",
+"url": "https://nsa-codebreaker.org/",
+"note": "US student contest. Listed for reference only.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "picoCTF",
+"url": "https://picoctf.org/",
+"note": "Beginner-friendly practice, aimed at students.",
+"status": "200"
+},
+{
+"category": "Contests and challenges",
+"name": "American Cryptogram Association",
+"url": "https://www.cryptogram.org/",
+"note": "Long-running society publishing member cipher puzzles.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Cipher Mysteries",
+"url": "https://ciphermysteries.com/",
+"note": "Nick Pelling's site on unsolved historical ciphers.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Klausis Krypto Kolumne",
+"url": "https://scienceblogs.de/klausis-krypto-kolumne/",
+"note": "Klaus Schmeh's blog, including the Top 50 unsolved messages.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Zodiac Ciphers forum",
+"url": "https://forum.zodiackillerciphers.com/",
+"note": "Active community around the Zodiac and related ciphers.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Voynich Ninja",
+"url": "https://www.voynich.ninja/",
+"note": "Forum on the Voynich manuscript.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "voynich.nu",
+"url": "https://voynich.nu/",
+"note": "Rene Zandbergen's reference site and transliterations.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Le Figaro personal ads",
+"url": "https://www.apprendre-en-ligne.net/crypto/Figaro/",
+"note": "Thousands of ads, with an open invitation to propose decryptions.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "r/codes",
+"url": "https://www.reddit.com/r/codes/",
+"note": "Reddit community for help with ciphers.",
+"status": "200"
+},
+{
+"category": "Historical ciphers and open problems",
+"name": "Elonka Dunin on Kryptos",
+"url": "https://elonka.com/kryptos/",
+"note": "Long-standing Kryptos resource.",
+"status": "200"
+},
+{
+"category": "Research",
+"name": "HistoCrypt conference",
+"url": "https://histocrypt.org/",
+"note": "International conference on historical cryptology.",
+"status": "200"
+},
+{
+"category": "Research",
+"name": "DECRYPT project",
+"url": "https://de-crypt.org/",
+"note": "Tools and resources for historical cryptology.",
+"status": "200"
+},
+{
+"category": "Research",
+"name": "IACR ePrint Archive",
+"url": "https://eprint.iacr.org/",
+"note": "Open preprints in cryptology.",
+"status": "200"
+},
+{
+"category": "Tools",
+"name": "CrypTool",
+"url": "https://www.cryptool.org/",
+"note": "Free cryptography learning software.",
+"status": "200"
+},
+{
+"category": "Tools",
+"name": "AZdecrypt",
+"url": "https://github.com/doranchak/azdecrypt",
+"note": "Strong homophonic solver and cipher collection.",
+"status": "200"
+},
+{
+"category": "Tools",
+"name": "dCode",
+"url": "https://www.dcode.fr/en",
+"note": "Online cipher and puzzle tools.",
+"status": "200"
+},
+{
+"category": "Puzzles",
+"name": "World Cube Association",
+"url": "https://www.worldcubeassociation.org/",
+"note": "Official speedcubing competitions.",
+"status": "200"
+},
+{
+"category": "Puzzles",
+"name": "God's Number is 20",
+"url": "https://cube20.org/",
+"note": "The proof that any cube can be solved in 20 moves.",
+"status": "200"
+},
+{
+"category": "Puzzles",
+"name": "Kociemba's two-phase algorithm",
+"url": "https://kociemba.org/cube.htm",
+"note": "The cube-solving method used in this app.",
+"status": "200"
+},
+{
+"category": "Puzzles",
+"name": "Project Euler",
+"url": "https://projecteuler.net/",
+"note": "Mathematical programming problems.",
+"status": "200"
+},
+{
+"category": "Puzzles",
+"name": "Advent of Code",
+"url": "https://adventofcode.com/",
+"note": "Daily programming puzzles each December.",
+"status": "200"
+}
+]

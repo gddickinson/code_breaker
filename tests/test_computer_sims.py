@@ -45,3 +45,8 @@ def test_colossus_peak_finds_the_setting():
     wheel = [random.Random(i + 9).randint(0, 1) for i in range(41)]
     hits = node(f"const w={json.dumps(wheel)};let h=0;for(let t=0;t<41;t++){{const c=S.colossusCount(S.colossusTape(w,t,2400,0.62,41+t),w);if(c.indexOf(Math.max(...c))===t)h++}};console.log(JSON.stringify(h))")
     assert hits >= 38
+
+
+def test_lsb_steganography_round_trip():
+    got = node("const p=new Uint8Array(3000).map((_,i)=>i%251);const o=S.lsbEmbed(p,'Rendez-vous à minuit');const d=o.reduce((a,v,i)=>Math.max(a,Math.abs(v-p[i])),0);console.log(JSON.stringify([S.lsbExtract(o),d]))")
+    assert got == ["Rendez-vous à minuit", 1]

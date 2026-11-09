@@ -86,3 +86,21 @@ function modPowSteps(base, exp, mod) {
 }
 
 if (typeof module !== "undefined") module.exports = { aesTrace, aesEncrypt, hex, unhex, sdesTrace, colossusTape, colossusCount, modPowSteps };
+
+/* Least-significant-bit steganography, over RGB bytes: a 16-bit length, then UTF-8 text. */
+function lsbEmbed(pixels, text) {
+  const data = new TextEncoder().encode(text), bits = [];
+  for (let i = 15; i >= 0; i--) bits.push((data.length >> i) & 1);
+  data.forEach(b => { for (let i = 7; i >= 0; i--) bits.push((b >> i) & 1); });
+  if (bits.length > pixels.length) throw new Error("Message is too long for this image.");
+  const out = Uint8Array.from(pixels);
+  bits.forEach((b, i) => { out[i] = (out[i] & 254) | b; });
+  return out;
+}
+function lsbExtract(pixels) {
+  let n = 0; for (let i = 0; i < 16; i++) n = n * 2 + (pixels[i] & 1);
+  const out = new Uint8Array(n);
+  for (let i = 0; i < n; i++) { let v = 0; for (let j = 0; j < 8; j++) v = v * 2 + (pixels[16 + i * 8 + j] & 1); out[i] = v; }
+  return new TextDecoder().decode(out);
+}
+if (typeof module !== "undefined") Object.assign(module.exports, { lsbEmbed, lsbExtract });

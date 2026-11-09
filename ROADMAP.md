@@ -101,6 +101,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Adding search options raises the chance level: two short readings (H and one R ad) now fall below the stricter shuffled threshold, so keep their earlier evidence separate.
 
+- A finder that adds names needs deduplication against what is already tracked, or lists fill with aliases.
+- Keyword searches return off-topic papers: filter and spot-check them.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|

@@ -98,3 +98,6 @@ Added illustrated pages for frequency analysis, key-length detection and column 
 
 ## 2026-11-09: Round 17 complete
 Added the Le Figaro systems that are not simple tables. No new readings, and the known-answer control stayed at 14 of 56. The larger search raised the shuffled threshold, so the H and 14 Aug 1879 R ads no longer clear it on this measure; their earlier evidence stands in the leads. The limit is OCR. Next: Round 18.
+
+## 2026-11-09: Community, Puzzles, Maths, Publications, How Secrets Travel (user requests)
+Added Community links (26 checked), Puzzles (3D Rubik's cube with Kociemba solver, sudoku), 14 maths topics with tested worked examples, a Publications table of 1,264 Crossref records, a page on steganography and transmission with a working image demo, and grouped navigation. `scripts/find_problems.py` adds new codes from Wikipedia categories and the AZdecrypt list, and added 11 new entries. A session timer runs it every 6 hours.

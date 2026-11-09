@@ -1,0 +1,72 @@
+[
+{"id":"modular","title":"Modular arithmetic","tag":"Foundations","lead":"Clock arithmetic is the language of nearly every cipher.","sections":[
+["The idea","Modular arithmetic keeps only the remainder after division. On a 12-hour clock, 9 + 5 is 2, because 14 leaves remainder 2 when divided by 12. We write 14 ≡ 2 (mod 12). Ciphers use it so letters wrap around the alphabet instead of running off the end."],
+["Letters as numbers","Number A = 0 up to Z = 25. A Caesar shift by k is then C = (P + k) mod 26."],
+["Inverses","To undo multiplication by a, we need a number a⁻¹ with a × a⁻¹ ≡ 1. That exists only when a shares no factor with the modulus. This is why an affine cipher allows only 12 multipliers mod 26."]],
+"example":["Find the inverse of 5 mod 26","Try 5 × 21 = 105 = 4 × 26 + 1. So 5 × 21 ≡ 1, and the inverse of 5 is 21. To decrypt an affine cipher with a = 5, multiply by 21. With 12 multipliers and 26 shifts, the affine cipher has 312 keys."],"widget":"inverse","links":[["Caesar","#/cipher/caesar"],["Affine","#/cipher/affine"]]},
+{"id":"keyspace","title":"Counting keys","tag":"Foundations","lead":"Key count tells you what brute force costs. It says little about real security.","sections":[
+["Permutations","A substitution alphabet is a rearrangement of 26 letters. There are 26 choices for A, 25 for B, and so on: 26! in total."],
+["Bits","Keys are compared in bits: the base-2 logarithm of the count. Each extra bit doubles the search."],
+["Why it is not enough","Simple substitution has about 88 bits of key, more than DES, yet a page of it falls in moments to frequency analysis. A large keyspace is necessary and nowhere near sufficient."]],
+"example":["How big is the Enigma's keyspace?","Choosing 3 rotors in order from 5 gives 60 arrangements. Start positions give 26³ = 17,576. Ten plugboard pairs give 150,738,274,937,250 wirings. Multiplying gives about 1.59 × 10²⁰ settings, around 67 bits, before counting ring settings."],"links":[["Enigma","#/machine/enigma"],["Bombe","#/machine/bombe"]]},
+{"id":"frequency","title":"Frequency and chi-squared","tag":"Statistics","lead":"Languages have fingerprints, and a substitution cannot erase them.","sections":[
+["Letter statistics","In English, E makes up roughly 12.7% of letters, and Z well under 0.1%. A substitution relabels letters but keeps those rates."],
+["Measuring fit","Chi-squared compares the counts we see, O, with those expected, E: the sum over letters of (O − E)² ÷ E. Smaller means a better fit. For a Caesar cipher, try all shifts and keep the smallest."]],
+"example":["A small chi-squared calculation","Suppose a 100-letter text has 11 Es where 12.7 are expected. That letter contributes (11 − 12.7)² ÷ 12.7 ≈ 0.23. Adding such terms over all 26 letters gives the score."],"links":[["Interactive frequency analysis","#/how/frequency"]]},
+{"id":"ic","title":"Index of coincidence","tag":"Statistics","lead":"One number reveals whether a text is built from one alphabet or many.","sections":[
+["Definition","Pick two letters from a text at random. The index of coincidence, IC, is the chance that they match: the sum over letters of n(n − 1), divided by N(N − 1)."],
+["Why it works","For a language, IC is approximately the sum of each letter's probability squared, about 0.066 in English. For uniform random letters it is 26 × (1/26)², which is 1/26 ≈ 0.0385. Any simple substitution leaves IC unchanged, because it only renames letters."],
+["Finding key length","Take every Lth letter. If L is the key length, those letters share one shift, so their IC rises towards 0.066."]],
+"example":["IC of AABB","There are N = 4 letters, with counts 2 and 2. IC = (2×1 + 2×1) ÷ (4×3) = 4/12 ≈ 0.333."],"links":[["Interactive key-length finder","#/how/keylength"],["Vigenere","#/cipher/vigenere"]]},
+{"id":"entropy","title":"Entropy and unicity distance","tag":"Information theory","lead":"How much ciphertext do you need before only one answer makes sense?","sections":[
+["Entropy","Claude Shannon measured information in bits. A source with probabilities p has entropy H = −Σ p log₂ p. Twenty-six equally likely letters give log₂ 26 ≈ 4.7 bits per letter."],
+["Redundancy","English carries only about 1.5 bits per letter once its patterns are taken into account. The difference, roughly 3.2 bits, is redundancy, and redundancy is what codebreakers exploit."],
+["Unicity distance","Shannon's estimate of the ciphertext needed to pin down a unique key is U = H(K) ÷ D, the key entropy divided by the redundancy per letter."]],
+"example":["Simple substitution","H(K) = log₂ 26! ≈ 88.4 bits and D ≈ 3.2 bits. So U ≈ 27.6, or about 28 letters. Below that, several readings can look equally good. This is why the 44-letter Tamam Shud code resists any confident answer once a stronger system is allowed."],"links":[["Solvability map","#/mystery/solvability"],["Shannon","#/history/shannon"]]},
+{"id":"likelihood","title":"Scoring text: log-likelihood","tag":"Statistics","lead":"How a computer judges whether a guess looks like language.","sections":[
+["N-grams","Count how often each run of four letters appears in a large body of text. That estimates the probability of each quadgram."],
+["Add logs, not probabilities","Multiplying thousands of tiny probabilities overflows a computer's range. Logarithms turn products into sums, so a text's score is the sum of log-probabilities."],
+["A warning","A high score is not proof. When the solver has freedom to choose many symbols, it can produce text that scores well and means nothing. This app therefore compares each result with scrambled controls."]],
+"example":["Comparing two quadgrams","If TION has probability 0.003 and QZXJ has 0.0000001, their log₁₀ values are about −2.52 and −7. The difference of about 4.5 means TION is about 30,000 times more likely."],"links":[["Watch a cipher break","#/machine/anneal"],["How to read results","#/help"]]},
+{"id":"annealing","title":"Simulated annealing","tag":"Algorithms","lead":"A search that sometimes takes a step backwards on purpose.","sections":[
+["Hill climbing","Change the key slightly and keep the change if the score improves. It is simple but often gets stuck on a small peak."],
+["Metropolis rule","Accept a worse move with probability e^(Δ/T), where Δ is the score change and T is the temperature. High T allows big jumps, and low T settles down."],
+["Cooling","Start hot and cool slowly. It is modelled on annealing metal, and it is the workhorse of modern classical-cipher solvers."]],
+"example":["Accepting a bad move","With Δ = −2: at T = 5 the chance is e^(−0.4) ≈ 67%, and at T = 1 it is e^(−2) ≈ 13.5%. Bad moves become rare as the temperature falls."],"links":[["Watch a cipher break","#/machine/anneal"]]},
+{"id":"linear","title":"Linear algebra and the Hill cipher","tag":"Algebra","lead":"Matrix multiplication scrambles blocks of letters, but linearity is a weakness.","sections":[
+["Encryption","Write letters as a vector and multiply by a key matrix mod 26. Each output letter depends on the whole block."],
+["Decryption","You need the inverse matrix mod 26, which exists only if the determinant has no factor in common with 26."],
+["The weakness","Because the system is linear, n known plaintext blocks give n equations, and solving them gives the key."]],
+"example":["Key [[3,3],[2,5]] on HE = (7,4)","Multiplying gives (3×7 + 3×4, 2×7 + 5×4) = (33, 34) ≡ (7, 8), which is HI. The determinant is 3×5 − 3×2 = 9, whose inverse mod 26 is 3. The inverse matrix is 3 × [[5,−3],[−2,3]] ≡ [[15,17],[20,9]]. Applying that to (7,8) returns (7,4). There are 157,248 invertible 2×2 matrices mod 26."],"links":[["Hill cipher","#/cipher/hill"]]},
+{"id":"groups","title":"Group theory: Enigma and the cube","tag":"Algebra","lead":"Rejewski broke Enigma with permutation theory. The same mathematics runs a Rubik's cube.","sections":[
+["Permutations compose","Doing one rearrangement after another is itself a rearrangement. Such a collection is a group: it has an identity and every element can be undone."],
+["Enigma","Each keypress applies a permutation made of the rotors, conjugated around a reflector: E = P⁻¹ R P. Since R swaps letters in pairs with no fixed points, E does too. That is exactly why no letter can encrypt to itself."],
+["Rejewski's insight","Pairing the first and fourth letters of doubled message keys gave permutations whose cycle structure did not depend on the plugboard. That reduced the search to something his team could catalogue."],
+["The cube","Each face turn permutes the 54 stickers. The cube's group has 43,252,003,274,489,856,000 elements, and its diameter, the worst-case distance from solved, is 20."]],
+"example":["An order calculation","R turned four times returns the cube to where it began, so R has order 4. Repeating the sequence (R U) returns to solved after 105 repeats, because its permutation has cycles whose lengths have a least common multiple of 105."],"links":[["Enigma","#/machine/enigma"],["Rubik's cube","#/puzzles/cube"],["Rejewski","#/history/rejewski"]]},
+{"id":"euclid","title":"Euclid, Euler and RSA","tag":"Number theory","lead":"Public-key cryptography rests on an ancient algorithm and an 18th-century theorem.","sections":[
+["Greatest common divisor","Euclid's algorithm repeatedly replaces a pair with the smaller number and the remainder. Run backwards, it finds modular inverses."],
+["Euler's theorem","If a and n share no factor, then a^φ(n) ≡ 1 (mod n), where φ(n) counts the numbers below n coprime to it. For n = pq, φ(n) = (p − 1)(q − 1)."],
+["RSA","Pick e and find d with ed ≡ 1 (mod φ(n)). Then (mᵉ)ᵈ ≡ m. Publishing n and e is safe as long as nobody can factor n to get φ(n)."]],
+"example":["Toy RSA","Take p = 61 and q = 53, so n = 3233 and φ(n) = 3120. With e = 17, the inverse is d = 2753. The message 65 encrypts to 65¹⁷ mod 3233 = 2790, and 2790²⁷⁵³ mod 3233 returns 65. Euclid's method on 1071 and 462: 1071 = 2×462 + 147, 462 = 3×147 + 21, 147 = 7×21, so the gcd is 21."],"widget":"gcd","links":[["RSA arithmetic","#/how/rsa"],["RSA attacks","#/cipher/rsa"]]},
+{"id":"dlog","title":"Discrete logarithms","tag":"Number theory","lead":"Easy forwards, hard backwards: the engine of key exchange.","sections":[
+["The problem","Given g, p and h = gˣ mod p, find x. Computing h is fast by repeated squaring, while reversing it appears hard for large p."],
+["Diffie-Hellman","Alice publishes gᵃ and Bob publishes gᵇ. Each raises the other's value to their secret, reaching gᵃᵇ."],
+["Baby-step giant-step","Writing x = im + j trades memory for time and needs about √p steps. A 31-bit group takes about 46,000 steps instead of two billion."]],
+"example":["p = 23, g = 5","With a = 6, A = 5⁶ mod 23 = 8. With b = 15, B = 5¹⁵ mod 23 = 19. Alice computes 19⁶ mod 23 = 2, and Bob computes 8¹⁵ mod 23 = 2. They share the secret 2."],"links":[["Key exchange on a clock","#/how/dh"],["Diffie-Hellman","#/cipher/dh"]]},
+{"id":"fields","title":"Finite fields and AES","tag":"Algebra","lead":"AES does its arithmetic on bytes in a field with 256 elements.","sections":[
+["GF(2⁸)","Treat a byte as a polynomial with bits as coefficients. Addition is XOR. Multiplication is polynomial multiplication reduced by x⁸ + x⁴ + x³ + x + 1."],
+["Why it matters","Every non-zero byte has an inverse, so the arithmetic is reversible. SubBytes is built from those inverses, which makes it highly non-linear."],
+["Confusion and diffusion","SubBytes supplies confusion, and ShiftRows and MixColumns supply diffusion. After a couple of rounds every output byte depends on every input byte."]],
+"example":["A multiplication from the AES standard","In GF(2⁸), the bytes 0x57 and 0x83 multiply to 0xC1."],"links":[["Inside AES","#/how/aes"],["Avalanche effect","#/how/avalanche"]]},
+{"id":"birthday","title":"The birthday bound","tag":"Probability","lead":"Collisions arrive far sooner than intuition suggests.","sections":[
+["The surprise","With 23 people, there is about a 50.7% chance that two share a birthday, because 23 people make 253 pairs."],
+["In cryptography","With N possible values, a collision is expected after roughly √N samples. A 64-bit block repeats after about 2³² blocks, the basis of the Sweet32 attack on 3DES."],
+["Hashes","A 256-bit hash has about 128 bits of collision resistance."]],
+"example":["The calculation","The chance of no match among 23 people is (365/365)(364/365)…(343/365) ≈ 0.493, so the chance of a match is about 0.507."],"widget":"birthday","links":[["Triple DES","#/cipher/3des"],["Hash functions","#/cipher/hash"]]},
+{"id":"otp","title":"Perfect secrecy","tag":"Information theory","lead":"Why the one-time pad cannot be broken, and why it is rarely used.","sections":[
+["The proof","If the key is uniformly random, as long as the message and used once, then every plaintext of that length is equally consistent with a ciphertext. The ciphertext tells an attacker nothing beyond length."],
+["The cost","Shannon showed that perfect secrecy needs at least as much key as message."],
+["When it fails","Reuse cancels the key: (P₁ ⊕ K) ⊕ (P₂ ⊕ K) = P₁ ⊕ P₂. That is how Project Venona read Soviet messages."]],
+"example":["A single letter","Ciphertext X could be any letter. With key letter C it decrypts to one letter, with key letter D to another. All 26 keys are equally likely, so all 26 plaintexts are equally likely."],"links":[["One-time pad","#/cipher/otp"],["The pigeon message","#/mystery/pigeon"],["Venona","#/history/venona"]]}
+]
