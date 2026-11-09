@@ -51,7 +51,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 22 | Letter-digit ads: dictionary beam (planted 87 of 90, including 29 of 30 at 30 letters), 32 documented digit tables recovered, shared key matches table 2119 | completed 2026-11-09 |
 | 23 | Sweep of 32 mixed and 11 numeric documented tables over 1,257 unsolved ads; 9 of the best readings checked by eye | completed 2026-11-09 |
 | 24 | All machine-only digit leads checked against scans; decoder for numbers with clear letters (planted 40 of 40, junk 0) | completed 2026-11-09 |
-| 25 | AIM dictionary code from the archive.org scan; irregular transposition models. Separately, infer blank table cells with held-out checks | next |
+| 25 | AIM dictionary code on Landais 1860: 19 of 27 published words at their references (random mean 0.09); both unsolved ads partly read | completed 2026-11-09 |
+| 26 | Read exact AIM entries from page images and interpret the letters between references; infer blank table cells with held-out checks; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -172,4 +173,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - When an ad has clear text, shuffle only the cipher part. Otherwise the null is unfairly low; FL ads with null 0.5 were correctly exposed as mostly plain.
 - Machine readings improved a lot by eye: CO RQG became COURAGE. Tests must assert what the table actually gives: MMARDON and RETROVERAS are printed, while PARDON and RETROUVERAS are inferences. OCR errors in digit words remain the main loss.
 - New idea: writers appear to reuse a table across many ads (47, 42, CHERY). Group ads by table and writer to make the reading of each easier.
+
+## Added 2026-11-09: Round 25
+- A named book makes a dictionary code testable: known solutions pin the edition, the leaf offset and the column rule before any unsolved ad is touched.
+- OCR entry counts drift, so a tolerance is needed for lookup. Exact entries need the page image (163a.17 = Demi, 258a.17 = Gelee).
+- Eight control misses: short words such as je and pas, and columns the OCR lost (575a, 163a).
 

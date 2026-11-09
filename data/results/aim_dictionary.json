@@ -1,0 +1,266 @@
+{
+ "id": "aim_dictionary",
+ "control": {
+  "pairs": 27,
+  "hits": 19,
+  "misses": [
+   [
+    317,
+    "L",
+    23,
+    "je"
+   ],
+   [
+    575,
+    "R",
+    11,
+    "voyage"
+   ],
+   [
+    119,
+    "R",
+    23,
+    "compatir"
+   ],
+   [
+    575,
+    "R",
+    4,
+    "vous"
+   ],
+   [
+    462,
+    "L",
+    2,
+    "recevoir"
+   ],
+   [
+    400,
+    "L",
+    17,
+    "pas"
+   ],
+   [
+    471,
+    "R",
+    32,
+    "repondre"
+   ],
+   [
+    102,
+    "L",
+    22,
+    "chaud"
+   ]
+  ],
+  "null_mean": 0.09,
+  "null_max": 2
+ },
+ "unsolved": {
+  "1882_18820120-AIM.jpg": {
+   "context": "I. M. 258 a 17 pas 102.2 x 437.6 serai 565.21 d 373.3 r 163 a 17 et 448 14 m 163 a 17 faites votre possible R. Y.",
+   "words": [
+    {
+     "ref": "258a.17",
+     "candidates": [
+      "Gélatine",
+      "Gélatineux",
+      "Gelée",
+      "Geler",
+      "Gélide"
+     ],
+     "entries_on_column": 33
+    },
+    {
+     "ref": "102.2",
+     "candidates": [
+      "Chasse-marée",
+      "Chasse-mouches",
+      "Chasse-pointes",
+      "Chasser"
+     ],
+     "entries_on_column": 15
+    },
+    {
+     "ref": "437.6",
+     "candidates": [
+      "Probabiliste",
+      "Probabilité",
+      "Probable",
+      "Probablement",
+      "Probante"
+     ],
+     "entries_on_column": 25
+    },
+    {
+     "ref": "565.21",
+     "candidates": [
+      "Vendre",
+      "Vendredi",
+      "Vendu",
+      "Vené",
+      "Vénéfice"
+     ],
+     "entries_on_column": 30
+    },
+    {
+     "ref": "373.3",
+     "candidates": [
+      "Nettoiement",
+      "Nettoyer",
+      "Neuf",
+      "Neuf",
+      "Ncutralcmcnt"
+     ],
+     "entries_on_column": 28
+    },
+    {
+     "ref": "163a.17",
+     "candidates": [],
+     "entries_on_column": 13
+    },
+    {
+     "ref": "448.14",
+     "candidates": [
+      "Quatorzièmement",
+      "Quatrain",
+      "Quatre",
+      "Quatre-tempa",
+      "Quatre-vingtièmc"
+     ],
+     "entries_on_column": 29
+    },
+    {
+     "ref": "163a.17",
+     "candidates": [],
+     "entries_on_column": 13
+    }
+   ]
+  },
+  "1882_18820216-AIM.jpg": {
+   "context": "I M. vs 406 a 7 b 411 a 6 m 353.12 b 401 a 19 d 535 a 24 m 575 a 4 b 15 a 28 x 61.21 r 534.23 p 50 a 5 m 329,25 b 400.10 Ry.",
+   "words": [
+    {
+     "ref": "406a.7",
+     "candidates": [
+      "Pénombre",
+      "Pensant",
+      "Pensée",
+      "Penaif",
+      "Pension"
+     ],
+     "entries_on_column": 20
+    },
+    {
+     "ref": "411a.6",
+     "candidates": [
+      "Petit",
+      "Petit-canon",
+      "Petite-muitrcssr",
+      "Petitement",
+      "Petite"
+     ],
+     "entries_on_column": 26
+    },
+    {
+     "ref": "353.12",
+     "candidates": [
+      "Mercerie",
+      "Merci",
+      "Mercier",
+      "Mercredi",
+      "Mercure"
+     ],
+     "entries_on_column": 27
+    },
+    {
+     "ref": "401a.19",
+     "candidates": [
+      "Pateliner",
+      "Patelincur",
+      "Patelle",
+      "Patène",
+      "Pâte"
+     ],
+     "entries_on_column": 22
+    },
+    {
+     "ref": "535a.24",
+     "candidates": [],
+     "entries_on_column": 1
+    },
+    {
+     "ref": "575a.4",
+     "candidates": [],
+     "entries_on_column": 1
+    },
+    {
+     "ref": "15a.28",
+     "candidates": [
+      "Ajoutoir",
+      "Ajustage",
+      "Ajustement",
+      "Ajuster",
+      "Ajusteur"
+     ],
+     "entries_on_column": 33
+    },
+    {
+     "ref": "61.21",
+     "candidates": [
+      "Bidet",
+      "Bidon",
+      "Bief",
+      "Bien",
+      "Bien-aimé"
+     ],
+     "entries_on_column": 29
+    },
+    {
+     "ref": "534.23",
+     "candidates": [
+      "Tendre",
+      "Tendre",
+      "Tendrement",
+      "Tendresse",
+      "Tendreté"
+     ],
+     "entries_on_column": 30
+    },
+    {
+     "ref": "50a.5",
+     "candidates": [
+      "Turcs",
+      "Baiaemain",
+      "Baisement",
+      "Boiser",
+      "Baiser"
+     ],
+     "entries_on_column": 33
+    },
+    {
+     "ref": "329.25",
+     "candidates": [
+      "Levraut",
+      "Lèvre",
+      "Levreteau",
+      "Levrette",
+      "Levrette"
+     ],
+     "entries_on_column": 29
+    },
+    {
+     "ref": "400.10",
+     "candidates": [
+      "Partout",
+      "Parturition",
+      "Par",
+      "Parure",
+      "Pas"
+     ],
+     "entries_on_column": 15
+    }
+   ]
+  }
+ }
+}

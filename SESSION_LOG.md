@@ -133,3 +133,6 @@ Ran `scripts/find_problems.py`. It added no codes (170 tracked before and after)
 ## 2026-11-09: Round 24
 Checked all 7 machine-only digit-table leads against their scans; all are real ciphers and their readings were improved by hand. Added a decoder for numbers mixed with clear letters, with a null that shuffles only the numbers (planted 40 of 40, junk 0). It found a second CHERY ad (8 Nov 1889). Two new leads; novelty unconfirmed. AIM and irregular transpositions moved to Round 25.
 
+## 2026-11-09: Round 25
+Tested the AIM dictionary code on the 1860 Landais Petit dictionnaire from archive.org. On four solved ads, 19 of 27 published words sit at their references, against a random mean of 0.09 and maximum 2. Both unsolved AIM ads are partly read and recorded as candidates. The dictionary source files are not committed. Irregular transpositions moved to Round 26.
+
