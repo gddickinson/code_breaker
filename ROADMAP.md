@@ -90,13 +90,16 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Word coverage alone is fooled by dense solvers on short texts: the control gate is doing necessary work.
 - A benchmark of real solved ciphers shows limits synthetic tests hide.
 
+- Look at the source: seven 'decryptions' were plain French ads that the solver mapped back to themselves.
+- A database's 'unsolved' label can include text that was never enciphered.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
 | E4 | Z340: section A exact; section B breaks at position 99. Word and GRU scorers rank the achievable key above decoys, but word-model annealing (`kernels_word.py`, `scripts/z340_word.py`) failed its planted 10%-noise control at temperatures 0.4 to 10, and lowered accuracy from its starts. PARKED: little return from more runs; revisit with a better search idea such as crib-seeded or population methods | parked |
-| E6 | Le Figaro: querying approved by the user 2026-11-09. Our 1896 ad is already solved in the database (IGNOTA), so a re-solve, not a discovery. Index done: 4,054 ads, 1,257 unsolved. Ads are images, so `figaro_ocr.py` plus `figaro_hunt.py` handle OCR and hunting with a known-answer control. NEXT: run once images finish. Never email proposed solutions to the site without asking the user | in_progress |
+| E6 | Le Figaro: 4,054 ads indexed, 1,257 unsolved. OCR gives usable text on only 73; 12 of those are plain French, never enciphered, and were falsely flagged until an unchanged-text check was added. Two enciphered 1896 ads gave French readings (see leads). NEXT: improve OCR coverage, and ask the user before emailing anything to the database's maintainer | in_progress |
 | E8 | Beale drift model | completed 2026-11-09: narrow-window honest encoder reaches r=0.68; hoax inference withdrawn. D'Agapeyeff digit transposition still an idea |
 | E9 | Voynich: closer self-citation and independent-space verbose models added; each matches H2 and word length but fails on vocabulary or Zipf. Liber Primus running keys still pending | partial |
 | E10 | Multilingual Autobreak with fallback attacks | completed 2026-11-09 |

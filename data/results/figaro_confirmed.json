@@ -1,0 +1,30 @@
+{
+ "1896_18960715.jpg": {
+  "date": "15 July 1896",
+  "signature_cipher": "Sztdl",
+  "ciphertext": "Usft sfdpoobjttbou ef upvu wpvt buufoet upvkpvst pv fu dpnnfou fowpzfs cpvrvjo eftjsf sfqpoefa qbs boobmft bjnfft",
+  "note": "Ciphertext transcribed from the scan. The first letter is a damaged drop capital read as U.",
+  "letters": 97,
+  "z": 13.32,
+  "control": 1.0,
+  "verdict": "Readable candidate (z=13.3, word coverage 75%). Needs independent human reading before any claim.",
+  "plaintext": "TRESRECONNAISSANTDETOUTVOUSATTENDSTOUJOURSOUETCOMMENTENVOYERFOUQUINDESIREREPONDEZPARANNALESAIMEES",
+  "reading": "TRES RECONNAISSANT DE TOUT VOUS ATTENDS TOUJOURS OU ET COMMENT ENVOYER FOU QUI N DESIRE REPONDEZ PAR A N N A LES AIMEE S",
+  "coverage": 0.753,
+  "seeds_identical": 3
+ },
+ "1896_18961106-KP.jpg": {
+  "date": "6 November 1896",
+  "signature_cipher": "KP",
+  "ciphertext": "Dvpsh svunbltx ql uhp zljc kl tvb tl xzvcdhub ycl bc t hptl lb xlual bvcqvcz h tvp xvczbhub ql bhptl hdlj blukzlaal bc la tvu avcjp th qvpl ql dhpa lumpu bl xzlualz iplu mvzb acz tvu jvlcz ycp bpkvsh",
+  "note": "Ciphertext transcribed from the scan.",
+  "letters": 159,
+  "z": 19.68,
+  "control": 1.0,
+  "verdict": "Structure only: the symbol order is non-random (z=19.7), but the output does not read as text (score -4.21 against -3.92 for a real solve; word coverage 58% against 77%).",
+  "plaintext": "VOILALONGTEMPJENAIRECUDEMOTMEPROUVANTQUETUMAIMEETPENSETOUJOURAMOIPOURTANTJETAIMEAVECTENDRESSETUESMONSOUCIMAJOIEJEVAISENFINTEPRENSERBIENFORTSURMONCOEURQUITIDOLA",
+  "reading": "VOILA LONG TE M P JE N AI RECU DE MOT M EPROUVA N T QUE TU M AIME ET PENSE T OU JOUR A MOI POURTANT J ET AIME AVEC TENDRESSE TUES MON SOUCI MA JOIE JE VAIS ENFIN TE PRE N SE R BIEN FORT SUR MON COEUR QUI TIDO LA",
+  "coverage": 0.585,
+  "seeds_identical": 3
+ }
+}

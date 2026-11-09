@@ -80,3 +80,6 @@ Added a Help page with an app guide, how to read verdicts and a 37-term glossary
 
 ## 2026-11-09: Latin translation (user request)
 Integrated Helsinki-NLP/opus-mt-mul-en for Latin. Scored on Caesar Book I, first 18 chapters, against a published translation: word overlap 0.418 with the right chapter and 0.285 with a wrong one. A Latin-English community T5 scored 0.255 and 0.23 and repeats itself, so it was rejected. Output is labelled a rough draft.
+
+## 2026-11-09: Le Figaro hunt
+OCR usable on 73 of 1,257 unsolved ads. 12 were plain French, so an unchanged-text check was added. The ad of 15 July 1896 passes all three gates as a Caesar +1 candidate (signed Rysck). Ad KP of 6 November 1896 reads clearly but misses the word gate, so it is not counted as solved. Novelty unconfirmed; nothing has been emailed to the maintainer. Latin casing bug fixed.

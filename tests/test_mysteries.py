@@ -126,3 +126,10 @@ def test_high_word_coverage_overrides_a_low_quadgram_score():
 
     pc = {"mean": 1.0, "solved_score": -3.9, "true_coverage": 0.7}
     assert verdict(pc, 9.0, 1, "THEQUESTIONWASWHETHERTHEMANWOULDRETURNBEFOREEVENING", -4.6).startswith("Readable")
+
+
+def test_figaro_plain_ads_are_recognised():
+    from codebreaker.mysteries.figaro_hunt import already_plain
+
+    assert already_plain("VOUSAVEZELEVE", "VOUSAVEZELEVE") == 1.0
+    assert already_plain("QFGTWMAZ", "VOUSAVEZ") < 0.5

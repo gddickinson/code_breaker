@@ -20,7 +20,8 @@ def latin_to_english(text: str) -> str | None:
             _LATIN["m"] = AutoModelForSeq2SeqLM.from_pretrained(LATIN_MODEL, local_files_only=True).eval()
     except (ImportError, OSError):
         return None
-    parts = [x.strip() for x in re.split(r"(?<=[.;:!?])\s+", text.lower()) if x.strip()]
+    parts = [x.strip() for x in re.split(r"(?<=[.;:!?])\s+", text) if x.strip()]
+    parts = [x.capitalize() if x.isupper() else x for x in parts]
     pieces = [" ".join(p.split()[i:i + 40]) for p in parts for i in range(0, len(p.split()), 40)]
     out = []
     for i in range(0, len(pieces), 8):

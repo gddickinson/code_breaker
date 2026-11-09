@@ -67,7 +67,15 @@ def solve_one(a):
         nulls.append(coverage(letters(q["plaintext"])[:500], "fr"))
     best["null_coverage"] = round(float(np.mean(nulls)), 3)
     best["reading"] = segment(letters(best["plaintext"])[:220], "fr")
+    forward = letters(text)
+    best["unchanged"] = round(already_plain(forward if best["direction"] == "forward" else forward[::-1], best["plaintext"]), 3)
     return best
+
+
+def already_plain(text: str, plaintext: str) -> float:
+    """Share of letters the 'solution' left unchanged: near 1 means the ad was never enciphered."""
+    a, b = letters(text), letters(plaintext)
+    return sum(x == y for x, y in zip(a, b)) / max(len(a), 1)
 
 
 def solve_all(texts, workers=6):
@@ -110,4 +118,4 @@ def run() -> dict:
     rows.sort(key=lambda r: -r["coverage"])
     (OUT / "hunt_rows.json").write_text(json.dumps(rows, ensure_ascii=False, indent=0))
     usable = sum(len(clean(t)) >= MIN_LETTERS for t in texts.values())
-    return {"id": "figaro_hunt", "images": len(texts), "usable_ocr": usable, "tested": len(rows), "control": {k: v for k, v in ctrl.items() if k != "rows"}, "control_rows": ctrl["rows"][:15], "flagged": [r for r in rows if r["coverage"] >= READABLE and r["coverage"] >= r["null_coverage"] + 0.2]}
+    return {"id": "figaro_hunt", "images": len(texts), "usable_ocr": usable, "tested": len(rows), "control": {k: v for k, v in ctrl.items() if k != "rows"}, "control_rows": ctrl["rows"][:15], "plain_ads": [r for r in rows if r["unchanged"] >= 0.5], "flagged": [r for r in rows if r["unchanged"] < 0.5 and r["coverage"] >= READABLE and r["coverage"] >= r["null_coverage"] + 0.2]}
