@@ -1,9 +1,43 @@
 {
  "id": "dagapeyeff_models",
+ "first_position_alternation": 1.0,
  "pairs": 196,
  "is_square": true,
- "tests": 138,
+ "tests": 372,
  "rows": [
+  {
+   "model": "first digits read in 3 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 4.49,
+   "score": -5.654,
+   "null_mean": -5.87,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=4.5).",
+   "reading": "DSGPLCLI MIL ZPRIERCEUMNLLEROCI A Y SI LA EABAVDYYPALNTAAA DE O OS DE NSAENT AHI VIVE DAN COSUSMTOLIBPC TE Y YO AL UYNIWHTTIYVRDRAD SIGO VMPLETODIDAMAYCRE LO ECO EL LNDSRRZTNDIL LA SIN NASYESSODGNPOONGO CON O VIAS HUSECOBAMEARALCO"
+  },
+  {
+   "model": "both digit streams in 3 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 4.03,
+   "score": -5.511,
+   "null_mean": -5.599,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=4.0).",
+   "reading": "T IL AI PSDPRC LUT DE TTNPTESIIORO DE DE DES SI M IL OU UANNERSIEPI ARCON C SES CAIGRLALSP CE PAN TCTUDIAGDPUIADRE ET ANDFLDUURLPTTCP SA VA L PU CNRUTDONTCRTTENREP A NE EN TSPTVUETRIN CE AI N CE A N CI D PLIA RRILABRERLU SCLOCCORGNOINONEPR"
+  },
+  {
+   "model": "first digits read in 3 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 3.85,
+   "score": -5.427,
+   "null_mean": -5.537,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=3.9).",
+   "reading": "BRUFLSLADALVFGA IGSIODNLLIGTSAEMRA LEIEZEPBMMFELNHEEE BITT R BIN REIN HEKAPAP IBENSTRORDHTLAZFSH IM MTELOMNACKHHAMPGB GEBRAUT PDFLIHTBABEDEMSG ILTISTILLNBRGGVHNB ALLER AN N ER MIR RTBUNFTTNUTSTNTPA ER KORISTZEDIEGELST"
+  },
   {
    "model": "coordinates offset by 12",
    "language": "Italian",
@@ -38,6 +72,28 @@
    "reading": "USSGESGRMHHALLM RUH REUTMAMAGINRAH GEN DEM SENMENNTNGTDD SINN NDIIGUNSIERIAL AM ADTRLAGDTDSLUDTUU AM GERN AM ATSGRETANI DIE LNSTTHUHMEHLMRMEUS TAU TTTSUNDHIRDRUSITG ES STMUERRUMELGHHDH AN TENUNSTGMUTLUTM IM OB ES CKVORBAB"
   },
   {
+   "model": "both digit streams in 14 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 3.02,
+   "score": -5.358,
+   "null_mean": -5.443,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=3.0).",
+   "reading": "USSGESGRMHHALLM RUH REUTMAMAGINRAH GEN DEM SENMENNTNGTDD SINN NDIIGUNSIERIAL AM ADTRLAGDTDSLUDTUU AM GERN AM ATSGRETANI DIE LNSTTHUHMEHLMRMEUS TAU TTTSUNDHIRDRUSITG ES STMUERRUMELGHHDH AN TENUNSTGMUTLUTM IM OB ES CKVORBAB"
+  },
+  {
+   "model": "first digits read in 3 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 2.85,
+   "score": -5.407,
+   "null_mean": -5.561,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.9).",
+   "reading": "VRGUSC SI MI SQULIELCEPMNS SE LO CI ATRISAEAFADVTTUASN HA AAVEOORVENRAENHABI DI DE V ANCOR PRMHO SI FU CHE TTOASPTNIKBHHITDLV LA VRIGOD MUSE HO VIVA MA T C LE SO E CO E SSNVRLLQHNVISSAR IN N ARTE RROVGNUOONGO CON O DI ARB PRECO FAME A LASC O"
+  },
+  {
    "model": "spiral outward",
    "language": "Spanish",
    "symbols": 18,
@@ -47,6 +103,50 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.5).",
    "reading": "IDO TNTUCUYSIENEYOLDIC A O DE ORLAAASANCROTAUULD DU NI CUAL LITA DLRRIRATASTIOUI EL ION LEYES EN SUS STYIERRNSCRUDONRSC IRA EN EN TOOYYNOIDROARYARE TAL ORO C CA A TAN DOCCLLTILTCESSN Y Y DE O NRALRCIAEMNMCPVJBL IMPEDICULALUEUIOER"
+  },
+  {
+   "model": "second digits read in 3 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 2.43,
+   "score": -5.521,
+   "null_mean": -5.613,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.4).",
+   "reading": "GLSAYECHADFITTHIG TO AT WAT G ROD HIM SMVNNLAGIRYLE DO WONT IN LEO FOR HAIN MA LOOSE SEAM WAND THTTPTEDP AT LAHOSSLEDUNSFYTDS ALL ME ECHESCTFRBGGHDRG HOLLIOOSEADVSBLEET MY S TRY OH INTO MSADHGHEWTNBRLS AIR SO ST NMSOPMDOOROLRROSEB"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 2.22,
+   "score": -5.362,
+   "null_mean": -5.482,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.2).",
+   "reading": "UHERLELDAMUMU DRUM DRIESDRSHRRIRGU IN DMALGRIIGGREI ER IIDANSLUHTWERILL ERST GUTE CHAMIHUFDAHIHHLNGT S GATNDENHHDAENTUUSS UNS TADNIENSSLAMIRLDM LIED TETTIUNTUGTUIRDLLT EIN LUMEUBNERRGE DEN S ES DOHHMTEN WARMT DMBNNNAULB"
+  },
+  {
+   "model": "second digits read in 5 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 2.19,
+   "score": -5.477,
+   "null_mean": -5.601,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.2).",
+   "reading": "SRLOFDBD ACQUA L D UNA E E L DI L UN OR T N LEI BUUCISUUFDDVIRAGES S D DA PIU REN SO A TALOR E TAI TI S VEDI O SI C RMEECODEAAVCCZMOHP L DEI C DA RRPRROPAQSFMMCDN STAR V NOE I D O CHE QRDTIOFOOMBARU SOL L LO DVMTTTASPUTAING E E LA SA LA MI VOLGORGGIIDP"
+  },
+  {
+   "model": "first digits read in 3 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 2.12,
+   "score": -5.496,
+   "null_mean": -5.624,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.1).",
+   "reading": "MR WYSCSIL IS BY DIADCAULTSSADOCIEP RISE A EVEN MPPYESTHEEEMAOORMA TREAT HE FIN IN AM ETC OR URLHOSIVYCHAPPOES UP TIZFHHIPNDMDEMRIW ONLY SAHOMIMELEPCD AS OACOASSTMRDDBHT MISS ERITTERPARROMWTYOO TWO CO TO NIERFURACOVELAEDES CO"
   },
   {
    "model": "main diagonals",
@@ -82,6 +182,61 @@
    "reading": "HZIIVZBCUCKHISR HAUS IN DIE MAEDGMEENBL ADE AHTVRDZUREHULACZE WEH DEM TSSGSNNRN ZU ER NHGURENMUGZHNNCIG EIEZDDJHSVONDNICRE ZDOCDUVIWLVHTRZLLG ERZ HIN UDICKEVZGG ES BIST VERMASS USSRRMRDZETKMR IST ME NIE HENSTERSELSCHLINZO"
   },
   {
+   "model": "first digits read in 4 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 1.88,
+   "score": -5.451,
+   "null_mean": -5.526,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.9).",
+   "reading": "DOSELSLIR ILIDIAKIUATRTGRIFS SIEH MIR NIE HDENTH DER TRENNNASUMDFCOEATL DRAN ADKEEPOSU TOLL URFTVOLAHCU DRCCTAAJJGACEADKNN MAUSE GE GAR UNK ENGE HUIKGSISSARGHESK KALTE ILLESICHDUCKOSS ES HEUSCUSUUBOVIESRBS AUS TNJAEAELMO"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 1.86,
+   "score": -5.395,
+   "null_mean": -5.47,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.9).",
+   "reading": "NDGT HER ES WIE SAH RGUTREDTALDLIC HIER AHULDALHWLNRUENN ES ER DSATATALLTWWUSSILN NUG WIE GOWDESSLLGSA GERN S IST NIITNU FUR NRTETDEGFNRDLR IST DEHALCSRTAUUA IN NSTEIGSHRTEDWGLC DU UNHDUDEDPHANGDHT INN ER RUHT LSELUDSJTGWWRRE"
+  },
+  {
+   "model": "first digits read in 3 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 1.85,
+   "score": -5.393,
+   "null_mean": -5.468,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "TSPONDNIGINHOM IAM DAQGRNNAMEDIUCS IN UAUFULTCCOUNRVUU UT A E EST ARSUARVUXILILATUR DE SQSGVENIFODV AC CEUNQCRIBXVVICLMTM UT SI PELGONAVETITUGUCD MANE AD EA NNRTSMMHVRTINN USI RRUSCASSETPROEERP EDERE LIUSXQSADEFUGAUM UNDE"
+  },
+  {
+   "model": "both digit streams in 13 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": 1.83,
+   "score": -5.465,
+   "null_mean": -5.511,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.8).",
+   "reading": "RLSRHEASTDOLTICGA HAR A LET LOELSSLSOHYSTE ENDS D US AT OR IGHCIHCLUHCSD SUN TTEITRATACUALSNOHH IN HSOCURDULE IT IF AN HDASEHEDISTRO MR DEN THEIR ERIS EAVE NALRHEO ROSE DANYCURODENTUCHDTU NOR S TO OUR EAULDAAUGEE TO RRNUIITHHUCUA"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 1.79,
+   "score": -5.533,
+   "null_mean": -5.587,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.8).",
+   "reading": "GOIDUOMLAPUNDEOS TRA I AL DETTE O CH IRA FGGOAGTGFPLCEVET IN T VLIFESORNNAAVRARCR PIA LE T OR LA E SE OLHEICAPIEIVPPZ HA QUI O IR CCELCFPOIUIFNKGGCC S NO AL LSRIAVDCKDQCLVERFR E SUE PNNDERARPPTOLCRGK HO REGNA E DA TI DI GIO RENDO TTDDPK"
+  },
+  {
    "model": "coordinates offset by 12",
    "language": "Latin",
    "symbols": 21,
@@ -93,6 +248,39 @@
    "reading": "COAAJFJDNDVPAAFUGI SE ATIACMIRRMSIIVMPR ICCGLFFRADECAMPRTA HAC OICMEEFSENT ET ASREPOSDEIPSDDGANT NOS IARORQUALLIT IN OTEROHRTIBEJGVU GFFGPTSRFGAANDIOVN HFODSILSAULERUMIEE SE FFUDFRACLPDEAUUS IN AC A IN UEREECNFPGNATJ"
   },
   {
+   "model": "first digits read in 13 columns",
+   "language": "Spanish",
+   "symbols": 20,
+   "z": 1.74,
+   "score": -5.828,
+   "null_mean": -5.933,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.7).",
+   "reading": "PA A PUAUNEZYNOSCZSBSHU LE EN CA A NO LA CUDNOLOIDLMOOUL Y PIDICBBRONTROZLEIE NOS OCIO TRABLAUYBUSTIA Y CLHJOELTLSFUUUZTON INDIA NRRDYDESEBOSPOYI LAS CE BSARSEYHPANZSUMPN Y Y DASLLPBMNABRPALPRA HA BAAMBINDAELRCRBLIU NI SOY A B"
+  },
+  {
+   "model": "second digits read in 6 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 1.72,
+   "score": -5.512,
+   "null_mean": -5.598,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.7).",
+   "reading": "UDEABMHMETHNESMF FA E E SI SON VE TTFOREGNNMALFUHTC IR DE LA FU DIR BRVISUFSRIOSOCOTA E IEU MA T O SUA I TUA STEMSRSTITKLEBBRTO E DI A DI GTDOPABVHNLTINNMSC C N SO O CO CHE QCMIASPARVHSC UNA A ARSI TU TI TAL P U CROLLO ERA FROALODOONOMLLSSTB"
+  },
+  {
+   "model": "second digits read in 3 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 1.65,
+   "score": -5.483,
+   "null_mean": -5.521,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.6).",
+   "reading": "WIE LBNMALDOSUUASWUR LUZLUWTRDASHEHGCCI LWSTBINDRZRCUSCINR ORT ALS CHLIRRENENLHZLC DU AUUFUNDFLUILARE EIN DVCEOBUDELIIHNN MAN EMUOTKWWADT WAR IISRRENLDGEKINNU HBEUTBRASCURHELDAW AN ZUCKT IELST ER EUCH ER FHDRRTRITTRENK"
+  },
+  {
    "model": "coordinates offset by 12",
    "language": "French",
    "symbols": 21,
@@ -102,6 +290,61 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.6).",
    "reading": "NCAAVSVUTUH LA A S POIRE A D I A NGIMMGRIIHGLMINNOF S S M AU EN AGLMDABANCINGEESR ET DE D ARME L CRUE IL RUUOATDT CRIA M CMXPAFFIDITCDEMCBM DIJEVOHPOSSOLDRMSO A A TU ICHTBSCURIFRAPFEMP GIEERESSPUSMANFLUE APPRIT A NAITPEMEENTSLOTADV"
+  },
+  {
+   "model": "both digit streams in 3 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 1.51,
+   "score": -5.42,
+   "null_mean": -5.465,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.5).",
+   "reading": "LNHUNMRD MIT HOLDE LLSMLERNNAIADEDE DER RNKNHAOOUS SEI RNEMNUITASTR ER TUN GIHUHRMTEMUSLTLOD NUG DMONUDIEELUSDCHDOO IHM LLTMRUFUHMOTSIOL DAS LTILLESIEMUSE ES LRMLFOELINSTE UNS TEUSTNDMHNUIINHU WIE I HORT HATT AIGSANSASEMI"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 1.51,
+   "score": -5.492,
+   "null_mean": -5.577,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.5).",
+   "reading": "VRALDRDMEOHV LE OV VELI A NEL FU LO S VI LI QPVMETVTQSSOA SAVI TPMSCDLUNCU VIE MAL C N IO C AMA PO IR LA PER SUA E S IN CI E N SMGTAWDERICOOCNOQN NE DI QUQFFMMVTOEMOPIAEN ANZI HSNOICHILPDENU TI ELLA OSTROOIUDUSCAFPEA AL FAI CPLOCEVISTTELMQ"
+  },
+  {
+   "model": "second digits read in 10 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 1.51,
+   "score": -5.42,
+   "null_mean": -5.493,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "OPE LGDGMEN QUI AD VUIETIMLICO ADSUE AT QUOS ICRUGPMNANTVTRUMS AB IUS TOREEDIELMENITMARD IMEERADDUTINLDTTIM NSFUIBHAMEIPSTNMQP SE XLBUBVRSDCOMISNOTT AN T DGLHSSNEAGLERHENVO II AT EMMODNMIRHOMIERCIT EA CTTTUTPLEOEMCVALSH"
+  },
+  {
+   "model": "second digits read in 6 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 1.46,
+   "score": -5.618,
+   "null_mean": -5.686,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.5).",
+   "reading": "HMSAYOUOSTULSNOCC AS S NINE LFSTTCERSPL LOAD CHUTGIRMSDACHMIRYR FIN HCNRIENE GET AS IS HO A TEN HA I THAN TSONRNTITBDSYYRT ESMIAMIPTMEWAYFULD TILL ON GGLNEEGEGUSKGOI AN WAR FUN GHLAAARN IT HTITADWHGREDDESRAC READ EMEELEODDNNTY"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 1.44,
+   "score": -5.479,
+   "null_mean": -5.526,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.4).",
+   "reading": "GKDNHKHLESFGNESG GEN TDRENWUN SAGT NTZIGLEMGMZAASDADG TMILAOHNUROUGTELDN ORT SO DLDISTKNDIEKAUDEAT ROTER ALBMDCHEKTOS SO RSZRREHTZUZWWLLGM SEL SIT DER DRVTFARSTOFTNI HERUM TENNDSAMKSSTUHUAOD WIE DDNWDTO IN SO EGTAMMENLZ"
   },
   {
    "model": "spiral outward",
@@ -137,6 +380,17 @@
    "reading": "O HAEMARMODGETURHIEU MAG TINDRDANGDEROMNDON ODEN HANMOMENGHUG NUR TSAGRTUMMTONH TIGHHTRMOOUTDDRAAT SIE O AN HER GMIRDSHOHINR IM NIE EILE RNNUGEGTEH WAS DAS ITASERNDROHRHSTA DU AEMSTOPHUAGHENKOG NUR ABNUHIOLSTOMMO ER WNNTHW"
   },
   {
+   "model": "both digit streams in 13 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 1.31,
+   "score": -5.396,
+   "null_mean": -5.442,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.3).",
+   "reading": "TMITGEUINDSMNLH ZU GUT UM ENMSEMIIMISGCINE ER DIDAIUNSTLZGHLGH MAG HIDIARNNELNTUNUHAU MIR SGGLRGIS HAT DA MELNLPURGDUIEGEDL IN TSOTDERNGELTETLIE UBER UM T GES T SIE DURCH A T S DER NAH GDNARSTINSSATEU AM DU UAZEENSTTRALLNGGAH AU"
+  },
+  {
    "model": "coordinates offset by 4",
    "language": "Italian",
    "symbols": 21,
@@ -146,6 +400,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.3).",
    "reading": "PNGRVSV SI SU FRESCPOGGRSEEFLON SPIRI ZLLMOCLLV DA MI MI FE TTMSOBIFDGLPRISIR IMO NE E DE PAEAROLEASCOEMGDO ORSA AYFO QUI SI IN SEN MVMARVEQFQLPMDTFSG NSTERGAOMBRUSADIRV GI TUO D L T OR E E E MNCMNNOTBTNOELFI EGO TRE E CIARIFIATTIENQ"
+  },
+  {
+   "model": "first digits read in 7 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 1.28,
+   "score": -5.804,
+   "null_mean": -5.877,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.3).",
+   "reading": "MLLOIPISYSISOSCSN UN DIDYRCSPLNEGACIOCM TE OMDDOOR DIO MEONA APENGAESTRO Y SE SE JOEGLALVAIYAICDZ ARSGDLEYTDDNJYHINT ES EN E MAS UPERERNIPESMOIET ANCHA NAACYYDOASSJR DECIR EANTTZPD SU PLMPDMLUDALPUGUE SOL IBA JPPDZYCOJEYAU"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 1.27,
+   "score": -5.348,
+   "null_mean": -5.424,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.3).",
+   "reading": "E M IN TITO U SE SE O NE SON AI CON CMNNANGEALOSUTGNAA GGNIAINAAOULCTEMRD IN ATTI NCRGERIV MUSA ME FOUMAMMTLGRCGUR LO IL MMOUILREECCELCRUO LA IL C C TU SANTO STAIO RIRRAELREGREANOTTR I ALTE SI E PLINNGIOILCICOZMMS RILDUNSROSPLLLUETP"
   },
   {
    "model": "coordinates offset by 11",
@@ -181,6 +457,17 @@
    "reading": "ON IMUMDRDLPO AU A LIT NOREINAISTEEE PEUR SI ME D D T N N DU OR DE TTOMENTSSOSEMEP MOI DOATOIUTALAPAUPD PPMLOASSUPRSDNIUSP ROSE AU AU M II L LUI ON SI ES LES AME TISIRREEMEUNIRRTT MOT MRAPPULLNAIUS ET SROEACUCRHZGJTOCHA NORD TETDADOIAS"
   },
   {
+   "model": "both digit streams in 10 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 1.16,
+   "score": -5.387,
+   "null_mean": -5.425,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.2).",
+   "reading": "TMODTTTA ORME L SUO E CO TE SRCFTSILCMZTOEULCD S CIO N RADI O IN E A CAL ELLI IN OM U E ORA OR E UN N SUL NOMA STUCUCRRII TENDE DE E E S S SOPOLTRNMQCMDDCCPM SCURI NE C RUI U A DI TI DA CEDOSIDOVAMDMICPN TONA T TRA E A SI SE O S DLTOADTTICIODOUMAF MARCA"
+  },
+  {
    "model": "spiral inward",
    "language": "Italian",
    "symbols": 18,
@@ -201,6 +488,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.1).",
    "reading": "CIARNINORMBUFFIDLS RAT OR FED AM PEA T THE CMFEEEHIOOSPR USED MY A BREIADEATOSSTOFYSF IT E OF IT T LAY MUTRIFYFRTPIPKEAGN SO AFPYRYOHIPABAWLND COIL LIFYMESRRIFMHR BY PORT WAS UN SO LEST AS S MOLOOMSENEOFTLDSST A CRAREFOSALSPCLFRYN"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "Spanish",
+   "symbols": 20,
+   "z": 1.1,
+   "score": -5.829,
+   "null_mean": -5.921,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.1).",
+   "reading": "ICASGHPESHGYSTERRD A SACOS Y YO CERDA DGBRUOMIM PHNEAUDITRYENDPDBC ARMA TUS SON SU A SEA BEDESDYDNU YA DE TU OTDHNUZ Y ALGO EA OCHO NELUCDLOVILYMNU MINA HEMOS A CSCVDLCEHOALTABLDH MIS TA DO UN ICUESYGBUOABYOAATR O OS Y SUS TBTUYYTANP"
   },
   {
    "model": "main diagonals",
@@ -247,6 +545,182 @@
    "reading": "EPATUTNRNDMEOUODAS PER IAPOACSIIIMIURCAT IN NSPPNUERNISS ET IPSCCECITIMTEAN EOS EA USODOMOUMNMMTDEOC CUM RCNPAUCMRECIOUO UT A AD DUAE PCAICDICOTISA CARRI ITIUPARRSST EST ROMMUDDPOAUCISC REI OQUQRLZFBSEQLO PER NSISNONEAOC"
   },
   {
+   "model": "second digits read in 6 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 1.03,
+   "score": -5.862,
+   "null_mean": -5.919,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.0).",
+   "reading": "ODSEQYUYSNUVSMYTT ES SMIMAVCSNNTARSGVV Y EL TOUNBIRDS LE TODIRQRCIMOTMRI AMABAN E SI SOY EN AMO E I NO EMNSYMRMNINFLSQQRN ASDIEDIGNDAPEQCUVL NI VVYMBBVMAABABUSHB Y IEMPERCUMBOVEEER MI NO NI NELPOBRALLASRE TRAE LA DAAVAYLLMMNQ"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 1.01,
+   "score": -5.45,
+   "null_mean": -5.493,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "BCISPCJUTDPO SE CXRATITUSERRECM VIA TLBBCTBRBLDUME NE RIORNUILEXCAOOTTNA TAM ADIT UERCAUTEXECUVEIMT DIE IN DDYVTQPIC IAM MEUM LDCIPILOHBBMMXOCTU UXAITNSMHSQMUNEALA EX PEDOOSEATADDR CUM AB HVCAEBOTESTRI SIBI CAEOSCRRSSDH"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 1.0,
+   "score": -5.759,
+   "null_mean": -5.801,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.0).",
+   "reading": "RNSIGNGCONFUSIAYRE S SON S OR PINMYEOOZUPAIRDUFM AME COU EURMAIGTULTPREI ME SELS MIS NE PLENSSUEAAUIOAT COTE L L L QUE ZVO CE SACS NNZLAOHSHUGUR LADY C ON NUIT TMINVTGNNAIEFITPHT L PRETS TSAMDMMLTRHDMTORPS SOIR ISTPTAISDSLYPOEAV"
+  },
+  {
+   "model": "first digits read in 10 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.99,
+   "score": -5.582,
+   "null_mean": -5.623,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.0).",
+   "reading": "DBEOMRMLNLCLDALSLE S PIPING ARE A OF BANHLD TO DO T TO HIT NO OOHLEURHAPEOSTC HIS HLOLHHTERUPENCUMA YOU NLYTEDITTYSLIIMAPO GO A D HE GREW NO NSCBDSHHNOYELLNU LEE AN NYOUSSANTOKICOBST FORTS URRHUYHREPUEREPROL OR MTESEETHCLWGHIEU"
+  },
+  {
+   "model": "both digit streams in 11 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.99,
+   "score": -5.681,
+   "null_mean": -5.732,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.0).",
+   "reading": "SDRINV Y LE ROSA Y LLUSOURSRUUOLICE Y Y LSYRAYDDMDER MIO NO IUVSEUEDNRMU RAYOS A LATA SI DA LSAETUMUJEULMRDODO SU SUR RUIN I DE AL UIAESSDUEMYULRIOAT REY SSSLMMMNIOPRTTYORL L PERAS ME DEN NOTO VERA MONTA QUIDOTN LA IMYNARORDNTREDO AL"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.96,
+   "score": -5.842,
+   "null_mean": -5.889,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=1.0).",
+   "reading": "PDOSHDVINCH USAD Y LE NO NI SAL LA DRGOENMPPDNPLPMCI RATA LO ULTIOMAYDEUUNN TENER ECO NI AL DE IN A YA DIGA O RNCOAOTCCXGNBHODOE RRAIRMCDOHOMUJPPRR Y UDNIIYEONTSRJSBRIT A EMEAYHACUUSAENECCL DIRE PJGDEAPUNASN LOS OPODEAUSDLLSSCJ"
+  },
+  {
+   "model": "both digit streams in 3 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 0.95,
+   "score": -5.369,
+   "null_mean": -5.41,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "LO NCOSTPSIENULPALLRS LATO O DI D PAPA PATTO FO N DUUCRRAITOASOCIEDR ETATE COM IN CNTSEASCRLELUPOCMP SUO CPIAALCRPWNPUU IN S L LE STCQCNSUERIULPDR LE IL LA RIA SCRAARLTSL QUAL IO REA CORE A CREO P S NO CI IO N CHI A IN U TENDE E DI MRDORDRA SI"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "French",
+   "symbols": 20,
+   "z": 0.95,
+   "score": -5.772,
+   "null_mean": -5.822,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "OR EN HGVINGHSNTIMMDENER UNS SUR IMDEDHPMAUBOBVGL IEADOTMSILDVDPREMB ET A NNULNAENIEPIDINDSD LA SE DIT AU T DGLAYSECHUIEURGULI CAR DCUXOCSBLABOLEGIB UNE RNRXDCRIGUECTEPCDG BONTE DU ALORAINSHPAUEPSUE ET MUUNSNANTPTASSTELV"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.93,
+   "score": -5.588,
+   "null_mean": -5.633,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "BPORCPCYASHBRASBB ARE ON A R FIRST BE RE UM BY A LBLUTTSOTOBELMYTDC RIND I BE A YORDNESDOYOMSEPROM APT IO AT END EANTYGLOWCAPEDSSDN SUN NACEUIUFFYYBL SAYS ME OANONVEHTNSEDHERM CAN I LEARROSTLPSSEICITD OF MA O OR FOE DMRSDABETLLARYU"
+  },
+  {
+   "model": "both digit streams in 12 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.93,
+   "score": -5.34,
+   "null_mean": -5.361,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "SNCUSSNPPNDAMND ENIM CONCPSFUSMRAPO EA TASSOAACITIOO AD IN CIS SE DE E QUANTAM LRCTSTUITRISTCIDII ASHIEOORIBRRDDARMO PAMIPMNUEEIOOTOAUL NE A PRO HUUASEEMUNTENNNIUD IN ET PRECNDEMRTICOM TRES PPTEPUCCTOSSSCEC EA NTPTREMOL AC"
+  },
+  {
+   "model": "both digit streams in 3 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.92,
+   "score": -5.687,
+   "null_mean": -5.741,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "LIMOINDCNSAMULC EL LRNLEDIIBSBCECEC EDDIJIMBUUORRESDIE NI O SABRA DE DAOITSMOMDNAENOR LA LUCIOTCNUIOC SE EL O RCHMCUUSMNLLANDOVO MNUARSULCBRLASLLER SENOR EERLDNLVUELSIRAE OIRA EORAICNMIOSSIMOYS ES MUDA MBAABSTRBIRBRENS"
+  },
+  {
+   "model": "both digit streams in 11 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 0.91,
+   "score": -5.345,
+   "null_mean": -5.393,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "NTISUGPLRIENAPL LO NE O IN IO OELSZRPPLN PIA PTTCTRICSEUESOGNR OR TU I COI A PENA LA MAN S TAL NARMOCOBROLCIT E TEN O NOI IO SU STRAL OSARNNTORC POLI SE A MI RPNNNLCCCUSEDIMMP E IL L D RIA NCRTRUUEMEGRIACEU MA VOS TE MULASCPUAIEITUMIRT E AL"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": 0.9,
+   "score": -5.514,
+   "null_mean": -5.573,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "LNRIHADASY MAST HDREIDANITONOMUH MAD THE ON TO HYOLDEALLASADNST IT I TOO I YYESSMOLLERYMARCYN AS SO OR STRADLSMSILM MILE WE DLDIAINARWLDNODMS IN AH TO US DITEETMLLSIAMRSHDI ANY ROUNEELHNENANGHTLR N HIM LL ADD EHIOSAOENSPIRYYDDA"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "English",
+   "symbols": 20,
+   "z": 0.89,
+   "score": -5.599,
+   "null_mean": -5.654,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "UCANPHYONHPSND OF FTANACENSSECOFT AT PLFIEBUBYHROAITUDF SORT YTLCAFBA DINNER NIANOALOTONTSTR IS A TO DIED TH RIG S AM PEOAECHEROMICTMEJU MSBRIBURAHOBENACNC JTMCOHEAMDALMTHBUN DATE I RUCIONSPLIEALSEAAD FEENSNINDLDISSDARY"
+  },
+  {
+   "model": "both digit streams in 8 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 0.88,
+   "score": -5.324,
+   "null_mean": -5.379,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "O A S SUO OIPIARDIEMERU ME MIEI ER N S L VI S AD M T FUE OR L L S M D UNA N L UN ODO D UNA DSPIRSATT E NOTE ISTESPONIMRN ARLPAVITPNNOGLIARP PRORE DI LI IO N P SI E MA A E U DOTA E SITO AL P L QUEL NTMTRLRATODN TRE N DUE SPERA T O T MORSA NO A GAIA AD DHLTNUPRGNUS"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.88,
+   "score": -5.58,
+   "null_mean": -5.618,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "PTSOLDUDEACHERM BY SO OR TORN YFIAPFROGPYISHNPUI M AS DEPRPHATEGOHARNNOO A SEE IF ME S TO ND S TO SHEM IN SED S DO EE I MA VNFULSISOMAODAWDT FLOW NUN PATH PDFAMBORSTRILE LAD IS ELOOHWOTNBSS SEE T TYDTTEHLYTEONPEROO YE OF PRISSPRAYBOOAG"
+  },
+  {
    "model": "columns, bottom up",
    "language": "Latin",
    "symbols": 18,
@@ -256,6 +730,17 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "DDOPPRESAUSAATM SOROR I T UEPTERRCUARUNCUSPO E CCCC M ANNIS CICCUODOM EUM AC TSMMNTDANINSO DE IN ORIOROCEUSROTT IN AC DUM NMCOIUESATURERDPUR PTPIIEMPNCTAIIITOI AUT RIAAUSIMATENICO PNPPSDURTEERITDITR SI AC TCULOLEBJZFAULBRM"
+  },
+  {
+   "model": "first digits read in 3 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.87,
+   "score": -5.7,
+   "null_mean": -5.753,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.9).",
+   "reading": "CSHPNDNO MON YPROIRDIGMTNNIREDO AU SON AI A FAVCUUPANTLAAACIEE S CI T SAIT LA JOVOVICATDESGSML EN OFPDLIUUEANGUTOBJL L OU VRCRACSOHEVMPNI LE COCAMAUDRINEI DE INNTCSRRYLTCONNA SOT TA SUISSE CHTPEETHED ETE VOASJGSIDEFAMIARAN DE"
   },
   {
    "model": "coordinates offset by 1",
@@ -269,6 +754,17 @@
    "reading": "RLECFSZSISZBIINTR IO CO S CI TRA NDUAICGTBVEBBUHDD SO SE BEBTL LA GIU LE TU C E SI EI DI DE O LA RVASCAMIVDRCI VOLE COVVNKMCPZO DIEN DEL NFLDCGCZMFBTDDMB VAN N MAI ALI SPOGLNNI CHE I M PEL TUO E AOILLRDL VER FU LA A RUA E IER CO A TAL O E MI DTBCALG"
   },
   {
+   "model": "second digits read in 6 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.85,
+   "score": -5.76,
+   "null_mean": -5.794,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "A D UN VOYOUSYLUTOPPNUUTI TEL JUSSPERUFLLONC PAYS MIRDUCNPADIRVRJITA PTRIETEMESNUIUAONS ET A NI SA NTSUOTRTSISZCUVVR SE UDINDIFSDEHNVJYLCS IL LOTMMLTEEMEMYUX MOI NTHNRJYTMALNNNRTI SA SI SNCHAMRECCEURNPR EN CE DE ELEOCCTTSV"
+  },
+  {
    "model": "coordinates offset by 4",
    "language": "French",
    "symbols": 21,
@@ -280,6 +776,116 @@
    "reading": "B NORD S D SES YPRASVBIOORSAAPM INSBEREZMMCIVMMDLU CE CE PATTCSIHEPL OMBRES ERECINAALABUAURIM AU S VIACOLIIRSUUXPIQYE SE EN SA NCDCURDAQPQMBCLTP SON STAROUICHRYSULERDO ET Y IL M TIRA A A C NVCNNITHTNIAMPEAOI TRAAVEUREPEUTTEANQ"
   },
   {
+   "model": "both digit streams in 3 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.84,
+   "score": -5.296,
+   "null_mean": -5.335,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "I AN TAM CUM EO NLIUSIIRMISCAAPEPU S USUS CC AB ANPLLTRRSECASMAT EO PRO CSCOTADENTNCMOSM TRIOILUATDUMLATUES SIT RUXNULLENMIIOM CTFTNMLORELIUPRIOE IIS RES M T RSSRICMIFLSIEAROST A ROSTRO AUMNATEEANTVESENL CONPOOPEDRPARPRSME"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.8,
+   "score": -5.74,
+   "null_mean": -5.793,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "DIULHIGNEOHBLAITPR EU EN LA PPAISFUREMDDIEDPD MON SAC A PU BPCNUMATIRBBEECRER S ROUEN APIRNEATAINF AU SE OU AU COOWFEXHUIURS SANS MOI UHUMBYDDSST BIEN N T RUE C L SYLXSNCARMRATHAOBB LA RE ROOPINSRDYFIRADBEA LE PULUDUIRABLIPPLLOY"
+  },
+  {
+   "model": "both digit streams in 13 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 0.8,
+   "score": -5.476,
+   "null_mean": -5.542,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "ULIUMEAITRSLTCPGAM AU A L ET L SE LII LIS M DIT EENRI ROI ATSUCGMPCMPLOMPIRI ONT TE C TUAT APOALINSMMCN MIS POUR OLECTCHANMR AIE MERCI TU S JURE NTMECUEUCIEAVENALU ME SU SI ERANDPOUSRENTOPMR TON SUIT SSOUEAOLRAAOGE ET SUUNOCCTMMOPOA"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.79,
+   "score": -5.832,
+   "null_mean": -5.886,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "CTERGTGDIOBCRIOCC IRA EN IR MUROS CARA QPCDIYCYQSSOE SECA Y PDSLGRUNLUCAIDERLN A O LE DE POATREPITSUEI SAN LA INSDXYEZGITALOOL NO QNNIGAQUQMMDDC Y OIDO PAEINENHABS NO ALBAR PGINUYAIRRE OS Y TOOAUGUSLEMPIEER ME AL PRO LICASYYIRDQ"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.77,
+   "score": -5.68,
+   "null_mean": -5.735,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "OLIA SI SCUDODOCAODCAMINCA NLAAMATOMECDUSTAMM TTAIMIAMMCUENSOLRG IAMSSIANRTORIBLUDM LO Y CULMLLSETRNTURECI EL LCUIEROONNOENRUCE MI EN NSUDMASCDSMICRI RRMOEROTROMACSSRIM ESO DIO VEIA A TI CIEN INCHLLDRIEGUADRCD VEE EUOSV"
+  },
+  {
+   "model": "first digits read in 2 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.76,
+   "score": -5.437,
+   "null_mean": -5.492,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "CTHPMHMELIMICIEI IN ESLWDDGG OTIASTEMAERUAARUWR AD UDACPRIOTOAIUNCESD ALIAE RE ARUNTNUTMDODGSRNM IS UNAM USU EEMDDESRGRIAR NE NTPLRLJDTRICAVC UNI IMTIONIMLWCTII ID QRJDMAOJWBPH SE NTORTUPHOUHTHOST RE COMBOINTURMIRGALTH"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": 0.75,
+   "score": -5.478,
+   "null_mean": -5.522,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.8).",
+   "reading": "EOINHIHA MR ERE AN ER AND IT ANT ON NDNUEDSARMHUNDDUUN I DIN D DAMS THE OLY IN DHHINTLUELICO MR DO EX AM ODOOHSULTUMLSAISOO AM I SLEET TEST LMASDISTTHMRDNHARH DIAL ILL DESLEULEDNAHH LIDS HER IEKSINNUIAIST IT A POOR LISYMNRLARKSSSMEHK"
+  },
+  {
+   "model": "both digit streams in 11 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.73,
+   "score": -5.305,
+   "null_mean": -5.342,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "TDSNOLRMESITARMM UTI USTSUUIMNFE RRMTRSARDDPDESPNIO IN ULTEUEDOSPUSARI TAM AC ATNDAMTAECUPUH EUM PSDIDITUTUSSU NON D EAM UNA ET TDUEPRUMSNI AC SE RTTTMPPPONIVSCCRI SMMVESATPEDEOOICIL ESAPIOCABUNDICOMAN PRO ASISDOC SED IAM"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.72,
+   "score": -5.886,
+   "null_mean": -5.911,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.7).",
+   "reading": "CYYURYIMIDIOCMDMM Y MSGSIRDOYAOCSYDREV EN UEENSEERSIELLUOAAA LOS Y CON R EGO E ME DEL STTANBRHYGMKETGONN ACRSNSODIGROSEOLOE CADA AUGUIOITUMUEGUS AMOR ADTAVIRPLTMDOR NEDIRUTOPPCYSMYYYL Y SEA ASTAYANYCOCTRNADBB SU JVCVCHAB"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.7,
+   "score": -5.747,
+   "null_mean": -5.797,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.7).",
+   "reading": "C PAR DPDLUSV CRUS C CURE A NU R FOR SI CE REHBCLUMCMHIIS AI A CE MBLITDRONTOCEULART N EST A LA BSEPRABUPIOAUI EN TE UN IL YMAXDUPETSSTNSHNNU DE HOHFFLLCMSULS BEAU N A N JE VINS ET VERBDUNOMEURRA SI MPSSEODOITAFBUAARF A ET BRSTUCEIMMURLH"
+  },
+  {
    "model": "coordinates offset by 7",
    "language": "Latin",
    "symbols": 21,
@@ -289,6 +895,39 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "PQTMVIVDTDXPRMCA ATTUUDERSPMIDOREEL GGIEAGALIIITNUSEPG NITFMOQTOPETIERUNU CUM QUA DRIUMPRCNOMRCRDTMM Q DCJPEVLENTUNIMIQVQ NEVE LALGSDDASDUNDAM RE NTDVMFIDQM EX TRGLUCPSUUEUR IN SCNNUSFSITESARUTUS REM PEDEM SUIS SE MNH"
+  },
+  {
+   "model": "first digits read in 2 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.69,
+   "score": -5.802,
+   "null_mean": -5.867,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.7).",
+   "reading": "MTJBDJDAVE DE ME A E EN ASVGLLCCUTEOSTADOA RIO O RIGROLILOMBREUTUOE IN MAS LO VEO A RAORINTNITDLULCSRN DE SINO DI SI A AD L LAS RCREORNANTBVRVXLT REMO Y MI NEEDTEUNEDVGMTEE EL PRXLDOUXGQBJ SAN TU RTIBJUIJTJUSTRAMUD QUE NTIRDERCOVTJ"
+  },
+  {
+   "model": "both digit streams in 11 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 0.69,
+   "score": -5.56,
+   "null_mean": -5.591,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.7).",
+   "reading": "TDRNSMILUR ET A IL LOTEORTROOELN HUI IL TIRA IDDVDURV NE SE NOM TU OU DSRVOR AI ET A LA CA TNDALTAUCOVOQUOLVR DE DE TOT OR R ON S N DU A L ON AU T T D OU VIOLRNEACRUITTTLVV VSNEGRCCIERLLGURAT VU DUSSE CE MUR AVES CA P ON DE C S LA N VISA RE R D S CRU DE A L"
+  },
+  {
+   "model": "second digits read in 3 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.68,
+   "score": -5.719,
+   "null_mean": -5.762,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.7).",
+   "reading": "PIE T M N BUT DZRAAURPASTAFTAPOS DUR LE LHCCITPROMINDSFS CAR CINSZSOUTRCLTISS EN EN TLFTCDAUAAGANDGT AI TU SE EINDYCEZMADETIILNN BU NE BAZOVPPUDOPUSIIRS SENT D HE VIN N A L ME A O M SUR CAS L ET DU PUNFACVOIETROESEAC LES GLDSSOSIOOSENV"
   },
   {
    "model": "coordinates offset by 1",
@@ -324,6 +963,61 @@
    "reading": "LUUTIUTOSYYEDDC TE SE SALIO Y LOS ROEYTIRNISUIRSRRRC UN NATRARRINCCTL RUCIO CE DEL DUNANTEDOANESN AL LES TI ORE SEA URDICNCREAIOTUAAYL Y SI Y DSOSILOCYNRLUAAA LE AUN OLUCATIUUASLIAREYN Y Y TDISLOOIRLRUATSLAD LAS ME MOPBZQUIMPSC"
   },
   {
+   "model": "first digits read in 4 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.64,
+   "score": -5.621,
+   "null_mean": -5.639,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
+   "reading": "NUTESTSIL IS IN IOGIAOFLFHLIKT TIER CILDIERNEDFRNEL FLED DDOTACNKMUEOFSNLO DONG EE BUT A FUSS A LKFPUSORMANLMMFOOW WHO ME ON GDDCOATEHEHOLADGED HER A I GHTITTOLHRETGGOSFE IS SET IMRNAMGUTTE TREAT MAT A AY UP I ETLYTOATFDWOEOESCU"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "Italian",
+   "symbols": 20,
+   "z": 0.64,
+   "score": -5.567,
+   "null_mean": -5.601,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
+   "reading": "HLAEUMBOEMUTEROSSC A E ALI E T TI LO SCACUNSDIPHPBMVO AD CH RSTOVCBCN LA S PAR DE EI VE DA E OANOCOECTCVDTA COR DIR CMVDXTAGU IO A IL MI VOGDLCGIFHGTPVDPHV AMO PIE AL E LFCG LO MIA GRAN GCMPHERACIDVHLDOET UN DI A N TI A ARSI I E TE DE RNRDTTRAVB"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.62,
+   "score": -5.315,
+   "null_mean": -5.357,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "DAUNRTITEMPTEORIU CN ITA NOS ASPHRPTIORC SAOSRMSDICTDDTETIA EO NON OSSNMMCEEPSDD CUM PTUXMATEESSU EO UTI DE PENDPPNDCQCIDINT NATU Q DI A SI PENATROSHEINOCCOPD DENT PUERI NTAMUSHACCDRACATA FRODUARNPDDTIICRNS ET SCAEGNUMMIIT"
+  },
+  {
+   "model": "both digit streams in 8 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.61,
+   "score": -5.657,
+   "null_mean": -5.702,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
+   "reading": "EATTYEE IRIAN SI O CON Y COCIOIONDTUVITASC LWYOENUUTCSYDADUYD ES ES Y DASTRINTALLODELOIT LO TREDICNDANURAVILRD DE GUIAN RRNENOSIUIIEDRTIOC A A O Y SE LA OTILEAURUMYOUDLCLN UNA LES DLNODSYOTRONALELC EN TA DE A GAIAASSPULDYRNGDYT"
+  },
+  {
+   "model": "first digits read in 2 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.6,
+   "score": -5.721,
+   "null_mean": -5.775,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
+   "reading": "PSBMR BRAVE REPEAEENALVFDDCCUS ET L S ART AI OTTIOFITDODTPMIEUS UTEONPALDTVETAIATI ON S NOS R DU D CLINRELONTROLOAARD D A L ICI ET IN ANS MVIVJDSIEPTYPONEER SE UNE RVFPSEEEDHIJDRTUJ FQMBLANSUISOMBUOBS BU L SI A PUR QU EN SOIR EICTVSB"
+  },
+  {
    "model": "spiral inward",
    "language": "Spanish",
    "symbols": 18,
@@ -333,6 +1027,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
    "reading": "RIAEYIYS OS Y LE DI QUE SPBGQLUCUIOELRSOR CAI DTTCMMILNSENSSLLAD CON O OLLA RASO NI R OTRO ARDEACTTAANCICIOR EL MRCADYRLMCRRIETNMM Y MCIMITISCAESIE YA EN MONO RERRS DON ES SOY LE CYDDSYYONARL COMO O OS R A IDA O LE DSATICIEMTYLYNCNA DE"
+  },
+  {
+   "model": "both digit streams in 3 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": 0.58,
+   "score": -5.526,
+   "null_mean": -5.561,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.6).",
+   "reading": "TO NAOSDYSLINHT YET TRSTEDOOCLCYEY EYED DO FONCHHARREL DOES OALICRIDEDIAOMLN AND S I E S ART I THY O A MY S HOAYLEETARYUNYHHLN ST TIS DAWANSHIRLHTYCR TILT TERLESAREERTDSTW HE TLORIEAORIEARIOYS NO ALL ON ABLE LNHDINCIICLMRCORC RE S L"
+  },
+  {
+   "model": "both digit streams in 8 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.57,
+   "score": -5.283,
+   "null_mean": -5.315,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "AECCUAANLNETSNIBIT UBI BNINITMCOGNCES BRDUIATOOCBSUMEMOU MASASUMESCLNTCERRI MARI NCRICLAMNBTM ET OLEGNRLMMAPONETLLT AT IS NON NAM LCNIBE EIUS A REI CNRAEOLO QUI OMRBRTOTERASMRTIM SUI CLITERARBATCEMAEPE NE ESSFORMULTPMUC"
   },
   {
    "model": "coordinates offset by 10",
@@ -357,6 +1073,39 @@
    "reading": "STNAGTGRERGUADT ZWAR OPFZUWIWTEAUSR ES IN TDLLIMMTUHRAHRRUUN DIE HEEUUNSNREHTSELSE NSDANILLNNHITITESA UM SIND G SUM ISST ALHMMGMITMTLTRINAR TAG NAHM EH ES A S SRDEHARREGUAIGDDRG GEHN SUIEMEEERSNTD NEU ADRNLTITAMLGUGH IHN DA"
   },
   {
+   "model": "both digit streams in 5 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 0.52,
+   "score": -5.435,
+   "null_mean": -5.454,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.5).",
+   "reading": "RAUS ES TSRERFRENBERGGU LAUB OSIMUETATIIEIRF AUS SGIIMCGRDSLDABIIG UM WDRMENATMDBRIDTTS IN DIE ALT GEN STDDTEEDHLNAUNTI UND BIAFBLBRDDELLE NUR MRAGENGANNESG DAS MALE LSSTMBBRLEEUNNT SRRRMDIIMDIEGTGEDM DU RNACLUTNAGTIANA"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.5,
+   "score": -5.694,
+   "null_mean": -5.726,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.5).",
+   "reading": "L NISDRBREOHMEAVXUIS SANS A PU CTOLCASFLUTIMPLBT VOIR ELALMONEFSMOAPPS SOIE ET CVEINSPRIN SI ME VTPIERIRSEETVOYPCB DIT ISVOSROGRNCDSGPBPL ON MLRCOVXSAINAT DE DORT IEDSSMGSNP XIII EENNURNNEMDUNESP LE A S S UESCLATIILAOUXSSOF"
+  },
+  {
+   "model": "second digits read in 10 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.5,
+   "score": -5.762,
+   "null_mean": -5.793,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.5).",
+   "reading": "D FSUCRCASLHNTPRVNTS ET AU TMDPRINSPEHN DIT MON CFALP LEVE ON AI PYTNIEDOSSRTSUASL TE A PORTA SSOPRRN ET LUREETALIGNTYB PAS T FIE L AH FIS QU Y N Y VOIR M D A T IL DE EPLERCUBI ILS PCUSOBSLVDTT PESA ADRLATOBDATSOMTESP ME EENEFUSDSAMVPUIB"
+  },
+  {
    "model": "coordinates offset by 1",
    "language": "English",
    "symbols": 21,
@@ -368,6 +1117,105 @@
    "reading": "NREABLYLSLYCSS FUN ST AT LA SUN IF O P IS A MUCH ECCPGOOLTLECECUR RIM S PRE UP A ELSE SO SO ETRINHILAIDSH ON ASH TREAT HHFZDAVYTOSEFOERFB ROAMAYDBCUOODCHIFF D I SIR SLVTMRFFSAGESDVER UP TEITSRRNORHENBPRI IN PIES EN AT IUIRTEDSOUCAIRM"
   },
   {
+   "model": "first digits read in 6 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.49,
+   "score": -5.417,
+   "null_mean": -5.438,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "RXIAUINC USUS A CCCC ISTUDEESSIMPATIS NOS AB A AOTGRANTUAVOOFLIIH FDIOCTERESACASARDL II DIE EIUS DAMNCDTLANTTBSCENU C DHPAPRAIPLIAEAQFNM AC ARNATISCQXFLICUU DOMCCCEDOFNNRLPDDR ID PLLMRMBAILBXIMITI AC AMQDMFLIGAQSRFREIL"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "Latin",
+   "symbols": 20,
+   "z": 0.48,
+   "score": -5.479,
+   "null_mean": -5.502,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "Q UT AD BLSABDNAPSCC ITA TURANNRUSCIT ID OCERFQFLBMST EIQPCNSMILIOUTCFTP EA ARMA ET ASTOSISAINIMENTIS PER PIBMEHNTGDRS TRUBRMSGEUIGRXQGNF MEFQMTBSFRATUAUXIG USBRTGPTOGIBFQAPTI REM QUE SANDOERTONRTTP CRRANAEAPOPENNPTML"
+  },
+  {
+   "model": "second digits read in 5 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 0.47,
+   "score": -5.54,
+   "null_mean": -5.558,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.5).",
+   "reading": "NSRTODBDEFLI ER DIHEAARDURIHTSGH RAUB IIFUNIIODDCUSE KANN DDEZUISAHNTEGERT SAGE UGUNCADUTNUFSMAAFT DA EECFFPMTWZRD AUF DES SZSSTZELNOMMFDHNG ES CHTAUDTFWALSDGU TOT TMBESINTRRRTDCMGG GEN ZIGEUHKAAREN ER EMUCTRKTSKKUUDZ"
+  },
+  {
+   "model": "second digits read in 4 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.46,
+   "score": -5.476,
+   "null_mean": -5.497,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "DLESPLPMUAHD SUA DDUSIERUSCOSANDI SI GQDMUBDBGNNAE NE DIBQMNTPSORTODIUM EST RIATEMEQAILSEQULNO EUNIRTIURNMYBEXPUL ITA AT RAGRRUPIGOGCCMMDBA UMAQIEURERVIHNRAIT HIS QPUROB IUS SE AN BLAAIOPONTECQUEES CEITQSATUDINBBUSMG"
+  },
+  {
+   "model": "both digit streams in 13 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.46,
+   "score": -5.659,
+   "null_mean": -5.687,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.5).",
+   "reading": "ET IEYASIOLRTODCBSYS ESTA OTRA TIITIRYVIOAANLI LUIS OREDBYCDYCTUYCILI UNO O A DO ESOS CUSTINRYYDNYIRCU EL UTADODQSNYL SI A Y AL DIO E R ME LA NO YA DE A E DIAS PAN STEYARERIALSNVCUER LA NO UC Y LO UN REIORRUEASUTLS SUBA A ORE EN UDDOYYUCUS"
+  },
+  {
+   "model": "both digit streams in 6 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": 0.43,
+   "score": -5.669,
+   "null_mean": -5.696,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.4).",
+   "reading": "DUERIAYCDTDRESCCCR E EL Y TORO ES LA OAESNRAITAYE PIE CODTQCYUDARGUYTYCT A DOTO NO TRDYDEANTOTEI ES EN SS YA LAS TE LO SE NI C SUDO DIO ELLO OORMUYNTSEINATRRN PUUIONDDCNCYNSONCU Y SI DINNIASDLDSDSITO DIGO STOEANAC UN SU VOURUALPLTTI"
+  },
+  {
+   "model": "both digit streams in 13 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 0.43,
+   "score": -5.347,
+   "null_mean": -5.372,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.4).",
+   "reading": "IRE I MA TE USNRUCPVTM TI TRA URNAREERENMXEUA AL SE SO E TU NICVMPCMP ROMPE SE O LU U A CUI TU T PO TRE L N M M C L MEN POI S ORA CUCYTLMSTEAMASCEU INDI SALUMACIAICEATH ALTRI MANI NE ASTLXPOINSALUOPM SUOL NI E UN NOI A T OR STTOVAAUNIILOCCUM MO PO T"
+  },
+  {
+   "model": "first digits read in 5 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.41,
+   "score": -5.457,
+   "null_mean": -5.473,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "AMBATNTDFEFGA EO DENOS QURQDDNIOPUIOTCECU A PLZVALTURPLACDIIMA EUM POZTA RE LOCO C A VIII UNTRITE SCIRE SVICTUUUEXTRRGSCE POCAIOBNCFATETICEL PFLVMOERMOMMEFRULN OOETUADTRANDUUCBSO IN NANSCIISIIIMUMCE LIQVMOBIZCROLECRMM"
+  },
+  {
+   "model": "both digit streams in 12 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": 0.41,
+   "score": -5.506,
+   "null_mean": -5.528,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.4).",
+   "reading": "LDRULLDOODM AND ME DINRSDROLFULNHAO SEAT ALL S A A R IT IS S AMID RILLEMEEQUADTANCH RTLTUITHILTRIMIIAL PIES S HIGH HMMAHN SO AN I ON DUE EISSTSAUCDEAOHSPUU A LEE NUDTEDDDIUMIDE TO HERD MEN HTIRSN THE LOOTEOURRTSLLLRE READ TO THEN SCAR"
+  },
+  {
    "model": "main diagonals",
    "language": "French",
    "symbols": 18,
@@ -377,6 +1225,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.4).",
    "reading": "T R S LISAIT PU LNDARMLDISUNMEPAPS EU PLAT IEPTETPLERSEITI LEUR DUE D A NOS UANDIINTERNMURRN AIT T D NPPASSNOMLTSERLAUI MA PORT RMEAMIEMLLMBLAEE DU L UN LRGSOPSOMNSOLAEPA TRARONSPDSLIONTFRD SUR LE C TUE D A S JE D RMTBONTIITLAGEENRG"
+  },
+  {
+   "model": "second digits read in 2 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.34,
+   "score": -5.482,
+   "null_mean": -5.498,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "GODDXS FERE X PRAE C LIII IN ITGGROUCITIBLLU AMMPXNOETUTCRPLUUI QAGURMLIIORAAEDURR NRPOTUTAMAUOMATUIS AATSUUKMIQBRERRONT SE QUOD BTFCFPPUUMMEAESPII IN AN X AB USNADYRDPYREGLADDD IUS CESEAPYMEDIPGRTARM ITA CAOARMTEMGRRSQ"
+  },
+  {
+   "model": "first digits read in 11 columns",
+   "language": "Spanish",
+   "symbols": 20,
+   "z": 0.34,
+   "score": -5.855,
+   "null_mean": -5.867,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "SLYBHCDAHAHURAAA ALTO DMDDATYCFI OYAN RAROS SI MPRIVPHIBR BUEY ESTO ERA ODINARASASBM Y Y LO EN DE DUPRYHAMPLINOMOAA DVHFMIARABREULLRHI DAD Y BTRSDIOLUUDETEEFH VOS LA TADOBTDDSETM PIE PUECERYPIELOQYCLP LIAR CHOEAYEOSHURTSH Y Y"
   },
   {
    "model": "spiral inward",
@@ -401,6 +1271,61 @@
    "reading": "NULL MCGCESYBILCOO LA ER CI A N DE UUDEEAPBZSADDDMTT TACE OANZSUIMANULDDERTR ER SI TI L VA O S L VERDI VVZLLSISLEACUCXDRM GRU I A S CI TU MUUIPEGNMBOCTON SI VUOL L L SE U MI FU TCEEPRENGRTDOEAR RETTO T V TAN PO SER NO REA IN A LA BRTAROASOBLICF"
   },
   {
+   "model": "first digits read in 7 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 0.31,
+   "score": -5.557,
+   "null_mean": -5.569,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "D M MIA PAR TRA RIRCRLULSASTNCRPM LO FEC AI C D VOI D S SI IN SAI D O IL E E PO L FEO RVNITROROGIOFMEM BEATE A CSJENRFSMOTVSSLGTH AL V ORO LO D ER U PO NON LA P OR DI A OVE L CHE LE E CTTSIERRGNSOCANO E LVVJPSRUPMDPSD MUSE MPUFUORIMAQEGPPSJT CI GOTE U"
+  },
+  {
+   "model": "second digits read in 8 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 0.31,
+   "score": -5.532,
+   "null_mean": -5.543,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "GKAACHOHNHVMTNRLLA AIIRNIGLAREBTNAVWL DA MLGCKKEIDALSLB ER NUN WEIB WANHAASDTRINDIGET RANG IHR MISESHSTNDHRJGIVOS ENNEHARDOKHNOIOMOL LKKLMDNDKLANTHSKOS VERKITZTABCSDGWITA IIDELEHRABUGDINMMS INS LSNSBTDASWIEGMIIEC"
+  },
+  {
+   "model": "first digits read in 4 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.3,
+   "score": -5.742,
+   "null_mean": -5.757,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "C P S ILS LA RALACAEMATEURUVRAG S SAIN JARDAINCIDUNCIRURI D D DES TJCGOPIEULCRE DE CMIIKPSTUPLLTRGUFP L EN OTCROOUEEXXVEOIECM D D J ET SI VI VERT DMIDVINTAMVSASSERV NI S MME LUI A L LIS A ON C T OMPSSISNITSOTSTTYP FAIS RYSETSUDXEIEILJP"
+  },
+  {
+   "model": "second digits read in 3 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.28,
+   "score": -5.813,
+   "null_mean": -5.834,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "BCDUYOHTUSPIEETIBE A UEMUEBRASTILDLZNNC UBIRYCOSAMANEINCOA PAR TU INLUCAADODOULM UN SE TE E FEOS FUE CUTADDCOSQNDPYESDU CCLOOHTODHEPRGBBTS RBTACCIAADOUSZDGCO O EL Y DE RYATINEALDUSTB TOMEN GRCDUIRDA DE NLDAFLSAARACRRADOG"
+  },
+  {
+   "model": "second digits read in 10 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.26,
+   "score": -5.881,
+   "null_mean": -5.906,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.3).",
+   "reading": "UMAPZNZRADYBO EN HBOALORPOCU EN IBA EL Y BUIOCSBZMR DE DLHLSBRIEGOBIL USA A NO A PRADO LR ES NORA ASEN NBLODPNLLORDIJBOGT ERA O MIL DRYMIAQPGBGH SIN CURO IDULLEDLNZPTIIDAEZ PASTA DHUOOELARRUNDR OS TU R O ASCO LA E CLLLBLMPAUARCHEPIT"
+  },
+  {
    "model": "boustrophedon columns",
    "language": "German",
    "symbols": 18,
@@ -410,6 +1335,39 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
    "reading": "TDDRADRUNHHIMMLR IN IN ETAUHTUNSUIHRASG AN DAS NSSSLDG GER S ES SAG LLRTSDLAULI MIT MDGEGRIMUEGINGETT IN RAUS IN IEDSMALGL SIE AURDEEHTH NAHM NUN ATULHGSTDEEETIED GUT DLERADDENTA ES IHGHHRMANTUUASTS DER NTEMTENVIVUOYCK DAVON L"
+  },
+  {
+   "model": "first digits read in 6 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 0.22,
+   "score": -5.489,
+   "null_mean": -5.497,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "HWIETINSTGTG ES SSSIGDTOMMGGIRFEDI GNUGE BEEUDCHENDTEZUU ALIIPAOIUSDMHMGESE GEH OL II O IM MIT GOERNSODLENDDBGSMN T SO PFEFHEIFLIEMEVANRE SEHNE DIGSVWAL IST TOURSSSMOUANNHLFOO HIOFLLRHRBEILBWIRI DIESER VOR ALICEVGHAHMIL"
+  },
+  {
+   "model": "first digits read in 7 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.22,
+   "score": -5.656,
+   "null_mean": -5.664,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "PUUREHETSTETRTDTNC NO EOSMDTHUNAYIDERDP LAR POOR RMOERPARNIIH ANY I AT L MRS T AT A GRAYUIUVIESIEDOWIM T YOU AS LOON GSBENL AT AN A PITCH AM AM NE HAT P REAL IN DBINIIDSSORITTGMOA DE MAIN LL WHO TCHUPHOPUCOIUHCYCA TRUE FIGHHOWSDRGASIC"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.22,
+   "score": -5.49,
+   "null_mean": -5.498,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "MDENZDZHODGRENTQM AEEODEOMUNDIQAOOBR UT NMLRGITIA HORA RMITNZSRCSUMANIAE AC EI NE DAUCADEERATTRNOTS HOS AC CC YRABXOHAETHEDDBCT OPE PRZRMCTLQHODDRNSS IN DXSZDDTNAGNSUPS CUM A SESE TILIICSMPLISOMUE EO NMNESUSTNELEC QUO AT X"
   },
   {
    "model": "columns",
@@ -432,6 +1390,50 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
    "reading": "LHOAYHBH AH VRAI DU L O A A ET A SUR ADCMSISBPUNSPLUYC CCSHEREPMNTSVILCOM PAS HSSITETIEDOR DANS ELAN NRSONINAAODDHGPABV S CE A TTSDCYHDEBABPYPUTH M L TA TTMOOICEHVAYNCHOO BEAUX STUMEEESENCRTNTER FUT SA PROIE A RE IS LA CAS L ET PRES DF"
+  },
+  {
+   "model": "both digit streams in 14 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 0.21,
+   "score": -5.537,
+   "null_mean": -5.557,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "ET T DIT DLRNNACCRL EN LIEU RARADMSLANDI SOIR T ISRISSUSDUOOTMSSSO MM D EST M IL MA CAR A OU LCADOUOTCEOUEEARD IL SA RAUTDLIUASMOMICSTU UN EN RINCRLRIETUAEUUUTE SON M L O L ET MU DIT TU RE IL LE RICDN NON A SUIS EST UDREUCEURMRZ VIT PHYZLVAV"
+  },
+  {
+   "model": "second digits read in 5 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.19,
+   "score": -5.882,
+   "null_mean": -5.899,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "MNSIGCYCELQU ES CURE OOSCASURINDRSOAYUU LA MUUGCCBANETOMMCCEP A UNO R MI E DE SINO DE ADAMBOCAIMALNHOOLI COEEBLLFHIVPSCOALC EN NPNNIPEQMGHHLCRMD EN BRIO ACILVOQNCDAIGIIH Y EN UMISSSICBHDDDEM PUDE ARTOO SE ME SE HA BISTINTTAACP"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.19,
+   "score": -5.625,
+   "null_mean": -5.637,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "YASTPAUNIOPFTEAGRL IS INTER READ HSLIBYYAIYRYBONDEC ERSFRCNSBEGALFFIIC LILDLOSINERALNIEGE AN HE SDIOSES COOK HIM PSASLDD END BOASPSBFWYYDDG FAIN NGLSICTDWTMDNCELB LEG PEOFFTELILOORANDLY WHALE YFIETIRSTSYSA LEFT ARRT TOW"
+  },
+  {
+   "model": "first digits read in 8 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": 0.18,
+   "score": -5.91,
+   "null_mean": -5.918,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "DALDRLTEPER NO EN GNSEYPYRPENSAGBJAG ROGUQUODCJBDTCRUUU BEALSDNIAUNYPUPGUE UN UDISALISTPL REY OARNJCABRICIEGFFRE CON OGOOSEHAUTUPGRSDEU ORO YA EN TAELAMPFYUS ME ETIOMPRULNIIOSINAS LOS CUAL ILLSLIA DE BARIANSHJUREONBR AL"
   },
   {
    "model": "coordinates offset by 2",
@@ -467,6 +1469,17 @@
    "reading": "Y CUUHDPDEMBGIUDAAU SER DISYLECC LE ES TGJMSLLLHOOOSDEAS Y JMCIHSYCULLERORER MIO IUNSAMUNERLINNJUU MI MUESDCDFLRHPRCISM DIO CHCCITEPYHGADOA Y MI NCAUUUMECHIVCODEET REY PRO LA ES RREOOAONOSYTAMER YA R E SI Y SUS GROSRASMAGUIDV"
   },
   {
+   "model": "second digits read in 10 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 0.16,
+   "score": -5.577,
+   "null_mean": -5.589,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.2).",
+   "reading": "UFAVBLBRA CH IO E L GIO A T OR VO DUE L SIA E THIUSODNIBFRCECTGT N IR SEMO I S T UNA A LO AVRA CO TRE N LOR A A NEL LITO CVLTTORCSZIOM PER A OFSTCRHFSAKVMIMGNS L DURO SCUTTECTLBVPSSCAEB VAN PACGUOOETARRULCRON PURO ANDO T A ED TTTITFVAUARDGEVSP"
+  },
+  {
    "model": "coordinates offset by 13",
    "language": "Italian",
    "symbols": 21,
@@ -476,6 +1489,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
    "reading": "AUPPFUQGRG DA PESA VREPMCPIOVICTOIIMQ L V CI VAN FSCURSIARLVGUIZIA CIO NE E TE M M S MURI S MA TR SI M OR TUA MMGPTIPIUCCBA E FHMCMPGSIUCHGCRFPZ L FAN SUL L TI SUA PMRCPGDIFUTTIEQPEN FISO VE E RE ESSO S CU INDO S PE NOI M PIA I MENI SEI LEGA LPMUH"
+  },
+  {
+   "model": "first digits read in 8 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.15,
+   "score": -5.803,
+   "null_mean": -5.809,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "PAN PIN C L O LIER LE DES LVOVIOLESADFJADIR DU MUR PQJFPCQIUUUFLANSP ET AU EVOUODULUEUPTSANTS C ON IL VRAIE JQAFITQTLDXX IL QRERDRRSLHAUCUO DIS PLURIRVALECALNAYOX VUS Y L L C TRYOIUNETTRSTEASNR S QUANT NNSNTAPLFAITAESHJU IL RE FIA N"
   },
   {
    "model": "boustrophedon columns",
@@ -489,6 +1513,61 @@
    "reading": "E OOANOADILLRYYFARIR IT END LED IS DR L AN S UNION S IS S SFOUUTASTSSNUFFAES OF ND FRY RE YOU TUARYDTURIUTEERI AND SRIRTOSYNFU FSRTNDAOTTLELINLYI DINED FLUSEOTTTERTOUDE OF TANOOTIENTSRLUL LAY NIEDDNSESOTAIET YET IGRGDWCHMONGW IF"
   },
   {
+   "model": "both digit streams in 6 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": 0.14,
+   "score": -5.317,
+   "null_mean": -5.324,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "NOAPUERMNTNPACMMMP A A LRTIPIACLEIEACSPEU TER AQUAM IN THMRONEPDO RTRMTENITISITPNRNA EST ITA UACASCCR ELECTA LICASUMCONINUIAL LIII PFORSTCAUSETPPSQO OUISNNMSMRSCISMORC UNUS SUECNLNCNC UT IN UDICTIAESEMOS COGI OPOELQLTTU"
+  },
+  {
+   "model": "first digits read in 7 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": 0.14,
+   "score": -5.556,
+   "null_mean": -5.56,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "TOOSUH UND NUN SNZNRGRAUADLZN HORE WIZUSZTMESTAASSL AUS TESRIIHERWIENML SDNENEBSEWOIOYIUDI UZAPILNWAOEDMAARBD FUR MENERETINGHELEL RUHEN TSUEMIRZFIRIIZD DAS IN NBLAEZULEIRMMP HANG HOTHATOGAIOHGW GEN SO UCIBHHAPDZSBEDIG"
+  },
+  {
+   "model": "first digits read in 13 columns",
+   "language": "Italian",
+   "symbols": 20,
+   "z": 0.11,
+   "score": -5.596,
+   "null_mean": -5.602,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "C E E CGEGNIFLNOSTFSRSVG MI IN TE E NOME TGDNOMOADMBOOGML CADA TRRUONPUOF MIA IN OSOTAOPUERMEGLRGSP AELTMVZOIMPMSKGGGF PON ANDAENUUDL DISIRO SCOLA MESTI RSEUSILVCENFSGBCNL L DE SMMCRBNERUCEMCU E VERE E BRANDEIMUTUR MAGNA SOL ER"
+  },
+  {
+   "model": "second digits read in 8 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": 0.1,
+   "score": -5.798,
+   "null_mean": -5.806,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "CFSSHDBDNDYMONUAAS SE EU NE CA SUR PONSYLATSMACHFFR ET SA IAPRUNGNLREPLSNDS SIT OU EN TE CROUSNCEDUMEIRIDI ONT DU XCEYBIRNNRDSUTBFDN BEBMBAAFFAMTNTFASN ODIFBIYRUFEOVOSPHI T C LE OSE ET RARDUSPGCTENMMIENI AI NI POT SI LE RCMEERH"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": 0.1,
+   "score": -5.428,
+   "null_mean": -5.435,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "C N DIR A LA SMUASTRLDOILANI TENE U GRU ALTRO E N T ER ME C LO A C CASAL N S TI TI TE EI M MO S SU ECCO DMUADKMNASSEEDST DAL C SU SI CU UICOVOLCLIAINADVCL NEL USI N ARTE GSLITOOTUCCSIAUDSR LI A N M DEGNO O CRNONANZRTCDNRIUCC ALLOR IESAEONSPIDMML LA"
+  },
+  {
    "model": "spiral outward",
    "language": "German",
    "symbols": 18,
@@ -498,6 +1577,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
    "reading": "EBIRDRTSTZUENDNZI GBESAIBNIMGAAAUADS MIR ATTGBBT DES TAG GER ABGMMEMARAU REITEN GEIDGNZ NUN DU TUURZENMMDUSMT BIDMUSEMANDNDRIIZZ DIEB MIAMZAMNRAGIMISSAA RAD BISS GGREGRSNUUDZZBNID MAG MSEANWDW SOLCH GE WO NBESTGAGTNTEINM"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": 0.09,
+   "score": -5.597,
+   "null_mean": -5.601,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
+   "reading": "S NNRUNMGMLMISGLGGNG O COM U LI NE I SON LU A VA TRA ATOAAUOMADDRI E E E DIO N SI TUA CI AGALADOPPETFUWNCG HA P CI T TE SUO T O IL M CUI O AI DI A SE LE E RCRMIMPRGR ACRO E GIU E LPEVMUBDPGLIU TAL MURPIBBSNOGNNNDNOA E E O PENE T N SI S PUTE LFFORZVSVSWEF"
   },
   {
    "model": "coordinates offset by 4",
@@ -531,6 +1621,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.1).",
    "reading": "LOSE AS N A LI HE UM NOR EM AS HURT IN IS TH I EN LA TILT LIE TO STALAETHOMHTMN UP SHNUMAAULTOURHOOUN ALL MUIINSSUPRELSTOENH ARNIPOLORTNRATREER DENT TMHEHUEOFSPISPRU SPENT IN LONOPUSIMSEAPULCOM SHOE TBLHTMNSXTM OR LDPULAALENFTTU OF"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 0.03,
+   "score": -5.602,
+   "null_mean": -5.604,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.0).",
+   "reading": "UMNSLNL AI DU DU A SUD A S EN PAS P M S SES RUE TADILRSEERRSNENSEE AIT PLUMOVNSELLNSPORU ON C M IDEM UJAIMEMMLTROPRIO TANT M MAIN TOUUPPUTPOIATENTP PLI DES LA D L EN A ON O O EUT OU ROUES A L L ON ET LU D N UYTNSSRNANTPNPAQMM DONT VIS DOADYTTTIULY"
   },
   {
    "model": "boustrophedon rows",
@@ -577,6 +1678,17 @@
    "reading": "RIAOCICBASCVEAUYMO OAATEADMESIDALNHDD UN DDYFIBBLBARERDSUE HA MIL Y V LA BALLUETENTOYTOSNLR O SU ME LINUNAAIIIQMLCHABL ESTE BIHISOPLCDHYDUTVVI ES TRAOOULTCACIUBAOZ LE VFNBRMAEE EL TU DTTUERPRUELVDEONE VEEN DOS LADO TRDEEBZ"
   },
   {
+   "model": "both digit streams in 11 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": 0.02,
+   "score": -5.448,
+   "null_mean": -5.449,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.0).",
+   "reading": "NDUGLKTIAUENSTIIRN ER UNURREIGVATT IN TUST DDHDAUHGELEGRKNA RAD LUHRUSTENSISMSNGDS INS AM RHRWARIHUDE DEN RNRUURGLGDASIRG SANN DRAHTRIUGESMUATNN NIHHHLGEFUMMTEUIIF AUS NHADALLEMEKAUSHELM SORG DEM LISGHTLSUEUDLMUA DES I"
+  },
+  {
    "model": "reversed",
    "language": "German",
    "symbols": 18,
@@ -597,6 +1709,39 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "MUSSDCLCTNHBOSCEE SIT AC OIMPTUUPTTIV BYNIPPPDRRRICTEIMY NUODIMUSPPTARATANO ROSQIENSQTAPOQQYSS NON STICUCGPADLAUO IN CORUDUUOVTLMDBEC REM NOQUESSSNTUDOFUR CTTVATMLARPETIAATR RE RQRIMVENTAMEATIOMI SI BARIAEINEBSOCF"
+  },
+  {
+   "model": "second digits read in 5 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": 0.01,
+   "score": -5.638,
+   "null_mean": -5.639,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.0).",
+   "reading": "RTNIUSKSELFDENSD WE O ON S AND WITH WNOAKDDLARDDUSS PATE GO RRSSEMADTOWRIEHENI TO HE A HARP OS AIR A LT COOL IS OEEPLLBCIYMNSOAL SET T MT TIME FRUCCLSWRHETPWIO AS I LYOFTSHAIUIICKETDR IN NNISPCHHHERMDHEAW GO ONE RENECAPINGITGGAASM"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": 0.01,
+   "score": -5.617,
+   "null_mean": -5.617,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=0.0).",
+   "reading": "S T LA RINIMPEIMDRNLOANIT A DU TUE CREINDROUTDURPUSNO ISSIMINTMDADADUUAP POMME USSOLPEILFPTIM MUULMDLINSMEMASEEA SOYONS N AI A T IL Y S N T UNE MA TIRDUCMNADOO DES S MA IELMRNAITPLUCTOOSR TOT ITBRDSLTRAESSINNOR AU MIUOTMVALPPNNI"
+  },
+  {
+   "model": "first digits read in 12 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": 0.01,
+   "score": -5.474,
+   "null_mean": -5.475,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "BLIODINUMA DATA HAARASNEDMHGRIAV ERANT UT SBTTESOO MENTBOTHRIITHELVUE NON AVXBUBOCRRPCIMDRDU CTIQUEELVMSFFHHNQN AC TAOUTTRALRT NONAM PTATOQTFRUADLALRAM NE TLUUHMETUMQTIASETP CUI LLOPEBRRCLRRISRTHB ID EIALLCOMXTATQLI"
   },
   {
    "model": "columns, bottom up",
@@ -621,6 +1766,50 @@
    "reading": "PE ARGEGORUBQSSEMLNRA CORSI MA UDIA CCVIPUSIIIVEO OND RQNIMUTABRIEA MIA CON N CO S T N SE CIO SE C C LA TU QCRESTSRCDEDZIAFG NO A SDTRTOVEDABAHLGMPO ELLE S TU IN RRESUVRBTDORCHANQG NOL IN CAN NUOLOOUNIGIOSCLMNN CAPRA RISO NALNDPLSRTG"
   },
   {
+   "model": "first digits read in 7 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.0,
+   "score": -5.769,
+   "null_mean": -5.769,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.0).",
+   "reading": "DU UTIMINSNINTNLNRC ROI OSGLNMU REVA LIT L D JE TDOOTTGOITDETRA AMER VA EN JGTSN EN EH TE VU AU BAISA IL O YAGNVOUESJOORHSPIR JE NE RE D A N C ME GEGRIMENDTIEJARL PAR A A L S SOT ANNHGOELIGEARJJY MON CMUDMODUCOAUMCV CENT UIFAHMMOYSLTHE SAC"
+  },
+  {
+   "model": "first digits read in 8 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.0,
+   "score": -5.544,
+   "null_mean": -5.544,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.0).",
+   "reading": "LERLIRF NUN IST N SO SAND UDIUNSAEOWCEOIT OHVHTLKCWLFKIHHHWN ER ALS GEH S DU HUOHNHSHLGAERGA FUR IN DTEISCK EWIG KGNOMMINKTS TOT TANBEHFHUOIALNHTIT DEN SFENREZUMDHAZNNFGT ZU IHR SGGTAGSEARTAK HER GRRARGELNWEIGESABC HIN T S WIE R"
+  },
+  {
+   "model": "second digits read in 2 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.01,
+   "score": -5.578,
+   "null_mean": -5.578,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.0).",
+   "reading": "PNGGHLBOSOHUSEOVRI III CIDPPSNAVIDIFRRAET TU HCNODADVSURAAI ME PASTRIINSEEOGASSCS UN DA DE TE ANTE DA IL E ED LA AQTIMFSOSSNCD LO MAN GFDBVBUUA ATTO E O LUI I ICE CHE FA LCEGXSGUXSOPREGG GIA L VOLO E UXTOGIUPS DESTI DE VENE STDOTPSSLM"
+  },
+  {
+   "model": "second digits read in 7 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.01,
+   "score": -5.527,
+   "null_mean": -5.527,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.0).",
+   "reading": "AN R BGNKSDHGUBENMLIDRD S BELLEN TOR IDCAANDALACHSTEWE LRULWSRCEMNIUUDDWI DITIHRDSELNISDEMEN SO ER TDHRERWHHJODFGRNRI TTESTCHNRGRCUVAATT MUND S S MIR DWBTVBFTSWEICIEM GEH UUBEIDIHHLNSTIA VON IEAUDEBDLRBRAR NIE UBNLLBBHV"
+  },
+  {
    "model": "columns",
    "language": "English",
    "symbols": 18,
@@ -643,6 +1832,50 @@
    "reading": "DMTTVSOSEGYBATSIIT N ER SAND HE MMHEENLBWGNHHHVUU UNS EIN DWGMAVNDMTH HER URERGAUATFNIGTF ER HA FFWTTGAGTENSMSCHR VOR MAN GSAUMVM MALE ODVBISUIDGAF MIT TTGEMVAJMUSEELREDO RUH IENRREUUIUFUNDLI GER DIR ENADNTNBRUNR IN GIBT ASJ"
   },
   {
+   "model": "both digit streams in 14 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -0.02,
+   "score": -5.509,
+   "null_mean": -5.508,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.0).",
+   "reading": "SHH IN HIM ALL RDDAMSLMNSEARARIOT MR LINT CNAHNTANTTETIECC HOT TTCOOISTHONMORDR ARCEMDRICECHDSCESS RAIN MT RARE HIM NE RTOCONDTHEELSLANLD A MAN S HER SEE EHSTCLOMCM SHOE IN HHEASNMMSANDILLCLR TENTS THE I A SED SEA OAFUNHBYGFMURU"
+  },
+  {
+   "model": "both digit streams in 4 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -0.04,
+   "score": -5.363,
+   "null_mean": -5.361,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "APIESISRONANAREANR ET IMREMPEE TELA TURNOSLETTLLEITI ET TROUMSAPCBI ET SSIEMCLACIVPONTP AGRO PTPPSULCMLOCURIUP PRO IUCAAMMAUMCOR UTI UMMSONTESRNSTIRCI CC TAUCALCATERSSCITUS AN I A QUI EELIRIUMIMRHPPN CIUBOENCRNQUUUOASQ"
+  },
+  {
+   "model": "first digits read in 2 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.06,
+   "score": -5.569,
+   "null_mean": -5.563,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "DTPMNP NAVE NE DE A E ERA LVBCCGGUTESLTANSA IO S SI O BIS CO C S D MI E U TU SE OR DAL C S VE SAI A SI OR TROTNCUCGLIR NE LOR S NOL O A A N C CALI GIESIRARTMVIVFC TI ED SXDOREENTEURENVBDT E E E CHI FCNSUFBQMP LA RTUITOMPUOPTPUL TI ADUNQUE RTOINEIGSVTP"
+  },
+  {
+   "model": "first digits read in 10 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -0.06,
+   "score": -5.876,
+   "null_mean": -5.871,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "PMOEFLFDUDHDPS DIDO IYCYCUBSLOSEGM SU ADPREPERREACRUEEEA DON LAS YO E IR HACIA DE DAAROLNYOUHNFSTENU DTROPCRRTIDCCFSYEB ESPA O B LO QUE UIHMPIAAUETODD UN DOOSUUTENIISUREZC HE MI RGELRINLLANTA LO Y NO LO Y LE DEL FROIOORAHDQBA CON"
+  },
+  {
    "model": "spiral inward",
    "language": "Latin",
    "symbols": 18,
@@ -654,6 +1887,17 @@
    "reading": "NAIUOAOMEMOSUP AB DUM XVHBSDTDAEUSNMEN TIAPLLTCCASRMURMMS SI PTEREESSINIMERANEL NE IN PUITLLIIRTATAEN USCNTIPONSCTNNAULR CCOCTACALAMTIUMAUO IURCERENUNNMPERUMM EOS UT OPPMOOER IN STECEEEMNIAPIESUP MILATAUCLOSORTRIPU"
   },
   {
+   "model": "first digits read in 2 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.07,
+   "score": -5.632,
+   "null_mean": -5.625,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "UNGDIGITYSISUSTSSA THY ROOF FWNSLHNTILTECLLEC RE LOCOLUDESWNWLSCAUT HOLY SLTETLECANACNIOW OF HE A IS HCALICHCTTIOO THE FES LE AT AND YE YPONESULBUC AS SINS WAS I Y RUNS S SOME POILWPRVDGHT AN WE NCDGWCGNGWHNET UWIVWSANCEISEFLYNG"
+  },
+  {
    "model": "coordinates offset by 12",
    "language": "English",
    "symbols": 21,
@@ -663,6 +1907,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
    "reading": "MOAAFGFLILYHAAGS TRUE A DR AM CRNNCURRYCHNRMMTPG GNALEMACHNDAWAMORM CEEGUEIDEDAUNEHOUL ER HULL T AID I OUR ANON KSAPPRDRIODE NOW NDRBEFTYSTGGTH DUNG TAAILROYIWGOLURPU AS PENS CREEUEGGSLGNAMPHLE AS SURI AM ARISEN EE MIGHT I A D F"
+  },
+  {
+   "model": "second digits read in 5 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.08,
+   "score": -5.497,
+   "null_mean": -5.493,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "SMRAGTVTEBQOERT OPE IIRTUROP AMNPRIUVOOBUSOOGTT CUM EX IS STTELUOMIPSAENERAM IN E UNUS C ITUASUBMDIIBATIEEC BBFDAHLRTIUBTEMMLM MALE QSGDDBTPSNEMCPAI UT AB HIQMTNUAGAADVE MOSA RRRATCDNNNESLONEUP XII RES EREDUCARXAMXXUUTL"
+  },
+  {
+   "model": "first digits read in 13 columns",
+   "language": "French",
+   "symbols": 20,
+   "z": -0.08,
+   "score": -5.814,
+   "null_mean": -5.809,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "ME EMU EUT OFNTASDFSPSCUROOT DE ET AREDUVTARAIVRZA AU RNMIVIDPPLATBLAF ROI OTA SA DIABLE PRE UN PUS BIEN DRCHAORBRSQUUUF BATIT VIE T L LV N VOS O PAS MA NI RESDOPSELSONCMETFS UZMTNNVESRRMPZTEPL MER M LE C EPEE ZPITVEORLDLPRIUTI SA NE P"
   },
   {
    "model": "coordinates offset by 5",
@@ -698,6 +1964,17 @@
    "reading": "NASDQAQAERQUEEIU MDC DDXESOUTGIUDTEV MNRTMMNVAGATRTNEOO IRE LSNXCHNDERETERTGS SIC OADIDEMTIAUCCIT AC CCXX AB HELVERETRIE IIVARDQDPNQNNARMOX EA IUS SE AD GVSQXXACTQDDNPEGMN SC ESSIROGRISMPOISCON ET S DMSESOCRDENERHOSTI P"
   },
   {
+   "model": "first digits read in 12 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.12,
+   "score": -5.514,
+   "null_mean": -5.508,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "FARLORIHT SO S ES NSSUSPIMOTNKURSCMU SIEH EPFEEMPLLTMIEFLE NUR RENMACHMILISCZFHFL DU UBDRTOUOHDERGHMMAC TPWWNNIGISDESLHEEU SAU EI LIST BESELGEWUHSOASAUST IM EAHHNTMEHTGERSPME BDHRAALBMFUUDAUURP UENFROMRSAADLTZESE GAR"
+  },
+  {
    "model": "coordinates offset by 10",
    "language": "Spanish",
    "symbols": 21,
@@ -707,6 +1984,61 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
    "reading": "GUARDUDERIBYNNUMLS RAPE RNOMAICOAPPQOGI NO O O QUE ES CRYSOMITABROU AMO A PESSPENTSNUPOENUPP LA TI Y PRUNTNRPCUCHOAJD SEAN CTRTEQUCABAVLDMG EULLUNTIOSRRUNIQRB TCERPVASYDSELOSPAS SI EL EEISODOENPLMSSPAG RARO NESALSCGLNRTD"
+  },
+  {
+   "model": "first digits read in 11 columns",
+   "language": "English",
+   "symbols": 20,
+   "z": -0.15,
+   "score": -5.612,
+   "null_mean": -5.606,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.1).",
+   "reading": "S ROT MULE ME MY HE EE ERCALDLLECOUVIAOEG HE HAS SIDWHIPWMITHTYN ON S CAN HEAL I GE HE SE ST DOOR AN GLNLYWHOMEDWRIGADA EELPMVDIEHETHNYRRH MILE LOT CHSLIARYYLNCNNVMP AS RE CELATCLLSNCDWINWY NUN HOW IN RABOURWRIE HUMANE ON AS MY HCSMOO"
+  },
+  {
+   "model": "second digits read in 2 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.17,
+   "score": -5.648,
+   "null_mean": -5.639,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "SRMMBLF AT A BUT EADGOOOOYONSSTRI DON OKGGIEHHU BY RAN IN DTUGIIOCESITHGO OR TEE AM IT T Y TURN IN EHEIRHENIOLEENLII WHO CKTATTRYNLACIRMK NFDFUUIIHHAEALUOOO YE YBEKILYEMPTMUPT AS GEMMMOILDALAEUPH AM OUST NET HONED ERE THNAHSTTLC"
+  },
+  {
+   "model": "first digits read in 10 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.17,
+   "score": -5.792,
+   "null_mean": -5.78,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "PGEAHLHMTMVMPNMUM EU COCOTBNLENAYGNTIMP SA PASSAI OS TA A AIMER L IN CE AU S VI OUI M AMI ISELRCETVRHNDARTMD SE POSSDUMOOHNCABANP IEBLEXTATUVGPUIITA DE MMTRMEENTTDARUUNT SA FOVAGUSYALSURLLIRD ILE C RE LE C LA MAL HSEUEESIVMXBIOER"
+  },
+  {
+   "model": "both digit streams in 10 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.17,
+   "score": -5.731,
+   "null_mean": -5.722,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "LCASLLLOATCIUDRAI MAL IDTMYL DE UMCZLAIRUMSDMEANTO SEA EN IOMOUIUUEENACRIATO A TI RNNDRUNACODLRMRMT TE EL IN SI SI IIDDDABAULTNCWMC SSMMBCDMRTENIMTRER OS EL ESO MIS A DESA POCSCEMBNLANOLLTOI O DE DI AD SU LA OS LLEMEASARCOYCOTMO"
+  },
+  {
+   "model": "both digit streams in 13 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -0.17,
+   "score": -5.319,
+   "null_mean": -5.311,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "URIUMATIENSREDPGTM TUTRAERSARIIRISMHI EA AC NINOITESUDGMPDM PRO MPINIOCE EA DE UT ET POTRICSMMDCMISPOUN ORA DE DXTCMNTIAMANDIEUSQ UNA CEMADUAUDIATFACT RUMASUSIANTCHPOUSN AC EO P M NE OCSUIESSOUATORNTTO GAAESUUCODDEMMOPOT"
   },
   {
    "model": "columns, bottom up",
@@ -731,6 +2063,17 @@
    "reading": "NRETVCFCSCFMSSP ON SA TACTSONUPIGUSTBOM DE MMGJIICACEMEMORRUB SGREOGTECSESISIEAR UN DUC TU L S DINTSDARETADDPYLTH FAIS EPIER PVRITBTFLV MOI IL M DU P PLUS URSCHABRPPST JE SLHEROGAEUASRRNIR DE NVGRU UN GUE SENT AU OU RAELSIOMTURB"
   },
   {
+   "model": "second digits read in 5 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.18,
+   "score": -5.798,
+   "null_mean": -5.785,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "NLTIGRBREPQO ET ROUES STRAT OU IL MUTSABOOPANOOGRRDA LE FSNNRRECAOLS UNIEME T ILS ME A MA NDSRAINAPLZSSPIR SE EDPPXZIJCTR SA PRELLCLLICEQNGZZPR UN ME L DU ISARIPJSQLRMAIGIIZ BEL ON ITTTIRDZMMMENCO ME AU FSSTENETEZADITFILF FA ARC"
+  },
+  {
    "model": "columns",
    "language": "Spanish",
    "symbols": 18,
@@ -753,6 +2096,61 @@
    "reading": "RIAADIHYOYGRACNR POCAS TAEMPETLMEESHBP TE PRUDNTIONEROBPYIE VERTE MUCCLCSSNSIOENSR LO NESMOLIRSSYALEAE ITTZRCDQSTSAYNEITQ Y TODA VBDRUNIBBL EN IRA SOTA Y GEDILLECHACUDENMPC COCCNNMNTIEUGMNACU MESA ERES CUENCEBCYRBASIQ"
   },
   {
+   "model": "second digits read in 11 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.19,
+   "score": -5.656,
+   "null_mean": -5.647,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "CESSWTPDINGCRIDY CAR AS LSACHONEMIIOWMUTIM MY P ENDS TAHSCHLEAPICNOCUR IT A ROT RTASERYLRERAYANECO ON IT I R ALL LQUAFWSEIRDLSTEW LEAP OPCBUUTTHUEILLCOOO DAN GO FTTERSBOOMFRLYMIIA ART THEN TO HWHTIAUMRRAOH SO ICRNRSMATUMIRTB"
+  },
+  {
+   "model": "first digits read in 12 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.19,
+   "score": -5.582,
+   "null_mean": -5.571,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "FRLUVLTMNAVAIACAA E A STO V N CHE LA QOEATIMISFI IO SU UNO TI FUI C ELLI COR QMOTUTAQGFM FU PEEZPLNVEVMPILDMO OR QNSBBCCTDTAPIAU MI I E A REI TU T ANZI AI UDI BEMAVRAREANTOIRMMC NOI M N DI LA SOIZPMLRRUZOFEEPR E E L SEI CFLVOLARRPUNGIAIDR L"
+  },
+  {
+   "model": "both digit streams in 14 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.19,
+   "score": -5.719,
+   "null_mean": -5.703,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "ISSYESYLDRROMMDLIR LEIA DO DOY UN LO RYENPEDSENDENNAN YA PPSUNNNPUUYINSUELU O MODO PALMO Y PAPSMIPAIIOD Y EL NO DO ASYLEAONUPUEMNSAAR IR DE RMDL DEIS A OIA A ASI NPRULPLISUAYESSADI EL LIDEMYRRPRONAENINS A Y DIA MIA DUDBTESCHQBLTOT"
+  },
+  {
+   "model": "first digits read in 2 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.2,
+   "score": -5.535,
+   "null_mean": -5.524,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "HRZWUZUTO NUN HNTNNETDOBA ALL MRNSDRTUSTIGSSIGBI SAG ASHWINMRMSN GEHT DA SONST ITSIGEREGRUA MAL DIE UND GES UGDGTTUAATDIL IN SIE TERWOIOFARINHSCH GEN NUR NMENUOBHRNNNAPIF AUS MFBVWZDT ER MIR GWZMGZRZMDRIT HMUVMNERGIUNILSORZ"
+  },
+  {
+   "model": "both digit streams in 12 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -0.2,
+   "score": -5.469,
+   "null_mean": -5.462,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "LSMOLLSNNS DIR S DES ARM FSMNLVOLRHINFEI TILLFIIMATAFFIDASM ALLE DEEWOISTIRUHMTLTOA T HALT MADAAILKAEFFH ACH HDDIHRFNIRANR SO EEAFFTFIOU SEIN HFKOOILEEROSTESSSA O DAS ETNHEMSDERHTAMFRT HELNNTENOMMTFLLLME MEIST NTHERFU IM"
+  },
+  {
    "model": "coordinates offset by 2",
    "language": "Spanish",
    "symbols": 21,
@@ -773,6 +2171,39 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "OPRRCPFGDG HORIS OBDIRTU RE AB EUM AEETFXBUEBONCSUPD SE ODXBGPEQEOU EA NIIMITTSTPDESTOMDS ET AD MPOTTGRMEREPUUKOIC LTUTRGSEPULGUDCRQX CONSPXXMESPORTDURG HECPMMEIFRINCESABI ID IIS SASUPENHASRINAETR EO ET IN ESIEXIGOXRTPL"
+  },
+  {
+   "model": "both digit streams in 9 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.22,
+   "score": -5.78,
+   "null_mean": -5.766,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "LSCIR ENEA Y DE ATRNCUINESITOSODMR DE NTRUOSTORYOLNU EL LE A EN SATITITOOIYYUAADOL LU CYDECZYSEAAOOCATC EN LA DAILDDILUGUNLNIEI SE CGLNSONDAI SER TOMAN ITUUTDLLAIEDCAR NI ES Y COMSUULR SUS ES PRTLCSRIDLLENNU RIO AEOUSAHICYYNNE"
+  },
+  {
+   "model": "first digits read in 8 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.23,
+   "score": -5.602,
+   "null_mean": -5.594,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "C UN CON DE REO AL E AMA SE PRPOREASUMVHUMOL MI BILCGHVCDGOIIIV E UN S C A FUI APRIR MIEI AICFSUNFSDRNOEPL UOAHGUVOFGFEMZZOEG LA L M L L SE QUI DIR MO S C E IL OLPUEADUENUTRZPIST E ED FLTROINAFFLSFAUSNL S GIU N FNNSNFUCEVUOFUASQH IO E LA VO UN"
+  },
+  {
+   "model": "both digit streams in 8 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.23,
+   "score": -5.594,
+   "null_mean": -5.579,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "IAPPUIIMRMANT ME DE NU DE D MEME N SPOCMPATDLGUEINOOP D TU SA SOUS ITITUSATPRMNP ALLE SI LE M P LE PRIS MDNSANORACMLRSSIVO MA NRRNINETMOMMISRP ME D A A EUT IL AEPMLIAORO QUE OS L D L NON A LITS L NE S TUE PRE N A L IL D IN PAS I A VAMAATTHOLSURNVSUP"
   },
   {
    "model": "second coordinates reversed",
@@ -808,6 +2239,72 @@
    "reading": "GOEAUNRENLIOPS LE IN PAILSSIIDSGN LOCO SOR LI AL LUSCETUALTPPRO CHE TR IO PIE UROLCQNCRNSTUTATAO OFOCARCPADPTTEUMDD DE AI D L RE IN D RE SE EOLO SI DA A RARA PECE LUNI DUAGIORNNANEDECCD HNNNLCUNTPILNROIUU E E DEL PIU URPAUTRER TOTA IO N"
   },
   {
+   "model": "both digit streams in 2 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.24,
+   "score": -5.616,
+   "null_mean": -5.597,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.2).",
+   "reading": "A N C C M CES OU M MON SI UARAALRLAASNELAIRU S SENT TMMLNSLELLOCUER ET TE EOPSARTONTSMRSUIOM PIEITTTAPNPIEAMPTI MA ET T ET S S OU ON IL MOT ANCOIAHRMMEATBO NOMMEE ELPIMPSAMINMLKMCL USRFTCCCARDISMUNCH TU CE C ROI N S PRIBLNPNUNIUNASOMB"
+  },
+  {
+   "model": "first digits read in 4 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.25,
+   "score": -5.47,
+   "null_mean": -5.459,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "ROSIMSMULUMURUE DUAE CLCVLUWSSUITPULBU ITRIBCTRILCLIBBBES APR WNOIECMRLEBERDII HOS AC OMMALWCQOMETNAR LNNCEEFFVENIERDBBP EA SI VI VEL AB DIBVITAUDVSUSSELVT ISDDEMCIUMMISUNTRA NDOSSISTIASNASAAGO QUI SLGSEASCBFEIEIMPO"
+  },
+  {
+   "model": "both digit streams in 5 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -0.27,
+   "score": -5.407,
+   "null_mean": -5.392,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "E O L TI T A TE I E DEI S PIE MMLCOLPQTRU LI AOARRIREDOLTTMRRUZ MEN TCNOPRRMLUGNEUISOA UN PER NAATRSNRIOCA MISTA NNAIINFCSOLSARLSN PRO DPCPENNICCISLEUEO MI S MOSSI TMNOTUOCICTTAUPP E CI IL S SA TE E E UN RRUNRIMAMINUNLESOZ C LA SOMA ROSO"
+  },
+  {
+   "model": "both digit streams in 8 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -0.28,
+   "score": -5.447,
+   "null_mean": -5.431,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "T IM MOTTUAUIEHUNDNEODN DU NUN ER MLZUMIHDSKONTELLMD HOR IRLORTHT HOR IHM AUE MISS NRTSNUMSNMATRU DER IELAIZUSARRT GLUIEAAETENHULUUTR AM UND IINOHTSINMUSTILAL VON LRSDSELEISTHR SENRHONMANEISTSDTE MIR TIGIUIIHHQLSROAEG ROM"
+  },
+  {
+   "model": "first digits read in 10 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.28,
+   "score": -5.561,
+   "null_mean": -5.55,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "BZNRFIFAHALAB TAG AN GDODOHKTINTRPZTHS ABER BREERSOEHRRRSANM IST DNRGELSOGSARASSEN IM DNHLMFTURMHAUENBO EEUGAOOFTDRKRTBSNK IN CHRHGLZBGSSHRUNAAH MANN THHURMGGTHERWOLRZG EPRIEGMIISMUSINDMN IN DIR A RIFENGNNESLACKSONM"
+  },
+  {
+   "model": "second digits read in 13 columns",
+   "language": "German",
+   "symbols": 20,
+   "z": -0.29,
+   "score": -5.547,
+   "null_mean": -5.537,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "ORENZC MAN CZDNGALLSENERIND DIR ALS ES ZU LTIWOWMCHAET SO GLDAHSMSURELWEGTNN IHN TENAEUASANSDSHTDE SAGT IGSCHTPDEBZIAEIRCI HABT RSBIKOBDWHTWOHECAW IN ER NRKSBRACIEBGEUBSC WO N GE SIT HOR TAND ZU TIEUDIEEGLI IN DNTNGUGTDDGEHM"
+  },
+  {
    "model": "columns",
    "language": "Italian",
    "symbols": 18,
@@ -819,6 +2316,50 @@
    "reading": "ASSPESPTNLLOMMNT ALTE AI NON O PUR T O L PER GENSERN ERRI RPIGGSURRRGUU PAR SUE TUO MONOGITMOPGIGS MA GIA A O N PE TRONO ISPTEIORUGUEMR SI IL AL NEL M N T NE A SI O AIIISARGLUTGTASUIP ESSI NAETTANEMPLLG LOR IER ARSI P N AI MA IN UN CHE SFYXCTHOH"
   },
   {
+   "model": "both digit streams in 11 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -0.3,
+   "score": -5.569,
+   "null_mean": -5.553,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "RSINOUFLPITREFLL ART AIR I A AT LNBPFFLRFIEFSSDSP IDNTOTNAURPAPSOIDA IEFTRELEHERNSELREP HAD AM PALDISTSTRARAII ANON SPELANEPRRSAPDFA LINT EH IPFRRRLDDDONTYIHHF TILL YPIERDPSPOOTHTUPIE D TO HE CANST HOLE NDFOEITISOHIPSTEL"
+  },
+  {
+   "model": "both digit streams in 14 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -0.3,
+   "score": -5.398,
+   "null_mean": -5.386,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "ASSPESPTNLLOMMNT ALTE AI NON O PUR T O L PER GENSERN ERRI RPIGGSURRRGUU PAR SUE TUO MONOGITMOPGIGS MA GIA A O N PE TRONO ISPTEIORUGUEMR SI IL AL NEL M N T NE A SI O AIIISARGLUTGTASUIP ESSI NAETTANEMPLLG LOR IER ARSI P N AI MA IN UN CHE SFYXCTHOH"
+  },
+  {
+   "model": "first digits read in 4 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -0.31,
+   "score": -5.838,
+   "null_mean": -5.812,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "MUSA NSNIPINIMIEBIO EL PLDPIZSSIAYTIPRIA Y MAR LYMAPLPARRRESOTM ZCUAELNMPEREMBAAQU SOL UN NO PZLGUNEYCOMPCC LE EVVDECAEMBRRTEOSAD A DE POR BARDAYOIBDSISSEPD YA SBBENLAINNASICYMO CBUSSASYAOSCOSOOFU GIASPFSEOSLRVEAEAN TU"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.34,
+   "score": -5.52,
+   "null_mean": -5.506,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "MOORAODLDNDUMLNLLO LSQSDANUOIUMSONAEP ET RE ET SE EAS DE BBRUIIIBUSOM UT A EQUE L E NE BSCCITHAYOQLVECQ UT TIMASTSUNDQAUSEUBU EMI NIIRQRDUDCRLREQR SI LUAINCIPDAKBCLNUAT END ARCUKKMOSLOOOBO SE IIS CIOITOMUMCAT IN HHSRJPMPMYIH"
+  },
+  {
    "model": "coordinates offset by 1",
    "language": "Latin",
    "symbols": 21,
@@ -828,6 +2369,39 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "RSEALFZFIFZCI IN ORIMAMFAIORUNT QUI A BOC PECCQHTTFMFECECOSS UBI QSEOQAEFIEIT ITEM SURPUFAUDIPTRAIPMS EAM P P NXDAVZMTIENTESNLST AB AZDLCOTTDCPUNNDUI USI FVMBSNNIAHEIDVESOQ MEUM IS SRTSPERLQSUURQUEIE RAMUOUSMEDITOCAUSB"
+  },
+  {
+   "model": "first digits read in 5 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.35,
+   "score": -5.785,
+   "null_mean": -5.767,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "USVUCNCGXIX QUI A GINATHOMHGGNEAPOEA CRI ROUPLZDULCOMP LURGEESUIOSPAZCUMI LA RARUDEEEONCMECIT REMIT DE RCOOOIFCMMQTRIPA RUE AVNRXUCICERILPXLDS AI M SA S SIX M O L N A AI COU GCMUNGOORVTA EN N UN TREETEEESOSR IL EH D SAVEZ RMALIRMSS"
+  },
+  {
+   "model": "second digits read in 8 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.35,
+   "score": -5.506,
+   "null_mean": -5.498,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "PLEEHNZNSNXCUSMAAE EO OMSOPAEMIBU SE XVARECAPHLLIOREAT AB IMSDSVIOBVES NE ET RUMOSROPIUMESPONM COTITNTUSRNMWPOXZT IS SINE MRZLNSZOZCZAALL AC RSRLAESUNTLZTXIMLO UQUEBHTRPVOUEOORIA IN MEBDPROSCCTOST ATSTBURETVOIPCOOIH"
+  },
+  {
+   "model": "second digits read in 10 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.35,
+   "score": -5.549,
+   "null_mean": -5.537,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.3).",
+   "reading": "AGELFKFT ER ZU SIKWUSENSTLSMAIK DU EIN ZU ADSMCUFGTRIRNWNC UTDIOSUDNACEEKSELT ER S NTICKSTEECIKKUNSRL KNNSTRDYUSOHITESGD NRTZGDEBLOUOWCDKMA T S DRAN NIRNKFLHDDREIFLEC HER WAS S IN ETTAKRTSCHATSECMSN EI MNNNUNGLEAETMWILDH"
   },
   {
    "model": "boustrophedon rows",
@@ -863,6 +2437,17 @@
    "reading": "LCREMOMPEDFLANDS LE A EN DNNLLTCCITNEFL LUT LIX HUCORPAITSVUUNGTSP ALLA N P A A N D EPEE UELPAPERINCU LE EU EU ET APPPBVTHHR ONT DUR COHUPNKRFXFLLDOIVO A OU SERT UECHAGCCCAEGEESH ROI XTEE ET OUI PUCTIMLCAASSTRTA LA A AVEU RASAPLSENCG"
   },
   {
+   "model": "both digit streams in 12 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -0.39,
+   "score": -5.416,
+   "null_mean": -5.391,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "L S TU L L SPPSCANSCESONTRSTP L FU L N DA PREAIALLRAATOIORRA COSTO L LECE E QUASI ANGDTILIUOIDO LITO CO O AL MO E RRDOVDDCCADNRPANOP N SUE E OR RIRAUGSEAPDRMUU AL E E NUSIESSSOUCOSEIP DE T SCENDI O TR NI DEL P PIE PUTTI RLLLTETEASIPIDENRG A T"
+  },
+  {
    "model": "coordinates offset by 5",
    "language": "French",
    "symbols": 21,
@@ -872,6 +2457,61 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
    "reading": "LOENCOCV ET C MIEUX PNNEESIEAPITOAERDH A AU DAAXKOVVRVELI LA TUIHEPORXMREVERRUI SI DSNXSNTDRLNTUPIRO DU DE EOOOFPRCHEVRIT SI VOHOTNYRCAHXAUSM MOI TSLENNURSCECOUV EN GRIMKDVLPEIIIRSUAS SU IL Y LUI R MAIN D I MIIDANTREANSLAIIVG"
+  },
+  {
+   "model": "second digits read in 6 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.41,
+   "score": -5.556,
+   "null_mean": -5.544,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "DGRUFAOARNOHRS AM MURRSISEHWRNNMETRC HHAULMDONBITGRLUMD GITFTWISDMSTIESEBE NUR IRD AU N ES DU IN DU SNRASTSNINKLRFFTN ER GIUGICNGEZUF WOHL NIHHASBBHSEEBEBORY BAIUSZUTWOSBDHUUUT SIND NINULZDBTELLERTUMT EULE GEEHEALLSSNF"
+  },
+  {
+   "model": "first digits read in 13 columns",
+   "language": "Latin",
+   "symbols": 20,
+   "z": -0.41,
+   "score": -5.531,
+   "null_mean": -5.512,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "GMMGVMVISCLINOPCO ROBVESSIPMMINEMPVU IN ENTUEXNNVELGTUTPRR AN ID AN C EST SI NON PTNDAM REM VLRVODTMLPEBHN SED EO FVVVCDNITIUTMIAAUL USOS RNOGNLTEMO PSROMAOSLBGMICOVXG ILLUM OEEGRXIMRAGMEGA MBMRMMXRTIUMSEAPAR ET VITONLMR"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.41,
+   "score": -5.83,
+   "null_mean": -5.807,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "L C COU CA PAR A IL PRPPCPSHSAURI CE ILS CRUT VTNOTTNSTTUSATM MOI EEEMISCLINUTHITPTR TMSDDENJUGCHPWTDHI N N ELUS N SI RAHUISTIMITLEREEOH OAIADOPOTHOSEPIUER DE VAUX MDPRIUNTRAUO DIX XLCSPCCCMCSTEES DE C EN C L IL D UNE RJJSOQVLVLGEJ"
+  },
+  {
+   "model": "both digit streams in 5 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.42,
+   "score": -5.724,
+   "null_mean": -5.704,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "IOUDADEDIAIBIAN TAIMMULOUTXDRCUAEO ERRAR IBOUDDMRRCYMISDLS OTRRMUCHSICANOECST IRSE EDRNSRAOLEM ANDES SEA A SPLNOUNERUNSTROBTL TI SSALLANUICIOMANMO NNADMSODCOLALDDECT TI LA AUN NEDIIICSRRCSRA ME MAS CSUINOYLUE NO MERO NO"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.42,
+   "score": -5.683,
+   "null_mean": -5.668,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "CLERFLFWALMOERTGCN EE A LEACH RLIGNAABOHTRCDOM IT IN WAONOCITRFSOUSHCNR IN ENUEIRELNHUNLEEONT TO RATS WAS NUUUPONBYAWNET WELL BUT AKEKOFOCUTDGW ALL OR S SIR LYSFLLTRNMRSHKS UHCNSESETIDIIUSCKD IS ACHE EAR CRESHSTREDEUGHANTY"
   },
   {
    "model": "coordinates offset by 7",
@@ -885,6 +2525,17 @@
    "reading": "UHSCMAMISIFURCDGGS SE E IO RTUCAIPROOVNNAOGNG VA AASLETOUNLASBCPHS PUO SA OR E LE DE CHE GIRA E CURDLPCRDRISCCHIDQ UOM VOLSE LA CAHMHLOMOVGVNTIIG TI E LI GCROLSIMCBAIHCOFSR N VEDUTE E O ERA L T D L LE TBTASOTGRESETRO CUOIO C TE ATTO CLW"
   },
   {
+   "model": "both digit streams in 6 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.43,
+   "score": -5.594,
+   "null_mean": -5.572,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "SOAMTIUCSDSMARCCC MA A LU DE ME A RLIEIARNMITDIUAGTA CES DHCUOSIMP OU DUC DISE DE NE D M SU SAIN DE D A TA RANRRUILIRDALERANT C ROSES TE ALLEE EMBOUNDRATNIDMMNGO OTE N S S C N C UN RE N COURTS TNNTIRSLSRSRTD EST PERDE AI NI CONROYEOMOILGLDDT"
+  },
+  {
    "model": "second coordinates reversed",
    "language": "Spanish",
    "symbols": 21,
@@ -896,6 +2547,28 @@
    "reading": "RDMAQUQTAYPR ES Y LRAEASYSSRRODD COSA PRRNORCHINDUM TE COLGNNSZOLTERR ESTE ES Y ATA ANA RTETAMCSDNRAAN ANA OETTTXGOIIMUSOYNMD UINTSWMPHPRRYUCGUE UN LA MONA DIEZ DDDEAZAALI MUCHO AAAOUNCTNDOCQR DE EL LOMO E REEEGANMELETRLASDZ"
   },
   {
+   "model": "second digits read in 6 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.44,
+   "score": -5.52,
+   "null_mean": -5.503,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "AC SED BYBSTYRSIBMMESSIUI ORQSTTMONSHRRBELMA YTPUNCSLEMACUNDNQU IAM IN UOIOPOTESUSABETOIA E UT A EI TSBINITUTFLSDDNTO SCUECUHTCOGEDQYRLT URRBIPPRIOOPOPYSZP BUEIGENQYIPAREEENI UT AT UT ELGAPNOLLOSNEMNOE LOCO OROBLLIITD"
+  },
+  {
+   "model": "first digits read in 12 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -0.44,
+   "score": -5.894,
+   "null_mean": -5.865,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.4).",
+   "reading": "BURLGRODISGSASYSS ES CON GIYVERSFN ESO ADACBAANCLLINOAB LA YERRA Y NUFD NO LOS FZBDBLPEEMP RIGE GDPARTDNNUFICHH Y YO TOSPASLDAAESUEAO LO SI MAS ALTA HE DSGUSUESIONAUDDYIN ADITARSCNAMPDRUULM NBEEPUEERCEAYBRGNR SU UPLIZASATUR"
+  },
+  {
    "model": "reversed",
    "language": "Latin",
    "symbols": 18,
@@ -905,6 +2578,17 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "LEIUCOTIOSMEDP SI MODUM SPPMMNPLOSEREP ET SMUSSCPRIACUS AD DTERVIATMEDMICTES RHORTOPACAUAUEEXER UT RDUNDAAICBNNNIUMN STIMONTIPIIESEPMNU UT UT UDIRISCOMNCULM ET OOUOINIRRNVOOOSRCO AD MSOTEMCCI IN IS DMCCTDUCATITAEAUM EO"
+  },
+  {
+   "model": "both digit streams in 2 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -0.45,
+   "score": -5.468,
+   "null_mean": -5.44,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "MIT T S TU DER S SEID HRMAMMOAOMM DIUOMHARDDUINNSSOI DOUOOETRUAUNNUUECD MAN EIN DSADRHESCHUHNNNMC ICH UMS CNHSMUNN UND DER EI HOSEN MIT EHMFASSUMNWEI ES SUUUOCHSCDMSHISOLS TOR DA VNTTTMAYHDSRITFNR TUT AEHIDCAHWOICIR IHR IM DES W"
   },
   {
    "model": "coordinates offset by 2",
@@ -940,6 +2624,72 @@
    "reading": "HIDAMIZIASZUDECH KANN ATENKHRITURRR PULT DU HLMTTINSNLAUBTIEG RHIRKLARTENNSESDDS DKVRSDAUESTHEEVAID DDIVTFLAMMNINNTCRC IGSTAMRGLPBKICBKSN ICH ER NIAIGEMICCRNZEEL WEIB BNRN ER S SUSS SNUWLIRNHUN AN NUR DA LATDNBRSBLDNCZ"
   },
   {
+   "model": "first digits read in 11 columns",
+   "language": "Latin",
+   "symbols": 20,
+   "z": -0.47,
+   "score": -5.502,
+   "null_mean": -5.481,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "T OMPUDISUSULESSSSOR CIBI IS RMDZNCMSVESECTTNBG ENQGUNPEPLAMATRCAE SC IN V S EST STPBMMOCAVIAILGEM USBGONVCBCSSIQUZBN SE SPE ALOOEUNISIMPR ET IN COLLIARAAZUQCTOSR SIC PRIITARBGNAGL AD AEMGNAOCHMDOGON SED UCASMACTULERTUMM"
+  },
+  {
+   "model": "second digits read in 3 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.48,
+   "score": -5.557,
+   "null_mean": -5.525,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "MO E L UN FILDQSAAISMARLAG LA MPRDISTETJCCOLMSPU OND RGRCASCONRQRPILSCT LOR REN E NLTGLCDAIAAVANDV LA O L IRE E OND HC E QUA DE LO OTNNFINEFAQPZMMIDP MIRO OSRRENLDJEZONNA TUE A PURI S CARTE L DI MI NGACZPO E L SPERE A CTERVTDRRPROPPRENZ"
+  },
+  {
+   "model": "first digits read in 6 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.49,
+   "score": -5.53,
+   "null_mean": -5.498,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "LHIOPIASPRPROSSS SI RMPETTRRIVNO MIRA FROCOOFMBLOAMPOWF FU DI IGUEIFSMTLTROS ORO LE DI I EI T TI P REO VA SE MDOAMMCRSTAP SEGNO N LO IN DIO T O QUA VO SOLA O MI RSQHUDISPPEFVSSST E FU A AL D NE E LI END D V L V COI D CH IVI MIO SOVQEVUDIBOQRLUL TI D"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.49,
+   "score": -5.569,
+   "null_mean": -5.551,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "EANTDADCHALBNT SO EIN NH AN HER TAMOIHHXBRSTEKBLMS MICH BIBEMSTDUB FUR EI TMINIFNMTNAIRFIANN BISS BTH SUCH UIFFFWBIXGHCINSCN AAXFSHZNZBDBEFSKOC HA AB TU UM TAG UDAASTILTURZUFREIU NUN S MKMMFUEZKMUHERNNHT ET NUR USTNKNFORHISG"
+  },
+  {
+   "model": "second digits read in 10 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.5,
+   "score": -5.689,
+   "null_mean": -5.652,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "PGTRDEDOT IF AN HE CANT S NOR NUPHELATHSFAPLNU MAD GO I HIS CSMAOLHBNALSPMT TENT ROT IN S OH ME NOT TMHEEASNIRESSNOILW AN BY HOT NGLSIOFGLTQRBABCM LE UPON LIPS S HIS E DRY LL IT HDRTMYTICPNNHS TOO PEIONMYPONTMUNS THUS SSASGRTPTOUCHRLY"
+  },
+  {
+   "model": "both digit streams in 5 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.52,
+   "score": -5.579,
+   "null_mean": -5.556,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.5).",
+   "reading": "S AU LE L IL SES P SE TRES D DU MA URBLNCUEIAINN EN S PAUL L D NNCVDSOLMOARNNDUCH OS CET AI CORS NOIILNTO NE AMI DE TLIOOIEEOYMT AU TINUTORNAPRMRSOOE MME TU S C SA D ET D A T TEL DOALCAMEMLLICRRS ME EUT T ILS S S C ON N C ON EDIDEOCOUSTAVMUITA D IN A TA"
+  },
+  {
    "model": "coordinates offset by 9",
    "language": "German",
    "symbols": 21,
@@ -973,6 +2723,61 @@
    "reading": "UN STQNQNERQLEEILATCT TBESOLDPILTDEMAURD A AU MNPNDRDUEOOIREZSUB CHUTE RE DE RDPSSICONTITEAD INLCCIDNCCCBBNGHEZ MERE D RIE IIMNRTQTVUQUUNRAOB EN ILS SENT PMSQBBNCDQTTUVEP AU S CES SIR O PRIS A VOIS COU EDSTASESOCRTEUERHO S D IV"
   },
   {
+   "model": "both digit streams in 5 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -0.54,
+   "score": -5.368,
+   "null_mean": -5.341,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "OEUNINANOIOLOIMPIO TTUREUPZNCDUIAEACC ICOLEUNNTCCDFTOSNR SE PCCTUDQSODIME AD SPOCSAANCMSCI ERAT IMNASSAIISGRM EUM A CUM SPCELPRPOSSIRRIM UODOETIMTEMMINTSEN DE RIRNNADPPORIIUMMA NOOODSCCDSCITATISD SUO MEFRUAMETACEME"
+  },
+  {
+   "model": "first digits read in 7 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.55,
+   "score": -5.52,
+   "null_mean": -5.499,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "QMMUERETSTETUTDT NON VEVSLDTRMNIC AD EUDQPIUQVVUULVEUQI UNA ARINCAIT PLUS T ITIGUICMAMHAESAEDV KAL TCVMISPVVNGSBENPIT IN IQATORILILNERIT QUE IPANDBANAADSSVU ATTGLVIDELIANPPKRV TORMQRVQMOVAMROCOI TUM EX AGRRVKSDUGISAO"
+  },
+  {
+   "model": "first digits read in 8 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.56,
+   "score": -5.509,
+   "null_mean": -5.492,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "CSNCRNDAMARTEATPTO AVMVRMATOSPGHSPREP UQUECLHGCDLRUUUGAS NOCTIS UT VMUMPUAUTUCIOSNIO DMNRAVESRTHLSGRILI APJJRALETEPEEOABSU DUM PRO CAUEREVSATDSANSFM JVUOFAADIEFMRUNTII EO ITSONEOLUSN IN NON IS C A GSRISTOBHURAETGRSN"
+  },
+  {
+   "model": "second digits read in 2 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.58,
+   "score": -5.815,
+   "null_mean": -5.785,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.6).",
+   "reading": "C TMMXNQUEUXSEAUDHOO OOFORCCETIDOROVHHI A LLSXFTURIRDESHIIOB A CIEL HOOTEAAUMIEEFESTR IRA L AIT LA RIONAARNIIGLOBVEUE ET FRNUBITMVRQDQS SI IL LU A UNS OOOFAFXAVINFAMPEMS PEU CHAMMMOINDUNUASPLU M OS CE RAELORADATAELRUL CE EN B"
+  },
+  {
+   "model": "first digits read in 11 columns",
+   "language": "French",
+   "symbols": 20,
+   "z": -0.58,
+   "score": -5.758,
+   "null_mean": -5.723,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.6).",
+   "reading": "DNMGUPLEUEU CREEE EN T IL HLLETMPBSIMEFRERID D S HORS VOUS GRGCAMADTIARE ILS FERE DE DGHMMNIAFLALCORMU EH ON SFIHIEELVUBH SE REGRACNNRUSLELMGTR D L SI N C C LA TAABUVIDNETELIGTLL D ATHOS AOCAPARMOSANIQMP NON SE RPUIAEMAIDUCRTDUMM"
+  },
+  {
    "model": "boustrophedon columns",
    "language": "French",
    "symbols": 18,
@@ -995,6 +2800,39 @@
    "reading": "U RING RYRNLYDISTUPNEE NOSE PUHRODHHHVDAOIDU AGO OR E LE AND FOR SCHURHPANHOSEELSLI I LIP W HLINDSLOUSSWNRIIIR WOMAN GGEREEOTHTRC LONG HCAVFPRTFPLERT US HER NRCSGRT THEY SSABSRFFEHESHLLDLL LED BAR HE U DE NEED HINANOIEFHLFAIETY"
   },
   {
+   "model": "first digits read in 10 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.6,
+   "score": -5.611,
+   "null_mean": -5.572,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.6).",
+   "reading": "MBRIVNVO SOLO MA OTORTDHDHSZANRAIFB A S COME I MI E EI CHE SI I I COR UN CADRIT E L CH TCOIOCCERNUDRSLUVA PIU SO PER MHEEPTOHHVADIZI AMCRZNRJSISTLBMTCC SI PRO O SU OR RASSPIUTTASEIGHLIB TE FINE TU NNCUPCNRDURNRDN IO INVER TRRECLOJZCHRU"
+  },
+  {
+   "model": "first digits read in 12 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.61,
+   "score": -5.689,
+   "null_mean": -5.658,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.6).",
+   "reading": "FURS DR IT AND NO NWNNENGILDAWBERNP LENIOTOGFOOLGSSALI OF SO WE RROWLUPTLISINPYFTF SHE ECHRADEDTH OR MTLLUPAGKKWWIMINH ON S TOO ENUEOISINACO NO SMOKE TNDUNUE NAIL OUT TWALOTAMORNGLOCHT RUUSCLFEEHUEERGEOW FRDLRNUUHSAYONOMUR"
+  },
+  {
+   "model": "second digits read in 14 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.62,
+   "score": -5.539,
+   "null_mean": -5.516,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "LMITQMKMEDQBEEORLS IS SPE TUBTMORTST QUA DE RLUXDOOCOTACARMO EX CRMTLUIIDIITOTOTC PIUNTPCCREDPASSNEN SI E NON GRTYQCNEIPMSOOYPPS Q SXLQUUMOLLMCNDACCI DE PQIYPMDIIFTSRYCOLL IIS ESONLDPDTUFLOS ERAT E SC USCERENESRIMABIENX"
+  },
+  {
    "model": "boustrophedon columns",
    "language": "Latin",
    "symbols": 18,
@@ -1004,6 +2842,39 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "IEECAECPRLLUMMN CUR URSIAPLIPRTPULCATO A RE AT RTTTNEOOSCTSTTAON NCITENAPNUMUIMEOSO CUM P SOUROSIIURCAPTURUS ET MANONTUSAPCESSLILR ALMRPRAIPNLOTIESSS IUS EO PIENSCAEESRIASTUL OLLCMARIPPATITESCR IS MISRDUDPGWVQEADGRN"
+  },
+  {
+   "model": "first digits read in 11 columns",
+   "language": "German",
+   "symbols": 20,
+   "z": -0.64,
+   "score": -5.546,
+   "null_mean": -5.524,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.6).",
+   "reading": "LTSPIFNEIEIHREEEET MAN KNNEMSFCDASEBR ER ALL DKORDWOIDPRPHUSUL MAUREANDBERELELPKS STAUB NUN HOR SIE KOTDBAKAEENWICK DER EPRUHTTRIDNENS PMRLNDATHHNUMUUCIW ALTEM ENAPMNNLUMKODUOHU FUR SO DU TAG SF TOT DER FIAUESUALIHRMLISS"
+  },
+  {
+   "model": "both digit streams in 2 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.65,
+   "score": -5.758,
+   "null_mean": -5.713,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "SOY YA Y LNDRAA DON IR SUS SCUCSSNOLCSIURNN LO E EA A CON CLCCDYRLULEELLDMN SU E DO EN AUN R IDA MIL IEEESMOMILSAMEIAS LE EL EN NDRDOICA DE SOY DI STUAALSEZDODAALLLC MIA MNSAIOACHAYCR NUBE Y Y Y SU FIN A ROYTERYLYUDIONMUIZ COMO ROIROSNDAZ"
+  },
+  {
+   "model": "both digit streams in 10 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -0.65,
+   "score": -5.564,
+   "null_mean": -5.532,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "EUATEEERAGUID LNAIOAEILGOBELSDOU ME A IN DO TLOSAHGRTSASHIR OR DID DSSHAUNIAGRAGINHH LNDHAURLENONOGGSSE IHTITIIILLLAFADEGH UP OUT TO OF U LONG SHIOGNSNRTSESTRO IT ALSTACRUT US OF HE AHREEGRIRLSLIALT DEAR TEE SO SATAN URBURG OR"
   },
   {
    "model": "boustrophedon rows",
@@ -1039,6 +2910,17 @@
    "reading": "RAD TUAUAESUNEEINOTPT THE DMNLYINTLEWORSLO OR WAY ALSLREMMISEGDR HPKRTESELESLYDDIPM AT IT EOLIANPPILAPPPHHAC KEG WE S ELSIEIIWASTUTFRURR AS OMHEAINDDEATYWDUH HAPLUTTRFEYORDPEDD IS MY SIDOFMIDPMRELD TO DEDMPSTERESKMDL IF"
   },
   {
+   "model": "both digit streams in 8 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -0.66,
+   "score": -5.505,
+   "null_mean": -5.479,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "TSUUATTERESOHENC NO A CNCENENODUMBEUSHCI VAN TOM MUCH A DSDMADTHTHADSHUREO US I IN DTINEUINURTDE COD SO MRS BE IRDDTLMESORROT ON HE MEET DRUENCSSNAHTISNUE ITS MR MPANMDICIOMOS IT HDIONDHANURNOSITIC TO US DTSLSESSHHYMIDAR OLD A U"
+  },
+  {
    "model": "coordinates offset by 7",
    "language": "French",
    "symbols": 21,
@@ -1048,6 +2930,61 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
    "reading": "ODMTGAGSMSFONTCUU MME ES IN ROTASQNIIVBBAIUBUV A A A M LE RIOBLAMPTQDMQOIM AI NE LE CET D EUS N A ET ON C LQTNCNSMTTDSCHOIGV IL ME LA TADGDLIGIVUVBRS SUR SE L SUT N IL MSGTPASDTIFMNBVECO RE EIENALRCLLERPRAMIR UNE MER NI TOI SI TREARRITLY"
+  },
+  {
+   "model": "first digits read in 4 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.67,
+   "score": -5.562,
+   "null_mean": -5.518,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "DURO LR LE SE LE DE A ME TAI SI PSEZRREONV ESCE OND O C INDO SI SO CCCARTVDZGUOAILDSA CADMO OQURTIULLTSZI FU LA NGTDSGGIAAHHPAGO AD MCCVATROPOPASTCMOC PON TEMPRE RRASPNORM MAL IO E L LOR E GNDTGMURRORNOTR GTRTTBUFEORSBRATRI CH A O A O L V U"
+  },
+  {
+   "model": "first digits read in 5 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.67,
+   "score": -5.557,
+   "null_mean": -5.531,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "HICHUMULPRPZHRGL RMGWBSTBLLMNGDSNGU ER ES HDAKOHAUSTDAHELNN IHR S IDGKUHTRAGEGEHONNN S MUT NUR WEN TRWONEUSSSRFUTTZ WERD GEHN GCMEPHURUNERADPAOI GRTIGIIRPTSAMGGRUS HLUTHMLSSECWGNMMHM WENN WNNNISIERANBOIGCNK ET GAR ET II"
+  },
+  {
+   "model": "both digit streams in 5 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -0.69,
+   "score": -5.543,
+   "null_mean": -5.486,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "RAIUOUSURORFROL NOR D DIP A IN BUT HIOSASTTOTRFAIUUDT THY DREUPEANTTDIHVERHO LASH EN RTESSUTLETOAPSDOLU SEE SO OEXPLAILSTI LENT A FNPNREEOPPOLIRHRAD OLD ALL OUDEAUHAPOPU US HNNRPOOILLSURRRHET THE TO DSDOEHEIRLAYP IS LADS T A LA"
+  },
+  {
+   "model": "first digits read in 6 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -0.7,
+   "score": -5.756,
+   "null_mean": -5.716,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "IHEAUENDURURADDD DE RGUSLLRREMPAGERNBR A VA A BGFIANGUAZBBOTEEXO SE BDGLILRADARAISTEE SE L LEURS AMNDSGTANGGV RDLNUDSXPAPIAEPTEA LA C ON MA D AI N AGE RDCHOTEDUUSBMDDDLS BON NITPSSIESPTTMIMVA ET VHEMEGEADAMCSMOTEF A CRI O IL ET"
+  },
+  {
+   "model": "both digit streams in 12 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.7,
+   "score": -5.639,
+   "null_mean": -5.599,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "N IL R N NI S SI MA PIMEIOPLUILSNYRNPD A SUEATANNUAALOTOUUA MOI L ON NE ME EGRAITAPVDLTN TROT DONT LOMOOANCOEUUDOBDDM MA D PU SA POSPIREEOUUTUAR VIE A S DUC RRANEEPRITEIIIOR MOI ET S DE LIME PDTOLUPTDENSSTESRL L T UN N N LE LE AIT S T DE PU VA L"
   },
   {
    "model": "second coordinates reversed",
@@ -1072,6 +3009,17 @@
    "reading": "NDOSXDLDSDFCSRBQ NOS SIT SE Q CSBMVERELAQUEANQXM MMEDICIAVUTEFRNMOV A SED EERTITRIBOCBSUE IN SUUCEOURUSSOBBD HAS LFEMISTTEBMXDBILS LAXAQTDVNTSTTVOORM ID FSXUMDOOLISQPETQ VIII EI UMCTUTICJQTESACORI SCIRE NSMSENITACIEBJ"
   },
   {
+   "model": "second digits read in 8 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -0.73,
+   "score": -5.705,
+   "null_mean": -5.668,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.7).",
+   "reading": "PLSSUIFIAIWDYANEES SOON AOPESNMBYASW HER S DE PULL MORSETEBMNAVAHMOBH S A IS S TRY NO AROPMYNSAPOINDOTMT IT Y A RING POWFTMAAMISNRFLIAF OF D FEEL LED RARLE SAY IT LFTWMNLOYCYS BUT RPHOYSOORMEMINSBVP ROAD D TO AT ETATBYRSTHOMPDOOMU"
+  },
+  {
    "model": "coordinates offset by 10",
    "language": "Latin",
    "symbols": 21,
@@ -1081,6 +3029,17 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "Q EAM DE DUM RGWNNEPBSMACUMNI PARTI AC CHIQRNIIIHEUUSTMW SI PRO AGMIEAPIACUSSC UNOS NEC IUNECCBAORWCME NON MCTETVIAXD SUA NTOMOUHETAGALBDP QUE BBENORISMMENRHMGO TUM CLASWDSUBISCASSRUB UURSIDIUNCBPSSCAQM A MINUS AB STQBNMOD"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.77,
+   "score": -5.587,
+   "null_mean": -5.551,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.8).",
+   "reading": "GBBAHBRTRURIGTUTTB T EW ER HUIBSIGEBUHNFN MANN MENNHERNDDAISSS DIE BGIMHNWINTN UND ELLSMPHCBWTVNLW IM MSGHEMEIURWHIENI DING SUSS AWARIRLATANWA ES TIHSULSFRHODLTU IHM NUR HALIOOGBETBBBDBENS SEL SBSMBGI GLHMSUPPEAJFGFGCSP"
   },
   {
    "model": "coordinates offset by 3",
@@ -1094,6 +3053,17 @@
    "reading": "TRSLFRFREIFAEE DA ULOLLKESMANGDALNE ZU TINUUTZRGRNINTEMM DIE BSTKOHTLEIENEINGSS DOM RLDLEUNDRAOODNR OOOKKRCHEBZEIENIDE DDZRILFLWTFTTRIUMK ER DASS ER LGZSFKKRONFLLTWE GUT SO ES SDIMGIDSUWMD SO MTENSLUSESMOILETE IHM SNDW"
   },
   {
+   "model": "second digits read in 11 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -0.79,
+   "score": -5.516,
+   "null_mean": -5.49,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "DTAARSHGUBZD IUGO DMIMANAMDEPBTL UUPRLCSULLOHTBGASM EA DENT MHUDBPDCIUSM IPSIS MATIONITIMOMBTDPPB USUI MNNNKCMFRATUIGNAS TRNTMHPHDVCCSSECTU NNDPPPGMBZPFSSTIAV PPLFINOLUUMMISSETB SPE RES UMCLIIMPE APUD IBI ALMSCLUISV"
+  },
+  {
    "model": "coordinates offset by 9",
    "language": "English",
    "symbols": 21,
@@ -1105,6 +3075,28 @@
    "reading": "RTOACNCNSNFBLETRRS SO AM SO BUOIMUAALFUUTLBUUD IN PSPARLYUNMEDERI OUR AAMSSSMSTES TOW IS TO LWSITWLLNOTEEOMING RAD HOP SAT I ENTHINADEDWHRRTPRY POTT WAS O NOT FACT TIS OF LAY FOPYYASLASP MY PPPLYDRISEWYOSSLUE OAR AT SSUSPUBSENV"
   },
   {
+   "model": "both digit streams in 7 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -0.8,
+   "score": -5.476,
+   "null_mean": -5.444,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.8).",
+   "reading": "ES STSATU UNS HTDABRMLBLUHIIDI SRNANELLEALUREUNLR IHR RAHRTUBEDSANHHLETN UND NMSUERDSMULDB RAUM DA DEN S DBTNNTMUMSSSBNDRDE DU MABABETREUDISTBLUL AM BLHHIDHNRUHDMEN DAS IN HTTRMENNMI SEINER MBNREWECHURST ZU GAFDWHARCHHNC"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.81,
+   "score": -5.65,
+   "null_mean": -5.618,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.8).",
+   "reading": "OCANZCZFRCG DA NE POI A ARCA ROUNCSPIRRHDUENOVD GSESIFRDIDOSENZTDL TUO IN SI AI LA S N A CI U LI C A A DI E ED NRETFRTILLLWDIHQR FIA E FA C CH L ER MA MDZDOLEVPFRCCDNTTS NCQTZCCENIGNTUMTLU O ITA T A E SVSSLTOMVSTROUAAR NON A TU TEN A VAL PUR IEQ"
+  },
+  {
    "model": "columns",
    "language": "Latin",
    "symbols": 18,
@@ -1114,6 +3106,28 @@
    "control": 0.536,
    "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
    "reading": "TCCOSCONEPPRLLENTP NSTAEREROUINRPOSIM SE C SI ESIIAIOAMMCUIIIMU UOTICUSNURLRERMANL ROMAM C L TMATTREOSNIRERACON SARIUMUSLICAAPTPES PLENE STCARTAAACTIMPU NMNTCUAOSCCAETSNNT ESLOPPMPRIASITICAO ET A LTAEUEFBSCYDJFNBRB"
+  },
+  {
+   "model": "both digit streams in 14 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -0.82,
+   "score": -5.377,
+   "null_mean": -5.33,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "TCCOSCONEPPRLLENTP NSTAEREROUINRPOSIM SE C SI ESIIAIOAMMCUIIIMU UOTICUSNURLRERMANL ROMAM C L TMATTREOSNIRERACON SARIUMUSLICAAPTPES PLENE STCARTAAACTIMPU NMNTCUAOSCCAETSNNT ESLOPPMPRIASITICAO ET A LTAEUEFBSCYDJFNBRB"
+  },
+  {
+   "model": "first digits read in 9 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -0.83,
+   "score": -5.642,
+   "null_mean": -5.574,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.8).",
+   "reading": "S P ORLO MA MFLAIUDAAGDTMNLH AD O PUR NOAHRFINVIRQT SIETE SI IIAPOCR UN CI A NE SE AI DI FSSTGPOTC E LO MA TI OMUTTOSMNTNFDL LE FYSASARIPDO OVE IL AMPI DRILVTCAALCFGC DE E TR O DA ALTRA LE IO UN QSGNDGPORZN VGONPPPGQOIASPLTOA OGNI E DI FSMOO"
   },
   {
    "model": "coordinates offset by 5",
@@ -1149,6 +3163,17 @@
    "reading": "TDSSFAFCRC MUSS AZLEIHSGEST WENN WIE EMWUNETTLBAANSC HTSWUNGSOSTDETWHHA IHR GHGSINHUDICHEUICC LSRGRDIESNDNYZSBBE GER DGHNDONGEPHFLMZLAA LUG IN ALS SRCEDMROADCIEBISZ BHNZWEHHIHAAZCANST BUCH SZZI ERST S ER ZHNHHTRAULRSGF"
   },
   {
+   "model": "first digits read in 5 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -0.86,
+   "score": -5.913,
+   "null_mean": -5.829,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
+   "reading": "ILVIDRDTHOHFIOAT ORA Y MUCMTTREAGUEADSO SU IGNZPINDUCGNIS TE EL IOULGAZDI CON ASASIPEEEURDCE DOY SECO Y PESDUUUOJDCCF Y SOGA SI EAVRSH IDO DE SON GHNPLAOCLALLOHC UN RAAODUITDCIRTUUSV YA ERRIRYSEEYEEELUL SON EMPLAVEZSCANOSCLL"
+  },
+  {
    "model": "coordinates offset by 7",
    "language": "English",
    "symbols": 21,
@@ -1158,6 +3183,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
    "reading": "RCDOHNHSDSGRIOBM MDDLLSTIARONSFITTY PPNTMPMYNNNDELATRP END W OF CDFRTDNTILELBLOCLM S IN LO RIB EFOIBISDOOCSBUR THY TEDLENONCHCETHTY MY PASS MASLESMOITED SHOWN SCOTGDIPYLBR ALL T LINE A BE E LAW AND T A MILD LA IT OR TSTOALNAATOEX"
+  },
+  {
+   "model": "first digits read in 9 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -0.88,
+   "score": -5.575,
+   "null_mean": -5.524,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
+   "reading": "WHLNTLOSORTSEDISS CI AOMTKSILHDNMLSKNRE MFENJAWEGAGWEEESHL UND MUESMGWG SEI ER WWACHLAUGTLOSAELO DA ALWOMAMRITTGR QWSWSNEHILLFGETSOH EINE TFAUSSTURCUIGGANL ISST AN STGELDMJWC MICH LNXMFCLMHHHCJL ES WHTALSLCMEGIERWOLL"
   },
   {
    "model": "second coordinates reversed",
@@ -1171,6 +3207,17 @@
    "reading": "NCDAQUQTAPGNELPSNA E AL PLLNNICCOILAGNNR IN OMHRCUDTEOISFRRL VISTE N NEL TE E L PATAARANTETADOLCRN A A RARA I E TTTBFIHHDULIPRDCUH RTLXDGMGNNPUOFUEUR SA DIR A CHE VCCCEAVAASHDUO MIA AAIUROTRCIOQNC E ESSI DI E NE E E FAR DE SE T N S AL C V"
   },
   {
+   "model": "both digit streams in 10 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -0.9,
+   "score": -5.623,
+   "null_mean": -5.569,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
+   "reading": "DU ER D D D TENU ISPLEIOEDIPNOFD PAS OU X DE ILS ORPOAEVNTRAEAVI TOT SI S SA AVEU LI EN T EN IL VVPLSVEUTPDLOL ON NAADIVRIRIIIPPPE MES D N VUBOURROOMUPOLNAVI ON LA LTRADAR TOI REPARE C TURUAOMVDEVTDDNTIT PAPIEPRSDETRDDAOAE RELUT FUT N O T"
+  },
+  {
    "model": "coordinates offset by 8",
    "language": "Italian",
    "symbols": 21,
@@ -1180,6 +3227,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
    "reading": "MEN DH E VEDOVA NCTMFDSSDRCSF MI ERA IIIGAURNAMUHRRESO SU DA PREC LI MEI FU DIR C S SO CON NON FBIONDACORMCCB DE NNNEBRJUDHHSESSR TI TE LOR DHILUGPFETPFOSETM CI SE DEL CHE TTISVCCUQCEPP SI S CIO O A O O OSA QUEI S MA S D S SAI NDUDRNSPIOPUNSTV"
+  },
+  {
+   "model": "both digit streams in 12 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -0.91,
+   "score": -5.746,
+   "null_mean": -5.688,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
+   "reading": "Y NCUYYNRRNDESN DON ASCLNCRYMUYSIERLOE TE Y Y LEE CA TALLE DAN CA Y YO DO O QUE NTESPICTYTUATIAYT CADA AEYHAOLLIAVIID DE ISLRESARSNUOOALLT LE UPNOERILHUUE YO OS UN TONNNAUDANOTRIOCND O SI TA CLSTIOYRRTORUCCTL Y Y Y COCO EN TRTIOSLPEC"
+  },
+  {
+   "model": "first digits read in 13 columns",
+   "language": "English",
+   "symbols": 20,
+   "z": -0.92,
+   "score": -5.707,
+   "null_mean": -5.666,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-0.9).",
+   "reading": "YTTYH THE LFDENUCFUOUBHALLEC T TEN AT CHIENANSIAMNNHADYS IS CO OR NE PRNFALSLENUNCSNPR TO AT HDOHUPSTDCABWNL APAUGHHHFPNESEISTE RRIDILULONUYNDSATU CLOUT RULDBYTEFUHMYEDD IT UAAYOMETORYTAYRTB TO TTMOSEITLARCROA SHE SUN D TO"
   },
   {
    "model": "coordinates offset by 2",
@@ -1237,6 +3306,28 @@
    "reading": "TEMABEXEAUXDM IN TPASSARISPTOERDO OOFDLRMDTLBRRESUSL AD GREICOTEOPLAORIS SUI UMMUMPHOUMADIURTII HAE MMMEHRWLABBSESSRNO NE CUR AB OCLFGPENGPUSENTIO SE AECIBENNOSXIILVI EGGSOSIOUUDUUUSDVL EOS TDSASS DOMALARMSGOUGLMSNX"
   },
   {
+   "model": "second digits read in 3 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -1.01,
+   "score": -5.504,
+   "null_mean": -5.458,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "BAERMDHPRCXOIIPO BIS RIFRIBUSCPOTETLNNA RBOUMADCSFSNIONADS XSUPRONTRASSEDEDRT FRNCIPIIVIDCVRIARP SE EA DCZNEXMICERAATDDHP DE HI X UGBBPCUBPSAAOSSEDR CLEGADDITMEIUMSPON IS TER CPBPDFINGUAEROUE SE IN TESVTCSSUSAUUSEDG"
+  },
+  {
+   "model": "first digits read in 12 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -1.02,
+   "score": -5.798,
+   "null_mean": -5.747,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.0).",
+   "reading": "BON TVNIRASVSESCSSUSM IL VA C QU N S PLUS IER EMBEELMTTALIEBTEC UN NE C L OPRLITISPHBRBTJUUG J N A VU VRJENDRLLOPAMFFCCI DIS J EST REEUSOUEITI SAGES ET DE FUR S VOS OU S AI LE OR R CA LE RADE NSMLEGJRNOOTGLBUUJ OU UN MUECBNVLNSOOJTAHE SE D ON"
+  },
+  {
    "model": "reversed",
    "language": "Spanish",
    "symbols": 18,
@@ -1259,6 +3350,50 @@
    "reading": "RNEIGMGMSMDQATNRRS SE IL SE QUE O LUI I A DU UN A QU UCOMPSPIRAFUMLT CTROEURIILSSSLSNTS NE VOS NE A V SON VA A MENT TEL OMBRICHEPSINOTMNHO M ICTCVHRRNPRFPENNVI SE M EN DIGNNOSEDAIFDEPFFI SAIS PLFPPPAFCROSTVFES SAUTE IRINSSUSPUQSTMW"
   },
   {
+   "model": "both digit streams in 6 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -1.06,
+   "score": -5.545,
+   "null_mean": -5.492,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.1).",
+   "reading": "S R LOAD UM ST SOLE MMMOLLYUTIOILEYD IDLE NO DAT DULWAL MIST HMURSDOCRUTUMTDS IT IN IT OSUSLDNTITLALELNEE UDYDETLYIELNAMERSI SAIL YYIIIOPRUNTEL AND TO ON WRRAINSSMNMUNE IN MR UEASANNADESYSE SEAT IS ACIETILDNDMRNERFIR OR DYWYTTA"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.07,
+   "score": -5.874,
+   "null_mean": -5.807,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.1).",
+   "reading": "A NROMPBPEIXDESCHTRO OS NOS Y TLUIALSOGATURDYAB UCIRPEASADINEGODIS Y YO OIRE EULCERNOYPRNORDECU Y REPRPOEEUCIJYLBMRU ROCIO PIZPNLMOZYB YA INDAPLICHOSRN SU ME MI PUREMOODZONYHRRRE EN NTPNNEDMTNEO YA ESO O TE O LAS URRASITHOOIG"
+  },
+  {
+   "model": "second digits read in 11 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -1.07,
+   "score": -5.562,
+   "null_mean": -5.517,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.1).",
+   "reading": "MDUUBNOGIWZMEIGFMS ES URUSMAHWDLIIHBLT NIL LFODWG UNS AUMARDSOIMWHMT EIN SEHNEN SUDEFREDESFSWDMHHW IN IESRRRKTSVBU DIE GRUND BRDSOHOMCTTNNAT DIR RMHHHGSWZHVNND EUCH HLVERFLIISSENNADWN HAB AN IST LEESHAUH IM EWEULSNTLIENC"
+  },
+  {
+   "model": "first digits read in 10 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -1.08,
+   "score": -5.522,
+   "null_mean": -5.482,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "PJEOUTUSISGSPMSB SE BDLDLIVMTEMOHJMIAS PRO PORROALRIOOOASEN TAM DE OBRGALBASOSAARETN DE IGNUMCONISCREPLR RCBSLLUMDOVOMPAEVT EX IOIBGJPBAAIOCESS IN SE EMI ICONBBMIROFLGOJ BRHOTRBNTTANCATEDN ET EDTOSOTU RE BEERAGSXVALEN"
+  },
+  {
    "model": "coordinates offset by 6",
    "language": "Italian",
    "symbols": 21,
@@ -1268,6 +3403,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.1).",
    "reading": "VMUEXMP MEMBRE DSGVUEEILEAG RESTO A DA PCGNACVGXTT TAMIRI CON L AB D V TUO C E AMA AD LI L DI SURSE N AI VEN NRAUNDNEEUSSMYCEPB A TI ELLA STXMSIPEPCXCGLMOVL ELLO U U D TI MBEXNTMUUPIEGHALGO III A IN TRLNLIRQGLAECRU DIER I D AVETE A VIL CRIA SQ"
+  },
+  {
+   "model": "both digit streams in 6 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -1.09,
+   "score": -5.425,
+   "null_mean": -5.369,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.1).",
+   "reading": "M RNCAEUTMSMCNOTTTCN N DU SI CI NO DEI E NOL C E A SE UN FANTI MSBTURMECGRUSUT SE MI SI LI S C M U M NEL SI S N A NON LO O U E DE O S N DIO N LA T OR MI MA IN D DI I I CH RULSONALESCCLFRRA IL M M T L TU LO IL TR UO A MAL LA E OM D M OMO A SI MA GIO SI NEL E TR LOR PIRCREDFDSSA"
   },
   {
    "model": "columns, bottom up",
@@ -1314,6 +3460,105 @@
    "reading": "GOSMPOPOILPRIIERFM T M M DI SU RANE RMAIVFGLAFFGVONOA LA GIU UELIBSGDTHG MILIA I LA N S SE TUO ME MI FA E OR TTEAOTTTDDOCHIBVI LI A LEI E E VOLMPMQGPGGOL FU DIO ER S SI OMNVSPDDOTAPMMGQ IN FGSTISSELUNLESF QUEST U GIA S M FSISUTLMIGILHUSAEQ"
   },
   {
+   "model": "first digits read in 5 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -1.2,
+   "score": -5.647,
+   "null_mean": -5.545,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.2).",
+   "reading": "ISVILMLHBABZIAOH AMO NFUPFHHMEOTUEOLCA CUI TRGDIRLUPTRI CHE E SIA U S TOGLI PARO CO CI DE E E UML PE LANCE PANDE CLUUUAKLPPZNCATOCI E OVMCBI LA LE CARTBRDSOAPSOSSAB PUR MO O A LUI HLPIMHUUCVNOEMMIMN C E E NE E E SU S CARE FDSOVEGCPORACPSS"
+  },
+  {
+   "model": "second digits read in 11 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -1.21,
+   "score": -5.642,
+   "null_mean": -5.593,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.2).",
+   "reading": "BOCCHIPURTKBLRUMBA LA CSCABNGTOERRGH E DIRE E M PO TU CI ANCBNSOAPRBTGBDLRI AL GI LI A COL M S LO L AMATO BGGTRIRLASSSWDAVH COR L USCIO HSOAPGPBFD DI INDO RSSBGGGUATKGVI IO LCFGGEVLSM ERRA ALI IN OTIGNHNIRADELLAG NCGRBLTLCEAIDERLIF"
+  },
+  {
+   "model": "second digits read in 14 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -1.22,
+   "score": -5.906,
+   "null_mean": -5.819,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.2).",
+   "reading": "TLENFLJLDMFBDD AIT SES SPDNCBNLAINSNFCOM DIT CYMAARANO ROI LADY RILNTCEE ME EN A N A NRPECUNPRRIDMPOSSU DU SE DU AU VIN GFRUDEPLSAAGPPSFS YTFCCLATTLRUMORREM DPFEGPLMEEXNSIGRAT TE ESDSAUTMPMNCXTASDI ON DSRCSRDIDUDSIELOBE DU Y"
+  },
+  {
+   "model": "second digits read in 2 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.3,
+   "score": -5.929,
+   "null_mean": -5.864,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "TDRRHLGIUIHYUOIMPA A A ACA ST TU DEMAS AVPPEONNYHCDIS ES MUY PEEABOTEUNPAADUO OIR EUUCUYDSESONOED NO SEA LO OS LE EZNABVUIUUDCSLIB EDRVSGMGYYEENNIOIL YA A A C OCHO VELCORQURYQUIT POR RRAELMILIOYQNIRAYT USO UNAS O MODO UN SIN TU ULB"
+  },
+  {
+   "model": "both digit streams in 7 columns",
+   "language": "Spanish",
+   "symbols": 18,
+   "z": -1.31,
+   "score": -5.749,
+   "null_mean": -5.653,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "NUUTUSTCCOULTAS DE RIDICLPPAPUEO SON IINSICENCOIEP LE ES LE TCDNAUSOLLIN TOCO AORUCNEAURCIADESC RASA NO UADTOOTRCRUUUDOAE ANA CRSDSDNT EN CAPUT DI CISRDILLPALOECLAR NO A SUPO LTTERNOORP UN PONER DO EN BNYLCEUTVCMSHABL SE Y L LO Y"
+  },
+  {
+   "model": "first digits read in 9 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -1.31,
+   "score": -5.852,
+   "null_mean": -5.772,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "N DUC LU SES O LE RYPEEXPASTLZEPUDYC TUEZ C ORTHRCFANRIAINRRRE DU M C YTMRETINIERPRONNAX DU AMI L USEARUSYAAUNSTATOP LLIOGNENECRDPUUHIR LES D RPCRLHAMEELMOXMPII A CUPEELACELIRUYTFNX TPXDUCJTHXUTDDDXFU REND L AU EUX TRIPRONSUU"
+  },
+  {
+   "model": "first digits read in 9 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.31,
+   "score": -5.919,
+   "null_mean": -5.85,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "NDIELICACU LA RMBAAYBSCPLHABID ME PIAHEURPJREVSNRO SON RRRADITEMP TRAPO NO ARBRUNNSYDISTOLI CASRICMSSINCPSPUBL LO UGNANAERDBIIJOR LA CDRBERLJSTAALTUYTB O O SE IBA AL SEA LO RIMPVNYPB Y DIEZ PJYIPDDDYV IRAN DLSIAIYPROBRUNCII"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -1.33,
+   "score": -5.608,
+   "null_mean": -5.529,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "ONIETRBRAUJSADQHGI E ED NE D CGMLUOMDEVOGLISCOB L QU IRA ODO SU NAVE SU DCCEEUIAALMQA IN E CRINE I SA QLCIARIREAALQUWCMB TI LI E QUE RUPRNMTEPCBCO UN SORMUQHEDINDLTAT URLI A TE E S PE N CHI IIAANNGRNNASTGNA E CO A DE E GAEMODLIIODUGHEEUV"
+  },
+  {
+   "model": "second digits read in 14 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -1.34,
+   "score": -5.749,
+   "null_mean": -5.668,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.3).",
+   "reading": "HYLONYPYRANBRRS THE LEE DR OMBOYSTOEONMFARTHM WAS S I SO FIFTY SRWITYOHMLLALLO SO SO IDLMCODIITRADFEEC RCELRCSCKTOUNICRLD YES SUDDEN EWHNMMYSHHYICAFII LARD NLUDYALLGOETUISHH LL ERE SCHADAOMGHSERT FORE I ME IRTRCRETLYFBLRCW"
+  },
+  {
    "model": "columns, bottom up",
    "language": "Italian",
    "symbols": 18,
@@ -1323,6 +3568,83 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
    "reading": "D DA PPLRMNOMNNEU MA LA LI E OR PER LLTONLOSTOMPARTTTT UN S SI M TI TTOADAUROUNTEMUUS ED N SI S MADRI SALIA LATRO M LA E E ISNTDOU SU TAI OR M NE OLRLDPOLPEPIIRUPS TEN III E A IN O E L INNO MI UN E RSITAPSPPMDOLERR LI E DI E L M IN TE TOCACRHWQGNOCHLU"
+  },
+  {
+   "model": "both digit streams in 6 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -1.38,
+   "score": -5.488,
+   "null_mean": -5.454,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
+   "reading": "GBSUIRLAGEGUSTAA AUS SO LEN UNS TOR NRSTDURIERLSWI SANG EFALBGRUHBLELA ER GNENDNEUGLGSR DEN ES IST SDTTLRORTESONTSD IATBGNGINSOONNNUMB LDETSIDREUUDWBBIND GGADALDTNDABLTIGID DIR TGOGTGTIENGIHNTENS RDRABDTBCNBUBROWOE EI"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -1.4,
+   "score": -5.48,
+   "null_mean": -5.455,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "UNSADCXCEIW TEMRVLSAAMNAMQLGOI UGMAPULOSTQUXORISC EUM UTI NE PATI MQQAAISEEOG RES NAQCSNASTEROQSEC SCAEEORIBQGXDSOSAR IACI HCNGDAHQX QUIN T UCGIRVAMSNMODEDICO SED A ATHANQVSSSEENNLCNN ET D L NE A QUEM A A LEAGUMOSSUMILVAAIP"
+  },
+  {
+   "model": "both digit streams in 2 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -1.41,
+   "score": -5.509,
+   "null_mean": -5.388,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
+   "reading": "ROGGEG PANDE E NO A IDRCRRLCLRRAOPLRIC DA APO T TE E LO AL PLLNGDPCPTTPPNSARC T NOTA E CADI NE SI PITTTRSO SI PRESTI E RPTTPTAAND NOI L ENTRO GNIRFCEEPR TU NON E E PPPL SI E SAREI OELVEGLDACQTGGGR CHI A ED OGFTDGPGCNIOASCIU LO SODO I D ORA NE U"
+  },
+  {
+   "model": "both digit streams in 7 columns",
+   "language": "French",
+   "symbols": 18,
+   "z": -1.42,
+   "score": -5.656,
+   "null_mean": -5.551,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
+   "reading": "A OOROIREESOURTIDLPC D CE UN N T N O L SI SAC C AI CELA ES C LNULLIULREDATOISUU CAR SES TSPOEALTOPECTDL IEPTITASOTDRSSRPEP OOODSTLTATEPIDIDAR LA ET NORD CECI PDCU UN TU S L EUT PASTION SUR RLPASSPNOANSALPDSL AH A QUE LORME FIGTHUILQUUSQ"
+  },
+  {
+   "model": "first digits read in 6 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.43,
+   "score": -5.855,
+   "null_mean": -5.748,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
+   "reading": "O DE A I EN MI RIRAMMMMERCILTTRR ES PACER NGRAYAAGCHOAN CIAVGGQUEEJQLEGMCT OTRA MAR A O LU E EL ET TE IR LAS NMLCUANCCYRMTNIM LJPAPOAEPUEATABQNS AMA O NACER MBD QUE MI ILGSMMMTLGQNNOUPL LO EL PUUSOSYAEU Y DE SE CE A MAS BLSQUEHABROQOTEU"
+  },
+  {
+   "model": "first digits read in 14 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -1.44,
+   "score": -5.713,
+   "null_mean": -5.661,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.4).",
+   "reading": "T LLRELDYDNDITYNYYLY A HAD ENILOITALNES US MRS S MASS EADSFFRIOOOFIAL TIMES HIS Y SNSFACCOMPEWLHYKSC HIM MOTE A MAIN D HE I AS IF IS TO NO OR HRDIDCRYRSHRAOYIE ON COUDEVFCYNIEMSNDER CIVVTLAYLLLFLASOOA COLOMLTITCEMONPPAR BUT U TWO P"
+  },
+  {
+   "model": "both digit streams in 7 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -1.49,
+   "score": -5.35,
+   "null_mean": -5.301,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "AIICIOCU UNI ECTOPSMLPLUERRTRIS NON ALLAOLUSAUNLS RES SOESCUPATIONEEL AC NUNTNMIUASTIMULTPS OUMTOTANITPCNNCMUM III PNTSTATUMOPOPACS AUT RICPLULOMPLEERTENS UETMANTOIRNECCSMAN NMRIARNASMPNSADAVE USI CQUBOYTDEOSVEENV"
   },
   {
    "model": "coordinates offset by 7",
@@ -1336,6 +3658,28 @@
    "reading": "LOATZMZRARKLITDHHA AN NRSIEL TMRWISSUBBMSHBHUMM MAG NESLBGMAFTWOAWLS AM SING NDNTONHRIMNTL IDGWTIDIRATTORDCLS ZU S GANG MTMOZOGSZSUH UBER RHERNGRHTISG ARZT FMROTSKAIBUNDLEN NSNIMGEDGGNEFEMASE HINAN EISTLSRSTENMEESTGX"
   },
   {
+   "model": "first digits read in 8 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -1.57,
+   "score": -5.708,
+   "null_mean": -5.634,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.6).",
+   "reading": "NALNRLYSUSRTOSTPT IS BUBRUSTIAPWHAP ROPE VEONCHWNYCREEEWSAL IN TDAETBUEUPESE TEN DIAL DIYULRSBOARTHCAWRD CDSPMMRSCOTOPOOISF A EYE UP RINSEOROBASTYASLAG UM BE IGSSYDOGURELTDDOID TAIL OICEALDLLILDANS WARD AT IF HER SO TWRAL"
+  },
+  {
+   "model": "first digits read in 13 columns",
+   "language": "German",
+   "symbols": 20,
+   "z": -1.57,
+   "score": -5.592,
+   "null_mean": -5.532,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.6).",
+   "reading": "HNNHDNDELMS ERGO MGFGCDALLEONN ER AN O DIE RARTIAZRRDASHTITOF FUR EKURMALTLERGROTRK UNFANDSFDGKTNSOACW RLAKAGXDDDMKRETEIT NEU UISILGLFRGHRSTANG OLFGNUGLSCHNEMGDZH ES SING AAHFZENFUH NAH UNCNFNNZFT EIN LAUOUFATDETGRSNF"
+  },
+  {
    "model": "coordinates offset by 5",
    "language": "Latin",
    "symbols": 21,
@@ -1347,6 +3691,17 @@
    "reading": "CUI OQUQL IN QDEIAPBOOIITEIMBE NUM IS RHMMARMMPGULLSLICE CMNAEHIBUSPDSILISS A ET ERTOPTONRSCON AB ESURARIIUUUJBSQHIL SE NTELUHUNOVSQMHPMA TDDUENTCIOOASTQIQU ALIO FSEDGRLCBIEE EST AMTTAECVCAESDM EO RE DE ERMONSIMOTCMEELF"
   },
   {
+   "model": "both digit streams in 7 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -1.74,
+   "score": -5.566,
+   "null_mean": -5.48,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.7).",
+   "reading": "AGGRG OR I IN GER TO US LDUDIEYYTYGSN ON ADD A O DISAINDSYESSOESRIU AT GO NEED A RNINTNLGIASTGLIDTU SOIL TO T AN GTURNNRLILGGGUNTST AT ILOUOUARSAITYGRU DID OLUDEEYTENSIETL AN TO GYNERRSLANNLYGAYN AS LUNSAHABEISGRCIM OF THE OS BEEN B"
+  },
+  {
    "model": "boustrophedon rows",
    "language": "English",
    "symbols": 18,
@@ -1356,6 +3711,50 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.8).",
    "reading": "LRASIRIO NO ITS DRAT TNNWNED AT TOO LEAD ILTUELLLYCA ROLLS LNWNUUWSTWALTENUND SO SON PNNRERPAWSSOWLANOE WAS NWWWGHRUSOUDSWDI IN TRRSISITIPLOULBYNI OAR DAN TORE UURODDIESTINUPTCLE RURPROEASEEPWAAPPE AS D LANE CRNSTLONLEARDP"
+  },
+  {
+   "model": "first digits read in 11 columns",
+   "language": "Italian",
+   "symbols": 20,
+   "z": -1.75,
+   "score": -5.622,
+   "null_mean": -5.554,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.8).",
+   "reading": "NDCGSP LE SE S TRE E E ED MAL FLLEMCPHIACEVRER ANNI FUR IBUSIGRGTO CON MA OR E ALI VERE NE NGFCCDAOVLOLTURC SE FU DIVA FA E E LBSHFIEREGROTDDR SI LE LCGMRNLIADTTL OMO OH SBANDEMELAGMLLNOM FU IO UTOPORCUIODAQCPDU DIER PSAOECOANSTRMNSCC"
+  },
+  {
+   "model": "second digits read in 14 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -1.75,
+   "score": -5.605,
+   "null_mean": -5.551,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.8).",
+   "reading": "LDSGODCDETOBE EIN LRSRRWEGABG DING RGOAUTENLAFTIIMIG UM UND IEFMNDG LASST SSGIGIGMWSAHGWMMN ETWURRHEHRSEHIHPNG VOM HE S WDRIIVWWRORFLOAADI LLDMHTUMMSTEWOSVWD TSSKGRNVMILLSSRERI HLTWTGAKLIRENUGERM ARMEN EHER NSDUBSEHF"
+  },
+  {
+   "model": "second digits read in 11 columns",
+   "language": "French",
+   "symbols": 21,
+   "z": -1.77,
+   "score": -5.875,
+   "null_mean": -5.803,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.8).",
+   "reading": "DIRRPLZGNMBDSNGC DESERT RE DU AMI ON NAPOVLNOOCZIMGR LEUR DU TIEZNDMADVSN LES A L S LE RIS CTSISECEMIDAAMNLNS ET TTYVEXPRINSG TRLIPTIEZAZDHVVLLU VINT T D A A AGE MBAXLLISRHAAOXSTC ON NE ES L LUI M L AU PU L NE VOS SE AURA NDSMSROELVONSLH"
+  },
+  {
+   "model": "second digits read in 8 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.81,
+   "score": -6.014,
+   "null_mean": -5.913,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.8).",
+   "reading": "Y GOOHDUDSDPVMSIL LO OAAISAYLOIRCMSOPTL NO VLYHG GRANO LE LCRISFSTR ACTOS DO O EN MIAS NAYR MIOS YA DIVAEREDEMSNDIJ YA PUERSSRDOINUGD SU AUVULLGGLVNSNGLOSM DE GUEPRIGAMBMOCHENYT AMO AANRLRDIOCFYNASV VEASE LE SE CMNOETARYVAARH"
   },
   {
    "model": "coordinates offset by 6",
@@ -1391,6 +3790,39 @@
    "reading": "LTHSPAPFSGB LONG DLSOSNGNNL LET TRENSBLLIELRYWITAH FOR EDMIINUEDFOLLONFO ON GSFSSISLFOFSHRNTIL S S IS IS E OF FFKMEWWHANEGIHTAW IF NCHBYBLLGARMAOAID SHE IS TWO UTTTOSUSSDWHAR YES S SEA IRFITERPLTOODDEHEO LOOOMSIHODOFLDSNTU"
   },
   {
+   "model": "second digits read in 14 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -1.85,
+   "score": -5.686,
+   "null_mean": -5.607,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.9).",
+   "reading": "GPTOMPYPIUMVIINLGA T A A SI OR VOPNLOAOMRCUILGR FUNNE NOCE CLPNIFELPOGRT TUTTO NON O E S TR D O SE E LI USCAADIDATIDNDXLOB ME DI T S PAN NBSSAMAFGMRRPNGGP E DUCE E TU ISMTBSPUTTZO AL BEN GGTTAIANDGUSUORZGN A IL COI A ERA EI LI DI AL TPCVTIDF"
+  },
+  {
+   "model": "both digit streams in 2 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -1.88,
+   "score": -5.449,
+   "null_mean": -5.34,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "RTDDSDCE IN SSITEUNRMRROMORR ET CORUMNEECTAASSOT EO COOIDNCMCAACCI PER M A ITA ESMENUISPUCUAAARP TPUCRSPAUSRCAACAEE IN I TUOSIARTDIURGMSSCR ALIT IS S CCC OPUS PER SUTSOBSDONEMF AD DDRMQUESNTDGANDCD MIUTEPMULOTPTNTUNT RE IS L"
+  },
+  {
+   "model": "first digits read in 9 columns",
+   "language": "Latin",
+   "symbols": 21,
+   "z": -1.88,
+   "score": -5.518,
+   "null_mean": -5.455,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "SPUGRUMEMOR ET HAE EX ANMCRLEAU PHGCUELGOTCBTGQNST IN ISTTTEPUDGHCDTECI SI ET ATOSSNXPUNDIRUMEN TUM HNNUSMCNCOARRIOV SESE GTPAUUBIT REM PTAGTRBNDEERDOXDAI IN GUAEERNGERITUHCQS XCAXPUGYCBXUCPPPXQ UT E SPRNUEUXCTIATOSMUU"
+  },
+  {
    "model": "coordinates offset by 10",
    "language": "French",
    "symbols": 21,
@@ -1402,6 +3834,28 @@
    "reading": "FOU ALOLSADJBRROMPEA UN SA RIMUDCIUNNVIFDRIII VOS SE CABEIMDTUJAIOUMI UN SE EN SRTERONISRONN PUT DBNAORTRANCOCHIUX LE SUR C TATSVOCUJUGPLMFSOP PORT DIE AAORDVAJTCSANGUEB LES PIE NUEE D S PSSDEILISRNPMEENUF AU AIR SE UPECFPRATL"
   },
   {
+   "model": "second digits read in 11 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.93,
+   "score": -5.972,
+   "null_mean": -5.884,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.9).",
+   "reading": "O TLLFAVBDNMORDBPOER EL Y LE O SIN TU DDIFUCADUUPVTNB LA ES LOS Y TE VDONIOCRDAERIARA EL TRPYRTREPENTOIIN DAD REY Y Y ZCEGFLTDRBYLATF Y TE VIVO QCCAASCTDYYOIIIB EN MI GAATRLQIIUGRYPUD DE ERA ASTNAISFSADECURREI SLIDORNRLUEACUDRAQ"
+  },
+  {
+   "model": "second digits read in 14 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -1.95,
+   "score": -6.007,
+   "null_mean": -5.902,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-1.9).",
+   "reading": "UYLIGYZYREGVRRS CUAL AADRINVIYSCIAIGN ME RCUNPESSOSIMOMC Y SRPOCYIUNLLELLI SI SI ODLNTIDOOCREDMAATR TAL RTSTXCIHGOTRLD YA SSHDDAGAPUGNNYSUU YO TEMO OLER DGLHDYELLFIACHO SU ULLARASTUEDEINF USAR C MIRA O NAORCRTRACLYMVLRTP"
+  },
+  {
    "model": "coordinates offset by 14",
    "language": "Italian",
    "symbols": 21,
@@ -1411,6 +3865,28 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.0).",
    "reading": "BUAOPIZIEMPBOOUNGO A E TU TR NNTIINTERZNNCTBLLY CUI OCAGENDUCAVANCRL LOR SE E OMAI T O MA GIO CERGRUUDEEURCATA CCSKLOVZTMAESCACCZ CIO PAZLPLLUMDGCOUU BER TUE M VO PII CORPO O L VO IN LORO OOSILCUCODFLUO OGNE A TANE OONOSTELEUDBEACP"
+  },
+  {
+   "model": "both digit streams in 10 columns",
+   "language": "German",
+   "symbols": 18,
+   "z": -2.07,
+   "score": -5.525,
+   "null_mean": -5.46,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.1).",
+   "reading": "WUEMWWWNEHU IDSLEIAEWISHAGWSTD AUF WEIL DA MSATERHNMTETR IN AN DIDDT TREU LIEH NEHILRRSLDRE UNS WLALAHHTTWIRMIMIII SSSEZEDWHRUBAUMMAA ZU SALHTRIAHLTLNMTWTM NAIMESTMEPNUMUTAZR WER NWWHNINSTSIESMD WEN MWWTATEMELUNGUNH AN"
+  },
+  {
+   "model": "second digits read in 9 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -2.08,
+   "score": -5.563,
+   "null_mean": -5.487,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.1).",
+   "reading": "HIE SGLJLNMWRNT AUF ES STISTOFCDMHCTSKHF DER OHJDAMELNHTHRM IN KSRMTOOSSMENNDC AN EI SO LEIS ER N ADOENLELSNNDAMVOCJ GE DES AM SLMZLICGSZOJOH MIR HLCMAUSTEITDGNGML DEN GSSRZSIOUEEENNI IFLIINRGFINSOHNTSS FNSCHTDEEHTMFUSSMK"
   },
   {
    "model": "coordinates offset by 9",
@@ -1435,6 +3911,17 @@
    "reading": "DYMEJYBYEYVIEPNCD ME E ROE A CIEN TU APABSCLASDCJTTTAYR IR SU LO AVPDTMU SEA YA A POR OPRNMINELAR DEL LIAMLPLEEMNNYGSEBV A TREOOANTJYNRBEBSJS COYUDOEOOUMMPTRYVE JLTYMMBRECHAOCURRR A RLTIOLORIZCOAESIMP REIR PADETEADROSIRANZ"
   },
   {
+   "model": "first digits read in 6 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -2.19,
+   "score": -5.661,
+   "null_mean": -5.532,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.2).",
+   "reading": "A GET WE COWS W S TOO OOESHWRNNSSEMP THE SCYSTITTYHFATCHWT KYYBLEEDBREYOHNANS TO T STAR LEE REN NEWS RTMCORHLTCHHISONC WORD PTPATEPLETNTUBCM TO T ACT HE SO UGBLEOWWRYMOO ON RYBCCALPRRAERPLLMA MITE LI GE ME HE TO TMURMBLEFTUSABANEL"
+  },
+  {
    "model": "coordinates offset by 5",
    "language": "English",
    "symbols": 21,
@@ -1444,6 +3931,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.4).",
    "reading": "NIARYIYPADYFE AS CHRRAAOEA THE DITALMWTTSMTTCKI PPLPANENTDSEWAHILC FLAP ALL SEOEMORCORDMLNRD SHE LIMSMAAIIIGHLYWAP LED OEPIWIDRULYTWCTS OF FIEDONARRSLOYAYI SPAR BLEFKMPNHAEEELOS TOO SE NUN SELF TERM E FEEMTRDLATRONTEEPB"
+  },
+  {
+   "model": "both digit streams in 7 columns",
+   "language": "Italian",
+   "symbols": 18,
+   "z": -2.4,
+   "score": -5.449,
+   "null_mean": -5.357,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.4).",
+   "reading": "O UUGUAGRRSUEGIANLCT N TRE M MI MUL SA SOTTO A TR LOR S T L M ELLA E LGRNOIUASEETOGSR SI SCURO LI UCRTINLARCIA IO SU IN GSSGCRCUU UN SI L IO IR CAN ANOGLORIMUGNTRTACN TE E MI E S L REI COSI AUMSEGGLCOSSCM UOM SOL CNSLODOPERLUGBR FA VIDE ALPE E S P"
   },
   {
    "model": "coordinates offset by 9",
@@ -1457,6 +3955,17 @@
    "reading": "UNA SQBQBEBCLODNUUE EA SPE ALIAM PISSOCIINOLIIVMBT ET SUO RIBPDVDU MAIUS SPE EEPENDEN AGMEN AOGEMNGOOBANDDAP MBJUSVWATESNMDBNWM BSVDVGWUUNTURTANNG SE AB AN CSQNNMEACOSRCATRRS EOS ET PRTTTORVUMEDGRAE EO ID ASUSNEEIETILEDBY"
   },
   {
+   "model": "both digit streams in 10 columns",
+   "language": "Latin",
+   "symbols": 18,
+   "z": -2.71,
+   "score": -5.418,
+   "null_mean": -5.345,
+   "control": 0.536,
+   "verdict": "Inconclusive: this solver recovers only 54% of a known message of this size, so a failure here says little.",
+   "reading": "LCESLLLOERCIUNTEI DE L IN RDGLNAUDCFLEITUDS NDAEPROSAEAPIODOUI UUAAPECTIEROERITPP NTUPECONLTDTDRRAAL IPSIS II IN NNEMEUL RPCYDCSSDDMCNDTRAP ID RTATOSALASODISENA SE HOC SC AD MPLEPOLLROIONANIEN SULEOSLLADAESETCOG C ORDO"
+  },
+  {
    "model": "coordinates offset by 14",
    "language": "English",
    "symbols": 21,
@@ -1468,6 +3977,17 @@
    "reading": "KOAERSUSTWRKEE OF YE AT NON BFFNSSFNTBUFFLNKHH CLOSE LAY TFMOLADAFLBH HE BIT TE WAS NEW AYSELTBYBOOMTTOBL AN ALL I GHEDUNWATILALLULSE RAUHRHHOWMYLEOOKTB NOT WDERSSLEBREEHDESF HE BE EEISHLOLEMPHOEEYFT AN AFT EEFEINTHTOMKTALR"
   },
   {
+   "model": "second digits read in 2 columns",
+   "language": "German",
+   "symbols": 21,
+   "z": -2.76,
+   "score": -5.583,
+   "null_mean": -5.527,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.8).",
+   "reading": "OMLLBFXRNRBUNERGHS S S S IST O O N MAGST SCHHAEDDUBIMRTATG NUHAASKEOANDHSSMNE ER LANNINUMTATEDEAMD ET ASFEETFAAJDSKCNRNN MIT FRKAMLCTXGXUUAADDR ER FUSS SIE IBECAFIELZNLUZNRO HELL LSAFGRFREUZDRLSUON T END STEG EMENDTRDONNFK"
+  },
+  {
    "model": "coordinates offset by 14",
    "language": "Spanish",
    "symbols": 21,
@@ -1477,6 +3997,17 @@
    "control": 1.0,
    "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.8).",
    "reading": "GUOA DEBE RPDGAAUNCAORTUTINN TE EN TRIBNNSTGLLW SU EASOCRNZUSOMON SILLA IYRRA POETA POCEASRICIUU ZRRUISOTOSSYFLAMBT POR Y SOSSBSEADOBLDL LUPZCSAUUGRITURPMA DE ESA IDA ALMA EN LA I A A A Y EL SUS AZHLUAACN ROTO NRAANAYTRLRUZGROSD"
+  },
+  {
+   "model": "second digits read in 8 columns",
+   "language": "Italian",
+   "symbols": 21,
+   "z": -2.78,
+   "score": -5.663,
+   "null_mean": -5.594,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-2.8).",
+   "reading": "S POOBDHDNDFTUNRMMOO I IR NI S MORA L UNO FGMCOTMSBPPAI COME M LA RNYNGAILGONDOO E CURI NCISAURONSIDR TI E A E DE UN CDRJSIFH E ANNA D OR CH PDNHIHTHMMPPMTCNCP MO NUDE PH E FAR PIU VUOL BE C S GIU OIICAMADROLYSCINTT E IN E ME NEL U CO E GIA S TI I AB"
   },
   {
    "model": "coordinates offset by 14",
@@ -1512,6 +4043,50 @@
    "reading": "XPEINTGTCDNXIIPAM IECRPROAARTTARCOGA ASRXLLKSPTISEMCAQP SE VEASOLLIOUCCIDETR IDEM TISCOMOPPQCCPO SE RES SUB LIVGRDECUSESSGST IN EGLNLLPDQMSIPPXCOR PCDVINTTSIONIILVIT ALIO III UT LSPSIQZLPIIMACE RE AC IIAIURCLCPQXCESN"
   },
   {
+   "model": "first digits read in 9 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -3.65,
+   "score": -5.679,
+   "null_mean": -5.606,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-3.6).",
+   "reading": "NCITLIGEGULESHREE MR DGALFERICHTAIEFTU SAYS TVDNSODONSSSECIPT HAP SEA ON O ESRSUNNDMCIDPOLIGE D SIGH DDINGADAURLLOUKNE NETS CRIIYOSLEGCSRT SLYDPEELPUMPROODTI REEL DTELOSIHAVNMARMC IT WAY MIACCCMVISENCL DIE I M AS OR SUNG I I"
+  },
+  {
+   "model": "both digit streams in 2 columns",
+   "language": "English",
+   "symbols": 18,
+   "z": -3.96,
+   "score": -5.652,
+   "null_mean": -5.497,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-4.0).",
+   "reading": "SED DO DITRYOORETHYSASSM AM SSTEIMSHAYTTIENNOO MET MIMMRDYIAINNIIRWTS AN REN TO AT YHROWHIHNNNSWEW HIS OWN HO S INN IN T TRY REHMORNSEDRHSBAOO IS NUREROOIIIMW HOW T SO HE OMGODMYTALNDDDSACH TO YE DBNYDIDARHETWAHU ME WE YE HYESTROU"
+  },
+  {
+   "model": "first digits read in 5 columns",
+   "language": "English",
+   "symbols": 21,
+   "z": -4.09,
+   "score": -5.721,
+   "null_mean": -5.59,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-4.1).",
+   "reading": "ELYESNSW DID BE I AWINAGFHMFWWNOACHO AS TITHE CRUPERSHMCRE TWO OLEIHLCA US EMIR AT AT EPOOOHNSMOSIGTOMIG POTS HHHIKSMMBGTIC AT EOAYNTDESISOTIRCDR PLAIMLALLIDMHRNAAI SHE WSMENWHHTYGAONNENG TOO GOOOLHLTIR OF PLAY OUT MAR IT M LL"
+  },
+  {
+   "model": "second digits read in 12 columns",
+   "language": "Spanish",
+   "symbols": 21,
+   "z": -4.14,
+   "score": -5.986,
+   "null_mean": -5.87,
+   "control": 1.0,
+   "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=-4.1).",
+   "reading": "ICONGCGTRCBUONYVIE OORCORIDNCLVERRZUD Y NI PUBLYLETRUEUILYNGA USA DI EN LE O ESO LNOCEDSECOOUEYYUNR YA TRAES SSQUEZHRTEOYTOCCZS Y RMOMUGUISYPVTRCC UNA AL NCHAGCCYNEBNAD MAS DI EA O A O Y LPLLSAIMPLARIDOOR NI NO A DA Y NO POSVDREYH"
+  },
+  {
    "model": "coordinates offset by 14",
    "language": "French",
    "symbols": 21,
@@ -1524,5 +4099,5 @@
   }
  ],
  "readable": [],
- "runtime_s": 51.0
+ "runtime_s": 146.3
 }

@@ -1,0 +1,148 @@
+{
+ "id": "liber_keys",
+ "control": {
+  "planted_offset": 17,
+  "found": "page 0 minus offset 17",
+  "recovered": true
+ },
+ "keywords": [
+  "DIVINITY",
+  "CIRCUMFERENCE",
+  "FIRFUMFERENCE",
+  "KOAN",
+  "PARABLE",
+  "INSTAR",
+  "EMERGENCE",
+  "WISDOM",
+  "PRIMES",
+  "TOTIENT",
+  "CICADA",
+  "THREETHREEZEROONE",
+  "LIBERPRIMUS"
+ ],
+ "pages": 55,
+ "rows": [
+  {
+   "page": 14,
+   "key": "pages 56 and 57 minus offset 29",
+   "score": -6.201,
+   "z": 7.09,
+   "coverage": 0.023,
+   "reading": "I A A EEAEALEARBIATHTEPS SXMSMAEDNUBMOCIOEG EAT I OEOETHYETHSFREHTHC BE OBJJCMAEIDGRWRTAI THE A EAMAETOEXTHEEOAJJA ENFOETIAYIDRYBAFMP"
+  },
+  {
+   "page": 2,
+   "key": "TOTIENT plus",
+   "score": -6.371,
+   "z": 3.21,
+   "coverage": 0.031,
+   "reading": "NO EBECYEAWYAIAHHLREO A I AWSEAIDDOETOEMANGS BE APYAREESEURNIAD MUST EOYEAEOWHLY RNGTTHGYOONGEOMELD THE AUEOOERMIEOPENGPU THE OEOUTWN"
+  },
+  {
+   "page": 25,
+   "key": "reversed pages 56 and 57 plus",
+   "score": -6.491,
+   "z": 2.96,
+   "coverage": 0.035,
+   "reading": "DISOTHNGANGBCFO WFAEEAIJHBNGEOAXNG JWOAEGMREGFDIAIANG THE OPIOEPSGAETHYLS EDDY A I A EE A HE TH I A TOO HNXTGCTHEARFEA OMTGSMXEAHTSPAIXFE"
+  },
+  {
+   "page": 32,
+   "key": "reversed pages 56 and 57 plus offset 24",
+   "score": -6.218,
+   "z": 2.74,
+   "coverage": 0.027,
+   "reading": "XGGOAECCOXWIGTBP LED EOOECLERSIANIAE AND DNXRPEORLEEJAEXEA AEFAELITHEOTJGUCEA POOR GAEWRIADOEDCOI AS AEDTHIEPTHNGBP NO EEOTHIHEAGCE"
+  },
+  {
+   "page": 26,
+   "key": "FIRFUMFERENCE plus",
+   "score": -6.376,
+   "z": 2.29,
+   "coverage": 0.054,
+   "reading": "I APPEAR UYUEBROIADTHEOPFIA IAMAEYJEOUNUPDNGSS BE AEOEEAOECILFIANGE AT HNUXEOADINBNGSG MR HJDEAFCESWGXRNGM MEAN HE OR FDRALIAOEUOETUG"
+  },
+  {
+   "page": 54,
+   "key": "INSTAR plus",
+   "score": -6.442,
+   "z": 1.95,
+   "coverage": 0.028,
+   "reading": "CEAWIOEGAMCXEBTHIO E JXLCUWEOEJAEBAENGL BGSEGCEAEAEOTHDIAR WITH I AY S NIALAEDNNIAMMAEERT DR TRCXYBIASHHAEWUEOI A IYUMNBWCMHURWGFWXE"
+  },
+  {
+   "page": 29,
+   "key": "DIVINITY plus",
+   "score": -6.464,
+   "z": 1.92,
+   "coverage": 0.022,
+   "reading": "A ERWJAEUODATHWORYIA EALGNCYTHEIAIACIRM THE OBMTHLYWAEOEDUTIAO EOJMBTDWDTWEOOELGO ME OF RHEATHOLTHTHIASSE AN FOE WOALBIAARYYDTUEOLS"
+  },
+  {
+   "page": 46,
+   "key": "PRIMES plus",
+   "score": -6.537,
+   "z": 1.63,
+   "coverage": 0.06,
+   "reading": "NGLASEAYXIAIBXUDJ THO HFABRNIIARIAWMNGNC I M THAR REWSNRIATHTHCDAESI YTAEECOEIAXHTHHIIA OTHHETHWEOFAGJGURI EASE LOEFEPAEOOGWNEAEIR"
+  },
+  {
+   "page": 18,
+   "key": "TOTIENT plus",
+   "score": -6.498,
+   "z": 1.39,
+   "coverage": 0.0,
+   "reading": "S I A IAOEBFLOEEDPGMSNGP IN GWEALOEIAANNSMUJX THE OPDMTXWDJYEARYOLNN GAG YTHIAMIOEALTHXOES IS US BE ON COEFIALUTHBUA HCDEAOEOXHJIXEFICX"
+  },
+  {
+   "page": 19,
+   "key": "EMERGENCE minus",
+   "score": -6.539,
+   "z": 1.21,
+   "coverage": 0.024,
+   "reading": "LPRCDXUAEOYMCOO EDREAXXNGGEGITHCRO ERE OUSXATYOELAIEOCURU US A EE A ROEXFEOGOEPDGMMNGI MIX DO EYPMEWEXWASDNGIAW TO ETC OWPEATHAMFYWOHO"
+  },
+  {
+   "page": 10,
+   "key": "reversed pages 56 and 57 plus",
+   "score": -6.48,
+   "z": 1.16,
+   "coverage": 0.012,
+   "reading": "LSINRMOETEOGIAIABC THGNGCSHRLHGOJJGEO AS SJYALOEIAEOFAELTEU ME AWSEARTIAPFNGPEOE WE O ONE A THE AXSCEOTHTHSPX BE ARE AM CEAIOENISHRSGPA"
+  },
+  {
+   "page": 27,
+   "key": "FIRFUMFERENCE plus",
+   "score": -6.492,
+   "z": 1.15,
+   "coverage": 0.017,
+   "reading": "MDULTOEAXE ON I ABEAM UASGONYIMWPMBIIAJ TH WE EAFEOEUTHTHXDLGWGS DBYUIATHFRIAFABAFE I A TOE ODNGFEOEEOOEOOEHJW LO EH NTOEODEAWGDWTXCYDU"
+  },
+  {
+   "page": 41,
+   "key": "WISDOM plus",
+   "score": -6.551,
+   "z": 1.1,
+   "coverage": 0.027,
+   "reading": "GLINFNUWUJYUU PAID AT HTHMFJAE EBSERTHUYCCPJOAEAE AT EFCORPCMTDNSBAIOE SEA XWPEONGIAEASIABTS TFLOTGCXRLDIAFNGYH AGE ON DUYJTHNTHTHOE"
+  },
+  {
+   "page": 38,
+   "key": "EMERGENCE minus",
+   "score": -6.475,
+   "z": 1.07,
+   "coverage": 0.0,
+   "reading": "EOGTHEAHELIAFSJJ THY AAEPNGAEOSBWNGDEOG MOUEOAIANEOAEGLNEA MAN GET HAS PPWPNGXTOEURMAEOEE OR IAOEWMIIAWTTDRUUE AT HNGPNGEORFEGUHUMF"
+  },
+  {
+   "page": 49,
+   "key": "reversed pages 56 and 57 minus offset 62",
+   "score": -5.97,
+   "z": 0.89,
+   "coverage": 0.05,
+   "reading": "XDHNATHOIARMUGT WOES I AN S A AT LLSSPYHTHTHDEAMOE BE A I A OF XRSLAPWASOWP THE ON GSDRAWNGWOUHX"
+  }
+ ],
+ "max_coverage": 0.06,
+ "runtime_s": 4.4
+}

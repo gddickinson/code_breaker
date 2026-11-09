@@ -7,6 +7,9 @@ from .text import letters
 from .validation import coverage
 
 
+FALLBACKS = ("caesar", "affine", "substitution", "vigenere", "columnar", "railfence")
+
+
 def attempt(cid: str, text: str, lang: str) -> dict | None:
     c = REGISTRY.get(cid)
     if c is None:
@@ -42,6 +45,17 @@ def autobreak(text: str, top: int = 5, langs: tuple = ("en", "fr", "de", "la"), 
                 break
         if out and out[-1]["coverage"] >= stop_coverage:
             break
+    if not out or out[0 if len(out) == 1 else -1]["coverage"] < stop_coverage and max(r["coverage"] for r in out) < stop_coverage:
+        tried = {g["id"] for g in guesses}
+        for cid in FALLBACKS:
+            if cid in tried or len(letters(text)) < 20:
+                continue
+            r = attempt(cid, text, langs[0])
+            if r:
+                r["probability"] = 0.0
+                r["coverage"] = coverage(letters(r["plaintext"])[:500], langs[0])
+                r["spaced"] = segment(letters(r["plaintext"])[:500], langs[0])
+                out.append(r)
     out.sort(key=lambda r: (-r["coverage"], -r["score"]))
     return {"guesses": guesses, "results": out, "best": out[0] if out else None, "note": "A high word coverage means readable text. Low coverage means the system was not recovered."}
 

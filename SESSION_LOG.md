@@ -59,3 +59,6 @@ Beale: an honest narrow-window encoder reproduces the B3 correlation, so the hoa
 
 ## 2026-11-09: Round 11 complete
 Z340: the 5-gram model ranks the true text above found decoys; long runs reach 44% on verified positions (top-scoring run 39%). Rongorongo alignment passes its control but finds nothing above the shuffled level. Short-passage Beale keys rejected as equivalent to document offsets. Next: Round 12.
+
+## 2026-11-09: Round 12 complete
+Correction to Round 11: the 5-gram model does not prefer the correct key on Z340. The best single key matches the published text on 90% of letters and scores -1687, below decoys at -1595. Longer searches plateau at 41-44%. D'Agapeyeff digit transpositions (372 tests) and Liber Primus running keys found nothing. Autobreak now has fallback attacks. Next: Round 13.

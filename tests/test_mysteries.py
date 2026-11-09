@@ -105,3 +105,11 @@ def test_narrow_region_encoder_correlates():
     doc = to_ints(sample_plaintext(1000, "en", 3))
     plain = to_ints(sample_plaintext(300, "en", 4))
     assert measure(encode(plain, doc, 15, 0.05, 1))["lag1"] > 0.3
+
+
+def test_liber_running_key_control():
+    from codebreaker.mysteries.liber_keys import control
+    from codebreaker.mysteries.liber_primus import pages
+
+    p = pages()
+    assert control(p, [("page 0", p[min(p)])])["recovered"]

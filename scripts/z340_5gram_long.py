@@ -11,7 +11,7 @@ import z340_5gram as Z  # run with PYTHONPATH=.:scripts
 if __name__ == "__main__":
     N.table5()
     with P(7) as ex:
-        res = sorted(ex.map(Z.run, [(Z.SEQ, s, t0, 2.0, 40000000) for t0 in (2.0, 3.0, 4.0) for s in range(100, 107)]), reverse=True)
+        res = sorted(ex.map(Z.run, [(Z.SEQ, s, 3.0, 2.0, 70000000) for s in range(200, 214)]), reverse=True)
     acc = [round(similarity(Z.TARGET, t), 3) for _, t in res]
     print("accuracy by rank", acc[:12], flush=True)
     print("truth objective", round(Z.objective(Z.TARGET, 2.0), 1), "best", round(res[0][0], 1), flush=True)

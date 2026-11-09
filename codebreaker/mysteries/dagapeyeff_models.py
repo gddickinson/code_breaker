@@ -34,6 +34,11 @@ def models(p):
     size = len(p)
     for k in range(1, 15):
         yield f"coordinates offset by {k}", [firsts[i] + seconds[(i + k) % size] for i in range(size)]
+    for w in range(2, 15):
+        cols = lambda x: [v for c in range(w) for v in x[c::w]]
+        yield f"second digits read in {w} columns", [firsts[i] + cols(seconds)[i] for i in range(size)]
+        yield f"first digits read in {w} columns", [cols(firsts)[i] + seconds[i] for i in range(size)]
+        yield f"both digit streams in {w} columns", [cols(firsts)[i] + cols(seconds)[i] for i in range(size)]
     yield "second coordinates reversed", [firsts[i] + seconds[size - 1 - i] for i in range(size)]
 
 
@@ -53,4 +58,6 @@ def run() -> dict:
     with ProcessPoolExecutor(4) as ex:
         rows = list(ex.map(job, jobs))
     rows.sort(key=lambda r: -r["z"])
-    return {"id": "dagapeyeff_models", "pairs": len(p), "is_square": len(p) == 196, "tests": tests, "rows": rows, "readable": [r for r in rows if r["verdict"].startswith("Readable")]}
+    digits_ = "".join(p)
+    alternating = sum(digits_[i] in "06789" for i in range(0, len(digits_), 2)) / (len(digits_) // 2)
+    return {"id": "dagapeyeff_models", "first_position_alternation": round(alternating, 4), "pairs": len(p), "is_square": len(p) == 196, "tests": tests, "rows": rows, "readable": [r for r in rows if r["verdict"].startswith("Readable")]}
