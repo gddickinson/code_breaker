@@ -30,6 +30,9 @@
 ## codebreaker/files/ (File Inspector page)
 Adapted from the textview project: `file_inspector.py` (magic bytes, extension hints, encoding, hex preview; magic now wins over a misleading extension), `format_db.py` (data/files/file_formats.json), `security_scanner.py`, `blend_inspector.py`, `document_extract.py`. New: `readers.py` (image, text, table, archive, SQLite via apsw, NumPy, MATLAB, PDF, WAV views; pickle is never loaded), `readers_data.py` (Parquet/Feather/Arrow, HDF5/NetCDF, Excel/ODS, certificates and keys through textview's `parquet_loader`, `hdf5_loader`, `spreadsheet_loader`, `cert_loader`), `carve.py` (entropy map, strings, embedded signatures), `service.py`. Routes in `web/routes_files.py`; front end `files.js`.
 
+## codebreaker/sound/ (Sound Lab page; birdsong in Codes in Nature)
+`audio.py` decode and resample · `song.py` spectrogram, syllable segmentation, syllable types, the song as a sequence with entropy · `identify.py` BirdNET 2.4 on ai-edge-litert (the approach of the user's bird_sound_analyzer project) and YAMNet (data/models/yamnet, not committed), each with a noise baseline · `synth.py` songs with a known grammar for controls · `service.py`. Reference recordings: data/sources/sounds/sources.json (Wikimedia Commons, CC BY-SA; audio not committed). Routes `web/routes_sounds.py`; front end `sounds.js`.
+
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·

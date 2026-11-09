@@ -414,3 +414,6 @@ app.include_router(_devices)
 from .routes_files import router as _files  # noqa: E402
 
 app.include_router(_files)
+from .routes_sounds import router as _sounds  # noqa: E402
+
+app.include_router(_sounds)

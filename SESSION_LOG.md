@@ -173,3 +173,6 @@ Raw-frame detection now checks byte-lane fingerprints before smoothness, raising
 ## 2026-11-09: File Inspector readers (user request)
 Installed pyarrow, h5py, netCDF4, cryptography and openpyxl (pinned in requirements.txt) and added textview's Parquet, HDF5/NetCDF, spreadsheet and certificate readers without their Qt pickers. Each is tested on a real generated file.
 
+## 2026-11-09: Sound Lab and birdsong (user request)
+Added a Sound Lab and a Birdsong group in Codes in Nature. From the user's bird_sound_analyzer project it takes BirdNET species identification (now on the lightweight ai-edge-litert runtime, without TensorFlow) and adds YAMNet for 521 general sound classes. Songs are segmented into syllables, typed, and measured as a symbol sequence with entropy. Controls: synthetic songs with known grammar (all syllables found; types agree for about 85%); five Wikimedia Commons recordings (blackbird x2, robin x2, tawny owl), all named correctly first by BirdNET, with runner-ups sometimes above 0.6, so results are shown as candidates. The page can analyse examples, uploaded files or 10 seconds from the microphone.
+

@@ -224,3 +224,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Structural fingerprints beat a generic score: 12-bit data in 16 bits leaves one byte below 16, packed low bits form one noisy lane, and a Bayer mosaic is far smoother two pixels apart.
 - Generated test data must have realistic noise. Zero low bits made RAW12 and 16-bit look unlike any real sensor, twice.
 
+## Added 2026-11-09: Sound Lab
+- BirdNET's confidence is not a probability of being right: runner-up species reached 0.83 on a correctly identified robin. Show several candidates.
+- A null comparison caught a bug, not a weakness: the baseline function called the identifier, which called the baseline, so it recursed forever.
+- Ideas: compare song sequences between individuals (dialects) by n-gram distance; whale and bat calls; a live microphone mode reusing the Live Devices monitor.
+
