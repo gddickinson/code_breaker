@@ -1,5 +1,6 @@
 """FastAPI routes for the local Code Breaker app. Start with: python run.py"""
 import random
+import re
 import secrets
 from pathlib import Path
 
@@ -24,6 +25,15 @@ CHALLENGE_POOL = {
     "medium": ["substitution", "vigenere", "beaufort", "columnar", "polybius", "autokey"],
     "hard": ["playfair", "bifid", "adfgx", "hill", "homophonic", "enigma"],
 }
+
+
+VERIFIED = [
+    {"name": "Beale cipher 2", "text": "I have deposited in the county of Bedford about four miles from Buford's...", "how": "Book cipher keyed by the Declaration of Independence.", "href": "#/mystery/beale", "solved_by": "Solved in the 19th century"},
+    {"name": "Kryptos K1, K2 and K3", "text": "Between subtle shading and the absence of light lies the nuance of iqlusion...", "how": "Quagmire III with KRYPTOS, PALIMPSEST and ABSCISSA; K3 by double grid rotation.", "href": "#/mystery/kryptos", "solved_by": "Solved publicly in the 1990s"},
+    {"name": "Zodiac Z408 (92% of letters)", "text": "...because it is so much fun...", "how": "Homophonic annealing, with no key given.", "href": "#/mystery/zodiac", "solved_by": "Solved by Donald and Bettye Harden, 1969"},
+    {"name": "Liber Primus pages 56 and 57", "text": "An end within the deep web there exists a page that hashes to...", "how": "Prime-number stream, and plain runes.", "href": "#/mystery/liber_primus", "solved_by": "Solved by the Cicada community"},
+    {"name": "Le Figaro ad signed IGNOTA, 1 July 1896", "text": "Ferai tout mon possible pour venir voir enfant dans un mois...", "how": "Reversal then substitution, found by our hunter with no hints.", "href": "#/mystery/figaro_keys", "solved_by": "Already in the Le Figaro database"},
+]
 
 
 class RunIn(BaseModel):
@@ -164,6 +174,39 @@ def lead_overview():
         (SELECT count(*) FROM attempts t JOIN avenues a ON a.id=t.avenue WHERE a.code=c.slug) attempts, (SELECT count(*) FROM avenues a WHERE a.code=c.slug) avenues FROM codes c ORDER BY open_leads DESC, attempts DESC, name""")]
     return {"summary": L.summary(db), "codes": codes, "leads": [r.as_dict() for r in db.execute("SELECT l.*, c.name code_name FROM leads l JOIN codes c ON c.slug=l.code WHERE l.status NOT IN ('rejected') ORDER BY l.updated DESC LIMIT 60")],
             "journal": [r.as_dict() for r in db.execute("SELECT * FROM journal ORDER BY id DESC LIMIT 12")]}
+
+
+@app.get("/api/codes/open")
+def open_codes():
+    from .. import leads as L
+
+    db = L.connect()
+    rows = [r.as_dict() for r in db.execute("""SELECT c.slug, c.name, c.category, c.status, c.origin, c.tokens, c.symbols, c.source, c.data_path,
+        (SELECT count(*) FROM leads l WHERE l.code=c.slug AND l.status NOT IN ('rejected','confirmed')) leads,
+        (SELECT count(*) FROM attempts t JOIN avenues a ON a.id=t.avenue WHERE a.code=c.slug) attempts FROM codes c ORDER BY c.name""")]
+    closed = re.compile(r"^(solved|yes)|^solved previously|solved in|^partially solved", re.I)
+    still_open = [r for r in rows if not closed.search(r["status"] or "") or "privately" in (r["status"] or "")]
+    return {"codes": still_open, "extra": [{"name": "Le Figaro personal ads", "count": 1257, "note": "Listed as undecrypted in Didier Muller's database. Counted as one group here. A few appear below with candidate readings.", "href": "#/mystery/figaro_keys"}]}
+
+
+@app.get("/api/solutions")
+def solutions():
+    from .. import leads as L
+
+    db = L.connect()
+    items = []
+    for r in db.execute("""SELECT l.*, c.name, c.source FROM leads l JOIN codes c ON c.slug=l.code
+                           WHERE l.origin IN ('figaro hunt','figaro keys') AND l.status NOT IN ('rejected') ORDER BY c.name"""):
+        d = r.as_dict()
+        text = f"{d['detail']} {d['evidence']}"
+        if "partly read" in text.lower():
+            d["tier"] = "partial"
+        elif "Passes control" in text:
+            d["tier"] = "passes"
+        else:
+            d["tier"] = "strong"
+        items.append(d)
+    return {"verified": VERIFIED, "candidates": items}
 
 
 @app.get("/api/leads/feed")

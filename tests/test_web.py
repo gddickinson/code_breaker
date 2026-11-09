@@ -75,3 +75,11 @@ def test_latin_translation_when_model_is_available():
     out = latin_to_english("Gallia est omnis divisa in partes tres.")
     if out is not None:
         assert "part" in out.lower()
+
+
+def test_open_and_solutions_registers():
+    d = client.get("/api/codes/open").json()
+    names = {c["name"] for c in d["codes"]}
+    assert "Dorabella cipher" in names and "Copiale cipher" not in names and len(d["codes"]) > 60
+    s = client.get("/api/solutions").json()
+    assert s["verified"] and all(c["tier"] in ("passes", "strong", "partial") for c in s["candidates"])

@@ -89,3 +89,6 @@ Unfiltered OCR on all 1,317 images. Caesar (with and without W), Vigenere keys a
 
 ## 2026-11-09: Le Figaro documented tables
 Parsed 60 substitution tables and their writers from the database. Control rose to 14 of 56 known ads. KP's ad decodes with the table listed only for KP, matching the blind solve. MH and H also matched tables linked to them. New candidates recorded as needs_review, several partly read. Nothing emailed.
+
+## 2026-11-09: Open Codes and Solutions pages (user request)
+Added `#/open`, listing 119 open entries with search and filters, and `#/solutions`, separating possible solutions by evidence tier from known solutions our tools reproduced. Data comes from the leads database, so both update as leads change.
