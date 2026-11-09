@@ -2,6 +2,7 @@
 import json
 
 from ..languages import ROOT
+from .casefile_extra import dorabella_sections, scriptlab_sections, solvability_sections, sweep_sections, zodiac_sections
 from .casefile_sections import beale_sections, dagapeyeff_sections, kryptos_sections, tamam_sections, voynich_sections
 
 RESULTS = ROOT / "data/results"
@@ -17,8 +18,12 @@ CASES = {
                 "build": kryptos_sections, "sources": [("Kryptos (Wikipedia)", "https://en.wikipedia.org/wiki/Kryptos"), ("RR Auction on K4", "https://content.rrauction.com/kryptos-k4-discovered-not-solved-heres-what-actually-happened/")]},
     "voynich": {"title": "Voynich Manuscript", "status": "Statistical study", "status_kind": "untestable", "tagline": "A 15th-century illustrated book in an unknown script. It may be a cipher, a lost language, or meaningless. We measure what kind of object it is.",
                 "build": voynich_sections, "sources": [("Zandbergen-Landini EVA transliteration ZL3b", "https://voynich.nu/data/ZL3b-n.txt"), ("voynich.nu transliteration archive", "https://voynich.nu/extra/legacy.html")]},
-    "dorabella": {"title": "Dorabella Cipher", "status": "Awaiting transcription", "status_kind": "untestable", "tagline": "Elgar's 1897 note of 87 looping symbols. No attempt has been run yet, because no reliable machine-readable transcription was available.",
-                  "build": None, "sources": [("Dorabella cipher (Wikipedia)", "https://en.wikipedia.org/wiki/Dorabella_Cipher"), ("Hauer et al., HistoCrypt", "https://ecp.ep.liu.se/index.php/histocrypt/article/download/159/115")]},
+    "dorabella": {"title": "Dorabella Cipher", "status": "Open", "status_kind": "open", "tagline": "Elgar's 1897 note of 87 looping symbols, now attacked across three independent transcriptions.", "build": dorabella_sections,
+                  "sources": [("Dorabella cipher (Wikipedia)", "https://en.wikipedia.org/wiki/Dorabella_Cipher"), ("Hauer et al., HistoCrypt", "https://ecp.ep.liu.se/index.php/histocrypt/article/download/159/115"), ("AZdecrypt collection", "https://github.com/doranchak/azdecrypt")]},
+    "zodiac": {"title": "Zodiac Ciphers", "status": "Z13, Z32 open", "status_kind": "open", "tagline": "Z408 and Z340 are solved and serve as benchmarks. Z13 and Z32 are too short for any claim to be proved.", "build": zodiac_sections, "sources": [("AZdecrypt Zodiac ciphers, David Oranchak", "https://github.com/doranchak/azdecrypt")]},
+    "sweep": {"title": "The Unsolved Sweep", "status": "36 cryptograms", "status_kind": "open", "tagline": "Murder notes, spy messages, challenge ciphers and altar inscriptions, all tested the same way.", "build": sweep_sections, "sources": [("AZdecrypt Unsolved collection", "https://github.com/doranchak/azdecrypt/tree/master/AZdecrypt/Ciphers/Unsolved"), ("Klaus Schmeh's Top 50", "https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/")]},
+    "scriptlab": {"title": "Lost Scripts Lab", "status": "Statistical study", "status_kind": "untestable", "tagline": "Phaistos Disc, Linear A and Liber Primus, measured beside six known languages.", "build": scriptlab_sections, "sources": [("Phaistos Disc (Wikipedia)", "https://en.wikipedia.org/wiki/Phaistos_Disc"), ("Linear A inscriptions, lineara.xyz", "https://github.com/mwenge/lineara.xyz"), ("Liber Primus transcription", "https://github.com/henkman/liberprimus")]},
+    "solvability": {"title": "Solvability Map", "status": "Calibration", "status_kind": "solved", "tagline": "How long does a message have to be before a homophonic cipher breaks? Measured, not assumed.", "build": solvability_sections, "sources": [("Project corpora", "https://www.gutenberg.org/")]},
 }
 
 

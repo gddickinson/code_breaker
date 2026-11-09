@@ -1,0 +1,1553 @@
+{{Short description|Undeciphered writing system of ancient Crete}}
+{{Use British English|date=December 2012}}
+{{Use dmy dates|date=August 2017}}
+{{Infobox writing system
+| name        = Linear A
+| type        = Undeciphered
+| caption     = Linear A inscription on a cup
+| typedesc    = presumed [[logosyllabic]] ([[Syllabary|syllabic]] and [[ideographic]])
+| languages   = '[[Minoan language|Minoan]]' (unknown)
+| time        = [[Minoan chronology|MM IB to LM IIIA]]
+1800–1450&nbsp;BC <ref>{{cite book |last1=Daniels |first1=Peter T. |last2=Bright |first2=William |title=The World's Writing Systems |title-link=The World's Writing Systems |publisher=[[Oxford University Press]] |location=Oxford |year=1996 |isbn=978-0-19-507993-7}}</ref>
+| status      = Extinct
+| sisters     = [[Cretan hieroglyphs]]
+| children    = [[Linear B]], [[Cypro-Minoan syllabary]]{{sfn|Palaima|1997|pp=121–188}}
+| sample      = Linear A cup.png
+| imagesize   = 250px
+| unicode     = {{cite web |title=U+10600–U+1077F |url=https://www.unicode.org/charts/PDF/U10600.pdf}}<br />
+{{cite web |title=Final Accepted Script Proposal |url=https://www.unicode.org/L2/L2010/10422-n3973-lineara.pdf}}
+| iso15924    = Lina
+| note        = none
+}}
+
+{{ SpecialChars
+| compact    = 
+| special    = [[Linear A (Unicode block)|Linear&nbsp;A Unicode characters]]
+| fix        = Help:Multilingual_support#Linear A
+| characters = Linear A
+}}
+
+'''Linear A''' is a [[writing system]] that was used by the [[Minoans]] of [[Crete]] from 1800 BC to 1450&nbsp;BC. Linear&nbsp;A was the primary script used in [[Minoan palaces|palace]] and religious writings of the Minoan civilization. It was adapted into [[Linear B]], which was used by the [[Mycenaean civilization|Mycenaeans]] to write an early form of [[Ancient Greek|Greek]]. Since its modern rediscovery in 1900, no texts in the script have yet been [[Undeciphered writing systems|deciphered]]. Archaeologist Sir [[Arthur Evans]] named the script "Linear" because its characters consisted simply of lines inscribed in clay, in contrast to the more pictographic characters in [[Cretan hieroglyphs]] – likewise undeciphered – that were used during the same period.<ref>{{cite book |last=Robinson |first=Andrew |title=Writing and Script: A Very Short Introduction |url=http://minoanscript.nl/volume-i-part-i/ |publisher=Oxford University Press |location=Oxford |year=2009 |isbn=978-9-40-215757-4 }}</ref>
+
+Linear A belongs to a group of scripts that evolved independently of the Egyptian and Mesopotamian systems. During the second millennium BC, there were four major branches of this group: Linear&nbsp;A, [[Linear B]], [[Cypro-Minoan]], and [[Cretan hieroglyphs|Cretan hieroglyphic]].<ref name="Packard-MLA-C1" /> In the 1950s, Linear B was deciphered and its underlying language was found to be [[Mycenaean Greek]]. Linear A shares many glyphs and alloglyphs with Linear&nbsp;B, and the syllabic glyphs are thought to notate similar syllabic values, but none of the proposed readings lead to a language that scholars can understand.
+
+==Script==
+Linear A consists of over 300 signs including regional variants and ones which occur only once. Among these, a core group of 90 occur with some frequency throughout the script's geographic and chronological extent.<ref name = "SalgarellaOverview">{{cite encyclopedia |title=Linear A |encyclopedia=Oxford Classical Dictionary |year=2022 |last=Salgarella |first=Ester |editor-last1=Hornblower |editor-first1=Simon|editor-last2=Spawforth |editor-first2=Antony|editor-last3=Eidinow|editor-first3=Esther |publisher=Oxford University Press|doi=10.1093/acrefore/9780199381135.013.8927 |doi-broken-date=1 July 2025 |isbn=978-0-19-938113-5 |url=https://oxfordre.com/classics/display/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-8927 |url-access=subscription}}</ref><ref name="TomasHandbook">{{cite encyclopedia|last=Tomas|first=Helena|year=2012|title=Cretan Hieroglyphic and Linear A|editor-last=Cline|editor-first=Eric|encyclopedia=The Oxford Handbook of the Bronze Age Aegean |pages=113–125 |publisher=Oxford University Press |doi=10.1093/oxfordhb/9780199873609.013.0026|isbn=978-0199873609}}</ref>
+
+{{Image frame|width=130|content=[[File:LINEAR_A_SIGN_A559.svg|60px|class=skin-invert]]<br>[[File:LINEAR_A_SIGN_AB080.svg|60px|class=skin-invert]][[File:LINEAR_A_SIGN_AB026.svg|60px|class=skin-invert]]
+|caption=The complex sign in the top row is formed out of the two on the bottom row.<ref name = "SalgarellaOverview"/><ref>{{cite web | title=HT 12 - A559 Logogram | website=SigLA | url=https://sigla.phis.me/document/HT%2012/index-12.html }}</ref>}}
+
+As a [[logosyllabic]] writing system, Linear A includes signs which stand for [[syllables]] as well as others standing for words or concepts, and signs could be combined via [[Ligature (writing)|ligature]] to form complex ones. Complex signs usually behave as ideograms and most are [[hapax legomenon|hapax legomena]], meaning that they occur only once in the surviving corpus. Linear A signs are divided into four categories:<ref name = "SalgarellaOverview"/><ref name="TomasHandbook"/>
+# syllabic signs
+# ligatures and composite signs
+# ideograms
+# numerals and metrical signs
+
+Linear A was usually written left-to-right, but a handful of documents were written right-to-left or [[boustrophedon]].<ref name = "SalgarellaOverview"/>
+
+=== Signary ===
+{| class="wikitable mw-collapsible" style="text-align: right;"
+|+ Linear A: signary and numbering according to [[Emmett L. Bennett Jr.|Emmett Bennett]]<ref>Bennett, E. L. Jr., "Mycenaean Studies Proceedings of the Third  International Colloquium for Mycenaean Studies held at 'Wingspread', 4—8  September 1961", ed. Madison: University of Wisconsin Press, 1964</ref>
+
+|-
+
+! colspan="2" | *01–*20
+
+! colspan="2" | *21–*30
+
+! colspan="2" | *31–*53
+
+! colspan="2" | *54–*74
+
+! colspan="2" | *76–*122
+
+! colspan="2" | *123–*306
+
+|-
+
+| [[File:Linear A Sign A001.svg|class=skin-invert]]
+
+|
+''*01''
+
+| [[File:Linear A Sign A021.svg|class=skin-invert]]
+
+|
+''*21''
+
+| [[File:Linear A Sign A031.svg|class=skin-invert]]
+
+|
+''*31''
+
+| [[File:Linear A Sign A054.svg|class=skin-invert]]
+
+|
+''*54''
+
+| [[File:Linear A Sign A076.svg|class=skin-invert]]
+
+|
+''*76''
+
+| [[File:Linear A Sign A123.svg|class=skin-invert]]
+
+|
+''*123''
+
+|-
+
+| [[File:Linear A Sign A002.svg|class=skin-invert]]
+
+|
+''*02''
+
+| [[File:Linear A Sign A021f.svg|class=skin-invert]]
+
+|
+''*21''
+
+| [[File:Linear A Sign A034.svg|class=skin-invert]]
+
+|
+''*34''
+
+| [[File:Linear A Sign A055.svg|class=skin-invert]]
+
+|
+''*55''
+
+| [[File:Linear A Sign A077.svg|class=skin-invert]]
+
+|
+''*77''
+
+| [[File:Linear A Sign A131a.svg|class=skin-invert]]
+
+|
+''*131a''
+
+|-
+
+| [[File:Linear A Sign A003.svg|class=skin-invert]]
+
+|
+''*03''
+
+| [[File:Linear A Sign A021m.svg|class=skin-invert]]
+
+|
+''*21''
+
+| [[File:Linear A Sign A037.svg|class=skin-invert]]
+
+|
+''*37''
+
+| [[File:Linear A Sign A056.svg|class=skin-invert]]
+
+|
+''*56''
+
+| [[File:Linear A Sign A078.svg|class=skin-invert]]
+
+|
+''*78''
+
+| [[File:Linear A Sign A131b.svg|class=skin-invert]]
+
+|
+''*131b''
+
+|-
+
+| [[File:Linear A Sign A004.svg|class=skin-invert]]
+
+|
+''*04''
+
+| [[File:Linear A Sign A022.svg|class=skin-invert]]
+
+|
+''*22''
+
+| [[File:Linear A Sign A038.svg|class=skin-invert]]
+
+|
+''*38''
+
+| [[File:Linear A Sign A057.svg|class=skin-invert]]
+
+|
+''*57''
+
+| [[File:Linear A Sign A079.svg|class=skin-invert]]
+
+|
+''*79''
+
+| [[File:Linear A Sign A131c.svg|class=skin-invert]]
+
+|
+''*131c''
+
+|-
+
+| [[File:Linear A Sign A005.svg|class=skin-invert]]
+
+|
+''*05''
+
+| [[File:Linear A Sign A022f.svg|class=skin-invert]]
+
+|
+''*22''
+
+| [[File:Linear A Sign A039.svg|class=skin-invert]]
+
+|
+''*39''
+
+| [[File:Linear A Sign A058.svg|class=skin-invert]]
+
+|
+''*58''
+
+| [[File:Linear A Sign A080.svg|class=skin-invert]]
+
+|
+''*80''
+
+| [[File:Linear A Sign A164.svg|class=skin-invert]]
+
+|
+''*164''
+
+|-
+
+| [[File:Linear A Sign A006.svg|class=skin-invert]]
+
+|
+''*06''
+
+| [[File:Linear A Sign A022m.svg|class=skin-invert]]
+
+|
+''*22''
+
+| [[File:Linear A Sign A040.svg|class=skin-invert]]
+
+|
+''*40''
+
+| [[File:Linear A Sign A059.svg|class=skin-invert]]
+
+|
+''*59''
+
+| [[File:Linear A Sign A081.svg|class=skin-invert]]
+
+|
+''*81''
+
+| [[File:Linear A Sign A171.svg|class=skin-invert]]
+
+|
+''*171''
+
+|-
+
+| [[File:Linear A Sign A007.svg|class=skin-invert]]
+
+|
+''*07''
+
+| [[File:Linear A Sign A023.svg|class=skin-invert]]
+
+|
+''*23''
+
+| [[File:Linear A Sign A041.svg|class=skin-invert]]
+
+|
+''*41''
+
+| [[File:Linear A Sign A060.svg|class=skin-invert]]
+
+|
+''*60''
+
+| [[File:Linear A Sign A082.svg|class=skin-invert]]
+
+|
+''*82''
+
+| [[File:Linear A Sign A180.svg|class=skin-invert]]
+
+|
+''*180''
+
+|-
+
+| [[File:Linear A Sign A008.svg|class=skin-invert]]
+
+|
+''*08''
+
+| [[File:Linear A Sign A023m.svg|class=skin-invert]]
+
+|
+''*23''
+
+| [[File:Linear A Sign A044.svg|class=skin-invert]]
+
+|
+''*44''
+
+| [[File:Linear A Sign A061.svg|class=skin-invert]]
+
+|
+''*61''
+
+| [[File:Linear A Sign A085.svg|class=skin-invert]]
+
+|
+''*85''
+
+| [[File:Linear A Sign A188.svg|class=skin-invert]]
+
+|
+''*188''
+
+|-
+
+| [[File:Linear A Sign A009.svg|class=skin-invert]]
+
+|
+''*09''
+
+| [[File:Linear A Sign A024.svg|class=skin-invert]]
+
+|
+''*24''
+
+| [[File:Linear A Sign A045.svg|class=skin-invert]]
+
+|
+''*45''
+
+| [[File:Linear A Sign A065.svg|class=skin-invert]]
+
+|
+''*65''
+
+| [[File:Linear A Sign A086.svg|class=skin-invert]]
+
+|
+''*86''
+
+| [[File:Linear A Sign A191.svg|class=skin-invert]]
+
+|
+''*191''
+
+|-
+
+| [[File:Linear A Sign A010.svg|class=skin-invert]]
+
+|
+''*10''
+
+| [[File:Linear A Sign A026.svg|class=skin-invert]]
+
+|
+''*26''
+
+| [[File:Linear A Sign A046.svg|class=skin-invert]]
+
+|
+''*46''
+
+| [[File:Linear A Sign A066.svg|class=skin-invert]]
+
+|
+''*66''
+
+| [[File:Linear A Sign A087.svg|class=skin-invert]]
+
+|
+''*87''
+
+| [[File:Linear A Sign A301.svg|class=skin-invert]]
+
+|
+''*301''
+
+|-
+
+| [[File:Linear A Sign A011.svg|class=skin-invert]]
+
+|
+''*11''
+
+| [[File:Linear A Sign A027.svg|class=skin-invert]]
+
+|
+''*27''
+
+| [[File:Linear A Sign A047.svg|class=skin-invert]]
+
+|
+''*47''
+
+| [[File:Linear A Sign A067.svg|class=skin-invert]]
+
+|
+''*67''
+
+| [[File:Linear A Sign A100.svg|class=skin-invert]]
+
+|
+''*100/<br/>*102''
+
+| [[File:Linear A Sign A302.svg|class=skin-invert]]
+
+|
+''*302''
+
+|-
+
+| [[File:Linear A Sign A013.svg|class=skin-invert]]
+
+|
+''*13''
+
+| [[File:Linear A Sign A028.svg|class=skin-invert]]
+
+|
+''*28''
+
+| [[File:Linear A Sign A049.svg|class=skin-invert]]
+
+|
+''*49''
+
+| [[File:Linear A Sign A069.svg|class=skin-invert]]
+
+|
+''*69''
+
+| [[File:Linear A Sign A118.svg|class=skin-invert]]
+
+|
+''*118''
+
+| [[File:Linear A Sign A303.svg|class=skin-invert]]
+
+|
+''*303''
+
+|-
+
+| [[File:Linear A Sign A016.svg|class=skin-invert]]
+
+|
+''*16''
+
+| [[File:Linear A Sign A028b.svg|class=skin-invert]]
+
+|
+''*28b''
+
+| [[File:Linear A Sign A050.svg|class=skin-invert]]
+
+|
+''*50''
+
+| [[File:Linear A Sign A070.svg|class=skin-invert]]
+
+|
+''*70''
+
+| [[File:Linear A Sign A120.svg|class=skin-invert]]
+
+|
+''*120''
+
+| [[File:Linear A Sign A304.svg|class=skin-invert]]
+
+|
+''*304''
+
+|-
+
+| [[File:Linear A Sign A017.svg|class=skin-invert]]
+
+|
+''*17''
+
+| [[File:Linear A Sign A029.svg|class=skin-invert]]
+
+|
+''*29''
+
+| [[File:Linear A Sign A051.svg|class=skin-invert]]
+
+|
+''*51''
+
+| [[File:Linear A Sign A073.svg|class=skin-invert]]
+
+|
+''*73''
+
+| [[File:Linear A Sign A120b.svg|class=skin-invert]]
+
+|
+''*120b''
+
+| [[File:Linear A Sign A305.svg|class=skin-invert]]
+
+|
+''*305''
+
+|-
+
+| [[File:Linear A Sign A020.svg|class=skin-invert]]
+
+|
+''*20''
+
+| [[File:Linear A Sign A030.svg|class=skin-invert]]
+
+|
+''*30''
+
+| [[File:Linear A Sign A053.svg|class=skin-invert]]
+
+|
+''*53''
+
+| [[File:Linear A Sign A074.svg|class=skin-invert]]
+
+|
+''*74''
+
+| [[File:Linear A Sign A122.svg|class=skin-invert]]
+
+|
+''*122''
+
+| [[File:Linear A Sign A306.svg|class=skin-invert]]
+
+|
+''*306''
+
+|}
+
+=== Special signs ===
+Furthermore, the following ‘supplementary’ syllabograms for more complex syllables can be identified (where in some cases the exact pronunciation is or used to be unknown even for Linear B, hence the use of subscript numbers):
+{| class="wikitable mw-collapsible"
+! colspan="9" |'''Special signs'''
+|-
+!'''Character'''
+|𐘒[[File:Linear_A_Sign_A022.svg|class=skin-invert]]
+|𐙄[[File:Linear_A_Sign_A085.svg|class=skin-invert]] 
+|𐘩 
+|𐘰[[File:Linear_A_Sign_A056.svg|class=skin-invert]]
+|𐘜 [[File:Linear_A_Sign_A029.svg|class=skin-invert]]
+|𐘽 [[File:Linear_A_Sign_A123.svg|class=skin-invert]]
+|𐘷 [[File:Linear_A_Sign_A066.svg|class=skin-invert]]
+|𐙆[[File:Linear_A_Sign_A087.svg|class=skin-invert]] 
+|-
+!'''Transcription'''
+|''pi<sub>2</sub>''
+|''au''
+|''nwa''
+|''pa<sub>2</sub>''
+|''pu<sub>2</sub>''
+|''ra<sub>2</sub> (rya)''
+|''ta<sub>2</sub> (tya)''
+|''twe''
+|-
+!'''Bennett's number'''
+|''*22''
+|''*85''
+|''*48''
+|''*56''
+|''*29''
+|''*76''
+|''*66''
+|''*87''
+|}
+
+=== Ideograms ===
+The following list contains some frequent ideograms/logograms whose meaning is known and uncontroversial and almost all of which are preserved in Linear B.<ref>Younger, John. Linear A. 11. Ideograms/Logograms. [https://web.archive.org/web/20210415092941/http://www.people.ku.edu/~jyounger/LinearA/ Archived from the original]</ref><ref>{{Cite web|url=https://www.unicode.org/charts/PDF/U10600.pdf|title=Linear A. Range: 10600–1077F. The Unicode Standard, Version 15.1}}</ref> The meaning of many others is debated. Note that some of the ideograms are also used as syllabograms; in such cases, the sound value is indicated in the table before the Bennett number.
+{| class="wikitable mw-collapsible"
+!'''Glyph'''
+!'''Code point'''
+!'''Bennett'''
+!'''Conventional Latin name'''
+!'''meaning'''
+|-
+! colspan="5" |'''People and animals'''
+|-
+|𐙇[[File:Linear_A_Sign_A100.svg|class=skin-invert]]
+|U+10647
+|*100/102
+|'''VIR'''
+
+''vir'' 
+|person, man
+|-
+|𐘏[[File:Linear_A_Sign_A021.svg|class=skin-invert]]
+|U+1060F
+|''QI''
+
+<nowiki>*</nowiki>21
+|'''OVIS'''
+
+''ovis''
+|sheep
+|-
+|𐘐[[File:Linear_A_Sign_A021f.svg|class=skin-invert]]
+|U+10610
+|*21F
+|'''OVIS'''<sup>f</sup>
+|ewe
+|-
+|𐘑[[File:Linear_A_Sign_A021m.svg|class=skin-invert]]
+|U+10611
+|*21M
+|'''OVIS'''<sup>m</sup>
+|ram
+|-
+|𐘒[[File:Linear_A_Sign_A022.svg|class=skin-invert]]
+|U+10612
+|''PI<sub>2</sub>''
+
+<nowiki>*</nowiki>22
+|'''CAP'''
+
+''capra''
+|goat
+|-
+|𐘓[[File:Linear_A_Sign_A022f.svg|class=skin-invert]]
+|U+10613
+|*22F
+|'''CAP'''<sup>f</sup>
+|she-goat
+|-
+|𐘔[[File:Linear_A_Sign_A022m.svg|class=skin-invert]]
+|U+10614
+|*22M
+|'''CAP'''<sup>m</sup>
+|he-goat
+|-
+|𐙄[[File:Linear_A_Sign_A085.svg|class=skin-invert]]
+|U+10644
+|''AU''
+
+<nowiki>*</nowiki>85
+|'''SUS'''
+
+''sūs''
+|pig
+|-
+|𐘕[[File:Linear_A_Sign_A023.svg|class=skin-invert]]
+|U+10615
+|''MU''
+
+<nowiki>*</nowiki>23
+|'''BOS'''
+
+''bōs''
+|bovine
+|-
+|𐘖[[File:Linear_A_Sign_A023m.svg|class=skin-invert]]
+|U+10616
+|*23M
+|'''BOS'''<sup>m</sup>
+|ox/bull
+|-
+! colspan="5" |'''Dry products'''
+|-
+|𐙉[[File:Linear_A_Sign_A120.svg|class=skin-invert]]
+|U+10649
+|*120
+|'''GRA'''
+
+''grānum''
+|wheat
+|-
+|𐙊[[File:Linear_A_Sign_A120b.svg|class=skin-invert]]
+|U+1064A
+|*120B
+|'''GRA'''
+
+''grānum''
+|wheat
+|-
+|𐙋[[File:Linear_A_Sign_A122.svg|class=skin-invert]]
+|U+1064B
+|*122
+|'''OLIV'''
+
+''olīva''
+|[[olive]]s
+|-
+|𐘝[[File:Linear_A_Sign_A030.svg|class=skin-invert]]
+|U+1061D
+|''NI''
+
+<nowiki>*</nowiki>30
+|'''FIC'''
+
+''fīcus''
+|figs
+|-
+|𐙗[[File:Linear_A_Sign_A303.svg|class=skin-invert]]
+|U+10657
+|*303
+|'''CYP'''
+|[[Cyperus papyrus|cyperus]]
+|-
+|𐘮[[File:Linear_A_Sign_A054.svg|class=skin-invert]]
+|U+1062E
+|''WA''
+
+<nowiki>*</nowiki>54
+|'''TELA'''
+
+''tēla''
+|cloth
+|-
+! colspan="5" |'''Liquids'''
+|-
+|𐙖[[File:Linear_A_Sign_A302.svg|class=skin-invert]]
+|U+10095
+|*302
+|'''OLE'''
+
+''ŏlĕum''
+|[[oil]]
+|-
+|𐙍[[File:Linear_A_Sign_A131a.svg|class=skin-invert]]
+|U+1064D
+|*131A
+|'''VIN'''
+
+''vīnum''
+|wine
+|-
+|𐙎[[File:Linear_A_Sign_A131b.svg|class=skin-invert]]
+|U+1064E
+|*131B
+|'''VIN'''
+
+''vīnum''
+|wine
+|-
+|𐙏[[File:Linear_A_Sign_A131c.svg|class=skin-invert]]
+|U+1064F
+|*131C
+|'''VIN'''
+
+''vīnum''
+|wine
+|-
+! colspan="5" |'''Vessels'''
+|-
+|𐚠
+|U+106A0
+|*400-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚡
+|U+106A1
+|*401-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚢
+|U+106A2
+|*402-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚣
+|U+106A3
+|*403-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚤
+|U+106A4
+|*404-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚥
+|U+106A5
+|*405-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚦
+|U+106A6
+|*406-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚧
+|U+106A7
+|*407-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚨
+|U+106A8
+|*408-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚩
+|U+106A9
+|*409-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚪
+|U+106AA
+|*410-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚫
+|U+106AB
+|*411-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚬
+|U+106AC
+|*412-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚭
+|U+106AD
+|*413-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚮
+|U+106AE
+|*414-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚯
+|U+106AF
+|*415-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚰
+|U+106B0
+|*416-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚱
+|U+106B1
+|*417-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+|𐚲
+|U+106B2
+|*418-VAS
+|'''VAS'''
+
+''vās''
+|<nowiki>–</nowiki>
+|-
+! colspan="5" |'''Other'''
+|-
+|𐙔[[File:Linear_A_Sign_A191.svg|class=skin-invert]]
+|U+10654
+|*191
+|'''GAL'''
+
+''galea''
+|helmet
+|}
+
+== Numerals ==
+{{main|Aegean numerals}}
+
+These numerals follow a decimal system: units are represented by vertical dashes, tens by horizontal dashes, hundreds by circles, and thousands by circles with rays. There are special symbols to indicate fractions and weights. Specific signs that coincide with numerals are regarded as fractions;<ref>{{harvnb|Packard|1974|pages=23–24}}</ref> these sign combinations are known as ''[[klasmatograms]]''.<ref>{{cite journal |last1=Proust |first1=Christine |title=Numerical and Metrological Graphemes: From Cuneiform to Transliteration |journal=Cuneiform Digital Library Journal |date=22 June 2009 |url=https://cdli.mpiwg-berlin.mpg.de/articles/cdlj/2009-1 |access-date=23 January 2024}}</ref>
+
+Integers can be read and the operations of addition, subtraction, multiplication, and division are quite straightforward, similarly to [[Roman numerals]].<ref>{{cite journal |last1=Anderson |first1=W. French |title=Arithmetical Procedure in Minoan Linear A and in Minoan-Greek Linear B |journal=American Journal of Archaeology |date=1 July 1958 |volume=62 |issue=3 |pages=363–368 |doi=10.2307/501989 |jstor=501989 |s2cid=193020404 |url=https://www.journals.uchicago.edu/doi/pdf/10.2307/501989 |access-date= |language=en |issn=0002-9114|url-access=subscription }}</ref>
+
+{| class="wikitable mw-collapsible" style="text-align:center; "
+|+ Aegean numerals
+|-
+|1
+|2
+|3
+|4
+|5
+|6
+|7
+|8
+|9
+|-
+|[[File:Aegean numeral 1.svg|class=skin-invert|30px|frameless|1]]
+|[[File:Aegean numeral 2.svg|class=skin-invert|30px|frameless|2]]
+|[[File:Aegean numeral 3.svg|class=skin-invert|30px|frameless|3]]
+|[[File:Aegean numeral 4.svg|class=skin-invert|30px|frameless|4]]
+|[[File:Aegean numeral 5.svg|class=skin-invert|30px|frameless|5]]
+|[[File:Aegean numeral 6.svg|class=skin-invert|30px|frameless|6]]
+|[[File:Aegean numeral 7.svg|class=skin-invert|30px|frameless|7]]
+|[[File:Aegean numeral 8.svg|class=skin-invert|30px|frameless|8]]
+|[[File:Aegean numeral 9.svg|class=skin-invert|30px|frameless|9]]
+|- style="border-top: 2px solid rgba(0,0,0, .3);"
+|10
+|20
+|30
+|40
+|50
+|60
+|70
+|80
+|90
+|-
+|[[File:Aegean numeral 10.svg|class=skin-invert|30px|frameless|10]]
+|[[File:Aegean numeral 20.svg|class=skin-invert|30px|frameless|20]]
+|[[File:Aegean numeral 30.svg|class=skin-invert|30px|frameless|30]]
+|[[File:Aegean numeral 40.svg|class=skin-invert|30px|frameless|40]]
+|[[File:Aegean numeral 50.svg|class=skin-invert|30px|frameless|50]]
+|[[File:Aegean numeral 60.svg|class=skin-invert|30px|frameless|60]]
+|[[File:Aegean numeral 70.svg|class=skin-invert|30px|frameless|70]]
+|[[File:Aegean numeral 80.svg|class=skin-invert|30px|frameless|80]]
+|[[File:Aegean numeral 90.svg|class=skin-invert|30px|frameless|90]]
+|- style="border-top: 2px solid rgba(0,0,0, .3);"
+|100
+|200
+|300
+|400
+|500
+|600
+|700
+|800
+|900
+|-
+|[[File:Aegean numeral 100.svg|class=skin-invert|30px|frameless|100]]
+|[[File:Aegean numeral 200.svg|class=skin-invert|30px|frameless|200]]
+|[[File:Aegean numeral 300.svg|class=skin-invert|30px|frameless|300]]
+|[[File:Aegean numeral 400.svg|class=skin-invert|30px|frameless|400]]
+|[[File:Aegean numeral 500.svg|class=skin-invert|30px|frameless|500]]
+|[[File:Aegean numeral 600.svg|class=skin-invert|30px|frameless|600]]
+|[[File:Aegean numeral 700.svg|class=skin-invert|30px|frameless|700]]
+|[[File:Aegean numeral 800.svg|class=skin-invert|30px|frameless|800]]
+|[[File:Aegean numeral 900.svg|class=skin-invert|30px|frameless|900]]
+|}
+
+=== Fractions ===
+There is a lack of scholarly agreement about signs, generally called klasmatograms, for Linear A fractions.<ref>{{cite journal |last1=Billigmeier |first1=Jon C. |title=Linear A Fractions: A New Approach |journal=American Journal of Archaeology |date=1 October 1973 |volume=77 |issue=1 |pages=61–65 |doi=10.2307/503234 |jstor=503234 |s2cid=191382050 |url=https://www.journals.uchicago.edu/doi/pdf/10.2307/503234 |access-date= |language=en |issn=0002-9114|url-access=subscription }}</ref><ref>{{cite journal |last1=Bennett |first1=Emmett L. |title=Linear A fractional retractation |journal=Kadmos |date=1 January 1980 |volume=19 |issue=1 |pages=12–23 |doi=10.1515/kadmos-1980-0104 |s2cid=163961065 |url=https://www.degruyter.com/document/doi/10.1515/kadmos-1980-0104/html |access-date= | issn=0022-7498|url-access=subscription }}</ref><ref>{{cite journal |last1=Schrijver |first1=Peter |title=Fractions and food rations in Linear A |journal=Kadmos |date=1 July 2014 |volume=53 |issue=1–2 |pages=1–44 |doi=10.1515/kadmos-2014-0001 |s2cid=164932371 |url=https://www.degruyter.com/document/doi/10.1515/kadmos-2014-0001/html |access-date= |language= | issn=0022-7498 |url-access=subscription }}</ref><ref>Giulio Facchetti, "Linear A metrograms", Kadmos, vol. 33, no. 2, pp. 142–148, 1994</ref> In 2021 Corazza et al. proposed the following values, most of which had been previously suggested:<ref name="Corazza">{{cite journal |last1=Corazza |first1=Michele |last2=Ferrara |first2=Silvia |last3=Montecchi |first3=Barbara |last4=Tamburini |first4=Fabio |last5=Valério |first5=Miguel |title=The mathematical values of fraction signs in the Linear A script: A computational, statistical and typological approach |journal=Journal of Archaeological Science |date=2021 |volume=125 |pages=1–14 |article-number=105214 |doi=10.1016/j.jas.2020.105214|s2cid=225229514 |doi-access=free |bibcode=2021JArSc.125j5214C |hdl=11585/789546 |hdl-access=free }}</ref>
+
+{| class=wikitable style="text-align:center; "
+|+Proposed values of fraction glyphs<ref name=Corazza/>
+! Symbol !! Glyph !! Value
+|-
+| J ||[[File:LINEAR A SIGN A707 J.svg|class=skin-invert|40px]]|| {{frac|1|2}}
+|-
+| E ||[[File:LINEAR A SIGN A704 E.svg|class=skin-invert|40px]]|| {{frac|1|4}}
+|-
+| B ||[[File:LINEAR A SIGN A702 B.svg|class=skin-invert|40px]]|| {{frac|1|5}}
+|-
+| D ||[[File:LINEAR A SIGN A703 D.svg|class=skin-invert|40px]]|| {{frac|1|6}}
+|-
+| F ||[[File:LINEAR A SIGN A705 F.svg|class=skin-invert|40px]]|| {{frac|1|8}}
+|-
+| K |||[[File:LINEAR A SIGN A708 K.svg|class=skin-invert|40px]]|| {{frac|1|10}}
+|-
+| H ||[[File:LINEAR A SIGN A706 H.svg|class=skin-invert|40px]]|| {{frac|1|16}}?
+|-
+| L<sup>2</sup> ||[[File:LINEAR A SIGN A709-2 L2.svg|class=skin-invert|40px]]|| {{frac|1|20}}
+|-
+| A ||[[File:LINEAR A SIGN A701 A.svg|class=skin-invert|40px]]|| {{frac|1|24}}?
+|-
+| L<sup>3</sup> ||[[File:LINEAR A SIGN A709-3 L3.svg|class=skin-invert|40px]]|| {{frac|1|30}}
+|-
+| L<sup>4</sup> ||[[File:LINEAR A SIGN A709-4 L4.svg|class=skin-invert|40px]]|| {{frac|1|40}}
+|-
+| L<sup>6</sup> ||[[File:LINEAR A SIGN A709-6 L6.svg|class=skin-invert|40px]]|| {{frac|1|60}}
+|-
+| W ||[[File:LINEAR A SIGN A710 W.svg|class=skin-invert|40px]]|| = BB? ({{frac|2|5}})
+|-
+| X ||[[File:LINEAR A SIGN A711 X.svg|class=skin-invert|40px]]|| = AA? ({{frac|1|12}})
+|-
+| Y ||[[File:LINEAR A SIGN A712 Y.svg|class=skin-invert|40px]]|| ?
+|-
+| Ω ||[[File:LINEAR A SIGN A713 OMEGA.svg|class=skin-invert|40px]]|| ?
+|}
+
+Other fractions are composed by addition: the common JE and DD are {{frac|3|4}} and {{frac|1|3}} ({{frac|2|6}}), BB = {{frac|2|5}}, EF = {{frac|3|8}}, etc. (and indeed B {{frac|1|5}} looks as though it may derive from KK {{frac|2|10}}).  L, Y, and Ω are [[hapax legomena]] (only occur once) and it has been proposed that glyph L is spurious.<ref name="Corazza" />
+
+Several of these values are supported by Linear B. Although Linear B used a different numbering system, several of the Linear A fractions were adopted as fractional units of measurement. For example, Linear B DD and (presumably AA) are {{frac|1|3}} and {{frac|1|12}} of a ''lana'', while K is {{frac|1|10}} of the main unit for dry weight.<ref name=Corazza/>
+
+==Corpus==
+[[File:Chania Museum Linear-A-Inschrift 01.jpg|thumb|Linear&nbsp;A tablet, [[Chania Archaeological Museum]]]]
+
+The Linear A corpus consists of roughly 1400 inscriptions, amounting to 7400 sign tokens. An additional 1100 objects have been found with apparent Linear A inscriptions, but are not counted as part of the corpus because they are too poorly preserved to be readable. The readable corpus is notably smaller than those for other ancient writing systems such as [[cuneiform]] or the later [[Linear B]], a fact that has hindered decipherment attempts. As observed by archaeologist John Younger, the entire Linear A corpus takes up only 1.84 pages of letter paper when typeset in 12 point font and 1-inch margins.<ref name="Salgarella2025">{{cite book |last=Salgarella |first=Ester|year=2025 |title=Writing in Bronze Age Crete: "Minoan" Linear A|publisher=Cambridge University Press |isbn=9781009520027}}</ref>{{rp|13}}
+
+Linear A has been found chiefly on [[Crete]] and the Aegean islands, but some also at some mainland Greek sites such as [[Mycenae]] and [[Argos, Peloponnese|Argos]] and at [[Miletus]] in Western Anatolia. Inscriptions found at [[Troy]] and [[Tel Haror]] may be Linear A, but are too fragmentary for definitive classification. Roughly half of the known inscriptions were found at the site of [[Hagia Triada]] in southern Crete, which has yielded 1269 Linear A objects with Linear A writing. An additional 595 come from the eastern Cretan site of [[Zakros]], 313 from [[Khania]], 65 from Phaistos, 32 from Knossos, 23 from [[Palaikastro]], with all other sites yielding less than 20.<ref name="Salgarella2025"/>{{rp|11–15}}
+
+[[File:Βασιλική_έπαυλη_Αγίας_Τριάδας_2414.jpg|thumb|The Minoan site of [[Hagia Triada]], where roughly half of the known Linear A inscriptions were excavated.]]
+
+Linear A texts often come from administrative contexts such as [[Minoan palaces]], though the script was also widely used for other functions such as inscriptions on ritual objects.<ref name="Salgarella2025"/>{{rp|14}} Linear&nbsp;A was written on various media, such as clay tablets, stone offering tables and vessels, gold and silver hairpins, roundels, and pottery.<ref name="Winterstein2015" >{{cite journal |last1=Winterstein |first1=Gregoire |last2=Cacciafoco |first2=Francesco Perono |last3=Petrolito |first3=Ruggero |last4=Petrolito |first4=Tommaso |title=Minoan linguistic resources: The Linear&nbsp;A digital corpus |url=https://www.academia.edu/14641910 |journal=Proceedings of the 9th&nbsp;SIGHUM Workshop on Language Technology for Cultural Heritage, Social Sciences, and Humanities (LaTeCH) |year=2015 |via=Academia.edu}}</ref><ref>Brent Davis, Minoan Stone Vessels with Linear A Inscriptions. AEGAEUM, 36. Leuven; Liège: Peeters, 2014. xxiv, 421. {{ISBN|9789042930971}}</ref>
+
+The first comprehensive compendium of Linear A inscriptions sometimes referred to as GORILA (from Godart Olivier Recueil des inscriptions en lineaire A) was produced by [[Louis Godart]] and [[Jean-Pierre Olivier]] in multiple volumes between 1976 and 1985.<ref>Godart, L. and Olivier, J.-P., "Recueil des inscriptions en lineaire A, vol. 1: Tablettes editees avant 1970", Paris, 1976</ref><ref>Godart, L. and Olivier, J.-P., "Recueil des inscriptions en lineaire A, vol. 2: Nodules, scelles et rondelles  edites avant 1970", Paris, 1979</ref><ref>Godart, L. and Olivier, J.-P., "Recueil des inscriptions en lineaire A, vol. 3: Tablettes, nodules et rondelles edites en 1975 et 1976", Paris, 1976</ref><ref>Godart, L. and Olivier, J.-P., "Recueil des inscriptions en lineaire A, vol. 4: Autres documents", Paris, 1982</ref><ref>Godart, L. and Olivier, J.-P., "Recueil des inscriptions en lineaire A, vol. 5: Addenda, corrigenda, concordances, index et planches des signes", Paris, 1985</ref> In 2011 work began on a supplement to that compendium.<ref>[https://www.persee.fr/doc/bch_0007-4217_2011_num_135_1_7827] Del Freo M. and Zurbach J., "La préparation d’un supplément au Recueil des inscriptions en linéaire A. Observations à partir d’un travail en cours", BCH 135.1, pp. 73–97, 2011</ref> In 2020 a project was begun, called [https://sigla.phis.me/index.html SigLA], to put all the known Linear A inscriptions online at a single site.<ref>[https://sigla.phis.me/paper.pdf] Ester Salgarella and Simon Castellan, "SigLA The Signs of Linear A: a palæographical database", August 20, 2020</ref>
+
+===Tablets===
+[[File:Sitia Museum Linear A 02.jpg|thumb|Linear&nbsp;A tablet from the palace of [[Zakros]], Archeological Museum of [[Sitia]]]]
+Almost all Linear A tablets, most in a fragmentary condition, have been found on the island of Crete, dated to the [[Neopalatial Period]]. At that time Crete was divided by mountains and other geographic features into a number of polities, each with its own urban center.<ref>E Kyriakidis, "Undeciphered tablets and undeciphered territories: A comparison of late minoan IB archives", Proceedings of the Cambridge Philological Society, no. 49, pp. 118–29, 2003,</ref> These tablets have been found at [[Hagia Triada]] (147 tablets), [[Petras]] (2 tablets), [[Phaistos]] (26 tablets), [[Knossos]] (6 tablets), [[Archanes]] (7 tablets), [[Myrtos Pyrgos]] (2 tablets), [[Palaikastro]] (2 tablets), [[Zakros]] (31 tablets), [[Tylissos]] (2 tablets), [[Malia (archaeological site)|Malia]] (6 tablets), [[Gournia]] (1 tablet), and [[Kydonia|Khania]] (99 tablets).<ref>Gallimore, S., and K.T. Glowacki. “Stratigraphic Excavations within the Gournia Palace 2011-2014.” [Abstract]. Archaeological Institute of America 119th Annual Meeting of the Archaeological Institute of America Volume 41 (2017), 345. Boston: Archaeological Institute of America</ref><ref name="Salgarella2019">{{Cite journal |last=Salgarella |first=Ester |date=1 April 2019 |title=Drawing lines: The palaeography of Linear A and Linear B |url=https://www.degruyter.com/document/doi/10.1515/kadmos-2019-0004/html |journal=Kadmos |language=en |volume=58 |issue=1–2 |pages=61–92 |doi=10.1515/kadmos-2019-0004 |issn=1613-0723|url-access=subscription }}</ref><ref>{{cite journal |last1=Hallager |first1=Erik |last2=Andreadaki-Vlazaki |first2=Maria |title=Some unpublished Linear A documents from Khania |journal=Kadmos |date=1 July 2018 |volume=57 |issue=1–2 |pages=33–44 |doi=10.1515/kadmos-2018-0004 |s2cid=204963634 |url=https://www.degruyter.com/document/doi/10.1515/kadmos-2018-0004/html |access-date= |language=  | issn=0022-7498|url-access=subscription }}</ref>{{sfn|Schoep|1999|pp=201–221}}<ref>Anna Morpurgo-Davies, Gerald Cadogan, "A second Linear A tablet from Pyrgos" Kadmos, vol. 16, no. 1, pp. 7–9, 1977</ref> One Linear&nbsp;A tablet was found on [[Kea (island)|Kea]] in the [[Cyclades]].<ref name="Finkelberg">{{harvnb|Finkelberg|1998|pp=265–272}}.</ref> Three tablet fragments were found on the island of [[Santorini]] (Thera).<ref name="Bennett1999" >Bennett, Simon M. and Owens, Gareth A., "The Dating of the Linear A Inscriptions from Thera", Kadmos, vol. 38, no. 1–2, pp. 12–18, 1999</ref> The handful of known [[Cretan Hieroglyphs]] tablets (with relatively few signs) were also found on Crete at Malia and [[Kato Simi|Kato Symi]].<ref>A. Lembessi, P. Muhly, and J.-P. Olivier, "An Inscription in the Hieroglyphic Script from the Syme Sanctuary, Crete (Sy Hf 01)" Kadmos, vol. 34, no. 1, pp. 63–77, 1995</ref>
+
+===Sealed documents===
+Seals and clay sealings served the same role of inventory control and ownership as in the ancient Near East and Egypt. Large numbers of sealings have been found, primarily on Crete and in the Late Minoan IB period. The primary sources of sealed documents come from Haghia Triada (1103), Zakros (560), Khania (210), Knossos (125), Phaistos (35), [[Malia (archaeological site)|Malia]] (6), and Tylissos (5).<ref>{{cite journal |last=Schoep |first=Ilse |title=Tablets and Territories? Reconstructing Late Minoan IB Political Geography through Undeciphered Documents |journal=[[American Journal of Archaeology]] |volume=103 |number=2 |pages=201–221 |year=1999 |jstor=506745 |doi=10.2307/506745|s2cid=155632843 | issn=0002-9114  }}</ref><ref>Weingarten, Judith, "Seal-use at LM IΒ Ayia Triada: a Minoan elite in action I. Administrative considerations", Kadmos 26.1, pp. 1–43, 1987</ref><ref>Massimo Perna, "The Roundels of Haghia Triada", Kadmos, 33, pp. 93–141 1994</ref> It is not clear what was commonly used to impress the sealing as only a few Linear A inscribed "[[Stamp seal|seal stones]]" have been found. In other regions cylinder seals and stamp seals fulfilled this role.<ref>{{cite journal |last1=Civitillo |first1=Matilde |title=Comparing Cretan Hieroglyphic and Linear A seal stones: a preliminary assessment of forms, materials, sequences, uses |journal=Ariadne Supplement Series |date=2023 |url=https://iris.unicampania.it/handle/11591/490030 |access-date= |issn=2623-4726}}</ref>
+
+Sealed documents are divided by archaeologists into four classes:<ref name="Salgarella2019" />
+*Roundels – disks of clay with sealing on the edges<ref>Erik Hallager, ''The Minoan Roundel and Other Sealed Documents in the Neopalatial Linear A Administration'', Peeters Publishers, 31 Dec 1996 {{ISBN|9789042924130}}</ref>
+*Hanging nodules – sealed lumps of clay originally attached to string<ref>[https://tidsskrift.dk/MoDIA/article/download/127043/173380] Tsipopoulou, Metaxia, and Erik Hallager, "The nodules and their types-definitions and discussions", ''Monographs of the Danish Institute at Athens'' (''MoDIA'') 9, pp. 182–194, 2010</ref>
+*Parcel nodules – lumps of clay with sealing on back
+*Noduli – clay lumps like hanging nodules but not formerly string attached
+
+===Libation tables===
+
+[[File:PS_Za_2.png|thumb|A partially preserved libation table from Psykhro.]]
+
+A group of Minoan finds, usually from sanctuaries, have traditionally been called libation tables. They come in full sized and miniature versions, usually of stone. Because of the findspots, at cultic sites like [[Mount Juktas]], they are usually assumed to be religious in nature though that is not certain.<ref>Metaxa-Muhly, Polymnia, "Linear A inscriptions from the Sanctuary of Hermes and Aphrodite at Kato Syme", Kadmos, vol. 23, no. 1–2, pp. 124–135, 1984</ref> So far about 1000 libation tables have been recovered at 27 different sites on Crete, of which 41 have Linear A inscriptions.<ref name="Monti2022" >Monti, Orazio, "Some observations on the language of Linear A", Kadmos, vol. 61, no. 1–2, pp. 107–116, 2022</ref><ref>Driessen, Jan, "A fragmentary linear a inscription from petsophas, palaikastro (pk za 20)", Kadmos, vol. 33, no. 2, pp. 149–152, 1994</ref><ref>C. Davaras and W. C. Brice, "A Fragment of a Libation Table Inscribed in Linear A from Vrysinas", Kadmos, vol. 16, no. 1, pp. 5–6, 1977</ref> These inscriptions follow a standardized "libation formula", a formula also found on a few other objects, primarily vessels.<ref>Platon, Nikolas, "Inscribed libation vessel from a Minoan house at [[Prassa]], Heraklion", Minoica: Festschrift zum 80. Geburtstag von Johannes Sundwall, edited by Ernst Grumach, Berlin, Boston: De Gruyter, pp. 305–318, 1958</ref><ref>Davaras, Costis, "Three New Linear A Libation Vessel Fragments from Petsophas", Kadmos, vol. 20, no. 1–2, 1981, pp. 1–6, 1981</ref><ref>Stylianos Alexiou, W. Brice, "A Silver Pin from Platanos with an inscription in Linear A: Her. Mus. 498". Kadmos, vol. 15, no. 1, pp. 18–27, 1976</ref><ref>Leinwand, Nancy Westneat, "A Ladle from Shaft Grave III at Mycenae", American Journal of Archaeology, vol. 84, no. 4, pp. 519–21, 1980</ref>
+
+The "libation formula" has been much studied.<ref>W. C. Brice, "The Minoan “Libation Formula”", Bulletin of the John Rylands Library, 48.1 (1965)</ref><ref name="auto">{{cite journal |last1=Thomas |first1=Rose |title=Some reflections on morphology in the language of the Linear A libation formula |journal=Kadmos |date=1 December 2020 |volume=59 |issue=1–2 |pages=1–23 |doi=10.1515/kadmos-2020-0001 |s2cid=235451899 |url=https://www.finnishsyntax.co.uk/wp-content/uploads/sites/3/2022/01/Reflections_on_Morphology_in_the_Language_of_the_Linear_A_Libation_Formula.pdf |access-date= | issn=0022-7498 }}</ref> A similar construct in [[Cretan Hieroglyphs]], the "Archanes Formula", is the main proposed link to Linear&nbsp;A.<ref>{{cite journal |last1=Ferrara |first1=Silvia |last2=Montecchi |first2=Barbara |last3=Valério |first3=Miguel |title=What is the 'Archanes Formula'? Deconstructing and Reconstructing the Earliest Attestation of Writing in the Aegean |journal=Annual of the British School at Athens |date=December 2021 |volume=116 |pages=43–62 |doi=10.1017/S0068245420000155 |hdl=11585/833390 |s2cid=236307210 |url=https://flore.unifi.it/handle/2158/1265257 |access-date= |language=en |issn=0068-2454|hdl-access=free }}</ref>
+
+===Other sources===
+[[File:Prähistorisches Museum Thira Linearschrift A 06.jpg|thumb|Linear A inscription at the Museum of Prehistory, in Thera]]
+[[File:Minoan Labrys1.jpg|thumb|right|Minoan gold votive double axe or [[labrys]], less than 4 inches tall. On the left blade is an inscription in Linear A, possibly an invocation to the goddess [[Demeter]].<ref>{{cite web |url=https://collections.mfa.org/objects/150472/votive-double-ax |website=Museum of Fine Arts Boston |title=Votive double ax}}</ref><ref>{{cite book |last1=MacGillivray |first1=Joseph |url=https://www.academia.edu/2143502 |title=Athanasia. The Earthly, the Celestial and the Underworld in the Mediterranean from the Late Bronze and Early Iron Age. N. Ch. Stampolidis, A. Kanta and A. Giannikouri (eds.) |date=2012 |publisher=MEDITERRANEAN ARCHAEOLOGICAL SOCIETY |isbn=978-960-7143-40-2 |chapter=The Minoan Double Axe Goddess and Her Astral Realm}}</ref>|257x257px]]
+While most of the recovered Linear A signs have come from tablets, sealed documents, libation tables and related ritual objects, a number of very short Linear A inscriptions have been found in the Minoan area of operation, primarily in the form of potmarks and [[mason's mark]]s.<ref>Militello P.M., "Management, power and non-literate communication in Prepalatial and Palatial Messara", in A. M. Jasink – J. Weingarten – S. Ferrara (a cura di), Non-scribal Communication Media in the Bronze Age Aegean and Surrounding Areas. The semantics of a-literate and proto-literate media, Firenze, pp. 55–72, 2017</ref> A problem is that it can be difficult to tell if a single-sign (or even doubleton) is Linear A, [[Linear B]], or [[Cretan Hieroglyphs]] because of the overlap in sign use.<ref>[https://amsdottorato.unibo.it/11010/1/Santamaria_Andrea_Tesi.pdf] Santamaria, Andrea, "From images to signs: Cretan Hieroglyphic and Linear A in context." (2023, Dissertation, Università di Bologna, 2023</ref><ref>Owens, Gareth A., "The Common Origin of Cretan Hieroglyphs and Linear A", Kadmos, vol. 35, no. 2, pp. 105–110, 1996</ref> Vessel sherds were found at [[Traostalos]], bearing three signs in total.<ref>Davaras, Costis, "Three sherds inscribed in Linear A, from Traostalos", Kadmos, vol. 13, no. 2, pp. 167–168, 1974</ref> Four vase sherds were found at Thera with signs, as well as a [[ostrakon]] with one sign.<ref name="Bennett1999" /> A vessel fragment was found at [[Miletus]].<ref>Niemeier, Wolf-Dietrich, "A Linear A Inscription from Miletus (MIL Zb 1)", Kadmos, vol. 35, no. 2, pp. 87–99, 1996</ref> Two pithoi with very fragmentary inscriptions were found at [[Pseira]].<ref>Floyd, Cheryl R., "Fragments from two pithoi with Linear A inscriptions from Pseira", Kadmos, vol. 34, no. 1, pp. 39–48, 1995</ref> Graffiti has been found at places like Hagia Triada.<ref>Cameron, Mark A. S., "Four Fragments of Wall Paintings with Linear A Inscriptions", Kadmos, vol. 4, no. 1, 1965, pp. 7–15</ref> A small clay ball with three Linear A signs was found at Mikro Vouni on the island of [[Samothrace]].<ref>D. Matsas, "Samothrace and the Northeastern Aegean: The Minoan Connection", Studia Troica 1, pp. 159–179, 1991</ref> A small stone tab with two signs was excavated in Ayios Stephanos, [[Laconia]].<ref>Janko, R., "A stone object inscribed in Linear A from Ayos Stephanos, Laconia", Kadmos 21, pp. 97-100, 1982</ref><ref>R. Janko, "The Linear A Inscription", in Ayios Stephanos: Excavations at a Bronze Age and Medieval Settlement in Southern Laconia, The British School at Athens. Supplementary Volumes, no. 44, pp. 441–443, 2008</ref> A silver hair pin and a gold ring, both with fairly long Linear A inscriptions, were found at Mavro Spelio in Knossos.<ref>Alexiou Stylianos and Brice William C., "A Silver Pin from Mavro Spelio with an Inscription in Linear A: Her. Mus. 540", Kadmos, vol. 11, no. 2, pp. 113–124, 1972</ref><ref name="Cacciafoco">{{cite report |type=slides |last1=Cacciafoco |first1=Francesco Perono |title=Linear&nbsp;A and Minoan. The riddle of unknown origins |date=January 2014 |url=https://www.academia.edu/8107092 |access-date=13 July 2020 |via=Academia.edu |archive-date=26 March 2023 |archive-url=https://web.archive.org/web/20230326030757/https://www.academia.edu/8107092 |url-status=dead }}</ref><ref>{{cite journal |last=Pullen |first=Daniel J. |title=[Review of] W.D. Taylour & R. Janko, ''Ayios Stephanos: Excavations at a Bronze Age and Medieval Settlement in Southern Laconia''. British School at Athens, 2008 |url=http://bmcr.brynmawr.edu/2009/2009.09.08/|journal=Bryn Mawr Classical Review |year=2009}}</ref> At [[Armenoi (archaeological site)|Armenoi]] a stone amulet was found in a tholos grave from the Linear Minoan IB period inscribed with a combination of two Linear A ideograms.<ref>[https://adsabs.harvard.edu/pdf/1992JHAS...23...43P] Papathanassiou, Maria, Michael Hoskin, and Helen Papadopoulou, "Orientations of tombs in the Late-Minoan cemetery at Armenoi, Crete", Journal for the History of Astronomy 23.17, pp. S43-S55, 1992</ref>
+
+A Linear&nbsp;A inscription was said to have been found in southeast Bulgaria.<ref>Fol, Alexander, Schmitt, Sofia and Schmitt, Rüdiger. "A Linear A Text on a Clay Reel from Drama, South-East Bulgaria?", Praehistorische Zeitschrift, vol. 75, no. 1, 2000, pp. 56–62</ref> Another, somewhat more solid, find was at [[Tel Lachish]].<ref>Finkelberg et al.  1996: M. Finkelberg/A. Uchitel/D. Ussishkin, A Linear A Inscription from Tel Lachish (LACH Za 1). TelAviv 23, 1996, 195–207</ref> A Minoan [[Graffito (archaeology)|graffito]] found at [[Tel Haror]] on a vessel fragment is either Linear&nbsp;A or [[Cretan hieroglyphs]].<ref>Olivier, Jean-Pierre. "A Minoan graffito from Tel Haror (Negev, Israel)." Cretan studies 5 (1996): 98–109</ref>
+Several tablets inscribed in signs similar to Linear&nbsp;A were found at [[Troy]] in northwestern Anatolia. While their status is disputed, they may be imports, as there is no evidence of Minoan presence in the Troad. Classification of these signs as a unique [[Trojan script]] (proposed by contemporary Russian linguist [[Nikolai Kazansky]]) is not accepted by other linguists.<ref>{{Cite book |last1=Schliemann |first1=Heinrich |url=http://archive.org/details/troyitsremainsna00schl |title=Troy and its remains; a narrative of researches and discoveries made on the site of Ilium, and in the Trojan plain |last2=Smith |first2=Philip |last3=Schmitz |first3=L. Dora |date=1875 |publisher=London, J. Murray |others=Princeton Theological Seminary Library |pages=23–24 |language=en}}</ref><ref>{{Cite encyclopedia |year=1984 |url=http://www.kladina.narod.ru/kazanskiy/kazanskiy.htm |last=Kazansky |first=NN. |editor-last=Bernstein |editor-first=S.B. |language=ru |script-title=ru:Троянское письмо: к постановке вопроса |editor2-last=Gindin |editor2-first=L.A. |editor3-last=Golubtsova |editor3-first=E.S. |editor4-last=I.A. |editor5-last=Orel |editor5-first=V.E.)}}</ref> Two Linear A inscribed clay spindle whorls were also found at Troy.<ref>L. Godart,  La  scrittura  di  Troia.   Rendicontidella  Classe di scienze  morali, storiche e filologiche  dell'Ac-cademia Nazionale dei Lincei,  Ser. IX, 5,  1994, pp. 457–460, 1994</ref>
+
+A rescue excavation in the modern village of Knossos produced what is described as the longest known Linear A inscription.
+The object is a "sceptre" made out of elephant ivory with a handle and a ring. The ivory is inscribed with
+Linear A characters and other images. The excavators described it as the "first Linear A economic document coming from a cult building". Found in a number of fragments which had to be joined and some of the surfaces have been degraded by time.<ref>[https://ejournals.lib.uoc.gr/Ariadne/article/download/1841/1751] Kanta, Athanasia, et al, "An archaeological and epigraphical overview of some inscriptions found in the Cult Center of the city of Knossos (Anetaki plot)", Ariadne, pp. 27-43, 2025</ref>
+
+==Chronology==
+{{see also|Minoan chronology}}
+
+Linear A was in use from roughly 1800&nbsp;BC to 1450 BC, spanning the periods known as Middle Minoan II to Late Minoan IB.<ref name="Salgarella2025"/>{{rp|7}} The origin of the script is unclear. It has been hypothesized that Linear A is a daughter script of [[Cretan hieroglyphs|Cretan Hieroglyphic]], which appears somewhat earlier in the surviving record and was eventually replaced by it. However, the two scripts remained in use alongside one another for much of the Middle Minoan period, with Cretan hieroglyphs favored at sites on the northern coast such as Knossos, and Linear A spreading outward from southern sites such as Phaistos. A number of early inscriptions could be read either as Cretan hieroglyphic or as an early form of Linear A.<ref name="Salgarella2025"/>{{rp|7–10}}
+
+During the Late Minoan I period (c. 1700&nbsp;BC to 1450 BC), Linear A became the chief Minoan script, replacing Cretan hieroglyphic throughout Crete.<ref name="Salgarella2025"/>{{rp|7–8}} During this period, the related [[Cypro-Minoan syllabary]] appears on Cyprus and at sites with trading links to Cyprus.<ref>Valério, Miguel, "Linear A du and Cypriot su: a Case of Diachronic Acrophony?", Kadmos, vol. 47, no. 1–2, pp. 57–66, 2009</ref> Much of the surviving Linear A corpus comes from the final decades of the Late Minoan IB period, when fiery destructions of Minoan towns and administrative centers baked clay tablets that would otherwise have been erased and reused, inadvertently preserving them for posterity.<ref name="Salgarella2025"/>{{rp|10}}
+
+The Late Minoan IB destructions (c. 1450 BC) brought about the end of the Neopalatial Minoan social order, and Linear A was never again used for administration. After a gap of 50–75 years, a new administrative system arose which instead used [[Linear B]], an adaptation of Linear A used to write the [[Mycenaean Greek]] language. However, there are scattered examples of later Linear A writing in non-administrative contexts such as painted inscriptions on cups and figurines, attesting to some amount of continuity between the two writing systems.<ref name="Salgarella2025"/>{{rp|10–11}}
+
+The sequence and the geographical spread of Cretan hieroglyphs, Linear&nbsp;A, and Linear&nbsp;B, the three overlapping but distinct writing systems on Bronze Age Crete and the [[Greek mainland]], can be summarized as follows:<ref name="Olivier">{{harvnb|Olivier|1986|pp=377f.}}</ref>
+
+{| class="wikitable sortable"
+|-  style="text-align:left; vertical-align:top;" "
+! Writing system
+! Geographical area
+! Time span
+|-
+|[[Cretan hieroglyphs|Cretan Hieroglyphic]]
+|[[Crete]], [[Samothrace]]
+|{{nowrap|c. 2100–1700&nbsp;BC}}
+|-
+|Linear A
+|Crete, [[Aegean islands]] ([[Kea (island)|Kea]], [[Kythera]], [[Melos]], [[Santorini|Thera]]), and Greek mainland ([[Laconia]])
+|{{nowrap|c. 1800–1450&nbsp;BC}}
+|-
+|[[Cypro-Minoan syllabary|Cypro-Minoan]]
+|[[Cyprus (island)|Cyprus]] and trading partners, [[Ugarit]]
+|{{nowrap|c. 1550–1050 BC}}
+|-
+|[[Linear B]]
+|Crete ([[Knossos]]), and mainland ([[Pylos]], [[Mycenae]], [[Ancient Thebes (Boeotia)|Thebes]], [[Tiryns]])
+|{{nowrap|c. 1450–1200&nbsp;BC}}
+|}
+
+==Decipherment==
+
+Linear A has not been fully deciphered. However, researchers are reasonably confident in the approximate sound values of most syllabic signs and are able to make inferences about the meanings of some texts;<ref name = "SalgarellaOverview" /><ref name="TomasHandbook"/> the language thus is sometimes described as "partially deciphered".<ref name="SalgAeon"/>
+
+=== Challenges to decipherment ===
+
+[[File:Minoan_Linear_A%2C_Crete%2C_AMH%2C_145105.jpg|thumb|Linear A inscriptions are often brief, fragmentary, and hard to read.]]
+
+One major barrier to its decipherment is the limited surviving [[text corpus|corpus]]. Only around 1400 Linear A inscriptions survive, in contrast to the 6000 available for Linear B. As a result, researchers are stuck with limited [[sample size]]s, making it difficult to reliably detect patterns.<ref name = "SalgarellaOverview" /><ref name="TomasHandbook"/><ref name="SalgAeon">{{cite magazine |last=Salgarella |first=Ester |date=17 June 2022 |title=Cracking the Cretan code |url=https://aeon.co/essays/without-a-rosetta-stone-can-linguists-decipher-minoan-script |magazine=Aeon|access-date=7 March 2024}}</ref> Similarly, Linear A inscriptions are often fragmentary, damaged, or otherwise hard to read. It can be difficult to individuate particular signs and to distinguish separate signs from handwriting variants.<ref name = "SalgarellaOverview" /><ref name="TomasHandbook"/><ref name="SalgAeon" /> Finally, Linear A inscriptions tend to be brief and repetitive. Rather than complete sentences, many are lists where each entry consists of a toponym or personal name followed by a logogram and then a numeral. Thus, the surviving corpus contains few spelled-out words and limited evidence of the grammatical structure.<ref name = "SalgarellaOverview" /><ref name="TomasHandbook"/><ref name="Winterstein2015" />
+
+A second barrier is the scarcity of external evidence. No [[Multilingual inscription|bilingual inscription]]s have been found, preventing the script from being deciphered in the manner that [[Egyptian hieroglyphs]] were deciphered using the [[Rosetta Stone]].<ref name = "SalgarellaOverview" /><ref name="TomasHandbook"/> The underlying language of Linear A has not been determined, and it is not clear that the same language was used for its entire period of use. The grammatical evidence that can be gleaned from the surviving corpus suggests that it was not a close relative of any known language.<ref name = "SalgarellaOverview"/><ref name="TomasHandbook"/>
+
+=== Phonetic values ===
+
+[[File:HT_86a.png|thumb|This Linear A tablet from [[Hagia Triada]] contains several sign sequences that appear to correspond to personal names attested in later Linear B texts.<ref>{{cite encyclopedia |title=From Linear B to Linear A: The problem of the backward projection of sound values |encyclopedia=Understanding Relations Between Scripts: The Aegean Writing Systems |year=2017 |last1=Steele |first1=Philippa|last2=Meißner|first2=Torsten |editor-last=Steele |editor-first=Philippa |publisher=Oxbow Books |url=https://crewsproject.wordpress.com/wp-content/uploads/2020/07/chapter-6.pdf |page=101}}</ref>]]
+
+For most of Linear A's syllabic signs, approximate sound values can be inferred based on the values of corresponding signs in Linear B. These sound values are widely accepted by current researchers, though they are not considered incontrovertible and many details remain up for debate. This does not amount to a complete decipherment, since it results in words that are uninterpretable.<ref name = "SalgarellaOverview"/><ref name="TomasHandbook"/><ref>[https://api.repository.cam.ac.uk/server/api/core/bitstreams/7e3a97dd-5ae9-46e3-bab5-fdd644e45bec/content] Meissner, T., & Steele, P., "Linear A and Linear B: Structural and contextual concerns", Edizioni Consiglio Nazionale delle Ricerche, 2017</ref><ref name="SalgAeon" />
+
+These values are based on the ''homomorphy-homophony principle'' which states that in related writing systems, signs with similar forms will generally have similar phonetic values. Although this principle is not reliable across the board, there are a number of reasons why scholars have concluded that it does generally hold between Linear A and Linear B.<ref name="Salgarella2020">{{cite book |last=Salgarella |first=Ester |year=2020 |title=Aegean Linear Script(s): Rethinking the Relationship between Linear A and Linear B |publisher=Cambridge University Press |isbn=978-1-108-47938-7}}</ref>{{rp|6–7}}
+
+One reason is that it is already known to hold in many cases between Linear B and the [[Cypriot syllabary]], another script which descends from Linear A. This fact is taken as evidence that these signs were inherited by both scripts along with their Linear A phonetic values. For example, the Linear B 𐀮 and Cypriot 𐠩 both have the sound value "se", suggesting that the homomorphic Linear A sign 𐘈 had the same sound value. Similarly, since Linear B 𐀞 and Cypriot 𐠞 were both pronounced "pa", the homomorphic Linear A sign 𐘂 is likely to have had a similar pronunciation. Among the core syllabic signs, roughly 10 show clear signs of such parallels across the scripts, though additional correspondences have been proposed on the basis of less secure paleographic evidence.<ref name="Steele2024">{{cite book|last1=Steele|first1=Philippa|author-link=Philippa M. Steele|title=Exploring Writing Systems and Practices in the Bronze Age Aegean|date=2024|url=https://crewsproject.wordpress.com/wp-content/uploads/2023/10/steele-2023.pdf|publisher=Oxbow Books |isbn=978-1-78925-902-5}}</ref>{{rp|6, 8, 10}}<ref name="Salgarella2020"/>{{rp|33–35}}
+
+Another reason is that many Linear B sign sequences that denote toponyms and personal names appear in Linear A documents as well. This fact would be explained if these sign sequences were pronounced similarly. For example, the Linear A toponym {{lang|omn|𐘂𐘚𐘄}} would be read as {{lang|omn-Latn|pa-i-to}}, corresponding to the placename [[Phaistos]] attested in Linear B as {{lang|gmy|𐀞𐀂𐀵}} {{transliteration|gmy|Pa-i-to}}. Similar instances have been found for Linear A toponyms such as {{lang|omn|𐘈𐘄𐘚𐘱}} ({{lang|omn-Latn|SE-TO-I-JA}}) and {{lang|omn|𐘲𐘸𐘭𐘳|}} ({{lang|omn-Latn|SU-KI-RI-TA}}), and for personal names such as {{lang|omn|𐘀𐘚𐘢𐘳}} ({{lang|omn-Latn|DA-I-PI-TA}}) and {{lang|omn|𐘂𐘴𐘗}} ({{lang|omn-Latn|PA-RA-NE}}). In some cases, Linear A names appear in Linear B with Greek [[grammatical case|case]] endings, for instance Linear A {{lang|omn|𐘌𐘌𐘘}} ({{lang|omn-Latn|QA-QA-RU}}) corresponding to Linear B {{lang|gmy|𐀣𐀣𐀫}} ({{lang|gmy-Latn|qa-qa-ro}}) and Linear A {{lang|omn|𐘆𐘦𐘘}} ({{lang|omn-Latn|DI-DE-RU}} to Linear B 𐀇𐀆𐀫 ({{lang|gmy-Latn|di-de-ro}}). These shared words have been taken as evidence for shared sound values of the signs that appear in them.<ref name="Steele2024"/>{{rp|8–10}}<ref name="Salgarella2020"/>{{rp|32–33}}<ref name = "SalgarellaOverview"/><ref name="Younger-10C">{{cite web |last=Younger |first=John |work=Linear&nbsp;A texts in phonetic transcription |title=10c.&nbsp;Place names |year=2000 |url=http://www.people.ku.edu/~jyounger/LinearA/#10c |publisher=University of Kansas |access-date=29 April 2013 |archive-date=15 April 2021 |archive-url=https://web.archive.org/web/20210415092941/http://www.people.ku.edu/~jyounger/LinearA/#10c |url-status=dead }}</ref>
+
+Another reason is that Linear A words sometimes come in multiple variants whose differences would be phonologically motivated if Linear B sound values are assumed. For example, the Linear A word {{lang|omn|𐘇𐘞𐘞𐘴𐘋}} also comes in the variant {{lang|omn|𐘱𐘞𐘞𐘴𐘋}}, differing only in its initial sign. The alternation between the initial signs would be explained if these signs had a systematic phonological relationship, similar to the method used by [[Alice Kober]] which led to the decipherment of Linear B. Such a relationship would exist if the Linear A signs 𐘇 and 𐘱 were pronounced as /{{IPA|a}}/ and /{{IPA|ja}}/ respectively, just like the homomorphic Linear B signs 𐀀 and 𐘱. In this case, the words would differ only in the presence of a /{{IPA|j-}}/ [[prefix]], while the /{{IPA|a}}/ vowel would be preserved. Similar arguments have been made based on other seemingly [[morphology (linguistics)|morphologically]] related pairs.<ref name="Steele2024"/>{{rp|9}}<ref name="auto"/>
+
+However, in particular cases scholars have identified reasons to expect divergence in pronunciation between Linear A and Linear B. Some scholars have argued that Minoan did not really have the vowel /o/ as a phoneme, that it may not have had the labialised velars that the /{{IPA|q}}/-signs express in Mycenaean, and that the only apparent voiced stop, /{{IPA|d}}/, was really a dental fricative in Minoan.<ref name=":2" /> The latter note is further supported by the principle that ''if a voicing contrast is used at all in a language, it normally runs right across the various categories of consonants''.<ref>Sampson, Geoffrey (1990). ''Writing systems - A linguistic introduction'', A specific note on Linear A versus Linear B on p.72.</ref>
+
+The following table shows signs that are known to be syllabograms and for which ''provisional'' and ''approximate'' sound values are assumed primarily based on the known pronunciations of identical or similar signs in Linear B.<ref name=":2">[http://projectos.fcsh.unl.pt/kubaba/Davis_2010__Introduction_to_Aegean_pre-Alphabetic_Scripts.pdf Davis, Brent. 2010. Introduction to Aegean pre-Alphabetic Scripts. Kubaba 1, pp. 38–61.].  P. 51–54.</ref><ref>{{cite journal |last1=Fang |first1=Xiao Min |last2=Perono Cacciafoco |first2=Francesco |last3=Cavallaro |first3=Francesco Paolo |title=Some Remarks on Grammatological and Morphological Aspects of Linear A Documents: An Internal Analysis Approach |journal=Annals of the University of Craiova. Series Philology. Linguistics |date=2022 |volume=43 |url=https://www.researchgate.net/publication/357080939 |doi=10.52846/aucssflingv.v43i1.26}}</ref><ref>[https://www.bruna.nl/images/active/InkijkPDF/cb/9789402157574.pdf van Soesbergen, Peter George. 2016. Minoan Linear A – volume I. Hurrians and Hurrian in Minoan Crete. Part 1: text.] P.3-10.</ref>
+
+{| class="wikitable mw-collapsible"
+! colspan="11" |'''Syllabic signs of shape V, CV'''
+|-
+!
+! colspan="2" |'''''-a'''''
+! colspan="2" |'''''-e'''''
+! colspan="2" |'''''-i'''''
+! colspan="2" |'''''-o'''''
+! colspan="2" |'''''-u'''''
+|-
+!
+|𐘇 [[File:Linear_A_Sign_A008.svg|class=skin-invert]]
+|''a''
+
+''*08''
+|𐘡[[File:Linear_A_Sign_A038.svg|class=skin-invert]]
+|''e''
+
+''*38''
+|𐘚[[File:Linear_A_Sign_A028.svg|class=skin-invert]] 
+|''i''
+
+''*28''
+|𐘵[[File:Linear_A_Sign_A061.svg|class=skin-invert]]
+|''o''
+
+''*61''
+|𐘉[[File:Linear_A_Sign_A010.svg|class=skin-invert]]
+|''u''
+
+''*10''
+|-
+!'''''d-'''''
+|𐘀[[File:Linear_A_Sign_A001.svg|class=skin-invert]]
+|''da''
+
+''*01''
+|𐘦 [[File:Linear_A_Sign_A045.svg|class=skin-invert]]
+|''de''
+
+''*45''
+|𐘆[[File:Linear_A_Sign_A007.svg|class=skin-invert]]
+|''di''
+
+''*07''
+|''Disputed.''𐙀?
+
+[[File:Linear_A_Sign_A079.svg|class=skin-invert]]?
+|''do''
+
+''-*79?''
+|𐘬 [[File:Linear_A_Sign_A051.svg|class=skin-invert]]
+|''du''
+
+''*51''
+|-
+!'''''j-'''''
+|𐘱[[File:Linear_A_Sign_A057.svg|class=skin-invert]]
+|''ja''
+
+''*57''
+|𐘧[[File:Linear_A_Sign_A046.svg|class=skin-invert]]
+|''je''
+
+''*46''
+|<nowiki>–</nowiki>
+|<nowiki>–</nowiki>
+|''Disputed.''
+
+|''jo''
+|''Disputed.''
+|''ju''
+|-
+!'''''k-'''''
+|𐘾 [[File:Linear_A_Sign_A077.svg|class=skin-invert]]
+|''ka''
+
+''*77''
+|𐘥[[File:Linear_A_Sign_A044.svg|class=skin-invert]]
+|''ke''
+
+''*44''
+|𐘸 [[File:Linear_A_Sign_A067.svg|class=skin-invert]]
+|''ki''
+
+''*67''
+|𐘺[[File:Linear_A_Sign_A070.svg|class=skin-invert]]
+|''ko''
+
+''*70''
+|𐙂[[File:Linear_A_Sign_A081.svg|class=skin-invert]] 
+|''ku''
+
+''*81''
+|-
+!'''''m-'''''
+|𐙁 [[File:Linear_A_Sign_A080.svg|class=skin-invert]]
+|''ma''
+
+''*80''
+|𐘋 [[File:Linear_A_Sign_A013.svg|class=skin-invert]]
+|''me''
+
+''*13''
+|𐘻[[File:Linear_A_Sign_A073.svg|class=skin-invert]]
+|''mi''
+
+''*73''
+|''Disputed.''
+
+𐙗?[[File:Linear_A_Sign_A303.svg|class=skin-invert]]?
+|''mo''
+
+''*303?''
+|𐘕[[File:Linear_A_Sign_A023m.svg|class=skin-invert]]
+|''mu''
+
+''*23''
+|-
+!'''''n-'''''
+|𐘅 [[File:Linear_A_Sign_A006.svg|class=skin-invert]]
+|''na''
+
+''*06''
+|𐘗[[File:Linear_A_Sign_A024.svg|class=skin-invert]]
+|''ne''
+
+''*24''
+|𐘝 [[File:Linear_A_Sign_A030.svg|class=skin-invert]]
+|''ni''
+
+''*30''
+|''Disputed.''
+
+[[File:Linear_A_Sign_A028.svg|class=skin-invert]],[[File:Linear_A_Sign_A028b.svg|class=skin-invert]]?  
+|''no''
+
+''*28,28B?''
+|𐘯 [[File:Linear_A_Sign_A055.svg|class=skin-invert]]
+|''nu''
+
+''*55''
+|-
+!'''''p-'''''
+|𐘂 [[File:Linear_A_Sign_A003.svg|class=skin-invert]]
+|''pa''
+
+''*03''
+|<nowiki>-</nowiki>
+|''–''
+|𐘢 [[File:Linear_A_Sign_A039.svg|class=skin-invert]]
+|''pi''
+
+''*39''
+|𐘊 [[File:Linear_A_Sign_A011.svg|class=skin-invert]]
+|''po''
+
+''*11''
+|𐘫 [[File:Linear_A_Sign_A050.svg|class=skin-invert]]
+|''pu''
+
+''*50''
+|-
+!'''''q-'''''
+|𐘌 [[File:Linear_A_Sign_A016.svg|class=skin-invert]]
+|''qa''
+
+''*16''
+|𐘿 [[File:Linear_A_Sign_A078.svg|class=skin-invert]]
+|''qe''
+
+''*78''
+|𐘏 [[File:Linear_A_Sign_A021.svg|class=skin-invert]]
+|''qi''
+
+''*21''
+|<nowiki>-</nowiki>
+|''–''
+|<nowiki>-</nowiki>
+|''–''
+|-
+!'''''r-'''''
+|𐘴 [[File:Linear_A_Sign_A060.svg|class=skin-invert]]
+|''ra''
+
+''*60''
+|𐘙 [[File:Linear_A_Sign_A027.svg|class=skin-invert]]
+|''re''
+
+''*27''
+|𐘭[[File:Linear_A_Sign_A053.svg|class=skin-invert]]
+|''ri''
+
+''*53''
+|𐘁[[File:Linear_A_Sign_A002.svg|class=skin-invert]]
+|''ro''
+
+''*02''
+|𐘘 [[File:Linear_A_Sign_A026.svg|class=skin-invert]]
+|''ru''
+
+''*26''
+|-
+!'''''s-'''''
+|𐘞 [[File:Linear_A_Sign_A031.svg|class=skin-invert]]
+|''sa''
+
+''*31''
+|𐘈[[File:Linear_A_Sign_A009.svg|class=skin-invert]]
+|''se''
+
+''*09''
+|𐘤[[File:Linear_A_Sign_A041.svg|class=skin-invert]]
+|''si''
+
+''*41''
+|''Disputed.''
+|''so''
+|𐘲 [[File:Linear_A_Sign_A058.svg|class=skin-invert]]
+|''su''
+
+''*58''
+|-
+!'''''t-'''''
+|𐘳 [[File:Linear_A_Sign_A059.svg|class=skin-invert]]
+|''ta''
+
+''*59''
+|𐘃 [[File:Linear_A_Sign_A004.svg|class=skin-invert]]
+|''te''
+
+''*04''
+|𐘠 [[File:Linear_A_Sign_A037.svg|class=skin-invert]]
+|''ti''
+
+''*37''
+|𐘄[[File:Linear_A_Sign_A005.svg|class=skin-invert]]
+|''to''
+
+''*05''
+|𐘹 [[File:Linear_A_Sign_A069.svg|class=skin-invert]]
+|''tu''
+
+''*69''
+|-
+!'''''w-'''''
+|𐘮 [[File:Linear_A_Sign_A054.svg|class=skin-invert]]
+|''wa''
+
+''*54''
+|''Disputed.''
+|''–''
+|𐘣 [[File:Linear_A_Sign_A040.svg|class=skin-invert]]
+|''wi''
+
+''*40''
+|''Disputed.''
+|''wo''
+|<nowiki>-</nowiki>
+|<nowiki>-</nowiki>
+|-
+!'''''z-'''''
+|𐘍[[File:Linear_A_Sign_A017.svg|class=skin-invert]]
+|''za''
+
+''*17''
+|𐘼 [[File:Linear_A_Sign_A074.svg|class=skin-invert]]
+|''ze''
+
+''*74''
+|<nowiki>–</nowiki>
+|<nowiki>–</nowiki>
+|𐘎[[File:Linear_A_Sign_A020.svg|class=skin-invert]]
+|''zo''
+
+''*20''
+|''Disputed.''
+
+𐙀?
+
+[[File:Linear_A_Sign_A079.svg|class=skin-invert]]?
+|''zu''
+
+<nowiki>*</nowiki>''79''
+|}
+
+While many of those assumed to be syllabic signs are similar to ones in Linear B, approximately 80% of Linear A's [[logogram]]s are unique;<ref name="Younger-7B">{{cite web |last=Younger |first=John |work=Linear&nbsp;A texts in phonetic transcription |title=7b.&nbsp;The Script |year=2000 |publisher=[[University of Kansas]] |url=http://www.people.ku.edu/~jyounger/LinearA/#7b |access-date=18 October 2012 |archive-date=15 April 2021 |archive-url=https://web.archive.org/web/20210415092941/http://www.people.ku.edu/~jyounger/LinearA/#7b |url-status=dead }}</ref><ref name="Packard-MLA-C1">{{harvnb|Packard|1974|loc=Chapter 1: Introduction}}.</ref> the difference in sound values between Linear A and Linear B signs ranges from 9% to 13%.{{sfn|Owens|1999|pp=23–24 (David Packard, in 1974, calculated a sound-value difference of 10.80 ± 1.80%; Yves Duhoux, in 1989, calculated a sound-value difference of 14.34% ± 1.80% and Gareth Owens, in 1996, calculated a sound-value difference of 9–13%)}}
+
+===Underlying language===
+[[Image:Linear A vase filt.jpg|thumb|right|Linear&nbsp;A incised on a jug, also found in Akrotiri]]
+
+Linear A does not encode any known language. The placeholder term ''[[Minoan language]]'' is often used, though it is not certain that the texts are all in the same language.<ref name = "SalgarellaOverview" /><ref>Chadwick J., "Introduction to the problems of ‘Minoan Linear A’", JRAS 2, pp. 143–147, 1975</ref>
+
+Although an approximate phoneme inventory for Minoan can be inferred from the Linear A sign inventory, the phonology of the language has been subject to debate, and one scholar refers to its reconstruction as "the thirteenth Labour of Herakles".<ref name="Salgarella2025"/>{{rp|50}} In older work, Minoan was often regarded as having a three vowel system, since Linear A shares Linear B's /{{IPA|i}}/, /{{IPA|u}}/, and /{{IPA|a}}/ series, but not all of the /{{IPA|o}}/ and /{{IPA|e}}/ signs, and those it does have occur much less frequently. However, more recent work has questioned this assumption, noting that Linear A sound values involving /{{IPA|o}}/ and /{{IPA|e}}/ are supported by comparative evidence from Cypriot and also from their occurrence in shared placenames such as Pa-i-to and Se-to-i-ja.<ref name="Steele2024"/>{{rp|16–17}}<ref name="Salgarella2025"/>{{rp|50}}
+
+Similarly, in older work, Minoan was assumed to have a predominantly [[Syllable#Open and closed|open syllable]] structure and few [[consonant cluster]]s, reflecting the inventory of syllables available in Linear A. This view was based on the assumption that Linear A would have been developed in order to closely match Minoan phonology, and that the [[defective script|defectiveness]] of Linear B would have resulted from the process of adapting the script to write Greek. However, more recent work has questioned this assumption based on precedents from other defective scripts as well as potential evidence of partial or [[plene scriptum|plene spelling]] in Linear A itself, such as the placename {{lang|omn|𐘂𐘚𐘄}} ({{lang|omn-Latn|PA-I-TO}}) which would likely have contained an unwritten /{{IPA|s}}/ sound as in its later pronunciation as "Phaistos".<ref name="Steele2024"/>{{rp|17–20}}<ref name="Salgarella2025"/>{{rp|50}}
+
+By identifying systematic patterns of similarities and variations across inscriptions, scholars have been able to make inferences about the [[syntax]] and [[morphology (linguistics)|morphology]] of the Minoan language. Comparison of formulaic inscriptions on libation vessels suggests that the language had [[Verb–subject–object word order|Verb Subject Object]] [[word order]].<ref name="degruyter.com">{{cite journal |last1=Davis |first1=Brent |title=Syntax in Linear A: The Word-Order of the 'Libation Formula' |journal=Kadmos |date=1 December 2013 |volume=52 |issue=1 |pages=35–52 |doi=10.1515/kadmos-2013-0003 |s2cid=163948869 |url=https://www.degruyter.com/document/doi/10.1515/kadmos-2013-0003/html |access-date= | issn=0022-7498 |url-access=subscription }}</ref><ref name="Salgarella2025"/>{{rp|44–46, 53}} Minoan appears to have been an [[agglutinative language]], making copious use of [[prefix]]es and [[suffix]]es. Among these, the suffixes {{lang|omn-Latn|-RU}} and {{lang|omn-Latn|-RE}} appear to be [[Grammatical case|case]] markers, while {{lang|omn-Latn|J-}} is a prefix meaning something like "from" or "of", and {{lang|omn-Latn|-JA}} appears to be a [[derivational suffix]] used to form [[adjective]]s.<ref name="Salgarella2025"/>{{rp|51–54}}
+
+Internal analysis of texts has been used to identify approximate meanings of certain words.<ref name="Salgarella2025"/>{{rp|49,51–52}} Among these, the most secure is the word {{lang|omn|𐙂𐘘}} ({{lang|omn-Latn|KU-RO}}) meaning "total". The meaning of this word was inferred much as {{lang|gmy|𐀵𐀰}}/{{lang|gmy|𐀵𐀭}} ({{lang|gmy-Latn|to-so}}/{{lang|gmy-Latn|to-sa}}) was for Linear B, from the fact that it regularly occurs at the ends of tallied lists, preceding a numeral representing the sum of the tallies in the list.<ref>{{cite book |last=Chadwick |first=John |title=The Decipherment of Linear B |publisher=[[Cambridge University Press]] |location=Cambridge |year=1958 |isbn=978-0-521-39830-5 |pages=154–155}}</ref><ref name="Salgarella2025"/>{{rp|49,51–52}}<ref name="Steele2024"/>{{rp|56–57}} Similarly, the word stem {{lang|omn|𐘚𐝥}} ({{lang|omn-Latn|I-*301}}) is believed to mean "to give" or "to dedicate" based on its use across variants of the Libation Formula.<ref name="degruyter.com"/><ref name="Salgarella2025"/>{{rp|44–46, 53}} In some cases, additional inferences can be made based on parallels between internal evidence from Linear A and loanwords in later Greek. For instance, the Linear A logogram for wool {{lang|omn|𐛢}} is a composite of the syllabic signs 𐙁 (''MA'') and 𐘘 (''RU''), a fact which on its own would suggest "maru" or "malu" as a potential Minoan word for wool. This inference is regarded as more secure because this term seems to appear as a loanword in Greek as {{lang|grc|μαλλός}} ({{lang|grc-Latn|mallos}}). Moreover, the same sign appears in Linear B, though it is sometimes written as a composite of 𐀔 ("ma") and 𐀫 ("ro") instead, seemingly reflecting an adaptation of the word to Greek phonology.<ref name="Salgarella2025"/>{{rp|51}}<ref name="Steele2024"/>{{rp|49}}
+
+[[File:PH_Wa_32.png|thumb|A clay nodule from [[Phaistos]] inscribed with the toponym {{lang|omn-Latn|SU-KI-RI-TA}}, also known from later Linear B texts.]]
+
+Given what is known about the language, Minoan does not appear to be a member of any recognized known language family. Some scholars have explored potential parallels with [[Anatolian language]]s such as [[Luwian language|Luwian]] and [[Lycian language|Lycian]], as well as with [[Semitic language]]s such as [[Phoenician language|Phoenician]] and [[Ugaritic]]. However, even if these connections are not coincidental, it would be unclear whether Minoan is related to one of these languages or if the parallels arose through [[language contact]].<ref name = "SalgarellaOverview" /><ref name="Salgarella2025"/>{{rp|53–54}}
+
+==Unicode==
+{{main|Linear A (Unicode block)}}
+The Linear A alphabet (U+10600–U+1077F) was added to the [[Unicode]] Standard in June 2014 with the release of version 7.0. Current as of the latest Unicode version, 15.1.<ref>[https://www.unicode.org/L2/L2010/10422-n3973-lineara.pdf] Michael Everson, "N3973: Revised proposal for encoding the Linear A script in the SMP of the UCS", Working Group Document, ISO/IEC JTC1/SC2/WG2, 2010-12-28</ref>
+
+{{Navboxes
+|title = Unicode chart for Linear A
+|list= 
+{{Unicode chart Linear A}}
+}}
+
+==See also==
+* [[Aegean numerals]]
+* [[Cypro-Minoan syllabary]]
+* [[Phaistos Disc|Phaistos&nbsp;Disc]]
+* [[Arkalochori Axe]]
+
+==References==
+{{Reflist|25em}}
+
+===Works cited===
+{{refbegin|2}}
+*{{cite book |last=Chadwick |first=John |title=The Decipherment of Linear&nbsp;B |url=https://books.google.com/books?id=TD8YAlh_XHwC |publisher=[[Cambridge University Press]] |location=Cambridge |year=1967 |isbn=978-0-521-39830-5 }}
+*{{cite book |last=Cook |first=Mark. |title=Rewriting History: The decipherment of Linear A and a history of Egypto–Cretan relations in the Middle and Late Bronze Ages |publisher=self-published |location=Sydney |year=2022  |isbn=978-0-646-86541-6 }}
+*{{cite book |last1=Dietrich |first1=Manfried |last2=Loretz |first2=Oswald |title=In Memoriam: Cyrus H. Gordon |url=https://books.google.com/books?id=tlrvMQEACAAJ |publisher=Ugarit-Verlag |location=Münster |year=2001 |isbn=978-3-934628-00-7 }}
+*{{cite book |last1=Facchetti |first1=Giulio M. |last2=Negri |first2=Mario |title=Creta Minoica: Sulle tracce delle più antiche scritture d'Europa |url=https://books.google.com/books?id=SgpZAAAAMAAJ |publisher=L.S. Olschki |location=Firenze |year=2003 |language=it |isbn=978-88-222-5291-3 }}
+*{{cite conference |last=Finkelberg |first=Margalit |chapter=Bronze Age Writing: Contacts between East and West |chapter-url=http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum18(pdf)/31%20Finkelberg.pdf |editor1=Cline, E.H. |editor2=Harris-Cline, D. |title=The Aegean and the Orient in the Second Millennium. Proceedings of the 50th&nbsp;Anniversary Symposium, Cincinnati, 18–20&nbsp;April 1997. Liège&nbsp;1998 |series=Aegeum |volume=18 |pages=265–272 |year=1998 |archive-url=https://web.archive.org/web/20160303234459/http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum18(pdf)/31%20Finkelberg.pdf |archive-date=3 March 2016 }}
+*{{cite journal |last=Georgiev |first=Vladimir I. |title=Les deux langues des inscriptions crétoises en linéaire&nbsp;A |journal=Linguistique Balkanique |volume=7 |issue=1 |pages=1–104 |year=1963 |language=fr}}
+*{{cite journal |last=Nagy |first=Gregory |title=Greek-Like Elements in Linear&nbsp;A |url=http://grbs.library.duke.edu/article/download/11991/4031 |journal=Greek, Roman, and Byzantine Studies |publisher=[[Duke University Press]] |location=Durham | year=1963 | volume=4 | issue=4  | issn=2159-3159 | pages=181–211 | access-date= }}
+*{{cite journal |last=Olivier |first=J.P. |title=Cretan Writing in the Second Millennium B.C. |url=https://dipot.ulb.ac.be/dspace/bitstream/2013/248436/4/53a239ae-5319-44a5-b013-69ca027964b7.txt |journal=[[World Archaeology]] |volume=17 |issue=3 |pages=377–389 |year=1986 |doi=10.1080/00438243.1986.9979977 | issn=0043-8243 }}
+*{{cite journal |last=Owens |first=Gareth |title=The Structure of the Minoan Language |url=http://www.teicrete.gr/daidalika/documents/minoan_language/jies27.pdf |journal=[[Journal of Indo-European Studies]] |volume=27 |number=1–2 |pages=15–56 |year=1999 |access-date=24 March 2015 |archive-date=23 July 2020 |archive-url=https://web.archive.org/web/20200723005340/https://www.teicrete.gr/daidalika/documents/minoan_language/jies27.pdf |url-status=dead |issn=0092-2323 }}
+*{{cite news |last=Owens |first=Gareth Alun |title=Η Δομή της Μινωικής Γλώσσας |trans-title=The Structure of the Minoan Language |url=http://www.teicrete.gr/daidalika/documents/minoan_language/minoan2007_gr.pdf |publisher=TEI of Crete –Daidalika |location=Heraklion |year=2007 |language=el |access-date=24 March 2015 |archive-date=3 June 2016 |archive-url=https://web.archive.org/web/20160603124455/http://www.teicrete.gr/daidalika/documents/minoan_language/minoan2007_gr.pdf |url-status=dead }}
+*{{cite book |last=Packard |first=David W. |title=Minoan Linear&nbsp;A |url=https://books.google.com/books?id=vax3kwoscWQC |publisher=[[University of California Press]] |location=Berkeley / Los Angeles |year=1974 |isbn=978-0-520-02580-6 }}
+*{{cite book |last=Palaima |first=Thomas G. |author-link=Thomas G. Palaima |chapter=Cypro-Minoan Scripts: Problems of Historical Context |chapter-url=https://books.google.com/books?id=TanjAHRuJt4C&pg=PA121 |editor1=Duhoux, Yves |editor2=Palaima, Thomas G. |editor3=Bennet, John |title=Problems in Decipherment |year=1997 |orig-year=1989 |publisher=Peeters |location=Louvain-La-Neuve |pages=121–188 |isbn=978-90-6831-177-8 }}
+*{{cite journal |last=Palmer |first=Leonard Robert |title=Luvian and Linear A |journal=Transactions of the Philological Society |volume=57 |issue=1 |pages=75–100 |year=1958 |doi=10.1111/j.1467-968X.1958.tb01273.x | issn=0079-1636  }}
+*{{cite book |last=Yatsemirsky |first=Sergei A. |title=Opyt sravnitel'nogo opisaniya minoyskogo, etrusskogo i rodstvennyh im yazykov |trans-title=Tentative Comparative Description of Minoan, Etruscan and Related Languages |url=https://books.google.com/books?id=J4e8twAACAAJ |publisher=Yazyki slavyanskoy kul'tury |location=Moscow |year=2011 |language=ru |isbn=978-5-9551-0479-9 }}
+{{refend|2}}
+
+==Further reading==
+* {{cite book |last=Bennet |first=John |chapter=Now You See It; Now You Don't! The disappearance of the Linear A script on Crete |title=The Disappearance of Writing Systems: Perspectives on Literacy and Communication |editor1-last=Baines |editor1-first=John |editor2-last=Bennet |editor2-first=John |editor3-last=Houston |editor3-first=Stephen |year=2008 |location=London and Oakville |pages=1–29}}
+* {{Cite book |last=Best |first=Jan G. P. |title=Some Preliminary Remarks on the Decipherment of Linear A |publisher=Hakkert |year=1972 |location=Amsterdam}}
+* {{cite journal |last=Braović |first=Maja |display-authors=etal |title=A Systematic Review of Computational Approaches to Deciphering Bronze Age Aegean and Cypriot Scripts |journal=Computational Linguistics |year=2024 |pages=1–54 |url=https://direct.mit.edu/coli/article-pdf/doi/10.1162/coli_a_00514/2345990/coli_a_00514.pdf}}
+* {{cite journal |last=Brice |first=William C. |title=Notes on Linear A |journal=Kadmos |year=1983 |volume=22 |issue=1 |pages=81–106}}
+* {{cite journal |last=Brice |first=William C. |title=Some observations on the linear A inscriptions |journal=Kadmos |year=1962 |volume=1 |issue=1 |pages=42–48}}
+* {{cite book |last=Carratelli |first=G. P. |title=Le epigraphi di Haghia Triada in lineare A |year=1963 |location=Salamanca}}
+* {{cite journal |last1=Davis |first1=S. |title=New Light on Linear A |journal=Greece & Rome |date=March 1959 |volume=6 |issue=1 |pages=20–30 |doi=10.1017/S0017383500013231 |url=https://www.jstor.org/stable/641970 |jstor=641970 |s2cid=162763789 |access-date= |language=en |issn=1477-4550 |url-access=subscription}}
+* {{cite journal |last1=Ferrara |first1=Silvia |last2=Salgarella |first2=Ester |last3=Bellinato |first3=Laura |title=On Aegean spices: decipherment prospects on Linear A and B spice-related signs |journal=Kadmos |year=2025 |volume=64 |issue=1–2 |pages=29–44 |url=https://cris.unibo.it/bitstream/11585/1029252/3/10.1515_kadmos-2025-0002.pdf}}
+* {{cite journal |last=Giorgi |first=Lavinia |title=Writing in Crete: a comparison between Cretan hieroglyphic and Linear A |journal=Appunti romani di filologia: studi e comunicazioni di filologia, linguistica e letteratura greca e Latina |year=2024 |volume=XXVI |pages=75–90}}
+* {{cite journal |last1=Facchetti |first1=Giulio M. |title=On Some Recent Attempts to Identify Linear A Minoan Language |journal=Minos |date=2003 |volume= |issue=37–38 |pages=89–94 |url=https://irinsubria.uninsubria.it/handle/11383/1502543 |access-date= |issn=0544-3733}}
+* {{Cite journal |last1=Ferrara |first1=Silvia |last2=Valério |first2=Miguel |last3=Montecchi |first3=Barbara |year=2022 |title=The Relationship between Cretan Hieroglyphic and Linear A: a palaeographic and structural approach |journal=Pasiphae – Journal of Aegean Philology and Antiquity |volume=26 |issue=16 |pages=81–109 |url=https://flore.unifi.it/retrieve/handle/2158/1265265/660757/Ferrara-Montecchi-Val%C3%A9rio_Pasiphae_2022.pdf |doi=10.19272/202233301006 |issn=2037-738X}}
+* {{cite book |last1=Judson |first1=A. P. |title=The Undeciphered Signs of Linear B. Interpretation and Scribal Practices |date=2020 |location=Cambridge |publisher=Cambridge University Press |isbn=9781108796910 |url=https://www.cambridge.org/core/books/undeciphered-signs-of-linear-b/83BE86635C83A49DDED8A14816E9FBC1 |access-date=}}
+*Krawiec, Andrew, "Linear A fractions: new values, new views", Pasiphae: rivista di filologia e antichità egee: XX, pp. 353-390, 2026
+* {{cite web |last=Kvashilava |first=Gia |year=2019 |title=On Decipherment of the Inscriptions of Linear A in the Common Kartvelian Language: ku-ro and ki-ro |url=https://www.academia.edu/29964691/Kvashilava_Gia_2019b_On_Decipherment_of_the_Inscriptions_of_Linear_A_in_the_Common_Kartvelian_Language_ku_ro_and_ki_ro |via=Academia.edu}}
+* {{cite journal |last=Militello |first=Pietro |title=Ayia Triada tablets, findspots and scribes. A reappraisal |journal=Pasiphae |year=2011 |volume=000 |issue=005 |pages=59–69}}
+* {{cite journal |last=Militello |first=P. |title=Riconsiderazioni preliminari sulla documentazione in Lineare A da Haghia Triadaî |journal=Sileno |year=1988 |volume=14 |pages=233–261}}
+* {{cite journal |last=Montecchi |first=Barbara |title=Linear a Banqueting Lists? |journal=Kadmos |year=2012 |volume=51 |issue=1 |pages=1–26}}
+* {{Cite journal |last=Montecchi |first=Barbara |date=January 2010 |title=A Classification Proposal of Linear A Tablets from Haghia Triada in Classes and Series |journal=Kadmos |volume=49 |issue=1 |pages=11–38 |doi=10.1515/KADMOS.2010.002 |s2cid=124902710 |issn=0022-7498}}
+* {{cite journal |last1=Montecchi |first1=Barbara |title=Rebus compositions in Linear A? |journal=Kadmos |date=1 February 2022 |volume=61 |issue=1–2 |pages=97–106 |doi=10.1515/kadmos-2022-0004 |url=https://www.degruyter.com/document/doi/10.1515/kadmos-2022-0004/html}}
+* {{Cite journal |last=Nagy |first=Gregory |date=October 1965 |title=Observations on the Sign-Grouping and Vocabulary of Linear A |journal=American Journal of Archaeology |volume=69 |number=4 |pages=295–330 |doi=10.2307/502181 |jstor=502181 |s2cid=191385596 |issn=0002-9114}}
+* {{cite journal |last1=Notti |first1=Erika |title=The Theran Epigraphic Corpus of Linear A: Geographical and Chronological Implications |journal=Pasiphae |date=2010 |issue=4 |pages=93–96 |doi=10.1400/168368 |url=https://www.torrossa.com/gs/resourceProxy?an=2464431&publisher=F34885 |access-date= |language=en |issn=2037-738X}}
+* {{cite journal |last=Notti |first=Erika |title=Writing in Late Bronze Age Thera. Further Observations on the Theran Corpus of Linear A |journal=Pasiphae |year=2021 |volume=000 |issue=015 |url=https://www.torrossa.com/gs/resourceProxy?an=4774693&publisher=F34885 |issn=2037-738X}}
+* {{Cite journal |last=Palmer |first=Ruth |year=1995 |title=Linear A Commodities: A Comparison of Resources |url=http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum12%28pdf%29/Palmer.pdf |url-status=dead |journal=Aegeum |volume=12 |archive-url=https://web.archive.org/web/20150402123207/http://www2.ulg.ac.be/archgrec/IMG/aegeum/aegaeum12%28pdf%29/Palmer.pdf |archive-date=2 April 2015 |access-date=24 March 2015}}
+* {{cite book |last=Rjabchikov |first=Sergei V. |year=2025 |chapter=The Decipherment of two Records of Linear A on the Ivory Mirror from Knossos, Crete |title=Tendantsii i problemy razvitiya sovremennoy nauki. Sbornik statey IV Mezhdunarodnoy nauchno-prakticheskoy konferentsii, sostoyavsheysya 18 avgusta 2025 g. v g. Petrozavodske |editor1-last=Ivanovskaya |editor1-first=I. I. |editor2-last=Kuzmina |editor2-first=L. A. |location=Petrozavodsk |publisher=International Center for Scientific Partnership "New Science" |pages=100–106}}
+* {{Cite book |last=Salgarella |first=Ester |title=Aegean Linear Script(s): Rethinking the Relationship between Linear A and Linear B |publisher=Cambridge University Press |year=2020 |isbn=9781108479387 |location=Cambridge}}
+* {{cite journal |last1=Salgarella |first1=Ester |last2=Judson |first2=Anna P. |title=Signs of the times? Testing the chronological significance of Linear A and B palaeography |journal=Ariadne |year=2025 |pages=359–379 |url=https://ejournals.lib.uoc.gr/Ariadne/article/download/1861/1770}}
+* {{cite book |last=Salgarella |first=Ester |title=Writing in Bronze Age Crete: 'Minoan' Linear A |publisher=Cambridge University Press |year=2025 |isbn=9781009520027}}
+* {{cite book |last1=Salgarella |first1=Ester |last2=Petrakis |first2=Vassilis |title=The Wor(l)ds of Linear A: Interdisciplinary Approaches to Documents and Inscriptions of a Cretan Bronze Age Script |year=2025}}
+* {{cite journal |last1=Schoep |first1=Ilse |title=The Administration of Neopalatial Crete. A Critical Assessment of the Linear A Tablets and their Role in the Administrative Process |journal=Minos |date=2002 |volume= |issue=Supplementary Volume no. 17 |pages=1–230 |doi= |url=https://dialnet.unirioja.es/servlet/articulo?codigo=306533 |access-date= |location=Salamanca |language= |issn=0544-3733 |oclc=52610144}}
+* {{cite book |last1=Steele |first1=Philippa |title=Exploring Writing Systems and Practices in the Bronze Age Aegean |date=2024 |url=https://crewsproject.wordpress.com/wp-content/uploads/2023/10/steele-2023.pdf |publisher=Oxbow Books |isbn=978-1-78925-902-5}}
+* {{cite book |last=van Soesbergen |first=Peter George |date=2022 |title=The Decipherment of Minoan Linear A: Hurrians and Hurrian in Minoan Crete. Volume I, Part I: Text, bibliography, maps, appendices |edition=3rd completely revised and extended |location=Amsterdam |publisher=Dr. Peter G. van Soesbergen |isbn=9789083275406}}
+* {{cite book |last=van Soesbergen |first=Peter George |date=2022 |title=The Decipherment of Minoan Linear A: Hurrians and Hurrian in Minoan Crete. Volume I, Part II: Text and summary |edition=3rd completely revised and extended |location=Amsterdam |publisher=Dr. Peter G. van Soesbergen |isbn=9789083275413}}
+* {{cite journal |last=Tomas |first=Helena |title=The Administration of Haghia Triada |journal=Opvscvla archaeologica |year=2001 |volume=25 |issue=1 |pages=39–57 |url=https://hrcak.srce.hr/clanak/8676}}
+* {{cite thesis |last=Tomas |first=Helena |date=2003 |title=Understanding the transition from Linear A to Linear B script |degree=D. Phil. |chapter= |publisher=University of Oxford |id= |oclc=}} Unpublished PhD dissertation. Supervisor: Professor John Bennet. Includes bibliographical references (leaves 311–338).
+* {{cite journal |last=Was |first=Daniel A. |title=The land-tenure texts from Hagia Triada |journal=Kadmos |year=1978 |volume=17 |issue=2 |pages=91–101}}
+* {{cite journal |last=Was |first=Daniel A. |title=The land-tenure texts from Hagia Triada |journal=Kadmos |year=1981 |volume=20 |issue=1–2 |pages=7–25}}
+
+== External links ==
+{{Commonscat}}
+*[https://greekreporter.com/2026/03/30/minoan-ivory-scepter-longest-linear-a-inscription/ The Minoan Ivory Scepter: The Longest Linear A Inscription - GreekReporter - March 30, 2026]
+* [https://web.archive.org/web/20231222205430/https://www.people.ku.edu/~jyounger/LinearA/ John Younger's Linear A Texts & Inscriptions in phonetic transcription & Commentary (December 2023 - final archived edition)]
+* [https://www.sciencedaily.com/releases/2020/09/200908113231.htm The mathematical values of Linear A fraction signs – Science Daily – September 8, 2020]
+* [https://sigla.phis.me/ Interactive database of Linear A inscriptions] [https://sigla.phis.me/paper.html Description]
+* [http://lila.sns.it/mnamon/index.php?page=Risorse&id=19&lang=en Mnamon: Antiche Scritture del Mediterraneo (Antique Writings of the Mediterranean)]
+* [http://cefael.efa.gr/detail.php?site_id=1&actionID=page&serie_id=EtCret&volume_number=21&issue_number=1 GORILA Volume 1]
+* [http://mwenge.github.io/LinearAExplorer Linear A Explorer]
+
+{{Ancient Greece topics}}
+{{Minoan civilization}}
+
+{{Authority control}}
+
+[[Category:Linear A| ]]
+[[Category:18th-century BC establishments]]
+[[Category:15th-century BC disestablishments]]
+[[Category:2nd-millennium BC introductions]]
+[[Category:Aegean languages in the Bronze Age]]
+[[Category:Bronze Age writing systems]]
+[[Category:Eteocretan language]]
+[[Category:Obsolete writing systems]]
+[[Category:Syllabary writing systems]]
+[[Category:Undeciphered writing systems]]

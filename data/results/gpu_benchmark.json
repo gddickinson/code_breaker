@@ -1,0 +1,22 @@
+{
+ "book_scan": {
+  "cpu_per_s": 852789.21469923,
+  "gpu_per_s": 247455.95941238414,
+  "agree_best_offset": true,
+  "unit": "offsets"
+ },
+ "enigma_scan": {
+  "cpu_per_s": 171846.4127573216,
+  "gpu_per_s": 36216.84462337202,
+  "agree_position": true,
+  "found": "QHZ",
+  "unit": "start positions"
+ },
+ "homophonic_anneal": {
+  "cpu_per_s": 5032057.261732033,
+  "gpu_per_s": 722328.9239757456,
+  "cpu_accuracy": 1.0,
+  "gpu_accuracy": 0.9118387909319899,
+  "unit": "proposals, one CPU core"
+ }
+}

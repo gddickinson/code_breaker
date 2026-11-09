@@ -1,11 +1,12 @@
 /* Cipher library and the make / break page for each cipher. */
+const SIMS = ["enigma", "lorenz", "jefferson", "scytale", "grille", "railfence", "vigenere", "playfair"];
 const FAMILY_ORDER = ["Monoalphabetic", "Polyalphabetic", "Polygraphic", "Fractionating", "Transposition", "Book and homophonic", "Codes", "Machines", "Modern stream", "Modern symmetric", "Hashes", "Public key"];
 
 route(/^\/$/, async () => {
   const byFam = {};
   state.ciphers.forEach(c => (byFam[c.family] ||= []).push(c));
-  view().innerHTML = `<h1>Every cipher here can be made and broken</h1>
-    <p class="lead">${state.ciphers.length} systems from Spartan rods to AES. Each page explains how it works, encrypts your own text, and runs a real attack.</p>
+  view().innerHTML = `<section class="hero"><p class="kicker">// CIPHER_ARCHIVE.ONLINE</p><h1 class="glitch" data-text="Every cipher here can be made and broken">Every cipher here can be made and broken</h1>
+    <p class="lead">${state.ciphers.length} systems from Spartan rods to AES. Each page explains how it works, encrypts your own text, and runs a real attack.</p><p><a class="cta" href="#/machine/enigma">Operate the Enigma</a><a class="cta alt" href="#/leads">Open the Lead Board</a></p></section>
     ${FAMILY_ORDER.filter(f => byFam[f]).map(f => `<section class="family"><h2>${esc(f)}</h2><div class="grid">
       ${byFam[f].map(c => `<a class="card" href="#/cipher/${esc(c.id)}"><b>${esc(c.name)}</b><small>${esc(c.era)}</small><span>${esc(c.summary)}</span></a>`).join("")}
     </div></section>`).join("")}`;
@@ -22,6 +23,7 @@ route(/^\/cipher\/([\w-]+)$/, async id => {
     <h1>${esc(c.name)}</h1>
     <p><span class="tag">${esc(c.family)}</span><span class="tag">${esc(c.era)}</span></p>
     <p class="lead">${esc(c.summary)}</p>
+    ${SIMS.includes(c.id) ? `<p><a href="#/machine/${c.id === "railfence" ? "rail" : c.id}">Operate a working model →</a></p>` : ""}
     <h2>How it works</h2><p>${esc(c.how)}</p>
     <h2>Worked example</h2>
     <div class="panel">

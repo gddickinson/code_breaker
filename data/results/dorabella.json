@@ -1,0 +1,401 @@
+{
+ "id": "dorabella",
+ "text": "KTMSCIBSFKUPHEPQPPITTPEGOGAUXBPBIGSFNSMPPMIAHBPUPIJXHEGFFGUXMXIJXMEJRAXMPIJHXASTAXISAGS",
+ "symbols": 20,
+ "agreement": [
+  {
+   "a": "AZdecrypt",
+   "b": "Orlando",
+   "pair_disagreement": 0.0176
+  },
+  {
+   "a": "AZdecrypt",
+   "b": "cipher-lab",
+   "pair_disagreement": 0.0072
+  },
+  {
+   "a": "Orlando",
+   "b": "cipher-lab",
+   "pair_disagreement": 0.0217
+  }
+ ],
+ "hypotheses": [
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "Latin",
+   "z": 5.71,
+   "score": -4.73,
+   "null_mean": -5.084,
+   "plaintext": "JLRUGATUMPDISCI VII ALLICOPOND ET ITA TUM QURIIRANSTIDIABES COMMODE RE AB ERCBHNERI AB SE CULNEAUCOU"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "Italian",
+   "z": 5.51,
+   "score": -4.749,
+   "null_mean": -5.12,
+   "plaintext": "ZGLOBCROSPM ANDAVA ACGGADIPIUMERARCRO STOLA ALCUN RA MA CHE N DISSI ME LE CHE LDHQUELACHNEDOGUEC ODIO"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "French",
+   "z": 5.26,
+   "score": -4.897,
+   "null_mean": -5.252,
+   "plaintext": "BMTNKRPNCBLESDEGE ER MME DU QU OLIPEPRUNCHNTE ET ROSPELERAISDUCCULI TIRAIT D A VOIT ER A SI ON MOI R N OU N"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "English",
+   "z": 4.62,
+   "score": -4.753,
+   "null_mean": -5.072,
+   "plaintext": "A IN AT OF S A NO BUT E D OF GUN D OUT ODOR ILL IN BOUT ERE WBFTDEEDAYLAWTWEW OR F ICINESS TEE MEN BE R CLAW T HAD S P"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "English",
+   "z": 4.48,
+   "score": -4.839,
+   "null_mean": -5.072,
+   "plaintext": "G FROM SYONGHELDEBEESFFED I WITH AYE Y S I ON CORE ERSTLYEHESPALDINNI HAR A SPAR D PUT ARE S PLATO FTASOTIO"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "Spanish",
+   "z": 4.18,
+   "score": -4.97,
+   "null_mean": -5.311,
+   "plaintext": "Y FLO JCHOSYDANTABAACF FATIVIRDEHAHCIOSMO LA AL CRNHADACUENTIS SI DE LE CUE LTUPRELACUNEROFR ECO RIO"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "French",
+   "z": 3.96,
+   "score": -4.957,
+   "null_mean": -5.23,
+   "plaintext": "AI PAR OPTAPO CURE NOPJUSNOURO NOM IL LIS COURE ME DCPRNEENAGL AIR DE DOMPIVISETTREEHES CE MBLADRFANTB"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "French",
+   "z": 3.88,
+   "score": -4.961,
+   "null_mean": -5.238,
+   "plaintext": "OAROUIDCORIT QUE SI DKQR SI QUI SI MAL LA RTIQUEMENTDUSEESOB L ON UNE NI M D A PAR ECCUEEVERTEMPLONUH OS C Y"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "Latin",
+   "z": 3.61,
+   "score": -4.859,
+   "null_mean": -5.096,
+   "plaintext": "UASUNISQUSICON ET ISHORTIONITIMALL ARCIONEMEDCSNTEETU FLUANDEDIMSABAREQQ NE EX ERCEMPLUDNZUTQP"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "Italian",
+   "z": 3.41,
+   "score": -4.839,
+   "null_mean": -5.114,
+   "plaintext": "BHLCWSVCMBRENT E DE E S HHETOPOIRAVEVSOCMK C LE E L S INVER E SUA N T OM MORA LA SUA L TU GIA LE S UNA I CHI A S CIO C"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "Latin",
+   "z": 3.34,
+   "score": -4.818,
+   "null_mean": -5.068,
+   "plaintext": "AONAUIPRANITQUEDIP WQNDIQUIDIMOCCONTI QUEM EST PUDEEDAX CASU SE SI MPOLONERRUEEVENTEM L CASU BADRH"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "English",
+   "z": 2.95,
+   "score": -4.841,
+   "null_mean": -5.055,
+   "plaintext": "AIR AT OR YAROCUTEDORMUNDOU TO DO WILL IN COUTEWESCRT DEED A PLAITS E SOW RIG IN EYYTEEVENCEWF LAST HAD Y F"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "English",
+   "z": 2.89,
+   "score": -4.898,
+   "null_mean": -5.085,
+   "plaintext": "QGN OUTS OF WHEYDEMEETGGEDIWIL HAS ESTSOFCONEENTLYSE HE TRAY DIFFIHANATRANDRB LANE TRY A DOG LA TO D IO"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "Spanish",
+   "z": 2.88,
+   "score": -4.986,
+   "null_mean": -5.29,
+   "plaintext": "ES NEIONLENORCIA DON FCTD OCIO DOY SU USTROCIAYAMRNIDAA DE VUESIMAMOYNSZST ALLI AABATRAYQUEMIPEDLQ"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "English",
+   "z": 2.88,
+   "score": -4.795,
+   "null_mean": -5.026,
+   "plaintext": "AH NAT ON LA NO CUT ET ON GUN D OUT ODOR IS S I SCOUT ERE WCNTDEE DAYS A IT WE WORN IF ICULLTEEMENWERF SAW T HAD L F"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "German",
+   "z": 2.82,
+   "score": -4.912,
+   "null_mean": -5.066,
+   "plaintext": "LMALENSTLANGHERUN SCHAUN HE NUN DMOOMAGNHERDRIGSEU RRULPOLIEIRINDSMFM ART T ER RKRAGRDFOLIEBLUTW"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "French",
+   "z": 2.79,
+   "score": -4.965,
+   "null_mean": -5.227,
+   "plaintext": "WMNIFSDITBREULEGEE S MME LA BAPRO DE D S DIT VI NE EN S PU DE RESCOULATTARO NOS C ON LCKPONESCUOLIMPOS IL AI"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "Spanish",
+   "z": 2.72,
+   "score": -5.012,
+   "null_mean": -5.302,
+   "plaintext": "WPLIXSTIRM DAN CABA ASPPA COMO UDETATSTIRVILAALS UN TA DAS Y EN CORRO DE LES Y EL C Y QUE LAS Y NECIPUESICOI"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "Latin",
+   "z": 2.7,
+   "score": -4.945,
+   "null_mean": -5.098,
+   "plaintext": "XVNABSPARXTIODIL IIS VVIDEFECTUP IPSE ARMA NIINSCOPITIS QUOD ERRETUNUSQUNDQGC UNIS QOUCAVCUS AC EA"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "English",
+   "z": 2.62,
+   "score": -4.858,
+   "null_mean": -5.087,
+   "plaintext": "DYNACTRALDM OR SO FOOT YYHPIDISMERORTIALW A NOON TSPROMOTHEPL ILL I MENE THEN SHUSETOTHPE SAY SET AS C A"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "Italian",
+   "z": 2.56,
+   "score": -4.838,
+   "null_mean": -5.097,
+   "plaintext": "UO LUI ANGULASPIECANZPL CAPI A C A ROTTO L SA PIER E MSNICEECUB TU MI ME MAR NOVO LEGGI E E DEL SE RVTUMIFUCGX"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "reversed",
+   "language": "Spanish",
+   "z": 2.5,
+   "score": -4.997,
+   "null_mean": -5.314,
+   "plaintext": "EN TE IOYLETORCIAMOYHCTM OCIO MO SNUUNTROCIASADRYIM A A ME PUEDIDADOSYNQNT ALLI A A B ATRAS QUE DIJE MLF"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "French",
+   "z": 2.49,
+   "score": -4.977,
+   "null_mean": -5.172,
+   "plaintext": "AH SA R OS PAS OTUREROSQUSMOURO MON IL L IL TOUR EN ECTSRMEEMAGL AIR CE C ON SI FI TU P PREE DES CE NFLACRHAMPF"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "Spanish",
+   "z": 2.34,
+   "score": -5.042,
+   "null_mean": -5.24,
+   "plaintext": "I Y SI NOS MIS O CUNA NOS JUSTO UNO TORELLELCO UNA RADCSNTAATIGLI EN DADOR SE PECUMMNAABAS DAR PLIDNYITMP"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "Spanish",
+   "z": 2.18,
+   "score": -5.096,
+   "null_mean": -5.288,
+   "plaintext": "UYMAZSNACUD EN LE VEES Y Y TRIUIL DON EN SI ACHAMEEMSLRNE DESTO RCICCIDOMOSTOMLTB LOS EST R O LA Y LOS AL Z A"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "Italian",
+   "z": 1.94,
+   "score": -4.865,
+   "null_mean": -5.077,
+   "plaintext": "U E RUI OR CUROTMIADORQMNDO MI ODO VEGG E N TOMI A VA STRIDA AD UBGUEISA SOVR E PENA C CI A A LA NTAVWGUSIFUDCW"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "Italian",
+   "z": 1.63,
+   "score": -4.917,
+   "null_mean": -5.073,
+   "plaintext": "PVLRFTSRCP ME SIEDE E T V V UNO POI MA SESTO RCHR LE E L TINSE ME TUA N COCCO MA LA TUA LI U GIA TE T UNA IR VIA TRIFR"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "reversed",
+   "language": "German",
+   "z": 1.35,
+   "score": -4.984,
+   "null_mean": -5.078,
+   "plaintext": "UARUN ER ZUR EH INS DER MICDEINEDET ALL ACH EINST SGHRNDSSDUBLU AN GSGETRAPACSZZNS SO SCHSTFLUGNJUDZF"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "French",
+   "z": 1.35,
+   "score": -5.054,
+   "null_mean": -5.171,
+   "plaintext": "PTRIGNUILP DE USE ME EN TTCHA PAS DOUE UN A IL VIREERNSHUED EN C OH LA L LA D OR ON CORS CK SON EN CHOSITSONISGI"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "Italian",
+   "z": 1.17,
+   "score": -4.916,
+   "null_mean": -5.015,
+   "plaintext": "RF ARSO AVRA O UN SE SOAGNA CON SO COM IL LI L UO N SEME TUA SCEECRYLRISTET OMAI PIU N V V SE E DE A TEMP LRTSFRCVP"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "Latin",
+   "z": 1.06,
+   "score": -4.971,
+   "null_mean": -5.052,
+   "plaintext": "BSCRVETROBLATU AD AAESSMNPBPULITATE PRO GRCAACEUNTALAEM IN OPOOPLICI EMI CUM QUI EA EMNIURSUIERUVR"
+  },
+  {
+   "transcription": "AZdecrypt",
+   "direction": "forward",
+   "language": "German",
+   "z": 0.73,
+   "score": -5.035,
+   "null_mean": -5.095,
+   "plaintext": "VOM HBISHWVGT DA TZTTIOOTACPCRGEST SICH WUHMTT MIR DSTGTINEDACWWCGE MEINEM AN FREMT IN DER HORE IHR CH"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "German",
+   "z": 0.71,
+   "score": -4.988,
+   "null_mean": -5.048,
+   "plaintext": "AM NATENLANEWITUTEN BIN ZEIT EZERSHHSH WEIT URUDWNTZUUZAG HAST DU DER NSCSWILLTUUFUN DURCH ADTMAZLC"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "reversed",
+   "language": "Latin",
+   "z": 0.54,
+   "score": -4.98,
+   "null_mean": -5.016,
+   "plaintext": "RVERSAELREANUSISA EQUE CAUSA CATOGGOGNAU SIT IMNESCIICRYGROSMIM AT EO PONULLSII DIEM ITPGRMSVRCLP"
+  },
+  {
+   "transcription": "Orlando",
+   "direction": "forward",
+   "language": "German",
+   "z": 0.33,
+   "score": -5.061,
+   "null_mean": -5.08,
+   "plaintext": "BDMHONTHSBLUTIU ZU UND DGRABAILE TUT NAH SCHMUUMNIRTULUN GER SASS ALEMENGEMIG WIE NUN GREIHDIENHIOH"
+  },
+  {
+   "transcription": "cipher-lab",
+   "direction": "forward",
+   "language": "German",
+   "z": 0.24,
+   "score": -5.062,
+   "null_mean": -5.078,
+   "plaintext": "KGRCZN ICH UBELS EMEENGGESTUTDBAI EIN ICH WCREERND LIEBEN FALSTHHTBARANFARSF O DA RENFLASCGDANCSTC"
+  }
+ ],
+ "controls": {
+  "English": {
+   "accuracies": [
+    1.0,
+    1.0,
+    0.989
+   ],
+   "mean": 0.996
+  },
+  "French": {
+   "accuracies": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "mean": 1.0
+  },
+  "German": {
+   "accuracies": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "mean": 1.0
+  },
+  "Italian": {
+   "accuracies": [
+    0.989,
+    1.0,
+    1.0
+   ],
+   "mean": 0.996
+  },
+  "Spanish": {
+   "accuracies": [
+    0.989,
+    0.977,
+    1.0
+   ],
+   "mean": 0.989
+  },
+  "Latin": {
+   "accuracies": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "mean": 1.0
+  }
+ },
+ "tests": 36,
+ "verdict": "Candidate signal (z=5.7 over a bar of 5.6). Needs independent human reading before any claim.",
+ "runtime_s": 52.9
+}

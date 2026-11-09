@@ -1,0 +1,575 @@
+{{Short description|Writing and symbol systems without accepted decipherments}}
+{{Multiple issues|
+{{More citations needed|date=February 2026}}
+{{Cleanup rewrite|date=February 2026}}
+}}
+[[File:Indus script.jpg|thumb|Seals showing the [[Indus script]], an ancient undeciphered script]]
+
+'''Undeciphered writing systems''' are any written or inscribed symbols for which no [[decipherment]] has achieved broad acceptance in the specialist literature.<ref name="Adiego2024">{{cite book
+ |last=Adiego
+ |first=Ignasi-Xavier
+ |chapter=Deciphering a Writing System: Luck, Intuition, or Method?
+ |title=Writing from Invention to Decipherment
+ |editor-last1=Ferrara
+ |editor-first1=Silvia
+ |editor-last2=Montecchi
+ |editor-first2=Barbara
+ |editor-last3=Valério
+ |editor-first3=Miguel
+ |publisher=Oxford University Press
+ |date=2024
+ |pages=107–139
+ |doi=10.1093/oso/9780198908746.003.0007
+ |chapter-url=https://academic.oup.com/book/58672/chapter/485388064
+ |chapter-url-access=subscription
+ |access-date=2026-02-07
+}}</ref> 
+
+While most examples are ancient, a small number are [[Middle Ages|medieval]] or modern.<ref name="Adiego2024" /> In some cases the evidence is too limited to determine whether the marks represent a true writing system, a form of [[proto-writing]], or a set of non-linguistic symbols; modern artistic traditions such as [[asemic writing]] likewise imitate the appearance of writing while intentionally withholding stable linguistic meaning.<ref>{{cite book
+ |last=Schwenger |first=Peter
+ |title=Asemic: The Art of Writing
+ |publisher=University of Minnesota Press
+ |date=2019
+ |isbn=978-1-5179-0697-9
+ |url=https://www.upress.umn.edu/9781517906979/asemic/
+ |access-date=2026-02-07
+}}</ref> It is not clear all these cases were intended as writing systems with linguistic function or representation, and some inscribed symbols or characters may have other explanations such as being artwork.<ref>Silvia Ferrara, Barbara Montecchi & Miguel Valério, “In search of lost signs: a new approach to the issue of writing and non-writing on Cretan hieroglyphic seals,” Oxford Journal of Archaeology 42 (2023).</ref>
+
+Difficulties in decipherment commonly arise from one or more of the following: the absence of [[Multilingualism|bilingual]] texts or other external "anchors" (such as securely identifiable names or dates); uncertain or unknown underlying languages (including possible [[language isolate]]s); small [[Text corpus|corpora]]; and damage or loss of archaeological context needed to test proposed readings against use and genre.<ref name="Adiego2024" /> In some corpora, an additional difficulty is uncertainty over whether the signs constitute writing at all (as has often been argued for the [[Vinča symbols]]).<ref>{{cite book
+ |last1=Lazarovici |first1=Gheorghe
+ |last2=Merlini |first2=Marco
+ |chapter=Tărtăria Tablets: The Latest Evidence in an Archaeological Thriller
+ |title=Western-Pontic Culture Ambience and Pattern: In Memory of Eugen Comsa
+ |editor-last=Nikolova |editor-first=Lolita
+ |location=Warsaw, Poland
+ |publisher=De Gruyter Open Poland
+ |date=2016
+ |pages=53–142
+}}</ref>
+
+Various decipherment claims have been proposed for several items listed here (including the [[Indus script]], the [[Phaistos Disc]], and the [[Isthmian script|Isthmian/Epi-Olmec script]]), but these proposals remain disputed and have not achieved broad acceptance in the scholarly literature unless otherwise noted.<ref name="Kenoyer2006">{{cite book
+ |last=Kenoyer |first=J. M.
+ |chapter=The Origin, Context and Function of the Indus Script: Recent Insights from Harappa
+ |title=Proceedings of the Pre-symposium and the 7th ESCA Harvard–Kyoto Roundtable
+ |editor-last=Osada |editor-first=Toshiki
+ |location=Kyoto
+ |publisher=Research Institute for Humanity and Nature
+ |date=2006
+ |pages=9–27
+|url=https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf
+ |access-date=2026-02-07
+}}</ref><ref>{{cite book
+ |last=Baldacci
+ |first=Giorgia
+ |chapter=The Phaistos Disc: Placing an Enigmatic Artefact in its Cultural Context
+ |title=Writing from Invention to Decipherment
+ |editor-last1=Ferrara
+ |editor-first1=Silvia
+ |editor-last2=Montecchi
+ |editor-first2=Barbara
+ |editor-last3=Valério
+ |editor-first3=Miguel
+ |publisher=Oxford University Press
+ |date=2024
+ |pages=155–170
+ |doi=10.1093/oso/9780198908746.003.0009
+ |chapter-url=https://academic.oup.com/book/58672/chapter/485388307
+ |chapter-url-access=subscription
+ |access-date=2026-02-07
+}}</ref>
+
+==Inclusion criteria==
+This list includes writing systems and sign systems that are commonly described in reliable secondary sources as undeciphered, not fully deciphered, or of uncertain decipherment. Items of disputed authenticity or disputed status as writing are explicitly identified as such.
+
+==Proto-writing==
+Certain forms of [[proto-writing]] remain undeciphered and, because of limited evidence and uncertain linguistic affiliation, may never be deciphered.
+
+===Neolithic signs in China===
+====Yellow River civilization====
+{{See also|Yellow River civilization}}
+* [[Jiahu symbols]] – [[Peiligang culture]], {{circa|6600|6200 BCE}}.<ref>{{cite book
+ |editor-last1=Underhill |editor-first1=Anne P.
+ |last1=Zhang |first1=Juzhong
+ |last2=Cui |first2=Qilong
+ |chapter=The Jiahu Site in the Huai River Area
+ |title=A Companion to Chinese Archaeology
+ |date=2013
+ |publisher=John Wiley & Sons
+ |isbn=978-1-118-32578-0
+ |page=248
+ |url=https://books.google.com/books?id=I3XG3H_WlM8C&q=inscribed%20symbols
+}}</ref><ref>{{cite book
+ |last=Demattè |first=Paola
+ |title=The Origins of Chinese Writing
+ |date=2022
+ |publisher=Oxford University Press
+ |isbn=9780197635766
+ |chapter=Early and Middle Neolithic Signs to the Fourth Millennium BCE
+ |pages=99–148
+ |chapter-url=https://academic.oup.com/book/44721/chapter/378848667
+ |doi=10.1093/oso/9780197635766.003.0005
+}}</ref>
+* [[Damaidi symbols]] – [[Damaidi]], earliest estimated dates range from the [[Paleolithic]] to approximately 3000 years ago.{{citation needed|date=February 2026}}
+* [[Dadiwan symbols]] – [[Dadiwan]], {{circa|5800|5400 BCE}}.{{citation needed|date=February 2026}}
+* [[Banpo symbols]] – [[Yangshao culture]], 5th millennium BCE.<ref>{{cite book
+ |last=Woon |first=Wee Lee
+ |date=1987
+ |title=漢字的原始和演變
+ |trans-title=Chinese Writing: Its Origin and Evolution
+ |language=zh
+ |publisher=University of East Asia
+ |location=Macau
+ |pages=275–276
+}}</ref>
+* [[Jiangzhai symbols]] – [[Yangshao culture]], 4th millennium BCE.{{citation needed|date=February 2026}}
+* [[Dawenkou symbols]] – [[Dawenkou culture]], {{circa|2800|2500 BCE}}.<ref>{{cite book
+ |last=Qiu |first=Xigui
+ |title=Chinese Writing
+ |publisher=Society for the Study of Early China and The Institute of East Asian Studies, University of California
+ |location=Berkeley
+ |year=2000
+ |isbn=978-1-55729-071-7
+ |translator1-last=Mattos |translator1-first=Gilbert L.
+ |translator2-last=Norman |translator2-first=Jerry
+ |orig-date=1988
+ |page=33
+}}</ref>
+* [[Longshan symbols]] – [[Longshan culture]], {{circa|2500|1900 BCE}}.<ref name="Tan">{{cite book
+ |last=Tan |first=Shengmin
+ |title=壮泰民族传统文化比较研究
+ |trans-title=A Comprehensive Comparative Study on Zhuang and Thai Nationalities' Traditional Culture
+ |volume=II
+ |publisher=Guangxi People's Publishing House
+ |year=2003
+ |isbn=978-7-219-04915-0
+ |language=zh
+ |pages=798–799
+}}</ref><ref name="Liang">{{cite book
+ |last=Liang |first=Tingwang
+ |title=壮族文化概论
+ |trans-title=Overview of the Culture of the Zhuang People
+ |publisher=Guangxi Educational Publishing House
+ |year=2000
+ |isbn=978-7-5435-2992-2
+ |language=zh
+ |pages=496–498
+}}</ref><ref name="Zhuang1993">{{cite book
+ |author=Encyclopedia of the Zhuang Ethnicity Editorial Committee
+ |title=壮族百科辞典
+ |trans-title=Encyclopedia of the Zhuang Ethnicity
+ |chapter=本源书
+ |trans-chapter=Sawgoek
+ |publisher=Guangxi People's Publishing House
+ |date=April 1993
+ |isbn=978-7-219-02476-8
+ |language=zh
+}}</ref>
+
+====Yangtze civilization====
+{{See also|Yangtze civilization}}
+* [[Wucheng symbols]] – [[Wucheng culture]], China, {{circa|1600 BCE}}.{{citation needed|date=February 2026}}
+
+====Other areas====
+* [[Sawgoek|Sawveh]] – [[Guangxi]], China; reported as possible proto-writing or writing in some local traditions and secondary sources; status as a historical writing system is uncertain.<ref name="Zhuang1993" />
+
+<gallery>
+File:Jiahu writing.svg|Jiahu symbols
+File:Banpo pottery symbols.svg|Banpo symbols
+File:Eleven characters found at Dinggong in Shandong.svg|Longshan symbols
+File:出土刻画文示例.png|Sawveh
+</gallery>
+
+===Neolithic signs in Europe===
+* [[Vinča symbols]] – [[Neolithic Europe]] (Central and Southeastern Europe), {{circa|4500|4000 BCE}}. Often treated as proto-writing or symbolic marks rather than confirmed writing.<ref>{{cite book
+ |last1=Lazarovici |first1=Gheorghe
+ |last2=Merlini |first2=Marco
+ |chapter=Tărtăria Tablets: The Latest Evidence in an Archaeological Thriller
+ |title=Western-Pontic Culture Ambience and Pattern: In Memory of Eugen Comsa
+ |editor-last=Nikolova |editor-first=Lolita
+ |location=Warsaw, Poland
+ |publisher=De Gruyter Open Poland
+ |date=2016
+ |pages=53–142
+}}</ref><ref>{{cite journal
+ |last=Owens |first=Gareth A.
+ |date=1999
+ |title=Balkan Neolithic Scripts
+ |journal=Kadmos
+ |volume=38
+ |issue=1–2
+ |pages=114–120
+ |doi=10.1515/kadm.1999.38.1-2.114
+ |s2cid=162088927
+}}</ref>
+
+<gallery>
+File:Vinca vessel.png|Vinča symbols
+</gallery>
+
+==Asian scripts==
+===South Asia===
+* [[Indus script]] – {{circa|2800|1900 BCE}}.<ref>{{cite journal
+ |last1=Shinde |first1=Vasant
+ |last2=Willis |first2=Rick J.
+ |title=A New Type of Inscribed Copper Plate from Indus Valley (Harappan) Civilisation
+ |journal=Ancient Asia
+ |volume=5
+ |year=2014
+ |doi=10.5334/aa.12317
+ |doi-access=free
+ |url=https://ancient-asia-journal.com/upload/1/volume/Vol.%205%20%282014%29/Paper/63-1-725-1-10-20141008.pdf
+}}</ref><ref>{{cite book
+ |last=Bryant |first=Edwin Francis
+ |title=The Quest for the Origins of Vedic Culture: The Indo-Aryan Migration Debate
+ |date=2001
+ |publisher=Oxford University Press
+ |isbn=978-0-19-513777-4
+ |page=178
+ |doi=10.1093/0195137779.001.0001
+}}</ref><ref name="Kenoyer2006"/>
+* [[Vikramkhol Cave Inscription|Vikramkhol inscription]] – {{circa|1500 BCE}}.{{citation needed|date=February 2026}}
+* [[Megalithic graffiti symbols]] – {{circa|1000 BCE|300 CE}}; proposed as possible writing and sometimes hypothesized as related to the Indus tradition, though this remains debated.<ref>{{cite journal
+ |last=Lal |first=B. B.
+ |year=1962
+ |title=From the Megalithic to Harappa: Tracing Back the Graffiti on the Pottery
+ |journal=Ancient India: Bulletin of the Archaeological Survey of India
+ |volume=16
+ |pages=21–24
+}}</ref>
+* [[Pushkarasari script]] – [[Gandhara]], 3rd century BCE to 8th century CE.{{citation needed|date=February 2026}}
+* [[Shankhalipi]] – {{circa|4th|8th}} century CE.{{citation needed|date=February 2026}}
+
+<gallery>
+File:Indus script.jpg|Indus script
+File:Bikramkhol .jpg|Vikramkhol inscription
+File:Kohi or Pushkarasari M Nasim Khan.jpg|Pushkarasari script
+File:Inscr detail.jpg|Shankhalipi
+</gallery>
+
+===West Asia===
+* [[Proto-Elamite script]] – {{circa|3100|2900 BCE}}.<ref>{{cite journal
+ |last1=Yeganeh |first1=Sepideh Jamshidi
+ |last2=Holakooei |first2=Parviz
+ |last3=Nokandeh |first3=Jebrael
+ |last4=Piran |first4=Sedigheh
+ |last5=Dahl |first5=Jacob L.
+ |date=2025
+ |title=Complexity of proto-elamite administration system: Insights from compositional data from sealings and tablets
+ |journal=Journal of Archaeological Science: Reports
+ |volume=61
+ |article-number=104973
+ |doi=10.1016/j.jasrep.2025.104973
+|bibcode=2025JArSR..61j4973J
+ }}</ref>
+* [[Jiroft culture#Writing system|Jiroft script]] – {{circa|2200 BCE}}.{{citation needed|date=February 2026}}
+* [[Byblos syllabary]] – Byblos, {{circa|1700 BCE}}.<ref>{{Cite web |title=The Byblos syllabary |url=https://www.abjads.org/byblos-syllabary/}}</ref>
+* [[Trojan script]] – Troy (Early Bronze Age); status disputed and it is unclear whether the marks constitute a single writing system or writing at all.<ref>{{cite book
+ |last=Waal |first=Willemijn
+ |chapter=How to Read the Signs: The Use of Symbols, Markings and Pictographs in Bronze Age Anatolia
+ |editor-last1=Jasink |editor-first1=Anna Margherita
+ |editor-last2=Weingarten |editor-first2=Judith
+ |editor-last3=Ferrara |editor-first3=Silvia
+ |title=Non-scribal Communication Media in the Bronze Age Aegean and Surrounding Areas: The Semantics of a-literate and Proto-literate Media
+ |publisher=Firenze University Press
+ |year=2017
+ |pages=111–129
+}}</ref>
+
+<gallery>
+File:Proto-Elamite tablet.jpg|Proto-Elamite script
+File:Byblos syll spat e.png|Byblos syllabary
+</gallery>
+
+===East Asia===
+* [[Ba–Shu scripts]] – 5th to 4th century BCE.{{citation needed|date=February 2026}}
+* [[Khitan large script]] and [[Khitan small script]] – [[Khitan language|Khitan]], 10th century; partially understood but not fully deciphered.{{citation needed|date=February 2026}}
+
+<gallery>
+File:Mao spearhead with Ba symbols.jpg|Ba script
+File:Liao Shangjing Khitan Large Script Fragment.jpg|Khitan large script
+File:Khitan Small Script Bronze Mirror.JPG|Khitan small script
+</gallery>
+
+* [[Singapore Stone]] – fragment of a [[sandstone]] slab inscribed with an ancient Southeast Asian script, possibly [[Old Javanese language|Old Javanese]] or [[Sanskrit]]; at least 13th century, possibly as early as 10th–11th century.{{citation needed|date=February 2026}}
+
+<gallery>
+File:SingaporeStone-bwphoto.jpg|Singapore Stone
+</gallery>
+
+===Central Asia===
+* [[Bactria–Margiana Archaeological Complex#Writing|Oxus script]] – {{circa|2200 BCE}}.{{citation needed|date=February 2026}}
+* [[Issyk inscription]] – Kazakhstan, {{circa|4th century BCE}}.<ref name="Bonmann et al.">{{Cite journal |last1=Bonmann |first1=Svenja |last2=Halfmann |first2=Jakob |last3=Korobzow |first3=Natalie |last4=Bobomulloev |first4=Bobomullo |title=A Partial Decipherment of the Unknown Kushan Script |url=https://onlinelibrary.wiley.com/doi/10.1111/1467-968X.12269 |journal=[[Transactions of the Philological Society]] |date=2023 |volume=121 |issue=2 |pages=293–329|doi=10.1111/1467-968X.12269 |s2cid=259851498 |doi-access=free }}</ref>
+* [[Kushan script]] – {{circa|2nd century BCE|7th century CE}}; partially deciphered, with recent proposals identifying a substantial portion of the sign inventory and phonetic values in the scholarly literature.<ref>{{cite journal
+ |last1=Carrara |first1=Elisa
+ |last2=Stolbunova |first2=Vera
+ |last3=de la Vaissière |first3=Étienne
+ |title=The decipherment of the 'unknown Kushan' script
+ |journal=Transactions of the Philological Society
+ |date=2023
+ |doi=10.1111/1467-968X.12255
+|doi-access=free
+ }}</ref>
+
+<gallery>
+File:Issyk inscription.png|Issyk inscription
+</gallery>
+
+==European scripts==
+
+[[File:Voynich Manuscript (32).jpg|thumb|Page 32 of the [[Voynich manuscript]], a medieval manuscript written with an undeciphered writing system]]
+
+* [[Cretan hieroglyphs]] – {{circa|2100 BCE}}.<ref>{{cite book
+ |last1=Civitillo |first1=Matilde
+ |last2=Ferrara |first2=Silvia
+ |last3=Meissner |first3=Torsten
+ |chapter=Introduction
+ |title=The Earliest Script on Crete: Semiotics, Linguistics, Archaeology and Palaeography, Cretan Hieroglyphic
+ |publisher=Cambridge University Press
+ |date=2024
+ |pages=1–12
+ |url=https://cris.unibo.it/bitstream/11585/991459/1/Cretan%20Hieroglyphic_CUP_INTRO.pdf
+}}</ref><ref>{{cite book
+ |last=Yule |first=Paul
+ |title=Early Cretan Seals: A Study of Chronology
+ |series=Marburger Studien zur Vor- und Frühgeschichte 4
+ |location=Mainz
+ |year=1981
+ |isbn=3-8053-0490-0
+ |doi=10.11588/diglit.3044
+ |url=https://digi.ub.uni-heidelberg.de/diglit/yule1981
+}}</ref><ref>{{cite book
+ |last=Castleden |first=Rodney
+ |title=Minoans: Life in Bronze Age Crete
+ |publisher=Routledge
+ |year=2002
+ |page=100
+ |isbn=978-1-134-88064-5
+}}</ref>
+* [[Linear A]] – {{circa|1800|1450 BCE}}; the sign values are often transcribed using correspondences with [[Linear B]], but the underlying language remains unknown and most texts are not understood.<ref>{{cite encyclopedia
+ |last=Salgarella |first=Ester
+ |title=Linear A
+ |encyclopedia=Oxford Classical Dictionary
+ |publisher=Oxford University Press
+ |year=2022
+ |doi=10.1093/acrefore/9780199381135.013.8927
+ |doi-broken-date=8 February 2026
+ |isbn=978-0-19-938113-5
+ |url=https://oxfordre.com/classics/display/10.1093/acrefore/9780199381135.001.0001/acrefore-9780199381135-e-8927
+ |url-access=subscription
+}}</ref>
+* [[Phaistos Disc]] – {{circa|1850|1300 BCE}}; no consensus decipherment, though numerous proposals exist.<ref>{{cite book
+ |last=Duhoux |first=Yves
+ |title=Le disque de Phaestos
+ |language=fr
+ |trans-title=The Phaistos Disc
+ |location=Leuven
+ |date=1977
+}}</ref><ref>{{cite book
+ |last1=Achterberg |first1=Winfried
+ |last2=Best |first2=Jan
+ |last3=Enzler |first3=Kees
+ |last4=Rietveld |first4=Lia
+ |last5=Woudhuizen |first5=Fred
+ |title=The Phaistos Disc: A Luwian Letter to Nestor
+ |series=Publications of the Henry Frankfort Foundation
+ |volume=13
+ |date=2004
+ |isbn=978-90-72067-11-1
+}}</ref>
+* [[Cypro-Minoan syllabary]] – {{circa|1550 BCE}}.<ref name="Palaima">{{cite book
+ |last=Palaima |first=Thomas G.
+ |chapter=Cypro-Minoan Scripts: Problems of Historical Context
+ |title=Problems in Decipherment
+ |editor-last1=Duhoux |editor-first1=Yves
+ |editor-last2=Palaima |editor-first2=Thomas G.
+ |editor-last3=Bennet |editor-first3=John
+ |year=1989
+ |publisher=Peeters
+ |location=Louvain-La-Neuve
+ |isbn=90-6831-177-8
+ |pages=121–188
+ |chapter-url=https://books.google.com/books?id=TanjAHRuJt4C
+}}</ref>
+* [[Grakliani Hill|Grakliani Hill script]] – [[Grakliani Hill]], {{circa|11th|10th century BCE}}.<ref name="NatGeo">{{cite web|url=http://news.nationalgeographic.com/2015/09/150916-caucasus-writing-republic-of-georgia-grakliani-iron-age/|archive-url=https://web.archive.org/web/20150917173309/http://news.nationalgeographic.com/2015/09/150916-caucasus-writing-republic-of-georgia-grakliani-iron-age/|url-status=dead|archive-date=September 17, 2015|title=Ancient Script Spurs Rethinking of Historic 'Backwater'|first=Tara Isabella |last=Burton|work=[[National Geographic (magazine)|National Geographic]]|date=16 September 2015}}</ref>
+* [[Paleohispanic scripts]] – several scripts are partly deciphered (sign values largely known), but many inscriptions and underlying languages remain only partly understood; inclusion and degree of decipherment vary by script.{{citation needed|date=February 2026}}
+** [[Southwest Paleohispanic script]] – from {{circa|700 BCE}}.<ref>{{cite journal
+ |last=Valério |first=Miguel
+ |date=2014
+ |title=The Interpretative Limits of the Southwestern Script
+ |journal=Journal of Indo-European Studies
+ |volume=42
+ |issue=3/4
+ |pages=439–467
+ |id={{ProQuest|1628229756}}
+}}</ref>
+* [[Sitovo inscription]] – {{circa|300|100 BCE}}.<ref>{{cite journal
+ |last=Vassileva |first=Maya
+ |date=1999
+ |title=A Few Phrygian Onomastic Notes
+ |journal=Epigraphica Anatolica
+ |volume=31
+ |pages=175–180
+ |issn=0174-6545
+}}</ref>
+* [[Alekanovo inscription]] – {{circa|10th|11th century CE}}.{{citation needed|date=February 2026}}
+* [[Rohonc Codex]] – 17th–19th centuries.{{citation needed|date=February 2026}}
+* [[Voynich manuscript]] – radiocarbon dated (parchment) to the early 15th century.<ref>{{cite web
+ |last=Stolte |first=Daniel
+ |date=2011-02-10
+ |title=Experts determine age of book 'nobody can read'
+ |url=https://phys.org/news/2011-02-experts-age.html
+ |website=Phys.org
+ |access-date=2026-02-07
+}}</ref>
+* An inscription in the Pisa Baptistery – a short medieval religious inscription attested in Tuscany; the script/language and interpretation remain debated in the literature.<ref>{{cite journal
+ |last1=Vicari |first1=Stefano
+ |last2=Perono Cacciafoco |first2=Francesco
+ |date=2023
+ |title=A Puzzling Religious Inscription from Medieval Tuscany: Symbology and Interpretation
+ |journal=Histories
+ |volume=3
+ |issue=3
+ |pages=219–230
+ |doi=10.3390/histories3030015
+ |doi-access=free
+ }}</ref>
+
+<gallery>
+File:Pini-plombe-orig-II2 316d 3.2.jpg|Cretan hieroglyphs
+File:Crete - Phaistos disk - side A.JPG|Phaistos disc
+File:Chania Museum Linear-A-Inschrift 01.jpg|Linear A
+File:Tablet cypro-minoan 2 Louvre AM2336.jpg|Cypro-Minoan syllabary
+File:Southwest Iberian script (Valerio 2008).png|[[Southwest Paleohispanic script]]
+File:Sitovski nadpis.JPG|Sitovo inscription
+</gallery>
+
+==African scripts==
+===North Africa===
+* [[The Starving of Saqqara]] – a privately held sculpture claimed to be ancient and bearing an unidentified inscription; provenance and authenticity have been questioned, and the markings are not securely established as an ancient writing system.<ref>{{cite web
+ |date=2011-03-16
+ |title=CSI Montreal: Concordia sculpture investigation: Rare find or modern forgery?
+ |url=https://www.eurekalert.org/news-releases/799735
+ |website=EurekAlert!
+ |access-date=2026-02-07
+}}</ref>
+* [[Wadi el-Hol inscriptions]] – Egypt; early alphabetic inscriptions (often dated to the late Middle Kingdom, roughly early 2nd millennium BCE) with proposed readings but no universally accepted full decipherment; frequently discussed in relation to [[Proto-Sinaitic script]].<ref>{{cite web
+ |last=Darnell |first=John Coleman
+ |title=Wadi el-Hôl
+ |url=https://escholarship.org/uc/item/1sd2j49d
+ |website=UCLA Encyclopedia of Egyptology
+ |date=May 2013
+ |access-date=2026-02-07
+}}</ref><ref>{{cite web
+ |title=Two Early Alphabetic Inscriptions from the Wadi el-Hol: New Evidence for the Origin of the Alphabet from the Western Desert of Egypt
+ |url=https://nelc.yale.edu/publications/two-early-alphabetic-inscriptions-wadi-el-hol-new-evidence-origin-alphabet-western
+ |website=Yale University, Near Eastern Languages & Civilizations
+ |date=2006
+ |access-date=2026-02-07
+}}</ref>
+
+===Sub-Saharan Africa===
+* [[Eghap script]] – [[Cameroon]], {{circa|1900}}; partially deciphered.{{citation needed|date=February 2026}}
+* [[Ancient inscriptions in Somalia]] – inscriptions reported on ''Taalo Tiiriyaad'' structures; independent archaeological verification and interpretation vary in the literature.<ref>{{cite book
+ |author=Ministry of Information and National Guidance (Somalia)
+ |title=The Writing of the Somali Language: A Great Landmark in Our Revolutionary History
+ |publisher=Ministry of Information and National Guidance
+ |location=Mogadishu
+ |year=1974
+ |url=https://books.google.com/books?id=v-GwAAAAIAAJ
+}}</ref>
+
+==American scripts==
+===Andean region===
+* [[Quipu]] – Knotted-cord recording devices used in the [[Inca Empire]] and by several earlier Andean societies such as the [[Wari culture|Wari]], with possible precursors in [[Paracas culture|Paracas]] and [[Caral–Supe civilization|Caral-Supe]]. Quipus continued to be used in certain regions during the early European colonial period and, in limited contexts, into the modern era. They are widely accepted as record-keeping devices, but whether they constitute writing (and what kind) remains debated. Some recent scholarship argues particular colonial-period quipu assemblages display features consistent with logosyllabic encoding and proposes tentative readings of specific elements. However, these claims remain controversial and do not have broad support.<ref>{{cite journal
+ |last=Hyland |first=Sabine
+ |date=2017
+ |title=Writing with Twisted Cords: The Inscriptive Capacity of Andean Khipus
+ |journal=Current Anthropology
+ |volume=58
+ |issue=3
+ |pages=412–419
+ |doi=10.1086/691682
+ |url=https://research-repository.st-andrews.ac.uk/bitstream/handle/10023/12326/Hyland_2017_CA_TwistedCords_AAM.pdf
+}}</ref> In another case, six early colonial [[Santa Valley quipus|quipus from the Santa Valley]], Peru, have been correlated with a contemporaneous Spanish administrative document, making the connection a possible test case for linking quipus to alphabetic texts.<ref>{{Cite journal |last1=Medrano |first1=Manuel |last2=Urton |first2=Gary |date=2018-01-01 |title=Toward the Decipherment of a Set of Mid-Colonial Khipus from the Santa Valley, Coastal Peru |url=https://read.dukeupress.edu/ethnohistory/article-abstract/65/1/1/133085/Toward-the-Decipherment-of-a-Set-of-Mid-Colonial?redirectedFrom=fulltext |journal=Ethnohistory |language=en |volume=65 |issue=1 |pages=1–23 |doi=10.1215/00141801-4260638 |issn=0014-1801 |archive-url=https://web.archive.org/web/20250711065742/https://read.dukeupress.edu/ethnohistory/article-abstract/65/1/1/133085/Toward-the-Decipherment-of-a-Set-of-Mid-Colonial?redirectedFrom=fulltext |archive-date=2025-07-11|url-access=subscription }}</ref><ref>{{Cite journal |last=FitzPatrick |first=Mackinley |date=2024-10-01 |title=New Insights on Cord Attachment and Social Hierarchy in Six Khipus from the Santa Valley, Peru |url=https://read.dukeupress.edu/ethnohistory/article-abstract/71/4/443/391504/New-Insights-on-Cord-Attachment-and-Social?redirectedFrom=fulltext |journal=Ethnohistory |language=en |volume=71 |issue=4 |pages=443–469 |doi=10.1215/00141801-11266328 |issn=0014-1801 |archive-url=https://web.archive.org/web/20251208040522/https://read.dukeupress.edu/ethnohistory/article-abstract/71/4/443/391504/New-Insights-on-Cord-Attachment-and-Social?redirectedFrom=fulltext |archive-date=2025-12-08}}</ref>
+
+<gallery>
+File:Inca Quipu.jpg|Quipu
+</gallery>
+
+===Mesoamerica===
+* [[Olmec hieroglyphs|Olmec hieroglyphs]] – {{circa|1000|400 BCE}}; sometimes proposed as a "mother script" of other Mesoamerican writing systems, though the evidence and relationships remain debated.<ref>{{cite book
+ |last=Uriarte |first=María Teresa
+ |title=Olmecas
+ |language=es
+ |publisher=Universidad Nacional Autónoma de México
+ |date=2018
+ |isbn=978-88-16-60514-5
+ |url=https://books.google.com/books?id=DmirtAEACAAJ
+}}</ref>
+* [[Zapotec script|Zapotec hieroglyphs]] – {{circa|500 BCE|800 CE}}; often described as logosyllabic, with varying degrees of interpretation.<ref>{{Cite book |last=Frizzi |first=María de los Angeles Romero |url=https://books.google.com/books?id=x2NmVE7BvpgC&dq=escritura+zapoteca&pg=PA466 |title=Escritura zapoteca: 2,500 años de historia |date=2003 |publisher=CIESAS |isbn=978-970-701-326-1 |language=es}}</ref>
+* Ñuiñe hieroglyphs – {{circa|400|800 CE}}; similar to Zapotec and possibly an offshoot in the Mixteca Baja; often described as logosyllabic.<ref name=":0">{{Cite book |last1=Clemmensen |first1=Mikkel Bøg |url=https://books.google.com/books?id=tC3EEAAAQBAJ&q=western+mesoamerican+calendars+and+writing+systems |title=Western Mesoamerican Calendars and Writing Systems: Proceedings of the Copenhagen Roundtable |last2=Helmke |first2=Christophe |date=2023-06-08 |publisher=Archaeopress Publishing Ltd |isbn=978-1-80327-486-7 |language=en}}</ref>
+* [[Isthmian script|Isthmian (Epi-Olmec) hieroglyphs]] – {{circa|400 BCE|500 CE}}; partial readings have been proposed, but the overall decipherment remains disputed.<ref>{{Cite book |last=Macri |first=Martha J. |url=https://books.google.com/books?id=ygiL0QEACAAJ |title=The Isthmian Script: Deciphering Ancient Mesoamerican Writing |date=2026 |publisher=University of Oklahoma Press |isbn=978-0-8061-9609-1 |language=en}}</ref>
+* [[Mesoamerican writing systems|Izapan hieroglyphs]] – [[Mesoamerican chronology|Late Preclassic]]; often proposed as related to Isthmian traditions and later Lowland Maya developments; status remains uncertain.<ref>{{cite book
+ |last=Pool |first=Christopher
+ |title=Olmec Archaeology and Early Mesoamerica
+ |publisher=Cambridge University Press
+ |date=2007-02-26
+ |isbn=978-0-521-78312-5
+ |url=https://books.google.com/books?id=hXmfpr08JPUC&pg=PA277
+}}</ref>
+* [[Mesoamerican writing systems|Teotihuacan hieroglyphs]] – {{circa|100 BCE|700 CE}}; sometimes described as partially logosyllabary and partially a pictography; its relationship to earlier traditions is debated. Descendants include the Mixteca-Puebla Postclassic tradition.''<ref>{{Cite journal |last1=Pharao Hansen |first1=Magnus |last2=Helmke |first2=Christophe |date=October 2025 |title=The Language of Teotihuacan Writing |url=https://www.journals.uchicago.edu/doi/abs/10.1086/737863 |journal=[[Current Anthropology]] |volume=66 |issue=5 |pages=705–739 |doi=10.1086/737863 |issn=0011-3204|url-access=subscription }}</ref>''
+* Classic Gulf Coast hieroglyphs – Early Classic to Early Postclassic; often discussed as related to central Mexican traditions.<ref>{{cite book
+ |last1=Peregrine |first1=Peter N.
+ |last2=Ember |first2=Melvin
+ |title=Encyclopedia of Prehistory: Volume 5: Middle America
+ |publisher=Springer Science & Business Media
+ |date=2012-12-06
+ |isbn=978-1-4615-0525-9
+ |url=https://books.google.com/books?id=BmYECAAAQBAJ
+}}</ref>
+* [[Cotzumalhuapa|Cotzumalhuapa hieroglyphs]] – {{circa|0|1000 CE}}; sometimes discussed as influenced by Teotihuacan and Lowland Maya traditions; seemingly of autonomous local development, though ultimately related to all other mesoamerican writing systems. Interpretation remains limited.<ref>{{Cite web |title=Cotzumalguapa {{!}} ORIAS |url=https://orias.berkeley.edu/resources-teachers/societies-americas/cotzumalguapa |access-date=2026-03-27 |website=orias.berkeley.edu}}</ref>
+* [[Mesoamerican chronology|Epiclassic/Early Postclassic]] hieroglyphs of [[Xochicalco]], [[Cacaxtla]], [[Teotenango]], [[Tula (Mesoamerican site)|Tula]] and [[Chichen Itza|Chichén Itzá]] – generally treated as part of broader regional glyphic traditions; many elements remain only partially understood. Intermediary between the Teotihuacan Classic Period hieroglyphs and their Mixteca-Puebla descendants of the Middle and Late Postclassic.<ref>{{cite book
+ |last1=Clemmensen |first1=Mikkel Bøg
+ |last2=Helmke |first2=Christophe
+ |title=Western Mesoamerican Calendars and Writing Systems: Proceedings of the Copenhagen Roundtable
+ |publisher=Archaeopress Publishing Ltd
+ |date=2023-06-08
+ |isbn=978-1-80327-486-7
+ |url=https://books.google.com/books?id=tC3EEAAAQBAJ
+}}</ref><ref>{{Cite book |last1=León |first1=Claudia I. Alvarado |url=https://books.google.com/books?id=f-nEEQAAQBAJ&dq=books+about+mesoamerican+writing+systems+2026&pg=PA188 |title=Redefining the Epiclassic Period in Mesoamerica: Proceedings of the Copenhagen Roundtable |last2=Helmke |first2=Christophe |date=2026-02-26 |publisher=Archaeopress Publishing Ltd |isbn=978-1-80583-220-1 |language=en}}</ref>
+
+Many Mesoamerican glyphic traditions remain only partly understood, with the [[Maya script|Classic/Lowland Maya script]] being the best-attested and most extensively deciphered. Other regional traditions (including those often grouped under "Mixteca-Puebla" or pictorial-historical codex traditions ultimately descended from the Teotihuacan tradition, most notably represented by [[Aztec script|Aztec hieroglyphs]] and [[Mixtec writing|Mixtec hieroglyphs]]) have been interpreted in the literature to varying extents, but are not universally recognised as a writing system, with some researchers considering it a mostly non-linguistic form of expression.<ref>{{Cite book |last1=Boone |first1=Elizabeth Hill |url=https://books.google.com/books?id=JP-BXBD54uwC&dq=writing+without+words&pg=PA233 |title=Writing Without Words: Alternative Literacies in Mesoamerica and the Andes |last2=Mignolo |first2=Walter |date=1994 |publisher=Duke University Press |isbn=978-0-8223-1388-5 |language=en}}</ref> Yet, in recent years{{As of?|date=May 2026}} new research has appeared confirming the existence of logosyllabic elements ("glyphs") intermixed with pictorial images.<ref>{{Cite book |last=Whittaker |first=Gordon |url=https://books.google.com/books?id=bUrbzQEACAAJ |title=Deciphering Aztec Hieroglyphs: A Guide to Nahuatl Writing |date=2021 |publisher=University of California Press |isbn=978-0-520-38037-0 |language=en}}</ref><ref name=":0" /> Nevertheless, new approaches have emerged, integrating the pictorial images as key in the linguistic interpretation of all elements in the codices, alongside the [[Logogram|logograms]] and [[Phonogram (linguistics)|phonograms]]. These pictorial images would represent greater units of meaning, namely semantograms, also called embedded meanings, than a lexeme (logograms) or a sound (phonogram) which would become of paramount importance to achieve a coherent linguistic message in the codices.<ref>{{Cite journal |last=Corona |first=Alonso Rodrigo Zamora |date=2022-01-01 |title=Towards a Complex Theory of Writing: The Case of Aztec and Mixtec Codices. |url=https://openurl.ebsco.com/contentitem/doi:10.4000%2Fsignata.3866?sid=ebsco:plink:crawler&id=ebsco:doi:10.4000%2Fsignata.3866 |journal=Signata |volume=13 |language=en |issue=13 |pages=350 |doi=10.4000/signata.3866 |issn=2032-9806}}</ref> Thus, Mixteca-Puebla writing would constitute a form of non-linear writing.
+
+<gallery>
+File:La Venta Stele 19 (Delange).jpg|La Venta Stele 19
+File:Olmeca head in Villahermosa.jpg|Olmec colossal head in La Venta (possible name glyph on forehead)
+File:Oaxaca de Juárez, Monte Albán 05.jpg|Zapotec script
+File:La Mojarra Inscription and Long Count date.jpg|Isthmian/Epi-Olmec inscription
+File:Abaj Takalik Stela 5.illus.jpg|Izapan tradition (Tak'alik Ab'aj)
+File:El Baúl 17.jpg|Cotzumalhuapa tradition
+</gallery>
+
+==Oceanian scripts==
+* [[Rongorongo|Kōhau Rongorongo]] – [[Rapa Nui language|Rapa Nui]]. Attested by the 19th century; often hypothesized to encode language but remains undeciphered.<ref>{{Cite book |last=Horley |first=Paul |url=https://books.google.com/books?id=YOmKzwEACAAJ |title=Rongorongo: Inscribed Objects from Rapa Nui |date=2021 |publisher=Rapanui Press |isbn=978-956-9337-58-1 |language=en}}</ref>
+
+<gallery>
+File:Rongorongo_B-v_Aruku-Kurenga_(color)_edit1.jpg|Kōhau Rongorongo
+</gallery>
+
+==Non-writing systems==
+[[False writing system]]s are glyphs that appear to be writing but are not. False writing cannot be deciphered because it has no stable [[semantics|semantic]] meaning. This includes many forms of [[asemic writing]] created for artistic purposes. A prominent example is the ''[[Codex Seraphinianus]]''.
+
+Another related concept is that of undeciphered [[cryptogram]]s or [[cipher]] messages. These are not writing systems ''per se'', but enciphered forms of texts written in known systems. Some have become famous and are listed in [[list of ciphertexts]].
+
+==References==
+{{reflist}}
+
+==External links==
+* [https://web.archive.org/web/20081209035721/http://cdli.ucla.edu/wiki/doku.php/proto-elamite Proto-Elamite (archived CDLI link)]
+* [http://www.prehistory.it/ftp/winn.htm Vinča signs (The Old European Script: Further evidence – Shan M. M. Winn)]
+
+{{Writing systems}}
+{{list of writing systems}}
+
+{{DEFAULTSORT:Undeciphered Writing Systems}}
+[[Category:Undeciphered writing systems]]

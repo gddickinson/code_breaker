@@ -103,5 +103,7 @@ def run() -> dict:
         res["hypotheses"].append({"language": LANGS[lang], "z": nt["z"], "score": nt["score"], "null_mean": nt["null_mean"], "plaintext": segment(nt["plaintext"], lang)})
     res["hypotheses"].sort(key=lambda h: -h["z"])
     res["positive_control"] = pc
-    res["verdict"] = verdict(pc["mean"], res["hypotheses"][0]["z"], len(LANGS))
+    top = res["hypotheses"][0]
+    code = next(c for c, n in LANGS.items() if n == top["language"])
+    res["verdict"] = verdict(pc, top["z"], len(LANGS), top["plaintext"].replace(" ", ""), top["score"], code)
     return res

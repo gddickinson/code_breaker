@@ -1,0 +1,190 @@
+{{Short description|Manuscript}}
+[[File:Codex-Rohonci-Copy.jpg|thumb|upright=1.35|A facsimile of the Rohonc Codex]]
+The '''Rohonc Codex''' ({{IPA|hu|ˈrohont͡s}}) is an illustrated [[manuscript]] book by an unknown author, with a text in an unknown [[language]] and [[writing system]], that surfaced in [[Hungary]] in the early 19th century. The book's origin and the meaning of its text and illustrations have been investigated by many scholars and amateurs, with no definitive conclusion, although many Hungarian scholars believe that it is an 18th-century [[hoax]].
+
+The name of the [[codex]] is often spelled ''Rohonczi'', according to the old [[Hungarian alphabet|Hungarian orthography]] that was reformed in the first half of the 19th century. This spelling has become widespread, likely due to a book published on the codex by V. Enăchiuc in 2002. Today, the name of the codex is often written in [[Hungarian language|Hungarian]] as {{lang|hu|Rohonci kódex}}.
+
+==History==
+The codex was named after the city of Rohonc, in Western [[Hungary]] (now [[Rechnitz]], [[Austria]]), where it was kept until 1838, when it was donated to the [[Hungarian Academy of Sciences]] by [[Gusztáv Batthyány]], a Hungarian [[count]], together with his entire library.
+
+The origin of the codex is unknown. A possible trace of its past may be an entry in the 1743 catalogue of the Batthyánys' Rohonc library, which reads {{lang|hu|"Magyar imádságok, volumen I in 12"}} ("Hungarian prayers in one volume, size [[Book size|duodecimo]]"). Both the size and the assumed content of the volume described fit the codex, but no further information is given in the catalogue, rendering an exact match to the codex impossible.{{sfn|Jerney|1844}}{{page needed|date=June 2024}}{{sfn|Némäti|1892}}
+
+==Location and accessibility==
+[[File:Excerpt of Page 109 of Csapodi Csaba.jpg|thumb|upright=1.15|The official library description of the manuscript (Csapodi, 1973)]]
+
+The Rohonc Codex is located in the Library of the [[Hungarian Academy of Sciences]].{{efn|For an official catalogue entry, see Csapodi 1973.}}{{efn|The codex's call number is K 114; its old call number was Magyar Codex 12<sup>o</sup> 1.}} Special permission is needed to study the codex. However, a microfilm copy is available.{{efn|The call number of the microfilm copy is MF 1173/II.}}
+
+In 2015, the codex was rescanned by [[Hamburg University]], but only eight higher-resolution pages were published.<ref>
+März 2015 "Das Manuskript, das niemand lesen kann"; 
+Text von Klaus Schmeh;
+© für Abb. 1-4 Ungarische Akademie der Wissenschaften, Budapest
+</ref>
+
+A digital copy is available at the REAL repository of the Library.<ref>https://real-ms.mtak.hu/80/ REAL-MS</ref>
+
+==Features==
+[[File:Roch codex illustr.jpg|thumb|upright=1.15|right|An illustration in the Rohonc Codex]]
+
+The codex has 448 paper pages measuring {{convert|12|×|10|cm}}, with each page having between 9 and 14 rows of symbols, which may or may not be letters. Besides the text, there are 87 illustrations that include religious, laic, and military scenes. The crude illustrations seem to indicate an environment where [[Christianity|Christian]], [[Islam|Muslim]], and [[Paganism|Pagan]] religions coexist, as the symbols of the [[Christian cross|cross]], [[crescent]], and sun/[[swastika]] are all present.
+
+The number of symbols used in the codex is about ten times higher than any known alphabet, with Némäti (1889) having counted 792, but most symbols are used with little repetition, so the symbols in the codex might not be an alphabet, but instead a [[syllabary]], or be [[logograph]]ic in nature, such as [[Chinese characters]]. The [[Justification (typesetting)|justification]] of the right margin would seem to imply the symbols were written from right to left.{{sfn|Jerney|1844}}{{page needed|date=June 2024}}
+
+Study of the paper on which the codex is written shows that it is most probably a [[Venice|Venetian]] paper made in the 1530s.{{sfn|Jerney|1844}}{{page needed|date=June 2024}}{{sfn|Némäti|1892}}{{sfn|Láng|2011}}{{page needed|date=June 2024}} This does not provide certainty as to the date of the text, however, since it may have been transcribed from an earlier source, or the paper could have been used long after it was produced. Taking a clue from the illustrations, Láng speculates the document was most likely created sometime in the 16th-17th centuries.{{efn|According to [[Joe Nickell]] the pages were written not long after the production of the paper; see {{harvnb|Láng|2011|p=53}}.}}
+
+==Analysis==
+As the existence of the codex has become more widely known, since the 19th century, the codex has been studied by many scholars and amateurs. However, there is no widely accepted and convincing translation or interpretation of the text.
+
+=== Language hypotheses ===
+No hypothesis as to the language of the codex has been backed as a universal solution, though many – including [[Hungarian language|Hungarian]], [[Dacian language|Dacian]], early [[Romanian language|Romanian]] or [[Cumans|Cuman]], and even [[Hindi]]{{sfn|Singh|Bárdi|2004}} – have been proposed.
+
+In 1892, Némäti discussed the codex's authenticity to the Hungarian language and the possibility that it is a paleo-Hungarian script.{{sfn|Némäti|1892}} 
+
+In 2004, Singh and Bárdi discussed the possibility of it being a version of the [[Brāhmī script|Brahmi]] script.{{sfn|Singh|Bárdi|2004}}<ref>{{Cite web |title=Rohonc Codex |url=https://www.amusingplanet.com/2022/04/rohonc-codex.html |access-date=2024-11-26 |website=www.amusingplanet.com |language=en}}</ref>
+
+=== 19th Century ===
+The codex was studied by Hungarian scholar [[Ferenc Toldy]] around 1840, and later by Pál Hunfalvy and by Austrian [[paleography]] expert Albert Mahl.{{sfn|Némäti|1892|p=17}} [[Josef Jireček]] and his son, [[Konstantin Josef Jireček]], both university professors in [[Prague]], studied 32 pages of the codex in 1884–1885. In 1885, the codex was sent to Bernhard Jülg, a professor at [[Innsbruck University]]. [[Mihály Munkácsy]], the celebrated Hungarian painter, also took the codex with him to [[Paris]] in the years 1890–1892 to study it.{{sfn|Némäti|1892|p=17–18}}
+
+In 1866, Hungarian historian [[Károly Szabó (1824)|Károly Szabó]] (1824–1890) proposed that the codex was a hoax by [[Sámuel Literáti Nemes]] (1796–1842), a [[Transylvania]]n-Hungarian antiquarian, and co-founder of the [[National Széchényi Library]] in Budapest. Nemes is known to have created many historical forgeries (mostly made in the 1830s) which deceived even some of the most renowned Hungarian scholars of the time.{{sfn|Szabó|1866}} Since then, this opinion of forgery has been maintained by mainstream Hungarian scholarship, even though there is no evidence connecting the codex to Nemes specifically.{{sfn|Fejérpataky|1878}}{{sfn|Pintér|1930}}{{sfn|Kelecsényi|1988|p=Chapter 23: The forgeries and Sámuel Literáti Nemes}}{{sfn|Tóth|1899}}{{sfn|Csapodi|1973}}
+
+=== Systematic and computer analysis ===
+A strictly methodical investigation of the symbols was first done in 1970 by Ottó Gyürk, who examined repeated sequences to find the direction of writing, arguing for a right-to-left, top-to-bottom order, with pages also ordered right-to-left; Gyürk also identified numbers in the text.{{sfn|Gyürk|1970}} His later remarks suggest that he also has many unpublished conjectures, based on a large amount of statistical data.{{citation needed|date=June 2024}}
+
+[[Miklós Locsmándi]] did some computer-based research on the text in the mid-1990s. His research findings were consistent with the work published by Gyürk. Locsmándi added several others conjectures.
+
+He claimed the symbol "i" to be a sentence delimiter (but also the symbol of 11 (eleven), and possibly also a place value delimiter in numbers). He studied the diacritics of the symbols (mostly dots), but found no peculiar system in their usage. As he could see no traces of case endings (which are typically characteristic to the [[Hungarian language]]), he assumed that the text was probably in a language other than Hungarian. He could not prove that the codex is not a hoax; however, seeing the regularities of the text, he rejected the idea of it being pure gibberish.{{sfn|Locsmándi|2004–2005}}
+
+===Sumero-Hungarian hypothesis===
+Attila Nyíri of [[Hungary]] proposed a solution in 1996 after studying two pages of the codex.{{sfn|Nyíri|1996}} He turned the pages upside down, identified a [[Sumerian language|Sumerian]] ligature, and then associated [[Latin alphabet]] letters to the rest of the symbols by resemblance. However, he sometimes transliterated the same symbol with different letters, and conversely, the same letter was decoded from several symbols. Even then he had to rearrange the order of the letters to produce meaningful words.
+
+The text, if taken as meaningful, is of religious, perhaps liturgical character. Its beginning, according to Nyíri, reads:
+
+{{blockquote|{{lang|hu|Eljött az Istened. Száll az Úr. Ó. Vannak a szent angyalok. Azok. Ó.}}
+"Your God has come. The Lord flies. Oh. There are the holy angels. Them. Oh."}}
+
+Nyíri's proposition was immediately criticised by [[Ottó Gyürk]], pointing to the fact that with such a permissive deciphering method one can get anything out of the code.{{sfn|Gyürk|1996}} Also, the mere fact that Nyíri makes an uncritical allusion to the fringe theory that the [[Alternative theories of Hungarian language origins#Hungarian-Sumerian hypothesis|Hungarian language descended from Sumerian]] discredits his enterprise.
+
+===Daco-Romanian hypothesis===
+[[File:Viorica Enăchiuc Rohonczi Codex.jpg|thumb|right|The cover of V. Enăchiuc's book]]
+
+A proposed translation was published in 2002 by [[Romania]]n philologist [[Viorica Enăchiuc]].{{sfn|Enăchiuc|2002}} Enăchiuc claimed that the text had been written in the [[Daco-Roman#Language|Dacian dialect of vulgar Latin]], and the direction of writing is right-to-left, bottom-to-top. The alleged translation indicates that the text is an {{nobr|11–12th century {{sc|CE}}}} history of the Blaki ([[Vlachs]]) people in their fights against [[Hungarians]] and [[Pechenegs]]. [[Toponym]]s and [[hydronym]]s appear as [[Arad, Romania|Arad]], [[Dridu]], [[Olbia]], [[Ineu]], [[Rarău Massif|Rarău]], Nistru ([[Dniester]]) and Tisa ([[Tisza]]). Diplomatic contacts between a certain 11th&nbsp;century ''[[voivode]]'' (prince) named [[Vlad]] and following rulers are also mentioned (regnal years in brackets): [[Constantine X Doukas|Constantine Doukas]] (1059–1067), [[Alexios I Komnenos|Alexios&nbsp;I Komnenos]] (1081–1118) and Robert of Flanders (which one, [[Robert I, Count of Flanders|Robert&nbsp;I]] (1071–1093) or [[Robert II, Count of Flanders|Robert&nbsp;II]] (1093–1111)?).
+
+Quotations from Enăchiuc's translation include:
+
+{{blockquote|{{lang|hu|Solrgco zicjra naprzi olto co sesvil cas}}
+"O Sun of the live let write what span the time"{{sfn|Enăchiuc|2002|p=224}}
+
+{{lang|hu|Deteti lis vivit neglivlu iti iti itia niteren titius suonares imi urast ucen}}
+"In great numbers, in the fierce battle, without fear go, go as a hero. Break ahead with great noise, to sweep away and defeat the Hungarian!"{{sfn|Enăchiuc|2002|p=22}}}}
+
+On the one hand, Enăchiuc's proposition can be criticized for the method of transliteration. Symbols that characteristically appear in the same context throughout the codex are regularly transliterated with different letters, so that the patterns in the original code are lost in the transliteration. On the other hand, Enăchiuc is criticized as a linguist and historian. She provided the only linguistic source of a hitherto unknown state of the [[History of Romanian|Romanian language]], and her text (even with her glossary) raises such serious doubts both in its linguistic and historic authenticity that they render her work unscientific.{{sfn|Láng|2011|p=40–43}}{{sfn|Ungureanu|2003}}{{page needed|date=June 2024}}
+
+There is no relation between the illustrations of the manuscript (of clear Christian content) and Enăchiuc's translation.{{citation needed|date=June 2024}}
+
+===Brahmi-Hindi hypothesis===
+Another alleged solution was made in 2004 by the Indian Mahesh Kumar Singh.{{sfn|Singh|Bárdi|2004|p=12–40}} He claims that the codex is written left-to-right, top-to-bottom with a so far undocumented variant of the [[Brāhmī script|Brahmi]] script. He transliterated the first 24 pages of the codex to get a [[Hindi]] text which was translated to Hungarian. His solution is mostly like the beginning of an [[apocrypha]]l gospel (previously unknown), with a meditative prologue, then going on to the infancy narrative of Jesus.{{citation needed|date=June 2024}}
+
+According to Mahesh Kumar Singh, the upper two rows of page 1 read:
+
+{{blockquote|{{Transliteration|hi|he bhagwan log bahoot garib yahan bimar aur bhookhe hai / inko itni sakti aur himmat do taki ye apne karmo ko pura kar sake}}{{sfn|Singh|Bárdi|2004|p=13}}
+"Oh, my God! Here the people is very poor, ill and starving, therefore give them sufficient potency and power that they may satisfy their needs."}}
+
+Singh's attempt was immediately criticized in the next issue of the same journal.{{sfn|Géza Varga|2005}}{{sfn|Csaba Varga|2005}} His transliteration lacks consistency.{{sfn|Láng|2011|p=44–46}}
+
+=== 2010 to present ===
+[[Benedek Láng]] summarized the previous attempts and the possible research directions in a 2010 article{{sfn|Láng|2010}} and in a 2011 book-sized monograph.{{sfn|Láng|2011}} He argued that the codex is not a hoax (as opposed to mainstream Hungarian academic opinion),{{Citation needed|date=November 2024}} but instead is a consciously encoded or enciphered text. It may be a cipher, a shorthand system, or a [[Constructed language#Perfecting language|constructed language]]. Láng assessed these possibilities systematically in his publications with the help of historical analogies.
+
+In 2010, [[Gábor Tokai]] published a series of three short articles in the Hungarian popular science weekly, {{lang|hu|Élet és Tudomány}}. Tokai tried to date the codex by finding historical analogies of the imagery of the drawings. Tokai could not rule out the possibility of a hoax, but he (like Locsmándi) insisted that whatever be the case, the text has regularities that strongly suggest a meaning.{{sfn|Tokai|2010}} Several months later Tokai also published two further short articles in which he started to give meaning to specific code chunks. He based his arguments mainly on character strings that appear in pictures (such as the [[INRI#The INRI and ΙΝΒΙ acronyms|INRI]] inscription on the cross). He claimed to have identified the codes of the [[four evangelists]] in biblical references, built up of an evangelist's name and a number, possibly some kind of [[Chapters and verses of the Bible|chapter number]]. Based on Gyürk's and Locsmándi's work he also showed that many of the four-digit numbers in the text are year numbers, using presumably a peculiar [[Anno Mundi]] [[Epoch (reference date)|epoch]].{{sfn|Tokai|2010}}{{sfn|Tokai|2010–2011}}
+
+Simultaneous with, and independently from Tokai, [[Levente Zoltán Király]] made significant progress in describing some structural elements of the code. In 2011, he demonstrated a method for cutting down the text into sentences with a good probability. He identified a 7-page section split by numbered headings, with the whole section preceded by its table of contents. Like Tokai, Király also discovered the codes of the four evangelists, and in addition he provided a persuasive argument for a "chapter heading system" in the codex that contains biblical references. He also dealt with the overall structure of the codex, showing that the chapter structure is not present in the first fourth of the book, partly because that part contains the long, continuous narration of the [[Passion (Christianity)|passion of Jesus Christ]].{{sfn|Király|2011}}
+
+In 2018, Tokai and Király published the paper ''Cracking the code of the Rohonc Codex.'' The paper claimed the writing was not a [[substitution cipher]], or an ancient alphabet, but is in fact a 'code system'. According to Tokai and Király, the code system does not indicate the inner structure of words. They claim that the codex contains the date {{nobr|1593 {{sc|CE}}}} as a probable reference to its writing. They also state that by character it is an ordinary [[Catholic]] reader or [[breviary]] of the time, mostly containing [[paraphrase]]s of New Testament texts (primarily from the Gospels), but also some [[non-canonical|non-Biblical]] material, like e.g. [[Seth]] returning to the gate of [[Paradise]], or prayers to the [[Virgin Mary]].<ref>{{Cite journal |last=Király |first=Levente Zoltán |last2=Tokai |first2=Gábor |date=2018-05-28 |title=Cracking the code of the Rohonc Codex |url=https://www.tandfonline.com/action/showCitFormats?doi=10.1080%2F01611194.2018.1449147& |journal=Cryptologia |language=en |volume=42 |issue=4 |pages=285–315 |doi=10.1080/01611194.2018.1449147 |issn=0161-1194|url-access=subscription }}</ref>
+
+==See also==
+*[[Voynich manuscript]]
+*''[[Codex Seraphinianus]]''
+
+==Notes==
+{{notelist}}
+
+==References==
+
+===Citations===
+{{Reflist|24em}}
+
+===Bibliography===
+''In chronological order''
+{{refbegin|25em|small=yes}}
+* {{cite journal |last=Jerney |first=János |year=1844 |title=Némi világosítások az ismeretlen jellemű rohonczi írott könyvre |trans-title=Some enlightenments concerning the Rohonc manuscript, a book of unknown character |journal=Tudománytár |volume=8 |series=New series |pages=25–36 |language=hu }}
+* {{cite book |last=Toldy |first=Ferenc |year=1851 |title=A magyar nemzeti irodalom története |trans-title=The History of the Literature of the Hungarian Nation |place=[[Pest (city)|Pest]], HU |volume=1 |page=28 |language=hu }}
+* {{cite journal |last=Szabó |first=Károly |year=1866 |title=A régi hun-székely írásról |trans-title=On the old Hun-Székely writing system |journal=Budapesti Szemle |volume=6 |pages=123–124 |language=hu }}
+* {{cite book |last=Fejérpataky |first=László |year=1878 |title=Irodalmunk az Árpádok korában |trans-title= Our Literature in the Age of the Árpáds |place=Budapest, HU |page=3 |language=hu |title-link=Árpáds}}
+* {{cite report |last=Némäti |first=Kálmán |year=1889 |title=A Rohonczi Codex Ábéczéje |trans-title=The Alphabet of the Rohonc Codex |publisher=Manuscript Library of the [[Hungarian Academy of Sciences]] |id=Ms&nbsp;884 (on microfilm: Mf&nbsp;5913/IV.) |lang=hu }}
+* {{cite book |last=Némäti |first=Kálmán |year=1892 |title=Rohonczi Codex Tantétel |trans-title=Rohonc Codex Doctrine |place=Budapest |language=hu }}
+* {{cite book |last=Tóth |first=Béla |year=1899 |title=Magyar ritkaságok (Curiosa Hungarica) |trans-title=Hungarian Rarities |place=Budapest |publisher=Athenaeum |pages=18–20 |language=hu }} (2nd, enlarged edition: 1907, pp.&nbsp;20–22.), reprint: Budapest, Laude Kiadó, 1998 ({{ISBN|963-9120-16-2}}); Budapest, Anno, 2004 ({{ISBN|963-375-277-9}}) {{in lang|hu}}
+* {{cite book |last=Pintér |first=Jenő |year=1930 |title=Magyar irodalomtörténete |trans-title=History of Hungarian Literature |place=Budapest, HU |volume=1 |pages=43, 724–725 |language=hu}}
+* {{cite journal |last=Gyürk |first=Ottó |title=Megfejthető-e a Rohonci-kódex? |trans-title=Can the Rohonc Codex Be Solved? |journal=Élet és Tudomány |volume=25 |year=1970 |pages=1923–1928 |language=hu}}
+* {{cite report |last=Csapodi |first=Csaba |year=1973 |title=A "Magyar Codexek" elnevezésű gyűjtemény (K 31 - K 114) |trans-title=The Collection "Hungarian Codices" |place=Budapest |series=Catalogues of the Manuscript and Old Books Department of the Library of the Hungarian Academy of Sciences |volume=5 |page=109 |lang=hu }}
+* {{cite book |last=Révay |first=Zoltán |year=1978 |title=Titkosírások. Fejezetek a rejtjelezés történetéből |trans-title=Secret Codes: Chapters from the History of Cryptography |place=Budapest |publisher=Zrínyi Katonai Kiadó |isbn=978-963-326-256-6 |pages=57–59 |language=hu }}
+* {{cite book |last=Kelecsényi |first=Gábor |year=1988 |title=Múltunk neves könyvgyűjtői |trans-title=Famous book collectors of our past |place=Budapest |publisher=Gondolat |isbn=978-963-282-032-3 |language=hu }}
+* {{cite journal |last=Nyíri |first=Attila |title=Megszólal 150&nbsp;év után a Rohonci-kódex? |trans-title=After 150&nbsp;years the Rohonc codex starts to speak? |journal=Theologiai Szemle |volume=39 |year=1996 |pages=91–98 |language=hu }}
+* {{cite periodical |title=A Rohonci-kódexről |trans-title=About the Rohonc codex |year=2004 |periodical=[[Turán (Periodical)|Turán]] |issue=4 |pages=85–92 }}
+* {{cite journal |last=Gyürk |first = Ottó |year=1996 |title=Megszólal a Rohonci-kódex? |trans-title=Does the Rohonc codex really speak? |journal=Theologiai Szemle |volume=39 |pages=380–381 |language=hu }}
+* {{cite book |last=Enăchiuc |first=Viorica |year=2002 |title=Rohonczi Codex: descifrare, transcriere şi traducere (Déchiffrement, transcription et traduction) |publisher=Alcor Edimpex SLR |isbn=978-973-8160-07-1 |language=Ro, Fr }}
+* {{cite periodical |last=Ungureanu |first=Dan |date=6 May 2003 |title=Nu trageti in ambulanta |periodical=Observator Cultural |issue=167 |lang=Ro |url=http://www.observatorcultural.ro/arhivaarticol.phtml?xid=8266 |archive-url=https://web.archive.org/web/20040327150347/http://www.observatorcultural.ro/arhivaarticol.phtml?xid=8266 |archive-date=27 March 2004}}
+* {{cite periodical |last1=Singh |first1=Mahesh Kumar |last2=Bárdi |first2=László |year=2004 |title=Rohonci Kódex (Hindi-Hungarian interlinear publication of folios&nbsp;1–13, with introductory notes) |periodical=[[Turán (Periodical)|Turán]] |issue=2004/6–2005/1 |pages=9–40 |lang=Hi, Hu }}
+* {{cite periodical |last=Locsmándi |first=Miklós |year=2004–2005 |title=A Rohonci Kódex. Egy rejtélyes középkori írás megfejtési kísérlete |trans-title=The Rohonc Codex: An attempt to decipher a mysterious medieval script |periodical=[[Turán (Periodical)|Turán]] |issue=2004/6–2005/1 |pages=41–58 |language=hu}}
+* {{cite periodical |last=Varga |first=Géza |year=2005 |title=A Rohonczi [sic!] Kódexről. Olvasói levél |trans-title=About the Rohonc Codex. A letter to the editor |periodical=[[Turán (Periodical)|Turán]] |issue=2005/2–3 |pages=195–197 |lang=hu |ref={{sfnref|Géza Varga|2005}}}}
+* {{cite periodical |last=Varga |first=Csaba |year=2005 |title=A Rohonczi [sic!] Kódex Mahesh Kumar Singh-féle olvasatának ellenőrzése. Olvasói levél |trans-title=A critique of Mahesh Kumar Singh's rendering of the Rohonc codex. A letter to the editor |periodical=[[Turán (Periodical)|Turán]] |issue=2005/2–3 |pages=198–202 |lang=hu |ref={{sfnref|Csaba Varga|2005}}}}
+* {{cite journal |last=Láng |first=Benedek |year=2010 |title=Why don't we decipher an outdated cipher system? The codex of Rohonc |journal=[[Cryptologia]] |volume=34 |issue=2 |pages=115–144 |doi=10.1080/01611191003605587 |s2cid=205487896 }} {{cite web |title=free downloadable preprint |url=http://mycite.omikk.bme.hu/doc/84510.pdf }} {{Dead link|date=October 2023 |bot=InternetArchiveBot |fix-attempted=yes}}
+* {{cite journal |last=Tokai |first=Gábor |year=2010 |title=A Rohonci-kódex művészettörténész szemmel |trans-title= The Rohonc Codex through the eyes of an art historian |journal=Élet és Tudomány |volume=LXV |issue=2010/30, 32, 35 |pages=938–940, 1004–1006, 1104–1106 |language=hu}}
+* {{cite journal |last=Tokai |first=Gábor |year=2010–2011 |title=Az első lépések a Rohonci-kódex megfejtéséhez |trans-title=The first steps towards a deciphering of the Rohonc codex |journal=Élet és Tudomány |volume=LXV–LXVI |issue=2010/52–53, 2011/2 |pages=1675–1678, 50–53 |language=hu }}
+* {{cite book |last=Láng |first=Benedek |year=2011 |title=A Rohonci kód |trans-title=The Rohonc Code |place=Budapest, HU |publisher=Jaffa |language=hu |isbn=978-963-9971-67-7 |url=https://www.academia.edu/1537618 |via=academia.edu }}
+* {{cite journal |last=Király |first=Levente Zoltán |title=Struktúrák a Rohonci-kódex szövegében. Helyzetjelentés egy amatőr kutatásról |trans-title=Structures in the text of the Rohonc Codex: A status report on an amateur research |journal=Theologiai Szemle |year=2011 |issue=2011/2 |pages=82–93 |language=hu}}
+* {{cite conference |last=Király |first=Levente Zoltán |publication-date=2012 |contribution=Struktúrák a Rohonci-kódex szövegében. Helyzetjelentés egy amatőr kutatásról |trans-contribution=Structures in the text of the Rohonc Codex: A status report on an amateur research |editor-last1=Zsengellér |editor-first1=József |editor-last2=Trajtler |editor-first2=Dóra Ágnes |title=A Szentnek megismerése ad értelmet |trans-title="Knowledge of the Holy One is understanding" |conference=Conferentia Rerum Divinarum&nbsp;1 & 2 at the Károli Gáspár University of the Reformed Church in Hungary |date=4 December 2009 – 6 December 2010 |publisher=Károli Gáspár University; L'Harmattan |place=Budapest, HU |pages=153–163 |isbn=978-963-236-097-3 |lang=hu }}
+* {{cite book |last=Schmeh |first=Klaus |year=2012 |title=Nicht zu knacken: Von ungelösten Enigma-Codes zu den Briefen des Zodiac-Killers |trans-title=Uncrackable: From unsolved Enigma codes to the letters of the Zodiac killer |publisher=Carl Hanser Verlag |isbn=978-3-446-42923-9 |language=de }}
+* {{cite journal |last1=Király |first1=Levente Zoltán |last2=Tokai |first2=Gábor |title=Cracking the code of the Rohonc codex |journal=[[Cryptologia]] |volume=42 |issue=4 |year=2018 |pages=285–315 |doi=10.1080/01611194.2018.1449147 |s2cid=49485465 }}
+* {{cite book |last1=Király |first1=Levente Zoltán |last2=Tokai |first2=Gábor |year=2020 |contribution=Feltárul a Rohonci-kódex titka: Egy 400&nbsp;éves kód feltörése |trans-contribution=Secret of the Rohonc codex revealed: Cracking a 400&nbsp;year-old code |title=Előadások Vas megye történetéről |volume=VII |trans-title=Lectures on the history of Vas county |publisher=A Magyar Nemzeti Levéltár Vas Megyei Levéltára |place=Szombathely, HU |pages=167–188 |isbn=978-963-7227-39-4 |language=hu }}
+* {{cite book |last1=Király |first1=Levente Zoltán |year=2022 |publication-date=2023 |contribution=A Rohonci kódex teológiai karaktere. Közismert és idioszinkratikus mozzanatok azonosításával egy rejtélyes szerző kiléte felé |trans-contribution=The theological character of the Rohonc codex: Tracing well-known and idiosyncratic traits towards the identification of a mysterious author |title=Hagyomány, Identitás, Történelem |trans-title=Tradition, Identity, History |series=Reformáció Öröksége |volume=10 |pages=363–376 |publisher=KRE HTK Egyháztörténeti Kutatóintézet |place=Budapest, HU |doi=10.61376/hit.2022.kiraly.25 |doi-access=free |language=hu }}
+{{refend}}
+
+===Media references===
+{{refbegin|30em}}
+*{{cite episode
+| title = Cine a scris misteriosul Codex Rohonczi? |trans-title= Who wrote the mysterious Rohonc Codex?
+| url = http://www.trilulilu.ro/alonewolf/c02b8a3251f4c9
+| series = Semne (Signs)
+| credits = Rafael UDRIŞTE, Dan MICU, Ion CRISTODULO
+| network = [[TVR1]] (Romania)
+| air-date = 2010-06-05
+| minutes = 25
+}}
+*{{cite episode
+| title = Kódolt evangéliumot rejt a Rohonci kódex? |trans-title= The Rohonc Codex – a ciphered gospel?
+| url = http://www.rtlklub.hu/musorok/21szazad/videok/138885
+| series = XXI. század (21st century)
+| credits = László VELTI
+| network = [[RTL Klub]] (Hungary)
+| air-date = 2011-08-30
+| minutes = 14:30
+}}
+*{{cite episode
+| title = A világ legnagyobb titkainak nyomába eredtünk |trans-title= Chasing the greatest mysteries of the world
+| url = https://rtl.hu/rtlklub/fokuszplusz/a-vilag-legnagyobb-titkainak-nyomaba-eredtunk
+| series = Fókusz Plusz
+| credits = Viktor FORGÓ
+| network = [[RTL Klub]] (Hungary)
+| air-date = 2015-02-21
+| minutes = 6:29-8:11
+}}
+{{refend}}
+
+== External links ==
+* [http://real-ms.mtak.hu/80/ The Rohonc Codex digitised at the Library and Information Centre, Hungarian Academy of Sciences]
+* [https://www.academia.edu/5577690/Bobory_Dora_A_rohonci_kod_The_Rohonc_Code_._By_Benedek_Lang._Hungarian_Historical_Review_2_4_938-943._2013_/ Bobory, Dóra, A rohonci kód (The Rohonc Code). By Benedek Láng. Hungarian Historical Review, 2:(4), 938-943. (2013) on academia.edu]
+* [http://konyvtar.mta.hu/index_en.php Library of the Hungarian Academy of Sciences]
+
+
+[[Category:1838 archaeological discoveries]]
+[[Category:Constructed-language media]]
+[[Category:Illuminated manuscripts]]
+[[Category:Manuscripts written in undeciphered writing systems]]

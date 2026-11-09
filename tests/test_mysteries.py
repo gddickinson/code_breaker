@@ -24,3 +24,19 @@ def test_dagapeyeff_length():
 
 def test_tamam_length():
     assert len(tamam.CODE) == 44
+
+
+def test_verdict_rejects_structure_without_text():
+    from codebreaker.validation import verdict
+
+    pc = {"mean": 1.0, "solved_score": -4.1, "true_coverage": 0.7}
+    assert verdict(pc, 9.0, 1, "QXZJKVBQXZJKVBQXZJ", -5.2).startswith("Structure only")
+    assert verdict({**pc, "mean": 0.1}, 9.0, 1, "X", -5.2).startswith("Inconclusive")
+    assert verdict(pc, 9.0, 1, "THEQUESTIONWASWHETHERTHEMANWOULDRETURNBEFOREEVENING", -4.0).startswith("Readable")
+
+
+def test_phaistos_published_counts():
+    from codebreaker.mysteries.scriptlab import phaistos
+
+    seq = [s for w in phaistos() for s in w]
+    assert len(seq) == 241 and len(set(seq)) == 45

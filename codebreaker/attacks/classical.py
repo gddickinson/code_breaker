@@ -36,15 +36,15 @@ def symbols_to_ints(symbols):
     return np.array([idx[s] for s in symbols], dtype=np.int32), alpha
 
 
-def solve_symbols(symbols, lang="en", homophonic=False, iters=None, restarts=8, seed=1, t0=None, w=None):
+def solve_symbols(symbols, lang="en", homophonic=False, iters=None, restarts=None, seed=1, t0=None, w=None):
     """Solve a symbol->letter substitution by simulated annealing."""
     ct, alpha = symbols_to_ints(symbols)
-    if not homophonic and len(alpha) > 26:
-        homophonic = True
-    iters = iters or (800000 if homophonic else 60000)
-    t0 = t0 if t0 is not None else (2.0 if homophonic else 3.0)
-    w = w if w is not None else (2.0 if homophonic else 0.0)
-    key, _ = K.anneal_mapping(ct, len(alpha), model(lang)["table"], iters, restarts, seed, homophonic, t0, model(lang)["letter"], w)
+    homophonic = homophonic or len(alpha) > 26
+    m = model(lang)
+    if homophonic:
+        key, _ = K.anneal_homophonic(ct, len(alpha), m["table"], m["letter"], 2.0 if w is None else w, iters or 3000000, restarts or 6, seed, 3.0 if t0 is None else t0)
+    else:
+        key, _ = K.anneal_mapping(ct, len(alpha), m["table"], iters or 60000, restarts or 8, seed, False, 3.0 if t0 is None else t0, m["letter"], w or 0.0)
     plain = to_text(key[ct])
     return result(plain, {str(a): A[int(key[i])] for i, a in enumerate(alpha)}, "simulated annealing on quadgrams", lang)
 

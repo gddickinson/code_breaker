@@ -11,6 +11,7 @@ route(/^\/mysteries$/, async () => {
 function section(s) {
   return `${s.heading ? `<h2>${esc(s.heading)}</h2>` : ""}${(s.paragraphs || []).map(p => `<p>${esc(p)}</p>`).join("")}
     ${s.verdict ? `<div class="verdict">${esc(s.verdict)}</div>` : ""}
+    ${s.heatmap ? heatmap(s.heatmap) : ""}${s.bars ? barChart(s.bars) : ""}
     ${s.table ? table(s.table.cols, s.table.rows) : ""}
     ${(s.mono || []).map(m => `${m.label ? `<h3>${esc(m.label)}</h3>` : ""}<pre>${esc(m.text)}</pre>`).join("")}`;
 }

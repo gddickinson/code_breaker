@@ -4,6 +4,8 @@ Local web app for learning, making and breaking ciphers, with case files on unso
 
 @INTERFACE.md
 
+Resume by reading the tail of SESSION_LOG.md, then ROADMAP.md. The upgrade rounds there are the plan.
+
 - Run: `.venv/bin/python run.py`, then open http://127.0.0.1:8000
 - Test: `PYTHONPATH=. .venv/bin/python -m pytest -q tests/`
 - Keep every file under 500 lines. Update INTERFACE.md and SESSION_LOG.md when the structure changes.

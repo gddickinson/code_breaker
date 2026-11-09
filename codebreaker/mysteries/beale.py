@@ -106,7 +106,7 @@ def run() -> dict:
     res["key_scan_control_b2"] = key_scan(c["B2"], 10)[:1]
     for name in ("B1", "B3"):
         syms = c[name]
-        pc = positive_control(syms, "en", True, iters=500000, restarts=3)
-        nt = null_test(syms, "en", True, n_null=8, iters=500000, restarts=3)
-        res["hypotheses"][name]["homophonic"] = {"positive_control": pc, "null_test": nt, "verdict": verdict(pc["mean"], nt["z"])}
+        pc = positive_control(syms, "en", True, iters=3000000, restarts=4)
+        nt = null_test(syms, "en", True, n_null=8, iters=3000000, restarts=4)
+        res["hypotheses"][name]["homophonic"] = {"positive_control": pc, "null_test": nt, "verdict": verdict(pc, nt["z"], 1, nt["plaintext"], nt["score"])}
     return res

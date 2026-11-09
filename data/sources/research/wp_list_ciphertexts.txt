@@ -1,0 +1,163 @@
+{{short description|None}}
+
+Some famous [[ciphertext]]s (or [[cryptogram]]s), in chronological order by date, are:
+
+{{clear}}<!--This clear template is necessary to prevent table below from, to avoid running into the image above, being rendered at a width significantly reduced from available screen width.-->
+
+{| class="wikitable sortable collapsible"
+|-
+!data-sort-type="number"|Year of origin
+!Ciphertext
+!Decipherment status
+|-
+| 179–180
+| [[Papyrus Oxyrhynchus 90]]
+| {{no | align=left | Unsolved}}
+|-
+| 1400s (15th century)
+| [[Voynich manuscript]]
+| {{no | align=left | Unsolved}}
+|-
+| 1500s (16th century) (?)
+| [[Rohonc Codex]]
+| {{no | align=left | Unsolved}}
+|-
+| 1586
+| [[Babington Plot]] ciphers
+| {{yes | align=left | Solved}}
+|-
+|1600s
+| [[Borg cipher]]
+| {{yes | align=left | Solved in 2016}}
+|-
+|17th century
+| [[Great Cipher]]
+| {{yes | align=left | Solved}}
+|-
+| 1730
+| [[Cryptogram of Olivier Levasseur]]
+| {{no | align=left | Unsolved (unvalidated decryption provided by author {{ill|Charles de La Roncière|fr|Charles de La Roncière}} in his 1934 novel 'Le Flibustier Mystérieux'.)}}
+|-
+| 1760–1780
+| [[Copiale cipher]]
+| {{yes | align=left | Solved in 2011}}
+|-
+| 1843
+| "[[The Gold-Bug]]" cryptogram by [[Edgar Allan Poe]]
+| {{yes | align=left | Solved (solution given within the short story)}}
+|-
+| 1882
+| [[Henry Debosnys|Debosnys cipher]]
+| {{no | align=left | Unsolved}}
+|-
+| 1885
+| [[Beale ciphers]]
+| {{partial | align=left | Partially solved (1 out of the 3 ciphertexts solved between 1845 and 1885)}}
+|-
+| 1897
+| [[Dorabella Cipher]]
+| {{no | align=left | Unsolved}}
+|-
+| 1903
+| "[[The Adventure of the Dancing Men]]" code by [[Arthur Conan Doyle]]
+| {{yes | align=left | Solved (solution given within the short story)}}
+|-
+| 1917
+| [[Zimmermann telegram]] 
+| {{yes | align=left | Solved within days of transmission}}
+|-
+| 1918
+| [[Chaocipher]]
+| {{yes | align=left | Solved}}
+|-
+| 1918–1945
+| [[Enigma machine]] messages
+| {{yes | align=left | Solved (broken by Polish and [[Allies of World War II|Allied]] cryptographers between 1932 and 1945)}}
+|-
+| 1939
+| [[D'Agapeyeff cipher]]
+| {{no | align=left | Unsolved}}
+|-
+| 1939–1945
+| [[Purple cipher machine]] messages
+| {{yes | align=left | Solved (broken by Allied cryptographers in 1940)}}
+|-
+| 1941
+| [[Lorenz cipher|Lorenz SZ42 machine cipher]] messages
+| {{yes | align=left | Solved (broken by Allied cryptographers in 1942)}}
+|-
+| 1944
+| [[National Pigeon Service|Pigeon NURP 40 TW 194]]
+| {{no | align=left | Unsolved}}
+|-
+| 1948
+| [[Tamam Shud case]]
+| {{no | align=left | Unsolved}}
+|-
+| 1950(?)
+| [[James Hampton (artist)|James Hampton]]'s script
+| {{no | align=left | Unsolved}}
+|-
+| 1969
+| [[Zodiac Killer]] ciphers
+| {{partial | align=left | Partially solved (2 out of the 4 ciphertexts solved between 1969 and 2020)}}
+|-
+| 1977
+| [[The Magic Words are Squeamish Ossifrage]]
+| {{yes | align=left | Solved in 1993–1994}}
+|-
+|1983
+|[[Decipher, Inc.|Decipher]] 
+| {{yes | align=left | Solved<ref>{{Cite AV media |url=https://www.youtube.com/watch?v=meaUE2b5whI |title=The $100,000 Puzzle That Took Two Years to Solve |date=2021-03-07 |last=Karen Puzzles |access-date=2024-07-04 |via=YouTube}}</ref>}}
+|-
+|1986
+|[[Decipher, Inc.|Decipher II]]
+|{{partial | align=left | Partially solved (all 4 ciphertexts solved between 1985 and 1986, but the solution to the 4th ciphertext has since been lost)<ref name="Decipher2and3">{{Cite AV media |url=https://www.youtube.com/watch?v=-XnCfS3ee8c |title=The $100,000 Puzzles That Were NEVER SOLVED |date=2021-05-09 |last=Karen Puzzles |access-date=2024-07-04 |via=YouTube}}</ref>}}
+|-
+|1987
+|[[Decipher, Inc.|Decipher III]]
+|{{no | align=left | Unsolved<ref name="Decipher2and3"/>}}
+|-
+| 1990
+| [[Kryptos]]
+| {{partial | align=left | Partially solved (3 out of the 4 ciphertexts solved between 1992 and 1999)}}
+|-
+|1991
+|Scorpion ciphers<ref>{{Cite web |title=Scorpion Ciphers |url=https://ciphermysteries.com/other-ciphers/scorpion-ciphers |access-date=2024-07-04 |website=Cipher Mysteries |language=en-GB}}</ref>
+| {{no | align=left | Unsolved}}
+|-
+| 1999
+| [[Ricky McCormick's encrypted notes]]
+| {{no | align=left | Unsolved}}
+|-
+| 2006
+| [[Smithy code]], embedded within the 2006 judgment on ''[[The Da Vinci Code]]'' case
+| {{yes | align=left | Solved within month of publication}}
+|-
+| 2012–2016
+| [[Cicada 3301]] puzzles
+| {{partial | align=left | Partially solved (2 out of 3 puzzles solved)}}
+|-
+| 2015
+| [[11B-X-1371]]
+| {{yes | align=left | Solved}}
+|-
+| 2020
+| [[Noita (video game)#Secrets|Noita Eye Messages]]
+| {{no | align=left | Unsolved}}
+|}
+
+==See also==
+* [[Undeciphered writing systems]] (cleartext, natural-language writing of unknown meaning)
+
+== References ==
+{{reflist}}
+
+==External links==
+* [[Elonka Dunin]]'s [http://www.elonka.com/UnsolvedCodes.html list of famous unsolved codes and ciphers]
+* [https://noita.wiki.gg/wiki/Eye_Messages Noita's Eye Messages]
+
+{{DEFAULTSORT:Ciphertexts}}
+[[Category:Cryptography lists and comparisons]]
+[[Category:History of cryptography]]
+[[Category:Undeciphered historical codes and ciphers]]

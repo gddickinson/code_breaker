@@ -143,6 +143,56 @@ def check(body: AnswerIn):
     return {"accuracy": round(acc, 3), "solved": acc > 0.9, **({**ch, "spaced": segment(ch["plain"])} if acc > 0.9 else {})}
 
 
+class LeadIn(BaseModel):
+    status: str
+    note: str = ""
+
+
+@app.get("/api/leads")
+def lead_overview():
+    from .. import leads as L
+
+    db = L.connect()
+    codes = [r.as_dict() for r in db.execute("""SELECT c.*, (SELECT count(*) FROM leads l WHERE l.code=c.slug AND l.status NOT IN ('rejected','confirmed')) open_leads,
+        (SELECT count(*) FROM attempts t JOIN avenues a ON a.id=t.avenue WHERE a.code=c.slug) attempts, (SELECT count(*) FROM avenues a WHERE a.code=c.slug) avenues FROM codes c ORDER BY open_leads DESC, attempts DESC, name""")]
+    return {"summary": L.summary(db), "codes": codes, "leads": [r.as_dict() for r in db.execute("SELECT l.*, c.name code_name FROM leads l JOIN codes c ON c.slug=l.code WHERE l.status NOT IN ('rejected') ORDER BY l.updated DESC LIMIT 60")],
+            "journal": [r.as_dict() for r in db.execute("SELECT * FROM journal ORDER BY id DESC LIMIT 12")]}
+
+
+@app.get("/api/leads/{slug}")
+def lead_code(slug: str):
+    from .. import leads as L
+
+    db = L.connect()
+    row = db.execute("SELECT * FROM codes WHERE slug=?", (slug,)).fetchone()
+    if row is None:
+        raise HTTPException(404, "Unknown code")
+    q = lambda sql: [r.as_dict() for r in db.execute(sql, (slug,))]
+    return {"code": row.as_dict(), "facts": q("SELECT * FROM facts WHERE code=? ORDER BY id"), "leads": q("SELECT * FROM leads WHERE code=? ORDER BY updated DESC"),
+            "avenues": q("SELECT * FROM avenues WHERE code=? ORDER BY COALESCE(best_z,-99) DESC, priority DESC LIMIT 40"), "attempts": q("SELECT t.*, a.strategy, a.param, a.lang FROM attempts t JOIN avenues a ON a.id=t.avenue WHERE a.code=? ORDER BY t.z DESC LIMIT 15")}
+
+
+@app.post("/api/leads/item/{lead_id}")
+def lead_update(lead_id: int, body: LeadIn):
+    from .. import leads as L
+
+    db = L.connect()
+    guarded(L.set_lead, db, lead_id, body.status, body.note)
+    return {"ok": True}
+
+
+@app.get("/api/machines/{name}")
+def machine(name: str):
+    """Public wheel data for browser simulations, so they match the Python ciphers."""
+    from ..ciphers.machines import LORENZ_SIZES, _discs, _lorenz_wheels
+
+    if name == "jefferson":
+        return {"discs": _discs()}
+    if name == "lorenz":
+        return {"sizes": LORENZ_SIZES, "wheels": _lorenz_wheels()}
+    raise HTTPException(404, "Unknown machine")
+
+
 @app.get("/api/mysteries")
 def mysteries():
     return {"cases": casefiles.index()}

@@ -56,5 +56,7 @@ def run() -> dict:
                                       "null_sd": nt["null_sd"], "p": nt["p_empirical"], "plaintext": segment(nt["plaintext"], lang)})
     res["hypotheses"].sort(key=lambda h: -h["z"])
     res["tests"] = n_tests
-    res["verdict"] = verdict(pc["mean"], res["hypotheses"][0]["z"], n_tests)
+    top = res["hypotheses"][0]
+    code = next(c for c, n in LANGS.items() if n == top["language"])
+    res["verdict"] = verdict(pc, top["z"], n_tests, top["plaintext"].replace(" ", ""), top["score"], code)
     return res

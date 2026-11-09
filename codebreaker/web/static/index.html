@@ -7,21 +7,30 @@
 <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
+<canvas id="rain" aria-hidden="true"></canvas>
 <header class="top">
   <a class="brand" href="#/">Code&nbsp;Breaker</a>
   <nav>
     <a href="#/" data-nav="library">Library</a>
+    <a href="#/machines" data-nav="machines">Machines</a>
     <a href="#/workbench" data-nav="workbench">Workbench</a>
     <a href="#/mysteries" data-nav="mysteries">Mystery Lab</a>
+    <a href="#/leads" data-nav="leads">Lead Board</a>
     <a href="#/challenge" data-nav="challenge">Challenge</a>
     <a href="#/translate" data-nav="translate">Translate</a>
   </nav>
 </header>
 <main id="view" tabindex="-1"></main>
 <script src="/static/core.js"></script>
+<script src="/static/sim_engine.js"></script>
 <script src="/static/library.js"></script>
 <script src="/static/tools.js"></script>
+<script src="/static/charts.js"></script>
 <script src="/static/mysteries.js"></script>
+<script src="/static/leads.js"></script>
+<script src="/static/sim_enigma.js"></script>
+<script src="/static/sim_mech.js"></script>
+<script src="/static/sim_trace.js"></script>
 <script>start();</script>
 </body>
 </html>

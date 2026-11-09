@@ -11,3 +11,5 @@ data/sources/dorabella/
 # Failed download attempts; beale_try8 is the Wikisource page used by extract_sources.py
 data/sources/beale_try*
 !data/sources/beale_try8
+nohup.out
+data/results/*.log
