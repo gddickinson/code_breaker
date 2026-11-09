@@ -14,7 +14,7 @@ const GLOSSARY = [
   ["Substitution", "Replacing symbols while keeping their order."], ["Transposition", "Rearranging symbols while keeping their identity."], ["Unicity distance", "The approximate length of ciphertext needed for one key to be the only sensible answer."], ["z-score", "How many standard deviations a result sits above the comparison cases."]
 ];
 const GUIDE = [
-  ["Library", "#/", "Every cipher in the app. Each page explains it, encrypts your text, and runs a real attack."], ["Machines", "#/machines", "Working models, including an Enigma you can type on and a bombe."], ["Workbench", "#/workbench", "Paste any ciphertext for statistics, a guess at its type, and Autobreak."],
+  ["Library", "#/", "Every cipher in the app. Each page explains it, encrypts your text, and runs a real attack."], ["Machines", "#/machines", "Working models, including an Enigma you can type on and a bombe."], ["How It Works", "#/how", "Illustrated, interactive explanations of attacks and computer systems such as AES."], ["Workbench", "#/workbench", "Paste any ciphertext for statistics, a guess at its type, and Autobreak."],
   ["Mystery Lab", "#/mysteries", "Case files on real unsolved ciphers and lost scripts."], ["Lead Board", "#/leads", "The database of every code, fact, lead and attempt, with the hunter's live feed."], ["Open Codes", "#/open", "Every code we track that is still unsolved."], ["Solutions", "#/solutions", "What the tools have verified, and which readings are only candidates."], ["History", "#/history", "A timeline of codebreaking, with a page for each key event."], ["Challenge", "#/challenge", "A hidden cipher to break yourself."], ["Translate", "#/translate", "Language detection, word breaks and offline translation."]
 ];
 

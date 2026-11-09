@@ -92,3 +92,6 @@ Parsed 60 substitution tables and their writers from the database. Control rose 
 
 ## 2026-11-09: Open Codes and Solutions pages (user request)
 Added `#/open`, listing 119 open entries with search and filters, and `#/solutions`, separating possible solutions by evidence tier from known solutions our tools reproduced. Data comes from the leads database, so both update as leads change.
+
+## 2026-11-09: How It Works page (user request)
+Added illustrated pages for frequency analysis, key-length detection and column rebuilding, and simulations of AES rounds, the ECB image leak, the avalanche effect, a Feistel network, modular key exchange, RSA arithmetic and a simplified Colossus. AES is checked against a FIPS vector and PyCryptodome; S-DES against the Python cipher.
