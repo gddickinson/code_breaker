@@ -32,7 +32,7 @@ async function sgAnalyse() {
   const trust = best && rel[best.format] ? `In generated tests, this format and width were both found ${rel[best.format].correct} times out of ${rel[best.format].cases}.` : "";
   $("#sgOut").innerHTML = `<div class="panel cstep"><b>1</b><div class="cbody"><h3>Find the row length</h3><p>Pixels are usually similar to the pixel directly below. Comparing every byte with the byte a fixed distance later shows a dip at the length of one row: <b>${d.stride} bytes</b>.</p>${sgCurve(d)}</div></div>
     <div class="panel cstep"><b>2</b><div class="cbody"><h3>Find the pixel format</h3><p>Each format is decoded at that row length, and the smoothest picture wins. ${esc(trust)}</p>${table(["Format", "Width", "Height", "Roughness (lower is better)", "Note"], d.ranking.slice(0, 8).map(r => [r.name, r.width, r.height, r.smoothness, r.note || ""]))}
-    <p class="mute">Reliable in tests: 8-bit, RAW10, Kinect 11-bit, YUYV and RGB24. Less reliable: 16-bit, RAW12 and RGB565. A Bayer mosaic is usually reported as 8-bit grey, so try the Bayer setting below if a grey picture shows a fine checkerboard.</p></div></div>
+    <p class="mute">Success in generated tests, by format: ${Object.entries(rel).map(([k, v]) => `${esc(d.formats[k] ? k : k)} ${v.correct}/${v.cases}`).join(", ")}. If a grey picture shows a fine checkerboard, try the Bayer setting below.</p></div></div>
     <div class="panel cstep"><b>3</b><div class="cbody"><h3>Look, and adjust</h3><p>A slanted picture means the width is slightly wrong. A picture repeated side by side means half the true width.</p>${sgControls(d)}<div style="overflow:auto;margin-top:10px"><img id="sgImg" alt="The reconstructed frame" src="${d.preview || ""}" style="image-rendering:pixelated;max-width:100%;background:#000"></div></div></div>`;
   $("#sgR").onclick = ev => busy(ev.target, $("#sgMsg"), sgRender);
   $("#sgM").onclick = () => { $("#sgW").value = +$("#sgW").value - 1; sgRender(); };
@@ -51,6 +51,7 @@ route(/^\/signals$/, async () => {
     $("#sgMsg").textContent = `${e.title}: ${e.bytes.toLocaleString()} bytes, with no header. The true layout is ${e.truth.format}, ${e.truth.width} wide; see whether the analysis finds it.`;
     await sgAnalyse();
   });
+  if (window.PENDING_SIGNAL) { SG.data = window.PENDING_SIGNAL.data; $("#sgMsg").textContent = `${window.PENDING_SIGNAL.name}, from the File Inspector.`; window.PENDING_SIGNAL = null; sgAnalyse().catch(e => { $("#sgMsg").textContent = e.message; }); }
   $("#sgFile").onchange = ev => busy(ev.target.parentElement, $("#sgMsg"), async () => {
     const f = ev.target.files[0];
     if (!f) return;

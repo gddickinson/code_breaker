@@ -75,6 +75,11 @@ def image(b: bytes, fmt: str, width: int, offset: int = 0, bayer: str | None = N
     return np.stack([g, g, g], axis=2)
 
 
+def _noise(shape, top: int) -> np.ndarray:
+    """Sensor noise in the bits below 8, so packed low bits look like a real camera's rather than zeros."""
+    return np.random.default_rng(5).integers(0, top, shape).astype(np.uint16)
+
+
 def encode(rgb: np.ndarray, fmt: str, bayer: str = "RGGB") -> bytes:
     """Write an RGB picture (or a depth map, for kinect11 and 16-bit) in a device format, for examples and tests."""
     gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY) if rgb.ndim == 3 else rgb
@@ -93,11 +98,11 @@ def encode(rgb: np.ndarray, fmt: str, bayer: str = "RGGB") -> bytes:
         v = gray.astype(np.uint16) * 16 + np.random.default_rng(5).integers(0, 16, gray.shape).astype(np.uint16) if gray.dtype == np.uint8 else gray.astype(np.uint16)
         return v.astype("<u2" if fmt == "gray16le" else ">u2").tobytes()
     if fmt == "raw10":
-        v = (gray.astype(np.uint16) * 4).reshape(-1, 4)
+        v = (gray.astype(np.uint16) * 4 + _noise(gray.shape, 4)).reshape(-1, 4)
         low = sum((v[:, i] & 3) << (2 * i) for i in range(4)).astype(np.uint8)
         return np.concatenate([(v >> 2).astype(np.uint8), low[:, None]], axis=1).tobytes()
     if fmt == "raw12":
-        v = (gray.astype(np.uint16) * 16).reshape(-1, 2)
+        v = (gray.astype(np.uint16) * 16 + _noise(gray.shape, 16)).reshape(-1, 2)
         return np.stack([(v[:, 0] >> 4), (v[:, 1] >> 4), ((v[:, 1] & 15) << 4) | (v[:, 0] & 15)], axis=1).astype(np.uint8).tobytes()
     if fmt == "kinect11":
         v = gray.astype(np.uint16).reshape(-1) if gray.dtype != np.uint8 else gray.astype(np.uint16).reshape(-1) * 8

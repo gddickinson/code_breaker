@@ -86,6 +86,37 @@ def bayer_check(lum: np.ndarray, width: int) -> dict | None:
     return {"adjacent": round(one, 3), "two_apart": round(two, 3), "phase_means": [round(m, 3) for m in means], "patterns": ["GRBG", "GBRG"] if diag else ["RGGB", "BGGR"]}
 
 
+def lane_rules(b: bytes, stride: int) -> dict | None:
+    """Format fingerprints in the byte lanes, checked before smoothness. Returns the format and width, or None.
+
+    16-bit holding 12-bit data: one lane of every pair never exceeds 15. RAW12: two smooth lanes and one noisy.
+    Bayer: pixels two apart far smoother than neighbours, and the row search lands on two rows."""
+    x = np.frombuffer(b, dtype=np.uint8)
+    if len(x) < 8 * stride:
+        return None
+    pair_max = [int(x[k::2].max()) for k in (0, 1)]
+    if stride % 2 == 0 and min(pair_max) <= 63 and max(pair_max) > 127:
+        hi = 1 if pair_max[1] <= 63 else 0
+        lane = x[hi::2].astype(np.float32)
+        lens, cost = stride_curve(lane.astype(np.uint8).tobytes(), lo=16)
+        width, _ = best_stride(lens, cost)
+        return {"format": "gray16le" if hi == 1 else "gray16be", "width": width, "rule": "one byte of each pair stays small: high bits of 10 to 14-bit data"}
+    if stride % 3 == 0:
+        sm = [smoothness(x[k::3].astype(float) / 255, stride // 3) for k in range(3)]
+        if sm[0] < 0.6 and sm[1] < 0.6 and sm[2] > 0.8:
+            return {"format": "raw12", "width": stride * 2 // 3, "rule": "two smooth byte lanes and a noisy third: packed 12-bit"}
+    if stride % 5 == 0:
+        sm = [smoothness(x[k::5].astype(float) / 255, stride // 5) for k in range(5)]
+        if max(sm[:4]) < 0.6 and sm[4] > 0.8:
+            return {"format": "raw10", "width": stride * 4 // 5, "rule": "four smooth byte lanes and a noisy fifth: packed 10-bit"}
+    lum = x.astype(np.float32) / 255
+    adj, two = smoothness(lum, stride, 1), smoothness(lum, stride, 2)
+    if two > 0 and adj / two > 3.5:
+        width = stride // 2 if stride % 4 == 0 and row_alternation(b, stride // 2) > 1.1 else stride
+        return {"format": "bayer", "width": width, "rule": f"pixels two apart are {adj / two:.1f} times smoother than neighbours: a colour mosaic"}
+    return None
+
+
 def detect(b: bytes) -> dict:
     """Find the row length in bytes first, then the pixel format that makes neighbouring pixels smoothest."""
     n = len(b)
@@ -111,10 +142,16 @@ def detect(b: bytes) -> dict:
             rows.append({"format": "bayer", "name": "Bayer colour mosaic, 8-bit", "width": s_try, "height": n // s_try, "leftover_bytes": n % s_try, "smoothness": 0.0})
             break
     rows.sort(key=lambda r: r["smoothness"])
+    rule = lane_rules(b, stride)
+    if rule:
+        info = FORMATS.get(rule["format"], {"name": "Bayer colour mosaic, 8-bit", "bytes_per_pixel": 1.0})
+        top = {"format": rule["format"], "name": info["name"], "width": rule["width"], "height": int(n / info["bytes_per_pixel"]) // rule["width"], "leftover_bytes": n % stride, "smoothness": 0.0, "note": rule["rule"]}
+        rows = [top] + [r for r in rows if r["format"] != rule["format"]]
     pair = {r["format"]: r for r in rows if r["format"] in ("gray16le", "rgb565")}
     if len(pair) == 2 and rows[0]["format"] in pair and abs(pair["gray16le"]["smoothness"] - pair["rgb565"]["smoothness"]) < 0.15 * max(pair["gray16le"]["smoothness"], 1e-9):
         first = "rgb565" if field_smooth(b, pair["rgb565"]["width"]) < 0.6 else "gray16le"
-        rows.sort(key=lambda r: (r["format"] != first, r["smoothness"]))
+        if not rule:
+            rows.sort(key=lambda r: (r["format"] != first, r["smoothness"]))
     step = max(1, len(cost) // 400)
     return {"bytes": n, "stride": stride, "dip": round(depth, 3), "curve": [round(float(c), 3) for c in cost[::step]], "curve_start": int(lengths[0]), "curve_step": step, "ranking": rows, "best": rows[0] if rows else None, "bayer": bay}
 

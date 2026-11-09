@@ -27,6 +27,9 @@
 ## codebreaker/signals/ (Signal Workbench page)
 `raw_formats.py` camera and sensor pixel formats (8/16-bit, RAW10, RAW12, Kinect 11-bit, YUYV, RGB24, RGB565, Bayer) as encoders and decoders · `raw_detect.py` row length from byte differences, then the smoothest format; generated scenes and the control · `service.py` previews, examples and per-format reliability. Front end `signals.js`. Device and signal routes are in `web/routes_devices.py`.
 
+## codebreaker/files/ (File Inspector page)
+Adapted from the textview project: `file_inspector.py` (magic bytes, extension hints, encoding, hex preview; magic now wins over a misleading extension), `format_db.py` (data/files/file_formats.json), `security_scanner.py`, `blend_inspector.py`, `document_extract.py`. New: `readers.py` (image, text, table, archive, SQLite via apsw, NumPy, MATLAB, PDF, WAV views; pickle is never loaded), `carve.py` (entropy map, strings, embedded signatures), `service.py`. Routes in `web/routes_files.py`; front end `files.js`.
+
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·

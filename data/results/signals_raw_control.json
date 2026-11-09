@@ -1,8 +1,8 @@
 {
  "cases": 80,
- "format_ok": 59,
- "width_ok": 62,
- "both_ok": 51,
+ "format_ok": 77,
+ "width_ok": 78,
+ "both_ok": 75,
  "rows": [
   {
    "kind": "gray8",
@@ -73,8 +73,8 @@
    "size": "320x240",
    "seed": 1,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16le 318"
+   "width_ok": true,
+   "got": "gray16le 320"
   },
   {
    "kind": "gray16le",
@@ -89,8 +89,8 @@
    "size": "640x480",
    "seed": 1,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16le 33"
+   "width_ok": true,
+   "got": "gray16le 640"
   },
   {
    "kind": "gray16le",
@@ -105,16 +105,16 @@
    "size": "752x480",
    "seed": 1,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16le 36"
+   "width_ok": true,
+   "got": "gray16le 752"
   },
   {
    "kind": "gray16le",
    "size": "752x480",
    "seed": 2,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16le 749"
+   "width_ok": true,
+   "got": "gray16le 752"
   },
   {
    "kind": "gray16le",
@@ -137,16 +137,16 @@
    "size": "320x240",
    "seed": 1,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16be 319"
+   "width_ok": true,
+   "got": "gray16be 320"
   },
   {
    "kind": "gray16be",
    "size": "320x240",
    "seed": 2,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "yuyv 320"
+   "got": "gray16be 320"
   },
   {
    "kind": "gray16be",
@@ -160,41 +160,41 @@
    "kind": "gray16be",
    "size": "640x480",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "yuyv 639"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16be 640"
   },
   {
    "kind": "gray16be",
    "size": "752x480",
    "seed": 1,
    "format_ok": true,
-   "width_ok": false,
-   "got": "gray16be 35"
+   "width_ok": true,
+   "got": "gray16be 752"
   },
   {
    "kind": "gray16be",
    "size": "752x480",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "yuyv 750"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16be 752"
   },
   {
    "kind": "gray16be",
    "size": "176x144",
    "seed": 1,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "yuyv 175"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16be 176"
   },
   {
    "kind": "gray16be",
    "size": "176x144",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "yuyv 177"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "gray16be 176"
   },
   {
    "kind": "raw10",
@@ -264,49 +264,49 @@
    "kind": "raw12",
    "size": "320x240",
    "seed": 1,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 160"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 320"
   },
   {
    "kind": "raw12",
    "size": "320x240",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 160"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 320"
   },
   {
    "kind": "raw12",
    "size": "640x480",
    "seed": 1,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 320"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 640"
   },
   {
    "kind": "raw12",
    "size": "640x480",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 320"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 640"
   },
   {
    "kind": "raw12",
    "size": "752x480",
    "seed": 1,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 376"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 752"
   },
   {
    "kind": "raw12",
    "size": "752x480",
    "seed": 2,
-   "format_ok": false,
-   "width_ok": false,
-   "got": "rgb24 376"
+   "format_ok": true,
+   "width_ok": true,
+   "got": "raw12 752"
   },
   {
    "kind": "raw12",
@@ -584,57 +584,57 @@
    "kind": "bayer",
    "size": "320x240",
    "seed": 1,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 320"
+   "got": "bayer 320"
   },
   {
    "kind": "bayer",
    "size": "320x240",
    "seed": 2,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 320"
+   "got": "bayer 320"
   },
   {
    "kind": "bayer",
    "size": "640x480",
    "seed": 1,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 640"
+   "got": "bayer 640"
   },
   {
    "kind": "bayer",
    "size": "640x480",
    "seed": 2,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 640"
+   "got": "bayer 640"
   },
   {
    "kind": "bayer",
    "size": "752x480",
    "seed": 1,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 752"
+   "got": "bayer 752"
   },
   {
    "kind": "bayer",
    "size": "752x480",
    "seed": 2,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 752"
+   "got": "bayer 752"
   },
   {
    "kind": "bayer",
    "size": "176x144",
    "seed": 1,
-   "format_ok": false,
+   "format_ok": true,
    "width_ok": true,
-   "got": "gray16le 176"
+   "got": "bayer 176"
   },
   {
    "kind": "bayer",

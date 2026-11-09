@@ -411,3 +411,6 @@ def home():
 from .routes_devices import router as _devices  # noqa: E402  (after app exists, to keep this file short)
 
 app.include_router(_devices)
+from .routes_files import router as _files  # noqa: E402
+
+app.include_router(_files)

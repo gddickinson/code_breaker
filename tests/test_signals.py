@@ -37,9 +37,16 @@ def test_reliable_formats_are_detected(kind, w, h):
 
 def test_recorded_control_is_honest():
     rel = S.reliability()
-    for k in ("kinect11", "raw10", "yuyv", "rgb24", "gray8"):
+    for k in ("kinect11", "raw10", "raw12", "yuyv", "rgb24", "gray8", "gray16le", "gray16be"):
         assert rel[k]["correct"] == rel[k]["cases"]
-    assert rel["bayer"]["correct"] < rel["bayer"]["cases"]
+    assert sum(v["correct"] for v in rel.values()) >= 0.9 * sum(v["cases"] for v in rel.values())
+
+
+@pytest.mark.parametrize("kind,w,h", [("gray16le", 320, 240), ("raw12", 640, 480), ("bayer", 640, 480)])
+def test_lane_rules_find_formats_smoothness_missed(kind, w, h):
+    data, truth = D.example(kind, w, h, 4)
+    got = D.detect(data)["best"]
+    assert (got["format"], got["width"]) == (truth["format"], truth["width"])
 
 
 def test_api_example_analyse_and_render():

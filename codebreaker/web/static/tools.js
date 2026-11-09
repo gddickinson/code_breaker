@@ -14,6 +14,7 @@ route(/^\/workbench$/, async () => {
     <button id="crack">Crack it</button><button id="stop" class="alt" disabled>Stop</button><button id="go" class="alt">Statistics only</button></div>
     <div id="abo"></div><div id="o"></div>${submitPanel()}`;
   crackSetup();
+  if (window.PENDING_TEXT) { $("#t").value = window.PENDING_TEXT; window.PENDING_TEXT = null; }
   submitSetup();
   $("#go").onclick = ev => busy(ev.target, $("#o"), async () => {
     const r = await api("/analyze", { text: $("#t").value });

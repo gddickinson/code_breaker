@@ -164,3 +164,9 @@ New Tools page, Live Devices. It lists everything attached (61 devices found: US
 ## 2026-11-09: Round 30
 Added the Signal Workbench: rebuild raw camera and sensor frames from bytes, with generated examples (Kinect depth, webcam YUYV, RAW10, RGB565, Bayer, 16-bit). Automatic detection is right for format and width in 51 of 80 generated cases, with all 8 correct for 8-bit, RAW10, Kinect 11-bit, YUYV and RGB24, and weak for 16-bit, RAW12, RGB565 and Bayer, so the page shows that reliability and offers manual format, width, offset and Bayer controls. Live Devices monitors (serial, camera, microphone, network) now each have their own stop button, checked in Chrome. Device and signal routes moved to web/routes_devices.py to keep app.py under 500 lines.
 
+## 2026-11-09: File Inspector (user request)
+Incorporated the GUI-free core of the user's textview project (identification by magic bytes, format database, security scan, Blender header and document readers) as codebreaker/files/, with credit in each file. Changed one rule: a definite signature now wins over a misleading extension, which may only refine a container. Added web views for images, text and tables, archives, SQLite, NumPy, MATLAB, PDF and WAV, plus forensic views (entropy map, strings, embedded file signatures), and hand-off buttons to the Workbench and Signal Workbench. Readers needing pyarrow, h5py, cryptography or openpyxl are not included yet.
+
+## 2026-11-09: Round 30b
+Raw-frame detection now checks byte-lane fingerprints before smoothness, raising the control from 51 to 75 of 80. All formats are 8 of 8 except RGB565 (4) and Bayer (7). Test frames now carry realistic noise in packed low bits.
+

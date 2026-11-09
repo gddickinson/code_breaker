@@ -58,7 +58,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 29 | Quagmire III fixed (keyword list 1,500 to 6,000; 30 of 30 random keys); 2119 and 2402 correspondences on the case page; symbol 1=B not supported by a dictionary test | completed 2026-11-09 |
 | 29b | Live Devices page: discovery, read-only serial, camera, microphone and network monitors with stream analysis (user request) | completed 2026-11-09 |
 | 30 | Signal Workbench: raw frames in 9 formats; automatic detection 51 of 80 (8 of 8 for 8-bit, RAW10, Kinect 11-bit, YUYV, RGB24; weak for 16-bit, RAW12, RGB565, Bayer), with manual controls; Live Devices stop buttons | completed 2026-11-09 |
-| 30b | Raise detection for 16-bit, RAW12, RGB565 and Bayer: model bit fields per format instead of one smoothness score | next |
+| 30b | Byte-lane fingerprints (small high byte, noisy packed lane, two-apart smoothness): detection 75 of 80, up from 51; all formats 8 of 8 except RGB565 4 and Bayer 7 | completed 2026-11-09 |
 | 31 | Signals part 2: serial and bus protocols decoded from sampled logic: UART (baud detection), I2C, SPI, CAN (bit stuffing, CRC-15), USB low/full speed (NRZI, bit stuffing, PID, CRC5/16), 1-Wire | pending |
 | 32 | Signals part 3: line codes and links: Manchester, 4B5B, 8b/10b, HDMI/DVI TMDS, Ethernet frames and CRC-32, VGA/composite video timing from samples | pending |
 | 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
@@ -219,4 +219,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - A single smoothness score favours formats that average bytes together, so wrong formats can look smoother than the true one. Per-lane checks fixed RGB24 and YUYV, but RAW12, 16-bit and Bayer need format-specific bit-field models.
 - Find the row length in bytes before choosing a format: compare against lengths 60 bytes away, a multiple of every interleave, so channel layout cannot fake a row.
 - A half-stride Bayer rule made the control worse (15 of 80) and was removed. Detection is shipped with its per-format reliability shown on the page, not one headline number.
+
+## Added 2026-11-09: Round 30b
+- Structural fingerprints beat a generic score: 12-bit data in 16 bits leaves one byte below 16, packed low bits form one noisy lane, and a Bayer mosaic is far smoother two pixels apart.
+- Generated test data must have realistic noise. Zero low bits made RAW12 and 16-bit look unlike any real sensor, twice.
 
