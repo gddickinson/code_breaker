@@ -176,3 +176,6 @@ Installed pyarrow, h5py, netCDF4, cryptography and openpyxl (pinned in requireme
 ## 2026-11-09: Sound Lab and birdsong (user request)
 Added a Sound Lab and a Birdsong group in Codes in Nature. From the user's bird_sound_analyzer project it takes BirdNET species identification (now on the lightweight ai-edge-litert runtime, without TensorFlow) and adds YAMNet for 521 general sound classes. Songs are segmented into syllables, typed, and measured as a symbol sequence with entropy. Controls: synthetic songs with known grammar (all syllables found; types agree for about 85%); five Wikimedia Commons recordings (blackbird x2, robin x2, tawny owl), all named correctly first by BirdNET, with runner-ups sometimes above 0.6, so results are shown as candidates. The page can analyse examples, uploaded files or 10 seconds from the microphone.
 
+## 2026-11-09: Round 31
+Added a Logic Analyser (Tools): UART, SPI, I2C, CAN and 1-Wire decoders on sampled wires, with baud, parity, polarity, SPI mode, CAN bit rate and wiring found automatically and every decoder ranked by how strongly its checks pass. The control of 50 generated captures with glitches, and a fresh set of 50, both decode protocol and bytes 50 of 50. CSV exports from sigrok or Saleae can be opened. USB moved to Round 31b.
+

@@ -59,7 +59,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 29b | Live Devices page: discovery, read-only serial, camera, microphone and network monitors with stream analysis (user request) | completed 2026-11-09 |
 | 30 | Signal Workbench: raw frames in 9 formats; automatic detection 51 of 80 (8 of 8 for 8-bit, RAW10, Kinect 11-bit, YUYV, RGB24; weak for 16-bit, RAW12, RGB565, Bayer), with manual controls; Live Devices stop buttons | completed 2026-11-09 |
 | 30b | Byte-lane fingerprints (small high byte, noisy packed lane, two-apart smoothness): detection 75 of 80, up from 51; all formats 8 of 8 except RGB565 4 and Bayer 7 | completed 2026-11-09 |
-| 31 | Signals part 2: serial and bus protocols decoded from sampled logic: UART (baud detection), I2C, SPI, CAN (bit stuffing, CRC-15), USB low/full speed (NRZI, bit stuffing, PID, CRC5/16), 1-Wire | pending |
+| 31 | Logic Analyser: UART, SPI, I2C, CAN and 1-Wire decoders with automatic protocol, speed, parity, polarity and wiring; 50 of 50 on the control and on a fresh set | completed 2026-11-09 |
+| 31b | USB low and full speed from sampled D+/D-: NRZI, bit stuffing, PID, CRC5/16 | pending |
+| 31c | Codes in Nature expansion: how other organisms transmit and encode information (user request) | next |
 | 32 | Signals part 3: line codes and links: Manchester, 4B5B, 8b/10b, HDMI/DVI TMDS, Ethernet frames and CRC-32, VGA/composite video timing from samples | pending |
 | 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
 | 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
@@ -228,4 +230,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - BirdNET's confidence is not a probability of being right: runner-up species reached 0.83 on a correctly identified robin. Show several candidates.
 - A null comparison caught a bug, not a weakness: the baseline function called the identifier, which called the baseline, so it recursed forever.
 - Ideas: compare song sequences between individuals (dialects) by n-gram distance; whale and bat calls; a live microphone mode reusing the Live Devices monitor.
+
+## Added 2026-11-09: Round 31
+- Identification must weigh how hard each protocol's own checks are to pass by chance. UART's two framing bits per byte let it "decode" SPI and CAN lines; a CAN CRC-15 almost never passes by luck.
+- A test that only checks the common case hides bugs: identification skipped chip-select lines because they change only twice, and UART assumed no parity. Both showed up only in the mixed control.
+- A held-out set matters even for generated data: rules tuned on seed 9 were rechecked on seed 21 after every change.
 

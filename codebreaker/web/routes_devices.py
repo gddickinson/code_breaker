@@ -101,3 +101,24 @@ def raw_example(kind: str):
     if kind not in service.EXAMPLES:
         raise HTTPException(404, "No such example.")
     return service.make_example(kind)
+
+
+class LogicIn(BaseModel):
+    example: str = ""
+    message: str = "Code Breaker"
+    glitches: int = 3
+    csv: str = ""
+    rate: float | None = None
+
+
+@router.post("/api/signals/logic")
+def logic(body: LogicIn):
+    from ..signals import logic_service as L
+
+    def run():
+        if body.csv:
+            ch, rate = L.parse_csv(body.csv, body.rate)
+            return L.analyse(ch, rate)
+        ch, rate, truth = L.example(body.example or "uart", body.message[:64], max(0, min(body.glitches, 20)))
+        return L.analyse(ch, rate, truth)
+    return guarded(run)
