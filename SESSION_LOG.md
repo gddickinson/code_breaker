@@ -56,3 +56,6 @@ Live annealer page (`#/machine/anneal`), checked to break a substitution under n
 
 ## 2026-11-09: Round 10 complete
 Beale: an honest narrow-window encoder reproduces the B3 correlation, so the hoax inference is withdrawn. Voynich: two improved generators each match predictability and word length but fail vocabulary or Zipf. Hunter gains reverse-plus-column avenues. Classifier now multilingual. Z340: the search outscored the true text, so the language model is the limit. Next: Round 11.
+
+## 2026-11-09: Round 11 complete
+Z340: the 5-gram model ranks the true text above found decoys; long runs reach 44% on verified positions (top-scoring run 39%). Rongorongo alignment passes its control but finds nothing above the shuffled level. Short-passage Beale keys rejected as equivalent to document offsets. Next: Round 12.

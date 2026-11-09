@@ -1,0 +1,187 @@
+{
+ "id": "rongo_align",
+ "pairs": 369,
+ "top_raw": [
+  {
+   "a": "1",
+   "b": "2",
+   "shared": 20
+  },
+  {
+   "a": "1",
+   "b": "22",
+   "shared": 17
+  },
+  {
+   "a": "1",
+   "b": "10",
+   "shared": 17
+  },
+  {
+   "a": "1",
+   "b": "5",
+   "shared": 13
+  },
+  {
+   "a": "400",
+   "b": "600",
+   "shared": 13
+  },
+  {
+   "a": "2",
+   "b": "21",
+   "shared": 12
+  },
+  {
+   "a": "200",
+   "b": "3",
+   "shared": 12
+  },
+  {
+   "a": "3",
+   "b": "600",
+   "shared": 11
+  },
+  {
+   "a": "10",
+   "b": "62",
+   "shared": 11
+  },
+  {
+   "a": "2",
+   "b": "5",
+   "shared": 10
+  }
+ ],
+ "top_normalised": [
+  {
+   "a": "254",
+   "b": "256",
+   "shared_contexts": 5,
+   "freq_a": 55,
+   "freq_b": 25,
+   "normalised": 0.135
+  },
+  {
+   "a": "400",
+   "b": "600",
+   "shared_contexts": 13,
+   "freq_a": 66,
+   "freq_b": 279,
+   "normalised": 0.096
+  },
+  {
+   "a": "301",
+   "b": "381",
+   "shared_contexts": 5,
+   "freq_a": 37,
+   "freq_b": 77,
+   "normalised": 0.094
+  },
+  {
+   "a": "700",
+   "b": "710",
+   "shared_contexts": 8,
+   "freq_a": 213,
+   "freq_b": 37,
+   "normalised": 0.09
+  },
+  {
+   "a": "2",
+   "b": "21",
+   "shared_contexts": 12,
+   "freq_a": 395,
+   "freq_b": 66,
+   "normalised": 0.074
+  },
+  {
+   "a": "10",
+   "b": "62",
+   "shared_contexts": 11,
+   "freq_a": 242,
+   "freq_b": 91,
+   "normalised": 0.074
+  },
+  {
+   "a": "40",
+   "b": "41",
+   "shared_contexts": 6,
+   "freq_a": 139,
+   "freq_b": 52,
+   "normalised": 0.071
+  },
+  {
+   "a": "300",
+   "b": "40",
+   "shared_contexts": 7,
+   "freq_a": 106,
+   "freq_b": 139,
+   "normalised": 0.058
+  },
+  {
+   "a": "8",
+   "b": "81",
+   "shared_contexts": 5,
+   "freq_a": 137,
+   "freq_b": 59,
+   "normalised": 0.056
+  },
+  {
+   "a": "200",
+   "b": "49",
+   "shared_contexts": 5,
+   "freq_a": 278,
+   "freq_b": 30,
+   "normalised": 0.055
+  },
+  {
+   "a": "380",
+   "b": "62",
+   "shared_contexts": 6,
+   "freq_a": 149,
+   "freq_b": 91,
+   "normalised": 0.052
+  },
+  {
+   "a": "200",
+   "b": "205",
+   "shared_contexts": 6,
+   "freq_a": 278,
+   "freq_b": 60,
+   "normalised": 0.046
+  },
+  {
+   "a": "1",
+   "b": "53",
+   "shared_contexts": 9,
+   "freq_a": 732,
+   "freq_b": 70,
+   "normalised": 0.04
+  },
+  {
+   "a": "1",
+   "b": "10",
+   "shared_contexts": 17,
+   "freq_a": 732,
+   "freq_b": 242,
+   "normalised": 0.04
+  },
+  {
+   "a": "6",
+   "b": "64",
+   "shared_contexts": 7,
+   "freq_a": 263,
+   "freq_b": 118,
+   "normalised": 0.04
+  }
+ ],
+ "null_max_mean": 0.096,
+ "null_max": 0.194,
+ "control": {
+  "sign": "522",
+  "rank": 6,
+  "pairs_considered": 362,
+  "passes": true
+ },
+ "runtime_s": 0.6
+}

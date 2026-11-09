@@ -1,0 +1,62 @@
+{
+ "t0=3,w=2": {
+  "control_accuracy": 0.997,
+  "accuracy_top": 0.374,
+  "accuracy_all": [
+   0.374,
+   0.073,
+   0.084,
+   0.094,
+   0.024,
+   0.045
+  ],
+  "best_objective": -1599.2,
+  "truth_objective": -1564.1,
+  "reading": "PHOEED IN ALE HE LONG S S TO IMMEDINCASINGTOTRT THEE THE S TRANCES IN THAT LYHITWHOTHDAITGS BEARS ON CAN S UCEEIEEDISRMHEPROM THE GAY THEE NOR DETER OF IT WILL NOT BE FAIR EVER S TOES S THAN S S HAND ETEBYFSIOWHELE ENOUGH O LE LO AT S WILL MILE OTHER EANERDINA"
+ },
+ "t0=6,w=2": {
+  "control_accuracy": 0.997,
+  "accuracy_top": 0.101,
+  "accuracy_all": [
+   0.101,
+   0.014,
+   0.08,
+   0.066,
+   0.08,
+   0.07
+  ],
+  "best_objective": -1620.5,
+  "truth_objective": -1564.1,
+  "reading": "I E WIT NO YOU RED A TEN I STROLL ECTOFLYCONT WHAT HE ATTEMPT A IN FAR AN TEDTATEO THE THE ULCONSSIONSTEFOSS IF AT TEA CAP A LED IBWLVER NO THE MASS OUR HEAR GET HE HE IS ON AGE AND PER IHSMIITEDISSEDOU THE ST GROW HE MATTER IN ERE D AS LTSHOUALOAASTETORD IT O"
+ },
+ "t0=10,w=2": {
+  "control_accuracy": 0.997,
+  "accuracy_top": 0.315,
+  "accuracy_all": [
+   0.315,
+   0.262,
+   0.049,
+   0.031,
+   0.066,
+   0.091
+  ],
+  "best_objective": -1615.0,
+  "truth_objective": -1564.1,
+  "reading": "N HIS E PARADE HIS AND SO S WALL OFF REN CORDS IT AT TH RE THEN TATTERS IT SHE S S THAT THAT HE NOR DO US AGO AN E ABOVE RE FOR FIN ALL IN GILT HE DAT T HER BE SEE TO A W O ATTAIN ME RYRODIGICONSTEESS THEM O O HERE ET OUT OS A I THE SEEN WVDHWNISENTOTADSL AS R"
+ },
+ "t0=6,w=0.5": {
+  "control_accuracy": 0.997,
+  "accuracy_top": 0.192,
+  "accuracy_all": [
+   0.192,
+   0.336,
+   0.059,
+   0.399,
+   0.283,
+   0.08
+  ],
+  "best_objective": -1514.2,
+  "truth_objective": -1532.0,
+  "reading": "AH SEE T A IN BE HE LA REST SEA EE THAN IT I ONES ST HATH TEA HAT THAT I THAT S HIS LE HAT THAT H STORE THEN STAR IN S TRI TEA T THAT HERE AN SE THEE NE THAT S ONSET THERE ATE IN NOR ST RE A SED TO S TO AS S A HINT THIN SET T HER HAS TH ALE ERE RE HE NE LOT AT"
+ }
+}

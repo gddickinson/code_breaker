@@ -65,3 +65,15 @@ def test_bombe_recovers_plugboard_enigma():
 
     r = demo(2)
     assert r["success"] and r["found_plugboard"] == r["plugboard"] and r["found_rotors"] == r["rotors"]
+
+
+def test_five_gram_kernel_scores_english_above_noise():
+    import numpy as np
+
+    from codebreaker import kernels_n as N
+    from codebreaker.text import to_ints
+    from codebreaker.validation import sample_plaintext
+
+    p = to_ints(sample_plaintext(300, "en", 8)).astype(np.int64)
+    tab = np.asarray(N.table5())
+    assert N.score5(p, tab) > N.score5(np.random.default_rng(1).integers(0, 26, 300), tab)

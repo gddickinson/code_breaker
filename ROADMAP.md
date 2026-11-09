@@ -37,7 +37,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 8 | R9 breadth: M-209, more ACA types, bombe, coverage page (Purple and VIC deferred, listed on the coverage page) | completed 2026-11-09 |
 | 9 | Graphics: animated attack visualiser, live hunter feed, lead timeline | completed 2026-11-09 |
 | 10 | Return to the hardest targets: E8 Beale drift, E9 Voynich, E10 multilingual Autobreak, E7 reversal combos, E4 diagnosis (E11 and the E4 fix carried over) | completed 2026-11-09 |
-| 11 | Neural language-model scorer on the GPU, tested on Z340 (E4); E11 Rongorongo alignment; short-passage Beale keys | next |
+| 11 | 5-gram scorer on Z340 (E4), E11 Rongorongo alignment, short-passage Beale keys | completed 2026-11-09 (neural scorer deferred: 5-grams fixed the ranking) |
+| 12 | Longer Z340 search with spare CPU; D'Agapeyeff digit transposition; Liber Primus running keys; cheap Autobreak fallbacks | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -68,17 +69,20 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Test your own best explanation by building the rival: the honest Beale encoder overturned last round's reading.
 - Before buying more search, compare the true answer's score with what the solver found.
 
+- Check whether a new idea is even distinct: short Beale passages reduce to whole-document offsets, so that avenue was rejected.
+- Ranking the true answer above decoys is the right test for a language model.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
-| E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. Best of 12 runs at 40M iterations: 31%. A wrong reading outscores the true text (objective -1258 against -1281), so more search will not help. NEXT: a stronger language model, such as word-level or a neural scorer trained on the GPU, in a planted-Z340 benchmark |
+| E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. Quadgram model preferred wrong text. 5-gram model (`kernels_n.py`) prefers the truth (-1564 against best found -1594), and 21 runs of 40M steps reach up to 44% (top-scoring run 39%). So search is the limit again. NEXT: longer runs on the Mac mini, then the second block's break |
 | E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
 | E8 | Beale drift model | completed 2026-11-09: narrow-window honest encoder reaches r=0.68; hoax inference withdrawn. D'Agapeyeff digit transposition still an idea |
 | E9 | Voynich: closer self-citation and independent-space verbose models added; each matches H2 and word length but fails on vocabulary or Zipf. Liber Primus running keys still pending | partial |
 | E10 | Multilingual training done (6 languages): family 83%, Autobreak 19 of 24 on half-French tests. Cheap fallback attacks still pending | partial |
-| E11 | Rongorongo: align parallel passages to merge sign variants; needs a transcribed Indus corpus and Debosnys symbols | pending |
+| E11 | Rongorongo alignment: control passes, real pairs below the null. Needs a transcribed Indus corpus and Debosnys symbols | partial |
 | E7 | Hunter idea: combine reversal with each other transform, and add n-gram scoring in French for newspaper ads | pending |
 | E5 | GPU: search loops stay on CPU; neural training runs on MPS, 5.5x faster (`data/results/classifier.json`) | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
