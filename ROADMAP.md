@@ -47,12 +47,15 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Temperature must scale with text length; a fixed schedule quietly fails on long messages.
 - Ground-truth diagnostics on solved ciphers can localise a modelling error to an exact position.
 
+- Simple transforms before substitution are worth trying everywhere: one reversal unlocked a real message.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
 | E4 | Z340: section A reading is exact (100% consistent with the published solution). Section B is right until about reading position 99 of 153, then breaks; last two rows are 88% consistent | in_progress. NEXT: in `scripts/diagnose_z340.py`, search a cut point and new start offset for section B, then fold it into `zodiac.untranspose` and rerun |
+| E6 | Le Figaro ad solved by the hunter (reversed substitution, French). Check it against the Dunin et al. database; obtain their 1,400 unsolved ads as a new corpus | pending, high priority |
 | E5 | GPU: all three search loops are slower on MPS than one CPU core (`data/results/gpu_benchmark.json`); use GPU for neural work | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
 
