@@ -49,7 +49,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 20 | Le Figaro OCR choice by language score (16 of 56, ties best) | completed 2026-11-09 |
 | 21 | Le Figaro OCR fusion with a French HMM (control 18 of 56, up from 16; majority vote 16); letter-digit attack (planted 40 of 40, no real ad read) | completed 2026-11-09 |
 | 22 | Letter-digit ads: dictionary beam (planted 87 of 90, including 29 of 30 at 30 letters), 32 documented digit tables recovered, shared key matches table 2119 | completed 2026-11-09 |
-| 23 | Hand-transcribe the letter-digit family and apply tables 2119 and 2402; fix load_tables to keep digit symbols and re-run the Le Figaro sweep; AIM dictionary code; irregular transposition models | next |
+| 23 | Sweep of 32 mixed and 11 numeric documented tables over 1,257 unsolved ads; 9 of the best readings checked by eye | completed 2026-11-09 |
+| 24 | Check the remaining machine-only digit-table leads against scans; decode ads mixing numbers with clear letters such as CHERY; extend tables with unknown cells; AIM dictionary code; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -159,4 +160,10 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Independent confirmation: a key fitted from one ad agrees with table 2119 on 13 of 16 shared symbols. Held-out fitting was weak (1 of 5 splits; planted control found members in 5 of 6), so the table match is the evidence.
 - Only 4 solved digit ads had OCR and none read well: OCR on digit tokens is the bottleneck. Digit-only words are lost by the token filter.
 - Candidates 7 Nov 1881, 9 Mar 1879, 27 Apr 1884, 5 Jun 1883 recorded. Novelty unconfirmed.
+
+## Added 2026-11-09: Round 23
+- The documented tables read many ads the statistics could not. Check documentation before building solvers.
+- The solved-ad control produced no hits (0 of 60), so it validates nothing here. Evidence is the shuffled null, the writer listings and reading each scan by eye.
+- OCR limits: 2F's TIMBRE came out as FIMBRE because v was read as y. Ads mixing numbers and clear letters defeat the number extractor; CHERY read fully only by hand.
+- Table cells can be blank in the database. Readings can suggest the missing values (15=J in table 2308), which would be new evidence for the maintainer.
 

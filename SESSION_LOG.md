@@ -124,3 +124,6 @@ OCR fusion with a French letter HMM recovered 18 of 56 known ads, against 16 bef
 ## 2026-11-09: Round 22
 A dictionary beam search over word breaks solved 29 of 30 planted letter-digit ads at 30 letters. Recovered 32 documented digit tables that the parser had been dropping. A key fitted from one ad matched documented table 2119 on 13 of 16 shared symbols. Four new candidates are recorded after checking scans. Held-out key fitting was weak and is reported as such. AIM and irregular transpositions moved to Round 23.
 
+## 2026-11-09: Round 23
+Swept 32 mixed and 11 numeric documented tables over all 1,257 unsolved ads. Added leads for the strong results; 9 were checked against scans and all are real ciphers, including the CHERY ad of 19 Oct 1889 and an ad naming rue Miromesnil. The rest are marked as machine readings. The solved-ad control produced no hits, so it validates nothing. Novelty unconfirmed. AIM and irregular transpositions moved to Round 24.
+
