@@ -77,3 +77,9 @@ def _overlap(a: str, b: str) -> float:
     from difflib import SequenceMatcher
 
     return SequenceMatcher(None, a, b).ratio() if a and b else 0.0
+
+
+def raw_read(path: str) -> dict:
+    """Unfiltered lines from both engines, for attacks that can use short or abbreviated ads."""
+    img = prepare(path)
+    return {"tesseract": tesseract_lines(img), "rapid": rapid_lines(img)}

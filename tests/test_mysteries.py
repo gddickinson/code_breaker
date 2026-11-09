@@ -133,3 +133,10 @@ def test_figaro_plain_ads_are_recognised():
 
     assert already_plain("VOUSAVEZELEVE", "VOUSAVEZELEVE") == 1.0
     assert already_plain("QFGTWMAZ", "VOUSAVEZ") < 0.5
+
+
+def test_figaro_documented_systems_decode_known_samples():
+    from codebreaker.mysteries.figaro_keys import A, NOW, shift, vig
+
+    assert shift("SJFORVFUPJ", 25, A) == "RIENQUETOI"
+    assert vig("UZIVGRIXCPIHCFSHPYUQOSIV", "CEAD", NOW) == "SUISENITALIEABSENTUNMOIS"

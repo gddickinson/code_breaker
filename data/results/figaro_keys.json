@@ -1,0 +1,212 @@
+{
+ "id": "figaro_keys",
+ "tested": 613,
+ "plain_ads": 179,
+ "thresholds": {
+  "1": 0.36,
+  "2": 0.2,
+  "5": 0.078,
+  "3": 0.2,
+  "6": 0.087,
+  "4": 0.133
+ },
+ "control_ads": 56,
+ "control_recovered": 9,
+ "control_rows": [
+  {
+   "image": "1892_18920901-LN.jpg",
+   "letters": 111,
+   "coverage": 0.595,
+   "null": 0.045,
+   "method": "Caesar 24, no W",
+   "match": 0.823
+  },
+  {
+   "image": "1885_18850918-ArH.jpg",
+   "letters": 130,
+   "coverage": 0.654,
+   "null": 0.062,
+   "method": "Caesar 24, no W",
+   "match": 0.778
+  },
+  {
+   "image": "1899_18991003-JBC.jpg",
+   "letters": 117,
+   "coverage": 0.667,
+   "null": 0.068,
+   "method": "Caesar 1, no W",
+   "match": 0.73
+  },
+  {
+   "image": "1882_18820713-AL.jpg",
+   "letters": 129,
+   "coverage": 0.775,
+   "null": 0.039,
+   "method": "Caesar 15",
+   "match": 0.709
+  },
+  {
+   "image": "1892_18920920-LG.jpg",
+   "letters": 85,
+   "coverage": 0.506,
+   "null": 0.047,
+   "method": "Caesar 24",
+   "match": 0.709
+  },
+  {
+   "image": "1894_18941015-LG.jpg",
+   "letters": 59,
+   "coverage": 0.186,
+   "null": 0.068,
+   "method": "Caesar 24",
+   "match": 0.701
+  },
+  {
+   "image": "1883_18831018-5mai.jpg",
+   "letters": 108,
+   "coverage": 0.13,
+   "null": 0.056,
+   "method": "Caesar 2, no W",
+   "match": 0.69
+  },
+  {
+   "image": "1899_18990204-P.jpg",
+   "letters": 62,
+   "coverage": 0.339,
+   "null": 0.097,
+   "method": "Caesar 21",
+   "match": 0.643
+  },
+  {
+   "image": "1896_18960802-Al.jpg",
+   "letters": 127,
+   "coverage": 0.346,
+   "null": 0.031,
+   "method": "Caesar 23, no W",
+   "match": 0.626
+  },
+  {
+   "image": "1893_18930101-43.jpg",
+   "letters": 84,
+   "coverage": 0.274,
+   "null": 0.048,
+   "method": "Caesar 24",
+   "match": 0.505
+  },
+  {
+   "image": "1881_18810621-PAV.jpg",
+   "letters": 99,
+   "coverage": 0.283,
+   "null": 0.051,
+   "method": "Caesar 25",
+   "match": 0.478
+  },
+  {
+   "image": "1894_18941030-TR.jpg",
+   "letters": 161,
+   "coverage": 0.112,
+   "null": 0.031,
+   "method": "Caesar 24",
+   "match": 0.472
+  }
+ ],
+ "flagged": [
+  {
+   "image": "1890_18901004-MH.jpg",
+   "letters": 28,
+   "raw": "MFUSFUSPQUBSEEPOFASFOEFAXPVT",
+   "plain_coverage": 0.0,
+   "coverage": 0.786,
+   "null_coverage": 0.143,
+   "score": -4.270585305504973,
+   "method": "Caesar 24, no W",
+   "plaintext": "LETRETROPTARDDONEZRENDEZVOUS",
+   "reading": "L ETRE TROP TARD D O NEZ RENDEZ VOUS"
+  },
+  {
+   "image": "1890_18901026-VE3.jpg",
+   "letters": 28,
+   "raw": "UZIVGRIXCPIHCFSHPYUQOSIVAMIT",
+   "plain_coverage": 0.0,
+   "coverage": 0.714,
+   "null_coverage": 0.143,
+   "score": -4.803383612888336,
+   "method": "Vigenere CEAD, no W",
+   "plaintext": "SUISENITALIEABSENTUNMOISYIIQ",
+   "reading": "SUIS EN ITALIE ABSENT UN MOIS YIIQ"
+  },
+  {
+   "image": "1886_18860629-CH.jpg",
+   "letters": 35,
+   "raw": "VECKGDEZKYEUUENVTIFYUIZTACNIHYLTYCT",
+   "plain_coverage": 0.0,
+   "coverage": 0.657,
+   "null_coverage": 0.143,
+   "score": -5.474009031678683,
+   "method": "Vigenere CEAD, no W",
+   "plaintext": "TACHEZEVITERSANSREFUSEZQYYNFFTLQVYT",
+   "reading": "TACHEZ EVITER SANS REFUSEZ QYYNFFTLQVYT"
+  },
+  {
+   "image": "1894_18941003-25.jpg",
+   "letters": 35,
+   "raw": "EROPGXXZQYFUCVORKUGVVHRDTFUZGQFUGQK",
+   "plain_coverage": 0.0,
+   "coverage": 0.657,
+   "null_coverage": 0.114,
+   "score": -4.295334427485169,
+   "method": "Vigenere CD, no W",
+   "plaintext": "COMMETUVOUDRASMOIRESTEPARCSVENDRENI",
+   "reading": "COMME TU VOUDRAS MOI RESTE PAR C S VENDRE NI"
+  },
+  {
+   "image": "1896_18960715.jpg",
+   "letters": 101,
+   "raw": "UPVUWPVTBUUFOETUPVEFTSFDPOOBJTTBOUEFKPVSTPVFUDPNNFOUFOWPZFSCPVRVJOEFTJSFBOOBMFTBJNFFTSZTDLSFQPOEFAQBS",
+   "plain_coverage": 0.04,
+   "coverage": 0.644,
+   "null_coverage": 0.04,
+   "score": -4.206587282173596,
+   "method": "Caesar 25",
+   "plaintext": "TOUTVOUSATTENDSTOUDESRECONNAISSANTDEJOURSOUETCOMMENTENVOYERBOUQUINDESIREANNALESAIMEESRYSCKREPONDEZPAR",
+   "reading": "TOUT VOUS ATTENDS T OU DES RECONNAISSANT DE JOURS OU ET COMMENT ENVOYER B OU QUI N DESIRE A N N A LES AIME ESRYSCK REPONDEZ PAR"
+  },
+  {
+   "image": "1892_18920730-H.jpg",
+   "letters": 36,
+   "raw": "SJFORVFUPJPDVAQFQFOTFEFTJSIBUFUFXPJS",
+   "plain_coverage": 0.0,
+   "coverage": 0.611,
+   "null_coverage": 0.111,
+   "score": -4.8987578557427724,
+   "method": "Caesar 24, no W",
+   "plaintext": "RIENQUETOIOCUZPEPENSEDESIRHATETEVOIR",
+   "reading": "RIEN QUE TOI OCUZPE PENSE DESIR HATE TE VOIR"
+  },
+  {
+   "image": "1896_18960817.jpg",
+   "letters": 64,
+   "raw": "INQPTTRVJUUHSPVQFWBJTMVDFSOFFCSJTTFSBJHBSFFQJOBXMFNFSDJBNJFSZTDL",
+   "plain_coverage": 0.0,
+   "coverage": 0.5,
+   "null_coverage": 0.125,
+   "score": -5.11686165838718,
+   "method": "Caesar 25",
+   "plaintext": "HMPOSSQUITTGROUPEVAISLUCERNEEBRISSERAIGAREEPINAWLEMERCIAMIERYSCK",
+   "reading": "HMPOSSQUITT GROUPE VAIS LU CE R NEE BRIS SERAI GARE EPINAW LE MERCI AMIE RYSCK"
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "letters": 22,
+   "raw": "REFROTICTBPBTSPSTRFPTS",
+   "plain_coverage": 0.0,
+   "coverage": 0.455,
+   "null_coverage": 0.182,
+   "score": -5.290551280469839,
+   "method": "reversed, Caesar 11",
+   "plaintext": "DEAQCEDADEMAMENTEZCQPC",
+   "reading": "DE AQ CEDA DE MA MENTEZ CQPC"
+  }
+ ],
+ "runtime_s": 8.6
+}

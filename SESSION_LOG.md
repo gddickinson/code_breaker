@@ -83,3 +83,6 @@ Integrated Helsinki-NLP/opus-mt-mul-en for Latin. Scored on Caesar Book I, first
 
 ## 2026-11-09: Le Figaro hunt
 OCR usable on 73 of 1,257 unsolved ads. 12 were plain French, so an unchanged-text check was added. The ad of 15 July 1896 passes all three gates as a Caesar +1 candidate (signed Rysck). Ad KP of 6 November 1896 reads clearly but misses the word gate, so it is not counted as solved. Novelty unconfirmed; nothing has been emailed to the maintainer. Latin casing bug fixed.
+
+## 2026-11-09: Le Figaro documented systems
+Unfiltered OCR on all 1,317 images. Caesar (with and without W), Vigenere keys and reversals, applied to 613 unsolved ads with at least 20 letters. Control recovered 9 of 56 known ads. Six ads recorded as candidate readings after checking scans, including a second ad by Rysck. Novelty unconfirmed; nothing sent to the maintainer.
