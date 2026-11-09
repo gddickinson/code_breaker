@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>The Beale Papers - Wikisource, the free online library</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-menu-disabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-disabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-not-available skin-thumbsize-clientpref-standard skin-underline-clientpref-browser";var cookie=document.cookie.match(/(?:^|; )enwikisourcemwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"5ac143fc-590c-4ffe-b5d2-e3a80922125d","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"The_Beale_Papers","wgTitle":"The Beale Papers","wgCurRevisionId":11286472,"wgRevisionId":11286472,"wgArticleId":35325,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Pages with override author","Headers applying DefaultSort key","Borders using maxwidth parameter","Ready for export","Validated texts","1885 works","Works by unknown authors","PD-US"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"The_Beale_Papers","wgRelevantArticleId":35325,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikisource","wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditForceShowCaptcha":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgMediaViewerDesktopVue":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":600,"wgParsoidHtmlVersion":"2.8.0","parsermigration-parsoid":true,"prpProofreadPageBookNamespaces":[0,0,114],"prpSourceIndexPage":"Index:Beale Papers.djvu","wgTestKitchenUserExperiments":{"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[]},"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgULSContentLanguageSelectorEnabled":true,"wgULSLanguageSelectorV2Enabled":true,"wgWikibaseItemId":"Q108897675","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"wgCheckUserClientHintsInEditRequest":true};
+RLSTATE={"ext.gadget.Site-styles":"ready","ext.gadget.MoreMenu-local-pagestyles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","oojs-ui-core.styles":"ready","oojs-ui.styles.indicators":"ready","mediawiki.widgets.styles":"ready","oojs-ui-core.icons":"ready","ext.wikisource.icons":"ready","ext.proofreadpage.base":"ready","ext.proofreadpage.article":"ready","ext.wikimediamessages.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.wikisource.download","site","mediawiki.page.ready","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.charinsert","ext.gadget.Easy_LST","ext.gadget.Fill_Index","ext.gadget.IndexFormTools","ext.gadget.Site","ext.gadget.PageNumbers","ext.gadget.MoreMenu-local","ext.gadget.PurgeTab","ext.gadget.interwiki-transclusion","ext.gadget.extra-toolbar-buttons","ext.urlShortener.toolbar","ext.centralauth.centralautologin","ext.testKitchen","ext.wikimediaCustomizations.donorAccountCreation","mmv.bootstrap","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.proofreadpage.article%2Cbase%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cext.wikisource.icons%7Cmediawiki.widgets.styles%7Coojs-ui-core.icons%2Cstyles%7Coojs-ui.styles.indicators%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.gadget.MoreMenu-local-pagestyles%2CSite-styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.48.0-wmf.3">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="The Beale Papers - Wikisource, the free online library">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//thumb.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="Edit" href="/w/index.php?title=The_Beale_Papers&amp;action=edit">
+<link rel="icon" href="/static/favicon/wikisource.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikisource (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikisource.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikisource.org/wiki/The_Beale_Papers">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikisource Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt action-view skin-vector-2022 ns-0 ns-subject mw-editable page-The_Beale_Papers rootpage-The_Beale_Papers skin--responsive skin-vector skin-vector-search-vue">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"   >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin" aria-label="Move Main menu to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin" aria-label="Hide Main menu">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main Page</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikisource:Community_portal" title="About the project, what you can do, where to find things"><span>Community portal</span></a></li><li id="n-scriptorium" class="mw-list-item"><a href="/wiki/Wikisource:Scriptorium"><span>Central discussion</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-subjectindex" class="mw-list-item"><a href="/wiki/Portal:Portals"><span>Subject index</span></a></li><li id="n-categoryauthors" class="mw-list-item"><a href="/wiki/Category:Authors_by_alphabetical_order"><span>Authors</span></a></li><li id="n-randomwork" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Main"><span>Random work</span></a></li><li id="n-randomauthor" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Author"><span>Random author</span></a></li><li id="n-randomindex" class="mw-list-item"><a href="/wiki/Special:RandomRootpage/Index"><span>Random transcription</span></a></li><li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="The place to find out"><span>Help</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-do" class="vector-menu mw-portlet mw-portlet-do emptyPortlet"  >
+	<div class="vector-menu-heading">
+		Display Options
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/wikisource.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikisource" src="/static/images/mobile/copyright/wikisource-wordmark.svg" style="width: 7.5em; height: 1.0625em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikisource [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search Wikisource" aria-label="Search Wikisource" autocapitalize="none" spellcheck="false" title="Search Wikisource [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"   >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikisource.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=The+Beale+Papers" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=The+Beale+Papers" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out vector-user-links-dropdown--collapsible"  title="More options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"   >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikisource.org&amp;uselang=en" data-mw-donate-attempt="top_link" class=""><span class="vector-icon mw-ui-icon-heart mw-ui-icon-wikimedia-heart cdx-button__icon"></span>
+
+<span>Donate</span></a>
+</li>
+<li id="pt-createaccount" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=The+Beale+Papers" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span class="vector-icon mw-ui-icon-userAvatar mw-ui-icon-wikimedia-userAvatar cdx-button__icon"></span>
+
+<span>Create account</span></a>
+</li>
+<li id="pt-login" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=The+Beale+Papers" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" class=""><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn cdx-button__icon"></span>
+
+<span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span lang="en" dir="ltr"><span class="mw-page-title-main">The Beale Papers</span></span></h1>
+			
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector"  aria-label="Add languages" aria-description="This article is only available in this language. Add the article for other languages"  >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-0" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Add languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="uls-after-portlet-link"></span><span class="wb-langlinks-add wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q108897675#sitelinks-wikisource" title="Add interlanguage links" class="wbc-editpage">Add links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-nstab-main" class="selected mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/The_Beale_Papers" title="View the content page [c]" accesskey="c" class=""><span>Page</span></a>
+</li>
+<li id="ca-proofread-source" class="mw-list-item vector-tab-noicon"><a data-mw-interface  title="Scanned edition used to establish this text" href="/wiki/Index:Beale_Papers.djvu" class=""><span>Source</span></a>
+</li>
+<li id="ca-talk" class="mw-list-item vector-tab-noicon"><a data-mw-interface  href="/wiki/Talk:The_Beale_Papers" rel="discussion" title="Discussion about the content page [t]" accesskey="t" class=""><span>Discussion</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"    >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+			    
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view" class="selected mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/wiki/The_Beale_Papers" class=""><span>Read</span></a>
+</li>
+<li id="ca-edit" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=The_Beale_Papers&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span>Edit</span></a>
+</li>
+<li id="ca-history" class="mw-list-item vector-menu-item--collapsible vector-tab-noicon"><a data-mw-interface  href="/w/index.php?title=The_Beale_Papers&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+			</nav>
+
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"   >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-verticalEllipsis mw-ui-icon-wikimedia-verticalEllipsis cdx-button__icon"></span>
+
+<span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin" aria-label="Move Tools to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin" aria-label="Hide Tools">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="ca-view-more" class="selected mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/wiki/The_Beale_Papers" class=""><span class="vector-icon mw-ui-icon-eye mw-ui-icon-wikimedia-eye cdx-button__icon"></span>
+
+<span>Read</span></a>
+</li>
+<li id="ca-edit-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=The_Beale_Papers&amp;action=edit" title="Edit this page [e]" accesskey="e" class=""><span class="vector-icon mw-ui-icon-edit mw-ui-icon-wikimedia-edit cdx-button__icon"></span>
+
+<span>Edit</span></a>
+</li>
+<li id="ca-history-more" class="mw-list-item vector-menu-item--collapsible"><a data-mw-interface  href="/w/index.php?title=The_Beale_Papers&amp;action=history" title="Past revisions of this page [h]" accesskey="h" class=""><span class="vector-icon mw-ui-icon-history mw-ui-icon-wikimedia-history cdx-button__icon"></span>
+
+<span>View history</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/The_Beale_Papers" title="A list of all wiki pages that link here [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/The_Beale_Papers" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=The_Beale_Papers&amp;oldid=11286472" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=The_Beale_Papers&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=The_Beale_Papers&amp;id=11286472&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikisource.org%2Fwiki%2FThe_Beale_Papers"><span>Get shortened URL</span></a></li><li id="parsermigration-switch-to-legacy" class="mw-list-item"><a href="/w/index.php?title=The_Beale_Papers&amp;useparsoid=0"><span>Switch to legacy parser</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-electronpdfservice-sidebar-portlet-heading" class="vector-menu mw-portlet mw-portlet-electronpdfservice-sidebar-portlet-heading"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-print" class="mw-list-item"><a href="javascript:print();" rel="alternate" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li><li id="wikisource-download-epub" class="mw-list-item"><a title="Download an EPUB version of this work" href="https://ws-export.wmcloud.org/?format=epub&amp;lang=en&amp;page=The_Beale_Papers"><span>Download EPUB</span></a></li><li id="wikisource-download-mobi" class="mw-list-item"><a title="Download a MOBI version of this work" href="https://ws-export.wmcloud.org/?format=mobi&amp;lang=en&amp;page=The_Beale_Papers"><span>Download MOBI</span></a></li><li id="wikisource-download-pdf" class="mw-list-item"><a title="Download a PDF version of this work" href="https://ws-export.wmcloud.org/?format=pdf&amp;lang=en&amp;page=The_Beale_Papers"><span>Download PDF</span></a></li><li id="wikisource-download-choose" class="mw-list-item"><a title="Open a form to choose other formats and fonts etc." href="https://ws-export.wmcloud.org/?lang=en&amp;title=The_Beale_Papers"><span>Other formats</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:The_Beale_Papers" hreflang="en"><span>Wikimedia Commons</span></a></li><li class="wb-otherproject-link wb-otherproject-wikipedia badge-Q70893996 mw-list-item" title=""><a href="https://en.wikipedia.org/wiki/The_Beale_Papers" hreflang="en"><span>Wikipedia</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q108897675" title="Link to connected data repository item [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin" aria-label="Move Appearance to sidebar">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin" aria-label="Hide Appearance">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		<div id="mw-indicator-wikisource-badge-validated" class="mw-indicator"><div class="mw-parser-output"><span class="indicator-badge" id="mwAA"><span typeof="mw:File" data-mw='{"caption":"validated"}' id="mwAb4"><a href="https://en.wikisource.org/wiki/Help:Text_status" title="validated" id="mwAb8"><img resource="https://en.wikisource.org/wiki/File:Yes_Check_Circle.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/20px-Yes_Check_Circle.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Yes_Check_Circle.svg/40px-Yes_Check_Circle.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="validated" data-file-width="20" data-file-height="20" data-file-type="drawing" height="16" width="16" class="mw-file-element" id="mwAcA"/></a></span></span></div></div>
+		<div id="mw-indicator-~ext-wikisource-download" class="mw-indicator"><span id='ooui-php-1' class='ext-wikisource-download-button oo-ui-widget oo-ui-widget-enabled oo-ui-buttonElement oo-ui-buttonElement-framed oo-ui-buttonElement-size-medium oo-ui-labelElement oo-ui-flaggedElement-primary oo-ui-flaggedElement-progressive oo-ui-buttonWidget' data-ooui='{"_":"OO.ui.ButtonWidget","href":"https:\/\/ws-export.wmcloud.org\/?format=epub&amp;lang=en&amp;page=The_Beale_Papers","rel":["nofollow"],"label":"Download","title":"Download an EPUB version of this work","flags":["primary","progressive"],"data":{"wsExportUrl":"https:\/\/ws-export.wmcloud.org"},"classes":["ext-wikisource-download-button"]}'><a role='button' title='Download an EPUB version of this work' tabindex='0' href='https://ws-export.wmcloud.org/?format=epub&amp;lang=en&amp;page=The_Beale_Papers' rel='nofollow' class='oo-ui-buttonElement-button'><span class='oo-ui-iconElement-icon oo-ui-iconElement-noIcon oo-ui-image-invert'></span><span class='oo-ui-labelElement-label'>Download</span><span class='oo-ui-indicatorElement-indicator oo-ui-indicatorElement-noIndicator oo-ui-image-invert'></span></a></span></div>
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikisource</div>
+						<div id="contentSub"><div id="mw-content-subtitle"><table class="pr_quality" title="23 validated pages, 0 only proofread pages and 0 not proofread pages"><tr><td class="quality4" style="width: 100%;"></td><td class="quality3" style="width: 0%;"></td><td class="quality2" style="width: 0%;"></td><td class="quality1" style="width: 0%;"></td><td class="quality0" style="width: 0%;"></td><td class="qualitye" style="width: 0%;"></td></tr></table></div></div>
+						
+					</div>
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr" data-mw-parsoid-version="0.25.0.0-alpha1" data-mw-html-version="2.8.0"><section data-mw-section-id="0" id="mwAQ"><div class="ws-noexport" about="#mwt1" typeof="mw:Transclusion" id="mwAg" data-mw='{"parts":[{"template":{"target":{"wt":"header\n ","href":"./Template:Header"},"params":{"title":{"wt":"The Beale Papers"},"author":{"wt":""},"override_author":{"wt":"{{anon}}"},"year":{"wt":"1885"},"section":{"wt":""},"previous":{"wt":""},"next":{"wt":""},"notes":{"wt":"The following is a reprint of \"The Beale Papers\", written anonymously and published in 1885 by J. B. Ward. They supposedly lead to a fortune buried in the Virginia hills that has never been recovered."}},"i":0}}]}'><style data-mw-deduplicate="TemplateStyles:r15431460" typeof="mw:Extension/templatestyles" about="#mwt2" data-mw='{"name":"templatestyles","attrs":{"src":"Header/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output .wst-header .wst-header-mainblock{border:1px solid var(--border-color-success,#ACA);background-color:var(--background-color-success-subtle,#E6F2E6);color:var(--color-base,#202122)}.mw-parser-output .wst-header .wst-header-notes{border-bottom:1px solid var(--border-color-notice,#A0A0A0);background-color:var(--background-color-neutral,#FAFAFF);color:var(--color-base,#202122)}.mw-parser-output .wst-header .contributor-text{font-style:italic}.mw-parser-output .wst-header #header-title-text,.mw-parser-output .wst-header .wst-header-title-text{font-weight:bold}.mw-parser-output .wst-header #ws-data{display:none}.mw-parser-output .wst-header #ws-data.ws-data-show{display:block}</style></div><style data-mw-deduplicate="TemplateStyles:r15675465" typeof="mw:Extension/templatestyles" about="#mwt1" data-mw='{"name":"templatestyles","attrs":{"src":"Header structure/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output .wst-header-mainblock{margin:4px auto 4px auto;padding:0 3px;display:flex;align-items:center}.mw-parser-output .wst-header-back,.mw-parser-output .wst-header-forward{display:flex;flex:1 4 100%;min-width:min-content;align-items:center;font-size:.9em}.mw-parser-output .wst-header-nav-empty{visibility:hidden}.mw-parser-output .wst-header-back{justify-content:flex-start;text-align:left}.mw-parser-output .wst-header-central-cell{flex:4 1 100%;max-width:max-content;text-align:center}.mw-parser-output .wst-header-forward{justify-content:flex-end;text-align:right}@media(max-width:768px){.mw-parser-output .wst-header-mainblock{flex-wrap:wrap}.mw-parser-output .wst-header-central-cell{flex:0 0 100%;order:-2;width:auto}.mw-parser-output .wst-header-back,.mw-parser-output .wst-header-forward{width:auto}}.mw-parser-output .wst-header-notes{display:inline-block;border-collapse:collapse;border-spacing:0;empty-cells:hide;font-size:.9em;line-height:1.4;margin:0 auto 4px auto;width:100%}.mw-parser-output .wst-header-left{float:left}</style><meta typeof="mw:Extension/indicator" about="#mwt1" id="mwAw" data-mw='{"name":"indicator","attrs":{"name":"wikisource-badge-validated"},"body":{"extsrc":"&lt;span class=\"indicator-badge\">[[File:Yes Check Circle.svg|16px|link=Help:Text status|validated]]&lt;/span>"}}'/><link rel="mw:PageProp/Category" href="./Category:Validated_texts" about="#mwt1"/><div class="ws-header wst-header-structure wst-unknown wst-header ws-header ws-noexport noprint dynlayout-exempt " about="#mwt1" id="mwBA"><div class="wst-header-mainblock wst-unknown-mainblock headertemplate"><div class="wst-header-back searchaux wst-unknown-back wst-header-nav-empty"><div class="wst-header-back-arrow">←</div><div class="wst-header-back-link"></div></div><div class="wst-header-central-cell wst-unknown-central-cell"><span class="wst-header-title wst-unknown-title"><span class="wst-header-title-text">The Beale Papers</span> (<span class="wst-header-year-text">1885</span>)<link rel="mw:PageProp/Category" href="./Category:1885_works"/><br class="wst-header-title-break"/><span class="contributor-text"><span class="fn"><a rel="mw:WikiLink" href="https://en.wikisource.org/wiki/Portal:Anonymous_texts" title="Portal:Anonymous texts">Anonymous</a><link rel="mw:PageProp/Category" href="./Category:Works_by_unknown_authors"/></span></span></span></div><div class="wst-header-forward searchaux wst-unknown-forward wst-header-nav-empty"><div class="wst-header-forward-link"></div><div class="wst-header-forward-arrow">→</div></div></div><div class="wst-header-notes header_notes searchaux wst-unknown-notes"><style data-mw-deduplicate="TemplateStyles:r14791120" typeof="mw:Extension/templatestyles" about="#mwt5" data-mw='{"name":"templatestyles","attrs":{"src":"Plain sister/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output .plainSister{display:block;font-size:93%;line-height:normal;list-style-type:none;list-style-image:none;list-style-position:outside;border:1px solid var(--border-color-interactive--hover,#AAA);float:right;clear:right;margin:0.5ex 0 0.5ex 0.5ex;padding:0;background:var(--background-color-base,#FFFFFF);color:var(--color-base,#202122)}.mw-parser-output .sisicon,.mw-parser-output .dabicon{padding-right:1ex}</style><ul class="plainSister"><li class="sisitem"><span class="sisicon"><span typeof="mw:File/Frameless"><a href="https://en.wikisource.org/wiki/Special:SiteMatrix" title="Special:SiteMatrix"><img resource="https://en.wikisource.org/wiki/File:Wikimedia-logo.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/20px-Wikimedia-logo.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Wikimedia-logo.svg/40px-Wikimedia-logo.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="Sister Projects" data-file-width="1024" data-file-height="1024" data-file-type="drawing" height="18" width="18" class="mw-file-element"/></a></span></span><a rel="mw:WikiLink" href="https://en.wikisource.org/wiki/Special:SiteMatrix" title="Special:SiteMatrix">sister projects</a>: <a rel="mw:WikiLink/Interwiki" href="https://en.wikipedia.org/wiki/The%20Beale%20Papers" title="w:The Beale Papers" class="extiw">Wikipedia article</a>, <a rel="mw:WikiLink/Interwiki" href="https://commons.wikimedia.org/wiki/Category:The%20Beale%20Papers" title="c:Category:The Beale Papers" class="extiw">Commons category</a>, <a rel="mw:WikiLink/Interwiki" href="https://www.wikidata.org/wiki/Q108897675" title="d:Q108897675" class="extiw">Wikidata item</a></li></ul><div class="wst-header-content header_notes_content wst-header-notes-content wst-unknown-notes-content">
+<p>The following is a reprint of "The Beale Papers", written anonymously and published in 1885 by J. B. Ward. They supposedly lead to a fortune buried in the Virginia hills that has never been recovered.</p>
+</div></div><div class="ws-noexport" id="ws-data" style="speak:none"><span id="ws-article-id">35325</span><span id="ws-title">The Beale Papers</span><span id="ws-year">1885</span><span id="ws-author"><a rel="mw:WikiLink" href="https://en.wikisource.org/wiki/Portal:Anonymous_texts" title="Portal:Anonymous texts">Anonymous</a><link rel="mw:PageProp/Category" href="./Category:Works_by_unknown_authors"/></span></div><link rel="mw:PageProp/Category" href="./Category:Pages_with_override_author"/><link rel="mw:PageProp/Category" href="./Category:Headers_applying_DefaultSort_key"/></div>
+
+<div class="prp-pages-output" lang="en" typeof="mw:Extension/pages" about="#mwt14" id="mwBQ" data-mw='{"name":"pages","attrs":{"index":"Beale Papers.djvu","include":"1"}}'><p id="mwBg"><span id="mwBw"><span class="pagenum ws-pagenum" id="1" data-page-number="1" data-page-name="Page:Beale Papers.djvu/1" data-page-index="1" data-page-quality="4" title="Page:Beale_Papers.djvu/1" about="#mwt6" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/1"},"num":{"wt":"1"},"formatted":{"wt":"1"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_1" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwCA">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt7" typeof="mw:Transclusion" id="mwCQ" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/1","href":"./Page:Beale_Papers.djvu/1"},"params":{},"i":0}}]}'><style data-mw-deduplicate="TemplateStyles:r14462961" typeof="mw:Extension/templatestyles" about="#mwt8" id="mwCg" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Border/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output .wst-border{max-width:100%;display:block;box-sizing:border-box;border-style:solid;border-width:1px;border-color:currentcolor;margin:0.25em auto;padding:5px}.mw-parser-output .wst-border.wst-border-left{margin-left:0}.mw-parser-output .wst-border.wst-border-right{position:relative;margin-right:0}.mw-parser-output .wst-border.wst-border-compact{display:table}.mw-parser-output .wst-border.wst-border-fullwidth{width:100%}.mw-parser-output .wst-border .wst-border{margin:0 auto}.mw-parser-output .wst-border>p:first-child{margin-top:0}.mw-parser-output .wst-border>p:last-child{margin-bottom:0}.mw-parser-output .wst-border2{padding:0.5em}.mw-parser-output .wst-frame{border:2px solid #99B;padding:0.25em 1em}.mw-parser-output .wst-centered-box{text-align:center;padding:0.5em}.mw-parser-output .wst-ruled-box{border-left:none;border-right:none;padding:0}</style></span><div class="wst-border wst-border-center wst-border-fullwidth" style="max-width:30em" about="#mwt7" id="mwCw"><style data-mw-deduplicate="TemplateStyles:r15620827" typeof="mw:Extension/templatestyles" about="#mwt9" id="mwDA" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'>.mw-parser-output .wst-center{text-align:center;margin:0 auto}.mw-parser-output .wst-center.wst-center-nomargin>p{margin-top:0;margin-bottom:0}</style><div class="wst-center tiInherit  " id="mwDQ">
+
+<p id="mwDg">THE</p>
+
+<p id="mwDw"><span style="font-size:249%;" id="mwEA"><span class="smallcaps" style="font-variant:small-caps;" id="mwEQ">Beale Papers,</span></span></p>
+
+<p id="mwEg"><span style="font-size:69%;" id="mwEw">CONTAINING</span></p>
+
+<p id="mwFA">AUTHENTIC STATEMENTS</p>
+
+<p id="mwFQ"><span style="font-size:69%;" id="mwFg">REGARDING THE</span></p>
+
+<p id="mwFw"><span style="font-size:182%;" id="mwGA"><span class="smallcaps" style="font-variant:small-caps;" id="mwGQ">Treasure Buried</span></span></p>
+
+<p id="mwGg"><span style="font-size:69%;" id="mwGw">IN</span></p>
+
+<p id="mwHA"><span style="font-size:120%;" id="mwHQ"><span class="smallcaps" style="font-variant:small-caps;" id="mwHg">1819 and 1821</span></span></p>
+
+<p id="mwHw"><span style="font-size:69%;" id="mwIA">NEAR</span></p>
+
+<p id="mwIQ">BUFORDS, IN BEDFORD COUNTY, VIRGINIA,</p>
+
+<p id="mwIg"><span style="font-size:69%;" id="mwIw">AND</span></p>
+
+<p id="mwJA"><span style="font-size:83%;" id="mwJQ"><span class="smallcaps" style="font-variant:small-caps;" id="mwJg">Which Has Never Been Recovered.</span></span></p>
+
+<style data-mw-deduplicate="TemplateStyles:r15848246" typeof="mw:Extension/templatestyles" about="#mwt10" id="mwJw" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Custom rule/styles.css"}}'>.mw-parser-output .wst-custom-rule{text-align:center;margin:1em auto 1em auto;background-color:transparent;color:inherit}.mw-parser-output .wst-custom-rule.wst-custom-rule-inline{display:block;border-collapse:collapse;border-spacing:0 0;margin:0 auto 0 auto}html.skin-theme-clientpref-night .mw-parser-output .wst-custom-rule{filter:invert(1)hue-rotate(180deg)}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .wst-custom-rule{filter:invert(1)hue-rotate(180deg)}}</style><div class="wst-custom-rule " id="mwKA"><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwKQ"><span id="mwKg"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Wave_-_40px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Wave_-_40px.svg/40px-Rule_Segment_-_Wave_-_40px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Wave_-_40px.svg/120px-Rule_Segment_-_Wave_-_40px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="40" data-file-height="3" data-file-type="drawing" height="3" width="40" class="mw-file-element" id="mwKw"/></span></span></div>
+<p id="mwLA">PRICE FIFTY CENTS.</p>
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15848246" about="#mwt11" typeof="mw:Extension/templatestyles" id="mwLQ" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Custom rule/styles.css"}}'/><div class="wst-custom-rule " id="mwLg"><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwLw"><span id="mwMA"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Wave_-_40px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Wave_-_40px.svg/40px-Rule_Segment_-_Wave_-_40px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Wave_-_40px.svg/120px-Rule_Segment_-_Wave_-_40px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="40" data-file-height="3" data-file-type="drawing" height="3" width="40" class="mw-file-element" id="mwMQ"/></span></span></div>
+
+<span class="mw-empty-elt" id="mwMg"><style data-mw-deduplicate="TemplateStyles:r15431454" typeof="mw:Extension/templatestyles" about="#mwt12" id="mwMw" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'>.mw-parser-output .wst-size-block{line-height:1.4}.mw-parser-output .wst-size-block p{font-size:inherit}.mw-parser-output .wst-xx-smaller{font-size:58%}.mw-parser-output .wst-x-smaller{font-size:69%}.mw-parser-output .wst-smaller{font-size:83%}.mw-parser-output .wst-fine{line-height:1.4;font-size:92%}.mw-parser-output .wst-m-larger{font-size:110%}.mw-parser-output .wst-larger{font-size:120%}.mw-parser-output .wst-x-larger{font-size:144%}.mw-parser-output .wst-xx-larger{font-size:182%}.mw-parser-output .wst-xxx-larger{font-size:207%}.mw-parser-output .wst-xxxx-larger{font-size:249%}</style></span><div class="wst-size-block wst-x-smaller wst-x-smaller-block " id="mwNA">
+<p id="mwNQ">LYNCHBURG: <br id="mwNg"/>
+<span class="smallcaps" style="font-variant:small-caps;" id="mwNw">Virginian Book and Job Print</span>, <br id="mwOA"/>
+1885.</p>
+</div>
+
+</div><link rel="mw:PageProp/Category" href="./Category:Borders_using_maxwidth_parameter" id="mwOQ"/></div><div class="__nop wst-nop" about="#mwt7" id="mwOg"></div></div>
+<p id="mwOw"><style data-mw-deduplicate="TemplateStyles:r11285303" typeof="mw:Extension/templatestyles mw:Transclusion" about="#mwt15" id="mwPA" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Padded page break/styles.css"},"parts":[{"template":{"target":{"wt":"padded page break","href":"./Template:Padded_page_break"},"params":{},"i":0}}]}'>.mw-parser-output .wst-padded-pg-break{margin-top:1.6rem;margin-bottom:1.6rem}</style><style data-mw-deduplicate="TemplateStyles:r15431515" typeof="mw:Extension/templatestyles" about="#mwt15" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Page break/styles.css"}}'>.mw-parser-output .wst-pagebreak{clear:both;display:block;break-after:page;page-break-after:always;text-align:center}.mw-parser-output .wst-pagebreak>span>span{clear:both;display:block;font-size:83%;border-color:#999999}.mw-parser-output .wst-pagebreak-top>span>span{border-top-width:1px;border-top-style:dashed}.mw-parser-output .wst-pagebreak-bottom>span>span{border-bottom-width:1px;border-bottom-style:dashed}</style><span class="wst-pagebreak wst-pagebreak-bottom wst-padded-pg-break" about="#mwt15" id="mwPQ"><span class="noprint ws-noexport"><span> </span></span></span></p>
+<div class="prp-pages-output" lang="en" typeof="mw:Extension/pages" about="#mwt22" id="mwPg" data-mw='{"name":"pages","attrs":{"index":"Beale Papers.djvu","include":"2"}}'><p id="mwPw"><span id="mwQA"><span class="pagenum ws-pagenum" id="2" data-page-number="2" data-page-name="Page:Beale Papers.djvu/2" data-page-index="2" data-page-quality="4" title="Page:Beale_Papers.djvu/2" about="#mwt18" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/2"},"num":{"wt":"2"},"formatted":{"wt":"2"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_2" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwQQ">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt19" typeof="mw:Transclusion" id="mwQg" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/2","href":"./Page:Beale_Papers.djvu/2"},"params":{},"i":0}}]}'><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt20" typeof="mw:Extension/templatestyles" id="mwQw" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/></span><div class="wst-center tiInherit  " about="#mwt19" id="mwRA">
+<p id="mwRQ">Entered according to act of Congress, in the year 1885, by <span class="smallcaps" style="font-variant:small-caps;" id="mwRg">J. B. Ward</span>, in the Office of the Librarian of Congress, at Washington.</p>
+</div><div class="__nop wst-nop" about="#mwt19" id="mwRw"></div></div>
+<p id="mwSA"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r11285303" about="#mwt23" typeof="mw:Extension/templatestyles mw:Transclusion" id="mwSQ" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Padded page break/styles.css"},"parts":[{"template":{"target":{"wt":"padded page break","href":"./Template:Padded_page_break"},"params":{},"i":0}}]}'/><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431515" about="#mwt23" typeof="mw:Extension/templatestyles" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Page break/styles.css"}}'/><span class="wst-pagebreak wst-pagebreak-bottom wst-padded-pg-break" about="#mwt23" id="mwSg"><span class="noprint ws-noexport"><span> </span></span></span></p>
+<div class="prp-pages-output" lang="en" typeof="mw:Extension/pages" about="#mwt120" id="mwSw" data-mw='{"name":"pages","attrs":{"index":"Beale Papers.djvu","from":"3","to":"23"}}'><p id="mwTA"><span id="mwTQ"><span class="pagenum ws-pagenum" id="3" data-page-number="3" data-page-name="Page:Beale Papers.djvu/3" data-page-index="3" data-page-quality="4" title="Page:Beale_Papers.djvu/3" about="#mwt26" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/3"},"num":{"wt":"3"},"formatted":{"wt":"3"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_3" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwTg">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt27" typeof="mw:Transclusion" id="mwTw" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/3","href":"./Page:Beale_Papers.djvu/3"},"params":{},"i":0}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/4"},"num":{"wt":"4"},"formatted":{"wt":"4"},"quality":{"wt":"4"}},"i":1}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/4","href":"./Page:Beale_Papers.djvu/4"},"params":{},"i":2}}]}'><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt28" typeof="mw:Extension/templatestyles" id="mwUA" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/></span><div class="wst-center tiInherit  " about="#mwt27" id="mwUQ">
+<p id="mwUg"><span style="font-size:207%;" id="mwUw"><span class="smallcaps" style="font-variant:small-caps;" id="mwVA">The Beale Papers.</span></span></p>
+</div><span class="mw-empty-elt" about="#mwt27" id="mwVQ"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15848246" about="#mwt29" typeof="mw:Extension/templatestyles" id="mwVg" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Custom rule/styles.css"}}'/></span><div class="wst-custom-rule " about="#mwt27" id="mwVw"><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwWA"><span id="mwWQ"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_50px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rule_Segment_-_Span_-_50px.svg/60px-Rule_Segment_-_Span_-_50px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rule_Segment_-_Span_-_50px.svg/120px-Rule_Segment_-_Span_-_50px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="50" data-file-height="1" data-file-type="drawing" height="1" width="50" class="mw-file-element" id="mwWg"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwWw"><span id="mwXA"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Diamond_-_4px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Rule_Segment_-_Diamond_-_4px.svg/20px-Rule_Segment_-_Diamond_-_4px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="7" data-file-type="drawing" height="7" width="5" class="mw-file-element" id="mwXQ"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwXg"><span id="mwXw"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_5px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Span_-_5px.svg/20px-Rule_Segment_-_Span_-_5px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="1" data-file-type="drawing" height="1" width="5" class="mw-file-element" id="mwYA"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwYQ"><span id="mwYg"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Circle_-_6px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Rule_Segment_-_Circle_-_6px.svg/20px-Rule_Segment_-_Circle_-_6px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="6" data-file-height="7" data-file-type="drawing" height="7" width="6" class="mw-file-element" id="mwYw"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwZA"><span id="mwZQ"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_5px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Span_-_5px.svg/20px-Rule_Segment_-_Span_-_5px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="1" data-file-type="drawing" height="1" width="5" class="mw-file-element" id="mwZg"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwZw"><span id="mwaA"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Diamond_-_4px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Rule_Segment_-_Diamond_-_4px.svg/20px-Rule_Segment_-_Diamond_-_4px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="7" data-file-type="drawing" height="7" width="5" class="mw-file-element" id="mwaQ"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwag"><span id="mwaw"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_5px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Span_-_5px.svg/20px-Rule_Segment_-_Span_-_5px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="1" data-file-type="drawing" height="1" width="5" class="mw-file-element" id="mwbA"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwbQ"><span id="mwbg"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Diamond_-_4px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Rule_Segment_-_Diamond_-_4px.svg/20px-Rule_Segment_-_Diamond_-_4px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="7" data-file-type="drawing" height="7" width="5" class="mw-file-element" id="mwbw"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwcA"><span id="mwcQ"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_5px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Span_-_5px.svg/20px-Rule_Segment_-_Span_-_5px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="1" data-file-type="drawing" height="1" width="5" class="mw-file-element" id="mwcg"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwcw"><span id="mwdA"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Circle_-_6px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Rule_Segment_-_Circle_-_6px.svg/20px-Rule_Segment_-_Circle_-_6px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="6" data-file-height="7" data-file-type="drawing" height="7" width="6" class="mw-file-element" id="mwdQ"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwdg"><span id="mwdw"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_5px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rule_Segment_-_Span_-_5px.svg/20px-Rule_Segment_-_Span_-_5px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="1" data-file-type="drawing" height="1" width="5" class="mw-file-element" id="mweA"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mweQ"><span id="mweg"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Diamond_-_4px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Rule_Segment_-_Diamond_-_4px.svg/20px-Rule_Segment_-_Diamond_-_4px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" alt="" data-file-width="5" data-file-height="7" data-file-type="drawing" height="7" width="5" class="mw-file-element" id="mwew"/></span></span><span class="mw-default-size mw-valign-middle" typeof="mw:File" id="mwfA"><span id="mwfQ"><img resource="https://en.wikisource.org/wiki/File:Rule_Segment_-_Span_-_50px.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rule_Segment_-_Span_-_50px.svg/60px-Rule_Segment_-_Span_-_50px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Rule_Segment_-_Span_-_50px.svg/120px-Rule_Segment_-_Span_-_50px.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="50" data-file-height="1" data-file-type="drawing" height="1" width="50" class="mw-file-element" id="mwfg"/></span></span></div><span about="#mwt27" id="mwfw">
+
+</span><p about="#mwt27" id="mwgA"><style data-mw-deduplicate="TemplateStyles:r15993532" typeof="mw:Extension/templatestyles" about="#mwt30" id="mwgQ" data-mw='{"name":"templatestyles","attrs":{"src":"Dropinitial/styles.css"}}'>.mw-parser-output .dropinitial{float:left;text-indent:0}.mw-parser-output .dropinitial .dropinitial-fl{float:left;position:relative;vertical-align:top}.mw-parser-output .dropinitial .dropinitial-mid .dropinitial-initial{float:left;line-height:1em;text-indent:0;font-size:3em;margin:0 0.1em 0 0}.mw-parser-output .dropinitial-firstword{text-transform:uppercase}html.skin-theme-clientpref-night .mw-parser-output .wst-drop-initial-night-mode-invert{filter:invert(1)hue-rotate(180deg)}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .wst-drop-initial-night-mode-invert{filter:invert(1)hue-rotate(180deg)}}</style><span class="dropinitial drop-initial-no-image  " id="mwgg"><span class="dropinitial-mid " id="mwgw"><span class="dropinitial-initial " id="mwhA"><style data-mw-deduplicate="TemplateStyles:r13786851" typeof="mw:Extension/templatestyles" about="#mwt31" id="mwhQ" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Blackletter/styles.css"}}'>.mw-parser-output .blackletter{font-family:"UnifrakturMaguntia","UnifrakturCook","Unifraktur",serif;font-size:113%}.mw-parser-output .blackletter-mode-0{font-feature-settings:"cv01","cv02","cv03","cv04","cv05","cv06","cv07","cv08","cv09","cv10"}.mw-parser-output .blackletter-mode-2{font-feature-settings:"cv08"}.mw-parser-output .blackletter-mode-3{font-feature-settings:"cv01"}.mw-parser-output .blackletter-mode-4{font-feature-settings:"cv01","cv08"}.mw-parser-output .blackletter-mode-5{font-feature-settings:"cv01","cv08","cv04"2}</style><span lang="en-Latf" class="blackletter blackletter-mode-" style="-webkit-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10'; -ms-font-feature-settings:'cv01', 'cv02', 'cv03', 'cv04', 'cv05', 'cv06', 'cv07', 'cv08', 'cv09', 'cv10';" id="mwhg">T</span></span></span></span>HE following details of an incident that happened many years ago, but which has lost none of its interest on that account, are now given to the public for the first time. Until now, for reasons which will be apparent to every one, all knowledge of this affair was confined to a very limited circle—to the writer's immediate family, and to one old and valued friend, upon whose discretion he could always rely; nor was it ever intended that it should travel beyond that circle; but circumstances over which he has no control, pecuniary embarrassments of a pressing character, and duty to a dependent family requiring his undivided attention, force him to abandon a task to which he has devoted the best years of his life, but which seems as far from accomplishment as at the start. He is, therefore, compelled, however unwillingly, to relinquish to others the elucidation of the Beale papers, not doubting that of the many who will give the subject attention, some one, through fortune or accident, will speedily solve their mystery and secure the prize which has eluded him.</p><span about="#mwt27" id="mwhw">
+
+</span><p about="#mwt27" id="mwiA">It can be readily imagined that this course was not determined upon all at once; regardless of the entreaties of his family and the persistent advice of his friend, who were formerly as sanguine as himself, he stubbornly continued his investigations, until absolute want stared him in the face and forced him to yield to their persuasions. Having now lost all hope of benefit from this source himself, he is not unwilling that others may receive it, and only hopes that the prize may fall to some poor, but honest man, who will use his discovery not solely for the promotion of his own enjoyment, but for the welfare of others.</p><span about="#mwt27" id="mwiQ">
+
+</span><p about="#mwt27" id="mwig">Until the writer lost all hope of ultimate success, he toiled faithfully at his work; unlike any other pursuit with practical and natural results, a charm attended it, independent of the ultimate benefit he expected, and the possibility of success lent an interest and excitement to the work not to be resisted. It would be difficult to portray the delight he experienced when <span id="mwiw"><span class="pagenum ws-pagenum" id="4" data-page-number="4" data-page-name="Page:Beale Papers.djvu/4" data-page-index="4" data-page-quality="4" title="Page:Beale_Papers.djvu/4"><span id="pageindex_4" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwjA">​</span></span></span></span>accident revealed to him the explanation of the paper marked "2." Unmeaning, as this had hitherto been, it was now fully explained, and no difficulty was apprehended in mastering the others; but this accident, affording so much pleasure at the time, was a most unfortunate one for him, as it induced him to neglect family, friends, and all legitimate pursuits for what has proved, so far, the veriest illusion.</p><span about="#mwt27" id="mwjQ">
+
+</span><p about="#mwt27" id="mwjg">It will be seen by a perusal of Mr. Beale's letter to Mr. Morriss that he promised, under certain contingences, such as failure to see or communicate with him in a given time, to furnishing a key by which the papers would be fully explained. As the failure to do either actually occurred, and the promised explanation has never been received, it may possibly remain in the hands of some relative or friend of Beale's, or some other person engaged in the enterprise with him. That they would attach no importance to a seemingly unintelligible writing seems quite natural; but their attention being called to them by the publication of this narrative, may result in eventually bringing to light the missing paper.</p><span about="#mwt27" id="mwjw">
+
+</span><p about="#mwt27" id="mwkA">Mr. Beale, who deposited with Mr. Morriss the papers which form the subject of this history, is described as being a gentleman well educated, evidently of good family, and with popular manners. What motives could have influenced him and so many others to risk their health and their lives in such an undertaking, except the natural love of daring adventure, with its consequent excitement, we can only conjecture. We may suppose, and indeed we have his word for so doing, that they were infatuated with the dangers, and with the wild and roving character of their lives, the charms of which lured them farther and farther from civilization, until their lives were sacrificed to their temerity. This was the opinion of Mr. Morriss, and in this way only can we account for the fact that the treasure for which they sacrificed so much, constituting almost fabulous wealth, lies abandoned and unclaimed for more than half a century. Should any of my readers be more fortunate than myself in discovering its place of concealment, I shall not only rejoice with them, but feel that I have at least accomplished something in contributing to the happiness of others.</p><span about="#mwt27" id="mwkQ">
+</span><div class="__nop wst-nop" about="#mwt27" id="mwkg"></div><p id="mwkw"> <span id="mwlA"><span class="pagenum ws-pagenum" id="5" data-page-number="5" data-page-name="Page:Beale Papers.djvu/5" data-page-index="5" data-page-quality="4" title="Page:Beale_Papers.djvu/5" about="#mwt34" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/5"},"num":{"wt":"5"},"formatted":{"wt":"5"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_5" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwlQ">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt35" typeof="mw:Transclusion" id="mwlg" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/5","href":"./Page:Beale_Papers.djvu/5"},"params":{},"i":0}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/6"},"num":{"wt":"6"},"formatted":{"wt":"6"},"quality":{"wt":"4"}},"i":1}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/6","href":"./Page:Beale_Papers.djvu/6"},"params":{},"i":2}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/7"},"num":{"wt":"7"},"formatted":{"wt":"7"},"quality":{"wt":"4"}},"i":3}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/7","href":"./Page:Beale_Papers.djvu/7"},"params":{},"i":4}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/8"},"num":{"wt":"8"},"formatted":{"wt":"8"},"quality":{"wt":"4"}},"i":5}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/8","href":"./Page:Beale_Papers.djvu/8"},"params":{},"i":6}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/9"},"num":{"wt":"9"},"formatted":{"wt":"9"},"quality":{"wt":"4"}},"i":7}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/9","href":"./Page:Beale_Papers.djvu/9"},"params":{},"i":8}}]}'><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt36" typeof="mw:Extension/templatestyles" id="mwlw" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/></span><div class="wst-center tiInherit  " about="#mwt35" id="mwmA">
+<p id="mwmQ"><span style="font-size:120%;" id="mwmg">THE LATE ROBERT MORRISS.</span></p>
+</div><span about="#mwt35" id="mwmw">
+
+</span><p about="#mwt35" id="mwnA">Robert Morriss, the custodian of the Beale papers, was born in 1778, in the State of Maryland, but removed at an early age, with his family, to Loudoun county, Va., where, in 1803, he married Miss Sarah Mitchell, a fine looking and accomplished young lady of that county. In obtaining such a wife Mr. Morriss was peculiarly fortunate, as her subsequent career fully demonstrated. As a wife she was without reproach, as a generous and sympathizing woman she was without an equal; the poor will long remember her charities, and lament the friend they have lost. Shortly after his removal to Lynchburg, Mr. Morriss engaged in the mercantile business, and shortly thereafter he became a purchaser and shipper of tobacco to an extent hitherto unknown in this section. In these pursuits he was eminently successful for several years, and speedily accumulated a comfortable independence. It was during this period of his success that he erected the first brick building of which the town could boast, and which still stands on Main street, a monument to his enterprise. His private residence, the house now owned and occupied by Max Guggenheimer, Esq., at the head of Main street, I think he also built. There the most unbounded hospitality reigned, and every facility for enjoyment was furnished. The <i id="mwnQ">elite</i> of the town assembled there more frequently than elsewhere, and there are now living some whose most pleasant recollections are associated with that period.</p><span about="#mwt35" id="mwng">
+
+</span><p about="#mwt35" id="mwnw">The happiness of Mr. Morriss, however, was of short duration, and reverses came when they were least expected. Heavy purchases of tobacco, at ruinous figures, in anticipation of an upward market, which visions were never realized, swept from him in a moment the savings of years, and left him nothing save his honor and the sincere sympathy of the community with which to begin the battle anew.</p><span about="#mwt35" id="mwoA">
+
+</span><p about="#mwt35" id="mwoQ">It was at this time that Mrs. Morriss exhibited the loveliest traits of her character. Seemingly unmindful of her condition, with a smiling face and cheering words, she so encouraged her husband that he became almost reconciled to his fate. Thrown thus upon his own resources, by the advice of his wife, he leased for a term of years the Washington Hotel, known now as the Arlington, on Church street, and commenced the business of hotel keeping. His kind disposition, strict probity, excellent management, and well ordered household, soon rendered him famous as a host, and his reputation extended even to other States. His was the house <i id="mwog">par excellence</i> of the town, and no fashionable assemblages met at any other. Finding, in a few <span id="mwow"><span class="pagenum ws-pagenum" id="6" data-page-number="6" data-page-name="Page:Beale Papers.djvu/6" data-page-index="6" data-page-quality="4" title="Page:Beale_Papers.djvu/6"><span id="pageindex_6" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwpA">​</span></span></span></span>years, that his experiment was successful and his business remunerative, he removed to the Franklin Hotel, now the Norvell House, the largest and best arranged in the city. This house he conducted for many years, enjoying the friendship and countenance of the first men of the country. Amongst his guests and devoted personal friends Jackson, Clay, Coles, Witcher, Chief Justice Marshall, and a host of others scarcely less distinguished, might be enumerated. But it was not the wealthy and distinguished alone who appreciated Mr. Morriss; the poor and lowly had blessings for the man who sympathized with their misfortunes, and was ever ready to relieve their distress. Many poor but worthy families, whose descendants are now in our midst, can remember the fact that his table supplied their daily food, not for days and weeks only, but for months at a time; and as a farther instance of his forbearance and unparalleled generosity, there are now living those who will testify to the fact that he permitted a boarder, in no way connected with him, to remain in his house for more than twenty years, and until he died, without ever receiving the slightest renumeration, and that he was never made to feel otherwise than as a favored guest.</p><span about="#mwt35" id="mwpQ">
+
+</span><p about="#mwt35" id="mwpg">In manner Mr. Morriss was courteous and gentle; but when occasion demanded, could be stern and determined, too; he was emphatically the master of his house, and from his decision there was no appeal. As an "old Virginia gentleman," he was <i id="mwpw">sans peur et sans reproache</i>, and to a remarkable extent possessed the confidence and affection of his friends. After a checquered and eventful life of more than eighty years, passed mostly in business, which brought him in contact with all classes of people, he died, lamented by all, and leaving not an enemy behind. His death, which occurred in 1863, was just two years subsequent to that of his wife. It can be truly said that no persons ever lived in a community for such a length of time who accomplished more good during their lives, or whose death was more universally regretted.</p><span about="#mwt35" id="mwqA">
+
+</span><p about="#mwt35" id="mwqQ">It was the unblemished character of the man, and the universal confidence reposed in him, that induced Beale to entrust him with his secret, and in certain contingencies select him for a most important trust; that his confidence was not misplaced, every one remembering Mr. Morriss will acknowledge.</p><span about="#mwt35" id="mwqg">
+
+</span><p about="#mwt35" id="mwqw">It was in 1862, the second year of the Confederate war, that Mr. Morriss first intimated the possession of a secret that was destined to make some persons wealthy. At first he was not very communicative, nor did I press him to reveal what he seemed to speak of with reluctance; in a few weeks, however, his mind seemed changed, and he voluntarily proffered his  <span id="mwrA"><span class="pagenum ws-pagenum" id="7" data-page-number="7" data-page-name="Page:Beale Papers.djvu/7" data-page-index="7" data-page-quality="4" title="Page:Beale_Papers.djvu/7"><span id="pageindex_7" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwrQ">​</span></span></span></span>confidence. Inviting me to his room, with no one to interrupt us, he gave me an outline of the matter, which soon enlisted my interest and created an intense longing to learn more. About this time, however, affairs of importance required my presence in Richmond, and prevented further communication between us until after my return, when I found him ready to resume the interesting subject. A private interview was soon arranged, and, after several preliminaries had been complied with, the papers upon which this history is based were delivered into my possession.</p><span about="#mwt35" id="mwrg">
+
+</span><p about="#mwt35" id="mwrw">The reasons which influenced him in selecting me for the trust, he gave, and were in substance as follows: First: Friendship for myself and family, whom he would benefit if he could. Second: The knowledge that I was young and in circumstances to afford leisure for the task imposed; and finally, a confidence that I would regard his instructions, and carry out his wishes regarding his charge. These, and perhaps others, he gave during our frequent conversations upon the subject, and doubtless believed he was conferring a favor which would redound greatly to my advantage. That it has proved otherwise is a misfortune to me, but no fault of his. The conditions alluded to above were that I should devote as much time as was practicable to the papers he had given me; master, if possible, their contents, and if successful in deciphering their meaning and eventually finding the treasure, to appropriate one-half of his portion as a remuneration for my services; the other half to be distributed to certain relatives and connexions of his own, whose names he gave me; the remainder to be held by me in trust for the benefit of such claimants as might at any time appear, and be able to authenticate their claims. This latter amount, to be left intact, subject to such demands, for the space of twenty years, when, if still unclaimed, it should revert to myself or my heirs, as a legacy from himself.</p><span about="#mwt35" id="mwsA">
+
+</span><p about="#mwt35" id="mwsQ">As there was nothing objectionable in this, the required promise was given, and the box and the contents were placed in my possession.</p><span about="#mwt35" id="mwsg">
+
+</span><p about="#mwt35" id="mwsw">When the writer recalls his anxious hours, his midnight vigils, his toils, his hopes and disappointments, all consequent upon this promise, he can only conclude that the legacy of Mr. Morriss was not as he designed it—a blessing in disguise.</p><span about="#mwt35" id="mwtA">
+
+</span><p about="#mwt35" id="mwtQ">Having assumed the responsibilities and consented to the requirements of Mr. Morriss, I determined to devote as much time to the accomplishment of the task as could be consistently spared from other duties. With this purpose in view, I requested from Mr. Morriss a statement of every particular connected <span id="mwtg"><span class="pagenum ws-pagenum" id="8" data-page-number="8" data-page-name="Page:Beale Papers.djvu/8" data-page-index="8" data-page-quality="4" title="Page:Beale_Papers.djvu/8"><span id="pageindex_8" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwtw">​</span></span></span></span>with the affair, or having the slightest bearing upon it, together with such views and opinions of his own as might ultimately benefit me in my researches. In reply, he gave me the following, which I reduced to writing and filed with the papers for future reference:</p><span about="#mwt35" id="mwuA">
+
+</span><p about="#mwt35" id="mwuQ">“It was in the month of January, 1820, while keeping the Washington Hotel, that I first saw and became acquainted with Beale. In company with two others, he came to my house seeking entertainment for himself and friends. Being assured of a comfortable provision for themselves and their horses, Beale stated his intention of remaining for the winter, should nothing occur to alter his plans, but that the gentlemen accompanying him would leave in a few days for Richmond, near which place they resided, and that they were anxious to reach their homes, from which they had long been absent. They all appeared to be gentlemen, well born, and well educated, with refined and courteous manners and with a free and independent air, which rendered them peculiarly attractive. After remaining a week or ten days, the two left, after expressions of satisfaction with their visit. Beale, who remained, soon became a favored and popular guest; his social disposition and friendly demeanor rendered him extremely popular with every one, particularly the ladies, and a pleasant and friendly intercourse was quickly established between them.</p><span about="#mwt35" id="mwug">
+
+</span><p about="#mwt35" id="mwuw">“In person, he was about six feet in height, with jet black eyes and hair of the same color, worn longer than was the style at that time. His form was symmetrical, and gave evidence of unusual strength and activity; but his distinguishing feature was a dark and swarthy complexion, as if much exposure to the sun and weather had thoroughly tanned and discolored him; this, however, did not detract from his appearance, and I thought him the handsomest man I had ever seen. Altogether, he was a model of manly beauty, favored by the ladies and envied by men. To the first he was reverentially tender and polite; to the latter, affable and courteous, when they kept within bounds, but, if they were supercilious or presuming, the lion was aroused, and woe to the man who offended him. Instances of this character occurred more than once while he was my guest, and always resulted in his demanding and receiving an apology. His character soon became universally known, and he was no longer troubled by impertinence.</p><span about="#mwt35" id="mwvA">
+
+</span><p about="#mwt35" id="mwvQ">“Such a man was Thomas J. Beale, as he appeared in 1820, and in his subsequent visit to my house. He registered simply from Virginia, but I am of the impression he was from some western portion of the State. Curiously enough, he never <span id="mwvg"><span class="pagenum ws-pagenum" id="9" data-page-number="9" data-page-name="Page:Beale Papers.djvu/9" data-page-index="9" data-page-quality="4" title="Page:Beale_Papers.djvu/9"><span id="pageindex_9" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwvw">​</span></span></span></span>adverted to his family or to his antecedents, nor did I question him concerning them, as I would have done had I dreamed of the interest that in the future would attach to his name.</p><span about="#mwt35" id="mwwA">
+
+</span><p about="#mwt35" id="mwwQ">“He remained with me until about the latter end of the following March, when he left, with the same friends who first accompanied him to my house, and who had returned some days before.</p><span about="#mwt35" id="mwwg">
+
+</span><p about="#mwt35" id="mwww">“After this I heard nothing from him until January, 1822, when he once more made his appearance, the same genial and popular gentleman as before, but, if possible, darker and swarthier than ever. His welcome was a genuine one, as all were delighted to see him.</p><span about="#mwt35" id="mwxA">
+
+</span><p about="#mwt35" id="mwxQ">“In the spring, at about the same time, he again left, but before doing so, handed me this box, which, as he said, contained papers of value and importance; and which he desired to leave in my charge until called for hereafter. Of course, I did not decline to receive them, but little imagined their importance until his letter from St. Louis was received. This letter I carefully preserved, and it will be given with these papers. The box was of iron, carefully locked, and of such weight as to render it a safe depository for articles of value. I placed it in a safe and secure place, where it could not be disturbed until such time as it should be demanded by its owner. The letter alluded to above was the last communication I ever received from Beale, and I never saw him again. I can only suppose that he was killed by Indians, afar from his home, though nothing was heard of his death. His companions, too, must all have shared his fate, as no one has ever demanded the box or claimed his effects. The box was left in my hands in the Spring of 1822, and by authority of his letter, I should have examined its contents in 1832, ten years thereafter, having heard nothing from Beale in the meantime; but it was not until 1845, some twenty-three years after it came into my possession, that I decided upon opening it. During that year I had the lock broken, and with the exception of the two letters addressed to myself, and some old receipts, found only some unintelligible papers, covered with figures, and totally incomprehensible to me.</p><span about="#mwt35" id="mwxg">
+
+</span><p about="#mwt35" id="mwxw">“According to his letter, these papers convey all the information necessary to find the treasure he has concealed, and upon you devolves the responsibility of recovering it. Should you succeed you will be amply compensated for your work, and others near and dear to me will likewise be benefitted. The end is worth all your exertions, and I have every hope that success will reward your efforts.”</p><span about="#mwt35" id="mwyA">
+</span><div class="__nop wst-nop" about="#mwt35" id="mwyQ"></div><p about="#mwt46" typeof="mw:Transclusion" id="mwyg" data-mw='{"parts":["&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/10"},"num":{"wt":"10"},"formatted":{"wt":"10"},"quality":{"wt":"4"}},"i":0}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/10","href":"./Page:Beale_Papers.djvu/10"},"params":{},"i":1}}]}'> <span id="mwyw"><span class="pagenum ws-pagenum" id="10" data-page-number="10" data-page-name="Page:Beale Papers.djvu/10" data-page-index="10" data-page-quality="4" title="Page:Beale_Papers.djvu/10"><span id="pageindex_10" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwzA">​</span></span></span></span>Such, in substance, was the statement of Mr. Morriss in answer to the various interrogations propounded to him; and finding that I could elicit no further information, I resolved to do the best I could with the limited means at my disposal. I commenced by reading over and over again the letters to Mr. Morriss, endeavoring to impress each syllable they contained on my memory, and to extract from them, if possible, some meaning or allusion that might give, perhaps, a faint or barely preceptible hint as a guide; no such clue, however, could I find, and where or how to commence was a problem I found most difficult to solve. To systematize a plan for my work I arranged the papers in the order of their length, and numbered them, designing to commence with the first, and devote my whole attention to that until I had either unravelled its meaning or was convinced of its impossibility—afterwards to take up the others and proceed as before.</p><span about="#mwt46" id="mwzQ">
+
+</span><p about="#mwt46" id="mwzg">All of this I did in the course of time, but failed so completely that my hopes of solving the mystery were well nigh abandoned. My thoughts, however were constantly upon it, and the figures contained in each paper, in their regular order, were fixed in my memory. My impression was that each figure represented a letter, but as the numbers so greatly exceeded the letters of the alphabet, that many different numbers represented the same letter. With this idea, a test was made of every book I could procure, by numbering its letters and comparing the numbers with those of the manuscript; all to no purpose, however, until the Declaration of Independence afforded the clue to one of the papers, and revived all my hopes. To enable my readers to better understand the explanation of this paper, the Declaration of Independence is given herewith, and will be of interest to those designing to follow up my investigations. When I first made this discovery, I thought I had the key to the whole, but soon ascertained that further work was necessary before my task was completed. The encouragement afforded, however, by this discovery enabled me to proceed, and I have persisted in my labors to the present time. Now, as I have already said, I am forced by circumstances to devote my time to other pursuits, and to abandon hopes which were destined never to be realized.</p><span about="#mwt46" id="mwzw">
+
+</span><p about="#mwt46" id="mw0A">The following is the letter addressed to Mr. Morriss by Beale, and dated St. Louis, May, 1822, and was the latest communication ever received from him:</p><span about="#mwt46" id="mw0Q">
+</span><div class="__nop wst-nop" about="#mwt46" id="mw0g"></div><p id="mw0w"> <span id="mw1A"><span class="pagenum ws-pagenum" id="11" data-page-number="11" data-page-name="Page:Beale Papers.djvu/11" data-page-index="11" data-page-quality="4" title="Page:Beale_Papers.djvu/11" about="#mwt47" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/11"},"num":{"wt":"11"},"formatted":{"wt":"11"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_11" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mw1Q">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt48" typeof="mw:Transclusion" id="mw1g" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/11","href":"./Page:Beale_Papers.djvu/11"},"params":{},"i":0}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/12"},"num":{"wt":"12"},"formatted":{"wt":"12"},"quality":{"wt":"4"}},"i":1}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/12","href":"./Page:Beale_Papers.djvu/12"},"params":{},"i":2}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/13"},"num":{"wt":"13"},"formatted":{"wt":"13"},"quality":{"wt":"4"}},"i":3}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/13","href":"./Page:Beale_Papers.djvu/13"},"params":{},"i":4}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/14"},"num":{"wt":"14"},"formatted":{"wt":"14"},"quality":{"wt":"4"}},"i":5}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/14","href":"./Page:Beale_Papers.djvu/14"},"params":{},"i":6}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/15"},"num":{"wt":"15"},"formatted":{"wt":"15"},"quality":{"wt":"4"}},"i":7}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/15","href":"./Page:Beale_Papers.djvu/15"},"params":{},"i":8}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/16"},"num":{"wt":"16"},"formatted":{"wt":"16"},"quality":{"wt":"4"}},"i":9}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/16","href":"./Page:Beale_Papers.djvu/16"},"params":{},"i":10}}]}'><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt49" typeof="mw:Extension/templatestyles" id="mw1w" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/></span><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt48" id="mw2A">
+
+<style data-mw-deduplicate="TemplateStyles:r15431519" typeof="mw:Extension/templatestyles" about="#mwt50" id="mw2Q" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Right/styles.css"}}'>.mw-parser-output .wst-right{text-align:right}</style><div class="wst-right" id="mw2g">
+<p id="mw2w"><span class="smallcaps" style="font-variant:small-caps;" id="mw3A">St. Louis, Mo.</span>, May 9th, 1822.</p>
+</div>
+
+<p id="mw3Q"><span class="smallcaps" style="font-variant:small-caps;" id="mw3g">Robt. Morris</span>, Esq.:</p>
+
+<p id="mw3w"><i id="mw4A">My Esteemed Friend:</i>—Ever since leaving my comfortable quarters at your house I have been journeying to this place, and only succeeded in reaching it yesterday. I have had altogether a pleasant time, the weather being fine and the atmosphere bracing. I shall remain here a week or ten days longer, then “ho” for the plains, to hunt the buffalo and encounter the savage grizzlies. How long I may be absent I cannot now determine, certainly no less than two years, perhaps longer.</p>
+
+<p id="mw4Q">With regard to the box left in your charge, I have a few words to say, and, if you will permit me, give you some instructions concerning it. It contains papers vitally affecting the fortunes of myself and many others engaged in business with me, and in the event of my death, its loss might be irreparable. You will, therefore, see the necessity of guarding it with vigilance and care to prevent so great a catastrophe. It also contains some letters addressed to yourself, and which will be necessary to enlighten you concerning the business in which we are engaged. Should none of us ever return you will please preserve carefully the box for the period of ten years from the date of this letter, and if I, or no one with authority from me, during that time demands its restoration, you will open it, which can be done by removing the lock. You will find, in addition to the papers addressed to you, other papers which will be unintelligible without the aid of a key to assist you. Such a key I have left in the hands of a friend in this place, sealed, addressed to yourself, and endorsed not to be delivered until June, 1832. By means of this you will understand fully all you will be required to do.</p>
+
+<p id="mw4g">I know you will cheerfully comply with my request, thus adding to the many obligations under which you have already placed me. In the meantime, should death or sickness happen to you, to which all are liable, please select from among your friends some one worthy, and to him hand this letter, and to him delegate your authority. I have been thus particular in my instructions, in consequence of the somewhat perilous enterprise in which we are engaged, but trust we shall meet long ere the time expires, and so save you this trouble. Be the result what it may, however, the game is worth the candle, and we will play it to the end. </p>
+
+<p id="mw4w">With kindest wishes for your most excellent wife, compliments to the ladies, a good word to enquiring friends, if there be any, and assurances of my highest esteem for yourself, I remain as ever,</p>
+
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431519" about="#mwt51" typeof="mw:Extension/templatestyles" id="mw5A" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Right/styles.css"}}'/><div class="wst-right" id="mw5Q">
+<p id="mw5g">Your sincere friend, <span class="wst-gap __gap " style="display:inline-block; inline-size:2em" id="mw5w"></span> T.J.B.</p>
+</div>
+</div><span about="#mwt48" id="mw6A">
+
+</span><p about="#mwt48" id="mw6Q">After the reception of this letter, Mr. Morriss states that he was particularly careful to see the box securely placed where it could remain in absolute safety, so long as the exigencies of the case might require; the letter, too, he was equally careful to preserve for future use, should it be needed. Having done all that was required of him, Mr. Morriss could only await Beale's return, or some communication from him. In either case, he was  <span id="mw6g"><span class="pagenum ws-pagenum" id="12" data-page-number="12" data-page-name="Page:Beale Papers.djvu/12" data-page-index="12" data-page-quality="4" title="Page:Beale_Papers.djvu/12"><span id="pageindex_12" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mw6w">​</span></span></span></span>disappointed. He never saw Beale again, nor did a line or message ever reach him. The two years passed away during which he said he would be absent, then three, four, and so on to ten; still not a line or message to tell whether he were living or dead. Mr. Morriss felt much uneasiness about him, but had had no means of satisfying his doubts; ten years had passed; 1832 was at hand, and he was now at liberty to open the box, but he resolved to wait on, vainly hoping that something definite would reach him.</p><span about="#mwt48" id="mw7A">
+
+</span><p about="#mwt48" id="mw7Q">During this period rumors of Indian outrages and massacres were current, but no mention of Beale's name ever occurred. What became of him and his companions is left entirely to conjecture. Whether he was slain by Indians, or killed by the savage animals of the Rocky Mountains, or whether exposure, and perhaps privation, did its work can never be told. One thing at least is certain, that of the young and gallant band, whose buoyant spirits led them to seek such a life, and to forsake the comforts of home, with all its enjoyments, for the dangers and privations they must necessarily encounter, not a survivor remains.</p><span about="#mwt48" id="mw7g">
+
+</span><p about="#mwt48" id="mw7w">Though Mr. Morriss was aware of the contents of the box in 1845, it was not until 1862, forty years after he received it, that he thought proper to mention its existence, and to myself alone did he then divulge it. He had become long since satisfied that the parties were no longer living, but his delicacy of feeling prevented his assuming as a fact a matter so pregnant with consequences. He frequently decided upon doing so, and as often delayed it for another time; and when at last he did speak of the matter it was with seeming reluctance, and as if he felt he was committing a wrong. But the story once told, he evinced up to the time of his death the greatest interest in my success, and in frequent interviews always encouraged me to proceed.</p><span about="#mwt48" id="mw8A">
+
+</span><p about="#mwt48" id="mw8Q">It is now more than twenty years since these papers came into my hands, and, with the exception of one of them, they are still as incomprehensible as ever. Much time was devoted to this one, and those who engage in the matter will be saved what has been consumed upon it by myself.</p><span about="#mwt48" id="mw8g">
+
+</span><p about="#mwt48" id="mw8w">Before giving the papers to the public, I would say a word to those who may take an interest in them, and give them a little advice, acquired by bitter experience. It is, to devote only such time as can be spared from your legitimate business to the task, and if you can spare no time, let the matter alone. Should you disregard my advice, do not hold me responsible that the poverty you have courted is more easily found than accomplishment of your wishes, and I would avoid the sight of another reduced to my condition. Nor is it necessary to devote the <span id="mw9A"><span class="pagenum ws-pagenum" id="13" data-page-number="13" data-page-name="Page:Beale Papers.djvu/13" data-page-index="13" data-page-quality="4" title="Page:Beale_Papers.djvu/13"><span id="pageindex_13" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mw9Q">​</span></span></span></span>time that I did to this matter, as accident alone, without the promised key, will ever develop the mystery. If revealed by accident, a few hours devoted to the subject may accomplish results which were denied to years of patient toil. Again, never, as I have done, sacrifice your own and your family's interests to what may prove an illusion; but, as I have already said, when your day's work is done, and you are comfortably seated by your good fire, a short time devoted to the subject can injure no one, and may bring its reward.</p><span about="#mwt48" id="mw9g">
+
+</span><p about="#mwt48" id="mw9w">By pursuing this policy, your interests will not suffer, your family will be cared for, and your thoughts will not be absorbed to the exclusion of other important affairs. With this admonition, I submit to my readers the papers upon which this narrative is founded.</p><span about="#mwt48" id="mw-A">
+
+</span><p about="#mwt48" id="mw-Q">The first in order is the letter from Beale to Mr. Morriss, which will give the reader a clearer conception of all the facts connected with the case, and enable him to understand as fully as I myself do, the present status of the affair. The letter is as follows:</p><span about="#mwt48" id="mw-g">
+
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt48" typeof="mw:Extension/templatestyles" id="mw-w" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt48" id="mw_A">
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431519" about="#mwt57" typeof="mw:Extension/templatestyles" id="mw_Q" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Right/styles.css"}}'/><div class="wst-right" id="mw_g">
+<p id="mw_w"><span class="smallcaps" style="font-variant:small-caps;" id="mwAQA">Lynchburg</span>, January 4th, 1822.</p>
+</div>
+
+<p id="mwAQE"><i id="mwAQI">My Dear Friend Morriss:</i>—You will, doubtless, be surprised when you discover, from a perusal of this letter, the importance of the trust confided to you, and the confidence reposed in your honor, by parties whom you have never seen, and whose names even you have never heard. The reasons are simple and easily told; it was imperative upon us that some one here should be selected to carry out our wishes in case of accident to ourselves, and your reputation as a man of the sternest integrity, unblemished honor, and business capacity, influenced them to select you in place of others better known, but, perhaps, not so reliable as yourself. It was with this design that I first visited your house, two years since, that I might judge by personal observation if your reputation was merited. To enable me the better to do so, I remained with you more than three months, and until I was fully satisfied as to your character. This visit was made by the request of my associates, and you can judge from their action whether my report was a favorable one.</p>
+
+<p id="mwAQM">I will now give you some idea of the enterprise in which we are engaged, and the duties which will be required of you in connection therewith; first assuring you, however, that your compensation for the trouble will be ample, as you have been unanimously made one or our association, and as such are entitled to share equally with the others.</p>
+
+<p id="mwAQQ">Some five years since I, in connection with several friends, who, like myself, were fond of adventure, and if mixed with a little danger all the more acceptable, determined to visit the great Western plains and enjoy ourselves in hunting buffalo, grizzly bears, and such other game as the country would afford. This, at that time, was our sole object, and we at once proceeded to put it in execution. On account of Indians and other dangers incident to such an undertaking, we determined to raise a party of not less than thirty individuals, of good  <span id="mwAQU"><span class="pagenum ws-pagenum" id="14" data-page-number="14" data-page-name="Page:Beale Papers.djvu/14" data-page-index="14" data-page-quality="4" title="Page:Beale_Papers.djvu/14"><span id="pageindex_14" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAQY">​</span></span></span></span>character and standing, who would be pleasant companions, and financially able to encounter the expense. With this object in view, each one of us suggested the matter to his several friends and acquaintances, and in a few weeks the requisite number had signed the conditions, and were admitted as members of the party. Some few refused to join with us, being, doubtless, deterred by the dangers, but such men we did not want, and were glad of their refusal.</p>
+
+<p id="mwAQc">The company being formed, we forthwith commenced our preparations, and, early in April, 1817, left old Virginia for St. Louis, Mo., where we expected to purchase the necessary outfits, procure a guide and two or three servants, and obtain such information and advice as might be beneficial hereafter. All was done as intended, and we left St. Louis the 19th May, to be absent two years, our objective point being Santa Fé, which we intended to reach in the ensuing Fall, and there establish ourselves in winter quarters.</p>
+
+<p id="mwAQg">After leaving St. Louis we were advised by our guide to form a regular military organization, with a captain, to be selected by the members, to whom should be given sole authority to manage our affairs, and, in cases of necessity, ensure united action. This was agreed to, and each member of the party bound himself by a solemn obligation to obey at all times, the orders of their captain, or, in the event of refusal, to leave the company at once. This arrangement was to remain in force for two years, or for the period of our expected absence. Tyranny, partiality, incompetency, or other improper conduct on the part of the captain, was to be punished by deposing him from his office, if a majority of the company desired his dismissal. All this being arranged, and a set of laws framed, by which the conduct of the members was to be regulated, the election was held, and resulted in choosing me as their leader.</p>
+
+<p id="mwAQk">It is not my purpose now to give you details of our wanderings, or of the pleasures or dangers we encountered. All this I will reserve until we meet again, when it will be a pleasure to recall incidents that will always be fresh in my memory.</p>
+
+<p id="mwAQo">About the first of December we reached our destination, Santa Fé, and prepared for a long and welcome rest from the fatigues of our journey. Nothing of interest occurred during the winter, and of this little Mexican town we soon became heartily tired. We longed for the advent of weather which would enable us to resume our wanderings and our exhilerating pursuits.</p>
+
+<p id="mwAQs">Early in March some of the party, to vary the monotony of their lives, determined upon a short excursion, for the purpose of hunting and examining the country around us. They expected to be only a few days absent, but days passed into weeks, and weeks into a month or more before we had any tidings of the party. We had become exceedingly uneasy, and were preparing to send out scouts to trace them, if possible, when two of the party arrived, and gave an explanation of their absence. It appears that when they left Santa Fé they pursued a northerly course for some days, being successful in finding an abundance of game, which they secured, and were on the eve of returning when they discovered on their left an immense herd of buffaloes, heading for a valley just perceptible in the distance. They determined to follow them, and secure as many as possible. Keeping well together, they followed their trail for two weeks or more, securing many and stampeding the rest.</p>
+<div class="__nop wst-nop" id="mwAQw"></div>
+<p id="mwAQ0"> <span id="mwAQ4"><span class="pagenum ws-pagenum" id="15" data-page-number="15" data-page-name="Page:Beale Papers.djvu/15" data-page-index="15" data-page-quality="4" title="Page:Beale_Papers.djvu/15"><span id="pageindex_15" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAQ8">​</span></span></span></span>One day, while following them, the party encamped in a small ravine, some 250 or 300 miles to the north of Santa Fé, and with their horses tethered, were preparing their evening meal, when one of the men discovered in a cleft of the rocks something that had the appearance of gold. Upon showing it to the others it was pronounced to be gold, and much excitement was the natural consequence. Messengers were at once dispatched to inform me of the facts, and request my presence with the rest of the party, and with supplies for an indefinite time. All the pleasures and temptations which had lured them to the plains were now forgotten, and visions of boundless wealth and future grandeur were the only ideas entertained. Upon reaching the locality I found all as it had been represented, and the excitement intense. Every one was diligently at work with such tools and appliances as they had improvised, and quite a little pile had already accumulated. Though all were at work, there was nothing like order or method in their plans, and my first efforts were to systematize our operations, and reduce everything to order. With this object, an agreement was entered into to work in common as joint partners, the accumulations of each one to be placed in a common receptacle, and each be entitled to an equal share, whenever he chose to withdraw it—the whole to remain under my charge until some other disposition of it was agreed upon. Under this arrangement the work progressed favorably for eighteen months or more, and a great deal of gold had accumulated in my hands as well as silver, which had likewise been found. Everything necessary for our purposes and for the prosecution of the work had been obtained from Santa Fé, and no trouble was experienced in procuring assistance from the Indians in our labors. Matters went on thus until the summer of 1819, when the question of transferring our wealth to some secure place was frequently discussed. It was not considered advisable to retain so large an amount in so wild and dangerous a locality, where its very possession might endanger our lives; and to conceal it here would avail nothing, as we might at any time be forced to reveal its place of concealment. We were in a dilemma. Some advised one plan, some another. One recommended Santa Fé as the safest place to deposit it, while others objected, and advocated its shipment at once to the States, where it was ultimately bound to go, and where alone it would be safe. The idea seemed to prevail, and it was doubtless correct, that when outside parties ascertained, as they would do, that we kept nothing on hand to tempt their cupidity, our lives would be more secure than at present. It was finally decided that is should be sent to Virginia under my charge, and securely buried in a cave near Buford's tavern, in the county of Bedford, which all of us had visited, and which was considered a perfectly safe depository. This was acceptable to all, and I at once made preparations for my departure. The whole party were to accompany me for the first five hundred miles, when all but ten would return, these latter to remain with me to the end of the journey. All was carried out as arranged, and I arrived safely with my charge.</p>
+
+<p id="mwARA">Stopping at Buford's, where we remained for a month, under pretense of hunting, &amp;c., we visited the cave, and found it unfit for our purpose. It was too frequently visited by the neighboring farmers, who used it as a receptacle for their sweet potatoes and other vegetables. We soon selected a better place, and to this the treasure was safely transferred.</p>
+<div class="__nop wst-nop" id="mwARE"></div>
+<p id="mwARI"> <span id="mwARM"><span class="pagenum ws-pagenum" id="16" data-page-number="16" data-page-name="Page:Beale Papers.djvu/16" data-page-index="16" data-page-quality="4" title="Page:Beale_Papers.djvu/16"><span id="pageindex_16" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwARQ">​</span></span></span></span>Before leaving my companions on the plains it was suggested that, in case of an accident to ourselves, the treasure so concealed would be lost to their relatives, without some provision against such a contingency. I was, therefore, instructed to select some perfectly reliable person, if such an one could be found, who should, in the event of his proving acceptable to the party, be confided in to carry out their wishes in regard to their respective shares, and upon my return report whether I had found such a person. It was in accordance with these instructions that I visited you, made your acquaintance, was satisfied that you would suit us, and so reported.</p>
+
+<p id="mwARU">On my return I found the work still progressing favorably, and, by making large accessions to our force of laborers, I was ready to return last Fall with an increased supply of metal, which came through safely and was deposited with the other. It was at this time I handed you the box, not disclosing the nature of its contents, but asking you to keep it safely till called for. I intend writing you, however, from St. Louis, and impress upon you its importance still more forcibly.</p>
+
+<p id="mwARY">The papers enclosed herewith will be unintelligible without the key, which will reach you in time, and will be found merely to state the contents of our depository, with its exact location, and a list of the names of our party, with their places of residence, &amp;c. I thought at first to give you their names in this letter, but reflecting that some one may read the letter, and thus be enabled to impose upon you by personating some member of the party, have decided the present plan is best. You will be aware from what I have written, that we are engaged in a perilous enterprise—one which promises glorious results if successful—but dangers intervene, and of the end no one can tell. We can only hope for the best, and persevere until our work is accomplished, and the sum secured for which we are striving.</p>
+
+<p id="mwARc">As ten years must elapse before you will see this letter, you may well conclude by that time that the worst has happened, and that none of us are to be numbered with the living. In such an event, you will please visit the place of deposit and secure its contents, which you will divide into thirty-one equal parts; one of these parts you are to retain as your own, freely given to you for your services. The other shares to be distributed to the parties named in the accompanying paper. These legacies, so unexpectedly received, will at least serve to recall names that may still be cherished, though partially forgotten.</p>
+
+<p id="mwARg">In conclusion, my dear friend, I beg that you will not allow any false or idle punctillio to prevent your receiving and appropriating the portion assigned to yourself. It is a gift not from myself alone, but from each and every member of our party, and will not be out of proportion to the services required of you.</p>
+
+<p id="mwARk">I trust, my dear Mr. Morriss, that we may meet many times in the future, but if the Fates forbid, with my last communication I would assure you of the entire respect and confidence of</p>
+
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431519" about="#mwt64" typeof="mw:Extension/templatestyles" id="mwARo" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Right/styles.css"}}'/><div class="wst-right" id="mwARs">
+<p id="mwARw">Your friend, <span class="wst-gap __gap " style="display:inline-block; inline-size:2em" id="mwAR0"></span> T. J. B.</p>
+</div>
+</div><div class="__nop wst-nop" about="#mwt48" id="mwAR4"></div><p id="mwAR8"> <span id="mwASA"><span class="pagenum ws-pagenum" id="17" data-page-number="17" data-page-name="Page:Beale Papers.djvu/17" data-page-index="17" data-page-quality="4" title="Page:Beale_Papers.djvu/17" about="#mwt65" typeof="mw:Transclusion" data-mw='{"parts":[{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/17"},"num":{"wt":"17"},"formatted":{"wt":"17"},"quality":{"wt":"4"}},"i":0}}]}'><span id="pageindex_17" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwASE">​</span></span></span></span></p><span class="mw-empty-elt" about="#mwt66" typeof="mw:Transclusion" id="mwASI" data-mw='{"parts":[{"template":{"target":{"wt":":Page:Beale Papers.djvu/17","href":"./Page:Beale_Papers.djvu/17"},"params":{},"i":0}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/18"},"num":{"wt":"18"},"formatted":{"wt":"18"},"quality":{"wt":"4"}},"i":1}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/18","href":"./Page:Beale_Papers.djvu/18"},"params":{},"i":2}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/19"},"num":{"wt":"19"},"formatted":{"wt":"19"},"quality":{"wt":"4"}},"i":3}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/19","href":"./Page:Beale_Papers.djvu/19"},"params":{},"i":4}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/20"},"num":{"wt":"20"},"formatted":{"wt":"20"},"quality":{"wt":"4"}},"i":5}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/20","href":"./Page:Beale_Papers.djvu/20"},"params":{},"i":6}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/21"},"num":{"wt":"21"},"formatted":{"wt":"21"},"quality":{"wt":"4"}},"i":7}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/21","href":"./Page:Beale_Papers.djvu/21"},"params":{},"i":8}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/22"},"num":{"wt":"22"},"formatted":{"wt":"22"},"quality":{"wt":"4"}},"i":9}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/22","href":"./Page:Beale_Papers.djvu/22"},"params":{},"i":10}},"&lt;pageseparator />&lt;span>",{"template":{"target":{"wt":":MediaWiki:Proofreadpage_pagenum_template","href":"./MediaWiki:Proofreadpage_pagenum_template"},"params":{"page":{"wt":"Page:Beale Papers.djvu/23"},"num":{"wt":"23"},"formatted":{"wt":"23"},"quality":{"wt":"4"}},"i":11}},"&lt;/span>",{"template":{"target":{"wt":":Page:Beale Papers.djvu/23","href":"./Page:Beale_Papers.djvu/23"},"params":{},"i":12}}]}'><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt67" typeof="mw:Extension/templatestyles" id="mwASM" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/></span><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwASQ">
+
+<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431519" about="#mwt68" typeof="mw:Extension/templatestyles" id="mwASU" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Right/styles.css"}}'/><div class="wst-right" id="mwASY">
+<p id="mwASc"><span class="smallcaps" style="font-variant:small-caps;" id="mwASg">Lynchburg, Va</span>, January 5th, 1822.</p>
+</div>
+
+<p id="mwASk"><i id="mwASo">Dear Mr. Morriss.</i>—You will find in one of the papers, written in cipher, the names of all my associates, who are each entitled to an equal part of our treasure, and opposite to the names of each one will be found the names and residences of the relatives and others, to whom they devise their respective portions. From this you will be enabled to carry out the wishes of all by distributing the portion of each to the parties designated. This will not be difficult, as their residences are given, and they can easily be found.</p>
+
+</div><span about="#mwt66" id="mwASs">
+
+</span><p about="#mwt66" id="mwASw">The two letters given above were all the box contained that were intelligible; the others, consisted of papers closely covered with figures, which were, of course, unmeaning until they could be deciphered. To do this was the task to which I now devoted myself, and with but partial success.</p><span about="#mwt66" id="mwAS0">
+
+</span><p about="#mwt66" id="mwAS4">To enable my readers to understand the paper numbered “2,” the Declaration of Independence is given, by the assistance of which its hidden meaning was made plain:</p><span about="#mwt66" id="mwAS8">
+
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt66" typeof="mw:Extension/templatestyles" id="mwATA" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/><div class="wst-center tiInherit  " about="#mwt66" id="mwATE">
+<p id="mwATI"><span style="font-size:144%;" id="mwATM"><span class="anchor" id="Declaration_of_Independence"></span><span class="smallcaps" style="font-variant:small-caps;" id="mwATQ"><a rel="mw:WikiLink" href="https://en.wikisource.org/wiki/United_States_Declaration_of_Independence" title="United States Declaration of Independence" id="mwATU">Declaration of Independence</a>.</span></span></p>
+</div><span class="mw-empty-elt" about="#mwt66" id="mwATY"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt70" typeof="mw:Extension/templatestyles" id="mwATc" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/></span><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwATg">
+<p id="mwATk"><style data-mw-deduplicate="TemplateStyles:r14505526" typeof="mw:Extension/templatestyles" about="#mwt71" id="mwATo" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'>.mw-parser-output .wst-dual-line{display:inline-block;text-align:center;vertical-align:top;line-height:100%}.mw-parser-output .wst-dual-line-bottom{vertical-align:bottom;line-height:100%}</style><span class="wst-dual-line " style="vertical-align:baseline;" id="mwATs">1<br id="mwATw"/><span class="wst-dual-line-bottom" id="mwAT0">When,</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt72" typeof="mw:Extension/templatestyles" id="mwAT4" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAT8">2<br id="mwAUA"/><span class="wst-dual-line-bottom" id="mwAUE">in</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt73" typeof="mw:Extension/templatestyles" id="mwAUI" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAUM">3<br id="mwAUQ"/><span class="wst-dual-line-bottom" id="mwAUU">the</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt74" typeof="mw:Extension/templatestyles" id="mwAUY" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAUc">4<br id="mwAUg"/><span class="wst-dual-line-bottom" id="mwAUk">course</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt75" typeof="mw:Extension/templatestyles" id="mwAUo" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAUs">5<br id="mwAUw"/><span class="wst-dual-line-bottom" id="mwAU0">of</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt76" typeof="mw:Extension/templatestyles" id="mwAU4" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAU8">6<br id="mwAVA"/><span class="wst-dual-line-bottom" id="mwAVE">human</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt77" typeof="mw:Extension/templatestyles" id="mwAVI" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAVM">7<br id="mwAVQ"/><span class="wst-dual-line-bottom" id="mwAVU">events</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt78" typeof="mw:Extension/templatestyles" id="mwAVY" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAVc">8<br id="mwAVg"/><span class="wst-dual-line-bottom" id="mwAVk">it</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt79" typeof="mw:Extension/templatestyles" id="mwAVo" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAVs">9<br id="mwAVw"/><span class="wst-dual-line-bottom" id="mwAV0">becomes</span></span> <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r14505526" about="#mwt80" typeof="mw:Extension/templatestyles" id="mwAV4" data-mw='{"name":"templatestyles","attrs":{"src":"Dual line/styles.css"}}'/><span class="wst-dual-line " id="mwAV8">10<br id="mwAWA"/><span class="wst-dual-line-bottom" id="mwAWE">necessary</span></span> for one people to dissolve the political bands which have (20) connected them with another, and to assume among the powers (30) of the earth, the separate and equal station to which (40) the laws of nature and of nature's God entitle them, (50) a decent respect to the opinions of mankind requires that (60) they should declare the causes which impel them to the (70) separation.</p>
+
+<p id="mwAWI">We hold these truths to be self-evident, that (80) all men are created equal; that they are endowed by (90) their Creator with certain inalienable rights; that among these are (100) life, liberty, and the pursuit of happiness; that to secure (110) their rights, governments are instituted among men, deriving their just (120) powers from the consent of the governed; that when any (130) form of government becomes destructive of these ends, it is (140) the right of the people to alter or to abolish (150) it, and to institute a new government, laying its foundation (160) on such principles and organizing its powers in such form, (170) as to them shall seem most likely to effect their (180) safety and happiness. Prudence, indeed, will dictate that governments long (190) established, should not be changed for light and transient causes; (200) and accordingly all experience hath shown that mankind are now (210) disposed to suffer, while evils are sufferable, than to right (220) themselves by abolishing the forms to which they are accustomed. (230) But, when a long train of abuses and usurpations, pursuing (240) invariably the same object, evinces a design to reduce them under (250) absolute despotism, it is their right, it is their duty, (260) to throw off such government, and to provide new guards (270) for their future security. Such has been the patient sufferance (280) of these colonies, and such is now the necessity which (290) constrains them to alter their former systems of government. The (300) history of the present King of <span id="mwAWM"><span class="pagenum ws-pagenum" id="18" data-page-number="18" data-page-name="Page:Beale Papers.djvu/18" data-page-index="18" data-page-quality="4" title="Page:Beale_Papers.djvu/18"><span id="pageindex_18" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAWQ">​</span></span></span></span>Great Britain is a (310) history of repeated injuries and usurpations, all having in direct (320) object the establishment of an absolute tyranny over these States. (330) To prove this, let facts be submitted to a candid (340) world.</p>
+
+<p id="mwAWU">He has refused his assent to laws the most (350) wholesome and necessary for the public good. He has forbidden (360) his governors to pass laws of immediate and pressing importance, (370) unless suspended in their operation till his assent should be (380) obtained; and when so suspended he has utterly neglected to (390) attend to them.</p>
+
+<p id="mwAWY">He has refused to pass other laws (400) for the accommodation of large districts of people, unless those (410) people would relinquish their right of representation in the legislature, (420) a right inestimable to them and formidable to tyrants only. (430)</p>
+
+<p id="mwAWc">He has called together legislative bodies at places unusual, uncomfortable (440) and distant from the depositary of their public records, for (450) the sole purpose of fatiguing them into compliance with his (460) measures.</p>
+
+<p id="mwAWg">He has dissolved representative houses repeatedly for opposing with (470) manly firmness, his invasions on the rights of the people. (480)</p>
+
+<p id="mwAWk">He has refused, for a long time after such dissolutions, (480) to cause others to be elected; whereby the legislative powers, (490) incapable of annihilation, have returned to the people at large (500) for their exercise, the State remaining, in the meantime, (510) exposed to all the danger of invasion from without, and (520) convulsions within.</p>
+
+<p id="mwAWo">He has endeavored to prevent the population of (530) these States, for that purpose, obstructing the laws of naturalization (540) of foreigners; refusing to pass others to encourage their migration (550) hither, and raising the conditions of new appropriations of lands. (560)</p>
+
+<p id="mwAWs">He has obstructed the administration of justice by refusing his (570) assent to laws for establishing judiciary powers.</p>
+
+<p id="mwAWw">He has made (580) judges dependent on his will alone for the tenure of (590) their offices, and the amount and payment of their salaries. (600)</p>
+
+<p id="mwAW0">He has erected a multitude of new offices, and sent (610) hither swarms of officers to harass our people and eat (620) out their substance.</p>
+
+<p id="mwAW4">He has kept among us in times (630) of peace standing armies, without the consent of our legislature.</p>
+
+<p id="mwAW8">He (640) has offered to render the military independent of and superior (650) to the civil power. </p>
+
+<p id="mwAXA">He has combined with others to (660) subject us to a jurisdiction foreign to our constitution, and (670) unacknowledged by our laws, giving his assent to their acts of (680) pretended legislation.</p>
+
+<p id="mwAXE">For quartering large bodies of armed troops among (690) us;</p>
+
+<p id="mwAXI">For protecting them, by a mock trial, from punishment, (700) for any murders which they should commit on the inhabitants (710) of these States;</p>
+
+<p id="mwAXM">For cutting off our trade with all (720) parts of the world;</p>
+
+<p id="mwAXQ">For imposing taxes on us without (730) our consent;</p>
+
+<p id="mwAXU">For depriving us, in many cases, of the (740) benefits of trial by jury;</p>
+
+<p id="mwAXY">For transporting us beyond seas (750) to be tried for pretended offences;</p>
+<div class="__nop wst-nop" id="mwAXc"></div>
+<p id="mwAXg"> <span id="mwAXk"><span class="pagenum ws-pagenum" id="19" data-page-number="19" data-page-name="Page:Beale Papers.djvu/19" data-page-index="19" data-page-quality="4" title="Page:Beale_Papers.djvu/19"><span id="pageindex_19" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAXo">​</span></span></span></span>For abolishing the free (760) system of English laws in a neighboring province, establishing therein (770) an arbitrary government, and enlarging its boundaries so as to (780) render it, at once, an example and fit instrument for (790) introducing the same absolute rule in these colonies;</p>
+
+<p id="mwAXs">For taking (800) away our charters, abolishing our most valuable laws and altering (810) fundamentally, (811) the (812) powers (813) of (814) our (815) governments; (816)</p>
+
+<p id="mwAXw">For suspending our own legislatures, and declaring themselves invested with power to legislate for us in all cases, whatsoever.</p>
+
+<p id="mwAX0">He has abdicated government here, by declaring us out of his protection, and waging war against us.</p>
+
+<p id="mwAX4">He has plundered our seas, ravaged our coasts, burnt our towns, and destroyed the lives of our people.</p>
+
+<p id="mwAX8">He is, at this time, transporting large armies of foreign mercenaries to complete the works of death, desolation and tyranny, already begun, with circumstances of cruelty and perfidy, scarcely paralleled in the most barbarous ages, and totally unworthy the head of a civilized nation.</p>
+
+<p id="mwAYA">He has constrained our fellow-citizens, taken captive on the high seas, to bear arms against their country, to become the executioners of their friends and brethren, or to fall themselves by their hands.</p>
+
+<p id="mwAYE">He has excited domestic insurrections amongst us, and has endeavored to bring on the inhabitants of our frontiers, the merciless Indian savages, whose known rule of warfare is an undistinguished destruction of all ages, sexes and conditions.</p>
+
+<p id="mwAYI">In every stage of these oppressions, we have petitioned for redress in the most humble terms; our repeated petitions have been answered only by repeated injury. A prince, whose character is thus marked by every act which may define a tyrant, is unfit to be the ruler of a free people.</p>
+
+<p id="mwAYM">Nor have we been wanting in attention to our British brethren. We have warned them, from time to time, of attempts made by their legislature to extend an unwarrantable jurisdiction over us. We have reminded them of the circumstances of our emigration and settlement here. We have appealed to their native justice and magnanimity, and we have conjured them, by the ties of our common kindred, to disavow these usurpations, which would inevitably interrupt our connection and correspondence. They, too, have been deaf to the voice of justice and consanguinity. </p>
+
+<p id="mwAYQ">We must, therefore, acquiesce in the necessity, which denounces our separation, and hold them, as we hold the rest of mankind, enemies in war—in peace, friends.</p>
+
+We, therefore, the representatives of the United States of America, in general congress assembled, appealing to the Supreme Judge of the world for the rectitude of our intentions, do, in the name, and by the authority of the good people of these Colonies, solemnly publish and declare, that these United Colonies are, and of right, ought to be, free and independent States; that they are absolved from all allegiance to the British crown, and that all political connection between them and the State of Great Britain is, and ought to be, totally dissolved, and that, as free and independent States, they have full power to levy war, conclude <span id="mwAYU"><span class="pagenum ws-pagenum" id="20" data-page-number="20" data-page-name="Page:Beale Papers.djvu/20" data-page-index="20" data-page-quality="4" title="Page:Beale_Papers.djvu/20"><span id="pageindex_20" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAYY">​</span></span></span></span>peace, contract alliances, establish commerce, and to do all other acts and things which independent States may of right do. And for the support of this declaration, with a firm reliance on the protection of Divine Providence, we mutually pledge to each other our lives, our fortunes, and our sacred honor.</div><span about="#mwt66" id="mwAYc">
+
+</span><p about="#mwt66" id="mwAYg">The letter, or paper, so often alluded to, and marked “2,” which is fully explained by the foregoing document, is as follows.</p><span about="#mwt66" id="mwAYk">
+
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt66" typeof="mw:Extension/templatestyles" id="mwAYo" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwAYs">115, 73, 24, 807, 37, 52, 49, 17, 31, 62, 647, 22, 7, 15, 140, 47, 29, 107, 79, 84, 56, 239, 10, 26, 811, 5, 196, 308, 85, 52, 160, 136, 59, 211, 36, 9, 46, 316, 554, 122, 106, 95, 53, 58, 2, 42, 7, 35, 122, 53, 31, 82, 77, 250, 196, 56, 96, 118, 71, 140, 287, 28, 353, 37, 1005, 65, 147, 807, 24, 3, 8, 12, 47, 43, 59, 807, 45, 316, 101, 41, 78, 154, 1005, 122, 138, 191, 16, 77, 49, 102, 57, 72, 34, 73, 85, 35, 371, 59, 196, 81, 92, 191, 106, 273, 60, 394, 620, 270, 220, 106, 388, 287, 63, 3, 6, 191, 122, 43, 234, 400, 106, 290, 314, 47, 48, 81, 96, 26, 115, 92, 158, 191, 110, 77, 85, 197, 46, 10, 113, 140, 353, 48, 120, 106, 2, 607, 61, 420, 811, 29, 125, 14, 20, 37, 105, 28, 248, 16, 159, 7, 35, 19, 301, 125, 110, 486, 287, 98, 117, 511, 62, 51, 220, 37, 113, 140, 807, 138, 540, 8, 44, 287, 388, 117, 18, 79, 344, 34, 20, 59, 511, 548, 107, 603, 220, 7, 66, 154, 41, 20, 50, 6, 575, 122, 154, 248, 110, 61, 52, 33, 30, 5, 38, 8, 14, 84, 57, 540, 217, 115, 71, 29, 84, 63, 43, 131, 29, 138, 47, 73, 239, 540, 52, 53, 79, 118, 51, 44, 63, 196, 12, 239, 112, 3, 49, 79, 353, 105, 56, 371, 557, 211, 505, 125, 360, 133, 143, 101, 15, 284, 540, 252, 14, 205, 140, 344, 26, 811, 138, 115, 48, 73, 34, 205, 316, 607, 63, 220, 7, 52, 150, 44, 52, 16, 40, 37, 158, 807, 37, 121, 12, 95, 10, 15, 35, 12, 131, 62, 115, 102, 807, 49, 53, 135, 138, 30, 31, 62, 67, 41, 85, 63, 10, 106, 807, 138, 8, 113, 20, 32, 33, 37, 353, 287, 140, 47, 85, 50, 37, 49, 47, 64, 6, 7, 71, 33, 4, 43, 47, 63, 1, 27, 600, 208, 230, 15, 191, 246, 85, 94, 511, 2, 270, 20, 39, 7, 33, 44, 22, 40, 7, 10, 3, 811, 106, 44, 486, 230, 353, 211, 200, 31, 10, 38, 140, 297, 61, 603, 320, 302, 666, 287, 2, 44, 33, 32, 511, 548, 10, 6, 250, 557, 246, 53, 37, 52, 83, 47, 320, 38, 33, 807, 7, 44, 30, 31, 250, 10, 15, 35, 106, 160, 113, 31, 102, 406, 230, 540, 320, 29, 66, 33, 101, 807, 138, 301, 316, 353, 320, 220, 37, 52, 28, 540, 320, 33, 8, 48, 107, 50, 811, 7, 2, 113, 73, 16, 125, 11, 110, 67, 102, 807, 33, 59, 81, 158, 38, 43, 581, 138, 19, 85, 400, 38, 43, 77, 14, 27, 8, 47, 138, 63, 140, 44, 35, 22, 177, 106, 250, 314, 217, 2, 10, 7, 1005, 4, 20, 25, 44, 48, 7, 26, 46, 110, 230, 807, 191, 34, 112, 147, 44, 110, 121, 125, 96, 41, 51, 50, 140, 56, 47, 152, 540, 63, 807, 28, 42, 250, 138, 582, 98, 643, 32, 107, 140, 112, 26, 85, 138, 540, 53, 20, 125, 371, 38, 36, 10, 52, 118, 136, 102, 420, 150, 112, 71, 14, 20, 7, 24, 18, 12, 807, 37, 67, 110, 62, 33, 21, 95, 220, 511, 102, 811, 30, 83, 84, 305, 620, 15, 2, 108, 220, 106, 353, 105, 106, 60, 275, 72, 8, 50, 205, 185, 112, 125, 540, 65, 106, 807, 138, 96, 110, 16, 73, 33, 807, 150, 409, 400, 50, 154, 285, 96, 106, 316, 270, 205, 101, 811, 400, 8, 44, 37, 52, 40, 241, 34, 205, 38, 16, 46, 47, 85, 24, 44, 15, 64, 73, 138, 807, 85, 78, 110, 33, 420, 505, 53, 37, 38, 22, 31, 10, 110, 106, 101, 140, 15, 38, 3, 5, 44, 7, 98, 287, 135, 150, 96, 33, 84, 125, 807, 191, 96, 511, 118, 440, 370, 643, 466, 106, 41, 107, 603, 220, 275, 30, 150, 105, 49, 53, 287, 250, 208, 134, 7, 53, 12, 47, 85, 63, 138, 110, 21, 112, 140, 485, 486, 505, 14, 73, 84, 575, 1005, 150, 200, 16, 42, 5, 4, 25, 42, 8, 16, 811, 125, 160, 32, 205, 603, 807, 81, 96, 405, 41, 600, 136, 14, 20, 28, 26, 353, 302, 246, 8, 131, 160, 140, 84, 440, 42, 16, 811, 40, 67, 101, 102, 194, 138, 205, 51, 63, 241, 540, 122, 8, 10, 63, 140, 47, 48, 140, 288.</div><span about="#mwt66" id="mwAYw">
+
+</span><p about="#mwt66" id="mwAY0">By comparing the foregoing numbers with the corresponding numbers of the initial letters of the consecutive words in the Declaration of Independence, the translation will be found to be as follows:</p><span about="#mwt66" id="mwAY4">
+
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt66" typeof="mw:Extension/templatestyles" id="mwAY8" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwAZA">I have deposited, in the county of Bedford, about four miles from Buford's, in an excavation or vault, six feet below the surface of the ground, the following <span id="mwAZE"><span class="pagenum ws-pagenum" id="21" data-page-number="21" data-page-name="Page:Beale Papers.djvu/21" data-page-index="21" data-page-quality="4" title="Page:Beale_Papers.djvu/21"><span id="pageindex_21" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAZI">​</span></span></span></span>articles, belonging jointly to the parties whose names are given in number “3,” herewith:
+
+<p id="mwAZM">The first deposit consisted of one thousand and fourteen pounds of gold, and three thousand eight hundred and twelve pounds of silver, deposited November, 1819. The second was made December, 1821, and consisted of nineteen hundred and seven pounds of gold, and twelve hundred and eighty-eight pounds of silver; also jewels, obtained in St. Louis in exchange for silver to save transportation, and valued at $13,000.</p>
+
+The above is securely packed in iron pots, with iron covers. The vault is roughly lined with stone, and the vessels rest on solid stone, and are covered with others. Paper number “1” describes the exact locality of the vault, so that no difficulty will be had in finding it.</div><span about="#mwt66" id="mwAZQ">
+
+</span><p about="#mwt66" id="mwAZU">The following is the paper which, according to Beale's statement, describes the exact locality of the vault, and is marked “1.” It is to this that I have devoted most of my time, but, unfortunately, without success.</p><span about="#mwt66" id="mwAZY">
+
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt66" typeof="mw:Extension/templatestyles" id="mwAZc" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/><div class="wst-center tiInherit  " about="#mwt66" id="mwAZg">
+<p id="mwAZk"><span style="font-size:120%;" id="mwAZo">THE LOCALITY OF THE VAULT</span></p>
+</div><span class="mw-empty-elt" about="#mwt66" id="mwAZs"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt92" typeof="mw:Extension/templatestyles" id="mwAZw" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/></span><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwAZ0">71, 194, 38, 1701, 89, 76, 11, 83, 1629, 48, 94, 63, 132, 16, 111, 95, 84, 341, 975, 14, 40, 64, 27, 81, 139, 213, 63, 90, 1120, 8, 15, 3, 126, 2018, 40, 74, 758, 485, 604, 230, 436, 664, 582, 150, 251, 284, 308, 231, 124, 211, 486, 225, 401, 370, 11, 101, 305, 139, 189, 17, 33, 88, 208, 193, 145, 1, 94, 73, 416, 918, 263, 28, 500, 538, 356, 117, 136, 219, 27, 176, 130, 10, 460, 25, 485, 18, 436, 65, 84, 200, 283, 118, 320, 138, 36, 416, 280, 15, 71, 224, 961, 44, 16, 401, 39, 88, 61, 304, 12, 21, 24, 283, 134, 92, 63, 246, 486, 682, 7, 219, 184, 360, 780, 18, 64, 463, 474, 131, 160, 79, 73, 440, 95, 18, 64, 581, 34, 69, 128, 367, 460, 17, 81, 12, 103, 820, 62, 116, 97, 103, 862, 70, 60, 1317, 471, 540, 208, 121, 890, 346, 36, 150, 59, 568, 614, 13, 120, 63, 219, 812, 2160, 1780, 99, 35, 18, 21, 136, 872, 15, 28, 170, 88, 4, 30, 44, 112, 18, 147, 436, 195, 320, 37, 122, 113, 6, 140, 8, 120, 305, 42, 58, 461, 44, 106, 301, 13, 408, 680, 93, 86, 116, 530, 82, 568, 9, 102, 38, 416, 89, 71, 216, 728, 965, 818, 2, 38, 121, 195, 14, 326, 148, 234, 18, 55, 131, 234, 361, 824, 5, 81, 623, 48, 961, 19, 26, 33, 10, 1101, 365, 92, 88, 181, 275, 346, 201, 206, 86, 36, 219, 324, 829, 840, 64, 326, 19, 48, 122, 85, 216, 284, 919, 861, 326, 985, 233, 64, 68, 232, 431, 960, 50, 29, 81, 216, 321, 603, 14, 612, 81, 360, 36, 51, 62, 194, 78, 60, 200, 314, 676, 112, 4, 28, 18, 61, 136, 247, 819, 921, 1060, 464, 895, 10, 6, 66, 119, 38, 41, 49, 602, 423, 962, 302, 294, 875, 78, 14, 23, 111, 109, 62, 31, 501, 823, 216, 280, 34, 24, 150, 1000, 162, 286, 19, 21, 17, 340, 19, 242, 31, 86, 234, 140, 607, 115, 33, 191, 67, 104, 86, 52, 88, 16, 80, 121, 67, 95, 122, 216, 548, 96, 11, 201, 77, 364, 218, 65, 667, 890, 236, 154, 211, 10, 98, 34, 119, 56, 216, 119, 71, 218, 1164, 1496, 1817, 51, 39, 210, 36, 3, 19, 540, 232, 22, 141, 617, 84, 290, 80, 46, 207, 411, 150, 29, 38, 46, 172, 85, 194, 39, 261, 543, 897, 624, 18, 212, 416, 127, 931, 19, 4, 63, 96, 12, 101, 418, 16, 140, 230, 460, 538, 19, 27, 88, 612, 1431, 90, 716, 275, 74, 83, 11, 426, 89, 72, 84, 1300, 1706, 814, 221, 132, 40, 102, 34, 868, 975, 1101, 84, 16, 79, 23, 16, 81, 122, 324, 403, 912, 227, 936, 447, 55, 86, 34, 43, 212, 107, 96, 314, 264, 1065, 323, 428, 601, 203, 124, 95, 216, 814, 2906, 654, 820, 2, 301, 112, 176, 213, 71, 87, 96, 202, 35, 10, 2, 41, 17, 84, 221, 736, 820, 214, 11, 60, 760</div><span about="#mwt66" id="mwAZ4">
+
+</span><p about="#mwt66" id="mwAZ8">The following paper is marked “3” in the series, and as we are informed, contains the names of Beale's associates, who are <span id="mwAaA"><span class="pagenum ws-pagenum" id="22" data-page-number="22" data-page-name="Page:Beale Papers.djvu/22" data-page-index="22" data-page-quality="4" title="Page:Beale_Papers.djvu/22"><span id="pageindex_22" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAaE">​</span></span></span></span>joint owners of the fund deposited, together with the names of the nearest relatives of each party, with their several places of residence.</p><span about="#mwt66" id="mwAaI">
+ 
+</span><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15620827" about="#mwt66" typeof="mw:Extension/templatestyles" id="mwAaM" data-mw='{"name":"templatestyles","attrs":{"src":"center/styles.css"}}'/><div class="wst-center tiInherit  " about="#mwt66" id="mwAaQ">
+<p id="mwAaU"><span style="font-size:120%;" id="mwAaY">NAMES AND RESIDENCES.</span></p>
+</div><span class="mw-empty-elt" about="#mwt66" id="mwAac"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r15431454" about="#mwt96" typeof="mw:Extension/templatestyles" id="mwAag" data-mw='{"name":"templatestyles","attrs":{"src":"Template:Font size block/styles.css"}}'/></span><div class="wst-size-block wst-smaller wst-smaller-block " about="#mwt66" id="mwAak">317, 8, 92, 73, 112, 89, 67, 318, 28, 96, 107, 41, 631, 78, 146, 397, 118, 98, 114, 246, 348, 116, 74, 88, 12, 65, 32, 14, 81, 19, 76, 121, 216, 85, 33, 66, 15, 108, 68, 77, 43, 24, 122, 96, 117, 36, 211, 301, 15, 44, 11, 46, 89, 18, 136, 68, 317, 28, 90, 82, 304, 71, 43, 221, 198, 176, 310, 319, 81, 99, 264, 380, 56, 37, 319, 2, 44, 53, 28, 44, 75, 98, 102, 37, 85, 107, 117, 64, 88, 136, 48, 154, 99, 175, 89, 315, 326, 78, 96, 214, 218, 311, 43, 89, 51, 90, 75, 128, 96, 33, 28, 103, 84, 65, 26, 41, 246, 84, 270, 98, 116, 32, 59, 74, 66, 69, 240, 15, 8, 121, 20, 77, 89, 31, 11, 106, 81, 191, 224, 328, 18, 75, 52, 82, 117, 201, 39, 23, 217, 27, 21, 84, 35, 54, 109, 128, 49, 77, 88, 1, 81, 217, 64, 55, 83, 116, 251, 269, 311, 96, 54, 32, 120, 18, 132, 102, 219, 211, 84, 150, 219, 275, 312, 64, 10, 106, 87, 75, 47, 21, 29, 37, 81, 44, 18, 126, 115, 132, 160, 181, 203, 76, 81, 299, 314, 337, 351, 96, 11, 28, 97, 318, 238, 106, 24, 93, 3, 19, 17, 26, 60, 73, 88, 14, 126, 138, 234, 286, 297, 321, 365, 264, 19, 22, 84, 56, 107, 98, 123, 111, 214, 136, 7, 33, 45, 40, 13, 28, 46, 42, 107, 196, 227, 344, 198, 203, 247, 116, 19, 8, 212, 230, 31, 6, 328, 65, 48, 52, 59, 41, 122, 33, 117, 11, 18, 25, 71, 36, 45, 83, 76, 89, 92, 31, 65, 70, 83, 96, 27, 33, 44, 50, 61, 24, 112, 136, 149, 176, 180, 194, 143, 171, 205, 296, 87, 12, 44, 51, 89, 98, 34, 41, 208, 173, 66, 9, 35, 16, 95, 8, 113, 175, 90, 56, 203, 19, 177, 183, 206, 157, 200, 218, 260, 291, 305, 618, 951, 320, 18, 124, 78, 65, 19, 32, 124, 48, 53, 57, 84, 96, 207, 244, 66, 82, 119, 71, 11, 86, 77, 213, 54, 82, 316, 245, 303, 86, 97, 106, 212, 18, 37, 15, 81, 89, 16, 7, 81, 39, 96, 14, 43, 216, 118, 29, 55, 109, 136, 172, 213, 64, 8, 227, 304, 611, 221, 364, 819, 375, 128, 296, 1, 18, 53, 76, 10, 15, 23, 19, 71, 84, 120, 134, 66, 73, 89, 96, 230, 48, 77, 26, 101, 127, 936, 218, 439, 178, 171, 61, 226, 313, 215, 102, 18, 167, 262, 114, 218, 66, 59, 48, 27, 19, 13, 82, 48, 162, 119, 34, 127, 139, 34, 128, 129, 74, 63, 120, 11, 54, 61, 73, 92, 180, 66, 75, 101, 124, 265, 89, 96, 126, 274, 896, 917, 434, 461, 235, 890, 312, 413, 328, 381, 96, 105, 217, 66, 118, 22, 77, 64, 42, 12, 7, 55, 24, 83, 67, 97, 109, 121, 135, 181, 203, 219, 228, 256, 21, 34, 77, 319, 374, 382, 675, 684, 717, 864, 203, 4, 18, 92, 16, 63, 82, 22, 46, 55, 69, 74, 112, 134, 186, 175, 119, 213, 416, 312, 343, 264, 119, 186, 218, 343, 417, 845, 951, 124, 209, 49, 617, 856, 924, 936, 72, 19, 28, 11, 35, 42, 40, 66, 85, 94, 112, 65, 82, 115, 119, 236, 244, 186, 172, 112, 85, 6, 56, 38, 44, 85, 72, 32, 47, 63, 96, 124, 217, 314, 319, 221, 644, 817, 821, 934, 922, 416, 975, 10, 22, 18, 46, 137, 181, 101, 39, 86, 103, 116, 138, 164, 212, 218, 296, 815, 380, 412, 460, 495, 675, 820, 952.</div><span about="#mwt66" id="mwAao">
+
+</span><p about="#mwt66" id="mwAas">The papers given above were all that were contained in the box, except two or three of an unimportant character, and having no connection whatever with the subject in hand. They were carefully copied, and as carefully compared with the originals, and no error is believed to exist.</p><span about="#mwt66" id="mwAaw">
+
+</span><p about="#mwt66" id="mwAa0">Complete in themselves, they are respectfully submitted to the public, with the hope that all that is dark in them may receive light, and that the treasure, amounting to more than three-quarters of a million, which has rested so long unproductive of good, in the hands of a proper person, may eventually accomplish its mission.</p><span about="#mwt66" id="mwAa4">
+
+</span><p about="#mwt66" id="mwAa8">In conclusion it may not be inappropriate to say a few words regarding myself: In consequence of the time lost in the above <span id="mwAbA"><span class="pagenum ws-pagenum" id="23" data-page-number="23" data-page-name="Page:Beale Papers.djvu/23" data-page-index="23" data-page-quality="4" title="Page:Beale_Papers.djvu/23"><span id="pageindex_23" class="pagenum-inner ws-noexport"><span typeof="mw:Entity" id="mwAbE">​</span></span></span></span>investigation, I have been reduced from comparative affluence to absolute penury, entailing suffering upon those it was my duty to protect, and this, too, in spite of their remonstrances. My eyes were at last opened to their condition, and I resolved to sever at once, and forever, all connection with the affair, and retrieve, if possible, my errors. To do this, as the best means of placing temptation beyond my reach, I determined to make public the whole matter, and shift from my shoulders my responsibility to Mr. Morriss.</p><span about="#mwt66" id="mwAbI">
+
+</span><p about="#mwt66" id="mwAbM">I anticipate for these papers a large circulation, and, to avoid the multitude of letters with which I should be assailed from all sections of the Union, propounding all sorts of questions, and requiring answers which, if attended to, would absorb my entire time, and only change the character of my work, I have decided upon withdrawing my name from the publication, after assuring all interested that I have given all that I know of the matter, and that I cannot add one word to the statements herein contained.</p><span about="#mwt66" id="mwAbQ">
+
+</span><p about="#mwt66" id="mwAbU">The gentleman whom I have selected as my agent, to publish and circulate these papers, was well-known to Mr. Morriss; it was at his house that Mrs. Morriss died, and he would have been one of the beneficiaries in the event of my success. Like every one else, he was ignorant of this episode in Mr. Morriss' career, until the manuscript was placed in his hands. Trusting that he will be benefited by the arrangement, which, I know, would have met the approval of Mr. Morriss, I have left the whole subject to his sole management and charge. It is needless to say that I shall await with much anxiety the development of the mystery.</p><span about="#mwt66" id="mwAbY">
+</span><div class="__nop wst-nop" about="#mwt66" id="mwAbc"></div></div>
+<p id="mwAbg">
+<br id="mwAbk"/></p>
+<span class="mw-empty-elt" about="#mwt121" typeof="mw:Transclusion" id="mwAbo" data-mw='{"parts":[{"template":{"target":{"wt":"PD-US","href":"./Template:PD-US"},"params":{},"i":0}}]}'><style data-mw-deduplicate="TemplateStyles:r15431456" typeof="mw:Extension/templatestyles" about="#mwt122" data-mw='{"name":"templatestyles","attrs":{"src":"Template:License/styles.css"},"body":{"extsrc":""}}'>.mw-parser-output .licenseContainer{box-sizing:border-box;margin-top:1em;margin-bottom:0.25em;clear:both;width:auto;page-break-before:always;break-before:page}.mw-parser-output .licenseContainer>div:first-child{display:table;border:2px solid var(--border-color-subtle,#88A);border-collapse:collapse;border-spacing:0 0;empty-cells:hide;box-sizing:border-box;margin:0 auto 0 auto;width:100%;background-color:var(--background-color-neutral-subtle,#F7F8FF);color:var(--color-base,#202122)}.mw-parser-output .licenseContainer>div:first-child>div:first-child{display:table-row-group}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child{display:table-row}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div{display:table-cell;padding:5px;vertical-align:middle;width:auto}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:first-child{text-align:left}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2){text-align:center}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div{width:100%}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:first-child{display:block;margin:0 auto 0 auto;text-align:left}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){display:table;border-top:1px solid #88A}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div{display:table-cell;vertical-align:middle}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:first-child{text-align:center;padding:5px 0;width:40px}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){text-align:left;padding:5px;font-size:92%}.mw-parser-output .licenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(3){text-align:right}.mw-parser-output .licensetpl{display:none}.mw-parser-output .licenseContainer.wst-collapsible-box{clear:both;margin:0.25em 0 0.25em 0;font-size:95%;background-color:var(--background-color-progressive-subtle,#f7f8ff);color:var(--color-base,#202122);border:2px solid var(--border-color-progressive,#88A);text-align:left;line-height:1.6}.mw-parser-output .wst-license-container-title{display:inline-block;padding:0.5em}.mw-parser-output .wst-license-container-content{background-color:transparent;color:inherit;margin:0;padding:3px;text-align:left}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child{border-color:#b22222;background-color:#ffeeee;color:#202122}.mw-parser-output .licenseContainer.warningLicenseContainer>div:first-child>div:first-child>div:first-child>div:nth-child(2)>div:nth-child(2){border-color:#b22222;color:#202122}</style></span><div class="licenseContainer licenseBanner dynlayout-exempt" about="#mwt121" id="mwAbs"><div><div><div><div>
+<p><span class="imageLeft"><span typeof="mw:File"><span><img resource="https://en.wikisource.org/wiki/File:PD-icon.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/60px-PD-icon.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/120px-PD-icon.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="196" data-file-height="196" data-file-type="drawing" height="48" width="48" class="mw-file-element"/></span></span></span></p>
+</div><div><div>
+<p>This work is in the <b><a rel="mw:WikiLink/Interwiki" href="https://en.wikipedia.org/wiki/public%20domain" title="w:public domain" class="extiw">public domain</a></b> in the <b>United States</b> because it was published before January 1, 1931.</p>
+<hr/>
+<p>This work may be in the <b>public domain</b> in countries and areas with longer native copyright terms that apply the <b><a rel="mw:WikiLink/Interwiki" href="https://en.wikipedia.org/wiki/Rule%20of%20the%20shorter%20term" title="w:Rule of the shorter term" class="extiw">rule of the shorter term</a></b> to <i>foreign works</i>.</p>
+</div></div><div>
+<p><span class="imageRight"><span typeof="mw:File"><span><img resource="https://en.wikisource.org/wiki/File:Flag_of_the_United_States.svg" src="//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/120px-Flag_of_the_United_States.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail" decoding="async" loading="lazy" srcset="//thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png?utm_source=en.wikisource.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x" alt="" data-file-width="1235" data-file-height="650" data-file-type="drawing" height="48" width="92" class="mw-file-element"/></span></span></span></p>
+</div></div></div></div><div class="licensetpl">
+<p><span class="licensetpl_short">Public domain</span><span class="licensetpl_long">Public domain</span><span class="licensetpl_link_req">false</span><span class="licensetpl_attr_req">false</span></p>
+</div><link rel="mw:PageProp/Category" href="./Category:PD-US"/></div>
+<span about="#mwt123" typeof="mw:Transclusion" id="mwAbw" data-mw='{"parts":[{"template":{"target":{"wt":"DEFAULTSORT:Beale Papers, The","function":"defaultsort"},"params":{},"i":0}}]}'></span>
+
+<link rel="mw:PageProp/Category" href="./Category:Ready_for_export" id="mwAb0"/></section>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.codfw.main‐5459577db9‐7k7kb
+Cached time: 20261109005825
+Cache expiry: 86400
+Cache expiry source: Module:PD‐US (os.date(%d))
+Reduced expiry: true
+Complications: [vary‐page‐id, vary‐revision‐sha1, use‐parsoid]
+CPU time usage: 0.670 seconds
+Real time usage: 0.878 seconds
+Preprocessor visited node count: 2872/1000000
+Revision size: 624/2097152 bytes
+Post‐expand include size: 110435/2097152 bytes
+Template argument size: 16379/2097152 bytes
+Highest expansion depth: 15/100
+Expensive parser function count: 2/500
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 25266/5000000 bytes
+Lua time usage: 0.083/10.000 seconds
+Lua memory usage: 2743240/52428800 bytes
+Number of Wikibase entities loaded: 3/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  755.737      1 -total
+ 13.05%   98.602      1 Template:Header
+  8.21%   62.050      7 Template:C
+  7.24%   54.753      1 Page:Beale_Papers.djvu/1
+  6.75%   50.983      1 Template:Border
+  4.82%   36.390     47 Template:Optional_style
+  3.67%   27.727      1 Page:Beale_Papers.djvu/3
+  3.06%   23.103      1 Page:Beale_Papers.djvu/17
+  2.53%   19.105      1 Template:Di
+  2.43%   18.350      1 Template:PD-US
+-->
+
+<!-- Render ID aaca5a51-dbd8-11f1-873a-c3926654d8e8 -->
+
+<!-- Saved in parser cache with key enwikisource:parsoid-pcache:35325:|#|:idhash:useParsoid=1 and timestamp 20261109005825 and revision id 11286472. Rendering was triggered because: page_view
+ -->
+
+<!-- Parsoid 0.25.0.0-alpha1 -->
+</div><!--
+Post‐processing cache key enwikisource:postproc‐parsoid‐pcache:35325:|#|:idhash:injectTOC=0!postproc=1!skin=vector‐2022!useParsoid=1!visibleLinks=single, generated at 20261109005825
+--><noscript><img src="https://en.wikisource.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikisource.org/w/index.php?title=The_Beale_Papers&amp;oldid=11286472">https://en.wikisource.org/w/index.php?title=The_Beale_Papers&amp;oldid=11286472</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="/wiki/Category:Validated_texts" title="Category:Validated texts">Validated texts</a></li><li><a href="/wiki/Category:1885_works" title="Category:1885 works">1885 works</a></li><li><a href="/wiki/Category:Works_by_unknown_authors" title="Category:Works by unknown authors">Works by unknown authors</a></li><li><a href="/wiki/Category:PD-US" title="Category:PD-US">PD-US</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Pages_with_override_author" title="Category:Pages with override author">Pages with override author</a></li><li><a href="/wiki/Category:Headers_applying_DefaultSort_key" title="Category:Headers applying DefaultSort key">Headers applying DefaultSort key</a></li><li><a href="/wiki/Category:Borders_using_maxwidth_parameter" title="Category:Borders using maxwidth parameter">Borders using maxwidth parameter</a></li><li><a href="/wiki/Category:Ready_for_export" title="Category:Ready for export">Ready for export</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			<footer id="footer" class="mw-footer" >
+				<ul id="footer-info" class="mw-portlet mw-portlet-footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 17 May 2021, at 17:16.</li>
+	<li id="footer-info-renderedwith">Page was rendered with <a href="https://www.mediawiki.org/wiki/Special:MyLanguage/Parsoid" class="extiw" title="mw:Special:MyLanguage/Parsoid">Parsoid</a>.</li>
+	<li id="footer-info-copyright">Text is available under the <a rel="nofollow" class="external text" href="//creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License</a>; additional terms may apply.  By using this site, you agree to the <a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use">Terms of Use</a> and <a class="external text" data-mw-original-href="//foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy Policy.</a></li>
+</ul>
+
+				<ul id="footer-places" class="mw-portlet mw-portlet-footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikisource:About">About Wikisource</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikisource:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">Legal &amp; safety contacts</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikisource.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.wikisource.org/w/index.php?title=The_Beale_Papers&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+				<ul id="footer-icons" class="mw-portlet mw-portlet-footer-icons noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+			</footer>
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search cdx-button__icon"></span>
+
+<span>Search</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="Search Wikisource">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span lang="en" dir="ltr"><span class="mw-page-title-main">The Beale Papers</span></span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit cdx-button__icon"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock cdx-button__icon"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language cdx-button__icon"></span>
+
+<span>Add languages</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive cdx-button__icon"></span>
+
+<span>Add topic</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.codfw.main-5459577db9-zdc8t","wgBackendResponseTime":89,"wgPageParseReport":{"limitreport":{"cputime":"0.670","walltime":"0.878","ppvisitednodes":{"value":2872,"limit":1000000},"revisionsize":{"value":624,"limit":2097152},"postexpandincludesize":{"value":110435,"limit":2097152},"templateargumentsize":{"value":16379,"limit":2097152},"expansiondepth":{"value":15,"limit":100},"expensivefunctioncount":{"value":2,"limit":500},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":25266,"limit":5000000},"entityaccesscount":{"value":3,"limit":500},"timingprofile":["100.00%  755.737      1 -total"," 13.05%   98.602      1 Template:Header","  8.21%   62.050      7 Template:C","  7.24%   54.753      1 Page:Beale_Papers.djvu/1","  6.75%   50.983      1 Template:Border","  4.82%   36.390     47 Template:Optional_style","  3.67%   27.727      1 Page:Beale_Papers.djvu/3","  3.06%   23.103      1 Page:Beale_Papers.djvu/17","  2.53%   19.105      1 Template:Di","  2.43%   18.350      1 Template:PD-US"]},"scribunto":{"limitreport-timeusage":{"value":"0.083","limit":"10.000"},"limitreport-memusage":{"value":2743240,"limit":52428800}},"cachereport":{"origin":"mw-web.codfw.main-5459577db9-7k7kb","timestamp":"20261109005825","ttl":86400,"transientcontent":true,"expiry-source":"Module:PD-US (os.date(%d))"}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"The Beale Papers","url":"https:\/\/en.wikisource.org\/wiki\/The_Beale_Papers","sameAs":"http:\/\/www.wikidata.org\/entity\/Q108897675","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q108897675","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2006-03-19T16:49:15Z","dateModified":"2021-05-17T17:16:09Z","headline":"1885 edition of a pamphlet"}</script>
+</body>
+</html>

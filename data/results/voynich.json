@@ -1,0 +1,219 @@
+{
+ "id": "voynich",
+ "lines": 5297,
+ "folios": 227,
+ "eva": {
+  "tokens": 188289,
+  "alphabet": 25,
+  "h1": 3.862,
+  "h2": 2.338,
+  "word_count": 37290,
+  "vocabulary": 7945,
+  "mean_word_length": 5.05,
+  "zipf_slope": -1.104,
+  "adjacent_word_repeat_rate": 0.0081
+ },
+ "glyph_merged": {
+  "tokens": 155828,
+  "alphabet": 33,
+  "h1": 3.963,
+  "h2": 2.679,
+  "word_count": 37290,
+  "vocabulary": 7945,
+  "mean_word_length": 5.05,
+  "zipf_slope": -1.104,
+  "adjacent_word_repeat_rate": 0.0081
+ },
+ "currier_A": {
+  "tokens": 53581,
+  "alphabet": 24,
+  "h1": 3.832,
+  "h2": 2.357,
+  "word_count": 10767,
+  "vocabulary": 3375,
+  "mean_word_length": 4.98,
+  "zipf_slope": -0.973,
+  "adjacent_word_repeat_rate": 0.0084
+ },
+ "currier_B": {
+  "tokens": 119177,
+  "alphabet": 24,
+  "h1": 3.86,
+  "h2": 2.19,
+  "word_count": 23368,
+  "vocabulary": 4914,
+  "mean_word_length": 5.1,
+  "zipf_slope": -1.16,
+  "adjacent_word_repeat_rate": 0.0085
+ },
+ "a_b_diff": [
+  {
+   "word": "daiin",
+   "A_per_1000": 42.4,
+   "B_per_1000": 13.0
+  },
+  {
+   "word": "chedy",
+   "A_per_1000": 0.1,
+   "B_per_1000": 20.9
+  },
+  {
+   "word": "chol",
+   "A_per_1000": 24.2,
+   "B_per_1000": 4.2
+  },
+  {
+   "word": "shedy",
+   "A_per_1000": 0.2,
+   "B_per_1000": 18.1
+  },
+  {
+   "word": "chor",
+   "A_per_1000": 15.5,
+   "B_per_1000": 1.2
+  },
+  {
+   "word": "qokeedy",
+   "A_per_1000": 0.0,
+   "B_per_1000": 12.9
+  },
+  {
+   "word": "qokedy",
+   "A_per_1000": 0.1,
+   "B_per_1000": 11.4
+  },
+  {
+   "word": "qokain",
+   "A_per_1000": 0.4,
+   "B_per_1000": 11.6
+  },
+  {
+   "word": "s",
+   "A_per_1000": 15.1,
+   "B_per_1000": 4.4
+  },
+  {
+   "word": "ol",
+   "A_per_1000": 9.5,
+   "B_per_1000": 18.5
+  },
+  {
+   "word": "qokaiin",
+   "A_per_1000": 2.0,
+   "B_per_1000": 10.4
+  },
+  {
+   "word": "aiin",
+   "A_per_1000": 7.7,
+   "B_per_1000": 16.0
+  }
+ ],
+ "languages": {
+  "English": {
+   "tokens": 136923,
+   "alphabet": 26,
+   "h1": 4.17,
+   "h2": 3.581,
+   "word_count": 30000,
+   "vocabulary": 5842,
+   "mean_word_length": 4.56,
+   "zipf_slope": -1.002,
+   "adjacent_word_repeat_rate": 0.0012
+  },
+  "French": {
+   "tokens": 138703,
+   "alphabet": 26,
+   "h1": 4.047,
+   "h2": 3.408,
+   "word_count": 30000,
+   "vocabulary": 4798,
+   "mean_word_length": 4.62,
+   "zipf_slope": -1.06,
+   "adjacent_word_repeat_rate": 0.002
+  },
+  "German": {
+   "tokens": 145277,
+   "alphabet": 26,
+   "h1": 4.098,
+   "h2": 3.393,
+   "word_count": 30000,
+   "vocabulary": 6173,
+   "mean_word_length": 4.84,
+   "zipf_slope": -1.01,
+   "adjacent_word_repeat_rate": 0.0016
+  },
+  "Italian": {
+   "tokens": 125452,
+   "alphabet": 23,
+   "h1": 4.01,
+   "h2": 3.379,
+   "word_count": 30000,
+   "vocabulary": 6404,
+   "mean_word_length": 4.18,
+   "zipf_slope": -1.003,
+   "adjacent_word_repeat_rate": 0.0008
+  },
+  "Spanish": {
+   "tokens": 129452,
+   "alphabet": 24,
+   "h1": 4.029,
+   "h2": 3.314,
+   "word_count": 30000,
+   "vocabulary": 5057,
+   "mean_word_length": 4.32,
+   "zipf_slope": -1.047,
+   "adjacent_word_repeat_rate": 0.0003
+  },
+  "Latin": {
+   "tokens": 123358,
+   "alphabet": 24,
+   "h1": 3.989,
+   "h2": 3.448,
+   "word_count": 20535,
+   "vocabulary": 5686,
+   "mean_word_length": 6.01,
+   "zipf_slope": -0.885,
+   "adjacent_word_repeat_rate": 0.0
+  }
+ },
+ "shuffled_h2": 3.86,
+ "solver_trial": [
+  {
+   "language": "English",
+   "score": -5.191,
+   "shuffled_score": -5.882,
+   "excerpt": "FSTIEIDSRSLSNSEEAREALIIDALEARNIEALIPSLALIDSOLTNSEESLSEHCSLCSLNSUEISOOLEHDIALIDSEEANCASLICH"
+  },
+  {
+   "language": "French",
+   "score": -5.07,
+   "shuffled_score": -5.861,
+   "excerpt": "CISUNUTIRIAITINDERDEAUUTEADERLUNEAUCIAEAUTIRASTINDIAINOPIAPIALIENUIRRADOTUEAUTINDELPEIAUPO"
+  },
+  {
+   "language": "German",
+   "score": -5.324,
+   "shuffled_score": -5.746,
+   "excerpt": "KRNTLTSRHRNRURADEHDENTTSENDEHITLENTFRNENTSRMNNURADRNRLISRNSRNIROLTRMMNDISTENTSRADEISERNTSI"
+  },
+  {
+   "language": "Italian",
+   "score": -4.754,
+   "shuffled_score": -5.657,
+   "excerpt": "VEIADASENEREMELTONTORAASORTONCADORATERORASEARIMELTEREDUSERSERCELDAEAARTUSAORASELTOCSOERASU"
+  },
+  {
+   "language": "Spanish",
+   "score": -4.712,
+   "shuffled_score": -5.845,
+   "excerpt": "VEIADACENESETENEONEOSAACOSEONSADOSALESOSACELSITENEESEDRDESDESSELDAELLSERCAOSACENEOSDOESADR"
+  },
+  {
+   "language": "Latin",
+   "score": -5.184,
+   "shuffled_score": -5.516,
+   "excerpt": "BERSOSUENEAECETEINEIASSUIAEINTSOIASUEAIASUEMARCETEEAEOMDEADEATEPOSEMMAEMUSIASUETEITDIEASDM"
+  }
+ ],
+ "runtime_s": 107.8
+}

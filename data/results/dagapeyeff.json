@@ -1,0 +1,941 @@
+{
+ "id": "dagapeyeff",
+ "stats": {
+  "digits": 392,
+  "digit_counts": {
+   "0": 1,
+   "1": 33,
+   "2": 46,
+   "3": 29,
+   "4": 43,
+   "5": 45,
+   "6": 56,
+   "7": 41,
+   "8": 80,
+   "9": 18
+  },
+  "pairs_frame0_distinct": 18,
+  "pairs_frame1_distinct": 20,
+  "pair_ic_frame0": 0.0697,
+  "pair_ic_frame1": 0.0594,
+  "english_letter_ic": 0.066,
+  "first_digit_set_frame0": "06789",
+  "second_digit_set_frame0": "12345",
+  "entropy_pairs_frame0": 3.851,
+  "entropy_pairs_frame1": 4.109
+ },
+ "trimmed_padding": true,
+ "hypotheses": [
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "Latin",
+   "z": 2.58,
+   "score": -5.145,
+   "null_mean": -5.261,
+   "null_sd": 0.045,
+   "p": 0.111,
+   "plaintext": "IOURORETRACTA AC SE MEAANTISNRI ALII IXLLEMIUIIONDUMNIA ELECTUTUMNBOOEEBTM IN TSMNEMMMAERRMUCLUL OFOURUARBILIGLOTAE CONTEXLOCCRSARELAS SUSTOBLOSIBMNNBSNU IN ESCONSETIAEOD"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "French",
+   "z": 1.28,
+   "score": -5.315,
+   "null_mean": -5.441,
+   "null_sd": 0.098,
+   "p": 0.222,
+   "plaintext": "O ET DE DANDSINUTIAP AU UTNORIDOLROOCPLAPO SON ET SU POUR LA INSNSPTEREA MA POTNRPSAPPJUD DIS ILS LE EESSDUMONOBLENUTI EN D A LE NI D RUDAMURSTREMEEROMP T MMRSIOARMETRANOSAE"
+  },
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "German",
+   "z": 1.26,
+   "score": -5.31,
+   "null_mean": -5.371,
+   "null_sd": 0.048,
+   "p": 0.333,
+   "plaintext": "SLUTLTERTIBRIIBMEN EI IDRSMDTSIHSSSCHHEN SUSS LDZUNDSIEHEBRUR UND ALLE EARNSDRMN DENN NIE T TNUBHUHLFLUTUITASH SO HLRIEBLDRECHLBBT MIT EH IM MUMRLAHLMSANDD AM DU S DEM BLDMERSIELZ"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "Spanish",
+   "z": 1.18,
+   "score": -5.694,
+   "null_mean": -5.753,
+   "null_sd": 0.05,
+   "p": 0.222,
+   "plaintext": "IEROYEYSASYNOPS NNRPDATAANNRESIDRP Y INLDIIIBTLLATAIOII SER CON TRINDALAPOSOSOOTR ME DE A A MAS TIRAS DTROATTTUNAYYPTOPL SOL EVEEOYOYNYMISLIGL DE SNARPERSYABLESPP Y DON Y AL MNDDORD SE ME LE DICMTRRMMDROPIRADM PERDIA SINO A E C"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "Italian",
+   "z": 1.16,
+   "score": -5.203,
+   "null_mean": -5.283,
+   "null_sd": 0.069,
+   "p": 0.222,
+   "plaintext": "O E L SE S IN S P UNA LUI CI A AL NO TU S ORTO OMCRICOPO NEL PACOATRIUNPNPC LETE I DI COL NTCPIC CH A S SU PUR PREEEPPSA DONO FREN AL U E N SI REN U STA SI DA TPLTEDEETODCLDDT PUOI T DEL TI NO PIE"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "Spanish",
+   "z": 1.08,
+   "score": -5.435,
+   "null_mean": -5.549,
+   "null_sd": 0.106,
+   "p": 0.222,
+   "plaintext": "UONDOD ES DA Y SIN Y EREIINSUTYDULTUUQR LE RUAUSONAIRUITLEYS ASAR NOTO ECERUNSTRAERRVIDD YA Y LA LO OOAADICUSUP LO SIN Y OS DE LOS Y DTI DE CITAN TOCO OTUCRNCCTAYUET CON TE SU A E O"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "German",
+   "z": 0.98,
+   "score": -5.266,
+   "null_mean": -5.318,
+   "null_sd": 0.053,
+   "p": 0.222,
+   "plaintext": "EOIMMRRMITHHTDSUH HOR DAMEN DEESNU SEI ER ACH SEH UNTIIRISLOOULUSEUR SAUS S ZUM TSTNINGOIMMHLEN END R HAT A RUF ORT MIHUNHDIAROONDEL SALDATEUDTODEREIUC"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "Latin",
+   "z": 0.88,
+   "score": -5.152,
+   "null_mean": -5.217,
+   "null_sd": 0.073,
+   "p": 0.333,
+   "plaintext": "E IN C ICOSCADSUNDOPOUUNS ET D CERTE EX PROPE A E SIN AUPEUTRODSASAPNITI OMOPENSTPAOPPHUCCD AD RARIIIAACUMESEGRIS UNDISCORISDCTUCOMU TANTI MIITEMPNMMT AD EO TMINTOSEAOI"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "Latin",
+   "z": 0.67,
+   "score": -5.236,
+   "null_mean": -5.275,
+   "null_sd": 0.058,
+   "p": 0.333,
+   "plaintext": "NSTRSDUIDERAEETAIM II ET SUO T AD ECONNYMCIMINNNUSF REM NE OIIARUURRMLSOSILI UNTIUMTRIMMPEDDAMA CUR SVSSDRDELNUCQCO SE ITA TUDICSUADOREICLE ORTOS LSCONFLTTL LTRANIOLATONINERIF"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "Latin",
+   "z": 0.5,
+   "score": -5.175,
+   "null_mean": -5.213,
+   "null_sd": 0.075,
+   "p": 0.556,
+   "plaintext": "EIAMMSSMALCCLTROC CIS TUM ENTEERNOREAESUBC RE CONLAASARPIIOPOR EOS RUORRHOMLRLNAND IAM MCPENENTSCULUS OVIS LMACONCTA USI IN TEPRUPTULEOTLITES EA OB"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "English",
+   "z": 0.5,
+   "score": -5.329,
+   "null_mean": -5.377,
+   "null_sd": 0.096,
+   "p": 0.444,
+   "plaintext": "E AN HAHICHSTCONTILIO ONCE RTHEPREEBLPILESE CAN SOLE OR PIT CSCSLNARAIMILENCRL SILLY OHHTSTPSPAA AS S HOME CEDPACONTACHIPAC THRO HIM OR S N RAM A ARE MLNMMRSTEIRMANR ICE S I A"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "English",
+   "z": 0.39,
+   "score": -5.258,
+   "null_mean": -5.284,
+   "null_sd": 0.066,
+   "p": 0.444,
+   "plaintext": "URTOHENGTNGRIEDEG ROUSIHGBUULDBEEUUU OR TGRUSEEINTTTRASOE AND RESDTEDDGEH IT INTO FOTTHHANBYBONER OR HE BO I IS THE AGSTSNAOOSMARR ASTIR EAIRSENGTOM"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "Spanish",
+   "z": 0.38,
+   "score": -5.391,
+   "null_mean": -5.431,
+   "null_sd": 0.106,
+   "p": 0.333,
+   "plaintext": "COANLESTASTO DE METO NCRDLTUCCYMUEECCC NO ATO CREED SAAAOIRNEISMOE RMAEMMTELDADSANGNA ALLI SU P UN SE O NO LE UN DDRALEITRARSINNR VIO OIRA DO E IDO R ESTAN V"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "Italian",
+   "z": 0.32,
+   "score": -5.278,
+   "null_mean": -5.295,
+   "null_sd": 0.054,
+   "p": 0.444,
+   "plaintext": "POI FOR ER MI T M MA NEL E M MO RPATFMCNPPUCCEEPI PRO DI MA P ME C EI RII IL SON E E SRLPERNAIELLBEFF LI TRICHOOFIFFSPCPGN OR E ATAR FU COTTFIMFCSMNIAROSC OND S L ASSAI T A E N T O A PER MI ED"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "Italian",
+   "z": 0.27,
+   "score": -5.308,
+   "null_mean": -5.327,
+   "null_sd": 0.069,
+   "p": 0.333,
+   "plaintext": "T A E LADRO DI L PII E POCO O I E A RNEPDIUNTTXCUOCOTT TRA GLICTINOOPLRRLLC SANA O SORTE OR C E L OCCHI D D P C PUR LA VA AD L DI S TR U M UNA IO E PER DOUARPDNLIOUS IN LENA SAUNTGSEESSELPTON SPENTO TI LO G"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "French",
+   "z": 0.18,
+   "score": -5.593,
+   "null_mean": -5.603,
+   "null_sd": 0.055,
+   "p": 0.444,
+   "plaintext": "O EN A CE CRI RCUATRUUNTSIDIIU UNE ROSNT COUPS OOOMDPPIDIOAOORENH AU D NOUS IPITARARAADN LES EIILIRDONIRSDNAIDD D QUI CCTDATP RAPE VEEACACUCLORPOYP SE RUINTENRCIMPERTTCS AU CI PLUS SANS RE LE PESOHLDNNLLSNATONI S L T EN SOIR OU AI EH"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "Spanish",
+   "z": 0.17,
+   "score": -5.461,
+   "null_mean": -5.482,
+   "null_sd": 0.124,
+   "p": 0.444,
+   "plaintext": "MAYMDTTDRSTRASNLEE RAMON ADORNO OBLIELEYOOMAPR LA RNEESYYTYLAUNMEUET O A EN LA EL LGREDSLSITIMWMYDDR DO TI CINTRESMADEBMTSDN Y DE IRNNANTUMINOP LA A UNAS OANUSANOTOREMP"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "Spanish",
+   "z": 0.13,
+   "score": -5.343,
+   "null_mean": -5.355,
+   "null_sd": 0.096,
+   "p": 0.444,
+   "plaintext": "ILIAADPDORYEDICOSD RCHUEELCINDODEELLL Y TRETA CEROEYVESYPAUMISSS CUBRA E POS HIPSLSUDROATURNYOT O POR POCA DEN"
+  },
+  {
+   "pattern": "drop position 4 of every 4",
+   "language": "German",
+   "z": 0.08,
+   "score": -5.325,
+   "null_mean": -5.33,
+   "null_sd": 0.058,
+   "p": 0.444,
+   "plaintext": "GAHDADUNDERNIHRUSU I IHN GTRDGFTGGBSFUSGEG NAHE ISGITFURNEN ES HAT AU MUSGHNTSEUSSWIDDR ER FEFAAAEEDIMGNGPF AN IHR AN DU FANRDTI DU MIT EHTAMAATGMSHMMT ER GUT MAHTUNGEUA"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "Latin",
+   "z": 0.04,
+   "score": -5.109,
+   "null_mean": -5.112,
+   "null_sd": 0.071,
+   "p": 0.444,
+   "plaintext": "UCUIITSTERBA TUM EO TRMPNAACMULT ET AACCCBDRADI MARE AB HAOBSINQUOOOMNGRIA SE OPUS OCONTREIDNRLBE DE SER SE M ITA L"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "Spanish",
+   "z": 0.03,
+   "score": -5.575,
+   "null_mean": -5.577,
+   "null_sd": 0.082,
+   "p": 0.556,
+   "plaintext": "DO A PONEN LAS LLICE Y ELLO NDISPLRCDDURRE EDAD NO MAL ID LE REANAAAYTOCEETN Y DE NCIAEYYVEPPYASNA RGOOPAPPTDRDZCONEI SIN PUROS SPALPRTLCAIN OTRO CMTYITTIASIECSOID EN LA EM"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "French",
+   "z": -0.0,
+   "score": -5.41,
+   "null_mean": -5.41,
+   "null_sd": 0.097,
+   "p": 0.667,
+   "plaintext": "EOLIISSILCPPCTDUP POST AIENT EEDNU DE LES A M PDEPUNCLLSLDROOURU D EUS D AU D D QUI C D C N L N JOLI IPRENENTSPACASUHOS C IL PU NPTLASOONTERDARTAC EUT COTE SE LU M"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "English",
+   "z": -0.01,
+   "score": -5.378,
+   "null_mean": -5.378,
+   "null_sd": 0.067,
+   "p": 0.667,
+   "plaintext": "TEA MEN ON SAL S S I DO FOSSENTILMSHDTTYH HOOT AT NEW AS IT SO HOANAAAFREDOORNF TO NDIAOFFCOMMFALNAH BE EM AM MR TH TU DEN OIL IN MY HELL M AS MHRSDAINERHEDWRFI RRIALIODLEITONSAOW"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "Italian",
+   "z": -0.08,
+   "score": -5.169,
+   "null_mean": -5.164,
+   "null_sd": 0.065,
+   "p": 0.556,
+   "plaintext": "GIO N MA S CO S CI LA TACI NGRLMCUGGHTUAAGGGN IO CIGRAALSOOOIERNA ESTI ARTO ATTCAMLOLSONPNOOM ME SU D UN SA IN I MA UN L L ROMA E CRORSENNRVEIIERO LI A E LIRA S CON V"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "Latin",
+   "z": -0.1,
+   "score": -5.16,
+   "null_mean": -5.155,
+   "null_sd": 0.047,
+   "p": 0.556,
+   "plaintext": "Q NTODERATRANIEMEANO QUID APQQHMPEEQQQONTAN QUE EIRTTTNSUOESRMN EUM TEMMAEDITIRTOCOTTD DSRPXPORENONDEPOII UT DE SAUTURSOOUBSNNS UTI NE SI NU ERAT OB"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "French",
+   "z": -0.19,
+   "score": -5.294,
+   "null_mean": -5.279,
+   "null_sd": 0.08,
+   "p": 0.444,
+   "plaintext": "CUIA LES DIS DU TE ME DU A C RTLDPCCOMPEECCCAUI DUC RE ET SI IIUNRAENSMUERMIEMM DE LTITSIAVAIILLNSPZ PAS EU AU LE PATTR IL EN DRIRSNAARGNU UN RITUENTURESDIAG"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "French",
+   "z": -0.22,
+   "score": -5.433,
+   "null_mean": -5.415,
+   "null_sd": 0.083,
+   "p": 0.556,
+   "plaintext": "MU I T UN EN S ILS SA DE CES S UN MAL TSRDMMBRREEMIMNU VISA M SE RE IN III COUDE EONCMENDAIECCHETTC IL NIRQUUTITTOMRMPD UNE A LA NTBRULLTIST ROSDIANUORUDVOCAOO AI LA EDLUAMENSIEV"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "Italian",
+   "z": -0.3,
+   "score": -5.161,
+   "null_mean": -5.14,
+   "null_sd": 0.071,
+   "p": 0.667,
+   "plaintext": "U QUA A TI TORCE TU PO S TR PGNEEQPULTOTEEQQQC M RE MA PERO E CHE SCIANDUSSSPNBRA E IO SGUISQSNTROAMNRL COMO IO RIO PATE L"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "Italian",
+   "z": -0.36,
+   "score": -5.284,
+   "null_mean": -5.25,
+   "null_sd": 0.093,
+   "p": 0.667,
+   "plaintext": "E UO CCTTCOILLIDRALLUTD SCENDE ER N A REO E TSVLRELANIOOTORPUU A PAREA TR S ARR MA C IRI NON FU OCCLPENENDTLSIST AGUTI COLA NLDOSTUUNDEPRSPD SI E A DI U DE TE O A V"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "Spanish",
+   "z": -0.36,
+   "score": -5.577,
+   "null_mean": -5.551,
+   "null_sd": 0.072,
+   "p": 0.778,
+   "plaintext": "TU ALLI ILAORRON SER RUIN DLTYNTTSYESTATID MRSTREYOAAIASVUUEV ESTEIS DE SS PELO SOY A Y CUAL LRVTYTYNIRDODIEQUI O LA REY RNADIUUYNTVSDVN DOTE NO UN TITAEM"
+  },
+  {
+   "pattern": "drop position 2 of every 3",
+   "language": "German",
+   "z": -0.39,
+   "score": -5.257,
+   "null_mean": -5.232,
+   "null_sd": 0.064,
+   "p": 0.556,
+   "plaintext": "A TUR MENDUNDTSELEDTRAG SMDHAAQLHEEAAARTUD TAGE ES NUUUTIGR EIN LTEGLUELLDEMSUS NUR BRUUMMINHOHRNETRT MEHR SSGUMEIDGUGNIRRGFI TTIGUSTEISTGENDURF"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "German",
+   "z": -0.39,
+   "score": -5.314,
+   "null_mean": -5.287,
+   "null_sd": 0.07,
+   "p": 0.667,
+   "plaintext": "AN F AUS SUHMSHNMEILLHNARE NUR HERR WITLILFR RANG HIN HELL MFFSFINDEALDLSRNL EIN LIICHLUMIMTSTABAFU UHU RSTZTESHLMANUL WAS MUEFULTHEENESDAT ER G INN DEN MRNEDMNERSRH LAG"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "German",
+   "z": -0.43,
+   "score": -5.39,
+   "null_mean": -5.373,
+   "null_sd": 0.04,
+   "p": 0.667,
+   "plaintext": "SAND DEGERNLERALTMG GRASE IALDIKTIIBMKKMGINI ES AN R MAR TGKLNENNNMASTSGH GEM A GETAN GMMORGDLMNKEN KUSS NNDR DIE KIKTSEGALSEDGB SEL LTNRDKHRTNATEHSK SICH MAHHTNLIATHLSTI GERN G S"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "English",
+   "z": -0.49,
+   "score": -5.426,
+   "null_mean": -5.392,
+   "null_sd": 0.069,
+   "p": 0.667,
+   "plaintext": "O DEAD AM MAUL MUUETSHSUUEDOTE YOU I TO OR HISH S LOO ME CLUE OUT IS YLLMLLENDTSSN SHOES THE LHHHGSAAYLYIMIDWDL A LA A NO M OF IT M USED EM ARID MY AT LASINTTLEMDNDD TO CHEENTELYESTNDE TO MOULD C"
+  },
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "French",
+   "z": -0.5,
+   "score": -5.507,
+   "null_mean": -5.462,
+   "null_sd": 0.089,
+   "p": 0.778,
+   "plaintext": "RAUTATSDTEM DE EMIS OSE EN D R INTRELRRRPLLSORURR A N QU ON RE S L S M DU DU ON CAASSCDORNDIONSOOO EST T OU M LU LA FAUT UETCRLRB LA DES MA N D SPLAMMTIETSLEIIUID A CLAIR C ON N CI NURNSIMANISDRESAQ"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "French",
+   "z": -0.57,
+   "score": -5.465,
+   "null_mean": -5.412,
+   "null_sd": 0.094,
+   "p": 0.667,
+   "plaintext": "ARFAUSSUITSIRTE ON NI RADE RUDIEDDPOL NON FDDARHIORIENNTFFS FORCE ANCNSDRNEORNOOVINU TOT L S LA MA FUUIUDSLBLESINTAR UN PAS TUE FUNLIEERESCALEDHO RRCERTDRECTREDSDIN AH"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "Latin",
+   "z": -0.57,
+   "score": -5.298,
+   "null_mean": -5.261,
+   "null_sd": 0.064,
+   "p": 0.778,
+   "plaintext": "UNI RNRCCRMACMMISETEM MINUS ID UMPSUUZTPETEAUUCI LAMIUMSPEDAACAAION SE EO ET UIESTIATTTFERRD AD PCPNGNARARROUCUY PSCMEINICRZPNCDRSA RE POSSAICNONNSULTIIO SI A DIES ONISU CUM AN L"
+  },
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "Spanish",
+   "z": -0.58,
+   "score": -5.633,
+   "null_mean": -5.599,
+   "null_sd": 0.058,
+   "p": 0.778,
+   "plaintext": "TOADODELDUNLUUNRE SE UUILTRIDTUCTTTZCC ESTA TTOIBASITUEC EN LA LA SI YO O E EYLSTILRSIESSSUEDD SAN CA COMO A DA UDYTCTQCOLUENOILEZ CON NDRUDECURRAR LO Y CORTYSIIYRIA TIERNO IR EL TU E O B"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "German",
+   "z": -0.59,
+   "score": -5.294,
+   "null_mean": -5.26,
+   "null_sd": 0.057,
+   "p": 0.778,
+   "plaintext": "LRSLINSTMITRANNNTR I ER METAEECHHONDEILV DORT AHNDIIDORLANN NIE RIARDOOFTSSODHIHLL LSDTSEIEKALTNMLISC HIMSATSHUAARALUHLE VOR UURDERAULRENETNL"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "Spanish",
+   "z": -0.59,
+   "score": -5.627,
+   "null_mean": -5.58,
+   "null_sd": 0.079,
+   "p": 0.889,
+   "plaintext": "A ME Y MYRRYLORLLEDSUSL LE MA DE TAL IDA AQUI SUS OAARECOLEALDISTO ORO O EN MDSSNSUAESDUEOUUUW SYYTOTIRIMPMOYOYYN A RAVIDRLSEMERYQIMRT Y DOY SIN DDOERMNMMDACUE EN DE OTESDNMEDARALOMC"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "German",
+   "z": -0.61,
+   "score": -5.371,
+   "null_mean": -5.341,
+   "null_sd": 0.049,
+   "p": 0.889,
+   "plaintext": "NSTMSMAAMFLAFFTE HOH FFTSNETUNFRENN VOR HOHL NNATGLFTNFERHULL ALL TISEHHIHONTHEOTLOO O CHMMULURARSZSLMLMM IN ANDRE AFHTSTAMVRSA UM ELMHRIEELTASISSEN GOTT I ETLUTHEISTENANFLSG"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "Italian",
+   "z": -0.63,
+   "score": -5.461,
+   "null_mean": -5.424,
+   "null_sd": 0.059,
+   "p": 0.889,
+   "plaintext": "RDIOTDTAEAT SON A S S IN L EPE ESSI DARLI NTRSMLRRRVPM ME PER OR RADI CO S P IR S LE MENO A O A O O PIU D L DE E U E APRI E AL PIO E PPPHSETTN PON MA OM DWDDOTOTSTURAMRGML DA SE INDIA TE VMDANNTLOSTEMUSL LO IL AD UDMDLRCUPIIUULIONR I E L UN DI L RE ARSO ED C"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "Italian",
+   "z": -0.67,
+   "score": -5.305,
+   "null_mean": -5.236,
+   "null_sd": 0.103,
+   "p": 0.667,
+   "plaintext": "ER NE D S S DU I SU RIA COOURETARDTUATTVC LO CON T TE RFUCRUAOOINNSNCR MA E O MOSTRO ACRO C CH UO DICI L S LE GENDDUDTSLP LA SUO IER DOVE SI DANDO LUAARASMELATFCRR MAR I TRA MIRA TSTUOEF"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "French",
+   "z": -0.67,
+   "score": -5.509,
+   "null_mean": -5.455,
+   "null_sd": 0.081,
+   "p": 0.889,
+   "plaintext": "EDASDSNNS TINT TARPLPTTADERAM ET OR EECLOPLPIEENABITAE TROP M IINIIAUDRPPUPLEAPR LA IL LLYPSSMIMONODX DIS ISSUE NE FOR NTPADANSCODNMSRIS POUR RIANDUDDREB LA AURAI MA PRUDARENETIDB"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "English",
+   "z": -0.68,
+   "score": -5.189,
+   "null_mean": -5.131,
+   "null_sd": 0.085,
+   "p": 0.778,
+   "plaintext": "IF IT TH SHE NUOHIDELHNDYAO OF DIG HE HO OFF FUR NOR T DONE OUCOLUSTAMILLL DAWN TO S ELYISLFLAHNETRANGU ERE SENSE D THO G"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "German",
+   "z": -0.72,
+   "score": -5.429,
+   "null_mean": -5.385,
+   "null_sd": 0.06,
+   "p": 0.778,
+   "plaintext": "DS ER S MAN MIR LIIELNUNNIESAHEL MICH DDBUCNUNDDDASFRIUD IHN NLRAARRUTSHSNTNA DEN AUE RNUUZIMMLULCAR SO SSMRMITDACKCHS IN ELEAMNCSALMHRINCT IHRE HSTSCHDFTEETT ER LDNHTLEHDNDIRNF"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "German",
+   "z": -0.78,
+   "score": -5.506,
+   "null_mean": -5.486,
+   "null_sd": 0.026,
+   "p": 0.889,
+   "plaintext": "AERISESNUNSTIGN TTRGDUFUUTTRENADRG SATHDAAACFHHUFUAIA AN ER MIT FRATDUHUG IN IN IIFRLEDEUULUNFAR UND FRIUFFFYTUSSGFIGHN I HEXE EI S IST SLANHABH DEN TUR GERN SUCHE NGGSDITSUHLTDD IRD NELEHEDAMLFRRLLDRI GAR UDLGERDAUNATIUEM"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "Latin",
+   "z": -0.78,
+   "score": -5.387,
+   "null_mean": -5.362,
+   "null_sd": 0.032,
+   "p": 0.778,
+   "plaintext": "UENAMEMSOSMI AC SI IN CTOLOOIINESUTNCM UIRTUUUGLRROLOUAUU SE NDAILNUITOROC ASASAALNPETEOOPOSL UNOS TLNAOLLLBIOMMCL AC RSAREVEEAMAMIMPU SRUWRTESIONCENSMOG RES CCMTAIMORPITTANT SE PER ET UDPLNNPPTN AC UNO TPCENTUOSUIAOED"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "French",
+   "z": -0.78,
+   "score": -5.491,
+   "null_mean": -5.433,
+   "null_sd": 0.075,
+   "p": 0.778,
+   "plaintext": "D S IL UN EN LION A S OR EEEAAUNDROLDARDDDT MME EDIDNUSPATSDREMEI NI NITSCRUEEENTDENRTI ET TYAELOTIONIMUUU IL LA L C N M D BRUN A SOUS LE GMNOOLIA LE CAR RSRNUUMURPCTSCCRSO D SE COU S DE N DIEU P"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "German",
+   "z": -0.82,
+   "score": -5.173,
+   "null_mean": -5.119,
+   "null_sd": 0.067,
+   "p": 0.778,
+   "plaintext": "ABAUUHDHEITNHAR ES HIRFGNN BRACH EHNNBBBTMINMURNIEN TONS T DU GLAS SSRGWIUNDESFADSBSG HIE UM GICTEMEDEIDERUHNC"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "Latin",
+   "z": -0.87,
+   "score": -5.304,
+   "null_mean": -5.244,
+   "null_sd": 0.069,
+   "p": 0.778,
+   "plaintext": "COIUOSASTINT TER AD ATTOSCENUTMRCCBMMA AC ICSOVITECTAMAISII ID L ORA ALSDCASREIADDQAUUD IN SI MPOOUIUULCMCGROSAE NE SUB MONNUI TUM LTRIESOLMORVLDELLE IN EA RNOECASTIAV"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "Spanish",
+   "z": -0.96,
+   "score": -5.68,
+   "null_mean": -5.613,
+   "null_sd": 0.069,
+   "p": 0.778,
+   "plaintext": "UERI EL SOL NI ANNRAOCOONR ES TRALNYTUUKCYOCOUUU SE VINCUNTOOAISSIIC DE TE O DOS UROSCRIOCCWNLL ACA Y SI E ME EL ILNDUSYZYTENORARS LO Y ES AL TI NO Y DNTIRTEDEYTUVDRRD DRIAUOTDARTUOUNIOV"
+  },
+  {
+   "pattern": "drop position 3 of every 3",
+   "language": "English",
+   "z": -0.99,
+   "score": -5.448,
+   "null_mean": -5.355,
+   "null_sd": 0.094,
+   "p": 0.889,
+   "plaintext": "M HO LL A A LOTS S TIRES SHAINLMDIMMRDERMO MANY SRMSEDTOOAORPH HE PER ME ARNERRUELTRTDOD WHO LLSPMDMDIASNTNAE CHAT LOSE DSIONAHHDIMPRN PINT ME IT HIM AM OEY"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "Spanish",
+   "z": -1.0,
+   "score": -5.655,
+   "null_mean": -5.545,
+   "null_sd": 0.11,
+   "p": 0.778,
+   "plaintext": "NI TASE LE ATRECIROLLLCCS EN ORAN CON NNHUULLNTNESIYCHI NO LULTETETHIDOSLLLEH NLEOHTLHHZCLARHTRE TUS SSTAACADEUNPOSECIR SI AL QUERRA TCALDCOOIO ES SU SOY DHIDDOIRNILDR SIN LE NTLS Y"
+  },
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "Italian",
+   "z": -1.01,
+   "score": -5.384,
+   "null_mean": -5.305,
+   "null_sd": 0.078,
+   "p": 0.889,
+   "plaintext": "E UOM UMACMRLCRRLSAVARR ICE SI M ERTE E E GTTAVEOEEUI DOV I ERA TAL CO CO VIN UUAANCVEICSVIAVVVR A M M VOLTO TU PUO MORMNETEQTUCRA LUI C AGTULLMSRMATRSSOSC UN TU SEN VI IN SI O EI A S LUI SA CERA U D"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "English",
+   "z": -1.02,
+   "score": -5.38,
+   "null_mean": -5.286,
+   "null_sd": 0.092,
+   "p": 0.778,
+   "plaintext": "IT LION NO HUNHTUEARRHTISE TO SHE SSMADRARLSS IT WHAT HER RULLNLATBEIRBRNS TREAT RAACHROUAUDNDIVI LOO HO S ND YDENHRUITORMINUOE LORD HEE TEN BIDESWATTBETUSTE BUT ESNSHRIW"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "French",
+   "z": -1.02,
+   "score": -5.457,
+   "null_mean": -5.39,
+   "null_sd": 0.065,
+   "p": 0.889,
+   "plaintext": "ISAPPREPLARLL UNE EELSMRNSUILCIIITCC TE IIIRSDATSINECUARRA A SOMME EERTSERTSATTT LE PUT A CRAMBMAPALPORCICNM LES M S REZ CRU UN A LECON NANRMMCMI DOS SON S AISE OU M NIE IL A M D"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "English",
+   "z": -1.02,
+   "score": -5.428,
+   "null_mean": -5.367,
+   "null_sd": 0.06,
+   "p": 0.778,
+   "plaintext": "TNH SURE RSHORINOLEEEIIURT LOST ILTTTABBEETHTRUNDI AN TLEBEHRHRHANCLUEEE RATE RLAHEAAFIESOAH OR HBUUUHSSISCRBTPLUR IN OUNSEMBROOSHISEC ILL NLRUUBULDCANCCL NOT NE COUNTER THE U D"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "English",
+   "z": -1.1,
+   "score": -5.349,
+   "null_mean": -5.244,
+   "null_sd": 0.096,
+   "p": 1.0,
+   "plaintext": "I R HIS LHTYSTRELLLTRSARYA TEA AND DULO AS I COURTED LOSS OUR I E LL LSARSEROUUPTHHUODS D III HOT HAS A ME IT LYISHNDSYHETHDFE ERE IF DIACURFFROAREFIRAL AT LI"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "French",
+   "z": -1.12,
+   "score": -5.444,
+   "null_mean": -5.375,
+   "null_sd": 0.061,
+   "p": 0.889,
+   "plaintext": "IEOISAOCVS CET A A A CES NE VNCTNNHMMRA UN SI DURE C T M AU S SUR EITAAASNESTEURRGCO OR UMSMIIIOUCONSNYTIC AVIS OH M S VOTCOMLTTETILMINDR ELLE UN ET LI EN A N C AI"
+  },
+  {
+   "pattern": "drop position 3 of every 4",
+   "language": "German",
+   "z": -1.15,
+   "score": -5.408,
+   "null_mean": -5.323,
+   "null_sd": 0.074,
+   "p": 0.889,
+   "plaintext": "S URAUNINTRMTTEDIGIT TUN S EMATHDSSCHHIISRSNU ORT ES TIHIRNRRRGLUDIILNG SIND ER IGGFIAAGRMNRH ZU UARAALSHSQDUNIEME NACH UM MAR TAHLTDRENULHUDOLGE LLERMEIDMUESINTRIO"
+  },
+  {
+   "pattern": "drop position 4 of every 5",
+   "language": "Italian",
+   "z": -1.25,
+   "score": -5.346,
+   "null_mean": -5.277,
+   "null_sd": 0.055,
+   "p": 0.889,
+   "plaintext": "A MI L M L T T L RE TR RISO COR RIMASI DAR USA AFCUOCOEAATIPERIAR SUO DE E TE E IN M SO O N OCA IO S CI E CCCVOLLDEDUTUMH ME LE L L NATA GUSTROIMITLFUMTDL SE LO UN S SE ITMNMMSAPCI IN SI E DIO S N MI S ATAR E M P"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "Spanish",
+   "z": -1.26,
+   "score": -5.581,
+   "null_mean": -5.471,
+   "null_sd": 0.088,
+   "p": 0.889,
+   "plaintext": "RNSRDLSAYDANELLLAN DON YO AEOOVIIULPODRMP UNA EILPDDPUNRELLL DONDE NPUUZASSUPIDIRRRS PASO DOCE RALYRDSVID Y SE ASI TE EN ERTIROMUNTTNPONETR NO LO AL R"
+  },
+  {
+   "pattern": "drop position 1 of every 2",
+   "language": "French",
+   "z": -1.27,
+   "score": -5.375,
+   "null_mean": -5.285,
+   "null_sd": 0.071,
+   "p": 1.0,
+   "plaintext": "R IRA AU DU EN T SUR LE C UN L HOSSILRGUEUSSIIITM N S MAL S N EST VSCTDAOKRCCCLOPNAS DE CHRDCICOUNEAMONGTE ME DE N DE LA USG"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "Latin",
+   "z": -1.27,
+   "score": -5.291,
+   "null_mean": -5.243,
+   "null_sd": 0.038,
+   "p": 1.0,
+   "plaintext": "P I AD DE RES A NE SI NMCRRSIP ET IN DTUMTTLCUUCRTATEPI ASCISMRUNAEAAACIPM PRO RE CIREMIARCCXSRDNCAU EA UGPPAADSDTEU TUM PER IN PEDRLPENNMAS DUO SMAIMEOPUPTHOCIO OMANTIMONPMTRESARP"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "German",
+   "z": -1.36,
+   "score": -5.383,
+   "null_mean": -5.318,
+   "null_sd": 0.048,
+   "p": 1.0,
+   "plaintext": "HERD DINDARIAALTNNNAE MIT ELHAUHHHGUUGNHH HIE O R GEHT NULRIIRRESMMNNNI GEN IGERGGGANDLGRUIR MBMRDRADSIUHUTMANE MEIN ZU ILLTRANUSTTRTIMM UM HO SEESTERHENSLMTHNH ARM O"
+  },
+  {
+   "pattern": "drop position 3 of every 5",
+   "language": "English",
+   "z": -1.37,
+   "score": -5.478,
+   "null_mean": -5.399,
+   "null_sd": 0.058,
+   "p": 1.0,
+   "plaintext": "RIO DIDST DEL T EEL AS USE ENTRANDREHRRRCHH SURORRINFOUNRESHSL TO TO UNGIISSG TURN TAUNSUUUESDDUOLHO HIM IODOEDGRHR WHITE S LINT S CHILL DAEDSHEAAOATIGHIAR GUN NGANORNSALINASTRES IF"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "English",
+   "z": -1.56,
+   "score": -5.436,
+   "null_mean": -5.373,
+   "null_sd": 0.041,
+   "p": 1.0,
+   "plaintext": "S I ODD ERE FONEFINTMRRFISE HIND HATH HUM A A MR HO HE S I OF MIFTRANOEOOO MISTS RLREMIRETIORM MY FRDNMOAEOAKSSOODFD HE A HATS ER IN SEDRUSENNTOFDALF TO IT ELSASHBLM ILL TO NHITLNSTHRE FOR S"
+  },
+  {
+   "pattern": "drop position 1 of every 4",
+   "language": "Latin",
+   "z": -1.61,
+   "score": -5.308,
+   "null_mean": -5.194,
+   "null_sd": 0.071,
+   "p": 1.0,
+   "plaintext": "MAXMDCCDTRCTARSPEE TAM IS ADIT SI ILPOEPEXIIMANTPAT SE ERXXCXPAUSM EUECIAESPAEPPFTEDR PRO COMBMXDDTDICOHOSC TER M AD ELMCRDSXDEOTSSAS CUM OSINPAAUSARIASURA SIC ITEM N"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "Latin",
+   "z": -1.63,
+   "score": -5.259,
+   "null_mean": -5.175,
+   "null_sd": 0.051,
+   "p": 0.889,
+   "plaintext": "AURASCREDS EUM CCC E USI UDIEMIIHOOQCTISANT QUEM OCTSST QUAM CCC SI USMUTQQFERRQTOSOA AARTERISIPMAECDASR HOS DRMEROLMMUMALOA IN QULLUTIUMLAUICIECA"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "French",
+   "z": -1.63,
+   "score": -5.593,
+   "null_mean": -5.463,
+   "null_sd": 0.08,
+   "p": 1.0,
+   "plaintext": "S R AIR OTE ON IL N N A LE ME EN A R TU A L ON DU SSYMDEMESSSTRCINMS NUEE LIT TIIMPRUREP ET SA ET MA IEMMGNOOLMLDTIRBR ROI ON PSTDXDURNEALATOEDR T L OUI NE D PNUIAURPRDUSCPAAPP A ILS EU P L AU SES NIE C"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "Italian",
+   "z": -1.75,
+   "score": -5.375,
+   "null_mean": -5.247,
+   "null_sd": 0.073,
+   "p": 1.0,
+   "plaintext": "C A U STO IO S UNO E A N RII IEETOCRNSCERCCCLP PII CU CO T A DEL ACRI PIU OUOULAFRTII IO L CI OR LUI L L VEI S N L UNO UPTTTUSSESFOPCHRTO E A N T A SI M PON N SUE SI FER RARO TTPTRDFLAFFRANCAIF N TACI O CUI T D"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "Italian",
+   "z": -1.77,
+   "score": -5.301,
+   "null_mean": -5.253,
+   "null_sd": 0.027,
+   "p": 1.0,
+   "plaintext": "TU OSSA E A LO N A LUNI DE E LUTACUNSCRICCMDRR DE C OCA TUO L D ULIERNOAOOODUTITEG E A DUE AIUOEDDFLESND ORA OR PTTOOSLSCARCRITA E UNTA SEM T ANNI OLSRGLIOUIAGTRTCB GDUGGIONCUIGNTICEA LO E T"
+  },
+  {
+   "pattern": "no nulls",
+   "language": "English",
+   "z": -1.86,
+   "score": -5.573,
+   "null_mean": -5.525,
+   "null_sd": 0.026,
+   "p": 0.889,
+   "plaintext": "O IRE DIDN AND LEMNLLRMTAFAALLRI NOT RMDOLSTOOOYFSSA FAOEOONIRWELFROLTA SAME NENEEFRHITIAAH AN FOR AN TFREAFFFULADDM FEMSNESIGIIEDEDLDH ON SO BSTINLARMIRN DAYS IN MMDTELDASHLTTERTNI HIS IT OWHFRRHH TREMOR AT HMIRTOANOLEAIW"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "English",
+   "z": -1.92,
+   "score": -5.188,
+   "null_mean": -5.043,
+   "null_sd": 0.075,
+   "p": 1.0,
+   "plaintext": "EAFFOFIRWHOO WARD HE SEE LSLEERAILEDSHRRI AT TOO LARLILLWF HIS IT TIIWNRESTWATROSRHD WON DID T T TEN AN DIE ON T DO E IT"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "Latin",
+   "z": -1.94,
+   "score": -5.315,
+   "null_mean": -5.199,
+   "null_sd": 0.06,
+   "p": 1.0,
+   "plaintext": "COTEMAIAETSARO SUI IIRRMACUSECRUCCCLV VII CTCAMOPRLO CUI VITA TATLO NUM III ALCIAULTILLYRIES LTSATVMMMTEERENAVC DUM AROSMOEIFVASS ET REI NRUUOUAMMVMUPNLONN UOSCOINSMOCIACTIMP"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "French",
+   "z": -2.01,
+   "score": -5.507,
+   "null_mean": -5.447,
+   "null_sd": 0.03,
+   "p": 1.0,
+   "plaintext": "ANS MMRPROSTRONTIUPP ON ARENTMECIEEDUCCUPE SERA NSOUNOIPCTSRSSS UN AI APLPRUNPRINSPU UQOPMTUSCRSCHAASSM OMER CECI A RPNTARMPDARTTISOMC LOIS NIRLACAEZL UN L LISTE N IL TAIEPROSPA"
+  },
+  {
+   "pattern": "drop position 2 of every 5",
+   "language": "German",
+   "z": -2.08,
+   "score": -5.419,
+   "null_mean": -5.334,
+   "null_sd": 0.041,
+   "p": 1.0,
+   "plaintext": "GNEDUTST DER TLNRASSSLLUT GAR DGLAGGGIHHSSGEG TUN BLINGASHSETETEINF AUS S STIGSTAIESIIJLSDRI ER TEHUUUEDDLDFTHG KAUT LNRUNDSCHTRRDELDS FLAANATUUHUABFINFF AN RGNSFRUNGSTGESUB"
+  },
+  {
+   "pattern": "drop position 5 of every 5",
+   "language": "English",
+   "z": -2.09,
+   "score": -5.478,
+   "null_mean": -5.423,
+   "null_sd": 0.026,
+   "p": 1.0,
+   "plaintext": "LYDRYNESNORIOODIST S SOD YEA DIN OH ALL UTHSTSLLLEYFROTLO AS SIRE ERR T BY AY SBSELDSETDRSTTWONN IT I HER YMYYNRNOBLEHCHAYOS DID ENSHYEINAROSH BOARD AY BY HALF BDDBBDRILSABIDALSL OR S F"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "English",
+   "z": -2.49,
+   "score": -5.465,
+   "null_mean": -5.34,
+   "null_sd": 0.05,
+   "p": 1.0,
+   "plaintext": "IT OGGREG NOR NNFLEEENTHRLT FIND III SDDSEIIIRT MOST I LED FOR ROOT AH HE EERSTERSTOSSSNEGF SO DR OH WHO GO NGARDIDLHNETHTREY DRFFLONEDALLOLRHHD HIM AT TALTOITEAFH LIE IN OH M"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "Latin",
+   "z": -2.78,
+   "score": -5.125,
+   "null_mean": -4.932,
+   "null_sd": 0.069,
+   "p": 1.0,
+   "plaintext": "IADDEDUCTOEETACPO IN II RNRIICAURIPNOCCUAS SE ERACRURRTDOUNUSSU UT MCINSTASCENCOPTE MPUPSSSIMAMPUIEMSP EIUS"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "Italian",
+   "z": -2.79,
+   "score": -5.15,
+   "null_mean": -4.901,
+   "null_sd": 0.089,
+   "p": 1.0,
+   "plaintext": "A OV VIVER CUI I COR SUA PAALPLAARO E LA S PUR REO T TI I LOR LE L LCVUEPETTEECNRAPTC OTRIPRUSCINSESTTTA NON SE A IN T SIA E T"
+  },
+  {
+   "pattern": "drop position 1 of every 5",
+   "language": "Spanish",
+   "z": -2.82,
+   "score": -5.739,
+   "null_mean": -5.557,
+   "null_sd": 0.065,
+   "p": 1.0,
+   "plaintext": "ROSLLADAUSEAUOENYD DU ORA COELCINCCGYIIYDCS CARO SUYO UN DI ESAS SSYORNRDBDA YO DANOS DYYTUD LE Y SI ASI PRRSSLULCAICINRADO ERA LDGRAEENSULIB UN SON ABRIR CJBYOBBN SE CON BERNCDAUSDR"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "French",
+   "z": -2.87,
+   "score": -5.304,
+   "null_mean": -5.068,
+   "null_sd": 0.082,
+   "p": 1.0,
+   "plaintext": "UIMMEMARDOEEDIRT OU PUULPLUURIALUTPORR AI S SE ELIRLALLDMOA PASSA ADNRUPSDISREPROT DENT A T S S S UN IN T AU EN S T EU A S"
+  },
+  {
+   "pattern": "drop position 1 of every 3",
+   "language": "Italian",
+   "z": -2.89,
+   "score": -5.349,
+   "null_mean": -5.189,
+   "null_sd": 0.055,
+   "p": 1.0,
+   "plaintext": "IR LI C N LE S C ERAN N N ER CORSO E A O OH P PUNTO CI FTUREAPNTCCTURIANN N CORCAR TU U DEL LUTPC PII IL TE LOCO VAI E NSICLHPCS LA E L PMAARAIMPIOFURMMRT ORA MIRO NOE NI"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "German",
+   "z": -3.6,
+   "score": -5.24,
+   "null_mean": -5.088,
+   "null_sd": 0.042,
+   "p": 1.0,
+   "plaintext": "RILLALESDOAADIS HOR URRTUTRRSIETRHUOS SEIN NAAT IST ETTDLOEUENNEEDCSR UND INS AUS OHDACHEHNNNRC ICH ER ACNHAREN"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "Italian",
+   "z": -4.45,
+   "score": -5.445,
+   "null_mean": -5.224,
+   "null_sd": 0.05,
+   "p": 1.0,
+   "plaintext": "NI AL L SOL TASTTUROOOTIDSRI UN TEN N N C E E CON N N SI FACI NROEUASSAAIPDDOOOS CIO SCIACCCTO LUCA E S AD M DA LA TLPSENERDTOI DI S OVE SU URATOEPRRARSDDEDNF PII PRIA NIOPUDRNONTADF"
+  },
+  {
+   "pattern": "drop position 2 of every 2",
+   "language": "Spanish",
+   "z": -4.46,
+   "score": -5.472,
+   "null_mean": -5.135,
+   "null_sd": 0.076,
+   "p": 1.0,
+   "plaintext": "OEMMIMASUPIIUESYPO NO ODNDOOSEADOYNPSSA EL LII DE SDADDUMPANALLAAUR SON LU EL SIN SPYUIRYAYL LLORE RYAOIRLYIO AL"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "Latin",
+   "z": -4.86,
+   "score": -5.352,
+   "null_mean": -5.194,
+   "null_sd": 0.033,
+   "p": 1.0,
+   "plaintext": "DUENN SINT EST TPRIIITUASRUPDTMDD DQMMQIDDDSULEQUDRI M P ESSE EUOAAI IIS QUISQUE QQQTINPQEMSEACAEN ET NOS MDMRATIUAUSIGMSPP RE TIMOR RE RSAAMADLOUU ORUEDUIOPARDIDTEAL"
+  },
+  {
+   "pattern": "drop position 2 of every 4",
+   "language": "Spanish",
+   "z": -6.46,
+   "score": -5.72,
+   "null_mean": -5.518,
+   "null_sd": 0.031,
+   "p": 1.0,
+   "plaintext": "SRALLDELPADPPCIEEE PRO DI RCSPNSSSUNNUESSSDR YA URSIENCADDAARTOOEE E DURE DURA UUUP EL CUAN DAOMOALAPLTDNSNIO PERO RDEQNDCCIAPENTIIA IDO O NOS Y TRRTIRASRETCOIS ESPA O Y"
+  }
+ ],
+ "positive_control": {
+  "accuracies": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "mean": 1.0
+ },
+ "tests": 90,
+ "verdict": "No evidence: the solver can read a text of this size (100%), but the real ciphertext scores like scrambled symbols (z=2.6).",
+ "runtime_s": 51.4
+}

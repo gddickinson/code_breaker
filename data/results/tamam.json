@@ -1,0 +1,125 @@
+{
+ "id": "tamam",
+ "lines": [
+  "WRGOABABD",
+  "MLIAOI",
+  "WTBIMPANETP",
+  "MLIABOAIAQC",
+  "ITTMTSAMSTGAB"
+ ],
+ "code": "WRGOABABDWTBIMPANETPMLIABOAIAQCITTMTSAMSTGAB",
+ "length": 44,
+ "distribution": [
+  {
+   "language": "English",
+   "initial_letter_loglik": -126.04,
+   "running_text_loglik": -138.46,
+   "initial_minus_running": 12.42
+  },
+  {
+   "language": "French",
+   "initial_letter_loglik": -146.52,
+   "running_text_loglik": -148.61,
+   "initial_minus_running": 2.09
+  },
+  {
+   "language": "German",
+   "initial_letter_loglik": -149.85,
+   "running_text_loglik": -145.48,
+   "initial_minus_running": -4.37
+  },
+  {
+   "language": "Italian",
+   "initial_letter_loglik": -153.47,
+   "running_text_loglik": -152.85,
+   "initial_minus_running": -0.62
+  },
+  {
+   "language": "Latin",
+   "initial_letter_loglik": -154.75,
+   "running_text_loglik": -148.07,
+   "initial_minus_running": -6.68
+  },
+  {
+   "language": "Spanish",
+   "initial_letter_loglik": -161.91,
+   "running_text_loglik": -153.47,
+   "initial_minus_running": -8.44
+  }
+ ],
+ "calibration": {
+  "observed_gap": 12.42,
+  "gap_mean_if_initials": 9.44,
+  "gap_sd_if_initials": 3.93,
+  "gap_mean_if_running_text": -11.6,
+  "gap_sd_if_running_text": 5.36,
+  "fraction_running_text_at_least_observed": 0.0,
+  "fraction_initials_at_most_observed": 0.7665
+ },
+ "rubaiyat": {
+  "length": 7,
+  "letters": "TSAMSTG",
+  "position": 83,
+  "book_words": "the Son and Malik Shah the Grandson",
+  "context": "ul Mulk Vizier to Alp Arslan the Son and Malik Shah the Grandson of Toghrul Beg the Tartar who",
+  "shuffled_mean": 4.52,
+  "shuffled_at_least": 0.0035,
+  "english_initials_mean": 4.49,
+  "english_at_least": 0.0025,
+  "initials_in_book": 11761
+ },
+ "hypotheses": [
+  {
+   "language": "French",
+   "z": 2.35,
+   "score": -4.082,
+   "null_mean": -4.334,
+   "plaintext": "ONT DE SES FOIS LA CE QUI CA B LES DE LE M P LII AI RE A RITES"
+  },
+  {
+   "language": "Latin",
+   "z": 1.88,
+   "score": -4.229,
+   "null_mean": -4.399,
+   "plaintext": "UGLCISISQUESTARIMP ERANT IS CITIOBTEEAEDIADEL IS"
+  },
+  {
+   "language": "Italian",
+   "z": 1.35,
+   "score": -4.187,
+   "null_mean": -4.346,
+   "plaintext": "RYPUOSOS TRA SI LE ONDA E L MIO SUO IO CHI A A LA VO L VA PO S"
+  },
+  {
+   "language": "English",
+   "z": 1.07,
+   "score": -4.275,
+   "null_mean": -4.348,
+   "plaintext": "MUCH AN AND MEN STRAY WERT IS AN HAS A POSE ETELATLE CAN"
+  },
+  {
+   "language": "Spanish",
+   "z": 0.9,
+   "score": -4.215,
+   "null_mean": -4.362,
+   "plaintext": "LM PUES ES Y LOS DAR ECHO R ANDE SU E DEBIDO OAOTEATOP ES"
+  },
+  {
+   "language": "German",
+   "z": 0.73,
+   "score": -4.319,
+   "null_mean": -4.42,
+   "plaintext": "T ZUGEN ENSTANHRDEMWAD ROHEN GEHE ICH AAR ABER BAUEN"
+  }
+ ],
+ "positive_control": {
+  "accuracies": [
+   0.364,
+   0.523,
+   0.159
+  ],
+  "mean": 0.348
+ },
+ "verdict": "Inconclusive: this solver recovers only 35% of a known message of this size, so a failure here says little.",
+ "runtime_s": 6.8
+}

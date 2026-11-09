@@ -1,0 +1,80 @@
+{{Short description|Enciphered text written by English composer Edward Elgar}}
+[[File:Dorabella-cipher-image.png|frame|right|The Dorabella cipher]]
+The '''Dorabella Cipher''' is an enciphered text written by composer [[Edward Elgar]] to Dora Penny, which accompanied a plaintext letter dated July 14, 1897. Penny never deciphered it and its meaning remains unknown.
+
+The cipher, consisting of 87 characters spread over 3 lines, appears to be made up from 24 symbols, each symbol consisting of 1, 2, or 3 approximate semicircles oriented in one of 8 directions (the orientation of several characters is ambiguous). A small dot appears after the fifth character on the third line.
+
+== Background ==
+
+Dora Penny (1874–1964) was the daughter of the Reverend Alfred Penny (1845–1935) of [[Wolverhampton]]. Dora's mother died in February 1874, six days after giving birth to Dora, after which her father worked for many years as a missionary in [[Melanesia]]. In 1895 Dora's father remarried, and Dora's stepmother was a friend of the writer [[Caroline Alice Elgar]], who was the wife of Edward Elgar. In July 1897 the Penny family invited Edward and Alice Elgar to stay at the Wolverhampton Rectory for a few days.
+
+Edward Elgar was a forty-year-old music teacher who had yet to become a successful composer. Dora Penny was almost seventeen years his junior. Edward and Dora liked one another and remained friends for the rest of the composer's life: Elgar named Variation 10 of his 1899 [[Enigma Variations|''Variations on an Original Theme'' (Enigma)]] ''Dorabella'' as a dedication to Dora Penny.
+
+On returning to [[Great Malvern]] on 14 July 1897 Alice wrote a letter of thanks to the Penny family. Edward Elgar inserted a note with cryptic writing: he pencilled the name 'Miss Penny' on the reverse. This note lay in a drawer for forty years and became generally known when Dora had it reproduced in her memoir ''Edward Elgar: Memories of a Variation'', published by [[Methuen Publishing]] in 1937. Subsequently, the original note was lost.{{citation needed|date=August 2021}} Dora claimed that she had never been able to read the note, which she assumed to be a cipher message.
+
+Composer and historian Kevin Jones advanced one view;
+
+<blockquote>
+Dora's father had just returned from Melanesia where he had been a missionary for many years. Fascinated by local language and culture, he possessed a few traditional talismans decorated with arcane glyphs. Perhaps such an item surfaced as a conversation piece during the Elgars' week in Wolverhampton? And if Dora recalled this when writing her memoirs, it might account for the fact the coded message was referred to as an 'inscription' when communicating with the director of [[SOAS University of London|SOAS]] many years later.<ref>{{Cite web |url=http://www.bbc.co.uk/proms/2007/interact/puzzles/dorabellacode.shtml |title=BBC – Proms – The Dorabella Code<!-- Bot generated title --> |access-date=2009-11-10 |archive-date=2012-03-16 |archive-url=https://web.archive.org/web/20120316162757/http://www.bbc.co.uk/proms/2007/interact/puzzles/dorabellacode.shtml |url-status=dead }}</ref></blockquote>
+
+The Dorabella Cipher is not the only document penned by Elgar that contains the approximately semi-circular characters. At a concert in April 1886 (over ten years prior to his letter to Penny), he annotated a concert program with 18 similar characters followed by an underscore. This fragment became known as the "Liszt fragment". The symbols also appear in a 1920s notebook of Elgar, along with diagrams resembling clock faces, and on the so-called "Cryptogram card", which forms part of a series of cards detailing Elgar's solution to a cryptographic challenge set in ''Pall Mall'' magazine in 1896.<ref>{{cite book |last=Bauer |first=Craig |date=2017 |title=[[Unsolved!|Unsolved! The History and Mystery of the World's Greatest Ciphers from Ancient Egypt to Online Secret Societies]] |publisher=Princeton University Press |page=127 |isbn=978-0691167671}}
+</ref>
+
+== Proposed solutions ==
+
+[[Eric Sams]], the musicologist, produced an interpretation in 1970.<ref>{{CiteQ|Q115626069}}</ref> His interpretation of the message is:
+
+{{blockquote|
+STARTS: LARKS! IT'S CHAOTIC, BUT A CLOAK OBSCURES MY NEW LETTERS, A, B
+[alpha, beta, ie Greek letters or alphabet] BELOW: I OWN THE DARK MAKES
+E. E. SIGH WHEN YOU ARE TOO LONG GONE.
+}}
+
+The length of this text is 109 letters (ignoring the parenthetic note on Greek), whereas the original text contains only 87 or 88 characters: Sams claimed the surplus letters are implied by phonetic shorthand.
+
+Javier Atance has suggested that the solution is not a text but a melody, the 8 different positions of the semicircles, turning clockwise, corresponding to the [[Scale (music)|notes of the scale]], and that each semicircle has 3 different levels corresponding to natural, flat or sharp notes.
+
+Tim S. Roberts claims a solution via a simple substitution cipher and offers a statistical justification:<ref>{{cite web|url=http://cryptologicfoundation.org/content/Educational-Programs/documents/Solving_the_Dorabella_Cipher_v2a.pdf |title=Archived copy |accessdate=2012-06-19 |url-status=dead |archiveurl=https://web.archive.org/web/20130509204122/http://www.cryptologicfoundation.org/content/Educational-Programs/documents/Solving_the_Dorabella_Cipher_v2a.pdf |archivedate=2013-05-09 }}</ref><ref>{{cite web|url=http://unsolvedproblems.org/S12frev.pdf |title=Archived copy |accessdate=2011-12-29 |url-status=dead |archiveurl=https://web.archive.org/web/20120313000812/http://unsolvedproblems.org/S12frev.pdf |archivedate=2012-03-13 }}</ref>
+
+{{blockquote|
+P.S. Now droop beige weeds set in it – pure idiocy – one entire bed! Luigi Ccibunud luv’ngly tuned liuto studo two.
+}}
+
+In December 2011, Canadian cryptographer enthusiast Richard Henderson claimed<ref>{{cite web|last=Henderson|first=Richard|title=Dorabella Solved|url=http://www.aerobushentertainment.com/crypto/index.php?topic=174.0|work=Ancient Cryptography|accessdate=19 December 2011|archive-url=https://web.archive.org/web/20120317054900/http://www.aerobushentertainment.com/crypto/index.php?PHPSESSID=1a5ace6c33ee2f2b62ec10871938d7e4&topic=174.0|archive-date=17 March 2012|url-status=dead}}</ref> to have found the correct [[plaintext|clear text]], encoded once again as a simple substitution cipher (with two letters as nulls), although some details remain to be worked out. His solution would read:
+
+{{blockquote|
+whY AM I VERY SAD, BELLE.
+I SAG AS WE SEE ROSES DO.
+E.E. IS EVER FOND OF U, DORA.
+I kNOw I PeN ONE I LOVe.
+All Of My Affection.
+}}
+
+In July 2020, Wayne Packwood claimed in the journal ''[[Musical Opinion]]'' to have produced a complete decryption:<ref name="packwood">{{cite periodical|last=Packwood|first=Wayne|title=Elgar as cryptographer – Tuning and Turing|journal=Musical Opinion|volume=143|pages=34–37|year=2020|url=https://www.proquest.com/docview/2423815327|id={{ProQuest|2423815327}} }}</ref>
+
+{{blockquote|A WOMAN IS LIKE CHESS ONE HAS TO MAKE MANY SACRIFICES FOR ITS QUEEN IT IS VICTORY SHE COMMANDS NOT DO BETTER}}
+
+The secondary message below was identified as the word RATS, which Packwood believed was a playful acknowledgement from Sir Edward to the individual that broke his cipher. Packwood's method involved rearranging the cipher based on the position of several dots, which Packwood identified as representing a [[conductor's baton]], and then arbitrarily shifting the presumed values of each glyph independently until a message emerged. The logic behind the pattern of shifts is not explained.<ref name="packwood" />
+
+In a 2023 study, Viktor Wase applied cipher-solving computer algorithms to the Dorabella cipher and discovered that it is unlikely to be a [[monoalphabetic substitution cipher]] in English or Latin. This was done by showing that these algorithms can solve ciphers that are as short as Dorabella, yet they fail to solve the Dorabella cipher.<ref>{{Cite journal |last=Wase |first=Viktor |date=2023-11-20 |title=Dorabella unMASCed – the Dorabella Cipher is not an English or Latin Mono-Alphabetical Substitution Cipher |url=https://www.tandfonline.com/doi/full/10.1080/01611194.2023.2271466 |journal=Cryptologia |volume=49 |language=en |pages=15–24 |doi=10.1080/01611194.2023.2271466 |issn=0161-1194|url-access=subscription }}</ref>
+
+== 2007 Elgar Society Competition ==
+
+The [[Elgar Society]] advertised a Dorabella Cipher Competition in 2007 to mark the 150th anniversary of Elgar's birth. A number of entries were received but none were found to be satisfactory: "One or two entries did contain some impressively ambitious and thoughtful analysis. These entries, though, having matched Elgar's symbols to the alphabet, invariably ended up with a fairly arbitrary sequence of letters. ... [T]he results read as a disconnected chain of bizarre utterances, such as an imaginative mind could conjure up from any group of random letters".<ref>No longer on Elgar.org: archival copy at {{cite web|url=http://www.aerobushentertainment.com/crypto/index.php?topic%3D4.msg388#msg388 |title=Intro to the Cipher |accessdate=2010-02-08 |url-status=dead |archiveurl=https://web.archive.org/web/20110707092100/http://www.aerobushentertainment.com/crypto/index.php?topic=4.msg388 |archivedate=2011-07-07 }}</ref>
+
+== References ==
+{{Reflist}}
+
+== External links ==
+* http://www.elgarfoundation.org/
+* https://web.archive.org/web/20080131165531/https://www.bbc.co.uk/proms/2007/interact/puzzles/variations.shtml
+* [[Dunin, Elonka]], 2006, ''The Mammoth Book of Secret Codes and Cryptograms'', {{ISBN|0-7867-1726-2}} (contains an image of the cipher)
+* http://unsolvedproblems.org/index_files/dorabella.htm
+* {{in lang|fr}} [http://thedorabellacode.blogspot.co.uk The Dorabella Code]
+* http://unsolvedproblems.org/S121.pdf
+* https://nautil.us/the-artist-of-the-unbreakable-code-234588/
+
+{{Edward Elgar}}
+
+[[Category:History of cryptography]]
+[[Category:Undeciphered historical codes and ciphers]]

@@ -1,0 +1,43 @@
+1916 train station robbery cryptogram.txt
+Allen Benjy 2010 challenge.txt
+Beale 1.txt
+Beale 3.txt
+Blitz cipher page 7.txt
+Blitz cipher page 8.txt
+Chaos Strikes Back Mystery Scroll.txt
+Copenhagen cryptogram.txt
+D'Agapeyeff.txt
+DCT Reloaded 3.txt
+Dorabella.txt
+Fair game code.txt
+Feynman 2.txt
+Feynman 3.txt
+GUN WA 1889.txt
+Glurk (Beale 3 emulation challenge).txt
+Helen Fouché Gaines.txt
+IKLP long.txt
+IKLP short.txt
+Kryptos 4 (Berlin clock clue).txt
+Kryptos 4.txt
+Köhler 1944 Nazi spy message 137.txt
+Köhler 1944 Nazi spy message 140.txt
+Köhler 1944 Nazi spy message 178.txt
+Köhler 1944 Nazi spy message 229.txt
+Köhler 1944 Nazi spy message 237.txt
+Lawrence Public Library Cryptogram part 1.txt
+Lawrence Public Library Cryptogram part 2.txt
+Le Figaro Wednesday 1-7-1896.txt
+Moustier St Martin.txt
+Moustier Virgin.txt
+Nick Pelling challenge 2.txt
+Nick Pelling challenge 3.txt
+Nick Pelling challenge 4.txt
+Nick Pelling challenge 5.txt
+Nick Pelling challenge 6.txt
+Nick Pelling challenge 7.txt
+Paul Rubin.txt
+Powers cryptogram.txt
+Ricky McCormick page 1.txt
+Ricky McCormick page 2.txt
+Scorpio 5.txt
+Taman Shud.txt

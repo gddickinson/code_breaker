@@ -1,0 +1,291 @@
+{
+ "id": "beale",
+ "stats": {
+  "B1": {
+   "count": 520,
+   "distinct": 298,
+   "max": 2906,
+   "mean": 273.4,
+   "last_digit_counts": [
+    68,
+    72,
+    46,
+    39,
+    67,
+    36,
+    71,
+    29,
+    55,
+    37
+   ],
+   "last_digit_chi2": 47.4,
+   "share_at_most_100": 0.437
+  },
+  "B2": {
+   "count": 762,
+   "distinct": 181,
+   "max": 1005,
+   "mean": 161.7,
+   "last_digit_counts": [
+    129,
+    76,
+    70,
+    76,
+    56,
+    80,
+    75,
+    99,
+    72,
+    29
+   ],
+   "last_digit_chi2": 78.9,
+   "share_at_most_100": 0.531
+  },
+  "B3": {
+   "count": 618,
+   "distinct": 263,
+   "max": 975,
+   "mean": 154.3,
+   "last_digit_counts": [
+    32,
+    69,
+    57,
+    49,
+    75,
+    55,
+    91,
+    60,
+    73,
+    57
+   ],
+   "last_digit_chi2": 38.1,
+   "share_at_most_100": 0.539
+  }
+ },
+ "b2_decoded": "I HARE DEPOSCTED IN THE COPNTFOL BE DOOR T ABOUT FOUR MILES FROM BU LORDS IN AN EH CAR AT I ON OR RAULTSIHFEST BELOW THE SURLAC SOFT HSGTOUNDTHSFOTL OWING ART I C IS S BE A ON GINGJOIPTLF TO THE PART FES WHO SLNAMFSATEGIREO IN NUMBER THRFL HATE WITH TH A FIRST DEPOSITCOOTISTCD OFTEN H POD RED AND LOPRTEENPOUTTR OF GOLD AODTSIRTF EIGHT SUPDTED AND T WE IRE POUNDS OF SILRER DEPOSITED NOR EIGHTEEN NINETEENTH E SECOND WAOABDSDEC FIGHT EENTWENTFONLBNTA ON S IS TADOHNINETFLNHUTD RED AND S",
+ "b2_raw": "iharedeposctedinthecopntfolbedoortaboutfourmilesfrombulordsinanehcarationorraultsihfestbelowthesurlacsofthsgtoundthsfotlowingarticissbeaongingjoiptlftothepartfeswhoslnamfsategireoinnumberthrflhatewiththafirstdepositcootistcdoftenhpodredandloprteenpouttrofgoldaodtsirtfeightsupdtedandtweirepoundsofsilrerdepositednoreighteennineteenthesecondwaoabdsdecfighteentwentfonlbntaonsistadohninetflnhutdredandserenpoundsoogoldbodtwelrehundtedaodeightfeightofsilreraisoaewelsobtainedinsttouitinehchangetosbrstransportationaodraluetasthirteeorhousanddollarstheaboreissecutflfpacksdittonpotswitswroocorerstheraultisrougslflinedwttsstoneandtheresselrrestonsolidstoneandarecorsrfduishothatspapernuaberonedescrialrthcahaatlocalitfootsararltoothatnodifoicultfwillcesadtofindingit",
+ "hypotheses": {
+  "B1": {
+   "key_scan": [
+    {
+     "key_text": "Declaration of Independence",
+     "words": 1324,
+     "offsets_tested": 1,
+     "best_offset": 0,
+     "best_score": -6.565,
+     "null_mean": -6.558,
+     "null_sd": 0.073,
+     "z": -0.1
+    },
+    {
+     "key_text": "US Constitution",
+     "words": 4702,
+     "offsets_tested": 1796,
+     "best_offset": 1754,
+     "best_score": -6.169,
+     "null_mean": -6.16,
+     "null_sd": 0.044,
+     "z": -0.21
+    },
+    {
+     "key_text": "Common Sense",
+     "words": 21984,
+     "offsets_tested": 19078,
+     "best_offset": 6081,
+     "best_score": -6.26,
+     "null_mean": -6.229,
+     "null_sd": 0.033,
+     "z": -0.93
+    },
+    {
+     "key_text": "Federalist Papers",
+     "words": 192300,
+     "offsets_tested": 189394,
+     "best_offset": 94648,
+     "best_score": -6.078,
+     "null_mean": -6.105,
+     "null_sd": 0.031,
+     "z": 0.86
+    },
+    {
+     "key_text": "King James Bible",
+     "words": 790412,
+     "offsets_tested": 400000,
+     "best_offset": 295010,
+     "best_score": -5.944,
+     "null_mean": -5.966,
+     "null_sd": 0.031,
+     "z": 0.69
+    },
+    {
+     "key_text": "Shakespeare",
+     "words": 965279,
+     "offsets_tested": 400000,
+     "best_offset": 92451,
+     "best_score": -6.15,
+     "null_mean": -6.178,
+     "null_sd": 0.037,
+     "z": 0.75
+    },
+    {
+     "key_text": "Wealth of Nations",
+     "words": 379844,
+     "offsets_tested": 376938,
+     "best_offset": 273561,
+     "best_score": -6.115,
+     "null_mean": -6.072,
+     "null_sd": 0.034,
+     "z": -1.27
+    }
+   ],
+   "homophonic": {
+    "positive_control": {
+     "accuracies": [
+      0.05,
+      0.075,
+      0.088
+     ],
+     "mean": 0.071
+    },
+    "null_test": {
+     "plaintext": "DASTEDANDFORGRESARESELYSHARDAREVEREISBUTTHERCOMPASAMEWASTHISCOOKEDOITHTHERESTAYEYOURBETHANTOTHETHEDTHERENORMANOTFOREANDAPPRELYOFTHIMSELFTHEOUSSAYINGLYBEINGROWSPERSUCHARANDSOMENTHEHOOTHEHESTATHISTERATINGEDTHATINGWOULDSTEDTOCONSWASINCEOFCOMESOFHERCOLLOOKEPLINEATHELIEFINTOBEINALLTHAVESTWASUSPEANANINGTHTHERTHATHEMOTHESEWHALLCONSEEININGTHTORMAKENSPERINCEDUCTIONFOREWISITHEALLYTHISINSOFTENTEDTHEMANDEVERTHEHAVETHERESTINANOFTHEETIMETREASURETUREYOULDBEINATEDALLINGEDTHELARHERSITHERECONTHEREGINTHEWASTINGINTHEADBEAMONESANDISAID",
+     "score": -3.784,
+     "null_mean": -3.766,
+     "null_sd": 0.013,
+     "z": -1.34,
+     "p_empirical": 0.889,
+     "lang": "en"
+    },
+    "verdict": "Inconclusive: this solver recovers only 7% of a known message of this size, so a failure here says little."
+   }
+  },
+  "B3": {
+   "key_scan": [
+    {
+     "key_text": "Declaration of Independence",
+     "words": 1324,
+     "offsets_tested": 349,
+     "best_offset": 210,
+     "best_score": -6.223,
+     "null_mean": -6.23,
+     "null_sd": 0.031,
+     "z": 0.21
+    },
+    {
+     "key_text": "US Constitution",
+     "words": 4702,
+     "offsets_tested": 3727,
+     "best_offset": 3071,
+     "best_score": -6.12,
+     "null_mean": -6.137,
+     "null_sd": 0.035,
+     "z": 0.47
+    },
+    {
+     "key_text": "Common Sense",
+     "words": 21984,
+     "offsets_tested": 21009,
+     "best_offset": 9376,
+     "best_score": -6.184,
+     "null_mean": -6.206,
+     "null_sd": 0.037,
+     "z": 0.6
+    },
+    {
+     "key_text": "Federalist Papers",
+     "words": 192300,
+     "offsets_tested": 191325,
+     "best_offset": 124724,
+     "best_score": -6.058,
+     "null_mean": -6.088,
+     "null_sd": 0.038,
+     "z": 0.79
+    },
+    {
+     "key_text": "King James Bible",
+     "words": 790412,
+     "offsets_tested": 400000,
+     "best_offset": 295133,
+     "best_score": -5.926,
+     "null_mean": -5.919,
+     "null_sd": 0.032,
+     "z": -0.21
+    },
+    {
+     "key_text": "Shakespeare",
+     "words": 965279,
+     "offsets_tested": 400000,
+     "best_offset": 92457,
+     "best_score": -6.134,
+     "null_mean": -6.123,
+     "null_sd": 0.029,
+     "z": -0.38
+    },
+    {
+     "key_text": "Wealth of Nations",
+     "words": 379844,
+     "offsets_tested": 378869,
+     "best_offset": 278783,
+     "best_score": -6.082,
+     "null_mean": -6.066,
+     "null_sd": 0.023,
+     "z": -0.69
+    }
+   ],
+   "homophonic": {
+    "positive_control": {
+     "accuracies": [
+      0.094,
+      0.07,
+      0.061
+     ],
+     "mean": 0.075
+    },
+    "null_test": {
+     "plaintext": "PRINEASORTTOBEFORTOFALLDEREHNEINGSEEOFONERMTHEWOODESASTOPRESTHERIAMANDHERIANDORDITMISTHADTOLDMATHETINSEAMEINTERWAREOFACTLECLEABORNINANEENTHESIFSHADBELTANEINANDINEATALLYSTEESSOMEWASEQUAREHISTAINDSASOFALINGWHATERSOVERYWEREANDHAILINGTHEEARTTOFITIESHARSTTHEWILLLERAINTEROFCOMEHESTHESAIAINREATLEDOURETHAVESOFTHEDMATIONCEANDFROMERLETOTHINGHISTASHEREEHOOKATTHESTHEONHESUPPOSEASIONADINDTHEGRATITCHARETUREMENTISOIROBEHASHENATIONENCONTHOUGHIMSTIONECOLEASONTICKINGLESEEUNIVEINHEATANDTHEYOUREDTHEERENATEITRASSINGALEBUTINALLYWHALESIDESESTALEHIMTHOUGHTINGUPTHEANDTOHERENTHESPERSSTWHICESTRODSHESETHEWARDBUTYOURESSTANDOWLINANTHEVERYBY",
+     "score": -3.993,
+     "null_mean": -4.008,
+     "null_sd": 0.011,
+     "z": 1.32,
+     "p_empirical": 0.222,
+     "lang": "en"
+    },
+    "verdict": "Inconclusive: this solver recovers only 8% of a known message of this size, so a failure here says little."
+   }
+  }
+ },
+ "anomaly_b1": {
+  "longest_run": 14,
+  "text": "DEFGHIIJKLMMNO",
+  "null_mean": 6.29,
+  "null_max": 11,
+  "p_empirical": 0.0005
+ },
+ "anomaly_b3": {
+  "longest_run": 7,
+  "text": "ACCSTTT",
+  "null_mean": 6.54,
+  "null_max": 12,
+  "p_empirical": 0.45727
+ },
+ "anomaly_b2_control": {
+  "longest_run": 6,
+  "text": "AFIRST",
+  "null_mean": 6.37,
+  "null_max": 10,
+  "p_empirical": 0.9002
+ },
+ "key_scan_control_b2": [
+  {
+   "key_text": "Declaration of Independence",
+   "words": 1324,
+   "offsets_tested": 319,
+   "best_offset": 0,
+   "best_score": -5.022,
+   "null_mean": -6.182,
+   "null_sd": 0.043,
+   "z": 26.83
+  }
+ ],
+ "runtime_s": 195.4
+}

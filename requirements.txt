@@ -1,0 +1,11 @@
+argostranslate==1.11.0
+fastapi==0.162.2
+httpx==0.28.1
+numba==0.68.1
+numpy==2.5.4
+pycryptodome==4.4.0
+pypdf==7.0.0
+pytest==9.2.0
+scikit-learn==1.9.1
+sympy==1.14.0
+uvicorn==0.54.0

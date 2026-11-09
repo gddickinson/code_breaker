@@ -1,0 +1,87 @@
+{{Short description|Unbroken cipher}}
+{{no footnotes|date=May 2026}}
+The '''D'Agapeyeff cipher''' is an unsolved [[cipher]] that appears in the first edition of ''Codes and Ciphers'', an elementary book on cryptography published by the Russian-born English [[cryptographer]] and [[cartographer]] Alexander D'Agapeyeff in 1939.
+
+Offered as a "challenge cipher" at the end of the book, the ciphertext is:
+<blockquote>
+{{mono|
+75628  28591  62916  48164  91748  58464  74748  28483  81638  18174<br/>
+74826  26475  83828  49175  74658  37575  75936  36565  81638  17585<br/>
+75756  46282  92857  46382  75748  38165  81848  56485  64858  56382<br/>
+72628  36281  81728  16463  75828  16483  63828  58163  63630  47481<br/>
+91918  46385  84656  48565  62946  26285  91859  17491  72756  46575<br/>
+71658  36264  74818  28462  82649  18193  65626  48484  91838  57491<br/>
+81657  27483  83858  28364  62726  26562  83759  27263  82827  27283<br/>
+82858  47582  81837  28462  82837  58164  75748  58162  92000  
+}}
+</blockquote>
+
+It was not included in later editions, and D'Agapeyeff is said to have admitted later to having forgotten how he had encrypted it.
+
+
+== Use of nulls in ciphertext ==
+It is possible that not all the ciphertext characters are used in decryption and that some characters are [[null cipher|nulls]]. Evidence for this is given by the author on p.&nbsp;111 of the text under the sub-section heading ''Military Codes and Ciphers'':
+
+<blockquote>
+"The cipher is of course easily made out, but if every third, fourth, or fifth letter, as may be previously arranged, is a dummy inserted after a message has been put into cipher, it is then extremely difficult to decipher unless you are in the secret."
+</blockquote>
+
+While the [[index of coincidence]] for the D'Agapeyeff cipher is 1.812 when taken in pairs horizontally (e.g., '75' '62' '82'), the [[letter frequency]] distribution is too flat for a 196 character message written in English.
+
+Additionally, D'Agapeyeff left two ciphers for the reader to solve. Each are approximately 100 characters in length and have an index of coincidence much higher than what is expected for English plaintext.
+
+== Use of Polybius square methods in ''Codes and Ciphers'' ==
+
+The structure of the D'Agapeyeff Cipher has similarities to the [[Polybius square]], which the author used as examples in his book. He explicitly solves an example of a Polybius square based cipher from a friend in his [[cryptanalysis]] section of the book. This worked example consisted of 178 characters:
+
+<blockquote>
+{{mono|
+CDDBC ECBCE BBEBD ABCCB BDBAB CCDCD BCDDE CAECB DDDAA CABCE<br>
+AABDE BCEDC BCCDA EBDCB AAEAB ECDDB DCCEC EEABD ADEAD CAADE<br>
+ACABD CBDCB AABDC ACEDC BABCD DCDBD DCBEB CDCBE BCAAB DACCD<br>
+DBBBC EAACD BDCDD BCEDC AECAC EDC
+}}
+</blockquote>
+
+When deciphered with a Polybius square, the plaintext of this exercise contains a mistake (based on mis-encoding "E" as "BE" rather than "CE"), but reads:
+
+<blockquote>
+"THE NEW PLAN OF ATTACK INCLUDES OPERATIONS BY THREE BOMBER SQUADRONS OVER FACTORY ARYA [AREA] SOUTHWEST OF THE RIVER"
+</blockquote>
+ 
+
+{| class="wikitable"
+|-
+! 
+! A !! B !! C !! D !! E
+|-
+! A
+| S || D || U || M || I/J
+|-
+! B
+| F || W || A || O || Y
+|-
+! C
+| V || N || * || T || E
+|-
+! D
+| L || H || R || C || Q
+|-
+! E
+| B || P || K || * || *
+|}
+
+== References ==
+* Shulman, David (nom: Ab Struse). "The D'Agapeyeff Cryptogram: A Challenge", [http://www.cryptogram.org/ The Cryptogram], April/May 1952: 39-40, 46.
+* Shulman, David (nom: Ab Struse). "D'Agapeyeff	Cipher:	Postscript", [http://www.cryptogram.org/ The Cryptogram], March/April 1959: 80-81.
+* Barker, Wayne G (1978). "The Unsolved D'Agapeyeff Cipher", Cryptologia, 2(2): 144-147
+* [http://elonka.com/UnsolvedCodes.html List of famous unsolved codes], maintained by cryptographer [[Elonka Dunin]]
+* D'Agapeyeff, Alexander. ''Codes and Ciphers'', 1939, Oxford University Press, p.&nbsp;158
+
+==External links==
+*[https://web.archive.org/web/20131031012511/http://www.robertmatthews.org/Dagapeyeff.html Description of properties and potential decryption strategies for D'Agapeyeff cipher] by Robert Matthews
+*[https://voynichnews.blogspot.com/2008/05/dagapayeff-cipher.html Another approach to decryption] by [[Nick Pelling]]
+*[https://web.archive.org/web/20171210145225/http://www.und.nodak.edu/org/crypto/crypto/general.crypt.info/dagapeyeff/dagapeyeff-challenge-1939.txt Discussion of possible causes of failure to solve D'Agapeyeff cipher], at the [[American Cryptogram Association]] website
+
+[[Category:1939 in literature]]
+[[Category:Undeciphered historical codes and ciphers]]
