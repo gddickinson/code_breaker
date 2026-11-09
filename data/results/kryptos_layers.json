@@ -1,0 +1,64 @@
+{
+ "id": "kryptos_layers",
+ "control": {
+  "planted_order": [
+   4,
+   3,
+   6,
+   0,
+   2,
+   5,
+   1
+  ],
+  "survivors": 1,
+  "found": true,
+  "sample": [
+   [
+    4,
+    3,
+    6,
+    0,
+    2,
+    5,
+    1
+   ]
+  ]
+ },
+ "models": 1152,
+ "orders_tested": 58912128,
+ "survivors_total": 0,
+ "expected_by_chance": 0.0,
+ "top": [],
+ "autokey": {
+  "plaintext_autokey": 0,
+  "ciphertext_autokey": 0,
+  "models": 288,
+  "untestable": [
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29
+  ]
+ },
+ "hill": {
+  "invertible_2x2_keys_consistent": 0
+ },
+ "self_encryption_positions": [
+  32,
+  73
+ ],
+ "runtime_s": 11.7
+}

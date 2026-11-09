@@ -2,7 +2,7 @@
 import json
 
 from ..languages import ROOT
-from .casefile_extra import beale_forensics_sections, dagapeyeff_models_sections, dorabella_sections, scriptlab_sections, solvability_sections, sweep_sections, zodiac_sections
+from .casefile_extra import kryptos_layers_sections, tamam_mnemonic_sections, beale_forensics_sections, dagapeyeff_models_sections, dorabella_sections, scriptlab_sections, solvability_sections, sweep_sections, zodiac_sections
 from .casefile_sections import beale_sections, dagapeyeff_sections, kryptos_sections, tamam_sections, voynich_sections
 
 RESULTS = ROOT / "data/results"
@@ -22,6 +22,8 @@ CASES = {
                   "sources": [("Dorabella cipher (Wikipedia)", "https://en.wikipedia.org/wiki/Dorabella_Cipher"), ("Hauer et al., HistoCrypt", "https://ecp.ep.liu.se/index.php/histocrypt/article/download/159/115"), ("AZdecrypt collection", "https://github.com/doranchak/azdecrypt")]},
     "beale_forensics": {"title": "Beale Forensics", "status": "New evidence", "status_kind": "open", "tagline": "Do the unsolved Beale numbers behave like a real cipher? Their neighbours say something strange.", "build": beale_forensics_sections, "sources": [("The Beale Papers", "https://en.wikisource.org/wiki/The_Beale_Papers")]},
     "dagapeyeff_models": {"title": "D'Agapeyeff Square", "status": "Models excluded", "status_kind": "open", "tagline": "The cipher is exactly 14 by 14. We read it every regular way we could.", "build": dagapeyeff_models_sections, "sources": [("D'Agapeyeff cipher (Wikipedia)", "https://en.wikipedia.org/wiki/D%27Agapeyeff_cipher")]},
+    "kryptos_layers": {"title": "K4 Layered Tests", "status": "Models excluded", "status_kind": "private", "tagline": "Nearly 59 million two-layer settings tested against Sanborn's clues.", "build": kryptos_layers_sections, "sources": [("Kryptos (Wikipedia)", "https://en.wikipedia.org/wiki/Kryptos")]},
+    "tamam_mnemonic": {"title": "Tamam Shud Mnemonic Search", "status": "Tested", "status_kind": "open", "tagline": "Is the code the first letters of something memorised? Six books searched, misreadings allowed.", "build": tamam_mnemonic_sections, "sources": [("Project Gutenberg", "https://www.gutenberg.org/")]},
     "zodiac": {"title": "Zodiac Ciphers", "status": "Z13, Z32 open", "status_kind": "open", "tagline": "Z408 and Z340 are solved and serve as benchmarks. Z13 and Z32 are too short for any claim to be proved.", "build": zodiac_sections, "sources": [("AZdecrypt Zodiac ciphers, David Oranchak", "https://github.com/doranchak/azdecrypt")]},
     "sweep": {"title": "The Unsolved Sweep", "status": "36 cryptograms", "status_kind": "open", "tagline": "Murder notes, spy messages, challenge ciphers and altar inscriptions, all tested the same way.", "build": sweep_sections, "sources": [("AZdecrypt Unsolved collection", "https://github.com/doranchak/azdecrypt/tree/master/AZdecrypt/Ciphers/Unsolved"), ("Klaus Schmeh's Top 50", "https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/")]},
     "scriptlab": {"title": "Lost Scripts Lab", "status": "Statistical study", "status_kind": "untestable", "tagline": "Phaistos Disc, Linear A and Liber Primus, measured beside six known languages.", "build": scriptlab_sections, "sources": [("Phaistos Disc (Wikipedia)", "https://en.wikipedia.org/wiki/Phaistos_Disc"), ("Linear A inscriptions, lineara.xyz", "https://github.com/mwenge/lineara.xyz"), ("Liber Primus transcription", "https://github.com/henkman/liberprimus")]},

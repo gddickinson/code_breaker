@@ -1,0 +1,73 @@
+{
+ "id": "tamam_mnemonic",
+ "control": {
+  "planted": 159298,
+  "found": 159298,
+  "mismatches": 4,
+  "success": true
+ },
+ "rows": [
+  {
+   "text": "Rubaiyat",
+   "initials": 12180,
+   "line_mismatches": 23,
+   "null_mean": 25.07,
+   "p_lines": 0.1192,
+   "whole_code_mismatches": 32,
+   "whole_null_mean": 32.67,
+   "p_whole": 0.3907
+  },
+  {
+   "text": "Federalist Papers",
+   "initials": 192335,
+   "line_mismatches": 19,
+   "null_mean": 20.7,
+   "p_lines": 0.2318,
+   "whole_code_mismatches": 30,
+   "whole_null_mean": 30.88,
+   "p_whole": 0.3642
+  },
+  {
+   "text": "Shakespeare",
+   "initials": 988670,
+   "line_mismatches": 17,
+   "null_mean": 18.23,
+   "p_lines": 0.2848,
+   "whole_code_mismatches": 30,
+   "whole_null_mean": 30.53,
+   "p_whole": 0.457
+  },
+  {
+   "text": "US Constitution",
+   "initials": 4707,
+   "line_mismatches": 27,
+   "null_mean": 26.57,
+   "p_lines": 0.7616,
+   "whole_code_mismatches": 35,
+   "whole_null_mean": 33.34,
+   "p_whole": 0.9801
+  },
+  {
+   "text": "King James Bible",
+   "initials": 792180,
+   "line_mismatches": 19,
+   "null_mean": 18.25,
+   "p_lines": 0.7881,
+   "whole_code_mismatches": 31,
+   "whole_null_mean": 30.06,
+   "p_whole": 0.9007
+  },
+  {
+   "text": "Common Sense",
+   "initials": 22020,
+   "line_mismatches": 25,
+   "null_mean": 23.63,
+   "p_lines": 0.9404,
+   "whole_code_mismatches": 32,
+   "whole_null_mean": 32.35,
+   "p_whole": 0.543
+  }
+ ],
+ "tests": 12,
+ "runtime_s": 12.5
+}

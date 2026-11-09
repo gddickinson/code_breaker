@@ -54,3 +54,15 @@ def test_dagapeyeff_is_a_square():
 
     d = digits()
     assert len(pairs_of(d[:-3])) == 196
+
+
+def test_k4_layered_control_recovers_planted_order():
+    from codebreaker.mysteries.kryptos_layers import control
+
+    assert control()["found"]
+
+
+def test_tamam_mnemonic_control():
+    from codebreaker.mysteries.tamam_mnemonic import control
+
+    assert control()["success"]

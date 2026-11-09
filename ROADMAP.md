@@ -14,8 +14,8 @@ Never type a ciphertext from memory; extract it from a recorded source and add a
 | R2 | Zodiac benchmarks (Z408, Z340) and Dorabella data | Verified ciphertext or a documented failure; Z408 solved by our tools; Z340 period-19 signal shown | completed 2026-11-08 | Z408 91.9%. Z340 period 19, 37 repeats vs shuffled max 34; after undoing, period 1 with 39. Letters not yet read (E4). Dorabella: 3 transcriptions, 0.7-2.2% pair disagreement |
 | R3 | Beale forensics: derived key rules, human-number tests, the pamphlet as key | Each hypothesis has a control and a null; hoax evidence quantified | completed 2026-11-09 | Adjacent-number correlation: B2 0.05, B1 0.25, B3 0.62. Key rules: best z 2.5 of 48; planted control z 40 |
 | R4 | D'Agapeyeff: 14x14 routes, shifted coordinates, transposition + substitution | Every model has a positive control | completed 2026-11-09 | 196 pairs = 14x14. 138 tests: 0 readable, 115 no evidence, 23 inconclusive |
-| R5 | Tamam Shud: mnemonic search of known texts with fuzzy letters | Null-calibrated search across large corpora | pending | |
-| R6 | Kryptos K4: layered models, autokey, transposition + key elimination | Elimination counts by model family, with vacuous cases excluded | pending | |
+| R5 | Tamam Shud: mnemonic search of known texts with fuzzy letters | Null-calibrated search across large corpora | completed 2026-11-09 | Six books, best p 0.12, none significant; planted control found |
+| R6 | Kryptos K4: layered models, autokey, transposition + key elimination | Elimination counts by model family, with vacuous cases excluded | completed 2026-11-09 | 1,152 configs, 58.9M orders, 0 survivors; control found; autokey and Hill excluded |
 | R7 | Voynich generator lab: which mechanism reproduces the statistics | Verbose cipher, self-citation, table/grille models scored against the measured profile | pending | |
 | R8 | Autobreak: trained cipher-type classifier and solve-everything pipeline | Held-out accuracy reported; pipeline solves demo ciphers of unknown type | pending | |
 | R9 | Breadth: more ACA and machine ciphers, each with an attack | Roster extended; catalogue page shows covered and missing types | pending | |
@@ -30,8 +30,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 1 | Foundation: solver, simulators, verdict gates, leads database, hunter, catalogue, cyberpunk UI | completed 2026-11-08 |
 | 2 | Calibration: fix E3 and E4 (read Z340), rerun sweep, Dorabella and D'Agapeyeff under the new verdict | completed 2026-11-09 (E4 carried over) |
 | 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | completed 2026-11-09 |
-| 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | next |
-| 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | pending |
+| 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | completed 2026-11-09 |
+| 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | next |
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | pending |
 | 7 | Data hunt: Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | pending |
 | 8 | R9 breadth: M-209, Purple, VIC, more ACA types; a bombe simulation; catalogue page | pending |
@@ -52,6 +52,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - The stricter verdict correctly demoted Dorabella and seven sweep entries from 'signal' to 'structure only'.
 
 - Compare a cipher against its solved sibling: Beale 2 made the correlation test interpretable.
+
+- Plant a known answer in the exact shape of the real problem, so that zero survivors means something.
 
 ## Emergent tasks
 | ID | Note | Status |

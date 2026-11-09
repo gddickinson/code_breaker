@@ -35,3 +35,6 @@ Hunts reached 1,017 attempts. Reran Zodiac, Dorabella, D'Agapeyeff, Tamam Shud a
 
 ## 2026-11-09: Round 3 complete
 Beale forensics: neighbouring numbers correlate at 0.62 in B3 and 0.25 in B1, against 0.05 in the genuine B2. Alternative key rules give no signal. D'Agapeyeff is exactly 14x14; 138 reordering tests found nothing readable. Next: Round 4.
+
+## 2026-11-09: Round 4 complete
+K4: 58.9M two-layer settings, 0 survivors; autokey and Hill excluded; control found. Tamam Shud mnemonic search of six books found nothing. Next: Round 5.
