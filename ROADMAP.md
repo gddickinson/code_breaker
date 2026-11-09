@@ -50,7 +50,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 21 | Le Figaro OCR fusion with a French HMM (control 18 of 56, up from 16; majority vote 16); letter-digit attack (planted 40 of 40, no real ad read) | completed 2026-11-09 |
 | 22 | Letter-digit ads: dictionary beam (planted 87 of 90, including 29 of 30 at 30 letters), 32 documented digit tables recovered, shared key matches table 2119 | completed 2026-11-09 |
 | 23 | Sweep of 32 mixed and 11 numeric documented tables over 1,257 unsolved ads; 9 of the best readings checked by eye | completed 2026-11-09 |
-| 24 | Check the remaining machine-only digit-table leads against scans; decode ads mixing numbers with clear letters such as CHERY; extend tables with unknown cells; AIM dictionary code; irregular transposition models | next |
+| 24 | All machine-only digit leads checked against scans; decoder for numbers with clear letters (planted 40 of 40, junk 0) | completed 2026-11-09 |
+| 25 | AIM dictionary code from the archive.org scan; irregular transposition models. Separately, infer blank table cells with held-out checks | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -166,4 +167,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - The solved-ad control produced no hits (0 of 60), so it validates nothing here. Evidence is the shuffled null, the writer listings and reading each scan by eye.
 - OCR limits: 2F's TIMBRE came out as FIMBRE because v was read as y. Ads mixing numbers and clear letters defeat the number extractor; CHERY read fully only by hand.
 - Table cells can be blank in the database. Readings can suggest the missing values (15=J in table 2308), which would be new evidence for the maintainer.
+
+## Added 2026-11-09: Round 24
+- When an ad has clear text, shuffle only the cipher part. Otherwise the null is unfairly low; FL ads with null 0.5 were correctly exposed as mostly plain.
+- Machine readings improved a lot by eye: CO RQG became COURAGE. Tests must assert what the table actually gives: MMARDON and RETROVERAS are printed, while PARDON and RETROUVERAS are inferences. OCR errors in digit words remain the main loss.
+- New idea: writers appear to reuse a table across many ads (47, 42, CHERY). Group ads by table and writer to make the reading of each easier.
 

@@ -130,3 +130,6 @@ Swept 32 mixed and 11 numeric documented tables over all 1,257 unsolved ads. Add
 ## 2026-11-09: Problem finder check
 Ran `scripts/find_problems.py`. It added no codes (170 tracked before and after), so there were no duplicates or aliases to remove and no ciphertext was added.
 
+## 2026-11-09: Round 24
+Checked all 7 machine-only digit-table leads against their scans; all are real ciphers and their readings were improved by hand. Added a decoder for numbers mixed with clear letters, with a null that shuffles only the numbers (planted 40 of 40, junk 0). It found a second CHERY ad (8 Nov 1889). Two new leads; novelty unconfirmed. AIM and irregular transpositions moved to Round 25.
+
