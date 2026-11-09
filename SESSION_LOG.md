@@ -65,3 +65,6 @@ Correction to Round 11: the 5-gram model does not prefer the correct key on Z340
 
 ## 2026-11-09: Round 13 complete
 GPU-trained GRU (final loss 1.34) and a word-segmentation scorer both rank the best achievable Z340 key above all 28 decoys, and handle 10% errors; quadgram and 5-gram models fail both. GRU-guided polishing did not improve accuracy (best 42%), so search needs to anneal under the better scorer. Next: Round 14.
+
+## 2026-11-09: Round 14 complete
+Word-model annealing failed its planted control and did not improve Z340, so its Z340 results were not used and that benchmark is parked. The three-gate verdict now accepts very high word coverage, for real ciphers with errors. Next: Round 15, changing target.

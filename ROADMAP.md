@@ -40,7 +40,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 11 | 5-gram scorer on Z340 (E4), E11 Rongorongo alignment, short-passage Beale keys | completed 2026-11-09 (neural scorer deferred: 5-grams fixed the ranking) |
 | 12 | Longer Z340 search; D'Agapeyeff digit transposition; Liber Primus running keys; cheap Autobreak fallbacks | completed 2026-11-09 |
 | 13 | Scorers judged against the achievable key on Z340: word-aware and neural (GPU) | completed 2026-11-09 |
-| 14 | Neural or word-guided annealing for error-prone homophonics; apply the better scorer in the hunter's readable gate | next |
+| 14 | Word-guided annealing (negative, control failed); readable gate now accepts very high word coverage | completed 2026-11-09 |
+| 15 | Change target: French n-gram solver for newspaper ads, hunter on French and Latin-heavy texts; Purple or VIC machine model; new data sources | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -79,12 +80,15 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - A scorer that handles the planted error case is what real historic ciphers need: quadgram methods reward clean-looking wrong text.
 - A better scorer does not by itself help search: polishing from wrong starts stays in local optima.
 
+- A failed planted control stops the line: the Z340 numbers from that method were not interpreted.
+- When several rounds of effort on one benchmark give shrinking returns, park it and move on.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
 | E2 | Sweep all 43 files in `data/sources/unsolved` | completed, rerun needed with the new verdict (Round 3) |
 | E3 | Solvability oddity at long lengths | completed 2026-11-08: start temperature now scales with sqrt(length/400); 1500 letters, 26 symbols went from 30% to 93% (`scripts/tune_temperature.py`) |
-| E4 | Z340: section A exact; section B breaks at position 99. Word model and GRU rank the best achievable key above all 28 decoys, and do the same on English with 10% errors, while quadgram and 5-gram models fail. GRU steepest-ascent polish (`scripts/z340_polish.py`) barely changes accuracy (0.42 best): local optima. NEXT: anneal with word or GRU scoring, not just polish; then section B's break | in_progress |
+| E4 | Z340: section A exact; section B breaks at position 99. Word and GRU scorers rank the achievable key above decoys, but word-model annealing (`kernels_word.py`, `scripts/z340_word.py`) failed its planted 10%-noise control at temperatures 0.4 to 10, and lowered accuracy from its starts. PARKED: little return from more runs; revisit with a better search idea such as crib-seeded or population methods | parked |
 | E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
 | E8 | Beale drift model | completed 2026-11-09: narrow-window honest encoder reaches r=0.68; hoax inference withdrawn. D'Agapeyeff digit transposition still an idea |
 | E9 | Voynich: closer self-citation and independent-space verbose models added; each matches H2 and word length but fails on vocabulary or Zipf. Liber Primus running keys still pending | partial |

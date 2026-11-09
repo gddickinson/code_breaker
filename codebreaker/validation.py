@@ -93,7 +93,9 @@ def verdict(pc: dict, z: float, tests: int = 1, plaintext: str = "", score: floa
     if z < bar:
         return f"No evidence: the solver can read a text of this size ({pc['mean']:.0%}), but the real ciphertext scores like scrambled symbols (z={z:.1f})."
     cov = coverage(plaintext, lang) if plaintext else 0.0
-    if score is not None and score >= pc["solved_score"] - 0.2 and cov >= 0.8 * pc["true_coverage"]:
+    # Very high word coverage overrides the quadgram gate: real ciphers with errors score low there.
+    clean = score is not None and score >= pc["solved_score"] - 0.2 and cov >= 0.8 * pc["true_coverage"]
+    if clean or cov >= 0.95 * pc["true_coverage"]:
         return f"{READABLE} (z={z:.1f}, word coverage {cov:.0%}). Needs independent human reading before any claim."
     got = "n/a" if score is None else f"{score:.2f}"
     return f"Structure only: the symbol order is non-random (z={z:.1f}), but the output does not read as text (score {got} against {pc['solved_score']:.2f} for a real solve; word coverage {cov:.0%} against {pc['true_coverage']:.0%})."

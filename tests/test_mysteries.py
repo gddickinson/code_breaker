@@ -119,3 +119,10 @@ def test_word_score_prefers_english():
     from codebreaker.segment import word_score
 
     assert word_score("THEMANWENTHOMEBEFOREITWASDARK") > word_score("QJXZVKWQPLMZXJQKVZPWLKXQZJVBM")
+
+
+def test_high_word_coverage_overrides_a_low_quadgram_score():
+    from codebreaker.validation import verdict
+
+    pc = {"mean": 1.0, "solved_score": -3.9, "true_coverage": 0.7}
+    assert verdict(pc, 9.0, 1, "THEQUESTIONWASWHETHERTHEMANWOULDRETURNBEFOREEVENING", -4.6).startswith("Readable")

@@ -77,3 +77,11 @@ def test_five_gram_kernel_scores_english_above_noise():
     p = to_ints(sample_plaintext(300, "en", 8)).astype(np.int64)
     tab = np.asarray(N.table5())
     assert N.score5(p, tab) > N.score5(np.random.default_rng(1).integers(0, 26, 300), tab)
+
+
+def test_word_trie_prefers_real_words():
+    from codebreaker import kernels_word as W
+    from codebreaker.text import to_ints
+
+    child, value = W.build_trie()
+    assert W.word_dp(to_ints("THEMANWENTHOME"), child, value, -6.5) > W.word_dp(to_ints("QXZJKVBQXZJKVB"), child, value, -6.5)
