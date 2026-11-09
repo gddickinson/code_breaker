@@ -71,6 +71,37 @@ def load_tables() -> list[dict]:
 TABLES = load_tables() if (OUT / "codes.html").exists() else []
 
 
+def cipher_words(lines: list[str]) -> list[str]:
+    """Upper-case words from enciphered-looking tokens, keeping word boundaries."""
+    out = []
+    for line in lines:
+        for tok in re.split(r"[\s\-\u2014.,;:]+", line):
+            t = tok.strip("'\"()")
+            if len(t) >= 2 and t.isalpha() and t[1:].islower():
+                out.append(letters(t))
+    return out
+
+
+def word_systems(words: list[str]):
+    """Documented systems needing word boundaries, or that remove inserted letters."""
+    t = "".join(words)
+    yield "mirror words", "".join(w[::-1] for w in words)
+    yield "mirror words, reversed order", "".join(w[::-1] for w in reversed(words))
+    yield "reversed word order", "".join(reversed(words))
+    for a, b in ((1, 24), (24, 1), (2, 23), (23, 2)):
+        yield f"alternate Caesar by word ({a},{b}), no W", "".join(shift(w.replace("W", "V"), a if i % 2 == 0 else b, NOW) for i, w in enumerate(words))
+    yield "every second letter from first", t[0::2]
+    yield "every second letter from second", t[1::2]
+    yield "remove Javanais AV", re.sub(r"(?<=[^AEIOUY])AV(?=[AEIOUY])", "", t)
+    yield "remove THO and RIA", t.replace("THO", "").replace("RIA", "")
+    h = (len(t) + 1) // 2
+    yield "two-line rail", "".join(a + b for a, b in zip(t[:h], t[h:] + " ")).replace(" ", "")
+    n = len(t)
+    rows = -(-n // 5)
+    cols = [t[i * rows:(i + 1) * rows] for i in range(5)]
+    yield "five-column read across", "".join(c[r] for r in range(rows) for c in cols if r < len(c))
+
+
 def candidates(t):
     for source, x in (("", t), ("reversed, ", t[::-1])):
         for tab in TABLES:
@@ -87,9 +118,12 @@ def candidates(t):
             yield f"{source}Vigenere {key}, no W", vig(x.replace("W", "V"), key, NOW)
 
 
-def best(t):
+def best(t, words=None):
     top = (-1.0, -99.0, "", t)
-    for name, p in candidates(t):
+    extra = list(word_systems(words)) if words else []
+    for name, p in list(candidates(t)) + extra:
+        if len(p) < 12:
+            continue
         c = coverage(p[:400], "fr")
         s = score(p, "fr")
         if (c, s) > top[:2]:
@@ -103,12 +137,17 @@ def job(a):
     if not picks:
         return None
     t = max(picks, key=len)
+    words = cipher_words(lines_r if cipher_text(lines_r) == t else lines_t)
     plain_cov = coverage(t[:400], "fr")
-    c, s, method, p = best(t)
+    c, s, method, p = best(t, words)
     r = random.Random(seed)
     sh = list(t)
     r.shuffle(sh)
-    null_c = best("".join(sh))[0]
+    pos, shw = 0, []
+    for w in words:
+        shw.append("".join(sh[pos:pos + len(w)]))
+        pos += len(w)
+    null_c = best("".join(sh), shw)[0]
     sig = re.sub(r"\.jpg$", "", name.split("-", 1)[1]) if "-" in name else ""
     tab = next((x for x in TABLES if method.endswith(f"table {x['id']}")), None)
     author = bool(tab and sig and sig in tab["users"])

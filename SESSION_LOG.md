@@ -95,3 +95,6 @@ Added `#/open`, listing 119 open entries with search and filters, and `#/solutio
 
 ## 2026-11-09: How It Works page (user request)
 Added illustrated pages for frequency analysis, key-length detection and column rebuilding, and simulations of AES rounds, the ECB image leak, the avalanche effect, a Feistel network, modular key exchange, RSA arithmetic and a simplified Colossus. AES is checked against a FIPS vector and PyCryptodome; S-DES against the Python cipher.
+
+## 2026-11-09: Round 17 complete
+Added the Le Figaro systems that are not simple tables. No new readings, and the known-answer control stayed at 14 of 56. The larger search raised the shuffled threshold, so the H and 14 Aug 1879 R ads no longer clear it on this measure; their earlier evidence stands in the leads. The limit is OCR. Next: Round 18.

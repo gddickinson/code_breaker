@@ -3,12 +3,12 @@
  "tested": 613,
  "plain_ads": 179,
  "thresholds": {
-  "1": 0.381,
+  "1": 0.615,
   "2": 0.293,
-  "5": 0.118,
-  "3": 0.2,
-  "6": 0.108,
-  "4": 0.167
+  "5": 0.122,
+  "3": 0.294,
+  "6": 0.132,
+  "4": 0.205
  },
  "control_ads": 56,
  "control_recovered": 14,
@@ -38,6 +38,14 @@
    "match": 0.778
   },
   {
+   "image": "1881_18810621-PAV.jpg",
+   "letters": 99,
+   "coverage": 0.404,
+   "null": 0.141,
+   "method": "alternate Caesar by word (24,1), no W",
+   "match": 0.746
+  },
+  {
    "image": "1889_18890731-P52.jpg",
    "letters": 87,
    "coverage": 0.241,
@@ -49,7 +57,7 @@
    "image": "1899_18991003-JBC.jpg",
    "letters": 117,
    "coverage": 0.667,
-   "null": 0.068,
+   "null": 0.103,
    "method": "table 1125",
    "match": 0.73
   },
@@ -81,7 +89,7 @@
    "image": "1883_18831018-5mai.jpg",
    "letters": 108,
    "coverage": 0.13,
-   "null": 0.083,
+   "null": 0.111,
    "method": "table 1124",
    "match": 0.69
   },
@@ -100,14 +108,6 @@
    "null": 0.097,
    "method": "table 1005",
    "match": 0.643
-  },
-  {
-   "image": "1896_18960802-Al.jpg",
-   "letters": 127,
-   "coverage": 0.346,
-   "null": 0.063,
-   "method": "table 1102",
-   "match": 0.626
   }
  ],
  "flagged": [
@@ -189,7 +189,7 @@
    "raw": "UPVUWPVTBUUFOETUPVEFTSFDPOOBJTTBOUEFKPVSTPVFUDPNNFOUFOWPZFSCPVRVJOEFTJSFBOOBMFTBJNFFTSZTDLSFQPOEFAQBS",
    "plain_coverage": 0.04,
    "coverage": 0.644,
-   "null_coverage": 0.05,
+   "null_coverage": 0.08,
    "score": -4.206587282173596,
    "method": "table 1001",
    "plaintext": "TOUTVOUSATTENDSTOUDESRECONNAISSANTDEJOURSOUETCOMMENTENVOYERBOUQUINDESIREANNALESAIMEESRYSCKREPONDEZPAR",
@@ -210,20 +210,6 @@
    "reading": "U ON NE S NOUVELLES VOYAGE AVEC UEES DIT VENAIS PORT UGAL"
   },
   {
-   "signature": "H",
-   "author_match": true,
-   "image": "1892_18920730-H.jpg",
-   "letters": 36,
-   "raw": "SJFORVFUPJPDVAQFQFOTFEFTJSIBUFUFXPJS",
-   "plain_coverage": 0.0,
-   "coverage": 0.611,
-   "null_coverage": 0.111,
-   "score": -4.8987578557427724,
-   "method": "table 1101",
-   "plaintext": "RIENQUETOIOCUZPEPENSEDESIRHATETEVOIR",
-   "reading": "RIEN QUE TOI OCUZPE PENSE DESIR HATE TE VOIR"
-  },
-  {
    "signature": "R",
    "author_match": true,
    "image": "1880_18801105-R.jpg",
@@ -238,20 +224,6 @@
    "reading": "SOUHAIT F ET AMOURS ETE M ILE BAISER SU C T ADORE L D"
   },
   {
-   "signature": "R",
-   "author_match": true,
-   "image": "1879_18790814-R.jpg",
-   "letters": 35,
-   "raw": "JAICRYBXUSILCUIVLJSCBLSOIVLBIOMAGVN",
-   "plain_coverage": 0.0,
-   "coverage": 0.514,
-   "null_coverage": 0.114,
-   "score": -4.760012798890709,
-   "method": "table 2211",
-   "plaintext": "PRISDYUXBAINSBIENPASUNAMIENUIMORTEL",
-   "reading": "PRIS DYUXBAINS BIEN PAS UN AMIE NU I MORTEL"
-  },
-  {
    "signature": "",
    "author_match": false,
    "image": "1896_18960817.jpg",
@@ -264,21 +236,7 @@
    "method": "table 1001",
    "plaintext": "HMPOSSQUITTGROUPEVAISLUCERNEEBRISSERAIGAREEPINAWLEMERCIAMIERYSCK",
    "reading": "HMPOSSQUITT GROUPE VAIS LU CE R NEE BRIS SERAI GARE EPINAW LE MERCI AMIE RYSCK"
-  },
-  {
-   "signature": "42",
-   "author_match": false,
-   "image": "1883_18830217-42.jpg",
-   "letters": 22,
-   "raw": "REFROTICTBPBTSPSTRFPTS",
-   "plain_coverage": 0.0,
-   "coverage": 0.455,
-   "null_coverage": 0.182,
-   "score": -5.290551280469839,
-   "method": "reversed, Caesar 11",
-   "plaintext": "DEAQCEDADEMAMENTEZCQPC",
-   "reading": "DE AQ CEDA DE MA MENTEZ CQPC"
   }
  ],
- "runtime_s": 14.5
+ "runtime_s": 14.3
 }

@@ -43,7 +43,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 14 | Word-guided annealing (negative, control failed); readable gate now accepts very high word coverage | completed 2026-11-09 |
 | 15 | Vigenere-family sweep of all letter texts; VIC teaching model (Purple deferred: no verified wiring) | completed 2026-11-09 |
 | 16 | Benchmark on 170 AZdecrypt ciphers; rescan of stored attempts (animated bombe deferred) | completed 2026-11-09 |
-| 17 | Lift the benchmark: combined substitution and transposition is 0 of 84, so add period-19-style transposition search with the repeat-pair statistic; bigram solver | next |
+| 17 | Le Figaro non-table systems: mirror, alternate word Caesars, letter insertion, rail, five-column (no new readings) | completed 2026-11-09 |
+| 18 | Le Figaro OCR: more ads with usable text, using image cleanup and character-level comparison of the two engines; then combined substitution and transposition search with the repeat-pair statistic and a bigram solver | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -97,6 +98,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Independent routes to one answer beat a single score: a blind solve and a writer's own table reached the same KP text.
 - When a parser finds 1 of 60 tables, do not trust the run: check counts before reading results.
+
+- Adding search options raises the chance level: two short readings (H and one R ad) now fall below the stricter shuffled threshold, so keep their earlier evidence separate.
 
 ## Emergent tasks
 | ID | Note | Status |

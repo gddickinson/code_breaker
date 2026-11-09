@@ -148,3 +148,12 @@ def test_figaro_tables_parse_and_kp_table_reads():
     t = {x["id"]: x for x in TABLES}
     assert len(TABLES) >= 50 and "KP" in t["1108"]["users"]
     assert "".join(t["1108"]["map"][c] for c in "DVPSH") == "VOILA"
+
+
+def test_figaro_word_systems():
+    from codebreaker.mysteries.figaro_keys import word_systems
+
+    s = dict(word_systems(["ERTTEL", "SIUS"]))
+    assert s["mirror words"] == "LETTRESUIS"
+    assert dict(word_systems(["BAVONJOUR"]))["remove Javanais AV"] == "BONJOUR"
+    assert dict(word_systems(["TAHBEC"]))["every second letter from first"] == "THE"
