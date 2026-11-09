@@ -42,7 +42,7 @@ def solve_symbols(symbols, lang="en", homophonic=False, iters=None, restarts=Non
     homophonic = homophonic or len(alpha) > 26
     m = model(lang)
     if homophonic:
-        key, _ = K.anneal_homophonic(ct, len(alpha), m["table"], m["letter"], 2.0 if w is None else w, iters or 3000000, restarts or 6, seed, 3.0 if t0 is None else t0)
+        key, _ = K.anneal_homophonic(ct, len(alpha), m["table"], m["letter"], 2.0 if w is None else w, iters or 3000000, restarts or 6, seed, 3.0 * (len(ct) / 400) ** 0.5 if t0 is None else t0)
     else:
         key, _ = K.anneal_mapping(ct, len(alpha), m["table"], iters or 60000, restarts or 8, seed, False, 3.0 if t0 is None else t0, m["letter"], w or 0.0)
     plain = to_text(key[ct])

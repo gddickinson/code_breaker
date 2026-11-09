@@ -24,3 +24,6 @@ Created the private GitHub repository. Added ROADMAP.md with upgrade rounds and 
 - Lost-script lab: Phaistos Disc, Linear A, Liber Primus. Cyberpunk theme and new charts.
 
 No cipher has been solved. Next: Round 2 in ROADMAP.md.
+
+## 2026-11-08: Round 2 started (30-minute timer running)
+Homophonic temperature now scales with length. Z340 diagnostics show section A is exact and section B breaks near reading position 99. Resume at E4 in ROADMAP.md, then rerun the sweep, Dorabella and D'Agapeyeff under the new verdict.
