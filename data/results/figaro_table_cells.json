@@ -1,0 +1,1422 @@
+{
+ "id": "figaro_table_cells",
+ "tables_with_family": 14,
+ "hidden_cells": 121,
+ "answered": 69,
+ "correct": 55,
+ "rows": [
+  {
+   "id": "2119",
+   "name": "42",
+   "users": [
+    "42"
+   ],
+   "numeric": false,
+   "family": [
+    [
+     "1876_18760114.jpg",
+     0.583
+    ],
+    [
+     "1883_18831226-J.jpg",
+     0.514
+    ],
+    [
+     "1883_18831230-R.jpg",
+     0.452
+    ],
+    [
+     "1884_18840112-E.jpg",
+     0.686
+    ],
+    [
+     "1884_18840219-H.jpg",
+     0.757
+    ],
+    [
+     "1884_18840306-O.jpg",
+     0.579
+    ],
+    [
+     "1884_18840312-N.jpg",
+     0.711
+    ],
+    [
+     "1884_18840427-H.jpg",
+     0.684
+    ],
+    [
+     "1884_18840531-J.jpg",
+     0.735
+    ],
+    [
+     "1884_18840604-D.jpg",
+     0.459
+    ],
+    [
+     "1884_18840605-I.jpg",
+     0.457
+    ],
+    [
+     "1884_18841221-S.jpg",
+     0.471
+    ],
+    [
+     "1885_18850212-E.jpg",
+     0.5
+    ],
+    [
+     "1886_18860121-E.jpg",
+     0.528
+    ],
+    [
+     "1886_18860403-L.jpg",
+     0.452
+    ],
+    [
+     "1886_18860529-P.jpg",
+     0.588
+    ],
+    [
+     "1887_18870111-5.jpg",
+     0.515
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2119",
+     "symbol": "0",
+     "truth": "L",
+     "guess": "L"
+    },
+    {
+     "table": "2119",
+     "symbol": "1",
+     "truth": "X",
+     "guess": null
+    },
+    {
+     "table": "2119",
+     "symbol": "2",
+     "truth": "F",
+     "guess": "F"
+    },
+    {
+     "table": "2119",
+     "symbol": "3",
+     "truth": "C",
+     "guess": "C"
+    },
+    {
+     "table": "2119",
+     "symbol": "4",
+     "truth": "D",
+     "guess": "D"
+    },
+    {
+     "table": "2119",
+     "symbol": "5",
+     "truth": "I",
+     "guess": "I"
+    },
+    {
+     "table": "2119",
+     "symbol": "6",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2119",
+     "symbol": "7",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2119",
+     "symbol": "8",
+     "truth": "M",
+     "guess": "M"
+    },
+    {
+     "table": "2119",
+     "symbol": "9",
+     "truth": "O",
+     "guess": null
+    },
+    {
+     "table": "2119",
+     "symbol": "B",
+     "truth": "P",
+     "guess": "P"
+    },
+    {
+     "table": "2119",
+     "symbol": "C",
+     "truth": "N",
+     "guess": "N"
+    },
+    {
+     "table": "2119",
+     "symbol": "E",
+     "truth": "R",
+     "guess": "R"
+    },
+    {
+     "table": "2119",
+     "symbol": "F",
+     "truth": "T",
+     "guess": "T"
+    },
+    {
+     "table": "2119",
+     "symbol": "I",
+     "truth": "U",
+     "guess": null
+    },
+    {
+     "table": "2119",
+     "symbol": "J",
+     "truth": "V",
+     "guess": "V"
+    },
+    {
+     "table": "2119",
+     "symbol": "M",
+     "truth": "H",
+     "guess": "H"
+    },
+    {
+     "table": "2119",
+     "symbol": "N",
+     "truth": "J",
+     "guess": "S"
+    },
+    {
+     "table": "2119",
+     "symbol": "T",
+     "truth": "S",
+     "guess": "S"
+    }
+   ],
+   "proposals": [
+    {
+     "table": "2119",
+     "name": "42",
+     "symbol": "R",
+     "letter": "O",
+     "uses": 27,
+     "gain": 26,
+     "runner_up": 9,
+     "ads_using": 15,
+     "held_out_agree": 15
+    }
+   ]
+  },
+  {
+   "id": "2137",
+   "name": "DJA",
+   "users": [
+    "DIA",
+    "DJA"
+   ],
+   "numeric": false,
+   "family": [
+    [
+     "1890_18901007-AVRIL.jpg",
+     0.462
+    ],
+    [
+     "1891_18910729-AVRIL.jpg",
+     0.533
+    ],
+    [
+     "1891_18911202-21.jpg",
+     0.571
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2137",
+     "symbol": "1",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2137",
+     "symbol": "2",
+     "truth": "T",
+     "guess": null
+    },
+    {
+     "table": "2137",
+     "symbol": "3",
+     "truth": "N",
+     "guess": null
+    },
+    {
+     "table": "2137",
+     "symbol": "4",
+     "truth": "C",
+     "guess": null
+    },
+    {
+     "table": "2137",
+     "symbol": "6",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2137",
+     "symbol": "I",
+     "truth": "Z",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2305",
+   "name": "8",
+   "users": [
+    "(pas",
+    "d'id)",
+    "25",
+    "8"
+   ],
+   "numeric": false,
+   "family": [
+    [
+     "1875_18750103-J.jpg",
+     0.667
+    ],
+    [
+     "1875_18750923-5.jpg",
+     0.556
+    ],
+    [
+     "1879_18790512-XZ.jpg",
+     0.571
+    ],
+    [
+     "1880_18800807-7.jpg",
+     0.481
+    ],
+    [
+     "1886_18860908-Jane.jpg",
+     0.46
+    ],
+    [
+     "1891_18910729-AVRIL.jpg",
+     0.588
+    ],
+    [
+     "1898_18980917.jpg",
+     0.571
+    ],
+    [
+     "1898_18981022-2.jpg",
+     0.538
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2305",
+     "symbol": "0",
+     "truth": "R",
+     "guess": "U"
+    },
+    {
+     "table": "2305",
+     "symbol": "1",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2305",
+     "symbol": "2",
+     "truth": "M",
+     "guess": "S"
+    },
+    {
+     "table": "2305",
+     "symbol": "3",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2305",
+     "symbol": "4",
+     "truth": "A",
+     "guess": "U"
+    },
+    {
+     "table": "2305",
+     "symbol": "5",
+     "truth": "S",
+     "guess": "U"
+    },
+    {
+     "table": "2305",
+     "symbol": "6",
+     "truth": "O",
+     "guess": null
+    },
+    {
+     "table": "2305",
+     "symbol": "7",
+     "truth": "I",
+     "guess": "N"
+    },
+    {
+     "table": "2305",
+     "symbol": "8",
+     "truth": "T",
+     "guess": "S"
+    },
+    {
+     "table": "2305",
+     "symbol": "9",
+     "truth": "N",
+     "guess": "U"
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2308",
+   "name": "777",
+   "users": [
+    "777"
+   ],
+   "numeric": false,
+   "family": [
+    [
+     "1878_18781126-17.jpg",
+     0.483
+    ],
+    [
+     "1898_18980702-2.jpg",
+     0.48
+    ],
+    [
+     "1900_19000625-2.jpg",
+     0.455
+    ],
+    [
+     "1900_19000715.jpg",
+     0.6
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2308",
+     "symbol": "1",
+     "truth": "N",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "2",
+     "truth": "I",
+     "guess": "I"
+    },
+    {
+     "table": "2308",
+     "symbol": "3",
+     "truth": "M",
+     "guess": "L"
+    },
+    {
+     "table": "2308",
+     "symbol": "4",
+     "truth": "S",
+     "guess": "I"
+    },
+    {
+     "table": "2308",
+     "symbol": "5",
+     "truth": "A",
+     "guess": "I"
+    },
+    {
+     "table": "2308",
+     "symbol": "6",
+     "truth": "O",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "7",
+     "truth": "E",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "9",
+     "truth": "T",
+     "guess": null
+    }
+   ],
+   "proposals": [
+    {
+     "table": "2308",
+     "name": "777",
+     "symbol": "0",
+     "letter": "I",
+     "uses": 5,
+     "gain": 10,
+     "runner_up": 6,
+     "ads_using": 3,
+     "held_out_agree": 2
+    }
+   ]
+  },
+  {
+   "id": "2402",
+   "name": "47",
+   "users": [
+    "(pas",
+    "d'id)",
+    "47",
+    "74"
+   ],
+   "numeric": false,
+   "family": [
+    [
+     "1875_18750103-J.jpg",
+     0.667
+    ],
+    [
+     "1877_18770412-OPQ.jpg",
+     0.538
+    ],
+    [
+     "1879_18790222.jpg",
+     0.647
+    ],
+    [
+     "1879_18790309b.jpg",
+     0.579
+    ],
+    [
+     "1879_18790311b.jpg",
+     0.513
+    ],
+    [
+     "1879_18790410.jpg",
+     0.609
+    ],
+    [
+     "1879_18791230-4.jpg",
+     0.623
+    ],
+    [
+     "1881_18810202.jpg",
+     0.455
+    ],
+    [
+     "1881_18811107.jpg",
+     0.824
+    ],
+    [
+     "1882_18821010-LINETTE.jpg",
+     0.45
+    ],
+    [
+     "1883_18830427-pella.jpg",
+     0.545
+    ],
+    [
+     "1886_18860122-2Fev.jpg",
+     0.606
+    ],
+    [
+     "1886_18860307-2F.jpg",
+     0.583
+    ],
+    [
+     "1887_18870125-2F.jpg",
+     0.459
+    ],
+    [
+     "1889_18890109-2F.jpg",
+     0.629
+    ],
+    [
+     "1889_18890510-AVRIL.jpg",
+     0.471
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2402",
+     "symbol": "0",
+     "truth": "R",
+     "guess": "R"
+    },
+    {
+     "table": "2402",
+     "symbol": "1",
+     "truth": "M",
+     "guess": "M"
+    },
+    {
+     "table": "2402",
+     "symbol": "2",
+     "truth": "O",
+     "guess": "O"
+    },
+    {
+     "table": "2402",
+     "symbol": "3",
+     "truth": "D",
+     "guess": "D"
+    },
+    {
+     "table": "2402",
+     "symbol": "4",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2402",
+     "symbol": "5",
+     "truth": "L",
+     "guess": "L"
+    },
+    {
+     "table": "2402",
+     "symbol": "6",
+     "truth": "B",
+     "guess": "B"
+    },
+    {
+     "table": "2402",
+     "symbol": "7",
+     "truth": "S",
+     "guess": "S"
+    },
+    {
+     "table": "2402",
+     "symbol": "8",
+     "truth": "I",
+     "guess": "I"
+    },
+    {
+     "table": "2402",
+     "symbol": "9",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2402",
+     "symbol": "B",
+     "truth": "N",
+     "guess": "N"
+    },
+    {
+     "table": "2402",
+     "symbol": "G",
+     "truth": "P",
+     "guess": "P"
+    },
+    {
+     "table": "2402",
+     "symbol": "H",
+     "truth": "J",
+     "guess": null
+    },
+    {
+     "table": "2402",
+     "symbol": "I",
+     "truth": "Q",
+     "guess": "M"
+    },
+    {
+     "table": "2402",
+     "symbol": "K",
+     "truth": "V",
+     "guess": "V"
+    },
+    {
+     "table": "2402",
+     "symbol": "M",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2402",
+     "symbol": "N",
+     "truth": "G",
+     "guess": null
+    },
+    {
+     "table": "2402",
+     "symbol": "O",
+     "truth": "R",
+     "guess": "R"
+    },
+    {
+     "table": "2402",
+     "symbol": "S",
+     "truth": "X",
+     "guess": "X"
+    },
+    {
+     "table": "2402",
+     "symbol": "V",
+     "truth": "T",
+     "guess": "T"
+    },
+    {
+     "table": "2402",
+     "symbol": "X",
+     "truth": "Y",
+     "guess": "D"
+    },
+    {
+     "table": "2402",
+     "symbol": "Y",
+     "truth": "F",
+     "guess": "T"
+    },
+    {
+     "table": "2402",
+     "symbol": "Z",
+     "truth": "C",
+     "guess": "C"
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2300",
+   "name": "cydalise",
+   "users": [
+    "(pas",
+    "d'id)",
+    "541",
+    "AB",
+    "AIMEE",
+    "cydalise",
+    "R"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1876_18760524-2.jpg",
+     0.667
+    ],
+    [
+     "1876_18760528-perroquet.jpg",
+     0.5
+    ],
+    [
+     "1887_18870609-MIG.jpg",
+     0.5
+    ],
+    [
+     "1889_18890201-MIG.jpg",
+     0.5
+    ],
+    [
+     "1890_18900226-BMA.jpg",
+     0.5
+    ],
+    [
+     "1890_18900430-BMA.jpg",
+     0.556
+    ],
+    [
+     "1890_18901007-B4.jpg",
+     0.6
+    ],
+    [
+     "1893_18930516-Nic.jpg",
+     0.5
+    ],
+    [
+     "1896_18961014-V.jpg",
+     1.0
+    ],
+    [
+     "1899_18990916-13.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2300",
+     "symbol": "1",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2300",
+     "symbol": "2",
+     "truth": "B",
+     "guess": null
+    },
+    {
+     "table": "2300",
+     "symbol": "3",
+     "truth": "C",
+     "guess": null
+    },
+    {
+     "table": "2300",
+     "symbol": "4",
+     "truth": "D",
+     "guess": null
+    },
+    {
+     "table": "2300",
+     "symbol": "18",
+     "truth": "R",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2301",
+   "name": "JJ",
+   "users": [
+    "JJ",
+    "LA13"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1875_18750110-36.jpg",
+     0.5
+    ],
+    [
+     "1875_18750617-fleur.jpg",
+     0.714
+    ],
+    [
+     "1888_18881227-Psee.jpg",
+     0.5
+    ],
+    [
+     "1889_18890106-Psee.jpg",
+     0.5
+    ],
+    [
+     "1889_18890201-MIG.jpg",
+     0.571
+    ],
+    [
+     "1889_18891024-B4.jpg",
+     0.556
+    ],
+    [
+     "1898_18981031-19.jpg",
+     0.6
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2301",
+     "symbol": "2",
+     "truth": "Y",
+     "guess": null
+    },
+    {
+     "table": "2301",
+     "symbol": "3",
+     "truth": "X",
+     "guess": null
+    },
+    {
+     "table": "2301",
+     "symbol": "5",
+     "truth": "V",
+     "guess": null
+    },
+    {
+     "table": "2301",
+     "symbol": "6",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2301",
+     "symbol": "8",
+     "truth": "S",
+     "guess": null
+    },
+    {
+     "table": "2301",
+     "symbol": "9",
+     "truth": "R",
+     "guess": null
+    },
+    {
+     "table": "2301",
+     "symbol": "26",
+     "truth": "A",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2302",
+   "name": "Z139",
+   "users": [
+    "Z139"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1883_18830708-JN22.jpg",
+     0.667
+    ],
+    [
+     "1884_18840520-AZ15.jpg",
+     0.667
+    ],
+    [
+     "1888_18881227-Psee.jpg",
+     0.5
+    ],
+    [
+     "1889_18890427a-MIG.jpg",
+     0.5
+    ],
+    [
+     "1898_18980722-13.jpg",
+     0.667
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2302",
+     "symbol": "1",
+     "truth": "L",
+     "guess": null
+    },
+    {
+     "table": "2302",
+     "symbol": "5",
+     "truth": "P",
+     "guess": null
+    },
+    {
+     "table": "2302",
+     "symbol": "13",
+     "truth": "Y",
+     "guess": null
+    },
+    {
+     "table": "2302",
+     "symbol": "15",
+     "truth": "A",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2304",
+   "name": "23.9.3",
+   "users": [
+    "(pas",
+    "d'id)",
+    "23"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1875_18750110-36.jpg",
+     0.5
+    ],
+    [
+     "1876_18760524-2.jpg",
+     0.6
+    ],
+    [
+     "1889_18890220-MIG.jpg",
+     0.5
+    ],
+    [
+     "1889_18890412-MIG.jpg",
+     0.5
+    ],
+    [
+     "1889_18891010-M9.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2304",
+     "symbol": "0",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2304",
+     "symbol": "3",
+     "truth": "A",
+     "guess": null
+    },
+    {
+     "table": "2304",
+     "symbol": "6",
+     "truth": "B",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2305",
+   "name": "8",
+   "users": [
+    "(pas",
+    "d'id)",
+    "25",
+    "8"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1885_18851208-52.jpg",
+     0.5
+    ],
+    [
+     "1886_18861202-Emma.jpg",
+     0.833
+    ],
+    [
+     "1887_18870705-MIG.jpg",
+     0.778
+    ],
+    [
+     "1888_18881013-B4.jpg",
+     0.467
+    ],
+    [
+     "1888_18881019-B4.jpg",
+     0.6
+    ],
+    [
+     "1888_18881227-Psee.jpg",
+     0.75
+    ],
+    [
+     "1889_18890411-MIG.jpg",
+     0.6
+    ],
+    [
+     "1889_18891017-M9.jpg",
+     0.5
+    ],
+    [
+     "1893_18930516-Nic.jpg",
+     0.75
+    ],
+    [
+     "1898_18981031-19.jpg",
+     0.6
+    ],
+    [
+     "1899_18990916-13.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2305",
+     "symbol": "1",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2305",
+     "symbol": "2",
+     "truth": "M",
+     "guess": null
+    },
+    {
+     "table": "2305",
+     "symbol": "3",
+     "truth": "U",
+     "guess": null
+    },
+    {
+     "table": "2305",
+     "symbol": "4",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2305",
+     "symbol": "5",
+     "truth": "S",
+     "guess": null
+    },
+    {
+     "table": "2305",
+     "symbol": "6",
+     "truth": "O",
+     "guess": "O"
+    },
+    {
+     "table": "2305",
+     "symbol": "8",
+     "truth": "T",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2306",
+   "name": "420",
+   "users": [
+    "204",
+    "420"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1888_18881103-B4.jpg",
+     0.455
+    ],
+    [
+     "1889_18890409-AVRIL.jpg",
+     0.455
+    ],
+    [
+     "1889_18890427a-MIG.jpg",
+     0.5
+    ],
+    [
+     "1893_18930516-Nic.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2306",
+     "symbol": "1",
+     "truth": "I",
+     "guess": "I"
+    },
+    {
+     "table": "2306",
+     "symbol": "2",
+     "truth": "P",
+     "guess": null
+    },
+    {
+     "table": "2306",
+     "symbol": "3",
+     "truth": "C",
+     "guess": null
+    },
+    {
+     "table": "2306",
+     "symbol": "4",
+     "truth": "E",
+     "guess": null
+    },
+    {
+     "table": "2306",
+     "symbol": "8",
+     "truth": "L",
+     "guess": null
+    },
+    {
+     "table": "2306",
+     "symbol": "9",
+     "truth": "N",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2307",
+   "name": "MS",
+   "users": [
+    "MS"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1876_18760524-2.jpg",
+     0.667
+    ],
+    [
+     "1876_18760528-perroquet.jpg",
+     0.5
+    ],
+    [
+     "1886_18861202-Emma.jpg",
+     0.833
+    ],
+    [
+     "1887_18870609-MIG.jpg",
+     0.5
+    ],
+    [
+     "1888_18880617-B4.jpg",
+     0.538
+    ],
+    [
+     "1888_18881227-Psee.jpg",
+     0.5
+    ],
+    [
+     "1889_18890201-MIG.jpg",
+     0.5
+    ],
+    [
+     "1890_18900226-BMA.jpg",
+     0.5
+    ],
+    [
+     "1890_18900430-BMA.jpg",
+     0.556
+    ],
+    [
+     "1890_18901001-B4.jpg",
+     0.625
+    ],
+    [
+     "1890_18901007-B4.jpg",
+     0.6
+    ],
+    [
+     "1893_18930516-Nic.jpg",
+     0.5
+    ],
+    [
+     "1896_18961014-V.jpg",
+     1.0
+    ],
+    [
+     "1899_18990916-13.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2307",
+     "symbol": "1",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2307",
+     "symbol": "2",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2307",
+     "symbol": "3",
+     "truth": "I",
+     "guess": null
+    },
+    {
+     "table": "2307",
+     "symbol": "4",
+     "truth": "O",
+     "guess": null
+    },
+    {
+     "table": "2307",
+     "symbol": "5",
+     "truth": "U",
+     "guess": null
+    },
+    {
+     "table": "2307",
+     "symbol": "8",
+     "truth": "D",
+     "guess": null
+    },
+    {
+     "table": "2307",
+     "symbol": "18",
+     "truth": "Q",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2308",
+   "name": "777",
+   "users": [
+    "777"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1878_18780419-5.jpg",
+     0.75
+    ],
+    [
+     "1887_18870705-MIG.jpg",
+     0.778
+    ],
+    [
+     "1888_18880602-B4.jpg",
+     0.5
+    ],
+    [
+     "1889_18890123-MIG.jpg",
+     0.5
+    ],
+    [
+     "1889_18890427a-MIG.jpg",
+     0.5
+    ],
+    [
+     "1890_18900205-BMA.jpg",
+     0.556
+    ],
+    [
+     "1891_18910611-VE3.jpg",
+     0.5
+    ],
+    [
+     "1898_18981031-19.jpg",
+     0.6
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2308",
+     "symbol": "1",
+     "truth": "N",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "2",
+     "truth": "I",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "3",
+     "truth": "M",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "5",
+     "truth": "A",
+     "guess": null
+    },
+    {
+     "table": "2308",
+     "symbol": "6",
+     "truth": "O",
+     "guess": "O"
+    },
+    {
+     "table": "2308",
+     "symbol": "9",
+     "truth": "T",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  },
+  {
+   "id": "2310",
+   "name": "Yves",
+   "users": [
+    "X",
+    "YVES"
+   ],
+   "numeric": true,
+   "family": [
+    [
+     "1888_18881227-Psee.jpg",
+     0.5
+    ],
+    [
+     "1889_18891019-CHERY.jpg",
+     0.471
+    ],
+    [
+     "1899_18990916-13.jpg",
+     0.5
+    ]
+   ],
+   "hidden": [
+    {
+     "table": "2310",
+     "symbol": "1",
+     "truth": "O",
+     "guess": "O"
+    },
+    {
+     "table": "2310",
+     "symbol": "2",
+     "truth": "P",
+     "guess": null
+    },
+    {
+     "table": "2310",
+     "symbol": "4",
+     "truth": "R",
+     "guess": null
+    },
+    {
+     "table": "2310",
+     "symbol": "5",
+     "truth": "S",
+     "guess": "S"
+    },
+    {
+     "table": "2310",
+     "symbol": "7",
+     "truth": "U",
+     "guess": "U"
+    },
+    {
+     "table": "2310",
+     "symbol": "12",
+     "truth": "A",
+     "guess": "A"
+    },
+    {
+     "table": "2310",
+     "symbol": "16",
+     "truth": "E",
+     "guess": "E"
+    },
+    {
+     "table": "2310",
+     "symbol": "20",
+     "truth": "I",
+     "guess": "I"
+    },
+    {
+     "table": "2310",
+     "symbol": "24",
+     "truth": "M",
+     "guess": "M"
+    },
+    {
+     "table": "2310",
+     "symbol": "25",
+     "truth": "N",
+     "guess": null
+    }
+   ],
+   "proposals": []
+  }
+ ]
+}

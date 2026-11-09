@@ -139,3 +139,7 @@ Tested the AIM dictionary code on the 1860 Landais Petit dictionnaire from archi
 ## 2026-11-09: Round 26
 Read the five remaining solved AIM scans, adding 25 known references. An automatic page-image entry counter failed its control (12 of 52 exact) and is parked. Counting by eye reproduced the 4 known positions checked. The 20 Jan 1882 ad now reads as a coherent message about frost and hunting, and the 16 Feb 1882 ad is further read. Both remain candidates. Blank-cell inference and irregular transpositions moved to Round 27.
 The OCR-based dictionary control on the enlarged set is now 44 of 54 published words at their references (random mean 0.22, maximum 3).
+
+## 2026-11-09: Round 27
+Grouped ads by documented table and tested blank-cell inference: with known cells hidden it answered 69 of 121 and 55 were right. Proposed R=O for table 2119 (15 of 15 held-out folds). Checked four more family ads against scans, including a New Year greeting of 30 Dec 1883; six more are machine readings. Irregular transpositions moved to Round 28.
+

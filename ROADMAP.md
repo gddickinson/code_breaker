@@ -53,7 +53,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 24 | All machine-only digit leads checked against scans; decoder for numbers with clear letters (planted 40 of 40, junk 0) | completed 2026-11-09 |
 | 25 | AIM dictionary code on Landais 1860: 19 of 27 published words at their references (random mean 0.09); both unsolved ads partly read | completed 2026-11-09 |
 | 26 | AIM: 25 more known references from solved scans; automatic entry counter parked (12 of 52 exact); key entries counted by eye; 20 Jan 1882 ad read | completed 2026-11-09 |
-| 27 | Infer blank table cells with held-out checks; group ads by writer and table; irregular transposition models | next |
+| 27 | Ads grouped by table (14 tables with families); blank-cell inference (hidden cells: 55 of 69 answered correct, 121 tested); R=O in table 2119 with 15 of 15 held-out folds | completed 2026-11-09 |
+| 28 | Read the 2119 and 2402 families by hand as correspondences; clean the numeric-table families; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -184,4 +185,10 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - The flush-left counter failed its control (12 of 52 exact, 19 within one), so it is parked. Line segmentation and OCR of single lines were both unreliable.
 - Counting by eye is slow but reproduced every known position tried, so it is the method for the few references that matter.
 - Small letters between AIM references look like nulls: the same pattern appears in solved ads where the database only supplies editorial words.
+
+## Added 2026-11-09: Round 27
+- Hiding known cells gives a real positive control for table repair. The method abstains on 43% of cells, and accuracy on the rest is 80%.
+- Numeric families include plain ads with figures, because clear letters count as read. Mixed-table families are cleaner.
+- A family view surfaces more than a per-ad search: the 2119 family repeats mari, ma femme and ma cherie across 1883 to 1887.
+- New idea: known homophones (symbol 1 as X and B in table 2119) should be modelled as alternatives, not errors.
 
