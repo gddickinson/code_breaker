@@ -71,6 +71,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
 
 ## Decisions
+- 2026-11-09: Avenues without an implemented strategy get status `idea`; the hunter runs only `open` ones.
 - 2026-11-08: Offline translation through Argos; Latin has no model.
 - 2026-11-08: The user asked for plan-and-implement across the ledger, so several rows are worked per session.
 - 2026-11-08: Private GitHub repository created at the user's request. `data/models`, `.venv` and third-party code copies are ignored; a fresh clone needs `pip install -r requirements.txt` and `scripts/install_translation_models.py`.
