@@ -87,3 +87,21 @@ def test_pigeon_message_structure():
 
     g = groups()
     assert len(g) == 27 and g[0] == g[-1] == "AOAKN" and len(text()) == 125
+
+
+def test_hunter_reverse_transforms_are_permutations():
+    from codebreaker.mysteries.hunter import transform
+
+    seq = list(range(37))
+    for s in ("reverse_columns", "reverse_undo", "columns", "undo_columns"):
+        assert sorted(transform(seq, s, "6")) == seq
+
+
+def test_narrow_region_encoder_correlates():
+    from codebreaker.mysteries.beale_drift import encode, measure
+    from codebreaker.text import to_ints
+    from codebreaker.validation import sample_plaintext
+
+    doc = to_ints(sample_plaintext(1000, "en", 3))
+    plain = to_ints(sample_plaintext(300, "en", 4))
+    assert measure(encode(plain, doc, 15, 0.05, 1))["lag1"] > 0.3

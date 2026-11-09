@@ -53,3 +53,6 @@ Added a working bombe: from a 32-letter crib it found rotors, start and all 8 pl
 
 ## 2026-11-09: Round 9 complete
 Live annealer page (`#/machine/anneal`), checked to break a substitution under node. Lead Board now has a hunter feed, a verdict bar, an attempts-per-hour chart and a lead timeline. Next: Round 10, back to the hardest targets.
+
+## 2026-11-09: Round 10 complete
+Beale: an honest narrow-window encoder reproduces the B3 correlation, so the hoax inference is withdrawn. Voynich: two improved generators each match predictability and word length but fail vocabulary or Zipf. Hunter gains reverse-plus-column avenues. Classifier now multilingual. Z340: the search outscored the true text, so the language model is the limit. Next: Round 11.

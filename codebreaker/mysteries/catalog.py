@@ -64,6 +64,10 @@ def _avenues(db, slug, n):
             L.add_avenue(db, slug, "columns", str(k), code, 1.5)
             L.add_avenue(db, slug, "undo_columns", str(k), code, 1.2)
             L.add_avenue(db, slug, "boustrophedon", str(k), code, 1.0)
+    for k in range(2, min(13, n // 4)):
+        for code in ("en", "fr", "la", "de"):
+            L.add_avenue(db, slug, "reverse_columns", str(k), code, 1.6)
+            L.add_avenue(db, slug, "reverse_undo", str(k), code, 1.6)
     for r in range(2, int(n ** 0.5) + 1):
         if n % r == 0:
             L.add_avenue(db, slug, "spiral", str(n // r), "en", 1.3)

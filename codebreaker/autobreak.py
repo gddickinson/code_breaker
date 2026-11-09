@@ -23,7 +23,7 @@ def attempt(cid: str, text: str, lang: str) -> dict | None:
     return {"cipher": c.name, "plaintext": r["plaintext"], "score": score(r["plaintext"], lang), "lang": lang, "key": r.get("key"), "method": r.get("method")}
 
 
-def autobreak(text: str, top: int = 5, langs: tuple = ("en",), stop_coverage: float = 0.72) -> dict:
+def autobreak(text: str, top: int = 5, langs: tuple = ("en", "fr", "de", "la"), stop_coverage: float = 0.72) -> dict:
     """Try the classifier's top guesses, in each language, and stop early on a clearly readable result."""
     guesses = classifier.classify(text, top)
     if guesses is None:

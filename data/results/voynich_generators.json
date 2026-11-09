@@ -62,6 +62,26 @@
    "vocab_ratio": 0.573
   },
   {
+   "model": "Self-citation with similar glyphs",
+   "distance": 3.45,
+   "h1": 3.343,
+   "h2": 2.232,
+   "mean_word_length": 4.633,
+   "zipf_slope": -1.339,
+   "adjacent_word_repeat_rate": 0.028,
+   "vocab_ratio": 0.059
+  },
+  {
+   "model": "Verbose cipher, independent spaces",
+   "distance": 3.46,
+   "h1": 3.747,
+   "h2": 2.422,
+   "mean_word_length": 4.997,
+   "zipf_slope": -0.544,
+   "adjacent_word_repeat_rate": 0.0,
+   "vocab_ratio": 0.589
+  },
+  {
    "model": "Verbose cipher of Latin",
    "distance": 4.21,
    "h1": 3.745,
@@ -82,5 +102,5 @@
    "vocab_ratio": 0.574
   }
  ],
- "runtime_s": 1.8
+ "runtime_s": 2.1
 }

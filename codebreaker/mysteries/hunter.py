@@ -20,6 +20,10 @@ def transform(seq: list, strategy: str, param: str) -> list:
         return list(seq)
     if strategy == "reverse":
         return list(reversed(seq))
+    if strategy == "reverse_columns":
+        return [x for c in range(k) for x in list(reversed(seq))[c::k]]
+    if strategy == "reverse_undo":
+        return transform(list(reversed(seq)), "undo_columns", param)
     if strategy == "columns":
         return [x for c in range(k) for x in seq[c::k]]
     if strategy == "undo_columns":

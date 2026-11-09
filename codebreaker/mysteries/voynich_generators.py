@@ -53,6 +53,34 @@ def self_citation(real, n, seed):
     return out[:n]
 
 
+SIMILAR = {"o": "ay", "a": "oy", "y": "oa", "e": "c", "c": "e", "d": "l", "l": "dr", "r": "ls", "s": "r", "h": "h", "k": "tp", "t": "kf", "p": "tk", "f": "pk", "i": "n", "n": "i", "q": "q"}
+
+
+def self_citation_v2(real, n, seed):
+    """Closer to Timm and Schinner: copy from a nearby earlier word, swapping visually similar glyphs."""
+    r = random.Random(seed)
+    out = r.sample(real, 80)
+    while len(out) < n:
+        w = list(out[-r.randint(1, min(len(out), 120))])
+        for _ in range(r.choices([0, 1, 2], weights=[0.35, 0.5, 0.15])[0]):
+            i = r.randrange(len(w))
+            w[i] = r.choice(SIMILAR.get(w[i], w[i]))
+        out.append("".join(w))
+    return out[:n]
+
+
+def verbose_breaks(n, seed):
+    """Verbose cipher whose word spaces are inserted independently of the plaintext words."""
+    r = random.Random(seed)
+    glyphs_ = "".join(VERBOSE[c] for w in latin_words(n, seed) for c in w)
+    out, i = [], 0
+    while i < len(glyphs_) and len(out) < n:
+        k = r.choice([3, 4, 4, 5, 5, 5, 6, 6, 7])
+        out.append(glyphs_[i:i + k])
+        i += k
+    return out
+
+
 def table_grille(real, n, seed):
     """Rugg-style: three columns of syllables sampled independently, fitted from real words."""
     r = random.Random(seed)
@@ -100,7 +128,7 @@ def run(n=12000) -> dict:
     a, b = real[: len(real) // 2], real[len(real) // 2:]
     split = distance(measure(a[:n]), measure(b[:n]))
     gens = {"Self-citation copying": lambda s: self_citation(real, n, s), "Table and grille": lambda s: table_grille(real, n, s), "Character Markov chain (fitted)": lambda s: char_markov(real, n, s),
-            "Verbose cipher of Latin": lambda s: verbose_cipher(n, s), "Simple substitution of Latin": lambda s: monoalpha(n, s), "Latin with vowels removed": lambda s: abbreviated(n, s), "Plain Latin": lambda s: latin_words(n, s)}
+            "Self-citation with similar glyphs": lambda s: self_citation_v2(real, n, s), "Verbose cipher, independent spaces": lambda s: verbose_breaks(n, s), "Verbose cipher of Latin": lambda s: verbose_cipher(n, s), "Simple substitution of Latin": lambda s: monoalpha(n, s), "Latin with vowels removed": lambda s: abbreviated(n, s), "Plain Latin": lambda s: latin_words(n, s)}
     rows = []
     for name, g in gens.items():
         ms = [measure(g(s)) for s in range(3)]

@@ -1,0 +1,300 @@
+{
+ "id": "beale_drift",
+ "targets": {
+  "B1": {
+   "lag1": 0.252,
+   "distinct": 0.573
+  },
+  "B2": {
+   "lag1": 0.046,
+   "distinct": 0.238
+  },
+  "B3": {
+   "lag1": 0.622,
+   "distinct": 0.426
+  }
+ },
+ "doc_size": 1000,
+ "grid": [
+  {
+   "window": 10,
+   "drift": 0.01,
+   "lag1": 0.927,
+   "lag1_sd": 0.083,
+   "distinct": 0.23
+  },
+  {
+   "window": 10,
+   "drift": 0.03,
+   "lag1": 0.934,
+   "lag1_sd": 0.017,
+   "distinct": 0.383
+  },
+  {
+   "window": 10,
+   "drift": 0.1,
+   "lag1": 0.867,
+   "lag1_sd": 0.022,
+   "distinct": 0.49
+  },
+  {
+   "window": 10,
+   "drift": 0.3,
+   "lag1": 0.683,
+   "lag1_sd": 0.034,
+   "distinct": 0.541
+  },
+  {
+   "window": 10,
+   "drift": 1.0,
+   "lag1": 0.012,
+   "lag1_sd": 0.045,
+   "distinct": 0.566
+  },
+  {
+   "window": 25,
+   "drift": 0.01,
+   "lag1": 0.914,
+   "lag1_sd": 0.094,
+   "distinct": 0.302
+  },
+  {
+   "window": 25,
+   "drift": 0.03,
+   "lag1": 0.934,
+   "lag1_sd": 0.019,
+   "distinct": 0.45
+  },
+  {
+   "window": 25,
+   "drift": 0.1,
+   "lag1": 0.859,
+   "lag1_sd": 0.027,
+   "distinct": 0.534
+  },
+  {
+   "window": 25,
+   "drift": 0.3,
+   "lag1": 0.683,
+   "lag1_sd": 0.03,
+   "distinct": 0.56
+  },
+  {
+   "window": 25,
+   "drift": 1.0,
+   "lag1": 0.02,
+   "lag1_sd": 0.056,
+   "distinct": 0.569
+  },
+  {
+   "window": 50,
+   "drift": 0.01,
+   "lag1": 0.91,
+   "lag1_sd": 0.129,
+   "distinct": 0.405
+  },
+  {
+   "window": 50,
+   "drift": 0.03,
+   "lag1": 0.929,
+   "lag1_sd": 0.018,
+   "distinct": 0.509
+  },
+  {
+   "window": 50,
+   "drift": 0.1,
+   "lag1": 0.863,
+   "lag1_sd": 0.022,
+   "distinct": 0.562
+  },
+  {
+   "window": 50,
+   "drift": 0.3,
+   "lag1": 0.684,
+   "lag1_sd": 0.032,
+   "distinct": 0.574
+  },
+  {
+   "window": 50,
+   "drift": 1.0,
+   "lag1": 0.018,
+   "lag1_sd": 0.053,
+   "distinct": 0.585
+  },
+  {
+   "window": 100,
+   "drift": 0.01,
+   "lag1": 0.854,
+   "lag1_sd": 0.134,
+   "distinct": 0.474
+  },
+  {
+   "window": 100,
+   "drift": 0.03,
+   "lag1": 0.902,
+   "lag1_sd": 0.021,
+   "distinct": 0.554
+  },
+  {
+   "window": 100,
+   "drift": 0.1,
+   "lag1": 0.844,
+   "lag1_sd": 0.021,
+   "distinct": 0.585
+  },
+  {
+   "window": 100,
+   "drift": 0.3,
+   "lag1": 0.66,
+   "lag1_sd": 0.028,
+   "distinct": 0.592
+  },
+  {
+   "window": 100,
+   "drift": 1.0,
+   "lag1": 0.014,
+   "lag1_sd": 0.036,
+   "distinct": 0.595
+  },
+  {
+   "window": 200,
+   "drift": 0.01,
+   "lag1": 0.721,
+   "lag1_sd": 0.184,
+   "distinct": 0.54
+  },
+  {
+   "window": 200,
+   "drift": 0.03,
+   "lag1": 0.779,
+   "lag1_sd": 0.066,
+   "distinct": 0.588
+  },
+  {
+   "window": 200,
+   "drift": 0.1,
+   "lag1": 0.755,
+   "lag1_sd": 0.038,
+   "distinct": 0.596
+  },
+  {
+   "window": 200,
+   "drift": 0.3,
+   "lag1": 0.594,
+   "lag1_sd": 0.036,
+   "distinct": 0.602
+  },
+  {
+   "window": 200,
+   "drift": 1.0,
+   "lag1": 0.01,
+   "lag1_sd": 0.047,
+   "distinct": 0.603
+  },
+  {
+   "window": 400,
+   "drift": 0.01,
+   "lag1": 0.355,
+   "lag1_sd": 0.177,
+   "distinct": 0.595
+  },
+  {
+   "window": 400,
+   "drift": 0.03,
+   "lag1": 0.409,
+   "lag1_sd": 0.109,
+   "distinct": 0.597
+  },
+  {
+   "window": 400,
+   "drift": 0.1,
+   "lag1": 0.42,
+   "lag1_sd": 0.066,
+   "distinct": 0.605
+  },
+  {
+   "window": 400,
+   "drift": 0.3,
+   "lag1": 0.342,
+   "lag1_sd": 0.038,
+   "distinct": 0.605
+  },
+  {
+   "window": 400,
+   "drift": 1.0,
+   "lag1": 0.013,
+   "lag1_sd": 0.043,
+   "distinct": 0.609
+  }
+ ],
+ "closest_B1": [
+  {
+   "window": 400,
+   "drift": 0.3,
+   "lag1": 0.342,
+   "lag1_sd": 0.038,
+   "distinct": 0.605
+  },
+  {
+   "window": 400,
+   "drift": 0.01,
+   "lag1": 0.355,
+   "lag1_sd": 0.177,
+   "distinct": 0.595
+  },
+  {
+   "window": 400,
+   "drift": 0.03,
+   "lag1": 0.409,
+   "lag1_sd": 0.109,
+   "distinct": 0.597
+  }
+ ],
+ "closest_B3": [
+  {
+   "window": 10,
+   "drift": 0.3,
+   "lag1": 0.683,
+   "lag1_sd": 0.034,
+   "distinct": 0.541
+  },
+  {
+   "window": 25,
+   "drift": 0.3,
+   "lag1": 0.683,
+   "lag1_sd": 0.03,
+   "distinct": 0.56
+  },
+  {
+   "window": 100,
+   "drift": 0.3,
+   "lag1": 0.66,
+   "lag1_sd": 0.028,
+   "distinct": 0.592
+  }
+ ],
+ "closest_B2": [
+  {
+   "window": 25,
+   "drift": 1.0,
+   "lag1": 0.02,
+   "lag1_sd": 0.056,
+   "distinct": 0.569
+  },
+  {
+   "window": 10,
+   "drift": 1.0,
+   "lag1": 0.012,
+   "lag1_sd": 0.045,
+   "distinct": 0.566
+  },
+  {
+   "window": 50,
+   "drift": 1.0,
+   "lag1": 0.018,
+   "lag1_sd": 0.053,
+   "distinct": 0.585
+  }
+ ],
+ "runtime_s": 80.5
+}

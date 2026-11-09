@@ -24,10 +24,15 @@ def encode(text: str) -> np.ndarray:
     return np.array(ids + [0] * (MAX_LEN - len(ids)), dtype=np.int64)
 
 
-def sample_text(r) -> str:
-    if "en" not in _TEXT:
-        _TEXT["en"] = letters(corpus_text("en"))
-    return _TEXT["en"][(s := r.randrange(5000, len(_TEXT["en"]) - 1000)): s + r.randint(90, 420)]
+LANG_WEIGHTS = (("en", 0.55), ("fr", 0.15), ("de", 0.1), ("la", 0.1), ("it", 0.05), ("es", 0.05))
+
+
+def sample_text(r, lang=None) -> str:
+    code = lang or r.choices([x for x, _ in LANG_WEIGHTS], weights=[w for _, w in LANG_WEIGHTS])[0]
+    if code not in _TEXT:
+        _TEXT[code] = letters(corpus_text(code))
+    t = _TEXT[code]
+    return t[(s := r.randrange(5000, len(t) - 1000)): s + r.randint(90, 420)]
 
 
 def make_one(cls: str, r) -> str:
