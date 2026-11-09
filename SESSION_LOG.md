@@ -170,3 +170,6 @@ Incorporated the GUI-free core of the user's textview project (identification by
 ## 2026-11-09: Round 30b
 Raw-frame detection now checks byte-lane fingerprints before smoothness, raising the control from 51 to 75 of 80. All formats are 8 of 8 except RGB565 (4) and Bayer (7). Test frames now carry realistic noise in packed low bits.
 
+## 2026-11-09: File Inspector readers (user request)
+Installed pyarrow, h5py, netCDF4, cryptography and openpyxl (pinned in requirements.txt) and added textview's Parquet, HDF5/NetCDF, spreadsheet and certificate readers without their Qt pickers. Each is tested on a real generated file.
+

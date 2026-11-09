@@ -140,7 +140,11 @@ def blend(path: str) -> dict:
 
 def open_any(path: str, kind: str, is_text: bool, encoding: str, raw: bytes) -> dict:
     """The best view for this kind; anything that cannot be opened falls back to the hex view on the page."""
+    from .readers_data import READERS
+
     try:
+        if kind in READERS:
+            return READERS[kind](path)
         if kind in IMAGE_KINDS:
             return image(path)
         if kind in ("zip", "jar", "whl", "apk", "docx", "xlsx", "pptx", "epub", "odt", "ods", "tar", "gzip", "bzip2", "xz"):
