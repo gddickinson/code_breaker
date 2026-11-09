@@ -18,7 +18,7 @@ Never type a ciphertext from memory; extract it from a recorded source and add a
 | R6 | Kryptos K4: layered models, autokey, transposition + key elimination | Elimination counts by model family, with vacuous cases excluded | completed 2026-11-09 | 1,152 configs, 58.9M orders, 0 survivors; control found; autokey and Hill excluded |
 | R7 | Voynich generator lab: which mechanism reproduces the statistics | Verbose cipher, self-citation, table/grille models scored against the measured profile | completed 2026-11-09 | Noise floor 0.37; best non-fitted 2.9. Verbose matches H2, not word length. Self-citation version is crude (E9) |
 | R8 | Autobreak: trained cipher-type classifier and solve-everything pipeline | Held-out accuracy reported; pipeline solves demo ciphers of unknown type | completed 2026-11-09 | 41 classes: top-1 62%, top-3 80%, family 86%. Autobreak 21 of 24 hidden. GPU 5.5x faster than CPU for training |
-| R9 | Breadth: more ACA and machine ciphers, each with an attack | Roster extended; catalogue page shows covered and missing types | pending | |
+| R9 | Breadth: more ACA and machine ciphers, each with an attack | Roster extended; catalogue page shows covered and missing types | completed 2026-11-09 | 68 systems; bombe recovers plugboard Enigma from a 32-letter crib; coverage page. Purple, SIGABA, Typex planned |
 | R10 | Teaching: step-through visualiser for key ciphers | Letter-by-letter trace for at least Vigenere, Playfair, Enigma | completed 2026-11-08 | Traces match Python in `tests/test_simulations.py` |
 | R11 | Machine simulations: interactive Enigma with moving rotors and current path; working models of other devices | Simulator output matches the backend Enigma; rotors, stepping and wiring visible | completed 2026-11-08 | Enigma, Lorenz, Jefferson, Alberti, scytale, grille, rail fence. Enigma matches Python on 700-letter cases |
 
@@ -34,8 +34,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | completed 2026-11-09 |
 | 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | completed 2026-11-09 |
 | 7 | Data hunt (completed 2026-11-09): Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | completed 2026-11-09 |
-| 8 | R9 breadth: M-209, Purple, VIC, more ACA types; a bombe simulation; catalogue page | next |
-| 9 | Graphics: animated attack visualisers, live hunter feed, lead timeline | pending |
+| 8 | R9 breadth: M-209, more ACA types, bombe, coverage page (Purple and VIC deferred, listed on the coverage page) | completed 2026-11-09 |
+| 9 | Graphics: animated attack visualisers, live hunter feed, lead timeline | next |
+| 10 | Return to the hardest targets with lessons learned: E4 Z340, E8 Beale drift model, E9 Voynich, E10 multilingual Autobreak, E11 Rongorongo alignment | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -60,6 +61,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - Near-miss classification is fine when the next step can test several guesses cheaply.
 
 - Do not type ciphertext from memory: the query for the pigeon message used a wrong letter that the published form corrected.
+
+- Contradiction search is powerful: one wrong plug guess eliminates itself, which is why the bombe needs only a short crib.
 
 ## Emergent tasks
 | ID | Note | Status |

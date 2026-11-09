@@ -4,7 +4,7 @@ const backLink = '<a href="#/machines">← Machines</a>';
 const HUE = ["#00f0ff", "#ff2a6d", "#f5e642", "#39ff88", "#b388ff", "#ff9e40"];
 
 route(/^\/machines$/, async () => {
-  const M = [["enigma", "Enigma I", "Three moving rotors, a reflector and a plugboard, with the current drawn live."], ["lorenz", "Lorenz teleprinter model", "Ten pin wheels produce a five-bit key stream."], ["jefferson", "Jefferson wheel", "A stack of lettered discs. Dial a line and send another."],
+  const M = [["enigma", "Enigma I", "Three moving rotors, a reflector and a plugboard, with the current drawn live."], ["bombe", "Bletchley bombe", "Break a plugboard Enigma from a known word, by contradiction."], ["lorenz", "Lorenz teleprinter model", "Ten pin wheels produce a five-bit key stream."], ["jefferson", "Jefferson wheel", "A stack of lettered discs. Dial a line and send another."],
     ["alberti", "Alberti cipher disk", "Two concentric alphabets, from 1467. Turn the inner ring."], ["scytale", "Spartan scytale", "Wind a strip round a rod and write along it."], ["grille", "Turning grille", "A holed card, rotated four times."], ["rail", "Rail fence", "Watch a message zigzag across the rails."],
     ["vigenere", "Vigenere tableau", "Follow each letter through the square table."], ["playfair", "Playfair square", "See the row, column and rectangle rules applied."]];
   view().innerHTML = `<h1>Machines and mechanisms</h1><p class="lead">Working models you can operate. Each uses the same algorithm as the matching cipher in the Library.</p><div class="grid">${M.map(([id, n, d]) => `<a class="card" href="#/machine/${id}"><b>${n}</b><span>${d}</span></a>`).join("")}</div>`;

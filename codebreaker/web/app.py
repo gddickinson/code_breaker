@@ -195,6 +195,10 @@ def machine(name: str):
 
     if name == "jefferson":
         return {"discs": _discs()}
+    if name == "bombe":
+        from ..attacks.bombe import demo
+
+        return guarded(demo, random.randrange(1, 10**6))
     if name == "lorenz":
         return {"sizes": LORENZ_SIZES, "wheels": _lorenz_wheels()}
     raise HTTPException(404, "Unknown machine")

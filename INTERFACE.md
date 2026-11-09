@@ -13,13 +13,14 @@
 | `translate.py` | Offline translation via Argos (no Latin model) | `translate` |
 | `validation.py` | False-positive controls; three-gate verdict | `null_test`, `positive_control`, `coverage`, `verdict` |
 | `leads.py` / `litedb.py` | Leads database and its apsw wrapper (Anaconda's sqlite3 is broken here) | `connect`, `add_lead`, `add_avenue`, `summary` |
+| `attacks/bombe.py` | Crib-based plugboard Enigma attack | `attack`, `demo` |
 | `classifier.py` / `autobreak.py` | CNN cipher-type classifier (GPU) and the identify-and-solve pipeline | `classify`, `train`, `autobreak` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·
-`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `modern_symmetric.py` · `modern_public.py`
+`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
 
 ## codebreaker/attacks/
 `classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography
@@ -30,7 +31,7 @@
 `casefiles.py` case metadata and `case()`; `casefile_sections.py` and `casefile_extra.py` turn results into displayed sections.
 
 ## codebreaker/web/
-`app.py` routes under `/api`. `static/`: `core.js` (helpers, router), `library.js`, `tools.js` (workbench, translate, challenge), `mysteries.js`, `leads.js` (Lead Board), `charts.js` (SVG charts, background), `sim_engine.js` (pure simulation logic, node-testable), `sim_enigma.js`, `sim_mech.js`, `sim_trace.js`, `style.css`.
+`app.py` routes under `/api`. `static/`: `core.js` (helpers, router), `library.js`, `tools.js` (workbench, translate, challenge), `mysteries.js`, `leads.js` (Lead Board), `charts.js` (SVG charts, background), `sim_engine.js` (pure simulation logic, node-testable), `sim_enigma.js`, `sim_mech.js`, `sim_trace.js`, `sim_bombe.js`, `style.css`.
 
 ## scripts/, tests/, data/
 `scripts/run_mysteries.py [names]` regenerates results. `scripts/extract_sources.py` extracts Beale numbers. `scripts/install_translation_models.py` installs Argos models. `scripts/check.py` runs all attack demos. `scripts/hunt.py --minutes N` seeds and runs the hunt. `scripts/benchmark_gpu.py` records GPU vs CPU. `scripts/train_classifier.py` trains the classifier.

@@ -58,3 +58,10 @@ def test_classifier_encoding_is_fixed_width():
     from codebreaker.classifier import MAX_LEN, encode
 
     assert len(encode("ABC")) == MAX_LEN and len(encode("A" * 2000)) == MAX_LEN
+
+
+def test_bombe_recovers_plugboard_enigma():
+    from codebreaker.attacks.bombe import demo
+
+    r = demo(2)
+    assert r["success"] and r["found_plugboard"] == r["plugboard"] and r["found_rotors"] == r["rotors"]

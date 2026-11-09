@@ -6,7 +6,7 @@ route(/^\/$/, async () => {
   const byFam = {};
   state.ciphers.forEach(c => (byFam[c.family] ||= []).push(c));
   view().innerHTML = `<section class="hero"><p class="kicker">// CIPHER_ARCHIVE.ONLINE</p><h1 class="glitch" data-text="Every cipher here can be made and broken">Every cipher here can be made and broken</h1>
-    <p class="lead">${state.ciphers.length} systems from Spartan rods to AES. Each page explains how it works, encrypts your own text, and runs a real attack.</p><p><a class="cta" href="#/machine/enigma">Operate the Enigma</a><a class="cta alt" href="#/leads">Open the Lead Board</a></p></section>
+    <p class="lead">${state.ciphers.length} systems from Spartan rods to AES. Each page explains how it works, encrypts your own text, and runs a real attack.</p><p><a class="cta" href="#/machine/enigma">Operate the Enigma</a><a class="cta alt" href="#/leads">Open the Lead Board</a><a class="cta" href="#/coverage">Coverage</a></p></section>
     ${FAMILY_ORDER.filter(f => byFam[f]).map(f => `<section class="family"><h2>${esc(f)}</h2><div class="grid">
       ${byFam[f].map(c => `<a class="card" href="#/cipher/${esc(c.id)}"><b>${esc(c.name)}</b><small>${esc(c.era)}</small><span>${esc(c.summary)}</span></a>`).join("")}
     </div></section>`).join("")}`;
@@ -70,4 +70,14 @@ route(/^\/cipher\/([\w-]+)$/, async id => {
     $("#solveout").innerHTML = `<h3>Best reading</h3><pre>${esc(r.spaced)}</pre><p class="mute">${esc(r.method)}. Score ${esc(r.score)}: closer to −4 reads more like real text.</p>
       <h3>Key</h3><pre>${esc(JSON.stringify(r.key).slice(0, 500))}</pre>`;
   });
+}, "library");
+
+const PLANNED = ["Purple", "SIGABA", "Typex", "VIC (full system)", "Ragbaby", "Bazeries", "Portax", "Pollux", "Morbit", "Cadenus", "Swagman", "Digrafid", "Tri-square", "Phillips", "Nomenclators", "Post-quantum toy (LWE)"];
+route(/^\/coverage$/, async () => {
+  const fam = {};
+  state.ciphers.forEach(c => (fam[c.family] ||= []).push(c));
+  const items = FAMILY_ORDER.filter(f => fam[f]).map(f => ({ label: f, value: fam[f].length, hit: false }));
+  view().innerHTML = `<p class="kicker">// COVERAGE</p><h1>What is covered</h1><p class="lead">${state.ciphers.length} systems so far. The list of everything ever invented is open-ended, so this page shows what exists and what is planned next.</p>
+    ${barChart({ title: "Systems implemented, by family", items, unit: "systems" })}
+    <h2>Planned next</h2><ul>${PLANNED.map(p => `<li>${esc(p)}</li>`).join("")}</ul>`;
 }, "library");
