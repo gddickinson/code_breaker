@@ -157,3 +157,10 @@ def test_figaro_word_systems():
     assert s["mirror words"] == "LETTRESUIS"
     assert dict(word_systems(["BAVONJOUR"]))["remove Javanais AV"] == "BONJOUR"
     assert dict(word_systems(["TAHBEC"]))["every second letter from first"] == "THE"
+
+
+def test_combined_finds_planted_transposition_period():
+    from codebreaker.mysteries.combined import best_periods, planted_combined
+
+    _, enc = planted_combined(340, 63, 19, 3)
+    assert any(p == 19 or (p * 19) % 340 in (1, 339) for _, p in best_periods(enc, 6))

@@ -1,0 +1,854 @@
+{
+ "id": "combined",
+ "control": [
+  {
+   "period_found": true,
+   "coverage": 0.226,
+   "accuracy": 0.041,
+   "method": "inverse step 19 (z=4.66)"
+  },
+  {
+   "period_found": true,
+   "coverage": 0.585,
+   "accuracy": 0.935,
+   "method": "step 7 (z=6.28)"
+  },
+  {
+   "period_found": true,
+   "coverage": 0.653,
+   "accuracy": 0.985,
+   "method": "step 23 (z=2.8)"
+  },
+  {
+   "period_found": true,
+   "coverage": 0.726,
+   "accuracy": 0.994,
+   "method": "step 37 (z=2.2)"
+  },
+  {
+   "period_found": true,
+   "coverage": 0.676,
+   "accuracy": 0.988,
+   "method": "step 11 (z=3.65)"
+  },
+  {
+   "period_found": true,
+   "coverage": 0.729,
+   "accuracy": 0.997,
+   "method": "step 29 (z=3.31)"
+  }
+ ],
+ "bigram_control": 0.039,
+ "combined_rows": [
+  {
+   "name": "glurk 2015 challenge 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.368,
+   "method": "as written",
+   "reading": "H AN IN AN ER AMPLE CAT HER ERE ATE D TO THE SPECIFIC T I ON OF HARLPE AT WAS CREATED ON THE THIRD SAY OF HANUAHY OF TWO THOUSAND AN S FIFTEEN THERE IN ABSOLUTELY NO TH",
+   "readable": false
+  },
+  {
+   "name": "smokie 45c",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.344,
+   "method": "columns 2 (z=2.03)",
+   "reading": "FIN TEA T THESE TO LION ET WAT NET E DE RELY DE SENT IN GET ST WERE I ON I ACT THAN OF LE S IN E NO BO ME AS S THIS HRD THE IN SELL HEAR HE WINE HA RED OF TIE NUEE RISE OR TU RE AT",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b1",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.341,
+   "method": "step 19 (z=6.51)",
+   "reading": "APE DE D ILL ING HE OF LE UN ATE S NOTE FUN THAN DE FOR REST WE CO US EN AN AN IN AS OF ALL TO DALSSMOSTTHRESL IN GET HER THAN GETTING YOU TROCES THAT TO FAT IS THAT HTN IN",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b3",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.341,
+   "method": "step 37 (z=4.31)",
+   "reading": "T TE OTHER T PER HO RAG IN LA YES S TO T A SUN AT ERR EN TO S ALL TINDER BORE CWWHENIGI HAVE YE YOU S PEOPLE ND ALL R THEM O IN D DAVY ENTERS THE T HORN INCOME ME IOUFIRESUC",
+   "readable": false
+  },
+  {
+   "name": "smokie 11",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.324,
+   "method": "step 21 (z=3.19)",
+   "reading": "MPATISITIAC ONCE ARC LE REST ON Y NO MAN TO NOR ALICEESANEYTHAG EASE DAT ART EDRURNNETWI THE HE A BEGET ERE OF RE LL HE T AT IRE TO EN T TH OR SIGH THAT CAT IS ME SENT H",
+   "readable": false
+  },
+  {
+   "name": "Jarlve (multiple transcription rectangles, by rows, period 19)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.318,
+   "method": "as written",
+   "reading": "YYWHEINNEREAIRYAVE SAT SO ONE O RIMMED IN OF TE HELLS HO DEL BUT OSASTHOWACE IN THE T IN HERE AGREE A SET THINE L LOO T PART HAT MAR IT YOU DIE RS AGO HERE NT S AND NO E",
+   "readable": false
+  },
+  {
+   "name": "smokie 54b",
+   "length": 340,
+   "symbols": 61,
+   "coverage": 0.318,
+   "method": "columns 51 (z=1.53)",
+   "reading": "R TUNES SELF DERE TH ARE EH IT AS WHIT IN TAIMERRIVETEORMHNS HA THE EE AND WIN TO MA FEAT RE E A LT AND THOU T TIES OWEN ONE T INCH SEA SORT OR EGNANGHUNOSEN CAME SE OB",
+   "readable": false
+  },
+  {
+   "name": "Jarlve (multiple transcription rectangles, by characters, period 19)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.312,
+   "method": "as written",
+   "reading": "R A SLAP O STRAND HEMS IS THOU CANE LE S NO E ITS TONS NOT LI AN TECH AN AND ME TUG HIS NOT AS R AIR CELL I ON IT A READ BE PEA YES WENT S PERTH EALOTHHINSTERNEL FREE FOR H I",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b8",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.309,
+   "method": "columns 26 (z=2.4)",
+   "reading": "E O TH MAN HOLE DO ICE SENT OF ARE HA PIE D THEE ERE TH THE S LE SOW ARE OR DE SOON T IT IT THEN TBETEDTRAU LTRSTTLENERYTRETEC AT HOPE MADE NGT HERR A SHED TOE AS NO SETH",
+   "readable": false
+  },
+  {
+   "name": "smokie 38",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.306,
+   "method": "step 23 (z=1.28)",
+   "reading": "EARS P OR AS ST A STAND WATCEREHT HER SOLO OR H I GONE TIED A GOD W HALF AN COME ER TALITEEOASHOOHENY OF MA CARD EAT TE S ALARM ESSSTGISDITINE OFF THAR DUE LET T L IN A",
+   "readable": false
+  },
+  {
+   "name": "smokie 48c",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.306,
+   "method": "columns 10 (z=4.5)",
+   "reading": "N HIS AN EH A HATH WILL THIN VENT A IN EONERRNEDSTRESE LEE ANT A FOOT HIT EN THEN TE AND ME O L HE T GO WHERE R HUES ARE THIS TORE TTASLYFAIRAYTRA IS THMRMSTATINESSC",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b6",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.303,
+   "method": "as written",
+   "reading": "SNEANANHOODL ANDES T ERECT E BUT IT EUTESTOHEERREADIIM HAND ON PRE COLL OR D SOU ET OF ST A WAG THO THIN ALL ER O THE BE IN ETEDBYSIFMARRINSLI GATHER IT I ONE ANTS",
+   "readable": false
+  },
+  {
+   "name": "smokie 55a",
+   "length": 340,
+   "symbols": 59,
+   "coverage": 0.303,
+   "method": "columns 27 (z=1.49)",
+   "reading": "I IS H SPEECIEDIEUIRDATDL DMUIDENOOAUTISTSTR OUR ET INCH ET WHO SEE I LANE R TO BE TWAIN BE HAD SAY A BRIDE NT FREE NT AT THE OPNSBONEEDLITH HE A A USE T TENTH WE AT",
+   "readable": false
+  },
+  {
+   "name": "smokie 39",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.3,
+   "method": "step 7 (z=3.5)",
+   "reading": "WOSSATINTTOALMITT IN S SHALL THEIR I AND IT L OR SEE OR ET HANDS CASAGECOTUPLE HERE HERE ATE OUR E UN MEAN A BEEN PETF HEIR THE W MARCH SO ST A DE BOATS AS HOUCHLI AT",
+   "readable": false
+  },
+  {
+   "name": "smokie 44a",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.3,
+   "method": "columns 30 (z=1.9)",
+   "reading": "TEN SET A STEEL TO HAT ILORGIRE TONS A GROW TNOEIOWH ON BURST OSTSEORRMMAYPT IT ONES I GO TAGS A ROLY S IS S LA THE SAT TE RAY NATE NATE LIES E INTER IDEA H TONE OUST F",
+   "readable": false
+  },
+  {
+   "name": "Jarlve Jaws",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.291,
+   "method": "step 19 (z=4.26)",
+   "reading": "UDEFISSITURATNCTS ON HAND A GER BOAT OLOU IT ANNE WER S ME OF OR CH WAS TAPE DE NO O WERY RATE NE S ER TIED I AN TUNE E IN CRETE STAGES HER THOSE DISPECT ENDS NOT TABLE",
+   "readable": false
+  },
+  {
+   "name": "Mr lowe (diagonal + period column order)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.291,
+   "method": "as written",
+   "reading": "EBETHHEREOTLNN AND SO WELL AS IT A I MAN OIL LE OPEN BE O THEN CLESTEDRETTINSMAA WE ON YCTMITEALNOTL THREE AS TURIETYHBETHEOE FAINT NEAR TSIHCTATOYIESIDIA",
+   "readable": false
+  },
+  {
+   "name": "Zodiac 340",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.291,
+   "method": "columns 39 (z=2.34)",
+   "reading": "YBLEARISOKEHIRD THE D S TO SPOT NANTSREEYBESOHI SNORTS IN D THIS I HOLE LENWERINEEANTAAIDT DENT A STEED BE E ME RATE IN NEST IN ST SEAT I ONE TYFORETSOFEINT TO",
+   "readable": false
+  },
+  {
+   "name": "smokie 12",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.288,
+   "method": "step 19 (z=5.7)",
+   "reading": "ETC HE AIR S I WREST HOME ON MUEDERMINATH SEEM TH RIB E HE HE SHE WOOICIATEOFPYBLA CANT HEEL SIR OUR NTHALS AND AT NO BOARIENNONOSTET IT BAD LEAGANYASTORTSS IT",
+   "readable": false
+  },
+  {
+   "name": "smokie 13",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.288,
+   "method": "inverse step 19 (z=4.18)",
+   "reading": "L AH CARRY ON S IN HIGNAFRESLOISHIE ILL YLIMANMRFGRAINEECH BOUT NE S TOO HEM SEE EN S ART HE FOR RUST HID I DO E A LEWIS AN HE D TOUR ET I ON A L OUTRUN MEN TAETEEVESTH",
+   "readable": false
+  },
+  {
+   "name": "Jarlve 2015 challenge 1",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.285,
+   "method": "columns 3 (z=2.02)",
+   "reading": "TORRENT HE EN HER MT HA HE AN NUEE NTEREOTHAL ENTER N AS E ACRE A TRACT I TH TO ING TH THINE TO NOT BRTMOSAFLEMRE FOR EE MAST A I LESS HE WHO AS A TO ACTED O VEIN CUT TE S I",
+   "readable": false
+  },
+  {
+   "name": "Largo (mirrored)",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.285,
+   "method": "columns 5 (z=2.07)",
+   "reading": "AALWOMATIWIEAPODST IN LIGHI SUNDA THE HE EE ALE IN T OF FOOT A LOST SORT WHEEPTEEDESESST AS TANEITHURCRI ENTERS T I NAME THEE TILL EARTH ANTS FRGHTHREASPEOT",
+   "readable": false
+  },
+  {
+   "name": "Largo (split diagonal)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.285,
+   "method": "step 11 (z=1.83)",
+   "reading": "S AN TONE RE AH OR PRE MAY BATHE WIT I ON ALL I SAID SCIEDENSHERSILY DEEP TILL ERE TO COUTHENGNALTE TENT NOT TO FTFTHEETM IN AS T HAST HATCHES E LOW ST HUGE D EM O US I",
+   "readable": false
+  },
+  {
+   "name": "smokie 15",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.282,
+   "method": "columns 76 (z=2.24)",
+   "reading": "F RAIN T S TOWNS HO U MEN SORT TO BE TH S ER HE MAY SETS IN TEST HE C E SON IT WINE D AND HER IS AS PLAN I OWN T ND T HIE TO FLAG O IN TALL EH I SEE IN NEDRESEO FEW THAN OIL D NEW IT",
+   "readable": false
+  },
+  {
+   "name": "smokie 48a",
+   "length": 340,
+   "symbols": 58,
+   "coverage": 0.282,
+   "method": "step 3 (z=3.08)",
+   "reading": "U IN AN S LOO TH T SO THE LATE HARE EE S IS OR NOT PLACED OHIO OIAMPESMGLRELO SEE IT PATRND ICE THE T IRE A THAT DRAG THE GE N OLD CENT ELM A I A LINE HOW SILY TO AND HIT IN A",
+   "readable": false
+  },
+  {
+   "name": "smokie 55c",
+   "length": 340,
+   "symbols": 61,
+   "coverage": 0.282,
+   "method": "columns 40 (z=2.38)",
+   "reading": "N LE OF HOSE OUT SCTHERHIGNTOOOD THAT A P AT SAL S THEE IS UNHNSIONIG HELM I SENT S I IN AS THE I OR HDROACAATLESE ALL OWN HE COUEVO TO MORE T LESS WHO HAVE ST TH BROW I",
+   "readable": false
+  },
+  {
+   "name": "Largo (diagonal)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.279,
+   "method": "step 19 (z=3.06)",
+   "reading": "I WHALE M IT A LIT OR MAY FOR BED WAS TO NO A E EN HINT HE IN UNDER EADFERDANCYW IS THE RAN HATE LIE RIGHT T HAST S M U BUT TE READY WITH IRE R NOAH SEAL ME LSTATCHEENIDER",
+   "readable": false
+  },
+  {
+   "name": "smokie 45a",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.279,
+   "method": "columns 21 (z=2.7)",
+   "reading": "N CHIP UN LEE AT TENT TLEORALSC AND MY S SWEET ME A HAT IESSILEFRND HE AN HIGH TSNEIFIRSID ALL THIS THEN D A A EE THE NO S EASTER EFACHMERTHBETATECR IT T RE S OLD AS I",
+   "readable": false
+  },
+  {
+   "name": "smokie 51c",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.279,
+   "method": "columns 13 (z=1.82)",
+   "reading": "LAW LO THE URINDPRIDNTLIESW OUR ST T A THE A DE AS TORE IN D BETTER STYTIMFE WOOD ILL AND POST HELL LEE ROMNONTANTINCE IS OF THE TWAS I EE NO VERY DAR IS TERM ON RBNB",
+   "readable": false
+  },
+  {
+   "name": "smokie 54a",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.279,
+   "method": "step 23 (z=1.82)",
+   "reading": "RE I A BO SO EM AN S A CYSSHSTREASTUNDLEA THE EARTH OR T HAD G LONE DON H AN IN WHARDCASIABETRREE THAT WIT MINE CETAIREWEPTURET ARE EE A LESS E DE LIE EE BOAT OWEN A G",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b2",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.276,
+   "method": "as written",
+   "reading": "ESENUOINENDN THEM I OR ESEFU SEEN S WE ROBE N TO REAR PER LAKE HE SO LHSEENDDONOCD IS A IT T Y THE LIE SOW OF THE S A TELL SAID NO SHHOITTEOAYAMI THE OLD W S HERE E IRE A",
+   "readable": false
+  },
+  {
+   "name": "Jarlve (for Largo)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.274,
+   "method": "columns 51 (z=1.35)",
+   "reading": "TTERGELYREOH HER ERE I C LEE PIT TOES SOFAS PEA NAT GO O TE ON WAS HOSE D MACY TO STICALBEATDHN SAINT AN AT CEPARSHSEPTANSEGR ETHER THEE D AND A TEN WE TO ST SW HER U",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b5",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.274,
+   "method": "columns 4 (z=2.08)",
+   "reading": "O EN TORE HASTE NOR PIT HE EOHEAMSSSPRITLES MEAN ET OF HIS A NOT DIES THAT HE NT ISN OWNING SIDED T WIT O PATH A L OF COME THE EE THE LDLYEENEET TENS WHIRLS A THERE NE",
+   "readable": false
+  },
+  {
+   "name": "smokie 51b",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.274,
+   "method": "step 69 (z=2.62)",
+   "reading": "SFTINTYOFAGA SHINE D TIME OUT ON CREW HO IT T SACO NCLETENINLONMYSERS SE LA THE EALSERTHEARLYPOE SING IN T IRE AT HALT E S SAILER THE REAR NALBEARIESUMYLEASU",
+   "readable": false
+  },
+  {
+   "name": "smokie 53b",
+   "length": 340,
+   "symbols": 53,
+   "coverage": 0.274,
+   "method": "columns 15 (z=2.26)",
+   "reading": "YIORVEYFONATCSGUE AT ERR EDESHTESLLENTLENCE TO EASE MAID I EROSAINWARALOAALBO YE HERE NO B OH MORE T FIRM US H ST S THAT HITTITE D AND NO I IT T I NINE DONE TSCOU",
+   "readable": false
+  },
+  {
+   "name": "smokie 58",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.274,
+   "method": "columns 4 (z=2.36)",
+   "reading": "AN AS M US EVER IARNTHRE HE PILOT THE WE US T I ON TERISERESLYANCHHW DID ER WISE DAN OOTROSTALFOFALECT BUT BE FIVE OR NTDERSSAMEIEAAWATE ARE SHOT HSATEDISNNL",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b10",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.271,
+   "method": "columns 2 (z=1.89)",
+   "reading": "WNERSTTEDWITRE TO TEEPHAVIRY AN ONE D TO HE EH OR IT NEAT IO O THIN TOOL LIE WAS S FOE A ERE A CORN SECT P RISE HE AND A NO THY I TREE CO IT IT HO AS TO FOR GRIE TOWER I ME A I",
+   "readable": false
+  },
+  {
+   "name": "smokie 23",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.271,
+   "method": "columns 20 (z=2.93)",
+   "reading": "HDALARL OILS AFFECT WHALE AS TERPEARNTHAMO MASTED TOE LIT TE S A DETER NON S SE HE ROOM IN T ERE NO BE IS SNGTONRACAR ON TO FMIGNERIOEYTOHOH RED LION AT TORN S HAS",
+   "readable": false
+  },
+  {
+   "name": "smokie 51a",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.271,
+   "method": "inverse step 3 (z=2.34)",
+   "reading": "SMEOHAVIRDTHNERNE OR IF BOLSITTEASTCESSAG EARS S WE THIS ST AS EHEECTAL IT AT SHINE FIENTED CRESTS AND HERE FOR S ONE HEE AM I L ARE TIES T LO OF NAIL Y RAGS AT THE",
+   "readable": false
+  },
+  {
+   "name": "smokie 55b",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.271,
+   "method": "columns 6 (z=2.22)",
+   "reading": "LSEWEWOUNTUREE TO RANT IT NO ME MUNNC HATES A WAR TRAIT AHAB ST T ACT EN BE T I SAG I SEA LEG I ON G SORT H S THIS I DAM ERROR ODD OLEAHOSEEEHNTNOOA STEEL EDHH NIND SHE",
+   "readable": false
+  },
+  {
+   "name": "smokie 10",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.268,
+   "method": "columns 4 (z=1.72)",
+   "reading": "E US H HE ARE HERE HA NO ME ING AND SAY SHY SEAT AND PLETHOUODC HE SLID S ARE NOD HA ME D I AT OH EVER NLYSTTRO ONE MAIN O OH THE P LET SAVE SITES E LEE R NOON I ABLE S SIR RS C",
+   "readable": false
+  },
+  {
+   "name": "Largo (period 2)",
+   "length": 340,
+   "symbols": 62,
+   "coverage": 0.265,
+   "method": "columns 8 (z=3.06)",
+   "reading": "NNTCRWREN BE HE I SAID TON TO TH S HARD RALTHROTHOFHEEPT OF AT FRONT HE TO PEAR UTILEYOSILLGARNTHD IS SO SO MERE T TO INCH HE S OF THAN IALMINENNEISUREBOI SEA E A",
+   "readable": false
+  },
+  {
+   "name": "smokie (polyliteral transposition)",
+   "length": 340,
+   "symbols": 64,
+   "coverage": 0.265,
+   "method": "as written",
+   "reading": "I A LO ME SAKE THE W HE ENOUYRGRRBEINTELSS THEM OR ST IT A NUT DEAR UEFRENITY THE S PARENTS N IN WHO MADE RED IT EE NT SON THOSE E I A I I MR E A TORN A LAND IS THEE AND THEM",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b9",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.262,
+   "method": "columns 20 (z=2.49)",
+   "reading": "O LL ST T T SOME LITTER ELDHIGADNEANU SORT E MADE OETETERINT YET HO SO IN THOU T SHE SPLICTLER AWAY EAT HIM IARAITSSAFOUBRA ON THERE I THE G ERE HEAR LE S DEAR ET OF",
+   "readable": false
+  },
+  {
+   "name": "Largo challenge cipher",
+   "length": 334,
+   "symbols": 62,
+   "coverage": 0.26,
+   "method": "step 5 (z=2.29)",
+   "reading": "FBANIONSCHAMIL AT THORESENGANE INTO LE SHAN SABLE OF NE TH RIND IN D S OR O BEEN I ER S SADDLE ST SIT I LENS T DO HOAR OLDER I D G AND HER HE A US TH ITS NMASILLBLANINRA",
+   "readable": false
+  },
+  {
+   "name": "smokie 54c",
+   "length": 340,
+   "symbols": 58,
+   "coverage": 0.259,
+   "method": "columns 15 (z=1.93)",
+   "reading": "E SLAP OEOUTORRMCHIEWOUN OTHER MT IS T COFFER S IS THE W RE AT SOONER ET ERE DINT HEAL IN GAS ENTER DE AT HOW AT T I A IT OR IN E A DARE EAHLAUGENTHTHEIHIC A DINED OR WA",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b7",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.253,
+   "method": "columns 35 (z=1.47)",
+   "reading": "RTNT THE DE E IDLE SEISGEOILSAWSAFF AS AT THIN THE IS ERE MAN LA TO AT HOT ON IS TLEEVETAMEIFEYRI SO WERE TO FENDER E SAME O T BUT I HERO AH OR TH OF THIN SWHICS IN ERE",
+   "readable": false
+  },
+  {
+   "name": "doranchak (3 column keyed columnar transposition)",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.253,
+   "method": "step 19 (z=4.85)",
+   "reading": "ST THE TOW LA REAL RHETOADMANERVAL WAY FREE PELINGHTSHETRAOHNT IT GO TO AT TURETOOSSENGALIANS TENOUR LINGLANCASIESA TROD AN IT NCTGAMOO AT IF HERE A AN E S I",
+   "readable": false
+  },
+  {
+   "name": "smokie 14",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.253,
+   "method": "columns 13 (z=3.2)",
+   "reading": "OEISTEW IS TEN WITT IN STEM ON TE REN HARTO SEAT NEED EAT HAP ROT OPIONTEETITTHEDLYA RAN IN A THEIR OF ACHE EE ET SNARE ER PIN TEN IRE E BOOK E D SEAT TEA HOT RE WHAT H",
+   "readable": false
+  },
+  {
+   "name": "smokie 53c",
+   "length": 340,
+   "symbols": 52,
+   "coverage": 0.25,
+   "method": "columns 4 (z=2.25)",
+   "reading": "I DTRONRNSHENTMELARL IN A NO L RAN AT ERE NCHTIATEAFIC ON STEM IGNONDTHERTY WELL OVER YE LENHUIOPAATYA NAIL GDWNWI THESE TO A LIVES AND MY RS THEIR MOFSPIETR",
+   "readable": false
+  },
+  {
+   "name": "smokie 9",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.25,
+   "method": "columns 14 (z=2.08)",
+   "reading": "TDISTITSRATBRETEEM SHE N ASHES S ER SIGNED F ER ILE ONE D MR COTTON EH APE TRAIN TO UNGAHGDHSTSLEADN EYE SHOAL TIME ESWOENDUSLY THEY TIMES S IN AT CONDOR N I ERE",
+   "readable": false
+  },
+  {
+   "name": "Jarlve 441",
+   "length": 441,
+   "symbols": 63,
+   "coverage": 0.247,
+   "method": "inverse step 19 (z=3.86)",
+   "reading": "ILUTI AS AROSE SHTOOURPOILELHELTR A TIDY S A IT IT ONES S NO IHNRSTHISENGTOOEB OTHER I SO DRAT IS HE H I ON IN T TALLY GLAILAYUCHDIIAAD HORN T RE O REFER Y TO BE DEN",
+   "readable": false
+  },
+  {
+   "name": "smokie 45b",
+   "length": 340,
+   "symbols": 65,
+   "coverage": 0.244,
+   "method": "columns 17 (z=2.19)",
+   "reading": "RRESHEADFALHOVEEEA THAN I SO I D S OF NO INTENT TO MA THEN HTHERSSENCONDERNA LID NET HER ILL NEVEDELECONDERSUEL LL INGIN BORIOGH WHAT HE A IS ERIORESSCETTAB",
+   "readable": false
+  },
+  {
+   "name": "Jarlve b4",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.238,
+   "method": "columns 3 (z=2.24)",
+   "reading": "E S STAY ER MINGWASTMASULTYNAO IN TRI ME D TO BEAR HE ACEPLUMRAFF THE THEE T IT LADEN HERE S TEN ILE IN FUD CHOOSE REAGAREHEITYF HIS S S HIT DO US T OR THERE OPITEOS",
+   "readable": false
+  },
+  {
+   "name": "smokie 48b",
+   "length": 340,
+   "symbols": 63,
+   "coverage": 0.238,
+   "method": "as written",
+   "reading": "E A E AS OLD ON GSSISITLYACEE EASE THE LA NT LAR NEED STILL O I BE RRAINAPARDDISRNE THESE SCHUNAH IN S I SEE TEN RE HOLE FIT A THE BUT H SET TO FOUNTOONGCONSTRE ANT T",
+   "readable": false
+  },
+  {
+   "name": "smokie 53a",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.238,
+   "method": "as written",
+   "reading": "S N US ONE T AS T LET SEEN ALRNSTENOEEIDR IT HTEDERSUIAIOUSUH HUNCH A IT TSMORATMOD IN HE EN HIES TO FTREASTHAERMATILE REST R HOLY S AS NO U AWE A TEST THE CRANDSH",
+   "readable": false
+  },
+  {
+   "name": "smokie 44c",
+   "length": 340,
+   "symbols": 45,
+   "coverage": 0.235,
+   "method": "as written",
+   "reading": "A MOON AGES NYOULDHAISOOHHT SHE AN CESSNTT WORSE TEN LI TIES S FRIEND HIST LENT OS M I OWED S HEARD EOADATLOFANHISEISF DO TO A O ONE IT SOLE AT HPHYETRESETEROMA",
+   "readable": false
+  },
+  {
+   "name": "smokie 47b",
+   "length": 340,
+   "symbols": 48,
+   "coverage": 0.232,
+   "method": "inverse step 21 (z=1.9)",
+   "reading": "ME FWHCSS WAS IN SUCH ETEMPSAIDEEATW OF ON IF DID CAN CHIN HOLE DID LERNIC CORN HOO THE DINT HTATLIEFLAINIDAI LAY BE THE NO HE EACTTTYNMHELIALOO LET TO UN D THE",
+   "readable": false
+  },
+  {
+   "name": "glurk 2015 challenge 2",
+   "length": 357,
+   "symbols": 63,
+   "coverage": 0.23,
+   "method": "as written",
+   "reading": "RE AND SHE ENMOESSHOPPERMA THIS LEE R FAR S MOST HE YON S US PER H T I LINT I NET THE SHONPNRHIVE DINT AT IS L HAND DE D WHAT NINE CTLYCOY OF I TWO INTO THING H T ERE RS IN",
+   "readable": false
+  },
+  {
+   "name": "smokie 56b",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.229,
+   "method": "columns 32 (z=2.07)",
+   "reading": "G AN HE OMEN OR D TE SAT HATES EAR O OUGHT I E NO TH MY PAVE EN GONE N TINT HER A SHE HIE ROD SEEN EM TOO TELYLOSOODE IS I THAT Y LITTLE E ER READ HE T AT CAST YAEDOC ITS ITS I",
+   "readable": false
+  },
+  {
+   "name": "smokie 50b",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.224,
+   "method": "columns 2 (z=2.76)",
+   "reading": "ESIURTEIWORTSATNH ST AT RE HE O E S ME HE SHIRE CHTATTHNDENEM POOR TO I GHTHLEETHONLEIIOHS TCRIEVENHATATEDEMB ERIE LEST EN DIVER A LOG A IN NEST OSESMNCEH US",
+   "readable": false
+  },
+  {
+   "name": "smokie 44b",
+   "length": 340,
+   "symbols": 46,
+   "coverage": 0.221,
+   "method": "step 11 (z=1.75)",
+   "reading": "C RING THAT SLOONTITYSNSS OF SORT HIS OOTSTSTIV EAST IT AN TTIRETATFOLEFETEMN YEAST NE THEM WE UN DE TETE ER CAVE NATIOITTHIRLLCHRM HE AND M AS A IN LID A RS BE S",
+   "readable": false
+  },
+  {
+   "name": "smokie 56a",
+   "length": 340,
+   "symbols": 60,
+   "coverage": 0.218,
+   "method": "columns 2 (z=2.81)",
+   "reading": "BE O OF LA SAT S S HARD IS LIT YE OR OWAISHLYORO SEER SEEM A NOT LE CON SING AH IT HAD E I SET HIND I HA THESE DSTED IN HASTY TO WDOBLETMPREALO AND GRETIMOUITLELORN IN",
+   "readable": false
+  },
+  {
+   "name": "smokie 50a",
+   "length": 340,
+   "symbols": 42,
+   "coverage": 0.212,
+   "method": "inverse step 3 (z=1.64)",
+   "reading": "NGTETOMORENENTE EAST AN DEAR AT RE S NOT WSH OR HEAD E MADE NET L ARE HE DO NO ET A I SEE ART EENFNESNTRRTW THIS GO LEG SEE HAH FAR LYE ST DIE SHE IEENOLDSTGL ONES S TO",
+   "readable": false
+  },
+  {
+   "name": "smokie 56c",
+   "length": 340,
+   "symbols": 56,
+   "coverage": 0.212,
+   "method": "columns 26 (z=1.15)",
+   "reading": "E EN AN IN ESTETTOENESSOULRNT WORDS E ST S S A DE AND D I AT HATH BE I TH THE EPTNPITSTE ON IT YE AY OWN S TREAD RUWGEMENTSYLLSSRE SURE YMBOTTOAERSILECI STOP AND HL",
+   "readable": false
+  },
+  {
+   "name": "smokie 50c",
+   "length": 340,
+   "symbols": 44,
+   "coverage": 0.2,
+   "method": "step 9 (z=1.63)",
+   "reading": "NBTLENSREEE TEAR TIS CEMUT TOO S EVER LL DE FISH ER TUNE T S TO CO AN E S SIDE E DO BE VAIN HYC AT HERD RAD US DEEOODMASTUNLE WILL AS LBHOLEEPTERSSTRO TEN A TO AOPETE",
+   "readable": false
+  },
+  {
+   "name": "smokie 47a",
+   "length": 340,
+   "symbols": 41,
+   "coverage": 0.194,
+   "method": "step 7 (z=1.54)",
+   "reading": "HE DE S RE MT HA HER MEN BEEN IODRIESLAI ART I AN RHGLIOLM THE EDTHAIDPOTEADEHHRE EARS S A PAIN ME ADENOHRSNAGEDWOAL HIS A I STAY EH NOT Y O FAR OR HE THEE T AN GUN RE",
+   "readable": false
+  },
+  {
+   "name": "smokie 47c",
+   "length": 340,
+   "symbols": 42,
+   "coverage": 0.188,
+   "method": "columns 2 (z=1.93)",
+   "reading": "ST RLRCHIVETWASEHITHD RE NOON RREMATLADTRANNSHEN A I ILL HANEEHERTYSHEWT SEEN EDNFUEPHORATTRELT DE HOOT S LEES S IN DE HE SACRGHS IN HAS ON T T DO A I ET S S TEA",
+   "readable": false
+  },
+  {
+   "name": "smokie 46a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.156,
+   "method": "columns 2 (z=1.66)",
+   "reading": "TRLNERSY BEST NO EUCUOENPATELY OR AS ETC HE EAEPNEGAROMWHA MAD ALSO IN TEDERTPCULEDSGU ERIE SIR OAHETIFIELI LOSE AS REND EBDIUIAEEIOO HAVE RYETRROUCONX",
+   "readable": false
+  },
+  {
+   "name": "smokie 49b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.153,
+   "method": "columns 3 (z=1.66)",
+   "reading": "NBNEMIVECLM GLUE OTFRIESRFSLTTRENR SALKEOSILIHTFUIRTN HIS OS CSFTONCOLRGTSOCONU ME DE BROOK FIINTNCFVTCSY TIES TYGCPURTISNNN EATING AYSNAKUUDW TO",
+   "readable": false
+  },
+  {
+   "name": "smokie 43c",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.138,
+   "method": "columns 3 (z=2.0)",
+   "reading": "EM ANY ABIIDERNREO AM BLEW NRLEMISHDANDRH HAS LED S DE O THE TTJSTAEEEINLNBKS BE GAMY SO ANY GNEDMEENDMNNHPHMGP EBB PPPRETAGRMGLAEOOEE FA SCUD I OF P OR O OR",
+   "readable": false
+  },
+  {
+   "name": "smokie 42",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.135,
+   "method": "as written",
+   "reading": "EQDIARGSNNSHATYS OF TEA DIS GRIFCOULASUEWBENN SHLHTSBTRWHNOMSWMO IT UNO NO O BY AM LET MLSYMYSILLHORTE WIFE VILIRIETRNL BRIT THIS STEAAFWYSAMIDOROTB",
+   "readable": false
+  },
+  {
+   "name": "smokie 43b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.135,
+   "method": "columns 5 (z=1.59)",
+   "reading": "ADDS A SAP ALSCLAIETIMOSIDZNY WAIT OR T REST E TO S MASS NGLAHRYORLABAOFWA THEE A COOL BOIWNIDDOPOWNAWHI AM VEST RAUMSNEONATMVAMNVD GMSLAZWTATEAOEXERZ",
+   "readable": false
+  },
+  {
+   "name": "smokie 41",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.126,
+   "method": "as written",
+   "reading": "ZHMOBCEOFCYQGOANND TAIL OR AESIAGREDIAIIE BE SABEOOROAMNHN LOAF UBIAHIGESHSWUBGNNL IF NECHNAFWBTNCYOREOS TO HARE ETAWATHHTIEMEWTE ON WKHORNQULIC",
+   "readable": false
+  },
+  {
+   "name": "smokie 46c",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.126,
+   "method": "step 9 (z=1.75)",
+   "reading": "S S SONS YOWAYAWKR SO OR TO SEPEOUOUSRIRE JUST FATE ODD YRRBUTSHMEPINENBYT S TO IDRLARIVCOMFLJNE IS SAVING OR NDOEDSOAHSPOPEAEE MR T STRSEBAOUALIUHATUU",
+   "readable": false
+  },
+  {
+   "name": "smokie 49c",
+   "length": 340,
+   "symbols": 25,
+   "coverage": 0.126,
+   "method": "columns 5 (z=1.49)",
+   "reading": "EIIHTSELHNTNRHUD IF YPTHSFOOAQC SIR UUREHYHHZTSOLY HOSE WEE ING WE V ERECTLY NE L ST S AM IS UP NEXT AUGNALSANNBEGDE TOWER REONAHGRN FEET CTGOFSINYWRESNP",
+   "readable": false
+  },
+  {
+   "name": "Tiago Rodrigues CT2",
+   "length": 294,
+   "symbols": 22,
+   "coverage": 0.122,
+   "method": "columns 8 (z=1.74)",
+   "reading": "SHTRNSSROAOD NEAR A DO AS TNEDTAAROCUIALIDR FELT DAY DEANRIETSS DUE OF FIRSENEODDSULKLLLU LAY DTATOTDTMSINYTDYST FEET AT THSTRPZYIWTSLPL US IS IS AS C A",
+   "readable": false
+  },
+  {
+   "name": "smokie 43a",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.112,
+   "method": "columns 26 (z=1.61)",
+   "reading": "ETLTHFSSBEFANL AT POLANILKTBYEBHCLI AWAPUPLEBLBTNBLAIM AS IWREOFSSEOLONSH BE HIS ARIVABFTIEOFIE LAST RHCNTA THEY TRQTNNFSNHSH IT TAFESLEWEEELSJG",
+   "readable": false
+  },
+  {
+   "name": "smokie 52c",
+   "length": 340,
+   "symbols": 22,
+   "coverage": 0.112,
+   "method": "columns 14 (z=1.68)",
+   "reading": "AAEAIDEYCEYETTYAD OUGHT DE YET TECTEHETTIYTEURGN YOU NE SHE RCNIIBRSDEGLSSOET HSNSBORIESHDSGSEDB YELL BURST WILT F AYE PETIWOEBUOTANIVNGA SOU ERR IN",
+   "readable": false
+  },
+  {
+   "name": "smokie 52b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.109,
+   "method": "columns 16 (z=2.58)",
+   "reading": "DESSANTMXHNCERM AT RE TO MBEYIKSHADRDANE BORE IXXIWNELEMRGTHUTHR DO I LEE WEE I EEL REAP LYRECHWSVAL HE OR IN SHE WCTUNHAEANTIHCPHR ELDHGHEEPTNVADRKNA",
+   "readable": false
+  },
+  {
+   "name": "smokie 46b",
+   "length": 340,
+   "symbols": 24,
+   "coverage": 0.106,
+   "method": "columns 2 (z=1.73)",
+   "reading": "TLSEARTAHFIRHEEO IS CLFIMPDLNOOTCECU MAD TLDDCICECARPWGTHRA ESHTAIDAALPIREIBTD IS IMSILYTORTHS HILL AADWAEIICBSBWITLRT MR AN AOBOWALEPESTETTEI",
+   "readable": false
+  },
+  {
+   "name": "smokie 49a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.106,
+   "method": "inverse step 3 (z=1.68)",
+   "reading": "PSEUADEWA AN TOWN NALGJAWDLENTC GOAL ERE YET THE O LEG NARRIBSCTSTYDREASU TECH ART EE S AN IS RGDODLBHNHDWSEGSSE RVOODYESFLTDEYETAW YOUR T THE T ME OF PRRL",
+   "readable": false
+  },
+  {
+   "name": "smokie 40",
+   "length": 340,
+   "symbols": 21,
+   "coverage": 0.1,
+   "method": "columns 8 (z=1.71)",
+   "reading": "ECDIPPASMALNES DEN LO AS UOUSEHESDRILKLCTP NEST US SO EAST OEPENALSASESSTE POST NO YLYEPTTOOTNTSTEO CREEAHSSTHCPYECEEE HE ER OR T SHIRE SIBWNAPPRILEL",
+   "readable": false
+  },
+  {
+   "name": "smokie 52a",
+   "length": 340,
+   "symbols": 23,
+   "coverage": 0.074,
+   "method": "as written",
+   "reading": "IMQUEHALLMERSIEDI BFNNSEVEITTALINDDI EARS BNEDDOLERJUSENNTM URTEBPDYSSIWRTOWIH HE I EN NDYQUDHLDEUFDHLGWA NOW FURL MDSPUNEOOLRDND HOW AS BOIQYAL",
+   "readable": false
+  }
+ ],
+ "combined_readable": 0,
+ "combined_total": 84,
+ "bigram_rows": [
+  {
+   "name": "Navy test problem 1",
+   "length": 260,
+   "coverage": 0.488,
+   "shift": 0,
+   "reading": "NT HER THE RING THE RING THERE T HER THE THE RED IN THERE S THERE AT THE THERE T HER T HER HER T HER T THE THE S THERE AT THERE S OF THERE THE THE THE D THERE INGIN THERE TH",
+   "readable": false
+  },
+  {
+   "name": "Klaus Schmeh Bigram 1000 challenge",
+   "length": 1000,
+   "coverage": 0.456,
+   "shift": 1,
+   "reading": "HE AT IN T OTHER THE RED THE RED THE RED THE THERE A THERE THERE SHE HER THE IN THERE S OF THE THERE T HER THERE THE IN T HER T HER THERE T THE RED THE RESENT HAT T HER T HER",
+   "readable": false
+  },
+  {
+   "name": "Klaus Schmeh Bigram 1346 challenge",
+   "length": 1346,
+   "coverage": 0.454,
+   "shift": 0,
+   "reading": "TH TH A TENTH RE THE NO THE TH THERE S THAT HE ST THAT E NO THE THERE R THAT RE SETH HE ER IN TH HE A THE ER THE S THE ARE THAT ER A TH T HER THERE THAT THE RATE R T HER TO THAT TH",
+   "readable": false
+  },
+  {
+   "name": "Klaus Schmeh Bigram 600 challenge",
+   "length": 600,
+   "coverage": 0.444,
+   "shift": 1,
+   "reading": "N THE THAT T HER THAT THAT THERE IN THE THE SOFT HER THE SOFT HER THERE S THE T HER THERE THAT THERE A TH THE RED THAT T HER THE IN THE RED THE RED THE RING THERE THERE TH",
+   "readable": false
+  },
+  {
+   "name": "Klaus Schmeh Bigram 750 challenge",
+   "length": 750,
+   "coverage": 0.43,
+   "shift": 1,
+   "reading": "HE S AND THE RING THERE THAT THAT THE THERE WAS THERE THE RED T HER THERE THE RED THE THING TO THE RED THAT HER ERE THERE AT THERE FOR THERE AND A THE THE RAT ING T HER T",
+   "readable": false
+  },
+  {
+   "name": "Navy test problem 2",
+   "length": 332,
+   "coverage": 0.386,
+   "shift": 0,
+   "reading": "ER THAT HER THERE T HER THE T HER THERE THE RED THE REST HER THE HE RED T HER T HER THAT HERE T OTHER TH THE THE RED THERE T HER THAT THAT THE S THE S THERE S OF THE THERE TH",
+   "readable": false
+  }
+ ],
+ "bigram_readable": 0,
+ "runtime_s": 261.3
+}

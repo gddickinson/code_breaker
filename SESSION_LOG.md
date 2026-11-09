@@ -105,3 +105,6 @@ Added Community links (26 checked), Puzzles (3D Rubik's cube with Kociemba solve
 ## 2026-11-09: Round 18 and user requests
 Otsu thresholding plus a character whitelist recovered 16 of 56 known ads, against 14. Merged with earlier OCR across all ads: 641 tested, control 15 of 56, 13 flagged, including the KP ad automatically and a new ad by writer 5 (24 Dec 1882).
 Added camera and photo reading for the cube and sudoku, Codes in Nature with a genetic-code translator and waggle dance model, seven more puzzles (Mastermind, Lights Out, sliding tiles, Hanoi, N-Queens, Knight's Tour, Nonogram) and Learn to Solve guides. Solvers and quoted algorithms are tested.
+
+## 2026-11-09: Round 19 complete
+Period detection from repeated pairs found all 6 planted transpositions, and 5 were solved at 93-99%. None of the 84 AZdecrypt combined benchmark ciphers reached readable coverage. The bigram solver failed its control (4-16%) at every setting tried, so it is parked. Next: Round 20.

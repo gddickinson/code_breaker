@@ -45,7 +45,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 16 | Benchmark on 170 AZdecrypt ciphers; rescan of stored attempts (animated bombe deferred) | completed 2026-11-09 |
 | 17 | Le Figaro non-table systems: mirror, alternate word Caesars, letter insertion, rail, five-column (no new readings) | completed 2026-11-09 |
 | 18 | Le Figaro OCR cleanup tested on known answers; Otsu chosen | completed 2026-11-09 |
-| 19 | Combined substitution and transposition search with the repeat-pair statistic; bigram solver; per-ad choice of OCR version without using coverage alone | next |
+| 19 | Period-step search for combined ciphers (controls 5 of 6, benchmark 0 of 84); bigram solver (control failed, 4-16%, parked) | completed 2026-11-09 |
+| 20 | Le Figaro: per-ad OCR choice that does not rely on coverage alone, French n-gram scoring for tied ads, number-code ads where the codebook is public (Brunswik, Louis); combined benchmark needs irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -107,6 +108,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - Merging two OCR versions by best coverage slightly lowered the control (15 against 16 for Otsu alone): picking the most readable output can favour a wrong reading.
 - Improving the input beat adding more cipher systems.
+
+- Planted single-step transpositions are much easier than real benchmark ciphers: a passing control does not mean the method generalises.
+- Bigram search over 676 values per symbol overfits at 1,000 letters; penalising letter frequencies did not rescue it.
 
 ## Emergent tasks
 | ID | Note | Status |
