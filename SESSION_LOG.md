@@ -136,3 +136,6 @@ Checked all 7 machine-only digit-table leads against their scans; all are real c
 ## 2026-11-09: Round 25
 Tested the AIM dictionary code on the 1860 Landais Petit dictionnaire from archive.org. On four solved ads, 19 of 27 published words sit at their references, against a random mean of 0.09 and maximum 2. Both unsolved AIM ads are partly read and recorded as candidates. The dictionary source files are not committed. Irregular transpositions moved to Round 26.
 
+## 2026-11-09: Round 26
+Read the five remaining solved AIM scans, adding 25 known references. An automatic page-image entry counter failed its control (12 of 52 exact) and is parked. Counting by eye reproduced the 4 known positions checked. The 20 Jan 1882 ad now reads as a coherent message about frost and hunting, and the 16 Feb 1882 ad is further read. Both remain candidates. Blank-cell inference and irregular transpositions moved to Round 27.
+The OCR-based dictionary control on the enlarged set is now 44 of 54 published words at their references (random mean 0.22, maximum 3).

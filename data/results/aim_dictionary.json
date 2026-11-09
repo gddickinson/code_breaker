@@ -1,8 +1,8 @@
 {
  "id": "aim_dictionary",
  "control": {
-  "pairs": 27,
-  "hits": 19,
+  "pairs": 54,
+  "hits": 44,
   "misses": [
    [
     317,
@@ -51,10 +51,22 @@
     "L",
     22,
     "chaud"
+   ],
+   [
+    163,
+    "R",
+    17,
+    "demi"
+   ],
+   [
+    319,
+    "R",
+    14,
+    "jusque"
    ]
   ],
-  "null_mean": 0.09,
-  "null_max": 2
+  "null_mean": 0.22,
+  "null_max": 3
  },
  "unsolved": {
   "1882_18820120-AIM.jpg": {

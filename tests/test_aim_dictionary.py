@@ -24,10 +24,21 @@ def test_near_uses_tolerance_and_exact_short_words():
 
 def test_references_are_recorded_with_a_source():
     d = json.loads(D.CONTROL.read_text())
-    assert "solved AIM scans" in d["source"] and len(d["pairs"]) == 27
+    assert "solved AIM scans" in d["source"] and len(d["pairs"]) >= 27
     assert set(d["unsolved"]) == {"1882_18820120-AIM.jpg", "1882_18820216-AIM.jpg"}
 
 
 def test_recorded_control_beats_random_locations():
     c = json.loads((ROOT / "data/results/aim_dictionary.json").read_text())["control"]
     assert c["hits"] >= 0.7 * c["pairs"] and c["null_max"] <= 3
+
+
+def test_eye_counts_record_known_checks():
+    e = json.loads(D.CONTROL.read_text())["eye_counts"]
+    assert len(e["checks"]) == 4 and e["readings"]["163a.17"] == "Demi"
+    assert e["readings"]["102.2"] == "Chasse"
+
+
+def test_parked_counter_result_is_recorded_honestly():
+    c = json.loads((ROOT / "data/results/aim_pages.json").read_text())["control"]
+    assert c["pairs"] == 52 and c["exact"] < 0.7 * c["pairs"]

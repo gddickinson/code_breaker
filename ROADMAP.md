@@ -52,7 +52,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 23 | Sweep of 32 mixed and 11 numeric documented tables over 1,257 unsolved ads; 9 of the best readings checked by eye | completed 2026-11-09 |
 | 24 | All machine-only digit leads checked against scans; decoder for numbers with clear letters (planted 40 of 40, junk 0) | completed 2026-11-09 |
 | 25 | AIM dictionary code on Landais 1860: 19 of 27 published words at their references (random mean 0.09); both unsolved ads partly read | completed 2026-11-09 |
-| 26 | Read exact AIM entries from page images and interpret the letters between references; infer blank table cells with held-out checks; irregular transposition models | next |
+| 26 | AIM: 25 more known references from solved scans; automatic entry counter parked (12 of 52 exact); key entries counted by eye; 20 Jan 1882 ad read | completed 2026-11-09 |
+| 27 | Infer blank table cells with held-out checks; group ads by writer and table; irregular transposition models | next |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -178,4 +179,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 - A named book makes a dictionary code testable: known solutions pin the edition, the leaf offset and the column rule before any unsolved ad is touched.
 - OCR entry counts drift, so a tolerance is needed for lookup. Exact entries need the page image (163a.17 = Demi, 258a.17 = Gelee).
 - Eight control misses: short words such as je and pas, and columns the OCR lost (575a, 163a).
+
+## Added 2026-11-09: Round 26
+- The flush-left counter failed its control (12 of 52 exact, 19 within one), so it is parked. Line segmentation and OCR of single lines were both unreliable.
+- Counting by eye is slow but reproduced every known position tried, so it is the method for the few references that matter.
+- Small letters between AIM references look like nulls: the same pattern appears in solved ads where the database only supplies editorial words.
 
