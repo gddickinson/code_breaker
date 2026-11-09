@@ -1,0 +1,201 @@
+{
+ "id": "classifier",
+ "classes": 41,
+ "train": 13120,
+ "test": 2050,
+ "gpu_seconds_2_epochs": 3.9,
+ "cpu_seconds_2_epochs": 21.6,
+ "top1": 0.622,
+ "top3": 0.8049,
+ "family": 0.861,
+ "per_class": {
+  "a1z26": 1.0,
+  "adfgvx": 1.0,
+  "adfgx": 1.0,
+  "affine": 0.2,
+  "amsco": 0.82,
+  "atbash": 1.0,
+  "autokey": 0.42,
+  "baconian": 1.0,
+  "beaufort": 0.18,
+  "bifid": 0.7,
+  "caesar": 0.36,
+  "chaocipher": 0.14,
+  "checkerboard": 1.0,
+  "columnar": 0.4,
+  "double": 0.12,
+  "enigma": 0.38,
+  "foursquare": 0.74,
+  "grille": 0.96,
+  "gronsfeld": 0.2,
+  "hill": 0.32,
+  "homophonic": 1.0,
+  "jefferson": 0.2,
+  "morse": 1.0,
+  "myszkowski": 0.2,
+  "nihilist": 1.0,
+  "playfair": 0.72,
+  "polybius": 1.0,
+  "porta": 0.36,
+  "quagmire": 0.2,
+  "railfence": 0.22,
+  "rot13": 1.0,
+  "route": 0.62,
+  "scytale": 0.12,
+  "substitution": 0.9,
+  "tap": 1.0,
+  "trifid": 0.96,
+  "trithemius": 0.74,
+  "twosquare": 0.62,
+  "variant": 0.46,
+  "vigenere": 0.28,
+  "plaintext": 0.96
+ },
+ "autobreak_trials": [
+  {
+   "cipher": "a1z26",
+   "identified": "a1z26",
+   "recovered": 1.0,
+   "top_system": "A1Z26"
+  },
+  {
+   "cipher": "adfgvx",
+   "identified": "adfgvx",
+   "recovered": 1.0,
+   "top_system": "ADFGVX"
+  },
+  {
+   "cipher": "adfgx",
+   "identified": "adfgx",
+   "recovered": 0.996,
+   "top_system": "ADFGX"
+  },
+  {
+   "cipher": "affine",
+   "identified": "playfair",
+   "recovered": 0.005,
+   "top_system": "Playfair"
+  },
+  {
+   "cipher": "amsco",
+   "identified": "amsco",
+   "recovered": 1.0,
+   "top_system": "AMSCO"
+  },
+  {
+   "cipher": "atbash",
+   "identified": "atbash",
+   "recovered": 1.0,
+   "top_system": "Atbash"
+  },
+  {
+   "cipher": "autokey",
+   "identified": "vigenere",
+   "recovered": 1.0,
+   "top_system": "Autokey"
+  },
+  {
+   "cipher": "baconian",
+   "identified": "baconian",
+   "recovered": 1.0,
+   "top_system": "Baconian"
+  },
+  {
+   "cipher": "beaufort",
+   "identified": "variant",
+   "recovered": 1.0,
+   "top_system": "Beaufort"
+  },
+  {
+   "cipher": "bifid",
+   "identified": "bifid",
+   "recovered": 1.0,
+   "top_system": "Bifid"
+  },
+  {
+   "cipher": "caesar",
+   "identified": "affine",
+   "recovered": 1.0,
+   "top_system": "Affine"
+  },
+  {
+   "cipher": "checkerboard",
+   "identified": "checkerboard",
+   "recovered": 1.0,
+   "top_system": "Straddling checkerboard"
+  },
+  {
+   "cipher": "columnar",
+   "identified": "myszkowski",
+   "recovered": 1.0,
+   "top_system": "Myszkowski"
+  },
+  {
+   "cipher": "enigma",
+   "identified": "jefferson",
+   "recovered": 1.0,
+   "top_system": "Enigma I"
+  },
+  {
+   "cipher": "grille",
+   "identified": "grille",
+   "recovered": 1.0,
+   "top_system": "Turning grille"
+  },
+  {
+   "cipher": "gronsfeld",
+   "identified": "porta",
+   "recovered": 1.0,
+   "top_system": "Gronsfeld"
+  },
+  {
+   "cipher": "hill",
+   "identified": "porta",
+   "recovered": 1.0,
+   "top_system": "Hill"
+  },
+  {
+   "cipher": "homophonic",
+   "identified": "homophonic",
+   "recovered": 0.994,
+   "top_system": "Homophonic substitution"
+  },
+  {
+   "cipher": "jefferson",
+   "identified": "chaocipher",
+   "recovered": 1.0,
+   "top_system": "Jefferson wheel"
+  },
+  {
+   "cipher": "morse",
+   "identified": "morse",
+   "recovered": 1.0,
+   "top_system": "Morse code"
+  },
+  {
+   "cipher": "myszkowski",
+   "identified": "route",
+   "recovered": 0.029,
+   "top_system": "Rail fence"
+  },
+  {
+   "cipher": "nihilist",
+   "identified": "nihilist",
+   "recovered": 1.0,
+   "top_system": "Nihilist"
+  },
+  {
+   "cipher": "playfair",
+   "identified": "bifid",
+   "recovered": 0.038,
+   "top_system": "Playfair"
+  },
+  {
+   "cipher": "polybius",
+   "identified": "polybius",
+   "recovered": 1.0,
+   "top_system": "Polybius square"
+  }
+ ],
+ "autobreak_solved": 21
+}

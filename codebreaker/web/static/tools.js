@@ -8,7 +8,12 @@ function freqBars(obs, exp) {
 
 route(/^\/workbench$/, async () => {
   view().innerHTML = `<h1>Workbench</h1><p class="lead">Paste any ciphertext for a statistical profile and a best guess at the system.</p>
-    <div class="panel"><label for="t">Ciphertext</label><textarea id="t"></textarea><button id="go">Analyse</button></div><div id="o"></div>`;
+    <div class="panel"><label for="t">Ciphertext</label><textarea id="t"></textarea><button id="go">Analyse</button><button id="ab" class="alt">Autobreak</button></div><div id="abo"></div><div id="o"></div>`;
+  $("#ab").onclick = ev => busy(ev.target, $("#abo"), async () => {
+    const r = await api("/autobreak", { text: $("#t").value });
+    $("#abo").innerHTML = `<div class="panel"><h3>Autobreak</h3><p class="mute">${esc(r.note)}</p>${r.guesses.length ? `<h3>The network's guesses</h3>${table(["System", "Probability"], r.guesses.map(g => [g.name, `${Math.round(g.probability * 100)}%`]))}` : ""}
+      ${r.best ? `<h3>Best reading: ${esc(r.best.cipher)}</h3><pre>${esc(r.best.spaced)}</pre>${table(["System tried", "Word coverage", "Score"], r.results.map(x => [x.cipher, `${Math.round(x.coverage * 100)}%`, x.score.toFixed(2)]))}` : ""}</div>`;
+  });
   $("#go").onclick = ev => busy(ev.target, $("#o"), async () => {
     const r = await api("/analyze", { text: $("#t").value });
     const periods = [...r.periods].sort((a, b) => b.ic - a.ic).slice(0, 6);

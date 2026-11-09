@@ -17,7 +17,7 @@ Never type a ciphertext from memory; extract it from a recorded source and add a
 | R5 | Tamam Shud: mnemonic search of known texts with fuzzy letters | Null-calibrated search across large corpora | completed 2026-11-09 | Six books, best p 0.12, none significant; planted control found |
 | R6 | Kryptos K4: layered models, autokey, transposition + key elimination | Elimination counts by model family, with vacuous cases excluded | completed 2026-11-09 | 1,152 configs, 58.9M orders, 0 survivors; control found; autokey and Hill excluded |
 | R7 | Voynich generator lab: which mechanism reproduces the statistics | Verbose cipher, self-citation, table/grille models scored against the measured profile | completed 2026-11-09 | Noise floor 0.37; best non-fitted 2.9. Verbose matches H2, not word length. Self-citation version is crude (E9) |
-| R8 | Autobreak: trained cipher-type classifier and solve-everything pipeline | Held-out accuracy reported; pipeline solves demo ciphers of unknown type | pending | |
+| R8 | Autobreak: trained cipher-type classifier and solve-everything pipeline | Held-out accuracy reported; pipeline solves demo ciphers of unknown type | completed 2026-11-09 | 41 classes: top-1 62%, top-3 80%, family 86%. Autobreak 21 of 24 hidden. GPU 5.5x faster than CPU for training |
 | R9 | Breadth: more ACA and machine ciphers, each with an attack | Roster extended; catalogue page shows covered and missing types | pending | |
 | R10 | Teaching: step-through visualiser for key ciphers | Letter-by-letter trace for at least Vigenere, Playfair, Enigma | completed 2026-11-08 | Traces match Python in `tests/test_simulations.py` |
 | R11 | Machine simulations: interactive Enigma with moving rotors and current path; working models of other devices | Simulator output matches the backend Enigma; rotors, stepping and wiring visible | completed 2026-11-08 | Enigma, Lorenz, Jefferson, Alberti, scytale, grille, rail fence. Enigma matches Python on 700-letter cases |
@@ -32,8 +32,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 3 | R3 Beale forensics; R4 D'Agapeyeff routes and shifted coordinates | completed 2026-11-09 |
 | 4 | R5 Tamam Shud mnemonic search; R6 Kryptos K4 layered eliminations | completed 2026-11-09 |
 | 5 | R7 Voynich generator lab; Liber Primus attacks (known page keys as controls) | completed 2026-11-09 |
-| 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | next |
-| 7 | Data hunt: Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | pending |
+| 6 | R8 cipher-type classifier trained on the GPU; Autobreak pipeline | completed 2026-11-09 |
+| 7 | (next) Data hunt: Rongorongo, Indus, Shugborough, Bradwell pigeon, Debosnys, more Schmeh entries | pending |
 | 8 | R9 breadth: M-209, Purple, VIC, more ACA types; a bombe simulation; catalogue page | pending |
 | 9 | Graphics: animated attack visualisers, live hunter feed, lead timeline | pending |
 
@@ -57,6 +57,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 
 - A poor score for a crude copy of a published theory says nothing about the theory itself.
 
+- Near-miss classification is fine when the next step can test several guesses cheaply.
+
 ## Emergent tasks
 | ID | Note | Status |
 |---|---|---|
@@ -66,8 +68,9 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | E6 | Le Figaro ad solved by the hunter (reversed substitution, French). The database is searched by a form at `apprendre-en-ligne.net/crypto/Figaro/annonces.php`; `codes.php` lists the systems used. BLOCKED: querying it submits a form, and bulk collection needs the user's approval. Never send a proposed solution by email without asking | waiting on user |
 | E8 | Beale: model an encoder working through one region at a time and test whether it reproduces B1 and B3 correlation; D'Agapeyeff: digit transposition avenue | pending |
 | E9 | Voynich: implement Timm and Schinner's self-citation faithfully, and a verbose cipher with word breaks inside groups. Liber Primus: running keys from solved text | pending |
+| E10 | Autobreak: always include substitution and shift attacks as cheap fallbacks; train on multiple plaintext languages; many labels are inherently confusable, so report families | pending |
 | E7 | Hunter idea: combine reversal with each other transform, and add n-gram scoring in French for newspaper ads | pending |
-| E5 | GPU: all three search loops are slower on MPS than one CPU core (`data/results/gpu_benchmark.json`); use GPU for neural work | decision recorded |
+| E5 | GPU: search loops stay on CPU; neural training runs on MPS, 5.5x faster (`data/results/classifier.json`) | decision recorded |
 | E1 | Rubaiyat TSAMSTG match: check the edition of the Somerton copy for FitzGerald's introduction | pending (needs a person or a scan) |
 
 ## Decisions

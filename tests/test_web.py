@@ -30,3 +30,12 @@ def test_challenge_flow():
 def test_cases():
     for c in client.get("/api/mysteries").json()["cases"]:
         assert client.get(f"/api/mysteries/{c['id']}").status_code == 200, c["id"]
+
+
+def test_autobreak_reports_clearly():
+    from codebreaker import classifier
+
+    r = client.post("/api/autobreak", json={"text": "WKH TXLFN EURZQ IRA MXPSV RYHU WKH ODCB GRJ DQG UXQV DZDB IURP WKH IDUPHU" * 3})
+    assert r.status_code == 200
+    if classifier.PATH.exists():
+        assert r.json()["best"] is not None

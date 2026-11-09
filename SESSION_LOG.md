@@ -41,3 +41,6 @@ K4: 58.9M two-layer settings, 0 survivors; autokey and Hill excluded; control fo
 
 ## 2026-11-09: Round 5 complete
 Voynich generator lab: noise floor 0.37, no candidate reaches it; verbose cipher matches H2 but not word length. Liber Primus: known pages 56 and 57 recovered as controls; other pages flat. Next: Round 6.
+
+## 2026-11-09: Round 6 complete
+CNN cipher-type classifier over 41 classes: top-1 62%, top-3 80%, family 86% on unseen keys and texts. Autobreak solved 21 of 24 hidden ciphers. GPU trained 5.5x faster than CPU. `data/models/classifier.pt` is not in git: rebuild with `scripts/train_classifier.py`. Next: Round 7.

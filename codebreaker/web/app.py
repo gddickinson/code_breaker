@@ -111,6 +111,13 @@ def analyze(body: TextIn):
     return guarded(analysis.report, body.text)
 
 
+@app.post("/api/autobreak")
+def run_autobreak(body: TextIn):
+    from ..autobreak import autobreak
+
+    return guarded(autobreak, body.text)
+
+
 @app.post("/api/translate")
 def translate(body: TextIn):
     return guarded(tr.translate, body.text, body.source)

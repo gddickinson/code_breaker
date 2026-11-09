@@ -52,3 +52,9 @@ def test_kryptos_k1_start():
 
 def test_sha256_vector():
     assert REGISTRY["hash"].encrypt("abc").startswith("ba7816bf")
+
+
+def test_classifier_encoding_is_fixed_width():
+    from codebreaker.classifier import MAX_LEN, encode
+
+    assert len(encode("ABC")) == MAX_LEN and len(encode("A" * 2000)) == MAX_LEN
