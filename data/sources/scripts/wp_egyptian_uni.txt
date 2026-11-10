@@ -1,0 +1,245 @@
+{{Short description|Symbol group in hieroglyphic script}}
+{{refimprove|date=September 2024}}
+The [[Egyptian hieroglyph|Egyptian hieroglyphic script]] contained 24 uniliterals (symbols that stood for single consonants, much like [[English language|English]] letters) which today we associate with the 26 glyphs listed below. (Note that the glyph associated with ''w/u'' also has a [[hieratic]] abbreviation.) 
+
+The traditional [[transliteration]] system shown on the left of the chart below is over a century old and is the one most commonly seen in texts. It includes several symbols such as ''3'' for sounds that were of unknown value at the time. Much progress has been made since, though there is still debate as to the details. For instance, it is now thought the ''3'' may have been an [[alveolar lateral approximant|alveolar lateral approximant ("l")]] in Old Egyptian that was lost by Late Egyptian.<ref>{{cite book|author=Allen, James P.|year=2013|title=The Ancient Egyptian Language: An Historical Study|publisher=Cambridge University Press|page=41}}</ref> Some scholars believe that consonants transcribed as [[voiced]] ''(d, g, dj)'' may actually have been [[ejective]] or, less likely, [[pharyngealized]] like the Arabic [[emphatic consonant]]s.<ref>{{cite book|author=Peust, Carsten|year=1999|title=Egyptian Phonology: An Introduction to the Phonology of a Dead Language|publisher=Peust & Gutschmidt Verlag|pages=81–83}}</ref> A good description can be found in Allen.<ref>{{cite book|author=Allen, James P.|year=2000|title=Middle Egyptian: an Introduction to the Language and Culture of Hieroglyphs|publisher=Cambridge University Press|isbn=0-521-77483-7 }}</ref> For other systems of transliteration, see [[transliteration of ancient Egyptian]].
+
+{| class="wikitable" lang="egy-Latn"
+! colspan="7"|<big>Uniliteral signs</big>
+|-
+! rowspan="2" colspan="2"|Sign
+! colspan="3"|Traditional [[Transliteration of ancient Egyptian|transliteration]]
+! colspan="2"|[[International Phonetic Alphabet|Phonetic values]] per Allen (2000)
+|-
+! &nbsp;
+! Say
+! style="text-align:left;" | Notes
+!Old Egyptian
+!Middle Egyptian
+|-
+|<hiero>A</hiero>
+|an Egyptian vulture
+|<big>'''''3'''''</big>
+|<big>''a''</big>
+| style="text-align:left;" | called ''aleph'',<br>a [[glottal stop]]
+|{{IPAblink|l}} or {{IPAblink|ɾ}}
+|silent, {{IPAblink|j}}, and {{IPAblink|ʔ}}
+|-
+|<hiero>i</hiero>
+|a reed
+|<big>'''ỉ'''</big>
+|<big>''i/a''</big>
+| style="text-align:left;" | called ''yodh''
+| colspan="2"|an initial or final [[vowel]]; sometimes {{IPAblink|j}}
+|-
+|<hiero>i-i</hiero>
+|a pair of reeds
+| rowspan="2" | <big>'''y'''</big>
+| rowspan="2" | <big>''y''</big>
+| style="text-align:left;" rowspan="2" | double ''yodh''
+| rowspan="2" | no record
+| rowspan="2" | {{IPAblink|j}}
+|-
+|<hiero>y</hiero>
+|pair of strokes<br>or river (?)
+|-
+|-
+|<hiero>a</hiero>
+|an arm
+|<big>'''ʿ'''</big>
+|<big>''a''</big>
+| style="text-align:left;" | called ''ayin'',<br>a [[voiced pharyngeal fricative]]
+|perhaps {{IPAblink|d}}
+|{{IPAblink|ʕ}}; {{IPAblink|d}} perhaps retained in some words and dialects
+|-
+|<hiero>w</hiero> or <hiero>W</hiero>
+|a quail chick or its<br>hieratic abbreviation
+|<big>'''w'''</big>
+|<big>''w/u''</big>
+| style="text-align:left;" | called ''waw''<br>
+| colspan="2"|{{IPAblink|w}} ~ {{IPAblink|u}}
+|-
+|<hiero>b</hiero>
+|a lower leg
+|<big>'''b'''</big>
+|<big>''b''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|{{IPAblink|b}} ~ {{IPAblink|β}}
+|-
+|<hiero>p</hiero>
+|a reed mat or stool
+|<big>'''p'''</big>
+|<big>''p''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|[[Aspiration (phonetics)|aspirated]] {{IPAblink|pʰ}}
+|-
+|<hiero>f</hiero>
+|a horned viper
+|<big>'''f'''</big>
+|<big>''f''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|{{IPAblink|f}}
+|-
+|<hiero>m</hiero>
+|an owl
+|<big>'''m'''</big>
+|<big>''m''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|{{IPAblink|m}}
+|-
+|<hiero>n</hiero>
+|a ripple of water
+|<big>'''n'''</big>
+|<big>''n''</big>
+| style="text-align:left;" |  &nbsp;
+| {{IPAblink|n}}
+| {{IPAblink|n}}, sometimes {{IPAblink|l}}
+|-
+|<hiero>r</hiero>
+|a mouth
+|<big>'''r'''</big>
+|<big>''r''</big>
+| style="text-align:left;" |  &nbsp;
+| see [[:Image:Old Egyptian mouth sign.JPG|image]]
+|{{IPAblink|ɾ}}, sometimes {{IPAblink|l}}<br>(always {{IPAblink|l}} in some dialects)
+|-
+|<hiero>h</hiero>
+|a reed shelter
+|<big>'''h'''</big>
+|<big>''h''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|{{IPAblink|h}}
+|-
+|<hiero>H</hiero>
+|a twisted wick
+|<big>'''ḥ'''</big>
+|<big>''h''</big>
+| style="text-align:left;" | an emphatic ''h'',<br>a [[voiceless pharyngeal fricative]]
+| colspan="2"|{{IPAblink|ħ}}
+|-
+|<hiero>x</hiero>
+|a placenta
+|<big>'''ḫ'''</big>
+|<big>''kh''</big>
+| style="text-align:left;" | <br>a [[voiceless velar fricative]]
+| colspan="2"|{{IPAblink|x}}
+|-
+|<hiero>X</hiero>
+|an animal belly with tail
+|<big>'''ẖ'''</big>
+|<big>''kh''</big>
+| style="text-align:left;" | a softer sound,<br>a [[voiceless palatal fricative]]
+| colspan="2"|{{IPAblink|ç}}
+|-
+|<hiero>s</hiero> 
+|a folded cloth
+| rowspan="2" | <big>'''s'''</big>
+| rowspan="2" | <big>''s''</big>
+| style="text-align:left;" rowspan="2" | Old Egyptian sound for<br>''"door bolt"'' is unknown,<br>but perhaps was ''z'' or ''th''
+|{{IPAblink|s}}
+| rowspan="2"|{{IPAblink|s}}
+|-
+|<hiero>z</hiero>
+|a door bolt
+|{{IPAblink|θ}}
+|-
+|<hiero>S</hiero> or<br><hiero>N38</hiero> or<br><hiero>N39</hiero>
+|a garden pool
+|<big>'''š'''</big>
+|<big>''sh''</big>
+| style="text-align:left;" |  &nbsp;
+| colspan="2"|{{IPAblink|ʃ}}
+|-
+|<hiero>q</hiero>
+|slope of a hill
+|<big>'''ḳ''' or '''q'''</big>
+|<big>''k''</big>
+| style="text-align:left;" | an emphatic ''k'',<br>a [[voiceless uvular plosive]]
+| colspan="2"|[[ejective consonant|ejective]] {{IPAblink|qʼ}}
+|-
+|<hiero>k</hiero>
+|a basket with a handle
+|<big>'''k'''</big>
+|<big>''k''</big>
+| style="text-align:left;" | &nbsp;
+| colspan="2"|[[Aspiration (phonetics)|aspirated]] {{IPAblink|kʰ}}<br>in some words, [[Palatalization (phonetics)|palatalized]] {{IPAblink|kʲ}}
+|-
+|<hiero>g</hiero>
+|a jar stand
+|<big>'''g'''</big>
+|<big>''g''</big>
+| style="text-align:left;" | &nbsp;
+| colspan="2"|ejective {{IPAblink|kʼ}}
+|-
+|<hiero>t</hiero>
+|a bun
+|<big>'''t'''</big>
+|<big>''t''</big>
+| style="text-align:left;" |&nbsp;
+| colspan="2"|aspirated {{IPAblink|tʰ}}
+|-
+|<hiero>T</hiero>
+|a tethering rope
+|<big>'''ṯ''' or '''tj'''</big>
+|<big>''ch''</big>
+| style="text-align:left;" | as in English ''church''
+| colspan="2"|palatalized {{IPAblink|tʲ}} or {{IPAblink|ʧ}}
+|-
+|<hiero>d</hiero>
+|a hand
+|<big>'''d'''</big>
+|<big>''d''</big>
+| style="text-align:left;" | &nbsp;
+| colspan="2"|ejective {{IPAblink|tʼ}}
+|-
+|<hiero>D</hiero>
+|a cobra
+|<big>'''ḏ''' or '''dj'''</big>
+|<big>''j''</big>
+| style="text-align:left;" | as in English ''judge''
+| colspan="2"|ejective {{IPAblink|tʲ’}} or {{IPAblink|ʧʼ}}
+|}
+
+Gardiner <ref>{{cite book|author=Gardiner, Sir Alan H.|year=1973|title=Egyptian Grammar, 3rd. Ed.|publisher=The Griffith Institute|page=27|isbn=0-900416-35-1 }}</ref> lists several variations:
+{| class="wikitable" lang="egy-Latn"
+! colspan="4"|<big>Uniliteral signs</big>
+|-
+! colspan="2" | Sign
+! Traditional [[Transliteration of ancient Egyptian|transliteration]]
+! Notes
+|-
+|<hiero>V33</hiero>
+|bag of linen
+|<big>'''''g'''''</big>
+| Appears in a few older words
+|-
+|<hiero>Aa15</hiero>
+|unknown (Possibly: Finger)
+|<big>'''''m'''''</big>
+| Originally biliteral '''''im'''''
+|-
+|<hiero>S3</hiero>
+|crown of Lower Egypt
+|<big>'''''n'''''</big>
+| Originally ideogram '''''nt''''' for 'crown of Lower Egypt'
+|-
+|<hiero>U33</hiero>
+|pestle
+|<big>'''''t'''''</big>
+| Originally biliteral '''''ti'''''
+|}
+
+== References ==
+<references/>
+
+==See also==
+*[[Transliteration of ancient Egyptian]]
+*[[Egyptian biliteral signs]]
+*[[Egyptian triliteral signs]]
+*[[List of hieroglyphs]]
+
+[[Category:Bronze Age writing systems]]
+[[Category:Egyptian languages]]
+[[Category:Hieroglyphs|Egyptian unilateral signs]]
+
+[[fi:Unilitteraalihieroglyfit]]

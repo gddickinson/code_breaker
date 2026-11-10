@@ -1,0 +1,1707 @@
+{{short description|Standard reference in the study of Ancient Egyptian hieroglyphs}}
+{{more footnotes needed|date=July 2015}}
+
+'''Gardiner's sign list''' is a list of common [[Egyptian hieroglyphs]] compiled by Sir [[Alan Gardiner]] and first published as an appendix to his ''[[Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs|Egyptian Grammar]]'' (1927).<ref>{{cite book |author=[[Alan Gardiner|A. H. Gardiner]] |title=Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs |edition=1st |publisher=[[Oxford University Press]] |year=1927 |pages=432–531 |url=https://archive.org/details/egyptiangrammar0000alan_y1j2/page/432}}</ref> It is considered a standard reference in the study of [[ancient Egypt]]ian hieroglyphs.
+
+Gardiner lists only the common forms of Egyptian hieroglyphs, but he includes extensive subcategories, and also both vertical and horizontal forms for many hieroglyphs.  He includes size-variation forms to aid with the reading of hieroglyphs in running blocks of text.  In contrast, for example, the [[E. A. Wallis Budge|Budge]] Reference has about 1,000 hieroglyphs listed in 50 pages, but with no size variations.
+
+Gardiner does not cross-index signs; once a sign is put on one of his lists, other significant uses may be overlooked. One example of this is  𓅒 [[List of Egyptian hieroglyphs#G16|G16]], ''[[nbtỉ]]'', the ideogram for the [[Two Ladies]], goddesses [[Wadjet]] as the cobra and [[Nekhbet]] as the white vulture. These are the protective and patron goddesses of the separate Egyptian kingdoms that joined into ancient Egypt, who were both then displayed on the [[uraeus]] of Wadjet when the unification occurred and afterward considered jointly to be the protectors of Egypt and the pharaohs. This ideogram is listed only in the bird list (G), and overlooked on the deity list (C) and the reptile list (I).
+
+Other subcategories included by Gardiner are abbreviations and personalized forms, and also a complete subset, used on [[papyrus]], specifically for the ''[[Book of the Dead]]''.
+
+==Categories==
+
+=== A. Man and his occupations <span class="anchor" id="A"></span>===
+{{Main|List of Egyptian hieroglyphs#A}}
+56 signs in Gardiner (1957:242&ndash;247), with  A59 "man threatening with  stick" inserted after A25 "man striking with left hand hanging behind back", and two variants A14* "blood interpreted as ax" of A14 "man with blood streaming from his head"; and A17* "child sitting with arms hanging down" of A17 "child sitting with hand to mouth".
+
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''A1'''<br /><hiero>A1</hiero> 
+| '''A2'''<br /><hiero>A2</hiero>
+| '''A3'''<br /><hiero>A3</hiero>
+| '''A4'''<br /><hiero>A4</hiero>
+| '''A5'''<br /><hiero>A5</hiero>
+| '''A6'''<br /><hiero>A6</hiero>
+| '''A7'''<br /><hiero>A7</hiero>
+| '''A8'''<br /><hiero>A8</hiero>
+| '''A9'''<br /><hiero>A9</hiero>
+| '''A10'''<br /><hiero>A10</hiero>
+|-valign="top"
+| '''A11'''<br /><hiero>A11</hiero>
+| '''A12'''<br /><hiero>A12</hiero>
+| '''A13'''<br /><hiero>A13</hiero>
+| '''A14'''<br /><hiero>A14</hiero>
+| '''A15'''<br /><hiero>A15</hiero>
+| '''A16'''<br /><hiero>A16</hiero>
+| '''A17'''<br /><hiero>A17</hiero>
+| '''A18'''<br /><hiero>A18</hiero>
+| '''A19'''<br /><hiero>A19</hiero>
+| '''A20'''<br /><hiero>A20</hiero>
+|-valign="top"
+| '''A21'''<br /><hiero>A21</hiero>
+| '''A22'''<br /><hiero>A22</hiero>
+| '''A23'''<br /><hiero>A23</hiero>
+| '''A24'''<br /><hiero>A24</hiero>
+| '''A25'''<br /><hiero>A25</hiero>
+| '''A26'''<br /><hiero>A26</hiero>
+| '''A27'''<br /><hiero>A27</hiero>
+| '''A28'''<br /><hiero>A28</hiero>
+| '''A29'''<br /><hiero>A29</hiero>
+| '''A30'''<br /><hiero>A30</hiero>
+|-valign="top"
+| '''A31'''<br /><hiero>A31</hiero>
+| '''A32'''<br /><hiero>A32</hiero>
+| '''A33'''<br /><hiero>A33</hiero>
+| '''A34'''<br /><hiero>A34</hiero>
+| '''A35'''<br /><hiero>A35</hiero>
+| '''A36'''<br /><hiero>A36</hiero>
+| '''A37'''<br /><hiero>A37</hiero>
+| '''A38'''<br /><hiero>A38</hiero>
+| '''A39'''<br /><hiero>A39</hiero>
+| '''A40'''<br /><hiero>A40</hiero>
+|-valign="top"
+| '''A41'''<br /><hiero>A41</hiero>
+| '''A42'''<br /><hiero>A42</hiero>
+| '''A43'''<br /><hiero>A43</hiero>
+| '''A44'''<br /><hiero>A44</hiero>
+| '''A45'''<br /><hiero>A45</hiero>
+| '''A46'''<br /><hiero>A46</hiero>
+| '''A47'''<br /><hiero>A47</hiero>
+| '''A48'''<br /><hiero>A48</hiero>
+| '''A49'''<br /><hiero>A49</hiero>
+| '''A50'''<br /><hiero>A50</hiero>
+|-valign="top"
+| '''A51'''<br /><hiero>A51</hiero>
+| '''A52'''<br /><hiero>A52</hiero>
+| '''A53'''<br /><hiero>A53</hiero>
+| '''A54'''<br /><hiero>A54</hiero>
+| '''A55'''<br /><hiero>A55</hiero>
+| '''A56'''<br /><hiero>A56</hiero>
+| '''A57'''<br /><hiero>A57</hiero>
+| '''A58'''<br /><hiero>A58</hiero>
+| '''A59'''<br /><hiero>A59</hiero>
+| '''A60'''<br /><hiero>A60</hiero>
+|}
+
+=== B. Woman and her occupations <span class="anchor" id="B"></span>===
+{{Main|List of Egyptian hieroglyphs#B}}
+7 signs in Gardiner (1957:448).
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''B1'''<br /><hiero>B1</hiero>
+| '''B2'''<br /><hiero>B2</hiero>
+| '''B3'''<br /><hiero>B3</hiero>
+| '''B4'''<br /><hiero>B4</hiero>
+| '''B5'''<br /><hiero>B5</hiero>
+| '''B6'''<br /><hiero>B6</hiero>
+| '''B7'''<br /><hiero>B7</hiero>
+| '''B8'''<br /><hiero>B8</hiero>
+| '''B9'''<br /><hiero>B9</hiero>
+| '''B10'''<br /><hiero>B10</hiero>
+|-valign="top"
+| '''B11'''<br /><hiero>B11</hiero>
+| '''B12'''<br /><hiero>B12</hiero>
+|}
+
+=== C. Anthropomorphic deities <span class="anchor" id="C"></span>===
+{{Main|List of Egyptian hieroglyphs#C}}
+{{further|Egyptian pantheon}}
+11 signs in Gardiner (1957:448f.) with the addition of five 19th Dynasty signs, C12 Amun, C17 Mont, C18 Tjanen, C19 and C20 Ptah.
+
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''C1'''<br /><hiero>C1</hiero>
+| '''[[Ra|C2]]'''<br /><hiero>C2</hiero>
+| '''[[Thoth|C3]]'''<br /><hiero>C3</hiero>
+| '''C4'''<br /><hiero>C4</hiero>
+| '''C5'''<br /><hiero>C5</hiero>
+| '''[[Anubis|C6]]'''<br /><hiero>C6</hiero>
+| '''[[Set (deity)|C7]]'''<br /><hiero>C7</hiero>
+| '''C8'''<br /><hiero>C8</hiero>
+| '''C9'''<br /><hiero>C9</hiero>
+| '''C10'''<br /><hiero>C10</hiero>
+|-valign="top"
+| '''C11'''<br /><hiero>C11</hiero>
+| '''[[Amun|C12]]'''<br /><hiero>C12</hiero>
+|  
+|  
+| 
+|  
+| '''C17'''<br /><hiero>C17</hiero>
+| '''C18'''<br /><hiero>C18</hiero>
+| '''C19'''<br /><hiero>C19</hiero>
+| '''C20'''<br /><hiero>C20</hiero>
+|}
+
+=== D. Parts of the human body <span class="anchor" id="D"></span>===
+{{Main|List of Egyptian hieroglyphs#D}}
+''Expected quantity:'' 63
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''D1'''<br /><hiero>D1</hiero>
+| '''D2'''<br /><hiero>D2</hiero>
+| '''D3'''<br /><hiero>D3</hiero>
+| '''D4'''<br /><hiero>D4</hiero>
+| '''D5'''<br /><hiero>D5</hiero>
+| '''D6'''<br /><hiero>D6</hiero>
+| '''D7'''<br /><hiero>D7</hiero>
+| '''D8'''<br /><hiero>D8</hiero>
+| '''D9'''<br /><hiero>D9</hiero>
+| '''D10'''<br /><hiero>D10</hiero>
+|-valign="top"
+| '''D11'''<br /><hiero>D11</hiero>
+| '''D12'''<br /><hiero>D12</hiero>
+| '''D13'''<br /><hiero>D13</hiero>
+| '''D14'''<br /><hiero>D14</hiero>
+| '''D15'''<br /><hiero>D15</hiero>
+| '''D16'''<br /><hiero>D16</hiero>
+| '''D17'''<br /><hiero>D17</hiero>
+| '''D18'''<br /><hiero>D18</hiero>
+| '''D19'''<br /><hiero>D19</hiero>
+| '''D20'''<br /><hiero>D20</hiero>
+|-valign="top"
+| '''D21'''<br /><hiero>D21</hiero>
+| '''D22'''<br /><hiero>D22</hiero>
+| '''D23'''<br /><hiero>D23</hiero>
+| '''D24'''<br /><hiero>D24</hiero>
+| '''D25'''<br /><hiero>D25</hiero>
+| '''D26'''<br /><hiero>D26</hiero>
+| '''D27'''<br /><hiero>D27</hiero>
+| '''D28'''<br /><hiero>D28</hiero>
+| '''D29'''<br /><hiero>D29</hiero>
+| '''D30'''<br /><hiero>D30</hiero>
+|-valign="top"
+| '''D31'''<br /><hiero>D31</hiero>
+| '''D32'''<br /><hiero>D32</hiero>
+| '''D33'''<br /><hiero>D33</hiero>
+| '''D34'''<br /><hiero>D34</hiero>
+| '''D35'''<br /><hiero>D35</hiero>
+| '''D36'''<br /><hiero>D36</hiero>
+| '''D37'''<br /><hiero>D37</hiero>
+| '''D38'''<br /><hiero>D38</hiero>
+| '''D39'''<br /><hiero>D39</hiero>
+| '''D40'''<br /><hiero>D40</hiero>
+|-valign="top"
+| '''D41'''<br /><hiero>D41</hiero>
+| '''D42'''<br /><hiero>D42</hiero>
+| '''D43'''<br /><hiero>D43</hiero>
+| '''D44'''<br /><hiero>D44</hiero>
+| '''D45'''<br /><hiero>D45</hiero>
+| [[Hand (hieroglyph)|D46]]<br /><hiero>D46</hiero>
+| [[Hand (hieroglyph)|D47]]<br /><hiero>D47</hiero>
+| '''D48'''<br /><hiero>D48</hiero>
+| '''D49'''<br /><hiero>D49</hiero>
+| '''D50'''<br /><hiero>D50</hiero>
+|-valign="top"
+| '''D51'''<br /><hiero>D51</hiero>
+| '''D52'''<br /><hiero>D52</hiero>
+| '''D53'''<br /><hiero>D53</hiero>
+| '''D54'''<br /><hiero>D54</hiero>
+| '''D55'''<br /><hiero>D55</hiero>
+| '''D56'''<br /><hiero>D56</hiero>
+| '''D57'''<br /><hiero>D57</hiero>
+| [[B (hieroglyph)|D58]]<br /><hiero>D58</hiero>
+| '''D59'''<br /><hiero>D59</hiero>
+| '''D60'''<br /><hiero>D60</hiero>
+|-valign="top"
+| '''D61'''<br /><hiero>D61</hiero>
+| '''D62'''<br /><hiero>D62</hiero>
+| '''D63'''<br /><hiero>D63</hiero>
+| '''D64'''<br /><hiero>D64</hiero>
+| '''D65'''<br /><hiero>D65</hiero>
+| '''D66'''<br /><hiero>D66</hiero>
+| '''D67'''<br /><hiero>D67</hiero>
+| '''D68'''<br /><hiero>D68</hiero>
+| '''D69'''<br /><hiero>D69</hiero>
+| '''D70'''<br /><hiero>D70</hiero>
+|}
+
+=== E. Mammals <span class="anchor" id="E"></span>===
+{{Main|List of Egyptian hieroglyphs#E}}
+''Expected quantity:'' 34
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''E1'''<br /><hiero>E1</hiero>
+| '''E2'''<br /><hiero>E2</hiero>
+| '''E3'''<br /><hiero>E3</hiero>
+| '''E4'''<br /><hiero>E4</hiero>
+| '''E5'''<br /><hiero>E5</hiero>
+| '''E6'''<br /><hiero>E6</hiero>
+| '''E7'''<br /><hiero>E7</hiero>
+| '''E8'''<br /><hiero>E8</hiero>
+| '''[[newborn calf (hieroglyph)|E9]]'''<br /><hiero>E9</hiero>
+| '''E10'''<br /><hiero>E10</hiero>
+|-valign="top"
+| '''E11'''<br /><hiero>E11</hiero>
+| '''E12'''<br /><hiero>E12</hiero>
+| '''E13'''<br /><hiero>E13</hiero>
+| '''E14'''<br /><hiero>E14</hiero>
+| '''E15'''<br /><hiero>E15</hiero>
+| '''E16'''<br /><hiero>E16</hiero>
+| '''E17'''<br /><hiero>E17</hiero>
+| '''E18'''<br /><hiero>E18</hiero>
+| '''E19'''<br /><hiero>E19</hiero>
+| '''[[Set (deity)|E20]]'''<br /><hiero>E20</hiero>
+|-valign="top"
+| '''E21'''<br /><hiero>E21</hiero>
+| '''E22'''<br /><hiero>E22</hiero>
+| '''E23'''<br /><hiero>E23</hiero>
+| '''E24'''<br /><hiero>E24</hiero>
+| '''[[Hippopotamus (hieroglyph)|E25]]'''<br /><hiero>E25</hiero>
+| '''E26'''<br /><hiero>E26</hiero>
+| '''E27'''<br /><hiero>E27</hiero>
+| '''E28'''<br /><hiero>E28</hiero>
+| '''E29'''<br /><hiero>E29</hiero>
+| '''E30'''<br /><hiero>E30</hiero>
+|-valign="top"
+| '''E31'''<br /><hiero>E31</hiero>
+| '''E32'''<br /><hiero>E32</hiero>
+| '''E33'''<br /><hiero>E33</hiero>
+| '''E34'''<br /><hiero>E34</hiero>
+| '''E35'''<br /><hiero>E35</hiero>
+| '''E36'''<br /><hiero>E36</hiero>
+| '''E37'''<br /><hiero>E37</hiero>
+| '''E38'''<br /><hiero>E38</hiero>
+| '''E39'''<br /><hiero>E39</hiero>
+| '''E40'''<br /><hiero>E40</hiero>
+<!--
+|-valign="top"
+| '''E41'''<br /><hiero>E41</hiero>
+| '''E42'''<br /><hiero>E42</hiero>
+| '''E43'''<br /><hiero>E43</hiero>
+| '''E44'''<br /><hiero>E44</hiero>
+| '''E45'''<br /><hiero>E45</hiero>
+| '''E46'''<br /><hiero>E46</hiero>
+| '''E47'''<br /><hiero>E47</hiero>
+| '''E48'''<br /><hiero>E48</hiero>
+| '''E49'''<br /><hiero>E49</hiero>
+| '''E50'''<br /><hiero>E50</hiero>
+|-valign="top"
+| '''E51'''<br /><hiero>E51</hiero>
+| '''E52'''<br /><hiero>E52</hiero>
+| '''E53'''<br /><hiero>E53</hiero>
+| '''E54'''<br /><hiero>E54</hiero>
+| '''E55'''<br /><hiero>E55</hiero>
+| '''E56'''<br /><hiero>E56</hiero>
+| '''E57'''<br /><hiero>E57</hiero>
+| '''E58'''<br /><hiero>E58</hiero>
+| '''E59'''<br /><hiero>E59</hiero>
+| '''E60'''<br /><hiero>E60</hiero>
+|-valign="top"
+| '''E61'''<br /><hiero>E61</hiero>
+| '''E62'''<br /><hiero>E62</hiero>
+| '''E63'''<br /><hiero>E63</hiero>
+| '''E64'''<br /><hiero>E64</hiero>
+| '''E65'''<br /><hiero>E65</hiero>
+| '''E66'''<br /><hiero>E66</hiero>
+| '''E67'''<br /><hiero>E67</hiero>
+| '''E68'''<br /><hiero>E68</hiero>
+| '''E69'''<br /><hiero>E69</hiero>
+| '''E70'''<br /><hiero>E70</hiero>
+-->
+|}
+
+=== F. Parts of mammals <span class="anchor" id="F"></span>===
+{{Main|List of Egyptian hieroglyphs#F}}
+''Expected quantity:'' 52
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''F1'''<br /><hiero>F1</hiero>
+| '''F2'''<br /><hiero>F2</hiero>
+| '''F3'''<br /><hiero>F3</hiero>
+| '''F4'''<br /><hiero>F4</hiero>
+| '''F5'''<br /><hiero>F5</hiero>
+| '''F6'''<br /><hiero>F6</hiero>
+| '''F7'''<br /><hiero>F7</hiero>
+| '''F8'''<br /><hiero>F8</hiero>
+| '''F9'''<br /><hiero>F9</hiero>
+| '''F10'''<br /><hiero>F10</hiero>
+|-valign="top"
+| '''F11'''<br /><hiero>F11</hiero>
+| '''F12'''<br /><hiero>F12</hiero>
+| '''F13'''<br /><hiero>F13</hiero>
+| '''F14'''<br /><hiero>F14</hiero>
+| '''F15'''<br /><hiero>F15</hiero>
+| '''F16'''<br /><hiero>F16</hiero>
+| '''F17'''<br /><hiero>F17</hiero>
+| '''F18'''<br /><hiero>F18</hiero>
+| '''F19'''<br /><hiero>F19</hiero>
+| '''F20'''<br /><hiero>F20</hiero>
+|-valign="top"
+| '''F21'''<br /><hiero>F21</hiero>
+| '''F22'''<br /><hiero>F22</hiero>
+| '''F23'''<br /><hiero>F23</hiero>
+| '''F24'''<br /><hiero>F24</hiero>
+| '''F25'''<br /><hiero>F25</hiero>
+| '''F26'''<br /><hiero>F26</hiero>
+| '''F27'''<br /><hiero>F27</hiero>
+| '''F28'''<br /><hiero>F28</hiero>
+| '''F29'''<br /><hiero>F29</hiero>
+| '''F30'''<br /><hiero>F30</hiero>
+|-valign="top"
+| '''F31'''<br /><hiero>F31</hiero>
+| '''F32'''<br /><hiero>F32</hiero>
+| '''F33'''<br /><hiero>F33</hiero>
+| '''F34'''<br /><hiero>F34</hiero>
+| '''[[Nefer|F35]]'''<br /><hiero>F35</hiero>
+| '''F36'''<br /><hiero>F36</hiero>
+| '''F37'''<br /><hiero>F37</hiero>
+| '''F38'''<br /><hiero>F38</hiero>
+| '''F39'''<br /><hiero>F39</hiero>
+| '''F40'''<br /><hiero>F40</hiero>
+|-valign="top"
+| '''F41'''<br /><hiero>F41</hiero>
+| '''F42'''<br /><hiero>F42</hiero>
+| '''F43'''<br /><hiero>F43</hiero>
+| '''F44'''<br /><hiero>F44</hiero>
+| '''F45'''<br /><hiero>F45</hiero>
+| '''F46'''<br /><hiero>F46</hiero>
+| '''F47'''<br /><hiero>F47</hiero>
+| '''F48'''<br /><hiero>F48</hiero>
+| '''F49'''<br /><hiero>F49</hiero>
+| '''F50'''<br /><hiero>F50</hiero>
+|-valign="top"
+| '''F51'''<br /><hiero>F51</hiero>
+| '''F52'''<br /><hiero>F52</hiero>
+| '''F53'''<br /><hiero>F53</hiero>
+| '''F54'''<br /><hiero>F54</hiero>
+| '''F55'''<br /><hiero>F55</hiero>
+| '''F56'''<br /><hiero>F56</hiero>
+| '''F57'''<br /><hiero>F57</hiero>
+| '''F58'''<br /><hiero>F58</hiero>
+| '''F59'''<br /><hiero>F59</hiero>
+| '''F60'''<br /><hiero>F60</hiero>
+<!--
+|-valign="top"
+| '''F61'''<br /><hiero>F61</hiero>
+| '''F62'''<br /><hiero>F62</hiero>
+| '''F63'''<br /><hiero>F63</hiero>
+| '''F64'''<br /><hiero>F64</hiero>
+| '''F65'''<br /><hiero>F65</hiero>
+| '''F66'''<br /><hiero>F66</hiero>
+| '''F67'''<br /><hiero>F67</hiero>
+| '''F68'''<br /><hiero>F68</hiero>
+| '''F69'''<br /><hiero>F69</hiero>
+| '''F70'''<br /><hiero>F70</hiero>
+-->
+|}
+
+=== G. Birds <span class="anchor" id="G"></span>===
+{{Main|List of Egyptian hieroglyphs#G}}
+''Expected quantity:'' 54
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''G1'''<br /><hiero>G1</hiero>
+| '''G2'''<br /><hiero>G2</hiero>
+| '''G3'''<br /><hiero>G3</hiero>
+| '''G4'''<br /><hiero>G4</hiero>
+| '''G5'''<br /><hiero>G5</hiero>
+| '''G6'''<br /><hiero>G6</hiero>
+| '''G7'''<br /><hiero>G7</hiero>
+| '''G8'''<br /><hiero>G8</hiero>
+| '''G9'''<br /><hiero>G9</hiero>
+| '''G10'''<br /><hiero>G10</hiero>
+|-valign="top"
+| '''G11'''<br /><hiero>G11</hiero>
+| '''G12'''<br /><hiero>G12</hiero>
+| '''G13'''<br /><hiero>G13</hiero>
+| '''G14'''<br /><hiero>G14</hiero>
+| '''G15'''<br /><hiero>G15</hiero>
+| '''G16'''<br /><hiero>G16</hiero>
+| '''G17'''<br /><hiero>G17</hiero>
+| '''G18'''<br /><hiero>G18</hiero>
+| '''G19'''<br /><hiero>G19</hiero>
+| '''G20'''<br /><hiero>G20</hiero>
+|-valign="top"
+| '''G21'''<br /><hiero>G21</hiero>
+| '''G22'''<br /><hiero>G22</hiero>
+| '''G23'''<br /><hiero>G23</hiero>
+| '''G24'''<br /><hiero>G24</hiero>
+| '''G25'''<br /><hiero>G25</hiero>
+| '''G26'''<br /><hiero>G26</hiero>
+| '''G27'''<br /><hiero>G27</hiero>
+| '''G28'''<br /><hiero>G28</hiero>
+| '''G29'''<br /><hiero>G29</hiero>
+| '''G30'''<br /><hiero>G30</hiero>
+|-valign="top"
+| '''G31'''<br /><hiero>G31</hiero>
+| '''G32'''<br /><hiero>G32</hiero>
+| '''G33'''<br /><hiero>G33</hiero>
+| '''G34'''<br /><hiero>G34</hiero>
+| '''G35'''<br /><hiero>G35</hiero>
+| '''G36'''<br /><hiero>G36</hiero>
+| '''G37'''<br /><hiero>G37</hiero>
+| '''G38'''<br /><hiero>G38</hiero>
+| '''G39'''<br /><hiero>G39</hiero>
+| '''G40'''<br /><hiero>G40</hiero>
+|-valign="top"
+| '''G41'''<br /><hiero>G41</hiero>
+| '''G42'''<br /><hiero>G42</hiero>
+| '''G43'''<br /><hiero>G43</hiero>
+| '''G44'''<br /><hiero>G44</hiero>
+| '''G45'''<br /><hiero>G45</hiero>
+| '''G46'''<br /><hiero>G46</hiero>
+| '''G47'''<br /><hiero>G47</hiero>
+| '''G48'''<br /><hiero>G48</hiero>
+| '''G49'''<br /><hiero>G49</hiero>
+| '''G50'''<br /><hiero>G50</hiero>
+|-valign="top"
+| '''G51'''<br /><hiero>G51</hiero>
+| '''G52'''<br /><hiero>G52</hiero>
+| '''G53'''<br /><hiero>G53</hiero>
+| '''G54'''<br /><hiero>G54</hiero>
+| '''G55'''<br /><hiero>G55</hiero>
+| '''G56'''<br /><hiero>G56</hiero>
+| '''G57'''<br /><hiero>G57</hiero>
+| '''G58'''<br /><hiero>G58</hiero>
+| '''G59'''<br /><hiero>G59</hiero>
+| '''G60'''<br /><hiero>G60</hiero>
+<!--
+|-valign="top"
+| '''G61'''<br /><hiero>G61</hiero>
+| '''G62'''<br /><hiero>G62</hiero>
+| '''G63'''<br /><hiero>G63</hiero>
+| '''G64'''<br /><hiero>G64</hiero>
+| '''G65'''<br /><hiero>G65</hiero>
+| '''G66'''<br /><hiero>G66</hiero>
+| '''G67'''<br /><hiero>G67</hiero>
+| '''G68'''<br /><hiero>G68</hiero>
+| '''G69'''<br /><hiero>G69</hiero>
+| '''G70'''<br /><hiero>G70</hiero>
+-->
+|}
+
+=== H. Parts of birds <span class="anchor" id="H"></span>===
+{{Main|List of Egyptian hieroglyphs#H}}
+''Expected quantity:'' 8
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''H1'''<br /><hiero>H1</hiero>
+| '''H2'''<br /><hiero>H2</hiero>
+| '''H3'''<br /><hiero>H3</hiero>
+| '''H4'''<br /><hiero>H4</hiero>
+| '''H5'''<br /><hiero>H5</hiero>
+| '''H6'''<br /><hiero>H6</hiero>
+| '''H7'''<br /><hiero>H7</hiero>
+| '''H8'''<br /><hiero>H8</hiero>
+| '''H9'''<br /><hiero>H9</hiero>
+| '''H10'''<br /><hiero>H10</hiero>
+<!--
+|-valign="top"
+| '''H11'''<br /><hiero>H11</hiero>
+| '''H12'''<br /><hiero>H12</hiero>
+| '''H13'''<br /><hiero>H13</hiero>
+| '''H14'''<br /><hiero>H14</hiero>
+| '''H15'''<br /><hiero>H15</hiero>
+| '''H16'''<br /><hiero>H16</hiero>
+| '''H17'''<br /><hiero>H17</hiero>
+| '''H18'''<br /><hiero>H18</hiero>
+| '''H19'''<br /><hiero>H19</hiero>
+| '''H20'''<br /><hiero>H20</hiero>
+|-valign="top"
+| '''H21'''<br /><hiero>H21</hiero>
+| '''H22'''<br /><hiero>H22</hiero>
+| '''H23'''<br /><hiero>H23</hiero>
+| '''H24'''<br /><hiero>H24</hiero>
+| '''H25'''<br /><hiero>H25</hiero>
+| '''H26'''<br /><hiero>H26</hiero>
+| '''H27'''<br /><hiero>H27</hiero>
+| '''H28'''<br /><hiero>H28</hiero>
+| '''H29'''<br /><hiero>H29</hiero>
+| '''H30'''<br /><hiero>H30</hiero>
+|-valign="top"
+| '''H31'''<br /><hiero>H31</hiero>
+| '''H32'''<br /><hiero>H32</hiero>
+| '''H33'''<br /><hiero>H33</hiero>
+| '''H34'''<br /><hiero>H34</hiero>
+| '''H35'''<br /><hiero>H35</hiero>
+| '''H36'''<br /><hiero>H36</hiero>
+| '''H37'''<br /><hiero>H37</hiero>
+| '''H38'''<br /><hiero>H38</hiero>
+| '''H39'''<br /><hiero>H39</hiero>
+| '''H40'''<br /><hiero>H40</hiero>
+|-valign="top"
+| '''H41'''<br /><hiero>H41</hiero>
+| '''H42'''<br /><hiero>H42</hiero>
+| '''H43'''<br /><hiero>H43</hiero>
+| '''H44'''<br /><hiero>H44</hiero>
+| '''H45'''<br /><hiero>H45</hiero>
+| '''H46'''<br /><hiero>H46</hiero>
+| '''H47'''<br /><hiero>H47</hiero>
+| '''H48'''<br /><hiero>H48</hiero>
+| '''H49'''<br /><hiero>H49</hiero>
+| '''H50'''<br /><hiero>H50</hiero>
+|-valign="top"
+| '''H51'''<br /><hiero>H51</hiero>
+| '''H52'''<br /><hiero>H52</hiero>
+| '''H53'''<br /><hiero>H53</hiero>
+| '''H54'''<br /><hiero>H54</hiero>
+| '''H55'''<br /><hiero>H55</hiero>
+| '''H56'''<br /><hiero>H56</hiero>
+| '''H57'''<br /><hiero>H57</hiero>
+| '''H58'''<br /><hiero>H58</hiero>
+| '''H59'''<br /><hiero>H59</hiero>
+| '''H60'''<br /><hiero>H60</hiero>
+|-valign="top"
+| '''H61'''<br /><hiero>H61</hiero>
+| '''H62'''<br /><hiero>H62</hiero>
+| '''H63'''<br /><hiero>H63</hiero>
+| '''H64'''<br /><hiero>H64</hiero>
+| '''H65'''<br /><hiero>H65</hiero>
+| '''H66'''<br /><hiero>H66</hiero>
+| '''H67'''<br /><hiero>H67</hiero>
+| '''H68'''<br /><hiero>H68</hiero>
+| '''H69'''<br /><hiero>H69</hiero>
+| '''H70'''<br /><hiero>H70</hiero>
+-->
+|}
+
+=== I. Amphibious animals, reptiles, etc. <span class="anchor" id="I"></span>===
+{{Main|List of Egyptian hieroglyphs#I}}
+15 signs in Gardiner (1957:475f).
+
+{| class="wikitable"  
+|-
+! No. !! img. !! Unicode !! phon. !! description !! usage, notes 
+|-
+| '''I1''' || <hiero>I1</hiero> || 𓆈 U+13188  || ''ꜥšꜣ'' || lizard || "lizard"
+|-
+| '''I2''' || <hiero>I2</hiero> || 𓆉 U+13189  ||  || freshwater turtle ||  ''štjw'' "turtle" 
+|-
+| '''I3''' || <hiero>I3</hiero> || 𓆊 U+1318A  || ''ı͗t'' || crocodile || "crocodile" (''ḫntj''), "be greedy; lust after" (''ḥnt''), "voracious, angry", (''ꜣd'')
+|-
+| '''I4''' || <hiero>I4</hiero> || 𓆋 U+1318B  ||  ||  crocodile on a shrine || [[Sobek]]
+|-
+| '''I5''' || <hiero>I5</hiero> || 𓆌 U+1318C  ||  || crocodile with inward curved tail  || "collect, gather" (''sꜣq'')
+|-
+| '''I6''' || <hiero>I6</hiero> || 𓆎 U+1318E  || ''km'' || piece of crocodile-skin with spines  || as phonogram in ''kmt'' "Egypt", ''skm'' "grey-haired"
+|-
+| '''I7''' || <hiero>I7</hiero> || 𓆏 U+1318F  ||  || frog || "frog" (''qrr''), [[Heqet]], ideogram in ''wḥm-ꜥnḫ'' "repeating life"
+|-
+| '''I8''' || <hiero>I8</hiero> || 𓆐 U+13190  || ''ḥfn'' || tadpole ||
+|-
+| '''I9''' || <hiero>I9</hiero> || 𓆑 U+13191  || ''f'' || horned viper ||
+|-
+| '''I10''' || <hiero>I10</hiero> || 𓆓 U+13193  || ''ḏ'' || cobra in repose ||
+|-
+| '''I11''' || <hiero>I11</hiero> || 𓆕 U+13195  || ''ḏḏ'' || two cobras || 
+|-
+| '''I12''' || <hiero>I12</hiero> || 𓆗 U+13197  ||  || cobra erect || [[Uraeus]] (''iꜥrt''), [[Nesret]]
+|-
+| '''I13''' || <hiero>I13</hiero> || 𓆘 U+13198  ||  || I12 + V30 || "goddess"
+|-
+| '''I14''' || <hiero>I14</hiero> || 𓆙 U+13199  ||  || snake  || "snake" (''ḏdft''), "serpent" (''ḥfꜣw'')
+|-
+| '''I15''' || <hiero>I15</hiero> || 𓆚 U+1319A  ||  ||  variant of I14 ||
+|-
+|}
+
+=== K. Fish and parts of fish <span class="anchor" id="K"></span>===
+{{Main|List of Egyptian hieroglyphs#K}}
+''Expected quantity:'' 7
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''K1'''<br /><hiero>K1</hiero>
+| '''K2'''<br /><hiero>K2</hiero>
+| '''K3'''<br /><hiero>K3</hiero>
+| '''K4'''<br /><hiero>K4</hiero>
+| '''K5'''<br /><hiero>K5</hiero>
+| '''K6'''<br /><hiero>K6</hiero>
+| '''K7'''<br /><hiero>K7</hiero>
+| '''K8'''<br /><hiero>K8</hiero>
+| '''K9'''<br /><hiero>K9</hiero>
+| '''K10'''<br /><hiero>K10</hiero>
+<!--
+|-valign="top"
+| '''K11'''<br /><hiero>K11</hiero>
+| '''K12'''<br /><hiero>K12</hiero>
+| '''K13'''<br /><hiero>K13</hiero>
+| '''K14'''<br /><hiero>K14</hiero>
+| '''K15'''<br /><hiero>K15</hiero>
+| '''K16'''<br /><hiero>K16</hiero>
+| '''K17'''<br /><hiero>K17</hiero>
+| '''K18'''<br /><hiero>K18</hiero>
+| '''K19'''<br /><hiero>K19</hiero>
+| '''K20'''<br /><hiero>K20</hiero>
+|-valign="top"
+| '''K21'''<br /><hiero>K21</hiero>
+| '''K22'''<br /><hiero>K22</hiero>
+| '''K23'''<br /><hiero>K23</hiero>
+| '''K24'''<br /><hiero>K24</hiero>
+| '''K25'''<br /><hiero>K25</hiero>
+| '''K26'''<br /><hiero>K26</hiero>
+| '''K27'''<br /><hiero>K27</hiero>
+| '''K28'''<br /><hiero>K28</hiero>
+| '''K29'''<br /><hiero>K29</hiero>
+| '''K30'''<br /><hiero>K30</hiero>
+|-valign="top"
+| '''K31'''<br /><hiero>K31</hiero>
+| '''K32'''<br /><hiero>K32</hiero>
+| '''K33'''<br /><hiero>K33</hiero>
+| '''K34'''<br /><hiero>K34</hiero>
+| '''K35'''<br /><hiero>K35</hiero>
+| '''K36'''<br /><hiero>K36</hiero>
+| '''K37'''<br /><hiero>K37</hiero>
+| '''K38'''<br /><hiero>K38</hiero>
+| '''K39'''<br /><hiero>K39</hiero>
+| '''K40'''<br /><hiero>K40</hiero>
+|-valign="top"
+| '''K41'''<br /><hiero>K41</hiero>
+| '''K42'''<br /><hiero>K42</hiero>
+| '''K43'''<br /><hiero>K43</hiero>
+| '''K44'''<br /><hiero>K44</hiero>
+| '''K45'''<br /><hiero>K45</hiero>
+| '''K46'''<br /><hiero>K46</hiero>
+| '''K47'''<br /><hiero>K47</hiero>
+| '''K48'''<br /><hiero>K48</hiero>
+| '''K49'''<br /><hiero>K49</hiero>
+| '''K50'''<br /><hiero>K50</hiero>
+|-valign="top"
+| '''K51'''<br /><hiero>K51</hiero>
+| '''K52'''<br /><hiero>K52</hiero>
+| '''K53'''<br /><hiero>K53</hiero>
+| '''K54'''<br /><hiero>K54</hiero>
+| '''K55'''<br /><hiero>K55</hiero>
+| '''K56'''<br /><hiero>K56</hiero>
+| '''K57'''<br /><hiero>K57</hiero>
+| '''K58'''<br /><hiero>K58</hiero>
+| '''K59'''<br /><hiero>K59</hiero>
+| '''K60'''<br /><hiero>K60</hiero>
+|-valign="top"
+| '''K61'''<br /><hiero>K61</hiero>
+| '''K62'''<br /><hiero>K62</hiero>
+| '''K63'''<br /><hiero>K63</hiero>
+| '''K64'''<br /><hiero>K64</hiero>
+| '''K65'''<br /><hiero>K65</hiero>
+| '''K66'''<br /><hiero>K66</hiero>
+| '''K67'''<br /><hiero>K67</hiero>
+| '''K68'''<br /><hiero>K68</hiero>
+| '''K69'''<br /><hiero>K69</hiero>
+| '''K70'''<br /><hiero>K70</hiero>
+-->
+|}
+
+=== L. Invertebrates and lesser animals <span class="anchor" id="L"></span>===
+{{Main|List of Egyptian hieroglyphs#L}}
+''Expected quantity:'' 7
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''L1'''<br /><hiero>L1</hiero>
+| '''L2'''<br /><hiero>L2</hiero>
+| '''L3'''<br /><hiero>L3</hiero>
+| '''L4'''<br /><hiero>L4</hiero>
+| '''L5'''<br /><hiero>L5</hiero>
+| '''L6'''<br /><hiero>L6</hiero>
+| '''L7'''<br /><hiero>L7</hiero>
+| '''L8'''<br /><hiero>L8</hiero>
+| '''L9'''<br /><hiero>L9</hiero>
+| '''L10'''<br /><hiero>L10</hiero>
+<!--
+|-valign="top"
+| '''L11'''<br /><hiero>L11</hiero>
+| '''L12'''<br /><hiero>L12</hiero>
+| '''L13'''<br /><hiero>L13</hiero>
+| '''L14'''<br /><hiero>L14</hiero>
+| '''L15'''<br /><hiero>L15</hiero>
+| '''L16'''<br /><hiero>L16</hiero>
+| '''L17'''<br /><hiero>L17</hiero>
+| '''L18'''<br /><hiero>L18</hiero>
+| '''L19'''<br /><hiero>L19</hiero>
+| '''L20'''<br /><hiero>L20</hiero>
+|-valign="top"
+| '''L21'''<br /><hiero>L21</hiero>
+| '''L22'''<br /><hiero>L22</hiero>
+| '''L23'''<br /><hiero>L23</hiero>
+| '''L24'''<br /><hiero>L24</hiero>
+| '''L25'''<br /><hiero>L25</hiero>
+| '''L26'''<br /><hiero>L26</hiero>
+| '''L27'''<br /><hiero>L27</hiero>
+| '''L28'''<br /><hiero>L28</hiero>
+| '''L29'''<br /><hiero>L29</hiero>
+| '''L30'''<br /><hiero>L30</hiero>
+|-valign="top"
+| '''L31'''<br /><hiero>L31</hiero>
+| '''L32'''<br /><hiero>L32</hiero>
+| '''L33'''<br /><hiero>L33</hiero>
+| '''L34'''<br /><hiero>L34</hiero>
+| '''L35'''<br /><hiero>L35</hiero>
+| '''L36'''<br /><hiero>L36</hiero>
+| '''L37'''<br /><hiero>L37</hiero>
+| '''L38'''<br /><hiero>L38</hiero>
+| '''L39'''<br /><hiero>L39</hiero>
+| '''L40'''<br /><hiero>L40</hiero>
+|-valign="top"
+| '''L41'''<br /><hiero>L41</hiero>
+| '''L42'''<br /><hiero>L42</hiero>
+| '''L43'''<br /><hiero>L43</hiero>
+| '''L44'''<br /><hiero>L44</hiero>
+| '''L45'''<br /><hiero>L45</hiero>
+| '''L46'''<br /><hiero>L46</hiero>
+| '''L47'''<br /><hiero>L47</hiero>
+| '''L48'''<br /><hiero>L48</hiero>
+| '''L49'''<br /><hiero>L49</hiero>
+| '''L50'''<br /><hiero>L50</hiero>
+|-valign="top"
+| '''L51'''<br /><hiero>L51</hiero>
+| '''L52'''<br /><hiero>L52</hiero>
+| '''L53'''<br /><hiero>L53</hiero>
+| '''L54'''<br /><hiero>L54</hiero>
+| '''L55'''<br /><hiero>L55</hiero>
+| '''L56'''<br /><hiero>L56</hiero>
+| '''L57'''<br /><hiero>L57</hiero>
+| '''L58'''<br /><hiero>L58</hiero>
+| '''L59'''<br /><hiero>L59</hiero>
+| '''L60'''<br /><hiero>L60</hiero>
+|-valign="top"
+| '''L61'''<br /><hiero>L61</hiero>
+| '''L62'''<br /><hiero>L62</hiero>
+| '''L63'''<br /><hiero>L63</hiero>
+| '''L64'''<br /><hiero>L64</hiero>
+| '''L65'''<br /><hiero>L65</hiero>
+| '''L66'''<br /><hiero>L66</hiero>
+| '''L67'''<br /><hiero>L67</hiero>
+| '''L68'''<br /><hiero>L68</hiero>
+| '''L69'''<br /><hiero>L69</hiero>
+| '''L70'''<br /><hiero>L70</hiero>
+-->
+|}
+
+=== M. Trees and plants <span class="anchor" id="M"></span>===
+{{Main|List of Egyptian hieroglyphs#M}}
+44 signs in Gardiner (1957:478&ndash;484).
+
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''M1'''<br /><hiero>M1</hiero>
+| '''M2'''<br /><hiero>M2</hiero>
+| '''[[Branch (hieroglyph)|M3]]'''<br /><hiero>M3</hiero>
+| '''M4'''<br /><hiero>M4</hiero>
+| '''M5'''<br /><hiero>M5</hiero>
+| '''M6'''<br /><hiero>M6</hiero>
+| '''M7'''<br /><hiero>M7</hiero>
+| '''M8'''<br /><hiero>M8</hiero>
+| '''M9'''<br /><hiero>M9</hiero>
+| '''M10'''<br /><hiero>M10</hiero>
+|-valign="top"
+| '''M11'''<br /><hiero>M11</hiero>
+| '''M12'''<br /><hiero>M12</hiero>
+| '''[[Papyrus stem (hieroglyph)|M13]]'''<br /><hiero>M13</hiero>
+| '''M14'''<br /><hiero>M14</hiero>
+| '''M15'''<br /><hiero>M15</hiero>
+| '''M16'''<br /><hiero>M16</hiero>
+| '''M17'''<br /><hiero>M17</hiero>
+| '''M18'''<br /><hiero>M18</hiero>
+| '''M19'''<br /><hiero>M19</hiero>
+| '''M20'''<br /><hiero>M20</hiero>
+|-valign="top"
+| '''M21'''<br /><hiero>M21</hiero>
+| '''M22'''<br /><hiero>M22</hiero>
+| '''M23'''<br /><hiero>M23</hiero>
+| '''M24'''<br /><hiero>M24</hiero>
+| '''M25'''<br /><hiero>M25</hiero>
+| '''M26'''<br /><hiero>M26</hiero>
+| '''M27'''<br /><hiero>M27</hiero>
+| '''M28'''<br /><hiero>M28</hiero>
+| '''M29'''<br /><hiero>M29</hiero>
+| '''M30'''<br /><hiero>M30</hiero>
+|-valign="top"
+| '''M31'''<br /><hiero>M31</hiero>
+| '''M32'''<br /><hiero>M32</hiero>
+| '''M33'''<br /><hiero>M33</hiero>
+| '''M34'''<br /><hiero>M34</hiero>
+| '''M35'''<br /><hiero>M35</hiero>
+| '''M36'''<br /><hiero>M36</hiero>
+| '''M37'''<br /><hiero>M37</hiero>
+| '''M38'''<br /><hiero>M38</hiero>
+| '''M39'''<br /><hiero>M39</hiero>
+| '''M40'''<br /><hiero>M40</hiero>
+|-valign="top"
+| '''M41'''<br /><hiero>M41</hiero>
+| '''M42'''<br /><hiero>M42</hiero>
+| '''M43'''<br /><hiero>M43</hiero>
+| '''M44'''<br /><hiero>M44</hiero>
+|}
+
+=== N. Sky, earth, water <span class="anchor" id="N"></span>===
+{{Main|List of Egyptian hieroglyphs#N}}
+42 signs in Gardiner (1957:485&ndash;492).
+N3 is an Old Kingdom variant of N2.
+N11 "moon" has vertical (''increscent'' and ''decrescent'') variants, N12 is a 19th-Dynasty variant of N11.
+
+{| class="wikitable"  
+|-
+! No. !! img. !! Unicode !! phon. !! description !! usage, notes 
+|-
+| '''N1''' || <hiero>N1</hiero> || 𓇯 U+131EF || ''pt'' || [[Sky (hieroglyph)|sky]] ||
+|-
+| '''N2''' || <hiero>N2</hiero> || 𓇰 U+131F0 || ''grḥ'' || sky with sceptre || det. for "[[Kek (mythology)|darkness]]"
+|-
+| '''N3''' || <hiero>N3</hiero> || 𓇱 U+131F1 || as N2 || variant of N2 || Old Kingdom variant of N2 
+|-
+| '''N4''' || <hiero>N4</hiero> || 𓇲 U+131F2 || '' '' || moisture falling from the sky || "dew", "rain"
+|-
+| '''N5''' || <hiero>N5</hiero> || 𓇳 U+131F3 || ''rꜥ '' || sun || {{main|Ra}}
+|-
+| '''N6''' || <hiero>N6</hiero> || 𓇴 U+131F4 || ''rꜥ '' || sun with uraeus || 19th Dynasty
+|-
+| '''N7''' || <hiero>N7</hiero> || 𓇵 U+131F5 ||   || N5 + T28|| ''ẖrt-hrw'' "day-time"
+|-
+| '''N8''' || <hiero>N8</hiero> || 𓇶 U+131F6 || ''wbn'' || sunshine || Usually depicted with three [[Solar symbol#Rayed depictions|rays]], older variants may also have four rays.<ref>Betrò, 1995. ''Hieroglyphics: The Writings of Ancient Egypt'', '''Sun with Rays''', p. 152.</ref> Determinative for e.g. ''pḥḏ'' "to shine, illumine" and ''wbn'' "rise"; from this latter case, it can also take the phonetic value of ''wbn''  when standing on its own, e.g. in ''wbn'' "wound". Alternatively, it is either a determiner or ideogram for ''ḥnmmt'', the name of the "sun folk" of [[Heliopolis (ancient Egypt)|Heliopolis]] (Gardiner p.&nbsp;486). <div>A depiction with four rays is found on an ivory wand of c. 2100 BC: The "Sun with rays" hieroglyph is shown once, placed upon the head of a ram. It has a central dot, like the [[sun (hieroglyph)|"Sun" hieroglyph]] (N5), with four elongated, undulating vertical rays.<ref>Fleming; Lothian; (and Fletcher), 1997. ''The Way to Eternity: Egyptian Myth'', Fergus Fleming, Alan Lothian, and consultant Joann Fletcher. c 1997, Duncan Baird Publishers. (hardcover, {{ISBN|0-7054-3503-2}}),  124-126.</ref> See also [[Aten]].</div>
+|-
+| '''N9''' || <hiero>N9</hiero> || 𓇷 U+131F7 || ''psḏ'' || moon with its lower half obscured || 18th Dynasty
+|-
+| '''N10''' || <hiero>N10</hiero> ||𓇸 U+131F8 || as N9 || variant of N9 ||  18th Dynasty
+|-
+| '''N11''' || <hiero>N11</hiero> ||𓇹 U+131F9 || || crescent moon  ||
+|-
+| '''N12''' || <hiero>N12</hiero> ||𓇺 U+131FA ||  ||  variant of  N11 || 18th Dynasty
+|-
+| '''N13''' || <hiero>N13</hiero> ||𓇻 U+131FB || || half of N11 + N14  || "half-month festival"
+|-
+| '''N14''' || <hiero>N14</hiero> ||𓇼 U+131FC ||  || star ||
+|-
+| '''N15''' || <hiero>N15</hiero> ||𓇽 U+131FD ||  || star in circle ||
+|-
+| '''N16''' || <hiero>N16</hiero> ||𓇾 U+131FE ||  || N18 + 3 x N33 ||  "earth, land" (flat alluvial land with grains of sand)
+|-
+| '''N17''' || <hiero>N17</hiero> ||𓇿 U+131FF ||  || variant of N16 || as N16
+|-
+| '''N18''' || <hiero>N18</hiero> ||𓈀 U+13200 || ''ı͗'' || sandy tract || "island"
+|-
+| '''N19''' || <hiero>N19</hiero> ||𓈃 U+13203 ||  || 2 x N18 ||in ''ḥr-ꜣḫty'' "Horus-of-the-Horizon"
+|-
+| '''N20''' || <hiero>N20</hiero> ||𓈄 U+13204 ||  || tongue of land || "sand bank, shore"
+|-
+| '''N21''' || <hiero>N21</hiero> ||𓈅 U+13205 ||  || tongue of land || "bank, region" (in "two banks" = "Egypt")
+|-
+| '''N22''' || <hiero>N22</hiero> ||𓈆 U+13206 ||  || tongue of land || Old Kingdom predecessor of both N20 and N21
+|-
+| '''N23''' || <hiero>N23</hiero> ||𓈇 U+13207 ||  || irrigation canal || differentiation of N36
+|-
+| '''N24''' || <hiero>N24</hiero> ||𓈈 U+13208 ||  || [[Land, irrigated (hieroglyph)|land with irrigation tunnels]] || "[[Nome (Egypt)|district, nome]]"
+|-
+| '''N25''' || <hiero>N25</hiero> ||𓈉 U+13209 ||  || hills  || "hill-country, foreign land"
+|-
+| '''N26''' || <hiero>N26</hiero> ||𓈋 U+1320B || ''ḏw''  || mountain  ||
+|-
+| '''N27''' || <hiero>N27</hiero> ||𓈌 U+1320C ||  || sun rising over mountain || "[[Akhet (hieroglyph and season)|horizon]]"
+|-
+| '''N28''' || <hiero>N28</hiero> ||𓈍 U+1320D || ''ḫꜥ''  || [[Sun-rising (hieroglyph)|sun rising over hill]] ||
+|-
+| '''N29''' || <hiero>N29</hiero> ||𓈎 U+1320E || ''q'' || sandy hill-slope || 
+|-
+| '''N30''' || <hiero>N30</hiero> ||𓈏 U+1320F || || mound with shrubs || "mound"
+|-
+| '''N31''' || <hiero>N31</hiero> ||𓈐 U+13210 ||  || road bordered by shrubs || "road"
+|-
+| '''N32''' || <hiero>N32</hiero> ||𓈑 U+13211 ||  || lump of clay or dung || Old Kingdom
+|-
+| '''N33''' || <hiero>N33</hiero> ||𓈒 U+13212 ||  || grain of sand ||
+|-
+| '''N34''' || <hiero>N34</hiero> ||𓈔 U+13214 ||  || metal ingot ||
+|-
+| '''N35''' || <hiero>N35</hiero> ||𓈖 U+13216 || ''n'' || [[N-water ripple (n hieroglyph)|ripple of water]] || variant "three ripples" 𓈗 U+13217
+|-
+| '''N36''' || <hiero>N36</hiero> ||𓈘 U+13218 ||  || water channel ||
+|-
+| '''N37''' || <hiero>N37</hiero> ||𓈙 U+13219 ||  || pool || "pool"
+|-
+| '''N38''' || <hiero>N38</hiero> ||𓈛 U+1321B ||  || variant of N37 || more detailed drawing of N37
+|-
+| '''N39''' || <hiero>N39</hiero> ||𓈜 U+1321C ||  || garden pool full of water || variant of N37
+|-
+| '''N40''' || <hiero>N40</hiero> ||𓈝 U+1321D ||  || N37 + D54 || "go"
+|-
+| '''N41''' || <hiero>N41</hiero> ||𓈞 U+1321E || ''bı͗ꜣ'' || well full of water || "well"
+|-
+| '''N42''' || <hiero>N42</hiero> ||𓈟 U+1321F ||  || variant of N41 || as N41
+|-
+|}
+
+=== O. Buildings, parts of buildings, etc. <span class="anchor" id="O"></span>===
+{{Main|List of Egyptian hieroglyphs#O}}
+51 signs (with variants, U+13250&ndash;1329A).
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''[[Pr (hieroglyph)|O1]]'''<br /><hiero>O1</hiero>
+| '''O2'''<br /><hiero>O2</hiero>
+| '''O3'''<br /><hiero>O3</hiero>
+| '''[[Reed shelter (hieroglyph)|O4]]'''<br /><hiero>O4</hiero>
+| '''O5'''<br /><hiero>O5</hiero>
+| '''O6'''<br /><hiero>O6</hiero>
+| '''O7'''<br /><hiero>O7</hiero>
+| '''O8'''<br /><hiero>O8</hiero>
+| '''[[Nephthys|O9]]'''<br /><hiero>O9</hiero>
+| '''[[Hathor|O10]]'''<br /><hiero>O10</hiero>
+|-valign="top"
+| '''O11'''<br /><hiero>O11</hiero>
+| '''O12'''<br /><hiero>O12</hiero>
+| '''O13'''<br /><hiero>O13</hiero>
+| '''O14'''<br /><hiero>O14</hiero>
+| '''O15'''<br /><hiero>O15</hiero>
+| '''O16'''<br /><hiero>O16</hiero>
+| '''O17'''<br /><hiero>O17</hiero>
+| '''O18'''<br /><hiero>O18</hiero>
+| '''O19'''<br /><hiero>O19</hiero>
+| '''O20'''<br /><hiero>O20</hiero>
+|-valign="top"
+| '''O21'''<br /><hiero>O21</hiero>
+| '''O22'''<br /><hiero>O22</hiero>
+| '''[[Jubilee Pavilion (hieroglyph)|O23]]'''<br /><hiero>O23</hiero>
+| '''O24'''<br /><hiero>O24</hiero>
+| '''O25'''<br /><hiero>O25</hiero>
+| '''O26'''<br /><hiero>O26</hiero>
+| '''O27'''<br /><hiero>O27</hiero>
+| '''O28'''<br /><hiero>O28</hiero>
+| '''O29'''<br /><hiero>O29</hiero>
+| '''O30'''<br /><hiero>O30</hiero>
+|-valign="top"
+| '''O31'''<br /><hiero>O31</hiero>
+| '''O32'''<br /><hiero>O32</hiero>
+| '''[[Serekh|O33]]'''<br /><hiero>O33</hiero>
+| '''[[Door bolt (s hieroglyph)|O34]]'''<br /><hiero>O34</hiero>
+| '''O35'''<br /><hiero>O35</hiero>
+| '''O36'''<br /><hiero>O36</hiero>
+| '''O37'''<br /><hiero>O37</hiero>
+| '''O38'''<br /><hiero>O38</hiero>
+| '''O39'''<br /><hiero>O39</hiero>
+| '''O40'''<br /><hiero>O40</hiero>
+|-valign="top"
+| '''O41'''<br /><hiero>O41</hiero>
+| '''O42'''<br /><hiero>O42</hiero>
+| '''O43'''<br /><hiero>O43</hiero>
+| '''O44'''<br /><hiero>O44</hiero>
+| '''O45'''<br /><hiero>O45</hiero>
+| '''O46'''<br /><hiero>O46</hiero>
+| '''O47'''<br /><hiero>O47</hiero>
+| '''O48'''<br /><hiero>O48</hiero>
+| '''[[Townsite-city-region (hieroglyph)|O49]]'''<br /><hiero>O49</hiero>
+| '''O50'''<br /><hiero>O50</hiero>
+|-valign="top"
+| '''O51'''<br /><hiero>O51</hiero>
+|}
+
+=== P. Ships and parts of ships <span class="anchor" id="P"></span>===
+{{Main|List of Egyptian hieroglyphs#P}}
+''Expected quantity:'' 11
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''P1'''<br /><hiero>P1</hiero>
+| '''P2'''<br /><hiero>P2</hiero>
+| '''P3'''<br /><hiero>P3</hiero>
+| '''P4'''<br /><hiero>P4</hiero>
+| '''P5'''<br /><hiero>P5</hiero>
+| '''P6'''<br /><hiero>P6</hiero>
+| '''P7'''<br /><hiero>P7</hiero>
+| '''P8'''<br /><hiero>P8</hiero>
+| '''P9'''<br /><hiero>P9</hiero>
+| '''P10'''<br /><hiero>P10</hiero>
+|-valign="top"
+| '''P11'''<br /><hiero>P11</hiero>
+| '''P12'''<br /><hiero>P12</hiero>
+| '''P13'''<br /><hiero>P13</hiero>
+| '''P14'''<br /><hiero>P14</hiero>
+| '''P15'''<br /><hiero>P15</hiero>
+| '''P16'''<br /><hiero>P16</hiero>
+| '''P17'''<br /><hiero>P17</hiero>
+| '''P18'''<br /><hiero>P18</hiero>
+| '''P19'''<br /><hiero>P19</hiero>
+| '''P20'''<br /><hiero>P20</hiero>
+<!--
+|-valign="top"
+| '''P21'''<br /><hiero>P21</hiero>
+| '''P22'''<br /><hiero>P22</hiero>
+| '''P23'''<br /><hiero>P23</hiero>
+| '''P24'''<br /><hiero>P24</hiero>
+| '''P25'''<br /><hiero>P25</hiero>
+| '''P26'''<br /><hiero>P26</hiero>
+| '''P27'''<br /><hiero>P27</hiero>
+| '''P28'''<br /><hiero>P28</hiero>
+| '''P29'''<br /><hiero>P29</hiero>
+| '''P30'''<br /><hiero>P30</hiero>
+|-valign="top"
+| '''P31'''<br /><hiero>P31</hiero>
+| '''P32'''<br /><hiero>P32</hiero>
+| '''P33'''<br /><hiero>P33</hiero>
+| '''P34'''<br /><hiero>P34</hiero>
+| '''P35'''<br /><hiero>P35</hiero>
+| '''P36'''<br /><hiero>P36</hiero>
+| '''P37'''<br /><hiero>P37</hiero>
+| '''P38'''<br /><hiero>P38</hiero>
+| '''P39'''<br /><hiero>P39</hiero>
+| '''P40'''<br /><hiero>P40</hiero>
+|-valign="top"
+| '''P41'''<br /><hiero>P41</hiero>
+| '''P42'''<br /><hiero>P42</hiero>
+| '''P43'''<br /><hiero>P43</hiero>
+| '''P44'''<br /><hiero>P44</hiero>
+| '''P45'''<br /><hiero>P45</hiero>
+| '''P46'''<br /><hiero>P46</hiero>
+| '''P47'''<br /><hiero>P47</hiero>
+| '''P48'''<br /><hiero>P48</hiero>
+| '''P49'''<br /><hiero>P49</hiero>
+| '''P50'''<br /><hiero>P50</hiero>
+|-valign="top"
+| '''P51'''<br /><hiero>P51</hiero>
+| '''P52'''<br /><hiero>P52</hiero>
+| '''P53'''<br /><hiero>P53</hiero>
+| '''P54'''<br /><hiero>P54</hiero>
+| '''P55'''<br /><hiero>P55</hiero>
+| '''P56'''<br /><hiero>P56</hiero>
+| '''P57'''<br /><hiero>P57</hiero>
+| '''P58'''<br /><hiero>P58</hiero>
+| '''P59'''<br /><hiero>P59</hiero>
+| '''P60'''<br /><hiero>P60</hiero>
+|-valign="top"
+| '''P61'''<br /><hiero>P61</hiero>
+| '''P62'''<br /><hiero>P62</hiero>
+| '''P63'''<br /><hiero>P63</hiero>
+| '''P64'''<br /><hiero>P64</hiero>
+| '''P65'''<br /><hiero>P65</hiero>
+| '''P66'''<br /><hiero>P66</hiero>
+| '''P67'''<br /><hiero>P67</hiero>
+| '''P68'''<br /><hiero>P68</hiero>
+| '''P69'''<br /><hiero>P69</hiero>
+| '''P70'''<br /><hiero>P70</hiero>
+-->
+|}
+
+=== Q. Domestics and funerary furniture <span class="anchor" id="Q"></span>===
+{{Main|List of Egyptian hieroglyphs#Q}}
+''Expected quantity:'' 7
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''Q1'''<br /><hiero>Q1</hiero>
+| '''Q2'''<br /><hiero>Q2</hiero>
+| '''Q3'''<br /><hiero>Q3</hiero>
+| '''Q4'''<br /><hiero>Q4</hiero>
+| '''Q5'''<br /><hiero>Q5</hiero>
+| '''Q6'''<br /><hiero>Q6</hiero>
+| '''Q7'''<br /><hiero>Q7</hiero>
+| '''Q8'''<br /><hiero>Q8</hiero>
+| '''Q9'''<br /><hiero>Q9</hiero>
+| '''Q10'''<br /><hiero>Q10</hiero>
+<!--
+|-valign="top"
+| '''Q11'''<br /><hiero>Q11</hiero>
+| '''Q12'''<br /><hiero>Q12</hiero>
+| '''Q13'''<br /><hiero>Q13</hiero>
+| '''Q14'''<br /><hiero>Q14</hiero>
+| '''Q15'''<br /><hiero>Q15</hiero>
+| '''Q16'''<br /><hiero>Q16</hiero>
+| '''Q17'''<br /><hiero>Q17</hiero>
+| '''Q18'''<br /><hiero>Q18</hiero>
+| '''Q19'''<br /><hiero>Q19</hiero>
+| '''Q20'''<br /><hiero>Q20</hiero>
+|-valign="top"
+| '''Q21'''<br /><hiero>Q21</hiero>
+| '''Q22'''<br /><hiero>Q22</hiero>
+| '''Q23'''<br /><hiero>Q23</hiero>
+| '''Q24'''<br /><hiero>Q24</hiero>
+| '''Q25'''<br /><hiero>Q25</hiero>
+| '''Q26'''<br /><hiero>Q26</hiero>
+| '''Q27'''<br /><hiero>Q27</hiero>
+| '''Q28'''<br /><hiero>Q28</hiero>
+| '''Q29'''<br /><hiero>Q29</hiero>
+| '''Q30'''<br /><hiero>Q30</hiero>
+|-valign="top"
+| '''Q31'''<br /><hiero>Q31</hiero>
+| '''Q32'''<br /><hiero>Q32</hiero>
+| '''Q33'''<br /><hiero>Q33</hiero>
+| '''Q34'''<br /><hiero>Q34</hiero>
+| '''Q35'''<br /><hiero>Q35</hiero>
+| '''Q36'''<br /><hiero>Q36</hiero>
+| '''Q37'''<br /><hiero>Q37</hiero>
+| '''Q38'''<br /><hiero>Q38</hiero>
+| '''Q39'''<br /><hiero>Q39</hiero>
+| '''Q40'''<br /><hiero>Q40</hiero>
+|-valign="top"
+| '''Q41'''<br /><hiero>Q41</hiero>
+| '''Q42'''<br /><hiero>Q42</hiero>
+| '''Q43'''<br /><hiero>Q43</hiero>
+| '''Q44'''<br /><hiero>Q44</hiero>
+| '''Q45'''<br /><hiero>Q45</hiero>
+| '''Q46'''<br /><hiero>Q46</hiero>
+| '''Q47'''<br /><hiero>Q47</hiero>
+| '''Q48'''<br /><hiero>Q48</hiero>
+| '''Q49'''<br /><hiero>Q49</hiero>
+| '''Q50'''<br /><hiero>Q50</hiero>
+|-valign="top"
+| '''Q51'''<br /><hiero>Q51</hiero>
+| '''Q52'''<br /><hiero>Q52</hiero>
+| '''Q53'''<br /><hiero>Q53</hiero>
+| '''Q54'''<br /><hiero>Q54</hiero>
+| '''Q55'''<br /><hiero>Q55</hiero>
+| '''Q56'''<br /><hiero>Q56</hiero>
+| '''Q57'''<br /><hiero>Q57</hiero>
+| '''Q58'''<br /><hiero>Q58</hiero>
+| '''Q59'''<br /><hiero>Q59</hiero>
+| '''Q60'''<br /><hiero>Q60</hiero>
+|-valign="top"
+| '''Q61'''<br /><hiero>Q61</hiero>
+| '''Q62'''<br /><hiero>Q62</hiero>
+| '''Q63'''<br /><hiero>Q63</hiero>
+| '''Q64'''<br /><hiero>Q64</hiero>
+| '''Q65'''<br /><hiero>Q65</hiero>
+| '''Q66'''<br /><hiero>Q66</hiero>
+| '''Q67'''<br /><hiero>Q67</hiero>
+| '''Q68'''<br /><hiero>Q68</hiero>
+| '''Q69'''<br /><hiero>Q69</hiero>
+| '''Q70'''<br /><hiero>Q70</hiero>
+-->
+|}
+
+=== R. Temple furniture and sacred emblems <span class="anchor" id="R"></span>===
+{{Main|List of Egyptian hieroglyphs#R}}
+''Expected quantity:'' 25
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''R1'''<br /><hiero>R1</hiero>
+| '''R2'''<br /><hiero>R2</hiero>
+| '''R3'''<br /><hiero>R3</hiero>
+| '''R4'''<br /><hiero>R4</hiero>
+| '''R5'''<br /><hiero>R5</hiero>
+| '''R6'''<br /><hiero>R6</hiero>
+| '''R7'''<br /><hiero>R7</hiero>
+| '''R8'''<br /><hiero>R8</hiero>
+| '''R9'''<br /><hiero>R9</hiero>
+| '''R10'''<br /><hiero>R10</hiero>
+|-valign="top"
+| '''R11'''<br /><hiero>R11</hiero>
+| '''R12'''<br /><hiero>R12</hiero>
+| '''R13'''<br /><hiero>R13</hiero>
+| '''R14'''<br /><hiero>R14</hiero>
+| '''R15'''<br /><hiero>R15</hiero>
+| '''R16'''<br /><hiero>R16</hiero>
+| '''R17'''<br /><hiero>R17</hiero>
+| '''R18'''<br /><hiero>R18</hiero>
+| '''R19'''<br /><hiero>R19</hiero>
+| '''R20'''<br /><hiero>R20</hiero>
+|-valign="top"
+| '''R21'''<br /><hiero>R21</hiero>
+| '''R22'''<br /><hiero>R22</hiero>
+| '''R23'''<br /><hiero>R23</hiero>
+| '''R24'''<br /><hiero>R24</hiero>
+| '''R25'''<br /><hiero>R25</hiero>
+| '''R26'''<br /><hiero>R26</hiero>
+| '''R27'''<br /><hiero>R27</hiero>
+| '''R28'''<br /><hiero>R28</hiero>
+| '''R29'''<br /><hiero>R29</hiero>
+| '''R30'''<br /><hiero>R30</hiero>
+<!--
+|-valign="top"
+| '''R31'''<br /><hiero>R31</hiero>
+| '''R32'''<br /><hiero>R32</hiero>
+| '''R33'''<br /><hiero>R33</hiero>
+| '''R34'''<br /><hiero>R34</hiero>
+| '''R35'''<br /><hiero>R35</hiero>
+| '''R36'''<br /><hiero>R36</hiero>
+| '''R37'''<br /><hiero>R37</hiero>
+| '''R38'''<br /><hiero>R38</hiero>
+| '''R39'''<br /><hiero>R39</hiero>
+| '''R40'''<br /><hiero>R40</hiero>
+|-valign="top"
+| '''R41'''<br /><hiero>R41</hiero>
+| '''R42'''<br /><hiero>R42</hiero>
+| '''R43'''<br /><hiero>R43</hiero>
+| '''R44'''<br /><hiero>R44</hiero>
+| '''R45'''<br /><hiero>R45</hiero>
+| '''R46'''<br /><hiero>R46</hiero>
+| '''R47'''<br /><hiero>R47</hiero>
+| '''R48'''<br /><hiero>R48</hiero>
+| '''R49'''<br /><hiero>R49</hiero>
+| '''R50'''<br /><hiero>R50</hiero>
+|-valign="top"
+| '''R51'''<br /><hiero>R51</hiero>
+| '''R52'''<br /><hiero>R52</hiero>
+| '''R53'''<br /><hiero>R53</hiero>
+| '''R54'''<br /><hiero>R54</hiero>
+| '''R55'''<br /><hiero>R55</hiero>
+| '''R56'''<br /><hiero>R56</hiero>
+| '''R57'''<br /><hiero>R57</hiero>
+| '''R58'''<br /><hiero>R58</hiero>
+| '''R59'''<br /><hiero>R59</hiero>
+| '''R60'''<br /><hiero>R60</hiero>
+|-valign="top"
+| '''R61'''<br /><hiero>R61</hiero>
+| '''R62'''<br /><hiero>R62</hiero>
+| '''R63'''<br /><hiero>R63</hiero>
+| '''R64'''<br /><hiero>R64</hiero>
+| '''R65'''<br /><hiero>R65</hiero>
+| '''R66'''<br /><hiero>R66</hiero>
+| '''R67'''<br /><hiero>R67</hiero>
+| '''R68'''<br /><hiero>R68</hiero>
+| '''R69'''<br /><hiero>R69</hiero>
+| '''R70'''<br /><hiero>R70</hiero>
+-->
+|}
+
+=== S. Crowns, dress, staves, etc. <span class="anchor" id="S"></span>===
+{{Main|List of Egyptian hieroglyphs#S}}
+''Expected quantity:'' 45
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''S1'''<br /><hiero>S1</hiero>
+| '''S2'''<br /><hiero>S2</hiero>
+| '''S3'''<br /><hiero>S3</hiero>
+| '''S4'''<br /><hiero>S4</hiero>
+| '''S5'''<br /><hiero>S5</hiero>
+| '''S6'''<br /><hiero>S6</hiero>
+| '''S7'''<br /><hiero>S7</hiero>
+| '''S8'''<br /><hiero>S8</hiero>
+| '''S9'''<br /><hiero>S9</hiero>
+| '''S10'''<br /><hiero>S10</hiero>
+|-valign="top"
+| '''S11'''<br /><hiero>S11</hiero>
+| '''[[Gold (hieroglyph)|S12]]'''<br /><hiero>S12</hiero>
+| '''S13'''<br /><hiero>S13</hiero>
+| '''S14'''<br /><hiero>S14</hiero>
+| '''S15'''<br /><hiero>S15</hiero>
+| '''S16'''<br /><hiero>S16</hiero>
+| '''S17'''<br /><hiero>S17</hiero>
+| '''S18'''<br /><hiero>S18</hiero>
+| '''S19'''<br /><hiero>S19</hiero>
+| '''S20'''<br /><hiero>S20</hiero>
+|-valign="top"
+| '''S21'''<br /><hiero>S21</hiero>
+| '''S22'''<br /><hiero>S22</hiero>
+| '''S23'''<br /><hiero>S23</hiero>
+| '''[[Knot (hieroglyph)|S24]]'''<br /><hiero>S24</hiero>
+| '''S25'''<br /><hiero>S25</hiero>
+| '''S26'''<br /><hiero>S26</hiero>
+| '''S27'''<br /><hiero>S27</hiero>
+| '''S28'''<br /><hiero>S28</hiero>
+| '''S29'''<br /><hiero>S29</hiero>
+| '''S30'''<br /><hiero>S30</hiero>
+|-valign="top"
+| '''S31'''<br /><hiero>S31</hiero>
+| '''S32'''<br /><hiero>S32</hiero>
+| '''S33'''<br /><hiero>S33</hiero>
+| '''[[Ankh|S34]]'''<br /><hiero>S34</hiero>
+| '''S35'''<br /><hiero>S35</hiero>
+| '''S36'''<br /><hiero>S36</hiero>
+| '''S37'''<br /><hiero>S37</hiero>
+| '''S38'''<br /><hiero>S38</hiero>
+| '''S39'''<br /><hiero>S39</hiero>
+| '''S40'''<br /><hiero>S40</hiero>
+|-valign="top"
+| '''S41'''<br /><hiero>S41</hiero>
+| '''S42'''<br /><hiero>S42</hiero>
+| '''S43'''<br /><hiero>S43</hiero>
+| '''S44'''<br /><hiero>S44</hiero>
+| '''S45'''<br /><hiero>S45</hiero>
+| '''S46'''<br /><hiero>S46</hiero>
+| '''S47'''<br /><hiero>S47</hiero>
+| '''S48'''<br /><hiero>S48</hiero>
+| '''S49'''<br /><hiero>S49</hiero>
+| '''S50'''<br /><hiero>S50</hiero>
+<!--
+|-valign="top"
+| '''S51'''<br /><hiero>S51</hiero>
+| '''S52'''<br /><hiero>S52</hiero>
+| '''S53'''<br /><hiero>S53</hiero>
+| '''S54'''<br /><hiero>S54</hiero>
+| '''S55'''<br /><hiero>S55</hiero>
+| '''S56'''<br /><hiero>S56</hiero>
+| '''S57'''<br /><hiero>S57</hiero>
+| '''S58'''<br /><hiero>S58</hiero>
+| '''S59'''<br /><hiero>S59</hiero>
+| '''S60'''<br /><hiero>S60</hiero>
+|-valign="top"
+| '''S61'''<br /><hiero>S61</hiero>
+| '''S62'''<br /><hiero>S62</hiero>
+| '''S63'''<br /><hiero>S63</hiero>
+| '''S64'''<br /><hiero>S64</hiero>
+| '''S65'''<br /><hiero>S65</hiero>
+| '''S66'''<br /><hiero>S66</hiero>
+| '''S67'''<br /><hiero>S67</hiero>
+| '''S68'''<br /><hiero>S68</hiero>
+| '''S69'''<br /><hiero>S69</hiero>
+| '''S70'''<br /><hiero>S70</hiero>
+-->
+|}
+
+=== T. Warfare, hunting, and butchery <span class="anchor" id="T"></span>===
+{{Main|List of Egyptian hieroglyphs#T}}
+''Expected quantity:'' 35
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''T1'''<br /><hiero>T1</hiero>
+| '''T2'''<br /><hiero>T2</hiero>
+| '''T3'''<br /><hiero>T3</hiero>
+| '''T4'''<br /><hiero>T4</hiero>
+| '''T5'''<br /><hiero>T5</hiero>
+| '''T6'''<br /><hiero>T6</hiero>
+| '''T7'''<br /><hiero>T7</hiero>
+| '''T8'''<br /><hiero>T8</hiero>
+| '''T9'''<br /><hiero>T9</hiero>
+| '''T10'''<br /><hiero>T10</hiero>
+|-valign="top"
+| '''T11'''<br /><hiero>T11</hiero>
+| '''T12'''<br /><hiero>T12</hiero>
+| '''T13'''<br /><hiero>T13</hiero>
+| '''T14'''<br /><hiero>T14</hiero>
+| '''T15'''<br /><hiero>T15</hiero>
+| '''T16'''<br /><hiero>T16</hiero>
+| '''T17'''<br /><hiero>T17</hiero>
+| '''T18'''<br /><hiero>T18</hiero>
+| '''T19'''<br /><hiero>T19</hiero>
+| '''T20'''<br /><hiero>T20</hiero>
+|-valign="top"
+| '''T21'''<br /><hiero>T21</hiero>
+| '''T22'''<br /><hiero>T22</hiero>
+| '''T23'''<br /><hiero>T23</hiero>
+| '''T24'''<br /><hiero>T24</hiero>
+| '''T25'''<br /><hiero>T25</hiero>
+| '''T26'''<br /><hiero>T26</hiero>
+| '''T27'''<br /><hiero>T27</hiero>
+| '''T28'''<br /><hiero>T28</hiero>
+| '''T29'''<br /><hiero>T29</hiero>
+| '''T30'''<br /><hiero>T30</hiero>
+|-valign="top"
+| '''T31'''<br /><hiero>T31</hiero>
+| '''T32'''<br /><hiero>T32</hiero>
+| '''T33'''<br /><hiero>T33</hiero>
+| '''T34'''<br /><hiero>T34</hiero>
+| '''T35'''<br /><hiero>T35</hiero>
+| '''T36'''<br /><hiero>T36</hiero>
+| '''T37'''<br /><hiero>T37</hiero>
+| '''T38'''<br /><hiero>T38</hiero>
+| '''T39'''<br /><hiero>T39</hiero>
+| '''T40'''<br /><hiero>T40</hiero>
+<!--
+|-valign="top"
+| '''T41'''<br /><hiero>T41</hiero>
+| '''T42'''<br /><hiero>T42</hiero>
+| '''T43'''<br /><hiero>T43</hiero>
+| '''T44'''<br /><hiero>T44</hiero>
+| '''T45'''<br /><hiero>T45</hiero>
+| '''T46'''<br /><hiero>T46</hiero>
+| '''T47'''<br /><hiero>T47</hiero>
+| '''T48'''<br /><hiero>T48</hiero>
+| '''T49'''<br /><hiero>T49</hiero>
+| '''T50'''<br /><hiero>T50</hiero>
+|-valign="top"
+| '''T51'''<br /><hiero>T51</hiero>
+| '''T52'''<br /><hiero>T52</hiero>
+| '''T53'''<br /><hiero>T53</hiero>
+| '''T54'''<br /><hiero>T54</hiero>
+| '''T55'''<br /><hiero>T55</hiero>
+| '''T56'''<br /><hiero>T56</hiero>
+| '''T57'''<br /><hiero>T57</hiero>
+| '''T58'''<br /><hiero>T58</hiero>
+| '''T59'''<br /><hiero>T59</hiero>
+| '''T60'''<br /><hiero>T60</hiero>
+|-valign="top"
+| '''T61'''<br /><hiero>T61</hiero>
+| '''T62'''<br /><hiero>T62</hiero>
+| '''T63'''<br /><hiero>T63</hiero>
+| '''T64'''<br /><hiero>T64</hiero>
+| '''T65'''<br /><hiero>T65</hiero>
+| '''T66'''<br /><hiero>T66</hiero>
+| '''T67'''<br /><hiero>T67</hiero>
+| '''T68'''<br /><hiero>T68</hiero>
+| '''T69'''<br /><hiero>T69</hiero>
+| '''T70'''<br /><hiero>T70</hiero>
+-->
+|}
+
+=== U. Agriculture, crafts, and professions <span class="anchor" id="U"></span>===
+{{Main|List of Egyptian hieroglyphs#U}}
+{{commons category|Hieroglyphs of Egypt: agriculture, crafts and professions}}
+41 signs.
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''U1'''<br /><hiero>U1</hiero>
+| '''U2'''<br /><hiero>U2</hiero>
+| '''U3'''<br /><hiero>U3</hiero>
+| '''U4'''<br /><hiero>U4</hiero>
+| '''U5'''<br /><hiero>U5</hiero>
+| '''U6'''<br /><hiero>U6</hiero>
+| '''U7'''<br /><hiero>U7</hiero>
+| '''U8'''<br /><hiero>U8</hiero>
+| '''U9'''<br /><hiero>U9</hiero>
+| '''U10'''<br /><hiero>U10</hiero>
+|-valign="top"
+| '''U11'''<br /><hiero>U11</hiero>
+| '''U12'''<br /><hiero>U12</hiero>
+| '''U13'''<br /><hiero>U13</hiero>
+| '''U14'''<br /><hiero>U14</hiero>
+| '''U15'''<br /><hiero>U15</hiero>
+| '''U16'''<br /><hiero>U16</hiero>
+| '''U17'''<br /><hiero>U17</hiero>
+| '''U18'''<br /><hiero>U18</hiero>
+| '''U19'''<br /><hiero>U19</hiero>
+| '''U20'''<br /><hiero>U20</hiero><br/>adze on block<br/>''stp'' "cut", "choose"<br/>(''[[Setepenre|stp-n-rꜣ]]'' "chosen of Ra")
+|-valign="top"
+| '''U21'''<br /><hiero>U21</hiero>
+| '''U22'''<br /><hiero>U22</hiero>
+| '''U23'''<br /><hiero>U23</hiero>
+| '''U24'''<br /><hiero>U24</hiero>
+| '''U25'''<br /><hiero>U25</hiero>
+| '''U26'''<br /><hiero>U26</hiero>
+| '''U27'''<br /><hiero>U27</hiero>
+| '''U28'''<br /><hiero>U28</hiero>
+| '''U29'''<br /><hiero>U29</hiero>
+| '''U30'''<br /><hiero>U30</hiero>
+|-valign="top"
+| '''U31'''<br /><hiero>U31</hiero>
+| '''U32'''<br /><hiero>U32</hiero>
+| '''U33'''<br /><hiero>U33</hiero>
+| '''U34'''<br /><hiero>U34</hiero>
+| '''U35'''<br /><hiero>U35</hiero>
+| '''U36'''<br /><hiero>U36</hiero>
+| '''U37'''<br /><hiero>U37</hiero>
+| '''U38'''<br /><hiero>U38</hiero>
+| '''U39'''<br /><hiero>U39</hiero>
+| '''U40'''<br /><hiero>U40</hiero>
+|-valign="top"
+| '''U41'''<br /><hiero>U41</hiero>
+|}
+
+=== V. Rope, fiber, baskets, bags, etc. <span class="anchor" id="V"></span>===
+{{Main|List of Egyptian hieroglyphs#V}}
+40 signs (38 in Gardiner 1957). 
+V39 is the ''[[Tyet]]'' or "Knot of Isis".
+V40 is the numeral 10 in dates.
+
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''V1'''<br /><hiero>V1</hiero>
+| '''V2'''<br /><hiero>V2</hiero>
+| '''V3'''<br /><hiero>V3</hiero>
+| '''V4'''<br /><hiero>V4</hiero>
+| '''V5'''<br /><hiero>V5</hiero>
+| '''V6'''<br /><hiero>V6</hiero>
+| '''V7'''<br /><hiero>V7</hiero>
+| '''V8'''<br /><hiero>V8</hiero>
+| '''V9'''<br /><hiero>V9</hiero>
+| '''V10'''<br /><hiero>V10</hiero>
+|-valign="top"
+| '''V11'''<br /><hiero>V11</hiero>
+| '''V12'''<br /><hiero>V12</hiero>
+| '''V13'''<br /><hiero>V13</hiero>
+| '''V14'''<br /><hiero>V14</hiero>
+| '''V15'''<br /><hiero>V15</hiero>
+| '''V16'''<br /><hiero>V16</hiero>
+| '''V17'''<br /><hiero>V17</hiero>
+| '''V18'''<br /><hiero>V18</hiero>
+| '''V19'''<br /><hiero>V19</hiero>
+| '''V20'''<br /><hiero>V20</hiero>
+|-valign="top"
+| '''V21'''<br /><hiero>V21</hiero>
+| '''V22'''<br /><hiero>V22</hiero>
+| '''V23'''<br /><hiero>V23</hiero>
+| '''V24'''<br /><hiero>V24</hiero>
+| '''V25'''<br /><hiero>V25</hiero>
+| '''V26'''<br /><hiero>V26</hiero>
+| '''V27'''<br /><hiero>V27</hiero>
+| '''V28'''<br /><hiero>V28</hiero>
+| '''V29'''<br /><hiero>V29</hiero>
+| '''V30'''<br /><hiero>V30</hiero>
+|-valign="top"
+| '''V31'''<br /><hiero>V31</hiero>
+| '''V32'''<br /><hiero>V32</hiero>
+| '''V33'''<br /><hiero>V33</hiero>
+| '''V34'''<br /><hiero>V34</hiero>
+| '''V35'''<br /><hiero>V35</hiero>
+| '''V36'''<br /><hiero>V36</hiero>
+| '''V37'''<br /><hiero>V37</hiero>
+| '''V38'''<br /><hiero>V38</hiero>
+| '''V39'''<br /><hiero>V39</hiero>
+| '''V40'''<br /><hiero>V40</hiero>
+|}
+
+=== W. Vessels of stone and earthenware <span class="anchor" id="W"></span>===
+{{Main|List of Egyptian hieroglyphs#W}}
+25 signs.
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''W1'''<br /><hiero>W1</hiero>
+| '''W2'''<br /><hiero>W2</hiero>
+| '''W3'''<br /><hiero>W3</hiero>
+| '''W4'''<br /><hiero>W4</hiero>
+| '''W5'''<br /><hiero>W5</hiero>
+| '''W6'''<br /><hiero>W6</hiero>
+| '''W7'''<br /><hiero>W7</hiero>
+| '''W8'''<br /><hiero>W8</hiero>
+| '''W9'''<br /><hiero>W9</hiero>
+| '''W10'''<br /><hiero>W10</hiero>
+|-valign="top"
+| '''W11'''<br /><hiero>W11</hiero>
+| '''W12'''<br /><hiero>W12</hiero>
+| '''W13'''<br /><hiero>W13</hiero>
+| '''W14'''<br /><hiero>W14</hiero>
+| '''W15'''<br /><hiero>W15</hiero>
+| '''W16'''<br /><hiero>W16</hiero>
+| '''W17'''<br /><hiero>W17</hiero>
+| '''W18'''<br /><hiero>W18</hiero>
+| '''W19'''<br /><hiero>W19</hiero>
+| '''W20'''<br /><hiero>W20</hiero>
+|-valign="top"
+| '''W21'''<br /><hiero>W21</hiero>
+| '''W22'''<br /><hiero>W22</hiero>
+| '''W23'''<br /><hiero>W23</hiero>
+| '''W24'''<br /><hiero>W24</hiero>
+| '''W25'''<br /><hiero>W25</hiero>
+
+|}
+
+=== X. Loaves and cakes <span class="anchor" id="X"></span>===
+{{Main|List of Egyptian hieroglyphs#X}}
+{{commons category|Hieroglyphs of Egypt: loaves and cakes}}
+8 signs.
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''X1'''<br /><hiero>X1</hiero><br>[[X1-(letter T) bread bun - feminine (Egyptian t hieroglyph)|''t'' feminine]]
+| '''X2'''<br /><hiero>X2</hiero> 
+| '''X3'''<br /><hiero>X3</hiero><br> bread
+| '''X4'''<br /><hiero>X4</hiero>
+| '''X5'''<br /><hiero>X5</hiero><br>  bread, food
+| '''X6'''<br /><hiero>X6</hiero><br>loaf (''pAt'')
+| '''X7'''<br /><hiero>X7</hiero><br>half-loaf (''gSw'')
+| '''X8'''<br /><hiero>X8</hiero><br>conical loaf; "give" (''di, imi'')
+|}
+
+=== Y. Writings, games, music <span class="anchor" id="Y"></span>===
+{{Main|List of Egyptian hieroglyphs#Y}}
+8 signs.
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''[[Papyrus roll-tied (hieroglyph)|Y1]]'''<br /><hiero>Y1</hiero>
+| '''[[Papyrus roll-open|Y2]]'''<br /><hiero>Y2</hiero>
+| '''[[Scribe equipment (hieroglyph)|Y3]]'''<br /><hiero>Y3</hiero>
+| '''[[Scribe equipment (hieroglyph)|Y4]]'''<br /><hiero>Y4</hiero>
+| '''Y5'''<br /><hiero>Y5</hiero>
+| '''[[Game piece (hieroglyph)|Y6]]'''<br /><hiero>Y6</hiero>
+| '''Y7'''<br /><hiero>Y7</hiero><br>
+| '''[[Sistrum|Y8]]'''<br /><hiero>Y8</hiero>
+|}
+
+=== Z. Strokes, signs derived from Hieratic, geometrical figures <span class="anchor" id="Z"></span>===
+{{Main|List of Egyptian hieroglyphs#Z}}
+11 signs.
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''Z1'''<br /><hiero>Z1</hiero>
+| '''Z2'''<br /><hiero>Z2</hiero>
+| '''Z3'''<br /><hiero>Z3</hiero>
+| '''Z4'''<br /><hiero>Z4</hiero>
+| '''Z5'''<br /><hiero>Z5</hiero>
+| '''Z6'''<br /><hiero>Z6</hiero>
+| '''Z7'''<br /><hiero>Z7</hiero>
+| '''Z8'''<br /><hiero>Z8</hiero>
+| '''Z9'''<br /><hiero>Z9</hiero>
+| '''Z10'''<br /><hiero>Z10</hiero>
+|-valign="top"
+| '''Z11'''<br /><hiero>Z11</hiero>
+|}
+
+=== Aa. Unclassified ===
+{{Main|List of Egyptian hieroglyphs#Aa}}
+31 signs in Gardiner (1957).
+{| class="wikitable" style="text-align: center;"
+|-valign="top"
+| '''Aa1'''<br /><hiero>Aa1</hiero>
+| '''Aa2'''<br /><hiero>Aa2</hiero>
+| '''Aa3'''<br /><hiero>Aa3</hiero>
+| '''Aa4'''<br /><hiero>Aa4</hiero>
+| '''Aa5'''<br /><hiero>Aa5</hiero>
+| '''Aa6'''<br /><hiero>Aa6</hiero>
+| '''Aa7'''<br /><hiero>Aa7</hiero>
+| '''Aa8'''<br /><hiero>Aa8</hiero>
+| '''Aa9'''<br /><hiero>Aa9</hiero>
+| '''Aa10'''<br /><hiero>Aa10</hiero>
+|-valign="top"
+| '''Aa11'''<br /><hiero>Aa11</hiero>
+| '''Aa12'''<br /><hiero>Aa12</hiero>
+| '''Aa13'''<br /><hiero>Aa13</hiero>
+| '''Aa14'''<br /><hiero>Aa14</hiero>
+| '''Aa15'''<br /><hiero>Aa15</hiero>
+| '''Aa16'''<br /><hiero>Aa16</hiero>
+| '''Aa17'''<br /><hiero>Aa17</hiero>
+| '''Aa18'''<br /><hiero>Aa18</hiero>
+| '''Aa19'''<br /><hiero>Aa19</hiero>
+| '''Aa20'''<br /><hiero>Aa20</hiero>
+|-valign="top"
+| '''Aa21'''<br /><hiero>Aa21</hiero>
+| '''Aa22'''<br /><hiero>Aa22</hiero>
+| '''Aa23'''<br /><hiero>Aa23</hiero>
+| '''Aa24'''<br /><hiero>Aa24</hiero>
+| '''Aa25'''<br /><hiero>Aa25</hiero>
+| '''Aa26'''<br /><hiero>Aa26</hiero>
+| '''Aa27'''<br /><hiero>Aa27</hiero>
+| '''Aa28'''<br /><hiero>Aa28</hiero>
+| '''Aa29'''<br /><hiero>Aa29</hiero>
+| '''Aa30'''<br /><hiero>Aa30</hiero>
+|-valign="top"
+| '''Aa31'''<br /><hiero>Aa31</hiero>
+| '''Aa32'''<br /><hiero>Aa32</hiero>
+| '''Aa33'''<br /><hiero>Aa33</hiero>
+| '''Aa34'''<br /><hiero>Aa34</hiero>
+| '''Aa35'''<br /><hiero>Aa35</hiero>
+| '''Aa36'''<br /><hiero>Aa36</hiero>
+| '''Aa37'''<br /><hiero>Aa37</hiero>
+| '''Aa38'''<br /><hiero>Aa38</hiero>
+| '''Aa39'''<br /><hiero>Aa39</hiero>
+| '''Aa40'''<br /><hiero>Aa40</hiero>
+|-valign="top"
+| '''Aa41'''<br /><hiero>Aa41</hiero>
+| '''Aa42'''<br /><hiero>Aa42</hiero>
+| '''Aa43'''<br /><hiero>Aa43</hiero>
+| '''Aa44'''<br /><hiero>Aa44</hiero>
+| '''Aa45'''<br /><hiero>Aa45</hiero>
+| '''Aa46'''<br /><hiero>Aa46</hiero>
+| '''Aa47'''<br /><hiero>Aa47</hiero>
+| '''Aa48'''<br /><hiero>Aa48</hiero>
+| '''Aa49'''<br /><hiero>Aa49</hiero>
+| '''Aa50'''<br /><hiero>Aa50</hiero>
+|}
+
+==Unicode==
+{{Main|Egyptian Hieroglyphs (Unicode block)}}
+{{Contains special characters|Uncommon Unicode|section}}
+{{Infobox symbol
+| mark = 𓁄
+| name = A059: man threatening with  stick
+| unicode = {{unichar|013044|EGYPTIAN HIEROGLYPH A059|html=}}
+}}
+These hieroglyphs have [[unicode]] [[code point]]s and so, given a suitable [[font]], can be displayed or printed. The block starts at U+013000 for A001.
+
+==See also==
+{{Commons category|Hieroglyphs of Egypt}}
+{{Commons category|Gardiner's list}}
+{{mediawiki|Extension:WikiHiero}}
+*[[Egyptian hieroglyph]]s
+*[[List of Egyptian hieroglyphs]]
+*[[Transliteration of Ancient Egyptian]]
+
+==References==
+{{Reflist}}
+
+== Bibliography ==
+
+*[[E. A. Wallis Budge|Budge, Sir E.A.Wallis]],  ''An Egyptian Hieroglyphic Dictionary, in Two Volumes,'' Sir E.A.Wallis Budge, (Dover Publications, Inc. New York), c 1920, Dover Edition, c 1978.  (Large categorized listings of Hieroglyphs, Vol 1, pp. xcvii–cxlvii (97–147) (25 categories, 1000+ hieroglyphs), 50 pgs.)
+*[[Alan Gardiner|A.H. Gardiner]], ''Catalogue of the Egyptian hieroglyphic printing type, from matrices owned and controlled by Dr. Alan''  (1928).
+*A.H. Gardiner, "Additions to the new hieroglyphic fount (1928)", ''The Journal of Egyptian Archaeology'' 15 (1929), p.&nbsp;95.
+*A.H. Gardiner, "Additions to the new hieroglyphic fount (1931)", ''The Journal of Egyptian Archaeology'' 17 (1931), pp.&nbsp;245–247.
+*A.H. Gardiner, ''Supplement to the catalogue of the Egyptian hieroglyphic printing type, showing acquisitions to December 1953''  (1953).
+*A.H. Gardiner, ''[[Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs]]''. 3rd Ed., pub. [[Griffith Institute]], Oxford, 1957 (1st edition 1927), pp.&nbsp;438&ndash;548 ([https://web.archive.org/web/20111122134017/http://egyptologie.ff.cuni.cz/pdf/Gardiner_signlist.pdf pdf]).
+*Wilkinson, Richard,  ''Reading Egyptian Art, A Hieroglyphic Guide to Ancient Egyptian Painting and Sculpture,'' Richard H. Wilkinson, with 450 Illustrations, (Thames & Hudson Ltd, London), c 1992.
+
+==Further reading==
+*{{cite book |last1=Betrò |first1=Maria Carmela |title=Hieroglyphics: The Writings of Ancient Egypt |date=1996 |publisher=Abbeville Press Pub |isbn=9780789202321 |pages=[https://archive.org/details/michelangelovati00deve/page/251 251] |edition=1st |url-access=registration |url=https://archive.org/details/michelangelovati00deve }}: A primer based on Gardiner's sign list, focussing on major signs in seven categories.
+
+==External links==
+*[https://web.archive.org/web/20070526134805/http://www.yare.org/egypt/gardiner%20fonts.htm Hieroglyphic fonts] 
+*[http://www.khemet.de/altaegypten/schrift/gardiner.html Khemet.de on Gardiner] {{Webarchive|url=https://web.archive.org/web/20151011115159/http://www.khemet.de/altaegypten/schrift/gardiner.html |date=2015-10-11 }}
+
+{{Egyptian hieroglyphs navbox}}
+
+{{DEFAULTSORT:Gardiner's Sign List}}
+[[Category:Gardiner's sign list| ]]
+[[Category:Egyptian hieroglyphs|*]]
+[[Category:Transliteration]]
+[[Category:Linguistics lists]]
+[[Category:Ancient Egypt-related lists]]

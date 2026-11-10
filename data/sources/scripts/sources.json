@@ -60,9 +60,9 @@
   "fetched": "2026-11-10"
  },
  "coptic": {
-  "title": "Coptic alphabet",
-  "url": "https://en.wikipedia.org/wiki/Coptic_alphabet",
-  "bytes": 74,
+  "title": "Coptic script",
+  "url": "https://en.wikipedia.org/wiki/Coptic_script",
+  "bytes": 32997,
   "fetched": "2026-11-10"
  },
  "old_persian": {
@@ -87,6 +87,30 @@
   "title": "Rosetta Stone",
   "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
   "bytes": 82307,
+  "fetched": "2026-11-10"
+ },
+ "egyptian_uni": {
+  "title": "Egyptian uniliteral signs",
+  "url": "https://en.wikipedia.org/wiki/Egyptian_uniliteral_signs",
+  "bytes": 7994,
+  "fetched": "2026-11-10"
+ },
+ "egyptian_bi": {
+  "title": "Egyptian biliteral signs",
+  "url": "https://en.wikipedia.org/wiki/Egyptian_biliteral_signs",
+  "bytes": 16383,
+  "fetched": "2026-11-10"
+ },
+ "egyptian_tri": {
+  "title": "Egyptian triliteral signs",
+  "url": "https://en.wikipedia.org/wiki/Egyptian_triliteral_signs",
+  "bytes": 17283,
+  "fetched": "2026-11-10"
+ },
+ "gardiner_signs": {
+  "title": "Gardiner's sign list",
+  "url": "https://en.wikipedia.org/wiki/Gardiner%27s_sign_list",
+  "bytes": 63622,
   "fetched": "2026-11-10"
  }
 }

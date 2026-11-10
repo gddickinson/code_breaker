@@ -420,3 +420,6 @@ app.include_router(_sounds)
 from .routes_codes import router as _codes  # noqa: E402
 
 app.include_router(_codes)
+from .routes_writing import router as _writing  # noqa: E402
+
+app.include_router(_writing)

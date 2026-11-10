@@ -13,6 +13,7 @@ route(/^\/workbench$/, async () => {
     <div><label for="cl">Language</label><select id="cl"><option value="">Try all six</option><option value="en">English</option><option value="fr">French</option><option value="de">German</option><option value="it">Italian</option><option value="es">Spanish</option><option value="la">Latin</option></select></div></div>
     <button id="crack">Crack it</button><button id="stop" class="alt" disabled>Stop</button><button id="go" class="alt">Statistics only</button></div>
     <div id="abo"></div><div id="o"></div>${submitPanel()}`;
+  try { const handed = sessionStorage.getItem("workbenchText"); if (handed) { $("#t").value = handed; sessionStorage.removeItem("workbenchText"); } } catch (e) { /* storage unavailable */ }
   crackSetup();
   if (window.PENDING_TEXT) { $("#t").value = window.PENDING_TEXT; window.PENDING_TEXT = null; }
   submitSetup();

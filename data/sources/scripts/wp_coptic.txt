@@ -1,5 +1,509 @@
-#REDIRECT [[Coptic script]]
-
-{{Redirect category shell|
-{{R from move}}
+{{short description|Script used for writing the Coptic language}}
+{{Infobox Writing system
+| name        = Coptic script
+| type        = [[Alphabet]]
+| languages   = [[Coptic language|Coptic]], [[Blemmyan language|Blemmyan]], [[Nubian languages]]
+| sample      = Coptic-render.svg
+| time        = 2nd century AD<ref>[https://bigenc.ru/linguistics/text/2095533 Coptic alphabet]/Great Russian Encyclopedia</ref> to present (in Coptic liturgy)
+| fam1        = [[Egyptian hieroglyphs]]
+| fam2        = [[Proto-Sinaitic]]
+| fam3        = [[Phoenician alphabet]]
+| fam4        = [[Greek script]] augmented by [[Demotic Egyptian script|Demotic]]
+| children    = [[Old Nubian language#Writing system|Old Nubian]]
+| unicode     = {{ublist |class=nowrap |[https://www.unicode.org/charts/PDF/U2C80.pdf U+2C80–U+2CFF] {{smaller|Coptic}} |[https://www.unicode.org/charts/PDF/U0370.pdf U+0370–U+03FF] {{smaller|Greek and Coptic}} |[https://www.unicode.org/charts/PDF/U102E0.pdf U+102E0–U+102FF] {{smaller|Coptic Epact Numbers}}}}
+| iso15924    = Copt
 }}
+{{Contains special characters|Coptic}}
+
+The '''Coptic script''' is the [[Writing system|script]] used for writing the [[Coptic language]], the most recent development of [[Egyptian language|Egyptian]]. The repertoire of [[glyph]]s is based on the [[uncial]] [[Greek alphabet]], augmented by letters borrowed from the Egyptian [[Demotic Egyptian script|Demotic]]. It was the first alphabetic script used for the [[Egyptian language]]. There are several '''Coptic alphabets''', as the script varies greatly among the various dialects and eras of the [[Coptic language]].
+
+==History==
+[[File:Coptic_alphabet.jpg|thumb|alt=ⲁⲃⲅⲇ|The Coptic alphabet]]
+
+{{Copts}}
+{{alphabet}}
+The Coptic script has a long history going back to the [[Ptolemaic Kingdom]], when the Greek alphabet was used to [[Transcription (linguistics)|transcribe]] [[Demotic Egyptian script|Demotic]] texts, with the aim of recording the correct pronunciation of Demotic. As early as the sixth century BC and as late as the second century AD, an entire series of [[ancient Egyptian religion|pre-Christian religious]] texts were written in what scholars term [[Old Coptic]], Egyptian language texts written in the [[Greek alphabet]].
+
+In contrast to Old Coptic, seven additional Coptic letters were derived from Demotic, and many of these (though not all) are used in “true” form of Coptic writing. Coptic texts are associated with [[Christianity]], [[Gnosticism]], and [[Manichaeism]].
+
+With the spread of [[early Christianity]] in Egypt, knowledge of [[Egyptian hieroglyphs]] was lost by the late third century, as well as Demotic script slightly later, making way for a writing system more closely associated with the [[Coptic Orthodox Church]]. By the fourth century, the Coptic script was "standardized", particularly for the Sahidic dialect. (There are a number of differences between the alphabets as used in the various dialects in Coptic).
+
+Coptic is not generally used today except by the members of the Coptic Orthodox Church to write their religious texts. All the Gnostic codices found at [[Nag Hammadi]] used the Coptic script.
+
+The most common Coptic dialect written today as a liturgical language for the Coptic Orthodox and Coptic Catholic Churches is the [[Bohairic Coptic|Bohairic]] dialect.
+
+The Old Nubian alphabet—used to write [[Old Nubian]], a [[Nilo-Saharan language]]—is an [[uncial script|uncial]] variant of the Coptic script, with additional characters borrowed from the Greek and [[Meroitic script|Meroitic]] scripts.
+
+== Form ==
+The Coptic script was the first Egyptian writing system to indicate [[vowels]], making Coptic documents invaluable for the interpretation of earlier Egyptian texts. Some Egyptian syllables had [[sonorant]]s but no vowels; in Sahidic, these were written in Coptic with a line above the entire syllable. Various scribal schools made limited use of diacritics: some used an apostrophe as a [[word divider]] and to mark [[clitic]]s, a function of [[determinative]]s in [[logogram|logographic]] Egyptian; others used [[Diaeresis (diacritic)|diereses]] over {{coptic|ⲓ}} and {{coptic|ⲩ}} to show that these started a new syllable, others a [[circumflex]] over any vowel for the same purpose.<ref name=D&B>Ritner, Robert Kriech. 1996. "The Coptic Alphabet". In ''The World's Writing Systems'', edited by Peter T. Daniels and William Bright. Oxford and New York: Oxford University Press. 1994:287–290.</ref>
+
+The Coptic script's glyphs are largely based on the Greek alphabet, which is another help in interpreting older Egyptian texts.<ref>Campbell, George L. "Coptic." Compendium of the World's Writing Systems. 2nd ed. Vol. 1. Biddles LTD, 1991. 415.</ref> It has 24 letters of Greek origin; 6 or 7 more were retained from [[Demotic Egyptian script|Demotic]], depending on the dialect (6 in Sahidic, another each in Bohairic and Akhmimic).<ref name=D&B/> In addition to the alphabetic letters, the letter ϯ stood for the syllable {{IPA|/ti/}} or {{IPA|/di/}}.
+
+As the Coptic script is a variant of the Greek alphabet,<ref>{{Cite web|url=http://www.ancientscripts.com/coptic.html|title=Coptic|website=Ancient Scripts|access-date=2 December 2017|archive-url=https://web.archive.org/web/20171219080938/http://www.ancientscripts.com/coptic.html|archive-date=19 December 2017}}</ref> with a few added letters, it can be used to write Greek without any transliteration schemes. Latin equivalents would include the [[Icelandic orthography|Icelandic alphabet]] (which likewise has added letters), or the [[Fraktur]] alphabet (which has distinctive forms). While initially unified with the Greek alphabet by [[Unicode]], a proposal was later accepted to separate it, with the proposal noting that Coptic is never written using modern Greek letter-forms (unlike German, which may be written with Fraktur or [[Antiqua (typeface class)|Antiqua]] letter-forms), and that the Coptic letter-forms have closer mutual legibility with the Greek-based letters incorporated into the separately encoded [[Cyrillic alphabet]] than with the forms used in modern Greek. Because Coptic lowercases are usually small-caps forms of the capitals, a Greek would have little trouble reading Coptic letters, but Copts would struggle more with many of the Greek letters.<ref>{{cite web|title=L2/02-205 N2444: Coptic supplementation in the BMP|date=2002-05-08|first1=Michael|last1=Everson|first2=Kamal|last2=Mansour|url=https://www.unicode.org/L2/L2002/02205-n2444-coptic.pdf}}</ref><ref>For example: The composer's name "Dmitri Dmitriyevich Shostakovich" is Дмитрий Дмитриевич Шостакович in Cyrillic, and Ⲇⲙⲏⲧⲣⲓⲓ Ⲇⲙⲏⲧⲣⲓⲉⲃⲓϭ Ϣⲟⲥⲧⲁⲕⲟⲃⲓϭ in Coptic.</ref>
+
+== Letters ==
+These are the letters that are used for writing the Coptic language. Coptic did not originally have case distinctions&mdash;they are a modern convention, as is the case with other classical languages like [[Latin language|Latin]].
+
+{| class="wikitable" style="text-align: center;"
+! Uppercase <small>(image)</small>
+! Lowercase <small>(image)</small>
+! Uppercase <small>(unicode)</small>
+! Lowercase <small>(unicode)</small>
+! Numeric value
+! Greek {{Abbr|equiv.|equivalent}}
+! {{Abbr|Latin translit.|Latin transliteration}}<small>{{Citation needed|reason=What specific transliteration(s) is/are being used here?|date=August 2024}}</small>
+! Sahidic {{Abbr|pron.|pronunciation}}<ref name="Peust 1999">{{Cite web |date=2010 |title=Die Toponyme vorarabischen Ursprungs im modernen Ägypten |url=https://www.peust.de/ortsnamen_original.pdf |url-status=dead |archive-url=https://web.archive.org/web/20250401025916/https://www.peust.de/ortsnamen_original.pdf |archive-date=1 April 2025 |access-date=6 April 2025 |website=peust.de}}</ref>
+! Bohairic {{Abbr|pron.|pronunciation}}<ref name="Peust 1999" />
+! Late Coptic {{Abbr|pron.|pronunciation}}<ref>[https://copticsounds.files.wordpress.com/2009/12/thepronunciationofcopticinthechurchofegypt.pdf Before the Greco-Bohairic reforms of the mid 19th century.]</ref>
+! Greco-Bohairic {{Abbr|pron.|hover over IPA symbol for when pronunciation is used, if no message appears when hovering: pronounced such always}}<ref>{{Cite web|url=https://cdn.suscopts.org/files/deacons/coptic/FT-Coptic%20Language-Lectures.pdf|title=The Coptic Language|website=Coptic Orthodox Diocese of the Southern United States}}</ref>
+|-
+![[File:Coptic Alpha-maj.svg|class=skin-invert]]
+![[File:Coptic Alpha-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲁ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲁ</span>}}
+| 1|| Α, α
+| A, a
+| colspan="2" | {{IPAslink|a}}
+
+| {{IPAslink|æ}}, {{IPAslink|ɑ}}
+| {{IPAslink|ä}}
+|-
+![[File:Coptic Beta-maj.svg|class=skin-invert]]
+![[File:Coptic Beta-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲃ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲃ</span>}}
+| 2|| Β, β || B, b
+| {{IPAslink|β}}
+| {{IPAslink|β}}<br>(final {{IPAblink|b}})
+| {{IPAslink|w}}<br>(final {{IPAblink|b}})<br><ref group="note">{{coptic|Ⲃ}} seemed to have retained a {{IPAblink|β}} intervocalically in Late Coptic.</ref>
+| {{IPAslink|v}}, <small>({{IPAslink|b}} before a consonant, at the end of a word, or in a name)</small>
+|-
+![[File:Coptic Gamma-maj.svg|class=skin-invert]]
+![[File:Coptic Gamma-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲅ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲅ</span>}}
+| 3|| Γ, γ
+| G, g
+| {{IPAslink|k}}<br><small>(marked Greek words)</small>
+|—
+| {{IPAslink|g}}, ({{IPAslink|ɣ}} before ⲁ, ⲟ, or ⲱ)
+| {{IPAslink|ɣ}}, {{IPAslink|g}} <small>(before {{IPAslink|e̞}} or {{IPAslink|i}})</small>, {{IPAslink|ŋ}} <small>(before {{IPAslink|g}} or {{IPAslink|k}})</small>
+|-
+![[File:Coptic Dalda-maj.svg|class=skin-invert]]
+![[File:Coptic Dalda-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲇ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲇ</span>}}
+| 4|| Δ, δ || D, d
+| {{IPAslink|t}}<br><small>(marked Greek words)</small>
+|—
+| {{IPAslink|d}}<br><small>(marked Greek words)</small>
+| {{IPAslink|ð}}, <small>({{IPAslink|d}} in a name)</small>
+|-
+![[File:Coptic Ei-maj.svg|class=skin-invert]]
+![[File:Coptic Ei-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲉ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲉ</span>}}
+| 5|| Ε, ε || E, e
+| {{IPAslink|ɛ}}, {{IPAslink|ə}}<br>({{Coptic|ⲉⲓ}} = {{IPAslink|i}}, {{IPAslink|j}})
+| {{IPAslink|ɛ}}, {{IPAslink|ə}}<br>({{Coptic|ⲓⲉ}} = {{IPAslink|e}})
+| {{IPAslink|æ}}, {{IPAslink|ɑ}}<br>({{Coptic|ⲓⲉ}} = {{IPAslink|e}})
+| {{IPAslink|e̞}}
+|-
+![[File:Coptic Sou.svg|class=skin-invert]]
+![[File:Coptic Sou.svg|class=skin-invert|26x26px]]
+!{{coptic|1=<span style="font-size:190%;">Ⲋ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲋ</span>}}
+| 6|| [[Ϛ]], [[ϛ]]<br>({{GrGl|Digamma cursive 07}}, {{GrGl|Digamma cursive 04}})|| <small>(none)</small>
+| colspan="4" |
+(none)
+
+|-
+![[File:Coptic Zeta-maj.svg|class=skin-invert]]
+![[File:Coptic Zeta-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲍ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲍ</span>}}
+| 7|| Ζ, ζ || Z, z
+| {{IPAslink|s}}<br><small>(marked Greek words)</small>
+|—
+| {{IPAslink|z}}<br><small>(marked Greek words)</small>
+| {{IPAslink|z}}
+|-
+![[File:Coptic Eta-maj.svg|class=skin-invert]]
+![[File:Coptic Eta-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲏ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲏ</span>}}
+| 8|| Η, η || Ē, ē
+| {{IPAslink|e}}
+| {{IPAslink|e}}
+| {{IPAslink|æ}}, {{IPAslink|ɑ}}, {{IPAslink|ɪ}}
+| {{IPAslink|iː}}
+|-
+![[File:Coptic Theta-maj.svg|class=skin-invert]]
+![[File:Coptic Theta-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲑ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲑ</span>}}
+| 9|| Θ, θ || Th, th
+| {{IPA|/}}{{IPA link|t}}{{IPA link|h}}{{IPA|/}}
+| {{IPAslink|tʰ}}
+| {{IPAslink|t}}
+| {{IPAslink|θ}}
+|-
+![[File:Coptic Iota-maj.svg|class=skin-invert]]
+![[File:Coptic Iota-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲓ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲓ</span>}}
+| 10|| Ι, ι || I, i
+| {{IPAslink|iː}}, {{IPAslink|j}}
+| {{IPAslink|i}}, {{IPAslink|j}}, {{IPAslink|ə}}<br>({{Coptic|ⲓⲉ}} = {{IPAslink|e}})
+| {{IPAslink|ɪ}}, {{IPAslink|j}}<br>({{Coptic|ⲓⲉ}} = {{IPAslink|e}})
+| {{IPAslink|i}}, {{IPAslink|j}} <small>(before vowels)</small>, {{IPAslink|ɪ}} <small>(after vowels to form diphthongs)</small>
+|-
+![[File:Coptic Kappa-maj.svg|class=skin-invert]]
+![[File:Coptic Kappa-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲕ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲕ</span>}}
+| 20|| Κ, κ || K, k
+| colspan="4" | {{IPAslink|k}}
+|-
+![[File:Coptic Laula-maj.svg|class=skin-invert]]
+![[File:Coptic Laula-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲗ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲗ</span>}}
+| 30|| Λ, λ || L, l
+|  colspan="4" | {{IPAslink|l}}
+
+|-
+![[Image:Coptic Me-maj.svg|class=skin-invert]]
+![[Image:Coptic Me-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲙ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲙ</span>}}
+| 40|| Μ, μ || M, m
+| colspan="4" | {{IPAslink|m}}
+
+|-
+![[Image:Coptic Ne-maj.svg|class=skin-invert]]
+![[Image:Coptic Ne-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲛ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲛ</span>}}
+| 50|| Ν, ν || N, n
+| colspan="4" | {{IPAslink|n}}
+
+|-
+![[Image:Coptic Kxi-maj.svg|class=skin-invert]]
+![[Image:Coptic Kxi-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲝ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲝ</span>}}
+| 60|| Ξ, ξ || Ks, ks
+| colspan="3" |{{IPA|/}}{{IPA link|k}}{{IPA link|s}}{{IPA|/}}<br><small>(only in Greek loanwords)</small>
+| {{IPA|/}}{{IPA link|k}}{{IPA link|s}}{{IPA|/}}, {{IPA|[}}{{IPA link|e̞}}{{IPA link|k}}{{IPA link|s}}{{IPA|]}} <small>(usually following a consonant, or sometimes when starting a word)</small>
+|-
+![[Image:Coptic Ou-maj.svg|class=skin-invert]]
+![[Image:Coptic Ou-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲟ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲟ</span>}}
+| 70|| Ο, ο || O, o
+| colspan="2" | {{IPAslink|ɔ}} ({{Coptic|ⲟⲩ}} = {{IPAslink|u}}, {{IPAslink|w}})
+| {{IPAslink|o}} ({{Coptic|ⲟⲩ}} = {{IPAslink|u}}, {{IPAslink|w}})
+| {{IPAslink|o̞}} ({{Coptic|ⲟⲩ}} = {{IPAslink|u}})
+|-
+![[Image:Coptic Pi-maj.svg|class=skin-invert]]
+![[Image:Coptic Pi-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲡ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲡ</span>}}
+| 80|| Π, π || P, p
+| colspan="2" | {{IPAslink|p}}
+
+| {{IPAslink|b}}
+| {{IPAslink|p}}
+|-
+![[Image:Coptic Ro-maj.svg|class=skin-invert]]
+![[Image:Coptic Ro-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲣ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲣ</span>}}
+| 100|| Ρ, ρ || R, r
+| colspan="4" | {{IPAslink|ɾ}}~{{IPAslink|r}}
+
+|-
+![[Image:Coptic Semma-maj.svg|class=skin-invert]]
+![[Image:Coptic Semma-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲥ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲥ</span>}}
+| 200|| Σ, σ, ς || S, s
+| colspan="4" | {{IPAslink|s}}
+
+|-
+![[Image:Coptic Tau-maj.svg|class=skin-invert]]
+![[Image:Coptic Tau-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲧ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲧ</span>}}
+| 300|| Τ, τ || T, t
+| {{IPAslink|t}}
+| {{IPAslink|t}}
+| {{IPAslink|d}}<br>(final {{IPAblink|t}})
+| {{IPAslink|t}}
+|-
+![[Image:Coptic He-maj.svg|class=skin-invert]]
+![[Image:Coptic He-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲩ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲩ</span>}}
+| 400|| Υ, υ || U, u
+| colspan="2" | {{IPAslink|w}} ({{Coptic|ⲟⲩ}} = {{IPAslink|u}}, {{IPAslink|w}})
+| {{IPAslink|ɪ}}, {{IPAslink|w}} ({{Coptic|ⲟⲩ}} = {{IPAslink|u}}, {{IPAslink|w}})
+| {{IPAslink|i}}, {{IPAslink|w}} <small>(between "{{Coptic|ⲟ}}" and another vowel except "{{Coptic|ⲱ}}")</small>, {{IPAslink|v}} <small>(after {{IPAslink|ɑ}} ({{Coptic|ⲁ}} or {{IPAslink|e̞}} ({{Coptic|ⲉ}}))</small>, {{IPAslink|u}} <small>(digraph "{{Coptic|ⲟⲩ}}")</small>
+|-
+![[Image:Coptic Phi-maj.svg|class=skin-invert]]
+![[Image:Coptic Phi-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲫ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲫ</span>}}
+| 500|| Φ, φ || Ph, ph
+| {{IPA|/}}{{IPA link|p}}{{IPA link|h}}{{IPA|/}}
+| {{IPAslink|pʰ}}
+| {{IPAslink|b}}~{{IPAslink|f}}
+| {{IPAslink|f}}
+|-
+![[Image:Coptic Khi-maj.svg|class=skin-invert]]
+![[Image:Coptic Khi-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲭ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲭ</span>}}
+| 600|| Χ, χ || Kh, kh
+| {{IPA|/}}{{IPA link|k}}{{IPA link|h}}{{IPA|/}}
+| {{IPAslink|kʰ}}
+| {{IPAslink|k}}<br />
+| {{IPAslink|k}} <small>(if the word is Coptic in origin)</small>, {{IPAslink|x}} <small>(if the word is Greek in origin)</small>, {{IPAslink|ç}} <small>(if the word is Greek in origin but before {{IPAslink|e̞}} or {{IPAslink|i}})</small>
+|-
+![[Image:Coptic Pxi-maj.svg|class=skin-invert]]
+![[Image:Coptic Pxi-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲯ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲯ</span>}}
+| 700|| Ψ, ψ || Ps, ps
+| colspan="2" |
+
+| {{IPA|[}}{{IPA link|b}}{{IPA link|s}}{{IPA|]}}<br><small>(only in Greek loanwords)</small>
+| {{IPA|[}}{{IPA link|p}}{{IPA link|s}}{{IPA|]}}, {{IPA|[}}{{IPA link|e̞}}{{IPA link|p}}{{IPA link|s}}{{IPA|]}} <small>(usually following a consonant)</small>
+|-
+![[Image:Coptic O-maj.svg|class=skin-invert]]
+![[Image:Coptic O-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⲱ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⲱ</span>}}
+| 800|| Ω, ω || Ō, ō
+| {{IPAslink|o}}
+| {{IPAslink|o}}
+| {{IPAslink|oː}}
+| {{IPAslink|o̞ː}}
+|-
+![[Image:Coptic Sai-maj.svg|class=skin-invert]]
+![[Image:Coptic Sai-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϣ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϣ</span>}}
+|—|| (none) || Š, š / Sh, sh
+| colspan="4" | {{IPAslink|ʃ}}
+
+|-
+![[Image:Coptic Fai-maj.svg|class=skin-invert]]
+![[Image:Coptic Fai-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϥ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϥ</span>}}
+| 90||[[Ϙ]], [[ϙ]]<br>(numerical value)|| F, f
+| colspan="4" | {{IPAslink|f}}
+
+|-
+![[Image:Coptic Hai-maj.svg|class=skin-invert]]
+![[Image:Coptic Hai-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϧ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϧ</span>}}
+|—|| (none) || X, x / H̱, ẖ
+| NA
+| colspan="3" | {{IPAslink|x}}
+
+|-
+!
+!
+!{{coptic|1=<span style="font-size:190%;">Ⳉ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⳉ</span>}}
+|—|| (none) || 
+| colspan="4" | only used in [[Coptic_language#Akhmimic|Akhmimic]] for {{IPAslink|x}}. No name is recorded.
+
+|-
+![[Image:Coptic Hori-maj.svg|class=skin-invert]]
+![[Image:Coptic Hori-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϩ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϩ</span>}}
+|—|| (none) || H, h
+| colspan="4" | {{IPAslink|h}}
+
+|-
+![[Image:Coptic Dandia-maj.svg|class=skin-invert]]
+![[Image:Coptic Dandia-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϫ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϫ</span>}}
+|—|| (none) || J, j
+| {{IPAslink|t͡ʃ}}
+| {{IPAslink|t͡ʃ}}
+| {{IPAslink|d͡ʒ}}<br><ref group="note" name="cima">{{coptic|Ϫ}} and {{coptic|ϭ}} seemed to have merged in Late Coptic into one phoneme, {{IPAslink|ʃ}}, with {{IPAblink|d͡ʒ}} intervocalically.</ref>
+| {{IPAslink|g}}, {{IPAslink|d͡ʒ}} <small>(before {{IPAslink|e̞}} or {{IPAslink|i}})</small>
+|-
+![[File:Coptic Cima-maj.svg|class=skin-invert]]
+![[File:Coptic Cima-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϭ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϭ</span>}}
+|—||(none)
+| C, c / Č, č
+| {{IPAslink|kʲ}}
+| {{IPAslink|t͡ʃʰ}}
+| {{IPAslink|ʃ}}<br><ref group="note" name="cima" />
+| {{IPAslink|tʃ}}, {{IPA|[}}{{IPA link|e̞}}{{IPA link|tʃ}}{{IPA|]}} <small>(usually following a consonant)</small>
+|-
+![[File:Coptic Ti-maj.svg|class=skin-invert]]
+![[File:Coptic Ti-min.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ϯ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ϯ</span>}}
+|—|| Τι, τι || Ti, ti
+| {{IPA|/}}{{IPA link|t}}{{IPA link|i}}{{IPA|/}}
+| {{IPA|/}}{{IPA link|t}}{{IPA link|i}}{{IPA|/}}<br><ref group="note">When part of the digraph {{coptic|ϯⲉ}}, it is pronounced {{IPA|[de]}} in [[Bohairic]].</ref>
+| {{IPA|/}}{{IPA link|d}}{{IPA link|i}}{{IPA|/}}
+| {{IPA|/}}{{IPA link|t}}{{IPA link|i}}{{IPA|/}}
+|-
+![[File:Coptic Sampi.svg|class=skin-invert]]
+![[File:Coptic Sampi.svg|class=skin-invert]]
+!{{coptic|1=<span style="font-size:190%;">Ⳁ</span>}}
+!{{coptic|1=<span style="font-size:190%;">ⳁ</span>}}
+| 900
+|[[Ϡ]], [[ϡ]]<br>(numerical value)
+|(none)
+| colspan="4" |
+(none)
+|}
+
+<div style="font-size:111%">{{Reflist|group=note}}</div>
+
+=== Letters derived from Demotic ===
+Old Coptic had a large number of [[Demotic Egyptian script|Demotic]] Egyptian characters, including some logograms. This was reduced to seven such characters, used for sounds not covered by the Greek alphabet (plus their modern lowercase forms):
+
+{| class="wikitable"
+|--
+! Hieroglyph
+! &nbsp;
+! Hieratic
+! &nbsp;
+! Demotic
+! &nbsp;
+! Coptic
+! <small>{{Abbr|Translit.|Transliteration}}</small>
+! Late Coptic {{Abbr|pron.|Pronunciation}}
+|-
+| <hiero>SA\</hiero> || → || [[File:Hieratic M8 Prisse - Möller.png|class=skin-invert|30px]] || → || [[File:Demotic-character-š.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϣ</span>}} || {{center|š}} || {{IPAslink|ʃ}}
+|-
+| <hiero>f\</hiero> || → || [[File:Hieratic I9 Takelothis - Möller.png|class=skin-invert|80px]] || → || [[File:Demotic-character-f.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϥ</span>}} || {{center|f}} || {{IPAslink|f}}
+|-
+| <hiero>M12\</hiero> || → || [[File:Hieratic M12 Prisse - Möller.png|class=skin-invert|30px]] || → || [[File:Demotic-character-ẖ.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϧ</span>}} || {{center|x}}|| {{IPAslink|x}}
+|-
+| <hiero>F18\:Y1\</hiero> || → || [[File:Hieratic Y1-ABK Takelothis - Möller.png|class=skin-invert|30px]] || → || [[File:Demotic-character-ḥ-2.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϩ</span>}} || {{center|h}} || {{IPAslink|h}}
+|-
+| <hiero>U29\</hiero> || → || [[File:Hieratic U28 Golen - Möller.png|class=skin-invert|30px]]<!--U28/U29 are not distinguished--> || → || [[File:Demotic-character-ḏ-2.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϫ</span>}} || {{center|j}} || {{IPAslink|d͡ʒ}}
+|-
+| <hiero>k\</hiero> || → || [[File:Hieratic V31A Elephantine - Möller.png|class=skin-invert|80px]] || → || [[File:Demotic-character-k.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϭ</span>}} || {{center|c}} || {{IPAslink|ʃ}}
+|-
+| <hiero>D37\:t\</hiero> || → || [[File:Hieratic D37 PRylands 2 - Möller.png|class=skin-invert|40px]] || → || [[File:Demotic-character-ḏj.png|class=skin-invert|x45px]]
+| → || {{coptic|1=<span style="font-size:190%;">Ϯ</span>}} || {{center|di}} || {{IPA|/}}{{IPA link|d}}{{IPA link|i}}{{IPA|/}}
+|}
+
+=== Numerals ===
+Coptic numerals are an [[alphabetic numeral system]] in which numbers are indicated with letters of the alphabet, such as {{coptic|1=<span style="font-size:150%;">ⲫ</span>}} for 500.<ref>{{cite web | url=https://www.unicode.org/versions/Unicode9.0.0/ch07.pdf#G20251 | date=July 2016 | title=Section 7.3: Coptic, Numerical Use of Letters | work=The Unicode Standard | publisher=The Unicode Consortium}}</ref>
+The numerical value of the letters is based on [[Greek numerals]]. Sometimes numerical use is distinguished from text with a continuous [[overline]] above the letters, as with Greek and [[Cyrillic numerals]].
+
+==Sample text==
+Below is the [[Lord's prayer]] in the Coptic language and script:<ref>{{cite web |author=Coptic Orthodox Diocese of London |title=Ⲡⲉⲛⲓⲱⲧ ⲉⲧϧⲉⲛ ⲛⲓⲫⲏⲟⲩⲓ / The Lord’s prayer |url=https://copticforall.com/hymn-library/lords-prayer/ |website=Coptic for All |publisher=Coptic Orthodox Diocese of London |access-date=9 July 2026}}</ref>
+{{Blockquote
+|text={{coptic|ⲡⲉⲛⲓⲱⲧ‌ ‌ⲉⲧϧⲉⲛ‌ ‌ⲛⲓⲫⲏⲟⲩⲓ‌ ‌ⲙⲁⲣⲉϥⲧⲟⲩⲃⲟ‌ ‌ⲛ̀ϫⲉ‌ ‌ⲡⲉⲕⲣⲁⲛ‌ ‌ⲙⲁⲣⲉⲥⲓ̀‌ ‌ⲛ̀ϫⲉ‌ ‌ⲧⲉⲕⲙⲉⲧⲟⲩⲣⲟ‌ ‌ⲡⲉⲧⲉϩⲛⲁⲕ‌ ‌ⲙⲁⲣⲉϥϣⲱⲡⲓ‌ ‌ⲙ̀ⲫ̀ⲣⲏϯ‌ ‌ϧⲉⲛ‌ ‌ⲧ̀ⲫⲉ‌ ‌ⲛⲉⲙ‌ ‌ϩⲓϫⲉⲛ‌ ‌ⲡⲓⲕⲁϩⲓ‌ ‌ⲡⲉⲛⲱⲓⲕ‌ ‌ⲛ̀ⲧⲉ‌ ‌ⲣⲁⲥϯ‌ ‌ⲙⲏⲓϥ‌ ‌ⲛⲁⲛ‌ ‌ⲙ̀ⲫⲟⲟⲩ‌ ‌ⲟⲩⲟϩ‌ ‌ⲭⲁ‌ ‌ⲛⲏⲉⲧⲉⲣⲟⲛ‌ ‌ⲛⲁⲛ‌ ‌ⲉ̀ⲃⲟⲗ‌ ‌ⲙ̀ⲫ̀ⲣⲏϯ‌ ‌ϩⲱⲛ‌ ‌ⲛ̀ⲧⲉⲛⲭⲱ‌ ‌ⲉ̀ⲃⲟⲗ‌ ‌ⲛ̀ⲛⲏⲉⲧⲉ‌ ‌ⲟⲩⲟⲛ‌ ‌ⲛ̀ⲧⲁⲛ‌ ‌ⲉ̀ⲣⲱⲟⲩ‌ ‌ⲟⲩⲟϩ‌ ‌ⲙ̀ⲡⲉⲣⲉⲛⲧⲉⲛ‌ ‌ⲉ̀ϧⲟⲩⲛ‌ ‌ⲉ̀ⲡⲓⲣⲁⲥⲙⲟⲥ‌ ‌ⲁⲗⲗⲁ‌ ‌ⲛⲁϩⲙⲉⲛ‌ ‌ⲉ̀ⲃⲟⲗϩⲁ‌ ‌ⲡⲓⲡⲉⲧϩⲱⲟⲩ‌ ‌ϧⲉⲛ‌ ‌Ⲡⲓⲭⲣⲓⲥⲧⲟⲥ‌ ‌Ⲓⲏⲥⲟⲩⲥ‌ ‌ⲡⲉⲛϭⲟⲓⲥ‌ ‌ϫⲉ‌ ‌ⲑⲱⲕ‌ ‌ⲧⲉ‌ ‌ϯⲙⲉⲧⲟⲩⲣⲟ‌ ‌ⲛⲉⲙ‌ ‌ϯϫⲟⲙ‌ ‌ⲛⲉⲙ‌ ‌ⲡⲓⲱⲟⲩ‌ ‌ϣⲁ‌ ‌ⲉⲛⲉϩ‌ ‌ⲁⲙⲏⲛ‌}}
+}}
+
+== Unicode ==
+{{Main | Greek and Coptic | Coptic (Unicode block) | Coptic Epact Numbers| l1 = Greek and Coptic (Unicode block) | l3 = Coptic Epact Numbers (Unicode block)}}
+
+In [[Unicode]], most Coptic letters formerly shared codepoints with similar [[Greek alphabet|Greek]] letters, but a disunification was accepted for version 4.1, which appeared in 2005. The new Coptic block is U+2C80 to U+2CFF. Most [[fonts]] contained in mainstream [[operating systems]] use a distinctive Byzantine style for this block. The Greek block includes seven Coptic letters (U+03E2–U+03EF highlighted below) derived from Demotic, and these need to be included in any complete implementation of Coptic.
+
+{{Unicode chart Greek and Coptic|coptic=}}
+{{Unicode chart Coptic}}
+{{Unicode chart Coptic Epact Numbers}}
+
+== Diacritics and punctuation ==
+
+These are also included in the Unicode specification.
+
+=== Punctuation ===
+* Latin alphabet punctuation (comma, period, question mark, semicolon, colon, hyphen) uses the regular Unicode codepoints for punctuation
+* Dicolon: standard colon U+003A
+* Middle dot: U+00B7
+* En dash: U+2013
+* Em dash: U+2014
+* Slanted double hyphen: U+2E17
+
+=== Combining diacritics ===
+
+These are codepoints applied after that of the character they modify.
+
+* Combining overstroke: U+0305 (= supralinear stroke)
+* Combining character-joining overstroke (from middle of one character to middle of the next): U+035E
+* Combining dot under a letter: U+0323
+* Combining dot over a letter: U+0307
+* Combining acute accent: U+0301
+* Combining grave accent: U+0300
+* Combining circumflex accent (caret shaped): U+0302
+* Combining circumflex (curved shape) or inverted breve above: U+0311
+* Combining circumflex as wide inverted breve above joining two letters: U+0361
+* Combining diaeresis: U+0308
+
+===Macrons and overlines===
+
+Coptic uses {{unichar|0304|COMBINING MACRON|cwith=◌|use=script|use2=Copt}} to indicate [[syllabic consonant]]s, for example {{coptic|1=<span style="font-size:120%;">ⲛ̄</span>}}.<ref>{{cite web|url=https://www.unicode.org/L2/L2004/04130-n2744-coptic.pdf|title=Revision of the Coptic block under ballot for the BMP of the UCS|date=2004-04-20|publisher=ISO/IEC JTC1/SC2/WG2}}</ref><ref name="N3222R"/>
+
+Coptic abbreviations use {{unichar|0305|COMBINING OVERLINE|cwith=◌|use=script|use2=Copt}} to draw a continuous line across the remaining letters of an abbreviated word.<ref name="N3222R">{{cite web|url=https://www.unicode.org/L2/L2007/07085r-n3222r-coptic-adds.pdf|title=N3222R: Proposal to add additional characters for Coptic and Latin to the UCS|first1=Michael|last1=Everson|author-link1=Michael Everson|first2=Stephen|last2=Emmel|first3=Antti|last3=Marjanen|first4=Ismo|last4=Dunderberg|first5=John|last5=Baines|first6=Susana|last6=Pedro|first7=António|last7=Emiliano|publisher=ISO/IEC JTC1/SC2/WG2|date=2007-05-12}}</ref><ref name="G24556">{{cite web|url=https://www.unicode.org/versions/Unicode10.0.0/ch07.pdf#G24556|date=July 2017|title=Section 7.3: Coptic, Supralineation|work=The Unicode Standard|publisher=The Unicode Consortium}}</ref>  It extends from the left edge of the first letter to the right edge of the last letter.  For example, {{coptic|1=<span style="font-size:120%;">ⲡ̅ⲛ̅ⲁ̅</span>}}, a common abbreviation for {{coptic|1=<span style="font-size:120%;">ⲡⲛⲉⲩⲙⲁ</span>}} 'spirit'.
+
+A different kind of overline uses {{unichar|FE24|COMBINING MACRON LEFT HALF|cwith=◌|use=script|use2=Copt}}, {{unichar|FE26|COMBINING CONJOINING MACRON|cwith=◌|use=script|use2=Copt}}, and {{unichar|FE25|COMBINING MACRON RIGHT HALF|cwith=◌|use=script|use2=Copt}} to distinguish the spelling of certain common words or to highlight proper names of divinities and heroes.<ref name="N3222R"/><ref name="G24556"/>
+For this the line begins in the middle of the first letter and continues to the middle of the last letter.  A few examples: {{coptic|1=<span style="font-size:120%;">ⲣ︤ⲙ︥</span>}}, {{coptic|1=<span style="font-size:120%;">ϥ︤ⲛ︦ⲧ︥</span>}}, {{coptic|1=<span style="font-size:120%;">ⲡ︤ϩ︦ⲣ︦ⲃ︥</span>}}.
+
+Sometimes numerical use of letters is indicated with a continuous line above them using {{unichar|0305|COMBINING OVERLINE|cwith=◌|use=script|use2=Copt}} as in {{coptic|1=<span style="font-size:120%;">ⲁ͵ⲱ̅ⲡ̅ⲏ̅</span>}} for 1,888 (where "{{coptic|1=<span style="font-size:120%;">ⲁ͵</span>}}" is 1,000 and "{{coptic|1=<span style="font-size:120%;">ⲱ̅ⲡ̅ⲏ̅</span>}}" is 888).  Multiples  of  1,000 can be indicated by a continuous double line above using {{unichar|033F|COMBINING DOUBLE OVERLINE|cwith=◌|use=script|use2=Copt}} as in {{coptic|1=<span style="font-size:120%;">ⲁ̿</span>}} for 1,000.
+
+==See also==
+* [[Coptic pronunciation reform]]
+* [[Institute of Coptic Studies]]
+
+==References==
+{{Reflist}}
+*Quaegebeur, Jan. 1982. "De la préhistoire de l'écriture copte." ''Orientalia lovaniensia analecta'' 13:125–136.
+*Kasser, Rodolphe. 1991. "Alphabet in Coptic, Greek". In ''[[The Coptic Encyclopedia]]'', edited by [[Aziz S. Atiya]]. New York: Macmillan Publishing Company, Volume 8. 30–32.
+*Kasser, Rodolphe. 1991. "Alphabets, Coptic". In ''The Coptic Encyclopedia'', edited by Aziz S. Atiya. New York: Macmillan Publishing Company, Volume 8. 32–41.
+*Kasser, Rodolphe. 1991. "Alphabets, Old Coptic". In ''The Coptic Encyclopedia'', edited by Aziz S. Atiya. New York: Macmillan Publishing Company, Volume 8. 41–45.
+* Wolfgang Kosack: ''Koptisches Handlexikon des Bohairischen.'' Koptisch – Deutsch – Arabisch. Verlag Christoph Brunner, Basel 2013, {{ISBN|978-3-9524018-9-7}}.
+
+== External links ==
+{{Commons category|Coptic script}}
+*[[Michael Everson]]'s [http://std.dkuug.dk/JTC1/SC2/WG2/docs/n2636.pdf Revised proposal to add the Coptic alphabet to the BMP of the UCS]
+*[https://www.unicode.org/L2/L2011/11062r-coptic-epact.pdf Final Proposal to Encode Coptic Epact Numbers in ISO/IEC 1064]
+*[http://copticsounds.wordpress.com/ Copticsounds – a resource for the study of Coptic phonology]
+*[https://web.archive.org/web/20160304031614/http://yearsandmiles.com/articles/coptic-alphabet.htm Phonological overview of the Coptic alphabet in comparison to classical and modern Greek.]
+*[http://ucbclassics.dreamhosters.com/djm/coptic.html Coptic Unicode input]
+*[[Michael Everson]]'s [http://www.evertype.com/fonts/coptic/ ''Antinoou'': A standard font for Coptic] supported by the [https://web.archive.org/web/20110201011732/http://rmcisadu.let.uniroma1.it/~iacs/ International Association for Coptic Studies].
+*[http://www.ifao.egnet.net/  Ifao N Copte] – A professional Coptic font for researchers, students and publishers has been developed by the French institute of oriental archeology (IFAO). Unicode, Mac and Windows compatible, this free font is available through downloading from the IFAO website ([http://www.ifao.egnet.net/publications/outils/polices/ direct link]).
+*[https://web.archive.org/web/20100408075557/http://www.typographies.fr/ Coptic fonts]; Coptic fonts made by Laurent Bourcellier & Jonathan Perez, type designers
+*[http://sites.google.com/site/pisakho/Home {{coptic|ⲡⲓⲥⲁϧⲟ}}] {{Webarchive|url=https://web.archive.org/web/20210308023606/http://sites.google.com/site/pisakho/Home |date=2021-03-08 }}: Coptic [http://sites.google.com/site/pisakho/fonts font support] {{Webarchive|url=https://web.archive.org/web/20210125002154/http://sites.google.com/site/pisakho/fonts |date=2021-01-25 }} – how to install, use and manipulate Coptic ASCII and Unicode fonts
+*[http://st-takla.org/Download-Software-Free/Coptic_Downloads_Ta7mil___Christian_&_Coptic_Free-Fonts_01.html Download Free Coptic Fonts]
+*[http://www.omniglot.com/writing/coptic.htm The Coptic Alphabet] (omniglot.com)
+*[https://www.gnu.org/software/freefont/ GNU FreeFont] Coptic range in serif face
+
+{{list of writing systems}}
+{{Authority control}}
+
+[[Category:Coptic language]]
+[[Category:Scripts with ISO 15924 four-letter codes|Copt]]
+[[Category:Greek alphabet]]
+[[Category:Writing systems of Africa]]
+[[Category:Ancient Egyptian language]]
+[[Category:Alphabetic numeral systems]]
+[[Category:Coptic Orthodox Church]]

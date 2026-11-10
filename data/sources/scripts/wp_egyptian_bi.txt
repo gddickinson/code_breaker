@@ -1,0 +1,351 @@
+{{Short description|Hieroglyphs representing two consonants}}
+The biliteral [[Egyptian hieroglyphs]] are hieroglyphs which represent a specific sequence of two consonants. The listed hieroglyphs focus on the consonant combinations rather than their meaning.<ref>James P. Allen, ''Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs'', Cambridge University Press, 15 Apr 2010  [https://books.google.com/books?id=lF78Max-h8MC&pg=PA25 25ff].</ref>
+
+{|class="wikitable sortable" lang="egy-Latn"
+|-
+! colspan="2"| Unicode
+! Gardiner
+! Transl.
+|-
+|-
+|style=text-align:center| {{font|text=𓄫|size=250%}} || U+1312B || F40 || ''{{lang|egy|ꜣw}}''
+|-
+|style=text-align:center| {{font|text=𓍋|size=250%}} || U+1334B || U23 || ''{{lang|egy|ꜣb}}''
+|-
+|style=text-align:center| {{font|text=𓅜|size=250%}} || U+1315C || G25 || ''{{lang|egy|ꜣḫ}}''
+|-
+|style=text-align:center| {{font|text=𓇇|size=250%}} || U+131C7 || M15 || ''{{lang|egy|ꜣḫ}}''
+|-
+|style=text-align:center| {{font|text=𓂻|size=250%}} || U+130BB || D54 || ''{{lang|egy|jw}}''
+|-
+|style=text-align:center| {{font|text=𓃛|size=250%}} || U+130DB || E9 || ''{{lang|egy|jw}}''
+|-
+|style=text-align:center| {{font|text=𓃙|size=250%}} || U+130D9 || E8 || ''{{lang|egy|jb}}''
+|-
+|style=text-align:center| {{font|text=𓃚|size=250%}} || U+130DA || E8a || ''{{lang|egy|jb}}''
+|-
+|style=text-align:center| {{font|text=𓄣|size=250%}} || U+13123 || F34 || ''{{lang|egy|jb}}''
+|-
+|style=text-align:center| {{font|text=𓏶|size=250%}} || U+133F6 || Z11 || ''{{lang|egy|jm}}''
+|-
+|style=text-align:center| {{font|text=𓐝|size=250%}} || U+1341D || Aa15 || ''{{lang|egy|jm}}''
+|-
+|style=text-align:center| {{font|text=𓀟|size=250%}} || U+1301F || A27 || ''{{lang|egy|jn}}''
+|-
+|style=text-align:center| {{font|text=𓆛|size=250%}} || U+1319B || K1 || ''{{lang|egy|jn}}''
+|-
+|style=text-align:center| {{font|text=𓏌|size=250%}} || U+133CC || W24 || ''{{lang|egy|jn}}''
+|-
+|style=text-align:center| {{font|text=𓏎|size=250%}} || U+133CE || W25 || ''{{lang|egy|jn}}''
+|-
+|style=text-align:center| {{font|text=𓀹|size=250%}} || U+13039 || A48 || ''{{lang|egy|jr}}''
+|-
+|style=text-align:center| {{font|text=𓁹|size=250%}} || U+13079 || D4 || ''{{lang|egy|jr}}''
+|-
+|style=text-align:center| {{font|text=𓌤|size=250%}} || U+13324 || T24 || ''{{lang|egy|jḥ}}''
+|-
+|style=text-align:center| {{font|text=𓇩|size=250%}} || U+131E9 || M40 || ''{{lang|egy|jz}}''
+|-
+|style=text-align:center| {{font|text=𓊨|size=250%}} || U+132A8 || Q1 || ''{{lang|egy|js}}''
+|-
+|style=text-align:center| {{font|text=𓄼|size=250%}} || U+1313C || F51c || ''{{lang|egy|js}}''
+|-
+|style=text-align:center| {{font|text=𓀗|size=250%}} || U+13017 || A19 || ''{{lang|egy|jk}}''
+|-
+|style=text-align:center| {{font|text=𓆊|size=250%}} || U+1318A || I3 || ''{{lang|egy|jt}}''
+|-
+|style=text-align:center| {{font|text=𓎁|size=250%}} || U+13381 || V15 || ''{{lang|egy|jṯ}}''
+|-
+|style=text-align:center| {{font|text=𓉻|size=250%}} || U+1327B || O29 || ''{{lang|egy|ꜥꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓄏|size=250%}} || U+1310F || F16 || ''{{lang|egy|ꜥb}}''
+|-
+|style=text-align:center| {{font|text=𓌤|size=250%}} || U+13324 || T24 || ''{{lang|egy|ꜥḥ}}''
+|-
+|style=text-align:center| {{font|text=𓅧|size=250%}} || U+13167 || G35 || ''{{lang|egy|ꜥq}}''
+|-
+|style=text-align:center| {{font|text=𓆝|size=250%}} || U+1319D || K3 || ''{{lang|egy|ꜥḏ}}''
+|-
+|style=text-align:center| {{font|text=𓎙|size=250%}} || U+13399 || V26 || ''{{lang|egy|ꜥḏ}}''
+|-
+|style=text-align:center| {{font|text=𓎚|size=250%}} || U+1339A || V27 || ''{{lang|egy|ꜥḏ}}''
+|-
+|style=text-align:center| {{font|text=𓍯|size=250%}} || U+1336F || V4 || ''{{lang|egy|wꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓌡|size=250%}} || U+13321 || T21 || ''{{lang|egy|wꜥ}}''
+|-
+|style=text-align:center| {{font|text=𓄋|size=250%}} || U+1310B || F13 || ''{{lang|egy|wp}}''
+|-
+|style=text-align:center| {{font|text=𓃹|size=250%}} || U+130F9 || E34 || ''{{lang|egy|wn}}''
+|-
+|style=text-align:center| {{font|text=𓇬|size=250%}} || U+131EC || M42 || ''{{lang|egy|wn}}''
+|-
+|style=text-align:center| {{font|text=𓅨|size=250%}} || U+13168 || G36 || ''{{lang|egy|wr}}''
+|-
+|style=text-align:center| {{font|text=𓄼|size=250%}} || U+1313C || F51c || ''{{lang|egy|ws}}''
+|-
+|style=text-align:center| {{font|text=𓊨|size=250%}} || U+132A8 || Q1 || ''{{lang|egy|ws}}''
+|-
+|style=text-align:center| {{font|text=𓊩|size=250%}} || U+132A9 || Q2 || ''{{lang|egy|ws}}''
+|-
+|style=text-align:center| {{font|text=𓇅|size=250%}} || U+131C5 || M13 || ''{{lang|egy|wḏ}}''
+|-
+|style=text-align:center| {{font|text=𓎗|size=250%}} || U+13397 || V24 || ''{{lang|egy|wḏ}}''
+|-
+|style=text-align:center| {{font|text=𓎘|size=250%}} || U+13398 || V25 || ''{{lang|egy|wḏ}}''
+|-
+|style=text-align:center| {{font|text=𓅡|size=250%}} || U+13161 || G29 || ''{{lang|egy|bꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓎺|size=250%}} || U+133BA || W10 || ''{{lang|egy|bꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓎻|size=250%}} || U+133BB || W10a || ''{{lang|egy|bꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓄑|size=250%}} || U+13111 || F18 || ''{{lang|egy|bḥ}}''
+|-
+|style=text-align:center| {{font|text=𓆟|size=250%}} || U+1319F || K5 || ''{{lang|egy|bs}}''
+|-
+|style=text-align:center| {{font|text=𓅮|size=250%}} || U+1316E || G40 || ''{{lang|egy|pꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓅯|size=250%}} || U+1316F || G41 || ''{{lang|egy|pꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓉐|size=250%}} || U+13250 || O1 || ''{{lang|egy|pr}}''
+|-
+|style=text-align:center| {{font|text=𓄖|size=250%}} || U+13116 || F22 || ''{{lang|egy|pḥ}}''
+|-
+|style=text-align:center| {{font|text=𓂾|size=250%}} || U+130BE || D56 || ''{{lang|egy|pd}}''
+|-
+|style=text-align:center| {{font|text=𓌒|size=250%}} || U+13312 || T9 || ''{{lang|egy|pḏ}}''
+|-
+|style=text-align:center| {{font|text=𓌳|size=250%}} || U+13333 || U1 || ''{{lang|egy|mꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓂝|size=250%}} || U+1309D || D36 || ''{{lang|egy|mỉ}}''
+|-
+|style=text-align:center| {{font|text=𓂟|size=250%}} || U+1309F || D38 || ''{{lang|egy|mỉ}}''
+|-
+|style=text-align:center| {{font|text=𓈘|size=250%}} || U+13218 || N36 || ''{{lang|egy|mỉ}}''
+|-
+|style=text-align:center| {{font|text=𓏇|size=250%}} || U+133C7 || W19 || ''{{lang|egy|mỉ}}''
+|-
+|style=text-align:center| {{font|text=𓈗|size=250%}} || U+13217 || N35a || ''{{lang|egy|mw}}''
+|-
+|style=text-align:center| {{font|text=𓅔|size=250%}} || U+13154 || G18 || ''{{lang|egy|mm}}''
+|-
+|style=text-align:center| {{font|text=𓌇|size=250%}} || U+13307 || T1 || ''{{lang|egy|mn}}''
+|-
+|style=text-align:center| {{font|text=𓏠|size=250%}} || U+133E0 || Y5 || ''{{lang|egy|mn}}''
+|-
+|style=text-align:center| {{font|text=𓈘|size=250%}} || U+13218 || N36 || ''{{lang|egy|mr}}''
+|-
+|style=text-align:center| {{font|text=𓉕|size=250%}} || U+13255 || O5 || ''{{lang|egy|mr}}''
+|-
+|style=text-align:center| {{font|text=𓌸|size=250%}} || U+13338 || U6 || ''{{lang|egy|mr}}''
+|-
+|style=text-align:center| {{font|text=𓍋|size=250%}} || U+1334B || U23 || ''{{lang|egy|mr}}''
+|-
+|style=text-align:center| {{font|text=𓎔|size=250%}} || U+13394 || V22 || ''{{lang|egy|mḥ}}''
+|-
+|style=text-align:center| {{font|text=𓄟|size=250%}} || U+1311F || F31 || ''{{lang|egy|ms}}''
+|-
+|style=text-align:center| {{font|text=𓂸|size=250%}} || U+130B8 || D52 || ''{{lang|egy|mt}}''
+|-
+|style=text-align:center| {{font|text=𓅐|size=250%}} || U+13150 || G14 || ''{{lang|egy|mt}}''
+|-
+|style=text-align:center| {{font|text=𓌃|size=250%}} || U+13303 || S43 || ''{{lang|egy|md}}''
+|-
+|style=text-align:center| {{font|text=𓂜|size=250%}} || U+1309C || D35 || ''{{lang|egy|nỉ}}''
+|-
+|style=text-align:center| {{font|text=𓂢|size=250%}} || U+130A2 || D41 || ''{{lang|egy|nỉ}}''
+|-
+|style=text-align:center| {{font|text=𓍇|size=250%}} || U+13347 || U19 || ''{{lang|egy|nw}}''
+|-
+|style=text-align:center| {{font|text=𓏌|size=250%}} || U+133CC || W24 || ''{{lang|egy|nw}}''
+|-
+|style=text-align:center| {{font|text=𓎟|size=250%}} || U+1339F || V30 || ''{{lang|egy|nb}}''
+|-
+|style=text-align:center| {{font|text=𓉕|size=250%}} || U+13255 || O5 || ''{{lang|egy|nm}}''
+|-
+|style=text-align:center| {{font|text=𓌰|size=250%}} || U+13330 || T34 || ''{{lang|egy|nm}}''
+|-
+|style=text-align:center| {{font|text=𓌱|size=250%}} || U+13301 || T35 || ''{{lang|egy|nm}}''
+|-
+|style=text-align:center| {{font|text=𓇒|size=250%}} || U+131D2 || M22a || ''{{lang|egy|nn}}''
+|-
+|style=text-align:center| {{font|text=𓆂|size=250%}} || U+13182 || H4 || ''{{lang|egy|nr}}''
+|-
+|style=text-align:center| {{font|text=𓅘|size=250%}} || U+13158 || G21 || ''{{lang|egy|nḥ}}''
+|-
+|style=text-align:center| {{font|text=𓄓|size=250%}} || U+13113 || F20 || ''{{lang|egy|ns}}''
+|-
+|style=text-align:center| {{font|text=𓐩|size=250%}} || U+13429 || Aa27 || ''{{lang|egy|nḏ}}''
+|-
+|style=text-align:center| {{font|text=𓃭|size=250%}} || U+130ED || E23 || ''{{lang|egy|rw}}''
+|-
+|style=text-align:center| {{font|text=𓌘|size=250%}} || U+13318 || T13 || ''{{lang|egy|rs}}''
+|-
+|style=text-align:center| {{font|text=𓍁|size=250%}} || U+13341 || U13 || ''{{lang|egy|hb}}''
+|-
+|style=text-align:center| {{font|text=𓇉|size=250%}} || U+131C9 || M16 || ''{{lang|egy|ḥꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓄑|size=250%}} || U+13111 || F18 || ''{{lang|egy|ḥw}}''
+|-
+|style=text-align:center| {{font|text=𓐑|size=250%}} || U+13411 || Aa5 || ''{{lang|egy|ḥp}}''
+|-
+|style=text-align:center| {{font|text=𓈟|size=250%}} || U+1321F || N42 || ''{{lang|egy|ḥm}}''
+|-
+|style=text-align:center| {{font|text=𓍛|size=250%}} || U+1335B || U36 || ''{{lang|egy|ḥm}}''
+|-
+|style=text-align:center| {{font|text=𓆰|size=250%}} || U+131B0 || M2 || ''{{lang|egy|ḥn}}''
+|-
+|style=text-align:center| {{font|text=𓌼|size=250%}} || U+1333C || U8 || ''{{lang|egy|ḥn}}''
+|-
+|style=text-align:center| {{font|text=𓎨|size=250%}} || U+133A8 || V36 || ''{{lang|egy|ḥn}}''
+|-
+|style=text-align:center| {{font|text=𓁷|size=250%}} || U+13077 || D2 || ''{{lang|egy|ḥr}}''
+|-
+|style=text-align:center| {{font|text=𓈐|size=250%}} || U+13210 || N31 || ''{{lang|egy|ḥr}}''
+|-
+|style=text-align:center| {{font|text=𓎿|size=250%}} || U+133BF || W14 || ''{{lang|egy|ḥz}}''
+|-
+|style=text-align:center| {{font|text=𓌉|size=250%}} || U+13309 || T3 || ''{{lang|egy|ḥḏ}}''
+|-
+|style=text-align:center| {{font|text=𓌋|size=250%}} || U+1330B || T4 || ''{{lang|egy|ḥḏ}}''
+|-
+|style=text-align:center| {{font|text=𓆩|size=250%}} || U+131A9 || L6 || ''{{lang|egy|ḫꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓆼|size=250%}} || U+131BC || M12 || ''{{lang|egy|ḫꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓈍|size=250%}} || U+1320D || N28 || ''{{lang|egy|ḫꜥ}}''
+|-
+|style=text-align:center| {{font|text=𓂤|size=250%}} || U+130A4 || D43 || ''{{lang|egy|ḫw}}''
+|-
+|style=text-align:center| {{font|text=𓋉|size=250%}} || U+132C9 || R22 || ''{{lang|egy|ḫm}}''
+|-
+|style=text-align:center| {{font|text=𓆱|size=250%}} || U+131B1 || M3 || ''{{lang|egy|ḫt}}''
+|-
+|style=text-align:center| {{font|text=𓆞|size=250%}} || U+1319E || K4 || ''{{lang|egy|ẖꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓂙|size=250%}} || U+13099 || D33 || ''{{lang|egy|ẖn}}''
+|-
+|style=text-align:center| {{font|text=𓄚|size=250%}} || U+1311A || F26 || ''{{lang|egy|ẖn}}''
+|-
+|style=text-align:center| {{font|text=𓌨|size=250%}} || U+13328 || T28 || ''{{lang|egy|ẖr}}''
+|-
+|style=text-align:center| {{font|text=𓅭|size=250%}} || U+1316D || G39 || ''{{lang|egy|zꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓎂|size=250%}} || U+13382 || V16 || ''{{lang|egy|zꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓎃|size=250%}} || U+13383 || V17 || ''{{lang|egy|zꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓊗|size=250%}} || U+13297 || O50 || ''{{lang|egy|zp}}''
+|-
+|style=text-align:center| {{font|text=𓐟|size=250%}} || U+1341F || Aa17 || ''{{lang|egy|sꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓐠|size=250%}} || U+13420 || Aa18 || ''{{lang|egy|sꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓇓|size=250%}} || U+131D3 || M23 || ''{{lang|egy|sw}}''
+|-
+|style=text-align:center| {{font|text=𓌢|size=250%}} || U+13322 || T22 || ''{{lang|egy|sn}}''
+|-
+|style=text-align:center| {{font|text=𓎝|size=250%}} || U+1339D || V29 || ''{{lang|egy|sk}}''
+|-
+|style=text-align:center| {{font|text=𓄝|size=250%}} || U+1311D || F29 || ''{{lang|egy|st}}''
+|-
+|style=text-align:center| {{font|text=𓊨|size=250%}} || U+132A8 || Q1 || ''{{lang|egy|st}}''
+|-
+|style=text-align:center| {{font|text=𓋫|size=250%}} || U+132EB || S22 || ''{{lang|egy|sṯ}}''
+|-
+|style=text-align:center| {{font|text=𓏴|size=250%}} || U+133F4 || Z9 || ''{{lang|egy|sḏ}}''
+|-
+|style=text-align:center| {{font|text=𓆆|size=250%}} || U+13186 || H7 || ''{{lang|egy|šꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓆷|size=250%}} || U+131B7 || M8 || ''{{lang|egy|šꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓆄|size=250%}} || U+13184 || H6 || ''{{lang|egy|šw}}''
+|-
+|style=text-align:center| {{font|text=𓈝|size=250%}} || U+1321D || N40 || ''{{lang|egy|šm}}''
+|-
+|style=text-align:center| {{font|text=𓍢|size=250%}} || U+13362 || V1 || ''{{lang|egy|šn}}''
+|-
+|style=text-align:center| {{font|text=𓍲|size=250%}} || U+13372 || V7 || ''{{lang|egy|šn}}''
+|-
+|style=text-align:center| {{font|text=𓍱|size=250%}} || U+13371 || V6 || ''{{lang|egy|šs}}''
+|-
+|style=text-align:center| {{font|text=𓄞|size=250%}} || U+1311E || F30 || ''{{lang|egy|šd}}''
+|-
+|style=text-align:center| {{font|text=𓐖|size=250%}} || U+13416 || Aa8 || ''{{lang|egy|qn}}''
+|-
+|style=text-align:center| {{font|text=𓌟|size=250%}} || U+1331F || T19 || ''{{lang|egy|qs}}''
+|-
+|style=text-align:center| {{font|text=𓐪|size=250%}} || U+1342A || Aa28 || ''{{lang|egy|qd}}''
+|-
+|style=text-align:center| {{font|text=𓂓|size=250%}} || U+13093 || D28 || ''{{lang|egy|kꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓊶|size=250%}} || U+132B6 || R5 || ''{{lang|egy|kp}}''
+|-
+|style=text-align:center| {{font|text=𓆎|size=250%}} || U+1318E || I6 || ''{{lang|egy|km}}''
+|-
+|style=text-align:center| {{font|text=𓅬|size=250%}} || U+1316C || G38 || ''{{lang|egy|gb}}''
+|-
+|style=text-align:center| {{font|text=𓅠|size=250%}} || U+13160 || G28 || ''{{lang|egy|gm}}''
+|-
+|style=text-align:center| {{font|text=𓐛|size=250%}} || U+1341B || Aa13 || ''{{lang|egy|gs}}''
+|-
+|style=text-align:center| {{font|text=𓐞|size=250%}} || U+1341E || Aa16 || ''{{lang|egy|gs}}''
+|-
+|style=text-align:center| {{font|text=𓇾|size=250%}} || U+131FE || N16 || ''{{lang|egy|tꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓇿|size=250%}} || U+131FF || N17 || ''{{lang|egy|tꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓍔|size=250%}} || U+13354 || U30 || ''{{lang|egy|tꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓍘|size=250%}} || U+13358 || U33 || ''{{lang|egy|tỉ}}''
+|-
+|style=text-align:center| {{font|text=𓁶|size=250%}} || U+13076 || D1 || ''{{lang|egy|tp}}''
+|-
+|style=text-align:center| {{font|text=𓌐|size=250%}} || U+13310 || T8 || ''{{lang|egy|tp}}''
+|-
+|style=text-align:center| {{font|text=𓍃|size=250%}} || U+13343 || U15 || ''{{lang|egy|tm}}''
+|-
+|style=text-align:center| {{font|text=𓆵|size=250%}} || U+131B5 || M6 || ''{{lang|egy|tr}}''
+|-
+|style=text-align:center| {{font|text=𓅷|size=250%}} || U+13177 || G47 || ''{{lang|egy|ṯꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓋭|size=250%}} || U+132ED || S24 || ''{{lang|egy|ṯz}}''
+|-
+|style=text-align:center| {{font|text=𓂞|size=250%}} || U+1309E || D37 || ''{{lang|egy|dỉ}}''
+|-
+|style=text-align:center| {{font|text=𓍑|size=250%}} || U+13351 || U28 || ''{{lang|egy|ḏꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓍒|size=250%}} || U+13352 || U29 || ''{{lang|egy|ḏꜣ}}''
+|-
+|style=text-align:center| {{font|text=𓏙|size=250%}} || U+133D9 || X8 || ''{{lang|egy|ḏỉ}}''
+|-
+|style=text-align:center| {{font|text=𓈋|size=250%}} || U+1320B || N26 || ''{{lang|egy|ḏw}}''
+|-
+|style=text-align:center| {{font|text=𓅙|size=250%}} || U+13159 || G22 || ''{{lang|egy|ḏb}}''
+|-
+|style=text-align:center| {{font|text=𓇥|size=250%}} || U+131E5 || M36 || ''{{lang|egy|ḏr}}''
+|-
+|style=text-align:center| {{font|text=𓊽|size=250%}} || U+132BD || R11 || ''{{lang|egy|ḏd}}''
+|-
+|style=text-align:center| {{font|text=𓆕|size=250%}} || U+13195 || I11 || ''{{lang|egy|ḏḏ}}''
+|}
+
+==See also==
+*[[Transliteration of ancient Egyptian]]
+*[[Egyptian uniliteral signs]]
+*[[Egyptian triliteral signs]]
+*[[List of hieroglyphs]]
+
+==References==
+{{reflist}}
+
+==External links==
+* [http://www.omniglot.com/writing/egyptian_bilat.htm omniglot.com]
+
+{{Egyptian hieroglyphs navbox}}
+
+[[Category:Egyptian hieroglyphs|*]]
+[[Category:Long stubs with short prose]]
+
+{{hieroglyph-stub}}

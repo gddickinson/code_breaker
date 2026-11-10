@@ -1,0 +1,256 @@
+{{Short description|Hieroglyphs representing three consonants}}
+As part of the system of [[Egyptian hieroglyphs]], some hieroglyphs served as phonograms representing one, two, or three consonants, used purely for their consonantal values. This use as phonograms contrasts with use as logograms, where hieroglyphs represent an entire word depicted by the image of the hieroglyph itself that may also have the same one, two, or three consonants.{{sfn | Beylage | 2018 | pp=15-16}}{{sfn | Allen | 2014 | p=33}}
+
+== List ==
+
+The following is a list of hieroglyphs used as phonographs with triconsonantal phonetic values. These forms and their values are from Allen (2014), unless otherwise indicated.{{ref label|AllenList|A}}
+{|class="wikitable sortable" lang="egy-Latn"
+|-
+! 
+!Gardiner
+!Unicode
+!Unicode
+!Transl.
+!Description
+!Notes
+|-
+| <hiero>E26</hiero> || E26 || U+130F0 || {{font|text=𓃰|size=48px}}||''{{lang|egy|ꜣbw}}''  ||   || {{Citation needed|reason=Not listed as a triliteral in Allen (2014) or Beylage (2018)|date=February 2025}}
+|-
+| <hiero>W10</hiero> || W10 || U+133BA || {{font|text=𓎺|size=48px}} || ''{{lang|egy|iꜥb}}'', ''{{lang|egy|wsḫ}}'', ''{{lang|egy|ḥnt}}'', ''{{lang|egy|ḥnw}}'' || Bowl || Allen (2014) has the transliteration {{lang|egy|ḥnw}}, others are from Beylage (2018){{sfn | Beylage | 2018 | p=21}}
+|-
+| <hiero>O28</hiero> || O28 || U+1327A || {{font|text=𓉺|size=48px}} ||  ''{{lang|egy|iwn}}''  || Column with tendon{{sfn | Beylage | 2018 | p=708}} || 
+|-
+| <hiero>M1</hiero> || M1 || U+131AD || {{font|text=𓆭|size=48px}} ||  ''{{lang|egy|imꜣ}}''  || Tree ||  
+|-
+| <hiero>F44</hiero> || F44 || U+1312F || {{font|text=𓄯|size=48px}} || ''{{lang|egy|[[Bone-with-meat (hieroglyph)|isw]]}}'', ''{{lang|egy|iwꜥ}}''  || Bone with meat{{sfn | Beylage | 2018 | p=29}} || ''iwꜥ'' "meat on the bone, haunch"; ''iwꜥ.w'' "heir", ''iwꜥ.t'' "inheritance";{{sfn | Beylage | 2018 | p=29}} ''isw'' "reward, payment"{{sfn | Beylage | 2018 | p=735}}
+|-
+| <hiero>V37</hiero> || V37 || U+133A9 || {{font|text=𓎩|size=48px}} ||  ''{{lang|egy|idr}}'' || Bandage || Triliteral in Beylage (2018).{{sfn | Beylage | 2018 | p=21}}
+|-
+| <hiero>F21</hiero> || F21 || U+13114 || {{font|text=𓄔|size=48px}} ||  ''{{lang|egy|idn}}'', ''{{lang|egy|sḏm}}'' || Ear ||  
+|-
+| <hiero>S39</hiero> || S39 || U+132FF || {{font|text=𓋿|size=48px}} || ''{{lang|egy|ꜥwt}}''  || Shepherd's crook || ''ꜥw.t'' "flock"{{sfn | Beylage | 2018 | p=713}}
+|-
+| <hiero>D34</hiero> || D34 || U+1309A || {{font|text=𓂚|size=48px}} || ''{{lang|egy|ꜥḥꜣ}}'' || Arms with shield and mace || Triliteral in Beylage (2018).{{sfn | Beylage | 2018 | p=21}}
+|-
+| <hiero>V12</hiero> || V12 || U+1337C || {{font|text=𓍼|size=48px}} || ''{{lang|egy|ꜥrq}}''  || Band of string{{sfn | Beylage | 2018 | p=717}} || Triliteral in Beylage (2018).{{sfn | Beylage | 2018 | p=21}} ''ꜥrq'' "wise"; ''ꜥrq'' "swear an oath"; ''ꜥrq.y'' "last day of the month";{{sfn | Beylage | 2018 | p=739}} ''sꜥrq'' "complete, finish off"{{sfn | Beylage | 2018 | p=785}}
+|-
+| <hiero>S42</hiero> || S42 || U+1327A || {{font|text=𓌂|size=48px}} ||  ''{{lang|egy|ꜥbꜣ}}'', ''{{lang|egy|sḫm}}''  || [[Sekhem scepter|ꜥbꜣ-scepter]] ||  
+|-
+| <hiero>Aa20</hiero> || Aa20 || U+13422 || {{font|text=𓐢|size=48px}} || ''{{lang|egy|ꜥpr}}''  || Bag for clothing{{sfn | Beylage | 2018 | p=722}} || ''ꜥpr'' "provide, equip", ''ꜥpr.w'' "equipment"; ''ꜥpr.w'' "jewelry"; ''ꜥpr.w'' "crew of a ship"{{sfn | Beylage | 2018 | p=738}}
+|-
+| <hiero>S34</hiero> || S34 || U+132F9 || {{font|text=𓋹|size=48px}} || ''{{lang|egy|ꜥnḫ}}'' || [[Ankh]] symbol  || [[Ideogram]] for "sandal-strap", as a phonogram, used to represent "life", "live"{{sfn | Allen | 2014 | p=33}}
+|-
+|<hiero>P6</hiero>|| P6 || U+132A2 || {{font|text=𓊢|size=48px}} ||''{{lang|egy|[[mast (hieroglyph)|ꜥḥꜥ]]}}'' || Rope ladder ||
+|-
+|<hiero>aSA</hiero>|| I1 || U+13188 || {{font|text=𓆈|size=48px}} || ''{{lang|egy|ꜥšꜣ}}''|| Lizard ||
+|-
+|<hiero>wAH</hiero>|| V29 || U+1339D || {{font|text=𓎝|size=48px}} || ''{{lang|egy|wꜣḥ}}''|| Swab ||
+|-
+|<hiero>wAs</hiero>|| S40 || U+13300 || {{font|text=𓌀|size=48px}} ||''{{lang|egy|[[was (sceptre)|wꜣs]]}}'', ''{{lang|egy|wꜣb}}''|| [[was (sceptre)|Was Sceptre]] ||
+|-
+|<hiero>wAD</hiero>|| M13 || U+131C5 || {{font|text=𓇅|size=48px}} || ''{{lang|egy|[[papyrus stem (hieroglyph)|wꜣḏ]]}}''|| [[papyrus stem (hieroglyph)|Papyrus Stem]] || 
+|-
+|<hiero>wab</hiero>|| D60 || U+130C2 || {{font|text=𓃂|size=48px}} || ''{{lang|egy|wꜥb}}''|| Foot with water streaming || Ideogram for pure or clean. Triliteral in Collier and Manley (1998).{{sfn|Collier|Manley|1998|p=128}}
+|-
+|<hiero>N8</hiero> || N8 || U+131F6 || {{font|text=𓇶|size=48px}} ||''{{lang|egy|wbn}}'' || Sun with rays ||
+|-
+|<hiero>Aa2</hiero> || Aa2 || U+1340E || {{font|text=𓐎|size=48px}} ||''{{lang|egy|wḥꜣ}}'' || Pustule ||
+|-
+|<hiero>P4</hiero> || P4 || U+132A0 || {{font|text=𓊠|size=48px}} ||''{{lang|egy|wḥꜥ}}'' || Boat with net ||
+|-
+|<hiero>wHm</hiero> || F25 || U+13119 || {{font|text=𓄙|size=48px}} ||''{{lang|egy|wḥm}}''|| Leg and hoof of an ox || 
+|-
+|<hiero>wsr</hiero> || F12 || U+1310A || {{font|text=𓄊|size=48px}} ||''{{lang|egy|wsr}}'' || Head and neck of jackal ||
+|-
+|<hiero>wsx</hiero> || S11 || U+132DD || {{font|text=𓋝|size=48px}} ||''{{lang|egy|wsḫ}}'' || Broad collar ||
+|-
+|<hiero>wDa</hiero> || Aa21 || U+13423 || {{font|text=𓐣|size=48px}} ||''{{lang|egy|wḏꜥ}}'' || ||
+|-
+|<hiero>wDb</hiero> || N20 || U+13204 || {{font|text=𓈄|size=48px}} ||''{{lang|egy|wḏb}}'', ''{{lang|egy|wdb}}''{{sfn | Allen | 2014 | p=487}} || Riverbank ||
+|-
+|<hiero>bAs</hiero> || W2 || U+133B0 || {{font|text=𓎰|size=48px}} ||''{{lang|egy|bꜣs}}'' || ||
+|-
+|<hiero>H2</hiero> || H2 || U+13180 || {{font|text=𓆀|size=48px}} ||''{{lang|egy|pꜣq}}'' || Head of a crested bird ||
+|-
+|<hiero>H3</hiero> || H3 || U+13181 || {{font|text=𓆁|size=48px}} ||''{{lang|egy|pꜣq}}'' || Head of spoonbill ||
+|-
+|<hiero>F46</hiero> || F46 || U+13132 || {{font|text=𓄲|size=48px}} ||''{{lang|egy|pẖr}}'', ''{{lang|egy|dbn}}'' || Intestine{{sfn | Beylage | 2018 | p=698}} || Triliteral in Beylage (2018).{{sfn | Beylage | 2018 | p=21}} ''{{lang|egy|pẖr}}'' "go around";{{sfn | Beylage | 2018 | p=27}} ''{{lang|egy|pẖr.t}}'' "prescription, remedy"{{sfn | Beylage | 2018 | p=751}}
+|-
+|<hiero>N9</hiero> || N9 || U+131F7 || {{font|text=𓇷|size=48px}} ||''{{lang|egy|psḏ}}'' || Moon ||
+|-
+|<hiero>N10</hiero> || N10 || U+131F8 || {{font|text=𓇸|size=48px}} ||''{{lang|egy|psḏ}}'' || ||
+|-
+|<hiero>mAa</hiero> || Aa11 || U+13419 || {{font|text=𓐙|size=48px}} ||''{{lang|egy|mꜣꜥ}}'' || Platform ||
+|-
+|<hiero>U4</hiero> || U4 || U+13336 || {{font|text=𓌶|size=48px}} ||''{{lang|egy|mꜣꜥ}}'' || || Triliteral phonogram per Allen's sign list and Beylage (2018).{{sfn | Allen | 2014 | p=498}}{{sfn | Beylage | 2018 | p=21}} 
+|-
+|<hiero>G46</hiero> || G46 || U+13176 || {{font|text=𓅶|size=48px}} ||''{{lang|egy|mꜣw}}'' || || Triliteral phonogram per Allen's sign list and Beylage (2018).{{sfn | Allen | 2014 | p=481}}{{sfn | Beylage | 2018 | p=21}}
+|-
+|<hiero>mwt</hiero> || G14 || U+13150 || {{font|text=𓅐|size=48px}} ||''{{lang|egy|mwt}}'' || Vulture ||
+|-
+|<hiero>V32</hiero> || V32 || U+133A3 || {{font|text=𓎣|size=48px}} ||''{{lang|egy|msn}}'' || Wicker satchel ||
+|-
+|<hiero>S10</hiero> || S10 || U+132DC || {{font|text=𓋜|size=48px}} ||''{{lang|egy|mḏḥ}}'' || Fillet ||
+|-
+|<hiero>nbw</hiero> || S12 || U+132DE || {{font|text=𓋞|size=48px}} ||''{{lang|egy|[[gold (hieroglyph)|nbw]]}}'' || || Triliteral in Collier and Manley (1998).{{sfn|Collier|Manley|1998|p=128}}
+|-
+|<hiero>nfr</hiero> || F35 || U+13124 || {{font|text=𓄤|size=48px}} ||''{{lang|egy|[[nefer|nfr]]}}'' || Heart and windpipe ||
+|-
+|<hiero>A17</hiero> || A17 || U+13014 || {{font|text=𓀔|size=48px}} ||''{{lang|egy|nni}}'' || Infant ||
+|-
+|<hiero>M22</hiero> || M22 || U+131D1 || {{font|text=𓇑|size=48px}} ||''{{lang|egy|nḫb}}'' || Rush ||
+|-
+|<hiero>nTr</hiero> || R8 || U+132B9 || {{font|text=𓊹|size=48px}} ||''{{lang|egy|[[netjer|nṯr]]}}'' || Cloth on pole ||
+|-
+|<hiero>M29</hiero> || M29 || U+131DB || {{font|text=𓇛|size=48px}} ||''{{lang|egy|nḏm}}'' || Carob seed-pod ||
+|-
+|<hiero>rwD</hiero> || T12 || U+13317 || {{font|text=𓌗|size=48px}} ||''{{lang|egy|[[Bowstring (hieroglyph)|rwḏ]]}}'', ''{{lang|egy|rwd}}''{{sfn | Allen | 2014 | p=497}} || Bowstring ||
+|-
+|<hiero>Aa5</hiero> || Aa5 || U+13411 || {{font|text=𓐑|size=48px}} ||''{{lang|egy|ḥip}}'' || Part of a ship || Variant with biliteral ''{{lang|egy|ḥp}}''.{{sfn | Allen | 2014 | p=506}}
+|-
+|<hiero>HqA</hiero> || S38 || U+132FE || {{font|text=𓋾|size=48px}} ||''{{lang|egy|ḥqꜣ}}'' || Crook ||
+|-
+|<hiero>Htp</hiero> || R4 || U+132B5 || {{font|text=𓊵|size=48px}} ||''{{lang|egy|[[hotep|ḥtp]]}}'' || Bread loaf on mat ||
+|-
+|<hiero>Q1</hiero> || Q1 || U+132A8 || {{font|text=𓊨|size=48px}} ||''{{lang|egy|ḥtm}}'' || Seat{{sfn | Beylage | 2018 | p=710}} || 
+|-
+|<hiero>T6</hiero> || T6 || U+1330D || {{font|text=𓌍|size=48px}} ||''{{lang|egy|ḥḏḏ}}'' || || Triliteral phonogram per Allen's sign list.{{sfn | Allen | 2014 |p=497}}
+|-
+|<hiero>xpr</hiero> || L1 || U+131A3 || {{font|text=𓆣|size=48px}} ||''{{lang|egy|[[Khepri|ḫpr]]}}'' || Scarab beetle ||
+|-
+|<hiero>xnt</hiero> || W17 || U+133C3 || {{font|text=𓏃|size=48px}} ||''{{lang|egy|ḫnt}}'' || ||
+|-
+|<hiero>D19</hiero> || D19 || U+13089 || {{font|text=𓂉|size=48px}} ||''{{lang|egy|ḫnt}}'' || Nose in profile{{sfn | Beylage | 2018 | p=693}} || ''ḫntš'' "plantation", ''ḫntš'' "be glad, rejoice"{{sfn | Beylage | 2018 | p=778}}
+|-
+|<hiero>xrp</hiero> || S42 || U+13302 || {{font|text=𓌂|size=48px}} ||''{{lang|egy|[[Sekhem scepter|ḫrp]]}}'' || || {{Citation needed|reason=Not given this triliteral transliteration in Allen (2014) or Beylage (2018)|date=February 2025}}
+|-
+|<hiero>xrw</hiero> || P8 || U+132A4 || {{font|text=𓊤|size=48px}} ||''{{lang|egy|ḫrw}}'' || Oar ||
+|-
+|<hiero>xsf</hiero> || U34 || U+13359 || {{font|text=𓍙|size=48px}} ||''{{lang|egy|ḫsf}}'' || Spindle ||
+|-
+|<hiero>U35</hiero> || U35 || U+1335A || {{font|text=𓍚|size=48px}} ||''{{lang|egy|ḫsf}}'' || || Variant of U34{{sfn | Allen | 2014 | p=500}}{{sfn | Beylage | 2018 | p=716}}
+|-
+|<hiero>Xnm</hiero> || W9 || U+133B8 || {{font|text=𓎸|size=48px}} ||''{{lang|egy|ẖnm}}'' || Stone jug ||
+|-
+|<hiero>Z9</hiero> || Z9 || U+133F4 || {{font|text=𓏴|size=48px}} ||''{{lang|egy|zwꜣ}}'', ''{{lang|egy|swꜣ}}'' || Two sticks crossed{{sfn | Beylage | 2018 | p=721}} ||
+|-
+|<hiero>zwn</hiero> || T11 || U+13315 || {{font|text=𓌕|size=48px}} ||''{{lang|egy|zwn}}'' || Arrow{{sfn | Beylage | 2018 | p=714}} ||
+|-
+|<hiero>zmA</hiero> || F36 || U+13125 || {{font|text=𓄥|size=48px}} ||''{{lang|egy|[[union symbol (hieroglyph)|zmꜣ]]}}'' || Lung and windpipe ||
+|-
+|<hiero>F28</hiero> || F28 || U+1311C || {{font|text=𓄜|size=48px}} ||''{{lang|egy|sꜣb}}'' || Cow's skin{{sfn | Beylage | 2018 | p=698}} ||
+|-
+|<hiero>S22</hiero> || S22 || U+132EB || {{font|text=𓋫|size=48px}} ||''{{lang|egy|sꜣṯ}}'' || Shoulder knot{{sfn | Beylage | 2018 | p=712}} ||
+|-
+|<hiero>siA</hiero> || S32 || U+132F7 || {{font|text=𓋷|size=48px}} ||''{{lang|egy|siꜣ}}'' || Cloth with fringes{{sfn | Beylage | 2018 | p=713}} ||
+|-
+|<hiero>sbA</hiero> || N14 || U+131FC || {{font|text=𓇼|size=48px}} ||''{{lang|egy|sbꜣ}}'', ''{{lang|egy|dwꜣ}}'' || Star ||
+|-
+|<hiero>spr</hiero> || F42 || U+1312D || {{font|text=𓄭|size=48px}} ||''{{lang|egy|spr}}'' || Rib ||
+|-
+|<hiero>S29</hiero> || S29 || U+132F4 || {{font|text=𓋴|size=48px}} ||''{{lang|egy|[[Ankh wedja seneb|snb]]}}'' || || {{Citation needed|reason=Not listed as a triliteral in Allen (2014) or Beylage (2018); the reading is treated as part of an idiomatic abbreviation, not as a triliteral per se|date=February 2025}}
+|-
+|<hiero>S31</hiero> || S31 || U+132F6 || {{font|text=𓋶|size=48px}} ||''{{lang|egy|smꜣ}}'' || || Triliteral phonogram per Allen's sign list.{{sfn | Allen | 2014 | p=496}}
+|-
+|<hiero>snD</hiero> || G54 || U+1317E || {{font|text=𓅾|size=48px}} ||''{{lang|egy|snḏ}}'',''{{lang|egy|snd}}''{{sfn | Allen | 2014 |p=481}} || Plucked bird ||
+|-
+|<hiero>sSm</hiero> || T31 || U+1332B || {{font|text=𓌫|size=48px}} ||''{{lang|egy|sšm}}'' || Knife sharpener ||
+|-
+|<hiero>T32</hiero> || T32 || U+1332C || {{font|text=𓌬|size=48px}} ||''{{lang|egy|sšm}}'' || ||
+|-
+|<hiero>stp</hiero> || U21 || U+13349 || {{font|text=𓍉|size=48px}} ||''{{lang|egy|[[Adze-on-block (hieroglyph)|stp]]}}'' || Adze and block of wood ||
+|-
+|<hiero>V2</hiero> || V2 || U+1336C || {{font|text=𓍬|size=48px}} ||''{{lang|egy|sṯꜣ}}'' || || Triliteral in Beylage (2018).{{sfn | Beylage | 2018 | p=21}}
+|-
+|<hiero>Aa32</hiero> || Aa32 || U+1342E || {{font|text=𓐮|size=48px}} ||''{{lang|egy|sṯꜣ}}'', ''{{lang|egy|stꜣ}}'' || Bow || Triliteral phonogram per Allen's sign list.{{sfn | Allen | 2014 | p=507}}
+|-
+|<hiero>Sps</hiero> || A50 || U+1303B || {{font|text=𓀻|size=48px}} ||''{{lang|egy|šps}}'' || || Triliteral in Collier and Manley (1998).{{sfn|Collier|Manley|1998|p=128}}
+|-
+|<hiero>Sma</hiero> || M26 || U+131D7 || {{font|text=𓇗|size=48px}} ||''{{lang|egy|šmꜥ}}'' || Flowering sedge ||
+|-
+|<hiero>Sms</hiero> || T18 || U+1331E || {{font|text=𓌞|size=48px}} ||''{{lang|egy|šms}}'' || Crook with bundle attached ||
+|-
+|<hiero>Sna</hiero> || U13 || U+13341 || {{font|text=𓍁|size=48px}} ||''{{lang|egy|šnꜥ}}'' || Plough{{sfn | Beylage | 2018 | p=715}} ||
+|-
+|<hiero>O43</hiero> || O43 || U+13290 || {{font|text=𓊐|size=48px}} ||''{{lang|egy|šzp}}'' || Fence ||
+|-
+|<hiero>Szp</hiero> || O42 || U+1328F || {{font|text=𓊏|size=48px}} ||''{{lang|egy|šzp}}'' || Fence{{sfn | Beylage | 2018 | p=709}} ||
+|-
+|<hiero>V6</hiero> || V6 || U+13371 || {{font|text=𓍱|size=48px}} ||''{{lang|egy|šsr}}'' || Cord with ends up{{sfn | Beylage | 2018 | p=717}} ||
+|-
+|<hiero>R5</hiero> || R5 || U+132B6 || {{font|text=𓊶|size=48px}} ||''{{lang|egy|kꜣp}}'' || Censer for fumigation{{sfn | Beylage | 2018 | p=710}} || ''kꜣp'' "fumigate"; ''kꜣp'' "shelter, hut"{{sfn | Beylage | 2018 | p=800}}
+|-
+|<hiero>grg</hiero> || U17 || U+13345 || {{font|text=𓍅|size=48px}} ||''{{lang|egy|[[Pick (hieroglyph)|grg]]}}'' || Pick and depression ||
+|-
+|<hiero>G4</hiero> || G4 || U+13142 || {{font|text=𓅂|size=48px}} ||''{{lang|egy|tiw}}'' || Buzzard ||
+|-
+|<hiero>S24</hiero> || S24 || U+132ED || {{font|text=𓋭|size=48px}} ||''{{lang|egy|ṯꜣz}}'' || Knotted belt{{sfn | Beylage | 2018 | p=712}} || ''ṯꜣs'' "tie (a knot), knit together"; ''ṯꜣs'' "spell, utterance, proverb"{{sfn | Beylage | 2018 | p=805}}
+|-
+|<hiero>S23</hiero> || S23 || U+132EC || {{font|text=𓋬|size=48px}} ||''{{lang|egy|dmḏ}}'',''{{lang|egy|dmd}}''{{sfn | Allen | 2014 |p=495}} || Knotted cloth{{sfn | Beylage | 2018 | p=712}} || ''{{lang|egy|dmḏ}}'' "assemble, unite", ''{{lang|egy|dmḏ.yt}}'' "assembly"; ''{{lang|egy|dmḏ}}'' "in total"{{sfn | Beylage | 2018 | p=808}}
+|-
+|<hiero>G27</hiero> || G27 || U+1315F || {{font|text=𓅟|size=48px}} ||''{{lang|egy|dšr}}'' || Flamingo{{sfn | Beylage | 2018 | p=700}} ||
+|-
+|<hiero>S41</hiero> || S41 || U+13301 || {{font|text=𓌁|size=48px}} ||''{{lang|egy|ḏꜥm}}'' || Animal-headed staff{{sfn | Beylage | 2018 | p=713}} || ''{{lang|egy|ḏꜥmw}}'' "electrum"{{sfn | Allen | 2014 |p=496}}
+|-
+|<hiero>DbA</hiero> || T25 || U+13325 || {{font|text=𓌥|size=48px}} ||''{{lang|egy|ḏbꜣ}}'', ''{{lang|egy|dbꜣ}}''{{sfn | Allen | 2014 |p=498}} || Reed float ||
+|}
+
+== Usage ==
+
+Triliteral signs could be used by themselves to indicate the consonant sequence they represent, or they could more often be written along with phonetic complements, that is, they could appear with [[Egyptian_uniliteral_signs|uniliteral signs]] that represent part of their value.{{sfn | Allen | 2014 | p=33}}{{sfn | Beylage | 2018 | p=26}} Some examples of triliterals with phonetic complementation appear in the table below.
+
+{|class="wikitable" 
+|+ Examples of phonetic complementation with triliterals{{sfn | Beylage | 2018 | p=26, 28}}
+|-
+! Hieroglyph
+! Example
+! Transliteration
+! Meaning
+|-
+|<hiero>anx</hiero>
+|<hiero>anx-n:x</hiero>
+|{{lang|egy-Latn|ꜥnḫ}}
+|'live'
+|-
+|<hiero>wHm</hiero>
+|<hiero>wHm-m-Y1V</hiero>
+|{{lang|egy-Latn|wḥm}}
+|'repeat'
+|-
+|<hiero>wsr</hiero>
+|<hiero>w-wsr-s-r</hiero>
+|{{lang|egy-Latn|wsr}}
+|'strong'
+|-
+|<hiero>nfr</hiero>
+|<hiero>nfr-f:r</hiero>
+|{{lang|egy-Latn|nfr}}
+|'good'
+|-
+|<hiero>stp</hiero>
+|<hiero>s-t*p:stp</hiero>
+|{{lang|egy-Latn|stp}}
+|'select'
+|}
+
+==See also==
+*[[Transliteration of Ancient Egyptian]]
+*[[Egyptian uniliteral signs]]
+*[[Egyptian biliteral signs]]
+*[[List of Egyptian hieroglyphs]]
+
+== Notes ==
+:A.{{note|AllenList}}See Allen, 2014, pp. 33-34.
+{{Reflist}}
+
+== References ==
+* {{cite book | last = Allen | first = James P. | year = 2014 | title = Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs | edition = Third  | publisher = Cambridge University Press | url = https://books.google.com/books?id=lF78Max-h8MC&pg=PA29 |isbn=9781139486354}}
+* {{cite book | last = Beylage | first = Peter | year = 2018 | title = Middle Egyptian | publisher = The Pennsylvania State University Press |isbn=9781575069777}}
+* {{cite book | last1 = Collier | first1 = Mark | last2 = Manley | first2 = Bill | year = 1998 | title = How to Read Egyptian Hieroglyphs: A Step-by-step Guide to Teach Yourself | publisher = British Museum Press |isbn=9780520239494}}
+
+==External links==
+* [http://www.omniglot.com/writing/egyptian_trilat.htm omniglot.com]
+
+{{Egyptian hieroglyphs navbox}}
+
+[[Category:Egyptian hieroglyphs|*]]

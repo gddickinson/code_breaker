@@ -22,6 +22,9 @@
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 
+## codebreaker/writing/ (Scripts & Glyphs page)
+`wikitext.py` cleans raw Wikipedia tables · `signs.py` sign tables for Egyptian (Gardiner numbers; uniliteral, biliteral, triliteral values), Linear B, runes, Ogham, Phoenician, Gothic, Ugaritic, Old Persian and cuneiform sign names, from data/sources/scripts (sources.json) and Unicode names · `transliterate.py` `read` (also Gardiner numbers as input), `write` (Latin letters in one-sound signs), `catalogue`. Routes `web/routes_writing.py`; front end `writing.js`.
+
 ## codebreaker/devices/ (Live Devices page)
 `discover.py` finds USB, camera, audio, display, Bluetooth, serial and network devices from system_profiler, pyserial and psutil · `streams.py` read-only serial and network-rate streams · `analysis.py` structure of unknown byte streams (entropy, NMEA, JSON, CSV, AT, key-value, fixed binary packets) · `sim.py` simulated GPS, sensor and packet devices. Front end: `devices.js`, `devices_media.js` (camera and microphone analysed in the browser).
 
