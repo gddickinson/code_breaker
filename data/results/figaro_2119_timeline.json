@@ -1,5 +1,5 @@
 {
- "ads": 92,
+ "ads": 104,
  "span": [
   "1876-01-14",
   "1887-01-20"
@@ -80,6 +80,15 @@
    "mentions": []
   },
   {
+   "image": "1882_18820430-PAUL.jpg",
+   "date": "1882-04-30",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "COME MY ROOM TROIS CENQ OV.E ME PAS TE SUIS PENSEE YOU MY LOVE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1882_18820606-42.jpg",
    "date": "1882-06-06",
    "signature": "42",
@@ -98,6 +107,24 @@
    "mentions": [
     "communion"
    ]
+  },
+  {
+   "image": "1882_18820608-PAUL.jpg",
+   "date": "1882-06-08",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "OUR LITTLE GIRL HER HOW I LOVE YOU MM SEEN HER",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820610-PAUL.jpg",
+   "date": "1882-06-10",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "BIEN PENSE A TOI ES MA VIE CROIS MC IN LOVE",
+   "transcribed": true,
+   "mentions": []
   },
   {
    "image": "1882_18820613-7.jpg",
@@ -138,6 +165,15 @@
    "mentions": [
     "madame C. L."
    ]
+  },
+  {
+   "image": "1882_18821212-PAUL.jpg",
+   "date": "1882-12-12",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "ABLE WRITE LOUE YOU DEARLY DAY AND NIGHT MY ADORED WIFE",
+   "transcribed": true,
+   "mentions": []
   },
   {
    "image": "1882_18821215-42.jpg",
@@ -363,6 +399,15 @@
    "mentions": []
   },
   {
+   "image": "1884_18840121-E.jpg",
+   "date": "1884-01-21",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "LEAV JEUDI BOUL MOND SOIR ALONE OU VOIN TAIME",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1884_18840125-I.jpg",
    "date": "1884-01-25",
    "signature": "I",
@@ -437,6 +482,15 @@
    ]
   },
   {
+   "image": "1884_18840303-E.jpg",
+   "date": "1884-03-03",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "TENV MON SOUV DU MATIN MA CHERIE TU ES MON AMOUR",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1884_18840306-O.jpg",
    "date": "1884-03-06",
    "signature": "O",
@@ -461,6 +515,15 @@
    "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X.",
    "added": "earlier",
    "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840314-E.jpg",
+   "date": "1884-03-14",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "GLAD YOU HAVE HEL HEUR ETRE PL PRES TOI MON AMOU",
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -498,6 +561,17 @@
    "added": "earlier",
    "transcribed": true,
    "mentions": []
+  },
+  {
+   "image": "1884_18840503-E.jpg",
+   "date": "1884-05-03",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "GENE ICI AFF ET INCERT TE VOIR REV DIM CHAL OU LUND BAUL SOIG BIEN BREILL TEMBR MA FEMM AD MA TILLY",
+   "transcribed": true,
+   "mentions": [
+    "Tilly"
+   ]
   },
   {
    "image": "1884_18840531-J.jpg",
@@ -543,6 +617,17 @@
    "added": "Round 47-48",
    "transcribed": true,
    "mentions": []
+  },
+  {
+   "image": "1884_18841220-E.jpg",
+   "date": "1884-12-20",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "MOTH SAYS COMES MARDI I ANSW THAT I MUST BE BACK BEFORE END YEAR REV PROBAB SAM FA AFT LOV",
+   "transcribed": true,
+   "mentions": [
+    "mother"
+   ]
   },
   {
    "image": "1884_18841221-S.jpg",
@@ -595,6 +680,15 @@
    "signature": "R",
    "reading": "VIE MERC TWENTY PAST NINE MAT BALE COMME SORT LIT REV MARD SOIN JE TADORE MA FEMME AIMEE",
    "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850217-E.jpg",
+   "date": "1885-02-17",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "RETENU BACK WEDN I OCLO COME O OCLO PAPI LOV",
    "transcribed": true,
    "mentions": []
   },
@@ -661,6 +755,15 @@
    "signature": "J",
    "reading": "A VENK MA CHERIE JE PENSE A TOI DAY ET NUIT",
    "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850625-E.jpg",
+   "date": "1885-06-25",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "LES F FOIS PAR RID MA CHERIE HOW I MISS YOU",
    "transcribed": true,
    "mentions": []
   },
@@ -804,6 +907,15 @@
    "mentions": []
   },
   {
+   "image": "1886_18860531-E.jpg",
+   "date": "1886-05-31",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "ENV PLUM HI AUR VOUL ETR AV NL TAD MA FEM CHE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1886_18860605-T.jpg",
    "date": "1886-06-05",
    "signature": "T",
@@ -940,6 +1052,7 @@
   ],
   "mother": [
    "1883-06-07",
+   "1884-12-20",
    "1887-01-20"
   ],
   "father": [
@@ -958,7 +1071,8 @@
    "1884-02-29"
   ],
   "Tilly": [
-   "1883-06-09"
+   "1883-06-09",
+   "1884-05-03"
   ],
   "our girl": [
    "1883-02-28"

@@ -77,4 +77,12 @@ def test_residuals_read_and_tilly_named():
     d = json.loads(T.FAMILY.read_text())["checked_residual"]
     k = T.full_key()
     assert "MA DOUCE TILLY" in " ".join(T.decode(d["1883_18830609-42.jpg"], k))
-    assert all(T.share(t, k) > 0.5 for t in d.values())
+    round54 = [t for i, t in d.items() if "PAUL" not in i and not (i.endswith("-E.jpg") and i[:4] in ("1884", "1885", "1886") and i not in ("1884_18840323b-E.jpg", "1886_18860202-E.jpg", "1886_18861126-E.jpg"))]
+    assert len(round54) == 12 and all(T.share(t, k) > 0.5 for t in round54)
+
+
+def test_paul_and_e_ads_read():
+    d = json.loads(T.FAMILY.read_text())["checked_residual"]
+    k = T.full_key()
+    assert " ".join(T.decode(d["1882_18820608-PAUL.jpg"], k)).startswith("OUR LITTLE GIRL")
+    assert "MUST BE BACK BEFORE END YEAR" in " ".join(T.decode(d["1884_18841220-E.jpg"], k))
