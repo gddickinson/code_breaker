@@ -4,8 +4,8 @@
  "tiers": {
   "D": 11,
   "B": 132,
-  "C": 44,
-  "A": 4
+  "A": 6,
+  "C": 42
  },
  "by_family": {
   "other codes": {
@@ -13,11 +13,13 @@
   },
   "other documented tables": {
    "B": 13,
-   "C": 12,
-   "D": 4
+   "C": 11,
+   "D": 4,
+   "A": 1
   },
   "Le Figaro, other": {
-   "C": 4,
+   "A": 1,
+   "C": 3,
    "D": 2
   },
   "C. H. (Vigenere CEAD)": {
@@ -113,7 +115,7 @@
    "code": "figaro-1896-11-06-kp",
    "status": "needs_review",
    "family": "Le Figaro, other",
-   "tier": "C",
+   "tier": "A",
    "title": "Strong candidate reading (substitution)",
    "reading": "Voila longtemps je n'ai recu de mot me prouvant que tu m'aimes et penses toujours a moi. Pourtant je t'aime avec tendresse. Tu es mon souci, ma joie. Je vais en"
   },
@@ -455,7 +457,7 @@
    "code": "figaro-1877-04-12-opq",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented numeric table 2308, listed for 777)",
    "reading": "Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad is partly read."
   },
@@ -644,7 +646,7 @@
    "code": "figaro-1899-10-14-p",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented table 1005, listed for P)",
    "reading": "[S.] aim[e], env[oie] suit[e] ce t'ai dem[ande?] av[ec] nouv[elles] sant[e], m[ille] bais[ers]."
   },

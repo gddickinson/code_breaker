@@ -7,9 +7,9 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 | Family | A | B | C | D |
 |---|---|---|---|---|
 | table 2119 correspondence | 0 | 102 | 18 | 0 |
-| other documented tables | 0 | 13 | 12 | 4 |
+| other documented tables | 1 | 13 | 11 | 4 |
 | documented table 2402 | 0 | 10 | 0 | 0 |
-| Le Figaro, other | 0 | 0 | 4 | 2 |
+| Le Figaro, other | 1 | 0 | 3 | 2 |
 | C. H. (Vigenere CEAD) | 0 | 1 | 5 | 0 |
 | Berthe / table 2217 | 0 | 3 | 3 | 0 |
 | other codes | 0 | 0 | 0 | 5 |
@@ -19,9 +19,11 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 | Jane 1886 | 1 | 0 | 0 | 0 |
 | B 1882-86 | 1 | 0 | 0 | 0 |
 
-## Tier A (4)
+## Tier A (6)
 
+- [22] `figaro-1896-11-06-kp` (Le Figaro, other): Voila longtemps je n'ai recu de mot me prouvant que tu m'aimes et penses toujours a moi. Pourtant je t'aime av
 - [75] `figaro-1877-vta` (V. T. A. and Valentin): English (and some French) love letters with enciphered words in letters, digits and a cross. One homophonic ke
+- [81] `figaro-1899-10-14-p` (other documented tables): [S.] aim[e], env[oie] suit[e] ce t'ai dem[ande?] av[ec] nouv[elles] sant[e], m[ille] bais[ers].
 - [164] `figaro-lrg` (L. R. G. 1879-80): 29 Aug 1879: 'Pars trente. Arcachon. Prendre trains ... tendresse'; 2 Sep: '... par suite le trois. Ecris Arca
 - [175] `figaro-1886-jane` (Jane 1886): 8 Sep: '[Le] format de ce journal ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses
 - [176] `figaro-b-1882` (B 1882-86): 8 Jul 1882 'Ecris vite, ton silence me desole. T'adore'; 8 Sep 1882 'Serai samedi train Vesinet. T'aime follem
@@ -38,11 +40,11 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 - [53] `figaro-1886-01-22-2fev` (documented table 2402): Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read).
 - [55] `figaro-1886-03-07-2f` (documented table 2402): [P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as
 - [57] `figaro-1879-12-30-4` (documented table 2402): Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read).
+- [60] `figaro-1877-04-12-opq` (other documented tables): Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad 
 - [68] `figaro-1887-01-25-2f` (documented table 2402): Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir].
 - [73] `figaro-1879-03-11b` (documented table 2402): Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood.
 - [74] `figaro-1881-02-02` (documented table 2402): Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred.
 - [77] `figaro-1884-03-31-ch` (C. H. (Vigenere CEAD)): [...] prie, priez pour moi (LINGKTRL... decodes JENDIPRIE IPRIEZPOURMOI; the start is unclear)
-- [81] `figaro-1899-10-14-p` (other documented tables): [S.] aim[e], env[oie] suit[e] ce t'ai dem[ande?] av[ec] nouv[elles] sant[e], m[ille] bais[ers].
 - [82] `figaro-1890-06-19-geo` (other documented tables): Il y a un an! Follement je t'attends. Tout a toi.
 - [83] `figaro-1881-11-19-zz` (Berthe / table 2217): Ai lettre, merci, mais ecris ... t'adore, s'ennuie de [toi?]. Je baise tes levres, ma cherie.
 - [84] `figaro-1888-08-03-930` (other documented tables): Cour[age]. Sui[s] cont[ent], desir q[ue] t[u] parl[es]... continu... imp... suiv... cons... aim... trop... dep
@@ -161,9 +163,8 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 - [207] `figaro-1882-10-12-42` (table 2119 correspondence): BACK FRIDAY POQS MONDAY AS OFFICE SATURDAY V FORGET LOVE YOU ALL MY HEART MY WIFE PROCES BUREAU
 - [208] `figaro-1883-06-14-42` (table 2119 correspondence): NECESS KNOW WHATHE IS ABOUT BEFHE GOES TO AVOID BE CAUGHT ASK EBPLAN MOI AUSSI COEUR BAT
 
-## Tier C (44)
+## Tier C (42)
 
-- [22] `figaro-1896-11-06-kp` (Le Figaro, other): Voila longtemps je n'ai recu de mot me prouvant que tu m'aimes et penses toujours a moi. Pourtant je t'aime av
 - [23] `figaro-1890-10-26-ve3` (C. H. (Vigenere CEAD)): Suis en Italie, absent un mois. Amit[ies].
 - [24] `figaro-1896-08-17` (other documented tables): Imposs[ible]. Quitt[e] groupe, vais a Lucerne. Ebris[?] serai gare Epinay le 21. Merci amie. Rysck.
 - [25] `figaro-1892-07-30-h` (other documented tables): Rien que toi occupe pense desir. Hate te voir.
@@ -187,7 +188,6 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 - [56] `figaro-1884-03-06-o` (table 2119 correspondence): Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read.
 - [58] `figaro-1886-05-29-p` (table 2119 correspondence): Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read.
 - [59] `figaro-1890-07-09-po` (other documented tables): Tu rev.. pet.. Prefere te voir Paris. B. This ad is partly read; table listed for Po.
-- [60] `figaro-1877-04-12-opq` (other documented tables): Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad 
 - [61] `figaro-1889-11-08-chery` (other documented tables): Ta lettre .. mais je ne peux t'aimer davantage. Me retro[u]veras t'idolatrant. Ne doute pas de moi. T'adore. T
 - [62] `figaro-1877-10-06-opq` (other documented tables): Merci let[tre].. samed[i], mercred[i].. 10 h 1/4. T'ad[ore]. Mit Schmerzen. Only the plain words read; number 
 - [63] `figaro-1882-01-20-aim` (AIM dictionary code): Gelee, pas chasse probable. Serai vendredi de neuf [heures et] demie et quatre [heures et] demie. Faites votre

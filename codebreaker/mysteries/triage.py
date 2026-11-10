@@ -32,15 +32,20 @@ def family(title: str, origin: str, code: str) -> str:
 
 
 def tier(evidence: str, detail: str) -> str:
+    """Checked-by-eye and gate results are taken from the whole history; a weakness counts only if the most recent
+    'Round N:' statement records it, since later rounds supersede earlier notes (Round 68)."""
     e = f"{evidence} {detail}".lower()
+    parts = re.split(r"(?=round \d+)", e)
+    latest = next((p for p in reversed(parts) if re.match(r"round \d+", p)), e)
     checked = any(k in e for k in ("by eye", "against the scan", "transcribed from the scan"))
-    if "not yet checked" in e:
+    if "not yet checked" in latest:
         return "D"
-    if checked and ("all three gates pass" in e or "three gates pass" in e) and "fail" not in e.split("three gates pass")[-1][:40]:
-        return "A"
-    weak = any(k in e for k in ("does not pass", "in part", "missed", "narrowly fails", "fails (", "not all passed", "below"))
+    three = any(k in e for k in ("all three gates pass", "three gates pass", "passes all three gates"))
+    weak = any(k in latest for k in ("does not pass", "in part", "missed", "narrowly fails", "fails (", "not all passed", "not significant"))
     strong = bool(re.search(r"p\s*[<=]+\s*\d|p=\d|bonferroni|z=\d", e))
-    if checked and strong and not weak:
+    if checked and three and not weak:
+        return "A"
+    if checked and (strong or three) and not weak:
         return "B"
     if checked:
         return "C"

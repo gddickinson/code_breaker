@@ -22,3 +22,12 @@ def test_every_lead_in_one_tier_and_no_stale_2119():
 def test_report_written():
     text = T.REPORT.read_text()
     assert text.startswith("# Review queue") and "Tier A" in text
+
+
+def test_latest_round_weakness_supersedes_but_gates_persist():
+    old_weak_new_strong = "Round 30: word gate fails (coverage 59%). Read by eye. Round 40: passes all three gates against printed ads."
+    assert T.tier(old_weak_new_strong, "") == "A"
+    gates_then_detail = "Round 55: all three gates pass. Read by eye. Round 56: refined readings include 'courage'."
+    assert T.tier(gates_then_detail, "") == "A"
+    latest_weak = "Round 47: p=5e-4 (Bonferroni). Read by eye. Round 59: does not pass the bar after retranscription."
+    assert T.tier(latest_weak, "") == "C"
