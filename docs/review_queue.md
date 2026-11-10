@@ -7,9 +7,9 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 | Family | A | B | C | D |
 |---|---|---|---|---|
 | table 2119 correspondence | 0 | 102 | 18 | 0 |
-| other documented tables | 1 | 13 | 11 | 4 |
+| other documented tables | 1 | 23 | 1 | 4 |
 | documented table 2402 | 0 | 10 | 0 | 0 |
-| Le Figaro, other | 1 | 0 | 3 | 2 |
+| Le Figaro, other | 1 | 3 | 0 | 2 |
 | C. H. (Vigenere CEAD) | 0 | 1 | 5 | 0 |
 | Berthe / table 2217 | 0 | 3 | 3 | 0 |
 | other codes | 0 | 0 | 0 | 5 |
@@ -28,19 +28,32 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 - [175] `figaro-1886-jane` (Jane 1886): 8 Sep: '[Le] format de ce journal ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses
 - [176] `figaro-b-1882` (B 1882-86): 8 Jul 1882 'Ecris vite, ton silence me desole. T'adore'; 8 Sep 1882 'Serai samedi train Vesinet. T'aime follem
 
-## Tier B (132)
+## Tier B (145)
 
 - [21] `figaro-1896-07-15` (other documented tables): Tres reconnaissant de tout. Vous attends toujours. Ou et comment envoyer bouquin desire. Repondez par Annales 
+- [24] `figaro-1896-08-17` (other documented tables): Imposs[ible]. Quitt[e] groupe, vais a Lucerne. Ebris[?] serai gare Epinay le 21. Merci amie. Rysck.
+- [25] `figaro-1892-07-30-h` (other documented tables): Rien que toi occupe pense desir. Hate te voir.
+- [26] `figaro-1890-10-04-mh` (other documented tables): Lettre trop tard mar[di?] Dec[embre?]. Donnez rendez-vous.
+- [28] `figaro-1894-10-03-25` (Le Figaro, other): Comme tu voudras... [partly read].
+- [36] `figaro-1884-11-13-78` (other documented tables): Je t'adore. Te voir est mon seul bonheur.
+- [37] `figaro-1894-09-20-25` (Le Figaro, other): Espere diner avec toi ou serai tres peinee.
+- [39] `figaro-1881-10-07` (other documented tables): Jeannette (signature, one letter extra). Rien depuis. Malade. T'aime toujours. Ou ecrire? T.p.m. Two letters d
+- [40] `figaro-1894-09-11-25` (Le Figaro, other): Tous bien. Vous donnes baisers que j'envoi. One letter does not fit (vous) and baisers is short by a letter; t
 - [41] `figaro-1881-11-07-74` (documented table 2402): Doux souvenir, tendres baisers, my own ... The last word is partly read.
 - [42] `figaro-1879-03-09b` (documented table 2402): Serai Paris jeudi deux dix avec mere.
 - [43] `figaro-1884-04-27-h` (table 2119 correspondence): Si gr[and] vide sans toi. Merci devin pensee fille. This ad is partly read.
 - [44] `figaro-1883-06-05-7` (table 2119 correspondence): Suis si mauv[aise] hum[eur], esperais tant. Tu vois rivaux. Gueris .. vite, viens, serions si heureux. Ton mar
+- [48] `figaro-1890-02-03-lili` (other documented tables): Comme je voud[rais] toujours pres de .. etre, comme .. Lili .. (partly read).
 - [50] `figaro-1889-01-09-2f` (documented table 2402): Timbre mal mis par accident. Tendre baisers.
+- [51] `figaro-1889-10-19-chery` (other documented tables): Suis Rome. Desire nouvelles. Ecris. Amie, pensee a toi seule, femme adoree.
 - [52] `figaro-1879-04-10` (documented table 2402): Courage, mon coeur, vous sui[s].. 47. This ad is partly read.
 - [53] `figaro-1886-01-22-2fev` (documented table 2402): Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read).
+- [54] `figaro-1875-09-23-5` (other documented tables): [S]erai Paris vendredi. Ecris. Suis inquiet. D'une .. le .. t'aime (partly read).
 - [55] `figaro-1886-03-07-2f` (documented table 2402): [P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as
 - [57] `figaro-1879-12-30-4` (documented table 2402): Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read).
+- [59] `figaro-1890-07-09-po` (other documented tables): Tu rev.. pet.. Prefere te voir Paris. B. This ad is partly read; table listed for Po.
 - [60] `figaro-1877-04-12-opq` (other documented tables): Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad 
+- [61] `figaro-1889-11-08-chery` (other documented tables): Ta lettre .. mais je ne peux t'aimer davantage. Me retro[u]veras t'idolatrant. Ne doute pas de moi. T'adore. T
 - [68] `figaro-1887-01-25-2f` (documented table 2402): Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir].
 - [73] `figaro-1879-03-11b` (documented table 2402): Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood.
 - [74] `figaro-1881-02-02` (documented table 2402): Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred.
@@ -163,32 +176,19 @@ Tiers: **A** all three gates pass and read by eye; **B** beats a null and read b
 - [207] `figaro-1882-10-12-42` (table 2119 correspondence): BACK FRIDAY POQS MONDAY AS OFFICE SATURDAY V FORGET LOVE YOU ALL MY HEART MY WIFE PROCES BUREAU
 - [208] `figaro-1883-06-14-42` (table 2119 correspondence): NECESS KNOW WHATHE IS ABOUT BEFHE GOES TO AVOID BE CAUGHT ASK EBPLAN MOI AUSSI COEUR BAT
 
-## Tier C (42)
+## Tier C (29)
 
 - [23] `figaro-1890-10-26-ve3` (C. H. (Vigenere CEAD)): Suis en Italie, absent un mois. Amit[ies].
-- [24] `figaro-1896-08-17` (other documented tables): Imposs[ible]. Quitt[e] groupe, vais a Lucerne. Ebris[?] serai gare Epinay le 21. Merci amie. Rysck.
-- [25] `figaro-1892-07-30-h` (other documented tables): Rien que toi occupe pense desir. Hate te voir.
-- [26] `figaro-1890-10-04-mh` (other documented tables): Lettre trop tard mar[di?] Dec[embre?]. Donnez rendez-vous.
 - [27] `figaro-1886-06-29-ch` (C. H. (Vigenere CEAD)): Tachez eviter sans refusez [partly read].
-- [28] `figaro-1894-10-03-25` (Le Figaro, other): Comme tu voudras... [partly read].
 - [29] `figaro-1882-06-01-5` (Berthe / table 2217): Pourquoi pas ecrire fa[che?] es grand peine amie. Round 45, transcribed from the scan: 'Pourquoi pas ecrire? F
 - [34] `figaro-1882-12-24-5` (Berthe / table 2217): Triste d'adieu si froid ton... meme te desire folle... te baise partout [partly read]. Round 45, transcribed f
 - [35] `figaro-1882-07-01-5` (Berthe / table 2217): Aime moi un peu, je t'aime et desire tant te baiser.
-- [36] `figaro-1884-11-13-78` (other documented tables): Je t'adore. Te voir est mon seul bonheur.
-- [37] `figaro-1894-09-20-25` (Le Figaro, other): Espere diner avec toi ou serai tres peinee.
-- [39] `figaro-1881-10-07` (other documented tables): Jeannette (signature, one letter extra). Rien depuis. Malade. T'aime toujours. Ou ecrire? T.p.m. Two letters d
-- [40] `figaro-1894-09-11-25` (Le Figaro, other): Tous bien. Vous donnes baisers que j'envoi. One letter does not fit (vous) and baisers is short by a letter; t
 - [45] `figaro-1884-02-19-h` (table 2119 correspondence): Je te.. avant de partir, ma petite femme ador[ee].
 - [46] `figaro-1884-03-12-n` (table 2119 correspondence): Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives 
 - [47] `figaro-1884-01-12-e` (table 2119 correspondence): Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read.
-- [48] `figaro-1890-02-03-lili` (other documented tables): Comme je voud[rais] toujours pres de .. etre, comme .. Lili .. (partly read).
 - [49] `figaro-1884-05-31-j` (table 2119 correspondence): Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame.
-- [51] `figaro-1889-10-19-chery` (other documented tables): Suis Rome. Desire nouvelles. Ecris. Amie, pensee a toi seule, femme adoree.
-- [54] `figaro-1875-09-23-5` (other documented tables): [S]erai Paris vendredi. Ecris. Suis inquiet. D'une .. le .. t'aime (partly read).
 - [56] `figaro-1884-03-06-o` (table 2119 correspondence): Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read.
 - [58] `figaro-1886-05-29-p` (table 2119 correspondence): Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read.
-- [59] `figaro-1890-07-09-po` (other documented tables): Tu rev.. pet.. Prefere te voir Paris. B. This ad is partly read; table listed for Po.
-- [61] `figaro-1889-11-08-chery` (other documented tables): Ta lettre .. mais je ne peux t'aimer davantage. Me retro[u]veras t'idolatrant. Ne doute pas de moi. T'adore. T
 - [62] `figaro-1877-10-06-opq` (other documented tables): Merci let[tre].. samed[i], mercred[i].. 10 h 1/4. T'ad[ore]. Mit Schmerzen. Only the plain words read; number 
 - [63] `figaro-1882-01-20-aim` (AIM dictionary code): Gelee, pas chasse probable. Serai vendredi de neuf [heures et] demie et quatre [heures et] demie. Faites votre
 - [64] `figaro-1882-02-16-aim` (AIM dictionary code): Vs pens.. petite. Merci pate, terrine. Vous, ajustement, bidet, tendre.. baiser.. levres.. partout. Ry. This a

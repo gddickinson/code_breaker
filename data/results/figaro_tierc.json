@@ -1,0 +1,97 @@
+{
+ "id": "figaro_tierc",
+ "bar": 0.005,
+ "rows": [
+  {
+   "image": "1894_18940911-25.jpg",
+   "system": "Vigenere CD, no W",
+   "reading": "TOUSBIENVOUDDONNESBAISRSQUEJENTPH",
+   "coverage": 0.424,
+   "p": 0.004975124378109453,
+   "passes": true
+  },
+  {
+   "image": "1894_18940920-25.jpg",
+   "system": "Vigenere CD, no W",
+   "reading": "DTOCREDINERAVECTOIOUSERAITRESPEINIE",
+   "coverage": 0.514,
+   "p": 0.004975124378109453,
+   "passes": true
+  },
+  {
+   "image": "1894_18941003-25.jpg",
+   "system": "Vigenere CD, no W",
+   "reading": "COMMETUVOUDRASMOIRESTEPARCSVENDREOH",
+   "coverage": 0.657,
+   "p": 0.004975124378109453,
+   "passes": true
+  },
+  {
+   "image": "1881_18811007.jpg",
+   "system": "reversed, table 2210",
+   "reading": "EBRIRE OU TOUJOUJS TAIME MALADE DEPUIS RIEN",
+   "coverage": 0.541,
+   "p": 0.004975124378109453,
+   "passes": true
+  },
+  {
+   "image": "1875_18750923-5.jpg",
+   "system": "table 2305",
+   "reading": "ERAI PARI VENDREDI ECRI SUI INQUIET DUNE LE ? TAIME",
+   "coverage": 0.683,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1889_18891019-CHERY.jpg",
+   "system": "table 2310",
+   "reading": "SUIS R OME NOUVE?S EC RIS AMIE PE NSEE A TOI SEULE FEMME ADOREE",
+   "coverage": 0.673,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1889_18891108-CHERY.jpg",
+   "system": "table 2310",
+   "reading": "T? L ETTRE J AFF?E T AIME RDAVANTAGE ME RETROVERAS T ID OLAT R A ? NE DOUTE PAS DE MOI T ADORE",
+   "coverage": 0.435,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1877_18771006-OPQ.jpg",
+   "system": "table 2308",
+   "reading": "PLESIE R P ARI OFEMON",
+   "coverage": 0.235,
+   "p": 0.3006993006993007,
+   "passes": false
+  },
+  {
+   "image": "1890_18900203-LILI.jpg",
+   "system": "digit table 2131",
+   "reading": "COMME JE VOUD ETRE TOUJ PRES DE V COMME JE KER MEILLEUR V M AIMER V AIME TROP J APPEL TOUJ ETE SEUL BO.H IE T AI ME",
+   "coverage": 0.693,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1890_18900709-Po.jpg",
+   "system": "digit table 2135",
+   "reading": "TU RE. PET PRE. AO PREFERE TE VOIR PARIS",
+   "coverage": 0.625,
+   "p": 0.000999000999000999,
+   "passes": true
+  }
+ ],
+ "passed": [
+  "1894_18940911-25.jpg",
+  "1894_18940920-25.jpg",
+  "1894_18941003-25.jpg",
+  "1881_18811007.jpg",
+  "1875_18750923-5.jpg",
+  "1889_18891019-CHERY.jpg",
+  "1889_18891108-CHERY.jpg",
+  "1890_18900203-LILI.jpg",
+  "1890_18900709-Po.jpg"
+ ]
+}

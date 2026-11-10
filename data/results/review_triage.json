@@ -3,23 +3,23 @@
  "leads": 191,
  "tiers": {
   "D": 11,
-  "B": 132,
+  "B": 145,
   "A": 6,
-  "C": 42
+  "C": 29
  },
  "by_family": {
   "other codes": {
    "D": 5
   },
   "other documented tables": {
-   "B": 13,
-   "C": 11,
+   "B": 23,
    "D": 4,
+   "C": 1,
    "A": 1
   },
   "Le Figaro, other": {
    "A": 1,
-   "C": 3,
+   "B": 3,
    "D": 2
   },
   "C. H. (Vigenere CEAD)": {
@@ -133,7 +133,7 @@
    "code": "figaro-1896-08-17",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Caesar shift 1)",
    "reading": "Imposs[ible]. Quitt[e] groupe, vais a Lucerne. Ebris[?] serai gare Epinay le 21. Merci amie. Rysck."
   },
@@ -142,7 +142,7 @@
    "code": "figaro-1892-07-30-h",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Caesar shift 1)",
    "reading": "Rien que toi occupe pense desir. Hate te voir."
   },
@@ -151,7 +151,7 @@
    "code": "figaro-1890-10-04-mh",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Caesar shift 1)",
    "reading": "Lettre trop tard mar[di?] Dec[embre?]. Donnez rendez-vous."
   },
@@ -169,7 +169,7 @@
    "code": "figaro-1894-10-03-25",
    "status": "needs_review",
    "family": "Le Figaro, other",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Vigenere CD, no W (partial))",
    "reading": "Comme tu voudras... [partly read]."
   },
@@ -241,7 +241,7 @@
    "code": "figaro-1884-11-13-78",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Le Figaro 13 Nov 1884, writer 78: Caesar 2",
    "reading": "Je t'adore. Te voir est mon seul bonheur."
   },
@@ -250,7 +250,7 @@
    "code": "figaro-1894-09-20-25",
    "status": "needs_review",
    "family": "Le Figaro, other",
-   "tier": "C",
+   "tier": "B",
    "title": "Le Figaro 20 Sep 1894, writer 25: Vigenere CD without W",
    "reading": "Espere diner avec toi ou serai tres peinee."
   },
@@ -268,7 +268,7 @@
    "code": "figaro-1881-10-07",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (reversed text, table 2210, listed for ARISTE)",
    "reading": "Jeannette (signature, one letter extra). Rien depuis. Malade. T'aime toujours. Ou ecrire? T.p.m. Two letters do not fit and may be printing errors."
   },
@@ -277,7 +277,7 @@
    "code": "figaro-1894-09-11-25",
    "status": "needs_review",
    "family": "Le Figaro, other",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Vigenere CD without W)",
    "reading": "Tous bien. Vous donnes baisers que j'envoi. One letter does not fit (vous) and baisers is short by a letter; this ad is partly read."
   },
@@ -349,7 +349,7 @@
    "code": "figaro-1890-02-03-lili",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2131)",
    "reading": "Comme je voud[rais] toujours pres de .. etre, comme .. Lili .. (partly read)."
   },
@@ -376,7 +376,7 @@
    "code": "figaro-1889-10-19-chery",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2310)",
    "reading": "Suis Rome. Desire nouvelles. Ecris. Amie, pensee a toi seule, femme adoree."
   },
@@ -403,7 +403,7 @@
    "code": "figaro-1875-09-23-5",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2305)",
    "reading": "[S]erai Paris vendredi. Ecris. Suis inquiet. D'une .. le .. t'aime (partly read)."
   },
@@ -448,7 +448,7 @@
    "code": "figaro-1890-07-09-po",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2135)",
    "reading": "Tu rev.. pet.. Prefere te voir Paris. B. This ad is partly read; table listed for Po."
   },
@@ -466,7 +466,7 @@
    "code": "figaro-1889-11-08-chery",
    "status": "needs_review",
    "family": "other documented tables",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (numeric table 2310, numbers with clear letters)",
    "reading": "Ta lettre .. mais je ne peux t'aimer davantage. Me retro[u]veras t'idolatrant. Ne doute pas de moi. T'adore. The print gives RETROVERAS without U; this ad is pa"
   },
