@@ -14,7 +14,7 @@ CATS = {"Category:Undeciphered historical codes and ciphers": "cipher", "Categor
 SKIP = re.compile(r"^(Category|File|Template|List of|Undeciphered writing systems)", re.I)
 ALREADY = {"bealeciphers", "ddaycarrierpigeoncipher", "henrydebosnys", "kryptos", "olivierlevasseur", "somertonman", "yogtzecase", "isthmianscript", "zapotecscript", "khitanscripts", "iberianscripts", "cyprominoanscript", "beale1", "beale3", "tamanshud", "dorabella",
            # aliases of tracked codes (2026-11-10): McCormick pages, the Zodiac codes, D'Agapeyeff, Tamam Shud, pigeon, Liber Primus
-           "rickymccormicksencryptednotes", "zodiackiller", "dagapeyeffcipher", "tamamshudcase", "pigeonnurp40tw194", "cicada3301"}
+           "rickymccormicksencryptednotes", "zodiackiller", "dagapeyeffcipher", "tamamshudcase", "pigeonnurp40tw194", "cicada3301", "khaurongorongo", "kohaurongorongo"}
 
 
 def wiki_members(cat):

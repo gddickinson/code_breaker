@@ -35,7 +35,7 @@ SEEDED_LEADS = [
 ALIASES = {"the beale cryptograms": "beale-1", "beale ciphers": "beale-1", "the dorabella cryptogram": "dorabella", "dorabella cipher": "dorabella", "the somerton man": "tamam-shud", "kryptos": "kryptos-k4", "voynich manuscript": "voynich",
            "the blitz ciphers": "blitz-cipher-page-7", "ricky mccormick s encrypted notes": "ricky-mccormick-page-1", "the rubin cryptogram": "paul-rubin", "the powers cryptogram": "powers-cryptogram", "the copenhagen cryptogram": "copenhagen-cryptogram", "the fair game code": "fair-game-code", "the moustier altar inscriptions": "moustier-st-martin", "the train station robbery cryptogram": "1916-train-station-robbery-cryptogram", "encrypted messages of a nazi spy": "kohler-1944-nazi-spy-message-137", "the scorpion letters": "scorpio-5", "the shugborough inscription": "shugborough",
            # Names from Wikipedia's List of ciphertexts that are already tracked under other slugs (removed as aliases, 2026-11-10)
-           "d'agapeyeff cipher": "dagapeyeff", "tamam shud case": "tamam-shud", "pigeon nurp 40 tw 194": "pigeon", "cicada 3301": "liber-primus", "zodiac killer": "zodiac-z13", "ricky mccormick's encrypted notes": "ricky-mccormick-page-1", "james hampton": "w-james-hampton-artist"}
+           "d'agapeyeff cipher": "dagapeyeff", "tamam shud case": "tamam-shud", "pigeon nurp 40 tw 194": "pigeon", "cicada 3301": "liber-primus", "zodiac killer": "zodiac-z13", "ricky mccormick's encrypted notes": "ricky-mccormick-page-1", "james hampton": "w-james-hampton-artist", "kōhau rongorongo": "rongorongo", "kohau rongorongo": "rongorongo"}
 
 
 def _ascii_slug(name):
