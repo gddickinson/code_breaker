@@ -1,0 +1,496 @@
+{
+ "id": "figaro_wordbreak",
+ "series": 13,
+ "passed": [],
+ "rows": [
+  {
+   "signature": "A",
+   "ads": 11,
+   "symbols": 705,
+   "blind_share": 0.262,
+   "refined_share": 0.411,
+   "null": [
+    {
+     "blind": 0.146,
+     "refined": 0.359
+    },
+    {
+     "blind": 0.159,
+     "refined": 0.678
+    },
+    {
+     "blind": 0.169,
+     "refined": 0.323
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.641,
+   "coverage": 0.142,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1876_18760325-A.jpg": "sa uuu tts st st tue te ue tue on tu ttt tu tt tes te ut eu tee tu suu tue st est su st se ete tes te eue ues ts te uee st est ues te ute tu eut tu tte te tue s",
+    "1876_18760326-A.jpg": "te ett fofmor te ses stete tu ste",
+    "1876_18760329-A.jpg": "tt su ets fofmor te is st ete tu ste",
+    "1876_18760331-A.jpg": "tt su ets fofmor te ses otet tu ste",
+    "1883_18831228-A.jpg": "pml fois ee poils poil usifol eopet noirf eesee fuoimsf es foi te nufe feefu fiest pe seue",
+    "1884_18841224-A.jpg": "foi fo il uet sue fis fie pr ue us seu"
+   }
+  },
+  {
+   "signature": "R",
+   "ads": 11,
+   "symbols": 852,
+   "blind_share": 0.063,
+   "refined_share": 0.156,
+   "null": [
+    {
+     "blind": 0.042,
+     "refined": 0.138
+    },
+    {
+     "blind": 0.055,
+     "refined": 0.154
+    },
+    {
+     "blind": 0.056,
+     "refined": 0.158
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.644,
+   "coverage": 0.073,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1876_18761014-R.jpg": "jneie rineet emuj tamjneae mea mjanjunili nptje ener aeee ajneai ejtnto nmretee naijcuir uue ncejitui",
+    "1883_18831129-R.jpg": "letunc ee epee eeneeee uumli ne un ete de pttpnoe net meme teenee ennetu pn epee nteenet aneu tine ejete net mpte unt npuete entee mpin",
+    "1884_18840602-R.jpg": "upe liniee tenu nee un mm ttede pnn emu pu",
+    "1884_18841216-R.jpg": "jeta mp lent eemm eet ieno itcc en npuett",
+    "1884_18841224-R.jpg": "uente eeum en innu une eeen ieno ueedetaet",
+    "1884_18841228-R.jpg": "ljpte ee mpn ejm pu epee teni intt eett pem"
+   }
+  },
+  {
+   "signature": "P",
+   "ads": 18,
+   "symbols": 947,
+   "blind_share": 0.073,
+   "refined_share": 0.27,
+   "null": [
+    {
+     "blind": 0.072,
+     "refined": 0.384
+    },
+    {
+     "blind": 0.067,
+     "refined": 0.133
+    },
+    {
+     "blind": 0.078,
+     "refined": 0.154
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.633,
+   "coverage": 0.205,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1876_18761015-P.jpg": "neb oisei sterafa srru oseuibsi ens uefutveue eubui teas ouii ar etse subeta esisni fees rtes fui eussenie",
+    "1876_18761104-P.jpg": "nen uiesv roe sueise souuvae usor foi serueir isreteu vuo sf esisoeb iii eusseete ees suit et eese",
+    "1885_18851128-P.jpg": "esvv oss os frb se seeo osff rrofo trvsre eo",
+    "1886_18861127-P.jpg": "eu nee isso esoi esff sio ose ss unes uo",
+    "1896_18960624-P.jpg": "aras as rot roses ote rosas sire vata rostouss tbasosi sire",
+    "1896_18960626-P.jpg": "asar sou las verse vs"
+   }
+  },
+  {
+   "signature": "17",
+   "ads": 7,
+   "symbols": 264,
+   "blind_share": 0.322,
+   "refined_share": 0.652,
+   "null": [
+    {
+     "blind": 0.28,
+     "refined": 0.561
+    },
+    {
+     "blind": 0.292,
+     "refined": 0.458
+    },
+    {
+     "blind": 0.258,
+     "refined": 0.473
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.638,
+   "coverage": 0.106,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1878_18781119-17.jpg": "eu tue et eu ttu eus et eee eu tu ete ttu",
+    "1878_18781123-17.jpg": "ee mure eeu tt ete ts eut te eus eu teu eu te eue es",
+    "1878_18781126-17.jpg": "uu tes se te tes ss tu sse tes ee ets",
+    "1878_18781127-17.jpg": "re eus tu eue te tu eet us eut tus ee es eus mm et ee euu ee eu es ee eus eu ee",
+    "1878_18781201-17.jpg": "nee le ii eeu uu reue eu et es et ttu es tet eu te tte es",
+    "1878_18781203-17.jpg": "ai ame eu eee es eu eus ee euseeu euu eu eue es eus eu"
+   }
+  },
+  {
+   "signature": "8",
+   "ads": 4,
+   "symbols": 268,
+   "blind_share": 0.131,
+   "refined_share": 0.224,
+   "null": [
+    {
+     "blind": 0.071,
+     "refined": 0.183
+    },
+    {
+     "blind": 0.052,
+     "refined": 0.28
+    },
+    {
+     "blind": 0.086,
+     "refined": 0.224
+    }
+   ],
+   "planted_accuracy": 0.978,
+   "planted_refined_coverage": 0.599,
+   "coverage": 0.157,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1881_18810607-8.jpg": "ne ub tsuee nbnuneeeset att emu dumebdb dessae aunne eetenu mm",
+    "1881_18810609-8.jpg": "anne sene nnee essetrede eau sbeub tabbaa te nebautu sentn en te es tese",
+    "1883_18830224-8.jpg": "ea naen dessebeue us tas nusbetme annuseb usent ee nunn eetn desees aenteen enabe te une sd",
+    "1883_18830603-8.jpg": "mm mt ete eteme esbn nee naesbe se sde dame tuee bas ea nabsb eteaa satead eteee sast etes saun senabe"
+   }
+  },
+  {
+   "signature": "JN22",
+   "ads": 11,
+   "symbols": 266,
+   "blind_share": 0.286,
+   "refined_share": 0.688,
+   "null": [
+    {
+     "blind": 0.222,
+     "refined": 0.744
+    },
+    {
+     "blind": 0.323,
+     "refined": 0.688
+    },
+    {
+     "blind": 0.308,
+     "refined": 0.496
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.632,
+   "coverage": 0.053,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1881_18810927-JN22.jpg": "mm nd me nee ee ne ne de ne",
+    "1881_18811203-JN22.jpg": "mm antt ne ee ne nee de ne",
+    "1883_18830120-JN22.jpg": "sss tss ii iss is mm me if nee ne ee de",
+    "1883_18830520-JN22.jpg": "mm ne ne ne ee me ne de ne nee nee",
+    "1883_18830907-JN22.jpg": "mm anafi sain ne me nee ne de ne",
+    "1883_18831019-JN22.jpg": "mm nd nee ee ne ne de ne"
+   }
+  },
+  {
+   "signature": "38",
+   "ads": 5,
+   "symbols": 320,
+   "blind_share": 0.025,
+   "refined_share": 0.188,
+   "null": [
+    {
+     "blind": 0.037,
+     "refined": 0.125
+    },
+    {
+     "blind": 0.031,
+     "refined": 0.122
+    },
+    {
+     "blind": 0.044,
+     "refined": 0.163
+    }
+   ],
+   "planted_accuracy": 0.98,
+   "planted_refined_coverage": 0.583,
+   "coverage": 0.109,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1881_18810929-38.jpg": "sa amsa saaa ataa atata smsss ssas aassm",
+    "1881_18810930-38.jpg": "saaa amas sasts assa aass aastm bat ammam asaat aataa qu aaassn tssmsataa asstm attts asaas bue matt",
+    "1881_18811013-38.jpg": "atas asssa am smsss assas aaasa sssssm staa taass amsss asass",
+    "1881_18811018-38.jpg": "sa satas stsas asaas mats asasmaaast qu saaa amsms as sa ttma asats amas amas aaaa ammaa un amas ne assta",
+    "1881_18811023-38.jpg": "ma ssaasma aamaa matt atmst qu attata staa eh bmm asta asaa asams aasmm assas aataa"
+   }
+  },
+  {
+   "signature": "42",
+   "ads": 8,
+   "symbols": 510,
+   "blind_share": 0.075,
+   "refined_share": 0.247,
+   "null": [
+    {
+     "blind": 0.067,
+     "refined": 0.224
+    },
+    {
+     "blind": 0.122,
+     "refined": 0.233
+    },
+    {
+     "blind": 0.076,
+     "refined": 0.194
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.628,
+   "coverage": 0.165,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1881_18811201-42.jpg": "epee esre esamp etes atau esmsen anmps etua me",
+    "1881_18811208-42.jpg": "et be atep eesee venus amer eue enmese sespsmp nses ira nennn epee metss ntu",
+    "1881_18811210-42.jpg": "iepsns epam enn ups an metsn am vsaa xi",
+    "1882_18820203-42.jpg": "etaas as nmps atsn nuee etaan as dure eeua ne punaan sure an metsn am nneais vsaan enssrn",
+    "1882_18820204-42.jpg": "ex nsiesan espvs nnun epee ess et esmps epi esamps etes nau esmnen",
+    "1882_18820307-42.jpg": "esesre amers esemse nisesmpi nmsre ei vxae iv nss ep ses amee pas emeis viapv en ies eesarea"
+   }
+  },
+  {
+   "signature": "PAUL",
+   "ads": 4,
+   "symbols": 248,
+   "blind_share": 0.036,
+   "refined_share": 0.327,
+   "null": [
+    {
+     "blind": 0.069,
+     "refined": 0.286
+    },
+    {
+     "blind": 0.077,
+     "refined": 0.262
+    },
+    {
+     "blind": 0.056,
+     "refined": 0.25
+    }
+   ],
+   "planted_accuracy": 0.978,
+   "planted_refined_coverage": 0.593,
+   "coverage": 0.198,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1882_18820430-PAUL.jpg": "nsee lost tooa atone leta oice se sotatveen ete ae enne eeeeue eueeuta ton eeusonesb soie",
+    "1882_18820608-PAUL.jpg": "nte tns eutoc sa ont seaast mets etuu ast aou aveu soit bon os otda ete sa ss umonue ette att",
+    "1882_18820610-PAUL.jpg": "pate eteet aon te sn iat atone sl at soi",
+    "1882_18821212-PAUL.jpg": "bssn uteeto euta etat as asooe ose npat utsa sont bon etntab enb nee eamaa neotte unet"
+   }
+  },
+  {
+   "signature": "D",
+   "ads": 10,
+   "symbols": 447,
+   "blind_share": 0.123,
+   "refined_share": 0.273,
+   "null": [
+    {
+     "blind": 0.098,
+     "refined": 0.239
+    },
+    {
+     "blind": 0.114,
+     "refined": 0.219
+    },
+    {
+     "blind": 0.101,
+     "refined": 0.3
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.635,
+   "coverage": 0.121,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1883_18831130-D.jpg": "teneen seet esn meei tsieeisse tseitete ieis eueu neit eseit letses et lsees seiss mees",
+    "1883_18831204-D.jpg": "me ness leste sese ts teeis tesei seist teeeit ele sesn et ueiun se sees les etesentes teleei",
+    "1884_18840313-D.jpg": "ne utenn ess tee eu te net nes tas sumdin stes",
+    "1884_18840604-D.jpg": "ll tsees deiueu sese sein se dei leste lese st",
+    "1884_18841225-D.jpg": "utis ms is sene seuui suttt eitsuteia",
+    "1885_18850214-D.jpg": "eeo sise eus ni ees ei tedsteeto nstes"
+   }
+  },
+  {
+   "signature": "E",
+   "ads": 8,
+   "symbols": 315,
+   "blind_share": 0.152,
+   "refined_share": 0.394,
+   "null": [
+    {
+     "blind": 0.092,
+     "refined": 0.286
+    },
+    {
+     "blind": 0.152,
+     "refined": 0.321
+    },
+    {
+     "blind": 0.07,
+     "refined": 0.295
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.629,
+   "coverage": 0.124,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1884_18840121-E.jpg": "eeis cense ione sots soit ieote on soii riese",
+    "1884_18840303-E.jpg": "tiers pot son an pirir si usstve rn es pot spont",
+    "1884_18840314-E.jpg": "aeis son sise see sent erte vi vts roi sot ison",
+    "1884_18840503-E.jpg": "avre eue imm er etuetr tes ses usie on nnn aine soia beer bteeee esbt si mess is si rt",
+    "1884_18841220-E.jpg": "rs pors siss poses sitse srsi sir pnsr be biui",
+    "1885_18850217-E.jpg": "terern bisi iest oueo uose oueo vive ios"
+   }
+  },
+  {
+   "signature": "T",
+   "ads": 11,
+   "symbols": 408,
+   "blind_share": 0.13,
+   "refined_share": 0.343,
+   "null": [
+    {
+     "blind": 0.096,
+     "refined": 0.255
+    },
+    {
+     "blind": 0.078,
+     "refined": 0.225
+    },
+    {
+     "blind": 0.169,
+     "refined": 0.257
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.635,
+   "coverage": 0.201,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1884_18840226-T.jpg": "vemr mn ne cnsoinne nrnne mure nesnee da mineee",
+    "1884_18840319-T.jpg": "eem tire nee mue term mr uinearm amie nee att",
+    "1884_18840501-T.jpg": "due asueee da nesnei se pree non pnem",
+    "1884_18840612-T.jpg": "eeti sed usce nuee turse nan eet tess meeise nee tes nad ur deerm erss maroe tees ade",
+    "1885_18850218-T.jpg": "mu sac edoe nueme ar nier sre nmn ere ranm",
+    "1885_18850531-T.jpg": "ure nenae me eusc pusm nat diesr medoe aide"
+   }
+  },
+  {
+   "signature": "13",
+   "ads": 25,
+   "symbols": 787,
+   "blind_share": 0.189,
+   "refined_share": 0.374,
+   "null": [
+    {
+     "blind": 0.137,
+     "refined": 0.262
+    },
+    {
+     "blind": 0.139,
+     "refined": 0.266
+    },
+    {
+     "blind": 0.121,
+     "refined": 0.274
+    }
+   ],
+   "planted_accuracy": 1.0,
+   "planted_refined_coverage": 0.635,
+   "coverage": 0.081,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "readings": {
+    "1897_18970212-13.jpg": "mes est mt es ttus messes tus tnrleu ma",
+    "1897_18970502-13.jpg": "ce leu est te et se ses mus te eusus",
+    "1898_18980120-13.jpg": "meeus mesue tett usmstturr ses secute sstu",
+    "1898_18980208-13.jpg": "ce re usut es teut et ma tet eus et",
+    "1898_18980306-13.jpg": "cuete tetuss ttsp lut rr tetsutussumc uur rr",
+    "1898_18980330-13.jpg": "ueuscus leee te te ss eus ses ma an et"
+   }
+  }
+ ]
+}

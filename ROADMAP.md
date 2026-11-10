@@ -90,7 +90,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 54 | 12 table-2119 residuals (7, D, 42, E) transcribed: all read (p<=5e-4); correspondence now 92 ads, names the wife 'ma douce Tilly'. Jane (Sep 1886) is a numeric homophonic with word breaks: blind solve reads '... ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses ...'; control and null pass, word gate missed by 0.2 points. 90 is a dictionary code; B repeats letter-digit words | completed 2026-11-10 |
 | 55 | B 1882-1886 (10 ads) read by a blind homophonic solve with word breaks: 4 of 7 seeds converge, score -4.01 against at most -4.71, 58% words against at most 10%, planted 98%: three gates pass ('Ecris vite, ton silence me desole. T'adore'; 'Serai samedi train Vesinet. T'aime follement'). B 1 Apr 1886 is a table 2119 ad. The 90 references need a 700+ page dictionary, not Landais. Jane refinement moved to 56 | completed 2026-11-10 |
 | 56 | Word-aware refinement under a matched null (`figaro_wordrefine.py`): Jane 35% -> 56% whole words against at most 35% for shuffled copies through the same pipeline; refined planted control sets the bar at 39%, Jane reaches 41%: all three gates pass. B 41% -> 70% against at most 9% | completed 2026-11-10 |
-| 57 | Find the other unsolved series that keep printed word breaks and run series_blind plus the matched refinement | pending |
+| 57 | 13 further word-break series from OCR through blind solve plus matched refinement: none reads (coverage at most 21% against bars of 47-52%); 7 beat the matched null (17, 38, 42, PAUL, E, T, 13), structure only. Short-word series inflate even when shuffled (up to 74% refined words) | completed 2026-11-10 |
+| 58 | Transcribe the series that beat the matched null (17, 38, 42, PAUL, E, T, 13) and rerun on transcriptions; tabulate the 1896 V jargon code words | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -383,6 +384,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 57
+- Word-level scores are easy to inflate on short words: shuffled short-word series reached 74% refined words. Only the matched null and a coverage bar from a refined planted control keep the test honest.
 
 ## Added 2026-11-10: Round 56
 - A refinement is fair only if every comparison goes through it: shuffled copies and the planted control were refined the same way, and the bar was set from the refined planted text.

@@ -93,8 +93,9 @@ def planted_words(words: list[list[str]], seed: int = 7) -> tuple[list[list[str]
     return [[rnd.choice(enc[c]) for c in w] for w in plain], " ".join(plain)
 
 
-def test(name: str, ex, shuffles: int = 3, seed: int = 56) -> dict:
-    ads = series(name)
+def test(name: str, ex, shuffles: int = 3, seed: int = 56, ads: dict | None = None) -> dict:
+    """The matched refinement test on a named series, or on any {ad: [word symbol lists]} given as ads."""
+    ads = ads if ads is not None else series(name)
     words = [w for ws in ads.values() for w in ws]
     before, after, key = pipeline(words, ex)
     rnd, null = random.Random(seed), []
