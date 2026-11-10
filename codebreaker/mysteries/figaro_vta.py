@@ -211,6 +211,22 @@ def gates(h: dict, pc: dict, null_sd: float, tests: int = 1) -> dict:
     return {"z": round(z, 1), "bar": bar, **g, "passed": all(g.values())}
 
 
+def unexplained(key: dict | None = None) -> list[dict]:
+    """Enciphered words whose decoding is not covered by dictionary words even when split (Round 38 audit)."""
+    key, saved = key or full_key(), SCORING
+    globals()["SCORING"] = "segmented"
+    try:
+        out = []
+        for image, ad in ads().items():
+            for w in words_of(ad["cipher"]):
+                d = decode(w, key)
+                if covered(d) < len(d):
+                    out.append({"image": image, "cipher": w, "decoded": d, "covered": covered(d), "name": w in ad.get("names", []) or image in SKIP})
+        return out
+    finally:
+        globals()["SCORING"] = saved
+
+
 def full_key() -> dict:
     return key_from(CRIBS)
 
@@ -233,7 +249,7 @@ def run() -> dict:
     mean = sum(nulls) / len(nulls)
     sd = (sum((x - mean) ** 2 for x in nulls) / len(nulls)) ** 0.5
     return {"id": "figaro_vta", "key": key, "homophones": homophones(key), "cribs": len(CRIBS), "held_out": h, "positive_control": pc,
-            "scrambled_control": scrambled_control(), "gates": gates(h, pc, sd), "readings": readings}
+            "scrambled_control": scrambled_control(), "gates": gates(h, pc, sd), "readings": readings, "unexplained": unexplained(key)}
 
 
 if __name__ == "__main__":

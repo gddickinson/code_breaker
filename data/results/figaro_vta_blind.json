@@ -1,0 +1,185 @@
+{
+ "id": "figaro_vta_blind",
+ "words": 198,
+ "letters": 872,
+ "runs": [
+  {
+   "seed": 6,
+   "score": -4.7641,
+   "agreement": 0.8
+  },
+  {
+   "seed": 4,
+   "score": -4.7804,
+   "agreement": 0.0
+  },
+  {
+   "seed": 0,
+   "score": -4.7953,
+   "agreement": 0.34
+  },
+  {
+   "seed": 2,
+   "score": -4.7972,
+   "agreement": 0.851
+  },
+  {
+   "seed": 3,
+   "score": -4.809,
+   "agreement": 0.197
+  },
+  {
+   "seed": 5,
+   "score": -4.8124,
+   "agreement": 0.425
+  },
+  {
+   "seed": 1,
+   "score": -4.822,
+   "agreement": 0.286
+  }
+ ],
+ "best": {
+  "seed": 6,
+  "score": -4.7641,
+  "key": {
+   "+": "l",
+   "0": "c",
+   "1": "m",
+   "2": "t",
+   "3": "a",
+   "4": "s",
+   "5": "n",
+   "6": "n",
+   "7": "e",
+   "8": "e",
+   "9": "p",
+   "a": "o",
+   "c": "d",
+   "d": "u",
+   "e": "r",
+   "f": "w",
+   "g": "h",
+   "h": "y",
+   "l": "r",
+   "m": "a",
+   "n": "s",
+   "o": "t",
+   "p": "d",
+   "q": "f",
+   "r": "g",
+   "s": "h",
+   "t": "i",
+   "u": "i",
+   "v": "t",
+   "x": "o",
+   "y": "s",
+   "z": "e"
+  },
+  "agreement": 0.8
+ },
+ "best_reading": "t seela suth a tong tile since i harent fect your tiss on ly tiss dear setime those opline seauty seeingline srotheds lardiage swnce your risit tore sou setmer than erer writing to soresise agsin i wont read it sut al dying with ieatousy why to hil not to le i tore you so weth and so truty ly own darting tsish toutd write and teth you there is in ly heart woth sut tetmer into lidfe one searth weth la there setime pe loe laintenssh et touisrrs white ftowers setime those sienail ee itore you so tu nas sas eu deieuncr stusierra iourslais teteme set those ietaile si en iatmends nourethes your lothers tetmer at ieulont at asout twetwe stue dresa sihth tolordsy tuesday iatis anwer to hio in sartet dif you tiie setime those therig wost fridaw lorning londay lornisg for your tunth ly darting setime those i tore you rery luth yuo are titmme dartine and tore yuo with atr hearth witr tetr atr asout our shostine wen witr thie setime hothe oue notre alour ne te rende san latheurersp nele pais sas wish oue tula ioesloins growinh with ilsatience and want of seeing wou",
+ "context_reading": "t seems such a long time sinle i hauent felt your lips on my lips dear petite chose odmine beauty beeingmine brothers marriage swnle your uisit loue pou better than euer writing to por?pise agbin i wont read it but am dying with iealousy why to him not to me i loue you so well and so truly my own darling csish could write and tell you there is in my heart wqll put letter into midfe one search well ma chere petite de moe maintenbbh et touipurs white flowers petite chose bienaim ee iloue you so tu nas pas eu deieunlr plusieurs ioursmais letete pet chose ietaime bi en iattends nouuelles your mothers letter at ieumont at about twelwe blue dress silth tomorrpy tuesday iacis anwer to hio in parcel dif you liie petite chose cherig wopl fridaw morning monday mornisg for your lunch my darling petite chose i loue you uery much yuo are littte darline and loue yuo with alr hearth wilr telr alr about our shoptine wen wilr chie petite lolle que notre amour ne te rende pan malheureusd neme dais pas wish que tuma ioesmoins growinh with impatienle and want of seeing wou",
+ "refined": {
+  "agreement": 0.777,
+  "word_share": 0.79,
+  "reading": "t teemc tush a tong time tinee i harent neet your tict on my tict dear cetire shote obmine feauty feeingmine frotheit mariiage twnee your ritit tore cou fetrer than erer writing to corecite agfin i wont read it fut am dying with ieatouty why to him not to me i tore you to wete and to truty my own darting stith soutd write and tete you there it in my heart wete cut tetrer into midne one tearsh wete ma shere cetire be moe maintenffh et touicrrt white ntowert cetire shote fienaim ee itore you to tu nat cat eu deieuner ctutierrc iourtmait tetere cet shote ietaime fi en iatrendt noureteet your mothert tetrer at ieumont at afout twetwe ftue dretc tieth tomoricy tuetday iasit anwer to hio in carset din you tiie cetire shote sherig woct nridaw morning monday mornitg nor your tunsh my darting cetire shote i tore you rery mush yuo are titrre dartine and tore yuo with atr hearth witr tetr atr afout our thoctine wen witr shie cetire eotee eue notre amour ne te rende can matheurertb neme bait cat with eue tuma ioetmoint growinh with imcatienee and want on teeing wou"
+ },
+ "disagreements": [
+  {
+   "symbol": "4",
+   "context": "s",
+   "blind": "t",
+   "uses": 45
+  },
+  {
+   "symbol": "v",
+   "context": "l",
+   "blind": "t",
+   "uses": 38
+  },
+  {
+   "symbol": "y",
+   "context": "p",
+   "blind": "c",
+   "uses": 23
+  },
+  {
+   "symbol": "o",
+   "context": "c",
+   "blind": "s",
+   "uses": 16
+  },
+  {
+   "symbol": "e",
+   "context": "u",
+   "blind": "r",
+   "uses": 13
+  },
+  {
+   "symbol": "1",
+   "context": "t",
+   "blind": "r",
+   "uses": 13
+  },
+  {
+   "symbol": "n",
+   "context": "b",
+   "blind": "f",
+   "uses": 13
+  },
+  {
+   "symbol": "g",
+   "context": "l",
+   "blind": "e",
+   "uses": 8
+  },
+  {
+   "symbol": "q",
+   "context": "f",
+   "blind": "n",
+   "uses": 7
+  },
+  {
+   "symbol": "0",
+   "context": "l",
+   "blind": "e",
+   "uses": 5
+  },
+  {
+   "symbol": "9",
+   "context": "d",
+   "blind": "b",
+   "uses": 4
+  },
+  {
+   "symbol": "c",
+   "context": "r",
+   "blind": "i",
+   "uses": 3
+  },
+  {
+   "symbol": "3",
+   "context": "s",
+   "blind": "c",
+   "uses": 3
+  },
+  {
+   "symbol": "a",
+   "context": "q",
+   "blind": "e",
+   "uses": 3
+  }
+ ],
+ "context_word_share": 0.815,
+ "planted": {
+  "best_score": -4.364,
+  "agreement_with_true_key": 0.962,
+  "refined_agreement": 1.0
+ },
+ "shuffled_null": {
+  "best_score": -5.2328,
+  "agreement_with_context_key": 0.122,
+  "refined_word_share": 0.611
+ }
+}

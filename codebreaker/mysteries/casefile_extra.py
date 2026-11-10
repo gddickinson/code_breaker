@@ -123,7 +123,19 @@ def _vta_gate(h):
             f"Letting a decoded word split into dictionary words of 3 or more letters, with nulls and controls scored the same way, gives {s['held_out']['pooled_share']:.1%} against a bar of {0.8 * s['positive_control']['pooled_share']:.1%}, "
             f"shuffled keys {s['held_out']['null_mean']:.0%} (max {s['held_out']['null_max']:.0%}) and the scrambled control {s['scrambled_control']['pooled_share']:.0%}: all three gates pass, narrowly, under a scoring chosen after the first one failed. "
             f"Reading every uncertain glyph the other way changes the result by at most {max(abs(x['change']) for x in gl['singles']):.1%} (all together: {gl['all_flipped']['pooled_share']:.0%}). "
-            "Status: a readable candidate, checked against the scans by eye, not a confirmed solution; it needs an independent reading and a novelty check.")
+            "Status: a readable candidate, checked against the scans by eye, not a confirmed solution; it needs an independent reading and a novelty check." + _vta_blind())
+
+
+def _vta_blind():
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_vta_blind.json"
+    if not path.exists():
+        return ""
+    b = json.loads(path.read_text())
+    return (f" A blind solve that used none of the readings (all enciphered words pooled, quadgram annealing, the best of {len(b['runs'])} runs chosen by score) agrees with the context key on {b['best']['agreement']:.0%} of symbol uses; "
+            f"with the symbols shuffled it agrees on {b['shuffled_null']['agreement_with_context_key']:.0%}, and on a planted correspondence it recovers {b['planted']['agreement_with_true_key']:.0%} of the true key.")
 
 
 def _vta():

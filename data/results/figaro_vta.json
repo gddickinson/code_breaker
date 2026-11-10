@@ -346,5 +346,413 @@
   "1877_18771207-VTA.jpg": "yuo are littte darline and loue yuo with alr hearth wilr telr alr about our shoptine wen wilr",
   "1877_18771220-VTA.jpg": "chie petite lolle que notre amour ne te rende pan malheureusd neme dais pas wish que tuma ioesmoins",
   "1877_18771222-VTA.jpg": "growinh with impatienle and want of seeing wou"
- }
+ },
+ "unexplained": [
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "cipher": "2",
+   "decoded": "t",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "cipher": "4t508",
+   "decoded": "sinle",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "cipher": "sme85'2",
+   "decoded": "hauent",
+   "covered": 5,
+   "name": false
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "cipher": "9815m6p",
+   "decoded": "detnand",
+   "covered": 3,
+   "name": true
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "cipher": "0xv+m52",
+   "decoded": "lolmant",
+   "covered": 3,
+   "name": true
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "cipher": "+x52",
+   "decoded": "mont",
+   "covered": 3,
+   "name": true
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "cipher": "r857et9f8",
+   "decoded": "geneuidwe",
+   "covered": 4,
+   "name": true
+  },
+  {
+   "image": "1877_18770914-VTA.jpg",
+   "cipher": "x9+t58",
+   "decoded": "odmine",
+   "covered": 4,
+   "name": false
+  },
+  {
+   "image": "1877_18770914-VTA.jpg",
+   "cipher": "n87t5r+t58",
+   "decoded": "beeingmine",
+   "covered": 7,
+   "name": false
+  },
+  {
+   "image": "1877_18770927-VTA.jpg",
+   "cipher": "4f508",
+   "decoded": "swnle",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18770927-VTA.jpg",
+   "cipher": "yxd",
+   "decoded": "pou",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "cipher": "yxlzyt48",
+   "decoded": "por?pise",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "cipher": "mrnt5",
+   "decoded": "agbin",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "cipher": "o4t4s",
+   "decoded": "csish",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "cipher": "favg",
+   "decoded": "wqll",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "cipher": "+tpq8",
+   "decoded": "midfe",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "cipher": "+x7",
+   "decoded": "moe",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "cipher": "+mt5286nns",
+   "decoded": "maintenbbh",
+   "covered": 7,
+   "name": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "cipher": "2xdtyel4",
+   "decoded": "touipurs",
+   "covered": 6,
+   "name": false
+  },
+  {
+   "image": "1877_18771009-VTA.jpg",
+   "cipher": "v8td427",
+   "decoded": "leiuste",
+   "covered": 5,
+   "name": true
+  },
+  {
+   "image": "1877_18771012-VTA.jpg",
+   "cipher": "tvxe8",
+   "decoded": "iloue",
+   "covered": 4,
+   "name": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "cipher": "5m4",
+   "decoded": "nas",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "cipher": "p8t7d50l",
+   "decoded": "deieunlr",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "cipher": "y82",
+   "decoded": "pet",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "cipher": "nt",
+   "decoded": "bi",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "cipher": "tm2185p4",
+   "decoded": "iattends",
+   "covered": 7,
+   "name": false
+  },
+  {
+   "image": "1877_18771020-VTA.jpg",
+   "cipher": "t8d+x52",
+   "decoded": "ieumont",
+   "covered": 6,
+   "name": false
+  },
+  {
+   "image": "1877_18771023-VTA.jpg",
+   "cipher": "2f8vf7",
+   "decoded": "twelwe",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771031-VTA.jpg",
+   "cipher": "4tg2s",
+   "decoded": "silth",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771031-VTA.jpg",
+   "cipher": "2x+xlcyh",
+   "decoded": "tomorrpy",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "tmou4",
+   "decoded": "iacis",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "m5f8l",
+   "decoded": "anwer",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "stx",
+   "decoded": "hio",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "ptq",
+   "decoded": "dif",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "vtu8",
+   "decoded": "liie",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "cipher": "os8ltr",
+   "decoded": "cherig",
+   "covered": 5,
+   "name": false
+  },
+  {
+   "image": "1877_18771109-VTA.jpg",
+   "cipher": "fxyv",
+   "decoded": "wopl",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771109-VTA.jpg",
+   "cipher": "qltpmf",
+   "decoded": "fridaw",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771111-VTA.jpg",
+   "cipher": "+xl5t4r",
+   "decoded": "mornisg",
+   "covered": 4,
+   "name": false
+  },
+  {
+   "image": "1877_18771111-VTA.jpg",
+   "cipher": "vd5os",
+   "decoded": "lunch",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "hdx",
+   "decoded": "yuo",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "vt2117",
+   "decoded": "littte",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "hdx",
+   "decoded": "yuo",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "mvl",
+   "decoded": "alr",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "ftvl",
+   "decoded": "wilr",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "27vl",
+   "decoded": "telr",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "mvl",
+   "decoded": "alr",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "4sxy2t57",
+   "decoded": "shoptine",
+   "covered": 7,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "f75",
+   "decoded": "wen",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "cipher": "ftvl",
+   "decoded": "wilr",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "cipher": "ost8",
+   "decoded": "chie",
+   "covered": 3,
+   "name": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "cipher": "gxvg8",
+   "decoded": "lolle",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "cipher": "+mvs8dl7e49",
+   "decoded": "malheureusd",
+   "covered": 10,
+   "name": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "cipher": "58+8",
+   "decoded": "neme",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "cipher": "2d+m",
+   "decoded": "tuma",
+   "covered": 0,
+   "name": false
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "cipher": "rlxft5s",
+   "decoded": "growinh",
+   "covered": 4,
+   "name": false
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "cipher": "t+ym2u8507",
+   "decoded": "impatienle",
+   "covered": 6,
+   "name": false
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "cipher": "fxd",
+   "decoded": "wou",
+   "covered": 0,
+   "name": false
+  }
+ ]
 }

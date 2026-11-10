@@ -71,7 +71,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 35 | Transposition then substitution on the long Le Figaro ads: 8 routes at widths 2-20 (control 30 of 32 at 80-100 letters) and columnar keys of width 4-12 annealed jointly with the substitution (control 22 of 24; width 10 needs about 150 letters). 34 and 20 ads tested, none passed. Known candidates KP 6 Nov 1896 and 15 Jul 1896 recovered again by substitution alone | completed 2026-11-09 |
 | 36 | Abbreviated-plain filter (341 of 344 printed solved ads, 0 substituted, 6 of 344 shuffled pass; 363 of 641 unsolved ads flagged plain, now excluded from cipher searches). V. T. A. 1877 pooled: English love letters with enciphered words under one homophonic key; held-out reading 58% dictionary words against 3% (max 8%) for shuffled keys, z=54; scrambled control 8%; planted control 96%. Third gate fails (names, run-together words), so a candidate, not a solve | completed 2026-11-09 |
 | 37 | V. T. A. gate: with run-together words split into dictionary words of 3+ letters (nulls and controls scored alike) the held-out share is 78.5% against a bar of 77.9%, shuffled keys 14% (max 24%), scrambled control 28%: three gates pass narrowly, under a scoring chosen after the exact one failed. Flipping all 14 uncertain glyphs: 78.8%. Mixed plain-and-cipher search: only V. T. A. uses letters and digits; CH 30 Jul 1884 has one 29-letter block, not cracked | completed 2026-11-09 |
-| 38 | V. T. A.: an independent check of the readings (decode the remaining words by key only, list every word the key does not explain); more letters for the key from the full ad text where readings are certain. High-resolution scans only with the user's permission | pending |
+| 38 | V. T. A. blind solve with no readings: best of 7 quadgram runs (chosen by score) agrees with the context key on 80% of symbol uses; shuffled symbols 12% (score -5.23 vs -4.76); planted correspondence 96%. Blind word-level refinement did not help (78%) and inflates on shuffles (61% word share). Audit: 58 of 204 words not fully explained (names, vocabulary gaps, a recurring second value for f, 0, n, y) | completed 2026-11-09 |
+| 39 | V. T. A.: test two-letter symbols (n=a/b, y=o/p, f=w/y, 0=c/l) against random second letters; then re-run the gates. High-resolution scans only with the user's permission | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -296,4 +297,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Segmenting decoded words also raises the nulls (shuffled keys 3% to 14%, scrambled control 8% to 28%), which is why short words (1-2 letters) are not allowed in a split.
 - The vocabulary must use the writer's alphabet: with v written as u, 'love' is only found as 'loue'.
 - Uncertain glyphs matter less than feared: with one key across 18 ads, any single glyph moves the result by under one point.
+
+## Added 2026-11-09: Round 38
+- A blind solve is the cleanest independent check of readings made by eye: the solver never sees them, and agreement with them is measured afterwards.
+- Choose the run by its own score, fixed in advance; across seeds the agreement ranged from 0% to 85%.
+- Optimising a key for dictionary-word share inflates on shuffled symbols (61%), so word share is a check on a key found otherwise, never an objective by itself.
+- An audit of what the key does not explain points to structure: the misses repeat the same second values.
 
