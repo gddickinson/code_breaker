@@ -46,6 +46,31 @@ def printable(b: bytes) -> str | None:
     return s if s and sum(c.isprintable() or c.isspace() for c in s) / len(s) > 0.95 else None
 
 
+def script_layer(raw: str) -> dict | None:
+    """Text in other scripts (Round 76). Signs of a known script whose values are distinct single letters are
+    transliterated; otherwise unfamiliar symbols (26 or fewer kinds) are relabelled A, B, C... by first appearance,
+    so the substitution attacks can run on them. Returns an encoding entry or None."""
+    from .writing.signs import SCRIPTS, script_of, tables
+    from .writing.transliterate import PLAIN
+
+    compact = re.sub(r"\s+", "", raw)
+    odd = [c for c in compact if ord(c) > 0x2FF]
+    if len(odd) < 8 or len(odd) < 0.8 * len(compact):
+        return None
+    kinds = sorted(set(odd), key=odd.index)
+    known = {c: script_of(c) for c in kinds}
+    if all(known.values()):
+        t = tables()
+        vals = {c: PLAIN.get(v, v).upper() for c in kinds for v in (t[known[c]][c].get("values") or ["?"])[:1]}
+        if all(re.fullmatch(r"[A-Z]", v) for v in vals.values()) and len(set(vals.values())) == len(vals):
+            names = sorted({SCRIPTS[s][0] for s in known.values()})
+            return {"name": f"{', '.join(names)} transliterated", "text": "".join(vals.get(c, c) for c in raw), "strict": True}
+    if len(kinds) <= 26:
+        lab = {c: A[i] for i, c in enumerate(kinds)}
+        return {"name": f"{len(kinds)} kinds of symbol relabelled as letters", "text": "".join(lab.get(c, c) for c in raw), "strict": True}
+    return None
+
+
 def encodings(raw: str) -> list[dict]:
     """Reversible encodings that need no key."""
     compact = re.sub(r"\s+", "", raw)
@@ -53,6 +78,9 @@ def encodings(raw: str) -> list[dict]:
     def add(name, text, strict=True):
         if text and len(letters(text)) >= 4:
             out.append({"name": name, "text": text, "strict": strict})
+    sl = script_layer(raw)
+    if sl:
+        add(sl["name"], sl["text"])
     if re.fullmatch(r"[A-Za-z0-9+/]+={0,2}", compact or "!") and len(compact) % 4 == 0 and len(compact) >= 8:
         try:
             add("Base64", printable(base64.b64decode(compact, validate=True)))

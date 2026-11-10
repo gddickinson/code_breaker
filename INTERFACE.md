@@ -16,7 +16,7 @@
 | `attacks/bombe.py` | Crib-based plugboard Enigma attack | `attack`, `demo` |
 | `sudoku_vision.py` | Reads a sudoku grid from a photo | `read_grid`, `find_board` |
 | `classifier.py` / `autobreak.py` | CNN cipher-type classifier (GPU) and the identify-and-solve pipeline | `classify`, `train`, `autobreak` |
-| `crack.py` / `crack_steps.py` / `crack_worker.py` | Workbench crack: streamed stages, every attack across languages, shuffled-text verdict | `crack`, `plan`, `verdict` |
+| `crack.py` / `crack_steps.py` / `crack_worker.py` | Workbench crack: streamed stages, every attack across languages, shuffled-text verdict; `script_layer` transliterates script text or relabels unfamiliar symbols | `crack`, `plan`, `verdict` |
 | `submissions.py` | Workbench submissions: saved text, encodings peeled, duplicate check, avenues (including a full "crack" avenue) for the hunter | `submit`, `peel`, `listing` |
 | `kernels_t.py` | Numba hill-climbing for wide columnar keys, both directions, and joint key-plus-substitution annealing | `columnar_encrypt`, `climb_wide`, `anneal_joint` |
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
@@ -40,7 +40,7 @@ Adapted from the textview project: `file_inspector.py` (magic bytes, extension h
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·
-`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
+`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `scripts.py` (runes, Ogham, hieroglyph alphabet, rune substitution) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
 
 ## codebreaker/attacks/
 `classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography

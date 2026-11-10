@@ -1,6 +1,6 @@
 /* Cipher library and the make / break page for each cipher. */
 const SIMS = ["enigma", "lorenz", "jefferson", "scytale", "grille", "railfence", "vigenere", "playfair"];
-const FAMILY_ORDER = ["Monoalphabetic", "Polyalphabetic", "Polygraphic", "Fractionating", "Transposition", "Book and homophonic", "Codes", "Machines", "Modern stream", "Modern symmetric", "Hashes", "Public key"];
+const FAMILY_ORDER = ["Monoalphabetic", "Polyalphabetic", "Polygraphic", "Fractionating", "Transposition", "Book and homophonic", "Codes", "Scripts", "Machines", "Modern stream", "Modern symmetric", "Hashes", "Public key"];
 
 route(/^\/$/, async () => {
   const byFam = {};
