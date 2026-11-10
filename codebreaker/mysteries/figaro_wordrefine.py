@@ -93,8 +93,9 @@ def planted_words(words: list[list[str]], seed: int = 7) -> tuple[list[list[str]
     return [[rnd.choice(enc[c]) for c in w] for w in plain], " ".join(plain)
 
 
-def test(name: str, ex, shuffles: int = 3, seed: int = 56, ads: dict | None = None) -> dict:
-    """The matched refinement test on a named series, or on any {ad: [word symbol lists]} given as ads."""
+def test(name: str, ex, shuffles: int = 3, seed: int = 56, ads: dict | None = None, planted=None) -> dict:
+    """The matched refinement test on a named series, or on any {ad: [word symbol lists]} given as ads. planted
+    (Round 74) replaces the planted control generator: words -> (symbol words, plaintext)."""
     ads = ads if ads is not None else series(name)
     words = [w for ws in ads.values() for w in ws]
     before, after, key = pipeline(words, ex)
@@ -104,7 +105,7 @@ def test(name: str, ex, shuffles: int = 3, seed: int = 56, ads: dict | None = No
         null.append({"blind": round(b, 3), "refined": round(a, 3)})
     from ..validation import coverage
 
-    pw, ptext = planted_words(words)
+    pw, ptext = (planted or planted_words)(words)
     _, _, pkey = pipeline(pw, ex)
     pread = " ".join("".join(pkey.get(c, "?") for c in w) for w in pw)
     pcov = coverage(pread.replace(" ", "").replace("?", "").upper(), "fr")
