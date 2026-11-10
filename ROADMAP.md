@@ -100,7 +100,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 64 | Ricky McCormick, four letter-frequency models fixed in advance (plain, vowel-dropped, word initials, any simple substitution of English): all rejected (p<=0.001). Vowels 25% of letters, almost all E; 38% of groups end in -SE against 1% of English words (descriptive): SE looks like an added marker | completed 2026-11-10 |
 | 65 | McCormick with -SE/-BE stripped: all four models still rejected (simple substitution closest, p=0.0045 against 0.0125); stems solved blind with word breaks do not beat shuffles or read (planted control 100%). Not a substitution of English | completed 2026-11-10 |
 | 66 | Table 2402 family: 10 letter-digit ads of 1879-1889 (47, 74, '2 Fev.'), transcribed; all 10 read at p<=5e-4 with 2402 first of 32 tables; no symbols missing. Six dotted number lists once grouped with them are another system. Review tier: 2402 leads C -> B | completed 2026-11-10 |
-| 67 | The dotted number lists (1875 J, 1877 OPQ, 1879, 1882 LINETTE, 1883 pella, 1889 AVRIL): documented numeric tables and blind solve with dash word breaks | pending |
+| 67 | Dotted number lists against 63 fixed numeric systems (11 documented tables, shifted and reversed alphabets) with a best-of-all null: OPQ 1877 reads under documented table 2308 ('Demain jeudi Miromesnil, deux heures et demi', p=0.0015); LINETTE fragments under 2307 not significant; two lists use numbers above 26; one too short | completed 2026-11-10 |
+| 68 | Refresh: rerun the review triage and the problem finder's duplicate checks; then choose the next family from the triage's tier C | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -393,6 +394,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 67
+- A reading found earlier by inferring blank table cells was found again with no inference under another writer's documented table; independent routes to the same text are good evidence.
 
 ## Added 2026-11-10: Round 66
 - A 'family' built from OCR can mix systems: six of the sixteen 2402 ads were dotted number lists. Look at the scans before testing the family as one.

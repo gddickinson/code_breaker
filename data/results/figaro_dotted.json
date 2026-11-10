@@ -1,0 +1,59 @@
+{
+ "id": "figaro_dotted",
+ "systems": 63,
+ "bar": 0.0125,
+ "rows": [
+  {
+   "image": "1877_18770412-OPQ.jpg",
+   "numbers": 33,
+   "too_short": false,
+   "system": "table 2308",
+   "coverage": 0.323,
+   "reading": "DEMAIN ?IUDI MIROMENIL DEU ?EUR ET DEMI",
+   "null_max": 0.387,
+   "p": 0.0014992503748125937,
+   "passes": true
+  },
+  {
+   "image": "1879_18790222.jpg",
+   "numbers": 13,
+   "too_short": false,
+   "system": "",
+   "coverage": -1.0,
+   "reading": "",
+   "null_max": -1.0,
+   "p": 1.0,
+   "passes": false
+  },
+  {
+   "image": "1882_18821010-LINETTE.jpg",
+   "numbers": 25,
+   "too_short": false,
+   "system": "table 2307",
+   "coverage": 0.16,
+   "reading": "RIENBEWOILEPEURQBECFAGRIN",
+   "null_max": 0.4,
+   "p": 0.7666166916541729,
+   "passes": false
+  },
+  {
+   "image": "1883_18830427-pella.jpg",
+   "numbers": 12,
+   "too_short": false,
+   "system": "",
+   "coverage": -1.0,
+   "reading": "",
+   "null_max": -1.0,
+   "p": 1.0,
+   "passes": false
+  },
+  {
+   "image": "1889_18890510-AVRIL.jpg",
+   "numbers": 5,
+   "too_short": true
+  }
+ ],
+ "passed": [
+  "1877_18770412-OPQ.jpg"
+ ]
+}
