@@ -1,0 +1,368 @@
+{
+ "sign_test_1_is_b": {
+  "better": 11,
+  "worse": 1,
+  "p": 0.003173828125
+ },
+ "screened": 408,
+ "bar": 0.00012254901960784314,
+ "top": [
+  {
+   "image": "1886_18860128-I.jpg",
+   "text": "18 CRH 30RT6 FR GRP F0G DERH HMG MRH 062F",
+   "share": 0.719,
+   "reading": "BM NOW CLOSE TO YOU TLY KROW WHY HOW LEFT",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840117-T.jpg",
+   "text": "FHR HRE4 25A T7F 173D 162 6C4 SREFM 74 8G ORJ6",
+   "share": 0.639,
+   "reading": "TWO WORD FIG SAT BACK BEF END QORTH AD MY LOVE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18861219-T.jpg",
+   "text": "J5 OPED SPTEF FR 25J6 SP6 O6FF SY 275F 156C 74",
+   "share": 0.639,
+   "reading": "VI LURK QUSRT TO FIVE QUE LETT Q. FAIT BIEN AD",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18831127-A.jpg",
+   "text": "SETTEE 63E 85C4 B56A6 M6 H7CFT B6RB06 ERP OMICAB 1637PT6 TH7G TR M7BBG 20 7586 B7TTS",
+   "share": 0.638,
+   "reading": "QRSSRR ECR MIND PIEGE HE WANTS PEOPLE ROU LHUNGP BECAUSE SWAY SO HAPPY FL AIME PASSQ",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840125-I.jpg",
+   "text": "M7J6 HE TFTEF 468 ORJ6 GRP 8G H526 2RE 6J",
+   "share": 0.625,
+   "reading": "HAVE WR STSRT DEM LOVE YOU MY WIFE FOR EV",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840115-S.jpg",
+   "text": "25A B7T E6A 6CE7A B7T 27PF6 174 B0 6C B0 268 3M",
+   "share": 0.611,
+   "reading": "FIG PAS REG ENRAG PAS FAUTE BAD PL EN PL FEM CH",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840227-E.jpg",
+   "text": "36 TRDE TP 170 CT6 8RD 87 26886 N6 7586 BTTT",
+   "share": 0.588,
+   "reading": "CE SOKR SU BAL NSE MOK MA FEMME JE AIME PSSS",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860130-L.jpg",
+   "text": "173D 46A5C C6LF H66D TT RI0 4506 06 TPC4 OR",
+   "share": 0.588,
+   "reading": "BACK DEGIN NEAT WEEK SS OUL DILE LE SUND LO",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1882_18821209-42.jpg",
+   "text": "8635 874786 JRFE6 O6FFE6 CRF ORCA GCRPAM 6PL T7JR5E 85EPF36 SP6 275T A7VE46 8RC 3R6PE FRPF 6CF5 N6 F74RE6",
+   "share": 0.586,
+   "reading": "MECI MADAME VOTRE LETTRE NOT LONG YNOUGH EUA SAVOIR MIRUTCE QUE FAIS GA.RDE MON COEUR TOUT ENTI JE TADORE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850609-O.jpg",
+   "text": "468 LE6F BIT JP 88 SDC 6C FRPF FRO T6P06",
+   "share": 0.581,
+   "reading": "DEM ARET PUS VU MM QKN EN TOUT TOL SEULE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18861218-E.jpg",
+   "text": "J6EE RP SP7C4 JRPIE DIREC RP EP6 87 268 TH",
+   "share": 0.576,
+   "reading": "VERR OU QUAND VOUUR KUORN OU RUE MA FEM SW",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18851201-S.jpg",
+   "text": "HE 86 RE GRPE B7B6E AREF BOTG ORJ6 GRP 2RC40",
+   "share": 0.571,
+   "reading": "WR ME OR YOUR PAPER GORT PLSY LOVE YOU FONDL",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850209-M.jpg",
+   "text": "06FF 4758G 87D6 86 TR A074 C4 DERH J56",
+   "share": 0.567,
+   "reading": "LETT DAIMY MAKE ME SO GLAD ND KROW VIE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18861217-G.jpg",
+   "text": "86E3 854 B7T SRF 46 FR5 T75T FP SP6 86PET 47CA 87CS FP 2R5 NPO N6 TRP FIEF SE ED6C SP6 46 8RD",
+   "share": 0.563,
+   "reading": "MERC MID PAS QOT DE TOI SAIS TU QUE MEURS DANG MANQ TU FOI JUL JE SOU TURT QR RKEN QUE DE MOK",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860108-I.jpg",
+   "text": "FRPI0 B7T 87 268 FRPF C6 86TF SP6 46 8RDF56",
+   "share": 0.559,
+   "reading": "TOUUL PAS MA FEM TOUT NE MEST QUE DE MOKTIE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850616-L.jpg",
+   "text": "R04 S5AMF 4R AE67F M7E8 T6C4 27FM TEE H5FM NPO 173D 6C4 H66D TIP22 71T 3R8 FR5 17586 786",
+   "share": 0.557,
+   "reading": "OLD QIGHT DO GREAT HARM SEND FATH SRR WITH JUL BACK END WEEK SUUFF ABS COM TOI BAIME AME",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840116-T.jpg",
+   "text": "A6NT A7F6T TREF 786 6C B6DC6 TTCT O6FF O6PE 268",
+   "share": 0.553,
+   "reading": "GEJS GATES SORT AME EN PEKNE SSNS LETT LEUR FEM",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830607-8.jpg",
+   "text": "8RFM 3786 RCO M56E M7E402173D 162 N6P45 SOTT ERP TR BRPEE75T FP B7T J6C 458 681E7TT6 MB05RF AOT4 CRI6T 3M504 H7CF HEDF6 GRP MRHFRE 87ED F7586",
+   "share": 0.552,
+   "reading": "MOTH CAME ONL HIER HARDLFBACK BEF JEUDI QLSS ROU SO POURRAIS TU PAS VEN DIM EMBRASSE HPLIOT GLSD NOUES CHILD WANT WRKTE ",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1882_18821217-PAUL.jpg",
+   "text": "UPAAREER ERF RB6C RE6 3R86 FME66 87 E6FPEC LEOG 8RC47G 8RECDCA J6PL 373M6E E6FRPE H7CF ERP TR CP3M ORJ5CA H526 HEOF6T MPTIVED 47DOG",
+   "share": 0.532,
+   "reading": ".UGGORRO ROT OPEN ORE COME THREE MA RETURN ARLY MONDAY MORNKNG VEUA CACHER RETOUR WANT ROU SO NUCH LOVING WIFE WRLTES HU",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860408-U.jpg",
+   "text": "173D TIF 3M70 TRET TROE TO 3E7 JP6 OPED TRD",
+   "share": 0.529,
+   "reading": "BACK SUT CHAL SORS SOLR SL CRA VUE LURK SOK",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860122-S.jpg",
+   "text": "C6 CE B7T 268 6T FRP BE6T CT BEBT RP ORAC",
+   "share": 0.516,
+   "reading": "NE NR PAS FEM ES TOU PRES NS PRPS OU LOGN",
+   "p": 0.0004999750012499375,
+   "passes": false
+  },
+  {
+   "image": "1886_18860110-N.jpg",
+   "text": "IRC 175T6E 87F5C 87 BE68 B6CT 6CJ 20 06RE",
+   "share": 0.515,
+   "reading": "UON BAISER MATIN MA PREM PENS ENV FL LEOR",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830605-7.jpg",
+   "text": "TP5T T5 87PJ MP8 6TB6E75T F7CF FP JRDT EDJ7PL EON 06 J5F6 CT T6E5RCT 15 MB6PE6PL FRE STE",
+   "share": 0.507,
+   "reading": "SUIS SI MAUV HUM ESPERAIS TANT TU VOKS RKVAUA RLJ LE VITE NS SERIONS BI HPEUREUA TOR QSR",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840228-L.jpg",
+   "text": "LL 6TB 78PT66 170 A6CF50 863E 4750 FP 7T FRPF 78",
+   "share": 0.5,
+   "reading": "AA ESP AMUSEE BAL GENTIL MECR DAIL TU AS TOUT AM",
+   "p": 9.99950002499875e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860610-O.jpg",
+   "text": "8R ARE 52 1730 SRCK BR GRP 3186 6J6C 7586",
+   "share": 0.5,
+   "reading": "MO GOR IF BACL QON. PO YOU CBME EVEN AIME",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830222-42.jpg",
+   "text": "HRED 4750 FHR MRPET 30RT6 BREFE FEE 87D6 M58 067J6 M6E FRPF 6C 3RETF TEF BRTDFSRE BRPE ATE46E TJIEFTA6 87T 63M67EF H526 2RE 6J6E T4RE6 GRP",
+   "share": 0.496,
+   "reading": "WORK DAIL TWO HOURS CLOSE PORTR TRR MAKE HIM LEAVE HER TOUT EN CORST SRT POSKTQOR POUR GSRDER SVURTSGE MAS ECHEART WIFE ",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830227-42.jpg",
+   "text": "SI TIPTI TRP22C6 TT6C37 STD 16F 6E E6J6CBE J6C4E6 FHR GRP 3R85CA FME66 463546 BIT JP SSFOS BT 72Z7SEB6T 36E306 J7T N6TCE6 7586 TARE7LD",
+   "share": 0.486,
+   "reading": "QU SUUSU SOUFFNE SSENCA QSK BET ER REVENPR VENDRE TWO YOU COMING THREE DECIDE PUS VU QQTLQ PS AF.AQRPES CERCLE VAS JESNR",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860410-S.jpg",
+   "text": "3E 6FE BEBDT OPC4 J5 87E4 E6J T78 RP 458 ORJ6",
+   "share": 0.486,
+   "reading": "CR ETR PRPKS LUND VI MARD REV SAM OU DIM LOVE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1882_18820309-7.jpg",
+   "text": "GBT JOH HIFM ERP 89 467E ORJ64 H52685TT GRP TR 8P3M 89 2ORHBET ERF 27464 D5TT64 SREJ 7C4 CBA",
+   "share": 0.473,
+   "reading": "YPS VLW WUTH ROU MO DEAR LOVED WIFEMISS YOU SO MUCH MO FLOWPRS ROT FADED KISSED QORV AND NPG",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850621-E.jpg",
+   "text": "473D 850 H66D BRPE J6C J6C4E 87F RP THE 854",
+   "share": 0.471,
+   "reading": "DACK MIL WEEK POUR VEN VENDR MAT OU SWR MID",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840119-U.jpg",
+   "text": "W58BE HE ORJ6700 T786 SHE 4750G B73D LF",
+   "share": 0.469,
+   "reading": ".IMPR WR LOVEALL SAME QWR DAILY PACK AT",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1882_18820617-PAUL.jpg",
+   "text": "LGEETY 173D 468 606J6C SE75 458 3M706F 3R86 8RCE47G RC6 87DTRE ORCA T2F6E GRP 8G 467E6TF 4526",
+   "share": 0.468,
+   "reading": "AYRRS. BACK DEM ELEVEN QRAI DIM CHALET COME MONRDAY ONE MAKSOR LONG SFTER YOU MY DEAREST DIFE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "text": "RE BOCT6 FRO TICT 36TT6 BPBTSPS 815 50 87 J56 86 87CSP6 TR M7BBG OGIT6E 173D FP 6T 87 26886 T4RE66 TS 6CCEPG6 B7EFDSE SP6 RPIOD6 TRPM7T5 6E 26",
+   "share": 0.465,
+   "reading": "OR PLNSE TOL SUNS CESSE PUPSQUQ MBI IL MA VIE ME MANQUE SO HAPPY LYUSER BACK TU ES MA FEMME SDOREE SQ ENNRUYE PARTKQR QU",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840224-0.jpg",
+   "text": "63E BOPT EE M715 36E30 8645F6EE7C66 TTD 2ORH O6RE 8RPI056 B7T 170 ORCA 2RE O6FF6E ORJ6 GRP",
+   "share": 0.459,
+   "reading": "ECR PLUS RR HABI CERCL MEDITERRANEE SSK FLOW LEOR MOUULIE PAS BAL LONG FOR LETTER LOVE YOU",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840323b-E.jpg",
+   "text": "FM 173D 468 5470 BERI710 2RPE ORJ6 GRP 4OTE0G",
+   "share": 0.459,
+   "reading": "TH BACK DEM IDAL PROUABL FOUR LOVE YOU DLSRLY",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860202-E.jpg",
+   "text": "HE 17 64 RE FM JD 275E TRO06F J6C4 S7F RP THE 854",
+   "share": 0.459,
+   "reading": "WR BA ED OR TH VK FAIR SOLLET VEND QAT OU SWR MID",
+   "p": 0.0004999750012499375,
+   "passes": false
+  },
+  {
+   "image": "1882_18820610-PAUL.jpg",
+   "text": "PAUL 156C B6CT6 FRD 6T 87 J56 SERDT 83 5E ORJ",
+   "share": 0.457,
+   "reading": "UG.A BIEN PENSE TOK ES MA VIE QROKS MC IR LOV",
+   "p": 0.000199990000499975,
+   "passes": false
+  },
+  {
+   "image": "1884_18840304-H.jpg",
+   "text": "I6E B7E T78 87F 74 87 2688 156 75866 BRE TCAB",
+   "share": 0.457,
+   "reading": "UER PAR SAM MAT AD MA FEMM BIE AIMEE POR SNGP",
+   "p": 0.000999950002499875,
+   "passes": false
+  },
+  {
+   "image": "1885_18850504-M.jpg",
+   "text": "45E75 408 NRPE E6F 86CC 46 FR5 87E4 RP 86E8E",
+   "share": 0.457,
+   "reading": "DIRAI DLM JOUR RET MENN DE TOI MARD OU MERMR",
+   "p": 9.99950002499875e-05,
+   "passes": true
+  },
+  {
+   "image": "1887_18870108-4.jpg",
+   "text": "SRE 74 6CJ 87 BE68 B6CT 4P 87F 87 50 06167P",
+   "share": 0.455,
+   "reading": "QOR AD ENV MA PREM PENS DU MAT MA IL LEBEAU",
+   "p": 0.00034998250087495624,
+   "passes": false
+  }
+ ],
+ "passed": [
+  "1886_18860128-I.jpg",
+  "1884_18840117-T.jpg",
+  "1886_18861219-T.jpg",
+  "1883_18831127-A.jpg",
+  "1884_18840125-I.jpg",
+  "1884_18840115-S.jpg",
+  "1884_18840227-E.jpg",
+  "1886_18860130-L.jpg",
+  "1882_18821209-42.jpg",
+  "1885_18850609-O.jpg",
+  "1886_18861218-E.jpg",
+  "1885_18851201-S.jpg",
+  "1885_18850209-M.jpg",
+  "1886_18861217-G.jpg",
+  "1886_18860108-I.jpg",
+  "1885_18850616-L.jpg",
+  "1884_18840116-T.jpg",
+  "1883_18830607-8.jpg",
+  "1882_18821217-PAUL.jpg",
+  "1886_18860408-U.jpg",
+  "1886_18860110-N.jpg",
+  "1883_18830605-7.jpg",
+  "1884_18840228-L.jpg",
+  "1886_18860610-O.jpg",
+  "1883_18830222-42.jpg",
+  "1883_18830227-42.jpg",
+  "1886_18860410-S.jpg",
+  "1882_18820309-7.jpg",
+  "1885_18850621-E.jpg",
+  "1884_18840119-U.jpg",
+  "1882_18820617-PAUL.jpg",
+  "1883_18830217-42.jpg",
+  "1884_18840224-0.jpg",
+  "1884_18840323b-E.jpg",
+  "1885_18850504-M.jpg"
+ ]
+}

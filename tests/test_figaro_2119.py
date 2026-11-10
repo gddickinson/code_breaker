@@ -48,3 +48,17 @@ def test_extended_readings_and_timeline():
 def test_fit_missing_picks_the_letter_that_makes_words():
     key = {"A": "L", "B": "O", "C": "E"}
     assert T.fit_missing(key, ["ABVC"], {"V": list("QVXZ")})["V"] == "V"  # only LOVE is a word
+
+
+def test_symbol_one_is_b():
+    assert T.full_key()["1"] == "B"
+    st = T.sign_test_b()
+    assert st["better"] >= 10 and st["worse"] <= 2 and st["p"] < 0.01
+
+
+def test_rescreen_spot_checks_read_with_full_key():
+    d = json.loads(T.FAMILY.read_text())["checked_rescreen"]
+    k = T.full_key()
+    assert "DEAR LOVED WIFE MISS YOU SO MUCH" in " ".join(T.decode(d["1882_18820309-7.jpg"], k))
+    assert " ".join(T.decode(d["1882_18821209-42.jpg"], k)).startswith("MERCI MADAME")
+    assert not set(d) & set(T.texts())  # spot checks are kept out of the fit

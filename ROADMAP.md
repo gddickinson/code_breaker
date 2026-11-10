@@ -82,7 +82,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 46 | Date windows, one key each: table 2217 finds exactly the five known Berthe ads among 69 (next p=0.015); the V. T. A. key only the Dec 1878 ad among 62 from OCR. Top letter-digit ads are book codes (1891, 1894) and a letter-digit family of 1882-87 across seven signatures; its pooled blind solve beats shuffles but does not read (likely a nomenclator) | completed 2026-11-10 |
 | 47 | The letter-digit family is the table 2119 correspondence (writer 42, bilingual): 7 of 8 transcribed ads pass (2119 first of 32 tables, p<=0.0045), 5 new members back to Mar 1882. OCR screen of 422 letter-digit ads under 2119: 27 pass Bonferroni, 25 without leads, 4 checked by eye (J 1883 'So sorry not seen you ... t'aime tant ma femme', N 1884 'No my dear wife, I don't forget you', 42 Dec 1881, 8 1887) | completed 2026-11-10 |
 | 48 | All 21 remaining 2119 screen hits transcribed and read by eye (each p<=5e-4). Seven missing symbols inferred (P=U, H=W, A=G, O=L, D=K, Q=B, L=A): held-out gain 18.5% against at most 12.4% for random letters (p=0.005). Timeline of 47 ads, Dec 1881 to Jan 1887 | completed 2026-11-10 |
-| 49 | Table 2119: X read where B is meant (XACK, XESOIN); check the parsed cell, then screen remaining OCR ads under the corrected, extended key | pending |
+| 49 | Table 2119: the source table gives x for symbol 1; B reads better in 11 of 12 ads (sign test p=0.003). Rescreen of 408 OCR ads under the full key: 35 pass Bonferroni, 33 without leads; 4 checked by eye (42 9 Dec 1882 'Merci madame C. L., votre lettre not long enough ... je t'adore'; 7 9 Mar 1882 '... my dear loved wife, miss you so much') | completed 2026-11-10 |
+| 50 | Transcribe and check the 29 Round 49 machine readings; full 2119 timeline with names, places and dates | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -359,4 +360,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 48
 - Missing symbols in a documented key can be inferred fairly with the same held-out design as before: fit on the other ads, measure on the held-out one, and compare with the same fit restricted to random letters.
 - Systematic oddities in the readings (X for B) point to errors in the parsed key, not in the ads.
+
+## Added 2026-11-10: Round 49
+- For a single-symbol correction, a per-ad sign test (does the alternative read better or worse in each ad?) is sharper than a random-letter control, which includes the right letter by chance about one time in nine.
+- Keep spot-check transcriptions out of the data used to fit a key, so later fits stay honest.
 

@@ -49,11 +49,20 @@ def judge(text: str, key: dict, tables: list[dict], seed: int) -> dict:
             "best_other_table": round(others[0], 3), "rank": 1 + sum(o > real for o in others)}
 
 
-def screen(members: set) -> list[dict]:
+CORRECTIONS = {"1": "B"}  # Round 49: the database's table gives x; B reads better in 11 of 12 ads (sign test p=0.003)
+
+
+def full_key() -> dict:
+    """Documented table, R=O (Round 26), the seven inferred symbols (Round 48) and the Round 49 correction."""
+    r = json.loads(RESULT.read_text()) if RESULT.exists() else {}
+    return {**key2119(), **r.get("missing", {}).get("fitted_all", {}), **CORRECTIONS}
+
+
+def screen(members: set, key: dict | None = None) -> list[dict]:
     """Every other unsolved letter-digit ad, from OCR, under table 2119 (to choose what to transcribe)."""
     ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
     raw = json.loads((OUT / "ocr_raw.json").read_text())
-    key, out = key2119(), []
+    key, out = key or key2119(), []
     for n, e in raw.items():
         a = ads.get(n)
         if a is None or a["solved"] in (True, "True") or n in members:
@@ -92,11 +101,13 @@ def fit_missing(key: dict, ts: list[str], choices: dict) -> dict:
     return {s: k[s] for s in choices}
 
 
-def held_out_missing(draws: int = 30, seed: int = 48) -> dict:
+def held_out_missing(draws: int = 30, seed: int = 48, symbols=None, base=None) -> dict:
     """Each ad in turn: fit the missing symbols on the others, measure the gain on it. Control: the same fit when each
     symbol may only take one of three random letters (so a gain from mere freedom is measured)."""
-    key, ts = key2119(), texts()
-    miss = missing_symbols(key, ts)
+    key, ts = dict(base or key2119()), texts()
+    miss = symbols or missing_symbols(key, ts)
+    for s in miss:
+        key.pop(s, None)
     full = {s: list(LETTERS) for s in miss}
     gain = 0.0
     for name, t in ts.items():
@@ -125,6 +136,27 @@ def timeline(known_rows: list[dict], readings: dict, members: list[str]) -> list
     return sorted(out.values(), key=lambda e: e["image"][5:13])
 
 
+def sign_test_b() -> dict:
+    from math import comb
+
+    ext, better, worse = {**key2119(), **json.loads(RESULT.read_text())["missing"]["fitted_all"]}, 0, 0
+    for t in texts().values():
+        if "1" in t:
+            b, x = share(t, {**ext, "1": "B"}), share(t, {**ext, "1": "X"})
+            better, worse = better + (b > x), worse + (b < x)
+    k = better + worse
+    return {"better": better, "worse": worse, "p": sum(comb(k, i) for i in range(better, k + 1)) / 2 ** k}
+
+
+def rescreen() -> dict:
+    """Round 49: every OCR letter-digit ad not yet in the correspondence, under the full key."""
+    r = json.loads(RESULT.read_text())
+    members = {e["image"] for e in r["timeline"]} | set(r["checked"])
+    scr, bar = screen(members, full_key())
+    return {"sign_test_1_is_b": sign_test_b(), "screened": round(0.05 / bar), "bar": bar, "top": scr[:TOP],
+            "passed": [x["image"] for x in scr[:TOP] if x.get("passes")]}
+
+
 def run() -> dict:
     fam = json.loads(FAMILY.read_text())["ads"]
     key, tables = key2119(), digit_tables()
@@ -145,7 +177,13 @@ def run() -> dict:
             "screen": scr[:TOP], "screened": n_screen, "screen_bar": sbar, "screen_passed": [r["image"] for r in scr[:TOP] if r.get("passes")]}
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and len(__import__("sys").argv) > 1 and __import__("sys").argv[1] == "rescreen":
+    res = rescreen()
+    (ROOT / "data/results/figaro_2119_rescreen.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
+    print(res["sign_test_1_is_b"], res["screened"], len(res["passed"]))
+    for x in res["top"]:
+        print(" ", x["image"], x["share"], x["p"], x["passes"], x["reading"][:90])
+elif __name__ == "__main__":
     res = run()
     RESULT.write_text(json.dumps(res, ensure_ascii=False, indent=1))
     for r in res["rows"]:

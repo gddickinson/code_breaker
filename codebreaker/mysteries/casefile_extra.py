@@ -157,6 +157,19 @@ def _vta():
         "table": _t(["Date", "Enciphered words, decoded"], rows)}]
 
 
+def _rescreen_2119():
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_2119_rescreen.json"
+    if not path.exists():
+        return ""
+    r = json.loads(path.read_text())
+    st = r["sign_test_1_is_b"]
+    return (f"The database's table gives x for the symbol 1, but B reads better in {st['better']} of {st['better'] + st['worse']} ads where it matters (sign test p = {st['p']:.3f}: back, besoin, possible, oublier). "
+            f"With that correction and the inferred symbols, a further screen of {r['screened']} OCR ads finds {len(r['passed'])} more at a Bonferroni level. Four were checked by eye, among them 9 December 1882 (signed 42): 'Merci madame C. L., votre lettre not long enough ... Te garde mon coeur tout entier, je t'adore'. The others are machine readings still to be checked.")
+
+
 def _t2119():
     """Round 47: the table 2119 correspondence, extended."""
     import json
@@ -170,7 +183,7 @@ def _t2119():
     return [{"heading": "The table 2119 correspondence, extended (candidates)", "paragraphs": [
         "A family of letter-digit ads signed 7, 5, H, R, P, M and 2 (1882 to 1887) shares whole tokens such as fr5, grp and 26886. It is the correspondence already read under table 2119, documented for writer 42: its cells hold syllables and words as well as letters, which is why a letter substitution solve failed. The writer moves between English and French ('see my dear face again, cannot live more sans toi, ma femme adoree').",
         f"Transcribed from the scans, these ads read under table 2119 far better than shuffled copies, and table 2119 ranks first of all 32 digit tables for each. An OCR screen of {r['screened']} letter-digit ads under the same key finds {len(r['screen_passed'])} more at a Bonferroni level, back to December 1881 (signed 42); all were then transcribed from the scans and read by eye ('So sorry not seen you ... t'aime tant ma femme', 'No my dear wife, I don't forget you', 'So annoyed now we are going to be spied sharply ... try to know who it is'). Novelty unconfirmed.",
-        f"Seven symbols missing from the documented table were inferred ({', '.join(f'{k}={v}' for k, v in r['missing']['fitted_all'].items())}): fitted on the other ads, they raise each held-out ad's word share by {r['missing']['held_out_gain']:.1%} on average, against at most {r['missing']['random_gain_max']:.1%} for the same fit restricted to random letters (p = {r['missing']['p']:.3f}). The correspondence now has {len(r['timeline'])} ads, from December 1881 to January 1887."],
+        f"Seven symbols missing from the documented table were inferred ({', '.join(f'{k}={v}' for k, v in r['missing']['fitted_all'].items())}): fitted on the other ads, they raise each held-out ad's word share by {r['missing']['held_out_gain']:.1%} on average, against at most {r['missing']['random_gain_max']:.1%} for the same fit restricted to random letters (p = {r['missing']['p']:.3f}). The correspondence now has {len(r['timeline'])} ads, from December 1881 to January 1887.", _rescreen_2119()],
         "table": _t(["Date", "Signed", "Reading (extended key)"], [[e["date"], e["signature"] or "-", r["readings_extended"].get(e["image"], e["reading"])[:110]] for e in r["timeline"]])}]
 
 
