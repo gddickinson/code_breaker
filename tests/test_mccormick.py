@@ -19,3 +19,14 @@ def test_recorded_result():
     r = json.loads(M.RESULT.read_text())
     assert r["letters"] > 700 and r["not_rejected"] == []
     assert r["endings"]["se_share"] > 10 * r["endings"]["se_share_english"]
+
+
+def test_stripped_markers_and_stems():
+    full, stripped = M.mccormick_letters(), M.mccormick_letters(strip_markers=True)
+    assert len(stripped) < len(full) and stripped.count("e") < full.count("e")
+    r = json.loads(M.RESULT.read_text())
+    assert r["stripped"]["not_rejected"] == []
+    from codebreaker.mysteries import wordbreak_en as W
+
+    s = json.loads(W.RESULT.read_text())["mccormick_stems"]
+    assert s["gates"]["control"] and not s["gates"]["passed"]

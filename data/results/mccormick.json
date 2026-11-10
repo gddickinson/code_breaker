@@ -109,5 +109,86 @@
   "se_share": 0.385,
   "se_share_english": 0.011
  },
- "not_rejected": []
+ "not_rejected": [],
+ "stripped": {
+  "letters": 632,
+  "vowel_share": 0.199,
+  "top": [
+   [
+    "n",
+    90
+   ],
+   [
+    "e",
+    75
+   ],
+   [
+    "r",
+    64
+   ],
+   [
+    "s",
+    57
+   ],
+   [
+    "c",
+    48
+   ],
+   [
+    "l",
+    48
+   ],
+   [
+    "t",
+    42
+   ],
+   [
+    "p",
+    29
+   ],
+   [
+    "m",
+    28
+   ],
+   [
+    "d",
+    26
+   ]
+  ],
+  "models": {
+   "plain": {
+    "kl": 0.3064,
+    "null_mean": 0.0234,
+    "null_max": 0.2442,
+    "p": 0.0005,
+    "rejected": true,
+    "vowel_share_model": 0.379
+   },
+   "vowel_dropped": {
+    "kl": 0.4492,
+    "null_mean": 0.0265,
+    "null_max": 0.2592,
+    "p": 0.0005,
+    "rejected": true,
+    "vowel_share_model": 0.092
+   },
+   "initials": {
+    "kl": 0.6628,
+    "null_mean": 0.0405,
+    "null_max": 0.3731,
+    "p": 0.0005,
+    "rejected": true,
+    "vowel_share_model": 0.274
+   },
+   "substitution": {
+    "kl": 0.0242,
+    "null_mean": 0.0095,
+    "null_max": 0.0501,
+    "p": 0.0045,
+    "rejected": true,
+    "vowel_share_model": 0.379
+   }
+  },
+  "not_rejected": []
+ }
 }

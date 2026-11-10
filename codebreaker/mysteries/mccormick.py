@@ -17,9 +17,13 @@ SRC = ROOT / "data/sources/unsolved"
 A = "abcdefghijklmnopqrstuvwxyz"
 
 
-def mccormick_letters() -> str:
+def mccormick_letters(strip_markers: bool = False) -> str:
+    """All letters of pages 1-2; with strip_markers (Round 65), a final -se or -be is removed from each group of 3+."""
     t = "".join((SRC / f"Ricky McCormick page {i}.txt").read_text(errors="ignore") for i in (1, 2)).lower()
-    return "".join(c for c in t if c in A)
+    if not strip_markers:
+        return "".join(c for c in t if c in A)
+    groups = re.split(r"[^a-z]+", t)
+    return "".join(g[:-2] if len(g) >= 3 and g[-2:] in ("se", "be") else g for g in groups)
 
 
 def corpus_words() -> list[str]:
@@ -52,8 +56,8 @@ def stat(sample: str, model: list[float], sorted_profile: bool) -> float:
     return kl(p, model)
 
 
-def run(trials: int = 2000, seed: int = 64) -> dict:
-    text = mccormick_letters()
+def run(trials: int = 2000, seed: int = 64, strip_markers: bool = False) -> dict:
+    text = mccormick_letters(strip_markers)
     words = corpus_words()
     rnd, out = random.Random(seed), {}
     for name in ("plain", "vowel_dropped", "initials", "substitution"):
@@ -80,7 +84,12 @@ def run(trials: int = 2000, seed: int = 64) -> dict:
 
 if __name__ == "__main__":
     res = run()
+    res["stripped"] = {k: v for k, v in run(seed=65, strip_markers=True).items() if k in ("letters", "vowel_share", "top", "models", "not_rejected")}
     RESULT.write_text(json.dumps(res, indent=1))
+    print("stripped", res["stripped"]["letters"], res["stripped"]["vowel_share"], res["stripped"]["top"])
+    for k, v in res["stripped"]["models"].items():
+        print("  stripped", k, v)
+    print("  stripped not rejected:", res["stripped"]["not_rejected"])
     print(res["letters"], res["vowel_share"], res["top"])
     for k, v in res["models"].items():
         print(" ", k, v)

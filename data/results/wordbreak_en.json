@@ -94,5 +94,28 @@
    "reading": "ewiws sartin i matiisseh eisses hdanhasain meteode wessw tieaorliamn idea sstenmn aawiti aslarmnals etiwessewe mates iniedealotinwe owe srdeasn mewatdene loedoshosmn owed edwea honant astedeantos whionewoson eesheti meiseaina mastloidinwon idese nerteo sloatteehasaii front hah asiestastiedlensew thellfa ass saahass ash assaa a hhs asa h ssasaa asahasaa assa asha sa ssasaahas ah aaasa ha ssaha ssas"
   }
  ],
- "passed": []
+ "passed": [],
+ "mccormick_stems": {
+  "text": "McCormick stems",
+  "words": 120,
+  "plain_words_set_aside": 0,
+  "symbols": 24,
+  "blind_share": 0.139,
+  "refined_share": 0.182,
+  "null_refined": [
+   0.161,
+   0.25,
+   0.155
+  ],
+  "planted_accuracy": 1.0,
+  "planted_coverage": 0.724,
+  "coverage": 0.068,
+  "gates": {
+   "control": true,
+   "null": false,
+   "reads": false,
+   "passed": false
+  },
+  "reading": "ardawreat r hso wrote oeha itreri rherishetsssrherithemrs it rat oiteindwndrs signs ssgn rs on itiims gneiime rs aeshemrsdtsstrheit and tssstr rs hhrersg sthne snst and rs onasi rsseshaenthetnhewtonhreohrandrs roii rnhte rs rseoddarherswtetsstre sere sitre rsstshers mrs int if orde rs sdr if orhde rs its it ortede rs si rssahihoneatdenw sose andr andrs and h rs stign onirse on he tse en as ss a it"
+ }
 }

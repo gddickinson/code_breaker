@@ -28,7 +28,13 @@ def vocab() -> frozenset:
 
 
 def words_of(name: str) -> tuple[list[list[str]], list[str]]:
-    """Enciphered words as symbol lists, and the plain English words set aside."""
+    """Enciphered words as symbol lists, and the plain English words set aside. 'McCormick stems' (Round 65) are the
+    groups of both pages with a final -se or -be removed."""
+    if name == "McCormick stems":
+        raw = " ".join((SRC / TEXTS[f"Ricky McCormick page {i}"]).read_text(errors="ignore").lower() for i in (1, 2))
+        groups = [g for g in re.split(r"[^a-z]+", raw) if g]
+        stems = [g[:-2] if len(g) >= 3 and g[-2:] in ("se", "be") else g for g in groups]
+        return [list(g) for g in stems if g], []
     raw = (SRC / TEXTS[name]).read_text(errors="ignore").lower()
     toks = [t for t in re.split(r"[\s\-()\[\]*.,;:'\"!]+", raw) if t]
     v = vocab()
@@ -122,13 +128,22 @@ def test(name: str, ex, shuffles: int = 3) -> dict:
             "planted_coverage": pcov, "coverage": cov, "gates": {**gates, "passed": all(gates.values())}, "reading": reading[:400]}
 
 
-def run() -> dict:
+def run(names=None) -> dict:
     with ProcessPoolExecutor(7) as ex:
-        rows = [test(n, ex) for n in TEXTS]
+        rows = [test(n, ex) for n in (names or list(TEXTS))]
     return {"id": "wordbreak_en", "rows": rows, "passed": [r["text"] for r in rows if r["gates"]["passed"]]}
 
 
 if __name__ == "__main__":
+    import sys
+
+    if len(sys.argv) > 1 and sys.argv[1] == "stems":
+        prev = json.loads(RESULT.read_text())
+        res = run(["McCormick stems"])
+        prev["mccormick_stems"] = res["rows"][0]
+        RESULT.write_text(json.dumps(prev, ensure_ascii=False, indent=1))
+        print(res["rows"][0])
+        raise SystemExit
     res = run()
     RESULT.write_text(json.dumps(res, ensure_ascii=False, indent=1))
     for r in res["rows"]:
