@@ -108,5 +108,27 @@
   "1885_18850625-E.jpg": "06t 2 2r5t b7e e54 87 3m6e56 mrh 5 85tt grp",
   "1886_18860531-E.jpg": "6cj b0p8 m5 7pe jrpo 6fe 7j co f74 87 268 3m6"
  },
- "note_residual": "Round 54: ads of signatures 7, D, 42 and E ranked highest under table 2119 among those not yet in the correspondence; kept apart from the fitting data. Round 58 added PAUL and E ads (enciphered words only; plain English words of 8 Jun and 12 Dec 1882 left out; uncertain glyphs of 30 Apr 1882 dropped)."
+ "note_residual": "Round 54: ads of signatures 7, D, 42 and E ranked highest under table 2119 among those not yet in the correspondence; kept apart from the fitting data. Round 58 added PAUL and E ads (enciphered words only; plain English words of 8 Jun and 12 Dec 1882 left out; uncertain glyphs of 30 Apr 1882 dropped).",
+ "checked_t42": {
+  "1884_18840226-T.jpg": "e63p 3b t5 a6cf5006 7ptt5 frpn b6ct66 87 3m6e56",
+  "1884_18840319-T.jpg": "e6f 2516 b7e fr5 j6pl fp r5t67pl f73m6 7ce 722",
+  "1884_18840501-T.jpg": "8rc 74re66 87 b6ct66 c6 f6 sp5ff6 b7t 86e3",
+  "1884_18840612-T.jpg": "e6j5 468 rck6 tr5e jrp4e b7t f6 e6j j6c4 fe65k6 7ee j6c t78 rp 856pl opc4 37pf6 2e64 786",
+  "1885_18850218-T.jpg": "fr 47g 681e 2 brefe 7p 056p 4pc b7t 6f6 170t",
+  "1885_18850531-T.jpg": "rp5 t6b7e fe 0rca 3rcf t7j 856pl f681e 7586",
+  "1885_18851203-T.jpg": "h7 b7b 2re 8r460 a6cf50 863e 4750g 87 268 741",
+  "1886_18860124-T.jpg": "7 156cf 875cf 87 3m6 f7586 7pff5 b0 sp6 3 2r5t",
+  "1886_18860328-T.jpg": "7ee b7e ferpj 06ff f681 6f f7586 frpf 3r6pe",
+  "1886_18860602-T.jpg": "86e3 crpj 785 3m70 j7 ap6e a6c 87 fo 74r f75",
+  "1886_18860613-T.jpg": "17 36 tr5e 3m70 8rc4 6j6c 1rpo f7ff 87e4 orj",
+  "1881_18811201-42.jpg": "h500 he5f6 46875c 09j6 19i 467e0g 3m75c f9in 71 39i 749e6 87 26886 3mbe56 89j 786 69f 7 595",
+  "1881_18811208-42.jpg": "xt5 n905 t06bf 206ie 173d t7f 3m7063 63e5e75 j 6c4e 25a t9 m7bbg 06ff 5 749e6 g9i he",
+  "1881_18811210-42.jpg": "fbc 85jift f9 9cb 875a96 q9es5e75 b7q ebjfcbe75 45cbe 4587c3mb t95e nb f749eb 87 26886",
+  "1882_18820203-42.jpg": "39886 n6 b756 19cm b7tt 3988b n6 qi5t tbio bf siboob ci5f nb f749cb 87 bbf5f6 2688b 3m6c5b",
+  "1882_18820204-42.jpg": "36ef75cog he5f6 m9ie h500 f6c 49 067j6 t5l 46875c 09j6 g9i 467eog",
+  "1882_18820307-42.jpg": "f63e5t 87f5c 46j7cf brefe75f b7e5t tr 2poo r2 fm66 t5c36 o7tf f586 f74re 2ro52 hg rhc 47eo5ja",
+  "1882_18821012-42.jpg": "173d 2e547g brst 8rc47g 7t r22536 t7fpe47g j 2rea6f orj6 grp 700 8g m67ef 8g h526 ber36t 1pe67p",
+  "1883_18830614-42.jpg": "c636tt dcrh hm7fm6 5t 71rpf 162m6 ar6t fr 7jr54 16 37pamf 7td 61bo7c 8r5 7ptt5 3r6pe 17f"
+ },
+ "note_t42": "Round 59: T (1884-86) and 42 (1881-83) ads from the Round 57 screen, enciphered words only. The 42 ads of Dec 1881 to Feb 1882 use 9 and i where later ads use r and p, and some print b where later ads have 6."
 }

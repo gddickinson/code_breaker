@@ -92,7 +92,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 56 | Word-aware refinement under a matched null (`figaro_wordrefine.py`): Jane 35% -> 56% whole words against at most 35% for shuffled copies through the same pipeline; refined planted control sets the bar at 39%, Jane reaches 41%: all three gates pass. B 41% -> 70% against at most 9% | completed 2026-11-10 |
 | 57 | 13 further word-break series from OCR through blind solve plus matched refinement: none reads (coverage at most 21% against bars of 47-52%); 7 beat the matched null (17, 38, 42, PAUL, E, T, 13), structure only. Short-word series inflate even when shuffled (up to 74% refined words) | completed 2026-11-10 |
 | 58 | Of the series that beat the matched null: 17 (1878) is a book code with page.word ranges; 38 (1881) a numbered codebook (~37,000 entries); PAUL and E are table 2119 ads hidden by OCR: 11 of 12 read at p<=5e-4 ('Our little girl ... how I love you'; 'Moth. says comes mardi ... must be back before end year'). Correspondence: 104 ads | completed 2026-11-10 |
-| 59 | Transcribe the T and 42 ads (likely 2119); test the 38 codebook for alphabetical order; tabulate the 1896 V jargon | pending |
+| 59 | 19 T and 42 ads transcribed: all table 2119; 16 pass at p<=5e-4, 3 in part ('Back Friday ... love you all my heart, my wife'; 'Necess. know what he is about before he goes, to avoid be caught'). Key history: Dec 1881-Feb 1882 use 9 and i (as documented) where later ads use r and p (as inferred). Correspondence: 123 ads | completed 2026-11-10 |
+| 60 | The 38 codebook (alphabetical order test); the 1896 V jargon code words by context | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -385,6 +386,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 59
+- A documented key can describe only the start of a correspondence: the database's table 2119 matches the 1881-82 ads, and the writer later changed two symbols. Inferred values that disagree with a documented table may be later usage, not errors.
 
 ## Added 2026-11-10: Round 58
 - Looking at the scans before modelling saves rounds: two of the 'structure' series were not substitutions at all (a book code and a numbered codebook), and two were the known 2119 system under poor OCR.

@@ -86,3 +86,12 @@ def test_paul_and_e_ads_read():
     k = T.full_key()
     assert " ".join(T.decode(d["1882_18820608-PAUL.jpg"], k)).startswith("OUR LITTLE GIRL")
     assert "MUST BE BACK BEFORE END YEAR" in " ".join(T.decode(d["1884_18841220-E.jpg"], k))
+
+
+def test_t_and_42_ads_and_key_history():
+    d = json.loads(T.FAMILY.read_text())["checked_t42"]
+    k = T.full_key()
+    assert "LOVE YOU ALL MY HEART MY WIFE" in " ".join(T.decode(d["1882_18821012-42.jpg"], k))
+    early, late = d["1882_18820204-42.jpg"], d["1882_18821012-42.jpg"]
+    assert "09j6 g9i" in early and "orj6 grp" in late  # 9 and i early, r and p later, both 'love you'
+    assert T.decode("09j6 g9i", k) == T.decode("orj6 grp", k)
