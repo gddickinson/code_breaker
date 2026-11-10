@@ -1,0 +1,38 @@
+{
+ "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown.",
+ "lc15_digits": {
+  "1879_18790809-LC15.jpg": "96709mo3go5iogiui6082do37ymmy72s370",
+  "1879_18790917-LC15.jpg": "2d2m996mym6h7537096mos7mg93pt6m",
+  "1879_18790924-LC15.jpg": "smg702m99mohtgot2mg95370s7mg93pt6m",
+  "1879_18791007-LC15.jpg": "6mhd2m996momqad70m0g378dmh676m5370s7mg6m5mgd8367093pt6ms37umdgm096709my",
+  "1879_18791015-LC15.jpg": "tgh2myt690d70012mh675mn5370s7mgys",
+  "1879_18791021-LC15.jpg": "ym6hhrm63pt6adstgr6m54y6m5mgy72s",
+  "1880_18800828-LC15.jpg": "96709m5io3p9iu5spmogi5y9mgs37",
+  "1880_18800905-LC15.jpg": "6mh2m9609msmg93p5sys6m5s7mg9836",
+  "1880_18800912-LC15.jpg": "mh67583686355mgp93p5sys6mh2m9",
+  "1880_18800919-LC15.jpg": "83692dgph637bg83omh693p5sys",
+  "1880_18800926-LC15.jpg": "6mh2m9gd2hr3oo8mgoa9t793p4t25sys",
+  "1880_18801003-LC15.jpg": "ym6h2m93y73pt66mg962dgp8365sys",
+  "1880_18801010-LC15.jpg": "6m58365ssy32ro5ioyss9mgp93p9iu",
+  "1880_18801019-LC15.jpg": "mghpl92tgbomy93p4i6mh2m995sys",
+  "1880_18801026-LC15.jpg": "3y3pt693997y839adut76mh2m95sys",
+  "1881_18810424-LC15.jpg": "9iuoi44hm8y7imo982dgppmot293pys"
+ },
+ "lc15_letters": {
+  "1881_18810816-LC15.jpg": "rianvmgitmrv4w3trtiuik;ao",
+  "1881_18810830-LC15.jpg": "tigik?etmrec2peivghwia;ac9vo",
+  "1881_18810918-LC15.jpg": "ontpn;zsq8eear9e25dw2?6ndtmeeivao",
+  "1881_18810928-LC15.jpg": "unpnz;tnzgitrianv?antdeivead4tao",
+  "1881_18811018-LC15.jpg": "w2o714t9b8eiv9otw4pasdde7btnte9vo",
+  "1882_18820702-LC15.jpg": "5uadliutdtync8wyremdwytwia6ivste3w3t"
+ },
+ "lrg": {
+  "1879_18790816-LRG.jpg": "041c80p723g687g636314v6c082j60655926b649c89pv423p431763b265160b743364v6c40897",
+  "1879_18790829-LRG.jpg": "p47317651647c1ch85p765d76b4253m67ch49ds87d76m6d6c25142m616mb74336165d76m651",
+  "1879_18790902-LRG.jpg": "7h9m6p47399606178236c72347c4ch85p8316",
+  "1879_18790915-LRG.jpg": "m67c2b85560611763b4253f851m40763164c4936g687g63m655926142m616mb74336m2006f823",
+  "1879_18790925-LRG.jpg": "176325992616p4376c9061176d6p92306b921176mb06193823m404d6v423b2656c72347c4ch85",
+  "1879_18791005-LRG.jpg": "76c90611763v42b2656c72p4723m200b42367",
+  "1880_18800705-LRG.jpg": "v4ch67ch67061176p831676314516"
+ }
+}
