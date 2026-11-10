@@ -122,3 +122,22 @@ def logic(body: LogicIn):
         ch, rate, truth = L.example(body.example or "uart", body.message[:64], max(0, min(body.glitches, 20)))
         return L.analyse(ch, rate, truth)
     return guarded(run)
+
+
+class LineIn(BaseModel):
+    example: str = ""
+    message: str = "Hello, wire"
+    errors: int = 0
+    bits: str = ""
+
+
+@router.post("/api/signals/linecode")
+def linecode(body: LineIn):
+    from ..signals import linecode_service as L
+
+    def run():
+        if body.bits:
+            return L.analyse(body.bits)
+        bits, truth = L.example(body.example or "8b10b", body.message[:120], max(0, min(body.errors, 20)))
+        return L.analyse(bits, truth)
+    return guarded(run)

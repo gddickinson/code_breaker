@@ -1,0 +1,295 @@
+{
+ "trials": 48,
+ "code_ok": 48,
+ "bytes_ok": 48,
+ "rows": [
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "Manchester",
+   "got": "Manchester",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "4B5B",
+   "got": "4B5B",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "8b/10b",
+   "got": "8b/10b",
+   "ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "TMDS",
+   "got": "TMDS",
+   "ok": true,
+   "bytes_ok": true
+  }
+ ]
+}
