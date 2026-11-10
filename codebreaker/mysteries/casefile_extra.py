@@ -157,6 +157,22 @@ def _vta():
         "table": _t(["Date", "Enciphered words, decoded"], rows)}]
 
 
+def _t2119():
+    """Round 47: the table 2119 correspondence, extended."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_2119.json"
+    if not path.exists():
+        return []
+    r = json.loads(path.read_text())
+    rows = [[x["image"][5:13], x["image"].split("-", 1)[1][:-4] if "-" in x["image"] else "-", f"{x['share']:.0%}", x["p"], x["reading"][:90]] for x in r["rows"] if x["passes"]]
+    return [{"heading": "The table 2119 correspondence, extended (candidates)", "paragraphs": [
+        "A family of letter-digit ads signed 7, 5, H, R, P, M and 2 (1882 to 1887) shares whole tokens such as fr5, grp and 26886. It is the correspondence already read under table 2119, documented for writer 42: its cells hold syllables and words as well as letters, which is why a letter substitution solve failed. The writer moves between English and French ('see my dear face again, cannot live more sans toi, ma femme adoree').",
+        f"Transcribed from the scans, these ads read under table 2119 far better than shuffled copies, and table 2119 ranks first of all 32 digit tables for each. An OCR screen of {r['screened']} letter-digit ads under the same key finds {len(r['screen_passed'])} more at a Bonferroni level, back to December 1881 (signed 42); four were checked by eye ('So sorry not seen you ... t'aime tant ma femme', 'No my dear wife, I don't forget you'), the rest are machine readings still to be checked. Novelty unconfirmed."],
+        "table": _t(["Date", "Signed", "Words", "Null p", "Reading"], rows)}]
+
+
 def _families():
     """Round 45: ads that read under one key, in date order."""
     import json
@@ -277,4 +293,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _t2119() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()

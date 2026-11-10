@@ -80,7 +80,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 44 | 60 tables on 391 unsolved letter ads, 20,000 best-of-all shuffles each: 23 pass Bonferroni, 34 the FDR; most already candidates; 9 new readings transcribed and read by eye (e.g. 57E 1896 'Imposs. acc. rupture ss. explic.', Fin 1888, SZTL 1896, unsigned 1881 under the ZZ table) plus the Valentin ad of Dec 1878, which reads in English with the V. T. A. key (p<0.0005) | completed 2026-11-10 |
 | 45 | V. T. A. key on 464 letter-digit ads from OCR: none passes Bonferroni (control: only 6 of 17 V. T. A. ads pass from OCR). Transcribed, three Valentin ads (Oct 1878 to Jan 1879) read with the 1877 key ('Deep in snow. Thanks for letter, will write to...'; 'Will send letter Wednesday'). Table 2217 reads five ads of Oct 1881 to Dec 1882 (unsigned, ZZ, 5) as one correspondence to 'ma Berthe cherie' | completed 2026-11-10 |
 | 46 | Date windows, one key each: table 2217 finds exactly the five known Berthe ads among 69 (next p=0.015); the V. T. A. key only the Dec 1878 ad among 62 from OCR. Top letter-digit ads are book codes (1891, 1894) and a letter-digit family of 1882-87 across seven signatures; its pooled blind solve beats shuffles but does not read (likely a nomenclator) | completed 2026-11-10 |
-| 47 | The 1882-87 letter-digit family as a nomenclator: repeated tokens against likely words and documented digit tables, held-out ads as the test | pending |
+| 47 | The letter-digit family is the table 2119 correspondence (writer 42, bilingual): 7 of 8 transcribed ads pass (2119 first of 32 tables, p<=0.0045), 5 new members back to Mar 1882. OCR screen of 422 letter-digit ads under 2119: 27 pass Bonferroni, 25 without leads, 4 checked by eye (J 1883 'So sorry not seen you ... t'aime tant ma femme', N 1884 'No my dear wife, I don't forget you', 42 Dec 1881, 8 1887) | completed 2026-11-10 |
+| 48 | Transcribe the 21 remaining 2119 screen hits and check by eye; infer the missing symbol (u/w) with a held-out check; rebuild the 2119 timeline | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -348,4 +349,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 46
 - Searching a date window with one key is cheap and decisive: it confirmed the five Berthe ads and showed there is no sixth among 69 neighbours.
 - A pooled blind solve that beats shuffles but reads as French-looking nonsense indicates repeated whole tokens, not a letter cipher; switch to codebook methods.
+
+## Added 2026-11-10: Round 47
+- Try the documented tables on a transcription before inventing a model: the 'codebook' was a documented table whose cells hold syllables and words.
+- A blind letter-substitution solve that beats shuffles but does not read can mean the key maps symbols to multi-letter units.
+- Once a key is known, a screen of OCR under that one key is powerful even where OCR is poor: 27 ads pass a Bonferroni bar over 422.
 

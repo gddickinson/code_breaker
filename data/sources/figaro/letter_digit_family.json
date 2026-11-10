@@ -10,5 +10,19 @@
   "1887_18870101-2.jpg": "frc 87e f681 360 46 frpt frpt sp5 f758 06 bopt",
   "1887_18870111-5.jpg": "1rcn 874 6f 3m6e 6brp n6 jt 7586 7 074 87 j56"
  },
- "blind_solve": {"words": 120, "symbols": 435, "distinct": 25, "best_score": -4.365, "shuffled_best": -4.714, "reads": false, "note": "beats shuffles (repeated tokens) but the output is not French; a codebook or nomenclator is more likely than a letter substitution"}
+ "blind_solve": {
+  "words": 120,
+  "symbols": 435,
+  "distinct": 25,
+  "best_score": -4.365,
+  "shuffled_best": -4.714,
+  "reads": false,
+  "note": "beats shuffles (repeated tokens) but the output is not French; a codebook or nomenclator is more likely than a letter substitution; Round 47: the family is the table 2119 correspondence (documented for writer 42), whose cells include whole syllables and words, which defeats a letter substitution solve"
+ },
+ "checked_screen": {
+  "1883_18831125-J.jpg": "Tr treeg crf t66c grp b6ct6 fr5 frpf 5rpe brefe 46j 8r5 tr5t b7t 87om bp5tsp6 f7586 f7cf 87 26886",
+  "1884_18840608-N.jpg": "cr 8g 467e h526 5 4rcf 2rea6f grp 6cc 46 fr5 f7cf",
+  "1881_18811206-42.jpg": "056 9fm h98 49 6j6eg 85cif t9 8i3m 09j 09j g9i",
+  "1887_18870120-8.jpg": "8rfm 500 t5 j b7t e54 b6f ep6 rp 3rcf5cp6 bref"
+ }
 }

@@ -1,0 +1,446 @@
+{
+ "id": "figaro_2119",
+ "bar": 0.00625,
+ "rows": [
+  {
+   "image": "1882_18820311-7.jpg",
+   "share": 0.629,
+   "p": 0.0004997501249375312,
+   "null_max": 0.171,
+   "best_other_table": 0.071,
+   "rank": 1,
+   "reading": "TOSEE MY DEAR FACE A.AIN CANNOT LIVE MORE SANS TOI MA FEMME ADOREE XAC. DEMAIN CHA.ET",
+   "passes": true
+  },
+  {
+   "image": "1883_18830612-5.jpg",
+   "share": 0.43,
+   "p": 0.0004997501249375312,
+   "null_max": 0.175,
+   "best_other_table": 0.035,
+   "rank": 1,
+   "reading": "NI MECH NI S.RT INDIFF TRY ARRAN. PERE CHAL S.ND LOVE YO. ALL COE.R FOR EVER MY .IFE IF XAC. TIDAL FRIDAY AFTERN CAN YO. COME NINE O. TEN NI.HT",
+   "passes": true
+  },
+  {
+   "image": "1884_18840427-H.jpg",
+   "share": 0.763,
+   "p": 0.0004997501249375312,
+   "null_max": 0.316,
+   "best_other_table": 0.053,
+   "rank": 1,
+   "reading": "SI .R VIDE SANS TOI MERCI DEVIN PENSEE FILLE AD",
+   "passes": true
+  },
+  {
+   "image": "1885_18850216-R.jpg",
+   "share": 0.662,
+   "p": 0.0004997501249375312,
+   "null_max": 0.268,
+   "best_other_table": 0.07,
+   "rank": 1,
+   "reading": "VIE MERC T.ENTY PAST NINE MAT XALE COMME SORT LIT REV MARD SOIN JE TADORE MA FEMME AIMEE",
+   "passes": true
+  },
+  {
+   "image": "1885_18851128-P.jpg",
+   "share": 0.184,
+   "p": 0.07746126936531735,
+   "null_max": 0.421,
+   "best_other_table": 0.079,
+   "rank": 1,
+   "reading": "MENN DEJ DE TOI SI HE.R LETT PORTR CONSO. .N PE.",
+   "passes": false
+  },
+  {
+   "image": "1886_18860608-M.jpg",
+   "share": 0.471,
+   "p": 0.0004997501249375312,
+   "null_max": 0.382,
+   "best_other_table": 0.176,
+   "rank": 1,
+   "reading": "M .O XRET MOI CR PAS RAIN NO XET LOV YO. DEAL",
+   "passes": true
+  },
+  {
+   "image": "1887_18870101-2.jpg",
+   "share": 0.278,
+   "p": 0.004497751124437781,
+   "null_max": 0.444,
+   "best_other_table": 0.083,
+   "rank": 1,
+   "reading": "TON MAR TEMX CEL DE TO.S TO.S Q.I TAIM LE P..S",
+   "passes": true
+  },
+  {
+   "image": "1887_18870111-5.jpg",
+   "share": 0.706,
+   "p": 0.0004997501249375312,
+   "null_max": 0.441,
+   "best_other_table": 0.176,
+   "rank": 1,
+   "reading": "XONJ MAD ET CHER EPO. JE VS AIME A LAD MA VIE",
+   "passes": true
+  }
+ ],
+ "new_members": [
+  "1882_18820311-7.jpg",
+  "1883_18830612-5.jpg",
+  "1885_18850216-R.jpg",
+  "1886_18860608-M.jpg",
+  "1887_18870101-2.jpg"
+ ],
+ "screen": [
+  {
+   "image": "1886_18860330-A.jpg",
+   "text": "B7E0 N78 FERB 46 FR5 B65CF 700 47G M56E ORJ",
+   "share": 0.647,
+   "reading": "PARL JAM TROP DE TOI PEINT ALL DAY HIER .OV",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840311-A.jpg",
+   "text": "47GT T7 O6FF SRC FE6TRE SP6 N6 T6E7 ORCA 75 F7",
+   "share": 0.611,
+   "reading": "DAYS SA .ETT QON TRESOR Q.E JE SERA .ON. AI TA",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18831125-J.jpg",
+   "text": "TR TREEG CRF T66C GRP B6CT6 FRO OA ORPE BREFE 46 8RD TR5T B7T 87OM BPDTSP6 7586 7EF 87 26886",
+   "share": 0.575,
+   "reading": "SO SORRY NOT SEEN YO. PENSE TO. .. .O.R PORTR DE MO. SOIS PAS MA.H P..SQ.E AIME ART MA FEMME",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860605-T.jpg",
+   "text": "M6PE M7J6 C6HT 4750 HMG CRF T066B 7586",
+   "share": 0.516,
+   "reading": "HE.R HAVE NE.S DAIL .HY NOT SLEEP AIME",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840113-E.jpg",
+   "text": "46T 75 45F 06 E786C 86 E6B6NT FR5 J56 3M6E56",
+   "share": 0.514,
+   "reading": "DES AI DIT LE RAMEN ME REPEJS TOI VIE CHERIE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850603-E.jpg",
+   "text": "HM 6CE 4P00 RE 63E IREN RE BEDJ B7T 87E5 B75C SPRF 15 ORJS GRP 8C 467E6TF H52 2RE 6J6E 16 3708",
+   "share": 0.479,
+   "reading": ".H ENR D.LL OR ECR UORJ OR PR.V PAS MARI PAIN Q.OT XI .OVQ YO. MN DEAREST .IF FOR EVER XE CALM",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1887_18870120-8.jpg",
+   "text": "8RFM 500 T5 BIT ED4 OL EPD RP SRCFOCPO BREF",
+   "share": 0.471,
+   "reading": "MOTH ILL SI PUS R.D .. R.. O. QONT.N.. PORT",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840304-H.jpg",
+   "text": "I6E B7E T78 87F 74 87 2688 156 75866 BRE TCAB",
+   "share": 0.457,
+   "reading": "UER PAR SAM MAT AD MA FEMM XIE AIMEE POR SN.P",
+   "p": 0.0007499625018749063,
+   "passes": false
+  },
+  {
+   "image": "1885_18850623-J.jpg",
+   "text": "JOCD 87 3MB6EB6 N6 B6CT6 FR 47G GF CPBI",
+   "share": 0.452,
+   "reading": "V.N. MA CHPERPE JE PENSE TO DAY YT N.PU",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860122-S.jpg",
+   "text": "C6 CE B7T 268 6T FRP BE6T CT BEBT RP ORAC",
+   "share": 0.452,
+   "reading": "NE NR PAS FEM ES TO. PRES NS PRPS O. .O.N",
+   "p": 9.99950002499875e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840323a-E.jpg",
+   "text": "7BR 468 815 70TR OREA 72F GRP 8G 467E6TF ORJ6",
+   "share": 0.444,
+   "reading": "APO DEM MXI ALSO .OR. AFT YO. MY DEAREST .OVE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1887_18870113-6.jpg",
+   "text": "OS 87 B6F 268 N6 68 T5 SPB 8RE 785 3M6ED 15 NRDD",
+   "share": 0.444,
+   "reading": ".Q MA PET FEM JE EM SI Q.P MOR AMI CHER. XI JO..",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840128-S.jpg",
+   "text": "AGR BE TRDE FE 3075E T710E B7TT FMER BRTF TFRB MF 75CT FL T66 52 2R00RH64 173D FE 25J6",
+   "share": 0.441,
+   "reading": ".YO PR SO.R TR CLAIR SAXLR PASS THRO POST STOP HT AINS T. SEE IF FOLLO.ED XAC. TR FIVE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840227-E.jpg",
+   "text": "36 TRDE TP 170 CT6 8RD 87 26886 N6 7586 BTTT",
+   "share": 0.441,
+   "reading": "CE SO.R S. XAL NSE MO. MA FEMME JE AIME PSSS",
+   "p": 0.00024998750062496874,
+   "passes": false
+  },
+  {
+   "image": "1885_18850211-M.jpg",
+   "text": "WIS BRPJ 866F SSBTEF OPH B7EF 458 FMBDCD RJ6E 5F",
+   "share": 0.436,
+   "reading": ".UQ PO.V MEET QQPSRT ... PART DIM THP.N. OVER IT",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860604-I.jpg",
+   "text": "RPD 45T 4535 50 87 3M 268 TARE",
+   "share": 0.435,
+   "reading": "O.. DIS DICI IL MA CH FEM S.OR",
+   "p": 0.000599970001499925,
+   "passes": false
+  },
+  {
+   "image": "1885_18850207.jpg",
+   "text": "CRE 87 8MI6E56 RP1056E B7T FP 6T 87 J56 FRPN",
+   "share": 0.429,
+   "reading": "NOR MA MHUERIE O.XLIER PAS T. ES MA VIE TO.J",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18850606-D.jpg",
+   "text": "FE 58BE JLP4E 856 BRTF E6TF N6 7586 3M6ED",
+   "share": 0.424,
+   "reading": "TR IMPR V..DR MIE POST REST JE AIME CHER.",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840505-L.jpg",
+   "text": "E6CFE OPCD 85 T5 BEDJ6 T7CT 06F 46 FR5 87 2688 74",
+   "share": 0.421,
+   "reading": "RENTR ..N. MI SI PR.VE SANS LET DE TOI MA FEMM AD",
+   "p": 0.00034998250087495624,
+   "passes": false
+  },
+  {
+   "image": "1886_18861127-P.jpg",
+   "text": "87 500 3M6E 86E3 06FF 63E 468 NG 7586 74",
+   "share": 0.419,
+   "reading": "MA ILL CHER MERC LETT ECR DEM JY AIME AD",
+   "p": 0.0024998750062496873,
+   "passes": false
+  },
+  {
+   "image": "1886_18861217-U.jpg",
+   "text": "6C2 87 1E7J B6F 26 CRE CRE BTEF BIT 6F 74",
+   "share": 0.419,
+   "reading": "ENF MA XRAV PET FE NOR NOR PSRT PUS ET AD",
+   "p": 0.006199690015499225,
+   "passes": false
+  },
+  {
+   "image": "1884_18840318-O.jpg",
+   "text": "FP 6C8RPE H7E6TT6 2500 AERC46 6C 7587CF 786",
+   "share": 0.417,
+   "reading": "T. ENMO.R .ARESSE FILL .RONDE EN AIMANT AME",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830220-7.jpg",
+   "text": "TR TECRG64 CRH H6 7E6 ARDCA FR 16 THD64 EOS SP6 275E6 FEG FR DCRH HMR 5F 5T 16TRDC F6T OBFFEBT SRCTROBE BIT JP 88 FP C6 T75T BT7T 3R886 N6 7586",
+   "share": 0.411,
+   "reading": "SO SRNOYED NO. .E ARE .O.N. TO XE S..ED R.Q Q.E FAIRE TRY TO .NO. .HO IT IS XESO.N TES .PTTRPS QONSO.PR PUS V. MM T. NE ",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1883_18830605-7.jpg",
+   "text": "TP5T T5 87PJ MP8 6TB6E75T F7CF FP JRDT EDJ7PL EON 06 J5F6 CT T6E5RCT 15 MB6PE6PL FRE STE",
+   "share": 0.408,
+   "reading": "S.IS SI MA.V H.M ESPERAIS TANT T. VO.S R.VA.. R.J LE VITE NS SERIONS XI HPE.RE.. TOR QSR",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860202-E.jpg",
+   "text": "HE 17 64 RE FM JD 275E TRO06F J6C4 S7F RP THE 854",
+   "share": 0.405,
+   "reading": ".R XA ED OR TH V. FAIR SO.LET VEND QAT O. S.R MID",
+   "p": 0.00024998750062496874,
+   "passes": false
+  },
+  {
+   "image": "1885_18851205-R.jpg",
+   "text": "PC0ST HR 25A 173D 458 TRDE SP6 N6 7586 87 500",
+   "share": 0.4,
+   "reading": ".NLQS .O FI. XAC. DIM SO.R Q.E JE AIME MA ILL",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1882_18820428-PAUL.jpg",
+   "text": "PAUR HIEF ERP TR 8P3M 2660 8P THDH7E4 T7CT 15 T75T SPRD 275EB 46 845 74587E 87 26886 156J 75866",
+   "share": 0.395,
+   "reading": "...O .URT RO. SO M.CH FEEL M. S...ARD SANS XI SAIS Q.O. FAIRP DE MDI ADIMAR MA FEMME XIEV AIMEE",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1887_18870108-4.jpg",
+   "text": "SRE 74 6CJ 87 BE68 B6CT 4P 87F 87 50 06167P",
+   "share": 0.394,
+   "reading": "QOR AD ENV MA PREM PENS D. MAT MA IL LEXEA.",
+   "p": 0.0006999650017499125,
+   "passes": false
+  },
+  {
+   "image": "1882_18820613-7.jpg",
+   "text": "H7CF ERP TR BY GA 4RCF 2REA7F 86 178D TT AE BRTT5106 37CCRF 2RE36 E6FPEC 875T E6 56C4E65 B7T",
+   "share": 0.378,
+   "reading": ".ANT RO. SO P. Y. DONT FOR.AT ME XAM. SS .R POSSIXLE CANNOT FORCE RET.RN MAIS RE IENDREI PAS",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840608-N.jpg",
+   "text": "CR 8G 467E H526 4REF 2READF GRP 6CE 46 FRD FTEF",
+   "share": 0.378,
+   "reading": "NO MY DEAR .IFE DORT FOR..T YO. ENR DE TO. TSRT",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1881_18811206-42.jpg",
+   "text": "AA 49 6J6EG 85CIF DAY INTERESTS T9 8I3M 09J 09 GQI",
+   "share": 0.375,
+   "reading": ".. DO EVERY MINUT ... UJSRORQSQ SO MUCH LOV LO Y.U",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18851130-O.jpg",
+   "text": "GRP 2750 86 TR 8P3M 2660 MRH ORJ6 GRP HOZ",
+   "share": 0.375,
+   "reading": "YO. FAIL ME SO M.CH FEEL HO. .OVE YO. ...",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1886_18860405-E.jpg",
+   "text": "FMOT 2OFM HRE4 700 47G B7DCF 6F B6CT FRD",
+   "share": 0.375,
+   "reading": "TH.S F.TH .ORD ALL DAY PA.NT ET PENS TO.",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840105-D.jpg",
+   "text": "DV FL E6CLEB6 T73M6 BRO WRPE 6F6EC60 87 2688 74",
+   "share": 0.368,
+   "reading": ".. T. REN.RPE SACHE PO. .O.R ETERNEL MA FEMM AD",
+   "p": 9.99950002499875e-05,
+   "passes": true
+  },
+  {
+   "image": "1884_18840609-D.jpg",
+   "text": "MRB6 T06BF H600 173D 854 C6LF H66D 74 ERP",
+   "share": 0.364,
+   "reading": "HOPE SLEPT .ELL XAC. MID NE.T .EE. AD RO.",
+   "p": 4.999750012499375e-05,
+   "passes": true
+  },
+  {
+   "image": "1885_18851203-T.jpg",
+   "text": "H7 BIB 2RE 8R460 A6BCF50 S63E 47502 87 268 7A",
+   "share": 0.361,
+   "reading": ".A PUP FOR MODEL .EPNTIL QECR DAILF MA FEM A.",
+   "p": 0.00014999250037498125,
+   "passes": false
+  },
+  {
+   "image": "1886_18860108-I.jpg",
+   "text": "FRPI0 B7T 87 268 FRPF C6 86TF SP6 46 8RDF56",
+   "share": 0.353,
+   "reading": "TO.UL PAS MA FEM TO.T NE MEST Q.E DE MO.TIE",
+   "p": 0.00039998000099995,
+   "passes": false
+  },
+  {
+   "image": "1884_18840108-I.jpg",
+   "text": "86 06J6 IRCN 87 BGT 26886 M7HB O6F TTD 20 OBRED",
+   "share": 0.351,
+   "reading": "ME LEVE UONJ MA PYS FEMME HA.P .ET SS. FL .POR.",
+   "p": 0.00014999250037498125,
+   "passes": false
+  },
+  {
+   "image": "1885_18850209-E.jpg",
+   "text": "RC IRCN 87 3M6E56 SPD 45E7 N6 F74RE6",
+   "share": 0.345,
+   "reading": "ON UONJ MA CHERIE Q.. DIRA JE TADORE",
+   "p": 0.00024998750062496874,
+   "passes": false
+  },
+  {
+   "image": "1886_18860128-I.jpg",
+   "text": "18 CRH 30RT6 FR GRP F0G DERH HMG MRH 062F",
+   "share": 0.344,
+   "reading": "XM NO. CLOSE TO YO. TLY .RO. .HY HO. LEFT",
+   "p": 0.00014999250037498125,
+   "passes": false
+  }
+ ],
+ "screened": 422,
+ "screen_bar": 0.00011848341232227489,
+ "screen_passed": [
+  "1886_18860330-A.jpg",
+  "1884_18840311-A.jpg",
+  "1883_18831125-J.jpg",
+  "1886_18860605-T.jpg",
+  "1884_18840113-E.jpg",
+  "1885_18850603-E.jpg",
+  "1887_18870120-8.jpg",
+  "1885_18850623-J.jpg",
+  "1886_18860122-S.jpg",
+  "1884_18840323a-E.jpg",
+  "1887_18870113-6.jpg",
+  "1884_18840128-S.jpg",
+  "1885_18850211-M.jpg",
+  "1885_18850207.jpg",
+  "1885_18850606-D.jpg",
+  "1884_18840318-O.jpg",
+  "1883_18830220-7.jpg",
+  "1883_18830605-7.jpg",
+  "1885_18851205-R.jpg",
+  "1882_18820428-PAUL.jpg",
+  "1882_18820613-7.jpg",
+  "1884_18840608-N.jpg",
+  "1881_18811206-42.jpg",
+  "1885_18851130-O.jpg",
+  "1886_18860405-E.jpg",
+  "1884_18840105-D.jpg",
+  "1884_18840609-D.jpg"
+ ]
+}
