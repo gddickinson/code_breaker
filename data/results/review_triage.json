@@ -1,10 +1,10 @@
 {
  "id": "review_triage",
- "leads": 195,
+ "leads": 194,
  "tiers": {
   "D": 11,
-  "B": 173,
-  "A": 6,
+  "B": 157,
+  "A": 21,
   "C": 5
  },
  "by_family": {
@@ -27,10 +27,10 @@
    "C": 2
   },
   "Berthe / table 2217": {
-   "B": 6
+   "A": 5
   },
   "documented table 2402": {
-   "B": 10
+   "A": 10
   },
   "table 2119 correspondence": {
    "B": 120
@@ -167,7 +167,7 @@
    "code": "figaro-1882-06-01-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (table 2217)",
    "reading": "Pourquoi pas ecrire fa[che?] es grand peine amie. Round 45, transcribed from the scan: 'Pourquoi pas ecrire? Fa[i]tes grand peine [a votre] amie.' Part of the t"
   },
@@ -212,7 +212,7 @@
    "code": "figaro-1882-12-24-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (table 2217)",
    "reading": "Triste d'adieu si froid ton... meme te desire folle... te baise partout [partly read]. Round 45, transcribed from the scan: 'Triste adieu si froid. T'aime quand"
   },
@@ -221,7 +221,7 @@
    "code": "figaro-1882-07-01-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "B",
+   "tier": "A",
    "title": "Le Figaro 1 Jul 1882, writer 5: readable under table 2217",
    "reading": "Aime moi un peu, je t'aime et desire tant te baiser."
   },
@@ -275,7 +275,7 @@
    "code": "figaro-1881-11-07-74",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (letter-digit table 2402, listed for 74)",
    "reading": "Doux souvenir, tendres baisers, my own ... The last word is partly read."
   },
@@ -284,7 +284,7 @@
    "code": "figaro-1879-03-09b",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (letter-digit table 2402)",
    "reading": "Serai Paris jeudi deux dix avec mere."
   },
@@ -356,7 +356,7 @@
    "code": "figaro-1889-01-09-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Timbre mal mis par accident. Tendre baisers."
   },
@@ -374,7 +374,7 @@
    "code": "figaro-1879-04-10",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Courage, mon coeur, vous sui[s].. 47. This ad is partly read."
   },
@@ -383,7 +383,7 @@
    "code": "figaro-1886-01-22-2fev",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read)."
   },
@@ -401,7 +401,7 @@
    "code": "figaro-1886-03-07-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "[P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as MMARDON; PARDON is inferred, so this ad is partly"
   },
@@ -419,7 +419,7 @@
    "code": "figaro-1879-12-30-4",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read)."
   },
@@ -518,7 +518,7 @@
    "code": "figaro-1887-01-25-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir]."
   },
@@ -563,7 +563,7 @@
    "code": "figaro-1879-03-11b",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood."
   },
@@ -572,7 +572,7 @@
    "code": "figaro-1881-02-02",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred."
   },
@@ -653,7 +653,7 @@
    "code": "figaro-1881-11-19-zz",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented table 2217, listed for ZZ)",
    "reading": "Ai lettre, merci, mais ecris ... t'adore, s'ennuie de [toi?]. Je baise tes levres, ma cherie."
   },
@@ -665,15 +665,6 @@
    "tier": "B",
    "title": "Candidate reading (documented table 1011, listed for 930)",
    "reading": "Cour[age]. Sui[s] cont[ent], desir q[ue] t[u] parl[es]... continu... imp... suiv... cons... aim... trop... depar[t] apre[s] let[tre] rec[ue]..."
-  },
-  {
-   "id": 85,
-   "code": "figaro-1882-07-01-5",
-   "status": "needs_review",
-   "family": "Berthe / table 2217",
-   "tier": "B",
-   "title": "Candidate reading (documented table 2217, listed for another writer)",
-   "reading": "Aime-moi un peu, je t'aime et desire tant te baiser."
   },
   {
    "id": 86,
@@ -707,7 +698,7 @@
    "code": "figaro-1881-10-12-sweep",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "B",
+   "tier": "A",
    "title": "Candidate reading (documented table 2217)",
    "reading": "Soyez bonne, cherie, je [t']aime tant, jouissons."
   },

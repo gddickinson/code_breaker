@@ -24,7 +24,7 @@ def entries() -> list[dict]:
     if rerank.exists():
         data = json.loads((OUT / "rerank_transcription.json").read_text())["letters"]
         for r in json.loads(rerank.read_text())["rows"]:
-            if r["any"]["null_p"] <= 0.007:
+            if r["any"]["null_p"] <= 0.007 and r["image"] not in {e["image"] for e in out}:  # one entry per ad (Round 73)
                 sig = r["image"].split("-", 1)[1][:-4]
                 out.append({"image": r["image"], "date": f"{r['image'][5:9]}-{r['image'][9:11]}-{r['image'][11:13]}", "signature": sig,
                             "key": r["any"]["system"], "reading": r["any"]["reading"].capitalize() + " (from the transcription " + data[r["image"]] + ")"})
