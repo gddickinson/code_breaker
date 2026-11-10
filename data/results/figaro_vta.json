@@ -111,9 +111,9 @@
  "cribs": 108,
  "held_out": {
   "ads": 18,
-  "pooled_share": 0.581,
-  "null_mean": 0.032,
-  "null_max": 0.084,
+  "pooled_share": 0.586,
+  "null_mean": 0.033,
+  "null_max": 0.085,
   "p_value": 0.0004997501249375312,
   "crib_letters_right": 438,
   "crib_letters": 446,
@@ -180,13 +180,13 @@
    },
    {
     "image": "1877_18771009-VTA.jpg",
-    "words": 3,
-    "share": 0.632,
-    "null_mean": 0.004,
-    "null_max": 0.263,
+    "words": 2,
+    "share": 1.0,
+    "null_mean": 0.006,
+    "null_max": 0.417,
     "crib_letters_right": 12,
     "crib_letters": 12,
-    "reading": "leiuste white flowers"
+    "reading": "white flowers"
    },
    {
     "image": "1877_18771012-VTA.jpg",
@@ -311,15 +311,15 @@
  },
  "scrambled_control": {
   "ads": 18,
-  "pooled_share": 0.077,
-  "null_mean": 0.06,
-  "null_max": 0.091,
-  "p_value": 0.09950248756218906,
-  "crib_letters_right": 92,
+  "pooled_share": 0.081,
+  "null_mean": 0.061,
+  "null_max": 0.088,
+  "p_value": 0.05472636815920398,
+  "crib_letters_right": 93,
   "crib_letters": 446
  },
  "gates": {
-  "z": 54.4,
+  "z": 54.3,
   "bar": 4.0,
   "control": true,
   "null": true,

@@ -109,6 +109,23 @@ def _wide():
         f"No ad passed. A reading needed {r['coverage_gate']:.0%} of its letters in French words (reached by 90% of solved controls) and to beat four shuffled copies of itself climbed the same way. The best ad reached {best['coverage'] if best else 0:.0%}, and the winning width was nearly always the widest allowed, the sign of a search fitting noise. Columnar transposition alone, at these widths, is unlikely for these ads; combined with substitution, or with a route other than columns, remains untested."]}]
 
 
+def _vta_gate(h):
+    """Round 37 wording, when the segmented gate has been run."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_vta_gate.json"
+    if not path.exists():
+        return ""
+    g = json.loads(path.read_text())
+    s, gl = g["segmented"], g["glyphs"]
+    return (f"Exact dictionary words reach {h['pooled_share']:.0%}, below the bar of {0.8 * g['exact']['positive_control']['pooled_share']:.0%}, because the writer runs words together, misspells and uses names. "
+            f"Letting a decoded word split into dictionary words of 3 or more letters, with nulls and controls scored the same way, gives {s['held_out']['pooled_share']:.1%} against a bar of {0.8 * s['positive_control']['pooled_share']:.1%}, "
+            f"shuffled keys {s['held_out']['null_mean']:.0%} (max {s['held_out']['null_max']:.0%}) and the scrambled control {s['scrambled_control']['pooled_share']:.0%}: all three gates pass, narrowly, under a scoring chosen after the first one failed. "
+            f"Reading every uncertain glyph the other way changes the result by at most {max(abs(x['change']) for x in gl['singles']):.1%} (all together: {gl['all_flipped']['pooled_share']:.0%}). "
+            "Status: a readable candidate, checked against the scans by eye, not a confirmed solution; it needs an independent reading and a novelty check.")
+
+
 def _vta():
     """Round 36: the V. T. A. correspondence of 1877."""
     import json
@@ -124,7 +141,7 @@ def _vta():
     return [{"heading": "V. T. A., 1877: a correspondence under one key (candidate)", "paragraphs": [
         "Nineteen ads signed V. T. A. (Margate, Woking, London) are love letters in plain English with a few words enciphered in letters, digits and a cross; some enciphered passages are in French. Read together, they share one key in which common letters have two or three symbols: " + homo + ".",
         f"Test held out ad by ad: a key built only from readings in the other ads turns {h['pooled_share']:.0%} of each ad's enciphered letters into English or French dictionary words; the same keys with letters shuffled among symbols reach {h['null_mean']:.0%} on average and {h['null_max']:.0%} at most in 2,000 tries (z={g['z']}). With the cipher words replaced by random symbols the same procedure reaches {r['scrambled_control']['pooled_share']:.0%}. The address ad of 1 September, which supplied no readings, decodes to 'mont sainte genev[i]ve'.",
-        f"Not counted as solved: the third gate needs {0.8 * r['positive_control']['pooled_share']:.0%} exact dictionary words (from a planted correspondence) and the real ads reach {h['pooled_share']:.0%}, held back by names, run-together words, misspellings and glyphs that the scans do not settle. Readings below are machine output from the key; they were checked against the scans by eye. Novelty unconfirmed."],
+        _vta_gate(h) or f"Not counted as solved: the third gate needs {0.8 * r['positive_control']['pooled_share']:.0%} exact dictionary words (from a planted correspondence) and the real ads reach {h['pooled_share']:.0%}, held back by names, run-together words, misspellings and glyphs that the scans do not settle. Readings below are machine output from the key; they were checked against the scans by eye. Novelty unconfirmed."],
         "table": _t(["Date", "Enciphered words, decoded"], rows)}]
 
 

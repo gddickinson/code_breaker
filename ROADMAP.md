@@ -70,7 +70,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 34 | Wide columnar keys (width 8 to 16) by hill-climbing, both directions, on 34 Le Figaro ads of 80+ letters. Control 45 of 60 (80 letters: widths 8-10 12 of 12, width 16 1 of 6; 120 letters: width 14 5 of 6). No ad passed: best 23% French-word coverage against a 65% gate | completed 2026-11-09 |
 | 35 | Transposition then substitution on the long Le Figaro ads: 8 routes at widths 2-20 (control 30 of 32 at 80-100 letters) and columnar keys of width 4-12 annealed jointly with the substitution (control 22 of 24; width 10 needs about 150 letters). 34 and 20 ads tested, none passed. Known candidates KP 6 Nov 1896 and 15 Jul 1896 recovered again by substitution alone | completed 2026-11-09 |
 | 36 | Abbreviated-plain filter (341 of 344 printed solved ads, 0 substituted, 6 of 344 shuffled pass; 363 of 641 unsolved ads flagged plain, now excluded from cipher searches). V. T. A. 1877 pooled: English love letters with enciphered words under one homophonic key; held-out reading 58% dictionary words against 3% (max 8%) for shuffled keys, z=54; scrambled control 8%; planted control 96%. Third gate fails (names, run-together words), so a candidate, not a solve | completed 2026-11-09 |
-| 37 | V. T. A. word gate: segment run-together words and allow names; settle ambiguous glyphs at higher resolution. Look for other mixed plain-and-cipher writers and pool them | pending |
+| 37 | V. T. A. gate: with run-together words split into dictionary words of 3+ letters (nulls and controls scored alike) the held-out share is 78.5% against a bar of 77.9%, shuffled keys 14% (max 24%), scrambled control 28%: three gates pass narrowly, under a scoring chosen after the exact one failed. Flipping all 14 uncertain glyphs: 78.8%. Mixed plain-and-cipher search: only V. T. A. uses letters and digits; CH 30 Jul 1884 has one 29-letter block, not cracked | completed 2026-11-09 |
+| 38 | V. T. A.: an independent check of the readings (decode the remaining words by key only, list every word the key does not explain); more letters for the key from the full ad text where readings are certain. High-resolution scans only with the user's permission | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -289,4 +290,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Shuffled French keeps letter frequencies, so a plain-text measure must beat shuffles, not only substitutions: 3-letter word beginnings let 78% of shuffles pass; whole words of 3+ and beginnings of 4+ letters let 2% pass.
 - For a key read from context, the fair test is held out: build it without the ad being read. A scrambled-cipher control shows that attaching readings to strings does not produce the result by itself.
 - In this typeface 1/l and o/0 differ by a few pixels; a "7" was a question mark. Record such readings as ambiguous.
+
+## Added 2026-11-09: Round 37
+- A scoring rule changed after a gate fails must be applied identically to every null and control, and the result reported with its margin and its history; here it passes by 0.6 points.
+- Segmenting decoded words also raises the nulls (shuffled keys 3% to 14%, scrambled control 8% to 28%), which is why short words (1-2 letters) are not allowed in a split.
+- The vocabulary must use the writer's alphabet: with v written as u, 'love' is only found as 'loue'.
+- Uncertain glyphs matter less than feared: with one key across 18 ads, any single glyph moves the result by under one point.
 

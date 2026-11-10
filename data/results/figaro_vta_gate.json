@@ -1,0 +1,337 @@
+{
+ "id": "figaro_vta_gate",
+ "exact": {
+  "held_out": {
+   "ads": 18,
+   "pooled_share": 0.586,
+   "null_mean": 0.033,
+   "null_max": 0.068,
+   "p_value": 0.000999000999000999,
+   "crib_letters_right": 438,
+   "crib_letters": 446
+  },
+  "positive_control": {
+   "ads": 18,
+   "pooled_share": 0.957,
+   "null_mean": 0.043,
+   "null_max": 0.074,
+   "p_value": 0.004975124378109453,
+   "crib_letters_right": 479,
+   "crib_letters": 481
+  },
+  "scrambled_control": {
+   "ads": 18,
+   "pooled_share": 0.081,
+   "null_mean": 0.061,
+   "null_max": 0.088,
+   "p_value": 0.05472636815920398,
+   "crib_letters_right": 93,
+   "crib_letters": 446
+  },
+  "gates": {
+   "z": 54.3,
+   "bar": 4.0,
+   "control": true,
+   "null": true,
+   "reads": false,
+   "passed": false
+  },
+  "rows": [
+   {
+    "image": "1877_18770828-VTAJ.jpg",
+    "share": 0.686
+   },
+   {
+    "image": "1877_18770914-VTA.jpg",
+    "share": 0.568
+   },
+   {
+    "image": "1877_18770918-VTA.jpg",
+    "share": 0.0
+   },
+   {
+    "image": "1877_18770927-VTA.jpg",
+    "share": 0.771
+   },
+   {
+    "image": "1877_18771003-VTA.jpg",
+    "share": 0.878
+   },
+   {
+    "image": "1877_18771004-VTA.jpg",
+    "share": 0.562
+   },
+   {
+    "image": "1877_18771009-VTA.jpg",
+    "share": 1.0
+   },
+   {
+    "image": "1877_18771012-VTA.jpg",
+    "share": 0.6
+   },
+   {
+    "image": "1877_18771017-VTA.jpg",
+    "share": 0.41
+   },
+   {
+    "image": "1877_18771020-VTA.jpg",
+    "share": 0.731
+   },
+   {
+    "image": "1877_18771023-VTA.jpg",
+    "share": 0.538
+   },
+   {
+    "image": "1877_18771031-VTA.jpg",
+    "share": 0.379
+   },
+   {
+    "image": "1877_18771106-VTA.jpg",
+    "share": 0.48
+   },
+   {
+    "image": "1877_18771109-VTA.jpg",
+    "share": 0.0
+   },
+   {
+    "image": "1877_18771111-VTA.jpg",
+    "share": 0.803
+   },
+   {
+    "image": "1877_18771207-VTA.jpg",
+    "share": 0.368
+   },
+   {
+    "image": "1877_18771220-VTA.jpg",
+    "share": 0.476
+   },
+   {
+    "image": "1877_18771222-VTA.jpg",
+    "share": 0.487
+   }
+  ]
+ },
+ "segmented": {
+  "held_out": {
+   "ads": 18,
+   "pooled_share": 0.785,
+   "null_mean": 0.145,
+   "null_max": 0.243,
+   "p_value": 0.000999000999000999,
+   "crib_letters_right": 438,
+   "crib_letters": 446
+  },
+  "positive_control": {
+   "ads": 18,
+   "pooled_share": 0.974,
+   "null_mean": 0.165,
+   "null_max": 0.24,
+   "p_value": 0.004975124378109453,
+   "crib_letters_right": 479,
+   "crib_letters": 481
+  },
+  "scrambled_control": {
+   "ads": 18,
+   "pooled_share": 0.279,
+   "null_mean": 0.276,
+   "null_max": 0.351,
+   "p_value": 0.48756218905472637,
+   "crib_letters_right": 93,
+   "crib_letters": 446
+  },
+  "gates": {
+   "z": 27.3,
+   "bar": 4.0,
+   "control": true,
+   "null": true,
+   "reads": true,
+   "passed": true
+  },
+  "rows": [
+   {
+    "image": "1877_18770828-VTAJ.jpg",
+    "share": 0.843
+   },
+   {
+    "image": "1877_18770914-VTA.jpg",
+    "share": 0.865
+   },
+   {
+    "image": "1877_18770918-VTA.jpg",
+    "share": 0.562
+   },
+   {
+    "image": "1877_18770927-VTA.jpg",
+    "share": 0.771
+   },
+   {
+    "image": "1877_18771003-VTA.jpg",
+    "share": 0.898
+   },
+   {
+    "image": "1877_18771004-VTA.jpg",
+    "share": 0.781
+   },
+   {
+    "image": "1877_18771009-VTA.jpg",
+    "share": 1.0
+   },
+   {
+    "image": "1877_18771012-VTA.jpg",
+    "share": 0.967
+   },
+   {
+    "image": "1877_18771017-VTA.jpg",
+    "share": 0.821
+   },
+   {
+    "image": "1877_18771020-VTA.jpg",
+    "share": 0.962
+   },
+   {
+    "image": "1877_18771023-VTA.jpg",
+    "share": 0.538
+   },
+   {
+    "image": "1877_18771031-VTA.jpg",
+    "share": 0.483
+   },
+   {
+    "image": "1877_18771106-VTA.jpg",
+    "share": 0.7
+   },
+   {
+    "image": "1877_18771109-VTA.jpg",
+    "share": 0.412
+   },
+   {
+    "image": "1877_18771111-VTA.jpg",
+    "share": 0.869
+   },
+   {
+    "image": "1877_18771207-VTA.jpg",
+    "share": 0.632
+   },
+   {
+    "image": "1877_18771220-VTA.jpg",
+    "share": 0.744
+   },
+   {
+    "image": "1877_18771222-VTA.jpg",
+    "share": 0.744
+   }
+  ]
+ },
+ "glyphs": {
+  "base": 0.785,
+  "singles": [
+   {
+    "ad": "1877_18770828-VTAJ.jpg",
+    "word": "4t508",
+    "other": "4t5o8",
+    "pooled_share": 0.787,
+    "change": 0.002
+   },
+   {
+    "ad": "1877_18770927-VTA.jpg",
+    "word": "4f508",
+    "other": "4t508",
+    "pooled_share": 0.788,
+    "change": 0.003
+   },
+   {
+    "ad": "1877_18770927-VTA.jpg",
+    "word": "n8217l",
+    "other": "n82171",
+    "pooled_share": 0.781,
+    "change": -0.004
+   },
+   {
+    "ad": "1877_18770927-VTA.jpg",
+    "word": "8e7l",
+    "other": "8e71",
+    "pooled_share": 0.783,
+    "change": -0.002
+   },
+   {
+    "ad": "1877_18770927-VTA.jpg",
+    "word": "yxd",
+    "other": "hxd",
+    "pooled_share": 0.788,
+    "change": 0.003
+   },
+   {
+    "ad": "1877_18771003-VTA.jpg",
+    "word": "l8mp",
+    "other": "18mp",
+    "pooled_share": 0.783,
+    "change": -0.002
+   },
+   {
+    "ad": "1877_18771003-VTA.jpg",
+    "word": "2s8l7",
+    "other": "2s817",
+    "pooled_share": 0.782,
+    "change": -0.003
+   },
+   {
+    "ad": "1877_18771004-VTA.jpg",
+    "word": "v8217l",
+    "other": "v82171",
+    "pooled_share": 0.781,
+    "change": -0.004
+   },
+   {
+    "ad": "1877_18771004-VTA.jpg",
+    "word": "os8l7",
+    "other": "os817",
+    "pooled_share": 0.782,
+    "change": -0.003
+   },
+   {
+    "ad": "1877_18771017-VTA.jpg",
+    "word": "p8t7d50l",
+    "other": "p8t7d5ol",
+    "pooled_share": 0.785,
+    "change": 0.0
+   },
+   {
+    "ad": "1877_18771020-VTA.jpg",
+    "word": "v8217l",
+    "other": "v82171",
+    "pooled_share": 0.781,
+    "change": -0.004
+   },
+   {
+    "ad": "1877_18771023-VTA.jpg",
+    "word": "2f8vf7",
+    "other": "2f8ve7",
+    "pooled_share": 0.791,
+    "change": 0.006
+   },
+   {
+    "ad": "1877_18771109-VTA.jpg",
+    "word": "qltpmf",
+    "other": "qltpmh",
+    "pooled_share": 0.788,
+    "change": 0.003
+   },
+   {
+    "ad": "1877_18771220-VTA.jpg",
+    "word": "+mvs8dl7e49",
+    "other": "+mvs8dl7e48",
+    "pooled_share": 0.786,
+    "change": 0.001
+   }
+  ],
+  "all_flipped": {
+   "ads": 18,
+   "pooled_share": 0.788,
+   "null_mean": 0.145,
+   "null_max": 0.242,
+   "p_value": 0.001996007984031936,
+   "crib_letters_right": 437,
+   "crib_letters": 446
+  }
+ }
+}

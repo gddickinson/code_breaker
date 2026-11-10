@@ -80,10 +80,36 @@ def vocabulary() -> frozenset:
     return frozenset(str(w).lower().translate(MERGE) for lang in ("en", "fr") for w in model(lang)["words"] if len(w) >= 2) | {"a", "i"}
 
 
+SCORING = "exact"  # or "segmented": run-together words may be split into dictionary words of 3+ letters (Round 37)
+
+
+def covered(d: str) -> int:
+    """Letters of a decoded word inside dictionary words: the whole word, or with SCORING='segmented' the best split
+    into words of 3 or more letters (short words could otherwise tile random text)."""
+    v = vocabulary()
+    if d in v:
+        return len(d)
+    if SCORING != "segmented":
+        return 0
+    best = [0] * (len(d) + 1)
+    for i in range(1, len(d) + 1):
+        best[i] = best[i - 1]
+        for j in range(max(0, i - 16), i - 2):
+            if d[j:i] in v and best[j] + i - j > best[i]:
+                best[i] = best[j] + i - j
+    return best[-1]
+
+
 def word_share(cwords: list[str], key: dict) -> float:
     """Share of enciphered letters that decode inside dictionary words (English or French)."""
-    v, n = vocabulary(), sum(len(w.replace("'", "")) for w in cwords)
-    return sum(len(d) for d in (decode(w, key) for w in cwords) if d in v) / n if n else 0.0
+    n = sum(len(w.replace("'", "")) for w in cwords)
+    return sum(covered(decode(w, key)) for w in cwords) / n if n else 0.0
+
+
+def scored_words(ad: dict) -> list[str]:
+    """Enciphered words to score: names marked from the plain context (after Mme, Mr) are left out."""
+    names = set(ad.get("names", []))
+    return [w for w in words_of(ad["cipher"]) if w not in names]
 
 
 def shuffled_key(key: dict, rnd: random.Random) -> dict:
@@ -98,7 +124,7 @@ def held_out(trials: int = 2000, seed: int = 36) -> dict:
         if image in SKIP:
             continue
         others = [c for c in CRIBS if c[0] != date(image)]
-        key, cw = key_from(others), words_of(ad["cipher"])
+        key, cw = key_from(others), scored_words(ad)
         real = word_share(cw, key)
         null = [word_share(cw, shuffled_key(key, rnd)) for _ in range(200)]
         own = [c for c in CRIBS if c[0] == date(image)]
@@ -107,7 +133,7 @@ def held_out(trials: int = 2000, seed: int = 36) -> dict:
         rows.append({"image": image, "words": len(cw), "share": round(real, 3), "null_mean": round(sum(null) / len(null), 3), "null_max": round(max(null), 3),
                      "crib_letters_right": agree, "crib_letters": total, "reading": " ".join(decode(w, key) for w in cw)})
     # Pooled null: every ad's key shuffled independently, many times.
-    per_ad = {r["image"]: (words_of(ads()[r["image"]]["cipher"]), key_from([c for c in CRIBS if c[0] != date(r["image"])])) for r in rows}
+    per_ad = {r["image"]: (scored_words(ads()[r["image"]]), key_from([c for c in CRIBS if c[0] != date(r["image"])])) for r in rows}
     letters = {i: sum(len(w.replace("'", "")) for w in cw) for i, (cw, _) in per_ad.items()}
     real_total = sum(r["share"] * letters[r["image"]] for r in rows) / sum(letters.values())
     nulls = []
@@ -128,7 +154,7 @@ def scrambled_control(seed: int = 7) -> dict:
     def scramble(w):
         return sub.setdefault(w, "".join(rnd.choice(alphabet) for _ in w.replace("'", "")))
     saved_ads, saved_cribs = ads, CRIBS
-    fake = {i: {**a, "cipher": " ".join(scramble(w) for w in words_of(a["cipher"]))} for i, a in saved_ads().items()}
+    fake = {i: {**a, "cipher": " ".join(scramble(w) for w in words_of(a["cipher"])), "names": [scramble(w) for w in a.get("names", [])]} for i, a in saved_ads().items()}
     try:
         globals()["ads"] = lambda: fake
         CRIBS = [(d, scramble(c), p) for d, c, p in saved_cribs]
@@ -201,7 +227,7 @@ def run() -> dict:
     h = held_out()
     readings = {i: " ".join(decode(w, key) for w in words_of(a["cipher"])) for i, a in ads().items()}
     pc = positive_control()
-    rnd, cw = random.Random(1), {i: (words_of(a["cipher"]), key_from([c for c in CRIBS if c[0] != date(i)])) for i, a in ads().items() if i not in SKIP}
+    rnd, cw = random.Random(1), {i: (scored_words(a), key_from([c for c in CRIBS if c[0] != date(i)])) for i, a in ads().items() if i not in SKIP}
     letters = {i: sum(len(w.replace("'", "")) for w in ws) for i, (ws, _) in cw.items()}
     nulls = [sum(word_share(ws, shuffled_key(k, rnd)) * letters[i] for i, (ws, k) in cw.items()) / sum(letters.values()) for _ in range(500)]
     mean = sum(nulls) / len(nulls)
