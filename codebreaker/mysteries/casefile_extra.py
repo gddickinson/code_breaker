@@ -109,6 +109,25 @@ def _wide():
         f"No ad passed. A reading needed {r['coverage_gate']:.0%} of its letters in French words (reached by 90% of solved controls) and to beat four shuffled copies of itself climbed the same way. The best ad reached {best['coverage'] if best else 0:.0%}, and the winning width was nearly always the widest allowed, the sign of a search fitting noise. Columnar transposition alone, at these widths, is unlikely for these ads; combined with substitution, or with a route other than columns, remains untested."]}]
 
 
+def _vta():
+    """Round 36: the V. T. A. correspondence of 1877."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_vta.json"
+    if not path.exists():
+        return []
+    r = json.loads(path.read_text())
+    h, g = r["held_out"], r["gates"]
+    homo = ", ".join(f"{k}={'/'.join(v)}" for k, v in r["homophones"].items())
+    rows = [[i[5:9] + "-" + i[9:11] + "-" + i[11:13], t[:110]] for i, t in r["readings"].items()]
+    return [{"heading": "V. T. A., 1877: a correspondence under one key (candidate)", "paragraphs": [
+        "Nineteen ads signed V. T. A. (Margate, Woking, London) are love letters in plain English with a few words enciphered in letters, digits and a cross; some enciphered passages are in French. Read together, they share one key in which common letters have two or three symbols: " + homo + ".",
+        f"Test held out ad by ad: a key built only from readings in the other ads turns {h['pooled_share']:.0%} of each ad's enciphered letters into English or French dictionary words; the same keys with letters shuffled among symbols reach {h['null_mean']:.0%} on average and {h['null_max']:.0%} at most in 2,000 tries (z={g['z']}). With the cipher words replaced by random symbols the same procedure reaches {r['scrambled_control']['pooled_share']:.0%}. The address ad of 1 September, which supplied no readings, decodes to 'mont sainte genev[i]ve'.",
+        f"Not counted as solved: the third gate needs {0.8 * r['positive_control']['pooled_share']:.0%} exact dictionary words (from a planted correspondence) and the real ads reach {h['pooled_share']:.0%}, held back by names, run-together words, misspellings and glyphs that the scans do not settle. Readings below are machine output from the key; they were checked against the scans by eye. Novelty unconfirmed."],
+        "table": _t(["Date", "Enciphered words, decoded"], rows)}]
+
+
 def _layered():
     """Round 35: transposition followed by substitution."""
     import json
@@ -143,4 +162,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _wide() + _layered()

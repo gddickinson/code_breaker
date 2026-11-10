@@ -1,0 +1,350 @@
+{
+ "id": "figaro_vta",
+ "key": {
+  "v": "l",
+  "x": "o",
+  "5": "n",
+  "r": "g",
+  "2": "t",
+  "t": "i",
+  "+": "m",
+  "8": "e",
+  "s": "h",
+  "m": "a",
+  "e": "u",
+  "q": "f",
+  "0": "l",
+  "h": "y",
+  "d": "u",
+  "l": "r",
+  "y": "p",
+  "4": "s",
+  "o": "c",
+  "p": "d",
+  "1": "t",
+  "7": "e",
+  "n": "b",
+  "c": "r",
+  "u": "i",
+  "f": "w",
+  "g": "l",
+  "9": "d",
+  "3": "s",
+  "6": "n",
+  "a": "q"
+ },
+ "homophones": {
+  "a": [
+   "m"
+  ],
+  "b": [
+   "n"
+  ],
+  "c": [
+   "o"
+  ],
+  "d": [
+   "9",
+   "p"
+  ],
+  "e": [
+   "7",
+   "8"
+  ],
+  "f": [
+   "q"
+  ],
+  "g": [
+   "r"
+  ],
+  "h": [
+   "s"
+  ],
+  "i": [
+   "t",
+   "u"
+  ],
+  "l": [
+   "0",
+   "g",
+   "v"
+  ],
+  "m": [
+   "+"
+  ],
+  "n": [
+   "5",
+   "6"
+  ],
+  "o": [
+   "x"
+  ],
+  "p": [
+   "y"
+  ],
+  "q": [
+   "a"
+  ],
+  "r": [
+   "c",
+   "l"
+  ],
+  "s": [
+   "3",
+   "4"
+  ],
+  "t": [
+   "1",
+   "2"
+  ],
+  "u": [
+   "d",
+   "e"
+  ],
+  "w": [
+   "f"
+  ],
+  "y": [
+   "h"
+  ]
+ },
+ "cribs": 108,
+ "held_out": {
+  "ads": 18,
+  "pooled_share": 0.581,
+  "null_mean": 0.032,
+  "null_max": 0.084,
+  "p_value": 0.0004997501249375312,
+  "crib_letters_right": 438,
+  "crib_letters": 446,
+  "rows": [
+   {
+    "image": "1877_18770828-VTAJ.jpg",
+    "words": 15,
+    "share": 0.686,
+    "null_mean": 0.033,
+    "null_max": 0.196,
+    "crib_letters_right": 35,
+    "crib_letters": 36,
+    "reading": "t seems such a long time sin?e i hauent fe?t your lips on my lips"
+   },
+   {
+    "image": "1877_18770914-VTA.jpg",
+    "words": 6,
+    "share": 0.568,
+    "null_mean": 0.002,
+    "null_max": 0.108,
+    "crib_letters_right": 21,
+    "crib_letters": 21,
+    "reading": "dear petite chose odmine beauty beeingmine"
+   },
+   {
+    "image": "1877_18770918-VTA.jpg",
+    "words": 2,
+    "share": 0.0,
+    "null_mean": 0.0,
+    "null_max": 0.0,
+    "crib_letters_right": 14,
+    "crib_letters": 16,
+    "reading": "brothe?s mar?iage"
+   },
+   {
+    "image": "1877_18770927-VTA.jpg",
+    "words": 8,
+    "share": 0.771,
+    "null_mean": 0.013,
+    "null_max": 0.2,
+    "crib_letters_right": 17,
+    "crib_letters": 17,
+    "reading": "swnle your uisit loue pou better than euer"
+   },
+   {
+    "image": "1877_18771003-VTA.jpg",
+    "words": 41,
+    "share": 0.878,
+    "null_mean": 0.063,
+    "null_max": 0.19,
+    "crib_letters_right": 102,
+    "crib_letters": 102,
+    "reading": "writing to por?pise agbin i wont read it but am dying with iealousy why to him not to me i loue you so well and so truly my own darling csish could write and tell you there is in my heart"
+   },
+   {
+    "image": "1877_18771004-VTA.jpg",
+    "words": 16,
+    "share": 0.562,
+    "null_mean": 0.027,
+    "null_max": 0.123,
+    "crib_letters_right": 33,
+    "crib_letters": 34,
+    "reading": "wqll put letter into midfe one search well ma chere petite ?e moe maintenbbh et touipurs"
+   },
+   {
+    "image": "1877_18771009-VTA.jpg",
+    "words": 3,
+    "share": 0.632,
+    "null_mean": 0.004,
+    "null_max": 0.263,
+    "crib_letters_right": 12,
+    "crib_letters": 12,
+    "reading": "leiuste white flowers"
+   },
+   {
+    "image": "1877_18771012-VTA.jpg",
+    "words": 7,
+    "share": 0.6,
+    "null_mean": 0.047,
+    "null_max": 0.233,
+    "crib_letters_right": 16,
+    "crib_letters": 16,
+    "reading": "petite chose bienaim ee iloue you so"
+   },
+   {
+    "image": "1877_18771017-VTA.jpg",
+    "words": 15,
+    "share": 0.41,
+    "null_mean": 0.038,
+    "null_max": 0.141,
+    "crib_letters_right": 19,
+    "crib_letters": 19,
+    "reading": "tu nas pas eu deieunlr plusieurs ioursmais letete pet chose ietaime bi en iattends nouuelles"
+   },
+   {
+    "image": "1877_18771020-VTA.jpg",
+    "words": 5,
+    "share": 0.731,
+    "null_mean": 0.022,
+    "null_max": 0.231,
+    "crib_letters_right": 13,
+    "crib_letters": 13,
+    "reading": "your mothers letter at ieumont"
+   },
+   {
+    "image": "1877_18771023-VTA.jpg",
+    "words": 3,
+    "share": 0.538,
+    "null_mean": 0.043,
+    "null_max": 0.385,
+    "crib_letters_right": 7,
+    "crib_letters": 7,
+    "reading": "at about twelwe"
+   },
+   {
+    "image": "1877_18771031-VTA.jpg",
+    "words": 5,
+    "share": 0.379,
+    "null_mean": 0.001,
+    "null_max": 0.138,
+    "crib_letters_right": 15,
+    "crib_letters": 16,
+    "reading": "blue dres? silth tomorrpy tuesday"
+   },
+   {
+    "image": "1877_18771106-VTA.jpg",
+    "words": 12,
+    "share": 0.48,
+    "null_mean": 0.035,
+    "null_max": 0.22,
+    "crib_letters_right": 22,
+    "crib_letters": 22,
+    "reading": "iacis anwer to hio in parcel dif you liie petite chose cherig"
+   },
+   {
+    "image": "1877_18771109-VTA.jpg",
+    "words": 3,
+    "share": 0.0,
+    "null_mean": 0.002,
+    "null_max": 0.235,
+    "crib_letters_right": 6,
+    "crib_letters": 7,
+    "reading": "wopl fridaw morni?g"
+   },
+   {
+    "image": "1877_18771111-VTA.jpg",
+    "words": 14,
+    "share": 0.803,
+    "null_mean": 0.022,
+    "null_max": 0.197,
+    "crib_letters_right": 54,
+    "crib_letters": 54,
+    "reading": "monday mornisg for your lunch my darling petite chose i loue you uery much"
+   },
+   {
+    "image": "1877_18771207-VTA.jpg",
+    "words": 18,
+    "share": 0.368,
+    "null_mean": 0.031,
+    "null_max": 0.197,
+    "crib_letters_right": 12,
+    "crib_letters": 13,
+    "reading": "yuo are littte darline and loue yuo with alr hearth wilr telr alr about our shoptine wen wilr"
+   },
+   {
+    "image": "1877_18771220-VTA.jpg",
+    "words": 18,
+    "share": 0.476,
+    "null_mean": 0.028,
+    "null_max": 0.22,
+    "crib_letters_right": 21,
+    "crib_letters": 22,
+    "reading": "chie petite lolle ?ue notre amour ne te rende pan malheureusd neme dais pas wish ?ue tuma ioesmoins"
+   },
+   {
+    "image": "1877_18771222-VTA.jpg",
+    "words": 8,
+    "share": 0.487,
+    "null_mean": 0.027,
+    "null_max": 0.231,
+    "crib_letters_right": 19,
+    "crib_letters": 19,
+    "reading": "growinh with impatienle and want of seeing wou"
+   }
+  ]
+ },
+ "positive_control": {
+  "ads": 18,
+  "pooled_share": 0.957,
+  "null_mean": 0.043,
+  "null_max": 0.074,
+  "p_value": 0.004975124378109453,
+  "crib_letters_right": 479,
+  "crib_letters": 481
+ },
+ "scrambled_control": {
+  "ads": 18,
+  "pooled_share": 0.077,
+  "null_mean": 0.06,
+  "null_max": 0.091,
+  "p_value": 0.09950248756218906,
+  "crib_letters_right": 92,
+  "crib_letters": 446
+ },
+ "gates": {
+  "z": 54.4,
+  "bar": 4.0,
+  "control": true,
+  "null": true,
+  "reads": false,
+  "passed": false
+ },
+ "readings": {
+  "1877_18770828-VTAJ.jpg": "t seems such a long time sinle i hauent felt your lips on my lips",
+  "1877_18770901-VTA.jpg": "detnand lolmant mont sainte geneuidwe",
+  "1877_18770914-VTA.jpg": "dear petite chose odmine beauty beeingmine",
+  "1877_18770918-VTA.jpg": "brothers marriage",
+  "1877_18770927-VTA.jpg": "swnle your uisit loue pou better than euer",
+  "1877_18771003-VTA.jpg": "writing to por?pise agbin i wont read it but am dying with iealousy why to him not to me i loue you so well and so truly my own darling csish could write and tell you there is in my heart",
+  "1877_18771004-VTA.jpg": "wqll put letter into midfe one search well ma chere petite de moe maintenbbh et touipurs",
+  "1877_18771009-VTA.jpg": "leiuste white flowers",
+  "1877_18771012-VTA.jpg": "petite chose bienaim ee iloue you so",
+  "1877_18771017-VTA.jpg": "tu nas pas eu deieunlr plusieurs ioursmais letete pet chose ietaime bi en iattends nouuelles",
+  "1877_18771020-VTA.jpg": "your mothers letter at ieumont",
+  "1877_18771023-VTA.jpg": "at about twelwe",
+  "1877_18771031-VTA.jpg": "blue dress silth tomorrpy tuesday",
+  "1877_18771106-VTA.jpg": "iacis anwer to hio in parcel dif you liie petite chose cherig",
+  "1877_18771109-VTA.jpg": "wopl fridaw morning",
+  "1877_18771111-VTA.jpg": "monday mornisg for your lunch my darling petite chose i loue you uery much",
+  "1877_18771207-VTA.jpg": "yuo are littte darline and loue yuo with alr hearth wilr telr alr about our shoptine wen wilr",
+  "1877_18771220-VTA.jpg": "chie petite lolle que notre amour ne te rende pan malheureusd neme dais pas wish que tuma ioesmoins",
+  "1877_18771222-VTA.jpg": "growinh with impatienle and want of seeing wou"
+ }
+}

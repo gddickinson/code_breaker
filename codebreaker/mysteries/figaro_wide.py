@@ -72,6 +72,10 @@ def _ad(a):
 
 
 def ad_texts() -> list[tuple]:
+    """Unsolved ads with enough letters; ads the Round 36 filter finds to be abbreviated plain French are left out."""
+    from .figaro_plainness import RESULT as PLAIN
+
+    plain = set(json.loads(PLAIN.read_text())["plain_images"]) if PLAIN.exists() else set()
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     jobs = []
     for i, a in enumerate(json.loads((OUT / "ads.json").read_text())):
@@ -80,7 +84,7 @@ def ad_texts() -> list[tuple]:
         n = a["image"].replace("/", "_")
         sets = [e for s in (otsu, raw) for e in s.get(n, {}).values() if e]
         t = "".join(max((cipher_words(e) for e in sets), key=lambda w: sum(map(len, w)), default=[]))
-        if len(t) >= MIN_LETTERS and coverage(t[:400], "fr") < 0.35:
+        if len(t) >= MIN_LETTERS and coverage(t[:400], "fr") < 0.35 and n not in plain:
             jobs.append((n, t[:400], 3400 + i))
     return jobs
 
