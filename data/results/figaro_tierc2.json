@@ -1,0 +1,198 @@
+{
+ "id": "figaro_tierc2",
+ "bar": 0.0029411764705882353,
+ "rows": [
+  {
+   "image": "1882_18820601-5.jpg",
+   "family": "Berthe",
+   "system": "table 2217",
+   "reading": "POURQUOI PAS ECRIRE FATIES GRAND PEINE AMIE",
+   "coverage": 0.757,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1882_18820701-5.jpg",
+   "family": "Berthe",
+   "system": "table 2217",
+   "reading": "AIME MOI UN PEU JE TAIME ET DESIRE TANT TE BAISER",
+   "coverage": 0.615,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1882_18821224-5.jpg",
+   "family": "Berthe",
+   "system": "table 2217",
+   "reading": "TRISTEDADIEU SI FROID TAIME QUAND MEME TE DESIRE FOLLEMEN TE BAISE PARTOUT MA BERT?E C?ERIE",
+   "coverage": 0.693,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1884_18840730-CH.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "CRIZICEQUEJAIFAITANOTREEDFANT",
+   "score": -4.74,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1884_18840805-CH.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "JEPART VVOIRCEZMOI",
+   "score": -8.55,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1886_18860629-CH.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "TACHEZEVITERSANSREFUSEU RVC LEHUIT",
+   "score": -108.15,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1889_18891101-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "HUITQUATORZEVINGTDEUXPAS",
+   "score": -4.68,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1890_18900701-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "QUATRE",
+   "score": -3.5,
+   "p": 0.012987012987012988,
+   "passes": false
+  },
+  {
+   "image": "1890_18901026-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "SUISENITALIEABSENTUNMOIS",
+   "score": -4.32,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1891_18910611-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "LUNDIPASAVANT",
+   "score": -4.33,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1891_18911226-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "SEPTSIXHEURES",
+   "score": -4.69,
+   "p": 0.004995004995004995,
+   "passes": false
+  },
+  {
+   "image": "1892_18920721-VE3.jpg",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "reading": "JUSQUEVINGTHUIT",
+   "score": -4.15,
+   "p": 0.000999000999000999,
+   "passes": true
+  },
+  {
+   "image": "1886_18860531-E.jpg",
+   "family": "table 2119 short",
+   "system": "table 2119 full key, abbreviated words",
+   "reading": "ENV PLUM HI AUR VOUL ETR AV NL TAD MA FEM CHE",
+   "share": 0.853,
+   "p": 0.0004997501249375312,
+   "best_other_table": 0.382,
+   "passes": true
+  },
+  {
+   "image": "1886_18860124-T.jpg",
+   "family": "table 2119 short",
+   "system": "table 2119 full key, abbreviated words",
+   "reading": "A BIENT MAINT MA CHE TAIME AUTTI PL QUE C FOIS",
+   "share": 0.694,
+   "p": 0.0004997501249375312,
+   "best_other_table": 0.139,
+   "passes": true
+  },
+  {
+   "image": "1886_18860602-T.jpg",
+   "family": "table 2119 short",
+   "system": "table 2119 full key, abbreviated words",
+   "reading": "MERC NOUV AMI CHAL VA GUER GEN MA TL ADO TAI",
+   "share": 0.941,
+   "p": 0.0004997501249375312,
+   "best_other_table": 0.235,
+   "passes": true
+  },
+  {
+   "image": "1886_18860613-T.jpg",
+   "family": "table 2119 short",
+   "system": "table 2119 full key, abbreviated words",
+   "reading": "BA CE SOIR CHAL MOND EVEN BOUL TATT MARD LOV",
+   "share": 0.886,
+   "p": 0.0004997501249375312,
+   "best_other_table": 0.114,
+   "passes": true
+  },
+  {
+   "image": "V. E. 3 pooled (6 ads)",
+   "family": "C. H. key",
+   "system": "Vigenere CEAD, no W",
+   "score": -25.67,
+   "reading": "",
+   "p": 0.000999000999000999,
+   "passes": true
+  }
+ ],
+ "short_control": {
+  "planted": 12,
+  "recovered": 12,
+  "p": [
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936,
+   0.001996007984031936
+  ]
+ },
+ "passed": [
+  "1882_18820601-5.jpg",
+  "1882_18820701-5.jpg",
+  "1882_18821224-5.jpg",
+  "1884_18840730-CH.jpg",
+  "1884_18840805-CH.jpg",
+  "1886_18860629-CH.jpg",
+  "1889_18891101-VE3.jpg",
+  "1890_18901026-VE3.jpg",
+  "1891_18910611-VE3.jpg",
+  "1892_18920721-VE3.jpg",
+  "1886_18860531-E.jpg",
+  "1886_18860124-T.jpg",
+  "1886_18860602-T.jpg",
+  "1886_18860613-T.jpg",
+  "V. E. 3 pooled (6 ads)"
+ ]
+}

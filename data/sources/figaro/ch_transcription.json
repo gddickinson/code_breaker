@@ -1,11 +1,80 @@
 {
  "source": "Le Figaro personal column, writer C. H., unsolved ads (scans in data/sources/figaro/images, Didier Muller's database). Enciphered blocks transcribed by eye from the scans, Round 41. The database documents this writer's system on 36 solved ads: Vigenere with the key CEAD, alphabet without W.",
- "system": {"key": "CEAD", "alphabet": "ABCDEFGHIJKLMNOPQRSTUVXYZ"},
+ "system": {
+  "key": "CEAD",
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVXYZ"
+ },
  "ads": {
-  "1882_18821111-CH.jpg": {"blocks": ["XGRDMKCLNQUURGEGZFIAXGPX"], "context": "Suis bien triste. Pense toujours a vous. Ecrivez longuement. [block]"},
-  "1884_18840331-CH.jpg": {"blocks": ["LINGKTRLGKTRLGDPRXVMRK"], "context": "Tres touche de v. lettre. Comptez sur moi. imprud. de v. ecr. causerons [block]"},
-  "1884_18840730-CH.jpg": {"blocks": ["EVICKGETXIJDKJALVCROXTIEGHENX"], "context": "V. lettre et v. resolut. m'ont prof. touche. Ne dout. pas de mon affect. et souv. en vout. f. z. s. d. [block]. ecr. proj. bient."},
-  "1884_18840805-CH.jpg": {"blocks": ["LIPDTX", "YAOLTGHBQOL"], "context": "[block 1] Espere encore [block 2]"},
-  "1886_18860629-CH.jpg": {"blocks": ["VECKGDEZKYEUUENVTIFYUIZ", "TAC", "NIHYKY"], "context": "Veckgd ezkyeu uenv tifyuiz. Tac. nihyky. ct. s. m"}
+  "1882_18821111-CH.jpg": {
+   "blocks": [
+    "XGRDMKCLNQUURGEGZFIAXGPX"
+   ],
+   "context": "Suis bien triste. Pense toujours a vous. Ecrivez longuement. [block]"
+  },
+  "1884_18840331-CH.jpg": {
+   "blocks": [
+    "LINGKTRLGKTRLGDPRXVMRK"
+   ],
+   "context": "Tres touche de v. lettre. Comptez sur moi. imprud. de v. ecr. causerons [block]"
+  },
+  "1884_18840730-CH.jpg": {
+   "blocks": [
+    "EVICKGETXIJDKJALVCROXTIEGHENX"
+   ],
+   "context": "V. lettre et v. resolut. m'ont prof. touche. Ne dout. pas de mon affect. et souv. en vout. f. z. s. d. [block]. ecr. proj. bient."
+  },
+  "1884_18840805-CH.jpg": {
+   "blocks": [
+    "LIPDTX",
+    "YAOLTGHBQOL"
+   ],
+   "context": "[block 1] Espere encore [block 2]"
+  },
+  "1886_18860629-CH.jpg": {
+   "blocks": [
+    "VECKGDEZKYEUUENVTIFYUIZ",
+    "TAC",
+    "NIHYKY"
+   ],
+   "context": "Veckgd ezkyeu uenv tifyuiz. Tac. nihyky. ct. s. m"
+  }
+ },
+ "other_writers": {
+  "1890_18901026-VE3.jpg": {
+   "blocks": [
+    "UZIVGRIXCPIHCFSHPYUQOSIV"
+   ],
+   "context": "V.E.3 - uzivgr ixcpih cfshpy uq osiv. Amit. (Round 71: read by eye from the scan; signed V. E. 3, not C. H., but the same Vigenere CEAD key was found by the documented-system search.)"
+  },
+  "1889_18891101-VE3.jpg": {
+   "blocks": [
+    "JZIXSZAXQVZHYMNJVHEYZTAV"
+   ],
+   "context": "V. E. 3. Serai jzix szaxqvzh ymnjv heyz tav 15. (Round 71: read by eye from the scan; signed V. E. 3; the key runs on across words.)"
+  },
+  "1890_18900701-VE3.jpg": {
+   "blocks": [
+    "SZAXTI"
+   ],
+   "context": "VE3 - Heur. de bonne nouv. Esp. v. voir bientot. Penserai v. szaxti - courage et confiance. (Round 71: read by eye from the scan; signed V. E. 3; the key runs on across words.)"
+  },
+  "1891_18910611-VE3.jpg": {
+   "blocks": [
+    "NZNGKTAVCAAQV"
+   ],
+   "context": "V. E. 3. nzngk tav caaqv 6 1/2. (Round 71: read by eye from the scan; signed V. E. 3; the key runs on across words.)"
+  },
+  "1891_18911226-VE3.jpg": {
+   "blocks": [
+    "UIPXUMXKGZUGX"
+   ],
+   "context": "V.E.3.Esp.uipx umx kgzugx sinon lendem. a 10 A. (Round 71: read by eye from the scan; signed V. E. 3; the key runs on across words.)"
+  },
+  "1892_18920721-VE3.jpg": {
+   "blocks": [
+    "LZSTXIVLPKTKXMT"
+   ],
+   "context": "V E. 3.-J'ecr. poste rest. imposs. fix. jour. Ecriv. nouvelles. lzstxi vlpkt kxmt. (Round 71: read by eye from the scan; signed V. E. 3; the key runs on across words.)"
+  }
  }
 }

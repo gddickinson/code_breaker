@@ -330,3 +330,12 @@ Hunt (5 minutes): no new leads from the hunt. Four Caesar-shift leads (1896-08-1
 
 ## 2026-11-10: Round 70
 Hunt (5 minutes): no new leads. Twelve early table 2119 leads (Dec 1883 to May 1886), read only from OCR in Round 26, were transcribed from the scans into `checked_early` in `letter_digit_family.json`. All twelve read under `figaro_2119.full_key()` with p<=5e-4 against 2,000 shuffled copies (Bonferroni bar 0.05/12): for example 26 Dec 1883 "... merci, refuse reveil pour rester avec ta pensee, t'aime a passion, m[a] Tilly". `full_timeline()` now includes the section. Leads 72 and 177 received results from earlier rounds. Triage: A 6, B 159, C 15, D 11 (table 2119: B 116, C 4). Test added. Next (Round 71): the remaining C families.
+
+## 2026-11-10: Round 71
+Hunt (5 minutes): no new leads. New module `codebreaker/mysteries/figaro_tierc2.py` retests the last tier-C families with nulls fixed in its docstring before running (Bonferroni over 17 rows, bar 0.0029):
+- Berthe (table 2217): 3 of 3 pass (p=1e-3, best of all letter tables against shuffles); 1 Jul 1882 transcribed from the scan: "Aime moi un peu, je t'aime et desire tant te baiser".
+- C. H.: 3 of 3 pass once the null had 1,000 shuffles (the first run used 200, whose floor 1/201 was above the bar; recorded as a lesson).
+- Four abbreviated table 2119 ads: 4 of 4 pass with a prefix-word share (0.69-0.94 against 0.11-0.38 under the best other table); planted abbreviated control 12 of 12.
+- V. E. 3: all six ads of 1889-92 (four transcribed from the scans for the first time) read under the C. H. key CEAD with the key running on across words; pooled p=1e-3; four pass alone, the 6-letter QUATRE (p=0.013) and the slipped HEURES ad (p=0.005) do not. Readings: "Serai [le] 8, 14, 22, pas [le] 15"; "Lundi, pas avant 6 1/2"; "Esp[ere] sept, six heures, sinon lendem[ain] a 10"; "Ecriv[ez] nouvelles jusque [le] 28"; "Suis en Italie, absent un mois"; "Penserai [a] v[ous] quatre". The database lists all six as unsolved; novelty otherwise unconfirmed.
+- Lead 27 closed as a duplicate of lead 80. AIM (63, 64) and OPQ (62) stay in C, with reasons. The triage now honours "stays in tier C" in the latest statement (OPQ had risen to B on an old p-value).
+The Berthe family now has 6 ads (`figaro_families` regenerated; its test updated). Five V. E. 3 leads and codes, two facts and two avenues added. Triage: A 6, B 173, C 5, D 11. Next (Round 72): screen unsolved letter ads of 1885-95 under the CEAD key.

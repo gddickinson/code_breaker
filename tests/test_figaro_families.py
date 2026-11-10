@@ -25,7 +25,7 @@ def test_berthe_correspondence_under_table_2217():
     last = " ".join(apply(t, w.upper()) for w in tr["1882_18821224-5.jpg"]["cipher"].split())
     assert "TE BAISE PARTOUT MA BERT" in last
     fam = F.run()["families"]["2217"]
-    assert len(fam["ads"]) == 5 and not fam["common_system"] and fam["span"] == ["1881-10-12", "1882-12-24"]
+    assert len(fam["ads"]) == 6 and not fam["common_system"] and fam["span"] == ["1881-10-12", "1882-12-24"]
 
 
 def test_caesar_table_is_flagged_common():

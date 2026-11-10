@@ -31,3 +31,8 @@ def test_latest_round_weakness_supersedes_but_gates_persist():
     assert T.tier(gates_then_detail, "") == "A"
     latest_weak = "Round 47: p=5e-4 (Bonferroni). Read by eye. Round 59: does not pass the bar after retranscription."
     assert T.tier(latest_weak, "") == "C"
+
+
+def test_explicit_stays_in_c_overrides_old_p_value():
+    ev = "Round 69: transcribed from the scan; p=0.3007; does not pass. Round 71: stays in tier C: mostly plain text."
+    assert T.tier(ev, "") == "C"

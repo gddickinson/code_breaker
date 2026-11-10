@@ -1,11 +1,11 @@
 {
  "id": "review_triage",
- "leads": 191,
+ "leads": 195,
  "tiers": {
   "D": 11,
-  "B": 159,
+  "B": 173,
   "A": 6,
-  "C": 15
+  "C": 5
  },
  "by_family": {
   "other codes": {
@@ -23,19 +23,17 @@
    "D": 2
   },
   "C. H. (Vigenere CEAD)": {
-   "C": 5,
-   "B": 1
+   "B": 8,
+   "C": 2
   },
   "Berthe / table 2217": {
-   "C": 3,
-   "B": 3
+   "B": 6
   },
   "documented table 2402": {
    "B": 10
   },
   "table 2119 correspondence": {
-   "B": 116,
-   "C": 4
+   "B": 120
   },
   "AIM dictionary code": {
    "C": 2
@@ -124,7 +122,7 @@
    "code": "figaro-1890-10-26-ve3",
    "status": "needs_review",
    "family": "C. H. (Vigenere CEAD)",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (Vigenere CEAD, no W)",
    "reading": "Suis en Italie, absent un mois. Amit[ies]."
   },
@@ -156,15 +154,6 @@
    "reading": "Lettre trop tard mar[di?] Dec[embre?]. Donnez rendez-vous."
   },
   {
-   "id": 27,
-   "code": "figaro-1886-06-29-ch",
-   "status": "needs_review",
-   "family": "C. H. (Vigenere CEAD)",
-   "tier": "C",
-   "title": "Candidate reading (Vigenere CEAD, no W)",
-   "reading": "Tachez eviter sans refusez [partly read]."
-  },
-  {
    "id": 28,
    "code": "figaro-1894-10-03-25",
    "status": "needs_review",
@@ -178,7 +167,7 @@
    "code": "figaro-1882-06-01-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (table 2217)",
    "reading": "Pourquoi pas ecrire fa[che?] es grand peine amie. Round 45, transcribed from the scan: 'Pourquoi pas ecrire? Fa[i]tes grand peine [a votre] amie.' Part of the t"
   },
@@ -223,7 +212,7 @@
    "code": "figaro-1882-12-24-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (table 2217)",
    "reading": "Triste d'adieu si froid ton... meme te desire folle... te baise partout [partly read]. Round 45, transcribed from the scan: 'Triste adieu si froid. T'aime quand"
   },
@@ -232,7 +221,7 @@
    "code": "figaro-1882-07-01-5",
    "status": "needs_review",
    "family": "Berthe / table 2217",
-   "tier": "C",
+   "tier": "B",
    "title": "Le Figaro 1 Jul 1882, writer 5: readable under table 2217",
    "reading": "Aime moi un peu, je t'aime et desire tant te baiser."
   },
@@ -619,7 +608,7 @@
    "code": "figaro-1884-07-30-ch",
    "status": "needs_review",
    "family": "C. H. (Vigenere CEAD)",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
    "reading": "[...] ce que j'ai fait a notre e[n]fant (one key step skipped after FAIT; EDFANT for ENFANT)"
   },
@@ -628,7 +617,7 @@
    "code": "figaro-1884-08-05-ch",
    "status": "needs_review",
    "family": "C. H. (Vigenere CEAD)",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
    "reading": "Je pars. Espere encore [re?]voir ce[z] moi."
   },
@@ -637,7 +626,7 @@
    "code": "figaro-1886-06-29-ch",
    "status": "needs_review",
    "family": "C. H. (Vigenere CEAD)",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
    "reading": "Tachez eviter sans refuse[r]. Tac. Le huit."
   },
@@ -1600,7 +1589,7 @@
    "code": "figaro-1886-05-31-e",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "ENV PLUM HI AUR VOUL ETR AV NL TAD MA FEM CHE"
   },
@@ -1672,7 +1661,7 @@
    "code": "figaro-1886-01-24-t",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "A BIENT MAINT MA CHE TAIME AUTTI PL QUE C FOIS"
   },
@@ -1690,7 +1679,7 @@
    "code": "figaro-1886-06-02-t",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "MERC NOUV AMI CHAL VA GUER GEN MA TL ADO TAI"
   },
@@ -1699,7 +1688,7 @@
    "code": "figaro-1886-06-13-t",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "BA CE SOIR CHAL MOND EVEN BOUL TATT MARD LOV"
   },
@@ -1774,6 +1763,51 @@
    "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "NECESS KNOW WHATHE IS ABOUT BEFHE GOES TO AVOID BE CAUGHT ASK EBPLAN MOI AUSSI COEUR BAT"
+  },
+  {
+   "id": 209,
+   "code": "figaro-1889-11-01-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "B",
+   "title": "Candidate reading (Vigenere CEAD, no W; the V. E. 3 key runs on across words)",
+   "reading": "Serai [le] huit, quatorze, vingt-deux, pas [le] 15."
+  },
+  {
+   "id": 210,
+   "code": "figaro-1890-07-01-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CEAD, no W; the V. E. 3 key runs on across words)",
+   "reading": "Heur[eux] de bonne nouv[elle]. Esp[ere] v[ous] voir bientot. Penserai [a] v[ous] quatre. Courage et confiance."
+  },
+  {
+   "id": 211,
+   "code": "figaro-1891-06-11-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "B",
+   "title": "Candidate reading (Vigenere CEAD, no W; the V. E. 3 key runs on across words)",
+   "reading": "Lundi, pas avant 6 1/2."
+  },
+  {
+   "id": 212,
+   "code": "figaro-1891-12-26-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CEAD, no W; the V. E. 3 key runs on across words)",
+   "reading": "Esp[ere] sept, six heures, sinon lendem[ain] a 10. A."
+  },
+  {
+   "id": 213,
+   "code": "figaro-1892-07-21-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "B",
+   "title": "Candidate reading (Vigenere CEAD, no W; the V. E. 3 key runs on across words)",
+   "reading": "J'ecr[is] poste rest[ante], imposs[ible] fix[er] jour. Ecriv[ez] nouvelles jusque [le] vingt-huit."
   }
  ]
 }

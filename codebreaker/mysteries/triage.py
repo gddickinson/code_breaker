@@ -41,7 +41,7 @@ def tier(evidence: str, detail: str) -> str:
     if "not yet checked" in latest:
         return "D"
     three = any(k in e for k in ("all three gates pass", "three gates pass", "passes all three gates"))
-    weak = any(k in latest for k in ("does not pass", "in part", "missed", "narrowly fails", "fails (", "not all passed", "not significant"))
+    weak = any(k in latest for k in ("does not pass", "in part", "missed", "narrowly fails", "fails (", "not all passed", "not significant", "stays in tier c"))
     strong = bool(re.search(r"p\s*[<=]+\s*\d|p=\d|bonferroni|z=\d", e))
     if checked and three and not weak:
         return "A"
