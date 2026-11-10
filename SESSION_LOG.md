@@ -204,3 +204,6 @@ Ran `scripts/find_problems.py`. It added no codes (184 tracked before and after;
 ## 2026-11-09: Round 33
 Added Audio Signals (Tools): DTMF touch tones, Morse code and APRS packets (AX.25 over 1200 baud AFSK, CRC-16/X-25 matching its published check value) are identified and decoded from generated examples, uploaded recordings or the microphone. Control: 18 of 18 recordings on two seeds, 0 of 8 noise and tone recordings decoded. APRS decodes 20 of 20 packets at low and moderate noise and 18 of 20 at heavy noise. NEC and RC5 infrared remotes joined the Logic Analyser, whose eight-protocol control is 80 of 80 on both seeds. ADS-B and barcodes moved to Round 33b.
 
+## 2026-11-09: Round 33b
+Added Aircraft (ADS-B): Mode S messages are decoded for identity, altitude, position (even and odd CPR pairs) and velocity, matching the published worked examples exactly. A generated sky of aircraft is broadcast as pulse-position signals and decoded back; single-bit CRC repair is used. At low noise every aircraft is decoded completely; noise alone gave no false messages. Added EAN-13 and QR reading: EAN-13 30 of 30 with tilt, blur and noise and no wrong readings, QR 23 of 30; the File Inspector now lists codes found in pictures.
+

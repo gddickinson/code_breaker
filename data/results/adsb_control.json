@@ -1,0 +1,79 @@
+{
+ "rows": [
+  {
+   "noise": 0.05,
+   "messages": 24,
+   "decoded": 24,
+   "aircraft_right": 6
+  },
+  {
+   "noise": 0.1,
+   "messages": 24,
+   "decoded": 24,
+   "aircraft_right": 6
+  },
+  {
+   "noise": 0.15,
+   "messages": 24,
+   "decoded": 24,
+   "aircraft_right": 6
+  },
+  {
+   "noise": 0.2,
+   "messages": 24,
+   "decoded": 2,
+   "aircraft_right": 0
+  },
+  {
+   "noise": 0.25,
+   "messages": 24,
+   "decoded": 0,
+   "aircraft_right": 0
+  },
+  {
+   "noise": 0.3,
+   "messages": 24,
+   "decoded": 1,
+   "aircraft_right": 0
+  },
+  {
+   "noise": 0.05,
+   "messages": 24,
+   "decoded": 24,
+   "aircraft_right": 6
+  },
+  {
+   "noise": 0.1,
+   "messages": 24,
+   "decoded": 24,
+   "aircraft_right": 6
+  },
+  {
+   "noise": 0.15,
+   "messages": 24,
+   "decoded": 23,
+   "aircraft_right": 3
+  },
+  {
+   "noise": 0.2,
+   "messages": 24,
+   "decoded": 23,
+   "aircraft_right": 5
+  },
+  {
+   "noise": 0.25,
+   "messages": 24,
+   "decoded": 2,
+   "aircraft_right": 0
+  },
+  {
+   "noise": 0.3,
+   "messages": 24,
+   "decoded": 0,
+   "aircraft_right": 0
+  }
+ ],
+ "aircraft": 72,
+ "aircraft_right": 38,
+ "null_frames": 0
+}

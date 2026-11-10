@@ -65,7 +65,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 32 | Line Codes: Manchester, 4B5B with NRZI, 8b/10b, TMDS and Ethernet frames with CRC-32, checked against published reference values; identification 48 of 48 on two seeds | completed 2026-11-09 |
 | 32b | Video Signals: VGA (five standard modes) and monochrome composite rebuilt from samples; control 36 of 36, mean match 0.945, 0 of 10 noise signals decoded | completed 2026-11-09 |
 | 33 | Audio Signals: DTMF, Morse and APRS (AX.25 over AFSK), control 18 of 18 on two seeds, 0 of 8 noise decoded; NEC and RC5 infrared in the Logic Analyser (80 of 80, eight protocols) | completed 2026-11-09 |
-| 33b | ADS-B Mode S (PPM, CRC-24; test vector 8D4840D6202CC371C32CE0576098 = KLM1023), barcodes and QR codes from images | pending |
+| 33b | Aircraft (ADS-B): published worked examples matched; single-bit repair; every aircraft decoded at low noise, 0 false frames from noise. Barcodes: EAN-13 30 of 30 under damage, QR 23 of 30, no wrong EANs; codes read in the File Inspector | completed 2026-11-09 |
 | 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
 
 ## Lessons learned
@@ -256,4 +256,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - A bit clock that resets on every tone change loses whole bits to noise near the decision boundary. Smoothing plus a half-way nudge from changes since the last sample fixed it; a nudge window centred on the sample point instead pulled the clock onto the next boundary and broke every packet.
 - A "is there a signal" check must take the noise floor low in the distribution: a busy Morse message is tone most of the time, so the 20th percentile is already signal.
 - Misses that decode nothing are acceptable failures; the CRC turned every damaged APRS frame into a refusal rather than a wrong message.
+
+## Added 2026-11-09: Round 33b
+- Published worked examples pin the decoder (KLM1023; 52.2572 N, 3.91937 E at 38,000 ft; 159.2 kt, 182.88 degrees, -832 ft/min); my own encoder was wrong (a missing 3-bit field) and only the round trip showed it.
+- In EAN-13 the right-hand patterns are the left-hand ones inverted, so they share bar widths: one lookup table silently swallowed half the code. Side decides the table.
+- OpenCV 5's barcode detector missed even clean EAN-13 images here, so a scanline reader written from the specification replaced it.
 

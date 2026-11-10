@@ -1,0 +1,8 @@
+{
+ "trials": 30,
+ "qr_read": 23,
+ "ean_read": 30,
+ "ean_wrong": 0,
+ "null_images": 6,
+ "null_codes": 0
+}

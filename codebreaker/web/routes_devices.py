@@ -174,3 +174,24 @@ def audio_codes(body: AudioCodeIn):
     if body.example not in ("dtmf", "morse", "aprs"):
         raise HTTPException(400, "Choose dtmf, morse or aprs.")
     return guarded(S.analyse_example, body.example, body.message[:80], min(max(body.noise, 0.0), 0.8))
+
+
+class AdsbIn(BaseModel):
+    aircraft: int = 6
+    noise: float = 0.1
+    seed: int = 1
+    hex: str = ""
+
+
+@router.post("/api/signals/adsb")
+def adsb(body: AdsbIn):
+    from ..signals import adsb_service as A, modes as M
+
+    if body.hex:
+        msgs = [h.strip() for h in body.hex.replace(",", " ").split() if h.strip()]
+        if not msgs or any(len(h) not in (14, 28) or any(c not in "0123456789abcdefABCDEF" for c in h) for h in msgs):
+            raise HTTPException(400, "Give Mode S messages as 14 or 28 hex digits.")
+        frames = [M.decode(h) for h in msgs]
+        return {"frames": frames, "planes": A.track(frames), "reliability": A.reliability()}
+    r = guarded(A.run, min(max(body.aircraft, 1), 20), min(max(body.noise, 0.0), 0.5), body.seed)
+    return r | {"reliability": A.reliability()}

@@ -20,6 +20,19 @@ def _png(img) -> str:
     return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
 
 
+def _codes(im) -> list[dict]:
+    """QR codes and EAN-13 barcodes in the picture, read by the Signal tools."""
+    from ..signals.barcodes import read_codes
+
+    try:
+        arr = np.array(im.convert("L"))
+        if max(arr.shape) > 2500:
+            return []
+        return read_codes(arr)
+    except Exception:  # a picture that cannot be scanned still opens
+        return []
+
+
 def image(path: str) -> dict:
     from PIL import ExifTags, Image
 
@@ -33,6 +46,9 @@ def image(path: str) -> dict:
                     exif[name] = "present (location data)" if name == "GPSInfo" else str(v)[:80]
         except Exception:  # broken EXIF should not stop the preview
             pass
+        codes = _codes(im)
+        if codes:
+            info["Codes found"] = "; ".join(f"{c['type']}: {c['text']}" for c in codes)
         thumb = im.convert("RGBA") if im.mode not in ("RGB", "RGBA", "L") else im.copy()
         thumb.thumbnail((900, 900))
         return {"view": "image", "src": _png(thumb), "facts": info | exif}
