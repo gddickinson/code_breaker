@@ -8,15 +8,15 @@ import random
 import numpy as np
 
 from ..languages import ROOT
-from . import logic_bus as B, logic_decode as D, logic_synth as S, logic_usb as U
+from . import ir as IR, logic_bus as B, logic_decode as D, logic_synth as S, logic_usb as U
 
 RESULT = ROOT / "data/results/logic_control.json"
 MAX_SAMPLES = 20_000_000
 
 
 # How hard each protocol's own checks are to pass by chance: a CRC-15 almost never; two framing bits per UART byte often.
-NEEDED = {"CAN": 1, "I2C": 2, "USB": 2}  # units needed before the evidence counts fully
-EVIDENCE = {"USB": 1.4, "CAN": 1.4, "I2C": 1.2, "1-Wire": 1.2, "SPI": 1.1, "UART": 1.0}
+NEEDED = {"CAN": 1, "I2C": 2, "USB": 2, "NEC infrared": 1, "RC5 infrared": 1}  # units needed before the evidence counts fully
+EVIDENCE = {"NEC infrared": 1.3, "RC5 infrared": 1.05, "USB": 1.4, "CAN": 1.4, "I2C": 1.2, "1-Wire": 1.2, "SPI": 1.1, "UART": 1.0}
 
 
 def looks_like_clock(x: np.ndarray) -> bool:
@@ -32,7 +32,10 @@ def _score(r: dict, ch: dict) -> float:
     """Share of decoded units that pass the protocol's checks, weighted by how strong those checks are."""
     n = len(r.get("bytes", []))
     p = r["protocol"]
-    if p == "USB":
+    if p in ("NEC infrared", "RC5 infrared"):
+        n = len(r.get("frames", []))
+        ok = sum(f["ok"] for f in r.get("frames", []))
+    elif p == "USB":
         n = len(r.get("packets", []))
         ok = sum(1 for x in r.get("packets", []) if x.get("ok") and "error" not in x)
     elif p == "CAN":
@@ -60,7 +63,7 @@ def identify(ch: dict, rate: float) -> list[dict]:
     names = [k for k, v in ch.items() if len(D.edges(v)) >= 4]
     trials = []
     for a in names:
-        trials += [(D.uart(ch[a], rate), {"RX": a}), (B.can(ch[a], rate), {"CAN": a}), (B.onewire(ch[a], rate), {"DQ": a})]
+        trials += [(D.uart(ch[a], rate), {"RX": a}), (B.can(ch[a], rate), {"CAN": a}), (B.onewire(ch[a], rate), {"DQ": a}), (IR.decode_nec(ch[a], rate), {"IR": a}), (IR.decode_rc5(ch[a], rate), {"IR": a})]
     for a, b in itertools.permutations(names, 2):
         trials.append((D.i2c(ch[a], ch[b], rate), {"SCL": a, "SDA": b}))
         trials.append((U.decode(ch[a], ch[b], rate), {"D+": a, "D-": b}))
@@ -95,6 +98,10 @@ def example(kind: str, message: str = "Code Breaker", glitches: int = 3, seed: i
     if kind == "can":
         frames = [(0x100 + i, data[i:i + 8]) for i in range(0, len(data), 8)]
         return S.can(frames, 250000).sample(4e6, rnd, 0, glitches), 4e6, {"protocol": "CAN", "settings": "250 kbit/s"}
+    if kind == "nec":
+        return IR.nec(0x04, data[0] if data else 0x08, 2).sample(200e3, rnd, 0, glitches), 200e3, {"protocol": "NEC infrared", "settings": "address 0x04"}
+    if kind == "rc5":
+        return IR.rc5(0x05, (data[0] if data else 12) & 0x3F, 1).sample(200e3, rnd, 0, glitches), 200e3, {"protocol": "RC5 infrared", "settings": "address 5"}
     if kind == "usb":
         packets = [(0x9, 3, 1), (0xB, 0, 0, data[:64]), (0x2,)]
         return U.transaction(packets, "full").sample(48e6, rnd, 0, glitches), 48e6, {"protocol": "USB", "settings": "full speed, address 3, endpoint 1"}
@@ -139,16 +146,18 @@ def waveform(ch: dict, rate: float, points: int = 3000) -> dict:
     return {"channels": out, "duration": len(next(iter(ch.values()))) / rate}
 
 
-def control(trials: int = 60, seed: int = 9) -> dict:
+def control(trials: int = 80, seed: int = 9) -> dict:
     rnd, rows = random.Random(seed), []
-    kinds = ["uart", "spi", "i2c", "can", "onewire", "usb"]
+    kinds = ["uart", "spi", "i2c", "can", "onewire", "usb", "nec", "rc5"]
     for t in range(trials):
         kind = kinds[t % len(kinds)]
         msg = "".join(rnd.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ") for _ in range(rnd.randint(6, 20)))
         ch, rate, truth = example(kind, msg, rnd.randint(0, 4), t)
         ranked = identify(ch, rate)
         best = ranked[0] if ranked else {"protocol": "", "bytes": []}
-        rows.append({"kind": truth["protocol"], "got": best["protocol"], "protocol_ok": best["protocol"] == truth["protocol"], "bytes_ok": text_of(best) == msg})
+        want = {"NEC infrared": msg[:1], "RC5 infrared": chr(ord(msg[0]) & 0x3F)}.get(truth["protocol"], msg)
+        got = text_of(best) if truth["protocol"] not in ("NEC infrared", "RC5 infrared") else "".join(chr(f["command"]) for f in best.get("frames", [])[:1])
+        rows.append({"kind": truth["protocol"], "got": best["protocol"], "protocol_ok": best["protocol"] == truth["protocol"], "bytes_ok": got == want})
     return {"trials": trials, "protocol_ok": sum(r["protocol_ok"] for r in rows), "bytes_ok": sum(r["bytes_ok"] for r in rows), "rows": rows}
 
 

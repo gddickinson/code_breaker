@@ -1,0 +1,98 @@
+{
+ "trials": 18,
+ "correct": 18,
+ "null_trials": 8,
+ "null_decoded": 0,
+ "rows": [
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "DTMF touch tones",
+   "got": "DTMF touch tones",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "Morse code",
+   "got": "Morse code",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  },
+  {
+   "kind": "APRS (AX.25 over AFSK)",
+   "got": "APRS (AX.25 over AFSK)",
+   "ok": true
+  }
+ ]
+}

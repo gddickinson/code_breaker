@@ -1,7 +1,7 @@
 {
- "trials": 60,
- "protocol_ok": 60,
- "bytes_ok": 60,
+ "trials": 80,
+ "protocol_ok": 80,
+ "bytes_ok": 80,
  "rows": [
   {
    "kind": "UART",
@@ -40,38 +40,14 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
   {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "USB",
-   "got": "USB",
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -112,38 +88,14 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
   {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "USB",
-   "got": "USB",
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -184,38 +136,14 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
   {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "USB",
-   "got": "USB",
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -256,38 +184,14 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
   {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "USB",
-   "got": "USB",
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -328,6 +232,18 @@
    "bytes_ok": true
   },
   {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
    "kind": "UART",
    "got": "UART",
    "protocol_ok": true,
@@ -360,6 +276,210 @@
   {
    "kind": "USB",
    "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "NEC infrared",
+   "got": "NEC infrared",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "RC5 infrared",
+   "got": "RC5 infrared",
    "protocol_ok": true,
    "bytes_ok": true
   }

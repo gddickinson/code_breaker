@@ -24,6 +24,7 @@ function lgSetup(d) {
 function lgShow(r) {
   const best = r.ranking[0], rel = r.reliability;
   const detail = !best ? "" : best.protocol === "USB" ? table(["Packet", "Address", "Endpoint", "Bytes", "Check"], best.packets.map(p => [p.pid || p.error, p.addr ?? "", p.endp ?? "", p.data ? lgSetup(p.data) || p.data.map(v => v.toString(16).padStart(2, "0")).join(" ") : "", p.error ? p.error : p.ok ? "CRC correct" : "CRC wrong"]))
+    : best.protocol.endsWith("infrared") ? table(["Address", "Command", "Check"], best.frames.map(f => [f.address, f.command, f.ok ? "passes" : "fails"]))
     : best.protocol === "CAN" ? table(["ID", "Data", "CRC"], best.frames.map(f => [`0x${f.id.toString(16)}`, f.data.map(v => v.toString(16).padStart(2, "0")).join(" "), f.crc_ok ? "correct" : "wrong"]))
     : best.protocol === "I2C" ? table(["Address", "Direction", "Bytes", "All acknowledged"], best.messages.map(m => [`0x${m.address.toString(16)}`, m.read ? "read" : "write", m.data.length, m.acks.every(Boolean) ? "yes" : "no"])) : "";
   const settings = b => [b.baud && `${b.baud} baud`, b.bitrate && `${b.bitrate / 1000} kbit/s`, b.mode !== undefined && `mode ${b.mode}`, b.inverted && "inverted", b.resets !== undefined && `${b.resets} reset(s)`, b.speed && `${b.speed} speed`, b.messages && b.messages.length && `address 0x${b.messages[0].address.toString(16)}`].filter(Boolean).join(", ");
@@ -36,7 +37,7 @@ function lgShow(r) {
 
 route(/^\/logic$/, async () => {
   view().innerHTML = `<p class="kicker">// LOGIC ANALYSER</p><h1>Logic Analyser</h1><p class="lead">A logic analyser records the voltage on each wire as 0s and 1s. To read it you must know the protocol, its speed and which wire does what. This page works all three out.</p>
-    <div class="panel"><div class="row"><div><label for="lgK">Generate a capture</label><select id="lgK"><option value="uart">UART serial</option><option value="spi">SPI</option><option value="i2c">I2C</option><option value="can">CAN bus</option><option value="onewire">1-Wire</option><option value="usb">USB (full speed)</option></select></div>
+    <div class="panel"><div class="row"><div><label for="lgK">Generate a capture</label><select id="lgK"><option value="uart">UART serial</option><option value="spi">SPI</option><option value="i2c">I2C</option><option value="can">CAN bus</option><option value="onewire">1-Wire</option><option value="usb">USB (full speed)</option><option value="nec">NEC infrared remote</option><option value="rc5">RC5 infrared remote</option></select></div>
     <div><label for="lgM">Message</label><input id="lgM" value="Code Breaker"></div><div><label for="lgG">Glitches</label><input id="lgG" type="number" min="0" max="20" value="3"></div></div><button id="lgGo">Generate and decode</button>
     <label class="filebtn">Or open a logic-analyser CSV<input id="lgF" type="file" accept=".csv,.txt"></label> <span class="mute">A time column (seconds) and one 0/1 column per wire, as exported by sigrok or Saleae.</span><p id="lgMsg" aria-live="polite"></p></div><div id="lgOut"></div>`;
   $("#lgGo").onclick = ev => busy(ev.target, $("#lgMsg"), async () => lgShow(await api("/signals/logic", { example: $("#lgK").value, message: $("#lgM").value, glitches: +$("#lgG").value })));

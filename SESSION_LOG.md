@@ -201,3 +201,6 @@ Added Video Signals (Tools): sampled VGA in five standard modes (640x480, 720x40
 ## 2026-11-09: Problem finder check
 Ran `scripts/find_problems.py`. It added no codes (184 tracked before and after; Wikipedia categories returned 21 and 26 entries and AZdecrypt 43 files, all already tracked; the "Unsolved problems in cryptography" category still returns nothing). No duplicates or aliases to remove and no ciphertext added. The database's count of readable attempts rose from 1 to 2 only because the hunter repeated the known 1 July 1896 Le Figaro reading (the IGNOTA ad, already solved in the source database); nothing new.
 
+## 2026-11-09: Round 33
+Added Audio Signals (Tools): DTMF touch tones, Morse code and APRS packets (AX.25 over 1200 baud AFSK, CRC-16/X-25 matching its published check value) are identified and decoded from generated examples, uploaded recordings or the microphone. Control: 18 of 18 recordings on two seeds, 0 of 8 noise and tone recordings decoded. APRS decodes 20 of 20 packets at low and moderate noise and 18 of 20 at heavy noise. NEC and RC5 infrared remotes joined the Logic Analyser, whose eight-protocol control is 80 of 80 on both seeds. ADS-B and barcodes moved to Round 33b.
+

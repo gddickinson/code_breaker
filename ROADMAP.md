@@ -64,7 +64,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 31c | Codes in Nature: 19 entries in five new groups (chemical, light, sound and vibration, electric, honest signals), each with how the message is encoded, and a channel comparison | completed 2026-11-09 |
 | 32 | Line Codes: Manchester, 4B5B with NRZI, 8b/10b, TMDS and Ethernet frames with CRC-32, checked against published reference values; identification 48 of 48 on two seeds | completed 2026-11-09 |
 | 32b | Video Signals: VGA (five standard modes) and monochrome composite rebuilt from samples; control 36 of 36, mean match 0.945, 0 of 10 noise signals decoded | completed 2026-11-09 |
-| 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
+| 33 | Audio Signals: DTMF, Morse and APRS (AX.25 over AFSK), control 18 of 18 on two seeds, 0 of 8 noise decoded; NEC and RC5 infrared in the Logic Analyser (80 of 80, eight protocols) | completed 2026-11-09 |
+| 33b | ADS-B Mode S (PPM, CRC-24; test vector 8D4840D6202CC371C32CE0576098 = KLM1023), barcodes and QR codes from images | pending |
 | 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
 
 ## Lessons learned
@@ -250,4 +251,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-09: Round 32b
 - The first video decoder "succeeded" on random noise (with confidence 0.0) and forced an unlisted mode onto the nearest standard. Success now needs regular line syncs and a mode that fits; otherwise the page reports the measurements and the closest mode.
 - Ideas: decode NTSC and PAL colour from the subcarrier; take real captures from an oscilloscope CSV; time-domain reflectometry.
+
+## Added 2026-11-09: Round 33
+- A bit clock that resets on every tone change loses whole bits to noise near the decision boundary. Smoothing plus a half-way nudge from changes since the last sample fixed it; a nudge window centred on the sample point instead pulled the clock onto the next boundary and broke every packet.
+- A "is there a signal" check must take the noise floor low in the distribution: a busy Morse message is tone most of the time, so the 20th percentile is already signal.
+- Misses that decode nothing are acceptable failures; the CRC turned every damaged APRS frame into a refusal rather than a wrong message.
 

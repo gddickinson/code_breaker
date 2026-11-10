@@ -156,3 +156,21 @@ def video(body: VideoIn):
     if body.kind != "composite" and body.kind not in V.MODES:
         raise HTTPException(400, "Unknown video mode.")
     return guarded(lambda: S.example(body.kind, min(max(body.factor, 0.5), 2.0), min(max(body.noise, 0.0), 0.2)) | {"reliability": S.reliability(), "modes": list(V.MODES)})
+
+
+class AudioCodeIn(BaseModel):
+    example: str = ""
+    message: str = "CQ DE CODE BREAKER"
+    noise: float = 0.05
+    data: str = ""
+
+
+@router.post("/api/signals/audio")
+def audio_codes(body: AudioCodeIn):
+    from ..signals import audio_service as S
+
+    if body.data:
+        return guarded(S.analyse_upload, body.data)
+    if body.example not in ("dtmf", "morse", "aprs"):
+        raise HTTPException(400, "Choose dtmf, morse or aprs.")
+    return guarded(S.analyse_example, body.example, body.message[:80], min(max(body.noise, 0.0), 0.8))
