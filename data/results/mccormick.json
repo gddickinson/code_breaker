@@ -1,0 +1,113 @@
+{
+ "id": "mccormick",
+ "letters": 746,
+ "vowel_share": 0.245,
+ "top": [
+  [
+   "e",
+   132
+  ],
+  [
+   "s",
+   99
+  ],
+  [
+   "n",
+   90
+  ],
+  [
+   "r",
+   64
+  ],
+  [
+   "c",
+   48
+  ],
+  [
+   "l",
+   48
+  ],
+  [
+   "t",
+   42
+  ],
+  [
+   "b",
+   32
+  ],
+  [
+   "p",
+   29
+  ],
+  [
+   "m",
+   28
+  ]
+ ],
+ "models": {
+  "plain": {
+   "kl": 0.3166,
+   "null_mean": 0.021,
+   "null_max": 0.2136,
+   "p": 0.0005,
+   "rejected": true,
+   "vowel_share_model": 0.379
+  },
+  "vowel_dropped": {
+   "kl": 0.6177,
+   "null_mean": 0.0236,
+   "null_max": 0.2032,
+   "p": 0.0005,
+   "rejected": true,
+   "vowel_share_model": 0.092
+  },
+  "initials": {
+   "kl": 0.7108,
+   "null_mean": 0.0361,
+   "null_max": 0.2246,
+   "p": 0.0005,
+   "rejected": true,
+   "vowel_share_model": 0.274
+  },
+  "substitution": {
+   "kl": 0.0524,
+   "null_mean": 0.0088,
+   "null_max": 0.054,
+   "p": 0.001,
+   "rejected": true,
+   "vowel_share_model": 0.379
+  }
+ },
+ "endings": {
+  "groups": 109,
+  "top": [
+   [
+    "se",
+    42
+   ],
+   [
+    "be",
+    15
+   ],
+   [
+    "ld",
+    6
+   ],
+   [
+    "re",
+    5
+   ],
+   [
+    "te",
+    5
+   ],
+   [
+    "le",
+    4
+   ]
+  ],
+  "se_share": 0.385,
+  "se_share_english": 0.011
+ },
+ "not_rejected": []
+}
