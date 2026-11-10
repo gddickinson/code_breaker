@@ -1,0 +1,9 @@
+{
+ "source": "Le Figaro personal column, unsolved ads whose writers have a documented table in Didier Muller's database (codes.html). Read by eye from the scans in data/sources/figaro/images, Round 42. Signatures and plain words left out.",
+ "ads": {
+  "1899_18991014-P.jpg": {"table": "1005", "cipher": "X fnr jsa xzny hj yfn ijs fa stza xfsy r gfnx", "reading": "[S.] aim[e], env[oie] suit[e] ce t'ai dem[ande?] av[ec] nouv[elles] sant[e], m[ille] bais[ers]."},
+  "1890_18900619-GEO.jpg": {"table": "1110", "cipher": "Rhjexjx oyuunvnxd Sndjddnmc Dyedjdyr", "reading": "Il y a un an! Follement je t'attends. Tout a toi.", "note": "a printed 19 before the second word is left out"},
+  "1881_18811119-ZZ.jpg": {"table": "2217", "cipher": "lq xhbbch uhcrq ulqd hncqdx dhuchbh is fhd lqgd blfich qdhggsqh fi e klqdh bhd xhrchd ul nphcqh", "reading": "Ai lettre, merci, mais ecris ... t'adore, s'ennuie de [toi?]. Je baise tes levres, ma cherie."},
+  "1888_18880803-930.jpg": {"table": "1011", "cipher": "nzfc dft nzye opdtc b e alcw nzyetyf txa dftg nzyd ltx ecz opalc lacp wpe cpn pn xlro mpdp", "reading": "Cour[age]. Sui[s] cont[ent], desir q[ue] t[u] parl[es]... continu... imp... suiv... cons... aim... trop... depar[t] apre[s] let[tre] rec[ue]..."}
+ }
+}

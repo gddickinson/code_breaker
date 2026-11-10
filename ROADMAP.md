@@ -75,7 +75,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 39 | V. T. A. two-letter symbols: neighbouring second letters raise held-out coverage from 78.4% to 84.1%, but random non-neighbour letters do as well (84.3% mean, 86.8% max, p=0.59). Not supported; key unchanged | completed 2026-11-09 |
 | 40 | Pooled blind substitution by writer, plain stretches cut first. Real control: solved MINA and KP pass, TR and Jean fail (key changes between ads). Unsolved: 1 of 28 writers passes (KP, the existing candidate, now through all three gates against a bar from printed ads) | completed 2026-11-09 |
 | 41 | TR has no unsolved ads and Jean only short ones, so the round moved to writers with a documented system and unsolved ads. C. H. (Vigenere CEAD, no W, documented on 36 solved ads): with the key restarting at each block and one slip allowed, control 37 of 37; 3 of 7 blocks pass all three gates (31 Mar 1884 'priez pour moi', 5 Aug 1884 'je pars', 29 Jun 1886 'tachez eviter sans refuse[r]'), 30 Jul 1884 'ce que j'ai fait a notre e[n]fant' passes the null but misses the word bar narrowly; 1882 does not read. Candidates, checked by eye | completed 2026-11-09 |
-| 42 | Every documented key (substitution tables, Vigenere keys) on its writer's unsolved ads with per-block restarts and one slip, with the C. H. controls | pending |
+| 42 | 63 documented systems (60 tables, 3 Vigenere keys) on 126 unsolved ads of their writers, no free parameters: own system ranks first in 15 ads against 3.4 expected (p=1.9e-6). Nine were already candidates; 4 new readings checked by eye (GEO 1890 'Il y a un an! Follement je t'attends. Tout a toi', ZZ 1881, P 1899, 930 1888); 2 do not read | completed 2026-11-09 |
+| 43 | Ads where the own system ranks 2nd to 10th: transcribe from the scans and re-rank (OCR errors may cost the rank); VE ads under CEAD | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -320,4 +321,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Read the source's notes before searching: the C. H. key was documented all along, and the ads stayed unread because the key restarts at each enciphered block and one letter was dropped in printing.
 - A documented key is not fitted, so the only freedom is the phase and the slip; the null must search exactly that freedom on shuffled copies.
 - The place of a dropped letter is uncertain by a position or two; judge recovery by letters right, not by the slip's position.
+
+## Added 2026-11-09: Round 42
+- Ranking a writer's documented system against every other documented system is a control that needs no simulation: by chance it ranks first 1 time in 63.
+- Give every system the same freedom in that ranking; a Vigenere search with slips would otherwise beat fixed tables on noise.
+- Readings found by an independent test often coincide with earlier candidates; that coincidence is itself evidence the earlier ones were right.
 

@@ -174,6 +174,22 @@ def _ch():
         "table": _t(["Date", "Block", "Decrypted", "Null p", "Word coverage", "Gates"], rows)}]
 
 
+def _documented():
+    """Round 42: each documented system against all others on its writers' unsolved ads."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_documented.json"
+    if not path.exists():
+        return []
+    r = json.loads(path.read_text())
+    rows = [[x["image"][5:13], x["signature"], x["own"], f"{x['coverage']:.0%}", x.get("null_p", ""), x["reading"][:60]] for x in r["rows"] if x["rank"] == 1]
+    return [{"heading": "Documented systems against all others", "paragraphs": [
+        f"The database documents a system for many writers: {r['systems']} systems in all (substitution tables and three Vigenere keys). On {r['ads']} unsolved ads by those writers, each system was applied with no free parameter, and the writer's own system ranked first {r['own_first']} times, against {r['expected_first']} expected by chance (p = {r['p_value']:.1e}).",
+        "Nine of those ads were already candidates here. Four are new and read by eye from the scans: GEO, 19 June 1890, 'Il y a un an! Follement je t'attends. Tout a toi'; ZZ, 19 November 1881, 'Ai lettre, merci, mais ecris ... t'adore ... Je baise tes levres, ma cherie'; P, 14 October 1899, and 930, 3 August 1888, both heavily abbreviated. Only P passes every automatic gate; the others fall short on word coverage or on the corrected null threshold, so all four remain candidates. Novelty unconfirmed."],
+        "table": _t(["Date", "Writer", "System", "Word coverage", "Null p", "Reading (OCR)"], rows)}]
+
+
 def _pooled():
     """Round 40: each writer's enciphered stretches pooled and solved blind."""
     import json
@@ -225,4 +241,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _ch() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _ch() + _documented() + _pooled() + _wide() + _layered()
