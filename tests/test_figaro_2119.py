@@ -29,3 +29,22 @@ def test_recorded_result():
     r = json.loads(T.RESULT.read_text())
     assert len(r["new_members"]) >= 4 and all(x["rank"] == 1 for x in r["rows"] if x["passes"])
     assert len(r["screen_passed"]) >= 20 and r["screen_bar"] < 2e-4
+
+
+def test_missing_symbols_inferred_and_held_out():
+    r = json.loads(T.RESULT.read_text())
+    m = r["missing"]
+    assert m["fitted_all"]["P"] == "U" and m["fitted_all"]["H"] == "W"
+    assert m["held_out_gain"] > m["random_gain_max"] and m["p"] <= 0.01
+
+
+def test_extended_readings_and_timeline():
+    r = json.loads(T.RESULT.read_text())
+    assert r["readings_extended"]["1884_18840608-N.jpg"].startswith("NO MY DEAR WIFE I DONT FORGET YOU")
+    dates = [e["date"] for e in r["timeline"]]
+    assert dates == sorted(dates) and len(dates) >= 45 and len(r["checked"]) == 25
+
+
+def test_fit_missing_picks_the_letter_that_makes_words():
+    key = {"A": "L", "B": "O", "C": "E"}
+    assert T.fit_missing(key, ["ABVC"], {"V": list("QVXZ")})["V"] == "V"  # only LOVE is a word

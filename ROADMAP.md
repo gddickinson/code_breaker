@@ -81,7 +81,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 45 | V. T. A. key on 464 letter-digit ads from OCR: none passes Bonferroni (control: only 6 of 17 V. T. A. ads pass from OCR). Transcribed, three Valentin ads (Oct 1878 to Jan 1879) read with the 1877 key ('Deep in snow. Thanks for letter, will write to...'; 'Will send letter Wednesday'). Table 2217 reads five ads of Oct 1881 to Dec 1882 (unsigned, ZZ, 5) as one correspondence to 'ma Berthe cherie' | completed 2026-11-10 |
 | 46 | Date windows, one key each: table 2217 finds exactly the five known Berthe ads among 69 (next p=0.015); the V. T. A. key only the Dec 1878 ad among 62 from OCR. Top letter-digit ads are book codes (1891, 1894) and a letter-digit family of 1882-87 across seven signatures; its pooled blind solve beats shuffles but does not read (likely a nomenclator) | completed 2026-11-10 |
 | 47 | The letter-digit family is the table 2119 correspondence (writer 42, bilingual): 7 of 8 transcribed ads pass (2119 first of 32 tables, p<=0.0045), 5 new members back to Mar 1882. OCR screen of 422 letter-digit ads under 2119: 27 pass Bonferroni, 25 without leads, 4 checked by eye (J 1883 'So sorry not seen you ... t'aime tant ma femme', N 1884 'No my dear wife, I don't forget you', 42 Dec 1881, 8 1887) | completed 2026-11-10 |
-| 48 | Transcribe the 21 remaining 2119 screen hits and check by eye; infer the missing symbol (u/w) with a held-out check; rebuild the 2119 timeline | pending |
+| 48 | All 21 remaining 2119 screen hits transcribed and read by eye (each p<=5e-4). Seven missing symbols inferred (P=U, H=W, A=G, O=L, D=K, Q=B, L=A): held-out gain 18.5% against at most 12.4% for random letters (p=0.005). Timeline of 47 ads, Dec 1881 to Jan 1887 | completed 2026-11-10 |
+| 49 | Table 2119: X read where B is meant (XACK, XESOIN); check the parsed cell, then screen remaining OCR ads under the corrected, extended key | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -354,4 +355,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Try the documented tables on a transcription before inventing a model: the 'codebook' was a documented table whose cells hold syllables and words.
 - A blind letter-substitution solve that beats shuffles but does not read can mean the key maps symbols to multi-letter units.
 - Once a key is known, a screen of OCR under that one key is powerful even where OCR is poor: 27 ads pass a Bonferroni bar over 422.
+
+## Added 2026-11-10: Round 48
+- Missing symbols in a documented key can be inferred fairly with the same held-out design as before: fit on the other ads, measure on the held-out one, and compare with the same fit restricted to random letters.
+- Systematic oddities in the readings (X for B) point to errors in the parsed key, not in the ads.
 
