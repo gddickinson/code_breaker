@@ -1,3 +1,4 @@
+@font-face { font-family:"Noto Sans Runic"; src:url("/static/fonts/NotoSansRunic-Regular.ttf") format("truetype"); } @font-face { font-family:"Noto Sans Ogham"; src:url("/static/fonts/NotoSansOgham-Regular.ttf") format("truetype"); }
 :root { --bg:#07060f; --panel:#0f0d1f; --line:#2c2558; --ink:#e6f4ff; --mute:#9d9ccb; --accent:#00f0ff; --pink:#ff2a6d; --yellow:#f5e642; --good:#39ff88; --bad:#ff5c7a; --c1:#00a0b5; --c2:#e0508c; --c3:#b38400; --c4:#9175e6; --mono: ui-monospace, "SF Mono", Menlo, monospace; --serif: ui-monospace, "SF Mono", Menlo, monospace; }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system, "Helvetica Neue", sans-serif; }

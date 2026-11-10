@@ -53,3 +53,13 @@ def test_api():
     assert c.post("/api/writing/read", json={"text": "ᚠᚢᚦᚨᚱᚲ"}).json()["simple"] == "futhark"
     assert c.post("/api/writing/write", json={"text": "Ra", "script": "egyptian"}).status_code == 200
     assert c.post("/api/writing/write", json={"text": "Ra", "script": "cuneiform"}).status_code == 400
+
+
+def test_downloaded_fonts_unchanged():
+    import hashlib
+    import re
+
+    d = S.ROOT / "codebreaker/web/static/fonts"
+    for name, digest in re.findall(r"\| (\S+\.ttf) \| \S+ \| ([0-9a-f]{64}) \|", (d / "README.md").read_text()):
+        assert hashlib.sha256((d / name).read_bytes()).hexdigest() == digest
+    assert (d / "OFL.txt").exists()
