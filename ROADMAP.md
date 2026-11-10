@@ -63,7 +63,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 31b | USB low and full speed: NRZI, bit stuffing, PIDs, CRC5 and CRC16 checked against the published catalogue values; added to identification, control now 60 of 60 on six protocols (and a fresh 60 of 60) | completed 2026-11-09 |
 | 31c | Codes in Nature: 19 entries in five new groups (chemical, light, sound and vibration, electric, honest signals), each with how the message is encoded, and a channel comparison | completed 2026-11-09 |
 | 32 | Line Codes: Manchester, 4B5B with NRZI, 8b/10b, TMDS and Ethernet frames with CRC-32, checked against published reference values; identification 48 of 48 on two seeds | completed 2026-11-09 |
-| 32b | VGA and composite video timing from sampled signals: find sync, rebuild the picture | pending |
+| 32b | Video Signals: VGA (five standard modes) and monochrome composite rebuilt from samples; control 36 of 36, mean match 0.945, 0 of 10 noise signals decoded | completed 2026-11-09 |
 | 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
 | 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
 
@@ -246,4 +246,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Reference values anchor each code: 8b/10b K28.5 0011111010, D21.5 1010101010 and D0.0 1001110100; TMDS control token 1101010100; CRC-32 0xCBF43926.
 - These codes detect errors but do not correct them. With one flipped bit the code was still named in 37 of 40 streams, but exact messages are lost. A message-level control needs a correcting layer on top.
 - A tidy-up broke the Ethernet check (alignment started two bytes before the delimiter while the parser looked for three); the control caught it at once, which is the point of rerunning it after every change.
+
+## Added 2026-11-09: Round 32b
+- The first video decoder "succeeded" on random noise (with confidence 0.0) and forced an unlisted mode onto the nearest standard. Success now needs regular line syncs and a mode that fits; otherwise the page reports the measurements and the closest mode.
+- Ideas: decode NTSC and PAL colour from the subcarrier; take real captures from an oscilloscope CSV; time-domain reflectometry.
 

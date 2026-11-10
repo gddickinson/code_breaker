@@ -1,0 +1,190 @@
+{
+ "cases": 36,
+ "decoded": 36,
+ "mean_match": 0.945,
+ "worst_match": 0.8,
+ "null_trials": 10,
+ "null_decoded": 0,
+ "rows": [
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.987
+  },
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.921
+  },
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.997
+  },
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.944
+  },
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.995
+  },
+  {
+   "kind": "640x480 @ 60 Hz",
+   "ok": true,
+   "match": 0.922
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.989
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.879
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.994
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.926
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.991
+  },
+  {
+   "kind": "720x400 @ 70 Hz",
+   "ok": true,
+   "match": 0.914
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.993
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.885
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.996
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.935
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.996
+  },
+  {
+   "kind": "800x600 @ 60 Hz",
+   "ok": true,
+   "match": 0.909
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.994
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.926
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.995
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.947
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.996
+  },
+  {
+   "kind": "1024x768 @ 60 Hz",
+   "ok": true,
+   "match": 0.934
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.992
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.93
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.995
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.917
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.993
+  },
+  {
+   "kind": "1280x720 @ 60 Hz",
+   "ok": true,
+   "match": 0.905
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.971
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.8
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.93
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.811
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.958
+  },
+  {
+   "kind": "composite",
+   "ok": true,
+   "match": 0.859
+  }
+ ]
+}

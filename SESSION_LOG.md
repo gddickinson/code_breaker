@@ -195,3 +195,6 @@ The Logic Analyser decodes USB low and full speed from D+ and D-: idle state giv
 ## 2026-11-09: Round 32
 Added Line Codes (Tools): Manchester, 4B5B with NRZI, 8b/10b with running disparity and comma alignment, HDMI/DVI TMDS with control-token alignment, and Ethernet frames with CRC-32. All match published reference values. An identifier names the code of a bitstream and decodes it: 48 of 48 on the control and on a fresh seed; with one bit error the code is still named in 37 of 40 streams. VGA and composite timing moved to Round 32b.
 
+## 2026-11-09: Round 32b
+Added Video Signals (Tools): sampled VGA in five standard modes (640x480, 720x400, 800x600, 1024x768, 1280x720) and monochrome composite video are rebuilt into pictures from their sync pulses. The control decodes 36 of 36 generated captures with a mean image correlation of 0.945, and none of 10 noise signals. Irregular sync and unlisted timings are refused with the measurements shown.
+

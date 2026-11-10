@@ -141,3 +141,18 @@ def linecode(body: LineIn):
         bits, truth = L.example(body.example or "8b10b", body.message[:120], max(0, min(body.errors, 20)))
         return L.analyse(bits, truth)
     return guarded(run)
+
+
+class VideoIn(BaseModel):
+    kind: str = "640x480 @ 60 Hz"
+    factor: float = 1.0
+    noise: float = 0.02
+
+
+@router.post("/api/signals/video")
+def video(body: VideoIn):
+    from ..signals import video as V, video_service as S
+
+    if body.kind != "composite" and body.kind not in V.MODES:
+        raise HTTPException(400, "Unknown video mode.")
+    return guarded(lambda: S.example(body.kind, min(max(body.factor, 0.5), 2.0), min(max(body.noise, 0.0), 0.2)) | {"reliability": S.reliability(), "modes": list(V.MODES)})
