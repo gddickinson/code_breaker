@@ -89,7 +89,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 53 | The L. R. G. method on 14 other letter-digit signatures from OCR: none reads (all under 25% words; planted controls 97-99%). Six beat their shuffles (90, D, B, 7, Jane, E). Under the table 2119 key the pools of 7, D, 42 and E read in part (14-25%) | completed 2026-11-10 |
 | 54 | 12 table-2119 residuals (7, D, 42, E) transcribed: all read (p<=5e-4); correspondence now 92 ads, names the wife 'ma douce Tilly'. Jane (Sep 1886) is a numeric homophonic with word breaks: blind solve reads '... ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses ...'; control and null pass, word gate missed by 0.2 points. 90 is a dictionary code; B repeats letter-digit words | completed 2026-11-10 |
 | 55 | B 1882-1886 (10 ads) read by a blind homophonic solve with word breaks: 4 of 7 seeds converge, score -4.01 against at most -4.71, 58% words against at most 10%, planted 98%: three gates pass ('Ecris vite, ton silence me desole. T'adore'; 'Serai samedi train Vesinet. T'aime follement'). B 1 Apr 1886 is a table 2119 ad. The 90 references need a 700+ page dictionary, not Landais. Jane refinement moved to 56 | completed 2026-11-10 |
-| 56 | Jane key refined with word-aware scoring under matched controls; then the same blind method on any remaining word-break series in the unsolved ads | pending |
+| 56 | Word-aware refinement under a matched null (`figaro_wordrefine.py`): Jane 35% -> 56% whole words against at most 35% for shuffled copies through the same pipeline; refined planted control sets the bar at 39%, Jane reaches 41%: all three gates pass. B 41% -> 70% against at most 9% | completed 2026-11-10 |
+| 57 | Find the other unsolved series that keep printed word breaks and run series_blind plus the matched refinement | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -382,6 +383,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 56
+- A refinement is fair only if every comparison goes through it: shuffled copies and the planted control were refined the same way, and the bar was set from the refined planted text.
+- Word-level scoring can trade one real word for another ('de' to 'se'); read the result, do not just count it.
 
 ## Added 2026-11-10: Round 55
 - Printed word breaks plus repeated words make short homophonic series solvable: ten ads of 372 symbols passed all three gates.

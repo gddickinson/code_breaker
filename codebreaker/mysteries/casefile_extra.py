@@ -212,7 +212,20 @@ def _jane():
         return []
     return [{"heading": "Jane, September 1886: numbers as letters (candidate)", "paragraphs": [
         f"Two ads signed Jane are written in numbers from 1 to 74, dots between letters and dashes or spaces between words. Solved blind as one homophonic substitution of French ({j['numbers']} numbers, {j['distinct']} distinct), they read with the printed word breaks: '[Le] format de ce journal ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses, tous les sentiments de mon amour' (8 September) and 'Je t'aime ... ta pensee, mon coeur ... de notre separation ... sera consolation' (6 September).",
-        f"A planted control of the same size is recovered at {j['planted_accuracy']:.0%}; three shuffled copies score at most {max(n['score'] for n in j['null'])} against {j['score']}. The word gate is missed by {0.8 * j['planted_coverage'] - j['coverage']:.1%}, so this stays a candidate; a few symbols of the blind key are evidently wrong (p read as l, b as f or v). Novelty unconfirmed."]}]
+        f"A planted control of the same size is recovered at {j['planted_accuracy']:.0%}; three shuffled copies score at most {max(n['score'] for n in j['null'])} against {j['score']}. The word gate is missed by {0.8 * j['planted_coverage'] - j['coverage']:.1%} by the blind key alone; a few of its symbols are evidently wrong (p read as l, b as f or v).", _jane_refined()]}]
+
+
+def _jane_refined():
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_wordrefine.json"
+    if not path.exists():
+        return ""
+    j = json.loads(path.read_text())["jane"]
+    return (f"Refined with the printed word breaks (Round 56), whole French words rise from {j['blind_share']:.0%} to {j['refined_share']:.0%}, while the same blind solve and refinement on shuffled copies reach at most {max(n['refined'] for n in j['null']):.0%}. "
+            f"A planted control with word breaks, refined the same way, sets the word bar at {0.8 * j['planted_refined_coverage']:.0%}; the refined reading reaches {j['coverage']:.0%}, so all three gates now pass. "
+            "Refined: 'Je t'aime ... sans ta pensee mon coeur ... de notre separation a perpetuite ... sera consolation'. Novelty unconfirmed.")
 
 
 def _t2119():

@@ -1,0 +1,155 @@
+{
+ "id": "figaro_wordrefine",
+ "jane": {
+  "series": "jane",
+  "blind_share": 0.351,
+  "refined_share": 0.561,
+  "null": [
+   {
+    "blind": 0.114,
+    "refined": 0.338
+   },
+   {
+    "blind": 0.114,
+    "refined": 0.346
+   },
+   {
+    "blind": 0.088,
+    "refined": 0.329
+   }
+  ],
+  "planted_accuracy": 0.905,
+  "planted_refined_coverage": 0.485,
+  "coverage": 0.412,
+  "gates": {
+   "control": true,
+   "null": true,
+   "reads": true,
+   "passed": true
+  },
+  "beats_null": true,
+  "key": {
+   "1": "b",
+   "11": "s",
+   "12": "m",
+   "13": "n",
+   "14": "o",
+   "15": "p",
+   "16": "q",
+   "17": "r",
+   "18": "s",
+   "19": "t",
+   "2": "c",
+   "20": "u",
+   "21": "d",
+   "25": "a",
+   "3": "s",
+   "30": "a",
+   "31": "a",
+   "32": "a",
+   "33": "a",
+   "34": "a",
+   "35": "u",
+   "36": "e",
+   "37": "a",
+   "38": "s",
+   "39": "a",
+   "4": "e",
+   "40": "e",
+   "41": "e",
+   "42": "e",
+   "43": "e",
+   "44": "e",
+   "45": "i",
+   "46": "e",
+   "47": "e",
+   "48": "e",
+   "49": "e",
+   "5": "u",
+   "52": "n",
+   "53": "a",
+   "55": "i",
+   "59": "e",
+   "6": "t",
+   "62": "o",
+   "63": "a",
+   "7": "c",
+   "70": "u",
+   "71": "u",
+   "72": "c",
+   "73": "o",
+   "74": "u",
+   "8": "i",
+   "9": "a"
+  },
+  "readings": {
+   "1886_18860906-Jane.jpg": "e t aime et des sans ta pense mon coeur saitn e et socu re se notre separ ation a perpetuite tueris ton sera cansosetan a",
+   "1886_18860908-Jane.jpg": "be uormut se ce aourn as n e peut sou i re a endes ap er ses epans se mon co eur ses baisers ses cures estous ses sentiments se mon amour que a endaie cotes si tenede sma"
+  }
+ },
+ "b": {
+  "series": "b",
+  "blind_share": 0.406,
+  "refined_share": 0.702,
+  "null": [
+   {
+    "blind": 0.008,
+    "refined": 0.086
+   },
+   {
+    "blind": 0.022,
+    "refined": 0.089
+   },
+   {
+    "blind": 0.008,
+    "refined": 0.043
+   }
+  ],
+  "planted_accuracy": 0.978,
+  "planted_refined_coverage": 0.593,
+  "coverage": 0.78,
+  "gates": {
+   "control": true,
+   "null": true,
+   "reads": true,
+   "passed": true
+  },
+  "beats_null": true,
+  "key": {
+   "0": "u",
+   "1": "l",
+   "2": "m",
+   "3": "n",
+   "4": "r",
+   "5": "s",
+   "6": "a",
+   "7": "e",
+   "8": "i",
+   "9": "o",
+   "b": "b",
+   "c": "c",
+   "d": "d",
+   "f": "c",
+   "g": "g",
+   "h": "h",
+   "p": "p",
+   "s": "s",
+   "t": "t",
+   "v": "v",
+   "x": "x",
+   "z": "t"
+  },
+  "readings": {
+   "1882_18820604-B.jpg": "merci bonne leaare etais desespere serai terrasse dimanche tenvoie tout moi dans baiser cou",
+   "1882_18820708-B.jpg": "ecris vite ton silence me desole tadore",
+   "1882_18820822-B.jpg": "coursge tadore tenvoie long baiser",
+   "1882_18820908-B.jpg": "serai samedi train vesinet taime collement",
+   "1883_18830101-B.jpg": "tenvoie pensees baisers tout mon amour",
+   "1883_18830119-B.jpg": "courage tadore mabsente samedi baisers",
+   "1884_18840101-B.jpg": "vous envoie mes meilleurs souhaits",
+   "1884_18840113-B.jpg": "etais absent serais heureux vous voir",
+   "1885_18850703-B.jpg": "silence desole envoie souhaits baisers",
+   "1886_18860101-B.jpg": "agreet mes meilleurs souhaits adieu"
+  }
+ }
+}
