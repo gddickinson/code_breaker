@@ -170,6 +170,22 @@ def _rescreen_2119():
             f"With that correction and the inferred symbols, a further screen of {r['screened']} OCR ads finds {len(r['passed'])} more at a Bonferroni level. Four were checked by eye, among them 9 December 1882 (signed 42): 'Merci madame C. L., votre lettre not long enough ... Te garde mon coeur tout entier, je t'adore'. The others are machine readings still to be checked.")
 
 
+def _lrg():
+    """Round 52: L. R. G. read by a blind homophonic solve."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_codebook.json"
+    if not path.exists():
+        return []
+    b = json.loads(path.read_text())["lrg_blind"]
+    k = b["key"]
+    return [{"heading": "L. R. G., 1879-1880: digits as letters (candidate, three gates pass)", "paragraphs": [
+        "Seven ads signed L. R. G. are strings of digits with a few letters and many repeated groups. Pooled and solved blind as one homophonic substitution of French, three of seven runs converge on the same key: the digits 1234567890 stand for " + " ".join(k[d].upper() for d in "1234567890") + ", the letters c, d, h and p for themselves, and b, s, m, j, f, v and g for further common letters. The repeated groups are repeated words: '6c72347c4ch85' is 'ecris Arcachon'.",
+        f"Controls: a planted French cipher of the same size and symbol count is recovered at {b['planted_accuracy']:.0%}; five shuffled copies solved the same way score at most {max(n['score'] for n in b['null'])} against {b['score']} and reach at most {max(n['coverage'] for n in b['null']):.0%} words against {b['coverage']:.0%}; the word bar ({0.8 * b['planted_coverage']:.0%}) is met narrowly. The readings were checked by eye: 'Tres inquiete, pas recu lettre depuis le huit. Tres triste. Es-tu malade? Mais tiens, ecris Arcachon' (25 September 1879); 'Ma chere, lettre poste restante' (5 July 1880). Novelty unconfirmed."],
+        "table": _t(["Date", "Decoded (word breaks by machine)"], [[i[5:13], t[:110]] for i, t in b["per_ad"].items()])}]
+
+
 def _t2119():
     """Round 47: the table 2119 correspondence, extended."""
     import json
@@ -331,4 +347,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _t2119() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _t2119() + _lrg() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()

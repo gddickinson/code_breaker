@@ -1,5 +1,5 @@
 {
- "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown.",
+ "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown. The four unsigned 1879 numeric ads (Round 52) were read from the Round 45 montage of the same scans.",
  "lc15_digits": {
   "1879_18790809-LC15.jpg": "96709mo3go5iogiui6082do37ymmy72s370",
   "1879_18790917-LC15.jpg": "2d2m996mym6h7537096mos7mg93pt6m",
@@ -34,5 +34,11 @@
   "1879_18790925-LRG.jpg": "176325992616p4376c9061176d6p92306b921176mb06193823m404d6v423b2656c72347c4ch85",
   "1879_18791005-LRG.jpg": "76c90611763v42b2656c72p4723m200b42367",
   "1880_18800705-LRG.jpg": "v4ch67ch67061176p831676314516"
+ },
+ "numeric_1879": {
+  "1879_18790309b.jpg": "7m048 g4087 hm938 3m9s 1.38s 4kmz 1m0m 403.6.1847",
+  "1879_18790311b.jpg": "81g277865m 4k4bv kmb30m38 14v8b vmb3. z40. 8471.",
+  "1879_18790318.jpg": "4008km048 1m0z0m38 9bm1. 29v08. G597 vmb3.6. 4718",
+  "1879_18790410.jpg": "Z2904n m 12b z2m90 k297 7980. 47."
  }
 }

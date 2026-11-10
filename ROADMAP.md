@@ -85,7 +85,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 49 | Table 2119: the source table gives x for symbol 1; B reads better in 11 of 12 ads (sign test p=0.003). Rescreen of 408 OCR ads under the full key: 35 pass Bonferroni, 33 without leads; 4 checked by eye (42 9 Dec 1882 'Merci madame C. L., votre lettre not long enough ... je t'adore'; 7 9 Mar 1882 '... my dear loved wife, miss you so much') | completed 2026-11-10 |
 | 50 | All 29 Round 49 machine readings transcribed and read by eye (each p<=5e-4). Table 2119 correspondence: 80 ads under 25 signatures, Dec 1881 to Jan 1887; it names madame C. L., Leon, Jul[es?], Heliot, a chalet, a cercle, the Mediterranee, a bal (Feb 1884), the writer's mother, father and a child | completed 2026-11-10 |
 | 51 | L. C. 15 (22 ads, 1879-82) and L. R. G. (7 ads, 1879-80) transcribed. Both repeat far more than shuffled copies (36% and 45% of positions in repeated 5-grams, against at most 4% and 7%). LC15 1879-81 is not a simple homophonic substitution (planted control 98%, real text does not read); LC15 1881-82 is not one shared substitution (planted control 100%). LRG looks like a numeric codebook. No readings; book codes need their book | completed 2026-11-10 |
-| 52 | Codebook methods for LRG and LC15 (align recurring groups with likely formulas; the 1879 unsigned numeric ads); per-ad substitution for LC15 1881-82 | pending |
+| 52 | L. R. G. reads: a blind homophonic solve (3 of 7 seeds converge) gives digits 1234567890 = TISANEROUL and letters for further common letters; planted control 98%, shuffles at most -4.78 and 15% words against -4.23 and 46%; word bar met narrowly; read by eye ('Tres inquiete, pas recu lettre depuis le huit ... ecris Arcachon'; 'Ma chere, lettre poste restante'). The 1879 numeric ads share no code with LRG; LC15 1881-82 ads are too short alone (controls 22-60%) | completed 2026-11-10 |
+| 53 | The L. R. G. method (pooled blind homophonic, three controls) on every other unsolved letter-digit signature with 300+ symbols | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -374,4 +375,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 51
 - A planted control of the same size is what turns 'it did not read' into a finding: the solver recovers 98-100% of planted texts of these sizes, so these series are not simple substitutions.
 - Heavy repetition of long groups (a third or more of all positions) is the signature of a codebook or fixed formulas, not of a letter cipher.
+
+## Added 2026-11-10: Round 52
+- A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
+- Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
 

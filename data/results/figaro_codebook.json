@@ -1,0 +1,146 @@
+{
+ "id": "figaro_codebook",
+ "shared_1879_lrg": {
+  "k3": {
+   "shared": 7,
+   "null_mean": 4.79,
+   "null_max": 14,
+   "p": 0.21239380309845077,
+   "groups": [
+    "14v",
+    "361",
+    "364",
+    "408",
+    "647",
+    "938",
+    "m40"
+   ]
+  },
+  "k4": {
+   "shared": 0,
+   "null_mean": 0.28,
+   "null_max": 4,
+   "p": 1.0,
+   "groups": []
+  }
+ },
+ "lrg_blind": {
+  "letters": 409,
+  "symbols": 21,
+  "score": -4.23,
+  "seeds_converged": 3,
+  "key": {
+   "0": "l",
+   "1": "t",
+   "2": "i",
+   "3": "s",
+   "4": "a",
+   "5": "n",
+   "6": "e",
+   "7": "r",
+   "8": "o",
+   "9": "u",
+   "b": "t",
+   "c": "c",
+   "d": "d",
+   "f": "m",
+   "g": "d",
+   "h": "h",
+   "j": "n",
+   "m": "s",
+   "p": "p",
+   "s": "e",
+   "v": "m"
+  },
+  "coverage": 0.46,
+  "null": [
+   {
+    "score": -4.78,
+    "coverage": 0.13
+   },
+   {
+    "score": -4.835,
+    "coverage": 0.061
+   },
+   {
+    "score": -4.838,
+    "coverage": 0.149
+   },
+   {
+    "score": -4.797,
+    "coverage": 0.12
+   },
+   {
+    "score": -4.788,
+    "coverage": 0.042
+   }
+  ],
+  "planted_accuracy": 0.98,
+  "planted_coverage": 0.565,
+  "gates": {
+   "control": true,
+   "null": true,
+   "reads": true,
+   "passed": true
+  },
+  "per_ad": {
+   "1879_18790816-LRG.jpg": "latco lprisdeordesestame cloinelennuieteauc oupmaispastrestien teltrasseamecalour",
+   "1879_18790829-LRG.jpg": "par strentearctchonpre ndretainsserchaude ordresedecintaiset estrassetendresent",
+   "1879_18790902-LRG.jpg": "r huseparsuueletrois ecrisarcachonposte",
+   "1879_18790915-LRG.jpg": "serci tonnelettrestainsm ontsalresteacaused eordessennuietaise testrassesillemois",
+   "1879_18790925-LRG.jpg": "tresi nuuietepasreculett redepuisletuittres tletusoissalademai stienecrisarcachon",
+   "1879_18791005-LRG.jpg": "r eculettresmaitiene criparissilltaiser",
+   "1880_18800705-LRG.jpg": "machercherl ettreposterestante"
+  }
+ },
+ "lc15_per_ad": [
+  {
+   "image": "1881_18810816-LC15.jpg",
+   "letters": 22,
+   "score": -3.669,
+   "coverage": 0.364,
+   "reading": "ieavotrestionsisedelap",
+   "control_mean_accuracy": 0.22
+  },
+  {
+   "image": "1881_18810830-LC15.jpg",
+   "letters": 24,
+   "score": -3.704,
+   "coverage": 0.375,
+   "reading": "dementdartouteimplessoix",
+   "control_mean_accuracy": 0.271
+  },
+  {
+   "image": "1881_18810918-LC15.jpg",
+   "letters": 25,
+   "score": -3.809,
+   "coverage": 0.48,
+   "reading": "pasfautreemiendansleecomp",
+   "control_mean_accuracy": 0.58
+  },
+  {
+   "image": "1881_18810928-LC15.jpg",
+   "letters": 29,
+   "score": -3.766,
+   "coverage": 0.345,
+   "reading": "lemensenousquieriestauraitsig",
+   "control_mean_accuracy": 0.322
+  },
+  {
+   "image": "1881_18811018-LC15.jpg",
+   "letters": 23,
+   "score": -3.634,
+   "coverage": 0.217,
+   "reading": "luidesquilacommeditiequ",
+   "control_mean_accuracy": 0.239
+  },
+  {
+   "image": "1882_18820702-LC15.jpg",
+   "letters": 31,
+   "score": -4.041,
+   "coverage": 0.258,
+   "reading": "ncorentotsplusmavoustueceditaut",
+   "control_mean_accuracy": 0.602
+  }
+ ]
+}
