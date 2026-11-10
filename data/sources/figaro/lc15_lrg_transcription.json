@@ -1,5 +1,5 @@
 {
- "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown. The four unsigned 1879 numeric ads (Round 52) were read from the Round 45 montage of the same scans. Jane (Sep 1886) numbers read from the scans in Round 54: dots separate numbers, dashes or spaces separate words; the first ad's initial 9 is a drop capital and '1925' at the end may be a date or signature.",
+ "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown. The four unsigned 1879 numeric ads (Round 52) were read from the Round 45 montage of the same scans. Jane (Sep 1886) numbers read from the scans in Round 54: dots separate numbers, dashes or spaces separate words; the first ad's initial 9 is a drop capital and '1925' at the end may be a date or signature. B (1882-1886) read from the scans in Round 55; the final 'A.' of several ads is left out as a signature.",
  "lc15_digits": {
   "1879_18790809-LC15.jpg": "96709mo3go5iogiui6082do37ymmy72s370",
   "1879_18790917-LC15.jpg": "2d2m996mym6h7537096mos7mg93pt6m",
@@ -44,5 +44,20 @@
  "jane": {
   "1886_18860906-Jane.jpg": "48 - 19 - 33.55.12.44 - 4.19 - 21.59.18 - 3.37.13.18 - 19.30 - 15.4.13.18.42 - 12.62.13 - 2.14.4.71.17 - 18.25.8.6.13 42 - 43.19 - 18.62.72.5 - 17.4 - 3.48 - 13.14.19.17.48 - 18.4.15.31.17 - 32.19.8.14.13 - 39 - 15.43.17.15.42.19.74.55.19.4 - 6.70.40.17.8.18 - 19.62.52 - 18.4.17.25 2.63.13.18.14.11.36.19.53.13 - 34 - 1925",
   "1886_18860908-Jane.jpg": "1.46 5.62.17.12.35.19 3.47 2.48 9.14.70.17.13 25.11 13 44 15.42.71.19 18.73.5 8-17.4 37 4.13.21.43.11 63.15 49.17 11.41.18 4.15.31.13.18 3.47 12.14.13 2.14 4.20.17 11.4.18 1.25.8.18.4.17.18 11.4.18 2.35.17.43.18 49.18.19.14.20.18 11.42.18 18.4.13.19.8.12.4.13.19.18 3.47 12.14.13 37.12.62.74.17 16.70.4 9 47.13.21.63.8.4 7.14.19.4.11 3.45 6.4.13.4.21.4 38.12.33"
+ },
+ "b": {
+  "1882_18820604-B.jpg": "274c8 b9337 176647 7t685 d757sp747 57468 t7446557 d8263ch7 t73v987 t90t 298 d635 b68574 f90",
+  "1882_18820708-B.jpg": "7c485 v8t7 t93 58173c7 27 d75917 t6d947",
+  "1882_18820822-B.jpg": "c9045g7 t6d947 t73v987 193g b68574",
+  "1882_18820908-B.jpg": "57468 5627d8 t4683 v75837t t6827 f9117273t",
+  "1883_18830101-B.jpg": "t73v987 p735775 b685745 t90t 293 62904",
+  "1883_18830119-B.jpg": "c9046g7 t6d947 26b573t7 5627d8 b685745",
+  "1884_18840101-B.jpg": "v905 73v987 275 278117045 590h68ts",
+  "1884_18840113-B.jpg": "7t685 6b573t 574685 h70470x v905 v984",
+  "1885_18850703-B.jpg": "58173c7 d75917 73v987 590h68t5 b685745",
+  "1886_18860101-B.jpg": "6g477z 275 278117045 590h68t5 6d870"
+ },
+ "b_2119": {
+  "1886_18860401-B.jpg": "8rc 1rcn 7ptt5 87 268 3m6e 6f frpf 8rc 78rpe"
  }
 }

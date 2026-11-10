@@ -34,3 +34,10 @@ def test_jane_numbers_and_reading():
     assert len(nums) == j["numbers"] and max(map(int, nums)) <= 74
     assert j["gates"]["control"] and j["gates"]["null"]
     assert "les elans de mon co eur" in j["readings"]["1886_18860908-Jane.jpg"]
+
+
+def test_b_series_passes_and_reads():
+    b = json.loads(C.RESULT.read_text())["b_blind"]
+    assert b["gates"]["passed"] and b["seeds_converged"] >= 2
+    assert b["readings"]["1882_18820708-B.jpg"] == "ecris vite ton silence me desole tadore"
+    assert "vesinet" in b["readings"]["1882_18820908-B.jpg"]

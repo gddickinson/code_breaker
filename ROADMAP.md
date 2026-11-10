@@ -88,7 +88,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 52 | L. R. G. reads: a blind homophonic solve (3 of 7 seeds converge) gives digits 1234567890 = TISANEROUL and letters for further common letters; planted control 98%, shuffles at most -4.78 and 15% words against -4.23 and 46%; word bar met narrowly; read by eye ('Tres inquiete, pas recu lettre depuis le huit ... ecris Arcachon'; 'Ma chere, lettre poste restante'). The 1879 numeric ads share no code with LRG; LC15 1881-82 ads are too short alone (controls 22-60%) | completed 2026-11-10 |
 | 53 | The L. R. G. method on 14 other letter-digit signatures from OCR: none reads (all under 25% words; planted controls 97-99%). Six beat their shuffles (90, D, B, 7, Jane, E). Under the table 2119 key the pools of 7, D, 42 and E read in part (14-25%) | completed 2026-11-10 |
 | 54 | 12 table-2119 residuals (7, D, 42, E) transcribed: all read (p<=5e-4); correspondence now 92 ads, names the wife 'ma douce Tilly'. Jane (Sep 1886) is a numeric homophonic with word breaks: blind solve reads '... ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses ...'; control and null pass, word gate missed by 0.2 points. 90 is a dictionary code; B repeats letter-digit words | completed 2026-11-10 |
-| 55 | 90 against the Landais 1860 dictionary (AIM method); B 1882 transcribed and solved with word breaks; Jane key refined with word-aware scoring under matched controls | pending |
+| 55 | B 1882-1886 (10 ads) read by a blind homophonic solve with word breaks: 4 of 7 seeds converge, score -4.01 against at most -4.71, 58% words against at most 10%, planted 98%: three gates pass ('Ecris vite, ton silence me desole. T'adore'; 'Serai samedi train Vesinet. T'aime follement'). B 1 Apr 1886 is a table 2119 ad. The 90 references need a 700+ page dictionary, not Landais. Jane refinement moved to 56 | completed 2026-11-10 |
+| 56 | Jane key refined with word-aware scoring under matched controls; then the same blind method on any remaining word-break series in the unsolved ads | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -381,6 +382,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 55
+- Printed word breaks plus repeated words make short homophonic series solvable: ten ads of 372 symbols passed all three gates.
+- The shape of reference numbers can rule a codebook out before any lookup: entries 1-42 and pages up to 701 exclude a 605-page dictionary.
 
 ## Added 2026-11-10: Round 54
 - Pooling OCR digits into one string destroys number boundaries: the Jane ads, numbers 1-74 with printed word breaks, only read once each number was a symbol.

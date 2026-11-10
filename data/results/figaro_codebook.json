@@ -144,7 +144,7 @@
   }
  ],
  "jane_blind": {
-  "numbers": 228,
+  "symbols": 228,
   "distinct": 52,
   "score": -3.919,
   "seeds_converged": 1,
@@ -228,6 +228,72 @@
   "readings": {
    "1886_18860906-Jane.jpg": "e t aime et des dans ti lense men coeur saitn e et secu re de notre selar ation t lerletaite tueris ten sera cansoletan t",
    "1886_18860908-Jane.jpg": "vo uermet de ce pourn al n e leut sou i re a endel al er les elans de mon co eur les vaisers les ceres estous les sentiments de mon amear que p endaie cotel di tenede sma"
+  },
+  "numbers": 228
+ },
+ "b_blind": {
+  "symbols": 372,
+  "distinct": 22,
+  "score": -4.013,
+  "seeds_converged": 4,
+  "coverage": 0.583,
+  "null": [
+   {
+    "score": -4.709,
+    "coverage": 0.091
+   },
+   {
+    "score": -4.996,
+    "coverage": 0.046
+   },
+   {
+    "score": -4.835,
+    "coverage": 0.097
+   }
+  ],
+  "planted_accuracy": 0.984,
+  "planted_coverage": 0.586,
+  "gates": {
+   "control": true,
+   "null": true,
+   "reads": true,
+   "passed": true
+  },
+  "key": {
+   "0": "u",
+   "1": "l",
+   "2": "m",
+   "3": "n",
+   "4": "r",
+   "5": "s",
+   "6": "a",
+   "7": "e",
+   "8": "i",
+   "9": "o",
+   "b": "l",
+   "c": "c",
+   "d": "d",
+   "f": "c",
+   "g": "p",
+   "h": "r",
+   "p": "t",
+   "s": "n",
+   "t": "t",
+   "v": "v",
+   "x": "x",
+   "z": "t"
+  },
+  "readings": {
+   "1882_18820604-B.jpg": "merci lonne leaare etais desentere serai terrasse dimancre tenvoie tout moi dans laiser cou",
+   "1882_18820708-B.jpg": "ecris vite ton silence me desole tadore",
+   "1882_18820822-B.jpg": "courspe tadore tenvoie lonp laiser",
+   "1882_18820908-B.jpg": "serai samedi train vesinet taime collement",
+   "1883_18830101-B.jpg": "tenvoie tensees laisers tout mon amour",
+   "1883_18830119-B.jpg": "courape tadore malsente samedi laisers",
+   "1884_18840101-B.jpg": "vous envoie mes meilleurs souraitn",
+   "1884_18840113-B.jpg": "etais alsent serais reureux vous voir",
+   "1885_18850703-B.jpg": "silence desole envoie souraits laisers",
+   "1886_18860101-B.jpg": "apreet mes meilleurs souraits adieu"
   }
  }
 }

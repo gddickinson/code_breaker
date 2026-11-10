@@ -186,6 +186,21 @@ def _lrg():
         "table": _t(["Date", "Decoded (word breaks by machine)"], [[i[5:13], t[:110]] for i, t in b["per_ad"].items()])}]
 
 
+def _bseries():
+    """Round 55: the B ads of 1882-1886."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_codebook.json"
+    b = json.loads(path.read_text()).get("b_blind") if path.exists() else None
+    if not b:
+        return []
+    return [{"heading": "B ... A., 1882-1886: letters and digits with word breaks (candidate, three gates pass)", "paragraphs": [
+        f"Ten ads signed B (most ending 'A.') are words of letters and digits that recur from ad to ad ('t73v987' five times). Solved blind as one homophonic substitution of French ({b['symbols']} symbols, {b['distinct']} distinct), {b['seeds_converged']} of seven runs reach the same key; three shuffled copies score at most {max(n['score'] for n in b['null'])} against {b['score']} and reach at most {max(n['coverage'] for n in b['null']):.0%} words against {b['coverage']:.0%}; a planted control is recovered at {b['planted_accuracy']:.0%}. All three gates pass.",
+        "Read with the printed word breaks (two symbols of the blind key swapped by eye, l for b and r for h): 'Ecris vite, ton silence me desole. T'adore' (8 July 1882); 'Serai samedi train Vesinet. T'aime follement' (8 September 1882); 'T'envoie pensees, baisers, tout mon amour' (1 January 1883); 'Etais absent, serais heureux vous voir' (13 January 1884); 'Apres mes meilleurs souhaits, adieu' (1 January 1886). Novelty unconfirmed."],
+        "table": _t(["Date", "Decoded (blind key)"], [[i[5:13], t] for i, t in b["readings"].items()])}]
+
+
 def _jane():
     """Round 54: the two 'Jane' ads of September 1886."""
     import json
@@ -361,4 +376,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _t2119() + _lrg() + _jane() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _t2119() + _lrg() + _jane() + _bseries() + _vta() + _families() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()
