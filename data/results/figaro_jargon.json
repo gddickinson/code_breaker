@@ -1,0 +1,806 @@
+{
+ "id": "figaro_jargon",
+ "codebook_38": {
+  "numbers": 61,
+  "max": 36427,
+  "elided": [
+   {
+    "number": 23267,
+    "position": 0.639,
+    "word_there": "ombrage",
+    "vowel_or_h": true
+   },
+   {
+    "number": 9005,
+    "position": 0.247,
+    "word_there": "demandat",
+    "vowel_or_h": false
+   },
+   {
+    "number": 23267,
+    "position": 0.639,
+    "word_there": "ombrage",
+    "vowel_or_h": true
+   },
+   {
+    "number": 26352,
+    "position": 0.723,
+    "word_there": "preoccupe",
+    "vowel_or_h": false
+   }
+  ],
+  "hits": 2,
+  "of": 4,
+  "chance_rate": 0.272,
+  "p": 0.3
+ },
+ "v_1896": {
+  "ads": 54,
+  "code_words": 73,
+  "pattern_share": 0.726,
+  "null_mean": 0.015,
+  "null_max": 0.11,
+  "p": 0.000999000999000999,
+  "by_stem": {
+   "dri": [
+    "dribo",
+    "drico",
+    "drido",
+    "drijo",
+    "driko",
+    "drilo",
+    "dripo",
+    "driso",
+    "drito",
+    "drivo",
+    "drixo",
+    "drizo"
+   ],
+   "lar": [
+    "larco",
+    "lardo",
+    "larjo",
+    "larko",
+    "larmo",
+    "larpo",
+    "larso",
+    "larto",
+    "larvo",
+    "larxo",
+    "larzo"
+   ],
+   "gal": [
+    "galbo",
+    "galda",
+    "galko"
+   ],
+   "fra": [
+    "frada",
+    "frama",
+    "frapa",
+    "frasa",
+    "frata",
+    "frava",
+    "fraxa",
+    "fraza"
+   ],
+   "mi": [
+    "mico",
+    "mifo",
+    "migo",
+    "mijo",
+    "milo",
+    "miro",
+    "miso",
+    "mito",
+    "mivo",
+    "mixo",
+    "mizo"
+   ],
+   "fle": [
+    "flebo",
+    "flego",
+    "flero"
+   ],
+   "er": [
+    "erbo",
+    "erco",
+    "erdo",
+    "erxo",
+    "erzo"
+   ]
+  },
+  "top": [
+   {
+    "word": "galda",
+    "count": 19,
+    "ads": 19,
+    "neighbours": [
+     [
+      "milo",
+      5
+     ],
+     [
+      "v",
+      4
+     ],
+     [
+      "frata",
+      4
+     ],
+     [
+      "de",
+      2
+     ]
+    ]
+   },
+   {
+    "word": "milo",
+    "count": 19,
+    "ads": 19,
+    "neighbours": [
+     [
+      "galda",
+      5
+     ],
+     [
+      "larzo",
+      5
+     ],
+     [
+      "drizo",
+      4
+     ],
+     [
+      "v",
+      4
+     ]
+    ]
+   },
+   {
+    "word": "frata",
+    "count": 19,
+    "ads": 19,
+    "neighbours": [
+     [
+      "galbo",
+      5
+     ],
+     [
+      "mito",
+      4
+     ],
+     [
+      "galda",
+      4
+     ],
+     [
+      "miso",
+      3
+     ]
+    ]
+   },
+   {
+    "word": "erdo",
+    "count": 18,
+    "ads": 18,
+    "neighbours": [
+     [
+      "v",
+      5
+     ],
+     [
+      "frata",
+      2
+     ],
+     [
+      "galda",
+      2
+     ],
+     [
+      "frapa",
+      2
+     ]
+    ]
+   },
+   {
+    "word": "larzo",
+    "count": 18,
+    "ads": 18,
+    "neighbours": [
+     [
+      "v",
+      9
+     ],
+     [
+      "milo",
+      5
+     ],
+     [
+      "mixo",
+      3
+     ],
+     [
+      "frata",
+      3
+     ]
+    ]
+   },
+   {
+    "word": "larvo",
+    "count": 17,
+    "ads": 17,
+    "neighbours": [
+     [
+      "mizo",
+      2
+     ],
+     [
+      "larmo",
+      2
+     ],
+     [
+      "frada",
+      2
+     ],
+     [
+      "avec",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "drivo",
+    "count": 15,
+    "ads": 15,
+    "neighbours": [
+     [
+      "drizo",
+      5
+     ],
+     [
+      "drixo",
+      5
+     ],
+     [
+      "fleco",
+      1
+     ],
+     [
+      "galbo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "erbo",
+    "count": 14,
+    "ads": 14,
+    "neighbours": [
+     [
+      "fraza",
+      5
+     ],
+     [
+      "frasa",
+      2
+     ],
+     [
+      "mito",
+      2
+     ],
+     [
+      "mixo",
+      2
+     ]
+    ]
+   },
+   {
+    "word": "larpo",
+    "count": 13,
+    "ads": 13,
+    "neighbours": [
+     [
+      "driko",
+      2
+     ],
+     [
+      "v",
+      2
+     ],
+     [
+      "et",
+      1
+     ],
+     [
+      "dealoamoad",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "galbo",
+    "count": 13,
+    "ads": 13,
+    "neighbours": [
+     [
+      "frata",
+      5
+     ],
+     [
+      "v",
+      2
+     ],
+     [
+      "larzo",
+      2
+     ],
+     [
+      "de",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "larso",
+    "count": 10,
+    "ads": 10,
+    "neighbours": [
+     [
+      "drito",
+      4
+     ],
+     [
+      "flebo",
+      2
+     ],
+     [
+      "driso",
+      2
+     ],
+     [
+      "aco",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "frasa",
+    "count": 10,
+    "ads": 9,
+    "neighbours": [
+     [
+      "fraxa",
+      4
+     ],
+     [
+      "erbo",
+      2
+     ],
+     [
+      "frava",
+      2
+     ],
+     [
+      "larzo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "drito",
+    "count": 10,
+    "ads": 10,
+    "neighbours": [
+     [
+      "larso",
+      4
+     ],
+     [
+      "cacro",
+      2
+     ],
+     [
+      "larmo",
+      1
+     ],
+     [
+      "larko",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "driko",
+    "count": 10,
+    "ads": 10,
+    "neighbours": [
+     [
+      "larpo",
+      2
+     ],
+     [
+      "mico",
+      2
+     ],
+     [
+      "larto",
+      1
+     ],
+     [
+      "plein",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "fraxa",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "frasa",
+      4
+     ],
+     [
+      "frata",
+      3
+     ],
+     [
+      "galda",
+      2
+     ],
+     [
+      "sur",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "ago",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "v",
+      4
+     ],
+     [
+      "apr",
+      1
+     ],
+     [
+      "y",
+      1
+     ],
+     [
+      "zi",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "drizo",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "drivo",
+      5
+     ],
+     [
+      "milo",
+      4
+     ],
+     [
+      "mizo",
+      2
+     ],
+     [
+      "mipo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "driso",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "drilo",
+      2
+     ],
+     [
+      "larso",
+      2
+     ],
+     [
+      "plaisir",
+      1
+     ],
+     [
+      "larco",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "frapa",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "v",
+      3
+     ],
+     [
+      "miro",
+      3
+     ],
+     [
+      "erdo",
+      2
+     ],
+     [
+      "av",
+      2
+     ]
+    ]
+   },
+   {
+    "word": "mijo",
+    "count": 9,
+    "ads": 9,
+    "neighbours": [
+     [
+      "drixo",
+      4
+     ],
+     [
+      "v",
+      3
+     ],
+     [
+      "et",
+      2
+     ],
+     [
+      "tonj",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "aco",
+    "count": 8,
+    "ads": 8,
+    "neighbours": [
+     [
+      "v",
+      3
+     ],
+     [
+      "dazo",
+      1
+     ],
+     [
+      "larso",
+      1
+     ],
+     [
+      "balo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "flebo",
+    "count": 8,
+    "ads": 8,
+    "neighbours": [
+     [
+      "larso",
+      2
+     ],
+     [
+      "erdo",
+      1
+     ],
+     [
+      "mixo",
+      1
+     ],
+     [
+      "mufa",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "flero",
+    "count": 8,
+    "ads": 8,
+    "neighbours": [
+     [
+      "et",
+      2
+     ],
+     [
+      "nula",
+      2
+     ],
+     [
+      "att",
+      1
+     ],
+     [
+      "mivo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "afo",
+    "count": 8,
+    "ads": 8,
+    "neighbours": [
+     [
+      "v",
+      3
+     ],
+     [
+      "ls",
+      1
+     ],
+     [
+      "bafo",
+      1
+     ],
+     [
+      "bano",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "mixo",
+    "count": 8,
+    "ads": 8,
+    "neighbours": [
+     [
+      "larzo",
+      3
+     ],
+     [
+      "erbo",
+      2
+     ],
+     [
+      "erco",
+      2
+     ],
+     [
+      "milo",
+      2
+     ]
+    ]
+   },
+   {
+    "word": "larmo",
+    "count": 7,
+    "ads": 7,
+    "neighbours": [
+     [
+      "larvo",
+      2
+     ],
+     [
+      "merci",
+      1
+     ],
+     [
+      "drito",
+      1
+     ],
+     [
+      "que",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "miro",
+    "count": 7,
+    "ads": 7,
+    "neighbours": [
+     [
+      "frapa",
+      3
+     ],
+     [
+      "desvo",
+      2
+     ],
+     [
+      "seul",
+      2
+     ],
+     [
+      "mijs",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "erco",
+    "count": 7,
+    "ads": 7,
+    "neighbours": [
+     [
+      "mixo",
+      2
+     ],
+     [
+      "v",
+      2
+     ],
+     [
+      "bon",
+      1
+     ],
+     [
+      "vy",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "frada",
+    "count": 7,
+    "ads": 7,
+    "neighbours": [
+     [
+      "larvo",
+      2
+     ],
+     [
+      "bajo",
+      1
+     ],
+     [
+      "larja",
+      1
+     ],
+     [
+      "bamo",
+      1
+     ]
+    ]
+   },
+   {
+    "word": "frava",
+    "count": 7,
+    "ads": 7,
+    "neighbours": [
+     [
+      "frasa",
+      2
+     ],
+     [
+      "frata",
+      2
+     ],
+     [
+      "cheri",
+      1
+     ],
+     [
+      "rasa",
+      1
+     ]
+    ]
+   }
+  ]
+ }
+}

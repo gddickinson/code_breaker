@@ -1,5 +1,5 @@
 {
- "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown. The four unsigned 1879 numeric ads (Round 52) were read from the Round 45 montage of the same scans. Jane (Sep 1886) numbers read from the scans in Round 54: dots separate numbers, dashes or spaces separate words; the first ad's initial 9 is a drop capital and '1925' at the end may be a date or signature. B (1882-1886) read from the scans in Round 55; the final 'A.' of several ads is left out as a signature.",
+ "source": "Le Figaro unsolved ads signed L. C. 15 (1879-1882) and L. R. G. (1879-1880); scans in data/sources/figaro/images (Didier Muller's database). Read by eye from the scans, Round 51. No word breaks in the originals except where shown. The four unsigned 1879 numeric ads (Round 52) were read from the Round 45 montage of the same scans. Jane (Sep 1886) numbers read from the scans in Round 54: dots separate numbers, dashes or spaces separate words; the first ad's initial 9 is a drop capital and '1925' at the end may be a date or signature. B (1882-1886) read from the scans in Round 55; the final 'A.' of several ads is left out as a signature. The five '38' ads (Sep-Oct 1881) were read from the scans in Round 58/60, plain words kept.",
  "lc15_digits": {
   "1879_18790809-LC15.jpg": "96709mo3go5iogiui6082do37ymmy72s370",
   "1879_18790917-LC15.jpg": "2d2m996mym6h7537096mos7mg93pt6m",
@@ -59,5 +59,12 @@
  },
  "b_2119": {
   "1886_18860401-B.jpg": "8rc 1rcn 7ptt5 87 268 3m6e 6f frpf 8rc 78rpe"
+ },
+ "codebook_38": {
+  "1881_18810929-38.jpg": "2596 3686 2428, 24146 35003 9060 21695.",
+  "1881_18810930-38.jpg": "3686 2527 31047 ; à 6 8338 pas 6207 ; j 13045 25565 ou 20214 ; moi pas 18486 av. 11609 s. ; mais 10353 6428 13045 14417 ; j'23267 enc. 5141.",
+  "1881_18811013-38.jpg": "36427. Tout 29038 bi 35370. Mais dé 29327 21638. J'9005 9488. V. 18633 15379 de m. 20137.",
+  "1881_18811018-38.jpg": "36427 m 34069. J'23267 5240 10135 16674 av. v. et 3686 Paris 15357 d. 27 a. 31 ; 4452 m'y 17240 alors 2527 26589 8216 15581 et v. 1569 K L M 20048.",
+  "1881_18811023-38.jpg": "J'26352 26582 p 5141 14591. Je 24146 7168 gr. 1342 1381 sauf 23159. Je 21055 23010 26426."
  }
 }
