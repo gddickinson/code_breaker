@@ -1,0 +1,14 @@
+{
+ "source": "Le Figaro unsolved ads whose writer's documented system ranked 2nd to 10th on OCR (Round 42). Enciphered words read by eye from the scans before decoding, Round 43. Signatures and plain words left out.",
+ "letters": {
+  "1899_18990701-P.jpg": "Ywnsvii yjxii vwjxyiif Gwzcxjwnyzyatnwyjr",
+  "1893_18930610-Mimi.jpg": "Kv givg cx cvkg driu r gc cvm kru ai v elzk",
+  "1884_18840806-ArH.jpg": "gpvx bmmfs nfsdsf",
+  "1881_18811016-J.jpg": "zfkqfkepkehg",
+  "1883_18830304-X.jpg": "Rjlbqgs mhls qhshb schcgdbs",
+  "1882_18820701-5.jpg": "lquh uiq sg vhs eh blquh hb fhdqch blgb bh klqdhc",
+  "1892_18920908-43.jpg": "Fgtnkpi"
+ },
+ "plain_abbreviated": ["1896_18960710-P.jpg", "1885_18851218-R.jpg", "1876_18760608-2.jpg", "1889_18891005-M.jpg"],
+ "with_digits": ["1894_18940719-M.jpg", "1893_18930514-R.jpg", "1886_18860608-M.jpg", "1885_18851128-P.jpg", "1887_18870101-2.jpg", "1885_18850216-R.jpg", "1887_18870320-2.jpg"]
+}

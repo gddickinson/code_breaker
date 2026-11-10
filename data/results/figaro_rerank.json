@@ -1,0 +1,154 @@
+{
+ "id": "figaro_rerank",
+ "rows": [
+  {
+   "image": "1899_18990701-P.jpg",
+   "rank_ocr": 2,
+   "rank": 2,
+   "of": 63,
+   "own": "1005",
+   "own_score": -5.731,
+   "top": "2213",
+   "reading": "TRINQDD TESDD QRESTDDA BRUXSERITUTVOIRTEM",
+   "coverage": 0.105,
+   "null_p": 0.1448,
+   "any": {
+    "system": "1002",
+    "coverage": 0.105,
+    "reading": "WULQTGG WHVGG TUHVWGGD EUXAVHULWXWYRLUWHP",
+    "null_p": 0.7475,
+    "null_max": 0.545
+   }
+  },
+  {
+   "image": "1893_18930610-Mimi.jpg",
+   "rank_ocr": 2,
+   "rank": 1,
+   "of": 63,
+   "own": "1017",
+   "own_score": -6.003,
+   "top": "1017",
+   "reading": "TE PREP LG LETP MARD A PL LEV TAD JR E NUIT",
+   "coverage": 0.125,
+   "null_p": 0.2097,
+   "any": {
+    "system": "2214",
+    "coverage": 0.154,
+    "reading": "PE T?ET SG SEPT YD?? D TS SEO PD? R? E ?NFP",
+    "null_p": 0.4551,
+    "null_max": 0.348
+   }
+  },
+  {
+   "image": "1884_18840806-ArH.jpg",
+   "rank_ocr": 3,
+   "rank": 2,
+   "of": 63,
+   "own": "1101",
+   "own_score": -4.5,
+   "top": "2220",
+   "reading": "FOUV ALLER MERCRE",
+   "coverage": 0.333,
+   "null_p": 0.0166,
+   "any": {
+    "system": "1001",
+    "coverage": 0.333,
+    "reading": "FOUW ALLER MERCRE",
+    "null_p": 0.1395,
+    "null_max": 0.625
+   }
+  },
+  {
+   "image": "1881_18811016-J.jpg",
+   "rank_ocr": 5,
+   "rank": 19,
+   "of": 63,
+   "own": "2190",
+   "own_score": -7.32,
+   "top": "2201",
+   "reading": "?Q??Q?CX?C??",
+   "coverage": 0.0,
+   "null_p": 1.0,
+   "any": {
+    "system": "2201",
+    "coverage": 0.667,
+    "reading": "ATOITOUJOURS",
+    "null_p": 0.0066,
+    "null_max": 0.667
+   }
+  },
+  {
+   "image": "1883_18830304-X.jpg",
+   "rank_ocr": 6,
+   "rank": 4,
+   "of": 63,
+   "own": "2220",
+   "own_score": -6.236,
+   "top": "2217",
+   "reading": "H?RO?LN ?TRN ?TNTO N?T?L?ON",
+   "coverage": 0.0,
+   "null_p": 1.0,
+   "any": {
+    "system": "2213",
+    "coverage": 0.19,
+    "reading": "??VTURB ASVB USBST BOSOR?TB",
+    "null_p": 0.3688,
+    "null_max": 0.455
+   }
+  },
+  {
+   "image": "1882_18820701-5.jpg",
+   "rank_ocr": 7,
+   "rank": 2,
+   "of": 63,
+   "own": "2201",
+   "own_score": -6.63,
+   "top": "2217",
+   "reading": "NIER EQI GS DRG UR YNIER RY TRVIXR YNSY YR ONIVRX",
+   "coverage": 0.103,
+   "null_p": 0.0732,
+   "any": {
+    "system": "2217",
+    "coverage": 0.615,
+    "reading": "AIME MOI UN PEU JE TAIME ET DESIRE TANT TE BAISER",
+    "null_p": 0.0033,
+    "null_max": 0.333
+   }
+  },
+  {
+   "image": "1892_18920908-43.jpg",
+   "rank_ocr": 7,
+   "rank": 2,
+   "of": 63,
+   "own": "1002",
+   "own_score": -4.789,
+   "top": "2220",
+   "reading": "DERLING",
+   "coverage": 0.0,
+   "null_p": 1.0,
+   "any": {
+    "system": "1001",
+    "coverage": 0.0,
+    "reading": "EFSMJOH",
+    "null_p": 1.0,
+    "null_max": 1.0
+   }
+  }
+ ],
+ "firsts": 1,
+ "plain_abbreviated": [
+  "1896_18960710-P.jpg",
+  "1885_18851218-R.jpg",
+  "1876_18760608-2.jpg",
+  "1889_18891005-M.jpg"
+ ],
+ "with_digits": [
+  "1894_18940719-M.jpg",
+  "1893_18930514-R.jpg",
+  "1886_18860608-M.jpg",
+  "1885_18851128-P.jpg",
+  "1887_18870101-2.jpg",
+  "1885_18850216-R.jpg",
+  "1887_18870320-2.jpg"
+ ]
+}
