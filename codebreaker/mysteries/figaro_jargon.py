@@ -69,8 +69,61 @@ def jargon_table(min_ads: int = 3) -> dict:
             "top": [{"word": t, "count": count[t], "ads": len(where[t]), "neighbours": near[t].most_common(4)} for t in sorted(codes, key=lambda t: -count[t])[:30]]}
 
 
+def v_occurrences() -> list[tuple]:
+    """(image, stem, code word, neighbours) for every pattern code word in the 1896 V ads."""
+    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    raw, out = json.loads((OUT / "ocr_raw.json").read_text()), []
+    for n in sorted(raw):
+        if not (n.endswith("-V.jpg") and n.startswith("1896")) or ads.get(n, {}).get("solved") in (True, "True"):
+            continue
+        toks = [t.lower() for t in re.findall(r"[A-Za-z]+", " ".join(raw[n].get("tesseract") or []))]
+        for i, t in enumerate(toks):
+            m = PATTERN.match(t)
+            if m:
+                out.append((n, m.group(1), t, toks[max(0, i - 2):i] + toks[i + 1:i + 3]))
+    return out
+
+
+def mutual_information(pairs: list[tuple]) -> float:
+    from math import log
+
+    n = len(pairs)
+    pxy, px, py = Counter(pairs), Counter(a for a, _ in pairs), Counter(b for _, b in pairs)
+    return sum(c / n * log((c / n) / (px[a] / n * py[b] / n)) for (a, b), c in pxy.items()) if n else 0.0
+
+
+def date_tests(trials: int = 2000, seed: int = 61) -> dict:
+    """Fixed before looking (Round 61): H1, a stem's variant tracks the publication weekday; H2, it tracks the day of
+    the month. Statistic: mutual information between variant and date feature; null: ad dates permuted among ads;
+    Bonferroni over stems x 2. Also counted: plain time words beside each stem (descriptive)."""
+    import datetime
+
+    occ = v_occurrences()
+    images = sorted({o[0] for o in occ})
+    date = {i: datetime.date(int(i[5:9]), int(i[9:11]), int(i[11:13])) for i in images}
+    feature = {"weekday": lambda d: d.weekday(), "monthday": lambda d: d.day}
+    rnd, out = random.Random(seed), {}
+    tests = [(s, f) for s in STEMS for f in feature if sum(o[1] == s for o in occ) >= 8]
+    for stem, f in tests:
+        rows = [(o[0], o[2]) for o in occ if o[1] == stem]
+        real = mutual_information([(w, feature[f](date[i])) for i, w in rows])
+        null = []
+        for _ in range(trials):
+            perm = images[:]
+            rnd.shuffle(perm)
+            remap = dict(zip(images, perm))
+            null.append(mutual_information([(w, feature[f](date[remap[i]])) for i, w in rows]))
+        out[f"{stem}:{f}"] = {"occurrences": len(rows), "mi": round(real, 3), "null_mean": round(sum(null) / trials, 3), "p": (sum(x >= real for x in null) + 1) / (trials + 1)}
+    bar = 0.05 / max(len(tests), 1)
+    for v in out.values():
+        v["passes"] = v["p"] <= bar
+    time_words = {"heure", "heures", "h", "soir", "matin", "midi", "minuit", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi", "dimanche"}
+    beside = {s: Counter(w for o in occ if o[1] == s for w in o[3] if w in time_words) for s in STEMS}
+    return {"tests": out, "bar": bar, "passed": [k for k, v in out.items() if v["passes"]], "time_words_beside": {k: dict(v) for k, v in beside.items() if v}}
+
+
 def run() -> dict:
-    return {"id": "figaro_jargon", "codebook_38": elision_test(), "v_1896": jargon_table()}
+    return {"id": "figaro_jargon", "codebook_38": elision_test(), "v_1896": jargon_table(), "v_dates": date_tests()}
 
 
 if __name__ == "__main__":
@@ -80,3 +133,4 @@ if __name__ == "__main__":
     j = res["v_1896"]
     print({k: j[k] for k in ("ads", "code_words", "pattern_share", "null_mean", "null_max", "p")})
     print(j["by_stem"])
+    print(json.dumps(res["v_dates"], indent=1))

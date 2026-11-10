@@ -94,7 +94,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 58 | Of the series that beat the matched null: 17 (1878) is a book code with page.word ranges; 38 (1881) a numbered codebook (~37,000 entries); PAUL and E are table 2119 ads hidden by OCR: 11 of 12 read at p<=5e-4 ('Our little girl ... how I love you'; 'Moth. says comes mardi ... must be back before end year'). Correspondence: 104 ads | completed 2026-11-10 |
 | 59 | 19 T and 42 ads transcribed: all table 2119; 16 pass at p<=5e-4, 3 in part ('Back Friday ... love you all my heart, my wife'; 'Necess. know what he is about before he goes, to avoid be caught'). Key history: Dec 1881-Feb 1882 use 9 and i (as documented) where later ads use r and p (as inferred). Correspondence: 123 ads | completed 2026-11-10 |
 | 60 | 38 codebook: elided numbers fall in vowel/h stretches of an alphabetical list 2 of 4 times (chance 27%, p=0.30), no support for alphabetical order. V 1896 jargon: 73% of 73 recurring code words fit stem + consonant + vowel (lar-, dri-, fra-, mi- with up to 12 variants) against at most 11% shuffled: a two-part nomenclator (descriptive; pattern chosen after inspection) | completed 2026-11-10 |
-| 61 | V 1896: test whether the consonant index tracks numbers, hours or days against the ads' dates and plain context | pending |
+| 61 | V 1896, hypotheses fixed in advance: no stem's variants track publication weekday or day of month (best p=0.017 and 0.021 against a Bonferroni bar of 0.0036); time words almost never beside code words. Not a date code in this form | completed 2026-11-10 |
+| 62 | Triage the review queue: group the needs_review leads by family and evidence (three gates, two gates, checked by eye, machine reading) for the user | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -387,6 +388,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 61
+- Fixing the hypotheses before looking turned two tempting p-values (0.017, 0.021) into the non-results they are under the correction.
 
 ## Added 2026-11-10: Round 60
 - A pattern found by looking is a description, not a test; it earns a test only when a prediction is fixed before the data that checks it.

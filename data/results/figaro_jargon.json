@@ -802,5 +802,114 @@
     ]
    }
   ]
+ },
+ "v_dates": {
+  "tests": {
+   "lar:weekday": {
+    "occurrences": 92,
+    "mi": 0.366,
+    "null_mean": 0.322,
+    "p": 0.1409295352323838,
+    "passes": false
+   },
+   "lar:monthday": {
+    "occurrences": 92,
+    "mi": 1.002,
+    "null_mean": 1.058,
+    "p": 0.8970514742628686,
+    "passes": false
+   },
+   "dri:weekday": {
+    "occurrences": 93,
+    "mi": 0.395,
+    "null_mean": 0.378,
+    "p": 0.36081959020489757,
+    "passes": false
+   },
+   "dri:monthday": {
+    "occurrences": 93,
+    "mi": 1.177,
+    "null_mean": 1.199,
+    "p": 0.6696651674162919,
+    "passes": false
+   },
+   "fra:weekday": {
+    "occurrences": 76,
+    "mi": 0.302,
+    "null_mean": 0.345,
+    "p": 0.8330834582708646,
+    "passes": false
+   },
+   "fra:monthday": {
+    "occurrences": 76,
+    "mi": 1.182,
+    "null_mean": 1.078,
+    "p": 0.01699150424787606,
+    "passes": false
+   },
+   "mi:weekday": {
+    "occurrences": 77,
+    "mi": 0.555,
+    "null_mean": 0.452,
+    "p": 0.020989505247376312,
+    "passes": false
+   },
+   "mi:monthday": {
+    "occurrences": 77,
+    "mi": 1.199,
+    "null_mean": 1.264,
+    "p": 0.888055972013993,
+    "passes": false
+   },
+   "gal:weekday": {
+    "occurrences": 36,
+    "mi": 0.224,
+    "null_mean": 0.173,
+    "p": 0.12293853073463268,
+    "passes": false
+   },
+   "gal:monthday": {
+    "occurrences": 36,
+    "mi": 0.49,
+    "null_mean": 0.506,
+    "p": 0.6601699150424788,
+    "passes": false
+   },
+   "er:weekday": {
+    "occurrences": 48,
+    "mi": 0.312,
+    "null_mean": 0.328,
+    "p": 0.5897051474262869,
+    "passes": false
+   },
+   "er:monthday": {
+    "occurrences": 48,
+    "mi": 0.974,
+    "null_mean": 0.92,
+    "p": 0.1854072963518241,
+    "passes": false
+   },
+   "fle:weekday": {
+    "occurrences": 29,
+    "mi": 0.824,
+    "null_mean": 0.722,
+    "p": 0.10294852573713144,
+    "passes": false
+   },
+   "fle:monthday": {
+    "occurrences": 29,
+    "mi": 1.581,
+    "null_mean": 1.492,
+    "p": 0.18340829585207397,
+    "passes": false
+   }
+  },
+  "bar": 0.0035714285714285718,
+  "passed": [],
+  "time_words_beside": {
+   "er": {
+    "midi": 1
+   }
+  }
  }
 }
