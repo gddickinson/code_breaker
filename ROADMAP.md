@@ -86,7 +86,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 50 | All 29 Round 49 machine readings transcribed and read by eye (each p<=5e-4). Table 2119 correspondence: 80 ads under 25 signatures, Dec 1881 to Jan 1887; it names madame C. L., Leon, Jul[es?], Heliot, a chalet, a cercle, the Mediterranee, a bal (Feb 1884), the writer's mother, father and a child | completed 2026-11-10 |
 | 51 | L. C. 15 (22 ads, 1879-82) and L. R. G. (7 ads, 1879-80) transcribed. Both repeat far more than shuffled copies (36% and 45% of positions in repeated 5-grams, against at most 4% and 7%). LC15 1879-81 is not a simple homophonic substitution (planted control 98%, real text does not read); LC15 1881-82 is not one shared substitution (planted control 100%). LRG looks like a numeric codebook. No readings; book codes need their book | completed 2026-11-10 |
 | 52 | L. R. G. reads: a blind homophonic solve (3 of 7 seeds converge) gives digits 1234567890 = TISANEROUL and letters for further common letters; planted control 98%, shuffles at most -4.78 and 15% words against -4.23 and 46%; word bar met narrowly; read by eye ('Tres inquiete, pas recu lettre depuis le huit ... ecris Arcachon'; 'Ma chere, lettre poste restante'). The 1879 numeric ads share no code with LRG; LC15 1881-82 ads are too short alone (controls 22-60%) | completed 2026-11-10 |
-| 53 | The L. R. G. method (pooled blind homophonic, three controls) on every other unsolved letter-digit signature with 300+ symbols | pending |
+| 53 | The L. R. G. method on 14 other letter-digit signatures from OCR: none reads (all under 25% words; planted controls 97-99%). Six beat their shuffles (90, D, B, 7, Jane, E). Under the table 2119 key the pools of 7, D, 42 and E read in part (14-25%) | completed 2026-11-10 |
+| 54 | Transcribe the top table-2119 residuals among signatures 7, D, 42, E, and the structure-only signatures B, 90, Jane; rerun on transcriptions | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -379,4 +380,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 53
+- A screen on OCR is only as good as the OCR: the same method that read L. R. G. from transcriptions reads nothing here, and planted controls cannot model OCR loss.
+- Decoding failed pools with keys already known is cheap and points to hidden members of known families.
 
