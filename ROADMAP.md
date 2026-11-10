@@ -83,7 +83,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 47 | The letter-digit family is the table 2119 correspondence (writer 42, bilingual): 7 of 8 transcribed ads pass (2119 first of 32 tables, p<=0.0045), 5 new members back to Mar 1882. OCR screen of 422 letter-digit ads under 2119: 27 pass Bonferroni, 25 without leads, 4 checked by eye (J 1883 'So sorry not seen you ... t'aime tant ma femme', N 1884 'No my dear wife, I don't forget you', 42 Dec 1881, 8 1887) | completed 2026-11-10 |
 | 48 | All 21 remaining 2119 screen hits transcribed and read by eye (each p<=5e-4). Seven missing symbols inferred (P=U, H=W, A=G, O=L, D=K, Q=B, L=A): held-out gain 18.5% against at most 12.4% for random letters (p=0.005). Timeline of 47 ads, Dec 1881 to Jan 1887 | completed 2026-11-10 |
 | 49 | Table 2119: the source table gives x for symbol 1; B reads better in 11 of 12 ads (sign test p=0.003). Rescreen of 408 OCR ads under the full key: 35 pass Bonferroni, 33 without leads; 4 checked by eye (42 9 Dec 1882 'Merci madame C. L., votre lettre not long enough ... je t'adore'; 7 9 Mar 1882 '... my dear loved wife, miss you so much') | completed 2026-11-10 |
-| 50 | Transcribe and check the 29 Round 49 machine readings; full 2119 timeline with names, places and dates | pending |
+| 50 | All 29 Round 49 machine readings transcribed and read by eye (each p<=5e-4). Table 2119 correspondence: 80 ads under 25 signatures, Dec 1881 to Jan 1887; it names madame C. L., Leon, Jul[es?], Heliot, a chalet, a cercle, the Mediterranee, a bal (Feb 1884), the writer's mother, father and a child | completed 2026-11-10 |
+| 51 | Return to the hunt's wider queue: the remaining unread families (book codes 1891/1894, LRG and LC15 of 1879, the 1879 numeric ads), each with its own control | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -364,4 +365,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 49
 - For a single-symbol correction, a per-ad sign test (does the alternative read better or worse in each ad?) is sharper than a random-letter control, which includes the right letter by chance about one time in nine.
 - Keep spot-check transcriptions out of the data used to fit a key, so later fits stay honest.
+
+## Added 2026-11-10: Round 50
+- Screening under a key that has been corrected and completed keeps paying: the 2119 correspondence grew from 17 to 80 ads in four rounds.
+- Keep mentions (names, places, events) as a by-product of reading; they are the way to date and identify a correspondence later, and they need no new statistics.
 

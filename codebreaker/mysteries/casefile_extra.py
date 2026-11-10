@@ -183,8 +183,32 @@ def _t2119():
     return [{"heading": "The table 2119 correspondence, extended (candidates)", "paragraphs": [
         "A family of letter-digit ads signed 7, 5, H, R, P, M and 2 (1882 to 1887) shares whole tokens such as fr5, grp and 26886. It is the correspondence already read under table 2119, documented for writer 42: its cells hold syllables and words as well as letters, which is why a letter substitution solve failed. The writer moves between English and French ('see my dear face again, cannot live more sans toi, ma femme adoree').",
         f"Transcribed from the scans, these ads read under table 2119 far better than shuffled copies, and table 2119 ranks first of all 32 digit tables for each. An OCR screen of {r['screened']} letter-digit ads under the same key finds {len(r['screen_passed'])} more at a Bonferroni level, back to December 1881 (signed 42); all were then transcribed from the scans and read by eye ('So sorry not seen you ... t'aime tant ma femme', 'No my dear wife, I don't forget you', 'So annoyed now we are going to be spied sharply ... try to know who it is'). Novelty unconfirmed.",
-        f"Seven symbols missing from the documented table were inferred ({', '.join(f'{k}={v}' for k, v in r['missing']['fitted_all'].items())}): fitted on the other ads, they raise each held-out ad's word share by {r['missing']['held_out_gain']:.1%} on average, against at most {r['missing']['random_gain_max']:.1%} for the same fit restricted to random letters (p = {r['missing']['p']:.3f}). The correspondence now has {len(r['timeline'])} ads, from December 1881 to January 1887.", _rescreen_2119()],
-        "table": _t(["Date", "Signed", "Reading (extended key)"], [[e["date"], e["signature"] or "-", r["readings_extended"].get(e["image"], e["reading"])[:110]] for e in r["timeline"]])}]
+        f"Seven symbols missing from the documented table were inferred ({', '.join(f'{k}={v}' for k, v in r['missing']['fitted_all'].items())}): fitted on the other ads, they raise each held-out ad's word share by {r['missing']['held_out_gain']:.1%} on average, against at most {r['missing']['random_gain_max']:.1%} for the same fit restricted to random letters (p = {r['missing']['p']:.3f}). The correspondence then had {len(r['timeline'])} ads.", _rescreen_2119(),
+        _timeline_note()],
+        "table": _timeline_table(r)}]
+
+
+def _timeline_json():
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_2119_timeline.json"
+    return json.loads(path.read_text()) if path.exists() else None
+
+
+def _timeline_note():
+    tl = _timeline_json()
+    if not tl:
+        return ""
+    m = "; ".join(f"{k} ({', '.join(v)})" for k, v in tl["mentions"].items())
+    return (f"All screen hits have now been transcribed and read by eye (Round 50). The correspondence has {tl['ads']} ads under {len(tl['signatures'])} signatures, "
+            f"from December 1881 to January 1887 (one 1876 ad from the first family is an outlier). Names, places and events it mentions, with dates: {m}.")
+
+
+def _timeline_table(r):
+    tl = _timeline_json()
+    rows = tl["timeline"] if tl else r["timeline"]
+    return _t(["Date", "Signed", "Reading"], [[e["date"], e["signature"] or "-", (e["reading"] if tl else r["readings_extended"].get(e["image"], e["reading"]))[:110]] for e in rows])
 
 
 def _families():

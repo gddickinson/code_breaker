@@ -157,6 +157,28 @@ def rescreen() -> dict:
             "passed": [x["image"] for x in scr[:TOP] if x.get("passes")]}
 
 
+MENTIONS = {"Leon": "LEON", "Jul[es?]": "JUL", "Heliot": "HELIOT", "madame C. L.": "MADAME C L", "chalet": "CHALET",
+            "Mediterranee": "MEDITERRANEE", "cercle": "CERCL", "Figaro": "FIG ", "mother": "MOTH", "father": "FATH", "child": "CHILD",
+            "rideau (signal)": "RIDEAU", "bal": "BAL "}
+
+
+def full_timeline() -> dict:
+    """Round 50: every member so far (Rounds 26, 47-49), read with the full key where transcribed, and what each mentions."""
+    r = json.loads(RESULT.read_text())
+    d, k = json.loads(FAMILY.read_text()), full_key()
+    trans = {**d["ads"], **d.get("checked_screen", {}), **d.get("checked_rescreen", {})}
+    rows = {e["image"]: e for e in r["timeline"]}
+    for i in d.get("checked_rescreen", {}):
+        rows.setdefault(i, {"image": i, "date": f"{i[5:9]}-{i[9:11]}-{i[11:13]}", "signature": i.split("-", 1)[1][:-4] if "-" in i else "", "added": "Round 49-50"})
+    out = []
+    for i, e in sorted(rows.items(), key=lambda x: x[0][5:13]):
+        reading = " ".join(decode(trans[i], k)) if i in trans else e.get("reading", "")
+        out.append({**e, "reading": reading, "transcribed": i in trans, "mentions": [m for m, w in MENTIONS.items() if w in f" {reading} "]})
+    index = {m: [e["date"] for e in out if m in e["mentions"]] for m in MENTIONS}
+    return {"ads": len(out), "span": [out[0]["date"], out[-1]["date"]], "signatures": sorted({e["signature"] or "-" for e in out}),
+            "timeline": out, "mentions": {m: v for m, v in index.items() if v}}
+
+
 def run() -> dict:
     fam = json.loads(FAMILY.read_text())["ads"]
     key, tables = key2119(), digit_tables()
@@ -177,7 +199,11 @@ def run() -> dict:
             "screen": scr[:TOP], "screened": n_screen, "screen_bar": sbar, "screen_passed": [r["image"] for r in scr[:TOP] if r.get("passes")]}
 
 
-if __name__ == "__main__" and len(__import__("sys").argv) > 1 and __import__("sys").argv[1] == "rescreen":
+if __name__ == "__main__" and len(__import__("sys").argv) > 1 and __import__("sys").argv[1] == "timeline":
+    res = full_timeline()
+    (ROOT / "data/results/figaro_2119_timeline.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
+    print(res["ads"], res["span"], len(res["signatures"]), res["mentions"])
+elif __name__ == "__main__" and len(__import__("sys").argv) > 1 and __import__("sys").argv[1] == "rescreen":
     res = rescreen()
     (ROOT / "data/results/figaro_2119_rescreen.json").write_text(json.dumps(res, ensure_ascii=False, indent=1))
     print(res["sign_test_1_is_b"], res["screened"], len(res["passed"]))

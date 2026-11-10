@@ -1,0 +1,844 @@
+{
+ "ads": 80,
+ "span": [
+  "1876-01-14",
+  "1887-01-20"
+ ],
+ "signatures": [
+  "-",
+  "0",
+  "2",
+  "42",
+  "5",
+  "6",
+  "7",
+  "8",
+  "A",
+  "D",
+  "E",
+  "G",
+  "H",
+  "I",
+  "J",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "PAUL",
+  "R",
+  "S",
+  "T",
+  "U"
+ ],
+ "timeline": [
+  {
+   "image": "1876_18760114.jpg",
+   "date": "1876-01-14",
+   "signature": "",
+   "reading": "OX FF AL MM AL MM ME FI FI CE EO CE",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1881_18811206-42.jpg",
+   "date": "1881-12-06",
+   "signature": "42",
+   "reading": "LIE OTH WOM DO EVERY MINUT SO MUCH LOV LOV YOU",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820309-7.jpg",
+   "date": "1882-03-09",
+   "signature": "7",
+   "added": "Round 49-50",
+   "reading": "YPS ALW WITH YOU MO DEAR LOVED WIFE MISS YOU SO MUCH MO FLOWPRS NOT FADED KISSED MORV AND NIG H T",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820311-7.jpg",
+   "date": "1882-03-11",
+   "signature": "7",
+   "reading": "TOSEE MY DEAR FACE AGAIN CANNOT LIVE MORE SANS TOI MA FEMME ADOREE BACK DEMAIN CHALET",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": [
+    "chalet"
+   ]
+  },
+  {
+   "image": "1882_18820428-PAUL.jpg",
+   "date": "1882-04-28",
+   "signature": "PAUL",
+   "reading": "WANT YOU SO MUCH FEEL MU AWKWARD SANS TOI SAIS QUOI FAIRP DE MDI ADIMAN MA FEMME BIEV AIMEE",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820613-7.jpg",
+   "date": "1882-06-13",
+   "signature": "7",
+   "reading": "WANT YOU SO MUCH DONT FORGAT ME BACK AS BOON POSSIBLE CANNOT FORCE RETURN MAIS RETIENDREI PAS",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820617-PAUL.jpg",
+   "date": "1882-06-17",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "BACK DEM ELEVEN IRAI DIM CHALET COME MONDAY ONE MAISON LONG AFTER YOU MY DEAREST DIFE",
+   "transcribed": true,
+   "mentions": [
+    "chalet"
+   ]
+  },
+  {
+   "image": "1882_18821209-42.jpg",
+   "date": "1882-12-09",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "MERCI MADAME C L VOTRE LETTRE NOT LONG ENOUGH VEUA SAVOIR MINUTCE QUE FAIS TE GARDE MON COEUR TOUT ENTI JE TADORE",
+   "transcribed": true,
+   "mentions": [
+    "madame C. L."
+   ]
+  },
+  {
+   "image": "1882_18821217-PAUL.jpg",
+   "date": "1882-12-17",
+   "signature": "PAUL",
+   "added": "Round 49-50",
+   "reading": "IF RIDEAU NOT OPEN ONE COME THREE MAY RETURN ANLY MONDAY MORNING VEUA CACHER RETOUR WANT YOU SO NUCH LOVING WIFE WRITES HUSBAND DAILY",
+   "transcribed": true,
+   "mentions": [
+    "rideau (signal)"
+   ]
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "date": "1883-02-17",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "PENSE TOI SANS CESSE PUISQUE MOITIE MA VIE ME MANQUE SO HAPPY LETTER BACK TU ES MA FEMME ADOREE SI ENNUYE PARTIR QUE OUBLIE SOUHAITER FETE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18830220-7.jpg",
+   "date": "1883-02-20",
+   "signature": "7",
+   "reading": "SO ANNOYED NOW WE ARE GOING TO BE SPIED SHARPLY QUE FAIRETRY TO KNOW WHO IT IS BESOIN TES LETTRES ME CONSOLER PAS VU MM TU NE SAIS PAS COMME JE TAIME",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18830222-42.jpg",
+   "date": "1883-02-22",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "WORK DAILY TWO HOURS CLOSE PORTR TRY MAKE HIM LEAVE HER TOUT EN CONSTATANT POSITION POUR GARDER AVANTAGE CAS ECHEANT WIFE FOR EVER ADORE YOU",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18830227-42.jpg",
+   "date": "1883-02-27",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "MOI AUSSI SOUFFRE ABSENCA ISIT BETTER REVINIR VENDRE TWO YOU COMING THREE DECIDE PAS VU MMTEM PS AFFAIRES CERCLE VAIS JEANNE TAIME ADORATI",
+   "transcribed": true,
+   "mentions": [
+    "cercle"
+   ]
+  },
+  {
+   "image": "1883_18830607-8.jpg",
+   "date": "1883-06-07",
+   "signature": "8",
+   "added": "Round 49-50",
+   "reading": "MOTH CAME ONLY HIER HARDLY BACK BEF JEUDI MISS YOU SO POURRAIS TU PAS VEN DIM EMBRASSE HELIOT GLAD NOTES CHILD WANT WRITE YOU HOWTON MARI TAIME",
+   "transcribed": true,
+   "mentions": [
+    "Heliot",
+    "mother",
+    "child"
+   ]
+  },
+  {
+   "image": "1883_18830612-5.jpg",
+   "date": "1883-06-12",
+   "signature": "5",
+   "reading": "NI MECH NI SURT INDIFF TRY ARRANG PERE CHAL SUND LOVE YOU ALL COEUR FOR EVER MY WIFE IF BACK TIDAL FRIDAY AFTERN CAN YOU COME NINE OL TEN NIGHT",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18831125-J.jpg",
+   "date": "1883-11-25",
+   "signature": "J",
+   "reading": "SO SORRY NOT SEEN YOU PENSE TOI TOUT IOUR PORTR DEV MOI SOIS PAS MALH PUISQUE TAIME TANT MA FEMME",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18831127-A.jpg",
+   "date": "1883-11-27",
+   "signature": "A",
+   "added": "Round 49-50",
+   "reading": "GPNTIL ECR MIND PIEGE HE WANTS PEOPLE BELIEVE YOU CHANGP BECAUSE I AWAY SO HAPPY FL TAIME PASSI",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18831226-J.jpg",
+   "date": "1883-12-26",
+   "signature": "J",
+   "reading": "Menn tant, ma pet[ite] femm[e]. Merci fl[eurs]. Refuse reveil pour rester avec ta pensee. T'aime a passion. M. Tilly. This ad is partly read: menn is not understood.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1883_18831230-R.jpg",
+   "date": "1883-12-30",
+   "signature": "R",
+   "reading": "Mari pas content, mais suis premier te souhait[er] jour [de l']an. T'embrasse avec adoration, ma femme.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840105-D.jpg",
+   "date": "1884-01-05",
+   "signature": "D",
+   "reading": "A TA RENTREE SACHE MON AMOUR ETERNEL MA FEMM AD",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840112-E.jpg",
+   "date": "1884-01-12",
+   "signature": "E",
+   "reading": "Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840113-E.jpg",
+   "date": "1884-01-13",
+   "signature": "E",
+   "reading": "DES Q TAI DIT LE RAMEN ME REPEJS A TOI VIE CHERIE",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840115-S.jpg",
+   "date": "1884-01-15",
+   "signature": "S",
+   "added": "Round 49-50",
+   "reading": "FIG PAS REG ENRAG PAS FAUTE TAD PL EN PLFEM CHER",
+   "transcribed": true,
+   "mentions": [
+    "Figaro"
+   ]
+  },
+  {
+   "image": "1884_18840116-T.jpg",
+   "date": "1884-01-16",
+   "signature": "T",
+   "added": "Round 49-50",
+   "reading": "GEJS GATES SONT AME EN PEINE SANS LETT LEUR FEM",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840117-T.jpg",
+   "date": "1884-01-17",
+   "signature": "T",
+   "added": "Round 49-50",
+   "reading": "TWO WORD FIG SAT BACK BEF END MONTH AD Y MY LOVE",
+   "transcribed": true,
+   "mentions": [
+    "Figaro"
+   ]
+  },
+  {
+   "image": "1884_18840119-U.jpg",
+   "date": "1884-01-19",
+   "signature": "U",
+   "added": "Round 49-50",
+   "reading": "IMPN WR LOVE ALL SAME I WR DAILY PACK NEAT WEEK",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840125-I.jpg",
+   "date": "1884-01-25",
+   "signature": "I",
+   "added": "Round 49-50",
+   "reading": "HAVE WR L START DEM LOVE YOU MY WIFE FOR EVEN",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840128-S.jpg",
+   "date": "1884-01-28",
+   "signature": "S",
+   "reading": "MOND SOIR TR CLAIR SABLR PASS THRO POST STOP HAT BAINS TA SEE IF FOLLOWED BACK TR FIVE",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840219-H.jpg",
+   "date": "1884-02-19",
+   "signature": "H",
+   "reading": "Je te.. avant de partir, ma petite femme ador[ee].",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840224-0.jpg",
+   "date": "1884-02-24",
+   "signature": "0",
+   "added": "Round 49-50",
+   "reading": "ECR PLUS LUA HABITE CERCL MEDITERRANEE ASK FLOW LEON MOUBLIE PAS BAL LONG FOR LETTER LOVE YOU",
+   "transcribed": true,
+   "mentions": [
+    "Leon",
+    "Mediterranee",
+    "cercle",
+    "bal"
+   ]
+  },
+  {
+   "image": "1884_18840227-E.jpg",
+   "date": "1884-02-27",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "CE SOIR AU BAL PENSE A MOI MA FEMME JE TAIME PASS",
+   "transcribed": true,
+   "mentions": [
+    "bal"
+   ]
+  },
+  {
+   "image": "1884_18840228-L.jpg",
+   "date": "1884-02-28",
+   "signature": "L",
+   "added": "Round 49-50",
+   "reading": "ESP AMUSEE BAL GENTIL MECR DAILY TU AS TOUT M AM",
+   "transcribed": true,
+   "mentions": [
+    "bal"
+   ]
+  },
+  {
+   "image": "1884_18840306-O.jpg",
+   "date": "1884-03-06",
+   "signature": "O",
+   "reading": "Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840311-A.jpg",
+   "date": "1884-03-11",
+   "signature": "A",
+   "reading": "C DAYS SA LETT MON TRESOR QUE JE SERA LONG TAI TA",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840312-N.jpg",
+   "date": "1884-03-12",
+   "signature": "N",
+   "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840318-O.jpg",
+   "date": "1884-03-18",
+   "signature": "O",
+   "reading": "TU ENCOUR WARESSE FILL TE GRONDE EN TAIMANT AME",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840323a-E.jpg",
+   "date": "1884-03-23",
+   "signature": "E",
+   "reading": "A APO DEM MOI ALSO LONG AFT YOU MY DEAREST LOVE",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840427-H.jpg",
+   "date": "1884-04-27",
+   "signature": "H",
+   "reading": "SI GR VIDE SANS TOI MERCI DEVIN PENSEE FILLE AD",
+   "added": "earlier",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840531-J.jpg",
+   "date": "1884-05-31",
+   "signature": "J",
+   "reading": "Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840604-D.jpg",
+   "date": "1884-06-04",
+   "signature": "D",
+   "reading": "MM .NO.S UO..O. SENT SI XON MERCI MARI TAD ROSE",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840605-I.jpg",
+   "date": "1884-06-05",
+   "signature": "I",
+   "reading": "Ne trou[b]l[e] pas, ma cherie, tu es ma femme adoree. The second word prints as TOU1L; this ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840608-N.jpg",
+   "date": "1884-06-08",
+   "signature": "N",
+   "reading": "NO MY DEAR WIFE I DONT FORGET YOU ENN DE TOI TANT",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840609-D.jpg",
+   "date": "1884-06-09",
+   "signature": "D",
+   "reading": "HOPE SLEPT WELL BACK MID NEAT WEEK AD YOU",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18841221-S.jpg",
+   "date": "1884-12-21",
+   "signature": "S",
+   "reading": "Ma cherie, merc[i] lett[re], je t'aim[e], ma femme, ma vie.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850207.jpg",
+   "date": "1885-02-07",
+   "signature": "",
+   "reading": "NON MA CHERIE OUBLIER PAS TU ES MA VIE TOUJ",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850209-M.jpg",
+   "date": "1885-02-09",
+   "signature": "M",
+   "added": "Round 49-50",
+   "reading": "LETT DAIMY MAKE ME SO GLAD AND KNOW TA VIE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850211-M.jpg",
+   "date": "1885-02-11",
+   "signature": "M",
+   "reading": "SI POUV MEET QQPART LUI PARTI DIM THINK OVER IT SI TU SAVAIS COMME JE TAIME MA FEMME ADO",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850212-E.jpg",
+   "date": "1885-02-12",
+   "signature": "E",
+   "reading": "T'embr[asse] en me levant, mon amour, ma femme. Pass.. This ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850216-R.jpg",
+   "date": "1885-02-16",
+   "signature": "R",
+   "reading": "VIE MERC TWENTY PAST NINE MAT BALE COMME SORT LIT REV MARD SOIN JE TADORE MA FEMME AIMEE",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850504-M.jpg",
+   "date": "1885-05-04",
+   "signature": "M",
+   "added": "Round 49-50",
+   "reading": "DIRAI DEM JOUR RET MENN DE TOI MARD OU MERCR",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850603-E.jpg",
+   "date": "1885-06-03",
+   "signature": "E",
+   "reading": "WHEN DULL ON ECR BONJ ON PRIV PAS MARI PAIN QUOT I LOVE YOU MN DEAREST WIF FOR EVER BE CALM",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850606-D.jpg",
+   "date": "1885-06-06",
+   "signature": "D",
+   "reading": "TR IMPR VAUDR MIE POST REST JE TAIME CHERI",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850609-O.jpg",
+   "date": "1885-06-09",
+   "signature": "O",
+   "added": "Round 49-50",
+   "reading": "DEM BRET PAS VU MM I MIN EN TOUT A TOI SEULE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850616-L.jpg",
+   "date": "1885-06-16",
+   "signature": "L",
+   "added": "Round 49-50",
+   "reading": "OLD MIGHT DO GREAT HARM SEND FATH ARR WITH JUL BACK END WEEK SAUFF ABS COM TOI TAIME AME",
+   "transcribed": true,
+   "mentions": [
+    "Jul[es?]",
+    "father"
+   ]
+  },
+  {
+   "image": "1885_18850621-E.jpg",
+   "date": "1885-06-21",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "BACK MIL WEEK POUR VEN VENDR MAT OU APR MID",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18850623-J.jpg",
+   "date": "1885-06-23",
+   "signature": "J",
+   "reading": "A VENK MA CHERIE JE PENSE A TOI DAY ET NUIT",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18851130-O.jpg",
+   "date": "1885-11-30",
+   "signature": "O",
+   "reading": "YOU FAIL ME SO MUCH I FEEL HOW I LOVE YOU WIF",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18851201-S.jpg",
+   "date": "1885-12-01",
+   "signature": "S",
+   "added": "Round 49-50",
+   "reading": "WR ME ON YOUR PAPER I DONT PLAY LOVE YOU FONDL",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1885_18851205-R.jpg",
+   "date": "1885-12-05",
+   "signature": "R",
+   "reading": "UNLES WO FIG BACK DIM SOIR QUE JE TAIME MA TILL",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": [
+    "Figaro"
+   ]
+  },
+  {
+   "image": "1886_18860108-I.jpg",
+   "date": "1886-01-08",
+   "signature": "I",
+   "added": "Round 49-50",
+   "reading": "NE TOUBL PAS MA FEM TOUT NE MEST QUE DE MOITIE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860110-N.jpg",
+   "date": "1886-01-10",
+   "signature": "N",
+   "added": "Round 49-50",
+   "reading": "BON BAISER D U MATIN MA PREM PENS ENV FL LEON",
+   "transcribed": true,
+   "mentions": [
+    "Leon"
+   ]
+  },
+  {
+   "image": "1886_18860121-E.jpg",
+   "date": "1886-01-21",
+   "signature": "E",
+   "reading": "Cert[ain] lund[i] par.. je t'ad[ore], ma femme, ne pense qu'a toi. This ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860128-I.jpg",
+   "date": "1886-01-28",
+   "signature": "I",
+   "added": "Round 49-50",
+   "reading": "AM NOW CLOSE TO YOU TLY KNOW WHY HOW LEFT HER",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860130-L.jpg",
+   "date": "1886-01-30",
+   "signature": "L",
+   "added": "Round 49-50",
+   "reading": "BACK BEGIN NEAT WEEK AS OBL DINE LEV SUND LOV",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860330-A.jpg",
+   "date": "1886-03-30",
+   "signature": "A",
+   "reading": "PARL JAM TROP DE TOI PEINT ALL DAY HIER LOV",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860403-L.jpg",
+   "date": "1886-04-03",
+   "signature": "L",
+   "reading": "O... MENN DE TO. MA CHER AIME DE MECR DAIC",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860405-E.jpg",
+   "date": "1886-04-05",
+   "signature": "E",
+   "reading": "THIS FITH WORD ALL DAYS PAINT ET PENSE TOI",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860408-U.jpg",
+   "date": "1886-04-08",
+   "signature": "U",
+   "added": "Round 49-50",
+   "reading": "BACK SAT CHAL SORS SOIR SI CRA VUE LUND SOI",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860410-S.jpg",
+   "date": "1886-04-10",
+   "signature": "S",
+   "added": "Round 49-50",
+   "reading": "CR ETR PRIS LUND VI MARD REV SAM OU DIM LOVE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860529-P.jpg",
+   "date": "1886-05-29",
+   "signature": "P",
+   "reading": "Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read.",
+   "added": "earlier",
+   "transcribed": false,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860605-T.jpg",
+   "date": "1886-06-05",
+   "signature": "T",
+   "reading": "SI HEUR HAVE NEWS DAIL WHY NOT SLEEP TAIME",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860608-M.jpg",
+   "date": "1886-06-08",
+   "signature": "M",
+   "reading": "M GO BRET MOI CR PAS RAIN NO BET LOV YOU DEAL",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18860610-O.jpg",
+   "date": "1886-06-10",
+   "signature": "O",
+   "added": "Round 49-50",
+   "reading": "MO GONE IF BACK MOND CO YOU COME EVEN AIME",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18861217-G.jpg",
+   "date": "1886-12-17",
+   "signature": "G",
+   "added": "Round 49-50",
+   "reading": "MERC MID PAS MOT DE TOI SAIS TU QUE MEURS DANG MANQ TU FOI JUL JE SOUF TANT CR RIEN QUE DE MOI",
+   "transcribed": true,
+   "mentions": [
+    "Jul[es?]"
+   ]
+  },
+  {
+   "image": "1886_18861218-E.jpg",
+   "date": "1886-12-18",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "TE VERR OU QUAND VOUDR MISON OU RUE MA FEM AD",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18861219-T.jpg",
+   "date": "1886-12-19",
+   "signature": "T",
+   "added": "Round 49-50",
+   "reading": "VI LUND QUART TO FIVE QUE LETT QA FAIT BIEN AD",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1887_18870101-2.jpg",
+   "date": "1887-01-01",
+   "signature": "2",
+   "reading": "TON MAR TEMB CEL DE TOUS TOUS QUI TAIM LE PLUS",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1887_18870111-5.jpg",
+   "date": "1887-01-11",
+   "signature": "5",
+   "reading": "BONJ MAD ET CHER EPOU JE VS AIME A LAD MA VIE",
+   "added": "earlier",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1887_18870113-6.jpg",
+   "date": "1887-01-13",
+   "signature": "6",
+   "reading": "MA PET FEM JE TEM AIN QUE MON AMI CHERI BI JOLI",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1887_18870120-8.jpg",
+   "date": "1887-01-20",
+   "signature": "8",
+   "reading": "MOTH ILL SI V PAS RID PET RUE OU CONTINUE PORT",
+   "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": [
+    "mother"
+   ]
+  }
+ ],
+ "mentions": {
+  "Leon": [
+   "1884-02-24",
+   "1886-01-10"
+  ],
+  "Jul[es?]": [
+   "1885-06-16",
+   "1886-12-17"
+  ],
+  "Heliot": [
+   "1883-06-07"
+  ],
+  "madame C. L.": [
+   "1882-12-09"
+  ],
+  "chalet": [
+   "1882-03-11",
+   "1882-06-17"
+  ],
+  "Mediterranee": [
+   "1884-02-24"
+  ],
+  "cercle": [
+   "1883-02-27",
+   "1884-02-24"
+  ],
+  "Figaro": [
+   "1884-01-15",
+   "1884-01-17",
+   "1885-12-05"
+  ],
+  "mother": [
+   "1883-06-07",
+   "1887-01-20"
+  ],
+  "father": [
+   "1885-06-16"
+  ],
+  "child": [
+   "1883-06-07"
+  ],
+  "rideau (signal)": [
+   "1882-12-17"
+  ],
+  "bal": [
+   "1884-02-24",
+   "1884-02-27",
+   "1884-02-28"
+  ]
+ }
+}

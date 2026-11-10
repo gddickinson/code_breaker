@@ -62,3 +62,12 @@ def test_rescreen_spot_checks_read_with_full_key():
     assert "DEAR LOVED WIFE MISS YOU SO MUCH" in " ".join(T.decode(d["1882_18820309-7.jpg"], k))
     assert " ".join(T.decode(d["1882_18821209-42.jpg"], k)).startswith("MERCI MADAME")
     assert not set(d) & set(T.texts())  # spot checks are kept out of the fit
+
+
+def test_full_timeline_and_mentions():
+    tl = T.full_timeline()
+    assert tl["ads"] >= 75 and len(tl["signatures"]) >= 20
+    dates = [e["date"] for e in tl["timeline"]]
+    assert dates == sorted(dates)
+    assert tl["mentions"]["madame C. L."] == ["1882-12-09"] and "1884-02-27" in tl["mentions"]["bal"]
+    assert all(e["transcribed"] for e in tl["timeline"] if e["image"] in json.loads(T.FAMILY.read_text())["checked_rescreen"])
