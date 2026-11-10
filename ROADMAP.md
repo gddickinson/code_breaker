@@ -87,7 +87,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 51 | L. C. 15 (22 ads, 1879-82) and L. R. G. (7 ads, 1879-80) transcribed. Both repeat far more than shuffled copies (36% and 45% of positions in repeated 5-grams, against at most 4% and 7%). LC15 1879-81 is not a simple homophonic substitution (planted control 98%, real text does not read); LC15 1881-82 is not one shared substitution (planted control 100%). LRG looks like a numeric codebook. No readings; book codes need their book | completed 2026-11-10 |
 | 52 | L. R. G. reads: a blind homophonic solve (3 of 7 seeds converge) gives digits 1234567890 = TISANEROUL and letters for further common letters; planted control 98%, shuffles at most -4.78 and 15% words against -4.23 and 46%; word bar met narrowly; read by eye ('Tres inquiete, pas recu lettre depuis le huit ... ecris Arcachon'; 'Ma chere, lettre poste restante'). The 1879 numeric ads share no code with LRG; LC15 1881-82 ads are too short alone (controls 22-60%) | completed 2026-11-10 |
 | 53 | The L. R. G. method on 14 other letter-digit signatures from OCR: none reads (all under 25% words; planted controls 97-99%). Six beat their shuffles (90, D, B, 7, Jane, E). Under the table 2119 key the pools of 7, D, 42 and E read in part (14-25%) | completed 2026-11-10 |
-| 54 | Transcribe the top table-2119 residuals among signatures 7, D, 42, E, and the structure-only signatures B, 90, Jane; rerun on transcriptions | pending |
+| 54 | 12 table-2119 residuals (7, D, 42, E) transcribed: all read (p<=5e-4); correspondence now 92 ads, names the wife 'ma douce Tilly'. Jane (Sep 1886) is a numeric homophonic with word breaks: blind solve reads '... ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses ...'; control and null pass, word gate missed by 0.2 points. 90 is a dictionary code; B repeats letter-digit words | completed 2026-11-10 |
+| 55 | 90 against the Landais 1860 dictionary (AIM method); B 1882 transcribed and solved with word breaks; Jane key refined with word-aware scoring under matched controls | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -380,6 +381,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 54
+- Pooling OCR digits into one string destroys number boundaries: the Jane ads, numbers 1-74 with printed word breaks, only read once each number was a symbol.
+- Ranking unassigned ads under a known key and transcribing the top ones keeps finding members: 12 of 12 read.
 
 ## Added 2026-11-10: Round 53
 - A screen on OCR is only as good as the OCR: the same method that read L. R. G. from transcriptions reads nothing here, and planted controls cannot model OCR loss.

@@ -142,5 +142,92 @@
    "reading": "ncorentotsplusmavoustueceditaut",
    "control_mean_accuracy": 0.602
   }
- ]
+ ],
+ "jane_blind": {
+  "numbers": 228,
+  "distinct": 52,
+  "score": -3.919,
+  "seeds_converged": 1,
+  "coverage": 0.342,
+  "null": [
+   {
+    "score": -4.072,
+    "coverage": 0.237
+   },
+   {
+    "score": -4.129,
+    "coverage": 0.289
+   },
+   {
+    "score": -4.135,
+    "coverage": 0.259
+   }
+  ],
+  "planted_accuracy": 0.899,
+  "planted_coverage": 0.43,
+  "gates": {
+   "control": true,
+   "null": true,
+   "reads": false,
+   "passed": false
+  },
+  "key": {
+   "1": "v",
+   "11": "l",
+   "12": "m",
+   "13": "n",
+   "14": "o",
+   "15": "l",
+   "16": "q",
+   "17": "r",
+   "18": "s",
+   "19": "t",
+   "2": "c",
+   "20": "u",
+   "21": "d",
+   "25": "a",
+   "3": "d",
+   "30": "i",
+   "31": "a",
+   "32": "a",
+   "33": "a",
+   "34": "t",
+   "35": "e",
+   "36": "e",
+   "37": "a",
+   "38": "s",
+   "39": "t",
+   "4": "e",
+   "40": "e",
+   "41": "e",
+   "42": "e",
+   "43": "e",
+   "44": "e",
+   "45": "i",
+   "46": "o",
+   "47": "e",
+   "48": "e",
+   "49": "e",
+   "5": "u",
+   "52": "n",
+   "53": "a",
+   "55": "i",
+   "59": "e",
+   "6": "t",
+   "62": "e",
+   "63": "a",
+   "7": "c",
+   "70": "u",
+   "71": "u",
+   "72": "c",
+   "73": "o",
+   "74": "a",
+   "8": "i",
+   "9": "p"
+  },
+  "readings": {
+   "1886_18860906-Jane.jpg": "e t aime et des dans ti lense men coeur saitn e et secu re de notre selar ation t lerletaite tueris ten sera cansoletan t",
+   "1886_18860908-Jane.jpg": "vo uermet de ce pourn al n e leut sou i re a endel al er les elans de mon co eur les vaisers les ceres estous les sentiments de mon amear que p endaie cotel di tenede sma"
+  }
+ }
 }

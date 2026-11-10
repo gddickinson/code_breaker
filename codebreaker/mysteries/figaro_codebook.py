@@ -90,6 +90,28 @@ def lrg_blind(ex, shuffles: int = 5) -> dict:
             "gates": {**gates, "passed": all(gates.values())}, "per_ad": per_ad}
 
 
+def jane_blind(ex, shuffles: int = 3) -> dict:
+    """Round 54: the two 'Jane' ads of Sep 1886, numbers 1-74 as symbols, word breaks as printed."""
+    texts = {k: v.replace(" - 1925", "") for k, v in DATA["jane"].items()}
+    seq = [n for t in texts.values() for n in re.findall(r"\d+", t)]
+    runs = sorted(ex.map(_homo, [(seq, i) for i in range(7)]), key=lambda x: -x[0])
+    s, reading, key = runs[0]
+    rnd, null = random.Random(54), []
+    for _ in range(shuffles):
+        sh = seq[:]
+        rnd.shuffle(sh)
+        b = max(ex.map(_homo, [(sh, i) for i in range(7)]), key=lambda x: x[0])
+        null.append({"score": round(b[0], 3), "coverage": coverage(b[1], "fr")})
+    pseq, plain = planted(len(seq), len(set(seq)))
+    _, pread, _ = max(ex.map(_homo, [(pseq, i) for i in range(7)]), key=lambda x: x[0])
+    acc, cov, pcov = sum(a == b for a, b in zip(pread.lower(), plain)) / len(plain), coverage(reading, "fr"), coverage(pread, "fr")
+    gates = {"control": acc >= 0.7, "null": s > max(n["score"] for n in null) + 0.15 and cov > max(n["coverage"] for n in null), "reads": cov >= 0.8 * pcov}
+    words = {k: " ".join("".join(key[n] for n in re.findall(r"\d+", w)) for w in re.split(r"\s*-\s*|\s+", t)) for k, t in texts.items()}
+    return {"numbers": len(seq), "distinct": len(set(seq)), "score": round(s, 3), "seeds_converged": sum(abs(r[0] - s) < 1e-6 and r[2] == key for r in runs),
+            "coverage": cov, "null": null, "planted_accuracy": round(acc, 3), "planted_coverage": pcov, "gates": {**gates, "passed": all(gates.values())},
+            "key": key, "readings": words}
+
+
 def per_ad(ex, controls: int = 6) -> list[dict]:
     words = re.findall(r"[a-z]+", corpus_text("fr").lower())
     rnd, rows = random.Random(52), []
@@ -115,6 +137,7 @@ def run() -> dict:
     with ProcessPoolExecutor(7) as ex:
         out["lrg_blind"] = lrg_blind(ex)
         out["lc15_per_ad"] = per_ad(ex)
+        out["jane_blind"] = jane_blind(ex)
     return out
 
 
@@ -123,5 +146,7 @@ if __name__ == "__main__":
     RESULT.write_text(json.dumps(res, ensure_ascii=False, indent=1))
     print(json.dumps(res["shared_1879_lrg"], indent=1))
     print({k: v for k, v in res["lrg_blind"].items() if k != "reading"})
+    print({k: v for k, v in res["jane_blind"].items() if k not in ("key", "readings")})
+    print(res["jane_blind"]["readings"])
     for r in res["lc15_per_ad"]:
         print(r["image"][:13], r["letters"], r["coverage"], r["control_mean_accuracy"], r["reading"])

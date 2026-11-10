@@ -159,16 +159,16 @@ def rescreen() -> dict:
 
 MENTIONS = {"Leon": "LEON", "Jul[es?]": "JUL", "Heliot": "HELIOT", "madame C. L.": "MADAME C L", "chalet": "CHALET",
             "Mediterranee": "MEDITERRANEE", "cercle": "CERCL", "Figaro": "FIG ", "mother": "MOTH", "father": "FATH", "child": "CHILD",
-            "rideau (signal)": "RIDEAU", "bal": "BAL "}
+            "rideau (signal)": "RIDEAU", "bal": "BAL ", "Tilly": "TILLY", "our girl": "OUR GIRL", "communion": "COWWUNION"}
 
 
 def full_timeline() -> dict:
     """Round 50: every member so far (Rounds 26, 47-49), read with the full key where transcribed, and what each mentions."""
     r = json.loads(RESULT.read_text())
     d, k = json.loads(FAMILY.read_text()), full_key()
-    trans = {**d["ads"], **d.get("checked_screen", {}), **d.get("checked_rescreen", {})}
+    trans = {**d["ads"], **d.get("checked_screen", {}), **d.get("checked_rescreen", {}), **d.get("checked_residual", {})}
     rows = {e["image"]: e for e in r["timeline"]}
-    for i in d.get("checked_rescreen", {}):
+    for i in {**d.get("checked_rescreen", {}), **d.get("checked_residual", {})}:
         rows.setdefault(i, {"image": i, "date": f"{i[5:9]}-{i[9:11]}-{i[11:13]}", "signature": i.split("-", 1)[1][:-4] if "-" in i else "", "added": "Round 49-50"})
     out = []
     for i, e in sorted(rows.items(), key=lambda x: x[0][5:13]):

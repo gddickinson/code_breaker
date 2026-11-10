@@ -71,3 +71,10 @@ def test_full_timeline_and_mentions():
     assert dates == sorted(dates)
     assert tl["mentions"]["madame C. L."] == ["1882-12-09"] and "1884-02-27" in tl["mentions"]["bal"]
     assert all(e["transcribed"] for e in tl["timeline"] if e["image"] in json.loads(T.FAMILY.read_text())["checked_rescreen"])
+
+
+def test_residuals_read_and_tilly_named():
+    d = json.loads(T.FAMILY.read_text())["checked_residual"]
+    k = T.full_key()
+    assert "MA DOUCE TILLY" in " ".join(T.decode(d["1883_18830609-42.jpg"], k))
+    assert all(T.share(t, k) > 0.5 for t in d.values())

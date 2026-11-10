@@ -1,5 +1,5 @@
 {
- "ads": 80,
+ "ads": 92,
  "span": [
   "1876-01-14",
   "1887-01-20"
@@ -80,11 +80,40 @@
    "mentions": []
   },
   {
+   "image": "1882_18820606-42.jpg",
+   "date": "1882-06-06",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "PENSE SI SOUVENT HIER MA PETITE DORMEUSE PORTRAIT MATIN CONSOLE SI PEU DU VIDE MA FEMM ADOREE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820607-42.jpg",
+   "date": "1882-06-07",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "VEUA TE LASSURER SUR COWWUNION ETIONS F ENFANTS QUI AVONS ETE ET QUI NOUS SOMMES TROMPES TU PEUA PENSER A MOI DEMAIV ET DIEU PEUT NOUS JUGER",
+   "transcribed": true,
+   "mentions": [
+    "communion"
+   ]
+  },
+  {
    "image": "1882_18820613-7.jpg",
    "date": "1882-06-13",
    "signature": "7",
    "reading": "WANT YOU SO MUCH DONT FORGAT ME BACK AS BOON POSSIBLE CANNOT FORCE RETURN MAIS RETIENDREI PAS",
    "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1882_18820615-7.jpg",
+   "date": "1882-06-15",
+   "signature": "7",
+   "added": "Round 49-50",
+   "reading": "SI GENT LETT REV DIM SO SORRY SHOULD SUFFER ME BEING AWAY CULQE CEST MBI FEMME CHERIE MON AMOUR",
    "transcribed": true,
    "mentions": []
   },
@@ -109,6 +138,15 @@
    "mentions": [
     "madame C. L."
    ]
+  },
+  {
+   "image": "1882_18821215-42.jpg",
+   "date": "1882-12-15",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "SO CHAGRIN NO LETT YESTER ALLAIS PUNIR PORTRAIT PAS EU COURAGE ESTCE OUBLI CELA REV DIM SOIR INVITE J TA PENSEE MOI AUSSI MOURRAIS SANS UOI",
+   "transcribed": true,
+   "mentions": []
   },
   {
    "image": "1882_18821217-PAUL.jpg",
@@ -160,6 +198,35 @@
    ]
   },
   {
+   "image": "1883_18830228-7.jpg",
+   "date": "1883-02-28",
+   "signature": "7",
+   "added": "Round 49-50",
+   "reading": "MADE ME JEALEUS OUR GIRL ET MOI DONC SI JE MENNUIE SI PEUR REVENIR SO UNEASY TE SAVOIR SOUFFRIR",
+   "transcribed": true,
+   "mentions": [
+    "our girl"
+   ]
+  },
+  {
+   "image": "1883_18830301-7.jpg",
+   "date": "1883-03-01",
+   "signature": "7",
+   "added": "Round 49-50",
+   "reading": "YOU ARE RIGHT BUT THEN COME QUAQT TO ONEAS IF FETCHING FAN YOU MET ME DOOR DONT GO CHANAB GO PORT BACP DEMAIN MINUIT OH TE REVOIR MA FEMME ADOREE",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1883_18830605-7.jpg",
+   "date": "1883-06-05",
+   "signature": "7",
+   "added": "Round 49-50",
+   "reading": "SUIS SI MAUV HUM ESPERAIS TANT TU VOIS RIVAUA GUERIS LE VITE VIENS SERIONS SI HEUREUA TON MARI",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1883_18830607-8.jpg",
    "date": "1883-06-07",
    "signature": "8",
@@ -170,6 +237,17 @@
     "Heliot",
     "mother",
     "child"
+   ]
+  },
+  {
+   "image": "1883_18830609-42.jpg",
+   "date": "1883-06-09",
+   "signature": "42",
+   "added": "Round 49-50",
+   "reading": "GENTIL MAVOIR INQUIETE TOUT JOUROU EST MA DOUCE TILLY TELL DAY HE GOESTO ARRANGE SEE YOU AT ONCE NEVER FELT MORE HOW I ADORE YOU MY OWN WIFE",
+   "transcribed": true,
+   "mentions": [
+    "Tilly"
    ]
   },
   {
@@ -348,6 +426,17 @@
    ]
   },
   {
+   "image": "1884_18840229-D.jpg",
+   "date": "1884-02-29",
+   "signature": "D",
+   "added": "Round 49-50",
+   "reading": "MERC DET BAL MUG ENF FINI CONT AV FAIT SACRIF AU MILIEU FOULES ET FETES UNE SEULE PENSEE MA SUIVI",
+   "transcribed": true,
+   "mentions": [
+    "bal"
+   ]
+  },
+  {
    "image": "1884_18840306-O.jpg",
    "date": "1884-03-06",
    "signature": "O",
@@ -389,6 +478,15 @@
    "signature": "E",
    "reading": "A APO DEM MOI ALSO LONG AFT YOU MY DEAREST LOVE",
    "added": "Round 47-48",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1884_18840323b-E.jpg",
+   "date": "1884-03-23",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "BACK DEM TIDAL PROBABL FOUR LOVE YOU DEARLY",
    "transcribed": true,
    "mentions": []
   },
@@ -643,6 +741,15 @@
    "mentions": []
   },
   {
+   "image": "1886_18860202-E.jpg",
+   "date": "1886-02-02",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "BA WED OR TH VI FAIR SOILET VEND MAT OU APR MID",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
    "image": "1886_18860330-A.jpg",
    "date": "1886-03-30",
    "signature": "A",
@@ -720,6 +827,15 @@
    "signature": "O",
    "added": "Round 49-50",
    "reading": "MO GONE IF BACK MOND CO YOU COME EVEN AIME",
+   "transcribed": true,
+   "mentions": []
+  },
+  {
+   "image": "1886_18861126-E.jpg",
+   "date": "1886-11-26",
+   "signature": "E",
+   "added": "Round 49-50",
+   "reading": "AT SAW ME GO IS IT PRUD WR I LOV YOU DEARLY",
    "transcribed": true,
    "mentions": []
   },
@@ -838,7 +954,17 @@
   "bal": [
    "1884-02-24",
    "1884-02-27",
-   "1884-02-28"
+   "1884-02-28",
+   "1884-02-29"
+  ],
+  "Tilly": [
+   "1883-06-09"
+  ],
+  "our girl": [
+   "1883-02-28"
+  ],
+  "communion": [
+   "1882-06-07"
   ]
  }
 }
