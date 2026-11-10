@@ -1,0 +1,98 @@
+{
+ "id": "wordbreak_en",
+ "rows": [
+  {
+   "text": "1916 train station robbery cryptogram",
+   "words": 17,
+   "plain_words_set_aside": 6,
+   "symbols": 21,
+   "blind_share": 0.07,
+   "refined_share": 0.408,
+   "null_refined": [
+    0.338,
+    0.338,
+    0.352
+   ],
+   "planted_accuracy": 0.939,
+   "planted_coverage": 0.667,
+   "coverage": 0.296,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "reading": "irarass aadas shohidd toad shohi mhas sash dos ehhe sal ihso harsh add shad sash ha shh"
+  },
+  {
+   "text": "Ricky McCormick page 1",
+   "words": 57,
+   "plain_words_set_aside": 0,
+   "symbols": 28,
+   "blind_share": 0.052,
+   "refined_share": 0.131,
+   "null_refined": [
+    0.114,
+    0.137,
+    0.099
+   ],
+   "planted_accuracy": 0.983,
+   "planted_coverage": 0.691,
+   "coverage": 0.082,
+   "gates": {
+    "control": true,
+    "null": false,
+    "reads": false,
+    "passed": false
+   },
+   "reading": "dzadazedipe z psr azrie repd ripe zdipe ariedsaasazehe sense sens zehe rs rirris nsorrio zehe deapeizeaiehizperipe asa ieehizpe zs ppzezsnpe eipse essipe asa zehe rsaer zehespdesipeispeairspzerpzasazehe zarepe zspie zehe zseraadzpezeaieiehize seze seize zehispezehe ize esipe rape azae no zehe eazpe rape azpae nd zehe rispe ripe azieae no zehe se zhedprpasediaesape sase asaz asazehe old zehe siens"
+  },
+  {
+   "text": "Ricky McCormick page 2",
+   "words": 72,
+   "plain_words_set_aside": 0,
+   "symbols": 32,
+   "blind_share": 0.052,
+   "refined_share": 0.198,
+   "null_refined": [
+    0.124,
+    0.124,
+    0.146
+   ],
+   "planted_accuracy": 1.0,
+   "planted_coverage": 0.668,
+   "coverage": 0.22,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "reading": "etedge atme me age ntme dgme igme dme nagme eaagameedoamedto dine ddtotaidme dedto mgm dent oatdg a gadme dinene dadmecmged da deame otme tamge game game domed dame meemdme me d dame dddainadmeegedegedmainodme da dtme dr meaome deoiden ete ado agame io ate itame aadagoenoame ememate aoa dgime agtme diagi gag ddae ee or od adeetmeaiameeetgmedmomedame dmaeedme eagmedto dine i neat oddme dame add dga"
+  },
+  {
+   "text": "Paul Rubin",
+   "words": 71,
+   "plain_words_set_aside": 0,
+   "symbols": 33,
+   "blind_share": 0.026,
+   "refined_share": 0.129,
+   "null_refined": [
+    0.096,
+    0.103,
+    0.085
+   ],
+   "planted_accuracy": 1.0,
+   "planted_coverage": 0.662,
+   "coverage": 0.138,
+   "gates": {
+    "control": true,
+    "null": true,
+    "reads": false,
+    "passed": false
+   },
+   "reading": "ewiws sartin i matiisseh eisses hdanhasain meteode wessw tieaorliamn idea sstenmn aawiti aslarmnals etiwessewe mates iniedealotinwe owe srdeasn mewatdene loedoshosmn owed edwea honant astedeantos whionewoson eesheti meiseaina mastloidinwon idese nerteo sloatteehasaii front hah asiestastiedlensew thellfa ass saahass ash assaa a hhs asa h ssasaa asahasaa assa asha sa ssasaahas ah aaasa ha ssaha ssas"
+  }
+ ],
+ "passed": []
+}
