@@ -1,0 +1,251 @@
+{
+ "id": "figaro_ch",
+ "loose": {
+  "control": {
+   "trials": 38,
+   "recovered": 38,
+   "mean_letters": 0.968,
+   "true_coverage_median": 0.375
+  },
+  "rows": [
+   {
+    "image": "1882_18821111-CH.jpg",
+    "block": "XGRDMKCLNQUURGEGZFIAXGPX",
+    "score": -6.448,
+    "phase": 0,
+    "slip_at": 13,
+    "slip": 3,
+    "plain": "UCRAKGCILMURPEAGVDEATELX",
+    "coverage": 0.0,
+    "p_score": 0.597,
+    "p_coverage": 1.0,
+    "null_best_coverage": 0.25,
+    "gates": {
+     "control": true,
+     "null": false,
+     "reads": false,
+     "passed": false
+    }
+   },
+   {
+    "image": "1884_18840331-CH.jpg",
+    "block": "LINGKTRLGKTRLGDPRXVMRK",
+    "score": -4.735,
+    "phase": 0,
+    "slip_at": 9,
+    "slip": 3,
+    "plain": "JENDIPRIEIPRIEZPOURMOI",
+    "coverage": 0.364,
+    "p_score": 0.005,
+    "p_coverage": 0.005,
+    "null_best_coverage": 0.227,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   },
+   {
+    "image": "1884_18840730-CH.jpg",
+    "block": "EVICKGETXIJDKJALVCROXTIEGHENX",
+    "score": -4.744,
+    "phase": 0,
+    "slip_at": 17,
+    "slip": 3,
+    "plain": "CRIZICEQUEJAIFAITANOTREEDFANT",
+    "coverage": 0.31,
+    "p_score": 0.005,
+    "p_coverage": 0.01,
+    "null_best_coverage": 0.31,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   },
+   {
+    "image": "1884_18840805-CH.jpg",
+    "block": "YAOLTGHBQOL",
+    "score": -4.975,
+    "phase": 0,
+    "slip_at": 6,
+    "slip": 1,
+    "plain": "VVOIRCEZMOI",
+    "coverage": 0.364,
+    "p_score": 0.0199,
+    "p_coverage": 0.0498,
+    "null_best_coverage": 0.364,
+    "gates": {
+     "control": true,
+     "null": false,
+     "reads": true,
+     "passed": false
+    }
+   },
+   {
+    "image": "1886_18860629-CH.jpg",
+    "block": "VECKGDEZKYEUUENVTIFYUIZ",
+    "score": -4.457,
+    "phase": 1,
+    "slip_at": 2,
+    "slip": 3,
+    "plain": "RECHEZEVITERSANSREFUSEZ",
+    "coverage": 0.913,
+    "p_score": 0.005,
+    "p_coverage": 0.005,
+    "null_best_coverage": 0.261,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   }
+  ]
+ },
+ "strict": {
+  "control": {
+   "trials": 37,
+   "recovered": 37,
+   "mean_letters": 0.966,
+   "true_coverage_median": 0.414
+  },
+  "rows": [
+   {
+    "image": "1882_18821111-CH.jpg",
+    "block": "XGRDMKCLNQUURGEGZFIAXGPX",
+    "score": -6.448,
+    "phase": 0,
+    "slip_at": 13,
+    "slip": 3,
+    "plain": "UCRAKGCILMURPEAGVDEATELX",
+    "coverage": 0.0,
+    "p_score": 0.3483,
+    "p_coverage": 1.0,
+    "null_best_coverage": 0.208,
+    "gates": {
+     "control": true,
+     "null": false,
+     "reads": false,
+     "passed": false
+    }
+   },
+   {
+    "image": "1884_18840331-CH.jpg",
+    "block": "LINGKTRLGKTRLGDPRXVMRK",
+    "score": -4.735,
+    "phase": 0,
+    "slip_at": 9,
+    "slip": 3,
+    "plain": "JENDIPRIEIPRIEZPOURMOI",
+    "coverage": 0.364,
+    "p_score": 0.005,
+    "p_coverage": 0.005,
+    "null_best_coverage": 0.227,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   },
+   {
+    "image": "1884_18840730-CH.jpg",
+    "block": "EVICKGETXIJDKJALVCROXTIEGHENX",
+    "score": -4.744,
+    "phase": 0,
+    "slip_at": 17,
+    "slip": 3,
+    "plain": "CRIZICEQUEJAIFAITANOTREEDFANT",
+    "coverage": 0.31,
+    "p_score": 0.005,
+    "p_coverage": 0.005,
+    "null_best_coverage": 0.207,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": false,
+     "passed": false
+    }
+   },
+   {
+    "image": "1884_18840805-CH.jpg",
+    "block": "LIPDTX",
+    "score": -3.878,
+    "phase": 0,
+    "slip_at": null,
+    "slip": 0,
+    "plain": "JEPARS",
+    "coverage": 0.667,
+    "p_score": 0.005,
+    "p_coverage": 0.0299,
+    "null_best_coverage": 0.667,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   },
+   {
+    "image": "1884_18840805-CH.jpg",
+    "block": "YAOLTGHBQOL",
+    "score": -4.975,
+    "phase": 0,
+    "slip_at": 6,
+    "slip": 1,
+    "plain": "VVOIRCEZMOI",
+    "coverage": 0.364,
+    "p_score": 0.01,
+    "p_coverage": 0.0249,
+    "null_best_coverage": 0.364,
+    "gates": {
+     "control": true,
+     "null": false,
+     "reads": true,
+     "passed": false
+    }
+   },
+   {
+    "image": "1886_18860629-CH.jpg",
+    "block": "VECKGDEZKYEUUENVTIFYUIZ",
+    "score": -4.459,
+    "phase": 0,
+    "slip_at": 22,
+    "slip": 3,
+    "plain": "TACHEZEVITERSANSREFUSEU",
+    "coverage": 0.913,
+    "p_score": 0.005,
+    "p_coverage": 0.005,
+    "null_best_coverage": 0.217,
+    "gates": {
+     "control": true,
+     "null": true,
+     "reads": true,
+     "passed": true
+    }
+   },
+   {
+    "image": "1886_18860629-CH.jpg",
+    "block": "NIHYKY",
+    "score": -4.69,
+    "phase": 0,
+    "slip_at": null,
+    "slip": 0,
+    "plain": "LEHUIT",
+    "coverage": 0.667,
+    "p_score": 0.01,
+    "p_coverage": 0.0199,
+    "null_best_coverage": 0.667,
+    "gates": {
+     "control": true,
+     "null": false,
+     "reads": true,
+     "passed": false
+    }
+   }
+  ]
+ }
+}

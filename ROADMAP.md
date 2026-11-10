@@ -74,7 +74,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 38 | V. T. A. blind solve with no readings: best of 7 quadgram runs (chosen by score) agrees with the context key on 80% of symbol uses; shuffled symbols 12% (score -5.23 vs -4.76); planted correspondence 96%. Blind word-level refinement did not help (78%) and inflates on shuffles (61% word share). Audit: 58 of 204 words not fully explained (names, vocabulary gaps, a recurring second value for f, 0, n, y) | completed 2026-11-09 |
 | 39 | V. T. A. two-letter symbols: neighbouring second letters raise held-out coverage from 78.4% to 84.1%, but random non-neighbour letters do as well (84.3% mean, 86.8% max, p=0.59). Not supported; key unchanged | completed 2026-11-09 |
 | 40 | Pooled blind substitution by writer, plain stretches cut first. Real control: solved MINA and KP pass, TR and Jean fail (key changes between ads). Unsolved: 1 of 28 writers passes (KP, the existing candidate, now through all three gates against a bar from printed ads) | completed 2026-11-09 |
-| 41 | Writers who change key per ad (TR, Jean): measure each solved ad's key and look for a rule (shift by date or sequence) to apply to their unsolved ads | pending |
+| 41 | TR has no unsolved ads and Jean only short ones, so the round moved to writers with a documented system and unsolved ads. C. H. (Vigenere CEAD, no W, documented on 36 solved ads): with the key restarting at each block and one slip allowed, control 37 of 37; 3 of 7 blocks pass all three gates (31 Mar 1884 'priez pour moi', 5 Aug 1884 'je pars', 29 Jun 1886 'tachez eviter sans refuse[r]'), 30 Jul 1884 'ce que j'ai fait a notre e[n]fant' passes the null but misses the word bar narrowly; 1882 does not read. Candidates, checked by eye | completed 2026-11-09 |
+| 42 | Every documented key (substitution tables, Vigenere keys) on its writer's unsolved ads with per-block restarts and one slip, with the C. H. controls | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -314,4 +315,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - A real-data positive control (solved writers through the same pipeline) shows where a method cannot work: TR and Jean change keys between ads, so pooling them fails even though each ad is easy.
 - The coverage bar should come from text like the target: printed Le Figaro ads are abbreviated, so a planted control built from them sets a lower, fairer bar (about 45-55%) than full French prose.
 - Cutting plain stretches before solving matters: many 'cipher' ads open or close in plain French.
+
+## Added 2026-11-09: Round 41
+- Read the source's notes before searching: the C. H. key was documented all along, and the ads stayed unread because the key restarts at each enciphered block and one letter was dropped in printing.
+- A documented key is not fitted, so the only freedom is the phase and the slip; the null must search exactly that freedom on shuffled copies.
+- The place of a dropped letter is uncertain by a position or two; judge recovery by letters right, not by the slip's position.
 

@@ -1,0 +1,11 @@
+{
+ "source": "Le Figaro personal column, writer C. H., unsolved ads (scans in data/sources/figaro/images, Didier Muller's database). Enciphered blocks transcribed by eye from the scans, Round 41. The database documents this writer's system on 36 solved ads: Vigenere with the key CEAD, alphabet without W.",
+ "system": {"key": "CEAD", "alphabet": "ABCDEFGHIJKLMNOPQRSTUVXYZ"},
+ "ads": {
+  "1882_18821111-CH.jpg": {"blocks": ["XGRDMKCLNQUURGEGZFIAXGPX"], "context": "Suis bien triste. Pense toujours a vous. Ecrivez longuement. [block]"},
+  "1884_18840331-CH.jpg": {"blocks": ["LINGKTRLGKTRLGDPRXVMRK"], "context": "Tres touche de v. lettre. Comptez sur moi. imprud. de v. ecr. causerons [block]"},
+  "1884_18840730-CH.jpg": {"blocks": ["EVICKGETXIJDKJALVCROXTIEGHENX"], "context": "V. lettre et v. resolut. m'ont prof. touche. Ne dout. pas de mon affect. et souv. en vout. f. z. s. d. [block]. ecr. proj. bient."},
+  "1884_18840805-CH.jpg": {"blocks": ["LIPDTX", "YAOLTGHBQOL"], "context": "[block 1] Espere encore [block 2]"},
+  "1886_18860629-CH.jpg": {"blocks": ["VECKGDEZKYEUUENVTIFYUIZ", "TAC", "NIHYKY"], "context": "Veckgd ezkyeu uenv tifyuiz. Tac. nihyky. ct. s. m"}
+ }
+}

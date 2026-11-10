@@ -157,6 +157,23 @@ def _vta():
         "table": _t(["Date", "Enciphered words, decoded"], rows)}]
 
 
+def _ch():
+    """Round 41: the documented C. H. key on the writer's unsolved ads."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_ch.json"
+    if not path.exists():
+        return []
+    r = json.loads(path.read_text())["strict"]
+    c = r["control"]
+    rows = [[x["image"][5:9] + "-" + x["image"][9:11] + "-" + x["image"][11:13], x["block"], x["plain"], x["p_score"], f"{x['coverage']:.0%}", "yes" if x["gates"]["passed"] else "no"] for x in r["rows"]]
+    return [{"heading": "C. H.: the documented key on the unsolved ads (candidates)", "paragraphs": [
+        "The database documents writer C. H.'s system on 36 solved ads: Vigenere with the key CEAD, in an alphabet without W. Five of the writer's ads remain listed as undecrypted. Their enciphered blocks sit inside plain French, and read when the key restarts at each block, with at most one skipped key step where a letter seems to have been dropped in printing.",
+        f"Control: {c['recovered']} of {c['trials']} planted blocks (printed solved C. H. text, 20 to 30 letters, one letter dropped) recovered. Null: the same search on 200 shuffled copies of each block. Readings checked against the scans by eye: 31 Mar 1884 '... prie, priez pour moi'; 30 Jul 1884 '... ce que j'ai fait a notre e[n]fant'; 5 Aug 1884 'Je pars. Espere encore ... [v]oir ce[z] moi'; 29 Jun 1886 'Tachez eviter sans refuse[r] ... le huit'. The 1882 block does not read. Novelty unconfirmed."],
+        "table": _t(["Date", "Block", "Decrypted", "Null p", "Word coverage", "Gates"], rows)}]
+
+
 def _pooled():
     """Round 40: each writer's enciphered stretches pooled and solved blind."""
     import json
@@ -208,4 +225,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _ch() + _pooled() + _wide() + _layered()
