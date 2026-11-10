@@ -1,0 +1,4820 @@
+{
+ "id": "figaro_vta_sweep",
+ "ads": 464,
+ "bonferroni_bar": 0.00010775862068965518,
+ "passed": [],
+ "vta_1877_recovered": 6,
+ "vta_1877_ads": 17,
+ "rows": [
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "words": 44,
+   "share": 0.406,
+   "p": 4.999750012499375e-05,
+   "null_max": 0.356,
+   "vta_1877": true,
+   "reading": "pcq uogcibu ing to po??pi?e agbih wont tnad it but ?ch with iealouiy wuy not loue you qap so t?uly ow da?ling cwiuh coqld w?ite a?d tellu is heart hy?grup aue uce w?iting ont iealousy wur wcll uo truly csi?h could a?d in wy",
+   "passes": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "words": 25,
+   "share": 0.457,
+   "p": 4.999750012499375e-05,
+   "null_max": 0.405,
+   "vta_1877": true,
+   "reading": "pci iacis anw ?g?iub to hio dqrhu dguiubhu fi?uiub in parcel dif you liie peti?e chose cherig hy?grup anwer wn dip ryou petite lsose che?igt",
+   "passes": false
+  },
+  {
+   "image": "1877_18771111-VTA.jpg",
+   "words": 17,
+   "share": 0.531,
+   "p": 4.999750012499375e-05,
+   "null_max": 0.432,
+   "vta_1877": true,
+   "reading": "monday orni for your lunch da?liig peti?i chose loue you uery much onday orni?g da?li?g uhry such",
+   "passes": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "words": 20,
+   "share": 0.595,
+   "p": 4.999750012499375e-05,
+   "null_max": 0.44,
+   "vta_1877": true,
+   "reading": "yuo are lit?re darline anud lou with al? hearth wilr telr alr about our shoptine ?c??bl and loue ou wen",
+   "passes": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "words": 28,
+   "share": 0.44,
+   "p": 4.999750012499375e-05,
+   "null_max": 0.416,
+   "vta_1877": true,
+   "reading": "pci chie petite doluh que notte am our tende pan malheureusd neme ?ais wiuh tdu ma ioesm oius ?c??bl aqgl iiuhu aour p?bu alheureusd ?aish qbu wiqh ioes",
+   "passes": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "words": 30,
+   "share": 0.435,
+   "p": 9.99950002499875e-05,
+   "null_max": 0.456,
+   "vta_1877": true,
+   "reading": "rhaqicaql?buh?bu haq ?p fq?qqr qu du di guu ci tu nas pas eu deieunlr plusieurs iours ais letete pet chose iattends nouuelles hy?gr acbu uguh rh deieunlt plusiurs ieai iatihcdq",
+   "passes": false
+  },
+  {
+   "image": "1878_18781226-Valentin.jpg",
+   "words": 10,
+   "share": 0.432,
+   "p": 0.00014999250037498125,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "dp scow thaunis dor let?e? w?ll ate toi rgcw lqrubi?b",
+   "passes": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "words": 22,
+   "share": 0.397,
+   "p": 0.000199990000499975,
+   "null_max": 0.413,
+   "vta_1877": true,
+   "reading": "luii?c qwugbccb lcic aqglqiu ulugubl wqll put lettet into idfe one search chere peti?e oe aintenbbh touipurs icdhp hy?grup ll petiie aiutenbbh",
+   "passes": false
+  },
+  {
+   "image": "1877_18770914-VTA.jpg",
+   "words": 14,
+   "share": 0.483,
+   "p": 0.0008999550022498875,
+   "null_max": 0.55,
+   "vta_1877": true,
+   "reading": "ar peti?e chose od gw beauty bleicg ine aqglqiu dear petite beeicg ice ui",
+   "passes": false
+  },
+  {
+   "image": "1889_18890911-M9.jpg",
+   "words": 9,
+   "share": 0.609,
+   "p": 0.001799910004499775,
+   "null_max": 0.696,
+   "vta_1877": false,
+   "reading": "ici? dg lt rio bn be as dgnh at",
+   "passes": false
+  },
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "words": 16,
+   "share": 0.423,
+   "p": 0.00439978001099945,
+   "null_max": 0.538,
+   "vta_1877": true,
+   "reading": "ry? ry ip such loug ti hauen lnlt your lips on ruy iw tp sinle fnlt",
+   "passes": false
+  },
+  {
+   "image": "1891_18911222.jpg",
+   "words": 59,
+   "share": 0.346,
+   "p": 0.004999750012499375,
+   "null_max": 0.453,
+   "vta_1877": false,
+   "reading": "tdotd stoss ntsosru sssonnt sso icr ssotdn sdoont soosed steostt teonne ?ooo snoonns tdo tsonss stsotdn ststonnt cooolll stooset orcoo tssoene dseosts toses no tdo steonss tttonsd onsd sloots ssonen eottld ttoeee tsoens stooee toostl ttdonnt o?ee tstdosse teonen acr ?dontd dstosst tsbutn ssonnt toos",
+   "passes": false
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "words": 12,
+   "share": 0.468,
+   "p": 0.009950248756218905,
+   "null_max": 0.468,
+   "vta_1877": true,
+   "reading": "?p cu ryqiiug dernand col ant ont sainte geneuidw fb?iu detnand geneuidwe",
+   "passes": false
+  },
+  {
+   "image": "1877_18770927-VTA.jpg",
+   "words": 9,
+   "share": 0.463,
+   "p": 0.009950248756218905,
+   "null_max": 0.463,
+   "vta_1877": true,
+   "reading": "icdhp a?ly your uiuit loue pou swnle uisit bet?et",
+   "passes": false
+  },
+  {
+   "image": "1877_18771023-VTA.jpg",
+   "words": 5,
+   "share": 0.722,
+   "p": 0.009950248756218905,
+   "null_max": 0.722,
+   "vta_1877": true,
+   "reading": "ls at about tel? tel?e",
+   "passes": false
+  },
+  {
+   "image": "1877_18771031-VTA.jpg",
+   "words": 12,
+   "share": 0.353,
+   "p": 0.009950248756218905,
+   "null_max": 0.373,
+   "vta_1877": true,
+   "reading": "blue drh?s rca rp d?bl ryuugid silth to o?rpy tuesday dress rl",
+   "passes": false
+  },
+  {
+   "image": "1882_18820908-B.jpg",
+   "words": 5,
+   "share": 0.531,
+   "p": 0.009950248756218905,
+   "null_max": 0.625,
+   "vta_1877": false,
+   "reading": "nnteue isnes lenesei inete wdttetesi",
+   "passes": false
+  },
+  {
+   "image": "1889_18890524-M9.jpg",
+   "words": 18,
+   "share": 0.378,
+   "p": 0.009950248756218905,
+   "null_max": 0.378,
+   "vta_1877": false,
+   "reading": "gui ?e rs un dr hca ue ls ryql qq yuig uhd q?h lt bn be rio at",
+   "passes": false
+  },
+  {
+   "image": "1878_18781010-Valentin.jpg",
+   "words": 11,
+   "share": 0.393,
+   "p": 0.014925373134328358,
+   "null_max": 0.411,
+   "vta_1877": false,
+   "reading": "dg lucdy icuit rgiuedso fe enough thoueir fi lqrubi?b dp rgiuhed?o",
+   "passes": false
+  },
+  {
+   "image": "1884_18840113-B.jpg",
+   "words": 4,
+   "share": 0.476,
+   "p": 0.014925373134328358,
+   "null_max": 0.571,
+   "vta_1877": false,
+   "reading": "n?nesi yelselo ldln ldes",
+   "passes": false
+  },
+  {
+   "image": "1888_18881201-B4.jpg",
+   "words": 19,
+   "share": 0.333,
+   "p": 0.014925373134328358,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "lt ln lui?r urg le rs al a?r aeqdyqg u? be rcbw rio bn at guq ll ae dyqg",
+   "passes": false
+  },
+  {
+   "image": "1889_18891017-M9.jpg",
+   "words": 12,
+   "share": 0.406,
+   "p": 0.014925373134328358,
+   "null_max": 0.406,
+   "vta_1877": false,
+   "reading": "lt acr tu lqg rcbw dr be rcg rio at uuu sau",
+   "passes": false
+  },
+  {
+   "image": "1884_18840427-H.jpg",
+   "words": 9,
+   "share": 0.382,
+   "p": 0.01990049751243781,
+   "null_max": 0.441,
+   "vta_1877": false,
+   "reading": "in qu ?nsn ieri wgn enusn sn?nr ?nrinn wgu",
+   "passes": false
+  },
+  {
+   "image": "1889_18890503-M9.jpg",
+   "words": 20,
+   "share": 0.286,
+   "p": 0.01990049751243781,
+   "null_max": 0.349,
+   "vta_1877": false,
+   "reading": "as gur su qww hciw auiucb ?d bt bs ublug ?pbe q?h qlp qqq ici? wrugh w?u rio a? be",
+   "passes": false
+  },
+  {
+   "image": "1894_18940411-4.jpg",
+   "words": 21,
+   "share": 0.358,
+   "p": 0.01990049751243781,
+   "null_max": 0.478,
+   "vta_1877": false,
+   "reading": "toten slodts tsoee sloees sloese ttsotdt seonns tnondn tstoese tdones tseotsd tsnoeee tdodd tstonen tsesottns totlld seeonns tndondn tdonet tsotsd tsottns",
+   "passes": false
+  },
+  {
+   "image": "1877_18771012-VTA.jpg",
+   "words": 15,
+   "share": 0.313,
+   "p": 0.024875621890547265,
+   "null_max": 0.373,
+   "vta_1877": true,
+   "reading": "uuu auuu peti?e chose bwe?ai iloue you so hqw?rui hy i?uhuqp uui ceose bienai hqw",
+   "passes": false
+  },
+  {
+   "image": "1888_18880602-B4.jpg",
+   "words": 17,
+   "share": 0.34,
+   "p": 0.024875621890547265,
+   "null_max": 0.447,
+   "vta_1877": false,
+   "reading": "d? ryq yuih as rca ubig uql dg ?cby be at rio bn as aua ryq? ce",
+   "passes": false
+  },
+  {
+   "image": "1889_18891022-JLX.jpg",
+   "words": 11,
+   "share": 0.171,
+   "p": 0.024875621890547265,
+   "null_max": 0.257,
+   "vta_1877": false,
+   "reading": "rtf? ?rf rq??q htar a?i ?c? i? hau r?? iu? ??",
+   "passes": false
+  },
+  {
+   "image": "1882_18820311-7.jpg",
+   "words": 21,
+   "share": 0.297,
+   "p": 0.029850746268656716,
+   "null_max": 0.396,
+   "vta_1877": false,
+   "reading": "cgrq wginn ed iqibu h?rugw ln?n egun ieui gu isgrnn tesu qneen saecnw tq e? iq?hu eerugw ieri wg sneenr saeclnw",
+   "passes": false
+  },
+  {
+   "image": "1887_18870821.jpg",
+   "words": 3,
+   "share": 0.56,
+   "p": 0.029850746268656716,
+   "null_max": 0.72,
+   "vta_1877": false,
+   "reading": "nnetlentl nnetlentu tsnttlu",
+   "passes": false
+  },
+  {
+   "image": "1879_18790829-LRG.jpg",
+   "words": 6,
+   "share": 0.447,
+   "p": 0.03482587064676617,
+   "null_max": 0.553,
+   "vta_1877": false,
+   "reading": "ii hiq dsestenntnse ?ryendennuen?stnsanery dsestenntnsen?ryendennuen?stnsanery sdueeeuenanunrtntstantna?esssntnnuenanct",
+   "passes": false
+  },
+  {
+   "image": "1879_18790311b.jpg",
+   "words": 9,
+   "share": 0.278,
+   "p": 0.03980099502487562,
+   "null_max": 0.352,
+   "vta_1877": false,
+   "reading": "tlteeenda s?s?p ?a?slase sle? la?s etlteeenna s?s?l tsle? hset",
+   "passes": false
+  },
+  {
+   "image": "1887_18870125-2F.jpg",
+   "words": 21,
+   "share": 0.198,
+   "p": 0.03980099502487562,
+   "null_max": 0.264,
+   "vta_1877": false,
+   "reading": "tdytdle ?a?a else?tde ?tel eadn ?t? ide?s?p lteeenna cla?d hallca la?sl ??d?a? hq?ri?p ltdytdle ?teleadl de? sq?l lteetenla ca?u la?hsl td?a?",
+   "passes": false
+  },
+  {
+   "image": "1887_18870904.jpg",
+   "words": 7,
+   "share": 0.269,
+   "p": 0.03980099502487562,
+   "null_max": 0.346,
+   "vta_1877": false,
+   "reading": "?lh ?tenb tltr ?tt w? ??lh ?tent",
+   "passes": false
+  },
+  {
+   "image": "1889_18890419-M9.jpg",
+   "words": 21,
+   "share": 0.265,
+   "p": 0.03980099502487562,
+   "null_max": 0.347,
+   "vta_1877": false,
+   "reading": "?u l? ls bcil hciw qww bt ?? icg le rd re ?u ?t ?s be lt rio a? ?r at",
+   "passes": false
+  },
+  {
+   "image": "1888_18880519-B4.jpg",
+   "words": 23,
+   "share": 0.281,
+   "p": 0.04477611940298507,
+   "null_max": 0.391,
+   "vta_1877": false,
+   "reading": "?g lt ad ici? dcip rrg?g ?bu?f hciw uhd dqi ?e rs ri re rd as at rio bn at qd dcil rud",
+   "passes": false
+  },
+  {
+   "image": "1890_18901003-B4.jpg",
+   "words": 7,
+   "share": 0.278,
+   "p": 0.04477611940298507,
+   "null_max": 0.444,
+   "vta_1877": false,
+   "reading": "?s as ln au?r uhd rio a?",
+   "passes": false
+  },
+  {
+   "image": "1877_18771009-VTA.jpg",
+   "words": 8,
+   "share": 0.294,
+   "p": 0.04975124378109453,
+   "null_max": 0.441,
+   "vta_1877": true,
+   "reading": "leiuste white bqip hiid aah flo ?ryc iyu?",
+   "passes": false
+  },
+  {
+   "image": "1879_18791007-LC15.jpg",
+   "words": 6,
+   "share": 0.414,
+   "p": 0.04975124378109453,
+   "null_max": 0.559,
+   "vta_1877": false,
+   "reading": "rs nayutbddnacafquelaluseeuaynenanse chealna caluesneldsdinahseiaulaldnelda rh chealcahaluesneldsdinahseiaulaldnelda",
+   "passes": false
+  },
+  {
+   "image": "1884_18841009-K4.jpg",
+   "words": 20,
+   "share": 0.239,
+   "p": 0.04975124378109453,
+   "null_max": 0.354,
+   "vta_1877": false,
+   "reading": "ic?uu? a?hten wg tu ?ihqgcu uu?cci ut rstau?yeu uui sl?nasuui ?ssiteu isl yushyui inenus a?nten it hnueseni uh?nci rstan?neu ycshyhi",
+   "passes": false
+  },
+  {
+   "image": "1889_18890517-M9.jpg",
+   "words": 18,
+   "share": 0.296,
+   "p": 0.04975124378109453,
+   "null_max": 0.444,
+   "vta_1877": false,
+   "reading": "ubl hua ls le ici? r?urqa? rs hcaa ue rcbw as bnbe rio ar bn ubp un bnb",
+   "passes": false
+  },
+  {
+   "image": "1896_18960723-Jaj.jpg",
+   "words": 6,
+   "share": 0.333,
+   "p": 0.04975124378109453,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "tdeqe teqe tes?tn tldrn tstun sttun",
+   "passes": false
+  },
+  {
+   "image": "1879_18791015.jpg",
+   "words": 8,
+   "share": 0.379,
+   "p": 0.05472636815920398,
+   "null_max": 0.534,
+   "vta_1877": false,
+   "reading": "be alala aselltetadl ?slae alrstee belacala estaselltetadl alctee",
+   "passes": false
+  },
+  {
+   "image": "1886_18861130-I.jpg",
+   "words": 12,
+   "share": 0.217,
+   "p": 0.05472636815920398,
+   "null_max": 0.413,
+   "vta_1877": false,
+   "reading": "?gub ?une ??ri wnr? igu teni ?? iug ?grub ?eri ugu ln?erw",
+   "passes": false
+  },
+  {
+   "image": "1888_18880606-B4.jpg",
+   "words": 16,
+   "share": 0.326,
+   "p": 0.05472636815920398,
+   "null_max": 0.457,
+   "vta_1877": false,
+   "reading": "lt gur icbp dgcl ryql ae ?e re ud ici at rio gud dgcw rd ici?",
+   "passes": false
+  },
+  {
+   "image": "1881_18810424.jpg",
+   "words": 5,
+   "share": 0.385,
+   "p": 0.05970149253731343,
+   "null_max": 0.577,
+   "vta_1877": false,
+   "reading": "tttue ?enlt ensetube beeltt ny",
+   "passes": false
+  },
+  {
+   "image": "1882_18820520.jpg",
+   "words": 16,
+   "share": 0.271,
+   "p": 0.06467661691542288,
+   "null_max": 0.365,
+   "vta_1877": false,
+   "reading": "dqguh ie ldes dnsn tlsue ddls resd?dlsn iesldee desnee ?nenesn dqlug d? resd ?dlsn desneen rnssennen",
+   "passes": false
+  },
+  {
+   "image": "1883_18830119-B.jpg",
+   "words": 7,
+   "share": 0.306,
+   "p": 0.06467661691542288,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "inudse tn?ntsie ?cenesn rdlsnue tn?nesie nnteue ?nenesn",
+   "passes": false
+  },
+  {
+   "image": "1885_18851128-P.jpg",
+   "words": 13,
+   "share": 0.312,
+   "p": 0.06467661691542288,
+   "null_max": 0.438,
+   "vta_1877": false,
+   "reading": "enrr snb wgu ie acdu fnww ?guwu hgrigc du andu sgrigc dr ?nd",
+   "passes": false
+  },
+  {
+   "image": "1889_18891019-CHERY.jpg",
+   "words": 10,
+   "share": 0.255,
+   "p": 0.06467661691542288,
+   "null_max": 0.426,
+   "vta_1877": false,
+   "reading": "u?gp ratn eutlttn s?tn tnu tsatn yugp ta?n eutsttn tsasn",
+   "passes": false
+  },
+  {
+   "image": "1890_18901001-B4.jpg",
+   "words": 9,
+   "share": 0.4,
+   "p": 0.06467661691542288,
+   "null_max": 0.55,
+   "vta_1877": false,
+   "reading": "?? lt us rch bt at hil a? le",
+   "passes": false
+  },
+  {
+   "image": "1881_18811107.jpg",
+   "words": 6,
+   "share": 0.222,
+   "p": 0.06965174129353234,
+   "null_max": 0.306,
+   "vta_1877": false,
+   "reading": "etd?a?el la?slae to t??? etf?a?el nseeale",
+   "passes": false
+  },
+  {
+   "image": "1889_18890109-2F.jpg",
+   "words": 6,
+   "share": 0.294,
+   "p": 0.06965174129353234,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "petnla s??esa? pa?sla ale letnla nseale",
+   "passes": false
+  },
+  {
+   "image": "1896_18960903-Jaj.jpg",
+   "words": 18,
+   "share": 0.186,
+   "p": 0.06965174129353234,
+   "null_max": 0.326,
+   "vta_1877": false,
+   "reading": "sld?d ntr?r sne?e tsertl tldut t?e cet?d ??ri tst?s sesrtt sttun sdqt uuu eld?d sdt?e cst?d t?re qeertt",
+   "passes": false
+  },
+  {
+   "image": "1882_18820613-7.jpg",
+   "words": 23,
+   "share": 0.278,
+   "p": 0.07462686567164178,
+   "null_max": 0.423,
+   "vta_1877": false,
+   "reading": "yerw ugd ig lq sgrw tguqew teeu ii qu ?giintln serrgw tgusn unwdur eeni un nnrsunn ?ei hdca tesu ei lgg heni unwhnrsunn",
+   "passes": false
+  },
+  {
+   "image": "1883_18830101-B.jpg",
+   "words": 4,
+   "share": 0.36,
+   "p": 0.07462686567164178,
+   "null_max": 0.48,
+   "vta_1877": false,
+   "reading": "iesldee desneen ?nenesn idli",
+   "passes": false
+  },
+  {
+   "image": "1883_18831230-R.jpg",
+   "words": 22,
+   "share": 0.224,
+   "p": 0.07462686567164178,
+   "null_max": 0.346,
+   "vta_1877": false,
+   "reading": "dd hiuu hgui?ug ?eni id?i ?unehnu igdaiqi bgdu ir wnetuei?in e?ns isruewirr ?iun ?gu heni idi ?uenu wn igdaici cgdu er wnetueiin",
+   "passes": false
+  },
+  {
+   "image": "1884_18840112-E.jpg",
+   "words": 9,
+   "share": 0.273,
+   "p": 0.07462686567164178,
+   "null_max": 0.364,
+   "vta_1877": false,
+   "reading": "enusn ?nw ?ue heni wnnri ?w agee ?ei nnri",
+   "passes": false
+  },
+  {
+   "image": "1888_18880613-B4.jpg",
+   "words": 15,
+   "share": 0.268,
+   "p": 0.07462686567164178,
+   "null_max": 0.341,
+   "vta_1877": false,
+   "reading": "?g rcbh rg ry rca r?g ubh ce ae be rio at us ?nb qa?rqo",
+   "passes": false
+  },
+  {
+   "image": "1888_18881019-B4.jpg",
+   "words": 23,
+   "share": 0.23,
+   "p": 0.07462686567164178,
+   "null_max": 0.311,
+   "vta_1877": false,
+   "reading": "lt gur ?cby ryqf ucir auru uhd qii as ?t lugg? guh ucbb acp rg be rio at ud qila lugg?guh nrg a?",
+   "passes": false
+  },
+  {
+   "image": "1882_18820428-PAUL.jpg",
+   "words": 18,
+   "share": 0.261,
+   "p": 0.07960199004975124,
+   "null_max": 0.406,
+   "vta_1877": false,
+   "reading": "dqig y?uw ugd ig edsa ed iyuyeus ieri ieni hdgu tenu? esneeu tnn? dq yuw ip wgu esneer",
+   "passes": false
+  },
+  {
+   "image": "1888_18880617-B4.jpg",
+   "words": 12,
+   "share": 0.27,
+   "p": 0.07960199004975124,
+   "null_max": 0.405,
+   "vta_1877": false,
+   "reading": "hdg rugu ?uw a?r dgc? lui yuig rcbhi ?n at be bn",
+   "passes": false
+  },
+  {
+   "image": "1883_18831129-R.jpg",
+   "words": 30,
+   "share": 0.239,
+   "p": 0.08955223880597014,
+   "null_max": 0.321,
+   "vta_1877": false,
+   "reading": "?nusdr in teni sgrsnii hse?c sd yg euuerqn wgu untdin nrwnu? wuinrnu bdih ucwg g?nui wgu eeun hdu wesgun iduni eeca sse?c wn id? ?cou ?g rntdin hrwnu? wuinr?u idni",
+   "passes": false
+  },
+  {
+   "image": "1887_18870320-2.jpg",
+   "words": 11,
+   "share": 0.182,
+   "p": 0.08955223880597014,
+   "null_max": 0.341,
+   "vta_1877": false,
+   "reading": "de at???? ?t y??u?? ?a agnql dt? atesn? dh a??? ateyl?",
+   "passes": false
+  },
+  {
+   "image": "1890_18901018-222.jpg",
+   "words": 12,
+   "share": 0.259,
+   "p": 0.08955223880597014,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "fstp ?t l?tndt ansh th tgltdt rssag sqhtatp g?w rqdc?p fqtp tssag",
+   "passes": false
+  },
+  {
+   "image": "1896_18960715-Jaj.jpg",
+   "words": 6,
+   "share": 0.294,
+   "p": 0.08955223880597014,
+   "null_max": 0.412,
+   "vta_1877": false,
+   "reading": "ushti?i stdtl? sestu tsainisn? ng sehut",
+   "passes": false
+  },
+  {
+   "image": "1887_18870121-9.jpg",
+   "words": 11,
+   "share": 0.182,
+   "p": 0.0945273631840796,
+   "null_max": 0.318,
+   "vta_1877": false,
+   "reading": "hue?g?i un? inu ?gdc cdrs ig?u uu que? nsu ce?g?i iguu",
+   "passes": false
+  },
+  {
+   "image": "1888_18880630-B4.jpg",
+   "words": 17,
+   "share": 0.224,
+   "p": 0.09950248756218906,
+   "null_max": 0.379,
+   "vta_1877": false,
+   "reading": "quu h?lu uubh lugu aca dgcry ae at rcbh hciw ld rio at ?uu ur?b?uu lciu ad",
+   "passes": false
+  },
+  {
+   "image": "1890_18901005-B4.jpg",
+   "words": 14,
+   "share": 0.167,
+   "p": 0.09950248756218906,
+   "null_max": 0.286,
+   "vta_1877": false,
+   "reading": "?g lt ig?hi ?bu?r dr dch hcii ?t rf a?r rio a? nrg?h ar",
+   "passes": false
+  },
+  {
+   "image": "1879_18790925-LRG.jpg",
+   "words": 6,
+   "share": 0.309,
+   "p": 0.1044776119402985,
+   "null_max": 0.545,
+   "vta_1877": false,
+   "reading": "tenunddtslnbdtt ena?lntdsetsasls unlsts?tnnnletssersryhs g? tenulddtslnydtt ena?lltdnedsaslsunlsds?tnnnletssersryes",
+   "passes": false
+  },
+  {
+   "image": "1889_18891108-CHERY.jpg",
+   "words": 11,
+   "share": 0.239,
+   "p": 0.1044776119402985,
+   "null_max": 0.37,
+   "vta_1877": false,
+   "reading": "hus q?ewttsu tnqeqtn qteu un qcg ilsns fip tnin qreu sun",
+   "passes": false
+  },
+  {
+   "image": "1898_18980503-13.jpg",
+   "words": 9,
+   "share": 0.206,
+   "p": 0.11442786069651742,
+   "null_max": 0.349,
+   "vta_1877": false,
+   "reading": "ubrtl?u?cilg?p? wicruh fu ry ?qi ??qg tsubrtl?u?cilg?p?wicruh fury ?qit",
+   "passes": false
+  },
+  {
+   "image": "1879_18790915-LRG.jpg",
+   "words": 10,
+   "share": 0.315,
+   "p": 0.11940298507462686,
+   "null_max": 0.519,
+   "vta_1877": false,
+   "reading": "anelt?ennnlnt tens?stnstentaslenstnsrs nsa tantna ?esssna anert?ennnlnt tens?stnstent aslenstnsrs dsndneednsa talntna",
+   "passes": false
+  },
+  {
+   "image": "1881_18810609-8.jpg",
+   "words": 19,
+   "share": 0.184,
+   "p": 0.11940298507462686,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "yufa waui uuii isste?icl ll? wuinu eduudy el seulnrq wauru iw etsa wa?ui unii isste?iul lu? wuenu e?sa ii",
+   "passes": false
+  },
+  {
+   "image": "1893_18930515-R1.jpg",
+   "words": 6,
+   "share": 0.364,
+   "p": 0.11940298507462686,
+   "null_max": 0.682,
+   "vta_1877": false,
+   "reading": "qg cttnesu ssdeh ta pg henl",
+   "passes": false
+  },
+  {
+   "image": "1888_18881021-B4.jpg",
+   "words": 22,
+   "share": 0.167,
+   "p": 0.12437810945273632,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "?uqgu rcou re fiug ?dd ?cby ubr yui hca? dg augr qic? be uhd rio a? duuiu uqu cab iuod qdd as",
+   "passes": false
+  },
+  {
+   "image": "1888_18881124-B4.jpg",
+   "words": 19,
+   "share": 0.25,
+   "p": 0.12437810945273632,
+   "null_max": 0.365,
+   "vta_1877": false,
+   "reading": "gp lt dyqgu lu rcu aca ci ae ?q at ?cby ?buh dg be rio g? qru dguh guh",
+   "passes": false
+  },
+  {
+   "image": "1890_18901007-B4.jpg",
+   "words": 9,
+   "share": 0.292,
+   "p": 0.12437810945273632,
+   "null_max": 0.458,
+   "vta_1877": false,
+   "reading": "?s augr ry ii lqg uhd rio at wcr",
+   "passes": false
+  },
+  {
+   "image": "1893_18930320.jpg",
+   "words": 2,
+   "share": 0.5,
+   "p": 0.12935323383084577,
+   "null_max": 1.0,
+   "vta_1877": false,
+   "reading": "tas eol",
+   "passes": false
+  },
+  {
+   "image": "1881_18810202.jpg",
+   "words": 7,
+   "share": 0.238,
+   "p": 0.13432835820895522,
+   "null_max": 0.452,
+   "vta_1877": false,
+   "reading": "lude etd?a?el la?shlae nseeale wup lhdei payslae",
+   "passes": false
+  },
+  {
+   "image": "1884_18840505-L.jpg",
+   "words": 10,
+   "share": 0.2,
+   "p": 0.13432835820895522,
+   "null_max": 0.457,
+   "vta_1877": false,
+   "reading": "unrwu cdru in ?uu?n ieri lnw wgn enr iu i?ri",
+   "passes": false
+  },
+  {
+   "image": "1889_18890908-M9.jpg",
+   "words": 12,
+   "share": 0.257,
+   "p": 0.13432835820895522,
+   "null_max": 0.486,
+   "vta_1877": false,
+   "reading": "lt ad af cgu uhd ?aaiq rio be a? dubhiu wcr at",
+   "passes": false
+  },
+  {
+   "image": "1890_18900928-B4.jpg",
+   "words": 12,
+   "share": 0.312,
+   "p": 0.13432835820895522,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "lt ls qluu huih lqg rcg be rio ar qs uud qd",
+   "passes": false
+  },
+  {
+   "image": "1881_18810820-7.jpg",
+   "words": 5,
+   "share": 0.3,
+   "p": 0.13930348258706468,
+   "null_max": 0.65,
+   "vta_1877": false,
+   "reading": "lugu dluts a?dg uhd atdg",
+   "passes": false
+  },
+  {
+   "image": "1885_18850504-M.jpg",
+   "words": 9,
+   "share": 0.257,
+   "p": 0.13930348258706468,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "snuen bgdu unw enrr wgn eeus gd enueu enuuu",
+   "passes": false
+  },
+  {
+   "image": "1887_18870314-1.jpg",
+   "words": 10,
+   "share": 0.15,
+   "p": 0.13930348258706468,
+   "null_max": 0.275,
+   "vta_1877": false,
+   "reading": "a?hb qsh qt?u ?t c?? y??u ate?c? ?sh yq?nu atesu?",
+   "passes": false
+  },
+  {
+   "image": "1884_18840117-T.jpg",
+   "words": 11,
+   "share": 0.225,
+   "p": 0.14427860696517414,
+   "null_max": 0.425,
+   "vta_1877": false,
+   "reading": "wyg ygus tnq iew tesu nrs hguwa el cg?n sesu hgrwa",
+   "passes": false
+  },
+  {
+   "image": "1884_18840121-L.jpg",
+   "words": 14,
+   "share": 0.235,
+   "p": 0.14427860696517414,
+   "null_max": 0.353,
+   "vta_1877": false,
+   "reading": "ql lnww iurcg din rnsni iqr l?d qles cnww yei irrug snww cle isr",
+   "passes": false
+  },
+  {
+   "image": "1889_18891108-M9.jpg",
+   "words": 24,
+   "share": 0.227,
+   "p": 0.14427860696517414,
+   "null_max": 0.318,
+   "vta_1877": false,
+   "reading": "qubr? ln d?u lqg bcil ae ?q at igu ln ?s un rcg bl dr acr tnb qqq lt rio at d?uuu nigu be",
+   "passes": false
+  },
+  {
+   "image": "1880_18801003-LC15.jpg",
+   "words": 5,
+   "share": 0.328,
+   "p": 0.14925373134328357,
+   "null_max": 0.466,
+   "vta_1877": false,
+   "reading": "anytadspesdinnaldntu ld esnuhph anytadsepeedinnaldntu desnuhph",
+   "passes": false
+  },
+  {
+   "image": "1882_18820606-42.jpg",
+   "words": 21,
+   "share": 0.226,
+   "p": 0.14925373134328357,
+   "null_max": 0.368,
+   "vta_1877": false,
+   "reading": "rin igd? rw annu ?nwh qguendic ?guwuenw eewhr hgrigln in ?nd sd ?nsn isgunn ?nrin igd?nrw ?lwhn qguhendin eewhu sgrigln esgunn",
+   "passes": false
+  },
+  {
+   "image": "1884_18841106.jpg",
+   "words": 7,
+   "share": 0.245,
+   "p": 0.14925373134328357,
+   "null_max": 0.453,
+   "vta_1877": false,
+   "reading": "tw ?td lct?lal ?ldanat?a? sseadsaiaeilac nsei sseadsaiailal",
+   "passes": false
+  },
+  {
+   "image": "1886_18860508-2F.jpg",
+   "words": 8,
+   "share": 0.133,
+   "p": 0.14925373134328357,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "tall ?a?a ?a llqr ha? q?nt? lsl saiae",
+   "passes": false
+  },
+  {
+   "image": "1888_18880707-B4.jpg",
+   "words": 16,
+   "share": 0.2,
+   "p": 0.14925373134328357,
+   "null_max": 0.356,
+   "vta_1877": false,
+   "reading": "?etl rcu qdg ?u hciw ?bhi as ud ?g?r ubl ld rio at gup ?u ni",
+   "passes": false
+  },
+  {
+   "image": "1893_18930602-Chav.jpg",
+   "words": 10,
+   "share": 0.2,
+   "p": 0.15422885572139303,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "ryql sot hot l? rt llt slh rult rau ?au",
+   "passes": false
+  },
+  {
+   "image": "1884_18840609-E.jpg",
+   "words": 11,
+   "share": 0.152,
+   "p": 0.15920398009950248,
+   "null_max": 0.283,
+   "vta_1877": false,
+   "reading": "nru i?? irdtt ha??uun ueii egu nrr ie? salunn uiii wenen",
+   "passes": false
+  },
+  {
+   "image": "1885_18850621-E.jpg",
+   "words": 8,
+   "share": 0.207,
+   "p": 0.15920398009950248,
+   "null_max": 0.345,
+   "vta_1877": false,
+   "reading": "sesu ynnu ?gdu ?nr ?nrsu eew gd tesu",
+   "passes": false
+  },
+  {
+   "image": "1888_18880505-B4.jpg",
+   "words": 11,
+   "share": 0.179,
+   "p": 0.15920398009950248,
+   "null_max": 0.359,
+   "vta_1877": false,
+   "reading": "lt ucir hciww dcip rg?gu ??i? rio at ?g dcil qli?",
+   "passes": false
+  },
+  {
+   "image": "1888_18881013-B4.jpg",
+   "words": 15,
+   "share": 0.213,
+   "p": 0.15920398009950248,
+   "null_max": 0.362,
+   "vta_1877": false,
+   "reading": "qww uud ls ?t uhd as auiucb be rio a? rub ?g ?ubuigu nrg?h cc",
+   "passes": false
+  },
+  {
+   "image": "1881_18810618-83.jpg",
+   "words": 22,
+   "share": 0.19,
+   "p": 0.16417910447761194,
+   "null_max": 0.343,
+   "vta_1877": false,
+   "reading": "e?eusyu lsrs ?se etlueye noeshe hul wq?uus tsneu weleyl ?euysts ys ?ert or qu ?usyl csrs noese ilyuuh tsneuu eley? ?ertu leesl",
+   "passes": false
+  },
+  {
+   "image": "1883_18830605-7.jpg",
+   "words": 24,
+   "share": 0.183,
+   "p": 0.16417910447761194,
+   "null_max": 0.312,
+   "vta_1877": false,
+   "reading": "idni in eed? ade ni?nueni werw wd ?gui uu?edr ucb ?nwn ri inungri a?ndundr wgu hiu iduhi ni?nuini iuuh ??uri inuhgri ih accdundr yu?",
+   "passes": false
+  },
+  {
+   "image": "1885_18850703-B.jpg",
+   "words": 9,
+   "share": 0.226,
+   "p": 0.16417910447761194,
+   "null_max": 0.435,
+   "vta_1877": false,
+   "reading": "uelnlte tqldei hdcylhih ?chc?sn netesre uendse esldee ndlyneiu ?centsn",
+   "passes": false
+  },
+  {
+   "image": "1889_18890606-2F.jpg",
+   "words": 9,
+   "share": 0.15,
+   "p": 0.16417910447761194,
+   "null_max": 0.3,
+   "vta_1877": false,
+   "reading": "edl ?a? saeel et?e eela? etttll ed?a? tt?e sela?",
+   "passes": false
+  },
+  {
+   "image": "1896_18960602-13m.jpg",
+   "words": 7,
+   "share": 0.278,
+   "p": 0.16417910447761194,
+   "null_max": 0.667,
+   "vta_1877": false,
+   "reading": "ry rca tl ?g qii hidd an",
+   "passes": false
+  },
+  {
+   "image": "1880_18801019-LC15.jpg",
+   "words": 10,
+   "share": 0.224,
+   "p": 0.1691542288557214,
+   "null_max": 0.449,
+   "vta_1877": false,
+   "reading": "uuu ?uui alydrdtil?cap dsd s?nayta hph ii cc s?naytpp uhph",
+   "passes": false
+  },
+  {
+   "image": "1883_18831226-J.jpg",
+   "words": 18,
+   "share": 0.135,
+   "p": 0.1691542288557214,
+   "null_max": 0.303,
+   "vta_1877": false,
+   "reading": "enru wur ?ni untdin un?nnll ?gdu uli?lu e?ns ?nrinn ?e?iug? nlll enrr werw ?nw rntdin u?i?nu ?i?iug? wnlll",
+   "passes": false
+  },
+  {
+   "image": "1877_18770826-MA.jpg",
+   "words": 9,
+   "share": 0.216,
+   "p": 0.17412935323383086,
+   "null_max": 0.432,
+   "vta_1877": false,
+   "reading": "as igq? lrt clqsu utl urg ici utlqsututl guqi",
+   "passes": false
+  },
+  {
+   "image": "1881_18810607-8.jpg",
+   "words": 19,
+   "share": 0.202,
+   "p": 0.17412935323383086,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "fi qu rwqii tu?qseilwnr le? lr? cqheucu cawwln ynutn ieensn hh fy ?uw uii tunsel wnr le?n yqhiucq yutn",
+   "passes": false
+  },
+  {
+   "image": "1883_18831201-I.jpg",
+   "words": 39,
+   "share": 0.157,
+   "p": 0.17412935323383086,
+   "null_max": 0.307,
+   "vta_1877": false,
+   "reading": "c? q? liw e?guu uehi ndr enlnu eenuw tedw hunu ?euwu i?wdew igni ?ei eela hgu eeg wc hgrigc n?e sa nrs ?guu eeni hgdu h?ru u? cr qe niw e?guu ?nuehi t?dw ?eurn wes wn ?gdu hrc un",
+   "passes": false
+  },
+  {
+   "image": "1884_18840501-T.jpg",
+   "words": 12,
+   "share": 0.231,
+   "p": 0.17412935323383086,
+   "null_max": 0.462,
+   "vta_1877": false,
+   "reading": "egu esgunn ?nrinn rn hdcn h?us egr esguln ?nrinn hdubn hnus rqr",
+   "passes": false
+  },
+  {
+   "image": "1886_18860713-90.jpg",
+   "words": 8,
+   "share": 0.269,
+   "p": 0.1791044776119403,
+   "null_max": 0.538,
+   "vta_1877": false,
+   "reading": "ll lhu?u nctu up dui ?uh fc lhitn",
+   "passes": false
+  },
+  {
+   "image": "1888_18880523-B4.jpg",
+   "words": 18,
+   "share": 0.224,
+   "p": 0.1791044776119403,
+   "null_max": 0.414,
+   "vta_1877": false,
+   "reading": "lt gur ln ruri qucih?hbqlup ib?f uhd un rs rd ue ae be rio a? quciu ryql h?",
+   "passes": false
+  },
+  {
+   "image": "1888_18880627-B4.jpg",
+   "words": 15,
+   "share": 0.237,
+   "p": 0.1791044776119403,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "g? ut gur quci hcii ?d ae ?cby as rd rio ar ?g lt le",
+   "passes": false
+  },
+  {
+   "image": "1888_18880725-B4.jpg",
+   "words": 12,
+   "share": 0.286,
+   "p": 0.1791044776119403,
+   "null_max": 0.464,
+   "vta_1877": false,
+   "reading": "ac rqgg dg ubw be an at ?g lt ubl rn a?",
+   "passes": false
+  },
+  {
+   "image": "1888_18881103-B4.jpg",
+   "words": 22,
+   "share": 0.198,
+   "p": 0.1791044776119403,
+   "null_max": 0.383,
+   "vta_1877": false,
+   "reading": "rcd igcil dqlug uhh hciw ryql rg ??ubi hugqh? lg rcbw ry cbdugu rio lt su rql wcb uur? urg ??ubiui wct",
+   "passes": false
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "words": 35,
+   "share": 0.145,
+   "p": 0.18407960199004975,
+   "null_max": 0.256,
+   "vta_1877": false,
+   "reading": "?crin i?ri sniin ?d?ihdh ?nn eerhdn ig ae??l cl?inu tesu wd ni isgunn ih nrrudln ?euwuhu hdn gd?cun igdaein nu ?t ??rin wgu ?dnihdn etnwnl ?nn ae???l c?rwnu niee sgunll nrrdun ??uwhu gd?clunn igdain?nu tnwn",
+   "passes": false
+  },
+  {
+   "image": "1885_18850115-LEON.jpg",
+   "words": 11,
+   "share": 0.223,
+   "p": 0.18407960199004975,
+   "null_max": 0.446,
+   "vta_1877": false,
+   "reading": "ucbh uuhuhgu ci?r?ugq?h tuuctt lrcurnunen tlncltenrrn?rnuunrnu? neluti rucb uuhuhdu tnultt lrcurnunenwtuncllenrrn?u?uunrnuy?nheluti",
+   "passes": false
+  },
+  {
+   "image": "1888_18881026-B4.jpg",
+   "words": 17,
+   "share": 0.216,
+   "p": 0.18407960199004975,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "lt gur ?cby hcii iugg ucir ry qii ?a yh ruacp dubl as be rio at dqi",
+   "passes": false
+  },
+  {
+   "image": "1888_18881110-B4.jpg",
+   "words": 19,
+   "share": 0.204,
+   "p": 0.18407960199004975,
+   "null_max": 0.37,
+   "vta_1877": false,
+   "reading": "lt gur icr uadr acp ubp dql ihh ?e ue dcil hciw be rio at g? l? guihh uh",
+   "passes": false
+  },
+  {
+   "image": "1885_18850207.jpg",
+   "words": 9,
+   "share": 0.211,
+   "p": 0.1890547263681592,
+   "null_max": 0.447,
+   "vta_1877": false,
+   "reading": "rgu ea?nunn gdtlnnu ?ei wd ni ?nn wgdb sa?nunn",
+   "passes": false
+  },
+  {
+   "image": "1886_18860408-U.jpg",
+   "words": 12,
+   "share": 0.2,
+   "p": 0.1890547263681592,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "tesu i?w sael igui igcu sue ?dn cduu igu iew igu iu",
+   "passes": false
+  },
+  {
+   "image": "1879_18790424.jpg",
+   "words": 4,
+   "share": 0.263,
+   "p": 0.19402985074626866,
+   "null_max": 0.579,
+   "vta_1877": false,
+   "reading": "ldelsdln?d ltdlltteg ldelsdls?d fsselslsd",
+   "passes": false
+  },
+  {
+   "image": "1884_18840115-S.jpg",
+   "words": 10,
+   "share": 0.229,
+   "p": 0.19900497512437812,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "tnq ?ei unq nrueq tedwn ?l nr sa ?ltnhe sauu",
+   "passes": false
+  },
+  {
+   "image": "1884_18840306-O.jpg",
+   "words": 14,
+   "share": 0.175,
+   "p": 0.19900497512437812,
+   "null_max": 0.413,
+   "vta_1877": false,
+   "reading": "qu a?unu see?eq enun ?nrin wgn ?euwnn snb wesg aunu he??eq wgun ??uwhnn wisg",
+   "passes": false
+  },
+  {
+   "image": "1885_18850623-J.jpg",
+   "words": 14,
+   "share": 0.173,
+   "p": 0.19900497512437812,
+   "null_max": 0.404,
+   "vta_1877": false,
+   "reading": "?cru sa?nu?n bn ?nrin wg sel lw rd?? ?nru sanunn ?crin wgu nw dui",
+   "passes": false
+  },
+  {
+   "image": "1881_18811206-42.jpg",
+   "words": 7,
+   "share": 0.125,
+   "p": 0.20398009950248755,
+   "null_max": 0.292,
+   "vta_1877": false,
+   "reading": "qq n?nul enr?w id e?sa ld? lf?",
+   "passes": false
+  },
+  {
+   "image": "1883_18830224-8.jpg",
+   "words": 22,
+   "share": 0.214,
+   "p": 0.20398009950248755,
+   "null_max": 0.456,
+   "vta_1877": false,
+   "reading": "ig cnwwnuini nw rgw ?qduerrn gttnsnu qdiur ii teeu cewniw ynsrnis esgun el wc qces cnwwnui ni ?w ugw fuqduerrn qdiur?ii yntn",
+   "passes": false
+  },
+  {
+   "image": "1885_18850217-E.jpg",
+   "words": 9,
+   "share": 0.162,
+   "p": 0.20398009950248755,
+   "null_max": 0.432,
+   "vta_1877": false,
+   "reading": "unwnrd teeu ynsu gslg sgen ?e?n cg? sesu ?e?u",
+   "passes": false
+  },
+  {
+   "image": "1895_18950816-FL.jpg",
+   "words": 9,
+   "share": 0.235,
+   "p": 0.20398009950248755,
+   "null_max": 0.441,
+   "vta_1877": false,
+   "reading": "ui ln bsn rg?lu rubu phiuig cu u?l? phicig",
+   "passes": false
+  },
+  {
+   "image": "1881_18810918-LC15.jpg",
+   "words": 5,
+   "share": 0.214,
+   "p": 0.208955223880597,
+   "null_max": 0.393,
+   "vta_1877": false,
+   "reading": "rl db ?hfeuuqgdutnu?t nbu?auu?lqc ?hfhuuqglutnu?tnbuiauu?lqc",
+   "passes": false
+  },
+  {
+   "image": "1885_18850209-E.jpg",
+   "words": 9,
+   "share": 0.25,
+   "p": 0.208955223880597,
+   "null_max": 0.472,
+   "vta_1877": false,
+   "reading": "gr ?grb sanunn hdu snue bn wesgun egr sanuun",
+   "passes": false
+  },
+  {
+   "image": "1888_18880526-B4.jpg",
+   "words": 14,
+   "share": 0.231,
+   "p": 0.208955223880597,
+   "null_max": 0.41,
+   "vta_1877": false,
+   "reading": "gp lt hciw ?uqir ?d lu?rr ucbb rd ae ud be bn rio at",
+   "passes": false
+  },
+  {
+   "image": "1880_18800919-LC15.jpg",
+   "words": 4,
+   "share": 0.259,
+   "p": 0.21393034825870647,
+   "null_max": 0.685,
+   "vta_1877": false,
+   "reading": "esndtul dynse?leslayndsd?nhph esndtu dynse?leslayndsduhph",
+   "passes": false
+  },
+  {
+   "image": "1890_18901006-B4.jpg",
+   "words": 17,
+   "share": 0.146,
+   "p": 0.21393034825870647,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "cu duu ?g lt ig?h qir qii uua qqq uubu? rcg h?a a?r rio a? g? at",
+   "passes": false
+  },
+  {
+   "image": "1876_18760907-DIX.jpg",
+   "words": 25,
+   "share": 0.162,
+   "p": 0.21890547263681592,
+   "null_max": 0.294,
+   "vta_1877": false,
+   "reading": "uu sel ?qul lr?ufa an lqwi?b asnf?erb nfau le?qfln wac?a erq ra swe iubwap sensa?ua n?ahabial fr?ufa asuf??rb seenelb wfau le?qfln irq l?ahswe iubwapl nbh?abqal",
+   "passes": false
+  },
+  {
+   "image": "1885_18850609-O.jpg",
+   "words": 9,
+   "share": 0.2,
+   "p": 0.21890547263681592,
+   "null_max": 0.467,
+   "vta_1877": false,
+   "reading": "runw ?d hur nr wgdw indln tunw enr wgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860323-JUIN.jpg",
+   "words": 5,
+   "share": 0.212,
+   "p": 0.21890547263681592,
+   "null_max": 0.379,
+   "vta_1877": false,
+   "reading": "elgtsseynt a?u ss?g?s?s?as?lresensls slegtsseynta ss?g?s?sassltetensls",
+   "passes": false
+  },
+  {
+   "image": "1886_18860529-P.jpg",
+   "words": 9,
+   "share": 0.206,
+   "p": 0.21890547263681592,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "wn sanus sn?euw enrr w?rw wgu sanu werw wg",
+   "passes": false
+  },
+  {
+   "image": "1880_18801026-LC15.jpg",
+   "words": 4,
+   "share": 0.283,
+   "p": 0.22388059701492538,
+   "null_max": 0.517,
+   "vta_1877": false,
+   "reading": "qu spsdindsllepesdquiie aytachph spsdindsdlepeddquiienaytadchph",
+   "passes": false
+  },
+  {
+   "image": "1883_18830614-42.jpg",
+   "words": 23,
+   "share": 0.184,
+   "p": 0.22388059701492538,
+   "null_max": 0.388,
+   "vta_1877": false,
+   "reading": "rnsniiuugy yaewan ni qu tsntan qgni wg e?gus sedqaw eiiu nr?cer egu idiih sg du tew rnsnii urgy ?gdw an e?guns iiu sgndu",
+   "passes": false
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "words": 12,
+   "share": 0.19,
+   "p": 0.22885572139303484,
+   "null_max": 0.365,
+   "vta_1877": true,
+   "reading": "g?owiuh with im patienle waq? of seeicg wou gq?riyighu waq?g se?icg iyighu",
+   "passes": false
+  },
+  {
+   "image": "1882_18820610-PAUL.jpg",
+   "words": 10,
+   "share": 0.212,
+   "p": 0.23383084577114427,
+   "null_max": 0.424,
+   "vta_1877": false,
+   "reading": "tnnr ?nrin wgu ni ?nn hugui nu cg? nr cg?n",
+   "passes": false
+  },
+  {
+   "image": "1882_18820708-B.jpg",
+   "words": 7,
+   "share": 0.222,
+   "p": 0.23383084577114427,
+   "null_max": 0.417,
+   "vta_1877": false,
+   "reading": "trsen leie netesre uendte inudse ersen ids",
+   "passes": false
+  },
+  {
+   "image": "1883_18830301-7.jpg",
+   "words": 35,
+   "share": 0.188,
+   "p": 0.23383084577114427,
+   "null_max": 0.312,
+   "vta_1877": false,
+   "reading": "gc ld eun uhqaw wp wanr sgen wg grunei tnwsanrq tr sggu qgr? qg saere? tes? hhudyw ga un?guu gunn hh uuubb gd erun id grnei ter sggc qgr?i haeri? ses? sndenr hudnw un?gnu isgrunn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840312-N.jpg",
+   "words": 8,
+   "share": 0.171,
+   "p": 0.23383084577114427,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "teni gu ha?r?cu ?ruw erui letinrsn ??u wgu",
+   "passes": false
+  },
+  {
+   "image": "1884_18840314-E.jpg",
+   "words": 12,
+   "share": 0.136,
+   "p": 0.23383084577114427,
+   "null_max": 0.273,
+   "vta_1877": false,
+   "reading": "qles lgd ae?n anl andu nwun egu eegd ugd nwu?n ?u?i ?gd",
+   "passes": false
+  },
+  {
+   "image": "1884_18840604-D.jpg",
+   "words": 11,
+   "share": 0.227,
+   "p": 0.23383084577114427,
+   "null_max": 0.432,
+   "vta_1877": false,
+   "reading": "uugyi ?gdcgq ugin inrw in ?gr enusn eeun is urgyi eeuu",
+   "passes": false
+  },
+  {
+   "image": "1889_18890916-M9.jpg",
+   "words": 7,
+   "share": 0.19,
+   "p": 0.23880597014925373,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "dubu lcp ??ubi bu? be as a?",
+   "passes": false
+  },
+  {
+   "image": "1883_18831204-D.jpg",
+   "words": 20,
+   "share": 0.178,
+   "p": 0.24378109452736318,
+   "null_max": 0.344,
+   "vta_1877": false,
+   "reading": "wnuu eeusn tn?n su sgndu ln?nr inriu sn?nrs ne? uniw ?l cgrqw ie ?gnu egu esguewhgu sneenr ?riu he? isguewhgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18861215-M.jpg",
+   "words": 9,
+   "share": 0.138,
+   "p": 0.24378109452736318,
+   "null_max": 0.483,
+   "vta_1877": false,
+   "reading": "in su ?ei serq ege ynsr tn?n cg?n ugd",
+   "passes": false
+  },
+  {
+   "image": "1884_18840531-J.jpg",
+   "words": 9,
+   "share": 0.182,
+   "p": 0.24875621890547264,
+   "null_max": 0.606,
+   "vta_1877": false,
+   "reading": "enusn snw ?nrinn niw wgu bn egu wgn wenen",
+   "passes": false
+  },
+  {
+   "image": "1879_18790318.jpg",
+   "words": 7,
+   "share": 0.15,
+   "p": 0.2537313432835821,
+   "null_max": 0.375,
+   "vta_1877": false,
+   "reading": "ecle?alse tal?lase d?a lle lnde la?s slle?alse",
+   "passes": false
+  },
+  {
+   "image": "1884_18840128-S.jpg",
+   "words": 19,
+   "share": 0.16,
+   "p": 0.2537313432835821,
+   "null_max": 0.293,
+   "vta_1877": false,
+   "reading": "qlg iguu wu slenu ietlu ?eii waug ?giw iwg? aw enri wr inn tgllgyns tesu tn?n hhgu? a?w tenri",
+   "passes": false
+  },
+  {
+   "image": "1889_18891010-M9.jpg",
+   "words": 7,
+   "share": 0.25,
+   "p": 0.25870646766169153,
+   "null_max": 0.45,
+   "vta_1877": false,
+   "reading": "ad acr dyqgu rcg rio be ar",
+   "passes": false
+  },
+  {
+   "image": "1889_18891023-PO.jpg",
+   "words": 6,
+   "share": 0.19,
+   "p": 0.25870646766169153,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "dc lna inets a?i ewac enac",
+   "passes": false
+  },
+  {
+   "image": "1879_18790816-LRG.jpg",
+   "words": 3,
+   "share": 0.224,
+   "p": 0.26865671641791045,
+   "null_max": 0.513,
+   "vta_1877": false,
+   "reading": "lstreldetssneelnsnstslnrlet nlnnndtn? nsdueddlstsdsstens?tndtnl?esssnslnrslede",
+   "passes": false
+  },
+  {
+   "image": "1895_18950909-HD.jpg",
+   "words": 39,
+   "share": 0.141,
+   "p": 0.26865671641791045,
+   "null_max": 0.291,
+   "vta_1877": false,
+   "reading": "ttgsus ttnf gutyr?a tgit sh bss bun tu dtgic? dhubtiii iytaatsi?dah tgi gusitg srs ic?w gtw?gid tr h?r hsl htubrpsgr ?bts?gth httubsw itasi hurd tnf hs?a?? utgit bssr t? lugicr ?hubtiir ibtaatsi?dah ugiul gunsitg in?w gtw?g?d qu htrb?rpqgr hcrd",
+   "passes": false
+  },
+  {
+   "image": "1896_18960625-Jaj.jpg",
+   "words": 8,
+   "share": 0.18,
+   "p": 0.26865671641791045,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "?q? yd sddu?e ?ts ttslyts ttse?t sllyd sddu?etenl?tsttsly",
+   "passes": false
+  },
+  {
+   "image": "1900_19000829-FL.jpg",
+   "words": 11,
+   "share": 0.14,
+   "p": 0.26865671641791045,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "crh tsdtf hqg?h pcts tsu ?testttte rg?gu dgcry lnts cp dgccy",
+   "passes": false
+  },
+  {
+   "image": "1884_18841224-A.jpg",
+   "words": 12,
+   "share": 0.162,
+   "p": 0.2736318407960199,
+   "null_max": 0.351,
+   "vta_1877": false,
+   "reading": "hgr hg du esa hri hdn egu hgndu snw hdc b? winen",
+   "passes": false
+  },
+  {
+   "image": "1884_18841227-O.jpg",
+   "words": 29,
+   "share": 0.164,
+   "p": 0.2736318407960199,
+   "null_max": 0.276,
+   "vta_1877": false,
+   "reading": "rge sa?uun untdils un? igu sael gd cdrs hcdci snrs iu ?nnri eus ucsned gdh wd ci ?cn sanunn n?nnll rn? ?crdcw yeii snus ?hnri eeus nsned gdu isg",
+   "passes": false
+  },
+  {
+   "image": "1886_18860110-N.jpg",
+   "words": 9,
+   "share": 0.158,
+   "p": 0.2736318407960199,
+   "null_max": 0.421,
+   "vta_1877": false,
+   "reading": "?gr teninu eewnr ?une ?nri nr? lngu e?wur cngu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860604-I.jpg",
+   "words": 8,
+   "share": 0.192,
+   "p": 0.2736318407960199,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "gdu sni sa iqgu gdn ?nw salu isgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18861223-1.jpg",
+   "words": 7,
+   "share": 0.214,
+   "p": 0.2736318407960199,
+   "null_max": 0.714,
+   "vta_1877": false,
+   "reading": "tlnw andu wn tnrni ?nrs enus tnrui",
+   "passes": false
+  },
+  {
+   "image": "1884_18840116-T.jpg",
+   "words": 12,
+   "share": 0.18,
+   "p": 0.27860696517412936,
+   "null_max": 0.42,
+   "vta_1877": false,
+   "reading": "qnbi qewni iguw nr ?nurn iiri cnww cndu q?ii qrci ?nunrn ieri",
+   "passes": false
+  },
+  {
+   "image": "1889_18891031-M9.jpg",
+   "words": 17,
+   "share": 0.174,
+   "p": 0.27860696517412936,
+   "null_max": 0.391,
+   "vta_1877": false,
+   "reading": "lt ruri gur ubw acr ?m ae dr be a?r ?d rdrd rcg agb at ?s agbn",
+   "passes": false
+  },
+  {
+   "image": "1882_18821026.jpg",
+   "words": 4,
+   "share": 0.176,
+   "p": 0.2835820895522388,
+   "null_max": 0.529,
+   "vta_1877": false,
+   "reading": "wur?s uqs stue wlr?s",
+   "passes": false
+  },
+  {
+   "image": "1888_18881127-516.jpg",
+   "words": 5,
+   "share": 0.2,
+   "p": 0.2835820895522388,
+   "null_max": 0.667,
+   "vta_1877": false,
+   "reading": "hn anl q?r ad iranl",
+   "passes": false
+  },
+  {
+   "image": "1889_18890913-M9.jpg",
+   "words": 13,
+   "share": 0.137,
+   "p": 0.2835820895522388,
+   "null_max": 0.294,
+   "vta_1877": false,
+   "reading": "ig?hi qii ltql ?adq qqq qubry? hcii rio be as l?hig?hi qubr? a?",
+   "passes": false
+  },
+  {
+   "image": "1880_18800905-LC15.jpg",
+   "words": 3,
+   "share": 0.217,
+   "p": 0.2935323383084577,
+   "null_max": 0.522,
+   "vta_1877": false,
+   "reading": "naytadnlda haull?shdnhphnanhea haldsdunhphnanhea",
+   "passes": false
+  },
+  {
+   "image": "1882_18820722.jpg",
+   "words": 7,
+   "share": 0.24,
+   "p": 0.2935323383084577,
+   "null_max": 0.519,
+   "vta_1877": false,
+   "reading": "neststntetntnuntdnstlnnrnst ?nnntstsd tnlcuenlsts ?tnntnnldtnadnrdneetdetnnttne neststntetntnun ?nnntstsdenlnuenlsts nnldtnadsudneesdet",
+   "passes": false
+  },
+  {
+   "image": "1885_18850209-M.jpg",
+   "words": 11,
+   "share": 0.189,
+   "p": 0.2935323383084577,
+   "null_max": 0.432,
+   "vta_1877": false,
+   "reading": "lnww senel eeun ig qles rs uugy ?nn cnww ers we",
+   "passes": false
+  },
+  {
+   "image": "1886_18860101-B.jpg",
+   "words": 6,
+   "share": 0.167,
+   "p": 0.2935323383084577,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "nlsee? ?e??teil? ydcyneih nueel nlsie? ndlynein",
+   "passes": false
+  },
+  {
+   "image": "1890_18901009-B4.jpg",
+   "words": 14,
+   "share": 0.163,
+   "p": 0.2935323383084577,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "?h lt ubw hciw qphf?dcir h?r rcg be bn rio a? ?i ?cby ld",
+   "passes": false
+  },
+  {
+   "image": "1884_18840612-T.jpg",
+   "words": 20,
+   "share": 0.12,
+   "p": 0.29850746268656714,
+   "null_max": 0.289,
+   "vta_1877": false,
+   "reading": "un?n gr?n igcu ?gdsu ?ei un? ?nrs wunnsn ?nr iee gd eundr cdrs sed?n tuns iguu wunn?n enndr cdru sedwn",
+   "passes": false
+  },
+  {
+   "image": "1886_18861217-U.jpg",
+   "words": 8,
+   "share": 0.115,
+   "p": 0.29850746268656714,
+   "null_max": 0.462,
+   "vta_1877": false,
+   "reading": "nrt tue? ?nw rgu ?iuw nw sue? ?ei",
+   "passes": false
+  },
+  {
+   "image": "1886_18860515-2F.jpg",
+   "words": 13,
+   "share": 0.133,
+   "p": 0.3034825870646766,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "?a sae cap ?a? aple ?alnp ip? pcdn qgip ?alel ep? pldn cc",
+   "passes": false
+  },
+  {
+   "image": "1890_18900724-Z.jpg",
+   "words": 4,
+   "share": 0.286,
+   "p": 0.3034825870646766,
+   "null_max": 0.667,
+   "vta_1877": false,
+   "reading": "nqe tttslesd eq tttsletd",
+   "passes": false
+  },
+  {
+   "image": "1891_18911216-25.jpg",
+   "words": 8,
+   "share": 0.19,
+   "p": 0.3034825870646766,
+   "null_max": 0.405,
+   "vta_1877": false,
+   "reading": "sspndn sepntd dq?o sedtde lo ta?snt dhq?o tsedtde",
+   "passes": false
+  },
+  {
+   "image": "1884_18840109-N.jpg",
+   "words": 20,
+   "share": 0.134,
+   "p": 0.30845771144278605,
+   "null_max": 0.268,
+   "vta_1877": false,
+   "reading": "gucl uu?y wa n?n lgdu sgurqi iig cewn wg uu? cg?n sneull yu wul ?ugt ueenunu? ugdi?ghr urncy n?nr uun",
+   "passes": false
+  },
+  {
+   "image": "1884_18840227-E.jpg",
+   "words": 13,
+   "share": 0.163,
+   "p": 0.30845771144278605,
+   "null_max": 0.512,
+   "vta_1877": false,
+   "reading": "iguu id rin egu bn ?iii ignu ed ?nrin hgu b? winen ?eii",
+   "passes": false
+  },
+  {
+   "image": "1884_18841220-E.jpg",
+   "words": 17,
+   "share": 0.134,
+   "p": 0.30845771144278605,
+   "null_max": 0.328,
+   "vta_1877": false,
+   "reading": "wi hgwa ieli hgeni eeusn iriy aew hdiw tesu waew tntgun lru lnec un? ?ug?e? iee cg?",
+   "passes": false
+  },
+  {
+   "image": "1881_18810414.jpg",
+   "words": 8,
+   "share": 0.14,
+   "p": 0.31343283582089554,
+   "null_max": 0.326,
+   "vta_1877": false,
+   "reading": "sheuut?ne ttbt bn?t ubee tbe ttdbn?t sheuu??ne en?",
+   "passes": false
+  },
+  {
+   "image": "1885_18850215-D.jpg",
+   "words": 11,
+   "share": 0.147,
+   "p": 0.31343283582089554,
+   "null_max": 0.382,
+   "vta_1877": false,
+   "reading": "uugy tu eiu yal snw un? bnds andu wes fu h?u",
+   "passes": false
+  },
+  {
+   "image": "1886_18860410-S.jpg",
+   "words": 12,
+   "share": 0.125,
+   "p": 0.32338308457711445,
+   "null_max": 0.275,
+   "vta_1877": false,
+   "reading": "su nwu ?u?ui cdrs ?n eeus un? iee gd cg?n ?uui cdru",
+   "passes": false
+  },
+  {
+   "image": "1888_18880502-B4.jpg",
+   "words": 20,
+   "share": 0.23,
+   "p": 0.32338308457711445,
+   "null_max": 0.392,
+   "vta_1877": false,
+   "reading": "gi ut ryuh ?bh gug rcblubiuh ?d ?e as ae iqdg hubru at be ct unduryuh ?bhugug dgunhubru ld at",
+   "passes": false
+  },
+  {
+   "image": "1886_18861230-1.jpg",
+   "words": 6,
+   "share": 0.15,
+   "p": 0.3283582089552239,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "?unh ri ?gdu bn ?une ?nri",
+   "passes": false
+  },
+  {
+   "image": "1888_18880517-B4.jpg",
+   "words": 20,
+   "share": 0.177,
+   "p": 0.3283582089552239,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "gi lt gur qrr hcii qww ruri ruiu dguhf ae as at be bn a? uqru hciw qw? hruri ruii",
+   "passes": false
+  },
+  {
+   "image": "1885_18850530-O.jpg",
+   "words": 9,
+   "share": 0.182,
+   "p": 0.3333333333333333,
+   "null_max": 0.424,
+   "vta_1877": false,
+   "reading": "nrr ie? igdtt eanunn nw wg eerh wn sanunn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840112-D.jpg",
+   "words": 22,
+   "share": 0.119,
+   "p": 0.3383084577114428,
+   "null_max": 0.298,
+   "vta_1877": false,
+   "reading": "tnq uuiu enus ste? un??u du ?nn ening wgd?lnn ?ei idni wgu wgdb ?nri hguiw hrinu ?d su ?dw sei idui ?griw",
+   "passes": false
+  },
+  {
+   "image": "1884_18840319-T.jpg",
+   "words": 9,
+   "share": 0.125,
+   "p": 0.3383084577114428,
+   "null_max": 0.438,
+   "vta_1877": false,
+   "reading": "unw wgu ?ndr wd gninedr esan cnw ?iu puu",
+   "passes": false
+  },
+  {
+   "image": "1890_18900709-Po.jpg",
+   "words": 9,
+   "share": 0.162,
+   "p": 0.3383084577114428,
+   "null_max": 0.486,
+   "vta_1877": false,
+   "reading": "dc hsp qesd qesbses utne q?esl esp utse qnesl",
+   "passes": false
+  },
+  {
+   "image": "1884_18840605-I.jpg",
+   "words": 9,
+   "share": 0.205,
+   "p": 0.34328358208955223,
+   "null_max": 0.436,
+   "vta_1877": false,
+   "reading": "rn wgd?l ?ei sanuunn wd li isgunn sanuun esgunn",
+   "passes": false
+  },
+  {
+   "image": "1888_18880718-B4.jpg",
+   "words": 16,
+   "share": 0.18,
+   "p": 0.34328358208955223,
+   "null_max": 0.52,
+   "vta_1877": false,
+   "reading": "?g ut us yuig qii dcigl c?hi hciw qww bt be rio at uudu ddcigl qd",
+   "passes": false
+  },
+  {
+   "image": "1891_18910605-243S.jpg",
+   "words": 32,
+   "share": 0.082,
+   "p": 0.34328358208955223,
+   "null_max": 0.19,
+   "vta_1877": false,
+   "reading": "ssh igc?i i?gh do?g ??dl uhdg ?ici ?ig ?g?do c?d?yh ph cci hciog uqi?uiu cel lugh i?si pp?hgcg ??c?og? np?? d?gip?i etodt hclgh dou?ot w??uosi ???dl chd???o uug? ps gosetsig ip?hgcg t??hosi",
+   "passes": false
+  },
+  {
+   "image": "1884_18840311-A.jpg",
+   "words": 13,
+   "share": 0.159,
+   "p": 0.3482587064676617,
+   "null_max": 0.318,
+   "vta_1877": false,
+   "reading": "seli ie cnww hgr wunigu hdn bn inue cgrq we s?li egu wen",
+   "passes": false
+  },
+  {
+   "image": "1891_18910830-SOL.jpg",
+   "words": 9,
+   "share": 0.172,
+   "p": 0.3482587064676617,
+   "null_max": 0.517,
+   "vta_1877": false,
+   "reading": "bbq? bbqu ub?ugr qr ww qiql rio bn at",
+   "passes": false
+  },
+  {
+   "image": "1886_18861202-N.jpg",
+   "words": 8,
+   "share": 0.16,
+   "p": 0.35323383084577115,
+   "null_max": 0.6,
+   "vta_1877": false,
+   "reading": "b?h sa rgw igcu bee da iguu iygu",
+   "passes": false
+  },
+  {
+   "image": "1891_18910127-9.jpg",
+   "words": 5,
+   "share": 0.148,
+   "p": 0.3582089552238806,
+   "null_max": 0.377,
+   "vta_1877": false,
+   "reading": "d?ra?qnluawuns ulra?n?aq rugs??upn ia?qnlu awunsulra?naqurgs??upn",
+   "passes": false
+  },
+  {
+   "image": "1883_18830609-42.jpg",
+   "words": 35,
+   "share": 0.147,
+   "p": 0.36318407960199006,
+   "null_max": 0.346,
+   "vta_1877": false,
+   "reading": "qnrwnl ee?gunu hrhdcnwn wgdw bgdugd niw stgdsn sel an qg iwg euuirq ugd iw gusn rn?nu tnlw egun agy isgun lgd el gyu yutn qnrwhl ee?guu qgdugd sgdsn nllul qgniwg luuirqn inn grsn esgun yqutn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840429-O.jpg",
+   "words": 11,
+   "share": 0.17,
+   "p": 0.36318407960199006,
+   "null_max": 0.426,
+   "vta_1877": false,
+   "reading": "nru wgu sa?uun ugri du bgdu nrinetln fc nrr sanunn icugri",
+   "passes": false
+  },
+  {
+   "image": "1896_18960622-Iy.jpg",
+   "words": 5,
+   "share": 0.214,
+   "p": 0.36318407960199006,
+   "null_max": 0.661,
+   "vta_1877": false,
+   "reading": "ip ithsnlst bhinutr?hssgttuntt?ssb ?p bhinutrhssgttuntt?ssbt",
+   "passes": false
+  },
+  {
+   "image": "1893_18930514-Nic.jpg",
+   "words": 26,
+   "share": 0.135,
+   "p": 0.3681592039800995,
+   "null_max": 0.348,
+   "vta_1877": false,
+   "reading": "?qduu?q fiq rcbp ?? uig r?? hg gulqg ugq? u? dg?bidy hug aua ?g ty ht luiaa b?r rca uq gulq l?r rcbl guig dy puiaa",
+   "passes": false
+  },
+  {
+   "image": "1896_18960910-CRAD.jpg",
+   "words": 32,
+   "share": 0.103,
+   "p": 0.3681592039800995,
+   "null_max": 0.24,
+   "vta_1877": false,
+   "reading": "qc ?uuid ?ub d? ?? ?ubpg? uira? ?pq hg ?cg ii ?fchy? pc??q qpydr uclq?puppdfu??qrwbb? ?bugoal?ulqrw?rr flya?b?b?aw ?bulfag rpuuh?qgldgpb?qf ??fqrgp?uyr?yp qqyw?qrohb?y?q?l?ra ?dug qluid?ucbrd?ts ??w?ubpg? uira?? hpfqbg? lpccqgle qpydrtn ?bugoa?bl?ulqrw?rrts fya?b?b?aw srpuuh?qgldgpb?qf te?dug",
+   "passes": false
+  },
+  {
+   "image": "1877_18771020-VTA.jpg",
+   "words": 17,
+   "share": 0.143,
+   "p": 0.373134328358209,
+   "null_max": 0.393,
+   "vta_1877": true,
+   "reading": "dchguu wibuqp your ?tqets lhtte? at iyu ont ryqbu l?bl aqglqiu guuu?luu hy?grup hgq uc oteets ?htte?",
+   "passes": false
+  },
+  {
+   "image": "1884_18840727-LOUIS.jpg",
+   "words": 23,
+   "share": 0.073,
+   "p": 0.373134328358209,
+   "null_max": 0.207,
+   "vta_1877": false,
+   "reading": "u?ru ?cg uc?u nltu w?un yun wutw rcac rw ?a nelf w?uu a? anu cdl?i ?l ?u?nrn uu ?c?cu neuf w?ur ?l?t uun",
+   "passes": false
+  },
+  {
+   "image": "1886_18860202-E.jpg",
+   "words": 12,
+   "share": 0.158,
+   "p": 0.373134328358209,
+   "null_max": 0.421,
+   "vta_1877": false,
+   "reading": "wa ?u tenu igclnw ?nrs hew gd ?u uc ls ignlnw h?w",
+   "passes": false
+  },
+  {
+   "image": "1886_18861127-P.jpg",
+   "words": 5,
+   "share": 0.176,
+   "p": 0.373134328358209,
+   "null_max": 0.647,
+   "vta_1877": false,
+   "reading": "sanu enus lnww nsu bl",
+   "passes": false
+  },
+  {
+   "image": "1888_18880714-B4.jpg",
+   "words": 23,
+   "share": 0.197,
+   "p": 0.373134328358209,
+   "null_max": 0.364,
+   "vta_1877": false,
+   "reading": "gp lt ublug uug ubw hciww uwwqr ry ucir ae qii ?cby rn le di dg qgg as be bn at uul dgud",
+   "passes": false
+  },
+  {
+   "image": "1881_18811208-42.jpg",
+   "words": 19,
+   "share": 0.11,
+   "p": 0.3781094527363184,
+   "null_max": 0.317,
+   "vta_1877": false,
+   "reading": "oi bdln ilnyw tl??u tesu i?w saelns nsunuen lrsu ruq ai??l lhww esdun ld? oin icn?w tln?u ai??ul h?w",
+   "passes": false
+  },
+  {
+   "image": "1883_18830603-8.jpg",
+   "words": 26,
+   "share": 0.136,
+   "p": 0.3781094527363184,
+   "null_max": 0.391,
+   "vta_1877": false,
+   "reading": "rr ibi i?ihi nsuu ?ii tlndui di cghn enii ugd ig ?guwu ieell sgrigc nrinn wgdb e?ns wgnu wesgun hhu neunw idi eunii ?nrinn wgdbe?ns wgn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840313-D.jpg",
+   "words": 11,
+   "share": 0.116,
+   "p": 0.3781094527363184,
+   "null_max": 0.349,
+   "vta_1877": false,
+   "reading": "wa clnww sgn wgu wgu hru ic??rw isgu cnww ?eui ice?rw",
+   "passes": false
+  },
+  {
+   "image": "1879_18790810.jpg",
+   "words": 5,
+   "share": 0.158,
+   "p": 0.38308457711442784,
+   "null_max": 0.526,
+   "vta_1877": false,
+   "reading": "otdl ys?? ae eeeae tee?",
+   "passes": false
+  },
+  {
+   "image": "1882_18821215-42.jpg",
+   "words": 38,
+   "share": 0.139,
+   "p": 0.38308457711442784,
+   "null_max": 0.321,
+   "vta_1877": false,
+   "reading": "lp ig saequuru rg cnww lniwnu elleni ?druu uenw s? nd ?gdc q? lsn gdln rn? iguu hnr?uwn we ?nrinn egu idiih ?gduueni ieri dgc saequur lhniwnu uinw q? hgdciqn liwsn gd?ln ln? hnr?nwn wi hgu hgduureni dgh",
+   "passes": false
+  },
+  {
+   "image": "1887_18870111-5.jpg",
+   "words": 8,
+   "share": 0.115,
+   "p": 0.38308457711442784,
+   "null_max": 0.423,
+   "vta_1877": false,
+   "reading": "?grb nw sanu l?gd bn ces ?nn n?gd",
+   "passes": false
+  },
+  {
+   "image": "1888_18881206-B4.jpg",
+   "words": 20,
+   "share": 0.137,
+   "p": 0.38308457711442784,
+   "null_max": 0.315,
+   "vta_1877": false,
+   "reading": "d?ldgraugr??bh adqi al uug lp ubw ae dyqg tn? ?s ln ?q at rio ar g?ulug raugr?bu ad u?gqr at",
+   "passes": false
+  },
+  {
+   "image": "1879_18790309b.jpg",
+   "words": 9,
+   "share": 0.146,
+   "p": 0.3880597014925373,
+   "null_max": 0.39,
+   "vta_1877": false,
+   "reading": "ealse lslee yabdse sadh s?a? tala yadse ??a? ?ala",
+   "passes": false
+  },
+  {
+   "image": "1884_18840229-D.jpg",
+   "words": 21,
+   "share": 0.151,
+   "p": 0.3880597014925373,
+   "null_max": 0.453,
+   "vta_1877": false,
+   "reading": "enus snw hdq lut tnrn sgruw e? iesuut id enlnnd tgdcni nw tnwni drn indln ?nrinn idu?c sguw i? tihw iisuut",
+   "passes": false
+  },
+  {
+   "image": "1888_18880420-2F.jpg",
+   "words": 7,
+   "share": 0.125,
+   "p": 0.3880597014925373,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "hal tll? pls? sac lcba eac lcb",
+   "passes": false
+  },
+  {
+   "image": "1883_18831203-N.jpg",
+   "words": 20,
+   "share": 0.121,
+   "p": 0.39303482587064675,
+   "null_max": 0.308,
+   "vta_1877": false,
+   "reading": "sa sgee wgu ennw wnuu seiuug tsnasrs qrguu ?ugte unw eeusn andu ?ed? ?nw isgun wluu sei?ug snasrs teuqrguu sel",
+   "passes": false
+  },
+  {
+   "image": "1884_18840613-U.jpg",
+   "words": 10,
+   "share": 0.13,
+   "p": 0.39303482587064675,
+   "null_max": 0.391,
+   "vta_1877": false,
+   "reading": "enru un? ?gcu tesu i?wduu haelnw rn? ?gcc i?wdus saelnw",
+   "passes": false
+  },
+  {
+   "image": "1886_18860122-2Fev.jpg",
+   "words": 23,
+   "share": 0.128,
+   "p": 0.39303482587064675,
+   "null_max": 0.308,
+   "vta_1877": false,
+   "reading": "lslee ettteeenna ?adh ?td ?tel h?qe?caq ytdl ealaf eadna tlnas? lelea wp nltoa ?da ttadl caela na ?a?a wul etnteeenna h?qu?cal sdiee ettadl",
+   "passes": false
+  },
+  {
+   "image": "1882_18820604-B.jpg",
+   "words": 15,
+   "share": 0.153,
+   "p": 0.39800995024875624,
+   "null_max": 0.367,
+   "vta_1877": false,
+   "reading": "ydsse qihiud?qe r?ssncnt uetnsrye esldee idli unsn ?nenes tesre einen qihiudiqi itssnlne qetnsrye iesldee ?uenes",
+   "passes": false
+  },
+  {
+   "image": "1883_18831115.jpg",
+   "words": 3,
+   "share": 0.231,
+   "p": 0.39800995024875624,
+   "null_max": 0.692,
+   "vta_1877": false,
+   "reading": "bs ttbnut tsln?",
+   "passes": false
+  },
+  {
+   "image": "1886_18860130-L.jpg",
+   "words": 11,
+   "share": 0.132,
+   "p": 0.39800995024875624,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "tesu snqnr rnrw ynnu ii g?l idrs ei ln? idrq cg?",
+   "passes": false
+  },
+  {
+   "image": "1889_18890106.jpg",
+   "words": 11,
+   "share": 0.17,
+   "p": 0.39800995024875624,
+   "null_max": 0.434,
+   "vta_1877": false,
+   "reading": "sat ahlce letn eb caytnlaa lse psdla tisat ahlne le?tn caytclaa",
+   "passes": false
+  },
+  {
+   "image": "1882_18821209-42.jpg",
+   "words": 23,
+   "share": 0.121,
+   "p": 0.40298507462686567,
+   "null_max": 0.308,
+   "vta_1877": false,
+   "reading": "?gwun cnwwun rgw cgrq lrgdqa ndr ie?gnu enudwsn hdn teni qelusn egr sgndu wgdw nrwn bn wesgun enusn ugw ?ndr ie?guu hhrdwsn qlusn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840318-O.jpg",
+   "words": 9,
+   "share": 0.205,
+   "p": 0.4079601990049751,
+   "null_max": 0.614,
+   "vta_1877": false,
+   "reading": "wd nregdu yeuniin qugrsn nr eneerw nrsgdu wn weneerw",
+   "passes": false
+  },
+  {
+   "image": "1884_18840303-E.jpg",
+   "words": 18,
+   "share": 0.147,
+   "p": 0.4129353233830846,
+   "null_max": 0.368,
+   "vta_1877": false,
+   "reading": "uunr? hgu igd qd h?wcr salu?n wd ni ihgdu uwnr? egu igd? sd hiwcr sanunn li hgr iegdu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860103-R.jpg",
+   "words": 11,
+   "share": 0.182,
+   "p": 0.4129353233830846,
+   "null_max": 0.409,
+   "vta_1877": false,
+   "reading": "?gdsu wtrw td iginhl rusn ugduu w?rw we ed iginnl rnsn",
+   "passes": false
+  },
+  {
+   "image": "1882_18820608-PAUL.jpg",
+   "words": 14,
+   "share": 0.096,
+   "p": 0.417910447761194,
+   "null_max": 0.269,
+   "vta_1877": false,
+   "reading": "dui ?uc gdu c?wwcn q?uc acu agy cg?n lgd innr anu du cnwwcn q?uuc",
+   "passes": false
+  },
+  {
+   "image": "1893_18930510-Nic.jpg",
+   "words": 15,
+   "share": 0.133,
+   "p": 0.417910447761194,
+   "null_max": 0.35,
+   "vta_1877": false,
+   "reading": "buc duuu cyiiqhi ci dr?qbi duiu?h r?? dy uity r?uircbl lui lqiq hg ?ig a?a",
+   "passes": false
+  },
+  {
+   "image": "1876_18761205-24J.jpg",
+   "words": 6,
+   "share": 0.171,
+   "p": 0.4228855721393035,
+   "null_max": 0.543,
+   "vta_1877": false,
+   "reading": "iulu drsususu qrsbtlug ?rud d?susuusu cc",
+   "passes": false
+  },
+  {
+   "image": "1884_18840323b-E.jpg",
+   "words": 8,
+   "share": 0.139,
+   "p": 0.4228855721393035,
+   "null_max": 0.361,
+   "vta_1877": false,
+   "reading": "wa tesu ?ug?etl tgdu cg?n lgd sciull slerll",
+   "passes": false
+  },
+  {
+   "image": "1886_18861217-G.jpg",
+   "words": 22,
+   "share": 0.108,
+   "p": 0.4228855721393035,
+   "null_max": 0.338,
+   "vta_1877": false,
+   "reading": "enus ?ei hgw wgn ieni wd hdn endui serq eerh tgn bdc bn igd w?uw uunr egu e?rh igdt w?rw eu egh",
+   "passes": false
+  },
+  {
+   "image": "1896_18961119-Irma.jpg",
+   "words": 7,
+   "share": 0.143,
+   "p": 0.4228855721393035,
+   "null_max": 0.381,
+   "vta_1877": false,
+   "reading": "?gaq sdsth luh seti??csh ?hs uhwsshenp teti??csh",
+   "passes": false
+  },
+  {
+   "image": "1883_18830612-5.jpg",
+   "words": 37,
+   "share": 0.129,
+   "p": 0.43283582089552236,
+   "null_max": 0.309,
+   "vta_1877": false,
+   "reading": "ru ensa iduw hrsntt iuuirq ?nun sael su ?n ?gd sgndu tgu n?nu el yutn tesu tunsel itrnur l?r ugd sgen rurn gc wnr rhqaw ul rh rsntt ?nln gp cg?n yntn tuusel ??r lgd rnrn rcqaw",
+   "passes": false
+  },
+  {
+   "image": "1885_18850616-L.jpg",
+   "words": 19,
+   "share": 0.129,
+   "p": 0.43283582089552236,
+   "null_max": 0.343,
+   "vta_1877": false,
+   "reading": "gls hnqaw sg qunew aeue inrs tewa ynwa bdc tesu nrs ynnu i?dtt eti sge wgn hqaw ynlu ege",
+   "passes": false
+  },
+  {
+   "image": "1879_18791219-4747.jpg",
+   "words": 2,
+   "share": 0.25,
+   "p": 0.43781094527363185,
+   "null_max": 0.583,
+   "vta_1877": false,
+   "reading": "qese fqitlete",
+   "passes": false
+  },
+  {
+   "image": "1884_18840810-Louis.jpg",
+   "words": 13,
+   "share": 0.093,
+   "p": 0.4427860696517413,
+   "null_max": 0.302,
+   "vta_1877": false,
+   "reading": "?uh wuui cu ?n alu uenl ?? nu neutr?nf??wunl?nwuc?uh cu?nd anuruluqiau tnu neltr?nf??wu?nlnwuc?uuh",
+   "passes": false
+  },
+  {
+   "image": "1886_18860731-90.jpg",
+   "words": 21,
+   "share": 0.113,
+   "p": 0.4427860696517413,
+   "null_max": 0.282,
+   "vta_1877": false,
+   "reading": "qbr hi?l r?gr uq? rqrr iua ii ur ubh guh lp rcbig q?h seilr ht setlw hs tttteci bnu gud bur",
+   "passes": false
+  },
+  {
+   "image": "1889_18890607-M9.jpg",
+   "words": 24,
+   "share": 0.161,
+   "p": 0.4427860696517413,
+   "null_max": 0.306,
+   "vta_1877": false,
+   "reading": "?? ls hciw ae qs w?u uw aqrl iugg hcaa ue un le gui lt ??ubi ud ?s bn be a? gn rci ??",
+   "passes": false
+  },
+  {
+   "image": "1880_18801010-LC15.jpg",
+   "words": 4,
+   "share": 0.156,
+   "p": 0.44776119402985076,
+   "null_max": 0.422,
+   "vta_1877": false,
+   "reading": "nanesnunhhpetgcuh?cphhdaul ddhdd?i nauesnnhhpetgch?cphh?au ddshdl?i",
+   "passes": false
+  },
+  {
+   "image": "1885_18850212-E.jpg",
+   "words": 12,
+   "share": 0.102,
+   "p": 0.44776119402985076,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "?qa wnetu nr cn?irw ?gu iegdu ??eii wcneru cn??rw ?gdu ?? ii",
+   "passes": false
+  },
+  {
+   "image": "1887_18870328-4.jpg",
+   "words": 8,
+   "share": 0.081,
+   "p": 0.44776119402985076,
+   "null_max": 0.243,
+   "vta_1877": false,
+   "reading": "qt??s an?ue l?rr usua r?aa rs?u? ?snetl qtys",
+   "passes": false
+  },
+  {
+   "image": "1887_18870108-4.jpg",
+   "words": 8,
+   "share": 0.097,
+   "p": 0.4527363184079602,
+   "null_max": 0.387,
+   "vta_1877": false,
+   "reading": "hgu nr? ?une ?nri sd eew lntned cl?ued",
+   "passes": false
+  },
+  {
+   "image": "1883_18831127-A.jpg",
+   "words": 18,
+   "share": 0.096,
+   "p": 0.4577114427860697,
+   "null_max": 0.265,
+   "vta_1877": false,
+   "reading": "nsu enrs ?nnqn an yerwi ?ng?ln ugd ca?rq? tnsedin iyel ig ae??l ?eiih ccliuu uuu ea?erq? wenen ??iic",
+   "passes": false
+  },
+  {
+   "image": "1885_18850505-M.jpg",
+   "words": 9,
+   "share": 0.125,
+   "p": 0.4577114427860697,
+   "null_max": 0.354,
+   "vta_1877": false,
+   "reading": "?n? ?ug? nsuui hders ?cnr?uii un? ?ug?i? neuuni ?unrsuii",
+   "passes": false
+  },
+  {
+   "image": "1882_18820617-PAUL.jpg",
+   "words": 17,
+   "share": 0.119,
+   "p": 0.4626865671641791,
+   "null_max": 0.31,
+   "vta_1877": false,
+   "reading": "rluuip tesu nln?nr huen saelnw sgen egrusel grn eeuigu cgrq itwnu lgd el sneuniw duuh egrqil sn?u?iw",
+   "passes": false
+  },
+  {
+   "image": "1893_18930219.jpg",
+   "words": 9,
+   "share": 0.147,
+   "p": 0.4626865671641791,
+   "null_max": 0.441,
+   "vta_1877": false,
+   "reading": "eq ci uutee ?nt u? uuttn tetiuiuu igq? uuu",
+   "passes": false
+  },
+  {
+   "image": "1893_18930514-R.jpg",
+   "words": 20,
+   "share": 0.108,
+   "p": 0.4626865671641791,
+   "null_max": 0.289,
+   "vta_1877": false,
+   "reading": "p? cesncyes tedq ?cih eenu ndnds c? ?ce?cbi ?g ntl? ar hess cbhgq?bq gy ndlw ?u?i ctnt criq hce?cbi gg",
+   "passes": false
+  },
+  {
+   "image": "1879_18791021-LC15.jpg",
+   "words": 3,
+   "share": 0.185,
+   "p": 0.46766169154228854,
+   "null_max": 0.477,
+   "vta_1877": false,
+   "reading": "pa?nyr?gansd?lquhilg anspnanalpeth palyygalsdinquhilgnanspnanaupeth",
+   "passes": false
+  },
+  {
+   "image": "1886_18860122-S.jpg",
+   "words": 12,
+   "share": 0.132,
+   "p": 0.472636815920398,
+   "null_max": 0.447,
+   "vta_1877": false,
+   "reading": "rn ?ei ni wgd ?uni ri ?u?i gd cgqr wnru ?cri cghr",
+   "passes": false
+  },
+  {
+   "image": "1888_18881117-B4.jpg",
+   "words": 17,
+   "share": 0.146,
+   "p": 0.472636815920398,
+   "null_max": 0.396,
+   "vta_1877": false,
+   "reading": "rr rg rru ?cby gup b?r ac ubr dgci be rio ar guru urg sb?r as ae",
+   "passes": false
+  },
+  {
+   "image": "1886_18860531-E.jpg",
+   "words": 9,
+   "share": 0.077,
+   "p": 0.47761194029850745,
+   "null_max": 0.423,
+   "vta_1877": false,
+   "reading": "u? nr? ?cde an edu ?gdc nwu e? san",
+   "passes": false
+  },
+  {
+   "image": "1887_18870113-6.jpg",
+   "words": 11,
+   "share": 0.139,
+   "p": 0.47761194029850745,
+   "null_max": 0.361,
+   "vta_1877": false,
+   "reading": "?nw bn in hd? egu sanuu bguu nr hdn saluu bgld",
+   "passes": false
+  },
+  {
+   "image": "1888_18880822-B4.jpg",
+   "words": 13,
+   "share": 0.143,
+   "p": 0.47761194029850745,
+   "null_max": 0.524,
+   "vta_1877": false,
+   "reading": "gur ?r gurcbb qr rcbw q?h qig as re ae lt uud cigurcbb",
+   "passes": false
+  },
+  {
+   "image": "1882_18820718.jpg",
+   "words": 9,
+   "share": 0.189,
+   "p": 0.48258706467661694,
+   "null_max": 0.495,
+   "vta_1877": false,
+   "reading": "rqu guiu yu qq nldtnedn dneeusnssnsystsnessdtunntdt dqruhuiiug qiq nldtnednldneeusnssnsystsnessdttnntdt",
+   "passes": false
+  },
+  {
+   "image": "1884_18841005-J.jpg",
+   "words": 6,
+   "share": 0.136,
+   "p": 0.48258706467661694,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "rn wgd?l nw ?nw tesu ieensn",
+   "passes": false
+  },
+  {
+   "image": "1886_18860610-O.jpg",
+   "words": 10,
+   "share": 0.091,
+   "p": 0.48258706467661694,
+   "null_max": 0.485,
+   "vta_1877": false,
+   "reading": "eg hgr? ?g lgd n?nr qgrn sedu hgry hg sgen",
+   "passes": false
+  },
+  {
+   "image": "1888_18880624-B4.jpg",
+   "words": 15,
+   "share": 0.133,
+   "p": 0.48258706467661694,
+   "null_max": 0.511,
+   "vta_1877": false,
+   "reading": "?d q?rci lsbu dcil rg ubw gui qig hciw ?cby be at bn as urg",
+   "passes": false
+  },
+  {
+   "image": "1889_18890713-M9.jpg",
+   "words": 27,
+   "share": 0.147,
+   "p": 0.48258706467661694,
+   "null_max": 0.44,
+   "vta_1877": false,
+   "reading": "?s ls ?bf gcu qww iciga ln ubw ae lt le rn qs ct ud ?q at yuig bn ??ubi auiucb be a? ar uud lgqr un?q",
+   "passes": false
+  },
+  {
+   "image": "1883_18830225-YOU.jpg",
+   "words": 27,
+   "share": 0.102,
+   "p": 0.4925373134328358,
+   "null_max": 0.339,
+   "vta_1877": false,
+   "reading": "hdi ?nuu ?uds sulnhi indl hgu ruu ?nrsun ?nirn y? nunr ugdi ?u?ruu qlcg? yutn hdiw ?lug sulni egu ?crlu ?hicrn y?rnunw rgdi ?ulrsu h? ?ncg? yctc",
+   "passes": false
+  },
+  {
+   "image": "1883_18830227-42.jpg",
+   "words": 35,
+   "share": 0.115,
+   "p": 0.4925373134328358,
+   "null_max": 0.31,
+   "vta_1877": false,
+   "reading": "i?di? igdttrn iinrse hiu tnw nu un?nr?u ?nrsun wyg lgd sgenrq waunn ?d hhwch ?i et?ehu?ni snusln ?ei bnirun iqgueru rp hg idir igdttun etinrse hiw tnwwnu un?nruu ?nrsrn ?ei hhrce ett?eiuni ?eni bnirrn iqguiru",
+   "passes": false
+  },
+  {
+   "image": "1883_18830607-8.jpg",
+   "words": 28,
+   "share": 0.119,
+   "p": 0.4925373134328358,
+   "null_max": 0.294,
+   "vta_1877": false,
+   "reading": "egwa grc annu aeuslttesu bndsn hcii ugd ig ?gduueni wd ?ei ?nr netueiin a?lngw qcis rg?ni sanls yerw yuuwn lgd agywgu eeuu wenen irg bndsc id a?lcgw qces",
+   "passes": false
+  },
+  {
+   "image": "1885_18851129-52.jpg",
+   "words": 14,
+   "share": 0.079,
+   "p": 0.4925373134328358,
+   "null_max": 0.303,
+   "vta_1877": false,
+   "reading": "gtr ig?uhi h?auqh ?ih eo di?h?ur ?r? wqq dbddub ubhciurhc?h lfliac? i?w ubhci?rhc?h liac?",
+   "passes": false
+  },
+  {
+   "image": "1886_18860118-D.jpg",
+   "words": 11,
+   "share": 0.118,
+   "p": 0.4925373134328358,
+   "null_max": 0.382,
+   "vta_1877": false,
+   "reading": "e? nsu au ?dui ?db bn an idui ?uu? idb wenen",
+   "passes": false
+  },
+  {
+   "image": "1876_18760905-2S.jpg",
+   "words": 10,
+   "share": 0.095,
+   "p": 0.4975124378109453,
+   "null_max": 0.286,
+   "vta_1877": false,
+   "reading": "aqil r?????gh lu?hrur urg ici? ?ttttslrsns uihugq dqq rr????gh lu?hrurtt",
+   "passes": false
+  },
+  {
+   "image": "1885_18850216-R.jpg",
+   "words": 19,
+   "share": 0.129,
+   "p": 0.5024875621890548,
+   "null_max": 0.386,
+   "vta_1877": false,
+   "reading": "?nn enus wycrwl ?eiw rnrn eew sgeen iguw qf cnw un? eeus ig bn wesgun wynrwu h?w qg iguu",
+   "passes": false
+  },
+  {
+   "image": "1888_18880704-B4.jpg",
+   "words": 25,
+   "share": 0.143,
+   "p": 0.5024875621890548,
+   "null_max": 0.386,
+   "vta_1877": false,
+   "reading": "?g lt gur igcil hcii quci ryql ct uw ae hug yuig rd ?e aca gupq qdd lc? be rio ar g? ruw dw qr",
+   "passes": false
+  },
+  {
+   "image": "1877_18770620-MA.jpg",
+   "words": 11,
+   "share": 0.098,
+   "p": 0.5074626865671642,
+   "null_max": 0.311,
+   "vta_1877": false,
+   "reading": "gq? i?rtut tlllq uq uuubu lubu?u ugblubuu ?gq?drih irrutut dqgi?ui tbtn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840609-D.jpg",
+   "words": 7,
+   "share": 0.107,
+   "p": 0.5074626865671642,
+   "null_max": 0.357,
+   "vta_1877": false,
+   "reading": "ag?n iln?w ynll tesu rnrw ynnu ugd",
+   "passes": false
+  },
+  {
+   "image": "1886_18860307-2F.jpg",
+   "words": 10,
+   "share": 0.102,
+   "p": 0.5124378109452736,
+   "null_max": 0.408,
+   "vta_1877": false,
+   "reading": "ttslst? sa ptdp tt? ?ttadl nleea la?sla tsslst? ltdl ttadl",
+   "passes": false
+  },
+  {
+   "image": "1887_18870120-8.jpg",
+   "words": 10,
+   "share": 0.132,
+   "p": 0.5124378109452736,
+   "null_max": 0.447,
+   "vta_1877": false,
+   "reading": "egwa in uus cr udu gd hgrwcrdc c?s ?cw hgrwhudh",
+   "passes": false
+  },
+  {
+   "image": "1888_18880620-B4.jpg",
+   "words": 15,
+   "share": 0.146,
+   "p": 0.5124378109452736,
+   "null_max": 0.439,
+   "vta_1877": false,
+   "reading": "gp lt uugb ?bh ls rcad rgqp le qgg ?e ae yuig bn be ats",
+   "passes": false
+  },
+  {
+   "image": "1884_18840503-E.jpg",
+   "words": 22,
+   "share": 0.105,
+   "p": 0.5174129353233831,
+   "null_max": 0.256,
+   "vta_1877": false,
+   "reading": "q?rn nw nusnuw un? sael gd ddd q?dl ig?q tnnr tunnll netu wu qnrn nrsnuw wn cdcu u?dl iguq snnr trnnll tlll",
+   "passes": false
+  },
+  {
+   "image": "1898_18981031-19.jpg",
+   "words": 8,
+   "share": 0.147,
+   "p": 0.5174129353233831,
+   "null_max": 0.471,
+   "vta_1877": false,
+   "reading": "?p fiihdgwq iqudlqld igu ini duci dr nigu",
+   "passes": false
+  },
+  {
+   "image": "1885_18850607-H.jpg",
+   "words": 11,
+   "share": 0.13,
+   "p": 0.5223880597014925,
+   "null_max": 0.407,
+   "vta_1877": false,
+   "reading": "?gub hanu?n gd ?nrin wgu hguwcrdnl ?grub anunn gdu bn hhgrwcrdnl",
+   "passes": false
+  },
+  {
+   "image": "1890_18900203-LILI.jpg",
+   "words": 26,
+   "share": 0.082,
+   "p": 0.5223880597014925,
+   "null_max": 0.299,
+   "vta_1877": false,
+   "reading": "usbbt ?t ?snu tiht isu? fhti ut tth btsaatnh ?b tsebth tebt ihsf ?? rffta r?r? isn? tit itna rsl bt lo bsbbt tsbth rsls b?",
+   "passes": false
+  },
+  {
+   "image": "1885_18850504-E.jpg",
+   "words": 13,
+   "share": 0.133,
+   "p": 0.527363184079602,
+   "null_max": 0.489,
+   "vta_1877": false,
+   "reading": "gdu bn saluun nw idui indl ieri g? gdnbn sanu?n lw idi wg",
+   "passes": false
+  },
+  {
+   "image": "1879_18791015-LC15.jpg",
+   "words": 5,
+   "share": 0.185,
+   "p": 0.5323383084577115,
+   "null_max": 0.569,
+   "vta_1877": false,
+   "reading": "ily apindluellttaynenabnselheaqph iuyua pindluell ttaynenabnselhea?ph",
+   "passes": false
+  },
+  {
+   "image": "1882_18821012-42.jpg",
+   "words": 28,
+   "share": 0.1,
+   "p": 0.5323383084577115,
+   "null_max": 0.271,
+   "vta_1877": false,
+   "reading": "tesu pcbugu ugq hgusel dgc ?q?rp cbi?luu i?wdusil tguq cg? ugd el aceuw yuntn ?ughni ?du?ed tc?sel ?gui hgrsel ii pttnsn i?wduuil tguquw cg?n a?euw yntn ?uglni ridu?ed",
+   "passes": false
+  },
+  {
+   "image": "1884_18840226-T.jpg",
+   "words": 11,
+   "share": 0.089,
+   "p": 0.5323383084577115,
+   "null_max": 0.411,
+   "vta_1877": false,
+   "reading": "ynsd s? iu q?r?nlln idiiu wgdb ?nrinn sa?uun qlrwnlln ediih sanuun",
+   "passes": false
+  },
+  {
+   "image": "1885_18850528-H.jpg",
+   "words": 21,
+   "share": 0.099,
+   "p": 0.5323383084577115,
+   "null_max": 0.259,
+   "vta_1877": false,
+   "reading": "luu lciw qgw cnww wairui enrr snb w?uw egee ?q cdih ?gdw bn isgunn lniw wa?rui enru w?rw nu bdih wene",
+   "passes": false
+  },
+  {
+   "image": "1886_18860605-T.jpg",
+   "words": 8,
+   "share": 0.107,
+   "p": 0.5323383084577115,
+   "null_max": 0.464,
+   "vta_1877": false,
+   "reading": "andu ae?n rnyi yal rgw ilnn? ih ugw",
+   "passes": false
+  },
+  {
+   "image": "1879_18790114-Valentin.jpg",
+   "words": 10,
+   "share": 0.1,
+   "p": 0.5373134328358209,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "lqrubi?b tqihd ??hi idihuq ?qa?i ol qor?d tidihgq tha?iu ll",
+   "passes": false
+  },
+  {
+   "image": "1882_18820204-42.jpg",
+   "words": 16,
+   "share": 0.09,
+   "p": 0.5373134328358209,
+   "null_max": 0.328,
+   "vta_1877": false,
+   "reading": "?d ?ugircl yuh?u al?? ynll wnr inr sneenr lc? sne?ll hug ircl a?u lne?n ld? sneull",
+   "passes": false
+  },
+  {
+   "image": "1887_18870104-3.jpg",
+   "words": 12,
+   "share": 0.128,
+   "p": 0.5373134328358209,
+   "null_max": 0.41,
+   "vta_1877": false,
+   "reading": "nsu ea igdu hu c?w hnld sa bgdu hgn clw enus wtnel",
+   "passes": false
+  },
+  {
+   "image": "1890_18901101-222.jpg",
+   "words": 20,
+   "share": 0.078,
+   "p": 0.5373134328358209,
+   "null_max": 0.216,
+   "vta_1877": false,
+   "reading": "at lsni ?urcltau ?srrt?t gneg as?utnf a?rfiau g?iup crg ?sr???t uuhu ttddah ?srrt ?t gnsg tas?utnf ?rfi g?ilp ?ryu ttdsah",
+   "passes": false
+  },
+  {
+   "image": "1884_18840105-D.jpg",
+   "words": 11,
+   "share": 0.12,
+   "p": 0.5422885572139303,
+   "null_max": 0.42,
+   "vta_1877": false,
+   "reading": "wr unrru?n iesan ?gc ?gdu nwnurnl unr?cln itsan hgr iegdu ep",
+   "passes": false
+  },
+  {
+   "image": "1884_18840224-0.jpg",
+   "words": 19,
+   "share": 0.094,
+   "p": 0.5422885572139303,
+   "null_max": 0.375,
+   "vta_1877": false,
+   "reading": "nsu ?cdi aetn snusl ensnwnuuernn iiu tcgy cngu egd?lnn ?ei cgrq tgu cnwwnu cg?n lgd cdi aet?nwn ensnwnuueirnn cngr",
+   "passes": false
+  },
+  {
+   "image": "1879_18790915-OR.jpg",
+   "words": 26,
+   "share": 0.053,
+   "p": 0.5472636815920398,
+   "null_max": 0.246,
+   "vta_1877": false,
+   "reading": "cgh wp ?w?b? apuuq ab lp? wcob? l?na? ?ub u??u?puu iubugq? ???bu qguh ?pu? ab?ogq?b wp?r ?i?b?u qcu wpcr ?wb? apuuc lcgh ?qi ?gqi opcu ?pc?",
+   "passes": false
+  },
+  {
+   "image": "1885_18850213-A.jpg",
+   "words": 9,
+   "share": 0.081,
+   "p": 0.5472636815920398,
+   "null_max": 0.541,
+   "vta_1877": false,
+   "reading": "?gru sgee wgdb idu wd nrt bgdui quii sgeewgdb",
+   "passes": false
+  },
+  {
+   "image": "1890_18900126-Lili2.jpg",
+   "words": 22,
+   "share": 0.078,
+   "p": 0.5472636815920398,
+   "null_max": 0.26,
+   "vta_1877": false,
+   "reading": "di csy tnatn fh itn ?? a?lus ?s?u th?h fht bsl r?r? u?ths inl tp?u usy lh od ituts aclus u?thu icf",
+   "passes": false
+  },
+  {
+   "image": "1876_18761015-P.jpg",
+   "words": 25,
+   "share": 0.076,
+   "p": 0.5522388059701493,
+   "null_max": 0.237,
+   "vta_1877": false,
+   "reading": "ndu lhdrqwq l?r? ule??uls enl ?dw?hrc?c deu?t hdql ueis qr dhlc n?udhq eltnns rhcl w?t d?iicnsc ndn l?ri ule??sud l??w?hrchc hdhl teltuns rhcw i?t d?iicnsl",
+   "passes": false
+  },
+  {
+   "image": "1877_18770110-24J.jpg",
+   "words": 12,
+   "share": 0.102,
+   "p": 0.5522388059701493,
+   "null_max": 0.435,
+   "vta_1877": false,
+   "reading": "huhiubhhihhbbuhhuhibubhbhbhh?uhuhih ugiusred tu i?ug bup gg hiuhubguuguguhhuuuubuu?buuhuuhbhu yuriigcd htu l?ug fq ?lll",
+   "passes": false
+  },
+  {
+   "image": "1881_18810818.jpg",
+   "words": 3,
+   "share": 0.15,
+   "p": 0.5572139303482587,
+   "null_max": 0.6,
+   "vta_1877": false,
+   "reading": "gq? rsewstert isn?snde",
+   "passes": false
+  },
+  {
+   "image": "1886_18860127-U.jpg",
+   "words": 9,
+   "share": 0.115,
+   "p": 0.5572139303482587,
+   "null_max": 0.423,
+   "vta_1877": false,
+   "reading": "?u ciw ir acu hd blsgun ?? niw hdn",
+   "passes": false
+  },
+  {
+   "image": "1886_18860128-I.jpg",
+   "words": 11,
+   "share": 0.083,
+   "p": 0.5572139303482587,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "rgy slgin wg lgd wll uugy yal agy lntw ugy anu",
+   "passes": false
+  },
+  {
+   "image": "1891_18910210-Fy.jpg",
+   "words": 4,
+   "share": 0.125,
+   "p": 0.5621890547263682,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "wp ?tnn luu?n?wr ta",
+   "passes": false
+  },
+  {
+   "image": "1895_18950101-W2.jpg",
+   "words": 5,
+   "share": 0.107,
+   "p": 0.5621890547263682,
+   "null_max": 0.321,
+   "vta_1877": false,
+   "reading": "?t r?d iirq ?urgdrf?dtltes gur?d",
+   "passes": false
+  },
+  {
+   "image": "1883_18831125-J.jpg",
+   "words": 19,
+   "share": 0.085,
+   "p": 0.5671641791044776,
+   "null_max": 0.338,
+   "vta_1877": false,
+   "reading": "ig iguul rgw innr lgd ?nrin cq cgdu ?guwu egu igni ?ei eeca ?duihdn euw wg? ?gdw sn? werw",
+   "passes": false
+  },
+  {
+   "image": "1886_18860328-T.jpg",
+   "words": 12,
+   "share": 0.122,
+   "p": 0.5671641791044776,
+   "null_max": 0.415,
+   "vta_1877": false,
+   "reading": "wugd? cri wnht nw wgdw sg du puu ccww lw wenen ?gndq",
+   "passes": false
+  },
+  {
+   "image": "1881_18811210-42.jpg",
+   "words": 17,
+   "share": 0.068,
+   "p": 0.572139303482587,
+   "null_max": 0.247,
+   "vta_1877": false,
+   "reading": "?snr?u sa? ?nu b? esdu? dg qu h?ri ?ry eenqln fuhhre ??f u??wu?uih q? snr?u sneeusa? idnu",
+   "passes": false
+  },
+  {
+   "image": "1882_18820812.jpg",
+   "words": 4,
+   "share": 0.097,
+   "p": 0.572139303482587,
+   "null_max": 0.387,
+   "vta_1877": false,
+   "reading": "bu?dntse ttes?nlte ?nlte n?tssselt",
+   "passes": false
+  },
+  {
+   "image": "1884_18840113-E.jpg",
+   "words": 8,
+   "share": 0.094,
+   "p": 0.572139303482587,
+   "null_max": 0.406,
+   "vta_1877": false,
+   "reading": "sni snw ueenr un?nbi wgn ?nn sanunn wgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860602-T.jpg",
+   "words": 11,
+   "share": 0.088,
+   "p": 0.572139303482587,
+   "null_max": 0.324,
+   "vta_1877": false,
+   "reading": "enus rgd? eael ?e qdcu q?r wc wrc qlr isg w?",
+   "passes": false
+  },
+  {
+   "image": "1879_18791203.jpg",
+   "words": 7,
+   "share": 0.073,
+   "p": 0.5771144278606966,
+   "null_max": 0.22,
+   "vta_1877": false,
+   "reading": "etdlsb nea?lt ?te tslae a?us?a? cea?lt a?ns?art",
+   "passes": false
+  },
+  {
+   "image": "1884_18840602-R.jpg",
+   "words": 10,
+   "share": 0.079,
+   "p": 0.5771144278606966,
+   "null_max": 0.421,
+   "vta_1877": false,
+   "reading": "tei ?cwcii unr? lni ?d uugyi wn ?nwcii wnet wes",
+   "passes": false
+  },
+  {
+   "image": "1884_18841224-R.jpg",
+   "words": 11,
+   "share": 0.12,
+   "p": 0.582089552238806,
+   "null_max": 0.44,
+   "vta_1877": false,
+   "reading": "sgrus iite gd cdrh hdn sniw cgrq sniynulnu sgrs ite sniynulu",
+   "passes": false
+  },
+  {
+   "image": "1889_18890316-Psee.jpg",
+   "words": 10,
+   "share": 0.119,
+   "p": 0.582089552238806,
+   "null_max": 0.452,
+   "vta_1877": false,
+   "reading": "dh ut tqtnqs? qu ici?qigh ur ir? hqauu? dhlu tqtnqs",
+   "passes": false
+  },
+  {
+   "image": "1893_18930914-MI.jpg",
+   "words": 18,
+   "share": 0.081,
+   "p": 0.5870646766169154,
+   "null_max": 0.405,
+   "vta_1877": false,
+   "reading": "bwfd lg q?bce gu luur gddbe wg cbns h?ge?uue wc wgu? fbg ?y ?bwfd ?beb gldbe e?g??uue fbgnd",
+   "passes": false
+  },
+  {
+   "image": "1884_18840611-S.jpg",
+   "words": 14,
+   "share": 0.102,
+   "p": 0.5920398009950248,
+   "null_max": 0.367,
+   "vta_1877": false,
+   "reading": "qles c?ww q?uc qggu ru bnds iqu el sneun cuww quuc teru isu eu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860717-90.jpg",
+   "words": 18,
+   "share": 0.109,
+   "p": 0.5920398009950248,
+   "null_max": 0.375,
+   "vta_1877": false,
+   "reading": "dg ru?q qd d? qii ig ltt iu uqlnset ?chhr ci qhcu hub buuh bur dgnltn nlltt nlhsr",
+   "passes": false
+  },
+  {
+   "image": "1885_18850218-T.jpg",
+   "words": 10,
+   "share": 0.094,
+   "p": 0.5970149253731343,
+   "null_max": 0.406,
+   "vta_1877": false,
+   "reading": "wg sel ne?u ?guwu ed lnnd sdu ?wi telw wi",
+   "passes": false
+  },
+  {
+   "image": "1879_18791210-4747.jpg",
+   "words": 6,
+   "share": 0.071,
+   "p": 0.6019900497512438,
+   "null_max": 0.464,
+   "vta_1877": false,
+   "reading": "qese iqr?h irqiqi th eh?ts iqiqiu",
+   "passes": false
+  },
+  {
+   "image": "1887_18870123-1.jpg",
+   "words": 11,
+   "share": 0.1,
+   "p": 0.6019900497512438,
+   "null_max": 0.475,
+   "vta_1877": false,
+   "reading": "el seulnuq cg?c ugd iuu ia ig ?dciu cg?n lgd wdciu",
+   "passes": false
+  },
+  {
+   "image": "1877_18770105-24J.jpg",
+   "words": 14,
+   "share": 0.072,
+   "p": 0.6069651741293532,
+   "null_max": 0.265,
+   "vta_1877": false,
+   "reading": "rcadgu q?hhu lbqbu rg?gu ?rudu?a gqt g?btuu bul ?t?uhiddr?u pq ru?hhu ?qbh grbtuu bll?t?uhiddr?u",
+   "passes": false
+  },
+  {
+   "image": "1882_18820714-M.jpg",
+   "words": 7,
+   "share": 0.102,
+   "p": 0.6069651741293532,
+   "null_max": 0.341,
+   "vta_1877": false,
+   "reading": "?? wu ?nlhtqtn habhl? tstnunlssndsesstdntn?stsna hwct?dnnnlnttenntttllnts?nl?tq?tn aq?qiiqq?lb",
+   "passes": false
+  },
+  {
+   "image": "1882_18821217-PAUL.jpg",
+   "words": 34,
+   "share": 0.09,
+   "p": 0.6069651741293532,
+   "null_max": 0.287,
+   "vta_1877": false,
+   "reading": "idqqguug ugw g?nr gun sgen waunn unwdur rucl egrsel egururq ?ndr sesanu unwgdu yerw ugd ig rdsa cg?nrq yntn yucwni adi?luu seucl dgqirht r?qhe rgw grn eel u?wdur rrcl hgururq cg?urq yhtn adi??rs s?qll",
+   "passes": false
+  },
+  {
+   "image": "1884_18840219-H.jpg",
+   "words": 9,
+   "share": 0.073,
+   "p": 0.6119402985074627,
+   "null_max": 0.439,
+   "vta_1877": false,
+   "reading": "bn wnh?u e??rw ??uruu wh isgu wnhru ??uwhu ?nwurn",
+   "passes": false
+  },
+  {
+   "image": "1883_18830220-7.jpg",
+   "words": 33,
+   "share": 0.115,
+   "p": 0.6169154228855721,
+   "null_max": 0.359,
+   "vta_1877": false,
+   "reading": "ig iurglns rgy yn eun qgurq wg iyuns uch hdn tenun wul urgy yag nw ni tnigur wni c?wwu?i hgrigc?u ?d wd rn ieni ?iei sgeen bn qgcrq iynns cnwwuni cgrigcnu ienn ?ei",
+   "passes": false
+  },
+  {
+   "image": "1887_18870726-4.jpg",
+   "words": 7,
+   "share": 0.103,
+   "p": 0.6169154228855721,
+   "null_max": 0.414,
+   "vta_1877": false,
+   "reading": "s? ?rbedqulgbh lun auf w?bs elb ?le",
+   "passes": false
+  },
+  {
+   "image": "1889_18891111-Y7.jpg",
+   "words": 26,
+   "share": 0.052,
+   "p": 0.6169154228855721,
+   "null_max": 0.289,
+   "vta_1877": false,
+   "reading": "le uiy urlf il? thuw bqp?uq ip?ul ?u q? ??uwiu r?udu yqdl ?uc wuiu r??iy qud d?y fo pio wd?c sri cry ?r?uwiu udu ruc ???iy",
+   "passes": false
+  },
+  {
+   "image": "1895_18950917-FL.jpg",
+   "words": 21,
+   "share": 0.105,
+   "p": 0.6169154228855721,
+   "null_max": 0.495,
+   "vta_1877": false,
+   "reading": "hugqp igu qgg?pugqr el?g chac ci hr qg rcrrugq? lyuu rg lg tstttep ??e nigu qgg?pugq? ah urg iurulg tstttsep dqryug",
+   "passes": false
+  },
+  {
+   "image": "1890_18900930-B4.jpg",
+   "words": 13,
+   "share": 0.111,
+   "p": 0.6218905472636815,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "?g lt qe ry hcii dubu ig?hi q? at rcg a?r bna bn",
+   "passes": false
+  },
+  {
+   "image": "1893_18931008-Bob24.jpg",
+   "words": 18,
+   "share": 0.09,
+   "p": 0.6318407960199005,
+   "null_max": 0.315,
+   "vta_1877": false,
+   "reading": "du fsrt wsfsart ryaa lgqii? iuaubi c?lg ?ls?tf? ctagt htrcg hss hftg hfcgh? wefsart r?aat crfg hfug hfcght",
+   "passes": false
+  },
+  {
+   "image": "1897_18970904-FL.jpg",
+   "words": 11,
+   "share": 0.075,
+   "p": 0.6417910447761194,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "q?hubiugq? lndteten qdn lnl igq ih rtl lcc?h?hh ?ts ttssdlnn ir",
+   "passes": false
+  },
+  {
+   "image": "1875_18751223-Daisy.jpg",
+   "words": 9,
+   "share": 0.125,
+   "p": 0.6467661691542289,
+   "null_max": 0.542,
+   "vta_1877": false,
+   "reading": "uq?hp rg dg ted tite fl qr wu tr",
+   "passes": false
+  },
+  {
+   "image": "1884_18840228-L.jpg",
+   "words": 10,
+   "share": 0.125,
+   "p": 0.6467661691542289,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "ni? eedinn qnrwnl ensu wd ei wgdw qlrwnl senll ii",
+   "passes": false
+  },
+  {
+   "image": "1893_18931004-MI.jpg",
+   "words": 13,
+   "share": 0.053,
+   "p": 0.6517412935323383,
+   "null_max": 0.298,
+   "vta_1877": false,
+   "reading": "riryc?h bqlg begue eb ?ne? egwb c? ?n? wghl uuu h?r riryc?hbqlgu eg?b",
+   "passes": false
+  },
+  {
+   "image": "1881_18810830-LC15.jpg",
+   "words": 3,
+   "share": 0.115,
+   "p": 0.6666666666666666,
+   "null_max": 0.385,
+   "vta_1877": false,
+   "reading": "i?l?? uiagurtdu?lly??q qrdlc",
+   "passes": false
+  },
+  {
+   "image": "1884_18841216-R.jpg",
+   "words": 10,
+   "share": 0.073,
+   "p": 0.6666666666666666,
+   "null_max": 0.561,
+   "vta_1877": false,
+   "reading": "?gub ?nwu nsu cgrq curr nw wesguu wnsu cnrw wesgun",
+   "passes": false
+  },
+  {
+   "image": "1881_18811201-42.jpg",
+   "words": 11,
+   "share": 0.061,
+   "p": 0.6766169154228856,
+   "null_max": 0.327,
+   "vta_1877": false,
+   "reading": "ynll yuuw ld?n tdt? sneull eaenr wd?b yuun sneenr td? saenr",
+   "passes": false
+  },
+  {
+   "image": "1885_18851205-R.jpg",
+   "words": 9,
+   "share": 0.094,
+   "p": 0.6766169154228856,
+   "null_max": 0.438,
+   "vta_1877": false,
+   "reading": "drlhi yg tnq tesu iguu hdn bn drlni wnll",
+   "passes": false
+  },
+  {
+   "image": "1886_18861219-T.jpg",
+   "words": 12,
+   "share": 0.068,
+   "p": 0.6766169154228856,
+   "null_max": 0.409,
+   "vta_1877": false,
+   "reading": "?n cduu hdiuw wg tn?n hdn cnww hp tenw tnnr hd?uw tehnw",
+   "passes": false
+  },
+  {
+   "image": "1889_18891003-B4.jpg",
+   "words": 25,
+   "share": 0.076,
+   "p": 0.6766169154228856,
+   "null_max": 0.286,
+   "vta_1877": false,
+   "reading": "wy bqq ?qubq? qiiu aqb?lqb lqg q?y dhql ?qd ?qbybh ic?wc? ae rioai w?? ltquq qubr? qbiu aqplqg q?i uudoql ad dyu iqqipbhub rio as",
+   "passes": false
+  },
+  {
+   "image": "1891_18911202-21.jpg",
+   "words": 3,
+   "share": 0.2,
+   "p": 0.681592039800995,
+   "null_max": 0.7,
+   "vta_1877": false,
+   "reading": "dc de ddstud",
+   "passes": false
+  },
+  {
+   "image": "1893_18930530-Chav.jpg",
+   "words": 19,
+   "share": 0.047,
+   "p": 0.681592039800995,
+   "null_max": 0.297,
+   "vta_1877": false,
+   "reading": "lg dg ha?gl ildu dugl r?l l? gof ll? dlfs lu?u duugh iudu gr?l l?y t? ?arh saiu ??",
+   "passes": false
+  },
+  {
+   "image": "1882_18820120-AIM.jpg",
+   "words": 8,
+   "share": 0.087,
+   "p": 0.6865671641791045,
+   "null_max": 0.478,
+   "vta_1877": false,
+   "reading": "to ?ed ?g qse dcl hcgq? yuc cc",
+   "passes": false
+  },
+  {
+   "image": "1881_18811018-LC15.jpg",
+   "words": 3,
+   "share": 0.057,
+   "p": 0.6915422885572139,
+   "null_max": 0.329,
+   "vta_1877": false,
+   "reading": "rrtn ?tlersid?hu?ldci?qdqhuur??ibiuulc ?tletsic?hu?ldci?sdqhuuui??biuulc",
+   "passes": false
+  },
+  {
+   "image": "1887_18870125-2.jpg",
+   "words": 22,
+   "share": 0.058,
+   "p": 0.6915422885572139,
+   "null_max": 0.326,
+   "vta_1877": false,
+   "reading": "?a lltd? hcaph ??el eadn ?rac eiat dcu s?a?a pcsre lp ?ldn nt?b ?al llt lctd? lcalh iat du ssa?a llqre ht?b",
+   "passes": false
+  },
+  {
+   "image": "1875_18751121-Merci.jpg",
+   "words": 5,
+   "share": 0.154,
+   "p": 0.7014925373134329,
+   "null_max": 0.692,
+   "vta_1877": false,
+   "reading": "auo e?lh rd eh rt",
+   "passes": false
+  },
+  {
+   "image": "1884_18841221-S.jpg",
+   "words": 9,
+   "share": 0.054,
+   "p": 0.7014925373134329,
+   "null_max": 0.297,
+   "vta_1877": false,
+   "reading": "ha?uuh e?nhlnwi it?e ?i nu sa?uun lnrw bn ?nl",
+   "passes": false
+  },
+  {
+   "image": "1886_18860401-B.jpg",
+   "words": 12,
+   "share": 0.064,
+   "p": 0.7014925373134329,
+   "null_max": 0.383,
+   "vta_1877": false,
+   "reading": "egu ?gub idiih salu wgdw egdu ?grb idiiu sanu nw hgr eegdu",
+   "passes": false
+  },
+  {
+   "image": "1876_18761014-R.jpg",
+   "words": 25,
+   "share": 0.066,
+   "p": 0.7064676616915423,
+   "null_max": 0.25,
+   "vta_1877": false,
+   "reading": "?wncs lcdgiu tet? ule??sls enl d?bw?hrc?c deu?t sdsl liis l?dslc n?uduq weltuns wlc?rhcl dri?cuhc gg ?wics lcdr?iq ulet?sts enq d?bw?srcuc leiu n?udhq weltlns wlcrrucl d?i?cuuc",
+   "passes": false
+  },
+  {
+   "image": "1876_18761104-P.jpg",
+   "words": 29,
+   "share": 0.076,
+   "p": 0.7064676616915423,
+   "null_max": 0.26,
+   "vta_1877": false,
+   "reading": "ndn ?slly ?uc l?dslc lu?erqc ?lur wu? ler?dir sl?dhc? r?u iw dltlucu d?bicchc dcl leih eh dclc du ?sllc h?dclu ?lui ln sl?dhnt wt dltles d?ircusl dsl l?ih dulc",
+   "passes": false
+  },
+  {
+   "image": "1883_18830222-42.jpg",
+   "words": 32,
+   "share": 0.092,
+   "p": 0.7064676616915423,
+   "null_max": 0.261,
+   "vta_1877": false,
+   "reading": "yguu wyg agdui slgin ?guwu eeun ane lne?n anu wgdw nr sguiw iuw ?giuwhgu ?gdu qiusnu i??uwiqn eei nsaneuw yntn tgu n?nu isgun lgd ?u senll eguiwewerw ?gihwngu qiuslnu i??ruweqn sei ugd",
+   "passes": false
+  },
+  {
+   "image": "1888_18880711-B4.jpg",
+   "words": 17,
+   "share": 0.113,
+   "p": 0.7064676616915423,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "dt qe ?bh higrub rgq?b aqil auiucb guw u?r rn qluu ae bl bn at auu ?r",
+   "passes": false
+  },
+  {
+   "image": "1882_18820203-42.jpg",
+   "words": 16,
+   "share": 0.043,
+   "p": 0.7114427860696517,
+   "null_max": 0.232,
+   "vta_1877": false,
+   "reading": "bn ?enn tdra ??ii sdee? f?ui iy?c ?w h??cc? r?uw b? esdr? ??wcrn tnee? sanru? ??wcwn",
+   "passes": false
+  },
+  {
+   "image": "1885_18850625-E.jpg",
+   "words": 15,
+   "share": 0.056,
+   "p": 0.7114427860696517,
+   "null_max": 0.222,
+   "vta_1877": false,
+   "reading": "ln? tghi ??u u?s ?a?uhn agy hcii ugd u? lni hgci ?eu uuu sanunn hnii",
+   "passes": false
+  },
+  {
+   "image": "1888_18880530-B4.jpg",
+   "words": 14,
+   "share": 0.1,
+   "p": 0.7213930348258707,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "gp lt gur iiquci ig?hi ?a l?l ?p bt ae be bn quci hud",
+   "passes": false
+  },
+  {
+   "image": "1889_18890127-Psee.jpg",
+   "words": 7,
+   "share": 0.105,
+   "p": 0.7263681592039801,
+   "null_max": 0.579,
+   "vta_1877": false,
+   "reading": "dh sqs ir?t up u? ur dhuu",
+   "passes": false
+  },
+  {
+   "image": "1880_18800926-LC15.jpg",
+   "words": 6,
+   "share": 0.089,
+   "p": 0.7313432835820896,
+   "null_max": 0.482,
+   "vta_1877": false,
+   "reading": "ay adl utygsccealcqh?qd?gchph ayt adlut yghccealuqhiidhd?chph",
+   "passes": false
+  },
+  {
+   "image": "1884_18840120-I.jpg",
+   "words": 11,
+   "share": 0.056,
+   "p": 0.7313432835820896,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "in nru nrn ie? igdtt iww cnww ne? nrr i?w clww",
+   "passes": false
+  },
+  {
+   "image": "1887_18870118-7.jpg",
+   "words": 11,
+   "share": 0.059,
+   "p": 0.7313432835820896,
+   "null_max": 0.412,
+   "vta_1877": false,
+   "reading": "rgu q?u wnr? ?gduh b? an bnsu quu bn wes san",
+   "passes": false
+  },
+  {
+   "image": "1882_18821212-PAUL.jpg",
+   "words": 14,
+   "share": 0.065,
+   "p": 0.736318407960199,
+   "null_max": 0.387,
+   "vta_1877": false,
+   "reading": "yucw cgdn lgd sneull sel ers rhqaw esguns yutn dqi rciiug yuuwn esguls yntn",
+   "passes": false
+  },
+  {
+   "image": "1883_18830327.jpg",
+   "words": 8,
+   "share": 0.062,
+   "p": 0.736318407960199,
+   "null_max": 0.438,
+   "vta_1877": false,
+   "reading": "ibltblruc ?bs?ttltt uble unt tdbu? ebltblruc uct? tdbn?",
+   "passes": false
+  },
+  {
+   "image": "1884_18840307-L.jpg",
+   "words": 9,
+   "share": 0.107,
+   "p": 0.736318407960199,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "wuerh sguhdnwci uenee tnsnlnw eenwu nhrsgu wuirb sguhdnwni husgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860406-A.jpg",
+   "words": 10,
+   "share": 0.062,
+   "p": 0.746268656716418,
+   "null_max": 0.406,
+   "vta_1877": false,
+   "reading": "in rw enr? ?nu? qn cg?n ugd qnrw ieqn lgd",
+   "passes": false
+  },
+  {
+   "image": "1886_18860721-90.jpg",
+   "words": 8,
+   "share": 0.077,
+   "p": 0.746268656716418,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "bl ?cgul g? higi ua fbl gur eltwd",
+   "passes": false
+  },
+  {
+   "image": "1883_18830601-7.jpg",
+   "words": 16,
+   "share": 0.069,
+   "p": 0.7512437810945274,
+   "null_max": 0.379,
+   "vta_1877": false,
+   "reading": "?lgh?n hiuhd wpuw ?ni ci?gcu ?udsnrwnbn ?gdu wgdbgdui wisgue ?? ?cihin hiuhdn wiuw ni?gcu wenen wesgue",
+   "passes": false
+  },
+  {
+   "image": "1897_18970212-13.jpg",
+   "words": 9,
+   "share": 0.067,
+   "p": 0.7562189054726368,
+   "null_max": 0.433,
+   "vta_1877": false,
+   "reading": "ssa qai ?d qr luua ?qrhcr dotrc? u? lt",
+   "passes": false
+  },
+  {
+   "image": "1886_18861126-E.jpg",
+   "words": 10,
+   "share": 0.069,
+   "p": 0.7611940298507462,
+   "null_max": 0.483,
+   "vta_1877": false,
+   "reading": "iey qg ni nw ?uds cg? lgd sn?ucl u? ew",
+   "passes": false
+  },
+  {
+   "image": "1876_18760915-2S.jpg",
+   "words": 11,
+   "share": 0.061,
+   "p": 0.7810945273631841,
+   "null_max": 0.367,
+   "vta_1877": false,
+   "reading": "urg rrtud?rsd uttsqt urt hbt rlrdh ?ulb qug rcad urg?g ici?",
+   "passes": false
+  },
+  {
+   "image": "1889_18890706-M9.jpg",
+   "words": 19,
+   "share": 0.128,
+   "p": 0.7810945273631841,
+   "null_max": 0.362,
+   "vta_1877": false,
+   "reading": "ls uhd quci qww ryql ubl ?? as ls bt rh ae qs lebn at be a? ?? ru",
+   "passes": false
+  },
+  {
+   "image": "1876_18761202-P5P5.jpg",
+   "words": 19,
+   "share": 0.054,
+   "p": 0.7860696517412935,
+   "null_max": 0.295,
+   "vta_1877": false,
+   "reading": "dh alru lurt alpsrn?dlert ?sars rsh?t ludhd?wh chwhrnd lhhsrln hqhws?nl nrehdslc hlrruh?s?s wsa??dh du? ?alsun?tlert rshtt chwe??nd lhhsrcn hqhs?nl",
+   "passes": false
+  },
+  {
+   "image": "1879_18790808-LGR.jpg",
+   "words": 8,
+   "share": 0.093,
+   "p": 0.7860696517412935,
+   "null_max": 0.485,
+   "vta_1877": false,
+   "reading": "lsts?tnn uenwsttudn?retsy etnttstlntnl?esssntnnuenlnnt dnnsnted lsruenwstt ldnnretsy uc dnnsnted?edestet",
+   "passes": false
+  },
+  {
+   "image": "1882_18820607-42.jpg",
+   "words": 35,
+   "share": 0.075,
+   "p": 0.7860696517412935,
+   "null_max": 0.31,
+   "vta_1877": false,
+   "reading": "?ldr ceiidu?u idu shgyyduchgu nwcgri lrterwi hdu i?gri nwn nw hdu rgdi igehni wuge?ni wd ??dr ?nrinu egu lw snnd ?ndw bdqnu wu ceiudulu egyyduccgu lrtuerrr qdh ei?gui igeeni wugh?ni ?ndr hgc snsed? ?cdw bdqlu",
+   "passes": false
+  },
+  {
+   "image": "1876_18760213-bonjour.jpg",
+   "words": 12,
+   "share": 0.062,
+   "p": 0.7910447761194029,
+   "null_max": 0.292,
+   "vta_1877": false,
+   "reading": "dg q?q nts?tq? urqrscs irq rsn snq asea ig l?iuq i?q rtnsdq",
+   "passes": false
+  },
+  {
+   "image": "1877_18770610-MA.jpg",
+   "words": 11,
+   "share": 0.075,
+   "p": 0.7910447761194029,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "gi iug iycut dgut cr rcad tlllqtd bq ?ug ligut crt",
+   "passes": false
+  },
+  {
+   "image": "1884_18840531-A.jpg",
+   "words": 11,
+   "share": 0.041,
+   "p": 0.7910447761194029,
+   "null_max": 0.469,
+   "vta_1877": false,
+   "reading": "tnq ?ei luu ?anuun ie? huhdnnrn uui in lur sanuun hnuhdulrn",
+   "passes": false
+  },
+  {
+   "image": "1898_18981026-13.jpg",
+   "words": 10,
+   "share": 0.054,
+   "p": 0.7960199004975125,
+   "null_max": 0.297,
+   "vta_1877": false,
+   "reading": "?s?ad lg du?a aqrqih lciu qu qdd iiu t?s?ad nr",
+   "passes": false
+  },
+  {
+   "image": "1880_18800828-LC15.jpg",
+   "words": 9,
+   "share": 0.055,
+   "p": 0.8009950248756219,
+   "null_max": 0.364,
+   "vta_1877": false,
+   "reading": "rl dnelda n?cs dd?iuhda cl?up alhse dneldan?clsdd?iunhda cl ?up",
+   "passes": false
+  },
+  {
+   "image": "1882_18820822-B.jpg",
+   "words": 7,
+   "share": 0.071,
+   "p": 0.8009950248756219,
+   "null_max": 0.524,
+   "vta_1877": false,
+   "reading": "dlsnle inudse iesldee tdsl ?cenis rdlsnle ?nenes",
+   "passes": false
+  },
+  {
+   "image": "1883_18830430-P37.jpg",
+   "words": 7,
+   "share": 0.118,
+   "p": 0.8009950248756219,
+   "null_max": 0.529,
+   "vta_1877": false,
+   "reading": "si nw ?? dd sp lubr? y?",
+   "passes": false
+  },
+  {
+   "image": "1886_18860104-D.jpg",
+   "words": 22,
+   "share": 0.052,
+   "p": 0.8009950248756219,
+   "null_max": 0.292,
+   "vta_1877": false,
+   "reading": "r?s yniwenriwnu qnri e? neu ?gdc hd? w???euw hgu sg du ig euiins yniweunri?nu qnrw ?adc nr? hdu egu sgndu wnll eniins",
+   "passes": false
+  },
+  {
+   "image": "1899_18990622-IDA.jpg",
+   "words": 12,
+   "share": 0.048,
+   "p": 0.8009950248756219,
+   "null_max": 0.371,
+   "vta_1877": false,
+   "reading": "ui?lu ici? dui?uu? qr tg r?dgcr yuig i?ubhg tiqbisa r?uulh hcch tgur?dgcr",
+   "passes": false
+  },
+  {
+   "image": "1883_18831130-D.jpg",
+   "words": 21,
+   "share": 0.056,
+   "p": 0.8059701492537313,
+   "null_max": 0.327,
+   "vta_1877": false,
+   "reading": "hnwenw guw tnnr hirgnd?un uugdunln rgd? ?cnq wnrs ?u?rs eeuigu eieni igdtt tnnu senwecw tewel wiugdunln ?c?q wn e?uigu wes eeni",
+   "passes": false
+  },
+  {
+   "image": "1888_18880609-B4.jpg",
+   "words": 19,
+   "share": 0.122,
+   "p": 0.8109452736318408,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "g? ae ry gui qdd qd qu hciw ls gup hcii bt at bh bn auiucb a? ut be",
+   "passes": false
+  },
+  {
+   "image": "1890_18901002-B4.jpg",
+   "words": 9,
+   "share": 0.065,
+   "p": 0.8159203980099502,
+   "null_max": 0.355,
+   "vta_1877": false,
+   "reading": "uq?r ig?h ae rcg be bn aw auuq?r ac?fiu",
+   "passes": false
+  },
+  {
+   "image": "1880_18800912-LC15.jpg",
+   "words": 5,
+   "share": 0.067,
+   "p": 0.8208955223880597,
+   "null_max": 0.622,
+   "vta_1877": false,
+   "reading": "ur aynene snendnnaulddsdnhphca nalddsdnhphca ytad",
+   "passes": false
+  },
+  {
+   "image": "1882_18820506-7.jpg",
+   "words": 17,
+   "share": 0.059,
+   "p": 0.8208955223880597,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "r?yf guru a?unu ig yui?uetle ryqaw idqdir snyersn u???uuhu ?gdcqrn bgduf cdusu isguee yni?uetle idqdiie u???rhu cdrusu",
+   "passes": false
+  },
+  {
+   "image": "1884_18840121-E.jpg",
+   "words": 12,
+   "share": 0.06,
+   "p": 0.8258706467661692,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "lne? bndsn ?gdl egus iguu elgun gd ?gcc wenen egrs ig?u ecgrh",
+   "passes": false
+  },
+  {
+   "image": "1885_18850620-D.jpg",
+   "words": 11,
+   "share": 0.051,
+   "p": 0.8258706467661692,
+   "null_max": 0.436,
+   "vta_1877": false,
+   "reading": "wd e?rh ha uun tnwwnu hge hgur sge h?rq sanuun eq",
+   "passes": false
+  },
+  {
+   "image": "1885_18851203-T.jpg",
+   "words": 11,
+   "share": 0.047,
+   "p": 0.8258706467661692,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "ye ??? tgu egsnl qn?rwnl hnsu eq ?e? qnrwnl hnseu iqr",
+   "passes": false
+  },
+  {
+   "image": "1879_18791230-4.jpg",
+   "words": 19,
+   "share": 0.024,
+   "p": 0.8308457711442786,
+   "null_max": 0.274,
+   "vta_1877": false,
+   "reading": "pa??a sstlaa lca eaca la?ea tt? ?tadl ?ea tae etdtsele ca?ae sa ru pat??a lca?eaca la?e ttu ?ttadl ?ae",
+   "passes": false
+  },
+  {
+   "image": "1882_18820307-42.jpg",
+   "words": 24,
+   "share": 0.071,
+   "p": 0.845771144278607,
+   "null_max": 0.354,
+   "vta_1877": false,
+   "reading": "wnsuui eewuu sn?euw ?guwuenr ?euui ig tdcl gt ann in usn ceiw wesgu tgcnt yl gyu siucu?q wnsuni eewnu ?guwuelhr ?iuui wann inrsn seucu?q",
+   "passes": false
+  },
+  {
+   "image": "1882_18820216-AIM.jpg",
+   "words": 8,
+   "share": 0.074,
+   "p": 0.8557213930348259,
+   "null_max": 0.444,
+   "vta_1877": false,
+   "reading": "teo qn gp ah qe ?s?? qn tt?slrq?du",
+   "passes": false
+  },
+  {
+   "image": "1883_18830228-7.jpg",
+   "words": 21,
+   "share": 0.074,
+   "p": 0.8557213930348259,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "bnelndi gdu quu lw egu sgrs iu b? hnrudnn ih ?ndu un?nrnu ig duneil ie?gnu igdttuhu egn in enrrdhn drneil igdttucu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860608-M.jpg",
+   "words": 15,
+   "share": 0.044,
+   "p": 0.8557213930348259,
+   "null_max": 0.467,
+   "vta_1877": false,
+   "reading": "qg tclw egu ulcr rg snw cg? ugd iunw hu su ?ei uenr ?nw lgd",
+   "passes": false
+  },
+  {
+   "image": "1898_18980927-FL.jpg",
+   "words": 11,
+   "share": 0.047,
+   "p": 0.8557213930348259,
+   "null_max": 0.279,
+   "vta_1877": false,
+   "reading": "wg li igq? tlnt gui u? ?q?bu uay? dchh?lru tldlt iuay",
+   "passes": false
+  },
+  {
+   "image": "1884_18840407-K2K.jpg",
+   "words": 13,
+   "share": 0.039,
+   "p": 0.8606965174129353,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "iuu fetbsh lsbsh itbry uupsgsgin ysssa wne uugte ea?sthn fetbeh uulsgsgiu uuugte sa?sthn",
+   "passes": false
+  },
+  {
+   "image": "1885_18850214-D.jpg",
+   "words": 13,
+   "share": 0.04,
+   "p": 0.8706467661691543,
+   "null_max": 0.3,
+   "vta_1877": false,
+   "reading": "yal idu? acu wd ?ei nd hg?ise?ll wisgu anu ei hg?i senll wisgc",
+   "passes": false
+  },
+  {
+   "image": "1885_18850603-E.jpg",
+   "words": 19,
+   "share": 0.029,
+   "p": 0.8905472636815921,
+   "null_max": 0.275,
+   "vta_1877": false,
+   "reading": "ya nru sdll nsu ?gub ?uu? ?ei eeun ?enr hdgw cg?h lgd er sneuniw ynt tgu n?nu yanr ?un?",
+   "passes": false
+  },
+  {
+   "image": "1890_18901004-B4.jpg",
+   "words": 14,
+   "share": 0.053,
+   "p": 0.8905472636815921,
+   "null_max": 0.395,
+   "vta_1877": false,
+   "reading": "?g rcbw qr rca qqq ls ?ui qw augbe bn a? di guqr be",
+   "passes": false
+  },
+  {
+   "image": "1882_18820107.jpg",
+   "words": 13,
+   "share": 0.046,
+   "p": 0.9104477611940298,
+   "null_max": 0.492,
+   "vta_1877": false,
+   "reading": "?t augr?uuiciiru qbu lhqlu? dg nenqs ttsqte slnqd nnqt pq? nssqts nedqs nssqt",
+   "passes": false
+  },
+  {
+   "image": "1883_18831228-A.jpg",
+   "words": 23,
+   "share": 0.03,
+   "p": 0.9402985074626866,
+   "null_max": 0.376,
+   "vta_1877": false,
+   "reading": "?qu wgdi bgdui ?gdu eerwgu ag?ns ygdch hegrqil ae lgd yuwa wanhe wdnis bn ?esu lni dgdu h?rwgu ag?cns lne?n hgrqil aen ycwa",
+   "passes": false
+  },
+  {
+   "image": "1889_18891024-B4.jpg",
+   "words": 17,
+   "share": 0.038,
+   "p": 0.9402985074626866,
+   "null_max": 0.472,
+   "vta_1877": false,
+   "reading": "uug ry? rcbh qw ucir lqg ubw dq acr tnb ae rcgrqg be bn a? ?uuhiuh bs",
+   "passes": false
+  },
+  {
+   "image": "1876_18760206-bonjour.jpg",
+   "words": 19,
+   "share": 0.029,
+   "p": 0.945273631840796,
+   "null_max": 0.343,
+   "vta_1877": false,
+   "reading": "gg qbu ?ggg rnbes dtbtu a?qes tnqtd rn a? nts?t uu rr iy?qa rnbhs atqes tnqt ?t ?u ?y?qa",
+   "passes": false
+  },
+  {
+   "image": "1890_18901008-B4.jpg",
+   "words": 12,
+   "share": 0.062,
+   "p": 0.945273631840796,
+   "null_max": 0.531,
+   "vta_1877": false,
+   "reading": "?s lu af gui qubr? bt rn hirrcg bn ar ly ln",
+   "passes": false
+  },
+  {
+   "image": "1876_18760902-Jean.jpg",
+   "words": 15,
+   "share": 0.041,
+   "p": 0.9502487562189055,
+   "null_max": 0.384,
+   "vta_1877": false,
+   "reading": "uqb guadrq qrr ??li qg ?qul asnfb ansnalflqwl eb ebfwa qnflqfhuahh yuug ef snf lqfhra??",
+   "passes": false
+  },
+  {
+   "image": "1889_18890621-M9.jpg",
+   "words": 19,
+   "share": 0.082,
+   "p": 0.9502487562189055,
+   "null_max": 0.367,
+   "vta_1877": false,
+   "reading": "qc ls uca qw hciw ?u ae uhu ?cby bt ?t ur un hca ue rd rd lyuuca uw",
+   "passes": false
+  },
+  {
+   "image": "1888_18880721-B4.jpg",
+   "words": 19,
+   "share": 0.08,
+   "p": 0.9552238805970149,
+   "null_max": 0.44,
+   "vta_1877": false,
+   "reading": "wg ln ubw ae hciw ad rn le di yuiqg be bn ar ?g uudu ruhi ut yuig a?",
+   "passes": false
+  },
+  {
+   "image": "1882_18820615-7.jpg",
+   "words": 23,
+   "share": 0.029,
+   "p": 0.9651741293532339,
+   "null_max": 0.343,
+   "vta_1877": false,
+   "reading": "ih qnrw cnww un? ig iguul iagdcs idttnu entnurq iyel sdchn sniw sanunn hgu iegdu wg clww iagdcq entnnrq iy?l seniw egu eegdu",
+   "passes": false
+  },
+  {
+   "image": "1877_18771006-OPQ.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.467,
+   "vta_1877": false,
+   "reading": "hqauu augrguu bn yplq iqu hryaug?ub tf ypts hryaup?ub",
+   "passes": false
+  },
+  {
+   "image": "1878_18780223-KY.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.524,
+   "vta_1877": false,
+   "reading": "dsr gsp lsr ltig lub sy lqr",
+   "passes": false
+  },
+  {
+   "image": "1879_18790410.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "etdl?b tt? ?tadl ?tde etdlsb ?ttadl",
+   "passes": false
+  },
+  {
+   "image": "1880_18800229.jpg",
+   "words": 8,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.353,
+   "vta_1877": false,
+   "reading": "tl?? deud ?ell?uy hn ?et ?ltlded ie? tl?y",
+   "passes": false
+  },
+  {
+   "image": "1881_18810409-Favte.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.407,
+   "vta_1877": false,
+   "reading": "wqp tsnsrw qii ea nryqr wql lsrsr",
+   "passes": false
+  },
+  {
+   "image": "1881_18810424-LC15.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.475,
+   "vta_1877": false,
+   "reading": "d?i syaepe?acdetu ddacluchdph d?il?ssyaepe?a ldetul ddac?lhsqdph",
+   "passes": false
+  },
+  {
+   "image": "1881_18810517.jpg",
+   "words": 13,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.305,
+   "vta_1877": false,
+   "reading": "cd??r ui?b apnu nr un?n w?nbn nrsdu abcoi cd?ui ynri?n aenu wpnbn ?bcoi",
+   "passes": false
+  },
+  {
+   "image": "1881_18810816-LC15.jpg",
+   "words": 4,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "g?qblal?iagls?sigi?i?? qc rl g?qblal?iagls?sigi?i??qc",
+   "passes": false
+  },
+  {
+   "image": "1881_18810928-LC15.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.378,
+   "vta_1877": false,
+   "reading": "rr? ibdb? ib ?u? ig?qbl qbiuu?luqusiqc rrsn",
+   "passes": false
+  },
+  {
+   "image": "1881_18810930-38.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.458,
+   "vta_1877": false,
+   "reading": "u?s ttnldh ubr qg ?sd ttnldhe",
+   "passes": false
+  },
+  {
+   "image": "1882_18820309-7.jpg",
+   "words": 20,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.291,
+   "vta_1877": false,
+   "reading": "l?i ?cy y?wa ugd sneu cg?ns yntnenii lgd ig edsa tcgy?ui ugw uniins hgu? ers r?q ecy ynwa rgw egu?",
+   "passes": false
+  },
+  {
+   "image": "1882_18820405.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.8,
+   "vta_1877": false,
+   "reading": "tnt? ubee bn",
+   "passes": false
+  },
+  {
+   "image": "1882_18820407-2.jpg",
+   "words": 11,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.421,
+   "vta_1877": false,
+   "reading": "?u tb bcu?u ibci dbnu? dc rgu ct buu?u ibce dbu?",
+   "passes": false
+  },
+  {
+   "image": "1882_18820415.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.529,
+   "vta_1877": false,
+   "reading": "bsene etdbn ?etdbu?",
+   "passes": false
+  },
+  {
+   "image": "1882_18820430-PAUL.jpg",
+   "words": 22,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.348,
+   "vta_1877": false,
+   "reading": "ucii sgen uggh wugui s?uh g??? e? eguwuiriu w? idui ??riy? ?r??r?w ugd irrcgdicl cg?? sgec ugge s?uhq eguwuruih ??uiy? ?r??riw iurcgdicl",
+   "passes": false
+  },
+  {
+   "image": "1882_18820702-LC15.jpg",
+   "words": 4,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.324,
+   "vta_1877": false,
+   "reading": "t? ?iqur?iiuipbuh?pguau?p i??q??lhiuu?si uiqur?iiuipbre?pguau?pi??ql?lhius?si",
+   "passes": false
+  },
+  {
+   "image": "1883_18831030-AA2.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.484,
+   "vta_1877": false,
+   "reading": "qt q?u w?tb ucbbugbcilurruh q?r w? tb",
+   "passes": false
+  },
+  {
+   "image": "1884_18840101-B.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.571,
+   "vta_1877": false,
+   "reading": "pdln tsldee ndlynhih plln esldee",
+   "passes": false
+  },
+  {
+   "image": "1884_18840108-I.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.265,
+   "vta_1877": false,
+   "reading": "ln?n ?grb ?li aey? cnw iiu c?guu ?ni cngrn",
+   "passes": false
+  },
+  {
+   "image": "1884_18840119-U.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "?ne?u cg?nell ieen senll ?esu rw i?ne?u cg?n rcrw ynnu",
+   "passes": false
+  },
+  {
+   "image": "1884_18840125-I.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.355,
+   "vta_1877": false,
+   "reading": "ae?n iwiuw cg?n lgd el yntn tgu n? n?nr",
+   "passes": false
+  },
+  {
+   "image": "1884_18840304-H.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.281,
+   "vta_1877": false,
+   "reading": "?nu ?eu iee eew ?gu irq? inu h?w tnnr egu",
+   "passes": false
+  },
+  {
+   "image": "1884_18840308-L.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.559,
+   "vta_1877": false,
+   "reading": "?nua gucl ?euui ynsr ?gur eg wu tnnr gurcl",
+   "passes": false
+  },
+  {
+   "image": "1884_18840315-H.jpg",
+   "words": 14,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.385,
+   "vta_1877": false,
+   "reading": "igda ?gndu esa gu qugi ?gdh ??ur wes yqql tnwn sgndu wg ?gdq ??ui",
+   "passes": false
+  },
+  {
+   "image": "1884_18840323a-E.jpg",
+   "words": 16,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.41,
+   "vta_1877": false,
+   "reading": "e?g elig cguq etw lgd el sneuniw cg?n i?g qsne eclig cgrq itw ugd sneunir g?",
+   "passes": false
+  },
+  {
+   "image": "1884_18840608-N.jpg",
+   "words": 12,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "rg el sneu yntn sguw tguquw lgd nru wgu wiuw yutn nrr",
+   "passes": false
+  },
+  {
+   "image": "1884_18840801-Louis.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.484,
+   "vta_1877": false,
+   "reading": "anuu lnle? ln???enfa??sanu anuru ?u",
+   "passes": false
+  },
+  {
+   "image": "1884_18841225-D.jpg",
+   "words": 13,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.339,
+   "vta_1877": false,
+   "reading": "quri t? ri tnwn igcqr icull nruuch?rr bquug e? ?nri igcqrn glnll nrsccenrw",
+   "passes": false
+  },
+  {
+   "image": "1884_18841228-R.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.273,
+   "vta_1877": false,
+   "reading": "??eui eew i?e e? seii ugdc cduu iguu ??ui",
+   "passes": false
+  },
+  {
+   "image": "1885_18850211-M.jpg",
+   "words": 14,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.259,
+   "vta_1877": false,
+   "reading": "??h ?gd? ennw hh?iuw cdy ?euw wa?uru g?nu nw ?gd hh?euw cdh ?euwn wauru",
+   "passes": false
+  },
+  {
+   "image": "1885_18850501-F.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.548,
+   "vta_1877": false,
+   "reading": "bn nr en?nnl lw rin wgdb gu nw ?nrin wgu",
+   "passes": false
+  },
+  {
+   "image": "1885_18850531-T.jpg",
+   "words": 11,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.326,
+   "vta_1877": false,
+   "reading": "gdu in?eu wu cgrq hgrw ie? ennsd wne?u sgrw ennd ne?u",
+   "passes": false
+  },
+  {
+   "image": "1885_18850606-D.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.457,
+   "vta_1877": false,
+   "reading": "wu ne?u ?rdsu ?giw uniw bn sanuu he?u wenel",
+   "passes": false
+  },
+  {
+   "image": "1885_18850606-L.jpg",
+   "words": 13,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.37,
+   "vta_1877": false,
+   "reading": "ndq idu nsu senll senin sa?u ?d qgd pdu tecin sanru id sgd",
+   "passes": false
+  },
+  {
+   "image": "1885_18850610-L.jpg",
+   "words": 12,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.275,
+   "vta_1877": false,
+   "reading": "ed ea?u i?u cdr? ??u wne? egu ir nn? halu cduh e?ns",
+   "passes": false
+  },
+  {
+   "image": "1885_18850618-A.jpg",
+   "words": 13,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.34,
+   "vta_1877": false,
+   "reading": "i?ui unnr hdn ??u gu neru gdw hgcdu cg? i?ni wgh wgdw hgndu",
+   "passes": false
+  },
+  {
+   "image": "1885_18850619-N.jpg",
+   "words": 17,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.358,
+   "vta_1877": false,
+   "reading": "qgdwn rniwsn ?ei hdc wgdw ?u?? edru? bd sgd?n hdu ?uny idwun egn nw rgdi in?eu ?uds",
+   "passes": false
+  },
+  {
+   "image": "1885_18851130-O.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.632,
+   "vta_1877": false,
+   "reading": "lgd ig edsa agy cg?n yc?",
+   "passes": false
+  },
+  {
+   "image": "1885_18851201-S.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.476,
+   "vta_1877": false,
+   "reading": "lgdu ?e?nu qguw ?cil cg?n lgd tgrsl qgrw ?lel tgrql",
+   "passes": false
+  },
+  {
+   "image": "1886_18860108-I.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.444,
+   "vta_1877": false,
+   "reading": "wgd?l ?ei wgdw rn eniw hdn eguwnn",
+   "passes": false
+  },
+  {
+   "image": "1886_18860121-E.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.517,
+   "vta_1877": false,
+   "reading": "u? enuw cdrs ?eu bn rn ?nrin hde snuw",
+   "passes": false
+  },
+  {
+   "image": "1886_18860124-T.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.4,
+   "vta_1877": false,
+   "reading": "u?nrw hicrw id?wu hdn tgui snnrw hinrw san idwwh",
+   "passes": false
+  },
+  {
+   "image": "1886_18860330-A.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.353,
+   "vta_1877": false,
+   "reading": "?eul bee wug? wgn ?nnrw sel annu cg? ?nnuw",
+   "passes": false
+  },
+  {
+   "image": "1886_18860403-JN22.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.6,
+   "vta_1877": false,
+   "reading": "btt augo dd ruir qn",
+   "passes": false
+  },
+  {
+   "image": "1886_18860403-L.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "gdu enrr gu sanu ensu gdcl wgu",
+   "passes": false
+  },
+  {
+   "image": "1886_18860405-E.jpg",
+   "words": 12,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.408,
+   "vta_1877": false,
+   "reading": "waci tcwa ygus sel ?eurw nw ?nri wgu wacui seui ??eurw ?nrin",
+   "passes": false
+  },
+  {
+   "image": "1886_18860613-T.jpg",
+   "words": 11,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.3,
+   "vta_1877": false,
+   "reading": "iguu sael ?gru n?nr qgdc ?ww hiuu hgr? qdc www cgp",
+   "passes": false
+  },
+  {
+   "image": "1886_18860908-Jane.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.636,
+   "vta_1877": false,
+   "reading": "dqqicbqiqh seqe qfbeqdss",
+   "passes": false
+  },
+  {
+   "image": "1886_18861204-G.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.571,
+   "vta_1877": false,
+   "reading": "sgel egus hdiuw wg el cg?n irr lgd sgec egrs",
+   "passes": false
+  },
+  {
+   "image": "1886_18861218-E.jpg",
+   "words": 8,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.364,
+   "vta_1877": false,
+   "reading": "?nuu gd hders ?gd?u u?gur udn hd?rs cigu",
+   "passes": false
+  },
+  {
+   "image": "1887_18870101-2.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.706,
+   "vta_1877": false,
+   "reading": "wgu eeu wgdi hdn ?cdi",
+   "passes": false
+  },
+  {
+   "image": "1887_18870324-3.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.244,
+   "vta_1877": false,
+   "reading": "he?ha hi??bsnu lgb? lsn u?tru uq?l h?ha suq?l lqu",
+   "passes": false
+  },
+  {
+   "image": "1887_18870624-1.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.231,
+   "vta_1877": false,
+   "reading": "r?ib l?a? ??ua lsnnu ?l rsb? l?c? r?ub tru l?nnu",
+   "passes": false
+  },
+  {
+   "image": "1887_18870628-MIG.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.474,
+   "vta_1877": false,
+   "reading": "a?l gurui nurr trt nnrr",
+   "passes": false
+  },
+  {
+   "image": "1887_18870705-MIG.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.286,
+   "vta_1877": false,
+   "reading": "a?l guu ??ubini ?t gur ?r?",
+   "passes": false
+  },
+  {
+   "image": "1888_18881120-MIG.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.323,
+   "vta_1877": false,
+   "reading": "atl gqhhig ???tttt g?gqhhigu ??t?tt",
+   "passes": false
+  },
+  {
+   "image": "1888_18881206-MIG.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.464,
+   "vta_1877": false,
+   "reading": "a?l nnhqauu? uqiuh tbc hqauu? sbc",
+   "passes": false
+  },
+  {
+   "image": "1889_18890109-Psee.jpg",
+   "words": 8,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.308,
+   "vta_1877": false,
+   "reading": "dh sqi?ir su?ur ?ihfiq hqi? dhuu uqi?ir hqi?iu",
+   "passes": false
+  },
+  {
+   "image": "1889_18890118-Psee.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.294,
+   "vta_1877": false,
+   "reading": "dh soe ir?n u? ur dh?u",
+   "passes": false
+  },
+  {
+   "image": "1889_18891211-LILI.jpg",
+   "words": 8,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.344,
+   "vta_1877": false,
+   "reading": "r?r? htihsn? b?st ig ig?hi pciu lp ?adu",
+   "passes": false
+  },
+  {
+   "image": "1893_18930226.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.6,
+   "vta_1877": false,
+   "reading": "gntn eii ltn",
+   "passes": false
+  },
+  {
+   "image": "1893_18930511-R.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.429,
+   "vta_1877": false,
+   "reading": "cnlt q?c csnr ?p csen qi?c",
+   "passes": false
+  },
+  {
+   "image": "1893_18930513-R.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.5,
+   "vta_1877": false,
+   "reading": "a? cees tndte?",
+   "passes": false
+  },
+  {
+   "image": "1893_18930606-Chav.jpg",
+   "words": 11,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.294,
+   "vta_1877": false,
+   "reading": "?s ryqp ?? uhd ?tl bcip hqbi ?? rar ?o? ryql",
+   "passes": false
+  },
+  {
+   "image": "1893_18930923-MI.jpg",
+   "words": 9,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.324,
+   "vta_1877": false,
+   "reading": "ar? ugq beu uunn lcb ?gqb a??qgugq hqabeu lbe",
+   "passes": false
+  },
+  {
+   "image": "1893_18930929-MI.jpg",
+   "words": 8,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.364,
+   "vta_1877": false,
+   "reading": "a? ugq fuu eb dbe n?bc n?e t?",
+   "passes": false
+  },
+  {
+   "image": "1893_18931219-Lou.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.435,
+   "vta_1877": false,
+   "reading": "rci qdg iguacrc rsn yh u?e gp",
+   "passes": false
+  },
+  {
+   "image": "1893_18931227-Lou.jpg",
+   "words": 4,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.533,
+   "vta_1877": false,
+   "reading": "rci iguacrc rts gn",
+   "passes": false
+  },
+  {
+   "image": "1895_18950912-FL.jpg",
+   "words": 12,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.333,
+   "vta_1877": false,
+   "reading": "rg qgg?l qii ?adqi uucuuu uq? ln hqry? qrhu qgg?lunu hstdtn rl",
+   "passes": false
+  },
+  {
+   "image": "1896_18960509-AVZ.jpg",
+   "words": 4,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.476,
+   "vta_1877": false,
+   "reading": "ion? g?psrn b?psby ion?t",
+   "passes": false
+  },
+  {
+   "image": "1896_18960523-AVZ.jpg",
+   "words": 7,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.207,
+   "vta_1877": false,
+   "reading": "ql? ?lp qy? hsl??bbsg ?qr ?n?lp ?qi",
+   "passes": false
+  },
+  {
+   "image": "1896_18960909-FL.jpg",
+   "words": 4,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.545,
+   "vta_1877": false,
+   "reading": "snlddttl qs gurq snldnttl",
+   "passes": false
+  },
+  {
+   "image": "1897_18970513-13.jpg",
+   "words": 5,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.409,
+   "vta_1877": false,
+   "reading": "tsh lg?n? aqrq hcii iugiq?",
+   "passes": false
+  },
+  {
+   "image": "1898_18980602-13.jpg",
+   "words": 10,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.415,
+   "vta_1877": false,
+   "reading": "?hqi ?cir ?bhir df lqgu aqa wtuuu qit au?bhii wtrc",
+   "passes": false
+  },
+  {
+   "image": "1899_18990922-TITELIVE.jpg",
+   "words": 3,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.455,
+   "vta_1877": false,
+   "reading": "i?iu bes?y wn",
+   "passes": false
+  },
+  {
+   "image": "1900_19000905-FL.jpg",
+   "words": 6,
+   "share": 0.0,
+   "p": 1.0,
+   "null_max": 0.568,
+   "vta_1877": false,
+   "reading": "lnts lnttdsntdd iua? sslnts nttssdslnttdsntdd ua?",
+   "passes": false
+  }
+ ]
+}

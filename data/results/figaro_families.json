@@ -1,0 +1,147 @@
+{
+ "id": "figaro_families",
+ "families": {
+  "2217": {
+   "ads": [
+    {
+     "image": "1881_18811012.jpg",
+     "date": "1881-10-12",
+     "signature": "",
+     "key": "2217",
+     "reading": "Soyez bonne, cherie, je [t']aime tant, jouissons."
+    },
+    {
+     "image": "1881_18811119-ZZ.jpg",
+     "date": "1881-11-19",
+     "signature": "ZZ",
+     "key": "2217",
+     "reading": "Ai lettre, merci, mais ecris ... t'adore, s'ennuie de [toi?]. Je baise tes levres, ma cherie."
+    },
+    {
+     "image": "1882_18820601-5.jpg",
+     "date": "1882-06-01",
+     "signature": "5",
+     "key": "2217",
+     "reading": "Pourquoi pas ecrire? Fa[i]tes grand peine [a votre] amie."
+    },
+    {
+     "image": "1882_18820701-5.jpg",
+     "date": "1882-07-01",
+     "signature": "5",
+     "key": "2217",
+     "reading": "Aime moi un peu je taime et desire tant te baiser (from the transcription lquh uiq sg vhs eh blquh hb fhdqch blgb bh klqdhc)"
+    },
+    {
+     "image": "1882_18821224-5.jpg",
+     "date": "1882-12-24",
+     "signature": "5",
+     "key": "2217",
+     "reading": "Triste adieu si froid. T'aime quand meme, te desire follemen[t], te baise partout, ma Berthe cherie."
+    }
+   ],
+   "signatures": [
+    "-",
+    "5",
+    "ZZ"
+   ],
+   "common_system": false,
+   "span": [
+    "1881-10-12",
+    "1882-12-24"
+   ]
+  },
+  "2201": {
+   "ads": [
+    {
+     "image": "1880_18801125-7.jpg",
+     "date": "1880-11-25",
+     "signature": "7",
+     "key": "2201",
+     "reading": "... rare[m]ent affect[ion] ne s'achete p[as]. Pense a t[oi] ... part lundi."
+    },
+    {
+     "image": "1881_18811016-J.jpg",
+     "date": "1881-10-16",
+     "signature": "J",
+     "key": "2201",
+     "reading": "Atoitoujours (from the transcription zfkqfkepkehg)"
+    }
+   ],
+   "signatures": [
+    "7",
+    "J"
+   ],
+   "common_system": true,
+   "span": [
+    "1880-11-25",
+    "1881-10-16"
+   ]
+  },
+  "1001": {
+   "ads": [
+    {
+     "image": "1892_18920804.jpg",
+     "date": "1892-08-04",
+     "signature": "",
+     "key": "1001",
+     "reading": "[...] rentre samedi trois heures ... folie."
+    },
+    {
+     "image": "1896_18960823.jpg",
+     "date": "1896-08-23",
+     "signature": "",
+     "key": "1001",
+     "reading": "Rappele a mer, fam[ille] mal[ade], pas Macfiavel, indecis sur program[me], devoir impose le votre: l'amitie."
+    },
+    {
+     "image": "1898_18980511.jpg",
+     "date": "1898-05-11",
+     "signature": "",
+     "key": "1001",
+     "reading": "... je des[ire] jouir d[an]s t[es] bras."
+    }
+   ],
+   "signatures": [
+    "-"
+   ],
+   "common_system": true,
+   "span": [
+    "1892-08-04",
+    "1898-05-11"
+   ]
+  },
+  "vta": {
+   "ads": [
+    {
+     "image": "1878_18781010-Valentin.jpg",
+     "date": "1878-10-10",
+     "signature": "Valentin",
+     "key": "vta",
+     "reading": "... lund[i] minuit ... enough ... all time. (Signed Valentin; the V. T. A. key; partly read.)"
+    },
+    {
+     "image": "1878_18781226-Valentin.jpg",
+     "date": "1878-12-26",
+     "signature": "Valentin",
+     "key": "vta",
+     "reading": "Deep in snow. Thanks for letter, will write to [...]. (Signed prof. Valentin; the V. T. A. key of 1877; the large initial P is the first cipher letter.)"
+    },
+    {
+     "image": "1879_18790114-Valentin.jpg",
+     "date": "1879-01-14",
+     "signature": "Valentin",
+     "key": "vta",
+     "reading": "[F]ound three tidings[?]. Thanks. Will send letter Wednesday. (Signed Valentin; the V. T. A. key.)"
+    }
+   ],
+   "signatures": [
+    "Valentin"
+   ],
+   "common_system": false,
+   "span": [
+    "1878-10-10",
+    "1879-01-14"
+   ]
+  }
+ }
+}

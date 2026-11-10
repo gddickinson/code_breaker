@@ -78,7 +78,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 42 | 63 documented systems (60 tables, 3 Vigenere keys) on 126 unsolved ads of their writers, no free parameters: own system ranks first in 15 ads against 3.4 expected (p=1.9e-6). Nine were already candidates; 4 new readings checked by eye (GEO 1890 'Il y a un an! Follement je t'attends. Tout a toi', ZZ 1881, P 1899, 930 1888); 2 do not read | completed 2026-11-09 |
 | 43 | 18 ads ranked 2nd-10th, transcribed from scans: 7 letter ciphers, 4 abbreviated plain, 7 with digits. Two letter ads read under tables listed for other writers, best-of-63 null: 5 1 Jul 1882 'Aime-moi un peu, je t'aime et desire tant te baiser' (table 2217, ZZ's; p=0.003), J 16 Oct 1881 'A toi toujours' (2201; p=0.007). VE: all ads solved | completed 2026-11-10 |
 | 44 | 60 tables on 391 unsolved letter ads, 20,000 best-of-all shuffles each: 23 pass Bonferroni, 34 the FDR; most already candidates; 9 new readings transcribed and read by eye (e.g. 57E 1896 'Imposs. acc. rupture ss. explic.', Fin 1888, SZTL 1896, unsigned 1881 under the ZZ table) plus the Valentin ad of Dec 1878, which reads in English with the V. T. A. key (p<0.0005) | completed 2026-11-10 |
-| 45 | The V. T. A. key on every unsolved ad with letter-digit words; families sharing a table (ZZ, 5, the 1881 unsigned ad) read as correspondences in date order | pending |
+| 45 | V. T. A. key on 464 letter-digit ads from OCR: none passes Bonferroni (control: only 6 of 17 V. T. A. ads pass from OCR). Transcribed, three Valentin ads (Oct 1878 to Jan 1879) read with the 1877 key ('Deep in snow. Thanks for letter, will write to...'; 'Will send letter Wednesday'). Table 2217 reads five ads of Oct 1881 to Dec 1882 (unsigned, ZZ, 5) as one correspondence to 'ma Berthe cherie' | completed 2026-11-10 |
+| 46 | Transcribe the letter-digit ads that the OCR screen ranks highest and re-test under the V. T. A. key and the documented digit tables; look for more ads of the Berthe and Valentin correspondences by date | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -337,4 +338,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - A fast statistic (quadgram score, numba) makes a fair multiple-testing bar affordable: 20,000 best-of-all-tables shuffles per ad for 391 ads in under a minute.
 - A key checked on material it was not built from is the strongest evidence: the 1877 V. T. A. key reads an 1878 ad by 'prof. Valentin'.
 - Simple systems (Caesar shift, table 1001) still read many ads listed as undecrypted once plain stretches are cut and the scan is transcribed.
+
+## Added 2026-11-10: Round 45
+- Measure a screen's power on known material before trusting its silence: from OCR, the V. T. A. key recovers only 6 of its own 17 ads, so 'no new hits' from OCR says little.
+- In these ads the large initial letter is often the first cipher letter ('P87y' = deep).
+- One signature can hide several writers (5 covers numbers in 1875, table 2217 in 1882, letter-digit codes in 1883 and 1887), and one writer can use several signatures (ZZ, 5 and none for the Berthe letters).
 
