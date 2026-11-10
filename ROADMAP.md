@@ -103,9 +103,11 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 67 | Dotted number lists against 63 fixed numeric systems (11 documented tables, shifted and reversed alphabets) with a best-of-all null: OPQ 1877 reads under documented table 2308 ('Demain jeudi Miromesnil, deux heures et demi', p=0.0015); LINETTE fragments under 2307 not significant; two lists use numbers above 26; one too short | completed 2026-11-10 |
 | 68 | Triage rule refined (gate results from the whole history; weaknesses only from the latest round): A 6, B 132, C 42, D 11; duplicates none (310 codes). Next family chosen: tier-C documented-table ads (writer 25 of 1894 and 11 others) | completed 2026-11-10 |
 | 69 | Ten tier-C ads under documented systems transcribed and retested with matched nulls: 9 of 10 pass (25 of 1894 under Vigenere CD; 'Jeannette' 1881 reversed under 2210; 5 of 1875 and two CHERY under numeric tables; LILI and Po under digit tables); OPQ Oct 1877 (mostly plain) does not. Four Caesar leads updated from the Round 44 sweep. Triage: A 6, B 145, C 29, D 11 | completed 2026-11-10 |
-| 70 | The 18 tier-C table 2119 ads (partial readings): retranscribe the weakest from the scans and retest; then the remaining C families (C. H., Berthe, AIM) | pending |
+| 70 | Tier-C table 2119 ads: the twelve early leads (Dec 1883 to May 1886, read from OCR in Round 26) transcribed from the scans; all 12 read under the full key at p<=5e-4 against 2,000 shuffles (Bonferroni over 12), e.g. 30 Dec 1883 'mari pas content mais suis premier te souhaiter jour [de l']an'. Two older results recorded on their leads (72, 177). Four short ads stay in C (failed earlier tests). Triage: A 6, B 159, C 15, D 11; table 2119 B 116, C 4 | completed 2026-11-10 |
+| 71 | The remaining tier-C families (C. H., Berthe, AIM and the 2119 short ads): retranscribe and retest, or record why they stay in C | pending |
 
 ## Lessons learned
+- Leads read from OCR keep a low tier until they are transcribed: Round 70's twelve early 2119 ads all passed once read from the scans, so a weak tier often measured the OCR, not the cipher.
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
 - Short-text solvers overfit: the homophonic solver beat the true plaintext's score until a letter-frequency penalty was added.
 - A null built from real initials is much stricter than shuffled letters.

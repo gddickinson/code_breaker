@@ -391,18 +391,20 @@
    "image": "1883_18831226-J.jpg",
    "date": "1883-12-26",
    "signature": "J",
-   "reading": "Menn tant, ma pet[ite] femm[e]. Merci fl[eurs]. Refuse reveil pour rester avec ta pensee. T'aime a passion. M. Tilly. This ad is partly read: menn is not understood.",
+   "reading": "MENN TANT MA PET FEMM MERCI FL REFUSE REVEILL POUR RESTER AVEC TA PENSEE TAIME A PASSIOV M TILLY",
    "added": "earlier",
-   "transcribed": false,
-   "mentions": []
+   "transcribed": true,
+   "mentions": [
+    "Tilly"
+   ]
   },
   {
    "image": "1883_18831230-R.jpg",
    "date": "1883-12-30",
    "signature": "R",
-   "reading": "Mari pas content, mais suis premier te souhait[er] jour [de l']an. T'embrasse avec adoration, ma femme.",
+   "reading": "MARI PAS CONTENT MAIS SUIS PREMIER TE SOUHAIT JOUR AN TEMBRASSE AVEC ADARATABN MA FEMME",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -418,9 +420,9 @@
    "image": "1884_18840112-E.jpg",
    "date": "1884-01-12",
    "signature": "E",
-   "reading": "Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read.",
+   "reading": "MERCI PET FEMM HOMML PAS VRAI MAIS Y TIENS PAS",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -503,9 +505,9 @@
    "image": "1884_18840219-H.jpg",
    "date": "1884-02-19",
    "signature": "H",
-   "reading": "Je te.. avant de partir, ma petite femme ador[ee].",
+   "reading": "JE TEMBR AVANT DE PARTIR MA PETITE FEMME ADOR",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -577,9 +579,9 @@
    "image": "1884_18840306-O.jpg",
    "date": "1884-03-06",
    "signature": "O",
-   "reading": "Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read.",
+   "reading": "HIER ETE CAMPAG MERE PENSE TOI PARTIE DEJ TADO",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -595,9 +597,9 @@
    "image": "1884_18840312-N.jpg",
    "date": "1884-03-12",
    "signature": "N",
-   "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X.",
+   "reading": "FAIS TOI CHANTER MA PART MAIS LABSENCE PAR FIL",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -678,9 +680,9 @@
    "image": "1884_18840531-J.jpg",
    "date": "1884-05-31",
    "signature": "J",
-   "reading": "Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame.",
+   "reading": "MERCI DET MA PENSEE EST A TOI JE TAIME T MON AME",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -696,9 +698,9 @@
    "image": "1884_18840605-I.jpg",
    "date": "1884-06-05",
    "signature": "I",
-   "reading": "Ne trou[b]l[e] pas, ma cherie, tu es ma femme adoree. The second word prints as TOU1L; this ad is partly read.",
+   "reading": "NE TOUBL PAS MA CHERIE TU ES MA FEMME ADOREE",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -743,9 +745,9 @@
    "image": "1884_18841221-S.jpg",
    "date": "1884-12-21",
    "signature": "S",
-   "reading": "Ma cherie, merc[i] lett[re], je t'aim[e], ma femme, ma vie.",
+   "reading": "MA CHERIE MERC LETT JE TAIM MA FEMME MA VIE",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -779,9 +781,9 @@
    "image": "1885_18850212-E.jpg",
    "date": "1885-02-12",
    "signature": "E",
-   "reading": "T'embr[asse] en me levant, mon amour, ma femme. Pass.. This ad is partly read.",
+   "reading": "TEMBR EN ME LEVANT MON AMOUR MA FEMME PASS",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -957,9 +959,9 @@
    "image": "1886_18860121-E.jpg",
    "date": "1886-01-21",
    "signature": "E",
-   "reading": "Cert[ain] lund[i] par.. je t'ad[ore], ma femme, ne pense qu'a toi. This ad is partly read.",
+   "reading": "CERT LUND PAR JE TAD MA FEMME NE PENSE QUA TOI",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -1056,9 +1058,9 @@
    "image": "1886_18860529-P.jpg",
    "date": "1886-05-29",
    "signature": "P",
-   "reading": "Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read.",
+   "reading": "TE CHERC DEPART MENN TANT DE TOI MA FEM CHER",
    "added": "earlier",
-   "transcribed": false,
+   "transcribed": true,
    "mentions": []
   },
   {
@@ -1246,6 +1248,7 @@
   ],
   "Tilly": [
    "1883-06-09",
+   "1883-12-26",
    "1884-05-03"
   ],
   "our girl": [

@@ -95,3 +95,12 @@ def test_t_and_42_ads_and_key_history():
     early, late = d["1882_18820204-42.jpg"], d["1882_18821012-42.jpg"]
     assert "09j6 g9i" in early and "orj6 grp" in late  # 9 and i early, r and p later, both 'love you'
     assert T.decode("09j6 g9i", k) == T.decode("orj6 grp", k)
+
+
+def test_early_leads_transcribed_and_read():
+    d = json.loads(T.FAMILY.read_text())["checked_early"]
+    k = T.full_key()
+    assert len(d) == 12
+    for img, t in d.items():
+        assert T.share(t, k) >= 0.45, img
+    assert "TILLY" in " ".join(T.decode(d["1883_18831226-J.jpg"], k))

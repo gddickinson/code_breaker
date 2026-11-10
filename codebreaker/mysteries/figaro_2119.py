@@ -166,7 +166,7 @@ def full_timeline() -> dict:
     """Round 50: every member so far (Rounds 26, 47-49), read with the full key where transcribed, and what each mentions."""
     r = json.loads(RESULT.read_text())
     d, k = json.loads(FAMILY.read_text()), full_key()
-    trans = {**d["ads"], **d.get("checked_screen", {}), **d.get("checked_rescreen", {}), **d.get("checked_residual", {}), **d.get("checked_t42", {})}
+    trans = {**d["ads"], **d.get("checked_screen", {}), **d.get("checked_rescreen", {}), **d.get("checked_residual", {}), **d.get("checked_t42", {}), **d.get("checked_early", {})}
     rows = {e["image"]: e for e in r["timeline"]}
     for i in {**d.get("checked_rescreen", {}), **d.get("checked_residual", {}), **d.get("checked_t42", {})}:
         rows.setdefault(i, {"image": i, "date": f"{i[5:9]}-{i[9:11]}-{i[11:13]}", "signature": i.split("-", 1)[1][:-4] if "-" in i else "", "added": "Round 49-50"})

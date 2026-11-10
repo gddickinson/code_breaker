@@ -3,9 +3,9 @@
  "leads": 191,
  "tiers": {
   "D": 11,
-  "B": 145,
+  "B": 159,
   "A": 6,
-  "C": 29
+  "C": 15
  },
  "by_family": {
   "other codes": {
@@ -34,8 +34,8 @@
    "B": 10
   },
   "table 2119 correspondence": {
-   "B": 102,
-   "C": 18
+   "B": 116,
+   "C": 4
   },
   "AIM dictionary code": {
    "C": 2
@@ -322,7 +322,7 @@
    "code": "figaro-1884-02-19-h",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Je te.. avant de partir, ma petite femme ador[ee]."
   },
@@ -331,7 +331,7 @@
    "code": "figaro-1884-03-12-n",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X."
   },
@@ -340,7 +340,7 @@
    "code": "figaro-1884-01-12-e",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read."
   },
@@ -358,7 +358,7 @@
    "code": "figaro-1884-05-31-j",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame."
   },
@@ -421,7 +421,7 @@
    "code": "figaro-1884-03-06-o",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read."
   },
@@ -439,7 +439,7 @@
    "code": "figaro-1886-05-29-p",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119)",
    "reading": "Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read."
   },
@@ -502,7 +502,7 @@
    "code": "figaro-1883-12-30-r",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Mari pas content, mais suis premier te souhait[er] jour [de l']an. T'embrasse avec adoration, ma femme."
   },
@@ -511,7 +511,7 @@
    "code": "figaro-1885-02-12-e",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "T'embr[asse] en me levant, mon amour, ma femme. Pass.. This ad is partly read."
   },
@@ -520,7 +520,7 @@
    "code": "figaro-1886-01-21-e",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Cert[ain] lund[i] par.. je t'ad[ore], ma femme, ne pense qu'a toi. This ad is partly read."
   },
@@ -538,7 +538,7 @@
    "code": "figaro-1883-12-26-j",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Menn tant, ma pet[ite] femm[e]. Merci fl[eurs]. Refuse reveil pour rester avec ta pensee. T'aime a passion. M. Tilly. This ad is partly read: menn is not unders"
   },
@@ -547,7 +547,7 @@
    "code": "figaro-1884-06-05-i",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Ne trou[b]l[e] pas, ma cherie, tu es ma femme adoree. The second word prints as TOU1L; this ad is partly read."
   },
@@ -556,7 +556,7 @@
    "code": "figaro-1884-12-21-s",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Ma cherie, merc[i] lett[re], je t'aim[e], ma femme, ma vie."
   },
@@ -565,7 +565,7 @@
    "code": "figaro-1887-01-11-5",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, R=O)",
    "reading": "Bonj[our] mad[ame] et chere epou[se], je vs aime a l'ad[oration], ma vie."
   },
@@ -1492,7 +1492,7 @@
    "code": "figaro-1886-04-01-b",
    "status": "needs_review",
    "family": "table 2119 correspondence",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
    "reading": "MON BONJ AUSSI MA FEM CHER ET TOUT MON AMOUR"
   },
