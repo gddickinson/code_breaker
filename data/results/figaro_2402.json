@@ -1,0 +1,116 @@
+{
+ "id": "figaro_2402",
+ "bar": 0.005,
+ "rows": [
+  {
+   "image": "1879_18790309b.jpg",
+   "share": 0.769,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "SERAI PARIS JEUDI DEUX M DIX AVEC MERE ARD B MIAS",
+   "passes": true,
+   "reading_extended": "SERAI PARIS JEUDI DEUX M DIX AVEC MERE ARD B MIAS"
+  },
+  {
+   "image": "1879_18790311b.jpg",
+   "share": 0.897,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "IMPOSSIBLE AVANT VENDREDI MATIN TEND CAR IASM",
+   "passes": true,
+   "reading_extended": "IMPOSSIBLE AVANT VENDREDI MATIN TEND CAR IASM"
+  },
+  {
+   "image": "1879_18790410.jpg",
+   "share": 0.522,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "COURAG E MON COEUR VOUS SUIR",
+   "passes": true,
+   "reading_extended": "COURAG E MON COEUR VOUS SUIR"
+  },
+  {
+   "image": "1879_18791230-4.jpg",
+   "share": 0.771,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "MA FEMME ADOREE MA PREMIERE PENS E E MON COEUR MA VIE MES SOUMAITS MES REVES DE BONHEUR",
+   "passes": true,
+   "reading_extended": "MA FEMME ADOREE MA PREMIERE PENS E E MON COEUR MA VIE MES SOUMAITS MES REVES DE BONHEUR"
+  },
+  {
+   "image": "1881_18810202.jpg",
+   "share": 0.875,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "PLUS DOUD SOUVENIR ET TENDRES BAISERS",
+   "passes": true,
+   "reading_extended": "PLUS DOUD SOUVENIR ET TENDRES BAISERS"
+  },
+  {
+   "image": "1881_18811107.jpg",
+   "share": 0.875,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "DOUX SOUVENIR TENDRES BAISERS MY OVVN",
+   "passes": true,
+   "reading_extended": "DOUX SOUVENIR TENDRES BAISERS MY OVVN"
+  },
+  {
+   "image": "1886_18860122-2Fev.jpg",
+   "share": 0.752,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "PARIS IMPOSSIBLE VEUX VOU VOIR INDIQUEZ JOUR SEREZ SEULE ORLEAN PITIE AI ETE SURPRI SUI AUSSI BROYE QUE VOU COEUR RESTE LE MEME",
+   "passes": true,
+   "reading_extended": "PARIS IMPOSSIBLE VEUX VOU VOIR INDIQUEZ JOUR SEREZ SEULE ORLEAN PITIE AI ETE SURPRI SUI AUSSI BROYE QUE VOU COEUR RESTE LE MEME"
+  },
+  {
+   "image": "1886_18860307-2F.jpg",
+   "share": 0.694,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "MMARDON DE TOUT MON COEUR BRISE TENDRE BAIS",
+   "passes": true,
+   "reading_extended": "MMARDON DE TOUT MON COEUR BRISE TENDRE BAIS"
+  },
+  {
+   "image": "1887_18870125-2F.jpg",
+   "share": 0.851,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "COEUR TOUJOURS MEME IRAI VOUS VOIR SEUL OU NON SUIVANT POSSIBLE RECU LETTRE TENDR SOUVEN",
+   "passes": true,
+   "reading_extended": "COEUR TOUJOURS MEME IRAI VOUS VOIR SEUL OU NON SUIVANT POSSIBLE RECU LETTRE TENDR SOUVEN"
+  },
+  {
+   "image": "1889_18890109-2F.jpg",
+   "share": 0.8,
+   "p": 0.0004997501249375312,
+   "rank": 1,
+   "reading": "TIMBRE MAL MIS PAR ACCIDEN TENDRE BAISERS",
+   "passes": true,
+   "reading_extended": "TIMBRE MAL MIS PAR ACCIDEN TENDRE BAISERS"
+  }
+ ],
+ "passed": [
+  "1879_18790309b.jpg",
+  "1879_18790311b.jpg",
+  "1879_18790410.jpg",
+  "1879_18791230-4.jpg",
+  "1881_18810202.jpg",
+  "1881_18811107.jpg",
+  "1886_18860122-2Fev.jpg",
+  "1886_18860307-2F.jpg",
+  "1887_18870125-2F.jpg",
+  "1889_18890109-2F.jpg"
+ ],
+ "missing": {
+  "missing": [],
+  "fitted_all": {},
+  "held_out_gain": 0.0,
+  "random_gain_mean": 0.0,
+  "random_gain_max": 0.0,
+  "p": 1.0
+ }
+}

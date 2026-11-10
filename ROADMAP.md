@@ -99,7 +99,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 63 | Non-Figaro codes with word breaks (1916 train station cryptogram, Ricky McCormick pages 1-2, Paul Rubin) through an English word-break pipeline with matched controls: none reads (planted controls 94-100%). The 1916 text, 17 enciphered words, is too short; McCormick and Rubin are not simple substitutions of English words | completed 2026-11-10 |
 | 64 | Ricky McCormick, four letter-frequency models fixed in advance (plain, vowel-dropped, word initials, any simple substitution of English): all rejected (p<=0.001). Vowels 25% of letters, almost all E; 38% of groups end in -SE against 1% of English words (descriptive): SE looks like an added marker | completed 2026-11-10 |
 | 65 | McCormick with -SE/-BE stripped: all four models still rejected (simple substitution closest, p=0.0045 against 0.0125); stems solved blind with word breaks do not beat shuffles or read (planted control 100%). Not a substitution of English | completed 2026-11-10 |
-| 66 | Le Figaro table 2402 family: transcribe its 16 ads, test under the documented key with shuffle nulls, infer missing symbols held out | pending |
+| 66 | Table 2402 family: 10 letter-digit ads of 1879-1889 (47, 74, '2 Fev.'), transcribed; all 10 read at p<=5e-4 with 2402 first of 32 tables; no symbols missing. Six dotted number lists once grouped with them are another system. Review tier: 2402 leads C -> B | completed 2026-11-10 |
+| 67 | The dotted number lists (1875 J, 1877 OPQ, 1879, 1882 LINETTE, 1883 pella, 1889 AVRIL): documented numeric tables and blind solve with dash word breaks | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -392,6 +393,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 52
 - A series that looks like a codebook can still be a substitution: heavy repetition came from repeated words ('ecris Arcachon'). Test the simple model with a planted control before assuming the complex one.
 - Seed agreement is a cheap extra check: three of seven blind runs reaching the same key is strong evidence the optimum is real.
+
+## Added 2026-11-10: Round 66
+- A 'family' built from OCR can mix systems: six of the sixteen 2402 ads were dotted number lists. Look at the scans before testing the family as one.
 
 ## Added 2026-11-10: Round 65
 - Removing an apparent marker brought the letters closer to English but not to readable English: a model can move toward a fit without fitting.

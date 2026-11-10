@@ -3,8 +3,8 @@
  "leads": 191,
  "tiers": {
   "D": 11,
-  "B": 122,
-  "C": 54,
+  "B": 132,
+  "C": 44,
   "A": 4
  },
  "by_family": {
@@ -29,7 +29,7 @@
    "B": 3
   },
   "documented table 2402": {
-   "C": 10
+   "B": 10
   },
   "table 2119 correspondence": {
    "B": 102,
@@ -284,7 +284,7 @@
    "code": "figaro-1881-11-07-74",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (letter-digit table 2402, listed for 74)",
    "reading": "Doux souvenir, tendres baisers, my own ... The last word is partly read."
   },
@@ -293,7 +293,7 @@
    "code": "figaro-1879-03-09b",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (letter-digit table 2402)",
    "reading": "Serai Paris jeudi deux dix avec mere."
   },
@@ -365,7 +365,7 @@
    "code": "figaro-1889-01-09-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Timbre mal mis par accident. Tendre baisers."
   },
@@ -383,7 +383,7 @@
    "code": "figaro-1879-04-10",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Courage, mon coeur, vous sui[s].. 47. This ad is partly read."
   },
@@ -392,7 +392,7 @@
    "code": "figaro-1886-01-22-2fev",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read)."
   },
@@ -410,7 +410,7 @@
    "code": "figaro-1886-03-07-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "[P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as MMARDON; PARDON is inferred, so this ad is partly"
   },
@@ -428,7 +428,7 @@
    "code": "figaro-1879-12-30-4",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read)."
   },
@@ -527,7 +527,7 @@
    "code": "figaro-1887-01-25-2f",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir]."
   },
@@ -572,7 +572,7 @@
    "code": "figaro-1879-03-11b",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood."
   },
@@ -581,7 +581,7 @@
    "code": "figaro-1881-02-02",
    "status": "needs_review",
    "family": "documented table 2402",
-   "tier": "C",
+   "tier": "B",
    "title": "Candidate reading (documented digit table 2402)",
    "reading": "Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred."
   },
