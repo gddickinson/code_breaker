@@ -198,3 +198,6 @@ Added Line Codes (Tools): Manchester, 4B5B with NRZI, 8b/10b with running dispar
 ## 2026-11-09: Round 32b
 Added Video Signals (Tools): sampled VGA in five standard modes (640x480, 720x400, 800x600, 1024x768, 1280x720) and monochrome composite video are rebuilt into pictures from their sync pulses. The control decodes 36 of 36 generated captures with a mean image correlation of 0.945, and none of 10 noise signals. Irregular sync and unlisted timings are refused with the measurements shown.
 
+## 2026-11-09: Problem finder check
+Ran `scripts/find_problems.py`. It added no codes (184 tracked before and after; Wikipedia categories returned 21 and 26 entries and AZdecrypt 43 files, all already tracked; the "Unsolved problems in cryptography" category still returns nothing). No duplicates or aliases to remove and no ciphertext added. The database's count of readable attempts rose from 1 to 2 only because the hunter repeated the known 1 July 1896 Le Figaro reading (the IGNOTA ad, already solved in the source database); nothing new.
+
