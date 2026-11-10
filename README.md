@@ -42,7 +42,7 @@ Everything runs on this computer. Models for bird and sound identification (Bird
 
 - **Mystery Lab**: 22 case files, including Beale, Dorabella, Kryptos K4, the Voynich manuscript, the Zodiac ciphers, the Tamam Shud code, Liber Primus, Rongorongo, Linear A and the Le Figaro personal-column ads.
 - **Lead Board and Solutions**: a database of 276 tracked codes with facts, leads, avenues and 14,673 logged attempts by the hunter, which runs the least-explored avenues and escalates effort over time.
-- **Le Figaro ads, 1875 to 1900**: OCR of the scans, fusion of two OCR engines with a French language model, the writers' documented substitution and digit tables, a dictionary beam search for letter-digit ads, and a dictionary code on an 1860 French dictionary. 52 candidate readings are recorded, 35 of them checked against the scan by eye, including what appears to be one couple's correspondence from 1883 to 1887. Whether any are new to the database maintainer has not been checked.
+- **Le Figaro ads, 1875 to 1900**: OCR of the scans, fusion of two OCR engines with a French language model, the writers' documented substitution and digit tables, a dictionary beam search for letter-digit ads, and a dictionary code on an 1860 French dictionary. 52 candidate readings are recorded, 35 of them checked against the scan by eye, including what appears to be one couple's correspondence from 1883 to 1887. Whether any are new to the database maintainer has not been checked. `docs/review_queue.md` lists every candidate awaiting review by family and strength of evidence.
 
 | A correspondence read under one writer's table | Candidate readings, sorted by how far each can be trusted |
 |---|---|

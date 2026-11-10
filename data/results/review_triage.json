@@ -1,0 +1,1777 @@
+{
+ "id": "review_triage",
+ "leads": 191,
+ "tiers": {
+  "D": 11,
+  "B": 122,
+  "C": 54,
+  "A": 4
+ },
+ "by_family": {
+  "other codes": {
+   "D": 5
+  },
+  "other documented tables": {
+   "B": 13,
+   "C": 12,
+   "D": 4
+  },
+  "Le Figaro, other": {
+   "C": 4,
+   "D": 2
+  },
+  "C. H. (Vigenere CEAD)": {
+   "C": 5,
+   "B": 1
+  },
+  "Berthe / table 2217": {
+   "C": 3,
+   "B": 3
+  },
+  "documented table 2402": {
+   "C": 10
+  },
+  "table 2119 correspondence": {
+   "B": 102,
+   "C": 18
+  },
+  "AIM dictionary code": {
+   "C": 2
+  },
+  "V. T. A. and Valentin": {
+   "A": 1,
+   "B": 3
+  },
+  "L. R. G. 1879-80": {
+   "A": 1
+  },
+  "Jane 1886": {
+   "A": 1
+  },
+  "B 1882-86": {
+   "A": 1
+  }
+ },
+ "unchecked_2119": [],
+ "rows": [
+  {
+   "id": 1,
+   "code": "beale-1",
+   "status": "promising",
+   "family": "other codes",
+   "tier": "D",
+   "title": "Alphabetical run under the Declaration",
+   "reading": "Decoding B1 with the Declaration gives DEFGHIIJKLMMNO, a 14-letter run."
+  },
+  {
+   "id": 2,
+   "code": "dagapeyeff",
+   "status": "promising",
+   "family": "other codes",
+   "tier": "D",
+   "title": "Pair grid: first digit 6-9, second 1-5",
+   "reading": "Pairs fall in a grid, with pair IC near language. Simple substitution in six languages fails, so a further layer is likely."
+  },
+  {
+   "id": 3,
+   "code": "tamam-shud",
+   "status": "promising",
+   "family": "other codes",
+   "tier": "D",
+   "title": "English word initials",
+   "reading": "Letter distribution fits English initials rather than running text."
+  },
+  {
+   "id": 4,
+   "code": "tamam-shud",
+   "status": "needs_review",
+   "family": "other codes",
+   "tier": "D",
+   "title": "Rubaiyat initials TSAMSTG",
+   "reading": "Seven letters match 'the Son and Malik Shah the Grandson' in FitzGerald's introduction."
+  },
+  {
+   "id": 5,
+   "code": "voynich",
+   "status": "promising",
+   "family": "other codes",
+   "tier": "D",
+   "title": "Conditional entropy far below language",
+   "reading": "H2 2.34 bits against 3.31-3.58 for six languages."
+  },
+  {
+   "id": 21,
+   "code": "figaro-1896-07-15",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate decryption (Caesar +1)",
+   "reading": "Tres reconnaissant de tout. Vous attends toujours. Ou et comment envoyer bouquin desire. Repondez par Annales aimees. Signed Rysck."
+  },
+  {
+   "id": 22,
+   "code": "figaro-1896-11-06-kp",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "C",
+   "title": "Strong candidate reading (substitution)",
+   "reading": "Voila longtemps je n'ai recu de mot me prouvant que tu m'aimes et penses toujours a moi. Pourtant je t'aime avec tendresse. Tu es mon souci, ma joie. Je vais en"
+  },
+  {
+   "id": 23,
+   "code": "figaro-1890-10-26-ve3",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CEAD, no W)",
+   "reading": "Suis en Italie, absent un mois. Amit[ies]."
+  },
+  {
+   "id": 24,
+   "code": "figaro-1896-08-17",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (Caesar shift 1)",
+   "reading": "Imposs[ible]. Quitt[e] groupe, vais a Lucerne. Ebris[?] serai gare Epinay le 21. Merci amie. Rysck."
+  },
+  {
+   "id": 25,
+   "code": "figaro-1892-07-30-h",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (Caesar shift 1)",
+   "reading": "Rien que toi occupe pense desir. Hate te voir."
+  },
+  {
+   "id": 26,
+   "code": "figaro-1890-10-04-mh",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (Caesar shift 1)",
+   "reading": "Lettre trop tard mar[di?] Dec[embre?]. Donnez rendez-vous."
+  },
+  {
+   "id": 27,
+   "code": "figaro-1886-06-29-ch",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CEAD, no W)",
+   "reading": "Tachez eviter sans refusez [partly read]."
+  },
+  {
+   "id": 28,
+   "code": "figaro-1894-10-03-25",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CD, no W (partial))",
+   "reading": "Comme tu voudras... [partly read]."
+  },
+  {
+   "id": 29,
+   "code": "figaro-1882-06-01-5",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "C",
+   "title": "Candidate reading (table 2217)",
+   "reading": "Pourquoi pas ecrire fa[che?] es grand peine amie. Round 45, transcribed from the scan: 'Pourquoi pas ecrire? Fa[i]tes grand peine [a votre] amie.' Part of the t"
+  },
+  {
+   "id": 30,
+   "code": "figaro-1877-11-08-r",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "D",
+   "title": "Candidate reading (table 2214, listed for R)",
+   "reading": "...nouvelles voyage... Portugal [partly read]."
+  },
+  {
+   "id": 31,
+   "code": "figaro-1880-11-05-r",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "D",
+   "title": "Candidate reading (table 2211, listed for R)",
+   "reading": "Souhait... amours... baiser... t'adore [partly read]."
+  },
+  {
+   "id": 32,
+   "code": "figaro-1879-08-14-r",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "D",
+   "title": "Candidate reading (table 2211, listed for R)",
+   "reading": "Pris ... bains bien pas un amie nuit mortel [partly read]."
+  },
+  {
+   "id": 33,
+   "code": "figaro-1891-10-30-coco",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "D",
+   "title": "Candidate reading (table 1116, listed for COCO)",
+   "reading": "...bronchite grave sera... [partly read; low coverage]"
+  },
+  {
+   "id": 34,
+   "code": "figaro-1882-12-24-5",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "C",
+   "title": "Candidate reading (table 2217)",
+   "reading": "Triste d'adieu si froid ton... meme te desire folle... te baise partout [partly read]. Round 45, transcribed from the scan: 'Triste adieu si froid. T'aime quand"
+  },
+  {
+   "id": 35,
+   "code": "figaro-1882-07-01-5",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "C",
+   "title": "Le Figaro 1 Jul 1882, writer 5: readable under table 2217",
+   "reading": "Aime moi un peu, je t'aime et desire tant te baiser."
+  },
+  {
+   "id": 36,
+   "code": "figaro-1884-11-13-78",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Le Figaro 13 Nov 1884, writer 78: Caesar 2",
+   "reading": "Je t'adore. Te voir est mon seul bonheur."
+  },
+  {
+   "id": 37,
+   "code": "figaro-1894-09-20-25",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "C",
+   "title": "Le Figaro 20 Sep 1894, writer 25: Vigenere CD without W",
+   "reading": "Espere diner avec toi ou serai tres peinee."
+  },
+  {
+   "id": 38,
+   "code": "figaro-1896-09-18-23",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "D",
+   "title": "Le Figaro 18 Sep 1896, writer 23: alternate letters contain UNIQUEMENT",
+   "reading": "This ad is only partly read. Every second letter gives OISTLPUNIQUEMENT; the other stream URAIMETKNALLPOA is unread."
+  },
+  {
+   "id": 39,
+   "code": "figaro-1881-10-07",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (reversed text, table 2210, listed for ARISTE)",
+   "reading": "Jeannette (signature, one letter extra). Rien depuis. Malade. T'aime toujours. Ou ecrire? T.p.m. Two letters do not fit and may be printing errors."
+  },
+  {
+   "id": 40,
+   "code": "figaro-1894-09-11-25",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "C",
+   "title": "Candidate reading (Vigenere CD without W)",
+   "reading": "Tous bien. Vous donnes baisers que j'envoi. One letter does not fit (vous) and baisers is short by a letter; this ad is partly read."
+  },
+  {
+   "id": 41,
+   "code": "figaro-1881-11-07-74",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (letter-digit table 2402, listed for 74)",
+   "reading": "Doux souvenir, tendres baisers, my own ... The last word is partly read."
+  },
+  {
+   "id": 42,
+   "code": "figaro-1879-03-09b",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (letter-digit table 2402)",
+   "reading": "Serai Paris jeudi deux dix avec mere."
+  },
+  {
+   "id": 43,
+   "code": "figaro-1884-04-27-h",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (letter-digit table 2119, extended)",
+   "reading": "Si gr[and] vide sans toi. Merci devin pensee fille. This ad is partly read."
+  },
+  {
+   "id": 44,
+   "code": "figaro-1883-06-05-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (fitted letter-digit key, close to table 2119)",
+   "reading": "Suis si mauv[aise] hum[eur], esperais tant. Tu vois rivaux. Gueris .. vite, viens, serions si heureux. Ton mari. This ad is partly read. Round 54 reading under "
+  },
+  {
+   "id": 45,
+   "code": "figaro-1884-02-19-h",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Je te.. avant de partir, ma petite femme ador[ee]."
+  },
+  {
+   "id": 46,
+   "code": "figaro-1884-03-12-n",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Fais toi chanter ma part, mais l'absence par fil.. This ad is partly read: 1 reads as B where the table gives X."
+  },
+  {
+   "id": 47,
+   "code": "figaro-1884-01-12-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Merci pet[ite] femm[e], homm.. pas vrai, mais y tiens pas. This ad is partly read."
+  },
+  {
+   "id": 48,
+   "code": "figaro-1890-02-03-lili",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2131)",
+   "reading": "Comme je voud[rais] toujours pres de .. etre, comme .. Lili .. (partly read)."
+  },
+  {
+   "id": 49,
+   "code": "figaro-1884-05-31-j",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Merci .. ma pensee est a toi. Je t'aime t[oujours], mon ame."
+  },
+  {
+   "id": 50,
+   "code": "figaro-1889-01-09-2f",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Timbre mal mis par accident. Tendre baisers."
+  },
+  {
+   "id": 51,
+   "code": "figaro-1889-10-19-chery",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2310)",
+   "reading": "Suis Rome. Desire nouvelles. Ecris. Amie, pensee a toi seule, femme adoree."
+  },
+  {
+   "id": 52,
+   "code": "figaro-1879-04-10",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Courage, mon coeur, vous sui[s].. 47. This ad is partly read."
+  },
+  {
+   "id": 53,
+   "code": "figaro-1886-01-22-2fev",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Oui Paris? Impossible vous voir, indiquez jour, serez seule .. (partly read)."
+  },
+  {
+   "id": 54,
+   "code": "figaro-1875-09-23-5",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2305)",
+   "reading": "[S]erai Paris vendredi. Ecris. Suis inquiet. D'une .. le .. t'aime (partly read)."
+  },
+  {
+   "id": 55,
+   "code": "figaro-1886-03-07-2f",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "[P]ardon de tout mon coeur brise. Tendre bais[ers]. The first word prints as 114032b, which the table gives as MMARDON; PARDON is inferred, so this ad is partly"
+  },
+  {
+   "id": 56,
+   "code": "figaro-1884-03-06-o",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Hier ete campag[ne]. Mere pense toi partie dej[a]. T'ado[re]. This ad is partly read."
+  },
+  {
+   "id": 57,
+   "code": "figaro-1879-12-30-4",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Ma femme adoree, ma premiere pensee, mon coeur, ma vie, mes souhaits, mes reves .. 47 (partly read)."
+  },
+  {
+   "id": 58,
+   "code": "figaro-1886-05-29-p",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119)",
+   "reading": "Te cherc[he] depart.. tant de toi, ma fem[me] chere. This ad is partly read."
+  },
+  {
+   "id": 59,
+   "code": "figaro-1890-07-09-po",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2135)",
+   "reading": "Tu rev.. pet.. Prefere te voir Paris. B. This ad is partly read; table listed for Po."
+  },
+  {
+   "id": 60,
+   "code": "figaro-1877-04-12-opq",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (documented numeric table 2308, listed for 777)",
+   "reading": "Demain jeudi Miromesnil, deux heures et demi. Pardon. Blank table cells were inferred: 15=J and 12=H; this ad is partly read."
+  },
+  {
+   "id": 61,
+   "code": "figaro-1889-11-08-chery",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (numeric table 2310, numbers with clear letters)",
+   "reading": "Ta lettre .. mais je ne peux t'aimer davantage. Me retro[u]veras t'idolatrant. Ne doute pas de moi. T'adore. The print gives RETROVERAS without U; this ad is pa"
+  },
+  {
+   "id": 62,
+   "code": "figaro-1877-10-06-opq",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "C",
+   "title": "Candidate reading (numeric table 2308, mixed with plain French and German)",
+   "reading": "Merci let[tre].. samed[i], mercred[i].. 10 h 1/4. T'ad[ore]. Mit Schmerzen. Only the plain words read; number groups partly read."
+  },
+  {
+   "id": 63,
+   "code": "figaro-1882-01-20-aim",
+   "status": "needs_review",
+   "family": "AIM dictionary code",
+   "tier": "C",
+   "title": "Candidate reading (Landais Petit dictionnaire, 1860, dictionary code)",
+   "reading": "Gelee, pas chasse probable. Serai vendredi de neuf [heures et] demie et quatre [heures et] demie. Faites votre possible. R.Y. Partly read: vendredi and neuf are"
+  },
+  {
+   "id": 64,
+   "code": "figaro-1882-02-16-aim",
+   "status": "needs_review",
+   "family": "AIM dictionary code",
+   "tier": "C",
+   "title": "Candidate reading (Landais Petit dictionnaire, 1860, dictionary code)",
+   "reading": "Vs pens.. petite. Merci pate, terrine. Vous, ajustement, bidet, tendre.. baiser.. levres.. partout. Ry. This ad is partly read: petite, merci, vous, partout fro"
+  },
+  {
+   "id": 65,
+   "code": "figaro-1883-12-30-r",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Mari pas content, mais suis premier te souhait[er] jour [de l']an. T'embrasse avec adoration, ma femme."
+  },
+  {
+   "id": 66,
+   "code": "figaro-1885-02-12-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "T'embr[asse] en me levant, mon amour, ma femme. Pass.. This ad is partly read."
+  },
+  {
+   "id": 67,
+   "code": "figaro-1886-01-21-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Cert[ain] lund[i] par.. je t'ad[ore], ma femme, ne pense qu'a toi. This ad is partly read."
+  },
+  {
+   "id": 68,
+   "code": "figaro-1887-01-25-2f",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Coeur toujours meme. Irai vous voir seul ou non suivant possible. Recu lettre. Tendr[e] souven[ir]."
+  },
+  {
+   "id": 69,
+   "code": "figaro-1883-12-26-j",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Menn tant, ma pet[ite] femm[e]. Merci fl[eurs]. Refuse reveil pour rester avec ta pensee. T'aime a passion. M. Tilly. This ad is partly read: menn is not unders"
+  },
+  {
+   "id": 70,
+   "code": "figaro-1884-06-05-i",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Ne trou[b]l[e] pas, ma cherie, tu es ma femme adoree. The second word prints as TOU1L; this ad is partly read."
+  },
+  {
+   "id": 71,
+   "code": "figaro-1884-12-21-s",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Ma cherie, merc[i] lett[re], je t'aim[e], ma femme, ma vie."
+  },
+  {
+   "id": 72,
+   "code": "figaro-1887-01-11-5",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, R=O)",
+   "reading": "Bonj[our] mad[ame] et chere epou[se], je vs aime a l'ad[oration], ma vie."
+  },
+  {
+   "id": 73,
+   "code": "figaro-1879-03-11b",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Impossible avant vendredi matin. Tend[re]. Car.. This ad is partly read: the last group is not understood."
+  },
+  {
+   "id": 74,
+   "code": "figaro-1881-02-02",
+   "status": "needs_review",
+   "family": "documented table 2402",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2402)",
+   "reading": "Plus doux souvenir et tendres baisers. The printed DOU3 gives D, not X, so doux is inferred."
+  },
+  {
+   "id": 75,
+   "code": "figaro-1877-vta",
+   "status": "needs_review",
+   "family": "V. T. A. and Valentin",
+   "tier": "A",
+   "title": "Candidate key for the V. T. A. correspondence (pooled homophonic substitution)",
+   "reading": "English (and some French) love letters with enciphered words in letters, digits and a cross. One homophonic key (e=8/7, t=2/1, s=4/3, n=5/6, d=p/9, r=l/c, l=v/g"
+  },
+  {
+   "id": 76,
+   "code": "figaro-1884-07-30-ch",
+   "status": "needs_review",
+   "family": "Le Figaro, other",
+   "tier": "D",
+   "title": "Enciphered block inside a plain ad",
+   "reading": "Workbench crack (51 attacks, French): not cracked; best 38% word coverage, a shuffled copy reached 48%. 29 letters is near or below the unicity distance of most"
+  },
+  {
+   "id": 77,
+   "code": "figaro-1884-03-31-ch",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "B",
+   "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
+   "reading": "[...] prie, priez pour moi (LINGKTRL... decodes JENDIPRIE IPRIEZPOURMOI; the start is unclear)"
+  },
+  {
+   "id": 78,
+   "code": "figaro-1884-07-30-ch",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
+   "reading": "[...] ce que j'ai fait a notre e[n]fant (one key step skipped after FAIT; EDFANT for ENFANT)"
+  },
+  {
+   "id": 79,
+   "code": "figaro-1884-08-05-ch",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
+   "reading": "Je pars. Espere encore [re?]voir ce[z] moi."
+  },
+  {
+   "id": 80,
+   "code": "figaro-1886-06-29-ch",
+   "status": "needs_review",
+   "family": "C. H. (Vigenere CEAD)",
+   "tier": "C",
+   "title": "Candidate reading under the documented C. H. key (Vigenere CEAD, no W, key restarting at each block)",
+   "reading": "Tachez eviter sans refuse[r]. Tac. Le huit."
+  },
+  {
+   "id": 81,
+   "code": "figaro-1899-10-14-p",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1005, listed for P)",
+   "reading": "[S.] aim[e], env[oie] suit[e] ce t'ai dem[ande?] av[ec] nouv[elles] sant[e], m[ille] bais[ers]."
+  },
+  {
+   "id": 82,
+   "code": "figaro-1890-06-19-geo",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1110, listed for GEO)",
+   "reading": "Il y a un an! Follement je t'attends. Tout a toi."
+  },
+  {
+   "id": 83,
+   "code": "figaro-1881-11-19-zz",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2217, listed for ZZ)",
+   "reading": "Ai lettre, merci, mais ecris ... t'adore, s'ennuie de [toi?]. Je baise tes levres, ma cherie."
+  },
+  {
+   "id": 84,
+   "code": "figaro-1888-08-03-930",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1011, listed for 930)",
+   "reading": "Cour[age]. Sui[s] cont[ent], desir q[ue] t[u] parl[es]... continu... imp... suiv... cons... aim... trop... depar[t] apre[s] let[tre] rec[ue]..."
+  },
+  {
+   "id": 85,
+   "code": "figaro-1882-07-01-5",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2217, listed for another writer)",
+   "reading": "Aime-moi un peu, je t'aime et desire tant te baiser."
+  },
+  {
+   "id": 86,
+   "code": "figaro-1881-10-16-j",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2201, listed for another writer)",
+   "reading": "A toi toujours."
+  },
+  {
+   "id": 87,
+   "code": "figaro-1880-11-25-7",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2201)",
+   "reading": "... rare[m]ent affect[ion] ne s'achete p[as]. Pense a t[oi] ... part lundi."
+  },
+  {
+   "id": 88,
+   "code": "figaro-1881-07-31-lb48",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2134)",
+   "reading": "[St-]Valery[-en-]Caux, rue du Havre, maison capitaine [B]rizher (an address)."
+  },
+  {
+   "id": 89,
+   "code": "figaro-1881-10-12-sweep",
+   "status": "needs_review",
+   "family": "Berthe / table 2217",
+   "tier": "B",
+   "title": "Candidate reading (documented table 2217)",
+   "reading": "Soyez bonne, cherie, je [t']aime tant, jouissons."
+  },
+  {
+   "id": 90,
+   "code": "figaro-1883-07-25-sweep",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1105)",
+   "reading": "Voudrais adresse vague."
+  },
+  {
+   "id": 91,
+   "code": "figaro-1888-10-28-fin",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1101)",
+   "reading": "Sera imp[ossible] n[ou]s voir ap[res] din[er], tach[erai] sortir 6 h. Serai devan[t] 21 ... merc[redi] 10 h rue D en t[out] ca[s] 3 h ..."
+  },
+  {
+   "id": 92,
+   "code": "figaro-1892-08-04-sweep",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1001)",
+   "reading": "[...] rentre samedi trois heures ... folie."
+  },
+  {
+   "id": 93,
+   "code": "figaro-1896-08-23-sweep",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1001)",
+   "reading": "Rappele a mer, fam[ille] mal[ade], pas Macfiavel, indecis sur program[me], devoir impose le votre: l'amitie."
+  },
+  {
+   "id": 94,
+   "code": "figaro-1898-05-11-sweep",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1001)",
+   "reading": "... je des[ire] jouir d[an]s t[es] bras."
+  },
+  {
+   "id": 95,
+   "code": "figaro-1896-09-09-57e",
+   "status": "needs_review",
+   "family": "other documented tables",
+   "tier": "B",
+   "title": "Candidate reading (documented table 1125)",
+   "reading": "Imposs[ible] acc[epter] rupture s[an]s explic[ation]."
+  },
+  {
+   "id": 96,
+   "code": "figaro-1878-12-26-valentin",
+   "status": "needs_review",
+   "family": "V. T. A. and Valentin",
+   "tier": "B",
+   "title": "Candidate reading (the V. T. A. key of 1877)",
+   "reading": "[K]eep in snow. Thanks for letter, will write to [...]. (Signed prof. Valentin; the V. T. A. key of 1877.)"
+  },
+  {
+   "id": 97,
+   "code": "figaro-1878-10-10-valentin",
+   "status": "needs_review",
+   "family": "V. T. A. and Valentin",
+   "tier": "B",
+   "title": "Candidate reading (the V. T. A. key of 1877)",
+   "reading": "... lund[i] minuit ... enough ... all time (partly read)."
+  },
+  {
+   "id": 98,
+   "code": "figaro-1879-01-14-valentin",
+   "status": "needs_review",
+   "family": "V. T. A. and Valentin",
+   "tier": "B",
+   "title": "Candidate reading (the V. T. A. key of 1877)",
+   "reading": "[F]ound three tidings[?]. Thanks. Will send letter Wednesday."
+  },
+  {
+   "id": 99,
+   "code": "figaro-1882-03-11-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "TOSEE MY DEAR FACE A.AIN CANNOT LIVE MORE SANS TOI MA FEMME ADOREE XAC. DEMAIN CHA.ET"
+  },
+  {
+   "id": 100,
+   "code": "figaro-1883-06-12-5",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "NI MECH NI S.RT INDIFF TRY ARRAN. PERE CHAL S.ND LOVE YO. ALL COE.R FOR EVER MY .IFE IF XAC. TIDAL FRIDAY AFTERN CAN YO. COME NINE O. TEN NI.HT"
+  },
+  {
+   "id": 101,
+   "code": "figaro-1885-02-16-r",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "VIE MERC T.ENTY PAST NINE MAT XALE COMME SORT LIT REV MARD SOIN JE TADORE MA FEMME AIMEE"
+  },
+  {
+   "id": 102,
+   "code": "figaro-1886-06-08-m",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "M .O XRET MOI CR PAS RAIN NO XET LOV YO. DEAL"
+  },
+  {
+   "id": 103,
+   "code": "figaro-1887-01-01-2",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "TON MAR TEMX CEL DE TO.S TO.S Q.I TAIM LE P..S"
+  },
+  {
+   "id": 104,
+   "code": "figaro-1883-11-25-j",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "SO SORRY NOT SEEN YO. PENSE TOI TO.T IO.R PORTR DEV MOI SOIS PAS MA.H P.ISQ.E TAIME TANT MA FEMME"
+  },
+  {
+   "id": 105,
+   "code": "figaro-1884-06-08-n",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "NO MY DEAR .IFE I DONT FOR.ET YO. ENN DE TOI TANT"
+  },
+  {
+   "id": 106,
+   "code": "figaro-1881-12-06-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "LIE OTH .OM DO EVERY MINUT SO MUCH LOV LOV YOU"
+  },
+  {
+   "id": 107,
+   "code": "figaro-1887-01-20-8",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "MOTH ILL SI V PAS RID PET R.E O. CONTIN.E PORT"
+  },
+  {
+   "id": 108,
+   "code": "figaro-1886-03-30-a",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "PARL JAM TROP DE TOI PEINT ALL DAY HIER LOV (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 109,
+   "code": "figaro-1884-03-11-a",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "C DAYS SA LETT MON TRESOR QUE JE SERA LONG TAI TA (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 110,
+   "code": "figaro-1886-06-05-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "SI HEUR HAVE NEWS DAIL WHY NOT SLEEP TAIME (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 111,
+   "code": "figaro-1884-01-13-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "DES Q TAI DIT LE RAMEN ME REPEJS A TOI VIE CHERIE (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 112,
+   "code": "figaro-1885-06-03-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "WHEN DULL ON ECR XONJ ON PRIV PAS MARI PAIN QUOT I LOVE YOU MN DEAREST WIF FOR EVER XE CALM (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 113,
+   "code": "figaro-1885-06-23-j",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "A VENK MA CHERIE JE PENSE A TOI DAY ET NUIT (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 114,
+   "code": "figaro-1884-03-23-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "A APO DEM MOI ALSO LONG AFT YOU MY DEAREST LOVE (with the inferred values for symbols missing from the table) Round 54 reading under the full table 2119 key: BA"
+  },
+  {
+   "id": 115,
+   "code": "figaro-1887-01-13-6",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "MA PET FEM JE TEM AIN QUE MON AMI CHERI XI JOLI (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 116,
+   "code": "figaro-1884-01-28-s",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "MOND SOIR TR CLAIR SAXLR PASS THRO POST STOP HAT XAINS TA SEE IF FOLLOWED XACK TR FIVE (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 117,
+   "code": "figaro-1885-02-11-m",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "SI POUV MEET QQPART LUI PARTI DIM THINK OVER IT SI TU SAVAIS COMME JE TAIME MA FEMME ADO (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 118,
+   "code": "figaro-1885-02-07-2119",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "NON MA CHERIE OUXLIER PAS TU ES MA VIE TOUJ (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 119,
+   "code": "figaro-1885-06-06-d",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "TR IMPR VAUDR MIE POST REST JE TAIME CHERI (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 120,
+   "code": "figaro-1884-03-18-o",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "TU ENCOUR WARESSE FILL TE GRONDE EN TAIMANT AME (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 121,
+   "code": "figaro-1883-02-20-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "SO ANNOYED NOW WE ARE GOING TO XE SPIED SHARPLY QUE FAIRETRY TO KNOW WHO IT IS XESOIN TES LETTRES ME CONSOLER PAS VU MM TU NE SAIS PAS COMME JE TAIME (with the "
+  },
+  {
+   "id": 122,
+   "code": "figaro-1885-12-05-r",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "UNLES WO FIG XACK DIM SOIR QUE JE TAIME MA TILL (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 123,
+   "code": "figaro-1882-04-28-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "WANT YOU SO MUCH FEEL MU AWKWARD SANS TOI SAIS QUOI FAIRP DE MDI ADIMAN MA FEMME XIEV AIMEE (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 124,
+   "code": "figaro-1882-06-13-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "WANT YOU SO MUCH DONT FORGAT ME XACK AS BOON POSSIXLE CANNOT FORCE RETURN MAIS RETIENDREI PAS (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 125,
+   "code": "figaro-1885-11-30-o",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "YOU FAIL ME SO MUCH I FEEL HOW I LOVE YOU WIF (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 126,
+   "code": "figaro-1886-04-05-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "THIS FITH WORD ALL DAYS PAINT ET PENSE TOI (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 127,
+   "code": "figaro-1884-01-05-d",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "A TA RENTREE SACHE MON AMOUR ETERNEL MA FEMM AD (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 128,
+   "code": "figaro-1884-06-09-d",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, R=O; the 2119 correspondence)",
+   "reading": "HOPE SLEPT WELL XACK MID NEAT WEEK AD YOU (with the inferred values for symbols missing from the table)"
+  },
+  {
+   "id": 129,
+   "code": "figaro-1886-01-28-i",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "AM NOW CLOSE TO YOU TLY KNOW WHY HOW LEFT HER"
+  },
+  {
+   "id": 130,
+   "code": "figaro-1884-01-17-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TWO WORD FIG SAT BACK BEF END MONTH AD Y MY LOVE (full key)"
+  },
+  {
+   "id": 131,
+   "code": "figaro-1886-12-19-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "VI LUND QUART TO FIVE QUE LETT QA FAIT BIEN AD (full key)"
+  },
+  {
+   "id": 132,
+   "code": "figaro-1883-11-27-a",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "GPNTIL ECR MIND PIEGE HE WANTS PEOPLE BELIEVE YOU CHANGP BECAUSE I AWAY SO HAPPY FL TAIME PASSI (full key)"
+  },
+  {
+   "id": 133,
+   "code": "figaro-1884-01-25-i",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "HAVE WR L START DEM LOVE YOU MY WIFE FOR EVEN"
+  },
+  {
+   "id": 134,
+   "code": "figaro-1884-01-15-s",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "FIG PAS REG ENRAG PAS FAUTE TAD PL EN PLFEM CHER (full key)"
+  },
+  {
+   "id": 135,
+   "code": "figaro-1884-02-27-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "CE SOIR AU BAL PENSE A MOI MA FEMME JE TAIME PASS (full key)"
+  },
+  {
+   "id": 136,
+   "code": "figaro-1886-01-30-l",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BACK BEGIN NEAT WEEK AS OBL DINE LEV SUND LOV (full key)"
+  },
+  {
+   "id": 137,
+   "code": "figaro-1882-12-09-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MERCI MADAME C L VOTRE LETTRE NOT LONG ENOUGH VEUA SAVOIR MINUTCE QUE FAIS TE GARDE MON COEUR TOUT ENTI JE TADORE"
+  },
+  {
+   "id": 138,
+   "code": "figaro-1885-06-09-o",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "DEM BRET PAS VU MM I MIN EN TOUT A TOI SEULE (full key)"
+  },
+  {
+   "id": 139,
+   "code": "figaro-1886-12-18-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TE VERR OU QUAND VOUDR MISON OU RUE MA FEM AD (full key)"
+  },
+  {
+   "id": 140,
+   "code": "figaro-1885-12-01-s",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "WR ME ON YOUR PAPER I DONT PLAY LOVE YOU FONDL (full key)"
+  },
+  {
+   "id": 141,
+   "code": "figaro-1885-02-09-m",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "LETT DAIMY MAKE ME SO GLAD AND KNOW TA VIE (full key)"
+  },
+  {
+   "id": 142,
+   "code": "figaro-1886-12-17-g",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MERC MID PAS MOT DE TOI SAIS TU QUE MEURS DANG MANQ TU FOI JUL JE SOUF TANT CR RIEN QUE DE MOI (full key)"
+  },
+  {
+   "id": 143,
+   "code": "figaro-1886-01-08-i",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "NE TOUBL PAS MA FEM TOUT NE MEST QUE DE MOITIE (full key)"
+  },
+  {
+   "id": 144,
+   "code": "figaro-1885-06-16-l",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "OLD MIGHT DO GREAT HARM SEND FATH ARR WITH JUL BACK END WEEK SAUFF ABS COM TOI TAIME AME (full key)"
+  },
+  {
+   "id": 145,
+   "code": "figaro-1884-01-16-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "GEJS GATES SONT AME EN PEINE SANS LETT LEUR FEM (full key)"
+  },
+  {
+   "id": 146,
+   "code": "figaro-1883-06-07-8",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MOTH CAME ONLY HIER HARDLY BACK BEF JEUDI MISS YOU SO POURRAIS TU PAS VEN DIM EMBRASSE HELIOT GLAD NOTES CHILD WANT WRITE YOU HOWTON MARI TAIME (full key)"
+  },
+  {
+   "id": 147,
+   "code": "figaro-1882-12-17-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "IF RIDEAU NOT OPEN ONE COME THREE MAY RETURN ANLY MONDAY MORNING VEUA CACHER RETOUR WANT YOU SO NUCH LOVING WIFE WRITES HUSBAND DAILY (full key)"
+  },
+  {
+   "id": 148,
+   "code": "figaro-1886-04-08-u",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BACK SAT CHAL SORS SOIR SI CRA VUE LUND SOI (full key)"
+  },
+  {
+   "id": 149,
+   "code": "figaro-1886-01-10-n",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BON BAISER D U MATIN MA PREM PENS ENV FL LEON (full key)"
+  },
+  {
+   "id": 150,
+   "code": "figaro-1884-02-28-l",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "ESP AMUSEE BAL GENTIL MECR DAILY TU AS TOUT M AM (full key)"
+  },
+  {
+   "id": 151,
+   "code": "figaro-1886-06-10-o",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MO GONE IF BACK MOND CO YOU COME EVEN AIME (full key)"
+  },
+  {
+   "id": 152,
+   "code": "figaro-1883-02-22-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "WORK DAILY TWO HOURS CLOSE PORTR TRY MAKE HIM LEAVE HER TOUT EN CONSTATANT POSITION POUR GARDER AVANTAGE CAS ECHEANT WIFE FOR EVER ADORE YOU (full key)"
+  },
+  {
+   "id": 153,
+   "code": "figaro-1883-02-27-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MOI AUSSI SOUFFRE ABSENCA ISIT BETTER REVINIR VENDRE TWO YOU COMING THREE DECIDE PAS VU MMTEM PS AFFAIRES CERCLE VAIS JEANNE TAIME ADORATI (full key)"
+  },
+  {
+   "id": 154,
+   "code": "figaro-1886-04-10-s",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "CR ETR PRIS LUND VI MARD REV SAM OU DIM LOVE (full key)"
+  },
+  {
+   "id": 155,
+   "code": "figaro-1882-03-09-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "YPS ALW WITH YOU MO DEAR LOVED WIFE MISS YOU SO MUCH MO FLOWPRS NOT FADED KISSED MORV AND NIG H T"
+  },
+  {
+   "id": 156,
+   "code": "figaro-1885-06-21-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BACK MIL WEEK POUR VEN VENDR MAT OU APR MID (full key)"
+  },
+  {
+   "id": 157,
+   "code": "figaro-1884-01-19-u",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "IMPN WR LOVE ALL SAME I WR DAILY PACK NEAT WEEK (full key)"
+  },
+  {
+   "id": 158,
+   "code": "figaro-1882-06-17-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BACK DEM ELEVEN IRAI DIM CHALET COME MONDAY ONE MAISON LONG AFTER YOU MY DEAREST DIFE (full key)"
+  },
+  {
+   "id": 159,
+   "code": "figaro-1883-02-17-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "PENSE TOI SANS CESSE PUISQUE MOITIE MA VIE ME MANQUE SO HAPPY LETTER BACK TU ES MA FEMME ADOREE SI ENNUYE PARTIR QUE OUBLIE SOUHAITER FETE (full key)"
+  },
+  {
+   "id": 160,
+   "code": "figaro-1884-02-24-0",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "ECR PLUS LUA HABITE CERCL MEDITERRANEE ASK FLOW LEON MOUBLIE PAS BAL LONG FOR LETTER LOVE YOU (full key)"
+  },
+  {
+   "id": 161,
+   "code": "figaro-1885-05-04-m",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "DIRAI DEM JOUR RET MENN DE TOI MARD OU MERCR (full key)"
+  },
+  {
+   "id": 164,
+   "code": "figaro-lrg",
+   "status": "promising",
+   "family": "L. R. G. 1879-80",
+   "tier": "A",
+   "title": "Reading: homophonic substitution, digits as letters (key from a blind solve)",
+   "reading": "29 Aug 1879: 'Pars trente. Arcachon. Prendre trains ... tendresse'; 2 Sep: '... par suite le trois. Ecris Arcachon poste'; 15 Sep: 'Merci ... lettres ... reste "
+  },
+  {
+   "id": 165,
+   "code": "figaro-1886-02-02-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BA WED OR TH VI FAIR SOILET VEND MAT OU APR MID"
+  },
+  {
+   "id": 166,
+   "code": "figaro-1884-02-29-d",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MERC DET BAL MUG ENF FINI CONT AV FAIT SACRIF AU MILIEU FOULES ET FETES UNE SEULE PENSEE MA SUIVI"
+  },
+  {
+   "id": 167,
+   "code": "figaro-1886-11-26-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "AT SAW ME GO IS IT PRUD WR I LOV YOU DEARLY"
+  },
+  {
+   "id": 168,
+   "code": "figaro-1883-03-01-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "YOU ARE RIGHT BUT THEN COME QUAQT TO ONEAS IF FETCHING FAN YOU MET ME DOOR DONT GO CHANAB GO PORT BACP DEMAIN MINUIT OH TE REVOIR MA FEMME ADOREE"
+  },
+  {
+   "id": 169,
+   "code": "figaro-1882-06-15-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "SI GENT LETT REV DIM SO SORRY SHOULD SUFFER ME BEING AWAY CULQE CEST MBI FEMME CHERIE MON AMOUR"
+  },
+  {
+   "id": 170,
+   "code": "figaro-1883-02-28-7",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MADE ME JEALEUS OUR GIRL ET MOI DONC SI JE MENNUIE SI PEUR REVENIR SO UNEASY TE SAVOIR SOUFFRIR"
+  },
+  {
+   "id": 171,
+   "code": "figaro-1883-06-09-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "GENTIL MAVOIR INQUIETE TOUT JOUROU EST MA DOUCE TILLY TELL DAY HE GOESTO ARRANGE SEE YOU AT ONCE NEVER FELT MORE HOW I ADORE YOU MY OWN WIFE"
+  },
+  {
+   "id": 172,
+   "code": "figaro-1882-06-07-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "VEUA TE LASSURER SUR COWWUNION ETIONS F ENFANTS QUI AVONS ETE ET QUI NOUS SOMMES TROMPES TU PEUA PENSER A MOI DEMAIV ET DIEU PEUT NOUS JUGER"
+  },
+  {
+   "id": 173,
+   "code": "figaro-1882-06-06-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "PENSE SI SOUVENT HIER MA PETITE DORMEUSE PORTRAIT MATIN CONSOLE SI PEU DU VIDE MA FEMM ADOREE"
+  },
+  {
+   "id": 174,
+   "code": "figaro-1882-12-15-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "SO CHAGRIN NO LETT YESTER ALLAIS PUNIR PORTRAIT PAS EU COURAGE ESTCE OUBLI CELA REV DIM SOIR INVITE J TA PENSEE MOI AUSSI MOURRAIS SANS UOI"
+  },
+  {
+   "id": 175,
+   "code": "figaro-1886-jane",
+   "status": "promising",
+   "family": "Jane 1886",
+   "tier": "A",
+   "title": "Candidate reading: numeric homophonic substitution (numbers 1-74), blind solve",
+   "reading": "8 Sep: '[Le] format de ce journal ne peut [suffire] a rendre les elans de mon coeur, les baisers, les caresses, tous les sentiments de mon amour ...'; 6 Sep: 'J"
+  },
+  {
+   "id": 176,
+   "code": "figaro-b-1882",
+   "status": "promising",
+   "family": "B 1882-86",
+   "tier": "A",
+   "title": "Reading: homophonic substitution with word breaks (blind solve)",
+   "reading": "8 Jul 1882 'Ecris vite, ton silence me desole. T'adore'; 8 Sep 1882 'Serai samedi train Vesinet. T'aime follement'; 1 Jan 1883 'T'envoie pensees, baisers, tout "
+  },
+  {
+   "id": 177,
+   "code": "figaro-1886-04-01-b",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MON BONJ AUSSI MA FEM CHER ET TOUT MON AMOUR"
+  },
+  {
+   "id": 178,
+   "code": "figaro-1882-04-30-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "COME MY ROOM TROIS CENQ OV.E ME PAS TE SUIS PENSEE YOU MY LOVE"
+  },
+  {
+   "id": 179,
+   "code": "figaro-1882-06-08-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "OUR LITTLE GIRL HER HOW I LOVE YOU MM SEEN HER"
+  },
+  {
+   "id": 180,
+   "code": "figaro-1882-06-10-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BIEN PENSE A TOI ES MA VIE CROIS MC IN LOVE"
+  },
+  {
+   "id": 181,
+   "code": "figaro-1882-12-12-paul",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "ABLE WRITE LOUE YOU DEARLY DAY AND NIGHT MY ADORED WIFE"
+  },
+  {
+   "id": 182,
+   "code": "figaro-1884-01-21-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "LEAV JEUDI BOUL MOND SOIR ALONE OU VOIN TAIME"
+  },
+  {
+   "id": 183,
+   "code": "figaro-1884-03-03-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TENV MON SOUV DU MATIN MA CHERIE TU ES MON AMOUR"
+  },
+  {
+   "id": 184,
+   "code": "figaro-1884-03-14-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "GLAD YOU HAVE HEL HEUR ETRE PL PRES TOI MON AMOU"
+  },
+  {
+   "id": 185,
+   "code": "figaro-1884-05-03-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "GENE ICI AFF ET INCERT TE VOIR REV DIM CHAL OU LUND BAUL SOIG BIEN BREILL TEMBR MA FEMM AD MA TILLY"
+  },
+  {
+   "id": 186,
+   "code": "figaro-1884-12-20-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MOTH SAYS COMES MARDI I ANSW THAT I MUST BE BACK BEFORE END YEAR REV PROBAB SAM FA AFT LOV"
+  },
+  {
+   "id": 187,
+   "code": "figaro-1885-02-17-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "RETENU BACK WEDN I OCLO COME O OCLO PAPI LOV"
+  },
+  {
+   "id": 188,
+   "code": "figaro-1885-06-25-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "LES F FOIS PAR RID MA CHERIE HOW I MISS YOU"
+  },
+  {
+   "id": 189,
+   "code": "figaro-1886-05-31-e",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "ENV PLUM HI AUR VOUL ETR AV NL TAD MA FEM CHE"
+  },
+  {
+   "id": 190,
+   "code": "figaro-1884-02-26-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "RECU CP SI GENTILLE AUSSI TOUJ PENSEE MA CHERIE"
+  },
+  {
+   "id": 191,
+   "code": "figaro-1884-03-19-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "RET FIBE PAR TOI VEUA TU OISEAUA TACHE ANR AFF"
+  },
+  {
+   "id": 192,
+   "code": "figaro-1884-05-01-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MON ADOREE MA PENSEE NE TE QUITTE PAS MERC"
+  },
+  {
+   "id": 193,
+   "code": "figaro-1884-06-12-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "REVI DEM ON.E SOIR VOUDR PAS TE REV VEND TREI.E ARR VEN SAM OU MIEUA LUND CAUTE FRED AME"
+  },
+  {
+   "id": 194,
+   "code": "figaro-1885-02-18-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TO DAY EMBR F PORTR AU LIEU DUN PAS ETE BALS"
+  },
+  {
+   "id": 195,
+   "code": "figaro-1885-05-31-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "OUI SEPAR TR LONG CONT SAV MIEUA TEMBR AIME"
+  },
+  {
+   "id": 196,
+   "code": "figaro-1885-12-03-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "WA PAP FOR MODEL GENTIL MECR DAILY MA FEM ADB"
+  },
+  {
+   "id": 197,
+   "code": "figaro-1886-01-24-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "A BIENT MAINT MA CHE TAIME AUTTI PL QUE C FOIS"
+  },
+  {
+   "id": 198,
+   "code": "figaro-1886-03-28-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "ARR PAR TROUV LETT TEMB ET TAIME TOUT COEUR"
+  },
+  {
+   "id": 199,
+   "code": "figaro-1886-06-02-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "MERC NOUV AMI CHAL VA GUER GEN MA TL ADO TAI"
+  },
+  {
+   "id": 200,
+   "code": "figaro-1886-06-13-t",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "C",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BA CE SOIR CHAL MOND EVEN BOUL TATT MARD LOV"
+  },
+  {
+   "id": 201,
+   "code": "figaro-1881-12-01-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "WILL WRITE DEMAIN LOVE BOU DEARLY CHAIN TOUJ AB COU ADORE MA FEMME CHPRIE MOV AME EOT A IOI"
+  },
+  {
+   "id": 202,
+   "code": "figaro-1881-12-08-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": ".SI JOLI SLEPT FLEUR BACK SAT CHALEC ECRIRAI V ENDR FIG SO HAPPY LETT I ADORE YOU WR"
+  },
+  {
+   "id": 203,
+   "code": "figaro-1881-12-10-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TPN MIVUTS TO ONP MAIGOE BORQIRAI PAB RPVTNPRAI DINPR DIMANCHP SOIR JP TADORP MA FEMME"
+  },
+  {
+   "id": 204,
+   "code": "figaro-1882-02-03-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "COMME JE PAIE BONH PASS COMMP JE BUIS SPUL PT QUPLLP NUIT JP TADONP MA PPTITE FEMMP CHENIP"
+  },
+  {
+   "id": 205,
+   "code": "figaro-1882-02-04-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "CERTAINLY WRITE HOUR WILL TEN DO LEAVE SIA DEMAIN LOVE YOU DEARLY"
+  },
+  {
+   "id": 206,
+   "code": "figaro-1882-03-07-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "TECRIS MATIN DEVANT PORTRAIT PARIS SO FULL OF THEE SINCE LAST TIME TADOR FOLIF WY OWN DARLIVG"
+  },
+  {
+   "id": 207,
+   "code": "figaro-1882-10-12-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "BACK FRIDAY POQS MONDAY AS OFFICE SATURDAY V FORGET LOVE YOU ALL MY HEART MY WIFE PROCES BUREAU"
+  },
+  {
+   "id": 208,
+   "code": "figaro-1883-06-14-42",
+   "status": "needs_review",
+   "family": "table 2119 correspondence",
+   "tier": "B",
+   "title": "Candidate reading (documented digit table 2119, full key; the 2119 correspondence)",
+   "reading": "NECESS KNOW WHATHE IS ABOUT BEFHE GOES TO AVOID BE CAUGHT ASK EBPLAN MOI AUSSI COEUR BAT"
+  }
+ ]
+}
