@@ -73,7 +73,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 37 | V. T. A. gate: with run-together words split into dictionary words of 3+ letters (nulls and controls scored alike) the held-out share is 78.5% against a bar of 77.9%, shuffled keys 14% (max 24%), scrambled control 28%: three gates pass narrowly, under a scoring chosen after the exact one failed. Flipping all 14 uncertain glyphs: 78.8%. Mixed plain-and-cipher search: only V. T. A. uses letters and digits; CH 30 Jul 1884 has one 29-letter block, not cracked | completed 2026-11-09 |
 | 38 | V. T. A. blind solve with no readings: best of 7 quadgram runs (chosen by score) agrees with the context key on 80% of symbol uses; shuffled symbols 12% (score -5.23 vs -4.76); planted correspondence 96%. Blind word-level refinement did not help (78%) and inflates on shuffles (61% word share). Audit: 58 of 204 words not fully explained (names, vocabulary gaps, a recurring second value for f, 0, n, y) | completed 2026-11-09 |
 | 39 | V. T. A. two-letter symbols: neighbouring second letters raise held-out coverage from 78.4% to 84.1%, but random non-neighbour letters do as well (84.3% mean, 86.8% max, p=0.59). Not supported; key unchanged | completed 2026-11-09 |
-| 40 | Pooled blind homophonic solves for other writers whose ads are ciphers (signatures with 150+ cipher letters not flagged plain), with the V. T. A. controls: best of 7 seeds by score, shuffled null, planted control | pending |
+| 40 | Pooled blind substitution by writer, plain stretches cut first. Real control: solved MINA and KP pass, TR and Jean fail (key changes between ads). Unsolved: 1 of 28 writers passes (KP, the existing candidate, now through all three gates against a bar from printed ads) | completed 2026-11-09 |
+| 41 | Writers who change key per ad (TR, Jean): measure each solved ad's key and look for a rule (shift by date or sequence) to apply to their unsolved ads | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -308,4 +309,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-09: Round 39
 - Any extra freedom raises coverage; the question is always whether the specific structure beats the same freedom placed at random. Here it did not.
 - A greedy fit with a small minimum gain gave almost every symbol a second value, for neighbours and random letters alike: the threshold matters less than the control.
+
+## Added 2026-11-09: Round 40
+- A real-data positive control (solved writers through the same pipeline) shows where a method cannot work: TR and Jean change keys between ads, so pooling them fails even though each ad is easy.
+- The coverage bar should come from text like the target: printed Le Figaro ads are abbreviated, so a planted control built from them sets a lower, fairer bar (about 45-55%) than full French prose.
+- Cutting plain stretches before solving matters: many 'cipher' ads open or close in plain French.
 
