@@ -1,0 +1,92 @@
+{
+ "egyptian_transliteration": {
+  "title": "Transliteration of Ancient Egyptian",
+  "url": "https://en.wikipedia.org/wiki/Transliteration_of_Ancient_Egyptian",
+  "bytes": 45320,
+  "fetched": "2026-11-10"
+ },
+ "gardiner_list": {
+  "title": "List of Egyptian hieroglyphs",
+  "url": "https://en.wikipedia.org/wiki/List_of_Egyptian_hieroglyphs",
+  "bytes": 6365,
+  "fetched": "2026-11-10"
+ },
+ "egyptian_uniliterals": {
+  "title": "Egyptian hieroglyphs",
+  "url": "https://en.wikipedia.org/wiki/Egyptian_hieroglyphs",
+  "bytes": 53422,
+  "fetched": "2026-11-10"
+ },
+ "linear_b": {
+  "title": "Linear B",
+  "url": "https://en.wikipedia.org/wiki/Linear_B",
+  "bytes": 104039,
+  "fetched": "2026-11-10"
+ },
+ "elder_futhark": {
+  "title": "Elder Futhark",
+  "url": "https://en.wikipedia.org/wiki/Elder_Futhark",
+  "bytes": 37227,
+  "fetched": "2026-11-10"
+ },
+ "younger_futhark": {
+  "title": "Younger Futhark",
+  "url": "https://en.wikipedia.org/wiki/Younger_Futhark",
+  "bytes": 14598,
+  "fetched": "2026-11-10"
+ },
+ "anglo_saxon_runes": {
+  "title": "Anglo-Saxon runes",
+  "url": "https://en.wikipedia.org/wiki/Anglo-Saxon_runes",
+  "bytes": 37780,
+  "fetched": "2026-11-10"
+ },
+ "ogham": {
+  "title": "Ogham",
+  "url": "https://en.wikipedia.org/wiki/Ogham",
+  "bytes": 52204,
+  "fetched": "2026-11-10"
+ },
+ "phoenician": {
+  "title": "Phoenician alphabet",
+  "url": "https://en.wikipedia.org/wiki/Phoenician_alphabet",
+  "bytes": 54156,
+  "fetched": "2026-11-10"
+ },
+ "gothic": {
+  "title": "Gothic alphabet",
+  "url": "https://en.wikipedia.org/wiki/Gothic_alphabet",
+  "bytes": 28278,
+  "fetched": "2026-11-10"
+ },
+ "coptic": {
+  "title": "Coptic alphabet",
+  "url": "https://en.wikipedia.org/wiki/Coptic_alphabet",
+  "bytes": 74,
+  "fetched": "2026-11-10"
+ },
+ "old_persian": {
+  "title": "Old Persian cuneiform",
+  "url": "https://en.wikipedia.org/wiki/Old_Persian_cuneiform",
+  "bytes": 37819,
+  "fetched": "2026-11-10"
+ },
+ "ugaritic": {
+  "title": "Ugaritic alphabet",
+  "url": "https://en.wikipedia.org/wiki/Ugaritic_alphabet",
+  "bytes": 34674,
+  "fetched": "2026-11-10"
+ },
+ "pigpen": {
+  "title": "Pigpen cipher",
+  "url": "https://en.wikipedia.org/wiki/Pigpen_cipher",
+  "bytes": 12328,
+  "fetched": "2026-11-10"
+ },
+ "rosetta": {
+  "title": "Rosetta Stone",
+  "url": "https://en.wikipedia.org/wiki/Rosetta_Stone",
+  "bytes": 82307,
+  "fetched": "2026-11-10"
+ }
+}

@@ -1,0 +1,64 @@
+{{Short description|none}}
+The total number of distinct [[Egyptian hieroglyphs]] increased over time from several hundred in the [[Middle Kingdom of Egypt|Middle Kingdom]] to several thousand during the [[Ptolemaic Kingdom]].
+
+In 1928/1929 [[Alan Gardiner]] published an overview of hieroglyphs, [[Gardiner's sign list]], the basic modern standard. It describes 763 signs in 26 categories (A&ndash;Z, roughly). [[Georg Möller]] compiled more extensive lists, organized by historical epoch (published posthumously in 1927 and 1936).
+
+In [[Unicode]], the block ''[[Egyptian Hieroglyphs (Unicode block)|Egyptian Hieroglyphs]]'' (2009) includes 1071 signs, organization based on Gardiner's list. As of 2016, there is a proposal by [[Michael Everson]] to extend the Unicode standard to comprise Möller's list.<ref>Michael Everson, ''[http://unicode.org/L2/L2016/16250-n4741-moller-egyptian.pdf Preliminary proposal to encode Möller's Egyptian Hieroglyphs in the SMP of the UCS]'', ISO/IEC JTC1/SC2/WG2 N4741 L2/16-250 (2016).</ref> Further hieroglyphs, including Ptolemaic variants, are encoded in ''[[Egyptian Hieroglyphs Extended-A]]''.
+
+==Subsets==
+Notable subsets of hieroglyphs:<ref>{{cite web | url=https://www.timetrips.co.uk/pharaoh%20names.htm| title= Time Trips}}</ref>
+* [[Egyptian hieroglyphs#Determinatives|Determinatives]]
+* [[Egyptian uniliteral signs|Uniliteral signs]]
+* [[Egyptian biliteral signs|Biliteral signs]]
+* [[Egyptian triliteral signs|Triliteral signs]]
+* [[Egyptian numerals]]
+
+==Letter classification by Gardiner==
+{{self-reference|1=Each entry links to the list below.}}
+{{#invoke:List of hieroglyphs|toc}}
+
+==List of hieroglyphs==
+{{List of hieroglyphs}}
+
+==See also==
+*[[Egyptian hieroglyphs]]
+*[[Transliteration of Ancient Egyptian]]
+*[[Egyptian Hieroglyph Format Controls]] (Unicode block)
+*[[List of cuneiform signs]]
+
+==References==
+{{Commons category|Hieroglyphs of Egypt}}
+{{Reflist}}
+* [[E. A. Wallis Budge|Budge, Sir E.A.Wallis]],  ''An Egyptian Hieroglyphic Dictionary, in Two Volumes,'' Sir E.A.Wallis Budge, (Dover Publications, Inc. New York), c 1920, Dover Edition, c 1978.  (Large categorized listings of Hieroglyphs, Vol 1, pp. xcvii–cxlvii (97–147) (25 categories, 1000+ hieroglyphs), 50 pgs.)
+*Faulkner, William (1991). [[iarchive:concisedictionar0000faul|Middle Egyptian]]. Griffith. {{ISBN|0-900416-32-7}}.:
+* [[Alan Gardiner|A.H. Gardiner]], ''Catalogue of the Egyptian hieroglyphic printing type, from matrices owned and controlled by Dr. Alan''  (1928).
+* A.H. Gardiner, "Additions to the new hieroglyphic fount (1928)", ''The Journal of Egyptian Archaeology'' 15 (1929), p.&nbsp;95.
+* A.H. Gardiner, "Additions to the new hieroglyphic fount (1931)", ''The Journal of Egyptian Archaeology'' 17 (1931), pp.&nbsp;245–247.
+* A.H. Gardiner, ''Supplement to the catalogue of the Egyptian hieroglyphic printing type, showing acquisitions to December 1953''  (1953).
+* A.H. Gardiner, ''[[Egyptian Grammar: Being an Introduction to the Study of Hieroglyphs]]''. 3rd Ed., pub. [[Griffith Institute]], Oxford, 1957 (1st edition 1927), pp.&nbsp;438–548 ([https://web.archive.org/web/20111122134017/http://egyptologie.ff.cuni.cz/pdf/Gardiner_signlist.pdf pdf]).
+* [[Georg Möller|Möller, Georg]]. 1909. ''Hieratische Paläographie: die aegyptische Buchschrift in ihrer Entwicklung von der Fünften Dynastie bis zur römischen Kaiserzeit. Erster Band: Bis zum Beginn der achtzehnten Dynastie''
+* Möller, Georg. 1927. ''Hieratische Paläographie: die aegyptische Buchschrift in ihrer Entwicklung von der Fünften Dynastie bis zur römischen Kaiserzeit. Zweiter Band: Von der Zeit Thutmosis' III bis zum Ende der einundzwanzigsten Dynastie,''
+* Möller, Georg. 1936. ''Hieratische Paläographie: die aegyptische Buchschrift in ihrer Entwicklung von der Fünften Dynastie bis zur römischen Kaiserzeit. Dritter Band: Von der zweiundzwanzigsten Dynastie bis zum dritten Jahrhundert nach Chr.''
+* Möller, Georg. 1936. ''Hieratische Paläographie: die aegyptische Buchschrift in ihrer Entwicklung von der Fünften Dynastie bis zur römischen Kaiserzeit. Vierter *Band: Ergänzungsheft zu Band I und II''
+* Wilkinson, Richard,  ''Reading Egyptian Art, A Hieroglyphic Guide to Ancient Egyptian Painting and Sculpture,'' Richard H. Wilkinson, with 450 Illustrations, (Thames & Hudson Ltd, London), c 1992.
+* Rainer Hannig: ''Großes Handwörterbuch Ägyptisch-Deutsch. (2800 – 950 v. Chr.)'' Marburger Edition. 4th rev. ed. von Zabern, Mainz 2006, {{ISBN|3-8053-1771-9}}, (= Hannig-Lexica. vol. 1); (= Kulturgeschichte der Antiken Welt. vol. 64, ISSN 0937-9746), contains the Gardiner list plus an extended sign list.
+* Rainer Hannig, Petra Vomberg: ''Wortschatz der Pharaonen in Sachgruppen''. Hannig Lexica vol. 2, 2nd ed, von Zabern, Mainz 2012, {{ISBN|978-3-8053-4473-9}}.
+* Friedrich Junge: ''Einführung in die Grammatik des Neuägyptischen'' 3rd rev. ed. Harrassowitz, Wiesbaden 2008, {{ISBN|978-3-447-05718-9}}, information on transcription and transliteration and peculiarities of New Kingdom orthographies.
+* Christian Leitz: ''Die Tempelinschriften der griechisch-römischen Zeit.'' 3rd rev ed.   Münster 2009, {{ISBN|978-3-8258-7340-0}}, (= ''Quellentexte zur ägyptischen Religion'' 1), (= ''Einführungen und Quellentexte zur Ägyptologie'' 2), references older inventories of Ptolemaic era hieroglyphics.
+* Michael Everson and Bob Richmond, ''[http://www.evertype.com/standards/iso10646/pdf/towards-egyptian.pdf Towards a Proposal to encode Egyptian Hieroglyphs in Unicode]'' (2006)
+
+==External links==
+{{Commons category|Egyptian hieroglyphs}}
+{{Commons category|Gardiner's list}}
+* [[mw:Help:WikiHiero syntax|WikiHiero syntax]] ([[MediaWiki]])
+* [[:wiktionary:Appendix:Unicode/Egyptian Hieroglyphs]]
+* [[:wiktionary:Appendix:Egyptian transliteration schemes|Egyptian transliteration schemes]]
+* [[:wiktionary:Category:Egyptian hieroglyphic script characters]]
+* [http://web.ff.cuni.cz/ustavy/egyptologie/pdf/Gardiner_signlist.pdf Gardiner Sign List]
+* [http://www.ancient-egypt.co.uk/transliteration/ancient_egypt_dictionary.pdf Alphabet] at ancient-egypt.co.uk
+* [https://www.timetrips.co.uk/pharaoh%20names.htm Pharaoh's names]
+* [https://www.ganino.com/anteanus/gardiner_s_sign_list_of_egyptian_hieroglyphs finding hieroglyphs]
+{{Egyptian hieroglyphs navbox}}
+
+{{DEFAULTSORT:List of Egyptian hieroglyphs}}
+[[Category:Egyptian hieroglyphs|*]]

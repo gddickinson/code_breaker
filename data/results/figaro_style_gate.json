@@ -1,0 +1,43 @@
+{
+ "id": "figaro_style_gate",
+ "style": {
+  "words": 1719,
+  "p_en": 0.259,
+  "run_en": 1.922,
+  "p_abbrev": 0.152,
+  "p_other": 0.13
+ },
+ "control_style": {
+  "fr": 0.618,
+  "en": 0.192,
+  "abbrev": 0.113,
+  "other": 0.076
+ },
+ "cut_len_mean": 3.59,
+ "blind_share": 0.213,
+ "refined_share": 0.44,
+ "null": [
+  {
+   "blind": 0.073,
+   "refined": 0.127
+  },
+  {
+   "blind": 0.071,
+   "refined": 0.122
+  },
+  {
+   "blind": 0.066,
+   "refined": 0.13
+  }
+ ],
+ "planted_accuracy": 0.991,
+ "planted_refined_coverage": 0.464,
+ "coverage": 0.324,
+ "gates": {
+  "control": true,
+  "null": true,
+  "reads": false,
+  "passed": false
+ },
+ "bar": 0.371
+}

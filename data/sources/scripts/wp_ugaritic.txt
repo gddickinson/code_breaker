@@ -1,0 +1,901 @@
+{{short description|Cuneiform consonantal alphabet of 30 letters}}
+{{Infobox Writing system
+| name= Ugaritic
+| type= [[Abjad]]
+| sample = 22 alphabet.jpg
+| caption = The Ugaritic writing system
+| typedesc=
+| time= {{circa|1400|1190&nbsp;BCE}}
+| languages= [[Ugaritic]], [[Hurrian language|Hurrian]], [[Akkadian (language)|Akkadian]]
+| fam1 = [[Egyptian hieroglyphs]]?
+| fam2 = [[Proto-Sinaitic script]]?
+| sisters=
+| children=
+| imagesize= 200px
+| unicode= [https://www.unicode.org/charts/PDF/U10380.pdf U+10380–U+1039F]
+| iso15924= Ugar
+}}
+{{alphabet|state=collapsed}}
+
+The '''Ugaritic alphabet''' is a [[Abjad|consonantal alphabet]] (abjad) that was written using the same tools as those used to write [[cuneiform]] (i.e. pressing a wedge-shaped [[stylus]] into a [[clay tablet]]). It was mostly written from left to right, but not exclusively. It emerged {{circa|1400}}<ref>William M. Schniedewind, [https://books.google.com/books?id=L2T_4KVwpTQC&pg=PA149 ''A Primer on Ugaritic''], p. 32</ref> or 1300&nbsp;BCE<ref>[https://books.google.com/books?id=vTrT-bZyuPcC&q=1300+1190 ''Ugaritic, in The Ancient Languages of Syria-Palestine and Arabia'']</ref> to write [[Ugaritic]], an extinct [[Northwest Semitic language]], and fell out of use amid the [[Late Bronze Age collapse]] {{cx|1190&nbsp;BCE}}. The inscriptions found provide the [[History of the alphabet|earliest evidence in history]] of systematic and large-scale administrative use of an [[Alphabet|alphabetical writing system]].
+
+The discovery of [[Abecedarium|abecedaries]] in the Ugaritic alphabet also provide the earliest direct evidence of not just the "abc" alphabetical order but also the "[[Halaḥam|hlḥm]]" order. Examples of scripts that have also used these are the [[Phoenician alphabet|Phoenician]], [[Paleo-Hebrew alphabet|Paleo-Hebrew]], [[Hebrew alphabet|Aramaic square script]], [[Syriac alphabet|Syriac]], [[Greek alphabet|Greek]] and [[Latin alphabet|Latin]] alphabets for the "abc" order as well as the [[Geʽez script]] from which [[Amharic#Writing system|Amharic]] was adapted for the "hlḥm". Many if not most alphabets in use today order their letters in one of these two traditions. 
+
+The Ugaritic alphabet has 30 letters. The [[Arabic alphabet|Arabic]], [[Ancient North Arabian]] and [[Ancient South Arabian script|Ancient South Arabian]] scripts are the only other Semitic alphabets which have letters for all or almost all of the 29 commonly reconstructed [[Proto-Semitic]] consonant phonemes. Other languages, particularly [[Hurrian language|Hurrian]], were occasionally written in the Ugaritic script in the area around Ugarit, but not elsewhere. The script was also sparsely used to write [[Akkadian language|Akkadian]] but alphabetically. Although the Ugaritic alphabet is considered fully deciphered, a significant minority of terms written in it remain etymologically uncertain at best and do not always appear to belong to any [[Semitic languages|Semitic language]]. 
+
+The script was first discovered in 1928 at the site of ancient [[Ugarit]] (modern Ras Shamra, [[Syria]]).
+
+==Letters==
+[[File:Ugaritic-alphabet-chart.svg|thumb|right|300px|Ugaritic alphabet]]Below is an introductory table to Ugaritic letters when compared to similar and better-known scripts. This method of comparison is not exact but can be helpful for first-time readers. Note that the table is not ordered in any of the alphabetical orders found at Ugarit (and which are discussed later in this article). Also note that no direct evidence for Ugaritic letter names has been found other than partial abecedaries showing [[Cuneiform|Akkadian cuneiform]] counterparts<ref>{{Cite web |title=See Damascus Museum, RS 19.159 |url=https://lostscripts.hypotheses.org/1610 |website=Charles Virolleaud, Royal Palace of Ugarit II, Textes en cunéiforme alphabétique des archives est, ouest et centrales, N. 189 (Damascus Museum, RS 19.159)}}</ref>.
+{| class="wikitable" id="letters_chart" style="text-align: center;"
+|-
+! rowspan="2" | Letter<ref>
+{{cite book| chapter=Epigraphic Semitic Scripts| title=The World's Writing Systems| year=1996| editor1-last=Daniels| editor1-first=Peter T.| editor2-last=Bright| editor2-first=William| publisher=[[Oxford University Press]], Inc| isbn=978-0-19-507993-7| page=[https://archive.org/details/isbn_9780195079937/page/92 92]| url-access=registration| url=https://archive.org/details/isbn_9780195079937/page/92}}</ref>
+! rowspan="2" | [[Phoneme]]
+! rowspan="2" | [[International Phonetic Alphabet|IPA]]
+! colspan="5" | Corresponding letter in<ref>{{cite book|title=The Semitic Languages: An International Handbook|last=Kogan|first=Leonid|editor-last=Weninger|editor-first=Stefan|year=2011|publisher=Walter de Gruyter|isbn=978-3-11-025158-6|page=55|chapter=Tab. 6.2: Regular correspondences of the Proto-Semitic consonants|chapter-url=https://books.google.com/books?id=SMzgBLT87MkC&pg=PA55}}</ref>
+|-
+![[Phoenician alphabet|Phoenician]]
+![[Ancient South Arabian script|Ancient South Arabian]]
+![[Aramaic alphabet|Aramaic]]
+![[Hebrew alphabet|Hebrew]]
+![[Arabic alphabet|Arabic]]
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎀}}}}}}
+| ả (ʾa)
+| [{{IPA|ʔa}}]
+| {{lang|phn|{{script|Phnx|{{huge|[[Aleph|𐤀]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩱}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Aleph|𐡀]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Aleph|א]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Aleph#Arabic|ا]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎁}}}}}}
+| b
+| {{IPAblink|b}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Bet (letter)|𐤁]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩨}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Bet (letter)|𐡁]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Bet (letter)|ב]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Bet (letter)#Arabic bāʾ|ب]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎂}}}}}}
+| g
+| {{IPAblink|ɡ}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Gimel|𐤂]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩴}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Gimel|𐡂]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Gimel|ג]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Gimel#Arabic ǧīm|ج]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎃}}}}}}
+| ḫ
+| {{IPAblink|x}}
+| rowspan="2" | {{lang|phn|{{script|Phnx|{{huge|[[Heth|𐤇]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩭}}}}}}
+| rowspan="2" | {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Heth|𐡇]]}}}}}}
+| rowspan="2" | {{lang|he|{{script|Hebr|{{huge|[[Heth|ח]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ḫāʾ|خ]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎈}}}}}}
+| ḥ
+| {{IPAblink|ħ}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩢}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Heth#Arabic ḥāʾ|ح]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎄}}}}}}
+| d
+| {{IPAblink|d}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Dalet|𐤃]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩵}}}}}}
+| rowspan="2" | {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Dalet|𐡃]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Dalet|ד]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Dalet#Arabic dāl|د]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎏}}}}}}
+| ḏ
+| {{IPAblink|ð}}
+| rowspan="2" | {{lang|phn|{{script|Phnx|{{huge|[[Zayin|𐤆]]}}}}}}
+| {{huge|{{lang|xsa|𐩹}}}}
+| rowspan="2" | {{lang|he|{{script|Hebr|{{huge|[[Zayin|ז]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ḏāl|ذ]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎇}}}}}}
+| z
+| {{IPAblink|z}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩸}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Zayin|𐡆]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Zayin#Arabic zāy|ز]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎅}}}}}}
+| h
+| {{IPAblink|h}}
+| {{lang|phn|{{script|Phnx|{{huge|[[He (letter)|𐤄]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩠}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[He (letter)|𐡄]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[He (letter)|ה]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[He (letter)#Arabic hāʾ|ه]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎆}}}}}}
+| w
+| {{IPAblink|w}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Waw (letter)|𐤅]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩥}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Waw (letter)|𐡅]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Waw (letter)|ו]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Waw (letter)#Arabic wāw|و]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎉}}}}}}
+| ṭ
+| {{IPAblink|tˤ}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Teth|𐤈]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩷}}}}}}
+| rowspan="2" | {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Teth|𐡈]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Teth|ט]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Teth#Arabic ṭāʾ|ط]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎑}}}}}}
+| ẓ
+| {{IPAblink|θˤ}}
+| rowspan="2" | {{lang|phn|{{script|Phnx|{{huge|[[Tsade|𐤑]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩼}}}}}}
+| rowspan="2" | {{lang|he|{{script|Hebr|{{huge|[[Tsade|צץ]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ẓāʾ|ظ]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎕}}}}}}
+| ṣ
+| {{IPAblink|sˤ}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩮}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Tsade|𐡑]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Tsade#Arabic ṣād|ص]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎊}}}}}}
+| y
+| {{IPAblink|j}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Yodh|𐤉]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩺}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Yodh|𐡉]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Yodh|י]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Yodh#Arabic yāʼ|ي]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎋}}}}}}
+| k
+| {{IPAblink|k}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Kaph|𐤊]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩫}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Kaph|𐡊]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Kaph|ך]]}}}}}} {{lang|he|{{script|Hebr|{{huge|[[Kaph|כ]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Kaph#Arabic kāf|ك]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎒}}}}}}
+| s
+| {{IPAblink|s}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Samekh|𐤎]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩯}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Samekh|𐡎]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Samekh|ס]]}}}}}}
+| rowspan="2" | {{lang|ar|{{script|Arab|{{huge|[[Shin (letter)#Arabic shīn|س]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎌}}}}}}
+| š
+| {{IPAblink|ʃ}}
+| rowspan="2" | {{lang|phn|{{script|Phnx|{{huge|[[Shin (letter)|𐤔]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩪}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Shin (letter)|𐡔]]}}}}}}
+| rowspan="2" | {{lang|he|{{script|Hebr|{{huge|[[Shin (letter)|ש]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎘}}}}}}
+| ṯ
+| {{IPAblink|θ}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩻}}}}}}
+| rowspan="2" | {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Taw|𐡕]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ṯāʾ|ث]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎚}}}}}}
+| t
+| {{IPAblink|t}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Taw|𐤕]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩩}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Taw|ת]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Taw#Arabic tāʼ|ت]]}}}}}}
+|-
+| {{huge|{{lang|uga|{{script|Ugar|𐎍}}}}}}
+| l
+| {{IPAblink|l}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Lamedh|𐤋]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩡}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Lamedh|𐡋]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Lamedh|ל]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Lamedh#Arabic lām|ل]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎎}}}}}}
+| m
+| {{IPAblink|m}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Mem|𐤌]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩣}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Mem|𐡌]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Mem|מ]]}}}}}} {{lang|he|{{script|Hebr|{{huge|[[Mem|ם]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Mem#Arabic mīm|م]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎐}}}}}}
+| n
+| {{IPAblink|n}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Nun (letter)|𐤍]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩬}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Nun (letter)|𐡍]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Nun (letter)|ן]]}}}}}} {{lang|he|{{script|Hebr|{{huge|[[Nun (letter)|נ]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Nun (letter)#Arabic nūn|ن]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎓}}}}}}
+| ʿ
+| {{IPAblink|ʕ}}
+| rowspan="2" | {{lang|phn|{{script|Phnx|{{huge|[[Ayin|𐤏]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩲}}}}}}
+| rowspan="2" | {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Ayin|𐡏]]}}}}}}
+| rowspan="2" | {{lang|he|{{script|Hebr|{{huge|[[Ayin|ע]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ayin#Arabic ʿayn|ع]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎙}}}}}}
+| ġ
+| {{IPAblink|ɣ}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩶}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Ghayn|غ]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎔}}}}}}
+| p
+| {{IPAblink|p}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Pe (Semitic letter)|𐤐]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩰}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Pe (Semitic letter)|𐡐]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Pe (Semitic letter)|פף]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Pe (Semitic_letter)#Arabic fāʼ|ف]]}}}}}}
+|-
+| {{huge|{{lang|uga|{{script|Ugar|𐎖}}}}}}
+| q
+| {{IPAblink|q}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Qoph|𐤒]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩤}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Qoph|𐡒]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Qoph|ק]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Qoph#Arabic Qāf|ق]]}}}}}}
+|-
+| {{huge|{{lang|uga|{{script|Ugar|𐎗}}}}}}
+| r
+| {{IPAblink|r}}
+| {{lang|phn|{{script|Phnx|{{huge|[[Resh|𐤓]]}}}}}}
+| {{lang|xsa|{{script|Sarb|{{huge|𐩧}}}}}}
+| {{lang|sem-x-aramaic|{{script|Armi|{{huge|[[Resh|𐡓]]}}}}}}
+| {{lang|he|{{script|Hebr|{{huge|[[Resh|ר]]}}}}}}
+| {{lang|ar|{{script|Arab|{{huge|[[Resh#Arabic rāʾ|ر]]}}}}}}
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎛}}}}}}
+| ỉ (ʾi)
+| [{{IPA|ʔi}}]
+|
+|
+|
+|
+|
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎜}}}}}}
+| ủ (ʾu)
+| [{{IPA|ʔu}}]
+|
+|
+|
+|
+|
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎝}}}}}}
+| s₂
+| [{{IPA|su}}]
+|
+|
+|
+|
+|
+|-
+| {{lang|uga|{{script|Ugar|{{huge|𐎟}}}}}}
+| [[word divider]]
+|
+| {{lang|phn|{{script|Phnx|{{huge|𐤟}}}}}}
+|
+|
+|
+|
+|}
+
+==Origin==
+[[File:Literacy.PNG|thumb|upright=1.4|Dark green shows the approximate spread of writing by 1300&nbsp;BCE]]
+At the time the Ugaritic script was in use ({{c.|1300|1190&nbsp;BCE}}),<ref>[https://books.google.com/books?id=vTrT-bZyuPcC&q=1300+1190 ''Ugaritic, in The Ancient-Languages of Syria-Palestine and Arabia'']</ref> the city of Ugarit, although not a great imperial centre, was located at the geographic centre of the literate world, among [[Ancient Egypt|Egypt]], [[Anatolia]], [[Cyprus]], [[Crete]], and [[Mesopotamia]]. For this reason, the city came into contact with multiple different writing systems each possessing its own set of attributes such as [[alphabetical order]], letter naming conventions, direction of writing or the languages written in them including associated pronunciation of letters.
+
+=== Cuneiform hypothesis ===
+Many standard, non-alphabetical Akkadian cuneiform texts were unearthed at Ugarit. The facts that the Ugaritic alphabet is written in cuneiform and that it has been found to overwhemingly follow the same writing direction as other cuneiform systems both support the hypothesis that Ugaritic was directly inspired by a cuneiform system such as [[Cuneiform|Akkadian cuneiform]]. Moreover, one can argue that Ugaritic [[Glyph|glyphs]] can be easily compared to common Akkadian "equivalents" as exemplified in the table below.
+{| class="wikitable"
+|+
+!Akkadian
+!
+!
+!Ugaritic
+|-
+|''la''
+|𒆷 
+|𐎅
+|l
+|-
+|''ḫu''
+|𒄷
+|𐎈
+|ḥ
+|-
+|''ma''
+|𒈠
+|𐎎
+|m
+|-
+|''qu''
+|𒄣
+|𐎖
+|q
+|-
+|''pa''
+|𒉺
+|𐎔
+|p
+|-
+|''-a''
+|𒀀
+|𐎀
+|a
+|-
+|''-u''
+|𒌋
+|𐎓
+|ʿ
+|-
+|''za''
+|𒍝
+|𐎇
+|z
+|-
+|''za''
+|𒍝
+|𐎕
+|ṣ
+|}
+
+=== Proto-Sinaitic origin hypothesis ===
+Some have suggested that the Ugaritic alphabet represents some form of the [[Proto-Sinaitic script]],<ref name="colless">[https://sites.google.com/site/collesseum/cuneiformalphabet Brian Colless, ''Cuneiform alphabet and picto-proto-alphabet'']</ref> the letter forms distorted as an adaptation to writing on clay with a stylus. It has been proposed in this regard that the two basic shapes in cuneiform, a linear wedge, as in {{Script|Ugar|𐎂}}, and a corner wedge, as in {{Script|Ugar|𐎓}}, may correspond to lines and circles in the linear Semitic alphabets: the three Semitic letters with circles, preserved in the [[Greek alphabet|Greek]] [[Θ]], [[O]] and [[Latin]] [[Q]], are all made with corner wedges in Ugaritic: {{Script|Ugar|𐎉}} [[Teth|ṭ]], {{Script|Ugar|𐎓}} [[Ayin|ʕ]], and {{Script|Ugar|𐎖}} [[Qoph|q]]. Other letters look similar as well: {{Script|Ugar|𐎅}} h resembles its assumed Greek cognate E, while {{Script|Ugar|𐎆}} w, {{Script|Ugar|𐎔}} p, and {{Script|Ugar|𐎘}} θ are similar to Greek Y, Π, and Σ turned on their sides.<ref name="colless" />
+
+=== Other hypotheses ===
+In practice and due to the simple and highly abstract nature of Ugaritic characters, it is easy to find graphical similarities and phonological matches with many other scripts of the time. One such example is "y" in hieratic 𓇌 matching Ugaritic 𐎊. Others{{who|date=June 2026}} have compared its appearance to that of the [[Cypro-Minoan script]]. There may also have been a degree of influence from the poorly understood [[Byblos syllabary]] attested in the nearby [[Byblos]].<ref>[https://books.google.com/books?id=LizxaT7eMqMC&dq=byblos+ugaritic&pg=PA19 ''A Basic Grammar of the Ugaritic Language: With Selected Texts and Glossary''], p. 19 by Stanislav Segert, 1985.</ref>  
+
+[[Jared Diamond]]<ref>[https://discovermagazine.com/1994/jun/writingright384 Writing Right | Senses | DISCOVER Magazine<!--Bot-generated title-->]</ref> believes the alphabet was consciously designed, citing as evidence the possibility that the letters with the fewest strokes may also have been the most frequent. 
+
+Hugo Cartwright, a Franco-British software engineer, considers the possibility that syllabic compression of the Ugaritic language was a rule of thumb in the design choice of Ugaritic letters but focuses instead on analysing alphabetical order.<ref>{{Cite web |title=The MISSA.2 abecedary and the Ugaritic alphabet |url=https://www.abjads.org/missa2/}}</ref><ref name=":0" /> 
+
+==Abecedaries==
+Two types of abecedaries have been found in the Ugaritic alphabet and were sometimes labelled "North and South Semitic" as they were first found North and South of each other. 
+
+=== The "abc" or "abg" ===
+The "abc" or "abg" order is more similar to the one found in [[Phoenician alphabet|Phoenician]], [[Hebrew alphabet|Hebrew]] and [[Arabic alphabet|Arabic]], the earlier, so-called ''ʾabjadī'' order, and more distantly, the [[Greek alphabet|Greek]] and [[Latin alphabet]]s. The table below shows the kind of abecedaries found and is read from left-to-right first and from top-to-bottom second. The letters are given in cuneiform letters as well as their [[transliteration]] equivalent below. The abecedaries are laid out in two dimensions to illustrate how they were often written in this way.
+
+{| class="wikitable" style="text-align:center;border-spacing: 0.4em 0em;"
+|𐎀||𐎁||𐎂||𐎃||𐎄||𐎅||𐎆||𐎇||𐎈||𐎉
+|
+|
+|-
+|ʾa||b||g||ḫ||d||h||w||z||ḥ||ṭ
+|
+|
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|𐎊
+|𐎋
+|𐎌
+|𐎍
+|𐎎
+|𐎏
+|𐎐
+|𐎑
+|𐎒
+|
+|
+|
+|-
+|y
+|k
+|š
+|l
+|m
+|ḏ
+|n
+|ẓ
+|s
+|
+|
+|
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|𐎓
+|𐎔
+|𐎕
+|𐎖
+|𐎗
+|𐎘
+|𐎙
+|𐎚
+|
+|𐎛
+|𐎜
+|𐎝
+|-
+|ʿ
+|p
+|ṣ
+|q
+|r
+|ṯ
+|ġ
+|t
+|
+|ʾi
+|ʾu
+|s<sub>2</sub>
+|}
+
+=== The "[[Halaḥam|hlḥm]]" ===
+This table is also read from left-to-right first and from top-to-bottom second. And is meant to represent one of those tablets (called RS 88.2215). Note that this abecedary does not have letters b, ʾi, ʾu and s<sub>2</sub> although the letter b is usually expected in this kind of order.<ref>{{Cite web |last=Bordreuil |first=Pierre |last2=Pardee |first2=Dennis |date=1995 |title=Un abécédaire du type sud-sémitique découvert en 1988 dans les fouilles archéologiques françaises de Ras Shamra-Ougarit – Comptes rendus des séances de l'Académie des Inscriptions et Belles-Lettres Année 1995 139–3 pp. 855–860 |url=https://www.persee.fr/doc/crai_0065-0536_1995_num_139_3_15526}}</ref>
+{| class="wikitable" style="text-align:center;border-spacing: 0.4em 0em;"
+|𐎅||𐎍||𐎈||𐎎||𐎖||𐎆||𐎌|| 𐎗|| || 
+|-
+|h||l||ḥ||m||q||w||š|| r|| || 
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|
+|𐎚
+|𐎒
+|𐎋
+|𐎐
+|𐎃
+|𐎔
+|𐎀
+|𐎓
+|𐎑
+|-
+|(b)
+|t
+|s
+|k
+|n
+|ḫ
+|p
+|ʾa
+|ʿ
+|ẓ
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+|𐎂
+|𐎄
+|𐎙
+|𐎉
+|𐎇
+|𐎏
+|𐎊
+|𐎘
+|𐎕
+|
+|-
+|g
+|d
+|ġ
+|ṭ
+|z
+|ḏ
+|y
+|ṯ
+|ṣ
+|
+|}
+
+== Alphabetical order ==
+Beyond the abecedary examples found at Ugarit and listed above, it's worth mentioning that a [[hieratic]] [[ostracon]] found in an [[TT99|Egyptian tomb]] may in fact be an older but very partial example of an "abg" and "hlḥm" double-abecedary but this remains a subject of study.
+
+=== Order proximity with Safaitic orders ===
+Order proximity between both [[Alphabetical order|alphabetical orders]] as well as comparisons with as-of-yet uncategorized [[Safaitic]] abecedaries have been found.<ref name=":0" /> In his preprint on ordered set comparisons, Cartwright discusses evidence that [[Safaitic]] alphabetical orders have order proximities with the Ugaritic alphabet.
+
+=== Comparison of the "abg" and "hlḥm" ===
+Cartwright, describes the closeness in permutation space of two non-Ugaritic abecedaries' orders, one being considered an "abg" order and the other a "hlḥm" order. He achieves this by measuring [[Spearman's rank correlation coefficient|rank closeness]] and by considering orders as [[Gap buffer|gap buffered]] 2D objects.<ref name=":0">{{Cite web |last=Cartwright |first=Hugo |title=Permutation Space Closeness of Ordered Sets |url=https://zenodo.org/records/20716989}}</ref><ref>Hawley, 2008. Apprendre à écrire à Ougarit :
+
+une typologie des abécédaires.</ref>
+{| class="wikitable"
+|+[[Boustrophedon]] reading of the Maghrebian abjadi sequence
+|A
+|B
+|G
+|-
+|W
+|H
+|D
+|-
+|H.
+|Z
+|T.
+|-
+|L
+|K
+|Y
+|-
+|M
+|N
+|S.
+|-
+|D.
+|P
+|O
+|-
+|Q
+|R
+|S
+|-
+|SH
+|TH
+|T
+|-
+|KH
+|Z.
+|DH
+|-
+|
+|
+|GH
+|}
+When read from top-to-bottom and left-to-right, this '''Maghrebian abjadi''' order can be compared to the abecedary '''Tay 19''' found in the oasis of [[Tayma]]<ref>Macdonald, 1986</ref><ref>{{Cite web |title=OCIANA Tay 19 |url=https://ociana.osu.edu/inscriptions/19698}}</ref>.
+{| class="wikitable"
+|+Comparison of the "abg" and '''"hlḥm"'''
+|mod. Magh. abjadi 
+|A
+|W
+|H.
+|L
+|M
+|D.
+|Q
+|
+|SH
+|GH
+|B
+|H
+|Z
+|K
+|N
+|P
+|R
+|
+|TH
+|
+|
+|
+|Z.
+|G
+|D
+|T.
+|<u>Y</u>
+|<u>S.</u>
+|<u>O</u>
+|<u>S</u>
+|<u>T</u>
+|DH
+|KH
+|-
+|Tay 19
+|A
+|
+|L
+|H.
+|M
+|
+|Q
+|W
+|SH
+|R
+|B
+|T1
+|S
+|K
+|N
+|
+|GH
+|[S.]
+|S3
+|[P]
+|[H]
+|[O]
+|D.
+|G
+|D
+|T2
+|
+|
+|
+|
+|
+|
+|KH
+|}
+This is further reinforced by how letters '''S.,''' '''P, H and O''' are scratched out in the '''Tay 19''' inscription.
+
+=== MISSA2 and the Amorite language ===
+Cartwright also considers the closeness of Safaitic abecedary '''MISSA2'''<nowiki/>'s alphabetical order with various orders. He underlines high permutation closeness of '''MISSA2''' with the frequency of consonants of the [[Amorite language]] used in the "'''Amorite Bilinguals'''" published by Krebernik and George. He also found high permutation closeness between '''MISSA2''' and compressed syllabic reconstructions of [[Ugaritic]] and [[Phoenician language|Phoenician]].
+
+He suggests that the first characters of '''MISSA2''' ('''t ṯ y''' '''ʾ''' '''ṣ)''' have special role as they seem absent from the Amorite character frequency and have higher graphical complexity. He also compares them to '''y ṣ ʿ s t''' underlined in the '''boustrophedon Maghrebian abjadi''' comparison with '''Tay 19'''. 
+
+{| class="wikitable"
+| align="left" |'''Safaitic abecedaries (tṯyʾṣ)'''
+|Group 1
+|2
+|3
+|4
+|5
+|6
+|7
+|8
+|-
+| align="left" |MISS.A 2 '''<ref name=":1">{{Cite journal |last1=Macdonald |last2=Al Muʾazzin |last3=Nehmé |date=1996 |title=Les inscriptions safaïtiques de Syrie, cent quarante ans après leur découverte |journal=Comptes rendus des séances de l'AIBL |pages=435–494}}</ref>'''
+|'''t ṯ y''' '''ʾ''' '''ṣ'''
+|'''b r m'''
+|'''l n ḫ h z k'''
+|'''ḥ s¹'''
+|'''s² ġ f'''
+|'''ḍ ṭ'''
+|'''ʿ''' '''w g'''
+|'''ḏ d ẓ q'''
+|-
+| align="left" |MISS.A 2 character complexity
+|High
+|Low
+|Low
+|Low
+|Mid
+|High
+|Mid
+|High
+|-
+| align="left" |WH 3598 in columns of 10<ref>{{Cite web |title=OCIANA WH 3598 |url=https://ociana.osu.edu/inscriptions/33023}}</ref>
+|<small>{f} ʾ s² t ṣ</small>
+|<small>r {b} m</small>
+|<small>l z {ẓ} k ḫ</small>
+|<small>s¹</small>
+|<small>ṯ  d g y</small>
+|<small>q ṭ ḍ   ḏ</small>
+|<small>w ġ</small>
+|<small>h ʿ n ḥ</small>
+|-
+| align="left" |
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| align="left" |'''Amorite language'''
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| align="left" |Character frequency<ref>{{Cite book |last=Gelb |first=Ignace J. |title=Computer-aided analysis of Amorite |date=1980}}</ref>
+|
+|<small>r n ʾ b m</small>
+|<small>l k d t ś y z</small>
+|
+|<small>ḫ š p</small> 
+|<small>q</small> 
+|<small>g w ʿ</small>
+|<small>ḥ ṭ ṣ s ḏ h ẓ</small>
+|-
+| align="left" |
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| align="left" |'''Script theory'''
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| align="left" |Ugaritic graphically
+|'''𐎚 𐎘 𐎀 𐎔 𐎕'''
+|'''𐎙 𐎎 𐎁''' 
+|'''𐎂 𐎇 𐎃 𐎐 𐎅 𐎛 𐎍 𐎜'''
+|'''𐎒'''
+|'''𐎌 𐎓 𐎏'''
+|'''𐎖 𐎑 𐎉 𐎈'''
+|'''𐎋 𐎆 𐎗'''
+|'''𐎄 𐎊 𐎝'''
+|-
+| align="left" |Above transliterated *
+|'''t ṯ ʾ p ṣ'''
+|'''ġ m  b'''
+|'''g z ḫ n h ʾi l ʾu'''
+|'''s'''
+|'''š ʿ ḏ'''
+|'''q ẓ ṭ ḥ'''
+|'''k w r'''
+|'''d y s<sub>2</sub>'''
+|-
+| align="left" |Wedge count
+|1 2 2 2 2
+|2 2 4
+|1 2 3 3 3 4 3 4
+|3
+|3 1 2
+|2 3 3 4
+|3 4 5
+|6 6 7
+|-
+| align="left" |
+|
+|
+|
+|
+|
+|
+|
+|
+|-
+| align="left" |Old South Arabian
+|𐩼𐩮𐩺𐩻𐩩
+|𐩣𐩧𐩨
+|𐩸𐩬𐩫𐩶𐩡𐩴
+|𐩪𐩢
+|𐩵𐩰𐩯𐩦
+|𐩤𐩹𐩳𐩷
+|𐩥𐩲
+|𐩭𐩱𐩠 
+|-
+| align="left" |Transliteration
+|t ṯ y ṣ ẓ
+|b r m
+|glġknz
+|ḥ s
+|š s3 f d
+|ṭ ḍ ḏ q 
+|ʿ w
+|h ʾ ḫ
+|}
+Switching the n and ẓ of WH 3598 in columns of 10 results in "h ʿ ẓ ḥ" being grouped together which are [[Akkadian language#Phonology|phonemes not directly rendered in Akkadian cuneiform]].
+
+=== Is.Mu 650 and Is.R 204 ===
+Using row (*) and comparison with MISS.A 2, an alternative reading of the Ugaritic alphabet can be used to help interpret other Safaitic abecedaries, most notably Is.R 204 and Is.Mu 650.<syntaxhighlight lang="text">ʾ b k ḫ  ḏ h w z ḥ ṭ y g š
+l m d n  ḍ s r p ṣ q ġ ṯ o
+t i u s2</syntaxhighlight>The Ugaritic alphabet can then be read in columns in a way that also resembles the character frequency of inscriptions such as that on the [[Ahiram sarcophagus|Ahiram Sarcophagus]].<syntaxhighlight lang="text">ʾ l t b m i k d u ḫ n s2 ḏ ḍ h s w r z p ḥ ṣ ṭ q y ġ g ṯ š o</syntaxhighlight>To compare this to Is.R 204 and Is.Mu 650, one can order the letters as:<syntaxhighlight lang="text">                                 ḥ
+              k   n  ḏ h y w z g ṣ š
+  ʾ l t b m i d u ḫ  ḍ s r ġ p ṯ ṭ ʿ
+                  s2             q</syntaxhighlight>Which is then comparable to Is.R 204 or Is.Mu 650.<ref>{{Cite web |title=OCIANA Is.R 204 |url=https://ociana.osu.edu/inscriptions/5034}}</ref><ref>{{Cite web |title=OCIANA Is.Mu 650 |url=https://ociana.osu.edu/inscriptions/5413}}</ref><syntaxhighlight lang="text">
+                k   ḍ h y w q g ṣ š
+(h) ʾ l t (s ʿ) d ḫ ṭ m b ġ f ṯ s ʿ n z
+</syntaxhighlight>Letters in between brackets are duplicates whose reading resembles other letters in Safaitic.<ref name=":1" />
+
+=== Implications for the interpretation of undeciphered scripts ===
+By reevaluating the "table of correspondence of letters" of which a description is given [[Ugaritic alphabet#Letters|earlier in this article]], Cartwright uses comparisons (MISS.A 2 + Ugaritic alphabet) and (abgd + Tay 19) as new evidence for a future decipherment of the [[Byblos syllabary]] and the [[Proto-Sinaitic script|Proto-Sinaitic Script]]. It supports the idea that these script may have been written in previously unexpected spelling or phonology, explaining current reading difficulties.
+{| class="wikitable"
+|-
+
+|}
+
+==Ugaritic short alphabet==
+Two shorter variants of the Ugaritic alphabet existed with findspots primarily not in the area of Ugarit. Findspots have included [[Tel Beit Shemesh]], [[Sarepta]], and [[Tiryns]]. It is generally found on inscribed objects vs the tablets of the standard Ugaritic alphabet and unlike the standard version it is usually written right to left.<ref>[https://www.tandfonline.com/doi/pdf/10.1080/03344355.2024.2327796]Fossé, Cécile, et al., "Archaeo-Material Study of the Cuneiform Tablet from Tel Beth-Shemesh", Tel Aviv 51.1, pp. 3–17, 2024</ref> Only three tablets have been found, at [[Tell Sukas]], Tell Ta'annek, and Beth Shemesh.<ref>[http://saa.uaic.ro/wp-content/uploads/XXX.2.2.pdf]Töyräänvuori, Joanna, "Cuneiform Alphabetic Texts Outside of Ugarit: Evidence for an Overland Trade Network in the LBA Levant?", Studia Antiqua et Archaeologica 30.2, pp. 243–279, 2024</ref> One variant contained 27 letters and the other 22 letters. It is not known what the relative chronology of the different Ugaritic alphabets was.<ref>[https://library.oapen.org/bitstream/handle/20.500.12657/57138/external_content.pdf?sequence=1#page=23]Ferrara, Silvia, "A ‘top-down’ re-invention of an old form: Cuneiform alphabets in context", Understanding Relations Between Scripts II, pp. 15–51, 2020</ref><ref>Bordreuil, P., "Cunéiformes alphabétiques non canoniques", I. La tablette alphabétique sénestroverse RS 22.03’, Syria 58 (3–4), pp. 301–311, 1981</ref><ref>Dietrich, M. and Loretz, O., "Die Keilalphabete. Die phönizisch kanaanäischen und altarabischen Alphabete in Ugarit", Münster, 1988</ref>
+
+==Function==
+The Ugaritic writing system was an augmented [[abjad]]. In most syllables only consonants were written, including the {{IPA|/w/}} and {{IPA|/j/}} of [[diphthong]]s. Ugaritic was unusual among early abjads because it also indicated vowels occurring after the [[glottal stop]]. It is thought that the letter for the syllable {{IPA|/ʔa/}} originally represented the consonant {{IPA|/ʔ/}}, as aleph does in other Semitic abjads, and that it was later restricted to {{IPA|/ʔa/}} with the addition, at the end of the alphabet, of {{IPA|/ʔi/}} and {{IPA|/ʔu/}}.<ref>{{cite book|first=Florian|last=Coulmas|date=1991|title=The writing systems of the world|publisher=Wiley |isbn=978-0-631-18028-9 |url=https://archive.org/details/writingsystemsof0000coul/page/n7/mode/2up}}</ref><ref>{{cite book|url=https://books.google.com/books?id=L2T_4KVwpTQC&q=aleph&pg=PA149|first1=William|last1=Schniedewind|first2=Joel|last2=Hunt|date=2007|title=A primer on Ugaritic|publisher=Cambridge University Press |isbn=978-1-139-46698-1 }}</ref>
+
+The final consonantal letter of the alphabet, ''s<sub>2</sub>'', has a disputed origin along with both "appended" glottals, but "The patent similarity of ''form'' between the Ugaritic symbol transliterated [s<sub>2</sub>], and the s-character of the later Northwest Semitic script makes a common origin likely, but the reason for the addition of this sign to the Ugaritic alphabet is unclear (compare Segert 1983: 201–218, Dietrich and Loretz 1988).  In ''function'', [s<sub>2</sub>] is like Ugaritic s, but only in certain words – other s-words are never written with [s<sub>2</sub>]."<ref>[https://books.google.com/books?id=vTrT-bZyuPcC&dq=glottals+AND+Ugaritic&pg=PA8 ''Ugaritic, in The Ancient Languages of Syria-Palestine and Arabia'']</ref>
+
+The words that show ''s<sub>2</sub>'' are predominantly borrowings, and thus it is often thought to be a late addition to the alphabet representing a foreign sound that could be approximated by native {{IPA|/s/}}. Huehnergard and Pardee make it the affricate {{IPA|/ts/}}.<ref>Huehnergard, ''An Introduction to Ugaritic'' (2012), p. 21; Pardee, ''Ugaritic alphabetic cuneiform in the context of other alphabetic systems'' in ''Studies in ancient Oriental civilization'' (2007), p. 183.</ref>  Segert instead theorizes that it may have been syllabic {{IPA|/su/}}, and for this reason grouped with the other syllabic signs {{IPA|/ʔi/}} and {{IPA|/ʔu/}}.<ref>Stanislave Segert, "The Last Sign of the Ugaritic Alphabet" in ''Ugaritic-Forschugen'' 15 (1983): 201–218</ref>
+
+Probably the last three letters of the alphabet were originally developed for transcribing non-Ugaritic languages (texts in the [[Akkadian language]] and [[Hurrian language]] have been found written in the Ugaritic alphabet) and were then applied to write the Ugaritic language.<ref name="The Early Alphabet' 1990">{{cite book |contribution=The Early Alphabet |first=John F. |last=Healey |title=Reading the Past: Ancient Writing from Cuneiform to the Alphabet |year=1990 |isbn=0-520-07431-9 |page=216|publisher=University of California Press }}</ref>  The three letters denoting glottal stop plus vowel combinations were used as simple vowel letters when writing other languages.
+
+The only punctuation is a [[word divider]] which is often not used.{{cn|date=March 2024}}
+
+==Unicode==
+
+{{Main|Ugaritic (Unicode block)}}
+
+Ugaritic script was added to the [[Unicode]] Standard in April, 2003 with the release of version 4.0.
+
+The Unicode block for Ugaritic is U+10380–U+1039F:
+
+{{Unicode chart Ugaritic}}
+
+Six letters for transliteration were added to the [[Latin Extended-D]] block in March 2019 with the release of Unicode 12.0:<ref name="L217076">{{Cite web|url=https://www.unicode.org/L2/L2017/17076r2-n4792r2-egyptological-yod.pdf|title=L2/17-076R2: Revised proposal for the encoding of an Egyptological YOD and Ugaritic characters|date=2017-05-09|first=Michel|last=Suignard}}</ref>
+*{{Unichar|A7BA|LATIN CAPITAL LETTER GLOTTAL A}}
+*{{Unichar|A7BB|LATIN SMALL LETTER GLOTTAL A}}
+*{{Unichar|A7BC|LATIN CAPITAL LETTER GLOTTAL I}}
+*{{Unichar|A7BD|LATIN SMALL LETTER GLOTTAL I}}
+*{{Unichar|A7BE|LATIN CAPITAL LETTER GLOTTAL U}}
+*{{Unichar|A7BF|LATIN SMALL LETTER GLOTTAL U}}
+
+==See also==
+*[[Old Persian cuneiform]] – a much later, unrelated attempt at a cuneiform semi-alphabet.
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://members.tripod.com/~davidmyriad/myriads.font.page.html Download a Ugaritic font] (includes Unicode font)
+*[https://www.unicode.org/charts/PDF/U10380.pdf Ugaritic cuneiform] characters from the [[Unicode]] Ugaritic cuneiform script
+*[https://www.omniglot.com/writing/ugaritic.htm Ugaritic cuneiform] Omniglot entry on the subject
+*[http://ancientscripts.com/ugaritic.html Ugaritic script] (ancientscripts.com)
+*[http://www.mazzaroth.com/ChapterThree/UgariticWriting.htm Ugaritic writing] {{Webarchive|url=https://web.archive.org/web/20200713205523/http://www.mazzaroth.com/ChapterThree/UgariticWriting.htm |date=2020-07-13 }}
+*[https://www.gnu.org/software/freefont/ GNU FreeFont] Unicode font family with Ugaritic range in its sans-serif face.
+
+{{list of writing systems}}
+
+{{DEFAULTSORT:Ugaritic Alphabet}}
+[[Category:Abjad writing systems|Ugartic]]
+[[Category:Ugaritic language and literature|Alphabet]]
+[[Category:Semitic writing systems]]
+[[Category:Obsolete writing systems]]
+[[Category:Cuneiform]]

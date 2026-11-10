@@ -1,0 +1,918 @@
+{{Short description|Writing system used c. 1050 to 146 BC}}
+{{Use dmy dates|date=October 2024}}
+
+{{Infobox writing system
+| name        = Phoenician script
+| type        = [[Abjad]]
+| direction   = right-to-left
+| languages   = [[Phoenician language|Phoenician]], [[Biblical Hebrew|Hebrew]], [[Punic language|Punic]], [[Old Aramaic]], [[Ammonite language|Ammonite]], [[Moabite language|Moabite]], [[Edomite language|Edomite]], [[Old Arabic]]
+| time        = {{circa|1050–146&nbsp;BC}}{{efn|The date of 1050&nbsp;BC is conventional. The oldest known inscriptions are from the 10th century&nbsp;BC; the predecessor scripts used in the [[Neo-Hittite states|Syro-Hittite states]] of the 13th to 12th centuries&nbsp;BC is classified as "Proto-Canaanite". Greek travelers shared their alphabet with the people living there who made a new mix of the Greek alphabet, which the Greeks adopted. Use of the Phoenician script declined during the [[Hellenistic period]] as its evolved forms replaced it; it became obsolete with the [[destruction of Carthage]] in 146&nbsp;BC.}}
+| fam1        = [[Egyptian hieroglyphs]]<ref>{{Cite magazine |last=Himelfarb |first=Elizabeth J. |date=Jan–Feb 2000 |title=First Alphabet Found in Egypt |url=https://archive.archaeology.org/0001/newsbriefs/egypt.html |magazine=Archaeology |volume=53 |issue=1}}</ref>
+| fam2        = [[Proto-Sinaitic]]
+| children    = {{plainlist|
+* [[Aramaic alphabet|Aramaic]]
+* [[Greek alphabet|Greek]]
+* [[Paleohispanic script|Paleohispanic]]
+* [[Paleo-Hebrew]]
+* ? [[Libyco-Berber]]}}
+| sisters     = {{plainlist|
+* [[South Semitic scripts|South Semitic]]}}
+| unicode     = [https://www.unicode.org/charts/PDF/U10900.pdf U+10900–U+1091F]
+| iso15924    = Phnx
+| sample      = Phoenician Alphabet.svg
+| caption     = The twenty-two letters of the Phoenician alphabet
+}}
+{{SpecialChars|fix=Help:Special characters#Ancient_scripts}}
+{{alphabet}}
+
+The '''Phoenician Script''' is an [[abjad]] (consonantal [[alphabet]])<ref>{{Cite book |last=Fischer |first=Steven R. |author-link=Steven Roger Fischer |title=A History of Writing |publisher=Reaktion |year=2004 |isbn=978-1-861-89101-3 |location=London |page=90}}</ref>  that was used across the Mediterranean civilization of [[Phoenicia]] for most of the 1st millennium&nbsp;BC. It was one of the first alphabets, attested in [[Canaanite and Aramaic inscriptions]] found across the [[Mediterranean basin]]. In the [[history of writing systems]], the Phoenician script was also the first to have a fixed [[writing direction]]—while previous systems were multi-directional, Phoenician was written horizontally, from right to left.<ref name=Cross1980/> It developed directly from the [[Proto-Sinaitic script]]<ref name=":0">Beyond Babel: A Handbook for Biblical Hebrew and Related Languages, article by Charles R. Krahmalkov (ed. John Kaltner, Steven L. McKenzie, 2002). "This alphabet was not, as often mistakenly asserted, invented by the Phoenicians but, rather, was an adaptation of the early West Semitic alphabet to the needs of their own language".<!-- todo: clarify early West Semitic [fringe]=Proto-Sinaitic --></ref><ref name=Cross1980/> used during the [[Late Bronze Age]], which was derived in turn from [[Egyptian hieroglyphs]].<ref>{{Cite book |last=Howard |first=Michael C. |url=https://books.google.com/books?id=6QPWXrCCzBIC&pg=PA23 |title=Transnationalism in Ancient and Medieval Societies: The Role of Cross-Border Trade and Travel |publisher=McFarland |year=2012 |isbn=978-0-786-49033-2 |pages=23}}</ref><ref name=":0" />
+
+The Phoenician script was used to write [[Canaanite languages]] spoken during the [[Early Iron Age]], sub-categorized by historians as [[Phoenician language|Phoenician]], [[Biblical Hebrew|Hebrew]], [[Moabite language|Moabite]], [[Ammonite language|Ammonite]] and [[Edomite language|Edomite]]. It was widely disseminated outside of the Canaanite sphere by Phoenician merchants across the Mediterranean, where it was adopted and adapted by other cultures. The Phoenician alphabet proper was used in [[Ancient Carthage]] until the 2nd century&nbsp;BC, when it was used to write the [[Punic language]]. Its direct descendant scripts include the [[Aramaic alphabet|Aramaic]] and [[Samaritan alphabet|Samaritan]] alphabets, several [[Alphabets of Asia Minor]], and the [[Archaic Greek alphabets]].
+
+The Phoenician script proper uses 22 [[consonant]] letters—as an abjad used to write a Semitic language, it leaves vowel sounds implicit—though late varieties sometimes used {{lang|la|[[matres lectionis]]}} to denote some [[vowel]]s. As its letters were originally incised using a [[stylus]], their forms are mostly angular and straight, though cursive forms increased in use over time, culminating in the [[Neo-Punic alphabet]] used in [[Roman North Africa]].
+
+== History ==
+[[File:Phoenician alphabet.svg|thumb|The Phoenician alphabet similar to that used on the [[Mesha Stele]]]]
+
+=== Origin ===
+{{further|Proto-Sinaitic script|Proto-Canaanite script}}
+[[File:Barthélémy Médailles phéniciennes.jpg|thumb|Study of Phoenician medals, by [[Jean-Jacques Barthélemy]]]]
+[[File:Oldest Hebrew Inscription X BC.jpg|thumb|Photograph of section of the [[Zayit Stone]], 10th century&nbsp;BC: (right-to-left) the letters waw, he, het, zayin, tet (𐤅𐤄𐤇𐤆𐤈)]]
+The earliest known proto-alphabetic inscriptions are the [[Proto-Sinaitic script]] sporadically attested in the [[Sinai Peninsula]] and in [[Canaan]] in the late [[Middle Bronze Age|Middle]] and [[Late Bronze Age]]. The script was not widely used until the rise of [[Neo-Hittite states|Syro-Hittite states]] in the 13th and 12th centuries&nbsp;BC.
+
+The Phoenician script is a direct continuation of the "Proto-Canaanite" script of the [[Bronze Age collapse]] period. The inscriptions found on the [[Phoenician arrowheads]] at [[al-Khader]] near [[Bethlehem]] and dated {{circa|1100&nbsp;BC}} offered the [[epigraphist]]s the "missing link" between the two.<ref name="Cross1980">{{Cite journal |last=Cross |first=Frank Moore |year=1980 |title=Newly Found Inscriptions in Old Canaanite and Early Phoenician Scripts |journal=Bulletin of the American Schools of Oriental Research |publisher=University of Chicago Press on behalf of The American Schools of Oriental Research |volume=238 |issue=238 (Spring, 1980) |pages=1–20 |doi=10.2307/1356511 |jstor=1356511 |s2cid=222445150}}</ref><ref name="Cross1991">{{Cite book |last=Cross |first=Frank Moore |title=The Origins of Writing |publisher=University of Nebraska Press |year=1991 |isbn=978-0-803-29167-6 |editor-last=Senner |editor-first=Wayne M. |series=Bison |page=81 |chapter=The Invention and Development of the Alphabet |access-date=30 June 2020 |chapter-url=https://books.google.com/books?id=Kc4xAlunCSEC&pg=PA81}}</ref> The [[Ahiram sarcophagus|Ahiram epitaph]], whose dating is controversial, engraved on the sarcophagus of king [[Ahiram]] in Byblos, Lebanon, one of five known [[Byblian royal inscriptions]], shows essentially the fully developed Phoenician script,<ref>Coulmas (1989) p. 141.</ref>{{dubious|Not accessible online. Might cover first sentence as well, "The Phoenician alphabet is a direct continuation...".|date=June 2020}} although the name "Phoenician" is by convention given to inscriptions beginning in the mid-11th century&nbsp;BC.<ref>Markoe (2000) p. 111</ref>
+
+=== Spread and adaptations ===
+{{further|History of the alphabet}}
+Beginning in the 9th century&nbsp;BC, adaptations of the Phoenician alphabet thrived, including [[Greek alphabet|Greek]], [[Old Italic alphabets|Old Italic]] and [[alphabets of Asia Minor|Anatolian]] scripts. <!--and the [[Paleohispanic scripts]]{{cn}}--> The alphabet's attractive innovation was its phonetic nature, in which [[Phonetic script|one sound was represented by one symbol]], which meant only a few dozen symbols to learn. The other scripts of the time, [[cuneiform]] and [[Egyptian hieroglyphs]], employed many complex [[Character (symbol)|characters]] and required long professional training to achieve proficiency;<ref>Hock and Joseph (1996) p. 85.</ref> which had restricted literacy to a small elite.
+
+Another reason for its success was the maritime trading culture of Phoenician merchants, which spread the alphabet into parts of North Africa and Southern Europe.<ref>Daniels (1996) p. 94–95.</ref> Phoenician inscriptions have been found in archaeological sites at a number of former Phoenician cities and colonies around the Mediterranean, such as [[Byblos]] (in present-day [[Lebanon]]) and [[Carthage]] in North Africa. Later finds indicate earlier use in Egypt.<ref>{{Cite news |title=Discovery of Egyptian Inscriptions Indicates an Earlier Date for Origin of the Alphabet |url=https://www.nytimes.com/library/national/science/111499sci-alphabet-origin.html |access-date=20 April 2017}}</ref>
+
+The alphabet had long-term effects on the social structures of the civilizations that came in contact with it. Its simplicity not only allowed its easy adaptation to multiple languages, but it also allowed the common people to learn how to write. This upset the long-standing status of literacy as an exclusive achievement of royal and religious elites, [[scribe]]s who used their monopoly on information to control the common population.<ref>Fischer (2003) p. 68–69.</ref> The appearance of Phoenician disintegrated many of these class divisions, although many Middle Eastern kingdoms, such as [[Assyria]], [[Babylonia]] and [[Adiabene]], would continue to use [[cuneiform]] for legal and liturgical matters well into the Common Era.
+
+According to [[Herodotus]],<ref>Herodotus, ''Histories'', [https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D5%3Achapter%3D58%3Asection%3D1 Book V, 58].</ref> the Phoenician prince [[Cadmus]] was accredited with the introduction of the Phoenician alphabet—{{tlit|grc|phoinikeia grammata}} 'Phoenician letters'—to the Greeks, who adapted it to form their [[History of the Greek alphabet|Greek alphabet]]. Herodotus claims that the Greeks did not know of the Phoenician alphabet before Cadmus. He estimates that Cadmus lived 1600 years before his time, while the historical adoption of the alphabet by the Greeks was barely 350 years before Herodotus.<ref>Herodotus. ''Histories'', [https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=2:chapter=145&highlight=cadmus Book II, 145]</ref>
+
+The Phoenician alphabet was known to the [[Chazal|Jewish sages]] of the [[Second Temple Judaism|Second Temple era]], who called it the "Old Hebrew" ([[Paleo-Hebrew]]) script.<ref>''The [[Mishnah]]'', ed. [[Herbert Danby]], [[Oxford University Press]]: Oxford 1933, p. 784, s.v. ''[[Yadayim]]'' 4:5–6, [https://archive.org/details/DanbyMishnah/page/n813/mode/1up note 6]) ({{ISBN|0-19-815402-X}}); [[Babylonian Talmud]] ''[[Zevahim]]'' 62a; ''[[Sanhedrin (tractate)|Sanhedrin]]'' 22a</ref>
+{{clarify|date=November 2019}}<!--cite what they actually called it, and when -- clearly "Old Hebrew" is a translation-->
+
+===Notable inscriptions===
+{{main|Canaanite and Aramaic inscriptions}}
+[[File:Barthélémy Alphabet phénicien.jpg|thumb|Phoenician alphabet, deciphered by [[Jean-Jacques Barthélemy]] in 1758. No.1 is from the [[Cippi of Melqart]], No.2 is from the coins, and No. 3 is from the [[Pococke Kition inscriptions]].]]
+The conventional date of 1050&nbsp;BC for the emergence of the Phoenician script was chosen because there is a gap in the epigraphic record; there are not actually any Phoenician inscriptions securely dated to the 11th century.<ref name="JMH2004-23">{{Cite book |last=Hoffman |first=Joel M. |url=https://books.google.com/books?id=Pj0TCgAAQBAJ&q=In+the+beginning+:+a+short+history+of+the+Hebrew+language&pg=PA167 |title=In the beginning: a short history of the Hebrew language |publisher=New York University Press |year=2004 |isbn=978-0-814-73654-8 |location=New York |pages=23 |quote=By 1000 B.C.E., however, we see Phoenician writings [..] |access-date=23 May 2017}}</ref> The oldest inscriptions are dated to the 10th century.
+* [[Kanaanäische und Aramäische Inschriften|KAI]] 1: [[Ahiram sarcophagus]], [[Byblos]], {{circa|1000&nbsp;BC}}.
+* KAI 14: [[Sarcophagus of Eshmunazar II]], 5th century&nbsp;BC
+* KAI 15–16: [[Bodashtart inscriptions]], 4th century&nbsp;BC
+* KAI 24: [[Kilamuwa Stela]], 9th century&nbsp;BC
+* KAI 46: [[Nora Stone]], {{circa|800&nbsp;BC}}
+* KAI 47: [[Cippi of Melqart]] inscription, 2nd century&nbsp;BC
+* KAI 26: [[Karatepe bilingual]], 8th century&nbsp;BC
+* KAI 277: [[Pyrgi Tablets]], Phoenician-Etruscan bilingual, {{circa|500&nbsp;BC}}
+* [[Çineköy inscription]], Phoenician-Luwian bilingual, 8th century&nbsp;BC
+The [[Directorate General of Antiquities|General Directorate of Antiquities]] of Lebanon has assembled a list of inscribed objects from different time periods that together illustrate the evolution of the Phoenician script. The objects are Lebanese state property and displayed in the [[National Museum of Beirut]], with occasional loans to other institutions. The oldest of them is the Ahiram sarcophagus.<ref>{{Cite web |title=[Nomination form:] Lebanon - The Phoenician Alphabet |url=https://media.unesco.org/sites/default/files/webform/mow001/lebanon_phoenician_alphabet.pdf |access-date=2025-05-23 |publisher=UNESCO Memory of the World Programme}}</ref> This collection formed the basis of a nomination of the Phoenician alphabet to the [[Memory of the World International Register]]. [[UNESCO]] accepted the nomination in 2005, recognising the alphabet as documentary heritage of global importance.<ref>{{Cite web |title=The Phoenician Alphabet |url=https://www.unesco.org/en/memory-world/phoenician-alphabet |access-date=2025-05-23 |publisher=UNESCO Memory of the World Programme}}</ref>
+
+===Modern rediscovery===
+The Phoenician script was deciphered in 1758 by [[Jean-Jacques Barthélemy]], but its relation to the Phoenicians remained unknown until the 19th century. It was at first believed that the script was a direct variation of [[Egyptian hieroglyph]]s,<ref>Jensen (1969), p. 256.</ref> which were [[Egyptian hieroglyphs#Decipherment|deciphered by Champollion]] in the early 19th century.
+
+However, scholars could not find any link between the two writing systems, nor to [[hieratic]] or cuneiform. The theories of independent creation ranged from the idea of a single individual conceiving it, to the [[Hyksos]] people forming it from corrupt Egyptian.<ref>Jensen (1969), pp. 256–258.</ref> {{clarify|date=November 2019}}<!--then cite WHEN it was identified as Phoenician and by whom--> It was eventually discovered{{clarify|date=November 2019}} that the Proto-Sinaitic alphabet was inspired by the model of hieroglyphs.
+
+== Table of letters ==
+The charts shows the graphical evolution of Phoenician letter forms into other scripts. The sound values also changed significantly, both at the initial creation of new scripts and from gradual pronunciation changes which did not immediately lead to spelling changes.<ref>{{Cite book |last=Krahmalkov |first=Charles R. |title=A Phoenician Punic grammar |publisher=Brill |year=2001 |isbn=9-004-11771-7 |pages=20–27}}</ref> The Phoenician letter forms shown are idealized: actual Phoenician writing is less uniform, with significant variations by era and region.
+<!--Occasionally, Phoenician used a short stroke or dot symbol as a word separator.<ref>{{Cite web |title=Charts |url=http://unicode.org/charts/PDF/U10900.pdf |website=unicode.org |format=PDF}}</ref>-->
+
+{| class="wikitable skin-invert-image" id="letters_chart" style="margin-bottom:0;"
+! colspan="3" |Origin
+! colspan="7" |Phoenician
+|-
+! rowspan="2" |[[Egyptian hieroglyphs|Egyptian <br />hieroglyphs]]
+! rowspan="2" |[[Proto-Sinaitic|Proto-<br />Sinaitic]]
+! rowspan="2" |[[Proto-Canaanite|Proto-<br />Canaanite]]
+! rowspan="2" |Image
+! rowspan="2" |Text
+! rowspan="2" |Name
+! rowspan="2" |Meaning
+! rowspan="2" |Pronunciation
+! colspan="2" |Transliteration
+|-
+![[Transliteration|Phoneme]]
+!Name
+|-
+| {{huge|𓃾}}
+| [[File:Proto-semiticA-01.svg|20px]]
+| [[File:Proto-canaaniteA01.svg|15x15px]]
+| {{Anchor|aleph}}[[File:Phoenician aleph.svg|20px|Aleph]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤀}}}}}}
+|[[Aleph|Alp]]
+| ox, head of cattle
+| {{IPAblink|ʔ}}
+|ʔ/ʾ
+|ʔalp
+|-
+| {{huge|𓉐}}
+| [[File:Proto-semiticB-01.svg|20px]]
+| [[File:Proto-canaaniteB011.svg|18x18px]]
+| {{Anchor|Beth|Bet}}[[File:Phoenician beth.svg|20px|Beth]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤁}}}}}}
+|[[Bet (letter)|Bet]]
+| house
+| {{IPAblink|b}}
+|b
+|bēt
+|-
+| {{huge|𓌙}}
+| [[File:Proto-semiticG-01.svg|20px]]
+| [[File:Proto-canaaniteG01.svg|15x15px]]
+| {{Anchor|Gimel}}[[File:Phoenician gimel.svg|20px|Gimel]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤂}}}}}}
+|[[Gimel|Gaml]]
+| [[throwing stick]] (or camel)<ref name="TN1904">[[Theodor Nöldeke]] (1904){{page needed|date=November 2019}}</ref>
+| {{IPAblink|ɡ}}
+|g
+|gaml
+|-
+| {{huge|𓉿}}
+| [[File:Proto-semiticD-01.svg|20px]] [[File:Proto-semiticD-02.svg|20px]]
+| [[File:Proto-canaaniteD01.svg|15x15px]]
+| {{Anchor|Daleth|Dalet}}[[File:Phoenician daleth.svg|20px|Daleth]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤃}}}}}}
+|[[Dalet|Dalt]]
+| door (or fish)<ref name="TN1904" />
+| {{IPAblink|d}}
+|d
+|dalt
+|-
+| {{huge|𓀠}}?
+| [[File:Proto-semiticE-01.svg|20px]]
+| [[File:Proto-CanaaniteH01.svg|15x15px]]
+| {{Anchor|He}}[[File:Phoenician he.svg|20px|He]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤄}}}}}}
+|[[He (letter)|He]]
+| window 
+| {{IPAblink|h}}
+| h
+|hē
+|-
+| {{huge|𓏲}}
+| [[File:Proto-semiticW-01.svg|20px]]
+| [[File:Proto-canaaniteW01.svg|20x20px]]
+| {{Anchor|Waw}}[[File:Phoenician waw.svg|20px|Waw]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤅}}}}}}
+|[[Waw (letter)|Waw]]
+| hook
+| {{IPAblink|w}}
+|w
+|wāw
+|-
+| {{huge|𓏭}}
+| [[File:Proto-semiticZ-01.svg|20px]]
+| [[File:Proto-canaaniteZ01.svg|15x15px]]
+| {{Anchor|Zayin}}[[File:Phoenician zayin.svg|20px|Zayin]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤆}}}}}}
+|[[Zayin|Zen]]
+| weapon
+| {{IPAblink|z}}
+|z
+|zēn
+|-
+| {{huge|𓉗}} / {{huge|𓈈}}?
+| [[File:Proto-semiticH-01.svg|20px]]
+| [[File:Proto-canaaniteḤ01.svg|15x15px]]
+| {{Anchor|Heth}}[[File:Phoenician heth.svg|20px|Heth]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤇}}}}}}
+|[[Heth|Het]]
+| courtyard/<wbr />wall<ref name="he-het">The letters he and ḥēt continue three Proto-Sinaitic letters, ''ḥasir'' "courtyard", ''hillul'' "jubilation" and ''ḫayt'' "thread".
+The shape of ''ḥēt'' continues ''ḥasir'' "courtyard", but the name continues ''ḫayt'' "thread".
+The shape of ''he'' continues ''hillul'' "jubilation" but the name means "window".{{citation needed|date=December 2019}} see: [[He (letter)#Origins]].</ref> (?)
+| {{IPAblink|ħ}}
+|ħ/ḥ
+|ħēt
+|-
+| {{huge|𓄤}}?
+|[[File:Proto-semiticṬ-01.svg|20x20px]]
+| [[File:Proto-semiticTet-01.svg|15x15px]]
+| {{Anchor|Teth}}[[File:Phoenician teth.svg|20px|Teth]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤈}}}}}}
+|[[Teth|Tet]]
+| wheel{{efn|The glyph was taken to represent a wheel, but it possibly derives from the hieroglyph ''[[nefer]]'' hieroglyph 𓄤 and would originally have been called ''tab'' {{lang|he|טוב}} 'good'.}}
+| {{IPAblink|tʼ}}
+|ṭ
+|ṭēt
+|-
+| {{huge|𓂝}}
+| [[File:Proto-semiticI-01.svg|20x20px|Proto-semiticI-01]] [[File:Proto-semiticI-02.svg|20px]]
+| [[File:Proto-canaaniteJ01.svg|15x15px]]
+| {{Anchor|Yodh}}[[File:Phoenician yodh.svg|20px|Yodh]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤉}}}}}}
+|[[Yodh|Yod]]
+| arm, hand
+| {{IPAblink|j}}
+|j
+|yōd
+|-
+| {{huge|𓂧}}
+| [[File:Proto-semiticK-01.svg|20px]]
+| [[File:Proto-canaaniteK01.svg|15x15px]]
+| {{Anchor|Kaph}}[[File:Phoenician kaph.svg|20px|Kaph]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤊}}}}}}
+|[[Kaph|Kap]]
+| palm of a hand
+| {{IPAblink|k}}
+|k
+|kap
+|-
+| {{huge|𓌅}}
+| [[File:Proto-semiticL-01.svg|20px]]
+| [[File:Proto-canaaniteL01.svg|15x15px]]
+| {{Anchor|Lamedh}}[[File:Phoenician lamedh.svg|20px|Lamedh]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤋}}}}}}
+|[[Lamedh|Lamd]]
+| [[goad]]<ref>The root l-m-d mainly means "to teach", from an original meaning "to goad".[https://www.blueletterbible.org/lang/lexicon/lexicon.cfm?Strongs=H3925 H3925] in ''Strong’s Exhaustive Concordance to the Bible'', 1979.</ref>
+| {{IPAblink|l}}
+|l
+|lamd
+|-
+| {{huge|𓈖}}
+| [[File:Proto-semiticM-01.svg|20px]]
+| [[File:Proto-canaaniteM01.svg|15x15px]]
+| {{Anchor|Mem}}[[File:Phoenician mem.svg|20px|Mem]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤌}}}}}}
+|[[Mem]]
+| water
+| {{IPAblink|m}}
+|m
+|mēm
+|-
+| {{huge|𓆓}}
+| [[File:Proto-semiticN-01.svg|20px]]
+| [[File:Proto-canaaniteN01.svg|15x15px]]
+| {{Anchor|Nun}}[[File:Phoenician nun.svg|20px|Nun]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤍}}}}}}
+|[[Nun (letter)|Nun]]
+| serpent (or fish)<ref name="TN1904" />{{efn|the letter name ''nūn'' is a word for "fish", but the glyph is presumably from the depiction of a snake, which would point to an original name {{lang|he|[[:wikt:נחש#Hebrew|נחש]]}} "snake".}} 
+| {{IPAblink|n}}
+|n
+|nūn
+|-
+| {{huge|[[𓊽]]}}
+|[[File:Proto-semiticX-01.svg|20x20px|Proto-semiticX-01]] [[File:Proto-semiticX-02.png|20x20px|Proto-semiticX-02]]
+| [[File:Proto-semiticX-01.svg|15x15px]]
+| {{Anchor|Samekh}}[[File:Phoenician samekh.svg|20px|Samekh]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤎}}}}}}
+|[[Samekh|Samk]]
+| pillar(?)
+| {{IPAblink|s}}
+|s
+|samk
+|-
+| {{huge|𓁹}}
+|[[File:Proto-semiticO-01.svg|20x20px|Proto-semiticO-01]]
+| [[File:Phoenician ayin.svg|15x15px|𐤏]]
+| {{Anchor|Ayin}}[[File:Phoenician ayin.svg|20px|Ayin]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤏}}}}}}
+|[[Ayin|En]]
+| eye
+| {{IPAblink|ʕ}}
+| ʕ/ʿ
+|ʕēn
+|-
+| {{huge|𓂋}}
+| [[File:Proto-semiticP-01.svg|20px]]
+| [[File:Proto-canaaniteP01.svg|15x15px]]
+| {{Anchor|Pe}}[[File:Phoenician pe.svg|20px|Pe]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤐}}}}}}
+|[[Pe (Semitic letter)|Pe]]
+| mouth (or corner)<ref name="TN1904" />
+| {{IPAblink|p}}
+|p
+|pē
+|-
+| {{huge|𓇑}}?{{efn|the letter name may be from {{lang|he|[[:wikt:צד#Hebrew|צד]]}} "to hunt".}}
+|[[File:Serabit-El-Khadim-Ṣ356.svg|16x16px]]
+|[[File:Proto-canaaniteṢ01.png|20x20px]]
+| {{Anchor|Sadek|Tsade}}[[File:Phoenician sade.svg|20px|Sadek]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤑}}}}}}
+|[[Tsade|Sade]]
+| papyrus plant/<wbr />fish hook?
+| {{IPAblink|t͡sʼ}}
+|ṣ
+|ṣādē
+|-
+| {{huge|𓃻}}?
+| [[File:Proto-semiticQ-01.svg|20px]]
+| [[File:Proto-canaaniteQ01.svg|15x15px]]
+| {{Anchor|Qoph}}[[File:Phoenician qoph.svg|20px|Qoph]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤒}}}}}}
+|[[Qoph|Qop]]
+| monkey/
+needle
+| {{IPAblink|kʼ}}
+|ḳ/q
+|ḳōp
+|-
+| {{huge|𓁶}}
+| [[File:Proto-semiticR-01.svg|20px]]
+| [[File:Proto-canaaniteR01.svg|15x15px]]
+| {{Anchor|Res|Resh}}[[File:Phoenician res.svg|20px|Res]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤓}}}}}}
+|[[Resh|Rosh]]
+| head
+| {{IPAblink|r}}
+|r
+|rōš
+|-
+| {{huge|𓌓}}
+| [[File:Proto-semiticS-01.svg|20px]]
+| [[File:Proto-canaaniteŠ01.svg|15x15px]]
+| {{Anchor|Sin|Shin}}[[File:Phoenician sin.svg|20px|Sin]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤔}}}}}}
+|[[Shin (letter)|Shin]]
+| tooth (or sun)<ref name="TN1904" /> 
+| {{IPAblink|ʃ}}
+|š
+|šin
+|-
+| {{huge|𓏴}}
+| [[File:Proto-semiticT-01.svg|20px]]
+| [[File:Proto-canaaniteT01.svg|15x15px]]
+| {{Anchor|Taw}}[[File:Phoenician taw.svg|20px|Taw]]
+| {{huge|{{lang|phn|{{script|Phnx|𐤕}}}}}}
+|[[Taw]]
+| mark
+| {{IPAblink|t}}
+|t
+|tāw
+|}
+When alphabetic writing began, with the [[history of the Greek alphabet|early Greek alphabet]], the letter forms were similar but not identical to Phoenician, and vowels were added to the consonant-only Phoenician script. There were also distinct [[Archaic Greek alphabets|variants]] of the writing system in different parts of Greece, primarily in how those Phoenician characters that did not have an exact match to Greek sounds were used. The [[Ionic alphabet|Ionic variant]] evolved into the standard Greek alphabet, and the [[Cumae alphabet|Cumae variant]] into the [[Old Italic scripts|Italic alphabets]] (including the [[Latin alphabet]]).
+
+The [[Elder Futhark|Runic alphabet]] is derived from Italic, the [[Cyrillic alphabet]] from medieval Greek. The Hebrew, Syriac and Arabic scripts are derived from [[Aramaic script|Aramaic]] (the latter as a medieval cursive variant of [[Nabataean alphabet|Nabataean]]). [[Ge'ez]] is from [[South Arabian script|South Arabian]].
+
+{{anchor|Correspondences|Comparison}}
+{| class="wikitable skin-invert-image" id="letters_chart" style="margin-bottom:0;"
+|-
+!Phoenician
+![[Libyco-Berber alphabet|Libyco-<br />Berber]]
+! [[Samaritan script|Samaritan]]
+! [[Aramaic alphabet|Aramaic]]
+! [[Hebrew alphabet|Hebrew]]
+! [[Syriac alphabet|Syriac]]
+! [[Inscriptional Parthian|Parthian]]
+! [[Arabic alphabet|Arabic]]
+! [[Ancient South Arabian script|South<br />Arabian]]
+! [[Ge'ez script|Ge'ez]]
+! [[Greek alphabet|Greek]]
+! [[Latin alphabet|Latin]]
+! [[Cyrillic]]
+! [[Brahmi]]
+! [[Devanagari|Devana&shy;gari]]
+! [[Tamil script|Tamil]]
+! [[Mongolian script|Mongolian]]
+|-
+|𐤀
+|
+| {{Script|Samr|ࠀ}}
+| {{script|Armi|𐡀}}
+| {{Script|Hebr|א}}
+| {{Script|Syre|ܐ}}
+| {{Script|Prti|𐭀}}
+| {{Script|Arab|[[ﺍ]] ,[[ء]]}}
+| {{Script|Sarb|𐩱}}
+| {{Script|Ethi|አ}}
+| [[Α]]α
+| [[A]]a
+| [[А]]а
+| 𑀅 /a/
+| अ /a/
+| அ
+| {{hlist|[[File:Mongolian letter E (initial form).svg|24px]]|[[File:Mongolian letter E (medial form).svg|24px]]|[[File:Mongolian letter E (final form).svg|24px]]/[[File:Mongolian letter E (final form-2).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|[[A (Mongolic)#Mongolian language|a]] / [[E (Mongolic)#Mongolian language|e]] / [[O (Mongolic)#Mongolian language|o]] / [[U (Mongolic)#Mongolian language|u]] / [[Oe (Mongolic)#Mongolian language|ö]] / [[Ue (Mongolic)#Mongolian language|ü]]}}'')
+|-
+|𐤁
+|[[File:LIBYAN_LETTER_B.png|20x20px]]
+| {{Script|Samr|ࠁ}}
+| {{script|Armi|𐡁}}
+| {{Script|Hebr|ב}}
+| {{Script|Syre|ܒ}}
+| {{Script|Prti|𐭁}}
+| {{Script|Arab|[[ﺏ]]}}
+| {{Script|Sarb|𐩨}}
+| {{Script|Ethi|በ}}
+| [[Β]]β
+| [[B]]b
+| [[Б]]б, [[В]]в
+| 𑀩 /b/
+| ब /b/
+| -
+| {{Hlist|[[File:Mongolian letter Wa (initial form).svg|24px]]|[[File:Mongolian letter Wa (medial form).svg|24px]]|[[File:Mongolian letter Wa (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|[[E (Mongolic)#Mongolian language|ē]] / [[Wa (Mongolic)#Mongolian language|w]]}}'')
+|-
+|𐤂
+|[[File:LIBYAN_LETTER_G.png|20x20px]]
+| {{Script|Samr|ࠂ}}
+| {{script|Armi|𐡂}}
+| {{Script|Hebr|ג}}
+| {{Script|Syre|ܓ}}
+| {{Script|Prti|𐭂}}
+| {{Script|Arab|[[ﺝ]]}}
+| {{Script|Sarb|𐩴}}
+| {{Script|Ethi|ገ}}
+| [[Γ]]γ
+| [[C]]c, [[G]]g
+| [[Г]]г, [[Ґ]]ґ
+| 𑀕 /g/
+| ग /g/
+| -
+| {{Hlist|[[File:Mongolian letter Qa (isolated form).svg|24px]]|[[File:Mongolian letter Qa (medial form).svg|24px]]|[[File:Mongolian letter Qa (final form).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|[[Qa (Mongolic)#Mongolian language|q]] / [[Ga (Mongolic)#Mongolian language|γ]]}}'')
+|-
+|𐤃
+|[[File:LIBYAN_LETTER_D.png|20x20px]]
+| {{Script|Samr|ࠃ}}
+| {{script|Armi|𐡃}}
+| {{Script|Hebr|ד}}
+| {{Script|Syre|ܕ}}
+| {{Script|Prti|𐭃}}
+| {{Script|Arab|[[ذ]] ,[[د]]}}
+| {{Script|Sarb|𐩵}}
+| {{Script|Ethi|ደ}}
+| [[Δ]]δ
+| [[D]]d
+| [[Д]]д
+| 𑀥 /dʰ/
+| ध /dʰ/
+| -
+| —
+|-
+|𐤄
+|[[File:LIBYAN_LETTER_H.png|20x20px]]
+| {{Script|Samr|ࠄ}}
+| {{script|Armi|𐡄}}
+| {{Script|Hebr|ה}}
+| {{Script|Syre|ܗ}}
+| {{Script|Prti|𐭄}}
+| {{Script|Arab|[[ه]]}}
+| {{Script|Sarb|𐩠}}
+| {{Script|Ethi|ሀ}}
+| [[Ε]]ε
+| [[E]]e
+| [[Е]]е, [[Ё]]ё, [[Є]]є, [[Э]]э
+| 𑀳 /ɦ/
+| ह /ɦ/
+| -
+| —
+|-
+|𐤅
+|[[File:LIBYAN_LETTER_W_VERTICAL.png|20x20px]]
+| {{Script|Samr|ࠅ}}
+| {{script|Armi|𐡅}}
+| {{Script|Hebr|ו}}
+| {{Script|Syre|ܘ}}
+| {{Script|Prti|𐭅}}
+| {{Script|Arab|[[ﻭ]]}}
+| {{Script|Sarb|𐩥}}
+| {{Script|Ethi|ወ}}
+| ({{lang|grc|[[Ϝ]]ϝ}}), [[Υ]]υ
+| [[F]]f, [[U]]u, [[V]]v, [[W]]w, [[Y]]y
+| [[Ѕ]]ѕ, [[Ѵ]]ѵ, [[У]]у, [[Ў]]ў
+| 𑀯 /v/
+| व /v/
+| வ /v/
+| {{Hlist|[[File:Mongolian letter U (medial form).svg|24px]]|[[File:Mongolian letter U (medial form).svg|24px]]|[[File:Mongolian letter U (final form).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|o / u / ö / ü / w}}'')
+|-
+|𐤆
+|[[File:LIBYAN_LETTER_Z2.png|20x20px]]/[[File:LIBYAN_LETTER_EMPHATIC_S.png|20x20px]]/[[File:LIBYAN_LETTER_Z3.png|alt=LB vertical Z|20x20px]]
+| {{Script|Samr|ࠆ}}
+| {{script|Armi|𐡆}}
+| {{Script|Hebr|ז}}
+| {{Script|Syre|ܙ}}
+| {{Script|Prti|𐭆}}
+| {{Script|Arab|[[ﺯ]]}}
+| {{Script|Sarb|𐩸}}
+| {{Script|Ethi|ዘ}}
+| [[Ζ]]ζ
+| [[Z]]z
+| [[З]]з
+| 𑀚 /ɟ/
+| ज /dʒ/
+| -
+| {{Hlist|—|—|[[File:Mongolian letter Sa (final form-2).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|[[Sa (Mongolic)#Mongolian language|s]]}}'')
+|-
+|𐤇
+|[[File:LIBYAN_LETTER_H.png|20x20px]]
+| {{Script|Samr|ࠇ}}
+| {{script|Armi|𐡇}}
+| {{Script|Hebr|ח}}
+| {{Script|Syre|ܚ}}
+| {{Script|Prti|𐭇}}
+| {{Script|Arab|[[ح]] ,[[خ]]}}
+| {{Script|Sarb|𐩢}}
+| {{Script|Ethi|ሐ}}
+| ([[Ͱ]]ͱ), [[Η]]η
+| [[H]]h
+| [[И]]и, [[Й]]й
+| 𑀖 /gʰ/
+| घ /gʰ/
+| -
+| {{Hlist|[[File:Mongolian letter Qa (isolated form).svg|24px]]|[[File:Mongolian letter Qa (medial form).svg|24px]]|[[File:Mongolian letter Qa (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|q / γ}}'')
+|-
+|𐤈
+|[[File:LIBYAN_LETTER_EMPHATIC_T.png|20x20px]]
+| {{Script|Samr|ࠈ}}
+| {{script|Armi|𐡈}}
+| {{Script|Hebr|ט}}
+| {{Script|Syre|ܛ}}
+| {{Script|Prti|𐭈}}
+| {{Script|Arab|[[ط]] ,[[ظ]]}}
+| {{Script|Sarb|𐩷}}
+| {{Script|Ethi|ጠ}}
+| [[Θ]]θ
+|<!--Thorn is derived from the rune Thurisaz, but its ultimate origin is unknown; correspondence to the Gothic 𐌸 and Greek theta is only one of several proposals-->
+| [[Ѳ]]ѳ
+| 𑀣 /tʰ/
+| थ /tʰ/
+| -
+| —
+|-
+|𐤉
+|[[File:LIBYAN_LETTER_Y.png|20x20px]]
+| {{Script|Samr|ࠉ}}
+| {{script|Armi|𐡉}}
+| {{Script|Hebr|י}}
+| {{Script|Syre|ܝ}}
+| {{Script|Prti|𐭉}}
+| {{Script|Arab|[[ي]]}}
+| {{Script|Sarb|𐩺}}
+| {{Script|Ethi|የ}}
+| [[Ι]]ι
+| [[Ι]]i, [[J]]j<!--Do NOT add the letter Y to this cell. This table classifies letters of modern alphabets by what letters of the Phoenician alphabet they are descended from, NOT their common pronunciations. The letter Y is a descendant of Phoenician waw via Greek upsilon.-->
+| [[І]]і, [[Ї]]ї, [[Ј]]ј
+| 𑀬 /j/
+| य /j/
+| ய /y/
+| {{Hlist|[[File:Mongolian letter Ja (initial form).svg|24px]]|[[File:Mongolian letter I (medial form).svg|24px]]|[[File:Mongolian letter I (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|i / [[Ja (Mongolic)#Mongolian language|ǰ]] / [[Ya (Mongolic)#Mongolian language|y]]}}'')
+|-
+|𐤊
+|[[File:LIBYAN_LETTER_K.png|20x20px]]
+| {{Script|Samr|ࠊ}}
+| {{script|Armi|𐡊}}
+| {{Script|Hebr|כך}}
+| {{Script|Syre|ܟ}}
+| {{Script|Prti|𐭊}}
+| {{Script|Arab|[[ﻙ]]}}
+| {{Script|Sarb|𐩫}}
+| {{Script|Ethi|ከ}}
+| [[Κ]]κ
+| [[K]]k
+| [[К]]к
+| 𑀓 /k/
+| क /k/
+| க
+| {{Hlist|[[File:Mongolian letter Ga (initial form).svg|24px]]|[[File:Mongolian letter Ga (medial form-4).svg|24px]]|[[File:3mg g final.png|24px]]|class=inline}}
+(''{{tlit|Mong|[[Qa (Mongolic)#Mongolian language|k]] / [[Ga (Mongolic)#Mongolian language|g]]}}'')
+|-
+|𐤋
+|[[File:LIBYAN_LETTER_L.png|20x20px]]
+| {{Script|Samr|ࠋ}}
+| {{script|Armi|𐡋}}
+| {{Script|Hebr|ל}}
+| {{Script|Syre|ܠ}}
+| {{Script|Prti|𐭋}}
+| {{Script|Arab|[[ﻝ]]}}
+| {{Script|Sarb|𐩡}}
+| {{Script|Ethi|ለ}}
+| [[Λ]]λ
+| [[L]]l
+| [[Л]]л
+| 𑀮 /l/
+| ल /l/
+| ல
+| {{Hlist|[[File:Mongolian letter Da (initial form-2).svg|24px]]|[[File:Mongolian letter Da (medial form-2).svg|24px]]|—|class=inline}}
+(''{{tlit|Mong|[[Ta (Mongolic)#Mongolian language|t]] / [[Da (Mongolic)#Mongolian language|d]]}}'')
+|-
+|𐤌
+|[[File:LIBYAN_LETTER_M.png|20x20px]]
+| {{Script|Samr|ࠌ}}
+| {{script|Armi|𐡌}}
+| {{Script|Hebr|מם}}
+| {{Script|Syre|ܡ}}
+| {{Script|Prti|𐭌}}
+| {{Script|Arab|[[ﻡ]]}}
+| {{Script|Sarb|𐩣}}
+| {{Script|Ethi|መ}}
+| [[Μ]]μ
+| [[M]]m
+| [[М]]м
+| 𑀫 /m/
+| म /m/
+| ம
+| {{Hlist|[[File:Mongolian letter Ma (initial form).svg|24px]]|[[File:Mongolian letter Ma (medial form).svg|24px]]|[[File:Mongolian letter Ma (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|[[Ma (Mongolic)#Mongolian language|m]]}}'')
+|-
+|𐤍
+|[[File:LIBYAN_LETTER_N.png|alt=LB vertical N|20x20px]]
+| {{Script|Samr|ࠍ}}
+| {{script|Armi|𐡍}}
+| {{Script|Hebr|נן}}
+| {{Script|Syre|ܢ}}
+| {{Script|Prti|𐭍}}
+| {{Script|Arab|[[ﻥ]]}}
+| {{Script|Sarb|𐩬}}
+| {{Script|Ethi|ነ}}
+| [[Ν]]ν
+| [[N]]n
+| [[Н]]н
+| 𑀦 /n/
+| न /n/
+| {{nowrap|ன /ṉ/}}
+| {{Hlist|[[File:Mongolian letter Na (initial form).svg|24px]]|[[File:Mongolian letter Na (medial form).svg|24px]]/[[File:Mongolian letter Na (medial form-2).svg|24px]]|[[File:Mongolian letter Na (final form).svg|24px]]/[[File:Mongolian letter Na (medial form-3).svg|24px]]|class=inline}}
+(''{{tlit|Mong|[[Na (Mongolic)#Mongolian language|n]]}}'')
+|-
+|𐤎
+|[[File:LIBYAN_LETTER_S2.png|alt=LB vertical N|20x20px]],[[File:LIBYAN_LETTER_S.png|20x20px]]
+| {{Script|Samr|ࠎ}}
+| {{script|Armi|𐡎}}
+| {{Script|Hebr|ס}}
+| {{Script|Syre|ܣ}}
+| {{Script|Prti|𐭎}}
+| {{Script|Arab|[[س]]}}
+| {{Script|Sarb|𐩯}}
+|
+| [[Ξ]]ξ
+|<!--Please DO NOT add the letter X to this cell without a reliable source saying that Ξ (xi; not chi) is the Greek letter X derived from.-->
+| [[Ѯ]]ѯ
+| 𑀱 /ʂ/
+| ष /ʂ/
+| -
+| {{Hlist|[[File:Mongolian letter Sa (initial form).svg|24px]]|[[File:Mongolian letter Sa (medial form).svg|24px]]|[[File:Mongolian letter Sa (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|s / [[Sha (Mongolic)#Mongolian language|š]]}}'')
+|-
+|𐤏
+|
+| {{Script|Samr|ࠏ}}
+| {{script|Armi|𐡏}}
+| {{Script|Hebr|ע}}
+| {{Script|Syre|ܥ}}
+| {{Script|Prti|𐭏}}
+| {{Script|Arab|[[ع]] ,[[غ]]}}
+| {{Script|Sarb|𐩲}}
+| {{Script|Ethi|ዐ}}
+| [[Ο]]ο, [[Ω]]ω
+| [[O]]o
+| [[О]]о, [[Ѡ]]ѡ
+| 𑀏 /e/
+| ए /e/
+| -
+| —
+|-
+|𐤐
+|[[File:LIBYAN_LETTER_F.png|20x20px]]
+| {{Script|Samr|ࠐ}}
+| {{script|Armi|𐡐}}
+| {{Script|Hebr|פף}}
+| {{Script|Syre|ܦ}}
+| {{Script|Prti|𐭐}}
+| {{Script|Arab|[[ف]]}}
+| {{Script|Sarb|𐩰}}
+| {{Script|Ethi|ፈ}}
+| [[Pi (letter)|Π]]π
+| [[P]]p
+| [[П]]п
+| 𑀧 /p/
+| प /p/
+| ப
+| {{Hlist|[[File:Mongolian letter Ba (initial form).svg|24px]]|[[File:Mongolian letter Ba (medial form).svg|24px]]|[[File:Mongolian letter Ba (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|[[Ba (Mongolic)#Mongolian language|b]]}}'')
+|-
+|𐤑
+|[[File:LIBYAN_LETTER_S.png|20x20px]]/[[File:LIBYAN_LETTER_EMPHATIC_S.png|20x20px]]
+| {{Script|Samr|ࠑ}}
+| {{script|Armi|𐡑}}
+| {{Script|Hebr|צץ}}
+| {{Script|Syre|ܨ}}
+| {{Script|Prti|𐭑}}
+| {{Script|Arab|[[ص]] ,[[ض]]}}
+| {{Script|Sarb|𐩮}}
+| {{Script|Ethi|ጸ}}
+| ({{lang|grc|[[Ϻ]]ϻ}})
+|
+|[[Tse (Cyrillic)|Ц]]ц
+| 𑀘 /c/
+| च /tʃ/
+| ச	/c/
+| {{Hlist|[[File:Mongolian letter Cha (initial form).svg|24px]]|[[File:Mongolian letter Cha (medial form).svg|24px]]/[[File:Mongolian letter Ja (medial form).svg|24px]]|—|class=inline}}
+(''{{Transliteration|Mong|[[Cha (Mongolic)#Mongolian language|č]] / ǰ}}'')
+|-
+|𐤒
+|[[File:LIBYAN_LETTER_Q.png|20x20px]]?
+| {{Script|Samr|ࠒ}}
+| {{script|Armi|𐡒}}
+| {{Script|Hebr|ק}}
+| {{Script|Syre|ܩ}}
+| {{Script|Prti|𐭒}}
+| {{Script|Arab|[[ﻕ]]}}
+| {{Script|Sarb|𐩤}}
+| {{Script|Ethi|ቀ}}
+| ({{lang|grc|[[Ϙ]]ϙ}}), [[Φ]]φ
+| [[Q]]q
+| [[Ҁ]]ҁ, [[Ф]]ф
+| 𑀔 /kʰ/
+| ख /kʰ/
+| -
+| —
+|-
+|𐤓
+|[[File:LIBYAN_LETTER_R.png|20x20px]]
+| {{Script|Samr|ࠓ}}
+| {{script|Armi|𐡓}}
+| {{Script|Hebr|ר}}
+| {{Script|Syre|ܪ}}
+| {{Script|Prti|𐭓}}
+| {{Script|Arab|[[ﺭ]]}}
+| {{Script|Sarb|𐩧}}
+| {{Script|Ethi|ረ}}
+| [[Ρ]]ρ
+| [[R]]r
+| [[Р]]р
+| 𑀭 /r/
+| र /r/
+| ர
+| {{Hlist|[[File:Mongolian letter La (initial form).svg|24px]]|[[File:Mongolian letter La (medial form).svg|24px]]|[[File:Mongolian letter La (final form).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|[[La (Mongolic)#Mongolian language|l]]}}''),
+{{Hlist|[[File:Mongolian letter Ra (initial form).svg|24px]]|[[File:Mongolian letter Ra (medial form).svg|24px]]|[[File:Mongolian letter Ra (final form).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|[[Ra (Mongolic)#Mongolian language|r]]}}'')
+
+|-
+|𐤔
+|[[File:LIBYAN_LETTER_SHIN.png|20x20px]],[[File:LIBYAN_LETTER_Z1.png|20x20px]]
+| {{Script|Samr|ࠔ}}
+| {{script|Armi|𐡔}}
+| {{Script|Hebr|ש}}
+| {{Script|Syre|ܫ}}
+| {{Script|Prti|𐭔}}
+| {{Script|Arab|[[ش]]}}
+| {{Script|Sarb|𐩦}}
+| {{Script|Ethi|ሠ}}
+| [[Σ]]σς
+| [[S]]s
+| [[С]]с, [[Ш]]ш, [[Щ]]щ
+| 𑀰 /ɕ/
+| श /ɕ/
+| -
+| {{Hlist|[[File:Mongolian letter Sa (initial form).svg|24px]]|[[File:Mongolian letter Sa (medial form).svg|24px]]|[[File:Mongolian letter Sa (final form).svg|24px]]|class=inline}}
+(''{{Transliteration|Mong|s / š}}'')
+|-
+|𐤕
+|[[File:LIBYAN_LETTER_T.png|20x20px]]
+| {{Script|Samr|ࠕ}}
+| {{script|Armi|𐡕}}
+| {{Script|Hebr|ת}}
+| {{Script|Syre|ܬ}}
+| {{Script|Prti|𐭕}}
+| {{Script|Arab|[[ت]], [[ث]]}}
+| {{Script|Sarb|𐩩}}
+| {{Script|Ethi|ተ}}
+| [[Τ]]τ
+| [[T]]t
+| [[Т]]т
+| 𑀢 /t/
+| त /t/
+| த
+| {{Hlist|[[File:Mongolian letter Ta (initial form).svg|24px]]|[[File:Mongolian letter Da (medial form).svg|24px]]|[[File:Mongolian letter Da (final form).svg|24px]]|class=inline}}
+(''{{tlit|Mong|t / d}}'')
+|}
+
+==Letter names==
+Phoenician used a system of [[acrophony]] to name letters: a word was chosen with each initial consonant sound, and became the name of the letter for that sound. These names were not arbitrary: each Phoenician letter was based on an Egyptian hieroglyph representing an Egyptian word; this word was translated into Phoenician (or a closely related Semitic language), then the initial sound of the translated word became the letter's Phoenician value.<ref>Jensen (1969) p. 262–263.</ref> For example, the second letter of the Phoenician alphabet was based on the Egyptian hieroglyph for "house" (a sketch of a house); the Semitic word for 'house' was ''[[Bet (letter)|bet]]''; hence the Phoenician letter was called ''bet'' and had the sound value ''b''.
+
+[[Yigael Yadin]] (1963) went to great lengths to prove that there was actual battle equipment similar to some of the original letter forms named for weapons (samk, zen).<ref>Yigael Yadin, ''The Art of Warfare in Biblical Lands''. McGraw-Hill, 1963. The samek – a quick war ladder, later to become the '$' dollar sign drawing the three internal lines quickly. The Z-shaped zayin – an ancient boomerang used for hunting. The H-shaped ḥet – mammoth tusks.</ref>
+
+Later, the Greeks kept approximations of the Phoenician names, albeit they did not mean anything to them other than the letters themselves; on the other hand, the [[Latin alphabet|Latins]] (and presumably the [[Etruscan alphabet|Etruscans]] from whom they borrowed a variant of the [[Western Greek alphabet]]) and the Orthodox Slavs (at least when naming the [[Cyrillic]] letters, which came to them from the Greek by way of the [[Glagolitic]]) based their names purely on the letters' sounds.
+
+==Numerals==
+The Phoenician numeral system consisted of separate symbols for 1, 10, 20, and 100. The sign for 1 was a simple vertical stroke (𐤖). Other numerals up to 9 were formed by adding the appropriate number of such strokes, arranged in groups of three. The symbol for 10 was a horizontal line or tack ({{Script|Phnx|𐤗}}). The sign for 20 (𐤘) could come in different glyph variants, one of them being a combination of two 10-tacks, approximately Z-shaped. Larger multiples of ten were formed by adding groups of vertical groups of three to the right of the ten mark.<ref>{{Cite book |last=Cajori |first=Florian |date=1928 |publisher=The Open Court Company |page=18-19|title=A History of Mathematical Notation, Volume 1, Notations in Elementary Mathematics |url=https://archive.org/details/historyofmathema031756mbp/mode/2up |access-date=2 August 2026}}</ref> There existed several glyph variants for 100 (𐤙), with multiples to the right as with tens, e.g., 400 would be rendered  𐤖 𐤖𐤖𐤖 𐤙. The system did not contain a numeral [[zero]].
+{| class="wikitable"
+|+
+!Value
+!Phoenician
+|-
+|1
+|𐤖
+|-
+|10
+|{{Script|Phnx|𐤗}}
+|-
+|20
+|𐤘
+|-
+|100
+|𐤙
+|}
+
+==Derived alphabets==
+{{main|History of the alphabet}}
+[[File:Phönizisch-6Sprachen.svg|thumb|Each letter of Phoenician gave way to a new form in its daughter scripts. Left to right: Latin, Greek, Cyrillic, Phoenician, Hebrew, Arabic.]]
+
+Phoenician was prolific. Many of the writing systems in use today can ultimately trace their descent to it, so ultimately to [[Egyptian hieroglyphs]]. The [[Latin script|Latin]], [[Cyrillic]], [[Armenian alphabet|Armenian]] and [[Georgian scripts|Georgian]] scripts are derived from the [[Greek alphabet]], which evolved from Phoenician; the [[Aramaic alphabet|Aramaic script]], also descended from Phoenician, evolved into the [[Arabic alphabet|Arabic]] and [[Hebrew alphabet|Hebrew]] scripts. It has also been theorized that the [[Brahmi]] and subsequent [[Brahmic scripts]] of the [[Indian cultural sphere]] also descended from Aramaic, effectively uniting most of the world's writing systems under one family, although the theory is disputed.
+
+===Early Semitic scripts===
+The [[Paleo-Hebrew alphabet]], a sister script to the Phoenician script was used to write early [[Hebrew]]. It developed in parallel, being a slight regional variant of the Phoenician script. The [[Samaritan alphabet]] is a direct development of Paleo-Hebrew, emerging in the 6th century&nbsp;BC. The [[South Arabian script]] may be derived from a stage of the [[Proto-Sinaitic script]] predating the mature development of the Phoenician alphabet proper. The [[Geʽez script]] developed from South Arabian.
+
+=== Samaritan alphabet ===
+{{Main|Samaritan alphabet}}
+[[File:Samaritan Leviticus.jpg|thumb|upright=0.8|A page from the Samaritan version of [[Leviticus]]]]
+The Phoenician script continued to be used by the [[Samaritans]] and developed into the Samaritan alphabet, that is an immediate continuation of the Phoenician script without intermediate non-Israelite evolutionary stages. The Samaritans have continued to use the script for writing both Hebrew and Aramaic texts until the present day. A comparison of the earliest Samaritan inscriptions and the medieval and modern Samaritan manuscripts clearly indicates that the Samaritan script is a static script which was used mainly as a [[book hand]].
+
+===Aramaic-derived===
+{{further|Aramaic alphabet}}
+
+The Aramaic script, used to write [[Aramaic]], is an early descendant of Phoenician. Aramaic, being the [[lingua franca]] of the Middle East, was widely adopted. It later split off into a number of related alphabets, including [[Hebrew alphabet|Hebrew]], [[Syriac alphabet|Syriac]], and [[Nabataean alphabet|Nabataean]], the latter of which, in its cursive form, became an ancestor of the [[Arabic alphabet]]. The Hebrew alphabet emerges in the [[Second Temple period]], from around 300 BC, out of the Aramaic alphabet used in the Persian empire. There was, however, a revival of the Phoenician / Old Hebrew mode of writing later in the Second Temple period, with some instances from the [[Qumran Caves]], such as the [[Paleo-Hebrew Leviticus scroll]] dated to the 2nd or 1st century&nbsp;BC.
+
+By the 5th century&nbsp;BC, among Jews the Phoenician alphabet had been mostly replaced by the [[Aramaic alphabet|Aramaic script]] as officially used in the [[Persian empire]] (which, like all alphabetical writing systems, was itself ultimately a descendant of the Proto-Canaanite script, though through intermediary non-Israelite stages of evolution). The "[[Square Aramaic script|Jewish square-script]]" variant now known simply as the [[Hebrew alphabet]] evolved directly out of the Aramaic script by about the 3rd century&nbsp;BC (although some letter shapes did not become standard until the 1st century&nbsp;AD).
+
+The [[Kharosthi]] script is an Aramaic-derived alphasyllabary used in the [[Indo-Greek Kingdom]] in the 3rd century&nbsp;BC. The [[Syriac alphabet]] is the derived form of Aramaic used in the early Christian period. The [[Sogdian alphabet]] is derived from Syriac. It is in turn an ancestor of the [[Old Uyghur alphabet|Old Uyghur]].{{citation needed|date=November 2019}} The [[Manichaean alphabet]] is a further derivation from Sogdian.
+
+The [[Arabic script]] is a medieval cursive variant of [[Nabataean alphabet|Nabataean]], itself an offshoot of Aramaic.
+
+===Brahmic scripts===
+{{See also|Brahmi_script#Semitic_hypothesis|label 1=Aramaic hypothesis}}
+It has been proposed, notably by Georg Bühler (1898), that the [[Brahmi script]] of India (and by extension the derived [[Indic alphabets]]) was ultimately derived from the Aramaic script, which would make Phoenician the ancestor of virtually every alphabetic writing system in use today,<ref>Richard Salomon, "Brahmi and Kharoshthi", in ''The World's Writing Systems''</ref><ref>{{Cite book |last=Daniélou |first=Alain |url=https://books.google.com/books?id=xlwoDwAAQBAJ&pg=PT53 |title=A Brief History of India |publisher=Simon & Schuster |year=2003 |isbn=978-1-594-77794-3 |pages=52–53}}</ref> with the notable exception of [[hangul]].<ref>''The Korean language reform of 1446: the origin, background, and Early History of the Korean Alphabet'', Gari Keith Ledyard. University of California, 1966, p. 367–368.</ref><ref>Peter T. Daniels and William Bright, ''The World's Writing Systems'' (New York: Oxford University Press, 1996), pp. 219–220</ref>
+
+It is certain that the Aramaic-derived [[Kharosthi]] script was present in northern India by the 4th century BC, so that the Aramaic model of alphabetic writing would have been known in the region, but the link from Kharosthi to the slightly younger Brahmi is tenuous. Bühler's suggestion is still entertained in mainstream scholarship, but it has never been proven conclusively, and no definitive scholarly consensus exists.
+
+===Greek-derived===
+{{further|History of the Greek alphabet|History of the Latin alphabet}}
+The [[Greek alphabet]] is derived from the Phoenician.<ref name="JG">{{Cite book |last=Humphrey |first=John William |url=https://books.google.com/books?id=b76EBrop0sEC&q=greek+alphabet+is+derived+from+phoenician+alphabet&pg=PA86 |title=Ancient Technology |publisher=Greenwood |year=2006 |isbn=978-0-313-32763-6 |edition=Illustrated |page=219}}</ref> With a different phonology, the Greeks adapted the Phoenician script to represent their own sounds, including the vowels absent in Phoenician. It was possibly more important in Greek to write out vowel sounds: Phoenician being a Semitic language, words were based on [[Semitic roots|consonantal roots]] that permitted extensive removal of vowels without loss of meaning, a feature absent in the [[Indo-European]] Greek. However, [[Akkadian cuneiform]], which wrote a related Semitic language, did indicate vowels, which suggests the Phoenicians simply accepted the model of the Egyptians, who never wrote vowels. In any case, the Greeks repurposed the Phoenician letters of consonant sounds not present in Greek; each such letter had its name shorn of its leading consonant, and the letter took the value of the now-leading vowel. For example, ''[[Aleph|alp]]'', which designated a [[glottal stop]] in Phoenician, was repurposed to represent the vowel {{IPA|/a/}}; [[He (letter)|''he'']] became {{IPA|/e/}}, [[Heth|''het'']] became {{IPA|/eː/}} (a long vowel), [[Ayin|''en'']] became {{IPA|/o/}} (because the [[Pharyngeal consonant|pharyngeality]] altered the following vowel), while the two semi-consonants [[wau (letter)|''waw'']] and [[yodh|''yod'']] became the corresponding high vowels, {{IPA|/u/}} and {{IPA|/i/}}. (Some dialects of Greek, which did possess {{IPA|/h/}} and {{IPA|/w/}}, continued to use the Phoenician letters for those consonants as well.)
+
+The [[Alphabets of Asia Minor]] are generally assumed to be offshoots of archaic versions of the Greek alphabet.
+
+The [[Latin alphabet]] was derived from [[Old Italic alphabet|Old Italic]] (originally derived from a form of the Greek alphabet), used for [[Etruscan language|Etruscan]] and other languages. The origin of the [[Runic alphabet]] is disputed: the main theories are that it evolved either from the Latin alphabet itself, some early Old Italic alphabet via the Alpine scripts, or the Greek alphabet. Despite this debate, the Runic alphabet is clearly derived from one or more scripts that ultimately trace their roots back to the Phoenician alphabet.<ref name="JG" /><ref>Spurkland, Terje (2005): ''Norwegian Runes and Runic Inscriptions'', translated by Betsy van der Hoek, Boydell Press, Woodbridge, pp. 3–4</ref>
+
+The [[Coptic alphabet]] is mostly based on the mature Greek alphabet of the [[Hellenistic period]], with a few additional letters for sounds not in Greek at the time. Those additional letters are based on the [[Demotic script]].
+
+The [[Cyrillic script]] was derived from the late (medieval) Greek alphabet. Some Cyrillic letters (generally for sounds not in medieval Greek) are based on [[Glagolitic]] forms.
+
+=== Paleohispanic scripts ===
+{{Main|Paleohispanic scripts}}
+[[File:Escrita sudoeste by Henrique Matos 004 02.jpg|thumb|upright=.8|Southwest stele of Fonte Velha]]
+These were an indigenous set of genetically related [[Semi-syllabary|semisyllabaries]], which suited the phonological characteristics of the [[Tartessian language|Tartessian]], [[Iberian language|Iberian]] and [[Celtiberian language|Celtiberian]] languages. They were deciphered in 1922 by [[Manuel Gómez-Moreno Martínez|Manuel Gómez-Moreno]] but their content is almost impossible to understand because they are not related to any living languages. While Gómez-Moreno first pointed to a joined Phoenician-Greek origin, following authors consider that their genesis has no relation to Greek.<ref>{{Cite book |last=de Hoz |first=Javier |author-link=Javier de Hoz |url=https://www.academia.edu/1627528 |title=Historia lingüística de la Península Ibérica en la antigüedad |date=31 December 2010 |publisher=[[Spanish National Research Council|CSIC]] |isbn=978-8-400-09260-3 |volume=1 |location=Madrid |pages=495–499 |language=es}}</ref>
+
+The most remote script of the group is the [[Southwest Paleohispanic script|Tartessian or Southwest script]] which could be one or several different scripts. The main bulk of PH inscriptions use, by far, the [[Northeastern Iberian script]], which serves to write Iberian in the levantine coast North of [[Contestania]] and in the valle of the river [[Ebro]] (Hiber). The Iberic language is also recorded using two other scripts: the [[Southeastern Iberian script]], which is more similar to the Southwest script than to Northeastern Iberian; and a variant of the Ionic Greek Alphabet called the [[Greco-Iberian alphabet]]. Finally, the [[Celtiberian script]] registers the language of the Celtiberians with a script derived from Northeastern Iberian, an interesting feature is that it was used and developed in times of the Roman conquest, in opposition to the Latin alphabet.
+
+Among the distinctive features of Paleohispanic scripts are:
+* Semi-syllabism. Half of the signs represent syllables made of [[occlusive]] consonants (k g b d t) and the other half represent simple phonemes such as vowels (a e i o u) and [[continuant]] consonants (l n r ŕ s ś).
+* Duality. Appears on the earliest Iberian and Celtiberian inscriptions and refers to how the signs can serve a double use by being modified with an extra stroke that transforms, for example ''ge'' with a stroke [[File:NE Iberian ke1.svg|x16px]] becomes ''ke'' [[File:NE Iberian ke5.svg|x16px]]. In later stages the scripts were simplified and duality vanishes from inscriptions.
+* Redundancy. A feature that appears only in the script of the Southwest, vowels are repeated after each syllabic sign.
+
+==Unicode==
+{{main|Phoenician (Unicode block)}}
+{{Unicode chart Phoenician}}
+
+==See also==
+{{Portal|Phoenicia|Writing}}
+* [[History of writing]]
+* [[History of the alphabet]]
+* [[Ugaritic alphabet]]
+
+== Notes ==
+{{Notelist}}
+
+==References==
+{{Reflist}}
+* [[Jean-Pierre Thiollet]], ''Je m'appelle Byblos'', H & D, Paris, 2005. {{ISBN|2-914266-04-9}}
+* [[María Eugenia Aubet]], ''The Phoenicians and the West'' Second Edition, Cambridge University Press, London, 2001.
+* Daniels, Peter T., et al. eds. ''The World's Writing Systems'' Oxford. (1996).
+* Jensen, Hans, ''Sign, Symbol, and Script'', G.P. Putman's Sons, New York, 1969.
+* Coulmas, Florian, ''Writing Systems of the World'', Blackwell Publishers Ltd, Oxford, 1989.
+* Hock, Hans H. and Joseph, Brian D., ''Language History, Language Change, and Language Relationship'', Mouton de Gruyter, New York, 1996.
+* Fischer, Steven R., ''A History of Writing'', Reaktion Books, 1999.
+* Markoe, Glenn E., ''Phoenicians''. University of California Press. {{ISBN|0-520-22613-5}} (2000) (hardback)
+* "Alphabet, Hebrew". ''[[Encyclopaedia Judaica]]'' (CD-ROM Edition Version 1.0). Ed. [[Cecil Roth]]. Keter Publishing House. {{ISBN|965-07-0665-8}}
+* {{Cite web |last=Feldman |first=Rachel |year=2010 |title=Most ancient Hebrew biblical inscription deciphered |url=http://www.eurekalert.org/pub_releases/2010-01/uoh-mah010710.php |url-status=live |archive-url=https://web.archive.org/web/20110607150148/http://www.eurekalert.org/pub_releases/2010-01/uoh-mah010710.php |archive-date=7 June 2011 |access-date=15 June 2011}}
+* {{Cite journal |last=Shanks |first=Hershel |year=2010 |title=Oldest Hebrew Inscription Discovered in Israelite Fort on Philistine Border |url=http://www.bib-arch.org/bar/article.asp?PubID=BSBA&Volume=36&Issue=2&ArticleID=9 |url-status=dead |journal=Biblical Archaeology Review |volume=36 |issue=2 |pages=51–6 |archive-url=https://web.archive.org/web/20120229232512/http://www.bib-arch.org/bar/article.asp?PubID=BSBA&Volume=36&Issue=2&ArticleID=9 |archive-date=2012-02-29 |access-date=2020-07-18}}
+
+==External links==
+{{Sister project links |wikt=Category:Phoenician script |n=no |q=no |s=no |b=no |v=no}}
+* [https://web.archive.org/web/20041105090941/http://www.ancientscripts.com/phoenician.html Ancient Scripts.com (Phoenician)]
+* [http://www.omniglot.com/writing/phoenician.htm Omniglot.com (Phoenician alphabet)]
+* official [https://www.unicode.org/charts/PDF/U10900.pdf Unicode standards document] for Phoenician (PDF file)
+* [https://culmus.sourceforge.net/ancient/index.html] Free-Libre GPL2 Licensed Unicode Phoenician Font
+* [https://www.gnu.org/software/freefont/ GNU FreeFont] Unicode font family with Phoenician range in its serif face.
+* [http://www.obib.de/Schriften/AlteSchriften/Griechen/altgriechisch/Kreta.html] Phönizisch TTF-Font.
+* Ancient Hebrew and Aramaic on Coins, reading and transliterating Proto-Hebrew, [https://web.archive.org/web/20110511124600/http://judaea.chimehost.net/main/text.pdf online edition]. (Judaea Coin Archive)
+* [https://sourceforge.net/projects/paleo-hebrew-abjad/ Paleo-Hebrew Abjad font—also allows writing in Phoenician (the current version of the font is 1.1.0)]
+
+{{list of writing systems}}
+{{Northwest Semitic abjad}}
+
+[[Category:Phoenician alphabet| ]]
+[[Category:11th-century BC establishments]]
+[[Category:Typography]]
+[[Category:Abjad writing systems]]
+[[Category:Memory of the World Register]]
+[[Category:Obsolete writing systems]]
+[[Category:Phoenician language|Alphabet]]
+[[Category:Canaanite writing systems]]
+[[Category:Proto-Sinaitic script]]
+[[Category:Right-to-left writing systems]]

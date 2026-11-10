@@ -1,0 +1,330 @@
+{{short description|System of runes for Proto-Germanic}}
+{{Infobox writing system
+|name=Elder Futhark
+|type=[[Alphabet]]
+|languages=[[Proto-Germanic language|Proto-Germanic]], [[Proto-Norse language|Proto-Norse]], [[Gothic language|Gothic]], [[Alemannic German|Alemannic]], [[Old High German]]
+|time=2nd to 8th centuries
+|fam1=[[Phoenician alphabet]]
+|fam2=[[Greek alphabet]] ([[Cumae alphabet|Cumae variant]])
+|fam3=[[Old Italic alphabet]]
+|fam4=[[Latin alphabet]]?
+|children=[[Younger Futhark]], [[Anglo-Saxon runes|Anglo-Saxon futhorc]]}}
+{{Contains special characters|Runic}}
+[[File:Elder futhark inscriptions.png|thumb|Distribution of pre–sixth-century Elder Futhark finds]]
+The '''Elder Futhark''',{{efn|Less common forms includes: '''Older Futhark''', '''Old Futhark'''}} or '''Pan-Germanic Futhark''' (also spelt '''Fuþark''', {{IPAc-en|ˈ|f|uː|θ|ɑːr|k}}, {{respell|FOO|thark}}), is the oldest form of the [[runic alphabets]]. It was a [[writing system]] used by [[Germanic peoples]]  in the [[Migration Period]]. Inscriptions are found on artifacts including jewellery, amulets, plateware, tools, and weapons, as well as [[runestone]]s, from the 2nd to the 8th centuries. 
+
+In [[Scandinavia]], beginning in the late 8th century, the script was simplified to the [[Younger Futhark]], while the [[Anglo-Saxons]] and [[Frisians]] instead extended it, giving rise to the [[Anglo-Saxon runes|Anglo-Saxon futhorc]]. Both the Anglo-Saxon futhorc and the Younger Futhark remained in use during the [[Early Middle Ages|Early]] and the [[High Middle Ages]] respectively, but knowledge of how to read the Elder Futhark was forgotten until 1865, when it was deciphered by Norwegian scholar [[Sophus Bugge]].<ref>{{Citation | type = article | url = http://www.stockholmslansmuseum.se/faktabanken/forskning-om-runor-och-runstenar/ | title = Forskning om runor och runstenar | first = Mats | last = Vänehem | publisher = Stockholms Lans Museum | access-date = 2009-07-23 | archive-url = https://web.archive.org/web/20100822223535/http://www.stockholmslansmuseum.se/faktabanken/forskning-om-runor-och-runstenar/ | archive-date = 2010-08-22 }}.</ref>
+
+==Description==
+The Elder Futhark is named after the initial [[phoneme]] of the first six rune names: /f/, /u/, /ð/, /ɑ/, /r/, and /k/ corresponding with ᚠ, ᚢ, ᚦ, ᚨ, ᚱ, and ᚲ respectively. It has 24 runes, often arranged in three groups of eight runes; each group is in modern times called an ''ætt'',{{Sfn|Elliott|1981|p=14}} [[Old Norse]] for '[[Norse clans|lineage]]', the term used in [[Younger Futhark]]. It has been speculated to potentially stem from Elder Futhark and thought to mean 'group of eight'.{{efn|[[Johannes Bureus]] 15-type runic row had 3 groups of 5 called {{lang|sv|femt}} ({{lit|fifth}}).<ref>{{cite book |title=Götisk kabbala och runisk alkemi: Johannes Bureus och den götiska esoterismen |author=Thomas Karlsson |publisher=[[Stockholm University]] |page=117}}</ref>}} Irish [[Ogham]] features a similar division system.
+
+{| 
+| {{Glyph|Futh|fehu|ext=png|24|f}} f &nbsp; &nbsp; || {{Glyph|Futh|uruz|ext=png|24|u}} u &nbsp; &nbsp; || {{Glyph|Futh|thurisaz|ext=png|24|th,þ}} [[þ]] &nbsp; &nbsp; || {{Glyph|Futh|ansuz|ext=png|24|a}} a &nbsp; &nbsp; || {{Glyph|Futh|raido|ext=png|24|r}} r &nbsp; &nbsp; || {{Glyph|Futh|kauna|ext=png|24|k}} k &nbsp; &nbsp; || {{Glyph|Futh|gebo|ext=png|24|g}} g &nbsp; &nbsp; || {{Glyph|Futh|wunjo|ext=png|24|w}} w &nbsp; &nbsp;
+|-
+| {{Glyph|Futh|haglaz|ext=png|24|h}} h || {{Glyph|Futh|naudiz|ext=png|24|n}} n || {{Glyph|Futh|isaz|ext=png|24|i}} i || {{Glyph|Futh|jeran|ext=png|24|j}} j || {{Glyph|Futh|iwaz|ext=png|24|ï,ei}} [[ï]] || {{Glyph|Futh|pertho|ext=png|24|p}} p || {{Glyph|Futh|algiz|ext=png|24|z}} z || {{Glyph|Futh|sowilo|ext=png|24|s}} s
+|-
+| {{Glyph|Futh|tiwaz|ext=png|24|t}} t || {{Glyph|Futh|berkanan|ext=png|24|b}} b || {{Glyph|Futh|ehwaz|ext=png|24|e}} e || {{Glyph|Futh|mannaz|ext=png|24|m}} m || {{Glyph|Futh|laukaz|ext=png|24|l}} l || {{Glyph|Futh|ingwaz|ext=png|24|ŋ}} [[ŋ]] || {{Glyph|Futh|dagaz|ext=png|24|d}} d || {{Glyph|Futh|othalan|ext=png|24|o}} o
+|-
+|}
+
+What the groups were originally called remains unknown. In the following table, each rune is given with its common [[transliteration]] and phoneme:
+
+{| class="wikitable"
+! colspan=9 | ætt 1
+|-
+! rune
+| ᚠ || ᚢ || ᚦ || ᚨ || ᚱ || ᚲ || ᚷ || ᚹ
+|-
+! transliteration
+| {{IPAalink|f}} || {{IPAalink|u}} || {{IPA|⟨[[þ]]⟩}} || {{IPAalink|a}} || {{IPAalink|r}} || {{IPAalink|k}} || {{IPAalink|g}} || {{IPAalink|w}}
+|-
+! phoneme
+| {{IPAslink|f}} || {{IPAslink|u}} || {{IPAslink|θ}} or {{IPAslink|ð}} {{Sfn | Page | 2005 | p = 15 }} || {{IPAslink|ɑ}} || {{IPAslink|r}} || {{IPAslink|k}} || {{IPAslink|g}} || {{IPAslink|w}}
+|-
+! colspan=9 | ætt 2
+|-
+! rune
+| ᚺ || ᚾ || ᛁ || ᛃ || ᛇ || ᛈ || ᛉ || ᛊ
+|-
+! transliteration
+| {{IPAalink|h}} || {{IPAalink|n}} || {{IPAalink|i}} || {{IPAalink|j}} || {{IPA|⟨[[ï]]⟩}} or {{IPAalink|æ}} || {{IPAalink|p}} || {{IPAalink|z}} or {{IPAalink|ʀ}} || {{IPAalink|s}}
+|-
+! phoneme
+| {{IPAslink|h}} || {{IPAslink|n}} || {{IPAslink|i}} || {{IPAslink|j}} || {{IPAslink|ɪ}} or {{IPAslink|æ}} || {{IPAslink|p}} || {{IPA|/z/}} or {{IPA |/r₂/}}{{NoteTag|name=dt1}} || {{IPAslink|s}}
+|-
+! colspan=9 | ætt 3
+|-
+! rune
+| ᛏ || ᛒ || ᛖ || ᛗ || ᛚ || ᛜ || ᛞ || ᛟ
+|-
+! transliteration
+| {{IPAalink|t}} || {{IPAalink|b}} || {{IPAalink|e}} || {{IPAalink|m}} || {{IPAalink|l}} || {{IPAalink|ŋ}} || {{IPAalink|d}} || {{IPAalink|o}}
+|-
+! phoneme
+| {{IPAslink|t}} || {{IPAslink|b}} || {{IPAslink|e}} || {{IPAslink|m}} || {{IPAslink|l}} || {{IPAslink|ŋ}} || {{IPAslink|d}} || {{IPAslink|o}}
+|-
+| colspan=9 | {{NoteFoot|refs={{NoteTag|name=dt1|Rune ᛉ was Proto-Germanic {{IPA|/z/}} and evolved into [[Proto-Norse]] {{IPA |/r₂/}}.}}
+}}
+|}
+
+The earliest known [[List of rune-row inscriptions|sequential listing of the alphabet]] dates to 400&nbsp;AD and is found on the [[Kylver Stone]] in [[Gotland]], [ᚠ] and [ᚹ] only partially inscribed but widely authenticated:
+
+{| class="wikitable" style="margin-left: 1em;"
+|- class="script-runic"
+| [ᚠ] || ᚢ || ᚦ || ᚨ || ᚱ || ᚲ || ᚷ || [ᚹ] || ᚺ || ᚾ || ᛁ || ᛃ || ᛈ || ᛇ || ᛉ || ᛊ || ᛏ || ᛒ || ᛖ || ᛗ || ᛚ || ᛜ || ᛞ || ᛟ
+|- style="text-align: center;"
+| [f] || u || þ || a || r || k || g || [w] || h || n || i || j || p || ï || z || s || t || b || e || m || l || ŋ || d || o
+|}
+
+Two instances of another early inscription were found on the two [[Vadstena bracteate|Vadstena and Mariedamm bracteates]] (6th century), showing the division in three ætts, with the positions of '''ï''', '''p''' and '''o''', '''d''' inverted compared to the Kylver stone:
+<blockquote>
+'''f&nbsp;u&nbsp;þ&nbsp;a&nbsp;r&nbsp;k&nbsp;g&nbsp;w'''; '''h&nbsp;n&nbsp;i&nbsp;j&nbsp;ï&nbsp;p&nbsp;z&nbsp;s'''; '''t&nbsp;b&nbsp;e&nbsp;m&nbsp;l&nbsp;ŋ&nbsp;o&nbsp;d'''
+</blockquote>
+The [[Grumpan bracteate]] presents a listing from 500 which is identical to the one found on the previous bracteates but incomplete:
+<blockquote>
+'''f&nbsp;u&nbsp;þ&nbsp;a&nbsp;r&nbsp;k&nbsp;g&nbsp;w''' ... '''h&nbsp;n&nbsp;i&nbsp;j&nbsp;ï&nbsp;p&nbsp;(z)''' ... '''t&nbsp;b&nbsp;e&nbsp;m&nbsp;l&nbsp;(ŋ)&nbsp;(o)&nbsp;d'''
+</blockquote>
+
+==Origins==
+{{See also|Runes}}
+
+===Derivation from Italic alphabets===
+{{More references needed|section|date=September 2021}}
+The Elder Futhark runes are commonly believed to originate in the [[Old Italic script]]s: either a North Italic variant ([[Etruscan alphabet|Etruscan]] or [[Rhaetic alphabets]]), or the [[Latin alphabet]] itself. Derivation from the [[Greek alphabet]] via [[Goths|Gothic]] contact to Byzantine Greek culture was a popular theory in the 19th century, but has been ruled out since the dating of the [[Vimose inscriptions]] to the 2nd century (whereas the Goths were in contact with Greek culture only from the early 3rd century). Conversely, the Greek-derived 4th-century [[Gothic alphabet]] does have two letters that may have been derived from runes, 𐌾 (from [[Jēran|Jer]] ᛃ '''j''') and 𐌿 (from [[Ur (rune)|Uruz]] ᚢ '''u''').
+
+The main problem is that a derivation from the classical Latin alphabet as used in the 1st and 2nd centuries, while the most obvious possibility suggested by the historical, geographical and cultural context,<ref>Compare: {{cite book |last1=Imer |first1=Lisbeth |editor1-last=Grane |editor1-first=Thomas |title=Beyond the Roman Frontier: Roman Influences on the Northern Barbaricum |date=2007 |publisher=Quasar |location=Rome, Italy |isbn=978-88-7140-346-5 |pages=31–60 |url=https://www.academia.edu/1777938/Greek_and_Latin_Inscriptions_in_the_Northern_Barbaricum |chapter=Greek and Latin Inscriptions in the Northern Barbaricum}}</ref> is not as straightforward as could be expected, especially regarding letter shapes, and many scholars are not satisfied by it. Instead, it is observed that many runic letters suspiciously resemble letters with similar sound values from alphabets used in the Alpine region in the last centuries BC, alphabets which are all derived from the northern Etruscan alphabet; however, again, there is no derivation so straightforward as to convince most scholars.
+
+The angular shapes of the runes, presumably an adaptation to the incision in wood or metal, are not a Germanic innovation, but a property that is shared with other early alphabets, including the Old Italic ones (compare, for example, the [[Duenos inscription]]). The 4th century BC [[Negau helmets#Inscriptions|Negau helmet B]] inscription features a Germanic name, ''Harigastiz'', in a North Etruscan alphabet, and may be a testimony of the earliest contact of Germanic speakers with alphabetic writing. Similarly, the [[Meldorf inscription]] of 50 AD may qualify as "proto-runic" use of the Latin alphabet by Germanic speakers. The [[Rhaetic alphabets|Rhaetic]] "[[alphabet of Bolzano]]" in particular seems to fit the letter shapes well.<ref name="gippert2001">{{Citation | publisher = Uni Frankfurt | last = Gippert | first = Jost | url = http://titus.uni-frankfurt.de/didact/idg/germ/runealph.htm | title = The Development of Old Germanic Alphabets | access-date = 2007-03-21 | archive-date = 2021-02-25 | archive-url = https://web.archive.org/web/20210225051327/http://titus.uni-frankfurt.de/didact/idg/germ/runealph.htm | url-status = live }}.</ref> The [[spearhead of Kovel]], dated to 200&nbsp;AD, sometimes advanced as evidence of a peculiar [[Goths|Gothic]] variant of the runic alphabet, bears an inscription ''tilarids'' that may in fact be in an Old Italic rather than a runic alphabet, running right to left with a ''T'' and a ''D'' closer to the Latin or Etruscan than to the Bolzano or runic alphabets. Perhaps an "eclectic" approach can yield the best results for the explanation of the origin of the runes: most shapes of the letters can be accounted for when deriving them from several distinct North Italic writing systems: The '''p''' rune has a parallel in the [[Camunic language|Camunic]] alphabet, while it has been argued that '''d''' derives from the shape of the letter ''san'' (= '''ś''') in [[Lepontic]], where it seems to represent the sound /d/.{{Sfn | Stifter | 2010 | p = 374}}
+
+The '''g''', '''a''', '''f''', '''i''', '''t''', '''m''' and '''l''' runes show no variation, and are generally accepted as identical to the Old Italic or Latin letters ''X'', ''A'', ''F'', ''I'', ''T'', ''M'' and ''L'', respectively. There is also wide agreement that the '''u''', '''r''', '''k''', '''h''', '''s''', '''b''' and '''o''' runes respectively correspond directly to ''V'', ''R'', ''C'', ''H'', ''S'', ''B'' and ''O''.
+
+The remaining ten runes of uncertain derivation may either be original innovations, or adaptions of otherwise unneeded Latin letters of the [[History of the Latin alphabet#Classical Latin period|classical Latin alphabet]] (1st&nbsp;century, ignoring marginalized ''[[K]]''). There are conflicting scholarly opinions regarding them:
+
+# '''[[ehwaz|ᛖ]]''' may be from ''E''.{{cn|date=June 2024}}
+# '''[[naudiz|ᚾ]]''' may be from Raetic ''N''.<ref name="gippert2001" />
+# '''[[Thurisaz (rune)|ᚦ]]''' may be from Latin ''D''{{Sfn | Odenstedt | 1990 | pp = 160ff}} or from Raetic ''Θ''.<ref name="gippert2001" />
+# '''[[wynn|ᚹ]]''' may be from ''Q'',{{cn|date=June 2024}} from Latin ''P'',{{Sfn | Odenstedt | 1990 | pp = 160ff}} or from Raetic ''W''.<ref name="gippert2001" />
+# '''[[eihwaz|ᛇ]]''' may be from Latin ''Z'',{{Sfn | Odenstedt | 1990 | pp = 160ff}} from Latin ''Y'',{{cn|date=June 2024}} or from Raetic ''E''.<ref name="gippert2001" />
+# '''[[algiz|ᛉ]]''' may be from Raetic ''Z'',<ref name="gippert2001" /> from Latin ''Y'',{{Sfn | Odenstedt | 1990 | pp = 160ff}} or from Etruscan ''𐌙''.{{cn|date=June 2024}}
+# '''[[Ingwaz|ᛜ]]''' may be from Latin ''Q''.{{Sfn | Odenstedt | 1990 | pp = 160ff}}
+# '''[[Jeran|ᛃ]]''' may be from Latin ''G''.{{Sfn | Odenstedt | 1990 | pp = 160ff}}
+# '''[[peordh|ᛈ]]''' may be from Raetic ''P''<ref name="gippert2001" /> or may be an original Germanic innovation.{{Sfn | Odenstedt | 1990 | pp = 160ff}}
+# '''[[dagaz|ᛞ]]''' may be from Raetic ''D'',<ref name="gippert2001" /> from Lepontic ''san'' ('''ś'''),{{Sfn | Stifter | 2010 | p = 374}} or may be an original Germanic innovation.{{Sfn | Odenstedt | 1990 | pp = 160ff}}
+
+Of the 24&nbsp;runes in the classical futhark row attested from 400 (on the [[Kylver stone]]), '''[[Eihwaz|ï]]''', '''[[peordh|p]]'''{{efn|Speculated by {{Harvnb|Looijenga|1997}} to be a variant of '''[[berkanan|b]]'''.}} and '''[[Ingwaz|ŋ]]'''{{efn|{{Harvnb|Westergaard|1981}} postulates occurrence in [[Vimose|34 Vimose]] and [[Gothic runic inscriptions|23 Letcani]], rejected by {{Harvnb|Odenstedt|1990|p=118}}.}} are unattested in the earliest inscriptions of c.&nbsp;175 to 400, while '''[[Ehwaz|e]]''' in this early period mostly takes a Π-shape, its M-shape ([[Image:Runic letter ehwaz.svg|8px]]) gaining prevalence only from the 5th century. Similarly, the '''s''' rune may have either three ([[Image:Runic letter sowilo variant.svg|8px]]) or four ([[Image:Runic letter sowilo.svg|8px]]) strokes (and more rarely five or more), and only from the 5th century does the variant with three strokes become prevalent.
+
+The "mature" runes of the 6th to 8th centuries tend to have only three directions of strokes, the vertical and two diagonal directions. Early inscriptions also show horizontal strokes: these appear in the case of '''e''' (mentioned above), but also in '''t''', '''l''', '''ŋ''' and '''h'''.
+
+===Date and purpose of invention===
+The general agreement dates the creation of the first runic alphabet to roughly the 1st century. Early estimates include the 1st century,{{CN|date=February 2023}} and late estimates push the date into the 2nd century. The question is one of estimating the "findless" period separating the script's creation from the [[Vimose]] finds of c.&nbsp;160. If either '''[[eihwaz|ï]]''' or '''[[algiz|z]]''' indeed derive from Latin ''Y'' or respectively ''Z'', as suggested by Odenstedt, the first century BC is ruled out, because these letters were only introduced into the Latin alphabet during the reign of [[Augustus]].
+
+Other scholars are content to assume a findless period of a few decades, pushing the date into the early 2nd century.{{Sfn | Odenstedt | 1990 | p = 168}} Pedersen (and with him Odenstedt) suggests a period of development of about a century to account for their assumed derivation of the shapes of '''þ''' ᚦ and '''j''' ᛃ from Latin ''D'' and ''G''.
+
+The invention of the script has been ascribed to a single person{{CN|date=February 2023}} or a group of people who had come into contact with Roman culture, maybe as mercenaries in the Roman army, or as merchants. The script was clearly designed for epigraphic purposes, but opinions differ in stressing either magical, practical or simply playful ([[graffiti]]) aspects. {{Harvnb | Bæksted | 1952 | p = 134}} concludes that in its earliest stage, the runic script was an "artificial, playful, not really needed imitation of the [[Roman script]]", much like the Germanic [[bracteate]]s were directly influenced by Roman currency, a view that is accepted by {{Harvnb | Odenstedt | 1990 | p = 171}} in the light of the very primitive nature of the earliest (2nd to 4th century) inscription corpus.
+
+==Rune names==
+Each rune most probably had a name, chosen to represent the sound of the rune itself according to the principle of [[acrophony]].
+
+The Old English names of all 24 runes of the Elder Futhark, along with five names of runes unique to the [[Anglo-Saxon runes]], are preserved in the [[Old English rune poem]], compiled in the 7th century. These names are in good agreement with medieval Scandinavian records of the names of the 16 [[Younger Futhark]] runes, and to some extent also with those of the letters of the [[Gothic alphabet]] (recorded by [[Alcuin]] in the 9th century). Therefore, it is assumed{{by whom|date=July 2016}} that the names go back to the Elder Futhark period, at least to the 5th century. There is no positive evidence that the full row of 24 runes had been completed before the end of the 4th century, but it is likely that at least some runes had their name before that time.{{original research inline|date=July 2016}}
+
+This concerns primarily the runes used [[runic magic|magically]], especially the [[Teiwaz]] and [[Ansuz (rune)|Ansuz]] runes, which are taken to symbolize or invoke deities in sequences such as that on the [[Lindholm amulet]] (3rd or 4th century).{{citation needed|date=July 2016}}
+
+[[Linguistic reconstruction|Reconstructed]] names in [[Common Germanic]] can easily be given for most runes. Exceptions are the [[Thurisaz|''þ'' rune]] (which is given different names in Anglo-Saxon, Gothic and Scandinavian traditions) and the [[Algiz|''z'' rune]] (whose original name is unknown, and preserved only in corrupted form from Old English tradition). The 24 Elder Futhark runes are:{{Sfn | Page | 2005 | pp = 8, 15–16 | ps =. The asterisk before the rune names means that they are unattested reconstructions.}}
+
+{{Elder Futhark}}
+Each rune derived its sound from the first phoneme of the rune's respective name, with the exception of ''Ingwaz'' and ''Algiz'': the Proto-Germanic ''z'' sound of the ''Algiz'' rune never occurred in a word-initial position. The phoneme acquired an ''r''-like quality in Proto-Norse, usually [[Runic transliteration and transcription|transliterated]] with '''ʀ''', and finally merged with '''r''' in Icelandic, rendering the rune superfluous as a letter. Similarly, the ''ng''-sound of the ''Ingwaz'' rune does not occur word-initially.
+The names come from the vocabulary of daily life and mythology, some trivial, some beneficent and some inauspicious:
+* Mythology: Tiwaz, Thurisaz, Ingwaz, God, Man, Sun.
+* Nature and environment: Sun, day, year, hail, ice, lake, water, birch, yew, pear, elk, aurochs.
+* Daily life and [[human condition]]: Man, need/constraint, wealth/cattle, horse, estate/inheritance, slag/protection from evil, ride/journey, year/harvest, gift, joy, need, ulcer/illness.{{citation needed|date=July 2016}}
+
+== IPA vowels and consonants ==
+
+The following charts show the probable sound values of each rune based upon [[Proto-Germanic language#Phonology|Proto-Germanic phonology]].<ref>{{Cite journal|last=Painter|first=Robert|date=May 2014|title=An Acoustic Investigation of R-Umlaut in Old Norse|journal=An Acoustic Investigation of R-Umlaut in Old Norse|volume=26|via=Google Scholar}}</ref>
+
+{| class="wikitable"
+|'''Consonants'''
+|'''Labial'''
+|'''Dental'''
+|'''Alveolar'''
+|'''Palatal'''
+|'''Velar'''
+|-
+|'''Nasal'''
+|[[ᛗ]] /m/
+|
+|[[ᚾ]] /n/
+|
+|[[Yngvi#The Ingwaz rune|ᛜ]] /ŋ/
+|-
+|'''Plosive'''
+|[[ᛈ]] /p/, [[ᛒ]] /b/
+|[[ᛏ]] /t/, [[ᛞ]] /d/
+|
+|
+|[[ᚲ]] /k/, [[ᚷ]] /g/
+|-
+|'''Fricative'''
+|[[ᚠ]] /ɸ/, [[ᛒ]] /β/
+|[[ᚦ]] /θ/, [[ᛞ]] /ð/
+|[[ᛊ|ᛊ ᛋ]] /s/, [[ᛉ]] /z/
+|
+|[[ᚺ|ᚺ ᚻ]] /x/, [[ᚷ]] /ɣ/
+|-
+|'''Approximant'''
+|
+|
+|[[ᛚ]] /l/
+|[[ᛃ]] /j/
+|[[ᚹ]] /w/
+|-
+|'''Trill'''
+|
+|
+|[[ᚱ]] /r/
+|
+|}
+
+{| class="wikitable"
+|'''Vowels'''
+|'''Front'''
+|'''Back'''
+|-
+|'''Close'''
+|[[ᛁ]] /i/
+|[[ᚢ]] /u/
+|-
+|'''Close Mid'''
+|[[ᛖ]] /e/
+|[[ᛟ]] /o/
+|-
+|'''Open'''
+|
+|[[ᚨ]] /ɑ/
+|}
+
+ᛇ has been excluded from the table because what its sound might have been is highly disputed. It may have been a diphthong, or it may have been a monophthong falling somewhere within the range of [ɪ] to [æ]. The only certain fact is that it represented a front vowel.
+
+==Inscription corpus==
+{{Main|Elder Futhark inscriptions}}
+[[Image:Einangsteinen inscription.jpg|thumb|300px|'''[ek go]dagastiz runo faihido''' inscription on the 4th century "[[Einang stone]]"<ref>{{Citation | url = http://www.nordic-life.org/nmh/runic.htm | title = Nordic life | contribution = Runic | access-date = 2005-03-05 | archive-date = 2020-04-23 | archive-url = https://web.archive.org/web/20200423070113/https://www.nordic-life.org/nmh/runic.htm | url-status = usurped }}.</ref>]]
+
+Old Futhark inscriptions were found on artifacts scattered between the [[Carpathian Mountains|Carpathians]] and [[Sápmi (area)|Lappland]], with the highest concentration in [[Denmark]]. They are usually short inscriptions on jewelry ([[bracteate]]s, [[fibula (brooch)|fibula]]e, belt buckles), utensils (combs, spinning whorls) or weapons (lance tips, [[seax]]es) and were mostly found in graves or bogs.
+
+===Scandinavian inscriptions===
+Words frequently appearing in inscriptions on [[bracteate|bracteates]] with possibly magical significance are '''[[alu (runic)|alu]]''', '''laþu''' and '''laukaz'''. While their meaning is unclear, '''alu''' has been associated with "ale, intoxicating drink", in a context of [[sumbel|ritual drinking]], and '''laukaz''' with "leek, garlic", in a context of fertility and growth. An example of a longer early inscription is on a 4th-century axe-handle found in Nydam, [[Jutland]]: '''wagagastiz / alu:??hgusikijaz:aiþalataz''' (''wagagastiz'' "wave-guest" could be a personal name, the rest has been read as '''alu:wihgu sikijaz:aiþalataz''' with a putative meaning "wave/flame-guest, from a bog, '''alu''', I, oath-sayer consecrate/fight". The obscurity even of emended readings is typical for runic inscriptions that go beyond simple personal names). A term frequently found in early inscriptions is '''[[Erilaz]]''', apparently describing a person with knowledge of runes.
+
+The oldest known runic inscription dates to 160 and is found on the [[Vimose inscriptions|Vimose Comb]] discovered in the bog of [[Vimose]], [[Funen]].<ref name = ILKJÆRINLOOIJENGA>{{Harvnb | Ilkjær | 1996 | p = 74}} in {{Harvnb | Looijenga | 2004 | p = 78}}.</ref> The inscription reads '''harja''', either a personal name or an epithet, viz. [[Proto-Germanic]] {{lang|gem-x-proto|*harjaz}} ([[PIE]] {{lang|ine-x-proto|*koryos}}) "[[warrior]]", or simply the word for "comb" ({{lang|gem-x-proto|*hārijaz}}). Another early inscription is found on the [[Thorsberg chape]] (200), probably containing the theonym [[Ullr]].
+
+The typically Scandinavian [[runestone]]s begin to show the transition to [[Younger Futhark]] from the 6th century, with transitional examples like the [[Björketorp Runestone|Björketorp]] or [[Stentoften Runestone|Stentoften]] stones. In the early 9th century, both the older and the younger futhark were known and used, which is shown on the [[Rök runestone]] where the [[runemaster]] used both.
+
+The oldest known runestone, the [[Hole Runestone]], dates to the Roman Iron Age, c. 50 BCE–275 CE, and was found as fragments in Ringerike, Norway, during excavations from 2021-2023. The stone features several inscriptions including a name '''idiberug''' (possibly '''idiberun'''), which could be interpreted as one of several names, including ''Idibera'', ''Idibergu'', or the family name ''Idiberung''. The first three letters of the Elder Futhark, '''ᚠ''' (f), '''ᚢ''' (u) and '''ᚦ''' (th), are also found on the stone, along with a formula naming the writer of the inscription.<ref name="Solheim2025" />
+
+The longest known inscription in the Elder Futhark, and one of the youngest, consists of some 200 characters, is found on the [[Eggjum stone]], dated to the early 8th century, and may even contain a stanza of [[Old Norse poetry]].
+
+The [[Caistor-by-Norwich astragalus]] reading '''raïhan''' "deer" is notable as the oldest inscription of the British Isles, dating to 400, the very [[Sub-Roman Britain|end of Roman Britain]].
+
+===Continental inscriptions===
+The oldest inscriptions (before 500) found on the Continent are divided into two groups, the area of the North Sea coast and Northern Germany (including parts of the Netherlands) associated with the [[Saxons]] and [[Frisians]] on one hand (part of the "North Germanic ''Koine''"),{{Sfn | Martin | 2004 | p = 173}} and loosely scattered finds from along the [[Oder]] to south-eastern Poland, as far as the [[Carpathian Mountains]] (e.g. the [[ring of Pietroassa]] in Romania), associated with East Germanic peoples. The latter group disappeared during the 5th century at the time of contact of the [[Goths]] with the [[Roman Empire]] and their conversion to [[Germanic Christianity|Christianity]].
+
+In this early period, there is no specifically West Germanic runic tradition. This changes from the early 6th century, and for about one century (520 to 620), an [[Alamanni]]c "runic province"{{Sfn | Martin | 2004}} emerges, with examples on fibulae, weapon parts and belt buckles. As in the East Germanic case, use of runes subsides with Christianization, in the case of the Alamanni in the course of the 7th century.
+
+===Distribution===
+There are some 350 known Elder Futhark inscriptions with 81 known inscriptions from the South (Germany, Austria, Switzerland) and 267 from Scandinavia.{{Sfn | Fischer | 2004 | p = 281}}{{Sfn | Lüthi | 2004 | p = 321}} The precise numbers are debatable because of some suspected forgeries, and some disputed inscriptions (identification as "runes" vs. accidental scratches, simple ornaments or Latin letters). 133 Scandinavian inscriptions are on bracteates (compared to 2 from the South), and 65 are on [[runestone]]s (no Southern example is extant). Southern inscriptions are predominantly on fibulae (43, compared to 15 in Scandinavia). The Scandinavian runestones belong to the later period of the Elder Futhark, and initiate the boom of medieval [[Younger Futhark]] stones (with some 6,000 surviving examples). As of 2021, one inscription was found in a settlement associated with [[Slavs]].<ref>{{Cite journal|last1=Macháček|first1=Jiří|last2=Nedoma|first2=Robert|last3=Dresler|first3=Petr|last4=Schulz|first4=Ilektra|last5=Lagonik|first5=Elias|last6=Johnson|first6=Stephen M.|last7=Kaňáková|first7=Ludmila|last8=Slámová|first8=Alena|last9=Llamas|first9=Bastien|last10=Wegmann|first10=Daniel|last11=Hofmanová|first11=Zuzana|date=March 2021|title=Runes from Lány (Czech Republic) – The oldest inscription among Slavs. A new standard for multidisciplinary analysis of runic bones|journal=Journal of Archaeological Science|language=en|volume=127|article-number=105333|doi=10.1016/j.jas.2021.105333|bibcode=2021JArSc.127j5333M |doi-access=free|url=https://is.muni.cz/publication/1763997/JAS_Machacek_1.pdf}}</ref>
+
+Elder Futhark inscriptions were rare, with very few active literati, in relation to the total population, at any time, so that knowledge of the runes was probably an actual "secret" throughout the Migration period. Of 366 lances excavated at [[Illerup Ådal|Illerup]], only 2 bore inscriptions. A similar ratio is estimated for Alemannia, with an estimated 170 excavated graves to every inscription found.{{Sfn | Lüthi | 2004 | p = 323}}
+
+Estimates of the total number of inscriptions produced are based on the "minimal runological estimate" of 40,000 (ten individuals making ten inscriptions per year for four centuries). The actual number was probably considerably higher. The 80 known Southern inscriptions are from some 100,000 known graves. With an estimated total of 50,000,000 graves (based on population density estimates), some 80,000 inscriptions would have been produced in total in the [[Merovingian]] South alone (and maybe close to 400,000 in total, so that of the order of 0.1% of the corpus has come down to us), and {{Harvnb | Fischer | 2004 | p = 281}} estimates a population of several hundred active literati throughout the period, with as many as 1,600 during the Alamannic "runic boom" of the 6th century.
+
+===List of inscriptions===
+{{div col | colwidth=20}}
+After {{Harvnb | Looijenga | 1997}}, {{Harvnb | Lüthi | 2004}}.
+* Scandinavia
+** Period I (150–550)
+*** [[Hole Runestone]] (50 BCE–275 CE)<ref name="Solheim2025">{{cite journal |last1=Solheim |first1=Steinar |last2=Zilmer |first2=Kristel |last3=Zawalska |first3=Judyta |last4=Vasshus |first4=Krister Sande Kristoffersen |last5=Sand-Eriksen |first5=Anette |last6=Kimball |first6=Justin J. L. |last7=Havstein |first7=John Asbjørn Munch |title=Inscribed sandstone fragments of Hole, Norway: radiocarbon dates provide insight into rune-stone traditions |journal=Antiquity |date=April 2025 |volume=99 |issue=404 |pages=422–439 |doi=10.15184/aqy.2024.225 |url=https://www.cambridge.org/core/journals/antiquity/article/inscribed-sandstone-fragments-of-hole-norway-radiocarbon-dates-provide-insight-into-runestone-traditions/52AF86395C4454EF01F436465EC5DE22 |access-date=19 October 2025 |language=en |issn=0003-598X|url-access=subscription |doi-access=free }}</ref>
+*** [[Vimose inscriptions]] (6 objects, 160–300)
+*** [[Øvre Stabu spearhead]] (c. 180), '''raunijaz'''
+*** [[Illerup inscriptions]] (9 objects)
+*** Mos spearhead (c. 300), '''[[gaois]]'''(?)<ref>{{Citation | quote = The oldest known runic inscription from Sweden is found on a spearhead, recovered from a grave at Mos in the parish of [[Stenkyrka]] in Gotland. The inscription, consisting of only five runes, might be dated to the end of the third century of our era | first = Sven Birger Fredrik | last = Jansson | title = The runes of Sweden | publisher = Bedminster Press | year = 1962 | pages = iii–iv}}.</ref>
+*** [[Golden horns of Gallehus]] (c. 400)
+*** [[Einang stone]] (400)
+*** [[Kylver Stone]] (400)
+*** [[Rö Runestone]] (400–450)
+*** [[Kalleby Runestone]] (5th century)
+*** [[Möjbro Runestone]] (400–550)
+*** [[Järsberg Runestone]] (500–550)
+*** [[Hogganvik runestone]] (5th century)
+** Bracteates: total 133 (see also '''[[Alu (runic)|Alu]]''')
+*** [[Seeland-II-C]] (500)
+*** [[Vadstena bracteate]]
+*** [[Tjurkö bracteate]]
+** Period II (550–700)
+*** [[Skåäng Runestone]] (6th century?)
+*** [[Björketorp Runestone]]
+*** [[Gummarp Runestone]]
+*** [[Istaby Runestone]]
+*** [[Stentoften Runestone]]
+* South-Eastern Europe (200–550): 4 AD.
+** [[Gothic runic inscriptions]] (200–350)
+* Continental inscriptions (mainly Germany; 200–700): 50 legible, 15 illegible (39 brooches, 11 weapon parts, 4 fittings and belt buckles, 3 strap ends, 8 other)
+** [[Thorsberg chape]] (200)
+** [[Bülach fibula]]
+** [[Charnay Fibula|Charnay fibula]]
+** [[Nordendorf fibula]]
+** [[Pforzen buckle]]
+* English and [[Frisian languages|Frisian]] (300–700): 44; (see also [[Anglo-Saxon runes|futhorc]])
+** [[Caistor-by-Norwich astragalus]]
+{{div col end}}
+
+== Unicode ==
+{{further |Runic (Unicode block)}}
+The Elder Futhark is encoded in [[Unicode]] within the unified Runic range, 16A0–16FF. Among the freely available [[TrueType]] fonts that include this range are [[Junicode]] and [[FreeMono]].	
+The [[Kylver Stone]] row encoded in Unicode reads:
+<blockquote>
+{{Runic |ᚠᚢᚦᚨᚱᚲᚷᚹᚺᚾᛁᛃᛇᛈᛉᛊᛏᛒᛖᛗᛚᛜᛞᛟ}}
+</blockquote>
+
+Encoded separately are the double-barred ''h''-rune, {{Runic |ᚻ}} and a graphical variant of the ''ng''-rune, {{Runic|ᛝ}}. These two have separate codepoints because they become independent characters in the [[Anglo-Saxon runes|Anglo-Saxon futhorc]]. The numerous other graphical variants of Elder Futhark runes are considered glyph variants better rendered by the use of different fonts and so not given Unicode codepoints. Similarly, [[bind rune]]s are considered ligatures and not given Unicode codepoints. The only bindrunes that can arguably be rendered as a single Unicode glyph are those that coincidentally look exactly like another rune, e.g. the double [[ᛚ]] bindrune is visually identical to [[ᛏ]].
+
+== See also ==
+* [[Rune poem]]
+* [[Runic script]]
+* [[Younger Futhark]]
+
+== Notes ==
+{{notelist}}
+
+== References ==
+{{Reflist}}
+
+== Bibliography ==
+* {{Citation | last = Bæksted | first = A | year = 1952 | title = Målruner og troldruner | place = Copenhagen}}.
+* {{Citation |last=Elliott |first=Ralph Warren Victor |author-link=Ralph Warren Victor Elliott |title = Runes: An Introduction |publisher=Manchester University Press |date=15 January 1981 |url= https://books.google.com/books?id=SDS8AAAAIAAJ |isbn= 0-7190-0787-9}}
+* {{Citation |last= Fischer |first= Svante | editor1-last=Naumann |editor1-first= Hans-Peter | editor2-last = Lanter | editor2-first= Franziska | contribution = Alemannia and the North — Early Runic Contexts Apart (400–800) |title=Alemannien und der Norden |publisher= Walter de Gruyter | year= 2004 | location =Berlin |pages= 266–317 |url= https://books.google.com/books?id=QHLqfS7mI3YC |isbn = 3-11-017891-5|display-editors=etal}}
+* {{Citation | last = Ilkjær | first = Jørgen | year = 1996 | contribution = Runeindskrifter fra mosefund i Danmark – kontekst og oprindelse | title = Frisian Runes and Neighbouring Traditions | publisher = Rodopi}}.
+* {{Citation | last = Looijenga | first = Jantina Helena | year = 1997 | url = http://dissertations.ub.rug.nl/faculties/arts/1997/j.h.looijenga/ | title = Runes around the North Sea and on the Continent AD 150–700 | type = dissertation | publisher = Groningen University}}.
+* {{Citation | last= Looijenga |first= Tineke | title= Texts and Contexts of the Oldest Runic Inscriptions | publisher =Brill |year=2004 |location=Leiden |url= https://books.google.com/books?id=-edm1fMPbXwC | isbn = 90-04-12396-2}}
+* {{Citation |last=Lüthi |first=Katrin | editor-last=Naumann |editor-first=Hans-Peter | editor2-last = Lanter |editor2-first=Franziska|contribution=Von Þruþhild und Hariso: Alemannische und ältere skandinavische Runenkultur im Vergleich | title = Alemannien und der Norden | publisher = Walter de Gruyter | year =2004 |location= Berlin | pages= 318–39 | url= https://books.google.com/books?id=QHLqfS7mI3YC |isbn = 3-11-017891-5|display-editors=etal}}
+* {{Citation |last=Martin |first=Max | editor-last=Naumann |editor-first= Hans-Peter | editor2-last = Lanter | editor2-first= Franziska |contribution = Kontinentalgermanische Runeninschriften und 'Alamannische Runenprovinz' |title=Alemannien und der Norden |publisher=Walter de Gruyter | year= 2004 |location= Berlin |pages= 165–212 | url= https://books.google.com/books?id=QHLqfS7mI3YC |isbn = 3-11-017891-5|display-editors=etal}}
+* {{Citation | last = Nowak | first = Sean | year = 2003 | url = http://webdoc.sub.gwdg.de/diss/2003/nowak/nowak.pdf |title=Schrift auf den Goldbrakteaten der Völkerwanderungszeit | type = diss | place = Göttingen }}.
+* {{Citation | last = Odenstedt | first = Bengt | year = 1990 | title = On the Origin and Early History of the Runic Script, Typology and Graphic Variation in the Older Futhark | place = Uppsala | isbn = 91-85352-20-9}}.
+* {{Citation | author-link = R.I. Page| last = Page | first = Raymond Ian | year = 2005 | orig-date=1987 | title = Runes | publisher = The British Museum Press | isbn = 0-7141-8065-3}}.
+* {{Citation | last = Rix | first = Helmut | year = 1997 | contribution = Germanische Runen und venetische Phonetik | title = Vergleichende germanische Philologie und Skandinavistik, Festschrift für Otmar Werner | editor1-last = Birkmann | place = Tübingen | pages = 231–48 | isbn = 3-484-73031-5|display-editors=etal}}.
+* {{Citation |last= Robinson |first=Orrin W |author-link=Orrin W. Robinson (philologist) | title= Old English and its Closest Relatives: A Survey of the Earliest Germanic Languages |publisher=Routledge |year=2004 |url= https://books.google.com/books?id=47wOAAAAQAAJ |isbn = 0-415-08169-6}}
+* {{Citation | last = Stifter | first = David | year = 2010 | contribution = Lepontische Studien: ''Lexicon Leponticum'' und die Funktion von ''san'' im Lepontischen | title = Akten des 5. Deutschsprachigen Keltologensymposiums. Zürich, 7.–10. September 2009 | editor1-first = Karin | editor1-last = Stüber | place = Wien | pages = 361–76|display-editors=etal}}.
+* {{Citation | title = Skrifttegn og symboler: noen studier over tegnformer i det eldre runealfabet
+| first = Kai-Erik | last = Westergaard | place = Oslo | publisher = Germanistisches Institut der Universität Oslo | year = 1981 | series = Osloer Beiträge zur Germanistik | volume = 6 | language = no | isbn = 978-82-90389-02-9}}.
+
+==External links==
+{{commons|Elder Futhark inscriptions}}
+* [https://www.hyldyr.com/on-recent-elder-futhark-finds-mees-2024 Mees, Bernard. 2024. "On Recent Elder Futhark finds". Hyldyr.]
+* [http://www.runenprojekt.uni-kiel.de/ Runenprojekt] inscription database at [[Kiel University]]. {{Webarchive |url=https://web.archive.org/web/20080616030657/http://www.runenprojekt.uni-kiel.de/ |date=2008-06-16}}.
+* {{glottolog|olde1239|Older Runic}}
+* [http://www.omniglot.com/writing/runic.htm#elder Omniglot.com – Elder Futhark]
+
+{{Runes}}
+{{list of writing systems}}
+{{Germanic peoples}}
+
+[[Category:Elder Futhark| ]]
+[[Category:Migration Period]]

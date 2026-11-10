@@ -1,0 +1,203 @@
+{{Short description|Alphabet used for writing the Gothic language}}
+{{Other uses|Gothic script (disambiguation){{!}}Gothic script}}
+{{Use dmy dates |date=January 2025}}
+{{use shortened footnotes |date=January 2025}}
+{{Infobox Writing system
+|name= Gothic
+|languages= [[Gothic language|Gothic]]
+|type= [[Alphabet]]
+|time= From {{circa|350}}, in decline by 600
+|fam1= [[Greek alphabet]] augmented with [[Latin alphabet|Latin]] and possibly [[Runes|Runic]] (questionable)
+|unicode= [https://www.unicode.org/charts/PDF/U10330.pdf {{tt|U+10330}}–{{tt|U+1034F}}]
+|iso15924= Goth
+|sample= File:Codex Vindobonensis 795 20v.jpg
+|imagesize= 200px
+}}
+{{Contains special characters |special=Gothic characters |fix=Help:Multilingual_support#Gothic |characters=letters}}
+{{alphabet}}
+
+The '''Gothic alphabet''' is an [[alphabet]] for writing the [[Gothic language]]. It was developed in the 4th century AD by [[Ulfilas]] (or Wulfila), a [[Goths|Gothic]] preacher of [[Cappadocian Greeks|Cappadocian Greek]] descent, for the purpose of [[Bible translations|translating the Bible]].{{efn |According to the testimony of the historians [[Philostorgius]], [[Socrates of Constantinople]] and [[Sozomen]].<ref>{{harvcoltxt |Streitberg |1910 |p=20 }}</ref>}}
+
+In form, most letters resemble letters of the [[Greek alphabet]]. The origin of the alphabet is disputed: it is debated whether (or how) the [[Latin alphabet|Latin]] and [[Runes|Runic alphabets]] were used as a source. The set of letters, and the way that they are used, show some innovations to express [[Gothic phonology]].
+
+==Origin==
+The origin of the Gothic alphabet is controversial.<ref>{{harvcoltxt |Cercignani |1988 |page=168}}</ref><ref>{{harvcoltxt |Miller |2019 |pages=22-23}}</ref> In addition to the Gothic language, [[Ulfilas]] knew [[Greek language|Greek]] and [[Latin language|Latin]].<ref>{{harvcoltxt |Marchand |1973 |p=16}}</ref> When developing the Gothic alphabet, he may have drawn on the [[Greek alphabet]], [[Latin alphabet]], and [[Runes|Runic alphabet]].<ref>{{harvcoltxt |Cercignani |1988 |page=171}}</ref> According to Cercignani, it is generally agreed that Ulfilas had knowledge of each of these three alphabets.<ref>{{harvcoltxt |Cercignani |1988 |pages=168-169}}</ref> However, this has been debated. It is not known that Ulfilas was familiar with runes;<ref>{{harvcoltxt |Marchand |1973 |p=17 }}</ref><ref>{{harvcoltxt |Snædal |2015 |pages=97}}</ref> on the other hand, there is also lack of evidence showing that Ulfilas was unfamiliar with runes.<ref>{{harvcoltxt |Miller |2019 |page=25}}</ref> There are a few extant runic inscriptions thought to be East Germanic, possibly Gothic<ref>{{harvcoltxt |Miller |2019 |pages=6-7, 13}}</ref>  (see [[Gothic runic inscriptions]]). The influence of Latin and Runic letters on the Gothic alphabet is disputed,<ref>{{harvcoltxt |Snædal |2015 |page=96}},</ref> and some scholars have argued that they were not used as inputs.<ref>{{harvcoltxt |Cercignani |1988 |page=169}}</ref> 
+
+{{harvcoltxt |Cercignani |1988 |pages=172-178}} supposes that Ulfilas used a twenty-four letter Runic ''fuþark'' alphabet as his starting point and assigned most of its letters to corresponding letters of the twenty-seven letter Greek alphabet, taking the value of the Greek letters as numerals and their alphabetical position, and using additional symbols (some taken from the Latin alphabet) to take the place of remaining unmatched Greek letters. After the correspondences were established, Cercignani supposes the form of the Runic letters were either modified or outright replaced by the corresponding Latin or Greek letters. {{harvcoltxt |Miller |2019 |page=25}} calls Cercignani's hypothesis of an adapted runic alphabet "not implausible".
+
+{{harvcoltxt |Snædal |2015 |pages=96-97, 104-105}} argues that Ulfilas's alphabet was initially and primarily adapted from the Greek alphabet (cursive and perhaps also [[uncial script|uncial]]), with secondary influence from Latin and only minor, uncertain influence from Runic. 
+
+{{harvcoltxt |Miller |2019 |page=25}} cites a number of authors that consider the Gothic alphabet to be derived from the Greek alphabet, influenced by Latin and Runic.
+
+Ulfilas is thought to have consciously chosen to avoid the use of the older [[Runes|Runic alphabet]] for this purpose, as it was heavily connected with [[Germanic paganism|pagan]] beliefs and customs.<ref>{{harvcoltxt |Jensen |1969 |p=474 }}</ref> Also, the Greek-based script probably helped to integrate the Gothic nation into the dominant [[Greco-Roman world|Greco-Roman]] culture around the [[Black Sea]].<ref name="Haarmann 1991 434">{{harvcoltxt |Haarmann |1991 |p=434 }}</ref>
+
+==Letters==
+Below is a table of the Gothic alphabet. Two letters used in its [[transliteration]] are not used in current English: [[Thorn (letter)|thorn]] {{angbr|þ}} (representing {{IPAslink|θ}}), and [[hwair]] {{angbr|ƕ}} (representing {{IPAslink|ʍ|hʷ}}).
+
+As with the Greek alphabet, Gothic letters were also assigned numerical values. When used as numerals, letters were written either between two dots (•{{Script|Goth|𐌹𐌱}}• = 12) or with an overline (<span style="text-decoration: overline">{{Script|Goth|𐌹𐌱}}</span> = 12). Two letters, {{Script|Goth|𐍁}} (90) and {{Script|Goth|𐍊}} (900), have no phonetic value.
+
+Names for the letters are recorded in [[Codex Vindobonensis 795]],<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> a 9th-century manuscript of [[Alcuin]]. Most of them seem to be Gothic forms of names also appearing in the [[rune poem]]s. The antiquity of these names is not certain: {{harvcoltxt |Cercignani |1988 |pages=172, 178-180}} argues that the names recorded in this manuscript may be influenced by Old English and Old High German, and concludes that the original rune names are unknown. Most of the names follow the principle of [[acrophony]] (starting with the sound that the letter represents), which Cercignani argues must have been a feature of the original names used by Ulfilas.<ref>{{harvcoltxt |Cercignani |1988 |page=179}}</ref> In the following table, the names are given in their attested forms followed by reconstructed Gothic forms and their meanings.{{efn |The forms which are not attested in the Gothic corpus are marked with an asterisk. For a detailed discussion of the reconstructed forms, {{linktext|cf.}}<ref>{{harvcoltxt |Kirchhoff |1854 }}</ref> For a survey of the relevant literature, cf.<ref>{{harvcoltxt |Zacher |1855 }}</ref>}}
+{| class="wikitable" style="margin:1em auto;"
+! colspan="2" style="background:#ccf;" | Letter || style="background:#ccf;" | [[Translit.]] || style="background:#ccf;"|Compare || style="background:#ccf;"| [[Alcuin]]ic name<ref>{{harvcoltxt |Miller |2019 |p=21}}</ref> || style="background:#ccf;"| Gothic name || style="background:#ccf;"| [[Proto-Germanic|PGmc]] rune name || style="background:#ccf;"| [[International Phonetic Alphabet|IPA]] || style="background:#ccf;"|Numeric value || style="background:#ccf;"| [[Numeric character reference|XML entity]]
+|-
+| [[File:Gothic Letter Ahsa.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌰}} || a || [[Α]] || ''aza'' || *{{lang|got|𐌰𐌽𐍃}} (*{{transliteration|got|ans}}) "[[Æsir|god]]" or *{{lang|got|𐌰𐍃𐌺𐍃}} (*{{transliteration|got|asks}}) "[[Fraxinus|ash]]" || *[[ansuz rune|ansuz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|a|a, aː}} || 1 || &amp;#x10330;
+|-
+| [[File:Gothic Letter Bairkan.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌱}} || b || [[Beta (letter)|Β]] || ''bercna'' || *{{lang|got|𐌱𐌰𐌹𐍂𐌺𐌰𐌽}} (*{{transliteration|got|baírkan}}) "[[birch]]" || *[[berkanan]] || {{IPAslink|b}} [{{IPA link|b}}, {{IPA link|β}}] || 2 || &amp;#x10331;
+|-
+| [[File:Gothic Letter Giba.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌲}} || g || [[Γ]] || ''geuua'' || {{lang|got|𐌲𐌹𐌱𐌰}} ({{transliteration|got|giba}}) "gift" || *[[Gyfu|gebō]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|ɡ}} [{{IPA link|ɡ}}, {{IPA link|ɣ}}, {{IPA link|x}}]; {{IPAslink|n}} [{{IPA link|ŋ}}] || 3 || &amp;#x10332;
+|-
+| [[File:Gothic Letter Dags.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌳}} || d || [[Δ]] || ''daaz'' || {{lang|got|𐌳𐌰𐌲𐍃}} ({{transliteration|got|dags}}) "day" || *[[dagaz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|d}} [{{IPA link|d}}, {{IPA link|ð}}] || 4 || &amp;#x10333;
+|-
+| [[File:Gothic Letter Aiƕs.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌴}} || e (ē) || [[Ε]] ([[ϵ]]) || ''eyz'' || *{{lang|got|𐌰𐌹𐍈𐍃}} ({{Transliteration|got|*aíƕs}}) "horse" or *{{lang|got|𐌴𐌹𐍅𐍃}} ({{Transliteration|got|*eiws}}) "[[Taxus baccata|yew]]" || *[[ehwaz]],<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> *[[eihwaz]] || {{IPAslink|e|eː}} || 5 || &amp;#x10334;
+|-
+| [[File:Gothic Letter Qairthra.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌵}} || q || [[File:Greek Digamma cursive 06.svg|class=skin-invert-image|x16px]] ([[Digamma|Ϛ]]), {{not a typo|[[ϰ]]}}, Ⲋ(?) || ''quertra'' || *{{lang|got|𐌵𐌰𐌹𐍂𐌸𐍂𐌰}} (*{{Transliteration|got|qaírþra}}) ??? or *{{lang|got|𐌵𐌰𐌹𐍂𐌽𐌰}} (*{{Transliteration|got|qaírna}}) "millstone" || (see *[[peorð|perþō]]) || {{IPAslink|kʷ}} || 6 || &amp;#x10335;
+|-
+| [[File:Gothic Letter Ezec.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌶}} || z || [[Ζ]] || ''ezec'' || (?){{efn |Zacher arrives at *''iuya'', *''iwja'' or *''ius'', cognate to ON ''ȳr'', OE ''īw, ēow'', OHG ''īwa'' "yew tree", though he admits having no ready explanation for the form ''ezec''; cf.<ref>{{harvcoltxt |Zacher |1855 |pp=10–13 }}</ref>}} Likely related to [[Z#Name|*idzēta]].<ref>{{harvcoltxt |Miller |2019 |p=22 }}</ref> || (?){{efn |conventionally called *''[[algiz]]'' or *''elhaz'', but unclear original name}} || {{IPAslink|z}} || 7 || &amp;#x10336;
+|-
+| [[File:Gothic Letter Hagl.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌷}} || h || [[Η]] || ''haal'' || *{{lang|got|𐌷𐌰𐌲𐌰𐌻}} (*{{Transliteration|got|hagal}}) or *{{lang|got|𐌷𐌰𐌲𐌻𐍃}} (*{{Transliteration|got|hagls}}) "hail" || *[[haglaz]]/*haglan || {{IPAslink|h}} || 8 || &amp;#x10337;
+|-
+| [[File:Thiuth.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌸}} || þ (th) || [[Φ]], [[Ψ]], Ⲑ || ''thyth'' || {{lang|got|𐌸𐌹𐌿𐌸}} (''þiuþ'') "good"(?){{efn |Zacher assents to a hypothesis of the Brothers Grimm that the Alcuin name "thyth" is not Germanic, but instead is a phonetic adaptation of the name of Greek theta. Based on comparison with Old English, Zacher reconstructs  {{lang|got|𐌸𐌰𐌿𐍂𐌽𐌿𐍃}} ({{Transliteration|got|þaúrnus}}) "thorn" as the original Gothic rune name (this name was also previously postulated by Munch).<ref>{{harvcoltxt |Zacher |1855 |pp=vi, 2-3, 13}}</ref>}} || disputed (see *[[Thurisaz]]) || {{IPAslink|θ}} || 9 || &amp;#x10338;
+|-
+| [[File:Gothic Letter Eis.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌹}} || i || [[Ι]] || ''iiz'' || *{{lang|got|𐌴𐌹𐍃}} (*{{Transliteration|got|eis}}) "ice" || *[[Isaz|īsaz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref>/*īsan || {{IPAslink|i|i}} || 10 || &amp;#x10339;
+|-
+| [[File:Gothic Letter Kusma.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌺}} || k || [[Κ]] || ''chozma'' || *{{lang|got|𐌺𐌿𐍃𐌼𐌰}} (*{{Transliteration|got|kusma}}) or *{{lang|got|𐌺𐍉𐌽𐌾𐌰}} (*{{Transliteration|got|kōnja}}) "pine sap" || *[[kaunan]] || {{IPAslink|k}} || 20 || &amp;#x1033A;
+|-
+| [[File:Gothic Letter Lagus.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌻}} || l || [[Λ]] || ''laaz'' || *{{lang|got|𐌻𐌰𐌲𐌿𐍃}} (*{{Transliteration|got|lagus}}) "sea, lake" || *[[laguz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|l}} || 30 || &amp;#x1033B;
+|-
+| [[File:Gothic Letter Manna.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌼}} || m || [[Μ]] || ''manna'' || {{lang|got|𐌼𐌰𐌽𐌽𐌰}} ({{Transliteration|got|manna}}) "man, human" || *[[mannaz]] || {{IPAslink|m}} || 40 || &amp;#x1033C;
+|-
+| [[File:Gothic Letter Nauths.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌽}} || n || [[Ν]] || ''noicz'' || {{lang|got|𐌽𐌰𐌿𐌸𐍃}} ({{Transliteration|got|náuþs}}) "need" || *[[naudiz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|n}} || 50 || &amp;#x1033D;
+|-
+| [[File:Gothic Letter Jer.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌾}} || j || [[G]], [[ᛃ]], Ⲝ(?) || ''gaar'' || {{lang|got|𐌾𐌴𐍂}} ({{Transliteration|got|jēr}}) "year, harvest" || *[[jēran]] || {{IPAslink|j}} || 60 || &amp;#x1033E;
+|-
+| [[File:Gothic Letter Urus.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐌿}} || u || {{script|Runr|[[ᚢ]]}}, Ⲟ(?) || ''uraz'' || *{{lang|got|𐌿𐍂𐌿𐍃}} (*{{Transliteration|got|ūrus}}) "[[aurochs]]" || *[[ur (rune)|ūruz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|u|u, uː}} || 70 || &amp;#x1033F;
+|-
+| [[File:Gothic Letter Pairthra.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍀}} || p || [[Pi (letter)|Π]] || ''pertra'' || *{{lang|got|𐍀𐌰𐌹𐍂𐌸𐍂𐌰}} (*{{Transliteration|got|paírþra}}) ??? || *[[peorð|perþō]] || {{IPAslink|p}} || 80  || &amp;#x10340;
+|-
+| [[File:Gothic Numeral 90.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍁}} ||  || [[Ϙ]] ([[File:Greek Koppa cursive 03.svg|x16px]]) || || || || || 90 || &amp;#x10341;
+|-
+| [[File:Gothic Letter Raida.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍂}} || r || [[R]], [[Ρ]] || ''reda'' || *{{lang|got|𐍂𐌰𐌹𐌳𐌰}} (*{{Transliteration|got|ráida}}) "wagon" || *[[raido|raidō]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|r}} || 100 || &amp;#x10342;
+|-
+| [[File:Gothic Letter Sauil.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍃}} || s || [[S]], [[Ϲ]] || ''sugil'' || {{lang|got|𐍃𐌰𐌿𐌹𐌻}} ({{Transliteration|got|sauil}}) "sun" or *{{lang|got|𐍃𐍉𐌾𐌹𐌻}} (*{{Transliteration|got|sōjil}}) "sun" || *[[Sowilo rune|sôwilô]] || {{IPAslink|s}} || 200 || &amp;#x10343;
+|-
+| [[File:Gothic Letter Teiws.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍄}} || t || [[Τ]] || ''tyz'' || *{{lang|got|𐍄𐌹𐌿𐍃}} (*{{Transliteration|got|tius}}) "the god [[Týr]]" || *[[Tiwaz rune|tīwaz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|t}} || 300 || &amp;#x10344;
+|-
+| [[File:Winja.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍅}} || w || [[Υ]] || ''uuinne'' || {{lang|got|𐍅𐌹𐌽𐌾𐌰}} ({{Transliteration|got|winja}}) "field, pasture" or {{lang|got|𐍅𐌹𐌽𐌽𐌰}} ({{Transliteration|got|winna}}) "pain" || *[[Wynn|wunjō]] || {{IPAslink|w}}; {{IPAslink|y}}~{{IPAslink|i}}(?)<ref>{{harvcoltxt |Miller |2019 |p=33}}</ref> || 400 || &amp;#x10345;
+|-
+| [[File:Gothic Letter Faihu.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍆}} || f || [[Ϝ]], [[F]], Ⲫ(?) || ''fe'' || {{lang|got|𐍆𐌰𐌹𐌷𐌿}} ({{Transliteration|got|faíhu}}) "wealth, chattel" || *[[fehu]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|ɸ}} || 500 || &amp;#x10346;
+|-
+| [[File:Gothic Letter Iggws.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍇}} || x || [[Χ]] || ''enguz'' || *{{lang|got|𐌹𐌲𐌲𐌿𐍃}} (*{{Transliteration|got|iggus}}) or *{{lang|got|𐌹𐌲𐌲𐍅𐍃}} (*{{Transliteration|got|iggws}}) "the god [[Yngvi]]" || *[[Yngvi|ingwaz]]<ref>{{harvcoltxt |Miller |2019 |p=22}}</ref> || {{IPAslink|k}}<ref>{{harvcoltxt |Streitberg |1910 |p=47 }}</ref> || 600 || &amp;#x10347;
+|-
+| [[File:Hwair.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍈}} || {{not a typo|ƕ}} (hw) || [[Θ]], Ⲯ(?) || ''uuaer'' || *{{lang|got|𐍈𐌰𐌹𐍂}} (*{{Transliteration|got|[[hwair]]}}) "kettle" ||   || {{IPAslink|ʍ|hʷ}}~{{IPA|/ʍ/}}|| 700 || &amp;#x10348;
+|-
+| [[File:Gothic Letter Othal.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍉}} || o (ō) || [[Ω]], [[Ο]], {{script|Runr|[[ᛟ]]}}, Ⲱ || ''utal'' || *{{lang|got|𐍉𐌸𐌰𐌻}} (*{{Transliteration|got|ōþal}}) "ancestral land" || *[[Odal (rune)|ōþala]] || {{IPAslink|o|oː}} || 800 || &amp;#x10349;
+|-
+| [[File:Gothic Numeral 900.svg|class=skin-invert-image|x48px]]
+| {{Script|Goth|𐍊}} ||  || [[Ͳ]] ([[Ϡ]]) || || || || || 900 || &amp;#x1034a;
+|}
+
+{{Script|Goth|𐍇}} (x) is only used in proper names and loanwords containing Greek [[chi (letter)|Χ]]  ({{Transliteration|got|xristus}} "Christ", {{Transliteration|got|galiugaxristus}} "Pseudo-Christ", {{Transliteration|got|zaxarias}} "Zacharias", {{Transliteration|got|aiwxaristia}} "eucharist").<ref>{{harvcoltxt |Wright |1910 |p=5 }}</ref>
+
+The letter/numeral {{Script|Goth|𐍊}} (900) is not attested in the Gothic bible, but only in the Salzburg-Vienna manuscript<ref>{{harvcoltxt |Marchand |1973 |p=15 }}</ref> ([[Codex Vindobonensis 795]]).<ref>{{harvcoltxt |Miller |2019 |p=24}}</ref>
+
+==Letter origins==
+Most of the letters clearly bear a one-to-one correspondence to matching letters of the [[Greek alphabet]],<ref>{{harvcoltxt |Snædal |2015 |pages=96-98}}</ref> having similar forms and sounds and sharing the same [[Greek numerals|value as numerals]].
+
+However, a few letters have uncertain or disputed origins, and may have been taken from [[Latin alphabet|Latin]] or possibly (more controversially<ref name=Contact />) [[Runic letters]]. These are:
+
+* {{Script|Goth|𐌵}} (q). Its numeric value of 6 corresponds to Greek [[digamma]] or [[Stigma (letter)|stigma]] ([[File:Greek Digamma cursive 06.svg|class=skin-invert-image|x16px]]), which may also be the source of its form.<ref name=Contact>{{harvcoltxt |Snædal |2015}}</ref> Other possible sources are a cursive variant of [[kappa|kappa ({{not a typo|ϰ}})]], which could strongly resemble a ''[[u]]'',<ref>{{harvcoltxt |Snædal |2015 |page=99}}</ref> or Latin minuscule [[q]].<ref>{{harvcoltxt |Marchand |1973 |p=19 }}</ref>
+* {{Script|Goth|𐌷}} (h). Its numeric value of 8 corresponds to Greek [[eta|eta (η)]]. Its form and phonetic value may be borrowed from Latin<ref>{{harvcoltxt |Marchand |1973 |p=19 }}</ref> uncial [[h]];<ref>{{harvcoltxt |Miller |2019 |p=25 }}</ref> however, {{harvcoltxt |Snædal |2015 |page=98}} argues that there is no need to use Latin to explain the form or sound value of the Gothic letter.
+* {{Script|Goth|𐌸}} (þ). Its numeric value of 9 corresponds to Greek [[theta (letter)|theta (θ)]] {{IPA|/θ/}}. It is used for theta in the Gothic transcription of Greek names, such as {{lang|got|𐍄𐌴𐌹𐌼𐌰𐌿'''𐌸'''𐌰𐌹𐌿𐍃}} (''teimau'''þ'''aius'') for {{lang|grc|Τιμό'''θ'''εος}}. Its form may be derived from theta via the 4th-century cursive form {{script|Grek|ϑ}}.<ref>{{harvcoltxt |Marchand |1973 |pp=20, 25 }}</ref> Alternatively, its form has been argued to derive from Greek [[phi (letter)|phi (Φ)]]<ref>{{harvcoltxt |Snædal |2015 |page=99}}</ref> {{IPA|/f/}} or [[psi (letter)|psi (Ψ)]] {{IPA|/ps/}} with phonetic reassignment, or from Runic {{script|Runr|[[ᚦ]]}}, which had a φ-shaped variant around the time of the creation of the Gothic alphabet.<ref>{{harvcoltxt |Mees |2002–2003 |p=65 }}</ref>
+* {{Script|Goth|𐌾}} (j). Its numeric value of 60 corresponds to Greek [[Xi (letter)|xi (ξ)]] {{IPA|/ks/}}. Its form may be derived from Latin [[G]] /ɡ/,<ref>{{harvcoltxt |Snædal |2015 |page=101}}</ref> Greek {{script|Grek|ξ}}, the Greek epsilon-iota [[Greek ligatures|ligature]], or Runic {{script|Runr|[[ᛃ]]}}<ref>{{harvcoltxt |Marchand |1973 |p=21 }}</ref> (the last of which is itself speculated to be derived from Greek epsilon-iota ligature).
+* {{Script|Goth|𐌿}} (u). Its numeric value of 70 corresponds to Greek [[Ο|omicron (ο)]] (originally named {{lang|grc|οὖ}} {{IPA|/uː/}}<ref>{{harvcoltxt |Snædal |2015 |page=98}}</ref><ref>{{harvcoltxt |Cercignani |1988 |page=173}}</ref>). Its form may be derived from Greek {{script|Grek|ο}} or from Runic {{script|Runr|[[ᚢ]]}} {{IPA|/u/}}.<ref>{{harvcoltxt |Kirchhoff |1854 |p=55 }}</ref>
+* {{Script|Goth|𐍈}} ({{not a typo|ƕ}}). Its numeric value of 700 corresponds to Greek [[Psi (Greek)|psi (ψ)]] {{IPA|/ps/}}. Its form is potentially derived from Greek [[Theta|Θ]] {{IPA|/θ/}} with phonetic reassignment; or from Greek [[Omicron|Ο]] {{IPA|/o/}}; possibly the letterform was switched with {{Script|Goth|𐌸}};<ref name=Contact /> also possibly pictographic in nature, with O for rounding and • for aspiration.<ref>{{harvcoltxt |Miller |2019 |p=23 }}</ref>
+* {{Script|Goth|𐍉}} (o). Its numeric value of 800 corresponds to Greek [[Omega|omega (ω)]]. Its form may be derived from Greek {{script|Grek|ω}} or from Runic {{script|Runr|[[ᛟ]]}}.<ref>{{harvcoltxt |Marchand |1973 |p=22 }}</ref><ref name="Haarmann 1991 434"/> An alternative proposal<ref name=Miller25>{{harvcoltxt |Miller |2019 |p=25 }}</ref> derives it from a cursive form of Greek [[Ο|omicron (ο)]]: {{harvcoltxt |Snædal |2015 |page=103}} argues that this better matches the shape of the Gothic letter (though the variant of Greek omicron is often vertically mirrored compared to the Gothic letter), and that the use of Greek omicron to represent close-mid {{IPA|/o/}} would be symmetrical to the use of Greek epsilon to represent close-mid {{IPA|/e/}}. On the other hand, Miller argues that the idea that {{Script|Goth|𐍉}} was derived from omicron does not explain why it has the same numerical value and alphabetical position as omega, with the (pronounced) Gothic alphabet being ordered from {{Script|Goth|𐌰}} to {{Script|Goth|𐍉}} like the Greek alphabet is ordered from [[Α]] to Ω.<ref name=Miller25/>
+ 
+{{Script|Goth|𐍂}} (r), {{Script|Goth|𐍃}} (s) and {{Script|Goth|𐍆}} (f) appear to be derived from their Latin equivalents rather than from the Greek, although the equivalent Runic letters ({{script|Runr|[[Raido|ᚱ]]}}, {{script|Runr|[[Sowilo rune|ᛋ]]}} and {{script|Runr|[[Fehu|ᚠ]]}}), assumed to have been part of the Gothic futhark, possibly played some role in this choice.<ref>{{harvcoltxt |Kirchhoff |1854 |pp=55–56 }}</ref><ref>{{harvcoltxt |Friesen |1915 |pp=306–310 }}</ref> However, Snædal claims that "Wulfila's knowledge of runes was questionable to say the least", as the paucity of inscriptions attests that knowledge and use of runes was rare among the East Germanic peoples.<ref name=Contact /> Miller refutes this claim, stating that it is "not implausible" that Wulfila used a runic script in his creation of the Gothic alphabet, noting six other authors—Wimmer, Mensel, Hermann, d'Alquen, Rousseau, and Falluomini—who support the idea of the Gothic alphabet having runic contributions.<ref name=Miller25 /> Some variants of {{Script|Goth|𐍃}} (s) are shaped like a sigma and more obviously derive from the Greek [[Σ]].<ref name=Contact />
+
+==Diacritics and punctuation==
+Diacritics and punctuation used in the [[Codex Argenteus]] include a [[diaeresis (diacritic)|trema]] ('''{{serif|{{char|◌̈}}}}''')<!-- This sample uses serif because of rendering limitation in Android (as of v13), that its default sans font fails to render "dotted circle + diacritic", so visitors just get a meaningless (to most) [X] mark. Please retain at least until the issue is resolved because this is a very large proportion of visitors. --> placed on {{lang|got|𐌹}}''i'', transliterated as ''ï'' (used at the start of a word or syllable<ref>{{harvcoltxt |Miller |2019 |p=24}}</ref>); the [[interpunct]] (·) and [[Colon (punctuation)|colon]] (:) as well as [[overline]]s to indicate [[sigla]] (such as <span style="text-decoration: overline">''xaus''</span> for ''xristaus'') and numerals.
+
+==Unicode==
+The Gothic alphabet was added to the [[Unicode]] Standard in March 2001 with the release of version 3.1.
+
+The Unicode block for Gothic is {{tt|U+10330}}–{{tt|U+1034F}} in the ''Supplementary Multilingual Plane''. As older software that uses [[UCS-2]] (the predecessor of [[UTF-16]]) assumes that all Unicode codepoints can be expressed as 16 [[bit]] numbers ({{tt|U+FFFF}} or lower, the ''Basic Multilingual Plane''), problems may be encountered using the Gothic alphabet Unicode range and others outside of the ''Basic Multilingual Plane''.
+{{Unicode chart Gothic}}
+
+==See also==
+* [[Ring of Pietroassa]]
+* [[Help:Gothic Unicode Fonts]]
+
+==Notes==
+{{notelist}}
+
+==References==
+{{reflist |20em}}
+
+==Sources==
+{{refbegin |30em |indent=yes}}
+* {{cite journal |last=Cercignani |first=Fausto |author-link=Fausto Cercignani |year=1988 |title=The Elaboration of the Gothic Alphabet and Orthography |journal=Indogermanische Forschungen |volume=93 |pages=168–185 |doi=10.1515/9783110243352.168 }}
+* {{cite journal |last=Friesen |first=Otto von |author-link=Otto von Friesen |year=1915 |title=Gotische Schrift |editor-last=Hoops |editor-first=J. |journal=Reallexikon der Germanischen Altertumskunde |volume=2 |pages=306–310 |location=Strassburg |publisher=Karl J. Trübner }}
+* {{cite book |last=Haarmann |first=Harald |year=1991 |title=Universalgeschichte der Schrift |location=Frankfurt |publisher=Campus |isbn=3-593-34346-0 }}
+* {{cite book |last=Jensen |first=Hans |year=1969 |title=Die Schrift in Vergangenheit und Gegenwart |location=Berlin |publisher=[[Deutscher Verlag der Wissenschaften]]}}
+* {{cite book |last=Kirchhoff |first=Adolf |author-link=Adolf Kirchhoff |year=1854 |title=Das gothische Runenalphabet |language=de |location=Berlin |publisher=Wilhelm Hertz |url=https://archive.org/details/dasgothischerune00kircuoft/page/n4 |access-date=2025-01-03 |ol=OL14002786M |oclc=1042908167 }}
+* {{cite book |last=Marchand |first=James |year=1973 |title=The Sounds and Phonemes of Wulfila's Gothic |publisher=De Gruyter Mouton}}
+* {{cite journal |last=Mees |first=Bernard |year=2002–2003 |title=Runo-Gothica: the runes and the origin of Wulfila's script |journal=Die Sprache |volume=43 |pages=55–79 }}
+* {{cite book |last=Miller |first=D. Gary |year=2019 |title=The Oxford Gothic Grammar |location=Oxford |publisher=[[Oxford University Press]] }}
+* {{cite book |first=Magnús |last=Snædal |year=2015 |chapter=Gothic Contact with Latin: Gotica Parisina and Wulfila's Alphabet|title=Early Germanic Languages in Contact |series=NOWELE Supplement Series |volume=27 |doi=10.1075/nss.27.05sna |editor1-first=John Ole |editor1-last=Askedal |editor2-first=Hans Frede |editor2-last=Nielsen|pages=91–107|isbn=978-90-272-4073-6 }}
+* {{cite book |last=Streitberg |first=Wilhelm |author-link= Wilhelm Streitberg |year=1910 |title=Gotisches Elementarbuch |language=de |location=Heidelberg |publisher=Carl Winter |url=https://archive.org/details/gotischeselement003071mbp/page/n4 |access-date=2024-01-03 }}
+* {{cite book |last=Wright |first=Joseph |author-link=Joseph Wright (linguist) |year=1910 |title=Grammar of the Gothic Language |location=Oxford |publisher=[[Oxford University Press]] }}
+* {{cite book |last=Zacher |first=Julius |author-link=Julius Zacher |year=1855 |title=Das gothische Alphabet Vulfilas und das Runenalphabet |language=de |location=Leipzig |publisher=F. A. Brockhaus |url=https://archive.org/details/dasgothischealp01zachgoog/page/n8 |access-date=2025-01-03 |ol=OL20520460M |oclc=64740461 }}
+{{refend}}
+
+==Further reading==
+{{refbegin |30em |indent=yes}}
+* {{cite book |last=Braune |first=Wilhelm |author-link=Wilhelm Braune |year=1952 |title=Gotische Grammatik |location=Halle |publisher=Max Niemeyer}}
+* {{cite book |last=Dietrich |first=Franz |year=1862 |title=Ueber die Aussprache des Gothischen während der Zeit seines Bestehens |language=de |location=Marburg |publisher=N. G. Elwert'sche Universitätsbuchhandlung |url=https://archive.org/details/ueberdieausspra01dietgoog/page/n5 |access-date=2025-01-03 |ol=OL23457795M |oclc=11989187 }}
+* {{cite book |last=Weingärtner |first=Wilhelm |year=1858 |title=Die Aussprache des Gothischen zur Zeit des Ulfilas |language=de |location=Leipzig |publisher=T. O. Weigel |url=https://archive.org/details/dieaussprachede00weingoog/page/n4 |access-date=2025-01-03 |ol=OL23456199M |oclc=8581170 }}
+{{refend}}
+
+==External links==
+{{InterWiki|code=got}}
+*[http://www.omniglot.com/writing/gothic.htm Omniglot's Gothic writing page]
+*[https://web.archive.org/web/20130505053530/http://www.christusrex.org/www1/pater/JPN-gothic.html ''Pater Noster'' and ''Ave Maria'' in Gothic]
+*[https://web.archive.org/web/20051029233446/http://marnanel.org/gothic JavaScript Gothic transliterator]
+*[https://www.unicode.org/charts/PDF/U10330.pdf Unicode code chart for Gothic]
+*[http://www.wazu.jp/gallery/Fonts_Gothic.html WAZU JAPAN's Gallery of Gothic Unicode Fonts]
+*[http://robert-pfeffer.net/schriftarten/englisch/index.html Dr. Pfeffer's Gothic Unicode Fonts]
+*[https://www.gnu.org/software/freefont/ GNU FreeFont] Unicode font family with the Gothic range in a serif face.
+{{European calligraphy}}
+{{list of writing systems}}
+
+{{DEFAULTSORT:Gothic Alphabet}}
+[[Category:Gothic writing]]
+[[Category:Alphabets]]
+[[Category:Obsolete writing systems]]
+[[Category:Alphabetic numeral systems]]
+[[Category:Western calligraphy]]

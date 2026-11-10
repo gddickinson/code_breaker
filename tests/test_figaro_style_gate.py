@@ -9,3 +9,11 @@ def test_style_measured_and_control_matches_size():
     pw, pt = G.planted_style(st)(flat)
     assert [len(w) for w in pw] == [len(w) for w in pt.split()] and len(pw) == len(flat)
     assert len({c for w in pw for c in w}) <= len({c for w in flat for c in w}) + 2
+
+
+def test_pre_registered_result_recorded():
+    import json
+
+    res = json.loads(G.RESULT.read_text())
+    assert res["gates"]["control"] and res["gates"]["null"] and not res["gates"]["reads"]
+    assert abs(res["bar"] - 0.8 * res["planted_refined_coverage"]) < 1e-3 and res["coverage"] < res["bar"]

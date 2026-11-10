@@ -1,0 +1,992 @@
+{{Short description|Ways to convert text in Ancient Egyptian language into modern alphabetic symbols}}
+As used for [[Egyptology]], '''transliteration of Ancient Egyptian''' is the process of converting (or mapping) texts written as [[Egyptian language]] symbols to [[alphabet]]ic symbols representing uniliteral [[Egyptian hieroglyphs|hieroglyphs]] or their [[hieratic]] and [[Demotic Egyptian script|demotic]] counterparts. This process facilitates the publication of texts where the inclusion of photographs or drawings of an actual Egyptian document is impractical.
+
+[[Transliteration]] is not the same as [[transcription (linguistics)|transcription]]. Transliteration is the representation of written symbols in a consistent way in a different writing system, while transcription indicates the pronunciation of a text. For the case of Ancient Egyptian, precise details of the [[phonology]] are not known completely. Transcription systems for Ancient Egyptian do exist, but they rely on [[linguistic reconstruction]] (depending on evidence from the [[Coptic language]] and other details) and are thus theoretical in nature. Egyptologists rely on transliteration in scientific publications. Egyptologists use the term "transcription" to describe the process of converting hieratic characters into hieroglyphic characters. In German-language literature, the terms "transcription" and "transliteration" are used in exactly the opposite way.
+
+==Standards==
+{{IPA notice}}
+As important as transliteration is for Egyptology, there is no one standard scheme in use for hieroglyphic and hieratic texts. However, there are a few closely related systems that can be regarded as conventional. Many non-German-speaking Egyptologists use the system described in Gardiner 1954, whereas many German-speaking scholars opt for that used in the ''[[Wörterbuch der ägyptischen Sprache|Wörterbuch der aegyptischen Sprache]]'' (Dictionary of the Egyptian Language), 1926 and 1961 editions by [[Adolf Erman]] and [[Hermann Grapow]], the standard dictionary of the ancient Egyptian language. However, there is a growing trend, even among English-speaking scholars, to adopt a modified version of the method used in the ''Wörterbuch'' (e.g., Allen 2000).
+
+Although these conventional methods of transliteration have been used since the second half of the nineteenth century to the present time, there have been some attempts to adopt a modified system that seeks to use the [[International Phonetic Alphabet]] to a certain extent. The most successful of these is that developed by Wolfgang Schenkel (1990), and it is being used fairly widely in Germany and other German-speaking countries. More recent is a proposal by [[Thomas Schneider (Egyptologist)|Thomas Schneider]] (2003) that is even closer to the IPA, but its usage is not presently common. The major criticism of both of these systems is that they give an impression of being scientifically accurate with regard to the pronunciation of Egyptian, though the actual accuracy is debatable. Moreover, the systems represent only the theoretical pronunciation of [[Middle Egyptian]] and not the older and later phases of the language, which are themselves to be transliterated with the same system.
+
+===Table of transliteration schemes===
+{{ SpecialChars }}
+Although the system of [[Egyptian hieroglyphs]] is very complicated, there are only 24 consonantal phonemes distinguished, 
+according to Edel (1955)<ref name=Edel1955>E. Edel, ''Altägyptische Grammatik'', Analecta Orientalia 34, 39, Rome (1955, 1964).</ref> transliterated and ordered alphabetically in the sequence:
+:{{font|size=125%|text={{transl|egy|italic=no|ꜣ j ꜥ w b p f m n r h ḥ ḫ ẖ z s š q k g t ṯ d ḏ}}}}
+A number of variant conventions are used interchangeably depending on the author.
+
+The following table shows several transliteration schemes. The first column shows the uniliteral hieroglyph (see {{slink||Uniliteral signs}} below) corresponding to the sound.
+
+{| class="wikitable" lang="egy-Latn"
+|+ Conventional Transliteration Schemes
+|-
+! rowspan="2" | Glyph
+! Brugsch
+! Erman
+! Budge
+! Erman &<br/>Grapow
+! Gardiner
+! Edel
+! [[Manuel de Codage|Manuel de<br/>Codage]]
+! Hodge
+! Schenkel
+! Allen
+! Hoch
+! Schneider
+! Leiden Unified
+! rowspan="2"| Conventional<br/>[[Egyptological pronunciation|Egyptological<br/>pronunciation]]
+|-
+! 1889
+! 1894
+! 1910
+! 1926–1953
+! 1957
+! 1955<ref name=Edel1955/>
+! 1988
+! 1990
+! 1991
+! 2000
+! 1997
+! 2003
+! 2023<ref>{{cite web |date=12 August 2023 |title=The Leiden Unified Transliteration |url=https://www.iae-egyptology.org/the-leiden-unified-transliteration |publisher=[[International Association of Egyptologists]] |access-date=6 August 2026}}</ref>
+|-
+| style="text-align:center" | {{font|text=𓄿|size=36px}}
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | a
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | A
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | ɹ
+| style="text-align:center" | ꜣ
+| style="text-align:center" | {{IPA|/ɑ, ɑː/}}
+|-
+| style="text-align:center" | {{font|text=𓇋|size=36px}}
+| style="text-align:center" | ʾ
+| style="text-align:center" | ı͗
+| style="text-align:center" | ȧ
+| style="text-align:center" | ı͗
+| style="text-align:center" | ı͗
+| style="text-align:center" | j
+| style="text-align:center" | i
+| style="text-align:center" | ʔ
+| style="text-align:center" | ı͗
+| style="text-align:center" | j
+| style="text-align:center" | ı͗
+| style="text-align:center" | ı͗
+| style="text-align:center" | ı͗
+| style="text-align:center" | {{IPA|/i, iː, j/}}
+|-
+| style="text-align:center" | {{font|text=𓏭|size=36px}}
+| style="text-align:center" | "
+| style="text-align:center" | ï
+| style="text-align:center" | i
+| style="text-align:center" | j
+| style="text-align:center" | y
+| style="text-align:center" | (n.a.)<ref>In Old Egyptian, {{font|text=𓏭}} is used as dual classifier only (cf. E. Edel: ''Altägyptische Grammatik'').</ref>
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | ı͗
+| style="text-align:center" | j
+| style="text-align:center" | y
+| style="text-align:center" | ı͗
+| style="text-align:center" | ï
+| style="text-align:center" | {{IPA|/iː/}}
+|-
+| style="text-align:center" | {{font|text=𓇌|size=36px}}
+| style="text-align:center" | ʾʾ
+| style="text-align:center" | y
+| style="text-align:center" | i
+| style="text-align:center" | j
+| style="text-align:center" | y
+| style="text-align:center" | j
+| style="text-align:center" | y, i*i
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | y
+| style="text-align:center" | {{IPA|/iː/}}
+|-
+| style="text-align:center" | {{font|text=𓂝|size=36px}}
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ā
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | a
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | ɗ
+| style="text-align:center" | ꜥ
+| style="text-align:center" | {{IPA|/ɑː/}}
+|-
+| style="text-align:center" | {{font|text=𓅱|size=36px}}
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | u
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | w
+| style="text-align:center" | {{IPA|/w, uː/}}
+|-
+| style="text-align:center" | {{font|text=𓃀|size=36px}}
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | b
+| style="text-align:center" | {{IPA|/b/}}
+|-
+| style="text-align:center" | {{font|text=𓊪|size=36px}}
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | p
+| style="text-align:center" | {{IPA|/p/}}
+|-
+| style="text-align:center" | {{font|text=𓆑|size=36px}}
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | f
+| style="text-align:center" | {{IPA|/f/}}
+|-
+| style="text-align:center" | {{font|text=𓅓|size=36px}}
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | m
+| style="text-align:center" | {{IPA|/m/}}
+|-
+| style="text-align:center" | {{font|text=𓈖|size=36px}}
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | n
+| style="text-align:center" | {{IPA|/n/}}
+|-
+| style="text-align:center" | {{font|text=𓂋|size=36px}}
+| style="text-align:center" | r, l
+| style="text-align:center" | r
+| style="text-align:center" | r, l
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | r
+| style="text-align:center" | l
+| style="text-align:center" | r
+| style="text-align:center" | {{IPA|/ɾ/}}
+|-
+| style="text-align:center" | {{font|text=𓉔|size=36px}}
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | h
+| style="text-align:center" | {{IPA|/h/}}
+|-
+| style="text-align:center" | {{font|text=𓎛|size=36px}}
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | H
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | ḥ
+| style="text-align:center" | {{IPA|/ħ, h/}}
+|-
+| style="text-align:center" | {{font|text=𓐍|size=36px}}
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | χ, kh
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | x
+| style="text-align:center" | x
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | {{IPA|/x/}}
+|-
+| style="text-align:center" | {{font|text=𓄡|size=36px}}
+| style="text-align:center" | ḫ
+| style="text-align:center" | ḫ
+| style="text-align:center" | χ, kh
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | X
+| style="text-align:center" | x̯
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | ẖ
+| style="text-align:center" | {{IPA|/ç/}}
+|-
+| style="text-align:center" | {{font|text=𓊃|size=36px}}
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | s (z)
+| style="text-align:center" | z
+| style="text-align:center" | z
+| style="text-align:center" | z
+| style="text-align:center" | s
+| style="text-align:center" | z
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | z
+| style="text-align:center" | {{IPA|/z, s/}}
+|-
+| style="text-align:center" | {{font|text=𓋴|size=36px}}
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | ś
+| style="text-align:center" | s (ś)
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | ś
+| style="text-align:center" | s
+| style="text-align:center" | s
+| style="text-align:center" | ś
+| style="text-align:center" | s
+| style="text-align:center" | {{IPA|/s/}}
+|-
+| style="text-align:center" | {{font|text=𓈙|size=36px}}
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | ś, sh
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | S
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | š
+| style="text-align:center" | {{IPA|/ʃ/}}
+|-
+| style="text-align:center" | {{font|text=𓈎|size=36px}}
+| style="text-align:center" | ḳ
+| style="text-align:center" | ḳ
+| style="text-align:center" | q
+| style="text-align:center" | ḳ
+| style="text-align:center" | ḳ
+| style="text-align:center" | q
+| style="text-align:center" | q
+| style="text-align:center" | q
+| style="text-align:center" | ḳ
+| style="text-align:center" | q
+| style="text-align:center" | q
+| style="text-align:center" | ḳ
+| style="text-align:center" | q
+| style="text-align:center" | {{IPA|/k, q/}}
+|-
+| style="text-align:center" | {{font|text=𓎡|size=36px}}
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | k
+| style="text-align:center" | {{IPA|/k/}}
+|-
+| style="text-align:center" | {{font|text=𓎼|size=36px}}
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | ḳ
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | g
+| style="text-align:center" | {{IPA|/ɡ/}}
+|-
+| style="text-align:center" | {{font|text=𓏏|size=36px}}
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | t
+| style="text-align:center" | {{IPA|/t/}}
+|-
+| style="text-align:center" | {{font|text=𓍿|size=36px}}
+| style="text-align:center" | ṯ
+| style="text-align:center" | ṯ
+| style="text-align:center" | θ, th
+| style="text-align:center" | ṯ
+| style="text-align:center" | ṯ
+| style="text-align:center" | ṯ
+| style="text-align:center" | T
+| style="text-align:center" | č
+| style="text-align:center" | č
+| style="text-align:center" | ṯ
+| style="text-align:center" | ṯ
+| style="text-align:center" | c
+| style="text-align:center" | ṯ
+| style="text-align:center" | {{IPA|/tʃ/}}
+|-
+| style="text-align:center" | {{font|text=𓂧|size=36px}}
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | ṭ
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | ṭ
+| style="text-align:center" | d
+| style="text-align:center" | d
+| style="text-align:center" | ḍ
+| style="text-align:center" | d
+| style="text-align:center" | {{IPA|/d/}}
+|-
+| style="text-align:center" | {{font|text=𓆓|size=36px}}
+| style="text-align:center" | ḏ
+| style="text-align:center" | ḏ
+| style="text-align:center" | t', tch
+| style="text-align:center" | ḏ
+| style="text-align:center" | ḏ
+| style="text-align:center" | ḏ
+| style="text-align:center" | D
+| style="text-align:center" | ǧ
+| style="text-align:center" | č̣
+| style="text-align:center" | ḏ
+| style="text-align:center" | ḏ
+| style="text-align:center" | c̣
+| style="text-align:center" | ḏ
+| style="text-align:center" | {{IPA|/dʒ/}}
+|}
+The vowel {{IPAslink|ɛ}} is conventionally inserted between consonants to make Egyptian words pronounceable in English.
+
+===Examples===
+The following text is transliterated below in some of the more common schemes. Note that most of the hieroglyphs in this text are not uniliteral signs, but can be found in the [[List of Egyptian hieroglyphs]].
+
+<hiero>M23-X1:R4-X8-Q2:D4-W17-R14-G4-R8-O29:V30-U23-N26-D58-O49:Z1-F13:N31-Z2ss-V30:N16:N21*Z1-D45:N25</hiero>
+Unicode: '''{{lang|egy-Egyp|{{script|Egyp|{{huge|𓇓𓏏𓐰𓊵𓏙𓊩𓐰𓁹𓏃𓋀𓅂𓊹𓉻𓐰𓎟𓍋𓈋𓃀𓊖𓐰𓏤𓄋𓐰𓈐𓏦𓎟𓐰𓇾𓐰𓈅𓐱𓏤𓂦𓐰𓈉|200%}}}}}}'''
+
+(This text is conventionally translated into English as "an offering that the king gives; and [[Osiris]], Foremost of Westerners [i.e., the Dead], the Great God, Lord of [[Abydos, Egypt|Abydos]]; and [[Wepwawet]], Lord of the Sacred Land [i.e., the [[Necropolis]]]." It can also be translated "a royal offering of Osiris, Foremost of the Westerners, the Great God, Lord of Abydos; and of Wepwawet, Lord of the Sacred Land" [Allen 2000:§24.10].)
+
+'''Erman and Grapow 1926–1953'''
+
+* {{Transliteration|egy|ḥtp-dỉ-nśwt wśỉr ḫntj ỉmntjw nṯr ꜥꜣ nb ꜣbḏw wp-wꜣwt nb tꜣ ḏśr}}
+
+'''Gardiner 1953'''
+* {{Transliteration|egy|ḥtp-dỉ-nsw wsỉr ḫnty ỉmntyw nṯr ꜥꜣ nb ꜣbḏw wp-wꜣwt nb tꜣ ḏsr}}
+
+'''Buurman, Grimal, ''et al.'' 1988'''
+* {{Transliteration|egy|Htp-di-nswt wsir xnty imntyw nTr aA nb AbDw wp-wAwt nb tA Dsr}}
+
+:''A fully encoded, machine-readable version of the same text is:''
+::* M23-X1:R4-X8-Q2:D4-W17-R14-G4-R8-O29:V30-U23-N26-D58-O49:Z1-F13:N31-Z2-V30:N16:N21*Z1-D45:N25
+
+'''Schenkel 1991'''
+* {{Transliteration|egy|ḥtp-dỉ-nsw wśỉr ḫntỉ ỉmntỉw nčr ꜥꜣ nb ꜣbč̣w wp-wꜣwt nb tꜣ č̣śr}}
+
+'''Allen 2000'''
+* {{Transliteration|egy|ḥtp-dj-nswt wsjr ḫntj jmntjw nṯr ꜥꜣ nb ꜣbḏw wp-wꜣwt nb tꜣ ḏsr}}
+
+'''Schneider 2003'''
+* {{Transliteration|egy|ḥtp-ḍỉ-nsw wśỉr ḫntỉ ỉmntỉw ncr ɗɹ nb ɹbc̣w wp-wɹwt nb tɹ c̣śr}}
+
+'''Leiden 2023'''
+* {{Transliteration|egy|ḥtp-dỉ-nzw wsỉr ḫntï ỉmntïw nṯr ꜥꜣ nb ꜣbḏw wp-wꜣwt nb tꜣ ḏsr}}
+
+===Demotic===
+{{further|Demotic script}}
+As the latest stage of pre-Coptic Egyptian, demotic texts have long been transliterated using the same system(s) used for hieroglyphic and hieratic texts. However, in 1980, [[Demotist]]s adopted a single, uniform, international standard based on the traditional system used for hieroglyphic, but with the addition of some extra symbols for vowels and other letters that were written in the demotic script. The ''Demotic Dictionary of the Oriental Institute of the University of Chicago'' (or [http://oi.uchicago.edu/OI/DEPT/PUB/SRC/CDD/CDD.html CDD]) utilises this method. For details see the references below.
+
+* {{cite journal |last1=Cenival |first1=Françoise de |title=Unification des méthodes de translittération |journal=Enchoria |date=1980 |volume=10 |pages=2–4}}
+* {{cite journal |last1=Johnson |first1=Janet H |author-link1=Janet Johnson (Egyptologist) |title=CDDP Transliteration System |journal=Enchoria |date=1980 |volume=10 |pages=5–6}}
+* {{cite book|last=Johnson|first=Janet|author-link=Janet Johnson (Egyptologist)|title=Thus wrote 'Onchsheshonqy: an introductory grammar of Demotic, Third Edition|url=https://oi.uchicago.edu/research/publications/saoc/saoc-45-thus-wrote-onchsheshonqy-introductory-grammar-demotic|access-date=28 August 2018|year=2000|publisher=Oriental Institute of the University of Chicago|isbn=978-0-918986-49-8}}
+* {{cite journal |last1=Tait |first1=William John |title=The Transliteration of Demotic |journal=Enchoria |date=1982 |volume=11 |pages=67–76}}
+* {{cite journal |last1=Thissen |first1=Heinz-Josef |title=Zur Transkription demotischer Texte |journal=Enchoria |date=1980 |volume=10 |pages=7–9}}
+
+==Encoding==
+In 1984 a standard, [[ASCII]]-based transliteration system was proposed by an international group of Egyptologists at the first {{lang|fr|Table ronde informatique et égyptologie}} and published in 1988 (see Buurman, Grimal, ''et al.'', 1988). This has come to be known as the {{lang|fr|[[Manuel de Codage]]}} (or MdC) system, based on the title of the publication, {{lang|fr|Inventaire des signes hiéroglyphiques en vue de leur saisie informatique: Manuel de codage des textes hiéroglyphiques en vue de leur saisie sur ordinateur}}. It is widely used in e-mail discussion lists and internet forums catering to professional Egyptologists and the interested public.
+
+Although the {{lang|fr|Manuel de codage}} system allows for simple "alphabetic" transliterations, it also specifies a complex method for electronically encoding complete ancient Egyptian texts, indicating features such as the placement, orientation, and even size of individual hieroglyphs. This system is used (though frequently with modifications) by various computer programs developed for typesetting hieroglyphic texts (such as SignWriter, WinGlyph, MacScribe, InScribe, Glyphotext, [[m:WikiHiero|WikiHiero]], and others).
+
+The [[IETF language tag]] list establishes the code {{code|egy-mdctrans}} and {{code|egy-Latn-mdctrans}} for transliteration of Ancient Egyptian encoded according to the {{lang|fr|Manuel}}, and {{code|egy-leidentr}} ({{code|egy-Latn-leidentr}}) for ''Leiden Unified Transliteration''.<ref name="IETF">{{cite web |title=Language Subtag Registry |url=https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry |publisher=IETF |access-date=19 February 2025 |format=text |date=2025-02-06}}</ref>
+
+===Unicode===
+With the introduction of the [[Latin Extended Additional]] block to [[Unicode]] version 1.1 (1992), the addition of Egyptological alef and ayin to Unicode version 5.1 (2008) and the addition of Glottal I ''alias'' Egyptological yod to Unicode version 12.0 (2019), it is now possible to fully transliterate Egyptian texts using a [[Unicode typeface]]. The following table lists only the special characters used for various transliteration schemes (see above).
+
+{| class="wikitable skin-invert-image" lang="egy-Latn"
+ |+ Transcription characters in Unicode
+ |-
+ ! Minuscule
+ |style="font-size:larger"| ꜣ ([[File:Latin small letter egyptological Alef.svg|x16px|Egyptological Alef]])
+ |style="font-size:larger"| ʾ ([[File:Latin small letter egyptological secondary aleph.svg|x16px|Egyptological Secondary Alef]])
+ |style="font-size:larger"| ꞽ ([[File:Latin small letter glottal i (egyptological yod).svg|x16px|Egyptological Yod]])
+ |style="font-size:larger"| i̯
+ |style="font-size:larger"| ï
+ |style="font-size:larger"| ꜥ ([[File:Latin small letter egyptological Ain.svg|x16px|Egyptological Aijn]])
+ |style="font-size:larger"| u̯
+ |style="font-size:larger"| ḥ
+ |style="font-size:larger"| ḫ
+ |style="font-size:larger"| ẖ
+ |style="font-size:larger"| h̭
+ |-
+ ! Unicode
+ | U+A723
+ | U+02BE
+ | U+A7BD
+ | U+0069<br/>U+032F
+ | U+00EF
+ | U+A725
+ | U+0075<br/>U+032F
+ | U+1E25
+ | U+1E2B
+ | U+1E96
+ | U+0068<br/>U+032D
+ |-
+ ! Majuscule
+ |style="font-size:larger"| Ꜣ
+ | 
+ |style="font-size:larger"| Ꞽ ([[File:Latin capital letter glottal i (egyptological yod).svg|x16px|Capital Egyptological Aijn]])
+ |
+ | 
+ |style="font-size:larger"| Ꜥ
+ | 
+ |style="font-size:larger"| Ḥ
+ |style="font-size:larger"| Ḫ
+ |style="font-size:larger"| H̱
+ |style="font-size:larger"| H̭
+ |-
+ ! Unicode
+ | U+A722
+ | 
+ | U+A7BC
+ | 
+ | 
+ | U+A724
+ | 
+ | U+1E24
+ | U+1E2A
+ | U+0048<br/>U+0331
+ | U+0048<br/>U+032D
+ |-
+ ! Minuscule
+ |style="font-size:larger"| ś
+ |style="font-size:larger"| š
+ |style="font-size:larger"| ḳ
+ |style="font-size:larger"| č
+ |style="font-size:larger"| ṯ
+ |style="font-size:larger"| ṭ
+ |style="font-size:larger"| ṱ
+ |style="font-size:larger"| č̣
+ |style="font-size:larger"| ḏ
+ |
+ | 
+ |-
+ ! Unicode
+ | U+015B
+ | U+0161
+ | U+1E33
+ | U+010D
+ | U+1E6F
+ | U+1E6D
+ | U+1E71
+ | U+010D<br/>U+0323
+ | U+1E0F
+ |
+ | 
+ |-
+ ! Majuscule
+ |style="font-size:larger"| Ś
+ |style="font-size:larger"| Š
+ |style="font-size:larger"| Ḳ
+ |style="font-size:larger"| Č
+ |style="font-size:larger"| Ṯ
+ |style="font-size:larger"| Ṭ
+ |style="font-size:larger"| Ṱ
+ |style="font-size:larger"| Č̣
+ |style="font-size:larger"| Ḏ
+ |
+ | 
+ |-
+ ! Unicode
+ | U+015A
+ | U+0160
+ | U+1E32
+ | U+010C
+ | U+1E6E
+ | U+1E6C
+ | U+1E70
+ | U+010C<br/>U+0323
+ | U+1E0E
+ |
+ | 
+ |-
+ ! Brackets/<br />interpunction
+ |style="font-size:larger"| ⸗
+ |style="font-size:larger"| ⟨
+ |style="font-size:larger"| ⟩
+ |style="font-size:larger"| ⸢
+ |style="font-size:larger"| ⸣
+ | 
+ | 
+ | 
+ | 
+ |
+ | 
+ |-
+ ! Unicode
+ | U+2E17
+ | U+27E8
+ | U+27E9
+ | U+2E22
+ | U+2E23
+ | 
+ | 
+ | 
+ | 
+ |
+ | 
+|}
+
+====Egyptological alef, ayin, and yod====
+{{anchor|alef|ayin|yod}}
+Three characters that are specific to the discipline are required for transliterating Egyptian:
+* ''Alef'' ([[File:Latin small letter egyptological Alef.svg|x16px|Egyptological Alef|class=skin-invert-image]], two [[aleph]]s, one set over the other ([[Standard Alphabet by Lepsius|Lepsius]]); approximated by the digit ⟨3⟩ in ASCII);<ref>Carsten Peust, ''Egyptian Phonology: Introduction to the Phonology of a Dead Language'' (Göttingen, 1999), 127.</ref>
+* ''Ayin'' ([[File:Latin small letter egyptological Ain.svg|x16px|Egyptological Aijn|class=skin-invert-image]], an [[ayin]]);
+* ''Yod'' ([[File:Latin small letter glottal i (egyptological yod).svg|x16px|Egyptological Yod|class=skin-invert-image]], ''i'' with an [[aleph]] instead of the dot, both yod and alef being considered possible sound values in the 19th century).<ref>Peust, ''Egyptian Phonology'', p. 50, 99ff.</ref>
+
+Although three Egyptological and Ugariticist letters were proposed in August 2000,<ref>[[Michael Everson|Everson, Michael]]. [http://std.dkuug.dk/jtc1/sc2/wg2/docs/n2241.pdf Proposal to add 6 Egyptological characters to the UCS], 2000-08-27</ref> it was not until 2008 ([[Unicode versions#Versions|Unicode 5.1]]) two of the three letters were encoded: aleph and ayin (minor and capital). Another two proposals were made regarding the Egyptological yod,<ref>[[Michael Everson|Everson, Michael]] and Bob Richmond, [http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3382.pdf EGYPTOLOGICAL YOD and Cyrillic breathing], 2008-04-08</ref><ref>[[Michael Everson|Everson, Michael]], [http://std.dkuug.dk/jtc1/sc2/wg2/docs/n3487.pdf Proposal to encode Egyptological Yod and similar characters in the UCS], 2008-08-04</ref> the eventual result of which was to accept the use of the Cyrillic psili pneumata ({{unichar|0486|cwith=◌}}) as one of several possible diacritics for this purpose. The other options use the superscript comma (U+0313) and the right half ring above (U+0357). A new attempt for a sign called LETTER I WITH SPIRITUS LENIS was made in 2017.<ref>Michel Suignard, [https://www.unicode.org/L2/L2017/17076r2-n4792r2-egyptological-yod.pdf Proposal to encode Egyptological Yod and similar characters in the UCS], 2017-05-09 (cf. the later 2008 proposal).</ref> Within the Egyptological community objections were made concerning this name.<ref>{{Cite web|url=https://evertype.com/pipermail/egyptian_evertype.com/2017-June/thread.html|title=The Egyptian June 2017 Archive by thread|website=evertype.com|accessdate=Dec 29, 2022}}</ref> The proposed name was changed to EGYPTOLOGICAL YOD<ref>{{Cite web|url=https://www.unicode.org/L2/L2017/17362.htm|title=L2/17-362: UTC #153 Minutes|date=2018-02-02|first=Lisa|last=Moore}}</ref> before finally becoming GLOTTAL I.<ref>{{Cite web|url=http://www.unicode.org/L2/L2018/18183.htm|title=L2/18-183: UTC #156 Minutes|date=2018-11-20|first=Lisa|last=Moore}}</ref>  The sign was added in March 2019 with the release of Unicode 12.0. One of the first fonts that implemented the full set of signs is ''New Athena Unicode''.<ref>{{Cite web|url=https://apagreekkeys.org/NAUdownload.html|title=New Athena Unicode Font Download|website=apagreekkeys.org|accessdate=Dec 29, 2022}}</ref>
+
+{| class="wikitable" lang="egy-Latn"
+|-
+! Designation
+! Lowercase
+! Capital
+|-
+! Egyptological alef
+| {{big|ꜣ}}<br />U+A723
+| {{big|Ꜣ}}<br />U+A722
+|-
+! Egyptological ayin
+| {{big|ꜥ}}<br />U+A725
+| {{big|Ꜥ}}<br />U+A724
+|-
+! Egyptological yod
+| {{big|ꞽ}}<br />U+A7BD
+| {{big|Ꞽ}}<br />U+A7BC
+|}
+
+Before the usage of the above-mentioned Unicode signs, various workarounds were in practice, e.g.
+
+{| class="wikitable" lang="egy-Latn"
+|+ Egyptological workarounds
+|-
+! Designation
+! Lowercase
+! Capital
+|-
+! Middle English yogh<ref name="IFAO_polices">[http://www.ifao.egnet.net/publications/publier/outils-ed/polices/ See IFAO - Polices de caractères]</ref>
+| {{big|ȝ}}<br />U+021D
+|
+|-
+! Reverse sicilicus<ref name="IFAO_polices" />
+| {{big|ʿ}}<br />U+02BF
+|
+|-
+! rowspan="2"|Right half ring above<ref>{{Cite web|url=https://ucbclassics.dreamhosters.com/djm/greekkeys/NAUdownload.html|title=New Athena Unicode Font Download|website=ucbclassics.dreamhosters.com|accessdate=Dec 29, 2022}}</ref>
+| {{big|i͗}}<br />U+0069 U+0357
+| rowspan="2"|{{big|I͗}}<br />U+0049 U+0357
+|-
+| {{big|ı͗}}<br />U+0131 U+0357<ref>{{Cite web|url=https://wikis.hu-berlin.de/interlinear_glossing/index.php?title=Unicode&oldid=1097|title=Unicode - Glossing Ancient Languages|website=wikis.hu-berlin.de|accessdate=Dec 29, 2022}}</ref>
+|-
+! I with hook above<ref name="IFAO_polices" />
+| {{big|ỉ}}<br />U+1EC9
+| {{big|Ỉ}}<br />U+1EC8
+|-
+! Cyrillic psili pneumata
+| {{big|i҆}}<br />U+0069 U+0486
+| {{big|I҆}}<br />U+0049 U+0486
+|-
+! Superscript comma
+| {{big|i̓}}<br />U+0069 U+0313
+| {{big|I̓}}<br />U+0049 U+0313
+|-
+|}
+
+==Uniliteral signs==
+[[Middle Egyptian]] is reconstructed as having had 24 consonantal phonemes. There is at least one hieroglyph with a phonetic value corresponding to each of these phonemes.
+
+The table below gives a list of such "uniliteral signs" along with their conventional transcription and their conventional "[[Egyptological pronunciation]]" and probable phonetic value.
+
+Many hieroglyphs are coloured, though the paint has worn off most stone inscriptions. Colors vary, but many glyphs are predominantly one colour or another, or a particular combination (such as red on the top and blue on the bottom). In some cases, two graphically similar glyphs may be distinguished solely by colour, though in other cases it is not known if the choice of colour had any meaning.<!-- <ref>Carsten Peust (1999), ''Egyptian Phonology - Ch. 2.6.2''</ref> -->
+
+{| class="wikitable sortable" lang="egy-Latn" 
+|+ Uniliteral signs
+|- style="vertical-align:top; padding:0;"
+! colspan="3"|Sign
+! colspan="3"|Egyptological transliteration and pronunciation
+! colspan="2"|Phonetic values ([[International Phonetic Alphabet|IPA]])<ref>Loprieno, Antonio (2001) "From Ancient Egyptian to Coptic" in Haspelmath, Martin et al. (eds.), ''Language Typology and Language Universals''</ref><ref>Peust, Carsten (1999) ''Egyptian Phonology: An Introduction to the Phonology of a Dead Language'', Göttingen: Peust und Gutschmidt Verlag GbR</ref><ref>Allen, James P. (2013) ''The Ancient Egyptian Language: An Historical Study'', Cambridge: Cambridge University Press</ref><ref>{{Cite book|url=https://edoc.bbaw.de/frontdoor/index/index/docId/2120|title=Old Egyptian and Pre-Old Egyptian : Tracing Linguistic Diversity in Archaic Egypt and the Creation of the Egyptian Language|first=Frank|last=Kammerzell|date=2005 |publisher=Achet |isbn=9783933684202 |authorlink=Frank Kammerzell|accessdate=Dec 29, 2022|via=edoc.bbaw.de}}</ref>
+|- style="vertical-align:top; padding:0;"
+! Hieroglyph
+! Sign Colour
+! Depiction
+! Transliteration
+! [[Egyptological pronunciation|Say (modern)]]<ref>Allen, James Paul. 2000. Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs. Cambridge: Cambridge University Press, chapter 2.6.</ref>
+! style="text-align:left;" | Notes
+!Old Egyptian
+!Middle Egyptian
+|-
+| style="text-align:center" | {{font|text=𓄿|size=36px}}
+| Polychrome
+| [[Egyptian vulture]]
+| <big>'''ꜣ'''</big>
+| <big>''ah''</big>
+| style="text-align:left;" | Called ''alef/aleph'' or ''hamza'',<br />a [[glottal stop]]
+| some form of [[liquid consonant|liquid]];<br/>proposed values include<br/>{{IPA|/ʀ/}}, {{IPA|/r/}}, {{IPA|/l/}}, {{IPA|/ɫ/}}
+| variously {{IPA|/ʀ/}}, {{IPA|/ʔ/}}, and {{IPA|/j/}}
+|-
+| style="text-align:center" | {{font|text=𓇋|size=36px}}
+| Rowspan="2" | Green
+| Flowering reed
+| <big>'''ꞽ''' or '''j'''</big>
+| <big>''ee''</big>
+| style="text-align:left;" | Called y''od''
+| colspan="2" | {{IPA|/j/}} or {{IPA|/ʔ/}} (?)
+|-
+| style="text-align:center" | {{font|text=𓇌|size=36px}}
+| Pair of reeds
+| <big>'''y''' or '''j'''</big>
+| Rowspan="2" | <big>''y'' or ''ee''</big>
+| style="text-align:left;" | Called ''yod'' or ''y''
+| colspan="2" | {{IPA|/j/}}
+|-
+| style="text-align:center" | {{font|text=𓏭|size=36px}}
+| Blue
+| Pair of strokes
+| <big>'''y''' or '''ꞽ''' or '''j''' or '''ï'''</big>
+|
+| ''not used''
+| {{IPA|/j/}} or {{IPA|/i/}} (?)
+|-
+|-
+| style="text-align:center" | {{font|text=𓂝|size=36px}}
+| Red
+| Forearm
+| <big>'''ꜥ'''</big>
+|<big>''ah''</big>
+| style="text-align:left;" | Called ''[[ayin]]''
+| {{IPAslink|ʕ}}, or debatably {{IPA|/d/}}<ref>Gensler, Orin D. (2014) "A typological look at Egyptian *d > ʕ" in Grossman, Eitan; Haspelmath, Martin; and Richter, Tonio Sebastian (eds.), ''Egyptian-Coptic Linguistics in Typological Perspective''</ref>
+| {{IPA|/ʕ/}};<br/>{{IPA|/d/}} perhaps retained in<br/>some words and dialects
+|-
+| style="text-align:center" | {{font|text=𓅱|size=36px}}
+| Rowspan="2"| Yellow
+| Rowspan="2"| [[quail chick (hieroglyph)|Quail chick]] or its<br />hieratic abbreviation
+| Rowspan="2"| <big>'''w'''</big>
+| Rowspan="2"| <big>''w'' or ''oo''</big>
+| Rowspan="2"/style="text-align:left;" | Called ''wau/waw''<br />
+| Rowspan="2"/ Colspan="2"|{{IPA|/w/}}
+|-
+| style="text-align:center" | {{font|text=𓏲|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓃀|size=36px}}
+| Red
+| Lower leg
+| colspan="2"|<big>'''''b'''''</big>
+| Rowspan="8"/ style="text-align:left;" | &nbsp;
+| Colspan="2"|{{IPA|/b/}}
+|-
+| style="text-align:center" | {{font|text=𓊪|size=36px}}
+| Green
+| Reed [[p (hieroglyph)|mat or stool]]
+| colspan="2"| <big>'''''p'''''</big>
+| Colspan="2"|{{IPA|/p/}}
+|-
+| style="text-align:center" | {{font|text=𓆑|size=36px}}
+| Rowspan="2" | Yellow
+| [[Cerastes (genus)|Horned viper]]
+| colspan="2"| <big>'''''f'''''</big>
+| Colspan="2"|{{IPA|/f/}}
+|-
+| style="text-align:center" | {{font|text=𓅓|size=36px}}
+| [[owl (hieroglyph)|Owl]]
+| colspan="2"| <big>'''''m'''''</big>
+| Colspan="2"|{{IPA|/m/}}
+|-
+| style="text-align:center" | {{font|text=𓈖|size=36px}}
+| Black
+| [[N-water ripple (n hieroglyph)|Ripple of water]]
+| colspan="2"/ rowspan="2"| <big>'''''n'''''</big>
+| Colspan="2"/ rowspan="2"|{{IPA|/n/}}
+|-
+| style="text-align:center" | {{font|text=𓋔|size=36px}}
+| rowspan="2"| Red
+| [[red crown]]
+|-
+| style="text-align:center" | {{font|text=𓂋|size=36px}}
+
+| Human [[mouth (hieroglyph)|mouth]]
+| colspan="2"| <big>'''''r'''''</big>
+| {{IPA|/ɾ/}}, sometimes {{IPA|/l/}}<br/>(dialectally always {{IPA|/l/}})
+| variously {{IPA|/ɾ/}}, {{IPA|/l/}}, {{IPA|/j/}}, ∅<br/>(dialectally {{IPA|/l/}}, {{IPA|/j/}}, ∅)
+|-
+| style="text-align:center" | {{font|text=𓉔|size=36px}}
+| Blue
+| [[reed shelter (hieroglyph)|Reed shelter]]
+| <big>'''h'''</big>
+| Rowspan="2"| <big>''h''</big>
+| Colspan="2"|{{IPA|/h/}}
+|-
+| style="text-align:center" | {{font|text=𓎛|size=36px}}
+| Rowspan="2" | Green
+| Twisted wick
+| <big>'''ḥ'''</big>
+| style="text-align:left;" | An emphatic ''h'',<br />a [[voiceless pharyngeal fricative]], called ''second H, dotted H''
+| Colspan="2"|{{IPA|/ħ/}}
+|-
+| style="text-align:center" | {{font|text=𓐍|size=36px}}
+| Sieve or placenta
+| <big>'''ḫ'''</big>
+| ''<big>kh</big>''
+| style="text-align:left;" | [[Voiceless velar fricative]], called ''third H''
+| Colspan="2"|{{IPA|/χ/}} ~ {{IPA|/x/}}, or speculatively {{IPA|/​ɣ/}}(?)
+|-
+| style="text-align:center" | {{font|text=𓄡|size=36px}}
+| Attested in multiple colors
+| Animal belly and tail
+| <big>'''ẖ'''</big>
+|''<big>kh; hy as in '''h'''uman</big>''
+| style="text-align:left;" | A softer sound,<br />a [[voiceless palatal fricative]], called ''fourth H''
+| Colspan="2"|{{IPA|/ç/}}, or speculatively {{IPA|/x/}}(?)
+|-
+| style="text-align:center" | {{font|text=𓊃|size=36px}}
+| Rowspan="2"| Red
+| [[door bolt (s hieroglyph)|Door bolt]]
+| <big>'''z''' or '''s'''</big>
+|''<big>z/s</big>''
+| Rowspan="2"| 
+| very unclear;<br/>proposed values include<br/>{{IPA|/z/}}, {{IPA|/t͡s/}}, {{IPA|/sʼ/}}, {{IPA|/θ/}}
+|{{IPA|/s/}}
+|-
+| style="text-align:center" | {{font|text=𓋴|size=36px}}
+| [[folded cloth (s hieroglyph)|Folded cloth]]
+| <big>'''s''' or '''ś'''</big>
+|''<big>s</big>''
+| colspan="2"| {{IPA|/s/}}
+|-
+| style="text-align:center" | {{font|text=𓈙 |size=36px}}
+| Rowspan="5"| Blue
+| Rowspan="4"| Garden pool
+| Rowspan="4"| <big>'''š'''</big>
+| Rowspan="4"| <big>''sh''</big>
+| Rowspan="4"/ style="text-align:left;" | Called ''shin''
+| Rowspan="4"/ Colspan="2"|{{IPA|/ʃ/}}
+|-
+| style="text-align:center" | {{font|text=𓈚|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓈛|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓈜|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓈎|size=36px}}
+| Hill slope
+| <big>'''ḳ''' or '''q'''</big>
+|''<big>q</big>''
+| style="text-align:left;" | An emphatic ''k'',<br />a [[voiceless uvular plosive]], called ''Q'' or ''dotted k''
+| Colspan="2"|{{IPA|/kʼ/}} or {{IPA|/qʼ/}}(?)<br/>(exact phonetic distinction from ⟨g⟩ unclear)
+|-
+| style="text-align:center" | {{font|text=𓎡 |size=36px}}
+| Rowspan="2" | Green
+| Rowspan="2" | Basket with handle
+| colspan="2"/ Rowspan="2" | <big>'''''k'''''</big>
+| Rowspan="5"/ style="text-align:left;" | &nbsp;
+| Rowspan="2"/ Colspan="2"|{{IPA|/k/}} 
+|-
+| style="text-align:center" | {{font|text= 𓎢|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓎽|size=36px}}
+| Rowspan="2" | Red
+| Rowspan="2" | [[jar stand (hieroglyph)|Jar stand]]
+| colspan="2"/ Rowspan="2" | <big>'''''g'''''</big>
+| Rowspan="2"/ Colspan="2"|{{IPA|/kʼ/}} or {{IPA|/g/}}(?)<br/>(exact phonetic distinction from ⟨q⟩ unclear)
+|-
+| style="text-align:center" | {{font|text=𓎼|size=36px}}
+|-
+| style="text-align:center" | {{font|text=𓏏|size=36px}}
+| Blue
+| [[t (hieroglyph)|Bread loaf]]
+| colspan="2"| <big>'''''t'''''</big>
+| {{IPA|/t/}}
+| {{IPA|/t/}} ~ ∅
+|-
+| style="text-align:center" | {{font|text=𓍿|size=36px}}
+| Green
+| [[tether (hieroglyph)|Tethering rope]] or hobble
+| <big>'''ṯ''' or '''č'''</big>
+| <big>''ch''</big>
+| style="text-align:left;" | Called ''second T''
+| {{IPA|/c/}}
+| {{IPA|/c/}} ~ {{IPA|/t/}} ~ ∅
+|-
+| style="text-align:center" | {{font|text=𓂧|size=36px}}
+| Red
+| [[hand (hieroglyph)|Hand]]
+| <big>'''d''' or '''ṭ'''</big>
+| <big>''d''</big>
+| style="text-align:left;" | &nbsp;
+| Colspan="2"|{{IPA|/tʼ/}}
+|-
+| style="text-align:center" | {{font|text=𓆓|size=36px}}
+| Yellow
+| Cobra
+| <big>'''ḏ''' or '''č̣'''</big>
+| <big>''j''</big>
+| style="text-align:left;" | Called ''second D''
+| {{IPA|/cʼ/}}
+| {{IPA|/cʼ/}} ~ {{IPA|/tʼ/}}
+|}
+
+==See also==
+{{wiktionary|Appendix:Egyptian transliteration schemes}}
+* {{anl|Egyptian biliteral signs}}
+* {{anl|Egyptian triliteral signs}}
+* [[List of Egyptian hieroglyphs]]
+
+==References==
+===Citations===
+{{Reflist|30em}}
+
+===Bibliography===
+* {{cite book |last=Allen |first=James Paul |year=2000 |title=Middle Egyptian: An Introduction to the Language and Culture of Hieroglyphs |location=Cambridge |publisher=Cambridge University Press}}
+* {{cite book |last1=Buurman |first1=Jan |first2=Nicolas-Christophe |last2=Grimal |first3=Michael |last3=Hainsworth |first4=Jochen |last4=Hallof |first5=Dirk |last5=van der Plas |year=1988 |title=Inventaire des signes hiéroglyphiques en vue de leur saisie informatique: Manuel de codage des textes hiéroglyphiques en vue de leur saisie sur ordinateur |edition=3rd |series=Mémoires de l'Académie des Inscriptions et Belle-Lettres (Nouvelle Série) |volume=8 |location=Paris |publisher=Institut de France}}
+* {{cite book |editor-last1=Erman |editor-first1=Adolf |editor-link1=Adolf Erman |editor-last2=Grapow |editor-first2=Hermann |editor-link2=Hermann Grapow |orig-date=published 1926–1953, J. C. Hinrichs'schen Buchhandlungen, Leipzig |title=Wörterbuch der aegyptischen Sprache im Auftrage der deutschen Akademien |volume=1-6 |location=Berlin |publisher=Akademie-Verlag |year=1971}}
+* {{cite book |last=Gardiner |first=Alan Henderson |author-link=Alan Gardiner |year=1957 |title=Egyptian Grammar; Being an Introduction to the Study of Hieroglyphs |edition=3rd |location=Oxford |publisher=Griffith Institute}}
+* {{cite book |last=Hannig |first=Rainer |author-link=Rainer Hannig |year=1995 |title=Großes Handwörterbuch Ägyptisch–Deutsch: die Sprache der Pharaonen (2800–950 v. Chr.) |series=Kulturgeschichte der antiken Welt |volume=64 |location=Mainz am Rhein |publisher=Verlag Philipp von Zabern |isbn=9783805317719}}
+* {{cite book |last=Kammerzell |first=Frank |year=2005 |chapter=Old Egyptian and Pre-Old Egyptian: Tracing linguistic diversity in Archaic Egypt and the creation of the Egyptian language |title=Texte und Denkmäler des ägyptischen Alten Reiches |editor-first=Stephan Johannes |editor-last=Seidlmayer |series=Thesaurus Linguae Aegyptiae |volume=3 |location=Berlin |publisher=Brandenburgische Akademie der Wissenschaften |pages=165–247 |isbn=3-933684-20-X |url=https://nbn-resolving.org/urn:nbn:de:kobv:b4-opus-24600}}
+* {{cite book |last=Schenkel |first=Wolfgang |year=1990 |title=Einführung in die altägyptische Sprachwissenschaft |series=Orientalistische Einführungen |location=Darmstadt |publisher=Wissenschaftliche Buchgesellschaft |doi=10.11588/diglit.47786 |isbn=3-534-03506-2}}
+* {{cite book |last=Schenkel |first=Wolfgang |year=1991 |title=Tübinger Einführung in die klassisch-ägyptische Sprache und Schrift |location=Tübingen |publisher=W. Schenkel |doi=10.11588/diglit.13942}}
+* {{cite journal |last=Schneider |first=Thomas |year=2003 |title=Etymologische Methode, die Historizität der Phoneme und das ägyptologische Transkriptionsalphabet |journal=Lingua Aegyptia: Journal of Egyptian Language Studies |volume=11 |pages=187–199 |language=de}}
+* {{cite web |author=International Congress of Egyptologists |year=2023 |url=https://ice2023.com/en/news/lut |title=The Leiden Unified Transliteration |url-status=usurped |archive-url=https://web.archive.org/web/20230813035919/https://ice2023.com/en/news/lut |archive-date=2023-08-13}}
+
+==External links==
+{{Wiktionary|Appendix:Egyptian transliteration schemes}}
+* [http://www.catchpenny.org/codage/ Manuel de Codage]: technical details of electronic transliteration of Egyptian texts
+* [https://web.archive.org/web/20060721220729/http://www.ifao.egnet.net/c.php?f=%2Fdoc%2FOutils%2FPolices.php Unicode-based transliteration system adopted by the Institut Français d'Archéologie Orientale. Description and downloadable keyboard layouts.]
+* [http://www.ifao.egnet.net/publications/outils/convertisseurs/ Online encoding converter] for converting ASCII-based transliterations into Unicode.
+
+{{Egyptian hieroglyphs navbox}}
+{{Ancient Egypt topics}}
+
+{{DEFAULTSORT:Transliteration Of Ancient Egyptian}}
+[[Category:Ancient Egyptian language]]
+[[Category:Egyptology]]
+[[Category:Romanization by script]]
+[[Category:Egyptian hieroglyphs|*]]
+[[Category:Writing systems introduced in the 19th century]]

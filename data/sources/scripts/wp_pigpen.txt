@@ -1,0 +1,63 @@
+{{Short description|Type of substitution cipher}}
+{{anchor|}}
+[[File:Pigpen cipher key.svg|thumb|The pigpen cipher uses graphical symbols assigned according to a key similar to the above diagram.<ref name=wrixon-182>Wrixon, pp. 182&ndash;183</ref>]]
+The '''pigpen cipher''' (alternatively referred to as the '''masonic cipher''', '''Freemason's cipher''', '''Rosicrucian cipher''', '''Napoleon cipher''', and '''tic-tac-toe cipher''')<ref name=barker>Barker, p. 40</ref><ref name=wrixon-27>Wrixon, p. 27</ref> is a geometric [[simple substitution]] [[cipher]], which exchanges letters for symbols which are fragments of a grid.  The example key shows one way the letters can be assigned to the grid.
+
+==Insecurity==
+The Pigpen cipher offers little [[cryptographic]] security. It differentiates itself from other simple [[monoalphabetic substitution]] ciphers solely by its use of symbols rather than letters, the use of which fails to assist in curbing [[cryptanalysis]]. Additionally, the prominence and recognizability of the Pigpen leads to it being arguably worthless from a security standpoint. Knowledge of Pigpen is so ubiquitous that an interceptor might not need to actually ''break'' this cipher at all, but merely ''decipher'' it, in the same way that the intended recipient would.
+
+Due to Pigpen's simplicity, it is very often included in children's books on ciphers and secret writing.<ref name="Gardner">Gardner</ref>
+
+==History==
+The cipher is believed to be an ancient cipher<ref>Bauer, Friedrich L. "Encryption Steps: Simple Substitution."&nbsp;Decrypted Secrets: Methods and Maxims of Cryptology&nbsp;(2007): 43.</ref><ref>Newby, Peter. "Maggie Had A Little Pigpen."&nbsp;Word Ways&nbsp;24.2 (1991): 13.</ref> and is said to have originated with the [[Hebrew language|Hebrew]] [[rabbi]]s.<ref>Blavatsky, Helena Petrovna. The Theosophical Glossary. Theosophical Publishing Society, 1892, p. 230</ref><ref>Mathers, SL MacGregor.&nbsp;The Kabbalah Unveiled. Routledge, 2017, p. 10</ref> Thompson writes that, "there is evidence that suggests that the [[Knights Templar]] utilized a pig-pen cipher" during the [[Crusades|Christian Crusades]].<ref>Thompson, Dave. "Elliptic Curve Cryptography." (2016)</ref><ref>MacNulty, W. K. (2006).&nbsp;Freemasonry: symbols, secrets, significance. London: Thames & Hudson, p. 269</ref>
+
+Parrangan & Parrangan write that it was used by an individual, who may have been a Mason, "in the 16th century to save his personal notes".<ref>Parrangan, Dwijayanto G., and Theofilus Parrangan. "New Simple Algorithm for Detecting the Meaning of Pigpen Chiper Boy Scout ("Pramuka")."&nbsp;International Journal of Signal Processing, Image Processing and Pattern Recognition&nbsp;6.5 (2013): 305–314.</ref>
+
+In 1531 [[Cornelius Agrippa]] described an early form of the Rosicrucian cipher, which he attributes to an existing Jewish [[Kabbalah|Kabbalistic]] tradition.<ref>Agrippa, Henry Cornelius. "Three Books of Occult Philosophy, or of."&nbsp;JF (London, Gregory Moule, 1650)&nbsp;(1997): 14–15.</ref>  This system, called "The Kabbalah of the Nine Chambers" by later authors, used the [[Hebrew Alphabet|Hebrew alphabet]] rather than the [[Latin alphabet]], and was used for religious symbolism rather than for any apparent cryptological purpose.<ref>Agrippa, Cornelius. "Three Books of Occult Philosophy", http://www.esotericarchives.com/agrippa/agripp3c.htm#chap30</ref>{{failed verification|reason="Kabbalah of the Nine Chambers" does not appear in the reference.|date=June 2026}}
+
+On the 7th July 1730, a French pirate named [[Olivier Levasseur]] threw out a scrap of paper written in the pigpen cipher, allegedly containing the whereabouts of his treasure which was never found but is speculated to be located in the Seychelles. The exact configuration of the cipher has also not been determined, an example of using different letters in different sections to further complicate the cipher from its standard configuration.
+
+Variations of this cipher were used by both the [[Ancient Mystical Order Rosae Crucis|Rosicrucian]] brotherhood<ref name=pratt>Pratt, pp. 142&ndash;143</ref> and the [[Freemasonry|Freemasons]], though the latter used the pigpen cipher so often that the system is frequently called the Freemason's cipher. Hysin claims it was invented by Freemasons.<ref>Hynson, Colin. "Codes and ciphers."&nbsp;5 to 7 Educator&nbsp;2006.14 (2006): v–vi.</ref> They began using it in the early 18th century to keep their records of history and rites private, and for correspondence between lodge leaders.<ref name=wrixon-27/><ref>Kahn, 1967, p.~772</ref><ref>Newton, 1998, p. 113</ref> Tombstones of Freemasons can also be found which use the system as part of the engravings.  One of the earliest stones in [[Trinity Church Cemetery]] in [[New York City]], which opened in 1697, contains a cipher of this type which deciphers to "Remember death" (cf. "[[memento mori]]").
+
+In 1852, [[Major Logue]], an Irish western Australian pastoralist, used the pigpen cipher in his diary to discreetly admit his involvement in the shooting and killing of at least 19 [[Yamatji]] people, an [[Aboriginal Australian]] tribe. Logue wrote that some cattle went missing on 16 March 1852, so he "SHOT THREE OF THEM FOR IT". In 24 March he wrote that the "natives at Mr Burgess' had been stealing sheep AND THAT THE WHITE FELLOWS HAD SHOT SEVERAL OF THEM FOR IT". On 4 April he was among a group of armed men who set out to find "natives who had taken the cattle". By his own account he was part of groups who shot and killed at least 19 Yamatji people around what is now called [[Ellendale]], [[Walkaway, Western Australia|Walkaway]] and the [[Greenough River]].<ref>{{Cite web|url=https://www.theguardian.com/australia-news/ng-interactive/2025/aug/04/the-killing-code-strange-symbols-in-a-wa-settlers-diaries-lay-bare-frontier-atrocities-ntwnfb|last1=Allam |first1=Lorena |last2=Collard |first2=Sarah |last3=Archibald-Binge |first3=Ella |last4=Evershed |first4=Nick |last5=Ball |first5=Andy |title=The killing code: strange symbols in a WA settler’s diaries lay bare frontier atrocities |website=[[The Guardian]] Australia|archive-url=https://archive.today/20250803221951/https://www.theguardian.com/australia-news/ng-interactive/2025/aug/04/the-killing-code-strange-symbols-in-a-wa-settlers-diaries-lay-bare-frontier-atrocities-ntwnfb|archive-date=3 August 2025|date=4 August 2025}}</ref>
+
+[[George Washington]]'s army had documentation about the system, with a much more randomized form of the alphabet. During the [[American Civil War]], the system was used by [[Union (American Civil War)|Union]] prisoners in [[Confederate States of America|Confederate]] prisons.<ref name=pratt/>
+
+==Example==
+Using the Pigpen cipher key shown in the example below, the message "<code>X marks the spot</code>" is rendered in ciphertext as
+<div align="center">[[File:A-pigpen-message.svg|320px|An example pigpen message]]</div>
+
+==Variants==
+The core elements of this system are the grid and dots.  Some systems use the X's, but even these can be rearranged.  One commonly used method orders the symbols as shown in the above image: grid, grid, X, X.  Another commonly used system orders the symbols as grid, X, grid, X.  Another is grid, grid, grid, with each cell having a letter of the alphabet, and the last one having an "&" character. Letters from the first grid have no dot, letters from the second each have one dot, and letters from the third each have two dots.  Another variation of this last one is called the Newark Cipher, which instead of dots uses one to three short lines which may be projecting in any length or orientation. This gives the illusion of a larger number of different characters than actually exist.<ref>''Glossary of Cryptography''</ref>
+
+Another system, used by the [[Rosicrucians]] in the 17th century, used a single grid of nine cells, and 1 to 3 dots in each cell or "pen". So ABC would be in the top left pen, followed by DEF and GHI on the first line, then groups of JKL MNO PQR on the second, and STU VWX YZ on the third.<ref name=barker/><ref name=pratt/> When enciphered, the location of the dot in each symbol (left, center, or right), would indicate which letter in that pen was represented.<ref name=wrixon-182/><ref name=pratt/>  More difficult systems use a non-standard form of the alphabet, such as writing it backwards in the grid, up and down in the columns,<ref name="Gardner"/> or a completely randomized set of letters.
+
+The Templar cipher is a method claimed to have been used by the [[Knights Templar]] and uses a variant of a [[Maltese Cross]].<ref>{{Cite web|url=http://freemasonry.bcy.ca/texts/templars_cipher.html|title=Purported Templars cipher|last=McKeown|first=Trevor W.|website=freemasonry.bcy.ca|access-date=2016-11-07}}</ref> This is likely a cipher used by the Neo-Templars ([[Freemasonry|Freemasons]]) of the 18th century, and not that of the religious order of the Knights Templar from the 12th-14th centuries during the [[Crusades]].<ref>{{cite book|author=Guénon, René|translator-last1=Fohr|translator-first1=Henry D.|translator-last2=Bethell|translator-first2=Cecil|translator-last3=Allen|translator-first3=Michael|authorlink=René Guénon|title=Studies in Freemasonry and the Compagnonnage|publisher=Sophia Perennis|isbn=978-0900588518|year=2004|page=237}}</ref> Some websites showing the Knights Templar cipher deviate from the original order of letters.  Based on the Freemasons Document,<ref>{{Cite web|url=http://freemasonry.bcy.ca/texts/templars_cipher.html|title=Purported Templars cipher|last=McKeown|first=Trevor W.|website=freemasonry.bcy.ca|access-date=2016-11-07}}</ref> the 1st, 3rd, 4th and 5th crosses assign the letters in clock-wise order starting at the top, the 2nd cross assigns the letters in a left, right, bottom, top order while the final cross assigns the letters in a bottom, top, right left order.
+
+[[File:Knights-templar-letters-horizontal.svg|732px|Knights Templar Alphabet based on Grand Lodge of British Columbia and Yukon Freemasons description]]
+
+==Notes==
+{{Reflist}}
+
+==References==
+* {{cite book|title=The History of Codes and Ciphers in the United States(USA) Prior to World War I|editor=Barker, Wayne G.|year=1978|publisher=[[Aegean Park Press]]|isbn=0-89412-026-3}}
+* {{cite book|author=Gardner, Martin|author-link=Martin Gardner|title=Codes, ciphers and secret writing|year=1972|publisher=Courier Corporation |isbn=0-486-24761-9|url-access=registration|url=https://archive.org/details/codescipherssecr00gard_0}}
+* {{cite book|author=Kahn, David|author-link=David Kahn (writer)|title=The Codebreakers. The Story of Secret Writing|publisher=Macmillan|year=1967}}
+* {{cite book|author=Kahn, David|author-link=David Kahn (writer)|title=The Codebreakers. The Story of Secret Writing|publisher=[[Charles Scribner's Sons|Scribner]]|year=1996|isbn=0-684-83130-9}}
+* {{cite book|author=Newton, David E.|chapter=Freemason's Cipher|title=Encyclopedia of Cryptology|url=https://archive.org/details/encyclopediaofcr0000newt|url-access=registration|year=1998|publisher=Bloomsbury Academic |isbn=0-87436-772-7}}
+* {{cite book|author=Pratt, Fletcher|title=Secret and Urgent: The story of codes and ciphers|year=1939|isbn=0-89412-261-4|publisher=[[Aegean Park Press]]}}
+*{{cite book|title=A glossary of cryptography|author1=Shulman, David |author2=Weintraub, Joseph |year=1961|publisher=Crypto Press|pages=44}}
+* {{cite book|title=Codes, Ciphers, and other Cryptic & Clandestine Communication|author=Wrixon, Fred B.|isbn=1-57912-040-7|year=1998|publisher=Black Dog & Leventhal Publishers, Inc.}}
+
+==External links==
+{{Commons category|Pigpen cipher}}
+* [http://www.civilwarsignals.org/cipher/pigpencipher.html Online Pigpen cipher tool] for enciphering small messages.
+* [https://planetcalc.com/7842/ Online Pigpen cipher tool] for deciphering small messages.
+* [http://fontstruct.com/fontstructions/show/447940 Cipher Code True Type Font]
+* [http://www.atlasobscura.com/articles/morbid-monday-the-tomb-of-james-leeson Deciphering An Ominous Cryptogram on a Manhattan Tomb] presents a Pigpen cipher variant
+* [http://www.ccelian.com Elian script-often considered a variant of Pigpen.]
+{{Cryptography navbox | classical}}
+
+{{DEFAULTSORT:Pigpen Cipher}}
+[[Category:Classical ciphers]]
+[[Category:Masonic symbolism]]

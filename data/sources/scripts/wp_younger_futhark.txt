@@ -1,0 +1,186 @@
+{{short description|System of runes for Old Norse}}
+{{refimprove|date=December 2021}}
+{{Infobox Writing system
+| name        = Younger Futhark
+| type        = Alphabet
+| languages   = [[Old Norse]]
+| time        = 8th to 12th centuries
+| fam1        = [[Phoenician alphabet]]
+| fam2        = [[Greek alphabet]]
+| fam3        = [[Old Italic alphabet]]
+| fam4        = [[Elder Futhark]]
+| sisters     = [[Anglo-Saxon runes]]
+| children    = [[Medieval runes]]
+| iso15924    = Runr
+}}
+{{Contains special characters|Runic}}
+{{Old Norse topics}}
+The '''Younger Futhark''' ({{IPAc-en|ˈ|f|uː|θ|ɑːr|k}} {{respell|FOO|thark}}), also called '''Scandinavian runes''', is a [[runic alphabet]] and a reduced form of the [[Elder Futhark]], with only 16 characters, in use from about the 9th century, after a "transitional period" during the 7th and 8th centuries.
+The reduction happened at the same time as phonetic changes that led to a greater number of different phonemes in the spoken language, when [[Proto-Norse]] evolved into [[Old Norse]]. Also, the writing custom avoided carving the same rune consecutively for the same sound, so the spoken distinction between [[vowel length|long and short vowels]] was lost in writing. Thus, the language included distinct sounds and [[minimal pair]]s that were written the same.
+
+The Younger Futhark is divided into long-branch (Danish) and short-twig (Swedish and Norwegian) runes; in the 10th century, it was further expanded by the "Hälsinge Runes" or [[staveless runes]].
+
+The lifetime of the Younger Futhark corresponds roughly to the [[Viking Age]]. Their use declined after the [[Christianization of Scandinavia]]; most writing in Scandinavia from the 12th century was in the [[Latin alphabet]], but the runic scripts survived in marginal use in the form of the [[medieval runes]] (in use AD 1100–1500) and the Latinised [[Dalecarlian runes]] (AD 1500–1910).
+
+==History==
+{{further|Old Norse orthography}}
+Usage of the Younger Futhark is found in Scandinavia and [[Viking Age]] settlements abroad, probably in use from the 9th century onward. During the [[Migration Period]] [[Elder Futhark]] had been an actual "secret" known to only a literate elite, with only some 350 surviving inscriptions.{{Citation needed|reason=There isn't enough evidence to state that use of the Elder Futhark was a "secret"|date=December 2021}} Literacy in the Younger Futhark became widespread in Scandinavia, as witnessed by the great number of [[Runestone]]s (some 3,000), sometimes inscribed with almost casual notes.
+
+During a phase from about 650 to 800, some inscriptions mixed the use of Elder and Younger Futhark runes. 
+Examples of inscriptions considered to be from this period include [[Snoldelev stone|DR 248]] from Snoldelev, [[Stentoften Runestone|DR 357]] from Stentoften, [[Gummarp Runestone|DR 358]] from Gummarp, [[Istaby Runestone|DR 359]] from Istaby, and [[Björketorp Runestone|DR 360]] from Björketorp, and objects such as the [[Setre Comb]] (N KJ40).<ref name="Barnes">{{Cite book |last=Barnes |first=Michael P. |editor-last=Beck |editor-first=Heinrich |editor2-last=Düwel |editor2-first=Klaus |contribution=The Transitional Inscriptions |title=Runeninschriften als Quellen Interdisziplinärer Forschung |publisher=Walter de Gruyter |year=1998 |location=Berlin |pages=448–61 |url=https://books.google.com/books?id=KYqsisEVQHEC |isbn=3-11-015455-2 |access-date=2015-12-13 |archive-date=2015-11-10 |archive-url=https://web.archive.org/web/20151110115101/https://books.google.com/books?id=KYqsisEVQHEC&printsec=frontcover |url-status=live }} p. 451.</ref> [[Rök runestone|Ög 136]] in Rök, which uses Elder Futhark runes to encrypt part of the text, and [[Östergötland Runic Inscription 43|Ög 43]] in Ingelstad, which uses a single Elder Futhark rune as an [[ideogram]], are also sometimes included as transitional inscriptions.<ref name="Barnes"/>
+
+By the late 8th century, the reduction from 24 to 16 runes was complete. The main change was that the difference between voiced and unvoiced consonants was no longer expressed in writing. Other changes are the consequence of sound changes that separate [[Old Norse]] from [[Proto-Norse]] and [[Common Germanic]] (mostly changes to the vowel system).
+*The first ''ætt'' was reduced to its first six letters, ''fuþąrk'', losing the ''g'' and ''w'' runes (the old ''a'' rune is transliterated as ''ą'' for Old Norse as the phoneme it expressed had become more closed). 
+*The second ''ætt'' lost the ''æ'' and ''p'' runes. The ''j'' rune was rendered superfluous due to Old Norse sound changes, but was kept with the new sound value of ''a''. The old ''z'' rune was kept (transliterated in the context of Old Norse as ''ʀ'') but moved to the end of the entire sequence in the only change of letter ordering in Younger Futhark. 
+*The third ''ætt'' was reduced by four runes, losing the ''e'', ''ŋ'', ''o'' and ''d'' runes.
+In tabular form:
+
+{| class="wikitable" style="text-align:center"
+|-
+! style="text-align:left"| Elder Futhark
+| {{script|Runr|ᚠ}}<br />f
+| {{script|Runr|ᚢ}}<br />u 
+| {{script|Runr|ᚦ}}<br />þ
+| {{script|Runr|ᚨ}}<br />a
+| {{script|Runr|ᚱ}}<br />r
+| {{script|Runr|ᚲ}}<br />k
+| {{script|Runr|ᚷ}}<br />g
+| {{script|Runr|ᚹ}}<br />w
+| rowspan="2" style="width: 0.25em;" | 
+| {{script|Runr|ᚺ}}<br />h
+| {{script|Runr|ᚾ}}<br />n
+| {{script|Runr|ᛁ}}<br />i
+| {{script|Runr|ᛃ}}<br />j
+| {{script|Runr|ᛇ}}<br />æ
+| {{script|Runr|ᛈ}}<br />p
+| {{script|Runr|ᛉ}}<br />z
+| {{script|Runr|ᛊ}}<br />s
+| rowspan="2" style="width: 0.25em;" | 
+| {{script|Runr|ᛏ}}<br />t
+| {{script|Runr|ᛒ}}<br />b
+| {{script|Runr|ᛖ}}<br />e
+| {{script|Runr|ᛗ}}<br />m
+| {{script|Runr|ᛚ}}<br />l
+| {{script|Runr|ᛜ}}<br />ŋ
+| {{script|Runr|ᛟ}}<br />o
+| {{script|Runr|ᛞ}}<br />d
+|- style="vertical-align: top;"
+! style="text-align: left; vertical-align: middle;" | Younger Futhark
+| {{script|Runr|ᚠ}}<br />f
+| {{script|Runr|ᚢ}}<br /><div style="line-height: 1em;">u/v/w,<br/>y, o, ø</div>
+| {{script|Runr|ᚦ}}<br />þ, ð
+| {{script|Runr|ᚬ}}<br />ą, o, æ
+| {{script|Runr|ᚱ}}<br />r
+| {{script|Runr|ᚴ}}<br />k, g, ŋ 
+| style="vertical-align: middle;" | —
+| style="vertical-align: middle;" | —
+| {{script|Runr|ᚼ/ᚽ}}<br />h
+| {{script|Runr|ᚾ/ᚿ}}<br />n
+| {{script|Runr|ᛁ}}<br />i, e
+| {{script|Runr|ᛅ/ᛆ}}<br />a, æ, e
+| style="vertical-align: middle;" | —
+| style="vertical-align: middle;" | —
+| {{script|Runr|ᛦ}}<br />ʀ
+| {{script|Runr|ᛋ/ᛌ}}<br />s
+| {{script|Runr|ᛏ/ᛐ}}<br />t, d
+| {{script|Runr|ᛒ}}<br />b, p
+| style="vertical-align: middle;" | —
+| {{script|Runr|ᛘ}}<br />m
+| {{script|Runr|ᛚ}}<br />l
+| style="vertical-align: middle;" | —
+| style="vertical-align: middle;" | —
+| style="vertical-align: middle;" | —
+|}
+
+The Younger Futhark became known in Europe as the "alphabet of the Norsemen", and was studied in the interest of trade and diplomatic contacts, referred to as {{lang|la|[[Abecedarium Nordmannicum]]}} in [[Frankish Empire|Frankish]] [[Fulda]] (possibly by [[Walahfrid Strabo]]) and {{lang|mga|ogam lochlannach}} "[[Ogham]] of the Scandinavians" in the [[Book of Ballymote]].
+[[Image:Ogham futhark ballymote.png|thumb|260px|The {{lang|mga|ogam lochlannach}}, Book of Ballymote, fol. 170v]]
+
+==Rune names==
+The names of the 16 runes of the Younger futhark are recorded in the Icelandic and Norwegian [[rune poem]]s.  The names are:
+
+* {{runic|ᚠ}} fé ("wealth")
+* {{runic|ᚢ}} úr ("rain")
+* {{runic|ᚦ}} [[Jötunn|þurs]] ("giant (jötunn)")
+* {{runic|ᚬ/ᚭ}} [[Æsir|áss]] ("(a) god")
+* {{runic|ᚱ}} reið ("ride")
+* {{runic|ᚴ}} kaun ("ulcer")
+* {{runic|ᚼ/ᚽ}} hagall ("hail")
+* {{runic|ᚾ/ᚿ}} nauðr ("need")
+* {{runic|ᛁ}} íss ("ice")
+* {{runic|ᛅ/ᛆ}} ár ("plenty")
+* {{runic|ᛋ/ᛌ}} [[Sól (Germanic mythology)|sól]] ("sun (personified as a deity)")
+* {{runic|ᛏ/ᛐ}} [[Týr]] ("Týr (a deity)")
+* {{runic|ᛒ/ᛓ}} bjǫrk ("birch")
+* {{runic|ᛘ/ᛙ}} maðr ("man")
+* {{runic|ᛚ}} lǫgr ("sea")
+* {{runic|ᛦ/ᛧ}} ýr ("yew")
+
+From comparison with Anglo-Saxon and Gothic letter names, most of these names directly continue the names of the Elder Futhark runes. The exceptions to this are:
+* [[ᛦ|ýr]] which continues the name of the unrelated [[Eihwaz]] rune;
+* ''[[Thurisaz|þurs]]'' and ''[[kaunan|kaun]]'', in which cases the Old Norse, Anglo-Saxon and Gothic traditions diverge.
+
+==Variants==
+The Younger Futhark is divided into long-branch (Danish) and short-twig (Swedish and Norwegian) runes. The difference between the two versions has been a matter of controversy. A general opinion is that the difference was functional, i.e. the long-branch runes were used for documentation on stone, whereas the short-twig runes were in everyday use for private or official messages on wood.
+
+=== Long-branch runes ===
+[[Image:Yngre futharken.svg|thumb|280px|The Younger Futhark: Danish long-branch runes and Swedish/Norwegian short-twig runes]]
+The long-branch runes are the following rune signs:
+
+{|border="0" style="font-size:150%;margin-left:2em;"
+|- 
+|{{runic|[[ᚠ]]}}||{{runic|[[ᚢ]]}}||{{runic|[[ᚦ]]}}||{{runic|[[ᚬ]]}}||{{runic|[[ᚱ]]}}||{{runic|[[ᚴ]]}}||{{runic|[[ᚼ]]}}||{{runic|[[ᚾ]]}}||{{runic|[[ᛁ]]}}||{{runic|[[ᛅ]]}}||{{runic|[[ᛋ]]}}||{{runic|[[ᛏ]]}}||{{runic|[[ᛒ]]}}||{{runic|[[ᛘ]]}}||{{runic|[[ᛚ]]}}||{{runic|[[ᛦ]]}}
+|- 
+!f||u||þ||ą||r||k||h||n||i||a||s||t||b||m||l||ʀ
+|}
+
+=== Short-twig runes ===
+In the short-twig runes (or Rök runes), nine runes appear as simplified variants of the long-branch runes, while the remaining seven have identical shapes:
+{|border="0" style="font-size:150%;margin-left:2em;"
+|- 
+|{{runic|ᚠ}}||{{runic|ᚢ}}||{{runic|ᚦ}}||{{runic|ᚭ}}||{{runic|ᚱ}}||{{runic|ᚴ}}||{{runic|ᚽ}}||{{runic|ᚿ}}||{{runic|ᛁ}}||{{runic|ᛆ}}||{{runic|ᛌ}}||{{runic|ᛐ}}||{{runic|ᛓ}}||{{runic|ᛙ}}||{{runic|ᛚ}}||{{runic|[[ᛧ]]}}
+|- 
+!f||u||þ||ą||r||k||h||n||i||a||s||t||b||m||l||ʀ
+|}
+
+=== Hälsinge runes (staveless runes) ===
+[[Image:Hälsingerunor.svg|280px|thumb|Staveless runes]]
+
+[[Hälsinge runes]] are so named because in modern times they were first noticed in the [[Hälsingland]] region of [[Sweden]]. Later, other inscriptions with the same runes were found in other parts of Sweden. They were used between the 10th and 12th centuries. The runes seem to be a simplification of the Swedish–Norwegian runes and lack certain strokes, hence the name "staveless". They cover the same set of [[Runes|stave]]s as the other Younger Futhark alphabets. This variant has no assigned Unicode range (as of Unicode 12.1).
+
+==Descendant scripts==
+
+===Medieval===
+{{Main|Medieval runes}}
+[[Image:Medeltida runor.svg|upright=1.8|thumb|Medieval runes]]
+In the Middle Ages, the Younger Futhark in Scandinavia was expanded, so that it once more contained one sign for each phoneme of the old Norse language. Dotted variants of [[voiceless]] signs were introduced to denote the corresponding voiced consonants, or vice versa, voiceless variants of voiced consonants, and several new runes also appeared for vowel sounds. Inscriptions in medieval Scandinavian runes show a large number of variant rune-forms, and some letters, such as ''s,'' ''c'' and ''z,'' were often used interchangeably.<ref>{{Cite book |last1=Jacobsen |first1=Lis |title=Danmarks runeindskrifter |last2=Moltke |first2=Erik |publisher=Munksgaard |year=1942 |pages=VII |language=da}}</ref>
+
+Medieval runes were in use until the 15th century. Of the total number of Norwegian runic inscriptions preserved today, most are medieval runes. Notably, more than 600 inscriptions using these runes have been discovered in [[Bergen (Norway)|Bergen]] since the 1950s, mostly on wooden sticks (the so-called [[Bryggen inscriptions]]). This indicates that runes were in common use side by side with the Latin alphabet for several centuries. Indeed, some of the medieval runic inscriptions are actually in the Latin language.{{Citation needed|date=April 2015}}
+
+After the 15th century, interest in rune history and their use in magical processes grew in Iceland, with various studies beginning with Third Grammatical Icelandic Treatise - Málfræðinnar grundvǫllr. Publications written in Latin and Danish in the 1600s included works by Arngrímur Jónsson,	Runólfur Jónsson and [[Ole Worm|Olaus Wormius]]. Content from these along with Icelandic and Norwegian Rune Poems appeared frequently in subsequent manuscripts written in Iceland.<ref>{{Cite web |url=http://users.on.net/~starbase/galdrastafir/runes.htm |title=Nordic Medieval Runes |access-date=2015-11-15 |archive-date=2015-11-17 |archive-url=https://web.archive.org/web/20151117023923/http://users.on.net/~starbase/galdrastafir/runes.htm |url-status=live }}</ref>
+
+===Early modern===
+{{Main|Dalecarlian runes}}
+According to Carl-Gustav Werner, "in the isolated province of [[Dalarna]] in Sweden a mix of runes and Latin letters developed".<ref>{{Cite book |last=Werner |first=Carl-Gustav |url=https://www.maths.lth.se/matematiklu/personal/carl/allrunes/allrunes.pdf |title=The allrunes Font and Package |edition=2.1st |page=7 |chapter=On runological design decisions |access-date=2023-06-24}}</ref> The Dalecarlian runes came into use in the early 16th century and remained in some use up to the 20th century. Some discussion remains on whether their use was an unbroken tradition throughout this period or whether people in the 19th and 20th centuries learned runes from books written on the subject. The character inventory is suitable for transcribing modern [[Swedish language|Swedish]] and the local [[Dalecarlian language]].{{citation needed|date=August 2023}}
+
+== In modern culture ==
+[[File:Bluetooth.svg|thumb|upright=0.5|The logo of [[Bluetooth]], derived from [[Haglaz|ᚼ]] and [[Berkanan|ᛒ]].|alt=A runic symbol resembling an angular letter B combined with a letter X, shown in white on a blue oval.]]
+The logo for the wireless communication technology [[Bluetooth]] is a [[bind rune]] merging ᚼ ([[Haglaz|hagall, H]]) and ᛒ ([[Berkanan|bjarkan, B]]), the initials of tenth-century Danish king [[Harald Bluetooth]] after whom the technology is named.<ref>{{Cite web |title=Origin of the name |url=https://www.bluetooth.com/about-us/bluetooth-origin/ |access-date=2026-03-14 |website=Bluetooth® Technology Website |language=en-US}}</ref>
+
+==See also==
+*[[Codex Sangallensis 878]]
+*[[Cipher runes]]
+
+==References==
+{{reflist}}
+
+==External links==
+{{commons}}
+*[http://www.arild-hauge.com/ru-e-rusland.htm Runes found in the Eastern Viking]
+*[http://runicdictionary.nottingham.ac.uk/ An English Dictionary of Runic Inscriptions in the Younger Futhark] (Nottingham University)
+*Allrunes LaTeX font [https://www.maths.lth.se/matematiklu/personal/carl/allrunes/]
+
+{{Germanic peoples}}
+{{runes}}
+{{list of writing systems}}
+
+[[Category:Younger Futhark| ]]

@@ -1,0 +1,1229 @@
+{{short description|Syllabic script used for writing Mycenaean Greek}} 
+{{Redirect|linear b|the JavaScript engine|linear b (script engine)}}
+{{Distinguish|Linear Pottery culture}}
+{{Use British English|date=December 2012}}
+{{Use dmy dates|date=May 2017}}
+{{Infobox Writing system
+|name=Linear B
+|type=[[Syllabary]]
+|typedesc=with additional [[ideogram]]s
+|time= {{circa|1450}}–1200 BC
+|status=Extinct
+|languages=[[Mycenaean Greek]]
+|fam1= [[Linear A]]
+|sisters=[[Cypro-Minoan syllabary]]
+|unicode = {{ublist |class=nowrap |[https://www.unicode.org/charts/PDF/U10000.pdf U+10000–U+1007F] (syllabary) |[https://www.unicode.org/charts/PDF/U10080.pdf U+10080–U+100FF] (ideograms)}}
+|iso15924=Linb
+|sample=NAMA Linear B tablet of Pylos.jpg
+|imagesize=250px
+}}
+{{Contains special characters |special=[[Linear B Syllabary|Linear B Unicode characters]] |fix= Help:Multilingual_support#Linear B |characters=Linear B}}
+{{External media
+ |topic     =
+ |headerimage = [[File:YouTube 2024.svg|alt=YouTube logo|x20px|center]]
+ |subtopic  =
+ |font-size = 100
+ |align     =
+ |clear     =
+ |width     = 300px
+ |video1    = [https://www.youtube.com/watch?v=E7kHp6JUYx4 How to make a Linear B tablet (Anna Judson)] - [[YouTube]]
+}}
+'''Linear B''' is a [[syllabary|syllabic script]] that was used for writing in [[Mycenaean Greek]], the earliest [[Attested language|attested]] form of the [[Greek language]].<ref>{{Cite web |title=Palaeolexicon - Mycenaean Greek and Linear B |url=https://www.palaeolexicon.com/Linear%20B |access-date=2024-06-21 |website=Palaeolexicon}}</ref> The script predates the [[Greek alphabet]] by several centuries, the earliest known examples dating to around 1450 BC.<ref>{{cite book |url=https://archive.org/details/newpenguindictio0000unse_f2q1/page/282/mode/2up? |title=The New Penguin Dictionary of Archaeology |publisher=Penguin |date=2004| pages=282|isbn=978-0-14-051447-6 }}</ref><ref>[https://liberalarts.utexas.edu/classics/news/professor-shelmerdine-s-exciting-mycenaean-find "Professor Shelmerdine's Exciting Mycenaean Find"]. University of Texas Austin. 2 June 2011.</ref> It is adapted from the earlier [[Linear A]], an undeciphered script, perhaps used for writing the [[Minoan language]], as is the later [[Cypriot syllabary]], which also recorded Greek. Linear B, found mainly in the [[Minoan palace|palace]] archives at [[Knossos]], [[Kydonia]],<ref>E. Hallager, M. Vlasakis, and B. P. Hallager (1990), "The First Linear B Tablet(s) from Khania", ''Kadmos'', 29. pp. 24–34</ref> [[Pylos]], [[Thebes, Greece|Thebes]] and [[Mycenae]],<ref>{{cite book|last1= Wren|first1=Linnea Holmer|last2= Wren|first2=David J.|last3=Carter|first3=Janine M.|title=Perspectives on Western Art: Source Documents and Readings from the Ancient Near East Through the Middle Ages|year=1987|publisher=Harper & Row|isbn= 978-0-06-438942-6|page=55}}</ref> disappeared with the fall of the [[Mycenaean Greece|Mycenaean civilization]] during the [[Late Bronze Age collapse]]. The succeeding period, known as the [[Greek Dark Ages]], provides no conclusive evidence of the use of writing.{{Citation needed|date=October 2026}}
+
+Linear B was deciphered in 1952 by English architect and self-taught linguist [[Michael Ventris]]<ref>{{cite web |url=https://www.cam.ac.uk/research/news/cracking-the-code-the-decipherment-of-linear-b-60-years-on |title=Cracking the code: the decipherment of Linear B 60 years on | publisher =Faculty of Classics, University of Cambridge|date=13 October 2012|access-date=31 May 2017}}</ref> based on the research of the American classicist [[Alice Kober]].<ref>{{cite book|first= Margalit|last=Fox|title= The Riddle of the Labyrinth: The Quest to Crack an Ancient Code|publisher=Ecco Press (HarperCollins) |year=2013|isbn= 978-0-06222883-3}}</ref> It is the only Bronze Age Aegean script to have been deciphered, with Linear A, [[Cypro-Minoan]], and [[Cretan hieroglyphs|Cretan hieroglyphic]] remaining unreadable.<ref>{{Cite book |last=Packard |first=David W. |title=Minoan Linear A |date=1974 |publisher=University of California Press |isbn=0-520-02580-6 |location=Berkeley |oclc=1055287}}</ref>
+
+Linear B consists of around 87 syllabic signs and over 100 [[ideogram|ideographic]] signs. These ideograms or "signifying" signs symbolize objects or [[Commodity|commodities]]. They have no phonetic value and are never used as word signs in writing a sentence.
+
+The application of Linear B texts appear to have been mostly confined to administrative contexts, mainly at Mycenaean palatial sites.<ref>Bennet, John (1985). [https://www.academia.edu/download/6416547/Bennet_AJA_1985.pdf "The structure of the Linear B administration at Knossos"]. ''American Journal of Archaeology'', 89.2, pp. 231-249.</ref> In the handwriting of all the thousands of clay tablets, a relatively small number of scribes have been detected: 45 in [[Pylos]] (west coast of the [[Peloponnese]], in [[Southern Greece]]) and 66 in [[Knossos]] ([[Crete]]). The use of Linear B signs on trade objects like amphora was more widespread.<ref>{{cite book|first= J. T.|last=Hooker|title=Linear B: An Introduction|publisher=Bristol Classical Press UK|year=1980|isbn= 978-0-906515-69-3}}</ref> Once the palaces were destroyed, the script disappeared.<ref>Ventris and Chadwick 1973, p. 60.</ref>
+
+==Script==
+Linear B has roughly 200 signs, divided into syllabic signs with [[phonetic]] values and [[ideogram]]s with [[semantic]] values. The representations and naming of these signs have been standardized by a series of international colloquia starting in [[Paris]] in 1956. After the third meeting in 1961 at the [[Wingspread|Wingspread Conference Center]] in [[Racine, Wisconsin]], a standard proposed primarily by [[Emmett L. Bennett Jr.]] became known as the Wingspread Convention, which was adopted by a new organization, the {{lang|fr|[[Comité International Permanent des Études Mycéniennes]]}} (CIPEM: Permanent International Committee of Mycenaean Studies), affiliated in 1970 by the fifth colloquium with [[UNESCO]].<ref>Emmett L. Bennett Jr., "Mycenaean studies : proceedings of the Third International Colloquium for Mycenaean Studies held at 'Wingspread,' 4–8 September 1961", University of Wisconsin Press (January 1, 1964)</ref> Colloquia continue: the 13th occurred in 2010 in Paris.
+
+Many of the signs are identical or similar to those in [[Linear A]]; however, Linear A encodes an as yet unknown language, and it is uncertain whether similar signs had the same [[phonetic value]]s.<ref>Ventris and Chadwick (1973), page 37, quotes Bennett: "where the same sign is used in both Linear A and B there is no guarantee that the same value is assigned to it."</ref>
+
+===Syllabic signs===
+The grid developed during decipherment by [[Michael Ventris]] and [[John Chadwick]] of phonetic values for syllabic signs is shown below.<ref>Ventris and Chadwick (1973), Fig. 4 on page 23 states the "Proposed values of the Mycenaean syllabary", which is mainly the same as the table included in this article. The "grid" from which it came, which was built up in "successive stages", is shown in Fig. 3 on page 20.</ref> (Note that "q" represents the labialized velar stops {{IPA|[ɡʷ, kʷ, kʷʰ]}}, not the uvular stop of the IPA, whereas "j" does represent the IPA [[voiced palatal approximant]] [j], represented by the letter "y" in English words such as "yes" and "yoke".)
+
+Initial consonants are in the leftmost column; vowels are in the top row beneath the title. The transcription of the syllable, which may not have been pronounced that way, is listed next to the sign along with Bennett's identifying [[number]] for the sign preceded by an asterisk (as was Ventris's and Chadwick's convention).<ref group="note">In the Unicode character names, Bennett's number has been rendered into a three-digit code by padding with initial zeros and preceding with a B (for "Linear B").</ref> If the transcription of the sign remains uncertain, Bennett's number serves to identify the sign.<ref>Ventris and Chadwick (1973), Fig. 9 on page 41 states Bennett's numbers from 1 through 87 opposite the signs being numbered. The table includes variants from Knossos, Pylos, Mycenae and Thebes opposite the same numbers.</ref> The signs on the tablets and sealings often show considerable variation from each other and from the representations below. Discovery of the reasons for the variation and possible semantic differences is a topic of ongoing debate in Mycenaean studies.
+
+{| class="wikitable" style="text-align:center;"
+|+ Recognised signs of shape V, CV<ref group="note">In [[linguistics]] C and V in this type of context stand for [[consonant]] and [[vowel]].</ref>
+|-
+!
+! colspan=2 |''-a''
+! colspan=2 |''-e''
+! colspan=2 |''-i''
+! colspan=2 |''-o''
+! colspan=2 |''-u''
+|-
+!
+| style="font-size: 200%;" | {{Script|Linb|&#x10000;}} [[File:Linear B Syllable B008 A.svg|class=skin-invert]]
+|''a''
+''*08''
+| style="font-size: 200%;" | {{Script|Linb|&#x10001;}} [[File:Linear B Syllable B038 E.svg|class=skin-invert]]
+|''e''
+''*38''
+| style="font-size: 200%;" | {{Script|Linb|&#x10002;}} [[File:Linear B Syllable B028 I.svg|class=skin-invert]]
+|''i''
+''*28''
+| style="font-size: 200%;" | {{Script|Linb|&#x10003;}} [[File:Linear B Syllable B061 O.svg|class=skin-invert]]
+|''o''
+''*61''
+| style="font-size: 200%;" | {{Script|Linb|&#x10004;}} [[File:Linear B Syllable B010 U.svg|class=skin-invert]]
+|''u''
+''*10''
+|-
+!''d-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10005;}} [[File:Linear B Syllable B001 DA.svg|class=skin-invert]]
+|''da''
+''*01''
+| style="font-size: 200%;" | {{Script|Linb|&#x10006;}} [[File:Linear B Syllable B045 DE.svg|class=skin-invert]]
+|''de''
+''*45''
+| style="font-size: 200%;" | {{Script|Linb|&#x10007;}} [[File:Linear B Syllable B007 DI.svg|class=skin-invert]]
+|''di''
+''*07''
+| style="font-size: 200%;" | {{Script|Linb|&#x10008;}} [[File:Linear B Syllable B014 DO.svg|class=skin-invert]]
+|''do''
+''*14''
+| style="font-size: 200%;" | {{Script|Linb|&#x10009;}} [[File:Linear B Syllable B051 DU.svg|class=skin-invert]]
+|''du''
+''*51''
+|-
+!''j-''
+| style="font-size: 200%;" | {{Script|Linb|&#x1000A;}} [[File:Linear B Syllable B057 JA.svg|class=skin-invert]]
+|''ja''
+''*57''
+| style="font-size: 200%;" | {{Script|Linb|&#x1000B;}} [[File:Linear B Syllable B046 JE.svg|class=skin-invert]]
+|''je''
+''*46''
+| colspan=2 |
+| style="font-size: 200%;" | {{Script|Linb|&#x1000D;}} [[File:Linear B Syllable B036 JO.svg|class=skin-invert]]
+|''jo''
+''*36''
+| colspan=2 |
+|-
+!''k-''
+| style="font-size: 200%;" | {{Script|Linb|&#x1000F;}} [[File:Linear B Syllable B077 KA.svg|class=skin-invert]]
+|''ka''
+''*77''
+| style="font-size: 200%;" | {{Script|Linb|&#x10010;}} [[File:Linear B Syllable B044 KE.svg|class=skin-invert]]
+|''ke''
+''*44''
+| style="font-size: 200%;" | {{Script|Linb|&#x10011;}} [[File:Linear B Syllable B067 KI.svg|class=skin-invert]]
+|''ki''
+''*67''
+| style="font-size: 200%;" | {{Script|Linb|&#x10012;}} [[File:Linear B Syllable B070 KO.svg|class=skin-invert]]
+|''ko''
+''*70''
+| style="font-size: 200%;" | {{Script|Linb|&#x10013;}} [[File:Linear B Syllable B081 KU.svg|class=skin-invert]]
+|''ku''
+''*81''
+|-
+!''m-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10014;}} [[File:Linear B Syllable B080 MA.svg|class=skin-invert]]
+|''ma''
+''*80''
+| style="font-size: 200%;" | {{Script|Linb|&#x10015;}} [[File:Linear B Syllable B013 ME.svg|class=skin-invert]]
+|''me''
+''*13''
+| style="font-size: 200%;" | {{Script|Linb|&#x10016;}} [[File:Linear B Syllable B073 MI.svg|class=skin-invert]]
+|''mi''
+''*73''
+| style="font-size: 200%;" | {{Script|Linb|&#x10017;}} [[File:Linear B Syllable B015 MO.svg|class=skin-invert]]
+|''mo''
+''*15''
+| style="font-size: 200%;" | {{Script|Linb|&#x10018;}} [[File:Linear B Syllable B023 MU.svg|class=skin-invert]]
+|''mu''
+''*23''
+|-
+!''n-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10019;}} [[File:Linear B Syllable B006 NA.svg|class=skin-invert]]
+|''na''
+''*06''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001A;}} [[File:Linear B Syllable B024 NE.svg|class=skin-invert]]
+|''ne''
+''*24''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001B;}} [[File:Linear B Syllable B030 NI.svg|class=skin-invert]]
+|''ni''
+''*30''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001C;}} [[File:Linear B Syllable B052 NO.svg|class=skin-invert]]
+|''no''
+''*52''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001D;}} [[File:Linear B Syllable B055 NU.svg|class=skin-invert]]
+|''nu''
+''*55''
+|-
+!''p-''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001E;}} [[File:Linear B Syllable B003 PA.svg|class=skin-invert]]
+|''pa''
+''*03''
+| style="font-size: 200%;" | {{Script|Linb|&#x1001F;}} [[File:Linear B Syllable B072 PE.svg|class=skin-invert]]
+|''pe''
+''*72''
+| style="font-size: 200%;" | {{Script|Linb|&#x10020;}} [[File:Linear B Syllable B039 PI.svg|class=skin-invert]]
+|''pi''
+''*39''
+| style="font-size: 200%;" | {{Script|Linb|&#x10021;}} [[File:Linear B Syllable B011 PO.svg|class=skin-invert]]
+|''po''
+''*11''
+| style="font-size: 200%;" | {{Script|Linb|&#x10022;}} [[File:Linear B Syllable B050 PU.svg|class=skin-invert]]
+|''pu''
+''*50''
+|-
+!''q-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10023;}} [[File:Linear B Syllable B016 QA.svg|class=skin-invert]]
+|''qa''
+''*16''
+| style="font-size: 200%;" | {{Script|Linb|&#x10024;}} [[File:Linear B Syllable B078 QE.svg|class=skin-invert]]
+|''qe''
+''*78''
+| style="font-size: 200%;" | {{Script|Linb|&#x10025;}} [[File:Linear B Syllable B021 QI.svg|class=skin-invert]]
+|''qi''
+''*21''
+| style="font-size: 200%;" | {{Script|Linb|&#x10026;}} [[File:Linear B Syllable B032 QO.svg|class=skin-invert]]
+|''qo''
+''*32''
+|colspan=2|
+|-
+!''r-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10028;}} [[File:Linear B Syllable B060 RA.svg|class=skin-invert]]
+|''ra''
+''*60''
+| style="font-size: 200%;" | {{Script|Linb|&#x10029;}} [[File:Linear B Syllable B028 RE.svg|class=skin-invert]]
+|''re''
+''*27''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002A;}} [[File:Linear B Syllable B053 RI.svg|class=skin-invert]]
+|''ri''
+''*53''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002B;}} [[File:Linear B Syllable B002 RO.svg|class=skin-invert]]
+|''ro''
+''*02''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002C;}} [[File:Linear B Syllable B026 RU.svg|class=skin-invert]]
+|''ru''
+''*26''
+|-
+!''s-''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002D;}} [[File:Linear B Syllable B031 SA.svg|class=skin-invert]]
+|''sa''
+''*31''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002E;}} [[File:Linear B Syllable B009 SE.svg|class=skin-invert]]
+|''se''
+''*09''
+| style="font-size: 200%;" | {{Script|Linb|&#x1002F;}} [[File:Linear B Syllable B041 SI.svg|class=skin-invert]]
+|''si''
+''*41''
+| style="font-size: 200%;" | {{Script|Linb|&#x10030;}} [[File:Linear B Syllable B012 SO.svg|class=skin-invert]]
+|''so''
+''*12''
+| style="font-size: 200%;" | {{Script|Linb|&#x10031;}} [[File:Linear B Syllable B058 SU.svg|class=skin-invert]]
+|''su''
+''*58''
+|-
+!''t-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10032;}} [[File:Linear B Syllable B059 TA.svg|class=skin-invert]]
+|''ta''
+''*59''
+| style="font-size: 200%;" | {{Script|Linb|&#x10033;}} [[File:Linear B Syllable B004 TE.svg|class=skin-invert]]
+|''te''
+''*04''
+| style="font-size: 200%;" | {{Script|Linb|&#x10034;}} [[File:Linear B Syllable B037 TI.svg|class=skin-invert]]
+|''ti''
+''*37''
+| style="font-size: 200%;" | {{Script|Linb|&#x10035;}} [[File:Linear B Syllable B005 TO.svg|class=skin-invert]]
+|''to''
+''*05''
+| style="font-size: 200%;" | {{Script|Linb|&#x10036;}} [[File:Linear B Syllable B069 TU.svg|class=skin-invert]]
+|''tu''
+''*69''
+|-
+!''w-''
+| style="font-size: 200%;" | {{Script|Linb|&#x10037;}} [[File:Linear B Syllable B054 WA.svg|class=skin-invert]]
+|''wa''
+''*54''
+| style="font-size: 200%;" | {{Script|Linb|&#x10038;}} [[File:Linear B Syllable B075 WE.svg|class=skin-invert]]
+|''we''
+''*75''
+| style="font-size: 200%;" | {{Script|Linb|&#x10039;}} [[File:Linear B Syllable B040 WI.svg|class=skin-invert]]
+|''wi''
+''*40''
+| style="font-size: 200%;" | {{Script|Linb|&#x1003A;}} [[File:Linear B Syllable B042 WO.svg|class=skin-invert]]
+|''wo''
+''*42''
+|colspan=2|
+|-
+!''z-''
+| style="font-size: 200%;" | {{Script|Linb|&#x1003C;}} [[File:Linear B Syllable B017 ZA.svg|class=skin-invert]]
+|''za''
+''*17''
+| style="font-size: 200%;" | {{Script|Linb|&#x1003D;}} [[File:Linear B Syllable B074 ZE.svg|class=skin-invert]]
+|''ze''
+''*74''
+|colspan=2 |
+| style="font-size: 200%;" | {{Script|Linb|&#x1003F;}} [[File:Linear B Syllable B020 ZO.svg|class=skin-invert]]
+|''zo''
+''*20''
+|colspan=2 |
+|}
+
+=== Special and unknown signs ===
+
+In addition to the grid, the first edition of ''Documents in [[Mycenaean Greek]]'' contained a number of other signs termed "homophones" because they appeared at that time to resemble the sounds of other syllables and were transcribed accordingly: ''pa<sub>2</sub>'' and ''pa<sub>3</sub>'' were presumed homophonous to ''pa''. Many of these were identified by the second edition and are shown in the "special values" below.<ref name=VC385>Ventris and Chadwick (1973), page 385.</ref> The second edition relates: "It may be taken as axiomatic that there are no true homophones." The unconfirmed identifications of ''*34'' and ''*35'' as ''ai<sub>2</sub>'' and ''ai<sub>3</sub>'' were removed. ''pa<sub>2</sub>'' became ''qa''.<ref>Ventris and Chadwick (1973), pages 391–392.</ref>
+
+{| class="wikitable" style="text-align:center;"
+|-
+! colspan=30| Special values
+|-
+! Character
+| style="font-size: 200%;" | {{Script|Linb|&#x10040;}} [[File:Linear B Syllable B025 A2.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10041;}} [[File:Linear B Syllable B043 A3.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10042;}} [[File:Linear B Syllable B085 AU.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10043;}} [[File:Linear B Syllable B071 DWE.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10044;}} [[File:Linear B Syllable B090 DWO.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10045;}} [[File:Linear B Syllable B048 NWA.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10047;}} [[File:Linear B Syllable B062 PTE.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10046;}} [[File:Linear B Syllable B029 PU2.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10048;}} [[File:Linear B Syllable B076 RA2.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10049;}} [[File:Linear B Syllable B033 RA3.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1004A;}} [[File:Linear B Syllable B068 RO2.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1004B;}} [[File:Linear B Syllable B066 TA2.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1004C;}} [[File:Linear B Syllable B087 TWE.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1004D;}} [[File:Linear B Syllable B091 TWO.svg|class=skin-invert]]
+|-
+!Transcription
+| ''a<sub>2</sub> (ha)''
+| ''a<sub>3</sub> (ai)''
+| ''au''
+| ''dwe''
+| ''dwo''
+| ''nwa''
+| ''pte''
+| ''pu<sub>2</sub> (phu)''
+| ''ra<sub>2</sub> (rya)''
+| ''ra<sub>3</sub> (rai)''
+| ''ro<sub>2</sub> (ryo)''
+| ''ta<sub>2</sub> (tya)''
+| ''twe''
+| ''two''
+|-
+! Bennett's number
+| ''*25''
+| ''*43''
+| ''*85''
+| ''*71''
+| ''*90''
+| ''*48''
+| ''*62''
+| ''*29''
+| ''*76''
+| ''*33''
+| ''*68''
+| ''*66''
+| ''*87''
+| ''*91''
+|-
+|}
+
+Other values remain unknown, mainly because of scarcity of evidence concerning them.<ref name=VC385/><ref group="note">Sign *89 is not listed in Ventris & Chadwick's (1973) tables, but it does appear in the appendix of Bennett (1964) as part of the Wingspread convention.</ref> Note that *34 and *35 are mirror images of each other, but whether this graphic relationship indicates a phonetic one remains unconfirmed.<ref>Evangelos Kyriakidis, "Phonetic attributions of undeciphered characters: The case of sign *56 in Linear B", The Cambridge Classical Journal, vol. 53, Cambridge University Press, pp. 202–28, 2007</ref>
+
+{| class="wikitable" style="text-align:center;"
+|-
+! colspan=30| Untranscribed and doubtful values
+|-
+! Character
+| style="font-size: 200%;" | {{Script|Linb|&#x10050;}} <br />[[File:Linear B Symbol B018.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10051;}} <br />[[File:Linear B Symbol B019.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10052;}} <br />[[File:Linear B Symbol B022.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10053;}} <br />[[File:Linear B Symbol B034.svg|class=skin-invert]]
+| 
+| style="font-size: 200%;" | {{Script|Linb|&#x10054;}} <br />[[File:Linear B Symbol B047.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10055;}} <br />[[File:Linear B Symbol B049.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10056;}} <br />[[File:Linear B Symbol B056.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10057;}} <br />[[File:Linear B Symbol B063.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10058;}} <br />[[File:Linear B Symbol B064.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1000E;}} <br />[[File:Linear B Syllable B065 JU.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x10059;}} <br />[[File:Linear B Symbol B079.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1005A;}} <br />[[File:Linear B Symbol B082.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1005B;}} <br />[[File:Linear B Symbol B083.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1005C;}} <br />[[File:Linear B Symbol B086.svg|class=skin-invert]]
+| style="font-size: 200%;" | {{Script|Linb|&#x1005D;}} <br />[[File:Linear B Symbol B089.svg|class=skin-invert]]
+|-
+!Transcription
+| ''*18''
+| ''*19''
+| ''*22''
+| ''*34''
+| ''*35''
+| ''*47''
+| ''*49''
+| ''pa<sub>3</sub>?''
+| ''*63''
+| ''swi?''
+| ''ju?''
+| ''zu?''
+| ''swa?''
+| ''*83''
+| ''*86''
+| ''*89''
+|-
+! Bennett's number
+| ''*18''
+| ''*19''
+| ''*22''
+| ''*34''
+| ''*35''
+| ''*47''
+| ''*49''
+| ''*56''
+| ''*63''
+| ''*64''
+| ''*65''
+| ''*79''
+| ''*82''
+| ''*83''
+| ''*86''
+| ''*89''
+|-
+|}
+
+CIPEM inherited the former authority of Bennett and the Wingspread convention in deciding what signs are "confirmed" and how to officially represent the various sign categories. In editions of Mycenaean texts, the signs whose values have not been confirmed by CIPEM are always transcribed as numbers preceded by an asterisk (e.g., ''*64''). CIPEM also allocates the numerical identifiers, and until such allocation, new signs (or obscured or mutilated signs) are transcribed as a bullet-point enclosed in square brackets: [•].
+
+=== Spelling and pronunciation ===
+[[File:Tabrina micénica.jpg|thumb|The [[PY Ta 641|Tripod tablet]], discovered by [[Carl Blegen]] at the [[Palace of Nestor]], [[Pylos]], in 1952]]
+The signs are approximations, since each may be used to represent a variety of about 70 distinct combinations of sounds within rules and conventions. The grid presents a system of [[syllable|monosyllabic]] signs of the type V/CV. Clarification of the 14 or so special values tested the limits of the grid model, but Chadwick eventually concluded that even with the ramifications, the syllabic signs can unexceptionally be considered monosyllabic.<ref>Ventris & Chadwick (1973), pages 385–391.</ref>
+
+Possible exceptions, Chadwick goes on to explain, include the two [[diphthong]]s, {{Script|Linb|&#x10040;}}&nbsp;(''ai'') and {{Script|Linb|&#x10041;}}&nbsp;(''au''), as in {{Script|Linb|&#x10040;&#x10013;&#x10020;&#x10034;&#x1000D;}}, ''ai-ku-pi-ti-jo'', for ''Aiguptios'' ({{lang|grc|Αἰγύπτιος}}, "Egyptian") and {{Script|Linb|&#x10041;&#x10010;&#x10037;}}, ''au-ke-wa'', for ''Augewās'' ({{lang|grc|Αὐγείας}} "[[Augeas]]").<ref group="note">Ventris and Chadwick use Roman characters for the reconstructed Mycenaean Greek and give the closest later literary word in Greek characters. Often the phonetics are the same, but equally as often the reconstructed words represent an earlier form. Here the classical Greek was formed by dropping the ''w'' and lengthening the ''e'' to ''ei''.</ref> However, a diphthong is by definition two vowels united into a single sound and therefore might be typed as just V. Thus {{Script|Linb|&#x10049;}}&nbsp;(''rai''), as in {{Script|Linb|&#x10001;&#x10049;&#x1003A;}},&nbsp;''e-rai-wo'', for ''elaiwon'' ({{lang|grc|ἔλαιον}}),<ref group="note">The ''w'' is dropped to form the classical Greek.</ref> is of the type CV. Diphthongs are otherwise treated as two monosyllables: {{Script|Linb|&#x10000;&#x1002B;&#x10004;&#x10028;}}, ''a-ro-u-ra'', for ''arourans'' (accusative plural of {{lang|grc|ἄρουραι}}, "tamarisk trees"), of the types CV and V.<ref>Ventris and Chadwick (1973), page 43.</ref> Lengths of vowels and accents are not marked.
+
+{{Script|Linb|&#x1004C;}}&nbsp;(''Twe''), {{Script|Linb|&#x1004D;}}&nbsp;(''two''), {{Script|Linb|&#x10043;}}&nbsp;(''dwe''), {{Script|Linb|&#x10044;}}&nbsp;(''dwo''), {{Script|Linb|&#x10045;}}&nbsp;(''nwa'') and the more doubtful {{Script|Linb|&#x10058;}}&nbsp;(''swi'') and {{Script|Linb|&#x10059;}}&nbsp;(''swa'') may be regarded as beginning with [[labialization|labialized]] consonants, rather than two consonants, even though they may alternate with a two-sign form: ''o-da-twe-ta'' and ''o-da-tu-we-ta'' for ''Odatwenta''; ''a-si-wi-jo'' and ''a-swi-jo'' for ''Aswios'' ({{lang|grc|Ἄσιος}}). Similarly, {{Script|Linb|&#x10048;}}&nbsp;(''rya''), {{Script|Linb|&#x1004A;}}&nbsp;(''ryo'') and {{Script|Linb|&#x1004B;}}&nbsp;(''tya'') begin with [[palatalization (sound change)|palatalized]] consonants rather than two consonants: ''-ti-ri-ja'' for ''-trja'' (-{{lang|grc|τρια}}).
+
+The one sign Chadwick tags as the exception to the [[Monosyllabic language|monosyllabic]] rule is {{Script|Linb|&#x10047;}}&nbsp;(''pte''), but this he attributes to a development ''pte''<''*pje'' as in ''kleptei''<''*klep-jei''.
+
+Linear B does not consistently distinguish between [[Voice (phonetics)|voiced]] and unvoiced [[stop consonant]]s or between [[aspirated consonant|aspirated]] and unaspirated stops, even though these distinctions are [[Phoneme|phonemic]] in [[Mycenaean Greek]]. (The exception is the [[dental consonant|dental series]], where syllables starting with the voiced dental stop are written differently from syllables starting with the voiceless unaspirated or voiceless aspirated dental stop.) For example,<ref>The examples in this section except where otherwise noted come from the ''Mycenaean Glossary'' of Ventris & Chadwick (1973).</ref> ''pa-te'' is ''patēr'' ({{lang|grc|πατήρ}}), ''pa-si'' is ''phāsi'' ({{lang|grc|φησί}}),<ref group="note">Classical words typically have the {{Lang|grc|η}} of the [[Ancient Greek dialects|Attic-Ionic dialect]] where Linear B represents the original {{lang|grc|α}}.</ref> ''ko-ru'' is ''korus'' ({{lang|grc|κόρυς}}, "helmet"), ''ka-ra-we'' is ''grāwes'' (plural of {{lang|grc|γρηύς}}), ''ko-no'' is ''skhoinos'' ("rope"), ''to-so'' is ''tosos'' ({{lang|grc|τόσος}} or {{lang|grc|τόσσος}}), ''to-ra-ke'' is ''thōrākes'' (plural of {{lang|grc|θώραξ}}, "breastplate"). The exceptional ''d''-series for voiced dentals is illustrated by ''do-ra'' for ''dōra'' (plural of {{lang|grc|δῶρον}}, "gift").
+
+In some cases aspiration may be marked, but this is optional: ''pu-te'' for ''phutēr'' ("planter", from {{lang|grc|φυτεύω}}), but ''phu-te-re'' for ''phutēres'' ("planters"). Initial /h/ may be marked only when followed by ''a'', and only rarely: ''ha-te-ro'' for ''hateron'' (masculine {{lang|grc|ἅτερος}}),<ref name=VC388-391>Ventris & Chadwick (1973), pages 388–391.</ref> and yet ''a-ni-ja'' for ''hāniai'' ({{lang|grc|ἁνίαι}}).
+
+The ''q''-series is used for syllables beginning with [[labialized velar consonant]]s (see under [[Mycenaean Greek]]), a class of consonants that disappeared from classical Greek by regular phonetic change (becoming in various circumstances {{lang|grc|β}}, {{lang|grc|π}}, {{lang|grc|φ}}, or {{lang|grc|δ}}, {{lang|grc|τ}}, {{lang|grc|θ}}). These consonants had various sources: inheritance from [[Proto-Indo-European language|Proto-Indo-European]], assimilation, borrowing of foreign words, especially names. In Mycenaean they are /kʷ/, /gʷ/, and rarely /kʷh/ in names and a few words:<ref>Ventris & Chadwick (1973), page 45. The authors use ''q'' instead of ''k'': ''q<sup>u</sup>'', ''g<sup>u</sup>'' and ''q<sup>u</sup>h'', following the use of ''q-'' in transcription.</ref> ''a-pi-qo-ro'' for ''amphiq<sup>u</sup>oloi'' ({{lang|grc|ἀμφίπολοι}}); ''qo-u-ko-ro'' for ''g<sup>u</sup>oukoloi'' ({{lang|grc|βουκόλοι}}, "cowherders"); ''qa-si-re-u'' for ''g<sup>u</sup>asileus'' ({{lang|grc|βασιλεύς}}, "[[basileus]]", meaning in this period "court official or local chieftain"), ''-qo-i-ta'' for -{{lang|grc|φόντης}}.
+
+The ''j''-series represents the semivowel equivalent to English "y", and is used word-initially and as an intervocalic glide after a syllable ending in ''i'': ''-a-jo'' for {{lang|grc|-αῖος}} (''-aios''); ''a-te-mi-ti-jo'' for {{lang|grc|Ἀρτεμίτιος}} (''Artemitios''). The ''w''-series similarly are semivowels used word-initially and intervocalically after a syllable ending in ''u'': ''ku-wa-no'' for ''kuanos'' ({{lang|grc|κύανος}}, "blue").<ref>Ventris & Chadwick (1973), page 44.</ref>
+
+The ''r''-series includes both the /r/ and /l/ [[phoneme]]s: ''ti-ri-po'' for ''tripos'' ({{lang|grc|τρίπος}}, i.e. {{lang|grc|τρίπους}}) and ''tu-ri-so'' for ''Tulisos'' ({{lang|grc|Τυλισός}}).
+
+Some consonants in some contexts are not written (but are understood to be present), such as word-initial ''s-'' and ''-w'' before a consonant, as in ''pe-ma'' for ''sperma'' ({{lang|grc|σπέρμα}}, "seed"). The ''pe-'', which was primarily used as its value ''pe'' of grid class CV, is here being used for ''sper-''. This was not an innovative or exceptional use, but followed the stated rules. Syllable-final ''-l'', ''-m'', ''-n'', ''-r'' and ''-s'' are also not written out, and only word-final velars are notated by plene writing: ''a-to-ro-qo'' for ''anthrōq<sup>u</sup>os'' ({{lang|grc|ἄνθρωπος}}, "human being, person"). Here ''a'', being primarily of grid class V, is being used as ''an-'' and could be used for ''al'', ''am'', ''ar'', and so on.
+
+In the case of clusters of two or three consonants that do not follow the initial ''s-'' and ''-w'' rule or the double consonants: {{lang|grc|ξ}}&nbsp;(''ks'' or ''x''), {{lang|grc|ψ}}&nbsp;(''ps'') and ''q<sup>u</sup>s'' (which later did not exist in classical Greek), each consonant in the cluster is represented by a type CV sign that shares its consonant value: ''ko-no-so'' for ''Knōsos'',<ref group="note">Double letters, as in ''Knossos'', were never represented; one was dropped.</ref> or ''ku-ru-so'' for ''khrusos'' ({{lang|grc|χρυσός}}, "gold"). The vowels of these signs have been called "empty", "null", "extra", "dead", "dummy" and other terms by various writers as they represent no sound. There were rules though, that governed the selection of the "empty" vowel and therefore determined which sign was to be used. The vowel had to be the same as that of the first syllable following the cluster or, if at the end of the word, preceding: ''ti-ri-po'' with ''ti-'' (instead of ''ta-'', ''te-'' and so on) to match ''-ri-''.  A rare exception occurs in words formed from ''wa-na-ka'', ''wanax'' (ϝάναξ, Homeric and Classical ἄναξ): ''wa-na-ka-te'' for ''wanaktei'' (dative), and ''wa-na-ka-te-ro'' for ''wanakteros'', the adjectival form. This exception may not have applied to all contexts, as an example of ''wa-na-ka'' that follows standard rules has emerged in [[Agios Vasileios, Laconia|Agios Vasileios]] in [[Laconia]]. The text reads ''wa-na-ko-to'' (genitive) and is written on a sealing nodule dating to the late 14th or early 13th century, slightly earlier than other Linear B texts found on mainland Greece.<ref>{{cite journal |last1=Petrakis |first1=Vassilis P. |date=2016 |title= Addenda to "Writing the wanax: Spelling peculiarities of Linear B wa-na-ka and their possible implications" |url= https://campus.usal.es/~revistas_trabajo/index.php/0544-3733/article/view/16644 |journal= Minos: Revista de Filología Egea |volume=39 |pages= 407–408 | access-date=5 June 2020}}</ref>
+
+=== Ideograms ===
+
+Linear B also uses a large number of [[ideogram]]s. They express:
+* the type of object concerned (e.g. a cow, wool, a spear),
+* a unit of measure.
+
+They have no phonetic value and are never used as word signs in writing a sentence, unlike [[Han characters]] or [[cuneiform]]. [[Ideogram]]s are typically at the end of a line before a number and appear to signify to which object the number applies. Many of the values remain unknown or disputed. Some commodities such as cloth and containers are divided into many different categories represented by distinct ideograms. Livestock may be marked with respect to sex.
+
+The numerical references for the ideograms were originally devised by Ventris and Bennett and divided into functional groups corresponding to the breakdown of Bennett's index. The groups are numbered beginning 100, 110, 120 etc., with some provision of spare numbers for future additions; the official CIPEM numberings used today are based on Ventris and Bennett's numbering, with the provision that three or four letter codes (written in small capitals), based on Latin words that seemed relevant at the time, are used where the meanings are known and agreed. Unicode (as of version 5.0) encodes 123 Linear&nbsp;B ideograms.
+
+The ideograms are symbols, not pictures of the objects in question; for example, one tablet records a [[tripod]] with missing legs, but the ideogram used is of a tripod with three legs. In modern transcriptions of Linear B tablets, it is typically convenient to represent an ideogram by its Latin or English name or by an abbreviation of the Latin name. Ventris and Chadwick generally used English; Bennett, Latin. Neither the English nor the Latin can be relied upon as an accurate name of the object; in fact, the identification of some of the more obscure objects is a matter of [[exegesis]].<ref>Chadwick, John, ''The Decipherment of Linear B'', 1958, [https://books.google.com/books?id=TD8YAlh_XHwC&q=tripod p.&nbsp;82].</ref>{{failed verification|reason=The cited page does not contain any of the claims found in this paragraph.|date=April 2024}}
+
+{|class="wikitable"
+|+ Ideograms
+|-
+! Glyph
+! Code point<ref group="note">Note that the codes do not represent all [[glyph]]s, only the major ones.</ref>
+! Bennett<ref>This table follows the numbering scheme worked out by Ventris and Bennett and presented in Ventris and Chadwick (1973) in the table of Figure 10, pages 50–51. The superscript a refers to Bennett's "Editio a", "a hand from [[Pylos]], of Class III". The superscript b refers to Bennett's "Editio b", "a hand of Knosses". The superscript c refers to Bennett's "Editio c", "a hand of Pylos, of Class I". The non-superscript letters represent the class of tablets, which precedes the individual tablet number; for example, Sa 787 is Tablet Number 787 of the class Sa, which concerns chariots and features the WHEEL ideogram.</ref>
+! CIPEM<ref>Figure 10 in Ventris and Chadwick (1973) states only the English names of the ideograms where they exist, but the Latin is given where it exists in {{cite book |editor=Emmett L. Bennett Jr |title=Mycenaean Studies: Proceedings of the Third International Colloquium for Mycenaean Studies Held at "Wingspread," 4–8 September 1961 |year=1964 |location=Madison |publisher=University of Wisconsin Press |pages=258–259}}, "Ideogrammatum Scripturae Mycenaeae Transcriptio". The "m" and "f" superscript are male and female.</ref>
+! English<ref>Given in capital letters if it repeats Ventris and Chadwick (1973) Figure 10; otherwise, in lowercase. Note that not all the CIPEM glyphs appear in Figure 10.</ref>
+|-
+| colspan=5 align=center | '''People and animals'''
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10080;}}
+| U+10080
+| 100<ref>Ventris and Chadwick (1973) page 391: "100 MAN is now used for all forms of the ideogram, so that 101 and 103 are now suppressed."</ref> A-
+| '''VIR'''<br />''vir''
+| MAN
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10081;}}
+| U+10081
+| 102 A-
+| '''MUL'''<br />''mulier''
+| WOMAN
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10082;}}
+| U+10082
+| 104 Cn
+| '''CERV'''<br />''cervus''
+| DEER
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10083;}}
+| U+10083
+| 105 Ca S-
+| '''EQU'''<br />''equus''
+| HORSE
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10084;}}
+| U+10084
+| 105 Ca
+| '''EQU'''<sup>f</sup>
+| mare<ref>Ventris & Chadwick either edition do not follow the Wingspread Convention here but have 105<sup>a</sup> as a HE-ASS and 105<sup>c</sup> as a FOAL.</ref>
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10085;}}
+| U+10085
+| 105 Ca
+| '''EQU'''<sup>m</sup>
+| stallion
+|-
+| style="font-size: 200%;" | {{Lang|gmy-Linb|𐀥}}
+| U+10025
+| 106<br />''QI''<br />*21
+| '''OVIS'''<br />''ovis''
+| SHEEP
+|-
+| style="font-size: 200%;" | {{Lang|gmy-Linb|𐀸}}
+|
+| <br />''WE''<br />*75
+| '''we-ka-ta'''<br />''Bous ergatēs''
+| "Adjunct to ox" (1973)<ref>The 1956 edition has "Kind of sheep".</ref>
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10086;}}
+| U+10086
+| 106<sup>b</sup> C- D-
+| '''OVIS'''<sup>f</sup>
+| EWE
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10087;}}
+| U+10087
+|  106<sup>a</sup> C- D-
+| '''OVIS'''<sup>m</sup>
+| RAM
+|-
+| style="font-size: 200%;" | {{Lang|gmy-Linb|𐁒}}
+| U+10052
+| 107<br />''RA''<br />*22
+| '''CAP'''<br />''capra''
+| GOAT
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10088;}}
+| U+10088
+| 107<sup>b</sup> C- Mc
+| '''CAP'''<sup>f</sup>
+| DOE (GOAT)
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10089;}}
+| U+10089
+| 107<sup>a</sup> C-
+| '''CAP'''<sup>m</sup>
+| BUCK (GOAT)
+|-
+| style="font-size: 200%;" | {{Lang|gmy-Linb|𐁂}}
+| U+10042
+| 108<br />''AU''<br />*85 C-
+| '''SUS'''<br />''sūs''
+| PIG
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1008A;}}
+| U+1008A
+| 108<sup>b</sup> C-
+| '''SUS'''<sup>f</sup>
+| SOW
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1008B;}}
+| U+1008B
+| 108<sup>a</sup> C-
+| '''SUS'''<sup>m</sup>
+| BOAR
+|-
+| style="font-size: 200%;" | {{Lang|gmy-Linb|𐀘}}
+| U+10018
+| 109<br />''MU''<br />*23 C-
+| '''BOS'''<br />''bōs''
+| OX
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1008C;}}
+| U+1008C
+| 109<sup>b</sup> C-
+| '''BOS'''<sup>f</sup>
+| COW
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1008D;}}
+| U+1008D
+| 109<sup>a</sup> C-
+| '''BOS'''<sup>m</sup>
+| OX/BULL
+|-
+| colspan=5 align=center | '''Units of measurement'''
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013F;}}
+|U+1013F
+| 110
+|'''Z'''<br />''kotylai''
+| Volume<br />''Cup''<ref>Chadwick (1976) page 105.</ref>
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013E;}}
+|U+1013E
+| 111
+|'''V'''<br />''khoinikes''
+| Volume
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013C;}}
+|U+1013C
+| 112
+| '''T'''
+| Dry
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013D;}}
+|U+1013D
+| 113
+| '''S'''
+| Liquid
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013B;}}
+|U+1013B
+| 114
+|
+| Weight
+|-
+| style="font-size: 200%;" |
+|
+|*21
+|
+|Weight
+|-
+| style="font-size: 200%;" |
+|
+|*2
+|
+|Weight
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x1013A;}}
+|U+1013A
+| 115
+| '''P'''
+| Weight
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10139;}}
+|U+10139
+| 116
+| '''N'''
+| Weight
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10138;}}
+|U+10138
+| 117
+| '''M'''<br />''dimnaion''<ref>"Double mina", Chadwick (1976) page 102.</ref>
+| Weight
+|-
+| style="font-size: 200%;" |{{Script|Linb|&#x10137;}}
+|U+10137
+| 118
+| '''L'''<br />''talanton''
+| TALENT
+|-
+| style="font-size: 200%;" |
+|
+| *72 G-
+|
+| Bunch?
+|-
+| style="font-size: 200%;" |
+|
+| *74 S-
+|
+| Pair
+|-
+| style="font-size: 200%;" |
+|
+| *15 S-
+|
+| Single
+|-
+| style="font-size: 200%;" |
+|
+| *61
+|
+| Deficit
+|-
+| colspan=5 align=center | '''By dry measure'''
+|-
+| style="font-size: 200%;" |  {{Script|Linb|&#x1008E;}}
+| U+1008E
+| 120 E- F-
+| '''GRA'''<br />''grānum''
+| WHEAT
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1008F;}}
+|  U+1008F
+| 121 F-
+| '''HORD'''<br />''hordeum''
+| BARLEY
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10090;}}
+|  U+10090
+| 122 F- U-
+| '''OLIV'''<br />''olīva''
+| [[Olive|OLIVES]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1001B;}}
+|  U+1001B
+| ''NI''<br />*30 F
+| '''FICUS'''
+| FIGS
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1000E;}}
+|  U+1000E
+| *65
+| '''FARINA'''
+| FLOUR<br />"some kind of grain"<ref>Ventris & Chadwick (1973) page 392.</ref>
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10091;}}
+|  U+10091
+| 123 G- Un
+| '''AROM'''<br />''arōma''
+| CONDIMENT / SPICE
+|-
+| style="font-size: 200%;" |
+|
+| ''KO''<br />*70 G-
+|
+| [[Coriander]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x1002D;}}
+| U+1002D
+| ''SA''<br />*31 G-
+|
+| [[Sesame]]
+|-
+| style="font-size: 200%;" |
+|
+| ''KU''<br />*81 G-
+|
+| [[Cumin]]
+|-
+| style="font-size: 200%;" |
+|
+| ''SE''<br />*9 G-
+|
+| [[Celery]]
+|-
+| style="font-size: 200%;" |
+|
+| ''MA''<br />*80 G-
+|
+| [[Fennel]]
+|-
+| style="font-size: 200%;" |
+|
+| 124 G-
+| '''PYC'''
+| [[Cyperus papyrus|cyperus]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10092;}}
+|  U+10092
+| 125 F-
+| '''CYP'''
+| cyperus?
+|-
+| style="font-size: 200%;" |
+|
+| 126 F-
+| '''CYP'''+'''KU'''
+| cyperus+''ku''
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10093;}}
+|  U+10093
+| 127 Un
+| '''KAPO'''
+| fruit?
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10094;}}
+|  U+10094
+| 128 G-
+| '''KANAKO'''
+| [[safflower]]
+|-
+| colspan=5 align=center | '''By liquid measure'''
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10095;}}
+|  U+10095
+| 130
+| '''OLE'''<br />ŏlĕum
+| [[oil]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10096;}}
+|  U+10096
+| 131
+| '''VIN'''<br />vinum
+| wine
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10098;}}
+|  U+10098
+| 133
+|
+| [[unguent]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x10099;}}
+|  U+10099
+| 135
+|
+| honey
+|-
+| colspan=5 align=center | '''By weight'''
+|-
+| colspan=5 align=center | '''By weight or in units'''
+|-
+| colspan=5 align=center | '''Counted in units'''
+|-
+| colspan=5 align=center | '''Vessels'''<ref>Ventris and Chadwick (1973) page 324 has a separate table.</ref>
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100DF;}}
+|  U+100DF
+| 200
+| <br />''sartāgo''
+| BOILING PAN
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E0;}}
+|  U+100E0
+| 201
+| '''TRI'''<br />''tripūs''
+| TRIPOD CAULDRON
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E1;}}
+|  U+100E1
+| 202
+| <br />''pōculum''
+| GOBLET?
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E2;}}
+|  U+100E2
+| 203
+| <br />''urceus''
+| [[Pithos|WINE JAR]]?
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E3;}}
+|  U+100E3
+| 204 Ta
+| <br />''hirnea''
+| EWER
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E4;}}
+|  U+100E4
+| 205 K Tn
+| <br />''hirnula''
+| JUG
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E5;}}
+|  U+100E5
+| 206
+| '''HYD'''<br />''hydria''
+| [[Hydria|HYDRIA]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E6;}}
+|  U+100E6
+| 207
+|
+| TRIPOD AMPHORA
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E7;}}
+|  U+100E7
+| 208
+| '''PAT'''<br />''patera''
+| BOWL
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E8;}}
+|  U+100E8
+| 209
+| '''AMPH'''<br />''amphora''
+| [[Amphora|AMPHORA]]
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100E9;}}
+|  U+100E9
+| 210
+|
+| STIRRUP JAR
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100EA;}}
+|  U+100EA
+| 211
+|
+| WATER BOWL?
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100EB;}}
+|  U+100EB
+| 212
+| '''SIT'''<br />''situla''
+| WATER JAR?
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100EC;}}
+|  U+100EC
+| 213
+| '''LANX'''<br />''lanx''
+| COOKING BOWL
+|-
+| colspan=5 align=center | '''Furniture'''
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C4;}}
+|  U+100C4
+| 220 Ta
+| <br />''scamnum''
+| FOOTSTOOL
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C5;}}
+|  U+100C5
+| 225
+| '''ALV'''<br />''alveus''
+|
+|-
+| colspan=5 align=center | '''Weapons'''
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C6;}}
+|  U+100C6
+| 230 R
+| '''HAS'''<br />''hasta''
+| SPEAR
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C7;}}
+|  U+100C7
+| 231 R
+| '''SAG'''<br />''sagitta''
+| ARROW
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C8;}}
+|  U+100C8
+| 232 Ta
+| *''232''
+| AXE
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100C9;}}
+|  U+100C9
+| 233 Ra
+|
+| DAGGER
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100CA;}}
+|  U+100CA
+| 234
+| '''GLA'''<br />''gladius''
+| SWORD
+|-
+| colspan=5 align=center | '''Chariots'''
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100CC;}}
+|  U+100CC
+| 240 Sc
+| '''BIG'''<br />''[[biga (chariot)|biga]]''
+| WHEELED CHARIOT
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100CD;}}
+|  U+100CD
+| 241 Sd Se
+| '''CUR'''<br />''currus''
+| WHEEL-LESS CHARIOT
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100CE;}}
+|  U+100CE
+| 242 Sf Sg
+| '''CAPS'''<br />''capsus''
+| CHARIOT FRAME
+|-
+| style="font-size: 200%;" | {{Script|Linb|&#x100CF;}}
+|  U+100CF
+| 243 Sa So
+| '''ROTA'''<br />''rota''
+| WHEEL
+|-
+|}
+
+== Archives ==
+
+=== Corpus ===
+Inscriptions in Linear B have been found on tablets, [[stirrup jar]]s and other objects. Two kinds of tablets have been found: "palm-leaf" shaped tablets, with inscriptions parallel to the long side, and larger "page" shaped tablets, divided into multiple lines. "Palm-leaf" tablets typically record a single transaction, and "page" tablets record a summary of multiple transactions.{{sfn|Ferrara|2010|p=22}}
+
+Inscriptions are catalogued and classified by, inter alia, the location of the excavation they were found in.
+{| class="wikitable"
+! Prefix !! Location !! Number of items and/or notes
+|-
+| align="center" |'''ARM''' || [[Armenoi (archaeological site)|Armenoi]] || 1 stirrup jar inscribed "wi-na-jo".<ref>{{cite book |last1=Tzedakis |first1=Yannis |last2=Kolivaki |first2=Vicky |editor-last1=Tzedakis |editor-first1=Yannis |editor-last2=Martlew |editor-first2=Holley |editor-last3=Arnott |editor-first3=Robert |date=2018 |chapter=Background and History of Excavation |title=The Late Minoan III Necropolis of Armenoi |url=https://www.proquest.com/docview/2227961808 |url-access=subscription |volume=1: Introduction and Background |location=Philadelphia, PA |publisher=INSTAP Academic Press |page=1 |isbn=9781623034191 |access-date=30 April 2022|id={{ProQuest|2227961808}} }}</ref>
+|-
+| align="center" |'''DIM''' or '''IOL'''<ref>{{cite book |last1=Del Freo |first1=Maurizio |editor-last1=Del Freo |editor-first1=Maurizio |editor-last2=Perna |editor-first2=Massimo |date=2016 |chapter=Classificazione dei documenti e regole di trascrizione |title=Manuale di Epigrafia Micenea: Introduzione allo studio dei testi in lineare B |url=https://books.google.com/books?id=KtTUDQAAQBAJ |volume=1 |location=Padova, Italy |publisher=Libreria Universitaria |page=247 |isbn=9788862927161 |access-date=30 April 2022}}</ref> || [[Dimini]] || 1 [[kylix]] shard and 1 stone (possibly a weight).<ref>{{cite journal |last1=Adrimi-Sismani |first1= Vasso |last2=Godart |first2=Louis |year=2005 |title=Les Inscriptions en Linéaire B de Dimini/Iolkos et leur contexte archéologique |journal=Annuario della Scuola Archeologica di Atene e delle Missioni Italiane in Oriente |volume=83 |issue=1 |pages=46–69 |url=https://www.scuoladiatene.it/dal-2001-al-2010/2005-1.html |access-date=30 April 2022}}</ref>
+|-
+| align="center" |'''EL''' || [[Eleusis]] || 1 stirrup jar.<ref>{{cite book |last1=Cosmopoulos |first1=Michael B. |date=2015 |title=Bronze Age Eleusis and the Origins of the Eleusinian Mysteries |url=https://doi.org/10.1017/CBO9780511820700 |url-access=subscription |publisher=Cambridge UP |page=123 |doi=10.1017/CBO9780511820700 |isbn=9780511820700 |access-date=5 May 2022}}</ref>
+|-
+| align="center" |'''GL''' || [[Gla]] || 1 stirrup jar bearing either an inscription or a [[potter's mark]].<ref>{{cite journal |last=Zurbach |first=Julien |date=2006 |title=Les vases inscrits en Linéaire B: Tentative d'interprétation globale |journal=Mitteilungen des Deutschen Archäologischen Instituts, Athenische Abteilung |volume=121 |page=24}}</ref>
+|-
+| align="center" |'''HV''' || [[Agios Vasileios, Laconia|Agios Vasileios]]<br />(Xerocampion, [[Laconia]]) || 211 inscribed pieces, comprising ca. 115 tablets, 9 sealing nodules and 3 labels as of 21 September 2021.<ref>{{cite conference |url= https://www.bsa.ac.uk/videos/linear-b-administrative-documents-from-ayios-vasileios/|title= An Assemblage of Linear B Administrative Documents from Ayios Vasileios, Laconia|type= Virtual Lectures|first= Vassilis|last= Petrakis|orig-date= presented on 21 September 2021|conference= 15th Mycenological Colloquium|publisher= British School at Athens|access-date= 23 February 2022|at= 5:01 minutes in|publication-date= 17 November 2021|via= Youtube}}</ref>
+|-
+| align="center" |'''IK''' || [[Iklaina]] || 1 tablet.<ref>{{cite journal |last1=Cosmopoulos |first1=Michael B. |year=2019 |title=State Formation in Greece: Iklaina and the Unification of Mycenaean Pylos |journal=American Journal of Archaeology |publisher=[[The University of Chicago Press]] |volume=123 |issue=3 |page=358 |doi=10.3764/aja.123.3.0349 |s2cid=198037416 |url=https://doi.org/10.3764/aja.123.3.0349 |url-access=subscription |access-date=20 March 2022}}</ref>
+|-
+| align="center" |'''KH''' || [[Kydonia]] || ca. 8 tablets, 42 stirrup jars, {{not a typo|2 cups}} and a bowl.<ref>[https://tidsskrift.dk/pdia/article/download/19622/17243] Andreadaki-Vlasaki, Maria, and Erik Hallager, "New and unpublished Linear A and Linear B inscriptions from Khania", Proceedings of the Danish Institute at Athens 5, pp. 7-22, 2007</ref><ref>{{cite book |last1=Hallager |first1=Erik |editor-last1=Hallager |editor-first1=Birgitta P. |editor-last2=Hallager |editor-first2=Erik |date=2011 |chapter=The Linear B Inscriptions and Potter's Marks |title=The Greek-Swedish Excavations at the Agia Aikaterini Square, Kastelli, Khania 1970–1987 and 2001 |url=https://ecsi.bokorder.se/en-GB/article/1934/the-greek-swedish-excavations-at-the-agia-aik |volume=4: The Late Minoan IIIB:1 and IIIA:2 Settlements |location=Stockholm |publisher=The Swedish Institute at Athens |pages=414–426 |isbn=9789179160609 |access-date=23 April 2022}}</ref><ref>{{cite journal |last1=Andreadaki-Vlazaki |first1=Maria |last2=Godart |first2=Louis |date=2014 |title=Three new Linear A and B tablets from Khania |url=https://www.academia.edu/49249376 |journal=Pasiphae: Rivista di filologia e antichità egee |volume=8 |pages=11–18 |access-date=23 April 2022}}</ref><ref>Godart, L., Andreadaki-Vlazaki, M., "A new Linear B tablet from Khania: KH X 8", pp. 37–42, 2022</ref>
+|-
+| align="center" |'''KN''' || [[Knossos]] || ca. 5500 fragments, comprising ca. 4158 tablets, 31 sealing nodules and 35 labels.<ref>{{cite book |last1=Melena |first1=José L. |last2=Firth |first2=Richard J. |date=2019 |title=The Knossos Tablets |url=https://www.proquest.com/docview/2227879530 |url-access=subscription |edition=6th |location=Philadelphia, Pennsylvania |publisher=INSTAP Academic Press |pages=425–457, 481–679 |isbn=9781623034184 |access-date=16 April 2022|id={{ProQuest|2227879530}} }}</ref>
+|-
+| align="center" |'''KR''' || [[Kreusis]]<br />(Livadostra, [[Boeotia]]) || 1 stirrup jar.{{sfn|Zurbach|2006|pp=23–24}}
+|-
+| align="center" |'''MA''' || [[Malia (archaeological site)|Malia]] || 4 stirrup jars.<ref>{{cite book |last1=Driessen |first1=Jan |last2=Farnoux |first2=Alexandre |last3=Langohr |first3=Charlotte |editor-last1=Panagiotopoulos |editor-first1=Diamantis |editor-last2=Kaiser |editor-first2=Ivonne |editor-last3=Kouka |editor-first3=Ourania |date=2015 |chapter=Two More Linear B Inscribed Stirrup Jars from Malia |title=Ein Minoer im Exil: Festschrift für Wolf-Dietrich Niemeier |url=https://www.academia.edu/5221541 |location=Bonn, Germany |publisher=Dr. Rudolf Habelt GmbH |page=60 |isbn=9783774939714 |access-date=17 April 2022}}</ref>
+|-
+| align="center" |'''MAM''' || Mameloukou Cave<br />(Perivolia, [[Kissamos]]) || 1 stirrup jar.{{sfn|Zurbach|2006|pp=45-46}}
+|-
+| align="center" |'''MED''' || Medeon<br />([[Steiri]], Boeotia) || 1 ivory seal.<ref>{{cite journal |last1=Marazzi |first1=Massimiliano |date=2009 |title=Il corpus delle iscrizioni in lineare B oggi: organizzazione e provenienze |url=http://www.libraweb.net/articoli.php?chiave=200933301&rivista=333 |journal=Pasiphae: Rivista di filologia e antichità egee |volume=3 |page=142 |access-date=13 May 2022}}</ref>
+|-
+| align="center" |'''MI''' || [[Midea (Argolid)|Midea]] || 4 sealing nodules and 4 stirrup jars.<ref>{{cite book |last=Demakopoulou |first=Katie |editor-last1=Schallin |editor-first1=Ann-Louise |editor-last2=Tournavitou |editor-first2=Iphiyenia |title=Mycenaeans Up to Date: The archaeology of the north-eastern Peloponnese – current concepts and new directions |location=Stockholm |publisher=Svenska Institutet i Athen |date=2015 |pages=193–194 |chapter=The Mycenaean Acropolis of Midea: New discoveries and new interpretations |isbn=9789179160630}}</ref>
+|-
+| align="center" |'''MY''' || [[Mycenae]] || 88 documents.<ref name=documents2024>{{cite book |last=Del Freo |first=Maurizio |editor-last=Killen |editor-first=John |translator-last=Rockenhaus |translator-first=Melanie |date=2024 |chapter=The Linear B Documents |title=The New Documents in Mycenaean Greek |url=https://www.cambridge.org/core/books/new-documents-in-mycenaean-greek/49509DDFDB61F3FE1FA2C0E428ADCEAD |url-access=subscription |volume=1: Introductory Essays |publisher=Cambridge UP |page=218 |doi=10.1017/9781139029049 |isbn=9781139029049 |access-date=14 Oct 2024 }}</ref>
+|-
+| align="center" |'''OR''' || [[Orchomenus (Boeotia)|Orchomenos]] || 1 stirrup jar bearing either an inscription or pseudo-script.{{sfn|Zurbach|2006|pp=22–23}}
+|-
+| align="center" |'''PY''' || [[Pylos]] || ca. 1,026 tablets, 24 sealing nodules, 22 labels and 7 stirrup jars.<ref>{{cite journal |last1=Montecchi |first1=Barbara |year=2020 |title=The Inscriptions in Linear B |department=review |journal=The Classical Review |publisher=Cambridge University Press on behalf of The Classical Association |volume=71 |issue=1 |page=17 |doi=10.1017/S0009840X20001900 |s2cid=232223668 |url=https://doi.org/10.1017/S0009840X20001900 |url-access=subscription |access-date=20 March 2022}}</ref><ref>{{cite journal |last1=Judson |first1=Anna P. |year=2013 |title=The Linear B Inscribed Stirrup Jars |journal=Kadmos |publisher=De Gruyter |volume=52 |issue=1 |page=88 |doi=10.1515/kadmos-2013-0005 |s2cid=163791226 |url=https://doi.org/10.1515/kadmos-2013-0005 |url-access= |access-date=20 March 2022 }}</ref><ref>Melena, José L., "A new personal name in the Linear B tablets from Pylos", Kadmos, vol. 62, no. 1-2, pp. 33-42, 2023</ref>
+|-
+| align="center" |'''TH''' || [[Thebes, Greece|Thebes]] || 368 documents.<ref name=documents2024 /> {{see also|Thebes tablets}}
+|-
+| align="center" |'''TI''' || [[Tiryns]] || 27 tablets and fragments, ca. 51 stirrup jars and a possibly inscribed [[skyphos]].<ref>Melena, J. L. and J.-P. Olivier. (1991). Tithemy: The Tablets and Nodules in Linear B from Tiryns, Thebes and Mycenae. Suplementos a Minos 12. Salamanca.</ref><ref>Olivier, Jean-Pierre. "Eighteen more fragments of linear B tablet from Tiryns." Archäologischer Anzeiger (1983): 413–426</ref>{{sfn|Zurbach|2006|pp=33–40}}
+|-
+| align="center" |'''VOL''' || Kastro-Palaia<br />([[Volos]]) || Two tablets found in 1950s excavations resurfaced in the early 2010s; a sketch depicts a third tablet.<ref>{{cite book |last=Janko |first=Richard |editor-last1=Giannakis |editor-first1=Georgios |editor-last2=Crespo |editor-first2=Emilio |editor-last3=Filos |editor-first3=Panagiotis |display-editors=1 |title=Studies in Ancient Greek Dialects: From Central Greece to the Black Sea |publisher=De Gruyter |date=2017 |page=107 |chapter=The Greek Dialects in the Palatial and Post-Palatial Late Bronze Age |isbn=9783110532135}}</ref>
+|}
+Another 170 inscriptions in Linear B have been found on various vessels, for a total of some 6,058 known inscriptions. The primary source of vessel markings are on Inscribed Stirrup Jars, with most found at Thebes, Mycenae, Tiryns, and Khania.<ref>Catling, H. W., et al., "The Linear B Inscribed Stirrup Jars and West Crete", The Annual of the British School at Athens, vol. 75, pp. 49–113, 1980</ref>
+
+For several decades scholars have worked to join tablet fragments together, thus making the tablets and their information more complete while reducing their numbers as a whole.<ref>Owens, Gareth, "A Linear B Tablet at University College London", Bulletin of the Institute of Classical Studies, no. 37, Wiley, pp. 95–98, 1990</ref>
+
+The oldest Linear B tablets are probably those from the Room of Chariot Tablets at Knossos, and date to the latter half of the 15th century BC.<ref>{{Cite book|title=The Scribes of the Room of the Chariot Tablets at Knossos|last=Driessen|first=Jan|publisher=Ediciones universidad de Salamanca|year=2000|location=Salamanca}}</ref> The [[Kafkania pebble]], though from an earlier context, is not genuine.<ref>{{Cite journal|last=Palaima|first=Thomas G.|year=2003|title=OL Zh1: QVOSQVE TANDEM|journal=Minos|volume=38|pages=373–85}}</ref> The earliest inscription from the mainland is an inscribed clay tablet found at [[Iklaina]] dating to between 1400 and 1350 BC.<ref name=ng33011>{{cite news|url= https://www.nationalgeographic.com/culture/article/110330-oldest-writing-europe-tablet-greece-science-mycenae-greek/|title= Ancient Tablet Found: Oldest Readable Writing in Europe|first=Ker|last=Than|date=30 March 2011|publisher=[[National Geographic Society|National Geographic]]|access-date=1 April 2011}}</ref>
+
+Tablets are divided into series, based on the most common ideogram used in the tablet. For example, the E series deals with grain ({{smallcaps|gra}}). The X series is used for tablets with no ideograms, the W series is used for labels and sealings, and Z for inscribed objects other than tablets. When it is possible to identify a subgrouping of the series, based on shape, vocabulary, format, or scribal hand, it is marked by a lowercase letter (for example, the Er series).<ref>{{cite book |last1=Palmer |first1=Ruth |editor1-last=Duhoux |editor1-first=Yves |editor2-last=Morpurgo Davies |editor2-first=Anna |title=A Companion to Linear B: Mycenaean Greek Texts and Their World |date=2008 |chapter=How to Begin? An Introduction to Linear B Conventions and Resources}}</ref>
+
+An amber seal incised with Linear B signs was found in 2000 at Bernstorf near [[Kranzberg]], southern [[Germany]], and is of much debated authenticity.<ref>[https://www.bavarian-studies.org/amber-inscribed-in-linear-b-from-bernstorf-in-bavaria/]{{cite journal |last1=Harding |first1=Anthony |last2=Hughes-Brock |first2=Helen |year=2017 |title=Mycenaeans in Bavaria? Amber and gold from the Bronze Age site of Bernstorf |url=https://doi.org/10.15184/aqy.2017.147 |department=review |journal=Antiquity |publisher=Cambridge University Press |volume=91 |issue=359 |pages=1382–1385 |doi=10.15184/aqy.2017.147 |s2cid=164227841 |url-access=subscription |access-date=31 March 2022}}</ref>
+
+=== Chronology ===
+{{See also|Linear A#Chronology|l1=Chronology of Linear A}}
+
+==== Timeline of Bronze Age eastern Mediterranean scripts ====
+The Aegean is responsible for many of the early Greek language words that have to do with daily life such as words for tools and items that are seen every day.<ref>{{Cite book|title=Greek Art and Archaeology|last=Neer|first=Richard|publisher=Thames & Hudson|year=2012|isbn=978-0500288771|location=New York|pages=44}}</ref> The sequence and the geographical spread of Cretan hieroglyphs, Linear A, and Linear B, the three overlapping, but distinct, writing systems on Bronze Age Crete, the Aegean islands, and [[geography of Greece#Mainland|mainland Greece]] are summarized as follows:<ref name="Olivier 1986, 377f.">{{cite journal|last1=Olivier|first1=J.-P.|title=Cretan writing in the second millennium B.C.|journal=World Archaeology|date=February 1986|volume=17|issue=3|pages=377–389|doi=10.1080/00438243.1986.9979977|url=https://dipot.ulb.ac.be/dspace/bitstream/2013/248436/4/53a239ae-5319-44a5-b013-69ca027964b7.txt|hdl=2013/ULB-DIPOT:oai:dipot.ulb.ac.be:2013/248436|hdl-access=free}}</ref>
+{| class="wikitable"
+! Writing system
+! Geographical area
+! Time span<ref group="note">Beginning date refers to first attestations, the assumed origins of all scripts lie further back in the past.</ref>
+|-
+|[[Cretan hieroglyphs]]
+|[[Crete]]
+|{{circa|2100}}–1700 BC
+|-
+|[[Linear A]]
+|[[Crete]], [[Aegean Islands]] ([[Kea (island)|Kea]], [[Kythira]], [[Milos]], [[Santorini]]), and [[Laconia]]
+|{{circa|1800}}–1450 BC<ref>{{cite book|last1=Daniels|last2=Bright|first1=Peter T.|first2=William|title=[[The World's Writing Systems]]|year=1996|location=Oxford|publisher=Oxford University Press|isbn=0-19-507993-0}}</ref>
+|-
+|Linear B
+|Crete ([[Knossos]]), and mainland ([[Pylos]], [[Mycenae]], [[Thebes, Greece|Thebes]], [[Tiryns]])
+|{{circa|1425}}−1200 BC
+|-
+|}
+
+====Timeline of Linear B====
+The main archives for Linear B are associated with these stages of [[Helladic period|Late Minoan and Helladic pottery]]:<ref name="Cline1998">{{cite book|last=Shelmerdin|first=Cynthia W.|editor-last1=Cline|editor-first1=Eric H.|editor1-link=Eric H. Cline|editor2-last=Harris-Cline|editor2-first=Diane|url=https://www.academia.edu/2284473|title=The Aegean and the Orient in the Second Millennium: Proceedings of the 50th Anniversary Symposium, Cincinnati, 18–20 April 1997|series=Aegaeum|year=1998|publisher=Universite de Liege, Histoire de L'art Et Archeologie de la Grece Antiquei|chapter=Where Do We Go From Here? And How Can the Linear B Tablets Help Us Get There?}}  The table is heavily indebted to this chapter.</ref>
+{| class="wikitable"
+! Relative date !! Period dates !! Location || Locale or tablet
+|-
+| '''LM II''' || 1425–1390 BC || [[Knossos]] || Room of the Chariot Tablets
+|-
+| '''LH IIIA1/early LH IIIA2''' || 1400–1370 BC || [[Iklaina]] || 1 tablet found in refuse pit<ref>Summer, Amanda. "The Birth of Bureaucracy." Archaeology, vol. 65, no. 4, Archaeological Institute of America, 2012, pp. 33–39</ref>
+|-
+| '''LM IIIA2'''<br />or<br />'''LM IIIB''' || 1370–1340 BC<br />or<br />1340–1190 BC || [[Knossos]] || main archive
+|-
+| '''LM IIIB''' || 1340–1190 BC || [[Chania]] || tablets Sq 1, 6659, KH 3 (possibly Linear B)
+|-
+| '''LH/LM IIIB1 end'''<ref group="note">LM III is equivalent to LH III from a chronological perspective.</ref> || || [[Chania]]<br />[[Mycenae]]<br />[[Thebes, Greece|Thebes]] || tablets Ar 3, Gq 5, X 6<br />tablets from Oil Merchant group of houses<br />Ug tablets and Wu sealings
+|-
+| '''LH IIIB2, end''' || || [[Mycenae]]<br />[[Tiryns]]<br />[[Thebes, Greece|Thebes]]<br />[[Pylos]] || tablets from the Citadel<br />all tablets<br />Of tablets and new Pelopidou Street deposit<br />all but five tablets
+|}
+
+Sixteen tablets found at the Megaron at Pylos are also thought to be dated to LHIIIA.<ref>Skelton, Christina. "Re-Examining the Pylos Megaron Tablets", KADMOS, vol. 48, no. 1-2, 2010, pp. 107–123</ref>
+
+==== Controversy on the date of the Knossos tablets ====
+The [[Knossos]] archive was dated by [[Arthur Evans]] to the destruction by conflagration of about 1400 BC, which would have baked and preserved the clay tablets. He dated this event to the LM II period. This view stood until [[Carl Blegen]] excavated the site of ancient [[Pylos]] in 1939 and uncovered tablets inscribed in Linear B. They were fired in the conflagration that destroyed Pylos about 1200 BC, at the end of LHIIIB. With the decipherment of Linear B by [[Michael Ventris]] in 1952,<ref>{{cite book|last=Salomon|first=Marilyn J.|title=Great Cities of the World 3: Next Stop... Athens|publisher=The Symphonette Press|year=1974|page=15}}</ref> serious questions about Evans's date began to be considered. Most notably, Blegen said that the inscribed stirrup jars, which are oil flasks with stirrup-shaped handles imported from Crete around 1200, were of the same type as those dated by Evans to the destruction of 1400. Blegen found a number of similarities between 1200 BC Pylos and 1400 BC Knossos and suggested the Knossian evidence be reexamined, as he was sure of the 1200 Pylian date.
+
+The examination uncovered a number of difficulties. The Knossos tablets had been found at various locations in the palace. Evans had not kept exact records. Recourse was had to the day books of Evans's assistant, [[Duncan Mackenzie]], who had conducted the day-to-day excavations. There were discrepancies between the notes in the day books and Evans's excavation reports. Moreover, the two men had disagreed over the location and strata of the tablets. The results of the reinvestigation were eventually published by Palmer and Boardman, ''On the Knossos Tablets''.<ref>{{cite book|first1=L.R.|last1=Palmer|first2=John|last2=Boardman|title=On the Knossos Tablets|location=Oxford|year=1963|publisher=Clarendon Press}}</ref> It contains two works, [[Leonard Robert Palmer]]'s ''The Find-Places of the Knossos Tablets'' and John Boardman's ''The Date of the Knossos Tablets,'' representing Blegen's and Evans's views respectively. Consequently, the dispute was known for a time as "the Palmer–Boardman dispute". There has been no generally accepted resolution to it yet.
+
+=== Contents ===
+
+The major cities and palaces used Linear B for records of disbursements of goods. Wool, sheep, and grain were some common items, often given to groups of religious people. A number of tablets also deal with military matters.<ref>Driessen, Jan, and Colin Macdonald. "Some Military Aspects of the Aegean in the Late Fifteenth and Early Fourteenth Centuries B.C." The Annual of the British School at Athens, vol. 79, [British School at Athens, Cambridge University Press], 1984, pp. 49–74</ref>
+
+As is often the case with [[cuneiform]] tablets, when the buildings they were housed in were destroyed by fire many of the tablets were baked, which preserved them.<ref>Hallager, Erik, Maria Vlasakis, and Birgitta P. Hallager, "New Linear B Tablets from Khania", pp. 61-87, 1992</ref>
+
+== Discovery and decipherment ==
+[[File:Clay Tablet inscribed with Linear B script.jpg|thumb|Tablet KN Fp 13, discovered by [[Arthur Evans]]]]
+[[File:Linear B (Mycenaean Greek) NAMA Tablette 7671.jpg|thumb|Tablet MY Oe 106 (obverse) exhibited at the Greek [[National Archaeological Museum, Athens|National Archaeological Museum]].<br />Bottom: tracing of the inscription (obverse).<br />Right: Tracing of the reverse side depicting a male figure.]]
+
+=== Ancient Greece ===
+The Greeks of the historical era were unable to decipher Linear B, but its ideograms are sometimes mentioned by ancient authors.<ref>Forsdyke, ''Greece Before Homer'', p. 40.</ref> For example, [[Plutarch]] gives an account of the Spartan king [[Agesilaus II]] (r. 400–360 BC) sending a bronze tablet with "many letters marvellously old, for nothing could be made of them" to Egyptian priests in the hope they could understand them.<ref>Forsdyke, ''Greece Before Homer'', pp. 41, 42.</ref>
+
+=== Arthur Evans's classification of scripts ===
+The [[United Kingdom|British]] archaeologist [[Arthur Evans]], keeper of the [[Ashmolean Museum]], was presented by Greville Chester in 1886 with a sealstone from Crete engraved with a writing he took to be Mycenaean.<ref>{{harvnb|Ventris|Chadwick|1973|p=8}}.</ref> [[Heinrich Schliemann]] had encountered signs similar to these, but had never identified the signs clearly as writing, relating in his major work on Mycenae that "of combinations of signs resembling inscriptions I have hitherto only found three or four&nbsp;...".<ref>{{cite book|page=[https://archive.org/details/mycenaenarrative1880schl/page/114 114]|title=Mycenæ|url=https://archive.org/details/mycenaenarrative1880schl|first1=Heinrich|last1=Schliemann|first2=William Ewart|last2=Gladstone|location=New York|publisher=Charles Scribner's Sons|year=1880|isbn=978-0-405-09851-2}}</ref> In 1893 Evans purchased more sealstones in Athens, verifying from the antiquarian dealers that the stones came from Crete. During the next year he noticed the script on other artefacts in the Ashmolean. In 1894 he embarked for [[Crete]] in search of the script. Soon after arrival, at [[Knossos]] he saw the sign of the double axe on an excavated wall, considering this the source of the script. Subsequently, he found more stones from the various ruins being worn by Cretan women as [[amulet]]s called {{lang|grc|γαλόπετρες}} "milk-stones", thought to encourage the production of breast milk.<ref>{{Cite book|last=Crawford|first=James|title=Fallen glory: the lives and deaths of history's greatest buildings|date=2019|publisher=Picador|isbn=978-1-250-11831-8|location=New York|pages=45|oclc=1076499808}}</ref>
+
+Starting in 1894 Evans published his theories that the signs evidenced various phases in the development of a writing system in ''[[The Journal of Hellenic Studies]]'', the first article being "Primitive Pictographs and a Prae-Phoenician Script from Crete".<ref>{{cite journal|first=A. J.|last=Evans|title=Primitive Pictographs and a Prae-Phoenician Script, from Crete and the Peloponnese|journal=Journal of Hellenic Studies|volume=14|year=1894|pages=270–372, 394|url=https://archive.org/details/journalofhelleni14soci|doi=10.2307/623973|jstor=623973|s2cid=163720432 }}</ref> In these articles Evans distinguished between "pictographic writing" and "a linear system of writing". He did not explicitly define these terms, causing some confusion among subsequent writers concerning what he meant, but in 1898 he wrote<ref>{{cite journal|first=Arthur J.|last=Evans|journal=Journal of Hellenic Studies|volume=XVII|pages=327–395|title=Further Discoveries of Cretan and Aegean Script|year=1898|url=https://books.google.com/books?id=PxgTAAAAYAAJ&q=Arthur+Evans+Crete|doi=10.2307/623835|jstor=623835|hdl=2027/hvd.32044005544283|s2cid=163638328 |hdl-access=free}}</ref> "These linear forms indeed consist of simple geometrical figures which unlike the more complicated pictorial class were little susceptible to modification" and "That the linear or quasi-alphabetic signs ... were in the main ultimately derived from the rudely scratched line pictures belonging to the infancy of art can hardly be doubted."
+
+Meanwhile, Evans began to negotiate for the land purchase of the Knossos site. He established the Cretan Exploration Fund, with only his own money at first, and by 1896 the fund had purchased one-fourth of Kephala Hill, on which the ruins were located, with first option to buy the rest. However, he could not obtain a [[firman]] excavation permit from the Ottoman government. He returned to Britain. In January 1897, the Christian population of Crete staged its final insurrection against the Ottoman Empire. The last Ottoman troops were ferried off the island by the British fleet on 5 December 1898.<ref>{{cite book|title=The Royal Navy|first1=William Laird|last1=Clowes|first2=Clements Robert|last2=Markham|first3=Alfred Thayer|last3=Mahan|first4=Herbert Wrigley|last4=Wilson|first5=Theodore|last5=Roosevelt|first6=Leonard George Carr|last6=Laughton|year=1903|publisher=Sampson, Low, Marston and Company|location=London|volume=VII|pages=444–448|isbn=978-1-86176-017-3|url=https://books.google.com/books?id=1n1nAAAAMAAJ&q=Turkey+Crete&pg=PA444}}</ref> In that year also, Evans and his friends returned to complete purchase of the site. By this time, the Fund had other contributors as well.<ref>{{cite book|title=Arthur Evans and the Palace of Minos|first=Cynthia Ann|last=Brown|edition=Ashmolean Museum: illustrated|publisher=Ashmolean Museum|year=1983|location=Oxford|isbn=9780900090929|pages=[https://archive.org/details/arthurevanspala00annb/page/15 15–30]|url=https://archive.org/details/arthurevanspala00annb/page/15}}</ref> In 1899, the Constitution of a new [[Cretan State|Cretan Republic]] went into effect. Once Evans had received permission to excavate from the local authorities, excavation on the hill began on 23 March 1900.
+
+According to Evans's report to the [[British School at Athens]] for that year,<ref name=repo>{{cite journal|journal=The Annual of the British School at Athens|issue=VI: Session 1899–1900|year=1901|first=Arthur J.|last=Evans|title=Knossos: Summary Report of the Excavations in 1900: I The Palace|pages=3–70 | url=https://books.google.com/books?id=000pAAAAYAAJ&q=tablets+April+Knosos+OR+Knossos&pg=PA18}}</ref> on 5 April, the excavators discovered the first large cache ever of Linear B tablets among the remains of a wooden box in a disused [[terracotta]] bathtub. Subsequently, caches turned up at multiple locations, including the Room of the Chariot Tablets, where over 350 pieces from four boxes were found. The tablets were {{convert|4.5|cm|in|abbr=on}} to {{convert|19.5|cm|in|abbr=on}} long by {{convert|1.2|cm|in|abbr=on}} to {{convert|7.2|cm|in|abbr=on}} wide and were scored with horizontal lines over which text was written in about 70 characters. Even in this earliest excavation report, Evans could tell that "a certain number of quasi-pictorial characters also occur which seem to have an ideographic or determinative meaning."<ref name=repo/>
+
+The excavation was over for that year by 2 June. Evans reported: "only a comparatively small proportion of the tablets were preserved in their entirety,"<ref name=repo/> the causes of destruction being rainfall through the roof of the storage room, crumbling of small pieces, and being thrown away by workmen who failed to identify them. A report on 6 September to the [[Royal Anthropological Institute of Great Britain and Ireland]]<ref>{{cite journal|journal=Journal of the Anthropological Institute of Great Britain and Ireland|volume=XXX (New Series, III)|year=1900|first=Arthur J.|last=Evans|title=Crete: Systems of Writing|issue=90|pages=91–93 |doi=10.2307/2842725|jstor=2842725| url=https://books.google.com/books?id=q8QEAAAAYAAJ&q=Arthur+Evans+1894&pg=RA3-PA91|url-access=subscription|doi-access=free}}</ref> began to use some of the concepts characteristic of Evans's later thought: "palace of Knossos" and "palace of [[Minos]]". ''[[Appletons' Cyclopædia of American Biography]]'', 1900,<ref>{{cite encyclopedia|encyclopedia=Appletons' Annual Cyclopedia and Register of Important Events of the Year 1900|title=Archaeology: Crete|volume=Third Series, V; Whole Series, XI|pages=25–28|year=1901 | url=https://books.google.com/books?id=DEwoAAAAMAAJ&q=Arthur+Evans+1894&pg=PA25}}</ref> notes that Evans took up Stillman's theme that the palace was the [[labyrinth]] of mythology in which the half-bovine son of King Minos lurked. In the report, the tablets are now called a "linear script" as opposed to the "hieroglyphic or conventionalized pictographic script". The linear script has characters that are "of a free, upright, European character" and "seem to have been for the most part syllabic". Evans reasserts the ideographic idea: "a certain number are unquestionably ideographic or determinative."
+
+The years after 1900 were consumed by excavations at Knossos and the discovery and study by Evans of tablets, with a projected comprehensive work on Cretan scripts to be called ''Scripta Minoa''. A year before the publication of volume I, he began to drop hints that he now believed the linear script was two scripts, to be presented in the forthcoming book.
+
+In ''Scripta Minoa I'',<ref>{{cite book|title=Scripta Minoa: The Written Documents of Minoan Crete: With Special Reference to the Archives of Knossos|first=Arthur J.|last=Evans|author-link=Arthur Evans|volume=I: The Hieroglyphic and Primitive Linear Classes with an Account of the Discovery of the Pre-Phoenician Scripts, their Place in Minoan Story and their Mediterranean Relations: with Plates, Tables and Figures in the Text|location=Oxford|year=1909|publisher=The Clarendon Press|url=https://archive.org/details/scriptaminoawrit01evanuoft}}</ref> which appeared in 1909, he explained that the discovery of the [[Phaistos Disc]] in July 1908 had caused him to pull the book from the presses so that he could include the disk by permission, as it had not yet been published. On the next page<ref>''Scripta Minoa I'', page ix.</ref> he mentioned that he was also including by permission of [[Federico Halbherr]] of the [[Italian School of Archaeology at Athens|Italian Mission in Crete]] unpublished tablets from [[Hagia Triada]] written in a linear script of "Class A". To what degree if any Halbherr was responsible for Evans's division of the "linear script" into "Class A" and "Class B" is not stated. The Knossos tablets were of Class B, so that Evans could have perceived Class A only in tablets from elsewhere, and so recently that he needed permission to include the examples.
+
+Evans summarized the differences between the two scripts as "type" or "form of script"; that is, varieties in the formation and arrangement of the characters. For example, he says "the clay documents belonging to Class A show a certain approximation in their forms to those presenting the hieroglyphic inscriptions ... The system of numerals is also in some respects intermediate between that of the hieroglyphic documents and that of the linear Class B."<ref>''Scripta Minoa I'', page 36.</ref>
+
+The first volume covered "the Hieroglyphic and Primitive Linear Classes" in three parts: the "pre-Phoenician Scripts of Crete", the "Pictorial Script" and "the Phaistos Disk". One or two more volumes publishing the Linear A and Linear B tablets were planned, but Evans ran out of time; the project required more than one man could bring to it. For a good many of the years left to him, he was deeply enmeshed in war and politics in the Balkans. When he did return to Knossos, completion and publication of the palace excavations took priority. His greatest work, ''Palace of Minos'', came out in 1935. It did include scattered descriptions of tablets. He died in 1941, soon after Nazi forces [[Battle of Crete|invaded Crete]].
+
+The Knossos tablets had remained in the museum at Irakleion, Crete, where many of them now were missing. The unpublished second volume consisted of notes by Evans and plates and fonts created by Clarendon Press. In 1939, [[Carl Blegen]] had uncovered the Pylos Tablets; pressure was mounting to finish ''Scripta Minoa II.'' After Evans's death, [[Alice Kober]], assistant to [[John Myres]] and a major transcriber of the Knossos tablets, prompted Myres to come back from retirement and finish the work. [[Emmett L. Bennett, Jr.]] added more transcriptions. The second volume came out in 1952 with Evans cited as author and Myres as editor,<ref>{{cite book|title=Scripta Minoa: The Written Documents of Minoan Crete: With Special Reference to the Archives of Knossos|first=Arthur J.|last=Evans|author-link=Arthur Evans|volume=II: The Archives of Knossos: Clay Tablets Inscribed in Linear Script B Edited from Notes, and Supplemented by John L. Myres|location=Oxford|year=1952|publisher=The Clarendon Press|url=http://diglit.ub.uni-heidelberg.de/diglit/evans1952/0003/ocr?sid=c8644f1a9472ba6a583ab51c77803b6a}}</ref> just before the discovery that Linear B writes an early form of Greek. An impatient Ventris and Chadwick declared: "Two generations of scholars had been cheated of the opportunity to work constructively on the problem."<ref>''Documents in Mycenaean Greek'', page 11.</ref>
+
+
+===Early attempts===
+
+Despite the limited source materials, during this time there were efforts to decipher the newly discovered Cretan script. Australian classicist [[Florence Stawell]] published an interpretation of the Phaistos Disc in the April 1911 issue of ''[[The Burlington Magazine]]''.<ref>{{Cite journal|jstor = 858643|title = An Interpretation of the Phaistos Disk|journal = The Burlington Magazine for Connoisseurs|volume = 19|issue = 97|pages = 23–38|last1 = Stawell|first1 = F. Melian|year = 1911}}</ref> She followed this with the book ''A Clue to the Cretan Scripts'', published in 1931. Stawell declared all three Cretan script forms to represent early Homeric Greek, and offered her attempts at translations.<ref>Stawell, F. Melian, "Suggestions towards an Interpretation of the Minoan Scripts.", American Journal of Archaeology, vol. 28, no. 2, pp. 120–41, 1924</ref> Also in 1931, F. G. Gordon's ''Through Basque to Minoan'' was published by the Oxford University Press. Gordon attempted to prove a close link between the [[Basque language]] and Linear B, without lasting success.<ref>Chadwick, ''Decipherment...'' p.28</ref>
+
+In 1949, [[Bedřich Hrozný]] published ''Les Inscriptions Crétoises, Essai de déchiffrement'', a proposed decipherment of the Cretan scripts.<ref>Chsdwick, Decipherment.., pp27–8</ref> Hrozny was internationally renowned as the translator of [[Hittite language|Hittite]] [[cuneiform]] decades previously. His Minoan translations into academic French, though, proved to be considerably subjective, and incorrect.
+
+From the 1930s to 1950s there was correspondence between, and papers published by, various international academic figures. These included Johannes Sundwall, K. D. Ktistopoulos, Ernst Sittig, and [[V. I. Georgiev]].<ref>Chadwick, Decipherment pp. 30–32</ref> None of them succeeded with decipherment, yet they added to knowledge and debate.
+
+=== Alice Kober's triplets ===
+
+About the same time, [[Alice Kober]] studied Linear B and managed to construct grids, linking similar symbols in groups of threes.<ref>Fox, (2013) pp. 163–7</ref> Kober noticed that a number of Linear B words had common roots and suffixes. This led her to believe that Linear B represented an inflected language, with nouns changing their endings depending on their case. However, some characters in the middle of the words seemed to correspond with neither a root nor a suffix. Because this effect was found in other known languages, Kober surmised that the odd characters were bridging syllables, with the beginning of the syllable belonging to the root and the end belonging to the suffix. This was a reasonable assumption, since Linear B had far too many characters to be considered alphabetic and too few to be [[logogram|logographic]]; therefore, each character should represent a syllable. Kober's systematic approach allowed her to demonstrate the existence of three grammatical cases and identify several pairs of signs that shared vowels or consonants with one another.<ref name="Pope2008">{{cite book |last1=Pope |first1=Maurice |chapter=The Decipherment of Linear B |editor1-last=Duhoux |editor1-first=Yves |editor2-last=Davies |editor2-first=Anna Morpurgo |title=A Companion to Linear B: Mycenaean Texts and their World |volume=1 |location=Louvain-la-Neuve, Belgium |publisher=Peeters |date=2008 |pages=3–11 |isbn=9789042918481}}</ref><ref>[https://webdocs.cs.ualberta.ca/~hayward/crypto/kober.pdf] Kober, Alice E., "The Minoan Scripts: Fact and Theory.", American Journal of Archaeology, vol. 52, no. 1, pp. 82–103, 1948</ref>
+
+Kober also showed that the two-symbol word for 'total' at the end of livestock and personnel lists, had a different symbol for gender. This gender change with one letter, usually a vowel, is most frequent in [[Indo-European languages]].<ref>Robinson, (2002) p. 71</ref> Kober had rejected any speculation on the language represented, preferring painstaking cataloguing and analysis of the actual symbols,<ref>Fox, (2013) pp. 107–9</ref> though she did believe it likely that Linear A and Linear B represented different languages.<ref name="Pope2008" />
+
+=== Emmett L. Bennett's transcription conventions ===
+
+The convention for numbering the symbols still in use today was first devised by [[Emmett L. Bennett Jr.]] Working alongside fellow academic Alice Kober, by 1950 Bennett had deciphered the metrical system, based on his intensive study of Linear B tablets unearthed at [[Pylos]]. He concluded that those tablets contained exactly the same script as the Linear B found at Knossos, and he classified and assigned identification numbers to the Linear B signs as he prepared a publication on the Pylos tablets.<ref name="Pope2008" /> Like Kober, Bennett was also an early proponent of the idea that Linear A and B represented different languages.<ref name="Pope2008" /> His book ''The Pylos Tablets'' became a crucial resource for Michael Ventris, who later described it as "a wonderful piece of work".<ref>[https://www.telegraph.co.uk/news/obituaries/culture-obituaries/9034011/Emmett-Bennett.html Emmett L. Bennett Jr – obituary – ''Daily Telegraph'', London, 23 January 2012]</ref>
+
+=== Michael Ventris's identification as Greek ===
+[[File:Linear B tablet An 35.svg|thumb|190px|Illustration of a Linear B tablet from [[Pylos]]]]
+In 1935, the [[British School at Athens]] was celebrating its fiftieth anniversary with an exhibition at [[Burlington House]], London. Among the speakers was [[Arthur Evans]], then 84 years old; a teenage [[Michael Ventris]] was present in the audience.<ref>[https://sites.utexas.edu/scripts/files/2020/05/1993-TGP-MichaelVentrisBlueprint.pdf] Thomas G. Palaima, "Michael Ventris's Blueprint: Letters reveal how a British architect and two American scholars worked to decipher a Bronze Age script and read the earliest writings in western civilization", Discovery: Research and Scholarship at the University of Texas at Austin, 1993</ref> In 1940, the 18-year-old Ventris had an article ''Introducing the Minoan Language'' published in the ''[[American Journal of Archaeology]]''.<ref>Robinson, (2002) pp32–3</ref><ref>Ventris, M. G. F., "Introducing the Minoan Language.", American Journal of Archaeology, vol. 44, no. 4, pp. 494–520, 1940</ref> After wartime service as a navigator with [[RAF Bomber Command]], and a post-war year in occupied Germany, he returned to civilian life, and completed qualification as an architect. Ventris continued with his interest in Linear B, corresponding with known scholars, who usually but not always replied.<ref>Chadwick, ''Decipherment'' 1961 Pelican edition pp. 47–9</ref>
+
+Ventris and [[John Chadwick]], a university lecturer in Ancient Greek philology, performed the bulk of the decipherment of Linear B between 1951 and 1953. At first Ventris chose his own numbering method, but later switched to Bennett's system. His initial decipherment was achieved using Kober's classification tables, to which he applied his own theories. Some Linear B tablets had been discovered on the Greek mainland. Noticing that certain symbol combinations appeared only on the tablets found in Crete, he conjectured that these might be names of places on the island. This proved to be correct. Working with the symbols he could decipher from this, Ventris soon unlocked much text and determined that the underlying language of Linear B was in fact Greek. This contradicted general scientific views of the time, and indeed Ventris himself had previously agreed with Evans's hypothesis that Linear B was not Greek.<ref name="Pope2008" /> Ventris's first public announcement of his breakthrough came on 1 July 1952, on [[BBC Radio]], with Ventris describing the language of Linear B as "[a] difficult and archaic Greek, seeing that it's five hundred years older than Homer, and written in a rather abbreviated form, but Greek nevertheless."<ref>{{cite web |title=''In Search of the Trojan War'' Episode Two |url=https://www.youtube.com/watch?v=Uc8I2IuVxEw?t=3120 |website=YouTube |publisher=British Broadcasting Corporation |access-date=25 October 2024 |date=1985}}</ref> Ventris's discovery was of significance in demonstrating a Greek-speaking Minoan-Mycenaean culture on Crete, and thus presenting Greek in writing centuries earlier than had been previously accepted.<ref>[[Jacquetta Hawkes]] ''Dawn of the Gods'' 1972 Sphere Books pp. 49–51</ref> Chadwick, who helped Ventris develop his decipherment of the text and discover the vocabulary and grammar of Mycenaean Greek, noted:<ref>{{Cite book| publisher = Brill Archive| isbn = 978-90-04-08934-1| last1 = Best| first1 = Jan G. P.| last2 = Woudhuizen| first2 = Fred C.| title = Lost Languages from the Mediterranean| date = 1989 |url=https://books.google.com/books?id=resUAAAAIAAJ&pg=PA49}}</ref><blockquote>That any Linear B tablets are written in a language other than Greek still remains to be demonstrated; but that words and usages not exactly paralleled in later Greek occur is both certain and to be expected. But we must not resort to "non-Greek" whenever we come up against an insoluble problem.</blockquote>
+The first edition of their book, ''Documents in Mycenaean Greek'', was published in 1956, shortly after Ventris's death in an automobile accident.<ref name="Pope2008" />
+
+The Ventris decipherment did not immediately meet with universal approval,<ref>Treweek, A. P., "Chain reaction or house of cards? An examination of the validity of the Ventris decipherment", Bulletin of the Institute of Classical Studies, no. 4, pp. 10–26, 1957</ref> and was initially viewed with some scepticism.{{Sfn|Tracy|2018|pp=1-16}} Professor [[Arthur James Beattie|A. J. Beattie]] of Edinburgh published his doubts in the later 1950s. Saul Levin of the State University of New York considered that Linear B was partly Greek but with an earlier substrate, in his 1964 book ''The Linear B controversy reexamined''.<ref>{{cite book |author=Levin, Saul |author-link= |title=The Linear B Decipherment Controversy Re-examined |publisher=[[State University of New York Press]] |year=1964 |oclc=288842}}</ref> Nevertheless, starting from the mid-50s onward the Ventris discovery came to be viewed favourably by scholars, such as professors [[Carl Blegen]] and [[Sterling Dow]], which along with Ventris's 1954 article, resulted in the discovery's wide acceptance.{{Sfn|Tracy|2018|pp=1-16}}
+
+== Unicode ==
+{{main | Linear B Syllabary | Linear B Ideograms | Aegean Numbers (Unicode block) | l1 = Linear B Syllabary (Unicode block) | l2 = Linear B Ideograms (Unicode block)}}
+
+Linear B was added to the [[Unicode]] Standard in April 2003 with the release of version 4.0.
+
+The Linear B Syllabary block is U+10000–U+1007F.
+The Linear B Ideograms block is U+10080–U+100FF.
+The Unicode block for the related Aegean Numbers is U+10100–U+1013F.
+
+A variety of fonts encode Linear B.<ref name="Judson Noto">{{cite web |last1=Judson |first1=Anna P. |title=Aegean scripts in the digital age: a guide to fonts |url=https://itsallgreektoanna.wordpress.com/2021/10/07/aegean-scripts-in-the-digital-age-a-guide-to-fonts/ |website=It's All Greek To Me |access-date=20 August 2022 |language=en |date=7 October 2021}}</ref>
+
+{{Navboxes
+|title = Unicode charts for Linear B
+|list= 
+{{Unicode chart Linear B Syllabary}}
+{{Unicode chart Linear B Ideograms}}
+{{Unicode chart Aegean Numbers}}
+}}
+
+== See also ==
+{{div col|colwidth=23em}}
+*[[Aegean civilizations]]
+*[[Aegean numerals]]
+*[[Cypriot syllabary]]
+*[[Cypro-Minoan syllabary]]
+*[[Linear A]]
+*[[Old European script]]
+*[[Proto-Greek language]]
+* [[PY Ta 641]]
+*[[Trojan script]]
+*''[[The Riddle of the Labyrinth]]'', a 2013 popular book detailing the decipherment of Linear B
+{{div col end}}
+
+== Notes ==
+{{NoteFoot}}
+
+== References ==
+=== Citations ===
+{{Reflist}}
+
+=== Sources ===
+{{refbegin}}
+* Carpenter, Rhys (1957). [https://www.jstor.org/stable/1086259 "Linear B"], ''Phoenix'', Vol.&nbsp;11, No.&nbsp;2 (Summer, 1957), pp.&nbsp;47–62.
+* {{cite book |author=Chadwick, John |author-link=John Chadwick |title=The Decipherment of Linear B |edition=2nd |year=1990 |publisher=[[Cambridge University Press|Cambridge UP]] |orig-date=1958 |isbn=978-0-521-39830-5 |url=https://books.google.com/books?id=TD8YAlh_XHwC}}
+* {{cite book |author=Chadwick, John |author-link=John Chadwick |title=The Mycenaean World |publisher=[[Cambridge University Press|Cambridge UP]] |year=1976 |isbn=978-0-521-29037-1 |url=https://archive.org/details/mycenaeanworld00chad}}
+* {{cite book |author=Chadwick, John |author-link=John Chadwick |title=Linear B and Related Scripts; "Reading the Past" |publisher=Third impression (1997). [[University of California Press]]/[[British Museum]] |year=1987 |isbn=978-0-520-06019-7}} has the [[Enkomi (archaeological site)|Enkomi]] clay tablet, circa 1500 BCE., examples of Linear B tablets, and translated, the basic Linear B ''syllabary'', the Cypriot ''syllabary'' and discussions thereof, and short sections on [[Linear A]], and the [[Phaistos Disk]].
+* {{cite book |author=Fox, Margalit |author-link=Margalit Fox |year=2013 |title=The Riddle of the Labyrinth: The Quest to Crack an Ancient Code |publisher=[[Ecco Press|Ecco]] |isbn=978-0062228833}}
+* {{cite book |first1=John |last1=Forsdyke |title=Greece before Homer, Ancient Chronology and Mythology |year=1957 |publisher=Norton |location=New York |access-date= }} 
+* {{cite book |author=McDorman, Richard E. |title=Language and the Ancient Greeks and On the Decipherment of Linear B (A Pair of Essays) |year=2010 |publisher=Richard E. McDorman |isbn=978-0-9839112-3-4}}
+* [https://sites.utexas.edu/scripts/files/2020/05/1996-TGP-ContiguitiesInTheLinearBTabletsFromPylos.pdf] T. G. Palaima, "Contiguities' in the Linear B Tablets from Pylos", in E. de Miro, L. Godart, A. Sacconi eds., Atti e memorie del secondo congresso interazionale di micenologia (Rome 1996) pp.&nbsp;379–396, 1996
+* [[Thomas G. Palaima|Palaima, Thomas G.]], [http://www.utexas.edu/research/pasp/publications/pdf/unlocking.pdf "Unlocking the Secrets of Ancient Writing: The Parallel Lives of Michael Ventris and Linda Schele and the Decipherment of Mycenaean and Mayan Writing"], [[University of Texas at Austin]], Eleventh International Mycenological Colloquium, 2000.
+* Robinson, Andrew ''The Man Who Deciphered Linear B: the story of Michael Ventris'' (2002) Thames & Hudson {{ISBN|0500510776}} 
+* {{cite book |author=Singh, Simon |author-link=Simon Singh |publisher=Anchor |title=The Code Book |year=2000 |isbn=978-0-385-49532-5 |title-link=The Code Book}} for a general outline of the Linear B deciphering story, from Schliemann to Chadwick.
+* {{Cite journal |last=Tracy |first=Stephen V. |date=2018 |title=The Acceptance of the Greek Solution for Linear B |journal=Hesperia: The Journal of the American School of Classical Studies at Athens |volume=87 |issue=1 |pages=1–16 |doi=10.2972/hesperia.87.1.0001 |issn=0018-098X}}
+* {{cite book |author=Ventris, Michael |author-link=Michael Ventris |title=Work notes on Minoan language research and other unedited papers |publisher=Edizioni dell'Ateneo 1988 Roma |year=1988}}
+* {{cite book |author-link=Michael Ventris |last1=Ventris |first1=Michael |last2=Chadwick |first2=John |title=Documents in Mycenaean Greek |edition=Second |year=1973 |publisher=[[Cambridge University Press]] |location=Cambridge |isbn=978-0-521-08558-8}}
+* Ventris, Michael; Chadwick, John (1953) [https://www.jstor.org/stable/628239 "Evidence for Greek Dialect in the Mycenaean Archives"], ''The Journal of Hellenic Studies'', Vol.&nbsp;73, (1953), pp.&nbsp;84–103.
+* {{cite book |last=Wiseman |first=Rob |author-link= |date=2010 |title=A Mycenaean Iliad: A linguistic reconstruction of the opening one hundred lines of the Iliad in Normal Mycenaean |location=[[London]], [[United Kingdom]] |publisher= }}
+{{refend}}
+
+==Further reading==
+{{refbegin}}
+*Bakker, Egbert J., ed., "A companion to the Ancient Greek language", Oxford: Wiley-Blackwell, 2010 {{ISBN|978-1405153263}}
+*Bennet, John, "Knossos in Context: Comparative Perspectives on the Linear B Administration of LM II-III Crete", American Journal of Archaeology, vol. 94, no. 2, pp.&nbsp;193–211, 1990
+*Bennett, E.L., "Names for Linear B Writing and for its Signs", Kadmos 2, pp.&nbsp;98–123, 1963
+*Bennett, E.L., "Linear B Sematographic Signs", Minos Revista de filología egea 1, pp.&nbsp;55–72, 1972
+*Chadwick, John, [https://archive.org/download/ChadwickJohnTheDeciphermentOfLinearB1958/Chadwick-John-The-Decipherment-of-Linear-B-1958.pdf "The decipherment of Linear B"], Cambridge, UK: Cambridge University Press, 1958
+*Christidis, Anastasios-Phoivos, ed., "A history of Ancient Greek: From the beginnings to Late Antiquity", Cambridge, UK: Cambridge University Press, 2007 {{ISBN|978-0521833073}} 
+*Colvin, Stephen C., "A historical Greek reader: Mycenaean to the koiné", Oxford: Oxford University Press, 2007 {{ISBN|978-0199226597}} 
+*Morpurgo Davies, Anna, and Yves Duhoux, eds., "Linear B: A 1984 survey", Louvain, Belgium: Peeters, 1985
+*Duhoux, Yves, and Anna Morpurgo Davies, eds., "A companion to Linear B: Mycenaean Greek texts and their world", Vol. 1, Louvain, Belgium: Peeters, 2008
+* {{cite book |last1=Ferrara |first1=Silvia |editor1-last=Bakker |editor1-first=Egbert J. |title=A Companion to the Ancient Greek Language |date=2010 |publisher=Wiley-Blackwell |chapter=Mycenaean texts: The Linear B Tablets}}
+*Fox, Margalit, "The Riddle of the Labyrinth", HarperCollins Publishers Inc. New York, NY, 2013
+*Freo, M. D., Nosch, M.-L., & Rougemont, F., "The Terminology of Textiles in the Linear B Tablets, including Some Considerations on Linear A Logograms and Abbreviations", in C. Michel & M.-L. Nosch (Eds.). Textile Terminologies in the Ancient Near East and Mediterranean from the Third to the First Millennnia BC, (Vol. 8), Oxbow Books, pp.&nbsp;338–373, 2010
+*Halstead, Paul, "Late Bronze Age Grain Crops and Linear B Ideograms *65, *120, and *121", The Annual of the British School at Athens, vol. 90, pp.&nbsp;229–34, 1995
+*Horrocks, Geoffrey, "Greek: A history of the language and its speakers", 2nd ed., Oxford: Wiley-Blackwell, 2010 {{ISBN|978-1405134156}} 
+*Judson, Anna P., "The Undeciphered Signs of Linear B: Interpretation and Scribal Practices", Cambridge: Cambridge University Press, 2020 {{ISBN|978-1108494724}} 
+*Judson, Anna P., [https://www.cambridge.org/core/services/aop-cambridge-core/content/view/50556D5B86414A3958575FB2C24B6FD1/S1750270522000057a.pdf/div-class-title-learning-to-spell-in-linear-b-orthography-and-scribal-training-in-mycenaean-pylos-div.pdf "Learning to spell in Linear B: orthography and scribal training in Mycenaean Pylos"], The Cambridge Classical Journal, pp.&nbsp;1–31, 2022
+*Owens, Gareth, "Was Se-To-I-Ja at Archanes?", KADMOS, vol. 33, no. 1, pp.&nbsp;22–28, 1994
+*Palaima, Thomas G., "The development of the Mycenaean writing system", in Texts, tablets and scribes Edited by J. P. Olivier and T. G. Palaima, Suplementos a "Minos" 10. Salamanca, Spain: Consejo Superior de Investigaciones Científicas, pp.&nbsp;269–342, 1988
+*Palmer, Leonard R., "The Greek language", London: Faber & Faber, 1980 {{ISBN|978-0571113903}}
+*Ruijgh, C.J., "Études sur la grammaire et le vocabulaire du grec mycénien", Amsterdam: Adolf M. Hakkert, 1967
+*Salgarella, Ester, [https://www.repository.cam.ac.uk/handle/1810/299992 "Drawing lines: The palaeography of Linear A and Linear B"], Kadmos, vol. 58, no. 1–2, pp.&nbsp;61–92, 2019 {{doi|10.1515/kadmos-2019-0004}}
+*E. Salgarella, "Aegean Linear Script(s). Rethinking the Relationship Between Linear A and Linear", Cambridge: Cambridge University Press, 2020 {{ISBN|978-1-108-47938-7}}
+*[https://ejournals.lib.uoc.gr/Ariadne/article/download/1861/1770] Salgarella, Ester, and Anna P. Judson, "Signs of the times? Testing the chronological significance of Linear A and B palaeography", Ariadne, pp.&nbsp;359–379, 2025
+*Srivatsan, Nikita, et al., [https://arxiv.org/pdf/2108.04199.pdf "Neural Representation Learning for Scribal Hands of Linear B"], International Conference on Document Analysis and Recognition, Springer, Cham, 2021
+*Ventris, Michael, and John Chadwick, [https://archive.org/details/in.gov.ignca.17617/page/n6/mode/1up "Documents in Mycenaean Greek"], 2nd ed. Cambridge, UK: Cambridge University Press, 1959
+*Young, Douglas, "Is Linear B Deciphered?", Arion: A Journal of Humanities and the Classics, vol. 4, no. 3, pp.&nbsp;512–42, 1965
+* {{cite book |title=The New Documents in Mycenaean Greek: Volume 1: Introductory Essays |date=2024 |volume=1 |publisher=Cambridge University Press |doi=10.1017/9781139029049 |isbn=978-0-521-83812-2 |url=https://www.cambridge.org/core/books/new-documents-in-mycenaean-greek/49509DDFDB61F3FE1FA2C0E428ADCEAD |editor= John Killen}}
+{{refend}}
+
+==External links==
+{{Commons category|Linear B}}
+{{Wiktionary|Category:Mycenaean Greek nouns}}
+{{Library resources box |by=no |onlinebooks=yes |others=yes |about=yes |label=Linear B
+  |viaf= |lccn= |lcheading= |wikititle= }}
+* [https://greekreporter.com/2022/04/20/minoan-language-linear-a-linear-b/ Minoan Language Linear A Linked to Linear B in Groundbreaking Research – Greek Reporter – 20 April 2022]
+* {{cite web|first=Simon|last=Ager|url=https://www.omniglot.com/writing/linearb.htm|title= Linear B|publisher=Omniglot|access-date=6 January 2009|date=1998–2009}}
+* {{cite web|url=https://fonts.google.com/noto/specimen/Noto+Sans+Linear+B|title=Google Noto Fonts: Beautiful and free fonts for all languages: Linear B}}
+* {{cite web|title=DĀMOS: Database of Mycenaean at Oslo|url=https://damos.hf.uio.no/|publisher=[[University of Oslo]]|first1=Federico|last1=Aurora|first2=Dag Trygve Truslew|last2=Haug|others=et al.}}
+*{{cite news|last=Fox|first=Margalit|title=Alice E. Kober, 43; Lost to History No More |work=The New York Times |date=11 May 2013|url=https://www.nytimes.com/2013/05/12/sunday-review/alice-e-kober-43-lost-to-history-no-more.html?pagewanted=all&_r=0 |access-date=13 May 2013}}
+* [https://linear-b.kinezika.com Linear B online transliterator]
+* [https://mwenge.github.io/linearb.xyz Linear B Explorer]
+* {{cite web|url=https://www.wazu.jp/gallery/Fonts_LinearBSyllabary.html|first1=David|last1=McCreedy|last2=Weiss|first2=Mimi|title=Gallery of Unicode Fonts: Linear B Syllabary|publisher=WAZU, Japan|access-date=11 January 2009}}
+* Palaeolexicon – {{cite web|publisher=Palaeolexicon.com|url=https://www.palaeolexicon.com|title=Word study tool of Ancient languages, including Linear B}}
+* {{cite book|first1=Thomas G.|last1=Palaima|first2=Elizabeth I.|last2=Pope|first3=F. Kent|last3=Reilly III|title=The Parallel Lives of Michael Ventris and Linda Schele and the Decipherment of Mycenaean and Mayan Writing|year=2000|publisher=University of Texas|location=Austin|url=http://www.utexas.edu/research/pasp/publications/pdf/unlocking.pdf|access-date=13 January 2009|isbn=978-0-9649410-4-5}}
+* {{cite web|last=Raymoure|first=K.A.|url=http://minoan.deaditerranean.com/linear-b-transliterations/|title=Linear B Transliterations| work=Minoan Linear A & Mycenaean Linear B|publisher=Deaditerranean|year=2012|archive-url=https://web.archive.org/web/20160318004206/http://minoan.deaditerranean.com/linear-b-transliterations/|archive-date=18 March 2016}}
+* [https://sites.dartmouth.edu/aegean-prehistory/ The Prehistoric Archaeology of the Aegean – The Foundation of the Hellenic World] at [[Dartmouth College]]
+* {{cite web|title=LiBER – Linear B Electronic Resources Portal|url=https://liber.cnr.it/|publisher=[[National Research Council (Italy)|Consiglio Nazionale delle Ricerche, CNR]]|first1=Maurizio|last1=Del Freo|first2=Francesco|last2=Di Filippo}}
+*[https://phys.org/news/2024-10-archive-ancient-greek-language.html Archive tells of cracking ancient Greek language - Michael Miller, University of Cincinnati - 10 October 2024 - Phys.org ]
+
+{{list of writing systems}}
+{{Greek language}}
+{{Authority control}}
+{{Minoan civilization}}
+
+[[Category:Linear B| ]]
+[[Category:2nd-millennium BC introductions]]
+[[Category:Mycenaean Greek]]
+[[Category:Clay tablets]]
+[[Category:Hellenic scripts]]
+[[Category:Syllabary writing systems]]
+[[Category:Bronze Age writing systems]]
+[[Category:Aegean languages in the Bronze Age]]
+[[Category:Mycenaean Crete]]
+[[Category:1900 archaeological discoveries]]
+[[Category:Obsolete writing systems]]
+[[Category:History of the Greek language]]
