@@ -93,6 +93,22 @@ def benchmark_sections(r):
             {"heading": "Best and worst", "table": _t(["Type", "Cipher", "Length", "Symbols", "Word coverage", "Output"], [[x["folder"], x["name"], x["length"], x["symbols"], f"{x['coverage']:.0%}", x["reading"][:60]] for x in sorted(r["rows"], key=lambda x: -x["coverage"])[:14]])}]
 
 
+def _wide():
+    """Round 34: columnar keys of width 8 to 16."""
+    import json
+
+    from ..languages import ROOT
+    path = ROOT / "data/results/figaro_wide.json"
+    if not path.exists():
+        return []
+    r = json.loads(path.read_text())
+    c80, c120 = r["control"]["80 letters"], r["control"]["120 letters"]
+    best = max(r["rows"], key=lambda x: x["coverage"], default=None)
+    return [{"heading": "Wide columnar keys (width 8 to 16)", "paragraphs": [
+        f"Hill-climbing tried every width from 8 to 16 that leaves at least three rows, in both directions, on the {r['tested']} unsolved ads of 80 letters or more. Control on planted French texts: {r['control_solved']} of {r['control_n']} recovered; at 80 letters widths 8 and 10 recover {c80['8'][0] + c80['10'][0]} of {c80['8'][1] + c80['10'][1]} and width 16 {c80['16'][0]} of {c80['16'][1]}; at 120 letters width 14 recovers {c120['14'][0]} of {c120['14'][1]}.",
+        f"No ad passed. A reading needed {r['coverage_gate']:.0%} of its letters in French words (reached by 90% of solved controls) and to beat four shuffled copies of itself climbed the same way. The best ad reached {best['coverage'] if best else 0:.0%}, and the winning width was nearly always the widest allowed, the sign of a search fitting noise. Columnar transposition alone, at these widths, is unlikely for these ads; combined with substitution, or with a route other than columns, remains untested."]}]
+
+
 def _correspondences():
     """Ads under one documented table, checked against their scans, in date order."""
     import json
@@ -112,4 +128,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _wide()

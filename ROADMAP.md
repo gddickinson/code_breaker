@@ -67,7 +67,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 33 | Audio Signals: DTMF, Morse and APRS (AX.25 over AFSK), control 18 of 18 on two seeds, 0 of 8 noise decoded; NEC and RC5 infrared in the Logic Analyser (80 of 80, eight protocols) | completed 2026-11-09 |
 | 33b | Aircraft (ADS-B): published worked examples matched; single-bit repair; every aircraft decoded at low noise, 0 false frames from noise. Barcodes: EAN-13 30 of 30 under damage, QR 23 of 30, no wrong EANs; codes read in the File Inspector | completed 2026-11-09 |
 | 33c | Barcodes & QR page (user request): explanations of linear, stacked and matrix codes and their history; 14 symbologies made and read back (zxing-cpp), QR anatomy, EAN check digit; damage test orders levels H > Q > M > L; zxing, OpenCV and the own EAN reader cross-checked | completed 2026-11-09 |
-| 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
+| 34 | Wide columnar keys (width 8 to 16) by hill-climbing, both directions, on 34 Le Figaro ads of 80+ letters. Control 45 of 60 (80 letters: widths 8-10 12 of 12, width 16 1 of 6; 120 letters: width 14 5 of 6). No ad passed: best 23% French-word coverage against a 65% gate | completed 2026-11-09 |
+| 35 | Transposition plus substitution on the long Le Figaro ads (widths 8-16 with a substitution layer), and route transpositions, each with a control near 100 letters | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -267,4 +268,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - segno raises the error level by default when it fits in the same version (`boost_error`), so an "M" code can really be "Q". Pass `boost_error=False` whenever the level is the thing being measured.
 - Scattered single-module noise defeats a QR code at about 1 to 3 per cent even at level H, because each speck spoils a different codeword and some hit the finders or format bits. A contiguous blot is the case error correction is designed for: L survived a 2 per cent blot, M 6, Q 10, H 18 (median of 8 placements).
 - zxing-cpp reports UPC-A as EAN-13 with a leading zero and UPC-E in its expanded form; tests should compare digits, not formats.
+
+## Added 2026-11-09: Round 34
+- coverage() counts upper-case text only; a lower-case reading scores 0 and silently disabled the word gate on the first run. A test now pins it.
+- In the reverse direction (columns written, rows read), the best key often gives the right text rotated or in reordered blocks. Score a control by shared 6-letter runs, not by position.
+- Below about 80 letters, wide keys overfit: the wrong key scores above the true one. When every width is allowed, the widest wins on noise, so the null must be climbed over the same widths.
+- New ideas: transposition followed by substitution; route transpositions at wide widths.
 
