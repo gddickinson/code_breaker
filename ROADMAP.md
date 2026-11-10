@@ -66,6 +66,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 32b | Video Signals: VGA (five standard modes) and monochrome composite rebuilt from samples; control 36 of 36, mean match 0.945, 0 of 10 noise signals decoded | completed 2026-11-09 |
 | 33 | Audio Signals: DTMF, Morse and APRS (AX.25 over AFSK), control 18 of 18 on two seeds, 0 of 8 noise decoded; NEC and RC5 infrared in the Logic Analyser (80 of 80, eight protocols) | completed 2026-11-09 |
 | 33b | Aircraft (ADS-B): published worked examples matched; single-bit repair; every aircraft decoded at low noise, 0 false frames from noise. Barcodes: EAN-13 30 of 30 under damage, QR 23 of 30, no wrong EANs; codes read in the File Inspector | completed 2026-11-09 |
+| 33c | Barcodes & QR page (user request): explanations of linear, stacked and matrix codes and their history; 14 symbologies made and read back (zxing-cpp), QR anatomy, EAN check digit; damage test orders levels H > Q > M > L; zxing, OpenCV and the own EAN reader cross-checked | completed 2026-11-09 |
 | 34 | Transposition keys wider than 7 by hill-climbing, with controls | pending |
 
 ## Lessons learned
@@ -261,4 +262,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Published worked examples pin the decoder (KLM1023; 52.2572 N, 3.91937 E at 38,000 ft; 159.2 kt, 182.88 degrees, -832 ft/min); my own encoder was wrong (a missing 3-bit field) and only the round trip showed it.
 - In EAN-13 the right-hand patterns are the left-hand ones inverted, so they share bar widths: one lookup table silently swallowed half the code. Side decides the table.
 - OpenCV 5's barcode detector missed even clean EAN-13 images here, so a scanline reader written from the specification replaced it.
+
+## Added 2026-11-09: Barcodes & QR page
+- segno raises the error level by default when it fits in the same version (`boost_error`), so an "M" code can really be "Q". Pass `boost_error=False` whenever the level is the thing being measured.
+- Scattered single-module noise defeats a QR code at about 1 to 3 per cent even at level H, because each speck spoils a different codeword and some hit the finders or format bits. A contiguous blot is the case error correction is designed for: L survived a 2 per cent blot, M 6, Q 10, H 18 (median of 8 placements).
+- zxing-cpp reports UPC-A as EAN-13 with a leading zero and UPC-E in its expanded form; tests should compare digits, not formats.
 

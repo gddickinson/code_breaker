@@ -35,7 +35,7 @@ def qr_image(text: str, scale: int = 8) -> np.ndarray:
 
 
 def read_codes(img: np.ndarray) -> list[dict]:
-    """Every QR code and linear barcode OpenCV finds; EAN and UPC results that fail their check digit are dropped."""
+    """Every code OpenCV, the own EAN reader and zxing-cpp find; EAN and UPC results that fail their check digit are dropped."""
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY) if img.ndim == 3 else img
     out = []
     try:
@@ -46,6 +46,17 @@ def read_codes(img: np.ndarray) -> list[dict]:
         pass
     for code in scan_ean(gray):
         out.append({"type": "EAN-13", "text": code})
+    try:  # zxing-cpp adds Data Matrix, Aztec, PDF417, Code 128 and the rest (see symbology.py)
+        import zxingcpp
+
+        found = {c["text"] for c in out}
+        for r in zxingcpp.read_barcodes(gray):
+            name = str(r.format).split(".")[-1]
+            if r.text and r.text not in found and not (name in ("EAN-13", "UPC-A", "EAN13", "UPCA") and not ean_valid(r.text.zfill(13))):
+                out.append({"type": "QR code" if name in ("QRCode", "QR Code") else name, "text": r.text})
+                found.add(r.text)
+    except ImportError:
+        pass
     seen, unique = set(), []
     for c in out:
         if (c["type"], c["text"]) not in seen:
