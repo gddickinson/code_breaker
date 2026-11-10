@@ -74,3 +74,42 @@ def climb_wide(ct, k, table, iters, restarts, seed, inverse):
         if top > best:
             best, best_perm = top, top_p
     return best_perm, best
+
+
+@njit(cache=True)
+def _qs_mapped(t, key, table):
+    m = np.empty(len(t), dtype=np.int32)
+    for i in range(len(t)):
+        m[i] = key[t[i]]
+    return quad_score(m, table)
+
+
+@njit(cache=True)
+def anneal_joint(ct, k, table, iters, restarts, seed, inverse):
+    """Anneal a columnar key of width k and a one-to-one substitution together; returns (perm, key, score)."""
+    np.random.seed(seed)
+    best_p, best_k, best = np.arange(k), np.arange(26).astype(np.int32), -1e18
+    for _ in range(restarts):
+        perm = np.random.permutation(k)
+        key = np.random.permutation(26).astype(np.int32)
+        t = _apply(ct, perm, inverse)
+        cur = _qs_mapped(t, key, table)
+        for i in range(iters):
+            temp = max(0.2, 8.0 * (1.0 - i / iters))
+            if np.random.random() < 0.25:
+                new_p = _neighbour(perm)
+                nt = _apply(ct, new_p, inverse)
+                s = _qs_mapped(nt, key, table)
+                if s >= cur or np.random.random() < np.exp((s - cur) / temp):
+                    perm, t, cur = new_p, nt, s
+            else:
+                a, b = np.random.randint(26), np.random.randint(26)
+                key[a], key[b] = key[b], key[a]
+                s = _qs_mapped(t, key, table)
+                if s >= cur or np.random.random() < np.exp((s - cur) / temp):
+                    cur = s
+                else:
+                    key[a], key[b] = key[b], key[a]
+            if cur > best:
+                best, best_p, best_k = cur, perm.copy(), key.copy()
+    return best_p, best_k, best

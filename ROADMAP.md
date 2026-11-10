@@ -68,7 +68,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 33b | Aircraft (ADS-B): published worked examples matched; single-bit repair; every aircraft decoded at low noise, 0 false frames from noise. Barcodes: EAN-13 30 of 30 under damage, QR 23 of 30, no wrong EANs; codes read in the File Inspector | completed 2026-11-09 |
 | 33c | Barcodes & QR page (user request): explanations of linear, stacked and matrix codes and their history; 14 symbologies made and read back (zxing-cpp), QR anatomy, EAN check digit; damage test orders levels H > Q > M > L; zxing, OpenCV and the own EAN reader cross-checked | completed 2026-11-09 |
 | 34 | Wide columnar keys (width 8 to 16) by hill-climbing, both directions, on 34 Le Figaro ads of 80+ letters. Control 45 of 60 (80 letters: widths 8-10 12 of 12, width 16 1 of 6; 120 letters: width 14 5 of 6). No ad passed: best 23% French-word coverage against a 65% gate | completed 2026-11-09 |
-| 35 | Transposition plus substitution on the long Le Figaro ads (widths 8-16 with a substitution layer), and route transpositions, each with a control near 100 letters | pending |
+| 35 | Transposition then substitution on the long Le Figaro ads: 8 routes at widths 2-20 (control 30 of 32 at 80-100 letters) and columnar keys of width 4-12 annealed jointly with the substitution (control 22 of 24; width 10 needs about 150 letters). 34 and 20 ads tested, none passed. Known candidates KP 6 Nov 1896 and 15 Jul 1896 recovered again by substitution alone | completed 2026-11-09 |
+| 36 | Pool ads by signature (1877 VTA series and others) for a shared key across ads; filter abbreviated plain French out of cipher searches | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -274,4 +275,10 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - In the reverse direction (columns written, rows read), the best key often gives the right text rotated or in reordered blocks. Score a control by shared 6-letter runs, not by position.
 - Below about 80 letters, wide keys overfit: the wrong key scores above the true one. When every width is allowed, the widest wins on noise, so the null must be climbed over the same widths.
 - New ideas: transposition followed by substitution; route transpositions at wide widths.
+
+## Added 2026-11-09: Round 35
+- Counting repeated letter pairs (which substitution leaves alone) does not find a columnar key at 100-250 letters: wrong keys score above the true one. Annealing the key and the substitution together does, from about 100 letters at width 8.
+- Some routes are the identity on some widths (diagonals of a 2-wide grid). Every generated order is now checked against the identity, or a substitution-only solve is reported as a transposition.
+- Abbreviated plain French (the B4 ads: pens, souf, bonh) has word coverage near 0.3 and slips past a plain-text filter set at 0.35. A high score is not a find until the raw text has been looked at.
+- Re-finding known candidates from a different pipeline is a cheap end-to-end check.
 
