@@ -8,15 +8,15 @@ import random
 import numpy as np
 
 from ..languages import ROOT
-from . import logic_bus as B, logic_decode as D, logic_synth as S
+from . import logic_bus as B, logic_decode as D, logic_synth as S, logic_usb as U
 
 RESULT = ROOT / "data/results/logic_control.json"
 MAX_SAMPLES = 20_000_000
 
 
 # How hard each protocol's own checks are to pass by chance: a CRC-15 almost never; two framing bits per UART byte often.
-NEEDED = {"CAN": 1, "I2C": 2}  # units needed before the evidence counts fully
-EVIDENCE = {"CAN": 1.4, "I2C": 1.2, "1-Wire": 1.2, "SPI": 1.1, "UART": 1.0}
+NEEDED = {"CAN": 1, "I2C": 2, "USB": 2}  # units needed before the evidence counts fully
+EVIDENCE = {"USB": 1.4, "CAN": 1.4, "I2C": 1.2, "1-Wire": 1.2, "SPI": 1.1, "UART": 1.0}
 
 
 def looks_like_clock(x: np.ndarray) -> bool:
@@ -32,7 +32,10 @@ def _score(r: dict, ch: dict) -> float:
     """Share of decoded units that pass the protocol's checks, weighted by how strong those checks are."""
     n = len(r.get("bytes", []))
     p = r["protocol"]
-    if p == "CAN":
+    if p == "USB":
+        n = len(r.get("packets", []))
+        ok = sum(1 for x in r.get("packets", []) if x.get("ok") and "error" not in x)
+    elif p == "CAN":
         n = len(r.get("frames", []))
         ok = sum(f["crc_ok"] for f in r.get("frames", []))
     elif p == "1-Wire":
@@ -60,6 +63,7 @@ def identify(ch: dict, rate: float) -> list[dict]:
         trials += [(D.uart(ch[a], rate), {"RX": a}), (B.can(ch[a], rate), {"CAN": a}), (B.onewire(ch[a], rate), {"DQ": a})]
     for a, b in itertools.permutations(names, 2):
         trials.append((D.i2c(ch[a], ch[b], rate), {"SCL": a, "SDA": b}))
+        trials.append((U.decode(ch[a], ch[b], rate), {"D+": a, "D-": b}))
     # A chip-select line may change only twice, so it is chosen from every channel that changes at all.
     selects = [k for k, v in ch.items() if len(D.edges(D.debounce(v))) >= 2]
     if len(selects) >= 3 and names:
@@ -91,6 +95,9 @@ def example(kind: str, message: str = "Code Breaker", glitches: int = 3, seed: i
     if kind == "can":
         frames = [(0x100 + i, data[i:i + 8]) for i in range(0, len(data), 8)]
         return S.can(frames, 250000).sample(4e6, rnd, 0, glitches), 4e6, {"protocol": "CAN", "settings": "250 kbit/s"}
+    if kind == "usb":
+        packets = [(0x9, 3, 1), (0xB, 0, 0, data[:64]), (0x2,)]
+        return U.transaction(packets, "full").sample(48e6, rnd, 0, glitches), 48e6, {"protocol": "USB", "settings": "full speed, address 3, endpoint 1"}
     return S.onewire(data).sample(1e6, rnd, 0, 0), 1e6, {"protocol": "1-Wire", "settings": "standard speed"}
 
 
@@ -132,11 +139,11 @@ def waveform(ch: dict, rate: float, points: int = 3000) -> dict:
     return {"channels": out, "duration": len(next(iter(ch.values()))) / rate}
 
 
-def control(trials: int = 50, seed: int = 9) -> dict:
+def control(trials: int = 60, seed: int = 9) -> dict:
     rnd, rows = random.Random(seed), []
-    kinds = ["uart", "spi", "i2c", "can", "onewire"]
+    kinds = ["uart", "spi", "i2c", "can", "onewire", "usb"]
     for t in range(trials):
-        kind = kinds[t % 5]
+        kind = kinds[t % len(kinds)]
         msg = "".join(rnd.choice("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ") for _ in range(rnd.randint(6, 20)))
         ch, rate, truth = example(kind, msg, rnd.randint(0, 4), t)
         ranked = identify(ch, rate)
@@ -154,6 +161,6 @@ def reliability() -> dict:
 
 def analyse(ch: dict, rate: float, truth: dict | None = None) -> dict:
     ranked = identify(ch, rate)
-    keep = ("protocol", "score", "wiring", "baud", "bitrate", "mode", "inverted", "parity", "errors", "messages", "frames", "resets", "presence")
+    keep = ("protocol", "score", "wiring", "baud", "bitrate", "mode", "inverted", "parity", "errors", "messages", "frames", "resets", "presence", "speed", "packets")
     rows = [{k: r[k] for k in keep if k in r} | {"text": text_of(r), "hex": " ".join(f"{b['value']:02X}" for b in r.get("bytes", [])[:256]), "marks": [[round(b["t"], 9), b["value"], b["ok"]] for b in r.get("bytes", [])[:400]]} for r in ranked[:6]]
     return {"rate": rate, "channels": list(ch), "ranking": rows, "wave": waveform(ch, rate), "truth": truth or {}, "reliability": reliability()}

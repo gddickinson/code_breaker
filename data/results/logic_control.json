@@ -1,7 +1,7 @@
 {
- "trials": 50,
- "protocol_ok": 50,
- "bytes_ok": 50,
+ "trials": 60,
+ "protocol_ok": 60,
+ "bytes_ok": 60,
  "rows": [
   {
    "kind": "UART",
@@ -34,32 +34,8 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
+   "kind": "USB",
+   "got": "USB",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -94,32 +70,8 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
+   "kind": "USB",
+   "got": "USB",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -154,32 +106,8 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
+   "kind": "USB",
+   "got": "USB",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -214,32 +142,8 @@
    "bytes_ok": true
   },
   {
-   "kind": "UART",
-   "got": "UART",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "SPI",
-   "got": "SPI",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "I2C",
-   "got": "I2C",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "CAN",
-   "got": "CAN",
-   "protocol_ok": true,
-   "bytes_ok": true
-  },
-  {
-   "kind": "1-Wire",
-   "got": "1-Wire",
+   "kind": "USB",
+   "got": "USB",
    "protocol_ok": true,
    "bytes_ok": true
   },
@@ -274,6 +178,12 @@
    "bytes_ok": true
   },
   {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
    "kind": "UART",
    "got": "UART",
    "protocol_ok": true,
@@ -300,6 +210,156 @@
   {
    "kind": "1-Wire",
    "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "UART",
+   "got": "UART",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "SPI",
+   "got": "SPI",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "I2C",
+   "got": "I2C",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "CAN",
+   "got": "CAN",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "1-Wire",
+   "got": "1-Wire",
+   "protocol_ok": true,
+   "bytes_ok": true
+  },
+  {
+   "kind": "USB",
+   "got": "USB",
    "protocol_ok": true,
    "bytes_ok": true
   }

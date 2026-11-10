@@ -3,7 +3,7 @@ import numpy as np
 import pytest
 from fastapi.testclient import TestClient
 
-from codebreaker.signals import logic_bus as B, logic_decode as D, logic_service as L, logic_synth as S
+from codebreaker.signals import logic_bus as B, logic_decode as D, logic_service as L, logic_synth as S, logic_usb as U
 from codebreaker.web.app import app
 
 client = TestClient(app)
@@ -53,7 +53,7 @@ def test_onewire_reset_presence_and_bytes():
     assert r["resets"] == 1 and r["presence"] == 1 and text(r) == b"\x33\x28"
 
 
-@pytest.mark.parametrize("kind", ["uart", "spi", "i2c", "can", "onewire"])
+@pytest.mark.parametrize("kind", ["uart", "spi", "i2c", "can", "onewire", "usb"])
 def test_identify_names_the_protocol(kind):
     ch, rate, truth = L.example(kind, "IDENTIFY ME 7", 3, 5)
     best = L.identify(ch, rate)[0]
@@ -74,3 +74,23 @@ def test_recorded_control_and_api():
     assert rel["bytes_ok"] >= 0.9 * rel["trials"]
     r = client.post("/api/signals/logic", json={"example": "can", "message": "API test"}).json()
     assert r["ranking"][0]["protocol"] == "CAN" and r["ranking"][0]["text"] == "API test"
+
+
+def test_usb_crcs_match_the_published_check_values():
+    assert U.crc5(U.lsb_bits(b"123456789")) == 0x19 and U.crc16(b"123456789") == 0xB4C8
+
+
+@pytest.mark.parametrize("speed,rate", [("full", 48e6), ("low", 12e6)])
+def test_usb_transaction_with_bit_stuffing(speed, rate):
+    data = bytes([0xFF] * 6 + [0x00, 0x7E])
+    ch = U.transaction([(0xD, 9, 0), (0x3, 0, 0, data), (0x2,)], speed).sample(rate, rnd, 0, 2)
+    r = U.decode(ch["D+"], ch["D-"], rate)
+    assert r["speed"] == speed and r["errors"] == 0
+    assert [p["pid"] for p in r["packets"]] == ["SETUP", "DATA0", "ACK"] and r["packets"][0]["addr"] == 9
+    assert bytes(r["packets"][1]["data"]) == data
+
+
+def test_usb_crc16_catches_a_damaged_byte():
+    bits = U.packet_bits(0x3, data=b"ABC")
+    bits[30] ^= 1
+    assert U._decode_packet(bits)["ok"] is False

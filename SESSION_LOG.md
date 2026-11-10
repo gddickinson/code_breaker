@@ -189,3 +189,6 @@ Process lesson: a commit chained after `pytest | tail` went through with a faili
 ## 2026-11-09: README (user request)
 Wrote README.md (there was none) with 14 screenshots in docs/images, taken from the running app by a scripted headless Chrome: library, Workbench cracking a Vigenere, Enigma, the Le Figaro correspondence, Solutions, the Viterbi simulation, the Signal Workbench (Kinect depth), Logic Analyser (CAN), Sound Lab, File Inspector, Live Devices (simulated GPS only, so no personal device names appear), Recovering Data, the cube and Codes in Nature. Figures quoted come from the database and results files.
 
+## 2026-11-09: Round 31b
+The Logic Analyser decodes USB low and full speed from D+ and D-: idle state gives the speed, NRZI and bit stuffing are undone, and every packet's PID complement, CRC5 or CRC16 is checked. Both CRCs match the published catalogue check values. Standard SETUP requests are named on the page. The identification control now covers six protocols: 60 of 60 on the tuning seed and 60 of 60 on a fresh one.
+

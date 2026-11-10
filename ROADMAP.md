@@ -60,7 +60,7 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 30 | Signal Workbench: raw frames in 9 formats; automatic detection 51 of 80 (8 of 8 for 8-bit, RAW10, Kinect 11-bit, YUYV, RGB24; weak for 16-bit, RAW12, RGB565, Bayer), with manual controls; Live Devices stop buttons | completed 2026-11-09 |
 | 30b | Byte-lane fingerprints (small high byte, noisy packed lane, two-apart smoothness): detection 75 of 80, up from 51; all formats 8 of 8 except RGB565 4 and Bayer 7 | completed 2026-11-09 |
 | 31 | Logic Analyser: UART, SPI, I2C, CAN and 1-Wire decoders with automatic protocol, speed, parity, polarity and wiring; 50 of 50 on the control and on a fresh set | completed 2026-11-09 |
-| 31b | USB low and full speed from sampled D+/D-: NRZI, bit stuffing, PID, CRC5/16 | pending |
+| 31b | USB low and full speed: NRZI, bit stuffing, PIDs, CRC5 and CRC16 checked against the published catalogue values; added to identification, control now 60 of 60 on six protocols (and a fresh 60 of 60) | completed 2026-11-09 |
 | 31c | Codes in Nature: 19 entries in five new groups (chemical, light, sound and vibration, electric, honest signals), each with how the message is encoded, and a channel comparison | completed 2026-11-09 |
 | 32 | Signals part 3: line codes and links: Manchester, 4B5B, 8b/10b, HDMI/DVI TMDS, Ethernet frames and CRC-32, VGA/composite video timing from samples | pending |
 | 33 | Signals part 4: radio and audio: IR remotes (NEC, RC5), DTMF, AFSK/Bell 202 and APRS, ADS-B Mode S (PPM, CRC-24), Morse from audio; barcodes and QR from images | pending |
@@ -236,4 +236,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - A test that only checks the common case hides bugs: identification skipped chip-select lines because they change only twice, and UART assumed no parity. Both showed up only in the mixed control.
 - A held-out set matters even for generated data: rules tuned on seed 9 were rechecked on seed 21 after every change.
 - Process: never gate a commit on `pytest ... | tail`; the pipeline returns tail's status. Run pytest, keep its exit code, then commit.
+
+## Added 2026-11-09: Round 31b
+- Check a CRC implementation against published catalogue values (CRC-5/USB 0x19, CRC-16/USB 0xB4C8), not only against your own encoder: a matching pair of bugs would otherwise pass.
+- Adding a protocol to identification can steal results from the others, so the whole control is rerun, on both seeds, after each addition.
 
