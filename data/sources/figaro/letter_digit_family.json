@@ -1,0 +1,14 @@
+{
+ "source": "Le Figaro unsolved ads, 1882-1887, signed M, P, 2, R, 5, H and 7, sharing letter-digit tokens (fr5, t7ct, grp, c5c6, 26886, 173d, 0rj). Read by eye from the scans in data/sources/figaro/images, Round 46. Plain signature words left out.",
+ "ads": {
+  "1882_18820311-7.jpg": "frt66 8g 467e 2736 7a75c 37ccrf 05j6 8re6 t7ct fr5 87 26886 74re66 173d 46875c 3m7o6f",
+  "1883_18830612-5.jpg": "c5 863m c5 tpef 5c4522 feg 7ee7ca b6e6 3m70 tpc4 0rj6 grp 700 3r6pe 2re 6j6e 8g h526 52 173d f5470 2e547g 72f6ec 37c grp 3r86 c5c6 ro f6c c5amf",
+  "1884_18840427-H.jpg": "t5 ae j546 t7ct fr5 86e35 46j5c b6ct66 25006 74",
+  "1885_18850216-R.jpg": "j56 86e3 fh6cfg b7tf c5c6 87f 1706 3r886 tref 05f e6j 87e4 tr5c n6 f74re6 87 26886 75866",
+  "1885_18851128-P.jpg": "86cc 46n 46 fr5 t5 m6pe 06ff brefe 3rctro pc b6p",
+  "1886_18860608-M.jpg": "8 ar 1e6f 8r5 3e b7t e75c cr 16f 0rj grp 4670",
+  "1887_18870101-2.jpg": "frc 87e f681 360 46 frpt frpt sp5 f758 06 bopt",
+  "1887_18870111-5.jpg": "1rcn 874 6f 3m6e 6brp n6 jt 7586 7 074 87 j56"
+ },
+ "blind_solve": {"words": 120, "symbols": 435, "distinct": 25, "best_score": -4.365, "shuffled_best": -4.714, "reads": false, "note": "beats shuffles (repeated tokens) but the output is not French; a codebook or nomenclator is more likely than a letter substitution"}
+}

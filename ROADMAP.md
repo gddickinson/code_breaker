@@ -79,7 +79,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 43 | 18 ads ranked 2nd-10th, transcribed from scans: 7 letter ciphers, 4 abbreviated plain, 7 with digits. Two letter ads read under tables listed for other writers, best-of-63 null: 5 1 Jul 1882 'Aime-moi un peu, je t'aime et desire tant te baiser' (table 2217, ZZ's; p=0.003), J 16 Oct 1881 'A toi toujours' (2201; p=0.007). VE: all ads solved | completed 2026-11-10 |
 | 44 | 60 tables on 391 unsolved letter ads, 20,000 best-of-all shuffles each: 23 pass Bonferroni, 34 the FDR; most already candidates; 9 new readings transcribed and read by eye (e.g. 57E 1896 'Imposs. acc. rupture ss. explic.', Fin 1888, SZTL 1896, unsigned 1881 under the ZZ table) plus the Valentin ad of Dec 1878, which reads in English with the V. T. A. key (p<0.0005) | completed 2026-11-10 |
 | 45 | V. T. A. key on 464 letter-digit ads from OCR: none passes Bonferroni (control: only 6 of 17 V. T. A. ads pass from OCR). Transcribed, three Valentin ads (Oct 1878 to Jan 1879) read with the 1877 key ('Deep in snow. Thanks for letter, will write to...'; 'Will send letter Wednesday'). Table 2217 reads five ads of Oct 1881 to Dec 1882 (unsigned, ZZ, 5) as one correspondence to 'ma Berthe cherie' | completed 2026-11-10 |
-| 46 | Transcribe the letter-digit ads that the OCR screen ranks highest and re-test under the V. T. A. key and the documented digit tables; look for more ads of the Berthe and Valentin correspondences by date | pending |
+| 46 | Date windows, one key each: table 2217 finds exactly the five known Berthe ads among 69 (next p=0.015); the V. T. A. key only the Dec 1878 ad among 62 from OCR. Top letter-digit ads are book codes (1891, 1894) and a letter-digit family of 1882-87 across seven signatures; its pooled blind solve beats shuffles but does not read (likely a nomenclator) | completed 2026-11-10 |
+| 47 | The 1882-87 letter-digit family as a nomenclator: repeated tokens against likely words and documented digit tables, held-out ads as the test | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -343,4 +344,8 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 - Measure a screen's power on known material before trusting its silence: from OCR, the V. T. A. key recovers only 6 of its own 17 ads, so 'no new hits' from OCR says little.
 - In these ads the large initial letter is often the first cipher letter ('P87y' = deep).
 - One signature can hide several writers (5 covers numbers in 1875, table 2217 in 1882, letter-digit codes in 1883 and 1887), and one writer can use several signatures (ZZ, 5 and none for the Berthe letters).
+
+## Added 2026-11-10: Round 46
+- Searching a date window with one key is cheap and decisive: it confirmed the five Berthe ads and showed there is no sixth among 69 neighbours.
+- A pooled blind solve that beats shuffles but reads as French-looking nonsense indicates repeated whole tokens, not a letter cipher; switch to codebook methods.
 
