@@ -77,7 +77,8 @@ Each round: read the leads database, pick the round's items, run a hunt, review 
 | 41 | TR has no unsolved ads and Jean only short ones, so the round moved to writers with a documented system and unsolved ads. C. H. (Vigenere CEAD, no W, documented on 36 solved ads): with the key restarting at each block and one slip allowed, control 37 of 37; 3 of 7 blocks pass all three gates (31 Mar 1884 'priez pour moi', 5 Aug 1884 'je pars', 29 Jun 1886 'tachez eviter sans refuse[r]'), 30 Jul 1884 'ce que j'ai fait a notre e[n]fant' passes the null but misses the word bar narrowly; 1882 does not read. Candidates, checked by eye | completed 2026-11-09 |
 | 42 | 63 documented systems (60 tables, 3 Vigenere keys) on 126 unsolved ads of their writers, no free parameters: own system ranks first in 15 ads against 3.4 expected (p=1.9e-6). Nine were already candidates; 4 new readings checked by eye (GEO 1890 'Il y a un an! Follement je t'attends. Tout a toi', ZZ 1881, P 1899, 930 1888); 2 do not read | completed 2026-11-09 |
 | 43 | 18 ads ranked 2nd-10th, transcribed from scans: 7 letter ciphers, 4 abbreviated plain, 7 with digits. Two letter ads read under tables listed for other writers, best-of-63 null: 5 1 Jul 1882 'Aime-moi un peu, je t'aime et desire tant te baiser' (table 2217, ZZ's; p=0.003), J 16 Oct 1881 'A toi toujours' (2201; p=0.007). VE: all ads solved | completed 2026-11-10 |
-| 44 | Every documented table on every unsolved letter ad (not only listed writers), best-of-all-systems null with Bonferroni over ads; transcribe the strongest from scans | pending |
+| 44 | 60 tables on 391 unsolved letter ads, 20,000 best-of-all shuffles each: 23 pass Bonferroni, 34 the FDR; most already candidates; 9 new readings transcribed and read by eye (e.g. 57E 1896 'Imposs. acc. rupture ss. explic.', Fin 1888, SZTL 1896, unsigned 1881 under the ZZ table) plus the Valentin ad of Dec 1878, which reads in English with the V. T. A. key (p<0.0005) | completed 2026-11-10 |
+| 45 | The V. T. A. key on every unsolved ad with letter-digit words; families sharing a table (ZZ, 5, the 1881 unsigned ad) read as correspondences in date order | pending |
 
 ## Lessons learned
 - Beating a shuffled copy proves only that the order is non-random. Results must also match a real solve of that size and contain real words.
@@ -331,4 +332,9 @@ Teach and solve the decoding of data from electronic equipment, in the spirit of
 ## Added 2026-11-10: Round 43
 - A writer's listed table is not always the one used: 5 used ZZ's table, J a common one. When the search widens to all systems, the null must widen too (best of all systems on each shuffle).
 - Transcribing before decoding keeps the eye honest; four of the 18 'cipher' ads were plain abbreviated French and seven used digits.
+
+## Added 2026-11-10: Round 44
+- A fast statistic (quadgram score, numba) makes a fair multiple-testing bar affordable: 20,000 best-of-all-tables shuffles per ad for 391 ads in under a minute.
+- A key checked on material it was not built from is the strongest evidence: the 1877 V. T. A. key reads an 1878 ad by 'prof. Valentin'.
+- Simple systems (Caesar shift, table 1001) still read many ads listed as undecrypted once plain stretches are cut and the scan is transcribed.
 

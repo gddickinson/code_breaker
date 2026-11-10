@@ -1,0 +1,15 @@
+{
+ "source": "Le Figaro unsolved ads that passed the Round 44 table sweep (or, for Valentin, use the V. T. A. symbols). Enciphered words read by eye from the scans in data/sources/figaro/images; signatures and plain words left out.",
+ "ads": {
+  "1880_18801125-7.jpg": {"system": "2201", "cipher": "nqs uf f hzhumulf zttuxf lu g zxrufu j julgu z f zef j zhf nelvq", "reading": "... rare[m]ent affect[ion] ne s'achete p[as]. Pense a t[oi] ... part lundi."},
+  "1881_18810731-LB48.jpg": {"system": "2134", "cipher": "Ezovib xzfc ifv wf szeiv nzrhlm xzkrgzrmv Irasvi", "reading": "[St-]Valery[-en-]Caux, rue du Havre, maison capitaine [B]rizher (an address)."},
+  "1881_18811012.jpg": {"system": "2217", "cipher": "Dithz kiggh nphcqh eh lquh blgb eisqddigd", "reading": "Soyez bonne, cherie, je [t']aime tant, jouissons."},
+  "1883_18830725.jpg": {"system": "1105", "cipher": "Aszhvemx ehvixxi azkzi", "reading": "Voudrais adresse vague."},
+  "1888_18881028-Fin.jpg": {"system": "1101", "cipher": "tfsb jnq ot xpjs bq ejo ubdi tpsujs i tfsbj efxbo tfs bvt nfsd i sv E fo u db i pr", "reading": "Sera imp[ossible] n[ou]s voir ap[res] din[er], tach[erai] sortir 6 h. Serai devan[t] 21 ... merc[redi] 10 h rue D en t[out] ca[s] 3 h ..."},
+  "1892_18920804.jpg": {"system": "1001", "cipher": "Tpugsf sfousf tbnfej uspj ifvsf ubjmf gpmj", "reading": "[...] rentre samedi trois heures ... folie."},
+  "1896_18960823.jpg": {"system": "1001", "cipher": "Sbqqfmf b nfs gbn nbm qbt nbdgjbwfm joefdjt tvs qsphsbn efwpjs jnqptf mf wpusf m bnjujf", "reading": "Rappele a mer, fam[ille] mal[ade], pas Macfiavel, indecis sur program[me], devoir impose le votre: l'amitie."},
+  "1898_18980511.jpg": {"system": "1001", "cipher": "Gjh o n fnq q ejs r kf eft kpvjs et u csbt", "reading": "... je des[ire] jouir d[an]s t[es] bras."},
+  "1896_18960909-57E.jpg": {"system": "1125", "cipher": "qtostqd ss dvokhb", "reading": "Imposs[ible] acc[epter] rupture s[an]s explic[ation]."},
+  "1878_18781226-Valentin.jpg": {"system": "vta", "cipher": "87y t5 45xf 2sm5u4 9xl v82171 ftvg flt28 2xt", "reading": "[K]eep in snow. Thanks for letter, will write to [...]. (Signed prof. Valentin; the V. T. A. key of 1877.)"}
+ }
+}

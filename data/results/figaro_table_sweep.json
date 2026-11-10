@@ -1,0 +1,7108 @@
+{
+ "id": "figaro_table_sweep",
+ "ads": 391,
+ "tables": 60,
+ "shuffles": 20000,
+ "p_floor": 4.999750012499375e-05,
+ "bonferroni_bar": 0.00012787723785166242,
+ "bonferroni": 23,
+ "fdr": 34,
+ "candidates": [
+  "1877_18771108-R.jpg",
+  "1879_18790814-R.jpg",
+  "1880_18801125-7.jpg",
+  "1882_18820601-5.jpg",
+  "1883_18830725.jpg",
+  "1888_18881028-Fin.jpg",
+  "1890_18900619-GEO.jpg",
+  "1890_18901004-MH.jpg",
+  "1892_18920730-H.jpg",
+  "1896_18960715.jpg",
+  "1896_18960817.jpg",
+  "1896_18961106-KP.jpg",
+  "1899_18991014-P.jpg",
+  "1878_18781226-Valentin.jpg",
+  "1896_18960909-57E.jpg"
+ ],
+ "rows": [
+  {
+   "image": "1877_18771108-R.jpg",
+   "letters": 46,
+   "table": "2214",
+   "users": [
+    "(pas",
+    "d'id)",
+    "M",
+    "MINA",
+    "R"
+   ],
+   "score": -4.492,
+   "null_max": -5.509,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.568,
+   "reading": "?ONNESNOUVELLESVOYAGEADECU?ESDITVENAISPORTUGAL",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1879_18790814-R.jpg",
+   "letters": 35,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -5.287,
+   "null_max": -5.316,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.514,
+   "reading": "PRISDEUXBAINSBIEIPAFUNAMIEIUIMORTEL",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1880_18801105-R.jpg",
+   "letters": 49,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -5.206,
+   "null_max": -5.42,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.265,
+   "reading": "LRLRFRLCFSOUHAITFETAMOURSETEMILEBAISERSTFDOREAFFG",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1880_18801125-7.jpg",
+   "letters": 54,
+   "table": "2201",
+   "users": [
+    "(pas",
+    "d'id)",
+    "22",
+    "3",
+    "et",
+    "9",
+    "30",
+    "3333"
+   ],
+   "score": -5.478,
+   "null_max": -5.59,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.353,
+   "reading": "?UGUENLSGETGRARE?ENTAFFECTPEUPENSETNAUTPARTLUNDIPZ?NUF",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1881_18810731-LB48.jpg",
+   "letters": 42,
+   "table": "2134",
+   "users": [
+    "R"
+   ],
+   "score": -5.599,
+   "null_max": -5.781,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.286,
+   "reading": "HGVALERYCAUXRUBHAVRDUMAISONCAPITAINBRIZHER",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811012.jpg",
+   "letters": 32,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -5.032,
+   "null_max": -5.269,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.258,
+   "reading": "EZBONNEC?EJIEJEAIMETANTJOUISSONS",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811119-ZZ.jpg",
+   "letters": 74,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -5.387,
+   "null_max": -5.401,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.257,
+   "reading": "AILETTREMEJVNMAISECRJISLSEMRETEOUDESANJSTADOREISENJNUIEDOJBOISETESLEVJESMA",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820601-5.jpg",
+   "letters": 37,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -4.835,
+   "null_max": -5.178,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.568,
+   "reading": "POURQUOIPOSECRIREFATNESGRAJDPEINEAMNE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1882_18820701-5.jpg",
+   "letters": 40,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -4.343,
+   "null_max": -5.12,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.325,
+   "reading": "OIMEMOIUNPEUJETAIMEETDESIRJETONTTEBOISEJ",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821224-5.jpg",
+   "letters": 77,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -5.377,
+   "null_max": -5.748,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.324,
+   "reading": "TJISTEDAODNEUSIFROIDTOIMEQUONDMEMETEDESIREFOLLEMENTEBOISEPORBOJ?AUERT?EC?EJIE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830725.jpg",
+   "letters": 27,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -4.957,
+   "null_max": -5.193,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.556,
+   "reading": "VHXANPE VOUDRAISADRESSEVUGUE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1884_18841113-78.jpg",
+   "letters": 24,
+   "table": "1024",
+   "users": [
+    "22",
+    "23",
+    "GEO",
+    "NIT"
+   ],
+   "score": -5.134,
+   "null_max": -5.192,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.167,
+   "reading": "JGTADORGTGVOIRESTMONSEUB",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880803-930.jpg",
+   "letters": 71,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -5.189,
+   "null_max": -5.519,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.127,
+   "reading": "FGCOUTSUICONTDEPITPARLCONTINUIMPSUIVCONSXIMTRODEPATAPRELETRECECMAGDBESE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1888_18881028-Fin.jpg",
+   "letters": 52,
+   "table": "1101",
+   "users": [
+    "01",
+    "6H",
+    "9A",
+    "AB13",
+    "ArH",
+    "Bac",
+    "BIB",
+    "Ch."
+   ],
+   "score": -5.3,
+   "null_max": -5.511,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.365,
+   "reading": "SERANSVOIRAPDINMACHSORTIRSERAIMHMSHRAUSMERCENOQDEVAN",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1890_18900619-GEO.jpg",
+   "letters": 24,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -4.353,
+   "null_max": -4.571,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.333,
+   "reading": "IYAUNANJETATTEDUTOUTATOI",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1890_18901004-MH.jpg",
+   "letters": 36,
+   "table": "1101",
+   "users": [
+    "01",
+    "6H",
+    "9A",
+    "AB13",
+    "ArH",
+    "Bac",
+    "BIB",
+    "Ch."
+   ],
+   "score": -4.275,
+   "null_max": -5.034,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.611,
+   "reading": "TROPTARDMAREDECADONEZRENDEZVOUSLETRE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1891_18911030-COCO.jpg",
+   "letters": 64,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -5.433,
+   "null_max": -5.826,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.141,
+   "reading": "PZMZRETABLDBRONCHITEGRAVESERADCZXOQUDNEXOSOIGNESITRETADMRECHERIE",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1892_18920730-H.jpg",
+   "letters": 36,
+   "table": "1101",
+   "users": [
+    "01",
+    "6H",
+    "9A",
+    "AB13",
+    "ArH",
+    "Bac",
+    "BIB",
+    "Ch."
+   ],
+   "score": -4.899,
+   "null_max": -4.984,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.611,
+   "reading": "RIENQUETOIOCUZPEPENSEDESIRHATETEVOIR",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1892_18920804.jpg",
+   "letters": 36,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -4.343,
+   "null_max": -4.35,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.25,
+   "reading": "SOTFRERENTRESAMEDITROIHEUDETAILEFOLI",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960715.jpg",
+   "letters": 101,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -4.459,
+   "null_max": -5.716,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.525,
+   "reading": "RHSRECONNAISSANTDETOUTVOUSATTENBSTOUJOXRSOUETCOMMENTENVOYERBOUQUINDESIREREPONDEZPARANNALESAIMEKSRYSCK",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1896_18960817.jpg",
+   "letters": 64,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -5.117,
+   "null_max": -5.518,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.5,
+   "reading": "HMPOSSQUITTGROUPEVAISLUCERNEEBRISSERAIGAREEPINAWLEMERCIAMIERYSCK",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1896_18960823.jpg",
+   "letters": 66,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -5.473,
+   "null_max": -5.862,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.197,
+   "reading": "MDMERFAMMALPASMACFIAVHLINDECISSURPROGRAMDEVOIRITPOSELEVQZRSLDMITIS",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961106-KP.jpg",
+   "letters": 168,
+   "table": "1108",
+   "users": [
+    "KP"
+   ],
+   "score": -4.323,
+   "null_max": -5.779,
+   "p": 4.999750012499375e-05,
+   "coverage": 0.577,
+   "reading": "VOILALONGTEMPJENAIRECUDEMOTMEPROUVANTQUETUAIMEETPENSETOUJOURMOIPOURAANTTAIMEAVECTANTDEFORCESDETENDRESSTUESMONSOUCIMAJOIEBTVAISENFINTEPRENSERBIENFORTSURMONCOEURTIDQLAQUI",
+   "bonferroni": true,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1898_18980511.jpg",
+   "letters": 28,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -5.787,
+   "null_max": -5.567,
+   "p": 0.0004999750012499375,
+   "coverage": 0.321,
+   "reading": "LZFIGEMFPDIRJENESJOUIRDSBRAS",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991014-P.jpg",
+   "letters": 32,
+   "table": "1005",
+   "users": [
+    "(pas",
+    "d'id)",
+    "P"
+   ],
+   "score": -5.139,
+   "null_max": -4.889,
+   "p": 0.0008499575021248938,
+   "coverage": 0.375,
+   "reading": "AIMENVSUITCETAIDENAVNOUVSANTBAIS",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1885_18850105-CLB.jpg",
+   "letters": 28,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -5.858,
+   "null_max": -5.529,
+   "p": 0.0010499475026248687,
+   "coverage": 0.143,
+   "reading": "FUROSCULOUVAVISLAIGNBLCUSXNL",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820718.jpg",
+   "letters": 15,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -5.616,
+   "null_max": -5.228,
+   "p": 0.0011499425028748563,
+   "coverage": 0.0,
+   "reading": "YWACANAPARADZWW",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1878_18781226-Valentin.jpg",
+   "letters": 12,
+   "table": "2134",
+   "users": [
+    "R"
+   ],
+   "score": -5.073,
+   "null_max": -4.71,
+   "p": 0.0015999200039998,
+   "coverage": 0.333,
+   "reading": "KBGSURETOILU",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1896_18960909-57E.jpg",
+   "letters": 21,
+   "table": "1125",
+   "users": [
+    "25",
+    "46",
+    "54",
+    "9A",
+    "Ch.",
+    "JBC",
+    "JS9",
+    "No48"
+   ],
+   "score": -5.543,
+   "null_max": -5.067,
+   "p": 0.0019499025048747563,
+   "coverage": 0.333,
+   "reading": "DRUPTURETTEXPLICFDSEF",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": true
+  },
+  {
+   "image": "1899_18990701-P.jpg",
+   "letters": 39,
+   "table": "1005",
+   "users": [
+    "(pas",
+    "d'id)",
+    "P"
+   ],
+   "score": -5.875,
+   "null_max": -5.557,
+   "p": 0.0022998850057497125,
+   "coverage": 0.103,
+   "reading": "TESDDQRESTDDABRUXSERITUTVOIRTEMIJJIZIZZ",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961001-V.jpg",
+   "letters": 97,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.482,
+   "null_max": -6.328,
+   "p": 0.0028998550072496373,
+   "coverage": 0.0,
+   "reading": "ILUGISOUVNRUXSIGIORJU XSIDILSNHUVNOUGISTUOZNRPASVNRU?NCJFUVGFDNVOTNXSIVIBPHISNOBBPLIPPOSLUOSOUVNZU",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961004-LL.jpg",
+   "letters": 25,
+   "table": "1102",
+   "users": [
+    "43",
+    "AL",
+    "Jul",
+    "RRS",
+    "XXZ"
+   ],
+   "score": -5.875,
+   "null_max": -5.372,
+   "p": 0.0028998550072496373,
+   "coverage": 0.0,
+   "reading": "TYZENFREINDCOMEXCMUFLADOR",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960819-V.jpg",
+   "letters": 71,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.442,
+   "null_max": -6.245,
+   "p": 0.0030998450077496125,
+   "coverage": 0.0,
+   "reading": "IOUJI?UOPXGOSUBPGIGISAULSNHUPISOUXSILISCCVISJUXSIRIXSIZIXSIPIMIGLIGISTU",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860629-CH.jpg",
+   "letters": 35,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.219,
+   "null_max": -5.941,
+   "p": 0.0038998050097495125,
+   "coverage": 0.0,
+   "reading": "RIKCGJINCOISSIZRTEHOSENTMKZEFOBTOKT",
+   "bonferroni": false,
+   "fdr": true,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830614-42.jpg",
+   "letters": 13,
+   "table": "2221",
+   "users": [
+    "GC"
+   ],
+   "score": -5.18,
+   "null_max": -4.241,
+   "p": 0.004949752512374382,
+   "coverage": 0.0,
+   "reading": "QSEAVERMMEBBQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960828-V.jpg",
+   "letters": 67,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.471,
+   "null_max": -6.177,
+   "p": 0.008999550022498875,
+   "coverage": 0.0,
+   "reading": "IXUJOHIXSILIGISPUCFOIFXNOPUXGOJULSNDIOIASUIBUXSIPIXSI?ISPLIILUSOSLU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890127-Psee.jpg",
+   "letters": 14,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -5.577,
+   "null_max": -4.843,
+   "p": 0.009149542522873857,
+   "coverage": 0.0,
+   "reading": "GJUUSQUOURUEUS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960726-P.jpg",
+   "letters": 59,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.38,
+   "null_max": -6.016,
+   "p": 0.010899455027248638,
+   "coverage": 0.0,
+   "reading": "COPSMPPUOISBOIVPOSOVLOOUSBUORAOIPUBNVAG?NROISUBNJNROIVOURNU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840119-U.jpg",
+   "letters": 13,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -5.374,
+   "null_max": -4.59,
+   "p": 0.011749412529373532,
+   "coverage": 0.0,
+   "reading": "ANTANDNFLANNM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860118-D.jpg",
+   "letters": 12,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -5.315,
+   "null_max": -4.654,
+   "p": 0.012449377531123443,
+   "coverage": 0.0,
+   "reading": "XNSANELONJAY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820418.jpg",
+   "letters": 18,
+   "table": "2201",
+   "users": [
+    "(pas",
+    "d'id)",
+    "22",
+    "3",
+    "et",
+    "9",
+    "30",
+    "3333"
+   ],
+   "score": -5.454,
+   "null_max": -4.653,
+   "p": 0.013249337533123344,
+   "coverage": 0.0,
+   "reading": "OUPANIPLUTOAVANHEU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960901-V.jpg",
+   "letters": 64,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.316,
+   "null_max": -5.973,
+   "p": 0.013799310034498274,
+   "coverage": 0.0,
+   "reading": "UDEDYPUDYQUDYRUYXHETEQINUNUTPENUTREHTUVUHTUZUNUTZEGTAGEPANENUTCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850531-T.jpg",
+   "letters": 13,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -5.593,
+   "null_max": -4.786,
+   "p": 0.013899305034748262,
+   "coverage": 0.385,
+   "reading": "SALXOUSOIRSOX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960804-V.jpg",
+   "letters": 96,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.579,
+   "null_max": -6.3,
+   "p": 0.013899305034748262,
+   "coverage": 0.0,
+   "reading": "LSNJUGISHUOPGISAULOIGUIVUILGISLUMIGHULOMIGJURPSXSIZILSNDUOPOSBVNOUULOIPRHNBNBIRONINBJRPCIRAOBPMO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960917-V.jpg",
+   "letters": 64,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.432,
+   "null_max": -6.105,
+   "p": 0.014799260036998151,
+   "coverage": 0.062,
+   "reading": "YYZAYDAQIDARINUTZEGTAXEFUFTENUTBE XXPAZEUTEJUNGUHTUXUJUNDENUTCEZA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841227-O.jpg",
+   "letters": 25,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -5.889,
+   "null_max": -5.358,
+   "p": 0.015249237538123094,
+   "coverage": 0.0,
+   "reading": "DMIGTGEQDREDUISQXIGESUEDI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960822-V.jpg",
+   "letters": 65,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.428,
+   "null_max": -6.027,
+   "p": 0.01654917254137293,
+   "coverage": 0.185,
+   "reading": "UJEDYDUXEIXFY PAGEPAGENUTZENUTVEGTANEIXUOGTAMENUTREHTUVUXTUZUQDOMY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840806-ArH.jpg",
+   "letters": 33,
+   "table": "1101",
+   "users": [
+    "01",
+    "6H",
+    "9A",
+    "AB13",
+    "ArH",
+    "Bac",
+    "BIB",
+    "Ch."
+   ],
+   "score": -6.366,
+   "null_max": -5.944,
+   "p": 0.0167991600419979,
+   "coverage": 0.152,
+   "reading": "QDBINKRNTUQDFFOUVALLERQDLDQMERCRE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830217-42.jpg",
+   "letters": 22,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -5.659,
+   "null_max": -4.86,
+   "p": 0.01774911254437278,
+   "coverage": 0.0,
+   "reading": "COPCZESMELALEDADECPAED",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1875_18751121-QaA.jpg",
+   "letters": 19,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -5.392,
+   "null_max": -4.657,
+   "p": 0.01984900754962252,
+   "coverage": 0.211,
+   "reading": "RLANFUSRIGEACCVITEA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840323a-E.jpg",
+   "letters": 12,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -5.352,
+   "null_max": -4.385,
+   "p": 0.021398930053497325,
+   "coverage": 0.0,
+   "reading": "KRIFISQUIGIA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960912-V.jpg",
+   "letters": 92,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.102,
+   "null_max": -5.813,
+   "p": 0.021448927553622318,
+   "coverage": 0.043,
+   "reading": "DAJQDALENUTRENUTLEUJEQINUTIHUNUTVENUTHEGTAREGTAMEHNYCEQIDU INUTMEPABEPANENUTCEGTAGE GTAZEGTACE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960805-V.jpg",
+   "letters": 43,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.355,
+   "null_max": -5.822,
+   "p": 0.02454877256137193,
+   "coverage": 0.0,
+   "reading": "OOLITUIOUGISRUXGOJUOSLUOSJUXSIRIDISTUOOOOOB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960823-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.284,
+   "null_max": -5.934,
+   "p": 0.02569871506424679,
+   "coverage": 0.0,
+   "reading": "ULEDYFUYTDEHTUCUGTAGEPANEGTAFELUTCEGTALEPLREHTUBUVJUNDEJUNGUPACENUTZE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891003-B4.jpg",
+   "letters": 46,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.58,
+   "null_max": -6.082,
+   "p": 0.0263986800659967,
+   "coverage": 0.109,
+   "reading": "VHLRRRCCFORLPERLERDRUHCRMFJAREJIQBFPRLHLAFLCMI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771109-VTA.jpg",
+   "letters": 78,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.771,
+   "null_max": -6.546,
+   "p": 0.02734863256837158,
+   "coverage": 0.0,
+   "reading": "PAGOCNAWPHU ZWPUKQNYKIEJCOKHWPASEHHSNEPAWJZOAJZUKQPDAETURMEPLIBODENHAUSAZJAOZWU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18761015-P.jpg",
+   "letters": 24,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -5.839,
+   "null_max": -5.154,
+   "p": 0.029498525073746312,
+   "coverage": 0.0,
+   "reading": "MXDVXARTATANAUCONAMTYQTY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940920-25.jpg",
+   "letters": 37,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.193,
+   "null_max": -5.512,
+   "p": 0.029698515074246288,
+   "coverage": 0.0,
+   "reading": "QGCSERPSVARENIROHBVBIFRENUHERFDQVAROQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960906-V.jpg",
+   "letters": 66,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.633,
+   "null_max": -6.247,
+   "p": 0.029948502574871257,
+   "coverage": 0.0,
+   "reading": "IDUJOZIOSJUOBOXSITILIBRXGOSUBPXILSN?UXSIRIXSI?IXSIPIMIGJUVNGUGISTU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821023.jpg",
+   "letters": 39,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.278,
+   "null_max": -5.797,
+   "p": 0.0311984400779961,
+   "coverage": 0.0,
+   "reading": "NOYTVDECOQONEFEVPGOYRETOTSDMMEETUOFFCNE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18990802-SB26.jpg",
+   "letters": 50,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.114,
+   "null_max": -5.486,
+   "p": 0.03259837008149592,
+   "coverage": 0.0,
+   "reading": "HIETTSOELITTPRAIETXFFLEURCMUNFRSAVVOULJOHETPAUNHEA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18760213-bonjour.jpg",
+   "letters": 19,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -5.669,
+   "null_max": -4.872,
+   "p": 0.03289835508224589,
+   "coverage": 0.211,
+   "reading": "TFMZIVRETIMMAEDITEM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18770901-VTA.jpg",
+   "letters": 80,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.747,
+   "null_max": -6.326,
+   "p": 0.03419829008549573,
+   "coverage": 0.0,
+   "reading": "UOFUPSGOPPOSRISOIG?IFRPUURCUSPRUOCIPPOSI?IFGNHONP?SNPOPBLOSOU?OSUXVSUZ?RBNPORIXO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850214-D.jpg",
+   "letters": 13,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -5.738,
+   "null_max": -4.507,
+   "p": 0.039648017599120046,
+   "coverage": 0.0,
+   "reading": "WBVIETQUEHGXI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18901026-VE3.jpg",
+   "letters": 28,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.275,
+   "null_max": -5.422,
+   "p": 0.041797910104494775,
+   "coverage": 0.0,
+   "reading": "BZIETDIXSJIHSVAHJYBQMAIEROIC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18851201-S.jpg",
+   "letters": 15,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -5.849,
+   "null_max": -4.907,
+   "p": 0.04244787760611969,
+   "coverage": 0.0,
+   "reading": "QNANPAYNJALOPAY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850616-L.jpg",
+   "letters": 13,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -5.793,
+   "null_max": -4.485,
+   "p": 0.043097845107744615,
+   "coverage": 0.0,
+   "reading": "RZLESDDMONSHS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960818-V.jpg",
+   "letters": 53,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.273,
+   "null_max": -5.77,
+   "p": 0.043447827608619566,
+   "coverage": 0.0,
+   "reading": "UDEDUVE POZONHTUDUCIZNOYTGEGTAREPAJERUNNUGTAPEPANEYTFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860713-90.jpg",
+   "letters": 27,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.345,
+   "null_max": -5.678,
+   "p": 0.05464726763661817,
+   "coverage": 0.0,
+   "reading": "RUVOSONDUDOOFAOPJORLOGOLNSO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960918-V.jpg",
+   "letters": 61,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.095,
+   "null_max": -5.667,
+   "p": 0.056097195140242986,
+   "coverage": 0.0,
+   "reading": "UHENUTPEGTAVE EPAKEGTAZEGTABEPACEGTACEJUNDENUTCEGTANEPATEHTURU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860613-T.jpg",
+   "letters": 21,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.323,
+   "null_max": -5.534,
+   "p": 0.06004699765011749,
+   "coverage": 0.19,
+   "reading": "PSLORSOHIAUXXXRGOLUSF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870522-Marie.jpg",
+   "letters": 15,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.111,
+   "null_max": -5.017,
+   "p": 0.06279686015699215,
+   "coverage": 0.0,
+   "reading": "DBFLGIDECDALAUL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811210-42.jpg",
+   "letters": 14,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -5.831,
+   "null_max": -4.838,
+   "p": 0.06614669266536673,
+   "coverage": 0.0,
+   "reading": "CFAINCISHUIQLU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960816-V.jpg",
+   "letters": 70,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.178,
+   "null_max": -5.747,
+   "p": 0.06624668766561671,
+   "coverage": 0.057,
+   "reading": "ULEDUTEGTANENUTZEKTUGUNUTVEGTAVEUIVVAFUJTEGTAGEJUNDEPABENUTCEGTALEPANE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18770621-LABUNOW.jpg",
+   "letters": 87,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.667,
+   "null_max": -6.319,
+   "p": 0.07014649267536623,
+   "coverage": 0.092,
+   "reading": "SVUTEAMMVDMDZAD AGINIGJNEGKBXEVMSVIVYAITMLOUEACOEBUOVQMRTUEAEGMJVKBILEGUNGUKAMGIVYBEXSTO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1880_18801016-J.jpg",
+   "letters": 42,
+   "table": "1002",
+   "users": [
+    "35",
+    "43",
+    "LG",
+    "TR"
+   ],
+   "score": -6.314,
+   "null_max": -5.679,
+   "p": 0.0703964801759912,
+   "coverage": 0.0,
+   "reading": "PCES OBTHXTZGTHTINELSRENTUGELTIIGUTHVTNREHT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820407-G.jpg",
+   "letters": 42,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.375,
+   "null_max": -5.785,
+   "p": 0.07089645517724114,
+   "coverage": 0.0,
+   "reading": "ICNNC?QRINGNORERNORFON?FEODRCIO?RETINCREON",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870202.jpg",
+   "letters": 22,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.272,
+   "null_max": -5.566,
+   "p": 0.07269636518174091,
+   "coverage": 0.0,
+   "reading": "CJRCKANHZMEMANLABECJHE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960904-V.jpg",
+   "letters": 70,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.555,
+   "null_max": -6.159,
+   "p": 0.0735963201839908,
+   "coverage": 0.0,
+   "reading": "UTOUHEDYXUDYXUNUTZEUXXQIHUUCEPAZETYZYGTAREPAACEFUFTEGTAXEPANEPABENUTCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870116-Marie.jpg",
+   "letters": 27,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.357,
+   "null_max": -5.581,
+   "p": 0.07499625018749062,
+   "coverage": 0.0,
+   "reading": "?OOIASIOPSOONPPDASOUBRIFIMI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830301-7.jpg",
+   "letters": 30,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.441,
+   "null_max": -5.795,
+   "p": 0.0751462426878656,
+   "coverage": 0.2,
+   "reading": "MAXFLIXSMAISONISISJSOXRROACXSV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960820-V.jpg",
+   "letters": 66,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.739,
+   "null_max": -6.399,
+   "p": 0.07614619269036549,
+   "coverage": 0.0,
+   "reading": "UGEDUBEYTDEHTUCUYVDECONCNYPOEN?DKIEBYTGEHTUXUJUNDEBAFUQPHTUBUJUNGU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830720-GIVE.jpg",
+   "letters": 48,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.348,
+   "null_max": -5.821,
+   "p": 0.07639618019099045,
+   "coverage": 0.0,
+   "reading": "LECOEWSUPWTPLEIESPENTFFTCEHACCOMQSHADNTSA BTTFXEN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850603-E.jpg",
+   "letters": 23,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.287,
+   "null_max": -5.306,
+   "p": 0.07694615269236538,
+   "coverage": 0.0,
+   "reading": "COSCOYCOLONTDACPZCTDQCA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991202-13.jpg",
+   "letters": 33,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.581,
+   "null_max": -6.029,
+   "p": 0.07959602019899005,
+   "coverage": 0.0,
+   "reading": "MCJIPASMILNDSCSDFXSXDXPUIRRUPNLRS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960908-V.jpg",
+   "letters": 52,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.442,
+   "null_max": -5.86,
+   "p": 0.08374581270936453,
+   "coverage": 0.0,
+   "reading": "DYCUGTARENUTBEUDEQIHUNUTPEYTGEJUNGUGTA PATEJUNDEFKYTA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850625-E.jpg",
+   "letters": 13,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -5.661,
+   "null_max": -4.307,
+   "p": 0.08454577271136443,
+   "coverage": 0.0,
+   "reading": "TSPUFEENSIFSQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1878_18780207-BF.jpg",
+   "letters": 25,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.236,
+   "null_max": -5.458,
+   "p": 0.08759562021898905,
+   "coverage": 0.0,
+   "reading": "GGBUSORGUVIRAUVILNABOMVNG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960826-V.jpg",
+   "letters": 66,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.458,
+   "null_max": -5.914,
+   "p": 0.08969551522423878,
+   "coverage": 0.061,
+   "reading": "UFEDYJUGTADEUHEHTUGUNUTVEGTAVEGTANEPIGOPEAGTAMEPAFEPALEGYVZEUBEUCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960902-V.jpg",
+   "letters": 59,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.458,
+   "null_max": -6.015,
+   "p": 0.09094545272736364,
+   "coverage": 0.068,
+   "reading": "UFEUQEHNYDEFYFEUCEGTAVEGTABEPALVPATEQIGUGTACEPANEGADTEHTUBU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1892_18921216-Violette.jpg",
+   "letters": 21,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.386,
+   "null_max": -5.498,
+   "p": 0.09194540272986351,
+   "coverage": 0.0,
+   "reading": "CFCIETSFAMIDQHMDCRBRN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940911-25.jpg",
+   "letters": 27,
+   "table": "1003",
+   "users": [
+    "BZ",
+    "HM5",
+    "Lulu",
+    "TR"
+   ],
+   "score": -6.359,
+   "null_max": -5.699,
+   "p": 0.09224538773061347,
+   "coverage": 0.148,
+   "reading": "SOUSAFDDVOUDCOMNBSAAHSQVPVB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1895_18950711-AF.jpg",
+   "letters": 30,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -5.906,
+   "null_max": -4.954,
+   "p": 0.0928953552322384,
+   "coverage": 0.267,
+   "reading": "LETRENFDEJOLEAIEODESLRTBNFBALS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961014-V.jpg",
+   "letters": 68,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.569,
+   "null_max": -6.107,
+   "p": 0.09474526273686315,
+   "coverage": 0.119,
+   "reading": "?YRTAYNUTLEQIDUGTAZEPATEHTURUGYQIGUYQHNYDEPAJEGTABEPALEGTACEPANEYTGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840604-D.jpg",
+   "letters": 14,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -5.566,
+   "null_max": -4.048,
+   "p": 0.0992450377481126,
+   "coverage": 0.0,
+   "reading": "LOSCPNSAUSINSO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930919-TRE.jpg",
+   "letters": 27,
+   "table": "1012",
+   "users": [
+    "(pas",
+    "d'id)",
+    "MLR"
+   ],
+   "score": -6.339,
+   "null_max": -5.702,
+   "p": 0.09989500524973752,
+   "coverage": 0.0,
+   "reading": "MLDFAELAWDXRDITLESBOEJVWFEW",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940916-25.jpg",
+   "letters": 57,
+   "table": "1003",
+   "users": [
+    "BZ",
+    "HM5",
+    "Lulu",
+    "TR"
+   ],
+   "score": -6.617,
+   "null_max": -6.135,
+   "p": 0.10749462526873656,
+   "coverage": 0.07,
+   "reading": "NADVVVZILCMVSOUSAFDNDNEAMURSBBOKAIFBJBZILBUSEMWDIDBZIREQV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1892_18921213.jpg",
+   "letters": 12,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -5.776,
+   "null_max": -4.435,
+   "p": 0.10979451027448628,
+   "coverage": 0.0,
+   "reading": "FIMTAMITITAB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840602-R.jpg",
+   "letters": 13,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -5.677,
+   "null_max": -4.211,
+   "p": 0.11029448527573621,
+   "coverage": 0.0,
+   "reading": "ANENSSIOCDQGS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861130-I.jpg",
+   "letters": 16,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -5.956,
+   "null_max": -4.428,
+   "p": 0.11214439278036098,
+   "coverage": 0.0,
+   "reading": "SCOYLSMEECOLTEOC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910831-886.jpg",
+   "letters": 26,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.282,
+   "null_max": -5.522,
+   "p": 0.1144442777861107,
+   "coverage": 0.154,
+   "reading": "AJPJAGNGTIWGHATATISTTROPKO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830304-X.jpg",
+   "letters": 33,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -6.281,
+   "null_max": -5.646,
+   "p": 0.1168441577921104,
+   "coverage": 0.0,
+   "reading": "??UUJPVVFATINU?AOAUIEUEETUREJNSTU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891108-CHERY.jpg",
+   "letters": 17,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.287,
+   "null_max": -5.175,
+   "p": 0.12369381530923454,
+   "coverage": 0.0,
+   "reading": "VDANTIVEOFYJALYQS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830607-8.jpg",
+   "letters": 23,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.335,
+   "null_max": -5.266,
+   "p": 0.12464376781160942,
+   "coverage": 0.0,
+   "reading": "SOURUPPOSAPSXAMSAVSCXSO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1875_18751121-Merci.jpg",
+   "letters": 32,
+   "table": "2219",
+   "users": [
+    "Jeby"
+   ],
+   "score": -6.131,
+   "null_max": -5.4,
+   "p": 0.1247937603119844,
+   "coverage": 0.0,
+   "reading": "?DU??ONONONONOEPNONONONOVNNONOVI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18770927-VTA.jpg",
+   "letters": 84,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.872,
+   "null_max": -6.53,
+   "p": 0.12749362531873407,
+   "coverage": 0.049,
+   "reading": "RYDU? IFILGAFRYFIGAIENOSRFYPKYZIEFFRUHURYDUNUMIFZUUM INYHSIFIPUFFUHQAUFRC?PHYFULIGFAC?",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860828-77.jpg",
+   "letters": 26,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.435,
+   "null_max": -5.678,
+   "p": 0.1296435178241088,
+   "coverage": 0.167,
+   "reading": "NYJEUDIE?UFDAL IADA?ODAUFDA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890418-MIG.jpg",
+   "letters": 47,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.664,
+   "null_max": -6.153,
+   "p": 0.13179341032948352,
+   "coverage": 0.0,
+   "reading": "SWAYYANAHUNACNCAAIUMANSARAHAWIWSBAIJAZNWPPRADWA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890903.jpg",
+   "letters": 12,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -5.893,
+   "null_max": -4.648,
+   "p": 0.13379331033448327,
+   "coverage": 0.0,
+   "reading": "L?IPPROPINVA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821217-PAUL.jpg",
+   "letters": 31,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.416,
+   "null_max": -5.784,
+   "p": 0.13389330533473326,
+   "coverage": 0.0,
+   "reading": "RGUTQUETRARDVHGTRSRPTGEIGDGYSRP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860128-I.jpg",
+   "letters": 21,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.305,
+   "null_max": -5.48,
+   "p": 0.13534323283835809,
+   "coverage": 0.0,
+   "reading": "YNDBNCNLZANDDICINDIAA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960909-V.jpg",
+   "letters": 63,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.455,
+   "null_max": -5.939,
+   "p": 0.136043197840108,
+   "coverage": 0.063,
+   "reading": "UFEDADIDAFINUTZEPUAVHTUPUGTAME FUJTEGTANUQIDUNUTLEYTDEHTUXUNUTCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771020-VTA.jpg",
+   "letters": 96,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.856,
+   "null_max": -6.565,
+   "p": 0.14044297785110743,
+   "coverage": 0.042,
+   "reading": "FMRIXYUVIIAOUIBHHSZJMOIRIZEZGFPJBYHTFJJEJZYTJM IGEZG LIEZAMVGMTIVIIIERIJZYTOITUFEVBIOTFSVUJMOUVMII",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18760902-Jean.jpg",
+   "letters": 29,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.459,
+   "null_max": -5.591,
+   "p": 0.1422428878556072,
+   "coverage": 0.0,
+   "reading": "DAANNAILHVVYYXECQ UVARRVMOYIEU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961003-V.jpg",
+   "letters": 67,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.527,
+   "null_max": -5.967,
+   "p": 0.14349282535873206,
+   "coverage": 0.06,
+   "reading": "UHENUTREGTAXEFKYTQIDUNUTLERTAYPAHEPABEYTDEPAXEHTUXUUZHTURUYTGENUTFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880812-97.jpg",
+   "letters": 36,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.35,
+   "null_max": -5.526,
+   "p": 0.14514274286285686,
+   "coverage": 0.0,
+   "reading": "REGTBAVATXIECONFIVTBSIMALLDIRTEMBPAT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960905-V.jpg",
+   "letters": 46,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.744,
+   "null_max": -6.356,
+   "p": 0.14664266786660668,
+   "coverage": 0.089,
+   "reading": "CBIENGCB RSLCFCVZINVEILVC?CLVCTCLVCZCBCFEILVCTC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960915-V.jpg",
+   "letters": 55,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.52,
+   "null_max": -5.984,
+   "p": 0.14849257537123145,
+   "coverage": 0.0,
+   "reading": "UJEDANIDAZINUTREH DVPANEGTAFEDAPIYTHEHNYZEFEJUHTUXUJUNDE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810609-8.jpg",
+   "letters": 27,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.273,
+   "null_max": -5.421,
+   "p": 0.14919254037298135,
+   "coverage": 0.0,
+   "reading": "GCPLELACSEHFCHRDEHELCBCSESS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820309-7.jpg",
+   "letters": 25,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.539,
+   "null_max": -5.734,
+   "p": 0.15634218289085547,
+   "coverage": 0.0,
+   "reading": "CXPFKDDEBIANLPNANBONAFYXW",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961009-V.jpg",
+   "letters": 66,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.61,
+   "null_max": -6.138,
+   "p": 0.15659217039148043,
+   "coverage": 0.0,
+   "reading": "GISAUGIS?UXGOSUROPMIGHUGISRUOSJUXSIRIXSIZIXSIPIMIGLILSN?ULSNZUVNDU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960927-V.jpg",
+   "letters": 62,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.703,
+   "null_max": -6.265,
+   "p": 0.1567921603919804,
+   "coverage": 0.065,
+   "reading": "DELANUTPEUREFUFTEYVDEHNYJEIQYVYFYTFEHTUBUJUNGUXEIXHTUZUNUTZEZE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1879_18791125-4747.jpg",
+   "letters": 16,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -5.478,
+   "null_max": -3.841,
+   "p": 0.15819209039548024,
+   "coverage": 0.0,
+   "reading": "CAPNTSOTENENENMN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960821-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.569,
+   "null_max": -6.068,
+   "p": 0.16459177041147943,
+   "coverage": 0.116,
+   "reading": "UHEDUCENUTZEPAXENAFPLEFGTAVEHNYGEPALEHTURUHTUXUGTAXEPABEHNYDEPIHUPAJE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961008-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.552,
+   "null_max": -6.038,
+   "p": 0.1734413279336033,
+   "coverage": 0.0,
+   "reading": "NUTREJUXUNUTPEHNYJEVGTAVEHNYTEYTGEGTAZEGTACEJUNGUPANEUZPAXEHTUXUNUTCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840116-T.jpg",
+   "letters": 12,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.301,
+   "null_max": -4.81,
+   "p": 0.17589120543972803,
+   "coverage": 0.0,
+   "reading": "UDIXUNEXXTYH",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960806-V.jpg",
+   "letters": 54,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.602,
+   "null_max": -6.036,
+   "p": 0.18449077546122694,
+   "coverage": 0.0,
+   "reading": "GTAXENUTVEHNYDEFURTEFUJTEGTAZEHYFEJUNGUPANEUXXHYTEPAZE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960809-V.jpg",
+   "letters": 53,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.463,
+   "null_max": -5.868,
+   "p": 0.18624068796560173,
+   "coverage": 0.0,
+   "reading": "ULEYTCEDULEHTUGUNUTLUUQEGTANEUQJYNUTZEEUTDEPABEHTUVUH",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840611-S.jpg",
+   "letters": 15,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.322,
+   "null_max": -4.975,
+   "p": 0.18684065796710164,
+   "coverage": 0.0,
+   "reading": "UJXXIJOUISSLPIO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940706-NE.jpg",
+   "letters": 54,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.717,
+   "null_max": -6.268,
+   "p": 0.18699065046747662,
+   "coverage": 0.0,
+   "reading": "EVMEXBIFCEQIBREUCISXFMZQJCDINPBACUNNBYINENTEAXMZKGXUDN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771220-VTA.jpg",
+   "letters": 56,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.807,
+   "null_max": -6.337,
+   "p": 0.19784010799460028,
+   "coverage": 0.0,
+   "reading": "UKPLTRAOITZHUEJZWJASEHHXASKGEJCBNEZWUSNEPAPDANAIWNCPQAOZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1879_18790114-Valentin.jpg",
+   "letters": 17,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.235,
+   "null_max": -5.103,
+   "p": 0.20328983550822458,
+   "coverage": 0.0,
+   "reading": "SAKLLHMKVRSRESMOY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891005-M.jpg",
+   "letters": 34,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.412,
+   "null_max": -5.773,
+   "p": 0.20348982550872458,
+   "coverage": 0.0,
+   "reading": "RNUVANAQUGXTEUV AATGEUNRNNEVAVYIQJQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850213-A.jpg",
+   "letters": 14,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -5.914,
+   "null_max": -4.544,
+   "p": 0.20843957802109894,
+   "coverage": 0.0,
+   "reading": "ENYAPLABLJNLAP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891115-Y7.jpg",
+   "letters": 26,
+   "table": "1012",
+   "users": [
+    "(pas",
+    "d'id)",
+    "MLR"
+   ],
+   "score": -6.615,
+   "null_max": -5.65,
+   "p": 0.21218939053047348,
+   "coverage": 0.0,
+   "reading": "WHBRBONTWOADEURHPLZHNSIDZC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820402.jpg",
+   "letters": 102,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.731,
+   "null_max": -6.308,
+   "p": 0.21953902304884756,
+   "coverage": 0.042,
+   "reading": "VQNIREODOCEQNRCEORFORFR?NOON?NRCENEDNRNONONICE?RFFRCDOBRNFRNBC?RNQCDCQNNIRNBRID?QRE?FEONCREONDNQCIDNDN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960807-V.jpg",
+   "letters": 57,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.629,
+   "null_max": -6.105,
+   "p": 0.21968901554922254,
+   "coverage": 0.07,
+   "reading": "PYYTYUHEDUHE EGTAXENUTVEUNYREFUJTEYTBEGYVZEPATEVYINDEQYTFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930530-Chav.jpg",
+   "letters": 46,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.46,
+   "null_max": -5.8,
+   "p": 0.22118894055297236,
+   "coverage": 0.0,
+   "reading": "LAANOVJOCNNACLN IUNCPALALANCNYECRXDNSMRCUEIYOGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960926-V.jpg",
+   "letters": 32,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.461,
+   "null_max": -5.521,
+   "p": 0.22218889055547222,
+   "coverage": 0.0,
+   "reading": "JUXNGISAUBUP?ASIXXOSLUXSIPIGISTU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860122-S.jpg",
+   "letters": 21,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.397,
+   "null_max": -5.391,
+   "p": 0.22833858307084645,
+   "coverage": 0.0,
+   "reading": "POMOPCALOMELOLECAZCKM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960704-P.jpg",
+   "letters": 58,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.534,
+   "null_max": -5.982,
+   "p": 0.2287385630718464,
+   "coverage": 0.0,
+   "reading": "UDUJEDUNEYVAXOETUDUPYYRATGYDVUKUNEDUTEYZATDEINYJI ETQEFEVAE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1895_18950909-HD.jpg",
+   "letters": 22,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.331,
+   "null_max": -5.489,
+   "p": 0.2304384780760962,
+   "coverage": 0.182,
+   "reading": "IIEFDCMNFDCGERFAISAMNJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870120-8.jpg",
+   "letters": 22,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.331,
+   "null_max": -5.27,
+   "p": 0.23063846807659616,
+   "coverage": 0.182,
+   "reading": "QXIDATESGEHGRUDREDQGTU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860608-M.jpg",
+   "letters": 19,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.364,
+   "null_max": -5.0,
+   "p": 0.23318834058297086,
+   "coverage": 0.0,
+   "reading": "MVUILETIRYKKVYVDIVX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930725.jpg",
+   "letters": 14,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.258,
+   "null_max": -4.762,
+   "p": 0.23493825308734564,
+   "coverage": 0.0,
+   "reading": "VOBOOOROSINMOU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991007-DM.jpg",
+   "letters": 20,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.308,
+   "null_max": -5.127,
+   "p": 0.23813809309534523,
+   "coverage": 0.0,
+   "reading": "MCSECLAVPEDAECXSVUSD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771004-VTA.jpg",
+   "letters": 137,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.909,
+   "null_max": -6.548,
+   "p": 0.23998800059997,
+   "coverage": 0.0,
+   "reading": "?IRRUCIAAFPUMOPP?UGOPPOSRPCNRIXOSBUUB?NGGMUPUVISMIPOXSNLIFO?OSOBMPUROBLFUPJUUHRBOIPUX ISOVISNIMOPUMUIBLROOPUARFIMINBRUUBRCNSGOFVUBLIFBNMCP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18851218-R.jpg",
+   "letters": 20,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.426,
+   "null_max": -5.298,
+   "p": 0.2432878356082196,
+   "coverage": 0.0,
+   "reading": "FTJEFUFUUBVTFUTEFFXF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820615-7.jpg",
+   "letters": 13,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.161,
+   "null_max": -4.903,
+   "p": 0.2439378031098445,
+   "coverage": 0.0,
+   "reading": "PCECECOOQERSQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18931030-JS.jpg",
+   "letters": 34,
+   "table": "2222",
+   "users": [
+    "partiel.",
+    "Beaucoup",
+    "d'abréviations.",
+    "Mots",
+    "collés.",
+    "404",
+    "Jean"
+   ],
+   "score": -6.435,
+   "null_max": -5.57,
+   "p": 0.24428778561071945,
+   "coverage": 0.118,
+   "reading": "SEOUTGUENUUJMHNPOURLDXXFZDZXPFHIZU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960903-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.556,
+   "null_max": -6.006,
+   "p": 0.248037598120094,
+   "coverage": 0.116,
+   "reading": "UGEDYTUNUTREPAVEHTUXUJUNGUMNYITGTAXENUTVEHNYREFUFTEGTAZEGTACEHNYPEUCE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830702.jpg",
+   "letters": 52,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.695,
+   "null_max": -6.188,
+   "p": 0.2501374931253437,
+   "coverage": 0.077,
+   "reading": "MSEEDACDEDOYECXNXCFSVDPEDEDGDPPCEDAGVECQCLVORPDACXZO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960930-V.jpg",
+   "letters": 32,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.21,
+   "null_max": -5.109,
+   "p": 0.2505874706264687,
+   "coverage": 0.0,
+   "reading": "UDENUTREHTUXUGTAMEGTALEUDVENPAFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960911-V.jpg",
+   "letters": 106,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.681,
+   "null_max": -6.218,
+   "p": 0.25628718564071795,
+   "coverage": 0.038,
+   "reading": "UHEDAHINUTZEGTAMENUTLEJEQHANUQGTAFEDAXIDACIGTALEFUDTEYTDEHTUCUHNYTETIHUGTAZEGTABEPALEYXHTUVUJUNGUGYVZEYTGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870123-1.jpg",
+   "letters": 15,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.188,
+   "null_max": -4.345,
+   "p": 0.25698715064246785,
+   "coverage": 0.0,
+   "reading": "USDUOSAPOLPVOSA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870320-2.jpg",
+   "letters": 14,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -5.894,
+   "null_max": -4.479,
+   "p": 0.2577371131443428,
+   "coverage": 0.0,
+   "reading": "AECEFLEJDEEAUE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18851130-O.jpg",
+   "letters": 14,
+   "table": "2221",
+   "users": [
+    "GC"
+   ],
+   "score": -6.063,
+   "null_max": -4.753,
+   "p": 0.26418679066046696,
+   "coverage": 0.0,
+   "reading": "TERBEOEATERA?Z",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841224-A.jpg",
+   "letters": 13,
+   "table": "1024",
+   "users": [
+    "22",
+    "23",
+    "GEO",
+    "NIT"
+   ],
+   "score": -6.09,
+   "null_max": -4.351,
+   "p": 0.2675366231688416,
+   "coverage": 0.0,
+   "reading": "UTEUTGRGUEVPQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961004-V.jpg",
+   "letters": 59,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.655,
+   "null_max": -6.172,
+   "p": 0.27073646317684114,
+   "coverage": 0.0,
+   "reading": "UJEGTAXENUTVETYXFUDTEGTAMEPALEGTAZE NUTCEUZHTUVUHTUBUYXJUNGU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880317-Marie.jpg",
+   "letters": 14,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.311,
+   "null_max": -4.891,
+   "p": 0.27113644317784114,
+   "coverage": 0.0,
+   "reading": "LTGTDITITIPEKK",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930511-Nic.jpg",
+   "letters": 31,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.54,
+   "null_max": -5.758,
+   "p": 0.2712864356782161,
+   "coverage": 0.0,
+   "reading": "YSMADSYDOCEEDEDMZYECEYKPPODEEAC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820430-PAUL.jpg",
+   "letters": 39,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.352,
+   "null_max": -5.395,
+   "p": 0.2736863156842158,
+   "coverage": 0.0,
+   "reading": "AZOEDOPOCNECTULLSEPLEANELLOERLOCADOZCTL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960717-U55.jpg",
+   "letters": 32,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.663,
+   "null_max": -5.944,
+   "p": 0.2752862356882156,
+   "coverage": 0.0,
+   "reading": "XIYIIIIIIIIIUSEJMZXIT ITUIZKFIVMJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820506-7.jpg",
+   "letters": 26,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.592,
+   "null_max": -5.818,
+   "p": 0.27863606819659015,
+   "coverage": 0.0,
+   "reading": "BCHORLELTRBHDMFTPDPTENRPLO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841225-D.jpg",
+   "letters": 14,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.336,
+   "null_max": -4.826,
+   "p": 0.27873606319684013,
+   "coverage": 0.0,
+   "reading": "KNMELOMEECZKMO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960829-V.jpg",
+   "letters": 64,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.699,
+   "null_max": -6.142,
+   "p": 0.27888605569721514,
+   "coverage": 0.0,
+   "reading": "IMUJOGIMIGHUGIS?UXSILIGISLULSNJUIAUOSRUOP XSITIMIGLIOBUXSIPIMIGJU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930601.jpg",
+   "letters": 15,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.114,
+   "null_max": -4.757,
+   "p": 0.2829858507074646,
+   "coverage": 0.0,
+   "reading": "UOUVECEUZGXXQNM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960808b-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.528,
+   "null_max": -6.013,
+   "p": 0.28583570821458926,
+   "coverage": 0.058,
+   "reading": "UJEYCAYTCEPATNUTVEJUNDEGTAZEGTACEQAANENUTCEYTDEPAXEHTUXUPAVEJUNGUPAFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840128-S.jpg",
+   "letters": 29,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.636,
+   "null_max": -5.712,
+   "p": 0.28693565321733916,
+   "coverage": 0.0,
+   "reading": "ZFQADSQCDEDELDQAQSESEQALEEKED",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771111-VTA.jpg",
+   "letters": 44,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.684,
+   "null_max": -6.003,
+   "p": 0.29678516074196293,
+   "coverage": 0.093,
+   "reading": "TKQ?EHHDVRAPDEOMSHDSZHPDLIERPENDSZBVEHBNEZVT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810523.jpg",
+   "letters": 37,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.191,
+   "null_max": -5.25,
+   "p": 0.30208489575521225,
+   "coverage": 0.0,
+   "reading": "UMLISGMEIAMNNIUNILIASRDARELILCAITRCGM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930929-MI.jpg",
+   "letters": 15,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.09,
+   "null_max": -4.5,
+   "p": 0.30253487325633716,
+   "coverage": 0.0,
+   "reading": "VNLSIRIVOUIGRLO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861226.jpg",
+   "letters": 59,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.675,
+   "null_max": -6.021,
+   "p": 0.3034348282585871,
+   "coverage": 0.0,
+   "reading": "RDIFEMYSMOUIRSCUMLRGSCEYRSCEERFRSCEFFEYCHFEYVIRSCQAPEPFDFGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18761205-24J.jpg",
+   "letters": 12,
+   "table": "2224",
+   "users": [
+    "BER"
+   ],
+   "score": -5.912,
+   "null_max": -4.246,
+   "p": 0.304234788260587,
+   "coverage": 0.0,
+   "reading": "UABA NSAU?REE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811013-38.jpg",
+   "letters": 16,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.303,
+   "null_max": -4.763,
+   "p": 0.30858457077146145,
+   "coverage": 0.0,
+   "reading": "MFTYSTLEAMEUJIJI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820613-7.jpg",
+   "letters": 13,
+   "table": "1006",
+   "users": [
+    "(pas",
+    "d'id)",
+    "Th"
+   ],
+   "score": -6.409,
+   "null_max": -5.006,
+   "p": 0.3141342932853357,
+   "coverage": 0.0,
+   "reading": "YLJNLVSAUNNUY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1879_18790603-NDJ.jpg",
+   "letters": 20,
+   "table": "6001",
+   "users": [
+    "651"
+   ],
+   "score": -6.598,
+   "null_max": -5.511,
+   "p": 0.31653417329133543,
+   "coverage": 0.0,
+   "reading": "JU?VILINVIFIL?II?IMI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940719-M.jpg",
+   "letters": 21,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.365,
+   "null_max": -5.228,
+   "p": 0.3169341532923354,
+   "coverage": 0.0,
+   "reading": "WELTSQNTTISILZDSULTEL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961015-A.jpg",
+   "letters": 49,
+   "table": "6001",
+   "users": [
+    "651"
+   ],
+   "score": -6.721,
+   "null_max": -6.096,
+   "p": 0.3180340982950852,
+   "coverage": 0.0,
+   "reading": "NLGIXOOGISLU VGUFXMIGHUIVUOSJUXSIAIXSIDI VGOIOSLOII",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960813-V.jpg",
+   "letters": 50,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.629,
+   "null_max": -5.97,
+   "p": 0.3208339583020849,
+   "coverage": 0.0,
+   "reading": "UGEDUPEHTUGUXEQANUTXEGTAME PAHEYTFEPABENUTCEGYJUNGU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830220-7.jpg",
+   "letters": 49,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.763,
+   "null_max": -6.227,
+   "p": 0.3216339183040848,
+   "coverage": 0.082,
+   "reading": "PSOSCISLOIXSOURXOMXSLOSCCVSUJXXOJPRSOPSUJOJNPDAXA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830226.jpg",
+   "letters": 40,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.513,
+   "null_max": -5.747,
+   "p": 0.3286335683215839,
+   "coverage": 0.0,
+   "reading": "EYMMPDEVPDUPSFYQZXDACSEXPNTEFENTVETQSPFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870624-1.jpg",
+   "letters": 22,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.479,
+   "null_max": -5.456,
+   "p": 0.32918354082295886,
+   "coverage": 0.0,
+   "reading": "TALFNBESSAUETVCYCYNBGA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961219-Pierre.jpg",
+   "letters": 89,
+   "table": "1101",
+   "users": [
+    "01",
+    "6H",
+    "9A",
+    "AB13",
+    "ArH",
+    "Bac",
+    "BIB",
+    "Ch."
+   ],
+   "score": -6.697,
+   "null_max": -6.097,
+   "p": 0.32998350082495875,
+   "coverage": 0.0,
+   "reading": "ARDSDRJMCJROEMRAAHESEUOJQEMOEQROMMELAJRMOMOOVQSERVOOKJEOOVQHASUOJRJELEEOJREJVEQQEMCSYUOVR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890120-Psee.jpg",
+   "letters": 30,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.611,
+   "null_max": -5.704,
+   "p": 0.33068346582670866,
+   "coverage": 0.0,
+   "reading": "GJTURQTKZRSQUOURUSQMUSVIUEUJZU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960814-V.jpg",
+   "letters": 58,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.574,
+   "null_max": -5.899,
+   "p": 0.33148342582870854,
+   "coverage": 0.138,
+   "reading": "UHEDUQEJUNMEYX UXEIXNUTZEHTUGUNUTLEGATAMEPAFEGTAZEGTABEPALE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821030.jpg",
+   "letters": 20,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.215,
+   "null_max": -4.934,
+   "p": 0.33373331333433326,
+   "coverage": 0.0,
+   "reading": "GETNENPVJSEACETPDNRF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980330-13.jpg",
+   "letters": 29,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.677,
+   "null_max": -5.929,
+   "p": 0.33763311834408277,
+   "coverage": 0.138,
+   "reading": "KVMNAIJEUXVIHRVUBVIGBYZLOOPMJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840109-N.jpg",
+   "letters": 35,
+   "table": "1012",
+   "users": [
+    "(pas",
+    "d'id)",
+    "MLR"
+   ],
+   "score": -6.748,
+   "null_max": -5.972,
+   "p": 0.3387330633468327,
+   "coverage": 0.0,
+   "reading": "FSCURSPVTAUFDSHIFTFRSPVRTSUSFDHXFGQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930913-TRE.jpg",
+   "letters": 31,
+   "table": "1108",
+   "users": [
+    "KP"
+   ],
+   "score": -6.737,
+   "null_max": -6.027,
+   "p": 0.3408329583520824,
+   "coverage": 0.0,
+   "reading": "IGYBCZIVCKXEESCOUSFSSSQGZNRTDMI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940909-25.jpg",
+   "letters": 31,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.643,
+   "null_max": -5.895,
+   "p": 0.34208289585520724,
+   "coverage": 0.0,
+   "reading": "LRQXLOSMENUPZQUYUPXUVXPNLUDURCH",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820607-42.jpg",
+   "letters": 35,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.428,
+   "null_max": -5.443,
+   "p": 0.3424328783560822,
+   "coverage": 0.0,
+   "reading": "UTIETPEHVUHESRGEIUEHGDQDEURGEICEPVT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910726-JS.jpg",
+   "letters": 22,
+   "table": "2190",
+   "users": [
+    "la",
+    "lettre",
+    "chiffrée",
+    "n'est",
+    "pas",
+    "dans",
+    "la",
+    "première"
+   ],
+   "score": -6.429,
+   "null_max": -5.274,
+   "p": 0.343582820858957,
+   "coverage": 0.0,
+   "reading": "FBEIXPKAD?CXPEDEAPIECP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960910-CRAD.jpg",
+   "letters": 146,
+   "table": "2222",
+   "users": [
+    "partiel.",
+    "Beaucoup",
+    "d'abréviations.",
+    "Mots",
+    "collés.",
+    "404",
+    "Jean"
+   ],
+   "score": -6.961,
+   "null_max": -6.628,
+   "p": 0.3447327633618319,
+   "coverage": 0.038,
+   "reading": "PYMHAS??XGPBFNUXIBGOFX?JFGERISMAINSNBRVMPG?NIBLBBVFPIANTQUU?OOUMXCH???NTQAMMFRHOUTU?HQOULZFHXTBLLEONX?VXBUSNFOSFNMXBOLRT?RBNNRQJNTCEU?RONI?JMHIVLX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860515-2F.jpg",
+   "letters": 15,
+   "table": "2214",
+   "users": [
+    "(pas",
+    "d'id)",
+    "M",
+    "MINA",
+    "R"
+   ],
+   "score": -6.289,
+   "null_max": -4.694,
+   "p": 0.35313234338283084,
+   "coverage": 0.0,
+   "reading": "?OMOIPOUCI?RDCI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810928-LC15.jpg",
+   "letters": 15,
+   "table": "2219",
+   "users": [
+    "Jeby"
+   ],
+   "score": -6.398,
+   "null_max": -4.885,
+   "p": 0.35633218339083045,
+   "coverage": 0.0,
+   "reading": "?EIERMERPMJP?EN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870603.jpg",
+   "letters": 23,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.282,
+   "null_max": -5.086,
+   "p": 0.35703214839258035,
+   "coverage": 0.0,
+   "reading": "DVIDUGDCSDENDBDTSESRSPR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960719-P.jpg",
+   "letters": 56,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.602,
+   "null_max": -5.84,
+   "p": 0.3606819659017049,
+   "coverage": 0.0,
+   "reading": "RERNRIFLSFAJABIAILESMUDMDFERLVDRSROMIUIARERPJGTZJLZGASRO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841009-K4.jpg",
+   "letters": 21,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.666,
+   "null_max": -5.738,
+   "p": 0.36278186090695463,
+   "coverage": 0.0,
+   "reading": "EZSNOUPCFOON?ZZFYNONE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841228-R.jpg",
+   "letters": 16,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.174,
+   "null_max": -4.68,
+   "p": 0.36458177091145444,
+   "coverage": 0.0,
+   "reading": "QXTISGEDDETSIGST",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860408-U.jpg",
+   "letters": 20,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.306,
+   "null_max": -5.047,
+   "p": 0.3649817509124544,
+   "coverage": 0.0,
+   "reading": "ESPECOEECZOEZZAONECN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980722-13.jpg",
+   "letters": 22,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.571,
+   "null_max": -5.289,
+   "p": 0.3685315734213289,
+   "coverage": 0.0,
+   "reading": "IGUMBLNDSCSSO?IL AFASVO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841214.jpg",
+   "letters": 15,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.103,
+   "null_max": -4.348,
+   "p": 0.36918154092295385,
+   "coverage": 0.0,
+   "reading": "CSQDNBSSONSAHBS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960918-23.jpg",
+   "letters": 31,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.601,
+   "null_max": -5.682,
+   "p": 0.37078146092695363,
+   "coverage": 0.0,
+   "reading": "QVJRSDTJEMPLVTNKJNODVELEMPLQNDT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850528-H.jpg",
+   "letters": 28,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.496,
+   "null_max": -5.358,
+   "p": 0.37243137843107843,
+   "coverage": 0.148,
+   "reading": "DUUSIFTYHTTOUT?UILFGOHLTTOUT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850215-D.jpg",
+   "letters": 12,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.183,
+   "null_max": -4.454,
+   "p": 0.376081195940203,
+   "coverage": 0.0,
+   "reading": "MNVAHNTONAQB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820406.jpg",
+   "letters": 33,
+   "table": "2201",
+   "users": [
+    "(pas",
+    "d'id)",
+    "22",
+    "3",
+    "et",
+    "9",
+    "30",
+    "3333"
+   ],
+   "score": -6.735,
+   "null_max": -6.033,
+   "p": 0.3799310034498275,
+   "coverage": 0.156,
+   "reading": "JULGXXHZJDGNUFFLKBXRZLPZ?PITIENEC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1879_18790309-ZAD.jpg",
+   "letters": 32,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.57,
+   "null_max": -5.724,
+   "p": 0.3799810009499525,
+   "coverage": 0.0,
+   "reading": "QNNRBONBARRNWDVJUJWJKYXUPJUBRESD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18931228.jpg",
+   "letters": 23,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.406,
+   "null_max": -5.291,
+   "p": 0.38448077596120195,
+   "coverage": 0.0,
+   "reading": "RAIACPAREGFFCGFREFCFLGF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1895_18951014.jpg",
+   "letters": 29,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.619,
+   "null_max": -5.744,
+   "p": 0.3894805259737013,
+   "coverage": 0.143,
+   "reading": "NTENCITGQVCMYCOTEIAV?RQPNITMQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960825-V.jpg",
+   "letters": 69,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.702,
+   "null_max": -6.085,
+   "p": 0.3904304784760762,
+   "coverage": 0.0,
+   "reading": "UDEDYGUDYHUNUTREHTUPUYCAHNYCEQIHUYTGEGTAZEGTABEPAREGTACEPANEYTZEJUNIU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850609-O.jpg",
+   "letters": 15,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.343,
+   "null_max": -4.754,
+   "p": 0.39068046597670114,
+   "coverage": 0.0,
+   "reading": "LSETADNMPCAPPCZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1895_18950803-NE.jpg",
+   "letters": 47,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.746,
+   "null_max": -6.126,
+   "p": 0.392180390980451,
+   "coverage": 0.0,
+   "reading": "KCDOZYIKHDEJMUSMUJCFNOTCRGADIXIZDELZOODEDERCOOD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18760907-DIX.jpg",
+   "letters": 35,
+   "table": "2213",
+   "users": [
+    "ABCD"
+   ],
+   "score": -6.595,
+   "null_max": -5.806,
+   "p": 0.3966801659917004,
+   "coverage": 0.0,
+   "reading": "?NMEUO?MUAENPH?IPUAMPA?TACON CMIPA?E",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860104-D.jpg",
+   "letters": 15,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.213,
+   "null_max": -4.11,
+   "p": 0.4032298385080746,
+   "coverage": 0.0,
+   "reading": "YPPRTIXENTANIYQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771012-VTA.jpg",
+   "letters": 81,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.926,
+   "null_max": -6.533,
+   "p": 0.4040297985100745,
+   "coverage": 0.0,
+   "reading": "FFFFDFHHFLI HRLCTM RTRILHMJFCMAFFYMBILOFFFUFVMDFNC GHXGHREFYMBTMCARVINFCORDAHCHFAGRY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860610-O.jpg",
+   "letters": 12,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.215,
+   "null_max": -4.636,
+   "p": 0.40432978351082444,
+   "coverage": 0.333,
+   "reading": "ISORSOHJSMSA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930514-R.jpg",
+   "letters": 14,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.476,
+   "null_max": -5.085,
+   "p": 0.40542972851357434,
+   "coverage": 0.0,
+   "reading": "ONMLADRILRCHRC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820307-42.jpg",
+   "letters": 12,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.195,
+   "null_max": -4.0,
+   "p": 0.40752962351882405,
+   "coverage": 0.0,
+   "reading": "LEONEECRQCRO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18761014-R.jpg",
+   "letters": 23,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.447,
+   "null_max": -5.211,
+   "p": 0.41497925103744815,
+   "coverage": 0.0,
+   "reading": "ZERNAXUHJENNGEZRAIAEGGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840708-JN22.jpg",
+   "letters": 13,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.279,
+   "null_max": -4.586,
+   "p": 0.41567921603919805,
+   "coverage": 0.0,
+   "reading": "CMANTPLNRMHDQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891111-Y7.jpg",
+   "letters": 77,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.829,
+   "null_max": -6.225,
+   "p": 0.4209289535523224,
+   "coverage": 0.0,
+   "reading": "UPITTIWPEITAVFHXMJVOCPNQSPINQSVQSPOQXSUISAQSETWPEVXSDUSITAOOIWPTEEOWFMNIMUEOD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831201-I.jpg",
+   "letters": 32,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.711,
+   "null_max": -5.832,
+   "p": 0.4217289135543223,
+   "coverage": 0.129,
+   "reading": "U?IHMPXRSOXURSOPSUDSLORSAORNOLOJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870622-MIG.jpg",
+   "letters": 16,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.31,
+   "null_max": -4.642,
+   "p": 0.42432878356082193,
+   "coverage": 0.267,
+   "reading": "UISVMNS?TEAIVOIR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891108-Y7.jpg",
+   "letters": 21,
+   "table": "1108",
+   "users": [
+    "KP"
+   ],
+   "score": -6.588,
+   "null_max": -5.5,
+   "p": 0.4249287535623219,
+   "coverage": 0.0,
+   "reading": "XZTAIRTTPLSVXMALSMEHS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840612-T.jpg",
+   "letters": 13,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -5.929,
+   "null_max": -4.235,
+   "p": 0.42757862106894656,
+   "coverage": 0.0,
+   "reading": "IGSTITTGEDERS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960920-V.jpg",
+   "letters": 30,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.719,
+   "null_max": -5.86,
+   "p": 0.4314784260786961,
+   "coverage": 0.0,
+   "reading": "SINAHUTZONCQHUNEQZSZEQZWZFZKCZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831127-A.jpg",
+   "letters": 21,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.514,
+   "null_max": -5.32,
+   "p": 0.43387830608469574,
+   "coverage": 0.0,
+   "reading": "YYRTIIIIIEIIVXTVLETTY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960523-EARI.jpg",
+   "letters": 27,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.744,
+   "null_max": -5.951,
+   "p": 0.43472826358682065,
+   "coverage": 0.0,
+   "reading": "VJRQTAQNADISPAQSKTBSKAFJRAW",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840112-D.jpg",
+   "letters": 25,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.412,
+   "null_max": -5.174,
+   "p": 0.4351282435878206,
+   "coverage": 0.0,
+   "reading": "ZAPAXEPLELALABNZBNLJONAPB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830224-8.jpg",
+   "letters": 17,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.379,
+   "null_max": -4.741,
+   "p": 0.4432778361081946,
+   "coverage": 0.294,
+   "reading": "SQAEDQEZOSCBASSEN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821209-42.jpg",
+   "letters": 17,
+   "table": "2221",
+   "users": [
+    "GC"
+   ],
+   "score": -6.433,
+   "null_max": -4.989,
+   "p": 0.4439278036098195,
+   "coverage": 0.267,
+   "reading": "?EM?ESGTSERGOMERM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820608-PAUL.jpg",
+   "letters": 54,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.877,
+   "null_max": -6.368,
+   "p": 0.4455277236138193,
+   "coverage": 0.0,
+   "reading": "LAPEZKPDEJGKBNLAWXAKPAHHIKAINDIQYDCNLJKJASOUAPKBDWNZHU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960913-V.jpg",
+   "letters": 70,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.715,
+   "null_max": -6.047,
+   "p": 0.4497275136243188,
+   "coverage": 0.059,
+   "reading": "IDUOSJLXSITILSNOUOOMUIHUITULSNPUBPJIGISNUOSLUORLUXSIPIVNRUXSI?II?XSIAI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840224-0.jpg",
+   "letters": 20,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.392,
+   "null_max": -4.775,
+   "p": 0.45017749112544375,
+   "coverage": 0.0,
+   "reading": "JUAPUAPPPLUSOIOSOMSA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930908-Mm.jpg",
+   "letters": 33,
+   "table": "1006",
+   "users": [
+    "(pas",
+    "d'id)",
+    "Th"
+   ],
+   "score": -6.777,
+   "null_max": -6.018,
+   "p": 0.456127193640318,
+   "coverage": 0.0,
+   "reading": "GGJLPCMMHAILQAUYNNOHCDUPRIDEPXJJL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820311-7.jpg",
+   "letters": 15,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.52,
+   "null_max": -4.586,
+   "p": 0.4576271186440678,
+   "coverage": 0.0,
+   "reading": "MDSRCRCLFAISFDV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861019-90.jpg",
+   "letters": 12,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.097,
+   "null_max": -4.219,
+   "p": 0.45932703364831756,
+   "coverage": 0.333,
+   "reading": "SFJILTAISDJD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850504-JN22.jpg",
+   "letters": 17,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.425,
+   "null_max": -5.122,
+   "p": 0.46052697365131745,
+   "coverage": 0.0,
+   "reading": "LOARPJNPOUVLOSLOR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18881231-JN22.jpg",
+   "letters": 12,
+   "table": "7001",
+   "users": [
+    "réécrire",
+    "le",
+    "cryptogramme",
+    "de",
+    "droite",
+    "à",
+    "gauche,",
+    "puis"
+   ],
+   "score": -5.874,
+   "null_max": -3.973,
+   "p": 0.4670266486675666,
+   "coverage": 0.0,
+   "reading": "USPOUOXURSOR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1878_18780525-SALAM.jpg",
+   "letters": 62,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.921,
+   "null_max": -6.523,
+   "p": 0.46757662116894155,
+   "coverage": 0.0,
+   "reading": "SONCBUFISPULIFOOBOORJIGFPNRUSJOBOPGOT??COISIBR?NVVOLGF?NGGBO?R",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910611-VE3.jpg",
+   "letters": 13,
+   "table": "2213",
+   "users": [
+    "ABCD"
+   ],
+   "score": -6.217,
+   "null_max": -4.338,
+   "p": 0.4703264836758162,
+   "coverage": 0.0,
+   "reading": "I?IRLCNEONNUE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861217-G.jpg",
+   "letters": 14,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.176,
+   "null_max": -4.528,
+   "p": 0.4729263536823159,
+   "coverage": 0.0,
+   "reading": "HGUUECEDUXTUHT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18900611.jpg",
+   "letters": 35,
+   "table": "2134",
+   "users": [
+    "R"
+   ],
+   "score": -6.77,
+   "null_max": -5.948,
+   "p": 0.4735263236838158,
+   "coverage": 0.0,
+   "reading": "HLUKOFHJENYIRZFOHLMGZIVEZEDUVKTITVI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1900_19000218-13.jpg",
+   "letters": 35,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.766,
+   "null_max": -5.921,
+   "p": 0.4761261936903155,
+   "coverage": 0.0,
+   "reading": "OMIRBADREINFCRLABTTJFLFXQQGPSQGMRCC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18900727-KET.jpg",
+   "letters": 29,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.707,
+   "null_max": -5.612,
+   "p": 0.47987600619969,
+   "coverage": 0.0,
+   "reading": "URBOGULANAKQHKGWJTGBNQMIGEOOA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831125-J.jpg",
+   "letters": 29,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.635,
+   "null_max": -5.682,
+   "p": 0.4807759612019399,
+   "coverage": 0.0,
+   "reading": "CACANNPLAOPAYOARRAYOXAYNKANON",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1878_18781010-Valentin.jpg",
+   "letters": 12,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.344,
+   "null_max": -4.602,
+   "p": 0.4814259287035648,
+   "coverage": 0.0,
+   "reading": "NQUITN?EUMSY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831230-R.jpg",
+   "letters": 22,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.441,
+   "null_max": -4.875,
+   "p": 0.4828258587070646,
+   "coverage": 0.0,
+   "reading": "AADEONLSEDCOELOCYCAOEM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841220-E.jpg",
+   "letters": 21,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.561,
+   "null_max": -5.292,
+   "p": 0.48357582120893955,
+   "coverage": 0.0,
+   "reading": "DCPXEMERDAEPQMNEOOZCT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840314-E.jpg",
+   "letters": 15,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.516,
+   "null_max": -4.997,
+   "p": 0.4847257637118144,
+   "coverage": 0.0,
+   "reading": "DQOANADASEQNVQO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830222-42.jpg",
+   "letters": 33,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.655,
+   "null_max": -5.614,
+   "p": 0.4871256437178141,
+   "coverage": 0.0,
+   "reading": "TNQANMOQAVAYNCKANONONNOAYOKAYNNAY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18761104-P.jpg",
+   "letters": 32,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.6,
+   "null_max": -5.728,
+   "p": 0.4903754812259387,
+   "coverage": 0.0,
+   "reading": "DYEAJYNZAHYCFAYXHRAQXEEVEREZREJE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880314.jpg",
+   "letters": 24,
+   "table": "2224",
+   "users": [
+    "BER"
+   ],
+   "score": -6.649,
+   "null_max": -5.635,
+   "p": 0.4920753962301885,
+   "coverage": 0.0,
+   "reading": "OSDAPFHOUDEU?ANHQAPFREU?",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850716-KSV.jpg",
+   "letters": 50,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.379,
+   "null_max": -5.419,
+   "p": 0.49227538623068845,
+   "coverage": 0.0,
+   "reading": "OMCANERUUSUJDQUDVMUCEEHRJDTEDEFTUTSESEEPSNEESAQDDR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840229-D.jpg",
+   "letters": 12,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -5.966,
+   "null_max": -4.343,
+   "p": 0.4926753662316884,
+   "coverage": 0.0,
+   "reading": "DAKETEAEANTZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18760206-bonjour.jpg",
+   "letters": 26,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.638,
+   "null_max": -5.569,
+   "p": 0.49382530873456326,
+   "coverage": 0.231,
+   "reading": "YOOOOOOOKYOLCCCXSNOMMERSKX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960830-V.jpg",
+   "letters": 95,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.699,
+   "null_max": -6.194,
+   "p": 0.49382530873456326,
+   "coverage": 0.042,
+   "reading": "ULEFURTEGTADEGTAFERYOKUFEUXXQIHUPAZEGTAXENUTVEHNYDEFUDTEYTBE TZEHTURUHTUVUPAHEJUNGUPANENUTCEYTGE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870611-Marie.jpg",
+   "letters": 37,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.581,
+   "null_max": -5.727,
+   "p": 0.49392530373481325,
+   "coverage": 0.0,
+   "reading": "AMVEIMJMDRMDORHFJAIIJARDUMRIDROITIRUT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930805-DOS.jpg",
+   "letters": 22,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.427,
+   "null_max": -5.165,
+   "p": 0.49407529623518825,
+   "coverage": 0.0,
+   "reading": "XENCOUCXANEUZQYMCVUQPM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830605-7.jpg",
+   "letters": 21,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.344,
+   "null_max": -4.541,
+   "p": 0.49722513874306284,
+   "coverage": 0.0,
+   "reading": "TPASTFPIRATTLLSFRLHLC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1879_18790730-DIA.jpg",
+   "letters": 12,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.325,
+   "null_max": -4.758,
+   "p": 0.5000749962501875,
+   "coverage": 0.0,
+   "reading": "PNCONDVFNTN?",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771003-VTA.jpg",
+   "letters": 187,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.996,
+   "null_max": -6.644,
+   "p": 0.5021248937553122,
+   "coverage": 0.0,
+   "reading": "DVRA KPPAJASLAYPAZHAPPANPKZVTVJZCKPJKJAZEZTKQCAPHAPPANVJZLVNYAH VBAVIBNAAKJBNEZVT?DVPVIPKOAATKQVNAINJPOIVLANBAHOPDSZBKRCIKLZSPASBKSZRLIXLDSZBD?NEPAOKKJVIZTEJCBKNEPAHOA?EHHPDEJG ODENHATIKJZVT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18851128-P.jpg",
+   "letters": 19,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.559,
+   "null_max": -5.35,
+   "p": 0.5041247937603119,
+   "coverage": 0.0,
+   "reading": "OAMKANONBALCAXYNKNY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860629-JN22.jpg",
+   "letters": 12,
+   "table": "1108",
+   "users": [
+    "KP"
+   ],
+   "score": -6.287,
+   "null_max": -4.759,
+   "p": 0.5055247237638119,
+   "coverage": 0.0,
+   "reading": "ISKLVNSNOSBL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840727-LOUIS.jpg",
+   "letters": 27,
+   "table": "2224",
+   "users": [
+    "BER"
+   ],
+   "score": -6.642,
+   "null_max": -5.602,
+   "p": 0.5144742762861857,
+   "coverage": 0.0,
+   "reading": "?RHAE?AETACEDEHPRDPS?ADSA?A",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960716-U55.jpg",
+   "letters": 18,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.406,
+   "null_max": -4.796,
+   "p": 0.5172741362931853,
+   "coverage": 0.0,
+   "reading": "JMNCOUBJWMREAJOUNE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821215-42.jpg",
+   "letters": 28,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.581,
+   "null_max": -5.271,
+   "p": 0.5305234738263087,
+   "coverage": 0.148,
+   "reading": "?FPSOSJAOLOJSOXJNPPSLORSLASR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870125-2.jpg",
+   "letters": 23,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.56,
+   "null_max": -5.221,
+   "p": 0.5363731813409329,
+   "coverage": 0.0,
+   "reading": "DEATEZAFOETNTPDEUZXEMBP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910731-30m.jpg",
+   "letters": 19,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.618,
+   "null_max": -5.428,
+   "p": 0.5390730463476826,
+   "coverage": 0.0,
+   "reading": "LPUBIFOOLORISSJNOBP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840429-O.jpg",
+   "letters": 15,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.344,
+   "null_max": -4.343,
+   "p": 0.552222388880556,
+   "coverage": 0.0,
+   "reading": "UGSITTGRIETCGET",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980503-13.jpg",
+   "letters": 29,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.714,
+   "null_max": -5.59,
+   "p": 0.5564721763911804,
+   "coverage": 0.0,
+   "reading": "TCRSXDJKGQNQUIDATHFSRWQPJQXPG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930726-MI.jpg",
+   "letters": 21,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.477,
+   "null_max": -5.264,
+   "p": 0.5608219589020549,
+   "coverage": 0.0,
+   "reading": "OITRDIURDURDGIRACBDFE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1875_18751223-Daisy.jpg",
+   "letters": 28,
+   "table": "1003",
+   "users": [
+    "BZ",
+    "HM5",
+    "Lulu",
+    "TR"
+   ],
+   "score": -6.735,
+   "null_max": -5.449,
+   "p": 0.5614219289035548,
+   "coverage": 0.179,
+   "reading": "AXFPVABZOAXQMONDEFBOSBIRXZCB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930305.jpg",
+   "letters": 37,
+   "table": "2222",
+   "users": [
+    "partiel.",
+    "Beaucoup",
+    "d'abréviations.",
+    "Mots",
+    "collés.",
+    "404",
+    "Jean"
+   ],
+   "score": -6.726,
+   "null_max": -5.709,
+   "p": 0.5665716714164292,
+   "coverage": 0.0,
+   "reading": "NYELGIGYEJELXNJYZZJTLUNDLINTVNRO?ELOR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1892_18920611-B4.jpg",
+   "letters": 29,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.7,
+   "null_max": -5.852,
+   "p": 0.567971601419929,
+   "coverage": 0.0,
+   "reading": "REGRBHDGDCSDANASLRSJHSRLUTIFF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1900_19000404-13.jpg",
+   "letters": 33,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.817,
+   "null_max": -5.919,
+   "p": 0.5793210339483026,
+   "coverage": 0.0,
+   "reading": "BPIMBUPIVXOSSOMLUOPAILXSPDUPOOOOP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870125-2F.jpg",
+   "letters": 23,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.461,
+   "null_max": -5.225,
+   "p": 0.5806709664516774,
+   "coverage": 0.0,
+   "reading": "IQACXRYDZXEXETEFIAEUUTE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820203-42.jpg",
+   "letters": 28,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.546,
+   "null_max": -5.527,
+   "p": 0.5810209489525524,
+   "coverage": 0.0,
+   "reading": "BVSALLIAULLZAGSXKASGGSTAUXFS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18931004-MI.jpg",
+   "letters": 27,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.694,
+   "null_max": -5.726,
+   "p": 0.5823208839558022,
+   "coverage": 0.0,
+   "reading": "FTXGOTAUEZMHDQAVQPQAGEUXMZP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890316-Psee.jpg",
+   "letters": 18,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.501,
+   "null_max": -4.838,
+   "p": 0.5986200689965502,
+   "coverage": 0.0,
+   "reading": "ARMOPUPDIPSRRIVOLN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850211-M.jpg",
+   "letters": 16,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.555,
+   "null_max": -4.974,
+   "p": 0.5996700164991751,
+   "coverage": 0.0,
+   "reading": "VHRAQOINOGELACBC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840805-CH.jpg",
+   "letters": 20,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.699,
+   "null_max": -5.472,
+   "p": 0.6021198940052997,
+   "coverage": 0.0,
+   "reading": "YTQNARGXB OUENXJKDSEN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870221.jpg",
+   "letters": 16,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.422,
+   "null_max": -4.729,
+   "p": 0.6035198240087996,
+   "coverage": 0.0,
+   "reading": "TUIEUXQMJKAMPCZT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771023-VTA.jpg",
+   "letters": 18,
+   "table": "1009",
+   "users": [
+    "10"
+   ],
+   "score": -6.616,
+   "null_max": -5.11,
+   "p": 0.6057197140142992,
+   "coverage": 0.0,
+   "reading": "MMNVUEVJURPDFIEZEX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890303-Psee.jpg",
+   "letters": 16,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.45,
+   "null_max": -4.756,
+   "p": 0.6064196790160492,
+   "coverage": 0.0,
+   "reading": "GJTUDUISIUTZDQIJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960916-V.jpg",
+   "letters": 62,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.822,
+   "null_max": -6.164,
+   "p": 0.6072696365181741,
+   "coverage": 0.0,
+   "reading": "VFTSA GHVFKUJAUGUVKUGUJANGRTGVQAVERAFLXVSGEADVVJUGYRDURLGMBEABG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811007.jpg",
+   "letters": 49,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.447,
+   "null_max": -5.38,
+   "p": 0.6093195340232989,
+   "coverage": 0.0,
+   "reading": "ALLSUDJULTUZNEIRSIUPEDEDABAMEMIATSJUOJUDTUOERIRLE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850216-R.jpg",
+   "letters": 14,
+   "table": "1002",
+   "users": [
+    "35",
+    "43",
+    "LG",
+    "TR"
+   ],
+   "score": -6.587,
+   "null_max": -4.589,
+   "p": 0.6096195190240488,
+   "coverage": 0.0,
+   "reading": "DFMADERPCDRPCC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930219.jpg",
+   "letters": 15,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.146,
+   "null_max": -4.279,
+   "p": 0.6140192990350483,
+   "coverage": 0.0,
+   "reading": "FICDRIAIAIDAFFF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771207-VTA.jpg",
+   "letters": 52,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.823,
+   "null_max": -6.153,
+   "p": 0.6212689365531724,
+   "coverage": 0.0,
+   "reading": "FJPFJPARBHTRBPJBARBQVETIQYCEZGHTRBFMRITBSVUJMOTEAITY",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850619-N.jpg",
+   "letters": 18,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.445,
+   "null_max": -4.625,
+   "p": 0.6283685815709215,
+   "coverage": 0.0,
+   "reading": "QXIHETUGEURGEIIGDI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18811023-38.jpg",
+   "letters": 13,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.479,
+   "null_max": -4.787,
+   "p": 0.6299185040747962,
+   "coverage": 0.0,
+   "reading": "QISHU??GYETQU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830612-5.jpg",
+   "letters": 33,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.749,
+   "null_max": -5.783,
+   "p": 0.6357182140892955,
+   "coverage": 0.0,
+   "reading": "OMOLPAOXXOOSFPUOROSADNOMSASUOUIVX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930610-Mimi.jpg",
+   "letters": 36,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.449,
+   "null_max": -5.45,
+   "p": 0.6360681965901704,
+   "coverage": 0.0,
+   "reading": "VRVRTEPREPLGXETPMAREARPNLEVTADJRNRIT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860202-E.jpg",
+   "letters": 18,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.619,
+   "null_max": -5.225,
+   "p": 0.6368681565921704,
+   "coverage": 0.0,
+   "reading": "LFFPSFGNKETJGSQUIF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1892_18920609-B4.jpg",
+   "letters": 21,
+   "table": "1006",
+   "users": [
+    "(pas",
+    "d'id)",
+    "Th"
+   ],
+   "score": -6.752,
+   "null_max": -5.747,
+   "p": 0.639918004099795,
+   "coverage": 0.0,
+   "reading": "JLIZNLCCHAUXHWVGYLFOR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840308-L.jpg",
+   "letters": 13,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.492,
+   "null_max": -4.756,
+   "p": 0.6444177791110445,
+   "coverage": 0.0,
+   "reading": "VNDIBEVNDEILN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771017-VTA.jpg",
+   "letters": 43,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.808,
+   "null_max": -6.015,
+   "p": 0.647817609119544,
+   "coverage": 0.0,
+   "reading": "ORVIPU NBORVIDFRINIIGOOAPUPJOBPRCNSGVUBLOSOR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850618-A.jpg",
+   "letters": 15,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.442,
+   "null_max": -4.504,
+   "p": 0.6513174341282936,
+   "coverage": 0.0,
+   "reading": "ESNELSODCZAOZCT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890713-MIG.jpg",
+   "letters": 29,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.762,
+   "null_max": -5.919,
+   "p": 0.6515174241287935,
+   "coverage": 0.0,
+   "reading": "MJGPVJILTLNUQOVLEPDGRDUNTJENQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890405a-MIG.jpg",
+   "letters": 12,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.256,
+   "null_max": -4.491,
+   "p": 0.6542172891355432,
+   "coverage": 0.0,
+   "reading": "NPHAMPAGHPOP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930918-Mm.jpg",
+   "letters": 26,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.595,
+   "null_max": -5.521,
+   "p": 0.6564671766411679,
+   "coverage": 0.0,
+   "reading": "EHEXCNNETXEQXYYL UIETCQLPTA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880304.jpg",
+   "letters": 28,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.753,
+   "null_max": -5.773,
+   "p": 0.6580670966451677,
+   "coverage": 0.0,
+   "reading": "LIQIXTUQJGATSIEAUDVNIQZPBXAU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820708-JN22.jpg",
+   "letters": 14,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.575,
+   "null_max": -5.183,
+   "p": 0.6594170291485426,
+   "coverage": 0.0,
+   "reading": "MUUTURFEMLUIUX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861104-90.jpg",
+   "letters": 19,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.598,
+   "null_max": -4.947,
+   "p": 0.6686665666716665,
+   "coverage": 0.0,
+   "reading": "ZIUMBKVYKVMUSETVEZW",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870612-MIG.jpg",
+   "letters": 13,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.509,
+   "null_max": -4.683,
+   "p": 0.6724663766811659,
+   "coverage": 0.0,
+   "reading": "LEVJTASATFLGL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870324-3.jpg",
+   "letters": 13,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.325,
+   "null_max": -4.107,
+   "p": 0.6734663266836658,
+   "coverage": 0.0,
+   "reading": "OEOIVECNJECVZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18901101-222.jpg",
+   "letters": 21,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.656,
+   "null_max": -5.589,
+   "p": 0.6782160891955402,
+   "coverage": 0.0,
+   "reading": "NZPJENUHOEUAIPH?UGUIG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870104-3.jpg",
+   "letters": 12,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.364,
+   "null_max": -4.501,
+   "p": 0.6813659317034149,
+   "coverage": 0.0,
+   "reading": "SVUNTMCUNIEL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870101-2.jpg",
+   "letters": 15,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.494,
+   "null_max": -4.684,
+   "p": 0.6834658267086645,
+   "coverage": 0.0,
+   "reading": "EQDEQOSEQOSANOS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930914-MI.jpg",
+   "letters": 28,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.802,
+   "null_max": -5.912,
+   "p": 0.687365631718414,
+   "coverage": 0.0,
+   "reading": "THDNAJNQNGRRAGALEFRCQFQONRLP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980208-13.jpg",
+   "letters": 33,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.754,
+   "null_max": -5.847,
+   "p": 0.688165591720414,
+   "coverage": 0.138,
+   "reading": "PCOUSOBN?RGLUN?ILJFOISAS?SORRL?UG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830609-42.jpg",
+   "letters": 32,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.72,
+   "null_max": -5.52,
+   "p": 0.6896155192240389,
+   "coverage": 0.156,
+   "reading": "DNXSAXBSAOSAISOPXSOSAPXVSCMSASCO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771106-VTA.jpg",
+   "letters": 103,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.93,
+   "null_max": -6.523,
+   "p": 0.6946652667366632,
+   "coverage": 0.0,
+   "reading": "NDIPCSHAPKTLGXITCHIMJCSTGEPAHTEGTITCHTID GBXCSHAPKTNDJVDIATIITGHTCINTHITGSPNPCSEINAWMSUDGHWXGATNHPIJGSPN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840520-AZ15.jpg",
+   "letters": 23,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.69,
+   "null_max": -5.167,
+   "p": 0.6994150292485376,
+   "coverage": 0.0,
+   "reading": "YJBTAUEINDUJFHGMILGKRIE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1878_18780611-SALAM.jpg",
+   "letters": 29,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.774,
+   "null_max": -5.663,
+   "p": 0.7068646567671616,
+   "coverage": 0.0,
+   "reading": "NLUOTSSUDUZUDFKIUZRUSYUISSUIR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960812-V.jpg",
+   "letters": 58,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.787,
+   "null_max": -5.85,
+   "p": 0.7073646317684116,
+   "coverage": 0.0,
+   "reading": "IOUJIGUOPXGOSUBPGILSNGUPBXSIAIOSJUIBUXSIMIOSLUI DVNDUOPVNGU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18911226-VE3.jpg",
+   "letters": 36,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.659,
+   "null_max": -5.491,
+   "p": 0.7077646117694115,
+   "coverage": 0.0,
+   "reading": "MIIOMMIIIIIIKIIIZIIIIUXSEXPSAPCGNSGP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870118-7.jpg",
+   "letters": 17,
+   "table": "2215",
+   "users": [
+    "lettre",
+    "suivie",
+    "d'un",
+    "\"-\"",
+    "double",
+    "la",
+    "lettre.",
+    "Exemple"
+   ],
+   "score": -6.496,
+   "null_max": -4.721,
+   "p": 0.7111144442777861,
+   "coverage": 0.0,
+   "reading": "DVNRITNCJNEVUNTRE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910830-SOL.jpg",
+   "letters": 17,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.574,
+   "null_max": -4.505,
+   "p": 0.7144142792860357,
+   "coverage": 0.0,
+   "reading": "FFRAFFRURLRNDMOFG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18900126-Lili2.jpg",
+   "letters": 12,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.394,
+   "null_max": -4.228,
+   "p": 0.7253137343132844,
+   "coverage": 0.0,
+   "reading": "JICTANINICMQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840113-JN22.jpg",
+   "letters": 12,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.44,
+   "null_max": -4.212,
+   "p": 0.7273636318184091,
+   "coverage": 0.0,
+   "reading": "MLSALLRRDPLM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960804-EC.jpg",
+   "letters": 50,
+   "table": "1009",
+   "users": [
+    "10"
+   ],
+   "score": -6.812,
+   "null_max": -6.122,
+   "p": 0.7287635618219089,
+   "coverage": 0.0,
+   "reading": "EGVJZEZPSRRUMISDDSZYOSIVIZVKYVTZITVRIURSURVJFRERKR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940624-13.jpg",
+   "letters": 21,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.557,
+   "null_max": -5.204,
+   "p": 0.7298635068246587,
+   "coverage": 0.0,
+   "reading": "DAYPYRHYPANDAPANMUGYR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930514-Nic.jpg",
+   "letters": 52,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.76,
+   "null_max": -6.011,
+   "p": 0.7341632918354082,
+   "coverage": 0.0,
+   "reading": "RDFTRQBREIN NIUADD RIMBRAGIJDILCAFDNIUSFOFOPDOFOFLGAIC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991231-13.jpg",
+   "letters": 31,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.794,
+   "null_max": -5.581,
+   "p": 0.735713214339283,
+   "coverage": 0.0,
+   "reading": "RUPRIBJUBCSOIPPLORNIOOALODUIPPP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830227-42.jpg",
+   "letters": 20,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.464,
+   "null_max": -4.836,
+   "p": 0.7398130093495325,
+   "coverage": 0.0,
+   "reading": "DSPRCQCALSETADDPZDLE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18881220-Psee.jpg",
+   "letters": 20,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.648,
+   "null_max": -5.307,
+   "p": 0.7403129843507824,
+   "coverage": 0.0,
+   "reading": "GJUUH QTUSURUOUEUGKCR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840108-I.jpg",
+   "letters": 13,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.529,
+   "null_max": -4.488,
+   "p": 0.7449627518624069,
+   "coverage": 0.0,
+   "reading": "JRBNTTAQCRLAL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830228-7.jpg",
+   "letters": 14,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.658,
+   "null_max": -4.902,
+   "p": 0.7553622318884056,
+   "coverage": 0.0,
+   "reading": "IGUQTUXVERKTKI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18941003-25.jpg",
+   "letters": 35,
+   "table": "2201",
+   "users": [
+    "(pas",
+    "d'id)",
+    "22",
+    "3",
+    "et",
+    "9",
+    "30",
+    "3333"
+   ],
+   "score": -6.726,
+   "null_max": -5.646,
+   "p": 0.7592620368981551,
+   "coverage": 0.0,
+   "reading": "OHKJSCCAIBTEXBKHOESDDRHVFTEAUITESIO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1892_18921103-Marion.jpg",
+   "letters": 28,
+   "table": "2224",
+   "users": [
+    "BER"
+   ],
+   "score": -6.837,
+   "null_max": -5.591,
+   "p": 0.7635618219089045,
+   "coverage": 0.0,
+   "reading": "TE?MOR?BMURLE?ONECAVE??VT?RM",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18821212-PAUL.jpg",
+   "letters": 36,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.822,
+   "null_max": -5.706,
+   "p": 0.7651117444127794,
+   "coverage": 0.0,
+   "reading": "AKEQZZNVZEEOCERSDESXODZDZCCIYZELOQCA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1876_18761006-2S.jpg",
+   "letters": 24,
+   "table": "2213",
+   "users": [
+    "ABCD"
+   ],
+   "score": -6.777,
+   "null_max": -5.445,
+   "p": 0.7685115744212789,
+   "coverage": 0.0,
+   "reading": "NJN?MOMNEEMMCNLM??IMIMII",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860122-2Fev.jpg",
+   "letters": 21,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.529,
+   "null_max": -4.994,
+   "p": 0.7727613619319034,
+   "coverage": 0.0,
+   "reading": "HJRULMIEYAGARAHIJEAEA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1887_18870227.jpg",
+   "letters": 29,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.885,
+   "null_max": -5.943,
+   "p": 0.7903104844757762,
+   "coverage": 0.0,
+   "reading": "XPIBNOUBXASLOLOOXII?FROPLINOZ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830603-8.jpg",
+   "letters": 18,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.735,
+   "null_max": -5.278,
+   "p": 0.7964101794910254,
+   "coverage": 0.0,
+   "reading": "SMSOSENFDQOSQAQDED",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18771222-VTA.jpg",
+   "letters": 32,
+   "table": "1012",
+   "users": [
+    "(pas",
+    "d'id)",
+    "MLR"
+   ],
+   "score": -6.887,
+   "null_max": -6.103,
+   "p": 0.8038598070096495,
+   "coverage": 0.0,
+   "reading": "JSFPLTHRGAODTAONFLETLRFOWZHVIFGR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930923-MI.jpg",
+   "letters": 18,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.562,
+   "null_max": -5.051,
+   "p": 0.8090095495225239,
+   "coverage": 0.0,
+   "reading": "VGNJISLSILORIVJSIB",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18960628-EA.jpg",
+   "letters": 24,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.5,
+   "null_max": -5.065,
+   "p": 0.8105094745262736,
+   "coverage": 0.0,
+   "reading": "RPNVISRONGDPRRDPNPUTPHUP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891010-M9.jpg",
+   "letters": 24,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.746,
+   "null_max": -5.464,
+   "p": 0.8145592720363982,
+   "coverage": 0.0,
+   "reading": "RUTAVPEFPYTRKUTYNETNIBPN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991218-13.jpg",
+   "letters": 29,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.786,
+   "null_max": -5.84,
+   "p": 0.8149092545372731,
+   "coverage": 0.0,
+   "reading": "MLUSVITMBB HIITVXIZAUMRXVEXURV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980929-F.jpg",
+   "letters": 32,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.766,
+   "null_max": -5.494,
+   "p": 0.8174591270436479,
+   "coverage": 0.0,
+   "reading": "EAREZSRNOILTOMDCPIADFXSCDGZEACRG",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1896_18961016-A.jpg",
+   "letters": 50,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.918,
+   "null_max": -5.973,
+   "p": 0.8182590870456478,
+   "coverage": 0.0,
+   "reading": "RAOAOP GISOMXSILIOSPUOBOMBFXSIRORG?IPIBIPPIMUORUSOO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830225-YOU.jpg",
+   "letters": 26,
+   "table": "1110",
+   "users": [
+    "GEO"
+   ],
+   "score": -6.751,
+   "null_max": -5.56,
+   "p": 0.8214089295535223,
+   "coverage": 0.0,
+   "reading": "OFLJGKJIUAUSTUUIGKRURSTUJU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930608-EVA.jpg",
+   "letters": 24,
+   "table": "1005",
+   "users": [
+    "(pas",
+    "d'id)",
+    "P"
+   ],
+   "score": -6.844,
+   "null_max": -5.617,
+   "p": 0.8264586770661467,
+   "coverage": 0.0,
+   "reading": "UPTLPRINPKMTHSURTXUIYTOT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18770828-VTAJ.jpg",
+   "letters": 33,
+   "table": "2217",
+   "users": [
+    "ZZ"
+   ],
+   "score": -6.775,
+   "null_max": -5.69,
+   "p": 0.8368081595920204,
+   "coverage": 0.0,
+   "reading": "SG?OUUQGMREOREUG?MREPLSVELSAAJE?D",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980120-13.jpg",
+   "letters": 29,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.788,
+   "null_max": -5.562,
+   "p": 0.8469076546172691,
+   "coverage": 0.0,
+   "reading": "SZKVINGMUVESUALLREERXABJVFDMA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18881214-MIG.jpg",
+   "letters": 17,
+   "table": "2222",
+   "users": [
+    "partiel.",
+    "Beaucoup",
+    "d'abréviations.",
+    "Mots",
+    "collés.",
+    "404",
+    "Jean"
+   ],
+   "score": -6.695,
+   "null_max": -5.107,
+   "p": 0.8498575071246438,
+   "coverage": 0.0,
+   "reading": "CGDOYGXHJUPEENNXJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1898_18980306-13.jpg",
+   "letters": 38,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.846,
+   "null_max": -6.041,
+   "p": 0.8543072846357682,
+   "coverage": 0.0,
+   "reading": "?S?OBBDPRHOODPPRIOAILVOLOVRNJXOOROBOOP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18841216-R.jpg",
+   "letters": 12,
+   "table": "1009",
+   "users": [
+    "10"
+   ],
+   "score": -6.56,
+   "null_max": -4.181,
+   "p": 0.8562571871406429,
+   "coverage": 0.0,
+   "reading": "ZIVEFITRFUCC",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840810-Louis.jpg",
+   "letters": 13,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.516,
+   "null_max": -4.339,
+   "p": 0.8575571221438928,
+   "coverage": 0.0,
+   "reading": "CFTGEFUPEUFCJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840315-H.jpg",
+   "letters": 18,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.714,
+   "null_max": -5.2,
+   "p": 0.8850557472126394,
+   "coverage": 0.0,
+   "reading": "PNLIBNVANPENLVXEAP",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1875_18750617-fleur.jpg",
+   "letters": 24,
+   "table": "2224",
+   "users": [
+    "BER"
+   ],
+   "score": -6.855,
+   "null_max": -5.676,
+   "p": 0.8859057047147643,
+   "coverage": 0.0,
+   "reading": "AAPPFAP?EAAFHCAE??EANDEE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810409-Favte.jpg",
+   "letters": 17,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.814,
+   "null_max": -5.216,
+   "p": 0.8867556622168892,
+   "coverage": 0.0,
+   "reading": "RMKFAMFFOXTMORAUE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820428-PAUL.jpg",
+   "letters": 17,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.695,
+   "null_max": -4.614,
+   "p": 0.8870556472176391,
+   "coverage": 0.0,
+   "reading": "PDHLFLRPTZFRASPRA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18991020-13.jpg",
+   "letters": 34,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.795,
+   "null_max": -5.467,
+   "p": 0.8902554872256387,
+   "coverage": 0.0,
+   "reading": "GYVEFTERYQPEALITTYVNADURRFEUHXLSGT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810701-ANONYME.jpg",
+   "letters": 72,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.883,
+   "null_max": -6.144,
+   "p": 0.8921553922303885,
+   "coverage": 0.056,
+   "reading": "XXICTXETILBLDJUDGBFVCEZCEDLVFELEIMBMEHXVITEIBZFJXBIMTIRBDFVEJBDXBSUEKSVU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860401-B.jpg",
+   "letters": 16,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.651,
+   "null_max": -4.58,
+   "p": 0.8937053147342633,
+   "coverage": 0.0,
+   "reading": "JSDOUQUUEGSQGTSD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1877_18770918-VTA.jpg",
+   "letters": 100,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -7.049,
+   "null_max": -6.655,
+   "p": 0.8953552322383881,
+   "coverage": 0.0,
+   "reading": "WPKTVGTPISTPADU CDLPQDJIBNCXMOTQTSYJHICDLNDJGHXVWILXAAQTVDSHTCSIDBTLXAAL XCBPGVPITDCIWJGHHWXGATNHJCSPN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860717-90.jpg",
+   "letters": 24,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.796,
+   "null_max": -5.313,
+   "p": 0.9002049897505124,
+   "coverage": 0.0,
+   "reading": "DSYOMAC KEEECAFSDNONOKGZE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840313-D.jpg",
+   "letters": 20,
+   "table": "2203",
+   "users": [
+    "GLACE"
+   ],
+   "score": -6.833,
+   "null_max": -5.377,
+   "p": 0.9018549072546372,
+   "coverage": 0.0,
+   "reading": "HALITHVJHVIUBITYCEKH",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18890808.jpg",
+   "letters": 31,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.876,
+   "null_max": -5.802,
+   "p": 0.9094045297735113,
+   "coverage": 0.0,
+   "reading": "RDNEURCJVAQBJMBDDCECFOJNMLFSDJN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18990916-13.jpg",
+   "letters": 22,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.774,
+   "null_max": -5.337,
+   "p": 0.9104544772761362,
+   "coverage": 0.0,
+   "reading": "PRDASS JBQLSQBLALUCZFQE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18990417-13.jpg",
+   "letters": 41,
+   "table": "2222",
+   "users": [
+    "partiel.",
+    "Beaucoup",
+    "d'abréviations.",
+    "Mots",
+    "collés.",
+    "404",
+    "Jean"
+   ],
+   "score": -6.834,
+   "null_max": -5.804,
+   "p": 0.9155042247887606,
+   "coverage": 0.0,
+   "reading": "NEELEERCEDMPJFPZLXZJVYGJEESLGEPDYYDVTNHGJ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830601-7.jpg",
+   "letters": 22,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.808,
+   "null_max": -5.336,
+   "p": 0.9163541822908855,
+   "coverage": 0.0,
+   "reading": "NSAQNDSQNSAQODEQOMQODS",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860602-T.jpg",
+   "letters": 15,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.791,
+   "null_max": -5.101,
+   "p": 0.9226038698065097,
+   "coverage": 0.0,
+   "reading": "OSADIJOXUPISXGU",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831129-R.jpg",
+   "letters": 20,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.763,
+   "null_max": -5.113,
+   "p": 0.9262036898155093,
+   "coverage": 0.0,
+   "reading": "TPCCQXLFRANPTSFRLSPA",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840303-E.jpg",
+   "letters": 18,
+   "table": "1014",
+   "users": [
+    "C21"
+   ],
+   "score": -6.709,
+   "null_max": -5.008,
+   "p": 0.9264536773161341,
+   "coverage": 0.0,
+   "reading": "EDQFDBMBEURAORBEDQ",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1891_18910605-243S.jpg",
+   "letters": 75,
+   "table": "2211",
+   "users": [
+    "(pas",
+    "d'id)",
+    "L4",
+    "M4",
+    "R",
+    "S4"
+   ],
+   "score": -6.948,
+   "null_max": -6.382,
+   "p": 0.9270036498175092,
+   "coverage": 0.0,
+   "reading": "CDMICAICPDAJXZDFAJDUCMCICDMUJHHAMLFAYAMMCAMCXDLCEGDAYYZADMDJHDCYZCAMEDAEAFF",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860328-T.jpg",
+   "letters": 18,
+   "table": "1001",
+   "users": [
+    "(pas",
+    "d'id)",
+    "01",
+    "35",
+    "3717",
+    "629",
+    "682",
+    "AB13"
+   ],
+   "score": -6.769,
+   "null_max": -4.782,
+   "p": 0.9299535023248837,
+   "coverage": 0.0,
+   "reading": "SDDAUDEDQOINKSEQOE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1899_18990308-13.jpg",
+   "letters": 29,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.821,
+   "null_max": -5.534,
+   "p": 0.9327033648317584,
+   "coverage": 0.0,
+   "reading": "LROUOVNPIBIAIRPOBCNVNVABO AULN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1890_18901008-B4.jpg",
+   "letters": 25,
+   "table": "1124",
+   "users": [
+    "43",
+    "5",
+    "Mai",
+    "76"
+   ],
+   "score": -6.868,
+   "null_max": -5.665,
+   "p": 0.9351532423378831,
+   "coverage": 0.0,
+   "reading": "IJNGVOSTGVCFPEDUXENQTPQON",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891101-VE3.jpg",
+   "letters": 33,
+   "table": "1105",
+   "users": [
+    "1859",
+    "G"
+   ],
+   "score": -6.75,
+   "null_max": -5.393,
+   "p": 0.9374531273436328,
+   "coverage": 0.0,
+   "reading": "ANAAOANVEFUESOUQSMRUDTIJFRDATUPVR",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940802-GO.jpg",
+   "letters": 34,
+   "table": "6002",
+   "users": [
+    "DUC"
+   ],
+   "score": -6.868,
+   "null_max": -5.942,
+   "p": 0.9412029398530074,
+   "coverage": 0.0,
+   "reading": "TAGNPGNAUPXDLRRMPGTAXODANDLMUTGTAX",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1881_18810729-TELLY.jpg",
+   "letters": 69,
+   "table": "1109",
+   "users": [
+    "H"
+   ],
+   "score": -6.884,
+   "null_max": -6.087,
+   "p": 0.944002799860007,
+   "coverage": 0.072,
+   "reading": "HVFTVEDNVHGAUTAVVRGTKALFMHAGLUKUVLAVERMARAVMVDHKVVKJVJULBJJVKEJQARCLV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861230-1.jpg",
+   "letters": 13,
+   "table": "1116",
+   "users": [
+    "COCO"
+   ],
+   "score": -6.758,
+   "null_max": -4.643,
+   "p": 0.9486525673716314,
+   "coverage": 0.0,
+   "reading": "LOMELCAOPCZDE",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18851020-22.jpg",
+   "letters": 41,
+   "table": "1004",
+   "users": [
+    "TR"
+   ],
+   "score": -6.808,
+   "null_max": -5.628,
+   "p": 0.9530023498825059,
+   "coverage": 0.0,
+   "reading": "DANZLLAPGCFLAAUNNGULIOGALXAJIAJALXEEOENLO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18860127-U.jpg",
+   "letters": 14,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.696,
+   "null_max": -4.302,
+   "p": 0.9552022398880056,
+   "coverage": 0.0,
+   "reading": "LPTYVYOETIABAN",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1885_18850718-12.jpg",
+   "letters": 20,
+   "table": "2226",
+   "users": [
+    "XUM"
+   ],
+   "score": -6.819,
+   "null_max": -5.263,
+   "p": 0.96005199740013,
+   "coverage": 0.0,
+   "reading": "EJMLTAJISHLGHLEASAJI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1893_18930507-MM.jpg",
+   "letters": 18,
+   "table": "1025",
+   "users": [
+    "(pas",
+    "d'id)",
+    "13B",
+    "3",
+    "35",
+    "49",
+    "5",
+    "9A"
+   ],
+   "score": -6.783,
+   "null_max": -5.259,
+   "p": 0.9605019749012549,
+   "coverage": 0.0,
+   "reading": "OJDITQSJOUQTGPMOJD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861202-Emma.jpg",
+   "letters": 12,
+   "table": "2218",
+   "users": [
+    "Faust",
+    "IRMA",
+    "P52",
+    "Prophète",
+    "Robert",
+    "Roméo",
+    "Sigurd"
+   ],
+   "score": -6.766,
+   "null_max": -4.45,
+   "p": 0.9616519174041298,
+   "coverage": 0.0,
+   "reading": "PEECRTRQETPV",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1882_18820610-PAUL.jpg",
+   "letters": 16,
+   "table": "2210",
+   "users": [
+    "ARISTE"
+   ],
+   "score": -6.774,
+   "null_max": -4.926,
+   "p": 0.9651517424128794,
+   "coverage": 0.0,
+   "reading": "PDVEFRASLRATQRIL",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1884_18840503-E.jpg",
+   "letters": 14,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.677,
+   "null_max": -4.678,
+   "p": 0.9774511274436278,
+   "coverage": 0.0,
+   "reading": "YANAYYYYCARJON",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18831228-A.jpg",
+   "letters": 28,
+   "table": "1024",
+   "users": [
+    "22",
+    "23",
+    "GEO",
+    "NIT"
+   ],
+   "score": -6.937,
+   "null_max": -5.792,
+   "p": 0.9793510324483776,
+   "coverage": 0.0,
+   "reading": "DCGHTRVPTRGVDTRGJTRQUITRJFHO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1888_18880630-GA.jpg",
+   "letters": 26,
+   "table": "2213",
+   "users": [
+    "ABCD"
+   ],
+   "score": -6.863,
+   "null_max": -5.539,
+   "p": 0.9863506824658768,
+   "coverage": 0.0,
+   "reading": "AATTECTNCC?AJCNCCBUHNI??ME",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1883_18830128-JN22.jpg",
+   "letters": 15,
+   "table": "1011",
+   "users": [
+    "911",
+    "915",
+    "916",
+    "920",
+    "921",
+    "924",
+    "93",
+    "930"
+   ],
+   "score": -6.84,
+   "null_max": -4.298,
+   "p": 0.9894005299735014,
+   "coverage": 0.0,
+   "reading": "SXPCTEAATUGKDAT",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1889_18891022-JLX.jpg",
+   "letters": 19,
+   "table": "1108",
+   "users": [
+    "KP"
+   ],
+   "score": -6.9,
+   "null_max": -5.368,
+   "p": 0.9901004949752512,
+   "coverage": 0.0,
+   "reading": "TEJESDDSLFXEBDNVDBD",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1894_18940111.jpg",
+   "letters": 20,
+   "table": "2202",
+   "users": [
+    "(pas",
+    "d'id)",
+    "27",
+    "29",
+    "4",
+    "ZZ"
+   ],
+   "score": -6.955,
+   "null_max": -5.399,
+   "p": 0.992700364981751,
+   "coverage": 0.0,
+   "reading": "JIAUBPYUF MIDUBGUHYMO",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  },
+  {
+   "image": "1886_18861228.jpg",
+   "letters": 35,
+   "table": "1017",
+   "users": [
+    "10",
+    "Mimi"
+   ],
+   "score": -6.999,
+   "null_max": -6.0,
+   "p": 0.9965501724913755,
+   "coverage": 0.0,
+   "reading": "JJNCARWJBCNLXRGANEOWVBXBNYUAWO YABEI",
+   "bonferroni": false,
+   "fdr": false,
+   "candidate": false
+  }
+ ]
+}

@@ -191,6 +191,22 @@ def _documented():
         "table": _t(["Date", "Writer", "System", "Word coverage", "Null p", "Reading (OCR)"], rows)}]
 
 
+def _sweep():
+    """Round 44: all documented tables on every unsolved letter ad."""
+    import json
+
+    from ..languages import ROOT
+    path, tpath = ROOT / "data/results/figaro_table_sweep.json", ROOT / "data/sources/figaro/sweep_transcription.json"
+    if not path.exists() or not tpath.exists():
+        return []
+    r, tr = json.loads(path.read_text()), json.loads(tpath.read_text())["ads"]
+    rows = [[i[5:13], a["system"], a["reading"][:90]] for i, a in tr.items()]
+    return [{"heading": "Every documented table on every ad", "paragraphs": [
+        f"All {r['tables']} documented tables were applied to {r['ads']} unsolved letter ads, whoever they are listed for. Each ad's best table was compared with {r['shuffles']:,} shuffled copies of the ad, each also taking its best table. {r['bonferroni']} ads pass a Bonferroni correction over all ads and {r['fdr']} the false-discovery rate; most were already candidates here.",
+        "Ten more read when transcribed from the scans, listed below. One of them, signed prof. Valentin in December 1878, uses the V. T. A. symbols and reads in English with the key built from the 1877 ads alone (69% dictionary words against at most 50% for 2,000 shuffled keys). All are candidates checked by eye; novelty unconfirmed."],
+        "table": _t(["Date", "System", "Reading"], rows)}]
+
+
 def _pooled():
     """Round 40: each writer's enciphered stretches pooled and solved blind."""
     import json
@@ -242,4 +258,4 @@ def _correspondences():
 
 def figaro_sections(r):
     rows = [[x["image"][:10].replace("_", "-"), x["method"], x["letters"], f"{x['coverage']:.0%}", x["reading"][:90]] for x in r["flagged"]]
-    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _ch() + _documented() + _pooled() + _wide() + _layered()
+    return [{"heading": "Reading the personal column", "paragraphs": ["From 1875, lovers and others coded private messages in Le Figaro's personal column. Didier Muller's database records more than 4,000 of them, and over 1,200 are listed as undecrypted. They exist only as scans, so we read them by OCR.", f"Many writers used simple documented systems, so we applied those directly. Control: on {r['control_ads']} ads with known answers, the method matched the answer in {r['control_recovered']} cases.", f"Of {r['tested']} unsolved ads with enough text, {r['plain_ads']} were found to be plain French or close to it. Results below beat the highest shuffled score seen at their length. Each should still be checked against its scan, and being listed as undecrypted does not prove nobody has read it."], "table": _t(["Date from file", "System", "Letters", "Word coverage", "Reading"], rows)}] + _correspondences() + _vta() + _ch() + _documented() + _sweep() + _pooled() + _wide() + _layered()
