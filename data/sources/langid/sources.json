@@ -54,5 +54,101 @@
   "licence": "CC BY-SA 4.0",
   "fetched": "2026-11-10",
   "method": "random article intros via the MediaWiki API"
+ },
+ "bg": {
+  "wikipedia": "https://bg.wikipedia.org",
+  "articles": 78,
+  "characters": 46290,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "bn": {
+  "wikipedia": "https://bn.wikipedia.org",
+  "articles": 68,
+  "characters": 50722,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "ca": {
+  "wikipedia": "https://ca.wikipedia.org",
+  "articles": 61,
+  "characters": 42769,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "cs": {
+  "wikipedia": "https://cs.wikipedia.org",
+  "articles": 87,
+  "characters": 46445,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "da": {
+  "wikipedia": "https://da.wikipedia.org",
+  "articles": 79,
+  "characters": 44703,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "el": {
+  "wikipedia": "https://el.wikipedia.org",
+  "articles": 68,
+  "characters": 44219,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "eo": {
+  "wikipedia": "https://eo.wikipedia.org",
+  "articles": 64,
+  "characters": 42076,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "et": {
+  "wikipedia": "https://et.wikipedia.org",
+  "articles": 77,
+  "characters": 44977,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "eu": {
+  "wikipedia": "https://eu.wikipedia.org",
+  "articles": 101,
+  "characters": 40186,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "fa": {
+  "wikipedia": "https://fa.wikipedia.org",
+  "articles": 100,
+  "characters": 42887,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "fi": {
+  "wikipedia": "https://fi.wikipedia.org",
+  "articles": 64,
+  "characters": 44375,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "ga": {
+  "wikipedia": "https://ga.wikipedia.org",
+  "articles": 92,
+  "characters": 40764,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
  }
 }

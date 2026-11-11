@@ -1,6 +1,16 @@
 /* Lens: point the camera at anything, or drop in a picture or file; read text, codes and signs, translate, and look
    for hidden messages. The overlay (lens_overlay.js) marks every finding on the view. */
-let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [], lensRef = null, lensFlow = 0;
+let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [], lensRef = null, lensFlow = 0, lensVotes = [];
+
+/* The language shown in the live view: a majority of the last 8 frames that named one (5 needed), so one noisy
+   frame cannot switch it. */
+function lensLangVote(lang) {
+  lensVotes = [...lensVotes, lang && lang.code ? lang.name : null].slice(-8);
+  const named = lensVotes.filter(Boolean), counts = {};
+  named.forEach(n => { counts[n] = (counts[n] || 0) + 1; });
+  const top = Object.entries(counts).sort((a, b) => b[1] - a[1])[0];
+  return top && top[1] >= 5 ? top[0] : "detecting language…";
+}
 const LENS_SMALL = 160;
 
 /* A small grey copy of the current video frame, and the shift (in source pixels) that best aligns it with the copy
@@ -31,6 +41,7 @@ function lensLogAdd(lines) {
 }
 
 function lensStop() {
+  lensVotes = [];
   clearInterval(lensTimer); lensTimer = 0; clearInterval(lensFlow); lensFlow = 0; lensRef = null;
   if (lensStream) { lensStream.getTracks().forEach(t => t.stop()); lensStream = null; }
 }
@@ -102,7 +113,7 @@ async function lensLiveTick() {
     const r = await api("/lens/image", { image: c.toDataURL("image/jpeg", 0.85), live: true, script: $("#lnScript").value || null });
     lensRef = ref; lensRef.srcScale = r.size[0] / LENS_SMALL;
     lensOverlayShift(0, 0);
-    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${r.language ? r.language.name : "?"}` : "scanning", true);
+    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${lensLangVote(r.language)}` : "scanning", true);
     if (r.text) { $("#lnLive").textContent = r.text; lensLogAdd([`read ${r.findings.length} item(s) in ${r.script}`]); }
   } catch (e) { lensLogAdd([`error: ${e.message}`]); }
   lensBusy = false;

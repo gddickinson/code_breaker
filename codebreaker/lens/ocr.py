@@ -86,14 +86,22 @@ def readable(w: dict) -> bool:
     return w["conf"] >= 60 and sum(c.isalnum() for c in t) >= max(1, 0.6 * len(t))  # 60: same recall as 50 on a photographed label, fewer junk words
 
 
+MIN_LETTERS = 20  # below this, no language is named (Round 85, after the Lens named a wrong language from fragments)
+
+
+def clean_for_language(words: list[dict]) -> str:
+    """Only confidently read words of three or more letters: OCR fragments ('q t í') mislead the identifier."""
+    return " ".join(w["text"] for w in words if w["conf"] >= 75 and len(w["text"]) >= 3 and sum(c.isalpha() for c in w["text"]) >= 0.8 * len(w["text"]))
+
+
 def language(text: str, script: str) -> dict:
-    """The language of OCR'd text among the languages with Wikipedia profiles (langid, Round 85), in any script;
-    only named when the best guess is clearly ahead, otherwise the script is reported."""
+    """The language among those with Wikipedia profiles (langid), in any script; named only with at least
+    MIN_LETTERS letters and a calibrated probability of 0.8 or more, otherwise the script is reported."""
     from ..langid import detect as identify
 
-    if len(re.sub(r"\W", "", text)) >= 8:
+    if sum(c.isalpha() for c in text) >= MIN_LETTERS:
         g = identify(text, 2)
-        if g and g[0]["p"] >= 0.6:
+        if g and g[0]["p"] >= 0.8:
             return {"code": g[0]["lang"], "name": g[0]["name"], "how": "character statistics", "p": g[0]["p"]}
     return {"code": None, "name": SCRIPT_LANGS.get(script, "a " + script + "-script language"), "how": "script"}
 
@@ -171,4 +179,4 @@ def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dic
     text_lines = [" ".join(w["text"] for w in line) for line in group_lines(good)]
     text = "\n".join(text_lines)
     return {"script": script, "words": ws, "lines": text_lines, "text": text, "mean_conf": round(mean, 1),
-            "language": language(text, script) if text.strip() else None, "scripts_tried": cands, "known_languages": list(LANGS)}
+            "language": language(clean_for_language(good), script) if good else None, "scripts_tried": cands, "known_languages": list(LANGS)}

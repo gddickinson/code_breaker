@@ -1,5 +1,6 @@
 """Routes for the Lens page: pictures, camera frames, text and files read and searched for hidden messages."""
 import base64
+import json
 from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
@@ -33,7 +34,7 @@ def _keep(data: bytes, kind: str) -> None:
     Local only and not committed (data/lens_debug is in .gitignore)."""
     try:
         DEBUG.mkdir(parents=True, exist_ok=True)
-        ext = "png" if data[:8] == b"\x89PNG\r\n\x1a\n" else "jpg"
+        ext = "json" if kind.endswith("_result") else "png" if data[:8] == b"\x89PNG\r\n\x1a\n" else "jpg"
         for old in DEBUG.glob(f"last_{kind}.*"):
             old.unlink()
         (DEBUG / f"last_{kind}.{ext}").write_bytes(data)
@@ -50,7 +51,9 @@ def image(body: ImageIn):
     data = base64.b64decode(body.image.split(",", 1)[-1])
     _keep(data, "live" if body.live else "still")
     try:
-        return analyse_image(data, body.live, body.signs, body.script or None)
+        res = analyse_image(data, body.live, body.signs, body.script or None)
+        _keep(json.dumps({k: res.get(k) for k in ("script", "language", "text", "mean_conf", "translation")}, ensure_ascii=False).encode(), f"{'live' if body.live else 'still'}_result")
+        return res
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(400, str(exc)) from exc
 

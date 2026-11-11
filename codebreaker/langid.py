@@ -24,6 +24,10 @@ NAMES = {"ar": "Arabic", "az": "Azerbaijani", "bg": "Bulgarian", "bn": "Bengali"
          "sv": "Swedish", "sw": "Swahili", "th": "Thai", "tl": "Tagalog", "tr": "Turkish", "uk": "Ukrainian", "ur": "Urdu", "vi": "Vietnamese",
          "zh": "Chinese"}
 TOP = 4000  # n-grams kept per language and order
+TEMPERATURE = 3.0  # fitted on held-out snippets of 20-200 characters: at p >= 0.8 a language is named for 96% of them,
+                   # and those names are right 96.5% of the time (Round 85; the length-based version was miscalibrated)
+TRAIN_CHARS = 32_000  # the same amount of training text per language: with unequal samples the unseen-n-gram penalty
+                      # favoured languages with less text (English lost to Catalan on a label; Round 85)
 
 
 def grams(text: str) -> Counter:
@@ -44,7 +48,7 @@ def build() -> dict:
     model = {}
     for f in sorted(SRC.glob("*.txt")):
         train, _ = split(f.stem)
-        c = grams(" ".join(train))
+        c = grams(" ".join(train)[:TRAIN_CHARS])
         total = {n: sum(v for g, v in c.items() if len(g) == n) for n in (1, 2, 3)}
         keep = {}
         for n in (1, 2, 3):
@@ -74,7 +78,7 @@ def detect(text: str, top: int = 5) -> list[dict]:
         scores[code] = sum(v * lp.get(k, fl[str(len(k))]) for k, v in g.items())
     codes = list(scores)
     s = np.array([scores[c] for c in codes])
-    p = np.exp((s - s.max()) / max(1.0, sum(g.values()) / 40))  # tempered, so short texts are not overconfident
+    p = np.exp((s - s.max()) / TEMPERATURE)
     p /= p.sum()
     order = np.argsort(-p)[:top]
     return [{"lang": codes[i], "name": NAMES.get(codes[i], codes[i]), "p": round(float(p[i]), 3)} for i in order]
