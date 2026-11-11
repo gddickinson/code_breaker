@@ -52,13 +52,33 @@ def text_findings(o: dict) -> list[dict]:
     return out
 
 
-def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None) -> dict:
+def live(data: bytes, session: str | None) -> dict:
+    """A live frame through its session (live_session): lines compiled across frames, with tips for the user."""
+    from . import live_session
+
+    img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_GRAYSCALE)
+    if img is None:
+        raise ValueError("The picture could not be read.")
+    r = live_session.live_frame(session, img)
+    findings = [{"kind": "text", "label": l["text"], "box": l["box"], "quad": l["quad"], "confidence": l["agreement"], "status": l["status"]} for l in r["lines"]]
+    findings += codes(img)
+    text = "\n".join(l["text"] for l in sorted(r["lines"], key=lambda l: (l["box"][1], l["box"][0])))
+    lang = ocr.language(text, "Latin") if text else None
+    return {"size": [int(img.shape[1]), int(img.shape[0])], "session": r["session"], "findings": findings, "text": text, "script": "Latin",
+            "language": lang, "tips": r["tips"], "pending": r["pending"], "log": [f"frame {r['frame']}: {len(r['lines'])} line(s) tracked"]}
+
+
+def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None) -> dict:
     """signs: 'auto' (confident signs outside the text and codes), 'always' (every sign found) or 'never'."""
     img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
     if img is None:
         raise ValueError("The picture could not be read.")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     o = ocr.read(gray, script, fast=live)
+    if session and not live:  # share with the live session: the photo's lines join its vote
+        from . import live_session
+
+        live_session.share_photo(session, gray, o["words"])
     found_codes = codes(gray)
     inside = lambda w, b: b[0] <= w["box"][0] + w["box"][2] / 2 <= b[0] + b[2] and b[1] <= w["box"][1] + w["box"][3] / 2 <= b[1] + b[3]
     o["words"] = [w for w in o["words"] if not any(inside(w, c["box"]) for c in found_codes)]  # a code's pattern is not text

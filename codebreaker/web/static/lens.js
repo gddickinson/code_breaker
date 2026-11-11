@@ -1,6 +1,6 @@
 /* Lens: point the camera at anything, or drop in a picture or file; read text, codes and signs, translate, and look
    for hidden messages. The overlay (lens_overlay.js) marks every finding on the view. */
-let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [], lensRef = null, lensFlow = 0, lensVotes = [];
+let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [], lensRef = null, lensFlow = 0, lensVotes = [], lensSession = null;
 
 /* The language shown in the live view: a majority of the last 8 frames that named one (5 needed), so one noisy
    frame cannot switch it. */
@@ -41,7 +41,7 @@ function lensLogAdd(lines) {
 }
 
 function lensStop() {
-  lensVotes = [];
+  lensVotes = []; lensSession = null;
   clearInterval(lensTimer); lensTimer = 0; clearInterval(lensFlow); lensFlow = 0; lensRef = null;
   if (lensStream) { lensStream.getTracks().forEach(t => t.stop()); lensStream = null; }
 }
@@ -84,7 +84,7 @@ function lensReport(r) {
 async function lensAnalyseImage(dataUrl) {
   lensLogAdd(["picture received", "full analysis: text, codes, signs, translation, hidden messages"]);
   lensOv.status = "analysing";
-  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null });
+  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null, session: lensSession });
   lensOverlaySet(r.findings, r.size[0], `${r.findings.length} findings`);
   lensLogAdd(r.log.reverse());
   lensReport(r);
@@ -110,10 +110,12 @@ async function lensLiveTick() {
   c.width = v.videoWidth * s; c.height = v.videoHeight * s;
   c.getContext("2d").drawImage(v, 0, 0, c.width, c.height);
   try {
-    const r = await api("/lens/image", { image: c.toDataURL("image/jpeg", 0.85), live: true, script: $("#lnScript").value || null });
+    const r = await api("/lens/image", { image: c.toDataURL("image/jpeg", 0.85), live: true, script: $("#lnScript").value || null, session: lensSession });
+    if (r.session) lensSession = r.session;
+    $("#lnTips").innerHTML = (r.tips || []).map(t => `<li>${esc(t)}</li>`).join("");
     lensRef = ref; lensRef.srcScale = r.size[0] / LENS_SMALL;
     lensOverlayShift(0, 0);
-    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${lensLangVote(r.language)}` : "scanning", true);
+    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${lensLangVote(r.language)}${r.pending ? " · closer look" : ""}` : "scanning", !r.session);
     if (r.text) { $("#lnLive").textContent = r.text; lensLogAdd([`read ${r.findings.length} item(s) in ${r.script}`]); }
   } catch (e) { lensLogAdd([`error: ${e.message}`]); }
   lensBusy = false;
@@ -130,7 +132,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
       <label class="filebtn" id="lnFileBtn">Upload a picture or file<input id="lnFile" type="file"></label> <button id="lnDemo" class="alt">Try a sample picture</button>
       <p id="lnMsg" aria-live="polite"></p>
       <div class="lensstage" id="lnStage"><video id="lnVid" playsinline muted hidden></video><img id="lnImg" alt="The picture being analysed" hidden><canvas id="lnCanvas" aria-hidden="true"></canvas></div>
-      <p id="lnLive" class="lenslive" aria-live="polite"></p>
+      <p id="lnLive" class="lenslive" aria-live="polite"></p><ul id="lnTips" class="lenstips" aria-live="polite"></ul>
       <details open><summary>Scan log</summary><pre id="lnLog" class="lenslog"></pre></details>
       <label for="lnText">Or paste text to check for hidden messages and translate</label><textarea id="lnText" rows="4"></textarea><button id="lnTextGo" class="alt">Check the text</button></div>
     <div id="lnOut" aria-live="polite"></div>`;

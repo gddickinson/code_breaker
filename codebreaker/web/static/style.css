@@ -130,3 +130,4 @@ textarea.glyph, .glyphout { font-size:26px; line-height:1.4; }
 .lenslive { font:15px var(--mono); color:var(--accent); text-shadow:0 0 8px rgba(0,240,255,.6); min-height:1.4em; }
 .lenstext { white-space:pre-wrap; background:#05040c; padding:10px; border:1px solid var(--line); }
 .lensstage [hidden] { display:none; }
+.lenstips { list-style:none; padding:0; margin:6px 0; font:13px var(--mono); color:var(--yellow); } .lenstips li::before { content:"» "; color:var(--pink); }

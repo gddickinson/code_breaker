@@ -15,6 +15,7 @@ class ImageIn(BaseModel):
     live: bool = False
     signs: str = "auto"
     script: str | None = None
+    session: str | None = None
 
 
 class TextIn(BaseModel):
@@ -51,7 +52,11 @@ def image(body: ImageIn):
     data = base64.b64decode(body.image.split(",", 1)[-1])
     _keep(data, "live" if body.live else "still")
     try:
-        res = analyse_image(data, body.live, body.signs, body.script or None)
+        if body.live and not body.script:
+            from ..lens.service import live
+            res = live(data, body.session)
+        else:
+            res = analyse_image(data, body.live, body.signs, body.script or None, body.session)
         _keep(json.dumps({k: res.get(k) for k in ("script", "language", "text", "mean_conf", "translation")}, ensure_ascii=False).encode(), f"{'live' if body.live else 'still'}_result")
         return res
     except (ValueError, RuntimeError) as exc:

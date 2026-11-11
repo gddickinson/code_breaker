@@ -91,7 +91,11 @@ MIN_LETTERS = 20  # below this, no language is named (Round 85, after the Lens n
 
 def clean_for_language(words: list[dict]) -> str:
     """Only confidently read words of three or more letters: OCR fragments ('q t í') mislead the identifier."""
-    return " ".join(w["text"] for w in words if w["conf"] >= 75 and len(w["text"]) >= 3 and sum(c.isalpha() for c in w["text"]) >= 0.8 * len(w["text"]))
+    def wordlike(t: str) -> bool:  # lower, upper or capitalised: misreads like 'PnPFR<' mix case inside a word
+        core = re.sub(r"[^\w]", "", t)
+        return bool(core) and (core.islower() or core.isupper() or (core[0].isupper() and core[1:].islower()))
+
+    return " ".join(w["text"] for w in words if w["conf"] >= 60 and len(w["text"]) >= 3 and sum(c.isalpha() for c in w["text"]) >= 0.8 * len(w["text"]) and wordlike(w["text"]))
 
 
 def language(text: str, script: str) -> dict:
@@ -139,6 +143,21 @@ def _pass(gray: np.ndarray, script: str, kind: str, scale: float, psm: int) -> l
     return ws
 
 
+_RAPID = None
+
+
+def rapid():
+    """RapidOCR (PaddleOCR detection and recognition models, installed with the app); None if unavailable."""
+    global _RAPID
+    if _RAPID is None:
+        try:
+            from rapidocr_onnxruntime import RapidOCR
+            _RAPID = RapidOCR()
+        except Exception:
+            _RAPID = False
+    return _RAPID or None
+
+
 def group_lines(ws: list[dict]) -> list[list[dict]]:
     """Words into lines by vertical overlap (a word joins a line when its centre lies inside the line's band), each
     line read left to right, lines top to bottom. Columns side by side end up on one line, as in reading order."""
@@ -154,14 +173,23 @@ def group_lines(ws: list[dict]) -> list[list[dict]]:
 
 
 def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dict:
-    """OCR of a picture: script, words, lines, mean confidence and language. The script is the candidate whose quick
-    pass reads the most (total confidence of readable words), so a few confident junk words in a wrong script cannot
-    win; stills then get three passes merged, live frames one."""
+    """OCR of a picture: script, words, lines, mean confidence and language. Latin script goes to ocr_deep: the fast
+    RapidOCR reader for live frames, the thorough line-by-line comparison for photos. Other scripts: the candidate whose quick pass reads the most (total
+    confidence of readable words), so a few confident junk words in a wrong script cannot win; stills then get three
+    Tesseract passes merged, live frames one."""
     if not available():
         raise RuntimeError("The Tesseract language data is missing: see data/models/tessdata_fast/MANIFEST.md.")
     s = scale_for(gray)
     if script is None:
         osd, _ = detect_script(variant(gray, s, "clahe"))
+        if osd == "Latin" and rapid() is not None:
+            script = "Latin"  # no need for the quick-pass vote: the combined reader handles Latin script
+    if script == "Latin" and rapid() is not None:  # two analysers (user's suggestion): fast for live, thorough for photos
+        from .ocr_deep import live_words, photo_words
+
+        ws = live_words(gray) if fast else photo_words(gray)
+        return _result(script, ws, [w for w in ws if readable(w)], [script])
+    if script is None:
         cands = [osd] + (["Latin"] if osd != "Latin" else []) if osd else list(FALLBACK[:2] if fast else FALLBACK)
     else:
         cands = [script]
@@ -174,9 +202,11 @@ def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dic
     _, script, first = best
     passes = [first] + ([] if fast else [_pass(gray, script, k, s * f, psm) for k, f, psm in PASSES[1:]])
     ws = merge(passes) if len(passes) > 1 else first
-    good = [w for w in ws if readable(w)]
+    return _result(script, ws, [w for w in ws if readable(w)], cands)
+
+
+def _result(script: str, ws: list[dict], good: list[dict], tried: list[str]) -> dict:
     mean = float(np.mean([w["conf"] for w in good])) if good else 0.0
     text_lines = [" ".join(w["text"] for w in line) for line in group_lines(good)]
-    text = "\n".join(text_lines)
-    return {"script": script, "words": ws, "lines": text_lines, "text": text, "mean_conf": round(mean, 1),
-            "language": language(clean_for_language(good), script) if good else None, "scripts_tried": cands, "known_languages": list(LANGS)}
+    return {"script": script, "words": ws, "lines": text_lines, "text": "\n".join(text_lines), "mean_conf": round(mean, 1),
+            "language": language(clean_for_language(good), script) if good else None, "scripts_tried": tried, "known_languages": list(LANGS)}

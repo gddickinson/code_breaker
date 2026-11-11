@@ -1,0 +1,17 @@
+{
+ "id": "lens_live_eval",
+ "frames": 24,
+ "single_frame_exact": 0.528,
+ "session_texts": [
+  "NATURALFLAVORS",
+  "Total Sugars 1g",
+  "MADE OF SUGAR AND GUM",
+  "Questions call today",
+  "Keep in a cool dry place"
+ ],
+ "drift_median_line_heights": 0.099,
+ "drift_p90": 2.064,
+ "resets": 1,
+ "thorough_readings": 5,
+ "consensus_exact": 0.667
+}

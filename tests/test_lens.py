@@ -89,3 +89,20 @@ def test_small_print_on_a_glossy_label():
     got = [w["text"].lower().strip(".,") for w in r["words"] if ocr.readable(w)]
     assert r["script"] == "Latin" and sum(w in got for w in want) / len(want) >= 0.8
     assert "peppermint" in r["text"].lower().split("\n")[0]
+
+
+@needs_ocr
+def test_live_session_follows_a_rotating_label():
+    from codebreaker.lens import live_session as LS
+    from codebreaker.lens.live_eval import LINES, frames
+    sid, drift = None, []
+    for img, true in list(frames(10))[::2]:
+        r = LS.live_frame(sid, img)
+        sid = r["session"]
+        for q in true:
+            near = [np.linalg.norm(np.mean(np.float32(x["quad"]), 0) - q.mean(0)) / np.linalg.norm(q[3] - q[0]) for x in r["lines"]]
+            if near:
+                drift.append(min(near))
+    assert r["tips"] is not None and len(r["lines"]) >= 4
+    assert np.median(drift) < 0.5  # boxes stay on their lines while the label turns
+    assert sum(t in [tr.text() for tr in LS.SESSIONS[sid].tracks] for t in LINES) >= 3
