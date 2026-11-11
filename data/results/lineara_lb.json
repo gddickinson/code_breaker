@@ -1,0 +1,42 @@
+{
+ "id": "lineara_lb",
+ "linear_a_words": 311,
+ "lexicon_spellings": 258,
+ "matches": 3,
+ "matched": [
+  [
+   "a-ma",
+   "𐀀𐀔"
+  ],
+  [
+   "a-re",
+   "𐀀𐀩"
+  ],
+  [
+   "su-ki-ri-ta",
+   "𐀱𐀑𐀪𐀲"
+  ]
+ ],
+ "null_mean": 1.23,
+ "null_max": 6,
+ "p": 0.1209,
+ "power": {
+  "0.005": {
+   "planted_words": 1,
+   "detected_at_p05": 0.95
+  },
+  "0.01": {
+   "planted_words": 3,
+   "detected_at_p05": 1.0
+  },
+  "0.02": {
+   "planted_words": 6,
+   "detected_at_p05": 1.0
+  },
+  "0.05": {
+   "planted_words": 15,
+   "detected_at_p05": 1.0
+  }
+ },
+ "note": "Matches are spellings shared with Mycenaean Greek under Linear B values; place and personal names are expected to carry over. This tests the values, not the language."
+}
