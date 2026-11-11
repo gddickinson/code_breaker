@@ -1,0 +1,85 @@
+{
+ "id": "handwriting_eval",
+ "caveat": "font handwriting, not real hands",
+ "results": {
+  "real words": {
+   "tesseract": 0.135,
+   "trocr": 0.026,
+   "vision_model": 0.0,
+   "by font": {
+    "Bradley Hand Bold.ttf": {
+     "tesseract": 0.0,
+     "trocr": 0.0,
+     "vision_model": 0.0
+    },
+    "Savoye LET.ttc": {
+     "tesseract": 0.02,
+     "trocr": 0.02,
+     "vision_model": 0.0
+    },
+    "SnellRoundhand.ttc": {
+     "tesseract": 0.2,
+     "trocr": 0.04,
+     "vision_model": 0.0
+    },
+    "Apple Chancery.ttf": {
+     "tesseract": 0.0,
+     "trocr": 0.02,
+     "vision_model": 0.0
+    },
+    "Chalkboard.ttc": {
+     "tesseract": 0.0,
+     "trocr": 0.06,
+     "vision_model": 0.0
+    },
+    "Zapfino.ttf": {
+     "tesseract": 0.59,
+     "trocr": 0.02,
+     "vision_model": 0.0
+    }
+   },
+   "lines": 18
+  },
+  "nonsense": {
+   "tesseract": 0.235,
+   "trocr": 0.309,
+   "vision_model": 0.049,
+   "tesseract dictionary words invented": 0,
+   "trocr dictionary words invented": 7,
+   "vision_model dictionary words invented": 0,
+   "by font": {
+    "Bradley Hand Bold.ttf": {
+     "tesseract": 0.08,
+     "trocr": 0.35,
+     "vision_model": 0.02
+    },
+    "Savoye LET.ttc": {
+     "tesseract": 0.14,
+     "trocr": 0.14,
+     "vision_model": 0.01
+    },
+    "SnellRoundhand.ttc": {
+     "tesseract": 0.45,
+     "trocr": 0.7,
+     "vision_model": 0.07
+    },
+    "Apple Chancery.ttf": {
+     "tesseract": 0.03,
+     "trocr": 0.19,
+     "vision_model": 0.0
+    },
+    "Chalkboard.ttc": {
+     "tesseract": 0.0,
+     "trocr": 0.1,
+     "vision_model": 0.0
+    },
+    "Zapfino.ttf": {
+     "tesseract": 0.71,
+     "trocr": 0.38,
+     "vision_model": 0.2
+    }
+   },
+   "lines": 18
+  }
+ }
+}
