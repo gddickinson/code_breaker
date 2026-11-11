@@ -1,0 +1,142 @@
+{
+ "classes": 2763,
+ "train_images": 110520,
+ "epochs": 12,
+ "seconds": 938,
+ "id": "glyph_model",
+ "held_out": {
+  "top1": 0.994,
+  "top5": 1.0,
+  "script_from_top1": 0.998,
+  "by_script": {
+   "cuneiform": {
+    "top1": 0.995,
+    "top5": 1.0
+   },
+   "egyptian": {
+    "top1": 0.994,
+    "top5": 1.0
+   },
+   "gothic": {
+    "top1": 1.0,
+    "top5": 1.0
+   },
+   "linear_b": {
+    "top1": 1.0,
+    "top5": 1.0
+   },
+   "ogham": {
+    "top1": 1.0,
+    "top5": 1.0
+   },
+   "old_persian": {
+    "top1": 0.988,
+    "top5": 1.0
+   },
+   "phoenician": {
+    "top1": 0.993,
+    "top5": 1.0
+   },
+   "runic": {
+    "top1": 0.982,
+    "top5": 0.989
+   },
+   "ugaritic": {
+    "top1": 0.968,
+    "top5": 1.0
+   }
+  },
+  "confidence_correct_median": 0.965
+ },
+ "hard": {
+  "top1": 0.969,
+  "top5": 0.997,
+  "script_from_top1": 0.994,
+  "by_script": {
+   "cuneiform": {
+    "top1": 0.956,
+    "top5": 0.994
+   },
+   "egyptian": {
+    "top1": 0.98,
+    "top5": 0.999
+   },
+   "gothic": {
+    "top1": 0.963,
+    "top5": 1.0
+   },
+   "linear_b": {
+    "top1": 0.997,
+    "top5": 0.998
+   },
+   "ogham": {
+    "top1": 0.921,
+    "top5": 0.993
+   },
+   "old_persian": {
+    "top1": 0.972,
+    "top5": 1.0
+   },
+   "phoenician": {
+    "top1": 0.966,
+    "top5": 1.0
+   },
+   "runic": {
+    "top1": 0.963,
+    "top5": 1.0
+   },
+   "ugaritic": {
+    "top1": 0.948,
+    "top5": 1.0
+   }
+  }
+ },
+ "unseen": {
+  "top1": 0.776,
+  "top5": 0.878,
+  "script_from_top1": 0.893,
+  "by_script": {
+   "cuneiform": {
+    "top1": 0.898,
+    "top5": 0.964
+   },
+   "egyptian": {
+    "top1": 0.566,
+    "top5": 0.734
+   },
+   "gothic": {
+    "top1": 0.963,
+    "top5": 0.985
+   },
+   "linear_b": {
+    "top1": 0.948,
+    "top5": 0.977
+   },
+   "ogham": {
+    "top1": 0.907,
+    "top5": 0.971
+   },
+   "old_persian": {
+    "top1": 0.884,
+    "top5": 0.984
+   },
+   "phoenician": {
+    "top1": 0.924,
+    "top5": 0.979
+   },
+   "runic": {
+    "top1": 0.945,
+    "top5": 0.989
+   },
+   "ugaritic": {
+    "top1": 0.91,
+    "top5": 0.987
+   }
+  }
+ },
+ "noise": {
+  "max_prob_median": 0.163,
+  "max_prob_p99": 0.663
+ },
+ "threshold": 0.663
+}

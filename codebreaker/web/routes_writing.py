@@ -62,3 +62,20 @@ def gloss(body: GlossIn):
     if body.lang not in LANGS or not body.text.strip() or len(body.text) > 1000:
         raise HTTPException(400, "Choose Egyptian, Mycenaean Greek or Old Norse and up to 1,000 characters.")
     return _gloss(body.text, body.lang)
+
+
+class ScanIn(BaseModel):
+    image: str  # data URL
+    scripts: list[str] = []
+
+
+@router.post("/api/writing/scan")
+def scan(body: ScanIn):
+    from ..writing.glyph_scan import scan_data_url
+
+    if len(body.image) > 15_000_000:
+        raise HTTPException(400, "The picture is too large (over about 10 MB).")
+    try:
+        return scan_data_url(body.image, body.scripts or None)
+    except (ValueError, RuntimeError) as exc:
+        raise HTTPException(400, str(exc)) from exc
