@@ -17,6 +17,7 @@ class ImageIn(BaseModel):
     script: str | None = None
     session: str | None = None
     ai: bool = False
+    claude: bool = False  # the second reader is Claude (only if turned on in Settings; the picture goes to Anthropic)
 
 
 class ObjectIn(BaseModel):
@@ -74,7 +75,7 @@ def image(body: ImageIn):
             from ..lens.service import live
             res = live(data, body.session, body.ai)
         else:
-            res = analyse_image(data, body.live, body.signs, body.script or None, body.session, body.ai)
+            res = analyse_image(data, body.live, body.signs, body.script or None, body.session, body.ai or body.claude, body.claude)
         _keep(json.dumps({k: res.get(k) for k in ("script", "language", "text", "mean_conf", "translation")}, ensure_ascii=False).encode(), f"{'live' if body.live else 'still'}_result")
         return res
     except (ValueError, RuntimeError) as exc:

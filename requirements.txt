@@ -36,4 +36,5 @@ pydantic==2.14.3
 pandas==3.1.1
 # Optional, for more File Inspector formats: chardet python-docx mammoth ebooklib odfpy striprtf xlrd
 # Optional, a second language identifier (Round 93): fasttext-predict==0.9.2.4, model by scripts/fetch_tools.py
+# Optional, Claude as a second reader if the user turns it on in Settings (Round 90d): anthropic==2.8.0
 # Outside Python: tesseract (e.g. brew install tesseract) for the Lens; Ollama is optional (see README)

@@ -94,9 +94,10 @@ function lensReport(r) {
 async function lensAnalyseImage(dataUrl) {
   lensLogAdd(["picture received", "full analysis: text, codes, signs, translation, hidden messages"]);
   lensOv.status = "analysing";
-  const ai = !!($("#lnAI") && $("#lnAI").checked);
+  const claude = !!($("#lnClaude") && $("#lnClaude").checked);
+  const ai = claude || !!($("#lnAI") && $("#lnAI").checked);
   if (ai) lensLogAdd(["asking the local vision model as a second reader (can take a minute)"]);
-  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null, session: lensSession, ai });
+  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null, session: lensSession, ai, claude });
   lensOverlaySet(r.findings, r.size[0], `${r.findings.length} findings`);
   lensLogAdd(r.log.reverse());
   lensReport(r);
@@ -143,6 +144,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
     <p class="lead">Point the camera at a sign, a page or a carving, or drop in a picture or file. The lens reads printed text in over a hundred languages and scripts, codes, and runes, hieroglyphs and other signs; translates what it can; and looks for messages hidden in the picture or the text.</p>
     <p class="mute">Translation covers the languages with an installed translator (more are coming). Hidden-message checks report what the tests measure, with their false-alarm rates; nothing is claimed as a secret message without a reading.</p>
     <div class="panel"><div class="row"><div><label for="lnScript">Script</label><select id="lnScript"><option value="">Detect automatically</option>${scripts.map(s => `<option>${esc(s)}</option>`).join("")}</select></div>
+      <div id="lnClaudeBox" hidden><label style="display:flex;gap:8px;align-items:flex-start;margin-top:24px"><input type="checkbox" id="lnClaude" style="width:auto;margin-top:3px"> Use Claude as the second reader (this picture is sent to Anthropic; set up in Settings)</label></div>
       <div id="lnAIBox" hidden><label style="display:flex;gap:8px;align-items:flex-start;margin-top:24px"><input type="checkbox" id="lnAI" style="width:auto;margin-top:3px"> Second reader: the local vision model (slower; the picture stays on this machine)</label></div>
       <div><label for="lnSigns">Runes, hieroglyphs and other signs</label><select id="lnSigns"><option value="auto">Confident signs outside the text</option><option value="always">Every sign found</option><option value="never">Never</option></select></div></div>
       <button id="lnCam">Start live camera</button> <button id="lnSnap" class="alt" disabled>Capture and analyse</button>
@@ -171,6 +173,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
   $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d)), true); $("#lnCam").textContent = "Start live camera"; $("#lnSnap").disabled = true; };
   $("#lnFile").onchange = e => { const f = e.target.files[0]; if (f) busy($("#lnFileBtn"), $("#lnMsg"), () => lensFile(f)); };
   $("#lnObj").onclick = lensObject;
+  api("/settings/claude").then(c => { if (c.enabled) $("#lnClaudeBox").hidden = false; }).catch(() => {});
   if (aiSt.vision) { $("#lnAIBox").hidden = false; $("#lnAI").title = `Local model ${aiSt.vision}`; }
   $("#lnTextGo").onclick = ev => busy(ev.target, $("#lnMsg"), async () => { const r = await api("/lens/text", { text: $("#lnText").value }); lensLogAdd(r.log.reverse()); lensReport(r); });
   const runDemo = async () => { const d = (await api("/lens/sample")).image; lensShowImage(d, () => busy($("#lnDemo"), $("#lnMsg"), () => lensAnalyseImage(d))); };

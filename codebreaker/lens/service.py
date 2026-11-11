@@ -69,7 +69,8 @@ def live(data: bytes, session: str | None, ai: bool = False) -> dict:
             "ai_suggestions": [{"line": l["text"], "ai": l["ai"]["text"], "ai_only": l["ai"]["ai_only"]} for l in r["lines"] if l.get("ai") and l["ai"]["ai_only"]]}
 
 
-def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None, ai: bool = False) -> dict:
+def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None, ai: bool = False,
+                  claude: bool = False) -> dict:
     """signs: 'auto' (confident signs outside the text and codes), 'always' (every sign found) or 'never'.
     ai: also ask the local vision model, its words checked against the OCR letters (lens/ai_check.py, Round 90a)."""
     img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
@@ -98,7 +99,7 @@ def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: 
     if ai:
         from .ai_check import second_reader
 
-        res["ai"] = second_reader(gray, o)
+        res["ai"] = second_reader(gray, o, claude)
         res["log"].append(f"second reader: {res['ai']['mode']}")
     if signs in ("always", "auto"):
         try:

@@ -54,3 +54,4 @@ Dorabella study cited on its case page.
 | `data/models/tessdata_best/` | Tesseract best Latin script model, only for the Round 93 comparison; not redistributed | Apache-2.0 |
 | `data/models/paddle_rec/` | PaddleOCR PP-OCRv4 recognisers (RapidAI ONNX, modelscope.cn) for the Round 93b comparison; not redistributed | Apache-2.0 |
 | `data/models/trocr/` | microsoft/trocr-small-handwritten (Hugging Face), optional handwriting reader; not redistributed | MIT |
+| Anthropic Python SDK (`anthropic`, optional) | Used only if the user turns Claude on in Settings with their own key | MIT |

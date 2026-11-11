@@ -30,7 +30,16 @@ def edit(a: str, b: str) -> int:
     return prev[-1]
 
 
-def model_words(gray: np.ndarray, model: str | None = None, timeout: float = 120.0) -> dict | None:
+def model_words(gray: np.ndarray, model: str | None = None, timeout: float = 120.0, claude: bool = False) -> dict | None:
+    if claude:  # the user chose Claude for this picture (Settings must have it on); the picture goes to Anthropic
+        from .. import ai_claude
+
+        ok, png = cv2.imencode(".png", gray)
+        r = ai_claude.generate(PROMPT, [png.tobytes()])
+        if r is None:
+            return None
+        text = "" if r["text"].strip().upper().startswith("NONE") else r["text"]
+        return {"model": f"Claude ({r['model']}, sent to Anthropic)", "seconds": r["seconds"], "text": text, "words": [w for w in text.split() if norm(w)]}
     st = ai_local.status()
     model = model or st["vision"]
     if not model:
@@ -56,18 +65,18 @@ def check(ai_words: list[str], ocr_words: list[str], ocr_lines: list[str]) -> di
     return {"confirmed": confirmed, "ai_only": ai_only}
 
 
-def second_reader(gray: np.ndarray, ocr_result: dict) -> dict:
+def second_reader(gray: np.ndarray, ocr_result: dict, claude: bool = False) -> dict:
     """What the Lens shows: the mode that ran, the model's words split by evidence, and timing."""
     st = ai_local.status()
-    if not st["vision"]:
+    if not claude and not st["vision"]:
         return {"mode": "own algorithms only", "note": st["note"]}
-    m = model_words(gray)
+    m = model_words(gray, claude=claude)
     if m is None:
-        return {"mode": "own algorithms only", "note": f"{st['vision']} did not answer in time."}
+        return {"mode": "own algorithms only", "note": "Claude is off in Settings or did not answer." if claude else f"{st['vision']} did not answer in time."}
     words = [w["text"] for w in ocr_result["words"]]
     from .ocr import group_lines
 
     lines = ["".join(w["text"] for w in line) for line in group_lines(ocr_result["words"])]
     c = check(m["words"], words, lines)
-    return {"mode": f"own algorithms + local {m['model']}", "seconds": m["seconds"], **c,
+    return {"mode": f"own algorithms + {m['model'] if claude else 'local ' + m['model']}", "seconds": m["seconds"], **c,
             "note": "Confirmed words agree with the OCR letters; AI-only words are the model's suggestion and may be invented."}
