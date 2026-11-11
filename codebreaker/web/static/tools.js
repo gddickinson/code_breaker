@@ -30,14 +30,16 @@ route(/^\/workbench$/, async () => {
 }, "workbench");
 
 route(/^\/translate$/, async () => {
-  view().innerHTML = `<h1>Translate</h1><p class="lead">Detects the language, restores word breaks in unspaced cipher output, and translates offline into English.</p>
+  const langs = await api("/translate/languages");
+  view().innerHTML = `<h1>Translate</h1><p class="lead">Identifies the language among ${langs.length} and translates offline into English. Unspaced capital letters, as a decrypted cipher gives them, get their word breaks restored first.</p>
     <div class="panel"><label for="t">Text, spaced or as continuous letters</label><textarea id="t"></textarea>
-    <label for="l">Source language</label><select id="l"><option value="">Detect automatically</option>${Object.entries(state.languages).map(([c, n]) => `<option value="${c}">${esc(n)}</option>`).join("")}</select>
+    <label for="l">Source language</label><select id="l"><option value="">Detect automatically</option>${langs.map(x => `<option value="${x.code}">${esc(x.name)}${x.translator ? "" : " (no translator yet)"}</option>`).join("")}</select>
     <button id="go">Translate</button></div><div id="o"></div>`;
   $("#go").onclick = ev => busy(ev.target, $("#o"), async () => {
     const r = await api("/translate", { text: $("#t").value, source: $("#l").value || null });
-    $("#o").innerHTML = `<div class="panel"><h3>Language</h3><p>${esc(r.source_name)}</p>${table(["Language", "Fit"], r.detected.map(d => [d.name, d.score]))}
-      <h3>With word breaks</h3><pre>${esc(r.spaced)}</pre>
+    const rows = r.detected.map(d => [d.name, d.p != null ? `${Math.round(d.p * 100)}%` : d.score]);
+    $("#o").innerHTML = `<div class="panel"><h3>Language</h3><p>${esc(r.source_name)}</p>${table(["Language", "Fit"], rows)}
+      ${r.spaced !== $("#t").value ? `<h3>With word breaks</h3><pre>${esc(r.spaced)}</pre>` : ""}
       ${r.translation ? `<h3>English</h3><pre>${esc(r.translation)}</pre>` : ""}${r.note ? `<p class="mute">${esc(r.note)}</p>` : ""}</div>`;
   });
 }, "translate");

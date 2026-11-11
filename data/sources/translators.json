@@ -1,0 +1,372 @@
+{
+ "source": "Argos Translate package index",
+ "date": "2026-11-10",
+ "installed_into_english": [
+  "ar",
+  "az",
+  "bg",
+  "bn",
+  "ca",
+  "cs",
+  "da",
+  "de",
+  "el",
+  "eo",
+  "es",
+  "et",
+  "eu",
+  "fa",
+  "fi",
+  "fr",
+  "ga",
+  "gl",
+  "he",
+  "hi",
+  "hu",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "ky",
+  "lt",
+  "lv",
+  "ms",
+  "nb",
+  "nl",
+  "pb",
+  "pl",
+  "pt",
+  "ro",
+  "ru",
+  "sk",
+  "sl",
+  "sq",
+  "sv",
+  "sw",
+  "th",
+  "tl",
+  "tr",
+  "uk",
+  "ur",
+  "vi",
+  "zh",
+  "zt"
+ ],
+ "this_run": [
+  {
+   "from": "ar",
+   "name": "Arabic",
+   "to": "en",
+   "version": "1.0",
+   "seconds": 7
+  },
+  {
+   "from": "az",
+   "name": "Azerbaijani",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 3
+  },
+  {
+   "from": "bg",
+   "name": "Bulgarian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "bn",
+   "name": "Bengali",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ca",
+   "name": "Catalan",
+   "to": "en",
+   "version": "1.7",
+   "seconds": 2
+  },
+  {
+   "from": "cs",
+   "name": "Czech",
+   "to": "en",
+   "version": "1.9.6",
+   "seconds": 2
+  },
+  {
+   "from": "da",
+   "name": "Danish",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "el",
+   "name": "Greek",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 1
+  },
+  {
+   "from": "eo",
+   "name": "Esperanto",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 3
+  },
+  {
+   "from": "et",
+   "name": "Estonian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 3
+  },
+  {
+   "from": "eu",
+   "name": "Basque",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "fa",
+   "name": "Persian",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 2
+  },
+  {
+   "from": "fi",
+   "name": "Finnish",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ga",
+   "name": "Irish",
+   "to": "en",
+   "version": "1.1",
+   "seconds": 2
+  },
+  {
+   "from": "gl",
+   "name": "Galician",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 5
+  },
+  {
+   "from": "he",
+   "name": "Hebrew",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 2
+  },
+  {
+   "from": "hi",
+   "name": "Hindi",
+   "to": "en",
+   "version": "1.1",
+   "seconds": 3
+  },
+  {
+   "from": "hu",
+   "name": "Hungarian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 1
+  },
+  {
+   "from": "id",
+   "name": "Indonesian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ja",
+   "name": "Japanese",
+   "to": "en",
+   "version": "1.1",
+   "seconds": 6
+  },
+  {
+   "from": "ko",
+   "name": "Korean",
+   "to": "en",
+   "version": "1.1",
+   "seconds": 6
+  },
+  {
+   "from": "ky",
+   "name": "Kyrgyz",
+   "to": "en",
+   "version": "1.4",
+   "seconds": 3
+  },
+  {
+   "from": "lt",
+   "name": "Lithuanian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "lv",
+   "name": "Latvian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ms",
+   "name": "Malay",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "nb",
+   "name": "Norwegian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 4
+  },
+  {
+   "from": "nl",
+   "name": "Dutch",
+   "to": "en",
+   "version": "1.8",
+   "seconds": 2
+  },
+  {
+   "from": "pb",
+   "name": "Portuguese (Brazil)",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "pl",
+   "name": "Polish",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "pt",
+   "name": "Portuguese",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ro",
+   "name": "Romanian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ru",
+   "name": "Russian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 4
+  },
+  {
+   "from": "sk",
+   "name": "Slovak",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "sl",
+   "name": "Slovenian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "sq",
+   "name": "Albanian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 1
+  },
+  {
+   "from": "sv",
+   "name": "Swedish",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 3
+  },
+  {
+   "from": "sw",
+   "name": "Swahili",
+   "to": "en",
+   "version": "1.11",
+   "seconds": 2
+  },
+  {
+   "from": "th",
+   "name": "Thai",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 1
+  },
+  {
+   "from": "tl",
+   "name": "Tagalog",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 9
+  },
+  {
+   "from": "tr",
+   "name": "Turkish",
+   "to": "en",
+   "version": "1.5",
+   "seconds": 3
+  },
+  {
+   "from": "uk",
+   "name": "Ukrainian",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 2
+  },
+  {
+   "from": "ur",
+   "name": "Urdu",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 3
+  },
+  {
+   "from": "vi",
+   "name": "Vietnamese",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 1
+  },
+  {
+   "from": "zh",
+   "name": "Chinese",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 3
+  },
+  {
+   "from": "zt",
+   "name": "Chinese (traditional)",
+   "to": "en",
+   "version": "1.9",
+   "seconds": 3
+  }
+ ]
+}

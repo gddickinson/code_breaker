@@ -38,12 +38,28 @@ def available() -> list[str]:
         return []
 
 
+def cipher_like(text: str) -> bool:
+    """Unspaced capital letters, as decrypted cipher output comes: word breaks must be restored first."""
+    t = text.strip()
+    return bool(t) and " " not in t and t.upper() == t and t.isalpha()
+
+
 def translate(text: str, source: str | None = None, target: str = "en") -> dict:
-    """Detect, add word breaks to unspaced cipher output, then translate if a model exists."""
-    guesses = detect(text)
-    source = source or guesses[0]["lang"]
-    spaced = segment(text.upper(), source) if " " not in text.strip() and text.strip() else text
-    res = {"source": source, "source_name": LANGS.get(source, source), "detected": guesses, "spaced": spaced, "translation": None, "note": ""}
+    """Ordinary text: identify among about 50 languages (langid), translate with any installed model. Unspaced cipher
+    output: the cipher-tuned models of the six classical languages, word breaks restored, then translate."""
+    from . import langid
+
+    if cipher_like(text):
+        guesses = [{"lang": d["lang"], "name": d["name"], "p": None, "score": d["score"]} for d in detect(text)]
+        source = source or guesses[0]["lang"]
+        spaced = segment(text.upper(), source)
+        lower = True
+    else:
+        guesses = langid.detect(text)
+        source = source or (guesses[0]["lang"] if guesses else "en")
+        spaced, lower = text, False
+    name = langid.NAMES.get(source, LANGS.get(source, source))
+    res = {"source": source, "source_name": name, "detected": guesses, "spaced": spaced, "translation": None, "note": ""}
     if source == target:
         res["note"] = "Text is already in the target language."
         return res
@@ -51,9 +67,12 @@ def translate(text: str, source: str | None = None, target: str = "en") -> dict:
         res["translation"] = latin_to_english(spaced)
         res["note"] = LATIN_NOTE if res["translation"] else "The Latin model is not installed. Run scripts/install_translation_models.py."
         return res
+    if source not in available():
+        res["note"] = f"No {name} to English translator is installed (scripts/install_more_translators.py)."
+        return res
     try:
         import argostranslate.translate as tr
-        res["translation"] = tr.translate(spaced.lower(), source, target)
+        res["translation"] = tr.translate(spaced.lower() if lower else spaced, source, target)
     except Exception as exc:
         res["note"] = f"No installed {source}->{target} model ({exc})."
     return res

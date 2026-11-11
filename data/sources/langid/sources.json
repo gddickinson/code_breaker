@@ -1,0 +1,58 @@
+{
+ "en": {
+  "wikipedia": "https://en.wikipedia.org",
+  "articles": 230,
+  "characters": 126590,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "fr": {
+  "wikipedia": "https://fr.wikipedia.org",
+  "articles": 267,
+  "characters": 124030,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "de": {
+  "wikipedia": "https://de.wikipedia.org",
+  "articles": 254,
+  "characters": 121474,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "it": {
+  "wikipedia": "https://it.wikipedia.org",
+  "articles": 282,
+  "characters": 123458,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "la": {
+  "wikipedia": "https://la.wikipedia.org",
+  "articles": 112,
+  "characters": 43979,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "ar": {
+  "wikipedia": "https://ar.wikipedia.org",
+  "articles": 100,
+  "characters": 40795,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ },
+ "az": {
+  "wikipedia": "https://az.wikipedia.org",
+  "articles": 95,
+  "characters": 42708,
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "method": "random article intros via the MediaWiki API"
+ }
+}
