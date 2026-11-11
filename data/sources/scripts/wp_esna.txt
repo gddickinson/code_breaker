@@ -1,0 +1,65 @@
+{{Short description|Ancient Egyptian temple at Esna}}
+
+[[File:Egypt.Esna.Temple.01.jpg|thumb|250px|right|The Temple of Esna]]
+
+The '''Temple of Esna''', also known as the '''Temple of Khnum at Esna''', is an ancient [[Egyptian temple]] in the city of [[Esna]], about 64 kilometres south of [[Luxor]]. The temple was mainly dedicated to the creator god [[Khnum]] and the goddess [[Neith]]. Other deities worshipped there included [[Heka (god)|Heka]], [[Menhit|Menhyt]] and Nebetu.<ref name="Hallof">{{cite encyclopedia
+ |last=Hallof
+ |first=Jochen
+ |title=Esna
+ |encyclopedia=UCLA Encyclopedia of Egyptology
+ |editor-last=Wendrich
+ |editor-first=Willeke
+ |publisher=University of California, Los Angeles
+ |year=2011
+ |pages=1–17
+ |url=https://escholarship.org/uc/item/6k78t4w9
+ |access-date=25 July 2026
+}}</ref>
+
+The surviving temple was constructed during the [[Ptolemaic Kingdom|Ptolemaic period]]. Building began under [[Ptolemy V Epiphanes]], while decoration continued under [[Ptolemy VI Philometor]], [[Ptolemy VIII Physcon|Ptolemy VIII]] and [[Cleopatra II]]. During the Roman period, a large columned hall was added, probably under Emperor [[Claudius]]. Its decoration continued until the reign of [[Decius]], in the third century AD.<ref name="Hallof" />
+
+==History and architecture==
+
+Only the large [[hypostyle hall]] of the temple remains standing. The original sanctuary and the other rooms of the temple have disappeared or lie beneath the modern city of Esna.<ref name="Hallof" />
+
+The hall is approximately 37 metres long, 20 metres wide and 15 metres high. Its roof is supported by eighteen columns and six half-columns. The twenty-four columns and half-columns have decorated capitals based on different plant forms, and no two capitals are identical.<ref name="Hallof" />
+
+The ceiling is decorated with astronomical images, including stars, planets, constellations and the [[zodiac]]. The walls and columns contain religious texts, calendars, hymns and scenes of rulers making offerings to Egyptian gods. Fourteen of the columns preserve parts of an extensive temple ritual.<ref name="Hallof" />
+
+The temple contains some of the latest extensive [[Egyptian hieroglyphs|hieroglyphic inscriptions]] known from ancient Egypt. The priests of Esna used rare signs, unusual spellings and visual wordplay in the inscriptions.<ref name="Hallof" />
+
+The temple contains the names and representations of numerous Roman emperors, including [[Claudius]], [[Vespasian]], [[Domitian]], [[Trajan]], [[Hadrian]], [[Commodus]], [[Septimius Severus]], [[Caracalla]], [[Geta (emperor)|Geta]], [[Philip the Arab]] and [[Decius]]. They were portrayed according to traditional Egyptian customs, wearing pharaonic crowns and presenting offerings to the gods.<ref name="Hallof" />
+
+Philip the Arab was represented in two scenes. One showed him worshipping [[Montu|Montu-Ra]] and Tjenenet, while the other showed him presenting a ceremonial collar to [[Shu (Egyptian god)|Shu]] and [[Tefnut]]. After Philip was defeated by Decius, Philip's names were erased and replaced with the names of Decius. Some column cartouches of Decius were also placed over earlier cartouches of Philip.<ref name="Sauneron">{{cite journal
+ |last=Sauneron
+ |first=Serge
+ |title=Les querelles impériales vues à travers les scènes du temple d'Esné
+ |journal=Bulletin de l'Institut français d'archéologie orientale
+ |volume=51
+ |year=1952
+ |pages=111–121
+ |url=https://www.ifao.egnet.net/bifao/051/09/
+ |language=French
+ |access-date=25 July 2026
+}}</ref>
+
+The name of Decius is the latest securely dated imperial name preserved at the temple.<ref name="Hallof" />
+
+==See also==
+* [[Esna]]
+* [[Khnum]]
+* [[Egyptian temple]]
+* [[Ancient Egyptian architecture]]
+* [[Temple of Edfu]]
+* [[Dendera Temple complex]]
+
+==References==
+{{Reflist}}
+
+{{coord|25.2935|32.5562|type:landmark_region:EG|display=title}}
+
+[[Category:Egyptian temples]]
+[[Category:Archaeological sites in Egypt]]
+[[Category:Buildings and structures in Luxor Governorate]]
+[[Category:Roman sites in Egypt]]
+[[Category:Khnum]]

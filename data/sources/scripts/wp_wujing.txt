@@ -1,0 +1,270 @@
+{{Short description|11th-century Chinese military manuscript}}
+{{italic title}}
+{{good article}}
+{{Chinese Military Texts}}
+{{Infobox Chinese|title=''Wujing Zongyao''|pic=File:Chinese Gunpowder Formula.JPG|picupright=1.2|piccap=A page with the formula for gunpowder from the ''Wujing Zongyao'' manuscript|
+t=武經總要|s=武经总要|p=Wǔjīng Zǒngyào|poj=Bú-keng Chóng-iàu|w=Wu<sup>3</sup>-ching<sup>1</sup> Tsung<sup>3</sup>-yao<sup>4</sup>|l=Collection of the Most Important Military Techniques}}
+The '''''Wujing Zongyao''''' ({{zh|t=武經總要}}), sometimes rendered in English as the '''''Complete Essentials for the Military Classics''''', is a Chinese military [[compendium]] written from around 1040 to 1044.
+
+The book was compiled during the [[Northern Song dynasty]] by [[Zeng Gongliang]] (曾公亮), Ding Du (丁度) and Yang Weide (楊惟德), whose writing influenced many later Chinese military writers. The compendium was published under the auspices of [[Emperor Renzong of Song]], who also authored the book's preface.{{sfn|Wang|1947|p=162}}  The book covers a wide range of subjects, including everything from naval [[warship]]s to different types of [[catapult]]s. It contains the earliest known written chemical formulas for [[gunpowder]], made from [[saltpeter]], [[sulphur]] and [[charcoal]] along with many added ingredients.{{sfn|Ebrey|1996|p=138}}{{sfn|Chase|2003}}  In addition to formulas for gunpowder, the compendium also contains details on various other gunpowder weapons such as [[fire arrow]]s, [[incendiary bomb]]s and projectiles, and [[grenade]]s and [[smoke bomb]]s.  It also describes an early form of the [[compass]] (using [[wikt: thermoremanent|thermoremanence]]), and has the oldest illustration of a Chinese [[flamethrower]] with a double-action dual-[[piston]] cylinder-pump capable of shooting a continuous blast of flame.{{sfn|Needham|1987|p=83}}
+
+==History==
+[[File:Renzong.jpg|thumb|Court portrait of [[Emperor Renzong of Song|Emperor Renzong]]]]
+The ''Wujing Zongyao'' was compiled under the sponsorship of [[Emperor Renzong of Song]] (r. 1022–1063 AD),{{sfn|Needham|1987|p=19}} who was concerned that many officials were unfamiliar with the military classics,{{sfn|Sawyer|2012|p=99}} and partially as a response to the Song dynasty's war with the [[Tangut people|Tangut]]s of [[Western Xia]].{{sfn|Lorge|2008|p=33}}
+
+A team of scholars worked from 1040 to 1044 to compile the ''Wujing Zongyao'' with the intent to collect all known military knowledge{{sfnm|Needham|1987|1p=601|Needham|1987|2p=19}} and to disseminate it to a wider government audience.{{sfn|Lorge|2008|p=33}} Its chief editor, Zeng Gongliang, was assisted by the [[astronomer]] Yang Weide and the scholar Ding Du.{{sfnm|Needham|1987|1p=601|Needham|1987|2p=19}} After five years, the book was published with a preface authored by Emperor Renzong himself.{{sfn|Wang|1947|p=162}} Lorge remarks that Zeng Gongliang, the chief editor, was a government official rather than a military general, implying that the ''Wujing Zongyao'' was likely written for other government officials.{{sfn|Lorge|2008|p=33}}
+
+Parts of the ''Wujing Zongyao'' were copied from older sources; historian Ralph D. Sawyer calls it "essentially a cut-and-paste job", containing many passages from earlier classical military writings whose original authors are left unidentified, a common practice at the time.{{sfn|Sawyer|2012|p=110}} During the Song dynasty, the ''Wujing Zongyao'' was appended to two other books: the ''Xingjun xuzhi'' and the ''Baizhan qifa'', both written by anonymous authors.{{sfn|Sawyer|2012|p=110}}
+
+The ''Wujing Zongyao'' was one of 347 military treatises listed in the biographical chapters of the [[History of Song (Yuan dynasty)|History of Song]] (1345 AD), one of the [[Twenty-Four Histories]].{{sfn|Needham|1987|p=19}} Of these 347 different military treatises from the Song period, only the ''Wujing Zongyao'', the ''Huqianjing'' (Tiger Seal Manual) of Xu Dong in 1004 AD, and fragments of similar works found in the later ''Yongle Dadian'', have survived.{{sfn|Needham|1987|p=19}} The original text of the ''Wujing Zongyao'' was kept in the Imperial Library while a number of hand-written copies were distributed elsewhere, including a copy given to Wang Shao by [[Emperor Shenzong of Song]] in 1069 AD.{{sfn|Needham|1987|pp=19–20}}
+
+The original copy of the ''Wujing Zongyao'' was lost during the [[Jin–Song Wars|Jin–Song wars]] when the invading [[Jin dynasty (1115–1234)|Jurchens]] sacked the Northern Song capital of [[Kaifeng]] in 1126 AD.{{sfn|Needham|1987|p=20}} Only a few manuscripts survived as a result of its secretive nature. Very few trustees of the government were ever allowed to read it as increased propagation would have increased the chance of it falling into enemy hands.{{sfn|Needham|1987|p=20}} A remaining copy of the ''Wujing Zongyao'' was remade into a newly published edition in 1231 AD in the [[Southern Song dynasty]].{{sfn|Needham|1987|p=20}} During the [[Ming dynasty]] (1368–1644 AD), another book was published in 1439 AD featuring fragments of the ''Wujing Zongyao'' of 1231 while omitting some material and combining it with two other books, including a preface by Li Jin.{{sfn|Needham|1987|p=21}} The entire ''Wujing Zongyao'' was reprinted in 1510 AD and this version is currently the oldest extant copy available.{{sfnm|Needham|1987|1p=601|Needham|1987|2p=20}} However, the historian [[Joseph Needham]] asserts that the 1510 AD edition is the most reliable in its faithfulness to the original version, since it was printed from blocks that were re-carved directly from tracings of the edition made in 1231 AD, rather than recombining fragments of the original with other material.{{sfn|Needham|1987|p=20}}
+
+After the ''Wujing Zongyao'' of 1510 was printed, other Ming copies were made. This included the [[Jiajing Emperor|Jiajing]] edition (1522–1566 AD), the [[Wanli Emperor|Wanli]] edition (1573–1619 AD) of [[Quanzhou]], and the Wanli edition (1573–1619) of [[Jinling]] by Tang Xinyün (preserved by Cunjingge).{{sfn|Needham|1987|p=20}} During the [[Qing dynasty]] (1644–1911 AD) it was also reprinted in two different editions during the 18th century, and again in 1934 with the [[Shanghai]] edition.{{sfn|Needham|1987|p=20}}
+
+The ''Xu Wujing Zongyao'' (續武經總要; literally "Continuation of Wujing Zongyao") is a "continuation" of the ''Wujing Zongyao'' written in the late Ming dynasty. The book focuses primarily on army formations and military deployments.{{sfn|Sawyer|2012|p=110}} It was written by Fan Jingwen (1587–1644), who was then the Vice President of the Board of War (兵部尚書; ''bingbu shangshu''). Fan wrote the book because he felt that reprints of the ''Wujing Zongyao'' circulating at that time were out of date and did not take into account the technological and strategic changes that had occurred since the Song dynasty. The only surviving copy of the ''Xu Wujing Zongyao'' is held by [[Fudan University]] Library.{{sfn|Yates|2005|p=22}}
+
+==Compass and navigation==
+
+[[File:HKSM 香港太空館 Hong Kong Space Museum 指南針 compass Jan-2013.JPG|thumb|right|Model of a Chinese [[compass]] from the [[Hong Kong Space Museum]]]]
+
+In the 3rd century, the Chinese engineer [[Ma Jun (mechanical engineer)|Ma Jun]] invented the [[south-pointing chariot]]. This was a wheeled vehicle that employed [[differential (mechanical device)|differential gearing]] in order to lock a figurine of an [[Xian (Taoism)|immortal]] in place on the end of a long wooden staff, the figure having its arm stretched out and always pointing to the southern [[cardinal direction]]. Although the authors of the ''Wujing Zongyao'' were mistaken in believing that the design of the south-pointing chariot was not handed down (as it was reinvented during the Song period and combined with an [[odometer]]), they described a new device which allowed one to navigate. This was the 'south pointing fish' (a thermoremanence [[compass]]), essentially a heated iron (or preferably steel) object cut in the shape of a fish and suspended in a bowl of water. The ''Wujing Zongyao'' part 1 volume 15 text stated:
+
+{{quote |
+When troops encountered gloomy weather or dark nights, and the directions of space could not be distinguished, they let an old horse go on before to lead them, or else they made use of the south-pointing carriage, or the south-pointing fish to identify the directions. Now the carriage method has not been handed down, but in the fish method a thin leaf of iron is cut into the shape of a fish two inches long and half an inch broad, having a pointed head and tail. This is then heated in a charcoal fire, and when it has become thoroughly red-hot, it is taken out by the head with iron tongs and placed so that its tail points due north. In this position it is quenched with water in a basin, so that its tail is submerged for several tenths of an inch. It is then kept in a tightly closed box. To use it, a small bowl filled with water is set up in a windless place, and the fish is laid as flat as possible upon the water-surface so that it floats, whereupon its head will point south.{{sfn|Needham|1962|p=252}}
+}}
+
+Later on in the Song dynasty the compass was used with maritime navigation.{{sfn|Mote|1999|p=326}} Several decades after the ''Wujing Zongyao'' was written, the scientist and statesman [[Shen Kuo]] (1031–1095 AD) wrote of the first truly magnetized compass needle in his book ''[[Dream Pool Essays]]'' (1088 AD). With a more efficient compass magnetized by [[lodestone]], the thermoremanence compass fell out of use.{{sfn|Needham|1962|pp=252–253}} The later maritime author [[Zhu Yu (author)|Zhu Yu]] wrote of the magnetic needle compass as a means to navigate at sea in his ''Pingzhou Table Talks'' of 1119 AD.{{sfn|Needham|1971|p=381}}{{sfn|Sivin|1995|p=22}}
+
+==Naval technology==
+
+The ''Wujing Zongyao'''s illustrated descriptions of warships had a significant influence on later naval handbooks and encyclopedias such as the naval section of the ''[[Wubei Zhi]]'' from circa 1628. These works would incorporate illustrations of ships originally from the ''Wujing Zongyao''. The use of pictures from the ''Wujing Zongyao'' would continue to appear in Japanese naval texts up until the 18th century. The illustrations were used by both Nishikawa Joken's ''Ka-i Tsūshō-kō'' (Studies on the Intercourse and Trade with Chinese and Barbarians) in 1708 and Kanazawa Kanemitsu's ''Wakan Senyōshū'' (Collected Studies on the Ships used by the Chinese and Japanese) in 1766.{{sfn|Needham|1971|p=381}}
+
+The ''Wujing Zongyao'' divides Chinese warships into six categories: Tower ships (''lou chuan''), combat or war junks (''dou xian'' or ''zhan xian''), covered swoopers (''meng chong''), flying barques (''zou ge''), patrol boats (''you ting''), and sea hawk ships (''hai hu'').{{sfn|Turnbull|2002|pp=15–16}}{{sfn|Needham|1971|pp=424–425}} The ''Wujing Zongyao'''s typology for classifying Chinese warships would reappear in later naval texts for many centuries.{{sfn|Turnbull|2002|p=15}}
+
+<gallery widths="180" heights="180">
+File:Songrivership3.jpg|A "tower" ship with a traction-[[trebuchet]] on its top deck, from the ''Wujing Zongyao''
+File:Wujing Zongyao warship.jpg|A "combat" ship from the ''Wujing Zongyao''
+File:Covered swoopers.jpg|A "covered assault" ship from the ''Wujing Zongyao''
+File:Wujing Zongyao flying barque.jpg|A "flying" barque from the ''Wujing Zongyao''
+File:Patrol boats.jpg|A "patrol" boat from the ''Wujing Zongyao''
+File:Wujing Zongyao sea hawk.jpg|A "sea hawk" ship from the ''Wujing Zongyao''
+File:武经总要全-556.jpg|A "meng chong" (covered assault ship)
+</gallery>
+
+==Gunpowder==
+
+[[File:武经总要 火球图.jpg|thumb|An 'igniter fire ball' and 'barbed fire ball' from the ''Wujing Zongyao''.]]
+[[File:Thunderclap bomb.jpg|thumb|An illustration of a 'thunderclap bomb' (''pi li huo qiu'') as depicted in the 1044 text ''Wujing Zongyao''. The top item is a through awl and the bottom one is a hook awl, used to ignite the projectile before it was hurled.]]
+
+===Gunpowder weapons===
+The ''Wujing Zongyao'' records detailed descriptions of gunpowder weapons such as incendiary projectiles, [[smoke bombs]], [[fire arrows]], and [[grenades]]. It documents incendiary projectiles containing low-nitrate gunpowder,{{sfn|Needham|1987|p=73}} which were launched from catapults or lowered down from city walls onto besiegers.{{sfn|Needham|1987|pp=70–71}} Examples of these incendiaries include the "swallow-tail" incendiary ({{lang|zh-Hant-TW|燕尾炬}}; ''yanweiju'') and the flying incendiary ({{lang|zh-Hant-TW|飛炬}}; ''feiju''). The swallow-tail incendiary was made of straw tied together and dipped in fat or oil. Chinese soldiers defending a city under siege would light the incendiary and lower it onto any wooden structure of the invading army to engulf it in fire. The flying incendiary visually resembled the swallow-tail incendiary, but was lowered using an iron chain from a [[swape]] lever installed within the walls of the city.{{sfn|Needham|1987|pp=70–71}} The book also describes an 'igniter ball' used in warfare and for finding the firing range. The ''Wujing Zongyao'' stated the following:
+
+{{quote |
+The 'igniter ball' (''yin huo qiu'') is made of paper round like a ball, inside which is put between three and five pounds of powdered bricks. Melt yellow wax and let it stand until clear, then add powdered charcoal and make it into a paste permeating the ball; bind it up with hempen string. When you want to find the range of anything, shoot off this fire-ball first, then other incendiary balls can follow.{{sfn|Needham|1987|p=73}}
+}}
+
+Gunpowder was attached to fire arrows ({{lang|zh-Hant-TW|火箭}}) and utilized as an incendiary.{{sfn|Wang|1947|p=165}} The ''Wujing Zongyao'' records that fire arrows were launched from bows or crossbows. The gunpowder used for fire arrows was likely a low-nitrate powder, and the quantity of gunpowder varied according to the type of bow.{{sfn|Needham|1987|p=477}} In the book, the force of gunpowder is said to be enough to launch an arrow, but only when the elasticity of the crossbow is sufficient.{{sfn|Wang|1947|p=166}}
+
+The ''Wujing Zongyao'' discusses various types of incendiary bombs and grenades. They used a low-nitrate gunpowder that, while not powerful enough to cause an explosion, was effective for incendiary weapons. The ''huoqiu'' ({{lang|zh-Hant-TW|火毬}}; literally "fire ball") was filled with gunpowder and launched using a trebuchet. Upon impact, the ''huoqiu'' would start a fire among an invading army.{{sfn|Chase|2003|p=40}} Chinese bombs such as the thunder clap bomb or ''pili pao'' used a greater percentage of gunpowder than that of the ''huoqiu''. The gunpowder mixture for a bomb was placed within a rigid container that held in the expanding gas, allowing for more powerful explosions. The thunder clap bomb was constructed with a container made from bamboo.{{sfn|Chase|2003|p=40}}
+
+In the ''Wujing Zongyao'' and other military texts, the distinction between a bomb and a grenade is ambiguous. At the time, the Chinese usually did not categorize gunpowder weapons according to their delivery method. One of the few exceptions is the ''shoupao'', or hand bomb, which is analogous to the hand grenade.{{sfn|Chase|2003|p=40}}
+
+===Formulas===
+
+Gunpowder had already been invented prior to the ''Wujing Zongyao'' by Chinese alchemists in the 9th century.{{sfn|Lorge|2008|p=32}} Early references to gunpowder can be found in the Daoist book ''Zhenyuan miaodao yaolue'', written circa 850,{{sfn|Chase|2003|p=31}} and gunpowder was utilized in Chinese warfare as early as the 10th century in [[fire arrows]] and [[gunpowder]] [[Fuse (explosives)|fuse]]s used to light the Chinese two-piston [[flamethrower]].{{sfn|Needham|1987|pp=80–82}}
+
+However it was not until the ''Wujing Zongyao'' that the exact chemical formulas for early Chinese gunpowder were revealed.{{sfn|Wang|1947|p=177}} The ''Wujing Zongyao'' contains three formulas for gunpowder:{{sfn|Chase|2003|p=31}} one for an explosive bomb launched from a [[trebuchet]], another for a similar bomb with hooks attached so that it could latch on to any wooden structure and set it on fire, and another formula specified for a poison-smoke bomb used for [[chemical warfare]].{{sfn|Needham|1987|p=117}}
+
+The ''Wujing Zongyao'''s first recorded gunpowder formula used in these bombs held a [[potassium nitrate]] level of 55.4% to 55.5%, sulfur content of 19.4% to 26.5%, and [[carbon]]aceous content of 23% to 25.2%.{{sfn|Needham|1987|p=120}} The first step for making gunpowder is to powder and mix together sulphur, saltpetre, charcoal, pitch, and dried lacquer. Tung oil, dried plants, and wax are mixed next to create a paste. The paste and powder are combined and carefully stirred. Then the mixture is placed inside a paper container, wrapped up, and tied using hemp twine.{{sfn|Wang|1947|pp=161–162}} Several precautions are taken to prevent the gunpowder from becoming damp.{{sfn|Wang|1947|p=162}}
+
+For the second formula, the inner ball alone had a nitrate percentage of 61.5% to 50.2%, a sulfur content of 30.8% to 25.1%, and if all carbonaceous matter was taken, 24.7%, if just taking the charcoal content alone, the carbon level was 7.7%.{{sfn|Needham|1987|p=122}} If the outer coating and inner ball are both included with the second black-powder formula, that would yield a nitrate level of 34.7% to 54.8%, a sulfur content of 17.4% to 27.4%, and if all carbonaceous material is used, 47.9% carbon, if only charcoal is used, 17.8%.{{sfn|Needham|1987|p=122}} If the inner ball of the third black-powder formula is only considered, it held nitrate levels of 39.6% if all carbonaceous matter was taken, 49.4% nitrate if excluding the poisons, and 60% if charcoal is specified alone.{{sfn|Needham|1987|p=124}} The sulfur content was 19.8% if all carbonaceous matter was considered, 24.7% if this excluded poisons, and 30% if charcoal is specified alone.{{sfn|Needham|1987|p=124}} The carbon content was 40.5% if all carbonaceous matter was considered, 25.9% if this excluded poisons, and 10% if charcoal alone was specified.{{sfn|Needham|1987|p=124}} If both the inner ball and outer coating are considered for the third formula, that would yield a nitrate level of 27% if all carbonaceous matter was taken, 31.2% if this excluded poisons, and 51.7% if charcoal alone was used.{{sfn|Needham|1987|p=124}} The sulfur content would be 13.5% if all carbonaceous matter was taken, 15.6% if this excluded the poisons, and 25.9% if only charcoal alone was specified.{{sfn|Needham|1987|p=124}}  The carbon content was 59.5% if all carbonaceous matter was taken into account, 53.2% if this excluded poisons, and 22.4% if charcoal alone was specified.{{sfn|Needham|1987|p=124}}
+
+The first black-powder concoction was simply labeled as the "method for making the fire-chemical", with its ingredients and measured weight (in [[ounce]]s) of each ingredient listed in the section below with the others listed in similar fashion.{{sfn|Needham|1987|p=182}}
+
+'''Fireball formula'''{{sfn|Needham|1987|p=118}}{{sfn|Lu|2015|p=253}}
+{{col-begin}}
+{{col-3}}
+* [[Sulfur]] (14 oz.)
+* Wo huang ('nest yellow', perhaps nodular sulfur) (7 oz.)
+* [[Potassium nitrate|Saltpetre]] (40 oz.)
+* [[Hemp]] roots (1 oz.)
+* Dried [[lacquer]] (1 oz.)
+* [[Arsenic]] (1 oz.)
+* White [[lead]] ([[lead carbonate]]) (1 oz.)
+{{col-3}}
+* [[Bamboo]] roots (1 oz.)
+* [[Minium (mineral)|Minium]] ([[lead tetroxide]]) (1 oz.)
+* Yellow [[wax]] (0.5 oz.)
+* Clear [[oil]] (0.1 oz.)
+* [[Tung oil]] (0.5 oz.)
+* [[Pine resin]] (14 oz.)
+* Thick oil (0.1 oz.)
+{{col-3}}
+{{col-end}}
+Total weight = 82.2 oz.
+
+'''Caltrop fireball formula'''{{sfn|Needham|1987|p=122}}{{sfn|Lu|2015|p=253}}
+{{col-begin}}
+{{col-3}}
+Inner ball
+* [[Sulphur]] (20 oz.)
+* [[Potassium nitrate|Saltpetre]] (40 oz.)
+* Coarse [[charcoal]] powder (5 oz.)
+* [[Pitch (resin)|Pitch]] (2.5 oz.)
+* Dried [[lacquer]] (pounded to powder) (2.5 oz.)
+* [[Bamboo]] roots (1.1 oz.)
+* [[Hemp]] roots, cut into shreds (1.1 oz.)
+* [[Tung oil]] (2.5 oz.)
+* Lesser oil (possibly an edible oil) (2.5 oz.)
+* [[Wax]] (2.5 oz.)
+Total weight of inner ball = 79.7 oz.
+{{col-3}}
+Outer coating
+* [[Paper]] (12.5 oz.)
+* [[Hemp]] (fibre) (10 oz.)
+* [[Minium (mineral)|Minium]] (1.1&nbsp;oz)
+* [[Charcoal]] powder (8 oz.)
+* Pitch (2.5&nbsp;oz)
+* Yellow wax (2.5&nbsp;oz)
+Total weight of outer coating = 36.6 oz.
+{{col-3}}
+{{col-end}}
+Total weight = 116.3 oz.
+
+'''Poisonous smoke ball formula'''{{sfn|Needham|1987|pp=123–124}}{{sfn|Lu|2015|p=253}}
+{{col-begin}}
+{{col-3}}
+Inner ball
+* [[Sulphur]] (15 oz.)
+* [[Potassium nitrate|Saltpetre]] (30 oz.)
+* [[Aconitine|Aconite]] ([[aconitum fischeri]]) (5 oz.)
+* [[Croton oil]] (croton tiglium) (5 oz.)
+* Wolfsbane ([[aconitum ferox]] or lycoctonum) (5 oz.)
+* [[Tung oil]] (5 oz.)
+* Lesser oil (2.5 oz.)
+* [[Charcoal]] powder (5 oz.)
+* [[Pitch (resin)|Pitch]] (5 oz.)
+* [[Arsenic]] (2 oz.)
+* Yellow [[wax]] (1 oz.)
+* [[Bamboo]] roots (1.1 oz.)
+* [[Hemp]] roots (1.1 oz.)
+Total weight of inner ball = 77.7 oz.
+{{col-3}}
+Outer coating
+* Old [[paper]] (12.5 oz.)
+* [[Hemp]] (stalk) skin fibre (10 oz.)
+* [[Pitch (resin)|Pitch]] (2.5 oz.)
+* Yellow [[wax]] (2.5 oz.)
+* [[Minium (mineral)|Minium]] (1.1 oz.)
+* [[Charcoal]] (8 oz.)
+Total weight of outer coating = 36.6 oz.
+{{col-3}}
+{{col-end}}
+Total weight = 114.3 oz.
+
+==Double-acting piston flamethrower==
+[[File:Chinese Flamethrower.JPG|thumb|A Chinese [[flamethrower]] from the ''Wujing Zongyao'']]
+The ''Wujing Zongyao'' describes a flamethrower with a double-acting two-[[piston]] cylinder-pump capable of shooting a continuous blast of flame.{{sfn|Gernet|1982|p=310}} The first Chinese battle to use the double-piston pump flamethrower was the [[Battle of Langshan Jiang]] in 919 AD. In the Battle of Langshan Jiang (Wolf Mountain River, 狼山江), the naval fleet of the Wenmu King of Wuyue defeated the fleet of the Kingdom of Wu because he had used 'fire oil' (huo yóu, 火油) to burn his fleet; this signified the first Chinese use of gunpowder in warfare, since a slow-burning match fuse was required to ignite the flames.{{sfn|Needham|1987|p=81}} [[Greek fire]] is likely based on distilled petroleum and is a weapon of [[Byzantine Empire|Byzantine]] origin.{{sfn|Turnbull|2001|p=40}} The Chinese author Lin Yu explained in his book of 919 AD that Greek fire was acquired from their [[Arab]] [[maritime trade]] contacts in the [[Indian Ocean]].{{sfn|Needham|1987|p=82}} Furthermore, the Chinese had been using the piston [[syringe]] since the [[Han dynasty]] (202 BC – 220 AD).{{sfn|Needham|1987|p=84}} However, it was the later ''Wujing Zongyao'' that would provide the first illustrated drawing and greater textual explanation for how this flamethrower operated. In describing the drawn illustration of the flamethrower in the book, the ''Wujing Zongyao'' states:
+
+{{quote | On the right is the [[petrol]] flamethrower (lit. fierce fire oil-shooter). The tank is made of [[brass]], and supported on four legs. From its upper surface arise four (vertical) tubes attached to a horizontal cylinder above; they are all connected with the tank. The head and the tail of the cylinder are large (the middle) is of narrow (diameter). In the tail end there is a small opening as big as a millet grain. The head end has (two) round openings 1½ inches in diameter. At the side of the tank there is a hole with a (little) tube which is used for filling, and this is fitted with a cover. Inside the cylinder there is a (piston-)rod packed with [[silk]] floss, the head of which is wound round with hemp waste about ½ inches thick. Before and behind, the two communicating tubes are (alternately) occluded (lit. controlled), and (the mechanism) thus determined. The tail has a horizontal handle (the pump handle), in front of which there is a round cover. When (the handle is pushed) in (the pistons) close the mouth of the tubes (in turn).{{sfn|Needham|1987|p=82}}}}
+
+{{quote | Before use the tank is filled with rather more than three catties of the oil with a spoon through a filter; at the same time gunpowder (composition) is placed in the ignition chamber at the head. When the fire is to be started one applies a heated [[branding iron]] (to the ignition chamber), and the piston-rod is forced fully into the cylinder—then the man at the back is ordered to draw the piston rod fully backwards and work it (back and forth) as vigorously as possible. Whereupon the oil (the petrol) comes out through the ignition chamber and is shot forth as blazing flame.{{sfn|Needham|1987|pp=83–84}}}}
+
+Then the text goes on to provide further instructions about equipment, maintenance, and repair of flamethrowers:
+
+{{quote | When filling, use the bowl, the spoon and filter; for igniting there is the branding iron; for maintaining (or renewing) the fire there is the container. The branding iron is made sharp like an [[wikt:awl|awl]] so that it may be used to unblock the tubes if they get stopped up. There are tongs with which to pick up the glowing fire, and there is a [[soldering iron]] for stopping up leaks. If the tanks or the tubes get cracked and leak they may be mended by using green wax. Altogether there are 12 items of equipment, all of brass except the tongs, the branding iron, and the soldering iron. Another method is to fix a brass [[gourd]]-shaped container inside a large tube; below it has two feet, and inside there are two small feet communicating with them (comm: all made of brass) and there is also the piston. The method of shooting is as described above. If the enemy comes to attack a city, these weapons are placed on the great [[defensive wall|rampart]]s, or else in outworks, so that large numbers of assailants cannot get through.{{sfn|Needham|1987|pp=83–84}}}}
+
+==Illustrations from the Wujing Zongyao==
+<gallery class="center" widths="180" heights="180">
+File:Fire ox wjzy.jpg|The "fire ox" is an ox with two spears tied by its sides, set mad by burning its tail
+File:Chinese Bird with Incendiary.JPG|Bird with an [[Incendiary device|incendiary]] around its neck
+File:Hudunpao-wujingzongyao.jpg|Crouching tiger trebuchet
+File:Whirlwind trebuchet wjzy.jpg|Whirlwind trebuchet
+File:Five whirlwind trebuchets wjzy.jpg|Five whirlwind trebuchets
+File:Wheeled trebuchet wjzy.jpg|Wheeled whirlwind trebuchet
+File:Four footed seven component trebuchet wjzy.jpg|Four footed seven component trebuchet
+File:Two-bow crossbow wjzy.jpg|Double bed crossbow
+File:Triple bow crossbow wjzy.jpg|Triple bed crossbow
+File:Sky cart wjzy.jpg|Sky cart
+File:Scaling ladder wjzy.jpg|Scaling ladder
+File:Rake cart wjzy.jpg|Rake cart
+File:Double hook cart wjzy.jpg|Double hook cart
+File:Fork cart wjzy.jpg|Fork cart
+File:Hungry falcon cart wjzy.jpg|Hungry falcon cart
+File:Nest cart and watchtower cart wjzy.jpg|Nest cart and watchtower cart
+File:Wooden screen wjzy.jpg|Wooden screen
+File:Assault cover wjzy.jpg|Assault cover
+File:Imperial Encyclopaedia - Military Administration - pic395 - 尖頭木驢圖.png|Wooden donkey
+File:Head cart wjzy.jpg|Head cart
+File:Gate blocking knife cart wjzy.jpg|Gate blocking knife cart
+File:Iron plated ram wjzy.jpg|Iron plated ram
+File:Plaited gallery wjzy.jpg|Plated gallery
+File:Wagon and cart for filling in moats wjzy.jpg|Wagon and cart for filling in moats
+File:Sheep horse wall and barbican wjzy.jpg|"Sheep horse" wall and barbican
+File:Turrets on city wall.JPG|Wall turrets
+File:Crossbow platform wjzy.jpg|Crossbow platform
+File:Wujing Zongyao flails.jpg|Flails and bar mace
+File:Wujing Zongyao maces.jpg|Maces
+File:Maces wjzy.jpg|Maces
+File:Pole hook, axe, bladed lance with pommel, scratch lance, projecting lance with pommel, scratch lance wjzy.jpg|Assorted pole weapons
+File:Mining tools wjzy.jpg|Mining tools
+File:Cheval de frise wjzy.jpg|Cheval de frise
+File:A hoof grasper and iron waterchestnuts wjzy.jpg|Hoof grasper and iron waterchestnuts
+File:Deerhorn wood, earth stopper, and iron caltrop wjzy.jpg|Deerhorn wood, earth stopper, and iron caltrop
+File:Night prong thunderstick wjzy.jpg|Night prong thunderstick
+File:Flying hook and wolf's tooth striking board wjzy.jpg|Flying hook and wolf's tooth striking board
+File:Wandering fire cauldron wjzy.jpg|Wandering fire cauldron
+File:1044 Song dynasty volley fire crossbow formation.jpg|Volley fire diagram showing shooting, advancing, and reloading rows
+File:Chinese Fire Ships.jpg|Chinese fire ships from the ''Wujing Zongyao''
+</gallery>
+
+==See also==
+
+* [[History of the Song dynasty]]
+* [[Gunpowder warfare]]
+* [[Technology of the Song dynasty]]
+* [[Jiao Yu]]
+* [[Battle of Tangdao]]
+* [[Battle of Caishi]]
+
+==Notes==
+{{reflist|30em}}
+
+==References==
+* {{cite book|first=Kenneth Warren|last=Chase|title=Firearms: A Global History to 1700|year=2003|publisher=Cambridge University Press|location=New York|isbn=978-0-521-82274-9}}
+* {{cite book|first=Patricia Buckley|last=Ebrey|title=The Cambridge Illustrated History of China|year=2010|publisher=Cambridge University Press|location=New York|isbn=978-0-521-12433-1|edition=2nd|orig-year=1996|ref=CITEREFEbrey1996}}
+* {{cite book|first=Jacques|last=Gernet|title=A History of Chinese Civilization|year=1982|publisher=Cambridge University Press|location=New York|isbn=978-0-521-49781-7|url-access=registration|url=https://archive.org/details/historyofchinese00gern_0}}
+* {{cite book|last=Lorge|first=Peter|title=The Asian Military Revolution: From Gunpowder to the Bomb|year=2008|publisher=Cambridge University Press|location=New York|isbn=978-0-521-84682-0}}
+* {{citation|last=Lu|first=Yongxiang|year=2015|title=A History of Chinese Science and Technology 2}}
+* {{cite book|first=Frederick W.|last=Mote|title=Imperial China: 900–1800|year=1999|publisher=Harvard University Press|location=Cambridge, Massachusetts|isbn=0-674-44515-5}}
+* {{cite book|last=Needham|first=Joseph|title=Science and Civilisation in China: Volume 4, Physics and Physical Technology, Part 1, Physics|year=1962|publisher=Cambridge University Press|location=New York|isbn=978-0-521-05802-5}}
+*{{cite book|last=Needham|first=Joseph|title=Science and Civilisation in China: Volume 4, Physics and Physical Technology, Part 3, Civil Engineering and Nautics|year=1971|publisher=Cambridge University Press|location=New York|isbn=978-0-521-07060-7}}
+* {{cite book|last=Needham|first=Joseph|title=Science and Civilisation in China: Military technology: The Gunpowder Epic, Volume 5, Part 7|year=1987|publisher=Cambridge University Press|location=New York|isbn=978-0-521-30358-3}}
+* {{cite book|last=Sawyer|first=Ralph D.|editor1=David Graff|editor2=Robin Higham|title=A Military History of China|chapter=Military Writings|year=2012|publisher=University Press of Kentucky|location=Lexington|isbn=978-0-8131-4067-4|pages=97–114}}
+*{{cite book|last=Sivin|first=Nathan|title=Science in Ancient China: Researches and Reflections|year=1995|location=Brookfield, Vermont|publisher=Variorum|isbn= 978-0-86078-492-0}}
+* {{cite book|first=Stephen|last=Turnbull|title=Siege Weapons of the Far East Volume 1: AD 612–1300|year=2001|publisher=Osprey Publishing|location=London|isbn=978-1-78200-225-3}}
+*{{cite book|first=Stephen|last=Turnbull|title=Fighting Ships of the Far East Volume 1: China and Southeast Asia 202 BC–AD 1419|year=2002|publisher=Osprey Publishing|location=London|isbn=978-1-78200-017-4}}
+*{{cite journal|author1-link=Wang Ling (historian)|last=Wang|first=Ling|title=On the Invention and Use of Gunpowder and Firearms in China|journal=Isis|date=1947|volume=37|issue=3/4|pages=160–178|jstor=225569|doi=10.1086/348023|pmid=20255417|s2cid=110605456}}
+*{{cite journal|author1-link=Robin D. S. Yates|last=Yates|first=Robin D. S.|title=The History of Military Divination in China|journal=East Asian Science, Technology, and Medicine|publisher=Hans Ulrich Vogel|date=2005|volume=24|issue=24|issn=1562-918X|pages=15–43|doi=10.1163/26669323-02401005}}
+
+==Further reading==
+* {{cite book|last=Jiasheng|first=Feng|year=1954|title=Huǒyào de fǎ míng hé xī chuán|trans-title=The Invention of Gunpowder and Its Spread to the West|location=Shanghai|publisher=Shanghai People's Press|language=zh|oclc=19106261 |id=TQ56-09/1}}
+* {{cite book |last=Liang |first=Jieming |year=2006 |title=Chinese Siege Warfare: Mechanical Artillery & Siege Weapons of Antiquity; an Illustrated History |location=Singapore |publisher=Leong Kit Meng |isbn=9810553803 |oclc=830735937}}
+* {{cite book |last1=Needham |first=Joseph |first2=Robin |last2=Yates |year=1994 |title=Science and Civilisation in China, Volume 5: Chemistry and Chemical Technology, Part 6, Military Technology: Missiles and Sieges |location=Cambridge |publisher=Cambridge University Press |isbn=9780521327275 |oclc=489677531}}
+** {{Cite journal |last1=Forage |first=Paul C. |date=December 1996 |title=Reviewed Work: ''Science and Civilisation in China, Volume 5: Chemistry and Chemical Technology, Part 6, Military Technology: Missiles and Sieges'' by Joseph Needham, Robin Yates |journal=Harvard Journal of Asiatic Studies |volume=56 |issue=2 |pages=508–521 |doi=10.2307/2719409 |jstor=2719409}}
+
+==External links==
+* {{Commons category-inline|Wujing Zongyao}}
+{{Wikisource|zh|武經總要|Wujing Zongyao (in Chinese)}}
+
+{{Song dynasty topics}}
+{{Chinese weapons}}{{Early firearms}}
+
+[[Category:11th-century Chinese books]]
+[[Category:Chinese manuscripts]]
+[[Category:Chinese military texts]]
+[[Category:Military history of the Song dynasty]]
+[[Category:Military science]]
+[[Category:Military strategy books]]
+[[Category:Song dynasty literature]]

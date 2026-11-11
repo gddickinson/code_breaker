@@ -112,5 +112,53 @@
   "url": "https://en.wikipedia.org/wiki/Gardiner%27s_sign_list",
   "bytes": 63622,
   "fetched": "2026-11-10"
+ },
+ "cipher_runes": {
+  "title": "Cipher runes",
+  "url": "https://en.wikipedia.org/wiki/Cipher_runes",
+  "bytes": 4841,
+  "fetched": "2026-11-10"
+ },
+ "rok": {
+  "title": "R\u00f6k runestone",
+  "url": "https://en.wikipedia.org/wiki/R%C3%B6k_runestone",
+  "bytes": 24228,
+  "fetched": "2026-11-10"
+ },
+ "maeshowe": {
+  "title": "Maeshowe",
+  "url": "https://en.wikipedia.org/wiki/Maeshowe",
+  "bytes": 31291,
+  "fetched": "2026-11-10"
+ },
+ "auraicept": {
+  "title": "Auraicept na n-\u00c9ces",
+  "url": "https://en.wikipedia.org/wiki/Auraicept_na_n-%C3%89ces",
+  "bytes": 9164,
+  "fetched": "2026-11-10"
+ },
+ "esna": {
+  "title": "Temple of Esna",
+  "url": "https://en.wikipedia.org/wiki/Temple_of_Esna",
+  "bytes": 4056,
+  "fetched": "2026-11-10"
+ },
+ "khnumhotep": {
+  "title": "Khnumhotep II",
+  "url": "https://en.wikipedia.org/wiki/Khnumhotep_II",
+  "bytes": 16823,
+  "fetched": "2026-11-10"
+ },
+ "wujing": {
+  "title": "Wujing Zongyao",
+  "url": "https://en.wikipedia.org/wiki/Wujing_Zongyao",
+  "bytes": 33412,
+  "fetched": "2026-11-10"
+ },
+ "history_crypto": {
+  "title": "History of cryptography",
+  "url": "https://en.wikipedia.org/wiki/History_of_cryptography",
+  "bytes": 55134,
+  "fetched": "2026-11-10"
  }
 }

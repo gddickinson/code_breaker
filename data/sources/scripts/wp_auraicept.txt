@@ -1,0 +1,76 @@
+{{short description|Early Irish codex}}
+{{italic title}}
+{{Use dmy dates|date=April 2022}}
+[[File:Book of Ballymote 170v.jpg|thumb|220px|fol. 170v of the Book of Ballymote, the Incipit of the ''Auraicept''.]]
+
+'''''Auraicept na nÉces''''' ({{IPA|sga|ˈœɾikʲept̪ n̪a ˈn̠ʲeːgʲes|lang}}; "The Scholars' Primer") is an [[Old Irish]] text on language and grammar. The core of the text may date to the early eighth century,<ref>{{cite news |date=January 1, 2006 |title=Auraicept na n-éces|url=https://codecs.vanhamel.nl/Auraicept_na_n-éces|publisher=Codecs|access-date=June 26, 2022}}</ref> but much material was added between that date and the production of the earliest surviving copies from the end of the fourteenth century. The text is the first instance of a defence of a western European [[vernacular]], defending the spoken [[Irish language]] over [[Latin]], predating [[Dante Alighieri|Dante's]] ''[[De vulgari eloquentia]]'' by several hundred years.
+
+==Manuscripts==
+# TCD  H 2.16. ([[Yellow Book of Lecan]]), 14th century
+#[[Royal Irish Academy|RIA]]  23 P 12 ([[Book of Ballymote]]), foll. 169r&ndash;180r, ca. 1390
+
+==Contents==
+The Auraicept consists of four books,
+{{ordered list|type=upper-roman
+|The Book of [[Fenius Farsaidh]]
+|The Book of [[Amergin Glúingel|Amergin]]
+|The Book of Fercheirtne Filidh
+|The Book of [[Cenn Fáelad mac Ailella|Cennfaeladh]]
+}}
+The author argues from a comparison of Gaelic grammar with the materials used in the constructions of the [[Tower of Babel]]:
+
+<blockquote>Others affirm that in the tower there were only nine materials and that these were [[clay]] and [[water]], [[wool]] and [[blood]], [[wood]] and [[lime (material)|lime]], [[Pitch (resin)|pitch]], [[linen]], and [[bitumen]] ... These represent noun, pronoun, verb, adverb, participle, conjunction, preposition, interjection</blockquote>
+
+As pointed out by Eco (1993), Gaelic was thus argued to be the only instance of a language that overcame the [[confusion of tongues]], being the first language that was created after the fall of the tower by the seventy-two wise men of the school of [[Fenius]], choosing all that was best in each language to implement in Irish. Calder notes (p. xxxii) that the poetic list of the "72 races" was taken from a poem by [[Luccreth moccu Chiara]].
+
+==Ogham==
+The ''Auraicept'' is one of the three main sources of the manuscript tradition about [[Ogham]], the others being ''[[In Lebor Ogaim]]'' and ''De dúilib feda na forfed''. A copy of ''In Lebor Ogaim'' immediately precedes the ''Auraincept'' in the Book of Ballymote, but instead of the ''[[Bríatharogam]] Con Culainn'' given in other copies, there follows a variety of other "secret" modes of ogham. The [[Younger Futhark]] are also included, as'' ogam lochlannach'' "ogham of the Norsemen".
+
+[[File:Book of Ballymote 170r.jpg|thumb|220px|fol. 170r of the ''Book of Ballymote'', variants of ogham, nr. 43 (''sluagogam'') to nr. 77 (''sigla'').]]
+
+Similar to the argument of the precedence of the Gaelic language, the ''Auraicept'' claims that [[Fenius Farsa]]idh discovered four alphabets, the [[Hebrew alphabet|Hebrew]], [[Greek alphabet|Greek]] and [[Latin alphabet|Latin]] ones, and finally the [[ogham]], and that the ogham is the most perfected because it was discovered last. The text is the origin of the tradition that the ogham letters were named after trees, but it gives an alternative possibility that the letters are named for the 25 members of Fenius' school.
+
+In the translation of Calder (1917),
+
+<blockquote>This is their number: five Oghmic groups, i.e., five men for each group, and one up to five for each of them, that their signs may be distinguished. These are their signs: right of stem, left of stem, athwart of stem, through stem, about stem. Thus is a tree climbed, to wit, treading on the root of the tree first with thy right hand first and thy left hand after. Then with the stem, and against it and through it and about it. (Lines 947-951)</blockquote>
+
+In the translation of McManus:
+
+<blockquote>This is their number: there are five groups of ogham and each group has five letters and each of them has from one to five scores and their orientations distinguish them. Their orientations are: right of the stemline, left of the stemline, across the stemline, through the stemline, around the stemline. Ogham is climbed as a tree is climbed</blockquote>
+
+[[File:Fege find.png|thumb|Fege finn]]
+
+==References==
+{{Reflist}}
+
+==Bibliography==
+* {{Cite book |last=Acken |first=James |title=Structure and Interpretation in the Auraicept na nÉces |publisher=[[VDM Publishing|VDM Verlag Dr. Müller e.K.]] |year=2008 |isbn=978-3-639-02030-4 |location=Saarbrücken}}
+* {{Cite book |last=Ahlqvist |first=Anders |title=The early Irish linguist: An edition of the canonical part of the ''Auraicept na n-Éces'' with introduction, commentary, and indices |publisher=Soc. Scientiarum Fennica |year=1982 |location=Helsinki}}
+* {{Cite book |last=Eco |first=Umberto |title=[[La Ricerca della Lingua Perfetta nella Cultura Europea]] |publisher=Blackwell |year=1995 |isbn=0631174656 |translator-last=Fentress |translator-first=James |trans-title=The search for the perfect language |lccn=94029141 |orig-year=1993}}
+* {{cite book |last=Eco |first=Umberto |title=Serendipities: Language and Lunacy |year=1998 |translator-first=William |translator-last=Weaver |location=New York |publisher=Columbia University Press |isbn=0231111347 |lccn=98007935}}
+* {{cite thesis |last=Engesland |first=Nicolai Egjar |title=''Auraicept na nÉces'': A Diachronic Study. With an Edition from the Book of Uí Mhaine |year=2020 |degree=PhD |publisher=University of Oslo}}
+* {{cite book |first=Damian |last=McManus |title=A Guide to Ogam |publisher=An Sagart |year=1997 |isbn=9781870684750 |location=Maynooth |oclc=46009353 |series=Maynooth monographs |volume=4}}
+* {{Cite book |last=Poppe |first=Erich |title=Theorie und Rekonstruktion |publisher=Nodus |year=1996 |editor-last=von Klaus |editor-first=D. Dutz |location=Münster |pages=55–74 |chapter=Die mittelalterliche irische Abhandlung Auraicept na nÉces und ihr geistesgeschichtlicher Standort |editor-last2=Niederehe |editor-first2=Hans-J.}}
+* {{Cite journal |last=Poppe |first=Erich |year=1995–1997 |title=Natural and Artificial Gender in Auraicept na nÉces |journal=Studia Hibernica |issue=29 |pages=195–203}}
+* {{Cite book |last=Poppe |first=Erich |title=History of Linguistics, 1996 |publisher=John Benjamins |year=1999 |editor-last=Cram |editor-first=David |volume=1: Traditions in Linguistics Worldwide |pages=191–201 |chapter=Latinate Terminology in Auraicept na nÉces |series=Studies in the History of the Language Sciences |doi=10.1075/sihols.94.24pop |isbn=978-90-272-4582-3 |editor-last2=Linn |editor-first2=Andrew |editor-last3=Nowak |editor-first3=Elke}}
+* {{Cite book |last=Poppe |first=Erich |title=Ireland and Europe in the Early Middle Ages. Texts and Transmission |publisher=Four Courts |year=2002 |editor-last=Ní Chatháin |editor-first=Próinséas |location=Dublin |pages=296–312 |chapter=The Latin Quotations in Auraicept na nÉces: Microtexts and their Transmission |editor-last2=Richter |editor-first2=Michael}}
+* {{Cite journal |last=Thurneysen |first=Rudolf |year=1928 |title=Auraicept na n-Éces |journal=Zeitschrift für Celtische Philologie |volume=17 |pages=277–303|doi=10.1515/zcph.1928.17.1.277 }}
+
+==Editions==
+*{{cite book|editor-last1=Calder|editor-first1=George|title=Auraicept na n-Éces : the scholars' primer; being the texts of the Ogham tract from the Book of Ballymote and the Yellow Book of Lecan, and the text of the Trefhocul from the Book of Leinster|date=1995|orig-year=1917|publisher=Four Courts Press|location=Blackrock|isbn=1-85182-181-3|edition=Repr. [d. Ausg.] Edinburgh 1917.|url=http://www.four-courts-press.ie/cgi/bookshow.cgi?file=a_eces.xml|access-date=2005-11-01|archive-url=https://web.archive.org/web/20060904175122/http://www.four-courts-press.ie/cgi/bookshow.cgi?file=a_eces.xml|archive-date=2006-09-04|url-status=dead}}
+
+==External links==
+*[https://archive.org/details/auraicept00calduoft Full text of the ''Auraicept na N-Éces'' (Calder's 1917 edition) in various formats (PDF, JP2, etc)]
+*[https://web.archive.org/web/20051110171744/http://www.shee-eire.com/magic%26mythology/Ogham/OghamTract/ogtract.htm The Ogham Tract - ''Auraicept na N-Éces'']
+*[http://www.summerlands.com/crossroads/library/slideviewer/slideviewer.cgi?list=auraicept&dir=&config=&refresh=&scale=-3cycle&design=default&total=3 scan of the Ogham section] < not readable. [http://www.summerlands.com/crossroads/library/slideviewer/slideviewer.cgi?list=auraicept&dir=&config=&refresh=&width=1200&height=900.383458646617&scale=-3cycle=off&slide=1&design=default&total=3 Better resolution (server broken, 2018-03-24.)]
+*[http://www.equinox-project.com/ogamscales.htm The Ogam Scales from the ''Book of Ballymote''] by B. Fell
+{{Authority control}}
+
+[[Category:7th-century books]]
+[[Category:Early Irish literature]]
+[[Category:History of linguistics]]
+[[Category:Irish language]]
+[[Category:Irish-language literature]]
+[[Category:Irish-language texts]]
+[[Category:Linguistics books]]
+[[Category:Ogham]]

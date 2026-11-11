@@ -40,7 +40,7 @@ Adapted from the textview project: `file_inspector.py` (magic bytes, extension h
 ## codebreaker/ciphers/ (each `add(...)` fills `REGISTRY`)
 `base.py` Cipher, Param, DEMO_PLAIN · `runner.py` attack_demo · `columns.py` columnar helpers ·
 `monoalphabetic.py` · `polyalphabetic.py` · `polygraphic.py` (also fractionating) · `transposition.py` ·
-`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `scripts.py` (runes, Ogham, hieroglyph alphabet, rune substitution) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
+`machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `scripts.py` (runes, Ogham, hieroglyph alphabet, rune substitution) · `runic.py` (branch runes and futhark shift, checked against the Rök stone) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
 
 ## codebreaker/attacks/
 `classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography

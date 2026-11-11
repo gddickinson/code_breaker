@@ -1,0 +1,359 @@
+{{short description|Neolithic chambered cairn and passage grave situated on Mainland Orkney, Scotland}}
+{{Use dmy dates|date=January 2021}}
+{{Infobox historic site
+| name = Maeshowe
+| native_names = {{native name|non|Orkahaugr}}
+| other_name = Maes Howe
+| image = MaesHowe.jpg
+| alt = 
+| caption = The chambered cairn in 2006
+| pushpin_map = Scotland
+| pushpin_alt = 
+| pushpin_caption = Location in Scotland
+| image_map_size = 
+| location = [[Stenness]], [[Scotland]]
+| coordinates = {{coord|58.9966|-3.1882|type:landmark_region:GB-ORK|display=inline,title}}
+| type = [[Chambered cairn]]
+| part_of = 
+| length = 
+| width = 
+| area = 
+| diameter = {{cvt|35|m}}
+| height = {{cvt|7.3|m}}
+| builder = 
+| material = [[Stone]]
+| built = {{circa|2800 BC}}
+| abandoned = 
+| epochs = [[Neolithic]]
+| cultures = 
+| dependency_of = 
+| occupants = 
+| events = 
+| excavations = 
+| archaeologists = 
+| condition = 
+| owner = [[Historic Scotland]]
+| public_access = Yes
+| website = 
+| notes = 
+| designation1 = WHS
+| designation1_partof = [[Heart of Neolithic Orkney]]
+| designation1_date = 1999 <small>(23rd [[World Heritage Committee|session]])</small>
+| designation1_type = Cultural
+| designation1_criteria = i, ii, iii, iv
+| designation1_number = [https://whc.unesco.org/en/list/514 514]
+| designation1_free1name = Region
+| designation1_free1value = [[List of World Heritage Sites in Europe|Europe and North America]]
+| hes = SM90209
+}}
+[[File:MaesHoweEntrance.jpg|200px|right|thumb|Maeshowe Entrance]]
+
+'''Maeshowe''' (or '''Maes Howe'''; {{langx|non|Orkahaugr}})<ref name="OJ">{{cite web
+ |title=Maeshowe's runes - Viking graffiti
+ |website=Orkneyjar
+ |url=http://www.orkneyjar.com/history/maeshowe/maeshrunes.htm
+ |access-date=30 October 2008
+ |archive-date=5 August 2023
+ |archive-url=https://web.archive.org/web/20230805031742/http://www.orkneyjar.com/history/maeshowe/maeshrunes.htm
+ |url-status=dead
+ }}</ref> is a [[Neolithic]] [[chambered cairn]] and [[passage grave]] situated on [[Mainland, Orkney|Mainland]] [[Orkney]], [[Scotland]]. It was probably built around {{nowrap|2800 BC}}. In the archaeology of Scotland, it gives its name to the Maeshowe type of chambered cairn, which is limited to Orkney.
+
+Maeshowe is a significant example of Neolithic craftsmanship and is, in the words of the archaeologist [[Stuart Piggott]], "a superlative monument that by its originality of execution is lifted out of its class into a unique position".<ref>{{Harvnb|Piggott|1954}}</ref> Maeshowe is designated a [[scheduled monument]]<ref>{{Historic Environment Scotland|num=SM90209|desc=Maes Howe, chambered cairn|access-date=22 June 2020}}</ref> and part of the "[[Heart of Neolithic Orkney]]", a group of sites including [[Skara Brae]] designated a [[UNESCO]] [[World Heritage Site]] in 1999.
+
+== Name and etymology ==
+[[File:Maes Howe Cross Sections.gif|200px|right|thumb|Cross-sections of Maeshowe]]
+The monument now known as Maeshowe appears in Old Norse sources as ''Orkahaugr'', a name recorded in the medieval ''[[Orkneyinga saga]]''.<ref name="Ritchie1995">{{cite book |last=Ritchie |first=Anna |title=Prehistoric Orkney |publisher=B.T. Batsford |location=London |year=1995 |isbn=0713475935 |pages=88–90}}</ref> In [[Old Norse]], ''haugr'' means "mound" or "burial mound", while ''Orka'' may refer either to a personal name or to the place-name [[Orkney]]. The name is therefore usually interpreted as meaning "Ork's mound" or "the mound of Orkney".<ref name="Ritchie1995" />
+
+The modern name Maeshowe developed later from Scots place-name elements. The second element, ''howe'', derives from Old Norse ''haugr'', meaning "mound". The first element, ''Maes'', is less certain and may represent a later adaptation or alteration of the earlier Norse name.<ref name="HESMaeshowe">{{cite web |title=Maeshowe Chambered Cairn |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe-chambered-cairn/ |publisher=[[Historic Environment Scotland]] |access-date=14 March 2026}}</ref> Earlier antiquarian writers frequently used the spellings Maes Howe or Maes-howe, reflecting older English spelling conventions.<ref name="Ritchie1995" />
+
+Some scholars have proposed a [[Scottish Gaelic]] origin for the first element of the name. The place-name scholar [[Hugh Marwick]] suggested that it may derive from Gaelic ''mas'', meaning "buttock" or rounded hillock, referring to the shape of the mound.<ref name="Marwick1923">{{cite journal |last=Marwick |first=Hugh |date=30 November 1923 |title=Celtic Place Names in Orkney |journal=[[Proceedings of the Society of Antiquaries of Scotland]] |volume=57 |pages=251–265 |url=http://soas.is.ed.ac.uk/index.php/psas/article/view/7580/7548 |access-date=14 March 2026}}</ref> Celtic place-names are relatively uncommon in the [[Northern Isles]], however, and Marwick regarded this interpretation as uncertain.<ref name="Marwick1923" /> Other suggestions have connected the first element with [[Welsh language|Welsh]] ''maes'', meaning "field" or "open area", though this derivation is also considered doubtful.<ref name="Marwick1923" />
+
+Like many prehistoric monuments in Britain, the tomb itself is far older than the recorded place-name. The chambered cairn was constructed around 2800 BCE, thousands of years before Norse settlers reached Orkney.<ref name="Ritchie1995" /><ref name="HESMaeshowe" />
+
+==Design and construction==
+Maeshowe is one of the largest [[chambered cairn]]s in [[Orkney]]. The grass-covered mound that encloses the tomb measures about {{convert|35|m|ft}} in diameter and rises to a height of {{convert|7.3|m|ft}}.<ref>{{Harvnb|Childe|Simpson|1952|p=18}}</ref> Around the base of the mound runs a ditch located roughly {{convert|15|to|21|m|ft}} away and up to {{convert|14|m|ft}} wide.
+
+Beneath the mound lies a carefully constructed stone monument composed of a passage and central chamber built from large slabs of local [[flagstone]]. Some of these slabs weigh as much as 30 tons.<ref name="Lost-Worlds-2006-Pagans-s1-e12" /> The monument is aligned so that sunlight enters the passage at the [[winter solstice]] and reaches the rear wall of the central chamber.<ref>{{Harvnb|Dargie|2007|p=12}}</ref><ref>{{Harvnb|Hedges|1984|p=160}}</ref> A similar solar effect occurs at [[Newgrange]], another Neolithic passage tomb where midwinter sunlight illuminates the interior.
+
+The entrance passage is about {{convert|11|m|ft}} long and leads to a central chamber that is almost square, measuring about {{convert|4.6|m|ft}} on each side.<ref>{{Harvnb|Childe|Simpson|1952|pages=18–19}}</ref> Today the chamber stands about {{convert|3.8|m|ft}} high, reflecting the height of the surviving original stonework. It is now capped by a modern [[Corbel arch|corbelled roof]], although the original roof may have risen to about {{convert|4.6|m|ft}} or more.<ref>Ritchie (1995) p. 59</ref>
+
+The passage itself is only around {{convert|0.91|m|ft}} high, requiring visitors to stoop or crawl as they move inward before emerging into the taller central chamber. Inside, the walls are formed from large flat slabs of stone, many extending almost the full length of each wall. In each corner stand massive angled [[buttress]]es that rise upward toward the vault. At a height of about {{convert|0.91|m|ft}}, the construction changes from flat slabs to overlapping stones, creating the beehive-shaped vault that forms the chamber's roof.<ref>Castleden (1987) pp. 176–177</ref>
+
+Estimates of the labour required to build Maeshowe vary. One commonly cited estimate suggests around 39,000 hours of labour,<ref>Hedges (1984) p. 113</ref><ref>Castleden (1987) p. 212</ref> while archaeologist [[Colin Renfrew]] calculated that at least 100,000 hours of work may have been required.<ref>Renfrew (1979) pp. 212–214</ref> These figures suggest that the monument was built through the coordinated effort of a substantial community over an extended period.
+
+Dating the construction of Maeshowe is difficult, but burials from similar tombs cluster around 3000 BC. Because Maeshowe is the largest and most sophisticated example of the Maeshowe type of tomb, archaeologists have suggested that it may represent the final stage of this architectural tradition, built around 2800 BC.<ref>Ritchie (1981) p. 29</ref>
+
+==Siting==
+Maeshowe forms part of a wider [[Neolithic]] ceremonial landscape in central Orkney that also includes the nearby stone circles of the [[Ring of Brodgar]] and the [[Stones of Stenness]].
+
+Maeshowe appears as a grassy mound rising from a flat plain near the southeast end of the [[Loch]] of [[Harray]]. The land around Maeshowe at its construction probably looked much as it does today: Treeless, with grasses representative of ‘pollen assemblage zone’ MNH-I, reflecting "mixed agricultural practices, probably with a pastoral bias – there is a substantial amount of [[Plantago|ribwort]] pollen, but also that of cereals".<ref>Davidson & Jones (1985) pp. 27</ref>
+
+Maeshowe is aligned with some other Neolithic sites in the vicinity, for example, the entrance of "Structure&nbsp;8" of the nearby [[Barnhouse Settlement]] directly faces the mound. In addition, the so-called "Barnhouse Stone" in a field around 700&nbsp;metres away is perfectly aligned with the entrance to Maeshowe. This entrance corridor is so placed that it lets the direct light of the setting sun into the chamber for a few days on each side of the [[winter solstice]], illuminating the entrance to the back cell.<ref name="Monuments"/>{{rp|47}}
+
+A Neolithic "low road" connects Maeshowe with the magnificently preserved village of [[Skara Brae]], passing near the [[Standing Stones of Stenness]] and the [[Ring of Brodgar]].<ref>Castleden (1987) p. 117</ref> Low roads connect Neolithic ceremonial sites throughout Britain. Some archaeologists believe that Maeshowe was originally surrounded by a large stone circle.<ref name=Lost-Worlds-2006-Pagans-s1-e12>
+{{cite episode
+ |date=2006-09-25 |df=dmy-all
+ |medium=TV documentary
+ |series=Lost Worlds
+ |title=The Pagans [of Britain]
+ |season= 1 |number=12
+ |network=[[History Channel]]
+ |people=series writers Martin Kemp and Dan Oliver, with contributions from historian prof.&nbsp;Ronald Hutton, and from archeologists Erika Guttmann and Martin Carruthers
+ |lang=en-UK |publication-place=US
+}}
+</ref>
+The complex, including Maeshowe, the Ring of Brodgar, the Standing Stones of Stenness, Skara Brae, as well as other tombs and standing stones, represents a concentration of Neolithic sites that is rivalled in Britain only by the complexes associated with [[Stonehenge]] and [[Avebury]].<ref>Castleden (1987) p. 93</ref>
+
+== People and society ==
+Maeshowe was built by [[Neolithic]] farming communities living in central [[Orkney]] during the late fourth and early third millennia BC.<ref name=":0">{{cite web |title=Maeshowe Chambered Cairn |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe-chambered-cairn/ |access-date=9 March 2026 |publisher=[[Historic Environment Scotland]]}}</ref> The monument reflects the ability of these communities to organise large communal construction projects and to invest significant labour in monuments associated with ritual and ancestral traditions.<ref name="Historic Environment Scotland">{{cite web |title=Heart of Neolithic Orkney World Heritage Site |url=https://www.historicenvironment.scot/advice-and-support/listing-scheduling-and-designations/world-heritage-sites/heart-of-neolithic-orkney/ |access-date=9 March 2026 |publisher=[[Historic Environment Scotland]]}}</ref><ref name=":1">{{cite web |title=Late Neolithic Scotland c.3000–2500 BC |url=https://scarf.scot/national/scarf-neolithic-panel-report/2-the-scottish-neolithic-the-overall-picture/2-4-late-neolithic-scotland-c-3000-c-2500bc/ |access-date=9 March 2026 |website=[[Scottish Archaeological Research Framework]]}}</ref>
+
+Archaeological evidence indicates that the builders belonged to the cultural tradition associated with [[Grooved ware]] pottery, which emerged in Orkney around 3000 BC and later spread widely across [[Great Britain|Britain]] and [[Ireland]].<ref name=":1" />
+
+The construction of Maeshowe required the quarrying, transport, and placement of extremely large slabs of local [[flagstone]]. Estimates of the labour involved suggest that many thousands of hours of coordinated work were needed to build the monument, indicating the participation of a substantial community and the existence of shared ceremonial traditions.<ref name=":0" />
+
+Monuments such as Maeshowe appear to have played an important role in the social and ceremonial life of Neolithic Orkney. The scale and visibility of the cairn suggest that it functioned not only as a burial monument but also as a focal point for gatherings and ritual activities connected with seasonal cycles and ancestral remembrance.<ref name="Historic Environment Scotland"/>
+
+==Style==
+The tomb gives its name to the Maeshowe type of Scottish chambered cairn, which is limited to Orkney.<ref>Ritchie (1981) p. 22</ref> Maeshowe is very similar to the famous [[Newgrange]] tomb in [[Republic of Ireland|Ireland]], suggesting a linkage between the two cultures.<ref>Laing (1974) p. 42</ref> [[Chambered tomb]]s of the Maeshowe "type" are characterised by a long, low entrance passageway leading to a square or rectangular chamber from which there is access to several side cells. Although there are disagreements as to the attribution of tombs to tomb types, there are only seven definitely known Maeshowe-type tombs.<ref>Hedges (1984) p. 80</ref> On [[Mainland, Orkney|Mainland]], there are, in addition to Maeshowe; the tombs of [[Cuween Hill Chambered Cairn|Cuween Hill]], [[Wideford Hill chambered cairn|Wideford Hill]], and [[Quanterness chambered cairn|Quanterness]]. The tomb of Quoyness is found on Sanday, while Vinquoy Hill is located on [[Eday]]. Finally, there is an unnamed tomb on the [[Holm of Papa|Holm of Papa Westray]]. [[Anna Ritchie (archaeologist)|Anna Ritchie]] reports that there are three more Maeshowe-type tombs in Orkney, but she doesn't name or locate them.<ref>Ritchie (1995) p. 47</ref>
+
+According to the description herein, a [[Chamber tomb|chambered tomb]] is normally characterised by grave goods, which were found at Cuween Hill and the tomb on Holm of Papa Westray (see the paragraph above) but were not found at Maeshowe. Further, the description of a [[passage grave]] states:
+: "Not all passage graves have been found to contain evidence of human remains. One such example is Maeshowe." In addition, the ''Statement of Significance'' ([[#Historic-Scotland-Maeshowe-StmtSig-anchor|quoted in § below]]) says, "It is an expression of genius within a group of people whose other tombs were claustrophobic chambers in smaller mounds."<ref name=Historic-Scotland-Maeshowe-StmtSig/>{{page needed|date=September 2021|reason=quotation requires a page number}}
+
+A potential explanation for the extraordinary genius of Maeshowe engineering and the lack of human remains was described by Peter Tompkins in 1971, who compared the structure at "Maes-Howe" to the Great Pyramid<ref>Tompkins (1971) pp. 130–133</ref> suggesting the site was used as an observatory, calendar, and for [[May Day]] ceremonies rather than as a tomb.
+
+Tompkins extensively studied numerous documents related to the measurement and exploration of the [[Great Pyramid of Giza]]. He stated the central "observation chamber"<ref name=Tompkins-1971-p130>Tompkins p. 130</ref> at Maeshowe was "corbeled like the Great Pyramid's Grand Gallery", was carefully leveled, plumbed", and the jointing is of a quality that "rivals that of the Great Pyramid". Rather than chambers of a tomb, Tompkins suggested the structure contained small "retiring rooms for the observers".<ref name=Tompkins-1971-p130/> He suggested the entrance was very similar to Egyptian pyramids in that it had a "54&nbsp;foot observation passage aimed like a telescope at a megalithic stone [2772&nbsp;feet away] to indicate the summer solstice" (p.&nbsp;130) in addition to its "Watchstone" to the west that indicated the equinoxes. The "sighting passage"<ref name=Tompkins-1971-p133>Tompkins (1971) p. 133</ref> points to a northern star like the pyramids of Saqqara, Dashur and Medûm. Tompkins stated that "The similarity [of the pyramids] to the structure at Maes-Howe is indeed amazing".<ref name=Tompkins-1971-p133/> He cited Professor [[Alexander Thom]], former Chair of Engineering Science at Oxford, as writing about the geometry of construction and astronomical alignment of Maeshowe in this context in 1967.<ref>Tompkins (1971) pp. 137–138</ref>
+
+Tompkins, citing Thom{{citation needed|date=September 2021}} and others, described in detail how Maeshowe, [[Silbury Hill]]<ref>Tompkins (1971) p. 128</ref> and other ancient mounds and Neolithic megaliths across Britain served as extremely accurate observatories, calendars, and straight-line beacons for travelers, as well as how they were used ceremonially in [[May Day]] celebrations more than 4,000&nbsp;years ago.
+
+== Norse intrusion and runic inscriptions ==
+Maeshowe did not remain sealed after its construction. During the twelfth century [[Norsemen|Norse]] visitors broke into the mound and entered the central chamber. Archaeological evidence suggests they forced entry from above, breaking through the roof rather than using the original entrance passage.{{sfn|Hedges|1984|pp=45–47}} By that time the monument had already stood for about four thousand years. Inside the chamber the visitors carved more than thirty [[Runic alphabet|runic]] inscriptions into the stone walls. These carvings form the largest single collection of runic inscriptions known from one location.<ref name="Barnes 1994">{{cite book |last=Barnes |first=Michael P. |title=The Runic Inscriptions of Maeshowe, Orkney |publisher=Uppsala University |year=1994}}</ref><ref>{{cite web |title=Maeshowe Chambered Cairn |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe/ |access-date=9 March 2026 |publisher=[[Historic Environment Scotland]]}}</ref>
+
+The inscriptions vary in tone and content and resemble informal graffiti rather than formal memorials. One carving boasts, "These runes were carved by the man most skilled in runes west of the ocean." Another inscription reads simply, "Ingigerth is the most beautiful of women." Another carving states that "the man who is most skilled in runes west of the ocean carved these runes."<ref name="Barnes 1994"/>
+
+Many inscriptions also record the names of those who carved them, preserving brief traces of the individuals who entered the monument. In total, the chamber contains about thirty-three inscriptions made by several different hands, indicating that the mound was entered on multiple occasions during the Norse period.<ref>{{cite web |title=Maeshowe: Runic inscriptions |url=https://www.orkneyjar.com/history/maeshowe/runes.htm |access-date=9 March 2026 |publisher=Orkneyjar}}</ref>
+
+Accounts of Norse entry into ancient burial mounds also appear in medieval literature. A similar account appears in the [[Orkneyinga saga]]. In the saga the mound is called ''Orkahaugr'', meaning "Orkney mound". According to the account, the monument was entered by a group led by [[Harald Maddadsson]] and [[Rognvald Kali Kolsson|Rognvald, Earl of More]]. Caught in a snowstorm, the men reportedly sheltered inside the mound and later broke into the chamber in search of treasure.<ref>{{cite book |title=Orkneyinga Saga: The History of the Earls of Orkney |publisher=Penguin Books |year=1978 |editor-last=Palsson |editor-first=Hermann |editor2-last=Edwards |editor2-first=Paul}}</ref> Although the saga blends history and legend, the account broadly corresponds with archaeological evidence for Norse entry into the monument during the twelfth century.<ref>{{cite book |last=Ritchie |first=Anna |title=Prehistoric Orkney |publisher=Batsford |year=1995 |pages=88–90}}</ref>
+
+Such activity reflects wider Norse traditions concerning ancient burial mounds. In Scandinavian folklore, these mounds were often believed to contain treasure guarded by ''draugar'', the restless spirits of the dead. Stories of heroes breaking into burial mounds in search of treasure appear frequently in [[Old Norse literature]].<ref>{{cite book |last=Price |first=Neil |title=The Viking Way: Religion and War in Late Iron Age Scandinavia |publisher=Oxbow Books |year=2019 |pages=187–189}}</ref>
+
+When the chamber was opened again in the nineteenth century by antiquarian investigators, the walls were found to be covered with runic carvings. Their discovery revealed an unexpected medieval phase in the monument's history, preserving traces of Norse visitors who had entered the ancient mound centuries earlier.<ref>{{cite web |title=Maeshowe |url=https://www.orkney.com/listings/maeshowe-chambered-cairn |access-date=9 March 2026 |publisher=Orkney.com}}</ref>
+
+Modern research continues to examine the runic inscriptions. Computational photography techniques such as reflectance transformation imaging have been used to document the carvings in detail, revealing subtle marks and helping scholars understand the sequence in which the runes were cut.<ref>{{cite journal |last=Earl |first=Graeme |year=2013 |title=RTI and the study of the Maeshowe runic inscriptions |journal=Journal of Archaeological Science |volume=40 |issue=4 |pages=2030–2039}}</ref><ref name="IA">{{harvnb|Smith|Beale|Richards|Scholma-Mason|2018}}</ref>
+
+==Excavation==
+[[File:Maes Howe 1861.jpg|200px|right|thumb|Maeshowe soon after opening in 1861]]
+The "modern" opening of the tomb in July&nbsp;1861 was by [[James Farrer (British politician)|James Farrer]], an antiquarian and the [[Member of Parliament (United Kingdom)|Member of Parliament]] (MP) for [[South Durham (UK Parliament constituency)|South Durham]].<ref>Ritchie (1995) p. 9</ref> Farrer, like many antiquarians of the day, was not noted for his careful excavation of sites. John Hedges describes him as possessing "a rapacious appetite for excavation matched only by his crude techniques, lack of inspiration, and general inability to publish".<ref>Hedges (1984) p. 22</ref>
+
+Farrer and his workmen broke through the roof of the entrance passage and found it filled with debris. He then turned his attention to the top of the mound, broke through, and over a period of a few days, emptied the main chamber of material that had filled it completely.
+
+He and his workmen discovered the famous [[runic]] inscriptions carved on the walls, proof that Norsemen had broken into the tomb at least six centuries earlier.<ref>Ritchie (1995) p. 10</ref>
+
+[[File:Orkney Cabinet - Maeshowe - Scottish Ten animation (7883502538).jpg|thumb|Maes Howe interior in 2012]]
+
+Excavations have revealed that the external wall surrounding the ditch was rebuilt in the 9th century. Some archaeologists see this as evidence that the tomb may have been reused by the Norse people and that they were the source of the "treasure" found by the later looters.<ref name=Monuments>
+{{cite book
+ |last=Wickham-Jones |first=Caroline
+ |year=2012
+ |title=Monuments of Orkney
+ |publisher=Historic Scotland
+ |isbn=978-1-84917-073-4
+}}
+</ref>{{rp|46}}
+
+==World Heritage status==
+The "[[Heart of Neolithic Orkney]]" was listed as a World Heritage site in December&nbsp;1999. In addition to Maeshowe, the site includes [[Skara Brae]], the [[Standing Stones of Stenness]], the [[Ring of Brodgar]] and other nearby sites. It is managed by [[Historic Environment Scotland]], whose ''Statement of Significance'' for the site begins:
+<blockquote>{{anchor|Historic-Scotland-Maeshowe-StmtSig-anchor}}
+The monuments at the heart of Neolithic Orkney and Skara Brae proclaim the triumphs of the human spirit in early ages and isolated places. They were approximately contemporary with the mastabas of the archaic period of Egypt (first and second dynasties), the brick temples of Sumeria, and the first cities of the Harappa culture in India, and a century or two earlier than the Golden Age of China. Unusually fine for their early date, and with a remarkably rich survival of evidence, these sites stand as a visible symbol of the achievements of early peoples away from the traditional centres of civilisation ... Maes Howe is a masterpiece of Neolithic engineering. It is an exceptionally early architectural accomplishment. With its almost classical strength and simplicity, it is a unique survival from 5000&nbsp;years ago. It is an expression of genius within a group of people whose other tombs were claustrophobic chambers in smaller mounds.<ref name=Historic-Scotland-Maeshowe-StmtSig>
+{{cite web
+ |title=The Heart of Neolithic Orkney
+ |website=Historic Scotland
+ |url=http://www.historic-scotland.gov.uk/index/policyandguidance/world_heritage_scotland/world_heritage_sites/world-heritage-neolithic-orkney.htm
+ |access-date=5 September 2007
+ |archive-url=https://web.archive.org/web/20070824203938/http://www.historic-scotland.gov.uk/index/policyandguidance/world_heritage_scotland/world_heritage_sites/world-heritage-neolithic-orkney.htm |archive-date=24 August 2007
+}}
+</ref>{{page needed|date=September 2021|reason=quotation requires a page number}}
+</blockquote>
+
+== Visitor centre ==
+The Maeshowe Heart of Neolithic Orkney Visitor Centre is located in the village of [[Stenness]] on Mainland, Orkney.<ref>{{cite web |title=Maeshowe Chambered Cairn |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe-chambered-cairn/ |access-date=9 March 2026 |publisher=Historic Environment Scotland}}</ref> Access to the cairn is by guided tour only. Visitors begin at the Stenness centre before travelling to the monument as part of scheduled tours organised by [[Historic Environment Scotland]].<ref>{{cite web |title=Maeshowe Chambered Cairn – Plan your visit |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe-chambered-cairn/plan-your-visit/ |access-date=9 March 2026 |publisher=Historic Environment Scotland}}</ref>
+
+==See also==
+{{div col |colwidth=15em |content=
+
+* [[Newgrange]] – another winter solstice aligned passage tomb
+* [[Ring of Brodgar]]
+* [[Skara Brae]]
+* [[Standing Stones of Stenness]]
+* [[The Stone Lud]]
+* [[Heart of Neolithic Orkney]]
+* [[Prehistoric Orkney]]
+* [[List of megalithic sites]]
+* [[List of archaeoastronomical sites by country|List of archaeo-astronomical sites by country]]
+
+}} <!-- end "content=" -->
+
+==Footnotes==
+{{notelist}}
+
+==References==
+{{reflist|25em}}
+
+==Bibliography==
+* {{cite book
+ | last = Castleden | first = Rodney
+ | year = 1987
+ | title = The Stonehenge People
+ | publisher = Routledge & Kegan Paul Ltd.
+ | location = London, UK
+ | isbn = 0-7102-0968-1
+ | url-access = registration
+ | url = https://archive.org/details/stonehengepeople0000cast
+}}
+* {{cite book
+ | last1 = Childe | first1 = V. Gordon
+ | last2 = Simpson | first2 = W. Douglas
+ | year = 1952
+ | title = Illustrated History of Ancient Monuments
+ | volume = VI Scotland
+ | publisher = Her Majesty's Stationery Office
+ | location = Edinburgh, UK
+}}
+* {{cite book
+ | last = Dargie | first = Richard
+ | year = 2007
+ | title = A History of Britain: The key events that have shaped Britain from Neolithic times to the 21st&nbsp;century
+ | publisher = Arcturus Foulsham
+ | isbn = 978-0-572-03342-2
+}}
+* {{cite book
+ | last1 = Davidson  | first1 = D.A.
+ | last2 = Jones     | first2 = D.L.
+ | title = The Environment of Orkney in the Prehistory of Orkney BC 4000-1000 AD
+ | editor-first = Colin |editor-last = Renfrew
+ | publisher = Edinburgh University Press
+ | year = 1985
+ | location = Edinburgh, UK
+ | isbn = 0-85224-456-8
+}}
+* {{ cite book
+ | last = Hedges | first = John W.
+ | title = Tomb of the Eagles: Death and Life in a Stone Age Tribe
+ | publisher = New Amsterdam
+ | year = 1984
+ | location = New York, NY
+ | isbn = 0-941533-05-0
+}}
+* {{cite book
+ | last = Laing | first = Lloyd
+ | title = Orkney and Shetland: An archaeological guide
+ | publisher = David and Charles
+ | year = 1974
+ | location = Newton Abbott, UK
+ | isbn = 0-7153-6305-0
+}}
+* {{cite book
+ | last = Piggott | first = Stuart
+ | title = Neolithic Cultures of the British Isles
+ | publisher = Cambridge University Press
+ | year = 1954
+ | isbn = 0-521-07781-8
+}}
+* {{cite book
+ | last = Renfrew | first = Colin
+ | year = 1979
+ | title = Investigations in Orkney
+ | publisher = Rep. Research Comm. Soc. Antiq. London #38
+ | location = London, UK
+}}
+* {{cite book
+ | editor-last = Renfrew  | editor-first = Colin
+ | title = The Prehistory of Orkney BC 4000-1000 AD
+ | publisher = Edinburgh University Press
+ | year = 1985
+ | location = Edinburgh, UK
+ | isbn = 0-85224-456-8
+}}
+* {{cite book
+ | last1 = Ritchie | first1 = Graham
+ | last2 = Ritchie | first2 = Anna
+ | name-list-style=amp
+ | title = Scotland: Archaeology and early history
+ | publisher = Thames and Hudson
+ | year = 1981
+ | location = New York, NY
+ | isbn = 0-500-27365-0
+}}
+* {{cite book
+ | last = Ritchie | first = Anna
+ | title = Prehistoric Orkney
+ | publisher = B.T. Batsford
+ | year = 1995
+ | location = London, UK
+ | isbn = 0-7134-7593-5
+}}
+* {{cite journal
+  | last1=Smith  |first1=Nicole
+  | first2=Gareth |last2=Beale
+  | first3=Julian |last3=Richards |first4=Nela |last4=Scholma-Mason |date=October 2018
+  | title=Maeshowe: The application of RTI to Norse runes
+  | journal=[[Internet Archaeology]]
+  | volume=47  | issue=8
+  | publisher=Council for British Archaeology  | type = data paper
+  | url=https://intarch.ac.uk/journal/issue47/8/index.html#h-rti   |access-date=29 November 2018
+  | doi=10.11141/ia.47.8  | doi-access=free
+  | s2cid=165773006 | issn=1363-5387
+  | quote=Highlight-RTI is the approach used in [[Internet Archaeology]].
+}}
+* {{cite book
+ |last=Tompkins |first=Peter
+ |year=1971
+ |title=Secrets of the Great Pyramid
+ |place=New York, NY
+ |publisher=Harper & Row
+}}
+
+==External links==
+{{Commons category|Maeshowe}}
+
+* {{cite web
+ |url=https://www.historicenvironment.scot/visit-a-place/places/maeshowe-chambered-cairn
+ |title=Maeshowe Chambered Cairn
+ |type=official site
+ |publisher=[[Historic Environment Scotland]]
+}}
+* {{cite AV media
+ |url=http://www.maeshowe.co.uk/index.html
+ |title=Winter Solstice Webcam
+ |medium=video
+}}
+* {{cite web
+ |title=Research on the reappearance of the sun
+ |url=http://www.iol.ie/~geniet/maeshowe/
+ |url-status=dead <!-- presumed -->
+ |archive-url=https://web.archive.org/web/20090917220854/http://www.iol.ie/~geniet/maeshowe/
+ |archive-date=2009-09-17
+}}
+
+{{Prehistoric Orkney}}
+{{Scandinavian Scotland|state=autocollapse}}
+{{World Heritage Sites in the United Kingdom}}
+{{Authority control}}
+
+[[Category:Buildings and structures completed in the 3rd millennium BC]]
+[[Category:3rd-millennium BC architecture in Scotland]]
+[[Category:Archaeological sites in Orkney]]
+[[Category:Archaeoastronomy]]
+[[Category:Viking Age sites in Scotland]]
+[[Category:Prehistoric Orkney]]
+[[Category:Runic inscriptions]]
+[[Category:Scheduled monuments in Orkney]]
+[[Category:World Heritage Sites in Scotland]]
+[[Category:Historic Environment Scotland properties in Orkney]]
+[[Category:Museums in Orkney]]
+[[Category:Archaeological museums in Scotland]]
+[[Category:Neolithic Scotland]]
+[[Category:Chambered cairns in Scotland]]
+[[Category:Mainland, Orkney]]
+[[Category:Heart of Neolithic Orkney]]
+[[Category:Winter solstice]]
+[[Category:Passage graves]]

@@ -66,7 +66,7 @@ def test_history_links_all_resolve():
             elif kind[0] == "machine":
                 assert kind[1] in machines, href
             else:
-                assert kind[0] in ("", "machines", "workbench"), href
+                assert kind[0] in ("", "machines", "workbench", "scripts"), href
 
 
 def test_latin_translation_when_model_is_available():

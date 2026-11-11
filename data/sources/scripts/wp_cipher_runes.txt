@@ -1,0 +1,44 @@
+{{short description|Cryptographical replacement of the letters of the runic alphabet}}
+[[File:Rökstenen_1.JPG|thumb|The [[Rök runestone]], [[Sweden]], features 'tent runes' in its uppermost row. Centered in the bottom row is a hook rune.]]
+'''Cipher runes''', or '''cryptic runes''', are the [[cryptography|cryptographical]] replacement of the letters of the [[runic alphabet]]. 
+
+==Preservation==
+The knowledge of cipher runes was best preserved in [[Iceland]], and during the 17th–18th centuries, Icelandic scholars produced several treatises on the subject.  The most notable of these is the manuscript ''Runologia'' by [[Jón Ólafsson of Grunnavík|Jón Ólafsson]] (1705–1779), which he wrote in [[Copenhagen]] (1732–1752). It thoroughly treats numerous cipher runes and runic ciphers, and it is now preserved in the [[Arnamagnæan Institute]] in Copenhagen.{{Sfn | Enoksen | 1998 | p = 84}}
+
+Jón Ólafsson's treatise presents the [[Younger Futhark]] in the Viking Age order, which means that the [[Maðr |m-rune]] precedes the [[Laguz|l-rune]]. This small detail was of paramount importance for the interpretation of Viking Age cipher runes because in the 13th century the two runes had changed places through the influence of the [[Latin alphabet]] where ''l'' precedes ''m''. Since the medieval [[runic calendar]] used the post-13th-century order, the early runologists of the 17th–18th centuries believed that the l-m order was the original one, and the order of the runes is of vital importance for the interpretation of cipher runes.{{Sfn | Enoksen | 1998 | p = 84}}
+
+==Structure of the ciphers==
+
+In the runic alphabet, the runes have their special order and are divided into groups. In the [[Younger Futhark]], which has 16 letters, they are divided into three groups. The Icelandic tradition calls the first group ('''f''', '''u''', '''þ''', '''ã''', '''r''' and '''k''') "[[Freyr]]'s ''ætt''", the second group ('''h''', '''n''', '''i''', '''a''' and '''s''') "[[Haglaz|Hagal's]] ''ætt''" and the third group ('''t''', '''b''', '''m''', '''l''' and '''ʀ''') "[[Tyr]]'s ''ætt''". In order to make the inscription even harder to decipher, Freyr's ''ætt'' and Tyr's ''ætt'' change places so that group one is group three and vice versa. However, in several cases the ætts are counted in their correct order, and not backwards.<ref>{{Cite web |date=2010-02-04 |title=Cipher Runes |language=en-US |website=The Witch's Library |url=https://lindaursin.net/library/welcome/runes/cipher-runes/ |url-status=dead |access-date=2017-12-16 |archive-url=https://web.archive.org/web/20170903014436/http://lindaursin.net/library/welcome/runes/cipher-runes/ |archive-date=2017-09-03}}</ref>{{better source needed|date=March 2023}} There are numerous forms of cipher runes, but they are all based on the principle of giving the number of the ''ætt'' and the number of the rune within the ''ætt''.{{Sfn | Enoksen | 1998 | p = 85}}
+
+[[Image:Cryptic runes.jpg|thumb|A page from the 18th-century manuscript by the Icelander Jón Ólafsson, which deciphered the cryptic runes for Continental Scandinavian scholars. This page shows different types.]]
+The '''tent runes''' are based on strokes added to the four arms of an X shape: Each X represents two runes and is read clockwise, starting with the top left arm. The strokes on the first arm representing the ''ætt'' (row of eight runes: (1) ''fuþarkgw,'' (2) ''hnijæpzs,'' (3) ''tbemlŋod),'' the strokes on the second arm denote the order within that ''ætt''.
+
+The '''branch runes''' are similar, the strokes being attached to a vertical stem and branching upwards. Strokes on the left indicate the ''ætt'', and strokes on the right the order within the ''ætt''.
+
+There are variants of these two schemes, such as inverting the numbers (counting backwards the ''ætts,'' and the runes within the ''ætts).''  '''Tree runes''' and '''hook runes''' are like branch runes, with the strokes pointing downward diagonally and curving downward, respectively. These may be mixed: in the phrase ''ek vitki'' at left, ''ek'' is written in straightforward branch runes, but ''vitki'' is written with the ''ætts'' as hooks and the order as branches.
+
+There are several [[runestone]]s using such devices of obscuring the inscription, especially found in [[Orkney]].
+
+A comparable system of letter modification is that of the [[Ogham]] "scales" recorded in the [[Ogam Tract]].
+
+==See also==
+* [[Bind rune]]
+* [[List of runestones]]
+* [[Ogham]]
+* [[Pseudo-runes]]
+
+==References==
+{{reflist}}
+
+===Works cited===
+* {{Citation |last=Enoksen |first=Lars Magnar |title=Runor: historia, tydning, tolkning |date=1998 |place=Falun |publisher=Historiska Media |isbn=91-88930-32-7}}.
+
+{{Runes}}
+{{list of writing systems}}
+
+[[Category:Runology]]
+[[Category:History of cryptography]]
+[[Category:Classical cryptography]]
+
+[[sv:Lönnrunor]]
