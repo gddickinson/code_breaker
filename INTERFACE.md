@@ -25,6 +25,7 @@
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
 | `firstcontact.py` | First Contact lab: stream profiles against shuffles, Arecibo bits and picture-layout decoder with controls (routes `web/routes_contact.py`, front end `contact.js`) | `profile`, `decode_layout`, `arecibo_bits` |
 | `acrostic.py` / `acrostic_eval.py` | Acrostic and null-cipher finder with a Bonferroni bar; controls, Hypnerotomachia, D-Day base rate | `find`, `readings` |
+| `ai_reader.py` / `ai_reader_eval.py` | The local text model as ranker, meaning judge and abbreviation expander, with controls (Round 92: not used by the solvers; it finds meaning in noise) | `rank`, `meaningful`, `expand` |
 | `ai_local.py` | Optional local AI through Ollama: status and calls (nothing leaves the machine) | `status`, `generate` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 

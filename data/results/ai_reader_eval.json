@@ -1,0 +1,40 @@
+{
+ "id": "ai_reader_eval",
+ "model": "qwen2.5:14b",
+ "items": 70,
+ "ranking_right": {
+  "model": 57,
+  "quadgram": 70,
+  "coverage": 70,
+  "model_no_answer": 6
+ },
+ "meaning": {
+  "truth": {
+   "said_meaningful": 64,
+   "asked": 70
+  },
+  "near 10%": {
+   "said_meaningful": 42,
+   "asked": 70
+  },
+  "near 30%": {
+   "said_meaningful": 16,
+   "asked": 70
+  },
+  "wrong key": {
+   "said_meaningful": 0,
+   "asked": 70
+  },
+  "shuffled": {
+   "said_meaningful": 5,
+   "asked": 70
+  }
+ },
+ "expansion": {
+  "words": 424,
+  "recovered": 189,
+  "ads": 59,
+  "null_ads": 59,
+  "null_claimed_meaning": 59
+ }
+}
