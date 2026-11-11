@@ -22,3 +22,4 @@ data/sources/aim/
 data/sources/sounds/*.mp3
 data/sources/sounds/*.ogg
 data/sources/sounds/*.wav
+data/lens_debug/

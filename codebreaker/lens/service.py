@@ -62,11 +62,7 @@ def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: 
     found_codes = codes(gray)
     inside = lambda w, b: b[0] <= w["box"][0] + w["box"][2] / 2 <= b[0] + b[2] and b[1] <= w["box"][1] + w["box"][3] / 2 <= b[1] + b[3]
     o["words"] = [w for w in o["words"] if not any(inside(w, c["box"]) for c in found_codes)]  # a code's pattern is not text
-    lines = {}
-    for w in o["words"]:
-        if ocr.readable(w):
-            lines.setdefault(w["line"], []).append(w["text"])
-    o["text"] = "\n".join(" ".join(v) for v in lines.values())
+    o["text"] = "\n".join(" ".join(w["text"] for w in line) for line in ocr.group_lines([w for w in o["words"] if ocr.readable(w)]))
     findings = text_findings(o) + found_codes
     res = {"size": [int(gray.shape[1]), int(gray.shape[0])], "script": o["script"], "language": o["language"], "text": o["text"],
            "mean_conf": o["mean_conf"], "findings": findings, "log": [f"script {o['script']} (tried {', '.join(o['scripts_tried'])})",

@@ -1,5 +1,6 @@
 """Routes for the Lens page: pictures, camera frames, text and files read and searched for hidden messages."""
 import base64
+from pathlib import Path
 
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
@@ -24,14 +25,32 @@ class FileIn(BaseModel):
     data: str  # base64 or data URL
 
 
+DEBUG = Path(__file__).resolve().parents[2] / "data/lens_debug"
+
+
+def _keep(data: bytes, kind: str) -> None:
+    """The last still picture and the last live frame, overwritten each time, for checking what the lens saw.
+    Local only and not committed (data/lens_debug is in .gitignore)."""
+    try:
+        DEBUG.mkdir(parents=True, exist_ok=True)
+        ext = "png" if data[:8] == b"\x89PNG\r\n\x1a\n" else "jpg"
+        for old in DEBUG.glob(f"last_{kind}.*"):
+            old.unlink()
+        (DEBUG / f"last_{kind}.{ext}").write_bytes(data)
+    except OSError:
+        pass
+
+
 @router.post("/api/lens/image")
 def image(body: ImageIn):
     from ..lens.service import analyse_image
 
     if len(body.image) > MAX or body.signs not in ("auto", "always", "never"):
         raise HTTPException(400, "Send a picture under about 15 MB.")
+    data = base64.b64decode(body.image.split(",", 1)[-1])
+    _keep(data, "live" if body.live else "still")
     try:
-        return analyse_image(base64.b64decode(body.image.split(",", 1)[-1]), body.live, body.signs, body.script or None)
+        return analyse_image(data, body.live, body.signs, body.script or None)
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(400, str(exc)) from exc
 
@@ -88,3 +107,13 @@ def sample():
     ok, enc = cv2.imencode(".png", arr)
     import base64
     return {"image": "data:image/png;base64," + base64.b64encode(enc.tobytes()).decode()}
+
+
+@router.get("/api/translate/languages")
+def translate_languages():
+    from ..langid import NAMES, SRC
+    from ..translate import available
+
+    have = set(available()) | {"la"}
+    codes = sorted({p.stem for p in SRC.glob("*.txt")} | have | {"en"})
+    return [{"code": c, "name": NAMES.get(c, c), "translator": c in have or c == "en"} for c in sorted(codes, key=lambda c: NAMES.get(c, c))]

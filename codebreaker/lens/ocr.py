@@ -11,8 +11,7 @@ import subprocess
 import cv2
 import numpy as np
 
-from ..languages import LANGS, ROOT, detect, score
-from ..text import letters
+from ..languages import LANGS, ROOT
 
 TESS = ROOT / "data/models/tessdata_fast"
 FALLBACK = ("Latin", "Cyrillic", "Greek", "Arabic", "Hebrew", "Devanagari", "HanS", "Japanese", "Hangul")
@@ -37,13 +36,23 @@ def _run(gray: np.ndarray, args: list[str]) -> str:
     return r.stdout.decode("utf-8", "ignore")
 
 
-def prepare(gray: np.ndarray) -> tuple[np.ndarray, float]:
-    """Upscale small pictures (Tesseract wants letters of about 30 px); returns the image and the scale used."""
-    s = 1.0
-    if max(gray.shape) < 1400:
-        s = min(3.0, 1400 / max(gray.shape))
-        gray = cv2.resize(gray, None, fx=s, fy=s, interpolation=cv2.INTER_CUBIC)
-    return gray, s
+def variant(gray: np.ndarray, scale: float, kind: str) -> np.ndarray:
+    """A copy prepared for Tesseract (Round 78b, measured on a photographed label): enlarged so small print reaches
+    the letter size Tesseract wants, contrast evened out (CLAHE), and for 'adaptive' thresholded locally, which
+    copes with glare and uneven light."""
+    g = cv2.resize(gray, None, fx=scale, fy=scale, interpolation=cv2.INTER_CUBIC) if scale != 1 else gray
+    g = cv2.createCLAHE(clipLimit=2.5, tileGridSize=(8, 8)).apply(g)
+    if kind == "adaptive":
+        g = cv2.adaptiveThreshold(cv2.GaussianBlur(g, (3, 3), 0), 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY, 41, 12)
+    return g
+
+
+def scale_for(gray: np.ndarray) -> float:
+    """Pictures up to 1,600 px across are doubled (print in camera pictures is small); large scans are left alone."""
+    return 2.0 if max(gray.shape) <= 1600 else 1.0
+
+
+PASSES = (("clahe", 1.0, 3), ("adaptive", 1.0, 11), ("adaptive", 1.5, 11))  # (kind, extra scale, page mode)
 
 
 def detect_script(gray: np.ndarray) -> tuple[str | None, float]:
@@ -55,9 +64,9 @@ def detect_script(gray: np.ndarray) -> tuple[str | None, float]:
     return (name if (TESS / "script" / f"{name}.traineddata").exists() else None), float(c.group(1)) if c else 0.0
 
 
-def words(gray: np.ndarray, script: str) -> list[dict]:
+def words(gray: np.ndarray, script: str, psm: int = 3) -> list[dict]:
     """Words with boxes (in the given image's pixels) and Tesseract's confidence 0-100."""
-    tsv = _run(gray, ["--tessdata-dir", str(TESS / "script"), "-l", script, "--psm", "3", "-c", "tessedit_create_tsv=1"])
+    tsv = _run(gray, ["--tessdata-dir", str(TESS / "script"), "-l", script, "--psm", str(psm), "-c", "tessedit_create_tsv=1"])
     out = []
     for line in tsv.splitlines()[1:]:
         f = line.split("\t")
@@ -74,45 +83,92 @@ def words(gray: np.ndarray, script: str) -> list[dict]:
 def readable(w: dict) -> bool:
     """A word worth reading: confident, and mostly letters or digits (pattern noise from codes and pictures is not)."""
     t = w["text"]
-    return w["conf"] >= 50 and sum(c.isalnum() for c in t) >= max(1, 0.6 * len(t))
+    return w["conf"] >= 60 and sum(c.isalnum() for c in t) >= max(1, 0.6 * len(t))  # 60: same recall as 50 on a photographed label, fewer junk words
 
 
 def language(text: str, script: str) -> dict:
-    """The language for Latin-script text among the app's languages (only if the text reads as one), else the script."""
-    if script == "Latin" and len(letters(text)) >= 12:
-        best = detect(text)[0]
-        if score(letters(text), best["lang"]) > -5.2:
-            return {"code": best["lang"], "name": best["name"], "how": "letter statistics"}
-        return {"code": None, "name": "a Latin-script language the app has no model for", "how": "letter statistics"}
-    return {"code": None, "name": SCRIPT_LANGS.get(script, script), "how": "script"}
+    """The language of OCR'd text among the languages with Wikipedia profiles (langid, Round 85), in any script;
+    only named when the best guess is clearly ahead, otherwise the script is reported."""
+    from ..langid import detect as identify
+
+    if len(re.sub(r"\W", "", text)) >= 8:
+        g = identify(text, 2)
+        if g and g[0]["p"] >= 0.6:
+            return {"code": g[0]["lang"], "name": g[0]["name"], "how": "character statistics", "p": g[0]["p"]}
+    return {"code": None, "name": SCRIPT_LANGS.get(script, "a " + script + "-script language"), "how": "script"}
+
+
+def _overlap(a, b) -> float:
+    ix = max(0, min(a[0] + a[2], b[0] + b[2]) - max(a[0], b[0]))
+    iy = max(0, min(a[1] + a[3], b[1] + b[3]) - max(a[1], b[1]))
+    return ix * iy / max(1, min(a[2] * a[3], b[2] * b[3]))
+
+
+def merge(passes: list[list[dict]]) -> list[dict]:
+    """Words from several passes (boxes in original pixels): overlapping words are one word, read as in its most
+    confident pass; a word kept if confident once (readable) or seen in two passes at confidence 30 or more."""
+    out = []
+    for ws in passes:
+        for w in ws:
+            same = next((o for o in out if _overlap(o["box"], w["box"]) > 0.5), None)
+            if same is None:
+                out.append({**w, "seen": 1, "best": w["conf"]})
+                continue
+            same["seen"] += 1
+            if w["conf"] > same["best"]:
+                same.update(text=w["text"], conf=w["conf"], best=w["conf"], line=w["line"])
+    for o in out:
+        if o["seen"] >= 2 and o["conf"] >= 30 and not readable(o):
+            o["conf"] = max(o["conf"], 60.0)  # confirmed by a second pass
+    return out
+
+
+def _pass(gray: np.ndarray, script: str, kind: str, scale: float, psm: int) -> list[dict]:
+    img = variant(gray, scale, kind)
+    ws = words(img, script, psm)
+    for w in ws:
+        w["box"] = [round(v / scale) for v in w["box"]]
+    return ws
+
+
+def group_lines(ws: list[dict]) -> list[list[dict]]:
+    """Words into lines by vertical overlap (a word joins a line when its centre lies inside the line's band), each
+    line read left to right, lines top to bottom. Columns side by side end up on one line, as in reading order."""
+    lines = []
+    for w in sorted(ws, key=lambda w: w["box"][1] + w["box"][3] / 2):
+        cy = w["box"][1] + w["box"][3] / 2
+        line = next((l for l in lines if l["top"] - 0.15 * l["h"] <= cy <= l["top"] + 1.15 * l["h"]), None)
+        if line is None:
+            lines.append({"top": w["box"][1], "h": w["box"][3], "words": [w]})
+        else:
+            line["words"].append(w)
+    return [sorted(l["words"], key=lambda w: w["box"][0]) for l in sorted(lines, key=lambda l: l["top"])]
 
 
 def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dict:
-    """OCR of a picture: script, words, lines, mean confidence and language."""
+    """OCR of a picture: script, words, lines, mean confidence and language. The script is the candidate whose quick
+    pass reads the most (total confidence of readable words), so a few confident junk words in a wrong script cannot
+    win; stills then get three passes merged, live frames one."""
     if not available():
         raise RuntimeError("The Tesseract language data is missing: see data/models/tessdata_fast/MANIFEST.md.")
-    big, s = prepare(gray)
-    tried = []
+    s = scale_for(gray)
     if script is None:
-        script, sconf = detect_script(big)
-        tried = [script] if script else []
-    cands = [script] if script else list(FALLBACK[:2] if fast else FALLBACK)
+        osd, _ = detect_script(variant(gray, s, "clahe"))
+        cands = [osd] + (["Latin"] if osd != "Latin" else []) if osd else list(FALLBACK[:2] if fast else FALLBACK)
+    else:
+        cands = [script]
     best = None
     for sc in cands:
-        ws = words(big, sc)
-        good = [w for w in ws if w["conf"] >= 40 and re.search(r"\w", w["text"])]
-        mean = float(np.mean([w["conf"] for w in good])) if good else 0.0
-        key = mean * min(1.0, len(good) / 3)
+        ws = _pass(gray, sc, "clahe", s, 3)
+        key = sum(w["conf"] for w in ws if readable(w))
         if best is None or key > best[0]:
-            best = (key, sc, ws, mean)
-    _, script, ws, mean = best
-    for w in ws:
-        w["box"] = [round(v / s) for v in w["box"]]
-    lines = {}
-    for w in ws:
-        if readable(w):
-            lines.setdefault(w["line"], []).append(w["text"])
-    text_lines = [" ".join(v) for v in lines.values()]
+            best = (key, sc, ws)
+    _, script, first = best
+    passes = [first] + ([] if fast else [_pass(gray, script, k, s * f, psm) for k, f, psm in PASSES[1:]])
+    ws = merge(passes) if len(passes) > 1 else first
+    good = [w for w in ws if readable(w)]
+    mean = float(np.mean([w["conf"] for w in good])) if good else 0.0
+    text_lines = [" ".join(w["text"] for w in line) for line in group_lines(good)]
     text = "\n".join(text_lines)
     return {"script": script, "words": ws, "lines": text_lines, "text": text, "mean_conf": round(mean, 1),
-            "language": language(text, script) if text.strip() else None, "scripts_tried": tried or cands, "known_languages": list(LANGS)}
+            "language": language(text, script) if text.strip() else None, "scripts_tried": cands, "known_languages": list(LANGS)}

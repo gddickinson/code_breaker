@@ -69,3 +69,23 @@ def test_text_and_file_routes():
     data = base64.b64encode("plain words​‌ here".encode()).decode()
     r = client.post("/api/lens/file", json={"name": "note.txt", "data": data}).json()
     assert r["type"] == "text" and any(f["kind"] == "zero_width" for f in r["findings"])
+
+
+@needs_ocr
+def test_small_print_on_a_glossy_label():
+    """Round 78b fix: small print under uneven light (as on a photographed tin) must be read; one pass in the
+    page-layout mode on the raw picture read 22% of a real label's words, the multi-pass reading about half."""
+    from PIL import Image, ImageDraw, ImageFont
+    lines = ["NATURAL FLAVORS INCLUDING OIL OF PEPPERMINT", "QUESTIONS COMMENTS CALL TODAY", "Serving size one mint per container",
+             "Total sugars one gram added sugars", "Made of sugar gum arabic gelatin"]
+    im = Image.new("L", (1280, 420), 200)
+    d = ImageDraw.Draw(im)
+    for i, t in enumerate(lines):
+        d.text((40, 30 + i * 75), t, font=ImageFont.truetype("/System/Library/Fonts/Supplemental/Arial.ttf", 22), fill=40)
+    a = np.asarray(im).astype(float) + np.tile(np.linspace(-60, 50, 1280), (420, 1))  # glare across the label
+    a = cv2.imdecode(cv2.imencode(".jpg", np.clip(a, 0, 255).astype(np.uint8), [cv2.IMWRITE_JPEG_QUALITY, 70])[1], 0)
+    r = ocr.read(a)
+    want = [w.lower() for t in lines for w in t.split()]
+    got = [w["text"].lower().strip(".,") for w in r["words"] if ocr.readable(w)]
+    assert r["script"] == "Latin" and sum(w in got for w in want) / len(want) >= 0.8
+    assert "peppermint" in r["text"].lower().split("\n")[0]

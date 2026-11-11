@@ -1,6 +1,28 @@
 /* Lens: point the camera at anything, or drop in a picture or file; read text, codes and signs, translate, and look
    for hidden messages. The overlay (lens_overlay.js) marks every finding on the view. */
-let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [];
+let lensStream = null, lensTimer = 0, lensBusy = false, lensLog = [], lensRef = null, lensFlow = 0;
+const LENS_SMALL = 160;
+
+/* A small grey copy of the current video frame, and the shift (in source pixels) that best aligns it with the copy
+   taken when the frame was sent: boxes from the server are moved by that shift until the next reply arrives. */
+function lensSmall(v) {
+  const c = document.createElement("canvas"), s = LENS_SMALL / v.videoWidth;
+  c.width = LENS_SMALL; c.height = Math.round(v.videoHeight * s);
+  const g = c.getContext("2d", { willReadFrequently: true }); g.drawImage(v, 0, 0, c.width, c.height);
+  const d = g.getImageData(0, 0, c.width, c.height).data, out = new Float32Array(c.width * c.height);
+  for (let i = 0; i < out.length; i++) out[i] = d[4 * i] * 0.3 + d[4 * i + 1] * 0.59 + d[4 * i + 2] * 0.11;
+  return { px: out, w: c.width, h: c.height, scale: v.videoWidth / c.width };
+}
+
+function lensShift(a, b, r = 12) {
+  let best = [0, 0], bs = Infinity;
+  for (let dy = -r; dy <= r; dy += 2) for (let dx = -r; dx <= r; dx += 2) {
+    let s = 0, n = 0;
+    for (let y = r; y < a.h - r; y += 3) for (let x = r; x < a.w - r; x += 3) { s += Math.abs(a.px[y * a.w + x] - b.px[(y + dy) * b.w + x + dx]); n++; }
+    s /= n; if (s < bs) { bs = s; best = [dx, dy]; }
+  }
+  return best;
+}
 
 function lensLogAdd(lines) {
   const stamp = new Date().toTimeString().slice(0, 8);
@@ -9,7 +31,7 @@ function lensLogAdd(lines) {
 }
 
 function lensStop() {
-  clearInterval(lensTimer); lensTimer = 0;
+  clearInterval(lensTimer); lensTimer = 0; clearInterval(lensFlow); lensFlow = 0; lensRef = null;
   if (lensStream) { lensStream.getTracks().forEach(t => t.stop()); lensStream = null; }
 }
 
@@ -72,12 +94,15 @@ async function lensLiveTick() {
   const v = $("#lnVid");
   if (!v.videoWidth) return;
   lensBusy = true;
+  const ref = lensSmall(v);
   const c = document.createElement("canvas"), s = Math.min(1, 960 / v.videoWidth);
   c.width = v.videoWidth * s; c.height = v.videoHeight * s;
   c.getContext("2d").drawImage(v, 0, 0, c.width, c.height);
   try {
     const r = await api("/lens/image", { image: c.toDataURL("image/jpeg", 0.85), live: true, script: $("#lnScript").value || null });
-    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${r.language ? r.language.name : "?"}` : "scanning");
+    lensRef = ref; lensRef.srcScale = r.size[0] / LENS_SMALL;
+    lensOverlayShift(0, 0);
+    lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${r.language ? r.language.name : "?"}` : "scanning", true);
     if (r.text) { $("#lnLive").textContent = r.text; lensLogAdd([`read ${r.findings.length} item(s) in ${r.script}`]); }
   } catch (e) { lensLogAdd([`error: ${e.message}`]); }
   lensBusy = false;
@@ -105,7 +130,12 @@ route(/^\/lens(\/demo)?$/, async demo => {
       const v = $("#lnVid"); v.srcObject = lensStream; await v.play();
       $("#lnImg").hidden = true; v.hidden = false; lensFit(v.videoWidth, v.videoHeight); lensOverlayStart($("#lnCanvas"));
       $("#lnSnap").disabled = false; $("#lnCam").textContent = "Stop camera"; lensLogAdd(["camera on", "live reading every second"]);
-      lensTimer = setInterval(lensLiveTick, 1100);
+      lensTimer = setInterval(lensLiveTick, 900);
+      lensFlow = setInterval(() => {  // move the boxes with the picture between server replies
+        if (!lensRef || !lensStream) return;
+        const [dx, dy] = lensShift(lensRef, lensSmall($("#lnVid")));
+        lensOverlayShift(dx * lensRef.srcScale, dy * lensRef.srcScale);
+      }, 120);
     } catch (e) { $("#lnMsg").innerHTML = `<span class="err">The camera could not be opened: ${esc(e.message)}</span>`; }
   };
   $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d))); };
