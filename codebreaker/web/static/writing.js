@@ -13,10 +13,25 @@ function wrShowRead(r) {
   const codes = r.from_codes ? `<p class="glyphout glyph">${esc(r.from_codes)}</p>` : "";
   $("#wrOut").innerHTML = rows.length ? `<div class="panel"><h3>Transliteration</h3>${codes}<p class="glyphout">${esc(r.transliteration)}</p>
     <p>Plain letters: <b>${esc(r.simple)}</b></p><p class="mute">${r.signs} sign(s) in ${r.scripts.map(s => esc((wrScripts.find(x => x.id === s) || {}).title || s)).join(", ")}. A transliteration gives the sounds, not the meaning; Egyptian writes consonants only, so vowels are not shown.</p>${unk}
-    ${table(["Sign", "Code", "Value", "Kind", "Unicode name", "Source"], rows)}<button class="alt" id="wrToCrack">Treat the plain letters as a cipher (Workbench)</button></div>`
+    ${table(["Sign", "Code", "Value", "Kind", "Unicode name", "Source"], rows)}<button class="alt" id="wrToCrack">Treat the plain letters as a cipher (Workbench)</button>${wrToGloss(r)}</div>`
     : `<div class="panel"><p>No signs from the supported scripts were found. Paste signs as Unicode text, or pick them from the palette.</p></div>`;
+  const g = $("#wrToGloss");
+  if (g) g.onclick = () => { $("#wrGLang").value = g.dataset.lang; $("#wrGText").value = g.dataset.text; $("#wrGloss").click(); $("#wrGOut").scrollIntoView({ behavior: "smooth" }); };
   const b = $("#wrToCrack");
   if (b) b.onclick = () => { sessionStorage.setItem("workbenchText", r.simple); location.hash = "#/workbench"; };
+}
+
+async function wrDoGloss() {
+  const r = await api("/writing/gloss", { text: $("#wrGText").value, lang: $("#wrGLang").value });
+  const rows = r.words.map(w => [w.word, w.found ? w.senses.map(s => `${s.pos ? s.pos.toLowerCase() + ": " : ""}${s.sense}${s.labels.length ? " (" + s.labels.join("; ") + ")" : ""}`).join(" | ") : "not in the word list"]);
+  $("#wrGOut").innerHTML = `<div class="panel">${table(["Word", "Dictionary senses"], rows)}<p class="mute">${r.found} of ${r.of} words found. ${esc(r.note)} Source: ${esc(r.source)}.</p></div>`;
+}
+
+function wrToGloss(r) {
+  const lang = r.scripts.includes("egyptian") ? "egyptian" : r.scripts.includes("linear_b") ? "mycenaean" : r.scripts.includes("runic") ? "old_norse" : null;
+  if (!lang) return "";
+  const text = lang === "egyptian" ? r.transliteration.replace(/\[[^\]]*\]/g, "").replace(/\./g, "") : r.tokens.map(t => t.sign).join("");
+  return `<button class="alt" id="wrToGloss" data-lang="${lang}" data-text="${esc(text)}">Gloss these words</button>`;
 }
 
 function wrPalette() {
@@ -45,9 +60,12 @@ route(/^\/scripts$/, async () => {
   const opts = wrScripts.map(s => `<option value="${s.id}">${esc(s.title)} (${s.signs} signs, ${s.with_value} with a value)</option>`).join("");
   view().innerHTML = `<p class="kicker">// SCRIPTS & GLYPHS</p><h1>Scripts and glyphs</h1>
     <p class="lead">Read writing systems that have been deciphered, sign by sign: Egyptian hieroglyphs, Linear B, runes, Ogham, Phoenician, Gothic, Ugaritic, Old Persian and cuneiform sign names. Every value comes from a recorded source, named in the table.</p>
-    <p class="mute">Reading the sounds is not translating: Middle Egyptian, Mycenaean Greek or Akkadian need a dictionary, which comes later as word glosses. Scripts nobody can read (Linear A, rongorongo, the Phaistos Disc) are in the <a href="#/mysteries">Mystery Lab</a>'s lost-script analyses.</p>
+    <p class="mute">Reading the sounds is not translating. For Egyptian, Mycenaean Greek and Old Norse the page can gloss words from a dictionary below, which is still not a translation. Scripts nobody can read (Linear A, rongorongo, the Phaistos Disc) are in the <a href="#/mysteries">Mystery Lab</a>'s lost-script analyses.</p>
     <h2>Read</h2><div class="panel"><label for="wrText">Signs: paste Unicode text, use the palette, or type Gardiner numbers such as <code>G1 D21 N35</code></label><textarea id="wrText" class="glyph" rows="3">ᚠᚢᚦᚨᚱᚲ ᚷᚹ</textarea>
     <button id="wrRead">Read it</button><button class="alt" id="wrClear">Clear</button><div id="wrOut" aria-live="polite"></div></div>
+    <h2>Gloss the words</h2><div class="panel"><p class="mute">Dictionary meanings of each word on its own, from Wiktionary (CC BY-SA). A gloss is not a translation: grammar, word order and the choice between senses are left to you. Egyptian written without spaces is cut into dictionary words, and that cut is only one possibility.</p>
+    <div class="row"><div><label for="wrGLang">Language</label><select id="wrGLang"><option value="egyptian">Egyptian (transliteration, e.g. ꜥnḫ wḏꜣ snb)</option><option value="mycenaean">Mycenaean Greek (Linear B signs)</option><option value="old_norse">Old Norse (Latin letters or runes)</option></select></div>
+    <div><label for="wrGText">Words</label><input id="wrGText" class="glyph" value="ꜥnḫ wḏꜣ snb"></div></div><button id="wrGloss">Gloss</button><div id="wrGOut" aria-live="polite"></div></div>
     <h2>Sign palette</h2><div class="panel"><div class="row"><div><label for="wrPick">Script</label><select id="wrPick">${opts}</select></div>
     <div><label for="wrFind">Find by sound, Gardiner number or name</label><input id="wrFind" placeholder="e.g. nfr, G1, owl, ka"></div></div>
     <p id="wrPalNote" class="mute"></p><div id="wrPal" class="palette"></div></div>
@@ -55,6 +73,7 @@ route(/^\/scripts$/, async () => {
     <div><label for="wrWScript">Script</label><select id="wrWScript">${wrScripts.filter(s => s.can_write).map(s => `<option value="${s.id}">${esc(s.title)}</option>`).join("")}</select></div></div>
     <button id="wrWrite">Spell it</button><p id="wrWMsg"></p><div id="wrWOut" aria-live="polite"></div></div>`;
   $("#wrRead").onclick = ev => busy(ev.target, $("#wrOut"), async () => wrShowRead(await api("/writing/read", { text: $("#wrText").value })));
+  $("#wrGloss").onclick = ev => busy(ev.target, $("#wrGOut"), wrDoGloss);
   $("#wrClear").onclick = () => { $("#wrText").value = ""; $("#wrOut").innerHTML = ""; };
   $("#wrPick").onchange = wrLoadPalette;
   $("#wrFind").oninput = wrPalette;

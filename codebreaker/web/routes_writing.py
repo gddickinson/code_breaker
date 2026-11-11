@@ -48,3 +48,17 @@ def write(body: WriteIn):
     if body.script not in SUBSTITUTE or not body.text.strip() or len(body.text) > 500:
         raise HTTPException(400, "Choose a script that can be written and up to 500 characters.")
     return _write(body.text, body.script)
+
+
+class GlossIn(BaseModel):
+    text: str
+    lang: str
+
+
+@router.post("/api/writing/gloss")
+def gloss(body: GlossIn):
+    from ..writing.glosses import LANGS, gloss as _gloss
+
+    if body.lang not in LANGS or not body.text.strip() or len(body.text) > 1000:
+        raise HTTPException(400, "Choose Egyptian, Mycenaean Greek or Old Norse and up to 1,000 characters.")
+    return _gloss(body.text, body.lang)

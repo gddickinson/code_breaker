@@ -1,0 +1,22 @@
+{
+ "egyptian": {
+  "lang": "egyptian",
+  "quotations": 300,
+  "words": 3803,
+  "found_real": 0.869,
+  "found_random_mean": 0.395,
+  "found_random_max": 0.406
+ },
+ "mycenaean": {
+  "lang": "mycenaean",
+  "quotations": 0
+ },
+ "old_norse": {
+  "lang": "old_norse",
+  "quotations": 11,
+  "words": 159,
+  "found_real": 0.151,
+  "found_random_mean": 0.01,
+  "found_random_max": 0.025
+ }
+}

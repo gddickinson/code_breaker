@@ -16,5 +16,14 @@
   "fetched": "2026-11-10",
   "pages": 531,
   "bytes": 239690
+ },
+ "old_norse": {
+  "category": "Category:Old Norse lemmas",
+  "api": "https://en.wiktionary.org/w/api.php",
+  "site": "https://en.wiktionary.org",
+  "licence": "CC BY-SA 4.0",
+  "fetched": "2026-11-10",
+  "pages": 4559,
+  "bytes": 2984884
  }
 }

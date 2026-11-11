@@ -87,13 +87,30 @@ def segment(consonants: str, lang: str = "egyptian", longest: int = 7) -> list[s
     return best[-1][2] if s else []
 
 
+def lookup(word: str, lang: str) -> tuple[str, list]:
+    """The entry for a word; for Egyptian, if the full form is missing, its stem before the first suffix dot
+    (pḥ.k 'you reach' -> pḥ), as Egyptologists separate suffix pronouns with dots."""
+    d = dictionary(lang)
+    w = norm(word, lang)
+    if w in d:
+        return w, d[w]
+    if lang == "egyptian" and "." in word:
+        stem = norm(word.split(".")[0], lang)
+        if stem in d:
+            return stem, d[stem]
+    return w, []
+
+
 def gloss(text: str, lang: str) -> dict:
     """Each word with its dictionary senses; Egyptian text without spaces is segmented first."""
     d = dictionary(lang)
     words = [w for w in re.split(r"[\s\U00010100\U00010101·:;,]+", text) if w]
     if lang == "egyptian" and len(words) == 1 and norm(words[0], lang) not in d:
         words = segment(words[0], lang)
-    rows = [{"word": w, "found": norm(w, lang) in d, "senses": d.get(norm(w, lang), [])[:4]} for w in words]
+    rows = []
+    for w in words:
+        key, ss = lookup(w, lang)
+        rows.append({"word": w, "entry": key, "found": bool(ss), "senses": ss[:4]})
     return {"lang": lang, "words": rows, "found": sum(r["found"] for r in rows), "of": len(rows), "note": NOTE,
             "source": "Wiktionary (CC BY-SA 4.0), lemma pages fetched 2026-11-10"}
 
@@ -114,10 +131,11 @@ def control(lang: str, trials: int = 20, seed: int = 77) -> dict:
     """Share of words found in real quotations against random strings of the same lengths from the same letters."""
     qs = quotations(lang)
     d, rnd = dictionary(lang), random.Random(seed)
-    words = [norm(w, lang) for q in qs for w in re.split(r"[\s,;:]+", q["tr"]) if norm(w, lang)]
-    if not words:
+    raw = [w for q in qs for w in re.split(r"[\s,;:]+", q["tr"]) if norm(w, lang)]
+    if not raw:
         return {"lang": lang, "quotations": 0}
-    real = sum(w in d for w in words) / len(words)
+    real = sum(bool(lookup(w, lang)[1]) for w in raw) / len(raw)
+    words = [lookup(w, lang)[0] for w in raw]
     letters = [c for w in words for c in w]
     null = []
     for _ in range(trials):
