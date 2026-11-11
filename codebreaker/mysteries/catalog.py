@@ -89,14 +89,15 @@ def _text_lists(db):
         slug = ALIASES.get(name.lower()) or _ascii_slug(name)
         if not db.execute("SELECT 1 FROM codes WHERE slug=?", (slug,)).fetchone():
             L.upsert_code(db, slug, name, "historic cipher", status.strip()[:60], source="https://en.wikipedia.org/wiki/List_of_ciphertexts")
-    html = (RESEARCH / "schmeh50.html").read_text(errors="ignore")
-    for rank, title in re.findall(r"<h[1-6][^>]*>\s*(\d+)\.\s*([^<]+)</h", html):
-        import html as H
-        name = H.unescape(title).strip().replace("’", " ")
-        slug = ALIASES.get(name.lower()) or _ascii_slug(name)
-        if not db.execute("SELECT 1 FROM codes WHERE slug=?", (slug,)).fetchone():
-            L.upsert_code(db, slug, name.replace(" s ", "'s "), "cipher", "unsolved", source="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/")
-        L.add_fact(db, slug, f"Ranked {rank} in Klaus Schmeh's Top 50 unsolved encrypted messages.", "Schmeh")
+    if (RESEARCH / "schmeh50.html").exists():  # third-party page, fetched by scripts/fetch_sources.py; the database already holds its codes
+        html = (RESEARCH / "schmeh50.html").read_text(errors="ignore")
+        for rank, title in re.findall(r"<h[1-6][^>]*>\s*(\d+)\.\s*([^<]+)</h", html):
+            import html as H
+            name = H.unescape(title).strip().replace("’", " ")
+            slug = ALIASES.get(name.lower()) or _ascii_slug(name)
+            if not db.execute("SELECT 1 FROM codes WHERE slug=?", (slug,)).fetchone():
+                L.upsert_code(db, slug, name.replace(" s ", "'s "), "cipher", "unsolved", source="https://scienceblogs.de/klausis-krypto-kolumne/the-top-50-unsolved-encrypted-messages/")
+            L.add_fact(db, slug, f"Ranked {rank} in Klaus Schmeh's Top 50 unsolved encrypted messages.", "Schmeh")
 
 
 def seed() -> dict:

@@ -14,6 +14,7 @@ from ..segment import segment
 from ..text import letters, similarity
 from ..validation import coverage
 from .figaro_ocr import read_ad
+from ..third_party import need
 
 OUT = ROOT / "data/sources/figaro"
 IMG = OUT / "images"
@@ -86,7 +87,7 @@ def solve_all(texts, workers=6):
 
 def control(n=60, seed=3):
     """Run the whole pipeline on ads whose answers are known: enciphered, simple, long enough."""
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     pool = [a for a in ads if a["solved"] and a["note"].startswith("chiffr") and len(letters(a["text"])) >= 90]
     sample = random.Random(seed).sample(pool, min(n, len(pool)))
     d = OUT / "control"

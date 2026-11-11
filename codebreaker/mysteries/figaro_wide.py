@@ -17,6 +17,7 @@ from ..text import to_ints, to_text
 from ..validation import coverage
 from .figaro_transposition import phrases
 from .figaro_keys import OUT, cipher_words
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_wide.json"
 WIDTHS = range(8, 17)
@@ -78,7 +79,7 @@ def ad_texts() -> list[tuple]:
     plain = set(json.loads(PLAIN.read_text())["plain_images"]) if PLAIN.exists() else set()
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     jobs = []
-    for i, a in enumerate(json.loads((OUT / "ads.json").read_text())):
+    for i, a in enumerate(json.loads(need(OUT / "ads.json").read_text())):
         if a["solved"]:
             continue
         n = a["image"].replace("/", "_")

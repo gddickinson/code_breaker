@@ -14,6 +14,7 @@ from ..languages import ROOT, corpus_text, score
 from ..text import A, letters
 from ..validation import coverage
 from .figaro_keys import MIN_LETTERS, NOW, OUT, TABLES, VIG_KEYS, cipher_text, threshold
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_fusion.json"
 EPS = 0.15
@@ -144,7 +145,7 @@ def control(sources, ads, mode):
 
 def run() -> dict:
     sources = [json.loads((OUT / f).read_text()) for f in ("ocr_raw.json", "ocr_otsu.json")]
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     ctrl = {m: control(sources, ads, m) for m in ("majority", "hmm")}
     counts = {m: sum(r["match"] >= 0.6 for r in v) for m, v in ctrl.items()}
     mode = max(counts, key=lambda m: (counts[m], m == "majority"))

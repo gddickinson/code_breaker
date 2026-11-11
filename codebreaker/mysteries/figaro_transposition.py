@@ -14,6 +14,7 @@ from ..validation import coverage
 from .figaro_digit_family import words as vocabulary
 from .figaro_digit_words import letters_lower
 from .figaro_keys import OUT, cipher_words
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_transposition.json"
 WIDTHS = range(3, 8)
@@ -118,7 +119,7 @@ def phrases(n: int, target: int, seed: int) -> list[str]:
 
 def run() -> dict:
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     jobs = []
     for i, a in enumerate(ads):
         if a["solved"]:

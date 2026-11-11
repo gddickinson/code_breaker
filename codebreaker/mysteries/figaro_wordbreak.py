@@ -12,6 +12,7 @@ from concurrent.futures import ProcessPoolExecutor
 from ..languages import ROOT
 from .figaro_keys import OUT
 from .figaro_wordrefine import test, vocab
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_wordbreak.json"
 SIGNATURES = ("P", "R", "13", "A", "42", "D", "T", "38", "E", "8", "JN22", "17", "PAUL")
@@ -30,7 +31,7 @@ def led_dates() -> set:
 
 
 def candidates(signatures=SIGNATURES) -> dict:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     raw, v, led, out = json.loads((OUT / "ocr_raw.json").read_text()), vocab(), led_dates(), defaultdict(dict)
     for n, e in raw.items():
         a = ads.get(n)

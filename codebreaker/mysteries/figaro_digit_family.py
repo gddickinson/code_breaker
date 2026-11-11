@@ -13,6 +13,7 @@ from ..text import A
 from .figaro_digit_words import HAND, SYM, letters_lower, planted, qualifies, shuffled, solve, vocabulary
 from .figaro_digits import pick
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_digit_family.json"
 MEMBER = 0.7
@@ -102,7 +103,7 @@ def planted_control(rnd: random.Random) -> dict:
 
 def digit_tables() -> list[dict]:
     """The writers' tables with digit symbols, which the letter-only parser skipped."""
-    raw = (OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
+    raw = need(OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
     parts = re.split(r"<tr><td>(\d+)</td><td><center>([^<]*)</center>", raw)
     out = []
     for i in range(1, len(parts) - 2, 3):
@@ -122,7 +123,7 @@ def digit_tables() -> list[dict]:
 
 def _qual():
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     names = sorted({a["image"].replace("/", "_") for a in ads if not a["solved"]})
     return {n: w for n in names if qualifies(w := pick([e for src in (otsu, raw) for e in src.get(n, {}).values()]))}
 

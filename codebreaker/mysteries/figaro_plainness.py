@@ -11,6 +11,7 @@ from functools import lru_cache
 
 from ..languages import ROOT, model
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_plainness.json"
 COMMON = 6000  # words whose beginnings count as abbreviations
@@ -71,7 +72,7 @@ def shuffled(t: str, rnd: random.Random) -> str:
 
 
 def controls(n: int = 400, seed: int = 36) -> dict:
-    ads = [a for a in json.loads((OUT / "ads.json").read_text()) if a["solved"] in (True, "True") and a["text"]]
+    ads = [a for a in json.loads(need(OUT / "ads.json").read_text()) if a["solved"] in (True, "True") and a["text"]]
     rnd = random.Random(seed)
     texts = [t for t in (abbreviated(a["text"]) for a in rnd.sample(ads, min(n, len(ads)))) if 30 <= len(t) <= 400]
     plain = [stem_coverage(t) for t in texts]

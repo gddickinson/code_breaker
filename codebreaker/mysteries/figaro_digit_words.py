@@ -14,6 +14,7 @@ from ..languages import ROOT, corpus_text
 from ..text import A, letters
 from .figaro_digits import pick
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_digit_words.json"
 HAND = ROOT / "data/mysteries/figaro_digit_hand.json"
@@ -159,7 +160,7 @@ def run() -> dict:
             acc = list(ex.map(_ctl, [planted(rnd, corp, target) for _ in range(30)], chunksize=2))
             ctrl[target] = {"mean": round(sum(acc) / len(acc), 3), "solved": sum(a >= 0.7 for a in acc), "n": len(acc)}
         otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-        ads = json.loads((OUT / "ads.json").read_text())
+        ads = json.loads(need(OUT / "ads.json").read_text())
         unsolved = {a["image"].replace("/", "_") for a in ads if not a["solved"]}
         jobs = [(n, w, 300 + i) for i, n in enumerate(sorted(unsolved)) if qualifies(w := pick([e for src in (otsu, raw) for e in src.get(n, {}).values()]))]
         rows = list(ex.map(_ad, jobs, chunksize=3))

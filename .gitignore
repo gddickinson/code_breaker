@@ -23,3 +23,15 @@ data/sources/sounds/*.mp3
 data/sources/sounds/*.ogg
 data/sources/sounds/*.wav
 data/lens_debug/
+# Third-party pages and papers: not redistributed; scripts/fetch_sources.py downloads what the code needs (see THIRD_PARTY.md)
+data/sources/figaro/codes.html
+data/sources/figaro/ads.json
+data/sources/figaro/index.html
+data/sources/figaro/contribuer.html
+data/sources/figaro/dunin2024.txt
+data/sources/research/schmeh50.html
+data/sources/dorabella_hauer.pdf
+data/sources/dorabella_hauer.txt
+data/sources/adelaide2013.html
+data/sources/cf_beale.html
+data/sources/vms_legacy.html

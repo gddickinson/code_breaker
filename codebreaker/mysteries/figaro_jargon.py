@@ -14,6 +14,7 @@ from ..languages import ROOT, model
 from .figaro_keys import OUT
 from .figaro_lc15 import DATA
 from .figaro_wordrefine import vocab
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_jargon.json"
 STEMS = ("lar", "dri", "fra", "mi", "gal", "er", "fle")
@@ -40,7 +41,7 @@ def elision_test() -> dict:
 
 
 def jargon_table(min_ads: int = 3) -> dict:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     raw, v = json.loads((OUT / "ocr_raw.json").read_text()), vocab()
     names = sorted(n for n in raw if n.endswith("-V.jpg") and n.startswith("1896") and ads.get(n, {}).get("solved") not in (True, "True"))
     count, where, near = Counter(), defaultdict(set), defaultdict(Counter)
@@ -71,7 +72,7 @@ def jargon_table(min_ads: int = 3) -> dict:
 
 def v_occurrences() -> list[tuple]:
     """(image, stem, code word, neighbours) for every pattern code word in the 1896 V ads."""
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     raw, out = json.loads((OUT / "ocr_raw.json").read_text()), []
     for n in sorted(raw):
         if not (n.endswith("-V.jpg") and n.startswith("1896")) or ads.get(n, {}).get("solved") in (True, "True"):

@@ -10,6 +10,7 @@ from ..text import A, letters
 from ..validation import coverage
 from .figaro_fusion import SYSTEMS
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_digits.json"
 COMMON = set(re.findall(r"[a-z]+", corpus_text("fr").lower()))
@@ -110,7 +111,7 @@ def run() -> dict:
     text, rnd = letters(corpus_text("fr")), random.Random(6)
     planted = [plant(rnd, text) for _ in range(40)]
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     unsolved = {a["image"].replace("/", "_") for a in ads if not a["solved"]}
     jobs = []
     for i, n in enumerate(sorted(unsolved)):

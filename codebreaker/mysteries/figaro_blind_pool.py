@@ -15,6 +15,7 @@ from ..validation import coverage
 from .figaro_codebook import _homo
 from .figaro_keys import OUT
 from .figaro_lc15 import planted
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_blind_pool.json"
 MIN_SYMBOLS, SHUFFLES = 300, 3
@@ -28,7 +29,7 @@ def family_members() -> set:
 
 
 def pools() -> dict:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     raw, known, out = json.loads((OUT / "ocr_raw.json").read_text()), family_members(), defaultdict(list)
     for n, e in raw.items():
         a = ads.get(n)

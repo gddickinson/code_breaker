@@ -12,6 +12,7 @@ from ..languages import ROOT, score
 from ..segment import segment
 from ..text import A, letters
 from ..validation import coverage
+from ..third_party import need
 
 OUT = ROOT / "data/sources/figaro"
 NOW = A.replace("W", "")
@@ -48,7 +49,7 @@ def vig(t, key, alpha):
 
 def load_tables() -> list[dict]:
     """Substitution tables, and the writers who used them, from the database's list of systems."""
-    raw = (OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
+    raw = need(OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
     out = []
     parts = re.split(r"<tr><td>(\d+)</td><td><center>([^<]*)</center>", raw)
     for i in range(1, len(parts) - 2, 3):
@@ -191,7 +192,7 @@ def threshold(rows):
 def run() -> dict:
     raw = json.loads((OUT / "ocr_raw.json").read_text())
     sources = [raw] + ([json.loads((OUT / "ocr_otsu.json").read_text())] if (OUT / "ocr_otsu.json").exists() else [])
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     ctrl = control(sources, ads)
     unsolved = sorted({a["image"].replace("/", "_") for a in ads if not a["solved"]})
     rows = run_best(sources, unsolved)

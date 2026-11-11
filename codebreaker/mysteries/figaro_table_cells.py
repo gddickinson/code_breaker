@@ -10,6 +10,7 @@ from ..text import A
 from .figaro_digit_family import digit_tables, words as vocabulary
 from .figaro_digit_sweep import numeric_tables
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_table_cells.json"
 MIN_FAMILY_READ = 0.45
@@ -125,7 +126,7 @@ def _do(a):
 
 def run() -> dict:
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     names = sorted({a["image"].replace("/", "_") for a in ads if not a["solved"]})
     sets = {n: [e for s in (otsu, raw) for e in s.get(n, {}).values() if e] for n in names}
     mixed = [(n, [mixed_tokens(e) for e in v]) for n, v in sets.items() if v]

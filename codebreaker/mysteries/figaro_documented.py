@@ -16,6 +16,7 @@ from ..validation import coverage
 from .figaro_keys import OUT, TABLES, cipher_words
 from .figaro_plainness import clean
 from .figaro_pooled import plain_mask, signature
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_documented.json"
 NOW = "ABCDEFGHIJKLMNOPQRSTUVXYZ"
@@ -24,7 +25,7 @@ WORD_BAR = 0.33  # 0.8 of the coverage of printed C. H. text of this length (Rou
 
 
 def vigenere_systems() -> list[dict]:
-    raw = (OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
+    raw = need(OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
     out = []
     for sid, name, chunk in re.findall(r"<tr><td>(\d+)</td><td><center>([^<]*)</center>(.*?)(?=<tr><td>\d+</td>|$)", raw, flags=re.S):
         text = re.sub(r"\s+", " ", unescape(re.sub(r"<[^>]+>", " ", chunk)))
@@ -66,7 +67,7 @@ def blocks(text: str) -> list[str]:
 
 
 def ad_blocks() -> dict:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     out = {}
     for n in sorted(set(otsu) | set(raw)):

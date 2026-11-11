@@ -14,6 +14,7 @@ from .figaro_digit_family import digit_tables
 from .figaro_digit_sweep import mixed_words
 from .figaro_digit_words import shuffled
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_2119.json"
 FAMILY = OUT / "letter_digit_family.json"
@@ -60,7 +61,7 @@ def full_key() -> dict:
 
 def screen(members: set, key: dict | None = None) -> list[dict]:
     """Every other unsolved letter-digit ad, from OCR, under table 2119 (to choose what to transcribe)."""
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     raw = json.loads((OUT / "ocr_raw.json").read_text())
     key, out = key or key2119(), []
     for n, e in raw.items():

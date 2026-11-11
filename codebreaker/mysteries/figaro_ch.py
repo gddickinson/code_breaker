@@ -11,6 +11,7 @@ from ..languages import ROOT, score
 from ..validation import coverage
 from .figaro_keys import OUT
 from .figaro_plainness import abbreviated
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_ch.json"
 DATA = json.loads((OUT / "ch_transcription.json").read_text())
@@ -61,7 +62,7 @@ CONTROL_KW = {}
 
 def control(trials: int = 40, seed: int = 41) -> dict:
     """Printed forms of solved C. H. ads, 20-30 letters, enciphered, one letter dropped; recovered if 80% of letters match."""
-    ads = [a for a in json.loads((OUT / "ads.json").read_text()) if a["image"].endswith("-CH.jpg") and a["solved"] in (True, "True") and a["text"]]
+    ads = [a for a in json.loads(need(OUT / "ads.json").read_text()) if a["image"].endswith("-CH.jpg") and a["solved"] in (True, "True") and a["text"]]
     rnd, ok, results, covs = random.Random(seed), 0, [], []
     for _ in range(trials):
         p = abbreviated(rnd.choice(ads)["text"]).upper().replace("W", "V")

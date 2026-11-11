@@ -13,6 +13,7 @@ from ..validation import coverage
 from .figaro_digit_family import digit_tables, read_share, apply
 from .figaro_digit_words import shuffled
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_digit_sweep.json"
 MIN_NUMBERS = 12
@@ -20,7 +21,7 @@ MIN_NUMBERS = 12
 
 def numeric_tables() -> list[dict]:
     """Tables whose cipher symbols are numbers, keeping the first letter of each cell."""
-    raw = (OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
+    raw = need(OUT / "codes.html").read_text(encoding="latin-1", errors="ignore")
     parts = re.split(r"<tr><td>(\d+)</td><td><center>([^<]*)</center>", raw)
     out = []
     for i in range(1, len(parts) - 2, 3):
@@ -107,7 +108,7 @@ def _best_rows(rows):
 
 def run() -> dict:
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     mixed, nums = digit_tables(), numeric_tables()
     jobs = {True: [], False: []}
     known = {}

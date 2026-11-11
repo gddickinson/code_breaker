@@ -11,6 +11,7 @@ import re
 from ..languages import ROOT
 from . import figaro_vta as V
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_vta_sweep.json"
 FIRST, SECOND = 200, 20000
@@ -23,7 +24,7 @@ def tokens(text: str) -> list[str]:
 
 
 def ads_with_digits() -> dict:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     out = {}
     for n in sorted(set(otsu) | set(raw)):

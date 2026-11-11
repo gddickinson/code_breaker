@@ -10,6 +10,7 @@ from ..text import letters
 from ..validation import coverage
 from .figaro_digit_sweep import numeric_tables, signature
 from .figaro_keys import OUT
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_numeric_mixed.json"
 MIN_NUMBERS = 8
@@ -96,7 +97,7 @@ def control(tables: list[dict]) -> dict:
 
 def run() -> dict:
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
-    ads = json.loads((OUT / "ads.json").read_text())
+    ads = json.loads(need(OUT / "ads.json").read_text())
     tables = numeric_tables()
     jobs = []
     for i, a in enumerate(ads):

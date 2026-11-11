@@ -15,6 +15,7 @@ from .figaro_documented import ad_blocks
 from .figaro_keys import OUT, TABLES
 from .figaro_table_sweep import best_score, null_scores
 from .figaro_vta_sweep import tokens
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_windows.json"
 SHUFFLES = 20000
@@ -42,7 +43,7 @@ def berthe(start="18810601", end="18830630") -> list[dict]:
 
 
 def valentin(start="18780101", end="18791231") -> list[dict]:
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     saved, rows = V.SCORING, []
     V.SCORING = "segmented"

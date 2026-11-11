@@ -14,6 +14,7 @@ from ..languages import ROOT, score
 from ..validation import coverage
 from .figaro_keys import OUT, cipher_words
 from .figaro_plainness import abbreviated, clean, tokens
+from ..third_party import need
 
 RESULT = ROOT / "data/results/figaro_pooled.json"
 MIN_LETTERS, SEEDS, SHUFFLES, PLAIN_RUN = 150, 7, 3, 6
@@ -60,7 +61,7 @@ def signature(name: str) -> str:
 
 def groups(solved: bool) -> dict:
     """Signature -> pooled enciphered letters, from the OCR of solved or unsolved ads."""
-    ads = {a["image"].replace("/", "_"): a for a in json.loads((OUT / "ads.json").read_text())}
+    ads = {a["image"].replace("/", "_"): a for a in json.loads(need(OUT / "ads.json").read_text())}
     otsu, raw = (json.loads((OUT / f).read_text()) for f in ("ocr_otsu.json", "ocr_raw.json"))
     out = {}
     for n in sorted(set(otsu) | set(raw)):
@@ -84,7 +85,7 @@ def best_of(text: str, ex) -> tuple[float, str]:
 
 
 def planted(n: int, seed: int) -> tuple[str, str]:
-    ads = [a for a in json.loads((OUT / "ads.json").read_text()) if a["solved"] in (True, "True") and a["text"]]
+    ads = [a for a in json.loads(need(OUT / "ads.json").read_text()) if a["solved"] in (True, "True") and a["text"]]
     rnd = random.Random(seed)
     plain = ""
     while len(plain) < n:
