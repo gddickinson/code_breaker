@@ -1,0 +1,35 @@
+{
+ "id": "tess_best_eval",
+ "results": {
+  "real words, fast": {
+   "recall": 1.0,
+   "seconds": 7.0
+  },
+  "real words, best": {
+   "recall": 1.0,
+   "seconds": 13.1
+  },
+  "nonsense, fast": {
+   "recall": 0.556,
+   "seconds": 7.3
+  },
+  "nonsense, best": {
+   "recall": 0.556,
+   "seconds": 13.8
+  },
+  "tin photo, fast": {
+   "recall": 0.66,
+   "seconds": 3.8
+  },
+  "tin photo, best": {
+   "recall": 0.623,
+   "seconds": 5.2
+  },
+  "Le Figaro ads, mean character error": {
+   "fast": 0.281,
+   "best": 0.243
+  },
+  "Le Figaro ads, best better on": 67,
+  "Le Figaro ads, fast better on": 24
+ }
+}

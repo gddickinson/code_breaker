@@ -20,6 +20,7 @@ Everything runs on your computer; nothing is sent anywhere. Some features need d
 |---|---|
 | Le Figaro work and the full test suite (third-party data, see `THIRD_PARTY.md`) | `.venv/bin/python scripts/fetch_sources.py` |
 | French as the Le Figaro ad writers wrote it, for cracking (after `fetch_sources.py`) | `PYTHONPATH=. .venv/bin/python -m codebreaker.mysteries.figaro_adlang` |
+| Optional models: fastText language identification, the Lens's classical object fallback (needs `pip install fasttext-predict` for fastText) | `.venv/bin/python scripts/fetch_tools.py` |
 | Cracking in 12 more languages (Dutch, Portuguese, Swedish, Danish, Norwegian, Finnish, Hungarian, Polish, Czech, Esperanto, Catalan, Tagalog; about 25 MB from Project Gutenberg) | `.venv/bin/python scripts/fetch_corpora.py` |
 | Ciphers in Greek, Russian, Bulgarian and Hebrew letters (Ukrainian, Arabic, Persian and Urdu work from the samples already included) | `.venv/bin/python scripts/fetch_corpora.py el ru bg he` |
 | Lens OCR | `brew install tesseract` (or your system's package), then `git clone --depth 1 https://github.com/tesseract-ocr/tessdata_fast data/models/tessdata_fast` |

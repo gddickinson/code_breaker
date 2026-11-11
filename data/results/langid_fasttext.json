@@ -1,0 +1,62 @@
+{
+ "id": "langid_fasttext",
+ "languages": 49,
+ "snippets_per_language": 40,
+ "lengths": {
+  "20": {
+   "app": 0.798,
+   "fasttext": 0.735,
+   "combined": 0.806,
+   "fasttext_worse_than_app_by_0.2": [
+    "bg",
+    "ca",
+    "eu",
+    "ga",
+    "gl",
+    "ky",
+    "la",
+    "sk",
+    "sl",
+    "sw",
+    "tl"
+   ],
+   "app_worse_than_fasttext_by_0.2": [
+    "ru"
+   ]
+  },
+  "50": {
+   "app": 0.916,
+   "fasttext": 0.905,
+   "combined": 0.937,
+   "fasttext_worse_than_app_by_0.2": [
+    "ga",
+    "gl",
+    "la",
+    "sk",
+    "sw"
+   ],
+   "app_worse_than_fasttext_by_0.2": []
+  },
+  "200": {
+   "app": 0.973,
+   "fasttext": 0.977,
+   "combined": 0.981,
+   "fasttext_worse_than_app_by_0.2": [],
+   "app_worse_than_fasttext_by_0.2": []
+  }
+ },
+ "lens_rule": {
+  "20": {
+   "app_named_share": 0.779,
+   "app_precision": 0.926,
+   "with_fasttext_named_share": 0.832,
+   "with_fasttext_precision": 0.92
+  },
+  "50": {
+   "app_named_share": 0.947,
+   "app_precision": 0.943,
+   "with_fasttext_named_share": 0.964,
+   "with_fasttext_precision": 0.942
+  }
+ }
+}

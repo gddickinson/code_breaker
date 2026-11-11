@@ -107,6 +107,11 @@ def language(text: str, script: str) -> dict:
         g = identify(text, 2)
         if g and g[0]["p"] >= 0.8:
             return {"code": g[0]["lang"], "name": g[0]["name"], "how": "character statistics", "p": g[0]["p"]}
+        from ..langid_fasttext import detect as fasttext_detect  # optional second identifier (Round 93): same 0.8 bar
+
+        f = fasttext_detect(text, 1)
+        if f and f[0]["p"] >= 0.8:
+            return {"code": f[0]["lang"], "name": f[0]["name"], "how": "fastText", "p": f[0]["p"]}
     return {"code": None, "name": SCRIPT_LANGS.get(script, "a " + script + "-script language"), "how": "script"}
 
 

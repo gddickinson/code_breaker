@@ -50,3 +50,5 @@ Dorabella study cited on its case page.
 | Python packages | Each package's licence | `requirements.txt` |
 | `data/models/objects/` | MobileNetV2 (mobilenetv2-12.onnx, 13.96 MB) and the ImageNet synset list from the ONNX model zoo (github.com/onnx/models), the Lens's classical object fallback; not redistributed | Apache-2.0 |
 | `data/lens_debug/objects/` | macOS account pictures converted locally for the object controls; never committed | Apple's images, used locally only |
+| `data/models/fasttext/lid.176.ftz` | fastText language identification (fasttext.cc), via `scripts/fetch_tools.py`; not redistributed | CC BY-SA 3.0 |
+| `data/models/tessdata_best/` | Tesseract best Latin script model, only for the Round 93 comparison; not redistributed | Apache-2.0 |
