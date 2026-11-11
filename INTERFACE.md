@@ -20,6 +20,7 @@
 | `submissions.py` | Workbench submissions: saved text, encodings peeled, duplicate check, avenues (including a full "crack" avenue) for the hunter | `submit`, `peel`, `listing` |
 | `kernels_t.py` | Numba hill-climbing for wide columnar keys, both directions, and joint key-plus-substitution annealing | `columnar_encrypt`, `climb_wide`, `anneal_joint` |
 | `lm.py` / `kernels_n.py` | GRU language model on the GPU, and 5-gram annealing | `train`, `scores`, `anneal5`, `table5` |
+| `firstcontact.py` | First Contact lab: stream profiles against shuffles, Arecibo bits and picture-layout decoder with controls (routes `web/routes_contact.py`, front end `contact.js`) | `profile`, `decode_layout`, `arecibo_bits` |
 | `acrostic.py` / `acrostic_eval.py` | Acrostic and null-cipher finder with a Bonferroni bar; controls, Hypnerotomachia, D-Day base rate | `find`, `readings` |
 | `accel.py` | Optional GPU routes, chosen by benchmark | `device`, `best_route`, `book_scan`, `enigma_ic_scan`, `population_anneal` |
 

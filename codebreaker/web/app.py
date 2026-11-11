@@ -426,3 +426,6 @@ app.include_router(_writing)
 from .routes_lens import router as _lens  # noqa: E402
 
 app.include_router(_lens)
+from .routes_contact import router as _contact  # noqa: E402
+
+app.include_router(_contact)

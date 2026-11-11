@@ -1,0 +1,140 @@
+{
+ "id": "firstcontact",
+ "references": {
+  "English letters": {
+   "symbols": 6000,
+   "alphabet": 26,
+   "H1": 4.199,
+   "H2": 3.519,
+   "H3": 2.463,
+   "H2_shuffled": 4.126,
+   "z_H2": 224.4,
+   "z_H3": 77.6,
+   "z_compress": 104.8,
+   "repeat4": 0.553,
+   "z_repeat4": 81.0,
+   "zipf_slope": -1.255,
+   "verdict": "sequential structure: the next symbol depends on the last (z=224 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "French letters": {
+   "symbols": 6000,
+   "alphabet": 34,
+   "H1": 4.246,
+   "H2": 3.476,
+   "H3": 2.515,
+   "H2_shuffled": 4.135,
+   "z_H2": 148.1,
+   "z_H3": 52.2,
+   "z_compress": 76.9,
+   "repeat4": 0.563,
+   "z_repeat4": 85.9,
+   "zipf_slope": -1.606,
+   "verdict": "sequential structure: the next symbol depends on the last (z=148 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "English words": {
+   "symbols": 6000,
+   "alphabet": 1215,
+   "H1": 8.435,
+   "H2": 3.358,
+   "H3": 0.648,
+   "H2_shuffled": 3.845,
+   "z_H2": 49.3,
+   "z_H3": -40.1,
+   "z_compress": 38.8,
+   "repeat4": 0.022,
+   "z_repeat4": 999.0,
+   "zipf_slope": -1.006,
+   "verdict": "sequential structure: the next symbol depends on the last (z=49 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "Synthetic birdsong syllables": {
+   "symbols": 1500,
+   "alphabet": 5,
+   "H1": 2.072,
+   "H2": 0.998,
+   "H3": 0.996,
+   "H2_shuffled": 2.063,
+   "z_H2": 344.9,
+   "z_H3": 153.0,
+   "z_compress": 44.8,
+   "repeat4": 1.0,
+   "z_repeat4": 12.0,
+   "zipf_slope": -1.111,
+   "verdict": "sequential structure: the next symbol depends on the last (z=345 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "Voynich (EVA letters)": {
+   "symbols": 6000,
+   "alphabet": 22,
+   "H1": 3.817,
+   "H2": 2.324,
+   "H3": 1.958,
+   "H2_shuffled": 3.772,
+   "z_H2": 540.9,
+   "z_H3": 134.1,
+   "z_compress": 116.9,
+   "repeat4": 0.834,
+   "z_repeat4": 113.6,
+   "zipf_slope": -1.815,
+   "verdict": "sequential structure: the next symbol depends on the last (z=541 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "Rongorongo signs": {
+   "symbols": 6000,
+   "alphabet": 489,
+   "H1": 7.177,
+   "H2": 4.259,
+   "H3": 0.83,
+   "H2_shuffled": 4.684,
+   "z_H2": 55.6,
+   "z_H3": -22.5,
+   "z_compress": 54.0,
+   "repeat4": 0.083,
+   "z_repeat4": 381.4,
+   "zipf_slope": -1.369,
+   "verdict": "sequential structure: the next symbol depends on the last (z=56 against shuffles); language has this, so do birdsong and machine codes"
+  },
+  "Random letters (26)": {
+   "symbols": 6000,
+   "alphabet": 26,
+   "H1": 4.698,
+   "H2": 4.615,
+   "H3": 2.925,
+   "H2_shuffled": 4.621,
+   "z_H2": 1.6,
+   "z_H3": -1.1,
+   "z_compress": 0.7,
+   "repeat4": 0.011,
+   "z_repeat4": -0.8,
+   "zipf_slope": -0.07,
+   "verdict": "no sequential structure beyond symbol frequencies: consistent with random order"
+  }
+ },
+ "arecibo": {
+  "length": 1679,
+  "factors": [
+   23,
+   73
+  ],
+  "best_width": 23,
+  "rows": 73,
+  "z": 11.7,
+  "ranking": [
+   {
+    "width": 23,
+    "score": 0.0881
+   },
+   {
+    "width": 73,
+    "score": -0.0113
+   }
+  ]
+ },
+ "layout_controls": {
+  "pictures_width_recovered": {
+   "17x29": 1.0,
+   "19x31": 1.0,
+   "23x47": 1.0,
+   "13x61": 1.0
+  },
+  "random_bits_z_max": 2.1,
+  "random_bits_z_mean": 0.05
+ }
+}

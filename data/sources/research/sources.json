@@ -28,5 +28,17 @@
   "url": "https://en.wikipedia.org/wiki/D-Day_Daily_Telegraph_crossword_security_alarm",
   "bytes": 7984,
   "fetched": "2026-11-11"
+ },
+ "arecibo": {
+  "title": "Arecibo message",
+  "url": "https://en.wikipedia.org/wiki/Arecibo_message",
+  "bytes": 24271,
+  "fetched": "2026-11-11"
+ },
+ "zipf": {
+  "title": "Zipf's law",
+  "url": "https://en.wikipedia.org/wiki/Zipf%27s_law",
+  "bytes": 49711,
+  "fetched": "2026-11-11"
  }
 }

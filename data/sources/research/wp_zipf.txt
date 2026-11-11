@@ -1,0 +1,616 @@
+{{short description|Probability distribution}}
+{{for|the linguistics law on word length|Zipf's law of abbreviation}}
+{{use dmy dates|date=November 2024}}
+<!-- PLEASE SEE [[Wikipedia:WikiProject Probability123#Standards]] for a discussion of standards used for probability distribution articles such as this one. -->
+[[File:Zipf-engl-0 English - Culpeper herbal and War of the Worlds.svg|thumb|A plot of the frequency of each word as a function of its frequency rank for two English language texts: [[Nicholas Culpeper|Culpeper]]'s ''Complete Herbal'' (1652) and H. G. Wells's ''[[The War of the Worlds]]'' (1898) in a [[log-log]] scale. The dashed line is the ideal law <math display="inline" alt=y is proportional to the inverse of x>y \propto \frac{1}{x}</math>.]]
+
+'''Zipf's law''' ({{IPAc-en|z|ɪ|f}}) is an [[empirical law]] stating that when a set of measured values is sorted in decreasing order, the value of the {{mvar|n}}-th entry is often approximately [[inversely proportional]] to {{mvar|n}}.
+
+The best-known instance of Zipf's law applies to the [[frequency]] distribution of words in a text or [[text corpus|corpus]] of [[natural language]]:
+
+<math display="block" alt="Word frequency is proportional to the inverse of the word rank">\ \mathsf{word\ frequency}\ \propto\ \frac{ 1 }{\ \mathsf{ word\ rank}\ } ~.</math>
+
+It is usually found that the most common word occurs approximately twice as often as the next common one, three times as often as the third most common, and so on.  For example, in the [[Brown Corpus]] of American English text, the word "''[[English articles#Definite article|the]]''" is the most frequently occurring word, and by itself accounts for nearly 7% of all word occurrences (69,971 out of slightly over 1 million). True to Zipf's law, the second-place word "''of''" accounts for slightly over 3.5% of words (36,411 occurrences), followed by "''and''" (28,852).<ref name=fagan2010/> It is often used in the following form, called the [[Zipf–Mandelbrot law|Zipf-Mandelbrot law]]:
+
+<math display="block" alt="Frequency is proportional to the inverse of the rank plus, b all elevated to a">\ \mathsf{frequency}\ \propto\ \frac{ 1 }{\ \left(\ \mathsf{ rank } + b\ \right)^a\ }\ </math> where<math>\ a\ </math>and<math>\ b\ </math>are fitted parameters, with<math>\ a \approx 1</math>, and<math>\ b \approx 2.7 ~</math>.<ref name=piant2014/>
+
+This law is named after the American linguist [[George Kingsley Zipf]],<ref name=Powers1998/><ref name=zipf1935/><ref name=zipf1949/> and is still an important concept in [[quantitative linguistics]]. It has been found to apply to many other types of data studied in the [[physical science|physical]] and [[social science|social]] sciences.
+
+In [[mathematical statistics]], the concept has been formalized as the '''Zipfian distribution''': A family of related discrete [[probability distribution]]s whose [[rank-frequency distribution]] is an inverse [[power law]] relation. They are related to [[Benford's law]] and the [[Pareto distribution]].
+
+Some sets of time-dependent empirical data deviate somewhat from Zipf's law. Such empirical distributions are said to be '''quasi-Zipfian'''.
+
+==History==
+In 1913, the German physicist [[Felix Auerbach]] observed an inverse proportionality between the population sizes of cities, and their ranks when sorted by decreasing order of that variable. This observation was popularized by Zipf in his 1941 book ''National Unity and Disunity; The Nation as a Bio-Social Organism''<ref>{{cite book |last=Zipf |first=George K. |title=National Unity and Disunity; The Nation as a Bio-Social Organism |publisher=Principia Press |year=1941 |url=https://psycnet.apa.org/record/1941-02716-000 |oclc=411221}}</ref> and subsequently confused with the frequency law for language.<ref>{{Cite journal |last=Rybski |first=Diego |last2=Ciccone |first2=Antonio |date=November 2023 |title=Auerbach, Lotka, and Zipf: pioneers of power-law city-size distributions |url=https://link.springer.com/10.1007/s00407-023-00314-0 |journal=Archive for History of Exact Sciences |language=en |volume=77 |issue=6 |pages=601–613 |doi=10.1007/s00407-023-00314-0 |issn=0003-9519}} Primary source: {{cite journal
+ |last=Auerbach |first=F.
+ |year=1913
+ |title=Das Gesetz der Bevölkerungskonzentration |language=de
+ |journal=Petermann's Geographische Mitteilungen
+ |volume=59 |pages=74–76
+}}</ref> A strict version of this would be where the 2nd ranked city would be 1/2 the size of the largest city, the 3rd ranked would be 1/3 of the largest city, and so on.
+
+The relation for frequencies of words in natural language texts was observed by George Zipf in 1932,<ref name=zipf1935/> but he never claimed to have originated it. As Zipf acknowledged,<ref name=zipf1949/>{{rp|546}} the frequency relationship now called Zipf's law had been discovered by the French stenographer [[Jean-Baptiste Estoup]] in 1916,{{refn|
+{{cite book |first=J.-B. |last=Estoup |author-link=Jean-Baptiste Estoup |year=1916 |title=Gammes Stenographiques |edition=4th }} Cited in {{harvp|Manning|Schütze|1999}}.<ref name=mann1999/>
+}}<ref name=mann1999/> and also by [[Godfrey Dewey|G. Dewey]] in 1923,<ref>{{cite book |last=Dewey |first=Godfrey |year=1923 |title=Relative Frequency of English Speech Sounds |publisher=Harvard University Press |url=https://archive.org/details/in.ernet.dli.2015.18294 |via=Internet Archive }}</ref> and by [[Edward Condon|E. Condon]] in 1928.<ref>{{cite journal |last=Condon |first=E.U. |author-link=Edward Condon |year=1928 |title=Statistics of vocabulary |url=https://archive.org/details/sim_science_1928-03-16_67_1733/page/298 |journal=[[Science (journal)|Science]] |volume=67 |issue=1733 |page=300 |doi=10.1126/science.67.1733.300 |pmid=17782935 |bibcode=1928Sci....67..300C |hdl=11858/00-001M-0000-002B-0DF6-B |hdl-access=free }}</ref>
+
+The same relationship was found to occur in many other contexts, and for other variables besides frequency.<ref name=piant2014/> For example, when corporations are ranked by decreasing size, their sizes are found to be inversely proportional to the rank.<ref name=axte2001/> The same relation is found for personal incomes (where it is called [[Pareto distribution#Occurrence and applications|Pareto principle]]<ref>{{cite book |doi=10.1016/B978-0-444-59428-0.00002-3 |title=The Principal Problem in Political Economy |series=Handbook of Income Distribution |date=2015 |last1=Sandmo |first1=Agnar |volume=2 |pages=3–65 |isbn=978-0-444-59430-3 }}</ref>), number of people watching the same TV channel,<ref name=erik2014/> [[musical note|notes]] in music,<ref name=zann2004/> cells [[transcriptomes]],<ref name=lazz2023/><ref name=chen2011/> and more.
+
+In 1957 George A. Miller proposed that a power law emerges even in randomly generated texts.<ref>{{Cite journal |last=Miller |first=George A. |date=1957 |title=Some Effects of Intermittent Silence |url=https://www.jstor.org/stable/1419346 |journal=The American Journal of Psychology |volume=70 |issue=2 |pages=311–314 |doi=10.2307/1419346 |jstor=1419346 |pmid=13424784 |issn=0002-9556|url-access=subscription }}</ref> and in 
+1992 bioinformatician [[Wentian Li]] published a proof<ref name=liwe1992/> that the power law form of Zipf's law was a byproduct of ordering words by rank.<ref>{{Cite journal |last=Newman |first=Mej |date=September 2005 |title=Power laws, Pareto distributions and Zipf's law |url=https://www.tandfonline.com/doi/abs/10.1080/00107510500052444 |journal=Contemporary Physics |volume=46 |issue=5 |pages=323–351 |doi=10.1080/00107510500052444 |issn=0010-7514|arxiv=cond-mat/0412004 |bibcode=2005ConPh..46..323N }}</ref>
+
+==Formal definition==
+{{Probability distribution
+| name        = Zipf's law
+| type        = mass
+| pdf_image   = Zipf distribution PMF.png
+| pdf_caption = Plot of the Zipf PMF for {{nobr|{{math|''N'' {{=}} 10}}}}. Zipf PMF for {{nobr|{{math|''N'' {{=}} 10}} }} on a log–log scale. The horizontal axis is the index {{mvar|k}}&nbsp;. (The function is only defined at integer values of {{mvar|k}}&nbsp;. The connecting lines are only visual guides; they do not indicate continuity.)
+| cdf_image   = Zipf distribution CMF.png
+| cdf_caption = Plot of the Zipf CDF for {{mvar|N}} = 10. Zipf CDF for  {{nobr|{{math|''N'' {{=}} 10}} .}} The horizontal axis is the index {{mvar|k}}&nbsp;. (The function is only defined at integer values of {{mvar|k}}&nbsp;. The connecting lines do not indicate continuity.)
+| parameters  = {{ubl
+  | <math>s \geq 0\,</math> ([[real number|real]])
+  | <math>N \in \{1,2,3\ldots\}</math> ([[integer]])
+  }}
+| support     = <math>k \in \{1,2,\ldots,N\}</math>
+| pdf         = <math>\frac{1/k^s}{H_{N,s}}</math> where ''H<sub>N,s</sub>'' is the ''N''th generalized [[harmonic number]]
+| cdf         = <math>\frac{H_{k,s}}{H_{N,s}}</math>
+| mean        = <math>\frac{H_{N,s-1}}{H_{N,s}}</math>
+| median      = 
+| mode        = <math>1\,</math>
+| variance    = <math>\frac{H_{N,s-2}}{H_{N,s}}-\frac{H^2_{N,s-1}}{H^2_{N,s}}</math>
+| skewness    = 
+| kurtosis    = 
+| entropy     = <math>\frac{s}{H_{N,s}}\sum\limits_{k=1}^N\frac{\ln(k)}{k^s}
++\ln(H_{N,s})</math>
+| mgf         = <math>\frac{1}{H_{N,s}}\sum\limits_{n=1}^N \frac{e^{nt}}{n^s}</math>
+| char        = <math>\frac{1}{H_{N,s}}\sum\limits_{n=1}^N \frac{e^{int}}{n^s}</math>
+}}
+
+Formally, the Zipf distribution on {{mvar|N}} elements assigns to the element of rank {{mvar|k}} (counting from 1) the probability:
+
+<math display="block">\ f(k;N)  ~=~ 
+  \begin{cases}
+     \frac{ 1 }{\ H_N }\ \frac{1}{\ k\ }\ , &\ \mbox{ if }\ 1 \le k \le N ~, \\
+      {} \\
+      ~~ 0 ~~ , &\ \mbox{ if }\ k < 1\ \mbox{ or }\  N < k ~.
+  \end{cases}
+</math> where {{mvar|H}}<sub>{{mvar|N}}</sub> is a normalization constant: The {{mvar|N}}th [[harmonic number]]:
+
+<math display="block"> H_N \equiv \sum_{k=1}^N \frac{\ 1\ }{ k } ~.</math>
+
+The distribution is sometimes generalized to an inverse power law with exponent {{mvar|s}} instead of {{math| 1}}.<ref name=adam2000/>  Namely,
+
+<math display="block">f(k;N,s) = \frac{1}{H_{N,s}}\,\frac{1}{k^s}</math>
+
+where {{mvar|H}}<sub>{{mvar|N}},{{mvar|s}}</sub> is a [[generalized harmonic number]]
+
+<math display="block"> H_{N,s} = \sum_{k=1}^N \frac{1}{k^s} ~.</math>
+
+The generalized Zipf distribution can be extended to infinitely many items ({{mvar|N}} = ∞) only if the exponent {{mvar|s}} exceeds {{math| 1}}. In that case, the normalization constant {{mvar|H}}<sub>{{mvar|N}},{{mvar|s}}</sub> becomes [[Riemann zeta function|Riemann's zeta function]],
+
+<math display="block">\zeta (s) = \sum_{k=1}^\infty \frac{1}{k^s} < \infty ~.</math>
+
+The infinite item case is characterized by the [[Zeta distribution]] and is called [[Lotka's law]]. If the exponent {{mvar|s}} is {{math| 1 }} or less, the normalization constant {{mvar|H}}<sub>{{mvar|N}},{{mvar|s}}</sub> diverges as {{mvar|N}} tends to infinity.
+
+==Empirical testing==
+
+Empirically, a data set can be tested to see whether Zipf's law applies by checking the [[goodness of fit]] of an empirical distribution to the hypothesized power law distribution with a [[Kolmogorov–Smirnov test]], and then comparing the (log) likelihood ratio of the power law distribution to alternative distributions like an exponential distribution or lognormal distribution.<ref name=Clausetetal2009>{{cite journal |last1=Clauset |first1=A. |last2=Shalizi |first2=C.R. |last3=Newman |first3=M.E.J. |year=2009 |title=Power-law distributions in empirical data |journal=[[SIAM Review]] |volume=51 |issue=4 |pages=661–703 |doi=10.1137/070710111 |arxiv=0706.1062 |bibcode=2009SIAMR..51..661C }}</ref>
+
+Zipf's law can be visualized by [[graph of a function|plotting]] the item frequency data on a [[log-log]] graph, with the axes being the [[logarithm]] of rank order, and logarithm of frequency. The data conform to Zipf's law with exponent {{mvar|s}} to the extent that the plot approximates a [[linear equation|linear]] (more precisely, [[affine function|affine]]) function with slope {{mvar|−s}}. For exponent {{nobr|{{math| ''s'' {{=}} 1 }} ,}} one can also plot the reciprocal of the frequency (mean interword interval) against rank, or the reciprocal of rank against frequency, and compare the result with the line through the origin with slope {{math| 1&nbsp;.}}<ref name=Powers1998/>
+
+==Statistical explanations==
+Although Zipf's law holds for most natural languages, and even certain [[Constructed language|artificial ones]] such as [[Esperanto]]<ref name=mana2006/> and [[Toki Pona]],<ref name=skot2020/> the reason is still not well understood.<ref name=bril1959/> Recent reviews of generative processes for Zipf's law include [[Michael Mitzenmacher|Mitzenmacher]], "A Brief History of Generative Models for Power Law and Lognormal Distributions",<ref>{{cite journal |last=Mitzenmacher |first=Michael |author-link=Michael Mitzenmacher |date=January 2004 |title=A brief history of generative models for power law and lognormal distributions |journal=Internet Mathematics |volume=1 |issue=2 |pages=226–251 |doi=10.1080/15427951.2004.10129088 |doi-access=free }}</ref> and Simkin, "Re-inventing Willis".<ref>{{cite journal |last1=Simkin |first1=M.V. |last2=Roychowdhury |first2=V.P. |title=Re-inventing Willis |journal=Physics Reports |date=December 2010 |doi=10.1016/j.physrep.2010.12.004 |arxiv=physics/0601192 }}</ref>
+
+However, it may be partly explained by statistical analysis of randomly generated texts. Wentian Li has shown that in a document in which each character has been chosen randomly from a uniform distribution of all letters (plus a space character), the "words" with different lengths follow the macro-trend of Zipf's law (the more probable words are the shortest and have equal probability).<ref name=liwe1992/> In 1959, [[Vitold Belevitch]] observed that if any of a large class of well-behaved [[statistical distribution]]s (not only the [[normal distribution]]) is expressed in terms of rank and expanded into a [[Taylor series]], the first-order truncation of the series results in Zipf's law. Further, a second-order truncation of the Taylor series resulted in [[Zipf–Mandelbrot law|Mandelbrot's law]].<ref name=bele1959/><ref name=neum2011/>
+
+The [[principle of least effort]] is another possible explanation:
+Zipf himself proposed that neither speakers nor hearers using a given language want to work any harder than necessary to reach understanding, and the process that results in approximately equal distribution of effort leads to the observed Zipf distribution.<ref name=zipf1949/><ref name=ferr2003/>
+
+A minimal explanation assumes that words are generated by [[Infinite monkey theorem|monkeys typing randomly]]. If language is generated by a single monkey typing randomly, with fixed and nonzero probability of hitting each letter key or white space, then the words (letter strings separated by white spaces) produced by the monkey follows Zipf's law.<ref>{{cite journal |last1=Conrad |first1=B. |last2=Mitzenmacher |first2=M. |title=Power Laws for Monkeys Typing Randomly: The Case of Unequal Probabilities |journal=IEEE Transactions on Information Theory |date=July 2004 |volume=50 |issue=7 |pages=1403–1414 |doi=10.1109/TIT.2004.830752 |bibcode=2004ITIT...50.1403C }}</ref>
+
+Another possible cause for the Zipf distribution is a [[preferential attachment]] process, in which the value {{mvar|x}} of an item tends to grow at a rate proportional to {{mvar|x}} (intuitively, "[[Matthew effect|the rich get richer]]" or "success breeds success"). Such a growth process results in the [[Yule–Simon distribution]], which has been shown to fit word frequency versus rank in language<ref name=linr2014/> and population versus city rank<ref name=vita2015/> better than Zipf's law. It was originally derived to explain population versus rank in species by Yule, and applied to cities by Simon.
+
+A similar explanation is based on atlas models, systems of exchangeable positive-valued [[diffusion process]]es with drift and variance parameters that depend only on the rank of the process.  It has been shown mathematically that Zipf's law holds for Atlas models that satisfy certain natural regularity conditions.<ref name=fern2020/><ref name=taot2012/>
+
+==Related laws==
+A generalization of Zipf's law is the [[Zipf–Mandelbrot law]], proposed by [[Benoit Mandelbrot]], whose frequencies are:
+
+<math display="block">f(k;N,q,s) = \frac{1}{\ C\ }\ \frac{ 1 }{\ \left( k + q\right)^s} ~.</math>{{Clarify|date=September 2023|reason=denominator missing from equation}}
+
+The constant {{mvar|C}} is the [[Hurwitz zeta function]] evaluated at {{mvar|s}}.
+
+Zipfian distributions can be obtained from [[Pareto distribution]]s by an exchange of variables.<ref name=adam2000/>
+
+The Zipf distribution is sometimes called the '''discrete Pareto distribution'''<ref name=john1992/> because it is analogous to the continuous [[Pareto distribution]] in the same way that the [[Uniform distribution (discrete)|discrete uniform distribution]] is analogous to the [[Uniform distribution (continuous)|continuous uniform distribution]].
+
+The tail frequencies of the [[Yule–Simon distribution]] are approximately
+
+<math display="block">f(k;\rho) \approx \frac{\ [\mathsf{constant}]\ }{ k^{(\rho + 1)} }</math> for any choice of {{nobr|{{math| ''ρ'' > 0}} .}}
+
+In the [[parabolic fractal distribution]], the logarithm of the frequency is a quadratic polynomial of the logarithm of the rank. This can markedly improve the fit over a simple power-law relationship.<ref name=Galien/> Like fractal dimension, it is possible to calculate Zipf dimension, which is a useful parameter in the analysis of texts.<ref name=efte2006/>
+
+It has been argued that [[Benford's law]] is a special bounded case of Zipf's law,<ref name="Galien"/> with the connection between these two laws being explained by their both originating from scale invariant functional relations from statistical physics and critical phenomena.<ref name=piet2001/> The ratios of probabilities in Benford's law are not constant. The leading digits of data satisfying Zipf's law with {{nobr| {{math|s {{=}} 1}} ,}} satisfy Benford's law.
+{| class="wikitable" style="text-align: center;"
+|-
+!<math>n</math>
+!Benford's law: <math>P(n) = </math><br/><math>\log_{10}(n+1)-\log_{10}(n)</math>
+!<math>\frac{\log(P(n)/P(n-1))}{\log(n/(n-1))}</math>
+|-
+| 1
+| 0.30103000
+|  
+|-
+| 2
+| 0.17609126
+| −0.7735840
+|-
+| 3
+| 0.12493874
+| −0.8463832
+|-
+| 4
+| 0.09691001
+| −0.8830605
+|-
+| 5
+| 0.07918125
+| −0.9054412
+|-
+| 6
+| 0.06694679
+| −0.9205788
+|-
+| 7
+| 0.05799195
+| −0.9315169
+|-
+| 8
+| 0.05115252
+| −0.9397966
+|-
+| 9
+| 0.04575749
+| −0.9462848
+|}
+
+==Occurrences==
+
+===City sizes===
+
+Following Auerbach's 1913 observation, there has been substantial examination of Zipf's law for city sizes.<ref name=gaba1999/> However, more recent empirical<ref name=arsh2018/><ref name=ganl2006/> and theoretical<ref name=verb2020/> studies have challenged the relevance of Zipf's law for cities.
+
+===Word frequencies in human languages===
+[[File:Zipf 30wiki en labels.png|thumb|Zipf's law plot for the first 10&nbsp;million words in 30&nbsp;Wikipedias (as of October&nbsp;2015) in a [[log-log]] scale]]
+
+In many texts in human languages, word frequencies approximately follow a Zipf distribution with exponent {{mvar|s}} close to 1; that is, the most common word occurs about {{mvar|n}} times the {{mvar|n}}-th most common one.
+
+The actual rank-frequency plot of a natural language text deviates in some extent from the ideal Zipf distribution, especially at the two ends of the range. The deviations may depend on the language, on the topic of the text, on the author, on whether the text was translated from another language, and on the spelling rules used. Some deviation is inevitable because of [[sampling error]].
+
+At the low-frequency end, where the rank approaches {{mvar|N}}, the plot takes a staircase shape, because each word can occur only an integer number of times.
+{{clear}}
+
+<gallery class="skin-invert-image" mode="packed" heights="200px" caption="Zipf's law plots for several languages">
+Zipf-euro-4 German, Russian, French, Italian, Medieval English.svg|[[German language|German]] (1669), [[Russian language|Russian]] (1972), [[French language|French]] (1865), [[Italian language|Italian]] (1840), and Medieval English (1460)
+Zipf-semi-1 Arabic, Geez, Hebraic.svg|[[Ge'ez language|Ge'ez]] (14th century), [[Arabic language|Arabic]] (7th century), [[Hebrew language|Hebrew]] (500–800), all with vowels
+Zipf-asia-1 Chinese, Tibetan, Vietnamese.svg|[[Lhasa Tibetan]], [[Chinese language|Chinese]], [[Vietnamese language|Vietnamese]], all with separated syllables
+Zipf-heot-0 Hebrew - Books of the Torah.svg|First five books of the [[Old Testament]] (the [[Torah]]) in Hebrew, with vowels
+Zipf-laot-0 Vulgate Pentateuch books.svg|First five books of the [[Old Testament]] (the [[Pentateuch]]) in the Latin [[Vulgate]] version
+Zipf-lant-0 Vulgate Gospels.svg|First four books of the [[New Testament]] (the [[Gospels]]) in the Latin [[Vulgate]] version
+</gallery>
+
+[[File:Wikipedia-n-zipf.png|thumb|upright=1.1|A log-log plot of word frequency in the English Wikipedia (27&nbsp;November 2006). Zipf's law corresponds to the middle linear portion of the curve, roughly following the green {{nobr|(<math display="inline" alt="inverse of x">\frac{1}{x}</math>) line,}} while the early part is closer to the magenta {{nobr|(<math display="inline" alt="inverse of the square root of x">\frac{1}{ \sqrt{x} }</math>) line}} while the later part is closer to the cyan {{nobr|(<math display="inline" alt="inverse of squared x">\frac{1}{ x^2 }</math>) line.}} <!--These lines correspond to three distinct parameterizations of the Zipf–Mandelbrot distribution, overall a [[broken power law]] with three segments: a head, middle, and tail.{{citation needed|date=November 2024}}--> Other descriptions highlight two segments or "regimes" instead.<ref name=cancho2001/><ref name=dm2002/>]]
+
+In some [[Romance languages]], the frequencies of the dozen or so most frequent words deviate significantly from the ideal Zipf distribution, because those words include articles inflected for [[grammatical gender]] and [[grammatical number|number]].{{citation needed|date=May 2023}}
+
+In many East Asian languages, such as [[Chinese language|Chinese]], [[Lhasa Tibetan|Tibetan]], and [[Vietnamese language|Vietnamese]], each [[morpheme]] (word or word piece) consists of a single [[syllable]]; a word of English being often translated to a compound of two such syllables. The rank-frequency table for those morphemes deviates significantly from the ideal Zipf law, at both ends of the range.{{citation needed|date=May 2023}}
+
+Even in English, the deviations from the ideal Zipf's law become more apparent as one examines large collections of texts. Analysis of a corpus of 30,000 English texts showed that only about 15% of the texts in it have a good fit to Zipf's law.  Slight changes in the definition of Zipf's law can increase this percentage up to close to 50%.<ref name=more2016/>
+
+In these cases, the observed frequency-rank relation can be modeled more accurately as by separate Zipf–Mandelbrot laws distributions for different subsets or subtypes of words. This is the case for the frequency-rank plot of the first 10&nbsp;million words of the English Wikipedia. In particular, the frequencies of the closed class of [[function word]]s in English is better described with {{mvar|s}} lower than 1, while open-ended vocabulary growth with document size and corpus size require {{mvar|s}} greater than 1 for convergence of the [[harmonic series (mathematics)|Generalized Harmonic Series]].<ref name=Powers1998/>
+
+[[File:Zipf-code-1 English plain, book-coded, Vigenere coded.svg|thumb|left|Well's ''War of the Worlds'' in plain text, in a [[book code]], and in a [[Vigenère cipher]]]]
+
+When a text is encrypted in such a way that every occurrence of each distinct plaintext word is always mapped to the same encrypted word (as in the case of simple [[substitution cipher]]s, like the [[Caesar cipher]]s, or simple [[codebook]] ciphers), the frequency-rank distribution is not affected. On the other hand, if separate occurrences of the same word may be mapped to two or more different words (as happens with the [[Vigenère cipher]]), the Zipf distribution will typically have a flat part at the high-frequency end.{{citation needed|date=May 2023}}
+
+====Applications====
+Zipf's law has been used for extraction of parallel fragments of texts out of comparable corpora.<ref name=moha2016/> [[Laurance Doyle]] and others have suggested the application of Zipf's law for detection of [[alien language]] in the [[search for extraterrestrial intelligence]].<ref name=doyle20162>{{cite journal |last=Doyle |first=L.R. |author-link=Laurance Doyle |date=2016-11-18 |title=Why alien language would stand out among all the noise of the universe |journal=[[Nautilus Quarterly]] |url=http://cosmos.nautil.us/feature/54/listening-for-extraterrestrial-blah-blah |language=en |archive-url=https://web.archive.org/web/20200729120031/http://cosmos.nautil.us/feature/54/listening-for-extraterrestrial-blah-blah |archive-date=2020-07-29 |access-date=2020-08-30}}</ref><ref name=kersh20212>{{cite book |last=Kershenbaum |first=Arik |author-link=Arik Kershenbaum |date=2021-03-16 |title=The Zoologist's Guide to the Galaxy: What animals on Earth reveal about aliens – and ourselves |title-link=The Zoologist's Guide to the Galaxy |publisher=Penguin |isbn=978-1-9848-8197-7 |pages=251–256 |language=en |oclc=1242873084}}</ref>
+
+The frequency-rank word distribution is often characteristic of the author and changes little over time. This feature has been used in the analysis of texts for authorship attribution.<ref name=droo2016/><ref name=droo2019/>
+
+The word-like sign groups of the 15th-century codex [[Voynich manuscript|Voynich Manuscript]] have been found to satisfy Zipf's law, suggesting that text is most likely not a hoax but rather written in an obscure language or cipher.<ref name=boyle2022/><ref name=mont2013/>
+
+===Language-like statistical structure in non-human species===
+
+Researchers have reported mixed support for Zipf's law in the vocal communication of other animals, including primates, cetaceans, bats, hyraxes, and birds.<ref name=gilm2025/><ref name=kirb2026/><ref name="onnectsci.au_2026-08-07">{{Cite web
+ | author        = Evrim Yazgin
+ | title         = How similar are bird and whale songs to human language?
+ | url           = https://connectsci.au/news/news-parent/9886/How-similar-are-bird-and-whale-songs-to-human
+ | date          = 2026-08-07
+ | publisher     = [[CSIRO Publishing]]
+ | language      = en-au
+ | url-status    = live
+ | archive-url   = https://web.archive.org/web/20260811213854/https://connectsci.au/news/news-parent/9886/How-similar-are-bird-and-whale-songs-to-human
+ | archive-date  = 2026-08-11
+}}</ref>
+
+==See also==
+* {{Annotated link|1% rule}}
+* {{Annotated link|Benford's law}}
+* {{Annotated link|Bradford's law}}
+* {{Annotated link|Brevity law}}
+* {{Annotated link|Demographic gravitation}}
+* {{Annotated link|Word list}}
+* {{Annotated link|Gibrat's law}}
+* {{Annotated link|Hapax legomenon}}
+* {{Annotated link|Heaps' law}}
+* {{Annotated link|Hilberg's hypothesis}}
+* {{Annotated link|Historical recurrence}}
+* {{Annotated link|King effect}}
+* {{Annotated link|Long tail}}
+* {{Annotated link|Lorenz curve}}
+* {{Annotated link|Lotka's law}}
+* {{Annotated link|Menzerath's law}}
+* {{Annotated link|Pareto distribution}}
+* {{Annotated link|Pareto principle}}
+* {{Annotated link|Price's law}}
+* {{Annotated link|Principle of least effort}}
+* {{Annotated link|Rank–size distribution}}
+* {{Annotated link|Stigler's law of eponymy}}
+* [[Letter frequency]]
+* [[Most common words in English]]
+
+==Notes==
+{{Notelist}}
+
+==References==
+{{Reflist|25em|refs=
+
+<ref name=zipf1935>
+{{cite book
+ |first=G.K. |last=Zipf  |author-link=George K. Zipf
+ |year=1935
+ |title=The Psychobiology of Language
+ |publisher=Houghton-Mifflin
+ |place=New York, NY
+}}
+</ref>
+
+<ref name=zipf1949>
+{{cite book
+ | first = George K. |last = Zipf |author-link = George K. Zipf
+ | year =1949
+ | title = Human Behavior and the Principle of Least Effort
+ | place = Cambridge, MA
+ | publisher = Addison-Wesley
+ | page = 1
+ | url = https://archive.org/details/in.ernet.dli.2015.90211
+ | via = archive.org
+}}
+</ref>
+<ref name=bele1959>
+{{cite journal
+ | last = Belevitch |first = V.
+ | date = 18 December 1959
+ | title = On the statistical laws of linguistic distributions
+ | journal = Annales de la Société Scientifique de Bruxelles
+ | volume = 73  | pages = 310–326
+ | url = http://www.csl.sri.com/users/neumann/belevitch.pdf
+ | url-status = live  | access-date = 24 April 2020
+ | archive-url = https://web.archive.org/web/20201215025434/http://www.csl.sri.com/users/neumann/belevitch.pdf
+ | archive-date = 15 December 2020
+}}
+</ref>
+<ref name=bril1959>
+{{cite book
+ |author-link=Léon Brillouin |last=Brillouin |first=Léon
+ |orig-date=1959, 1988 |year=2004
+ |title=La science et la théorie de l'information |language=fr
+ |trans-title=The Science and Theory of Information
+ |quote=réédité en 1988, traduction anglaise rééditée en 2004
+}}
+</ref>
+<ref name=liwe1992>
+{{cite journal |first=Wentian |last=Li |title=Random Texts Exhibit Zipf's-Law-Like Word Frequency Distribution |journal=[[IEEE Transactions on Information Theory]] |volume=38 |issue=6 |year=1992 |pages=1842–1845 |doi=10.1109/18.165464
+|bibcode=1992ITIT...38.1842L }}
+</ref>
+<ref name=john1992>
+{{cite book  |first1=N.L. |last1=Johnson |first2=S. |last2=Kotz |first3=A. W. |last3=Kemp |author3-link=Adrienne W. Kemp|name-list-style=amp |year=1992 |title=Univariate Discrete Distributions|edition=second |publisher=John Wiley & Sons, Inc.|location=New York|isbn=978-0-471-54897-3 |page=466
+}}
+</ref>
+<ref name=Powers1998>
+{{cite conference
+ | last = Powers | first = David M.W.
+ | year = 1998
+ | title = Applications and explanations of Zipf's law
+ | conference = Joint conference on new methods in language processing and computational natural language learning
+ | pages = 151–160
+ | publisher = Association for Computational Linguistics
+ | url = http://aclweb.org/anthology/W98-1218
+ | url-status = live  |via=aclweb.org  | access-date = 2015-02-02
+ | archive-url = https://web.archive.org/web/20150910142650/http://aclweb.org/anthology/W98-1218
+ | archive-date = 2015-09-10
+}}
+</ref>
+<ref name=mann1999>
+{{cite book|first1=Christopher D. |last1=Manning| first2=Hinrich |last2=Schütze |date=1999|title=Foundations of Statistical Natural Language Processing| publisher=MIT Press|isbn=978-0-262-13360-9|page=24}}
+</ref>
+<ref name=gaba1999>
+{{cite journal |last1=Gabaix |first1=Xavier |title=Zipf's Law for Cities: An Explanation |journal=The Quarterly Journal of Economics |date=1999 |volume=114 |issue=3 |pages=739–767 |doi=10.1162/003355399556133 |jstor=2586883
+}}
+</ref>
+<ref name=adam2000>
+{{cite report
+ |last = Adamic |first = Lada A.
+ |year = 2000
+ |title = Zipf, power-laws, and Pareto – a ranking tutorial
+ |publisher = [[Hewlett-Packard]] Company
+ |edition = re-issue
+ |url = https://www.hpl.hp.com/research/idl/papers/ranking/ranking.html
+ |url-status = live |access-date = 2023-10-12
+ |archive-url = https://web.archive.org/web/20230401225722/https://www.hpl.hp.com/research/idl/papers/ranking/ranking.html
+ |archive-date = 2023-04-01
+}} {{cite web
+ |title = original publication
+ |publisher = [[Xerox Corporation]]
+ |website = www.parc.xerox.com
+ |url = http://www.parc.xerox.com/istl/groups/iea/papers/ranking/ranking.html
+ |url-status = dead
+ |access-date = 2016-02-23
+ |archive-url = https://web.archive.org/web/20011107195146/http://www.parc.xerox.com/istl/groups/iea/papers/ranking/ranking.html
+ |archive-date = 2001-11-07
+}}</ref>
+<ref name=piet2001>
+{{cite journal
+ |first1=L. |last1=Pietronero |first2=E. |last2=Tosatti
+ |first3=V. |last3=Tosatti |first4=A. |last4=Vespignani
+ |date=2001
+ |title=Explaining the uneven distribution of numbers in nature: The laws of Benford and Zipf
+ |journal=[[Physica A]]
+ |volume=293 |issue=1–2 |pages=297–304
+ |doi=10.1016/S0378-4371(00)00633-6
+ |bibcode=2001PhyA..293..297P
+ |arxiv=cond-mat/9808305
+}}
+</ref>
+<ref name=ferr2003>
+{{cite journal
+ |first1 = Ramon     |last1 = Ferrer i Cancho
+ |first2 = Ricard V. |last2 = Sole | name-list-style = amp
+ |year= 2003
+ |title = Least effort and the origins of scaling in human language
+ |journal= [[Proceedings of the National Academy of Sciences of the United States of America]]
+ |volume= 100  |issue= 3  |pages= 788–791
+ |pmid=12540826  |pmc=298679
+ |doi= 10.1073/pnas.0335980100 |doi-access = free
+ |bibcode = 2003PNAS..100..788C
+}}</ref>
+<ref name=Galien>
+{{cite web
+ |first=Johan Gerard |last=van der Galien
+ |date=2003-11-08
+ |title=Factorial randomness: The laws of Benford and Zipf with respect to the first digit distribution of the factor sequence from the natural numbers
+ |website=zonnet.nl
+ |url=http://home.zonnet.nl/galien8/factor/factor.html
+ |access-date=8 July 2016
+ |archive-url=https://web.archive.org/web/20070305150334/http://home.zonnet.nl/galien8/factor/factor.html
+ |archive-date=2007-03-05
+}}
+</ref>
+<ref name=zann2004>
+{{cite arXiv |last=Zanette |first=Damián H. |eprint=cs/0406015 |title=Zipf's law and the creation of musical context |date=June 7, 2004}}</ref>
+<ref name=efte2006>{{cite journal |first=Ali |last=Eftekhari |date=2006 |title=Fractal geometry of texts: An initial application to the works of Shakespeare |journal=Journal of Quantitative Linguistic |volume=13 |issue=2–3 |pages=177–193 |doi=10.1080/09296170600850106
+}}
+</ref>
+<ref name=ganl2006>
+{{cite journal |last1=Gan |first1=Li |last2=Li |first2=Dong |last3=Song |first3=Shunfeng |title=Is the Zipf law spurious in explaining city-size distributions? |journal=Economics Letters |date=August 2006 |volume=92 |issue=2 |pages=256–262 |doi=10.1016/j.econlet.2006.03.004
+}}
+</ref>
+<ref name=mana2006>
+{{cite conference
+ |first1=Bill   |last1=Manaris        |first2=Luca    |last2=Pellicoro
+ |first3=George |last3=Pothering      |first4=Harland |last4=Hodges
+ |date=13 February 2006
+ |title=Investigating Esperanto's statistical proportions relative to other languages using neural networks and Zipf's law
+ |conference=Artificial Intelligence and Applications
+ |location=Innsbruck, Austria
+ |pages=102–108
+ |url=http://www.cs.cofc.edu/~manaris/uploads/Main/IASTED2006.pdf
+ |via=cs.cofc.edu
+ |archive-url=https://web.archive.org/web/20160305040450/http://www.cs.cofc.edu/~manaris/uploads/Main/IASTED2006.pdf
+ |archive-date=5 March 2016
+}}
+</ref>
+<ref name=skot2020>
+{{cite conference
+ | last = Skotarek  | first= Dariusz
+ | date = 12–14 October 2020
+ | title = Zipf's law in Toki Pona
+ | conference = ExLing 2020: 11th International Conference of Experimental Linguistics
+ | place = Athens, Greece
+ | publisher = ExLing Society
+ | isbn = 978-618-84585-1-2
+ | doi = 10.36505/ExLing-2020/11/0047/000462
+ | url = https://exlingsociety.com/wp-content/uploads/proceedings/exling-2020/11_0047_000462.pdf
+ | via = exlingsociety.com
+}}
+</ref>
+<ref name=fagan2010>
+{{cite book
+|first1=Stephen|last1=Fagan
+ |first2=Ramazan|last2=Gençay
+ |year=2010
+ |section=An introduction to textual econometrics
+  |title=Handbook of Empirical Economics and Finance
+ |editor1-first=Aman       |editor1-last=Ullah
+ |editor2-first=David E.A. |editor2-last=Giles
+ |publisher=CRC Press
+ |isbn=978-1-4200-7036-1
+ |pages=133–153, esp.&nbps;[https://books.google.com/books?hl=en&lr=&id=QAUv9R6bJzwC&oi=fnd&pg=PA139 139]
+ |quote=For example, in the Brown Corpus, consisting of over one million words, half of the word volume consists of repeated uses of only 135&nbsp;words.
+}}
+</ref>
+<ref name=neum2011>
+{{cite report
+ |last = Neumann |first=P.G.  |author-link = Peter G. Neumann
+ |date = c. 2022
+ |title = Statistical metalinguistics and Zipf / Pareto / Mandelbrot
+ |publisher = [[SRI International]]
+ |place = Menlo Park, CA 
+ |series = Computer Science Laboratory |volume = 12A
+ |url = https://www.csl.sri.com/users/neumann/#12a
+ |access-date = 29 May 2011  |via = sri.com
+ |archive-url = https://web.archive.org/web/20110605012951/http://www.csl.sri.com/users/neumann/  
+ |archive-date = 2011-06-05 }}
+</ref>
+<ref name=mont2013>
+{{cite journal |last1=Montemurro |first1=Marcelo A. |last2=Zanette |first2=Damián H. |title=Keywords and Co-Occurrence Patterns in the Voynich Manuscript: An Information-Theoretic Analysis |journal=PLOS ONE |date=21 June 2013 |volume=8 |issue=6 |article-number=e66344 |doi=10.1371/journal.pone.0066344
+|doi-access=free |pmid=23805215 |pmc=3689824 |bibcode=2013PLoSO...866344M }}
+</ref>
+<ref name=piant2014>
+{{cite journal |last1=Piantadosi |first1=Steven |date=March 25, 2014 |title=Zipf's word frequency law in natural language: A critical review and future directions |journal=Psychon Bull Rev |volume=21 |issue=5 |pages=1112–1130 |doi=10.3758/s13423-014-0585-6 |pmid=24664880 |pmc=4176592
+}}
+</ref>
+<ref name=linr2014>
+{{cite arXiv
+ |last1 = Lin  |first1 = Ruokuang
+ |last2 = Ma   |first2 = Qianli D.Y.
+ |last3 = Bian |first3 = Chunhua
+ |year = 2014
+ |title=Scaling laws in human speech, decreasing emergence of new words, and a generalized model
+ |eprint = 1412.4846
+ |class = cs.CL
+}}
+</ref>
+<ref name=erik2014>
+{{cite book |doi=10.1109/BMSB.2013.6621700 |chapter=Efficient interactive multicast over DVB-T2 - Utilizing dynamic SFNS and PARPS |title=2013 IEEE International Symposium on Broadband Multimedia Systems and Broadcasting (BMSB) |date=2013 |last1=Eriksson |first1=Magnus |last2=Rahman |first2=S.M. Hasibur |last3=Fraile |first3=Francisco |last4=Sjostrom |first4=Marten |pages=1–7 |isbn=978-1-4673-6047-0 |chapter-url=https://urn.kb.se/resolve?urn=urn:nbn:se:miun:diva-19142 }}
+</ref>
+<ref name=vita2015>
+{{cite journal |last1=Vitanov |first1=Nikolay K. |last2=Ausloos |first2=Marcel |title=Test of two hypotheses explaining the size of populations in a system of cities |journal=Journal of Applied Statistics |date=2 December 2015 |volume=42 |issue=12 |pages=2686–2693 |doi=10.1080/02664763.2015.1047744
+|arxiv=1506.08535 |bibcode=2015JApSt..42.2686V }}
+</ref>
+
+<!-- <ref name=doyle2016>
+{{Cite journal|last1=Doyle|first1=Laurance R.|last2=Mao|first2=Tianhua|date=2016-11-18|title=Why Alien Language Would Stand Out Among All the Noise of the Universe|url=http://cosmos.nautil.us/feature/54/listening-for-extraterrestrial-blah-blah|journal=[[Nautilus Quarterly]]|language=en|access-date=2020-08-30|archive-date=2020-07-29|archive-url=https://web.archive.org/web/20200729120031/http://cosmos.nautil.us/feature/54/listening-for-extraterrestrial-blah-blah|url-status=live
+}}
+</ref> -->
+
+<ref name=moha2016>
+{{cite conference |url=https://comparable.limsi.fr/bucc2016/pdf/BUCC04.pdf |title=Parallel Document Identification using Zipf's Law |last1=Mohammadi |first1=Mehdi |date=2016 |book-title=Proceedings of the Ninth Workshop on Building and Using Comparable Corpora |pages=21–25 |location=Portorož, Slovenia |conference=LREC 2016 |url-status=dead |archive-url=https://web.archive.org/web/20180323154706/https://comparable.limsi.fr/bucc2016/pdf/BUCC04.pdf |archive-date=2018-03-23
+}}</ref>
+<ref name=more2016>
+{{cite journal |last1 = Moreno-Sánchez |first1 = I. |last2 = Font-Clos |first2 = F. |last3 = Corral |first3 = A. |year = 2016 |title = Large-scale analysis of Zipf's Law in English texts |journal = PLOS ONE |volume = 11 |issue = 1 |article-number = e0147073 |doi = 10.1371/journal.pone.0147073 |doi-access = free |pmid =26800025 |pmc = 4723055 |arxiv = 1509.04486 |bibcode = 2016PLoSO..1147073M
+}}
+</ref>
+<ref name=arsh2018>{{cite journal |last1=Arshad |first1=Sidra |last2=Hu |first2=Shougeng |last3=Ashraf |first3=Badar Nadeem |title=Zipf's law and city size distribution: A survey of the literature and future research agenda |journal=Physica A: Statistical Mechanics and Its Applications |date=February 2018 |volume=492 |pages=75–92 |doi=10.1016/j.physa.2017.10.005 |bibcode=2018PhyA..492...75A |url=https://openresearch.lsbu.ac.uk/download/3b8d8d206550684f2defbe277400272d5ee2931f4fa5e4a5ce1ac3918415e8c8/685715/Zipf%27s%20law%20and%20city%20size%20distribution-Haplo.pdf |archive-date=26 November 2024 |access-date=19 November 2024 |archive-url=https://web.archive.org/web/20241126012919/https://openresearch.lsbu.ac.uk/download/3b8d8d206550684f2defbe277400272d5ee2931f4fa5e4a5ce1ac3918415e8c8/685715/Zipf%27s%20law%20and%20city%20size%20distribution-Haplo.pdf |url-status=dead }}</ref>
+<ref name=boyle2022>
+{{Cite web|last=Boyle|first=Rebecca|title=Mystery text's language-like patterns may be an elaborate hoax|url=https://www.newscientist.com/article/2106915-mystery-texts-language-like-patterns-may-be-an-elaborate-hoax/|access-date=2022-02-25|website=New Scientist|date=22 September 2016 |language=en-US|archive-date=2022-05-18|archive-url=https://web.archive.org/web/20220518100834/https://www.newscientist.com/article/2106915-mystery-texts-language-like-patterns-may-be-an-elaborate-hoax/|url-status=live
+}}
+</ref>
+<ref name=verb2020>
+{{cite journal |last1=Verbavatz |first1=Vincent |last2=Barthelemy |first2=Marc |title=The growth equation of cities |journal=Nature |date=19 November 2020 |volume=587 |issue=7834 |pages=397–401 |doi=10.1038/s41586-020-2900-x
+|pmid=33208958 |arxiv=2011.09403 |bibcode=2020Natur.587..397V }}
+</ref>
+<ref name=fern2020>
+{{cite journal |last1=Fernholz |first1=Ricardo T. |last2=Fernholz |first2=Robert |title=Zipf's law for atlas models |journal=Journal of Applied Probability |date=December 2020 |volume=57 |issue=4 |pages=1276–1297 |doi=10.1017/jpr.2020.64
+|arxiv=1707.04285 }}
+</ref>
+
+<!-- <ref name=kersh2021>
+{{Cite book |last=Kershenbaum|first=Arik |title=The Zoologist's Guide to the Galaxy: What Animals on Earth Reveal About Aliens - and Ourselves |title-link=The Zoologist's Guide to the Galaxy|date=2021-03-16|publisher=Penguin|isbn=978-1-9848-8197-7|pages=251–256|language=en|oclc=1242873084|author-link=Arik Kershenbaum
+}}
+</ref> -->
+
+<ref name=lazz2023>
+{{cite journal |last1=Lazzardi |first1=Silvia |last2=Valle |first2=Filippo |last3=Mazzolini |first3=Andrea |last4=Scialdone |first4=Antonio |last5=Caselle |first5=Michele |last6=Osella |first6=Matteo |title=Emergent statistical laws in single-cell transcriptomic data |journal=Physical Review E |date=27 April 2023 |volume=107 |issue=4 |article-number=044403 |doi=10.1103/PhysRevE.107.044403
+|pmid=37198814 |bibcode=2023PhRvE.107d4403L |url=https://hal.science/hal-04785217 }}
+</ref>
+<ref name=gilm2025>
+{{cite journal |last1=Gilman |first1=R.T. |last2=Durrant |first2=C. |last3=Malpas |first3=L. |last4=Lewis |first4=R.N. |title=Does Zipf's law of abbreviation shape birdsong? |journal=PLOS Comput Biol |date=2025 |volume=21 |issue=8 |article-number=e1013228 |doi=10.1371/journal.pcbi.1013228 |doi-access=free |pmid=40802653 |pmc=12349147 |bibcode=2025PLSCB..21E3228G }}
+</ref>
+<ref name=kirb2026>
+{{cite journal |last1=Kirby |first1=S. |last2=Okanoya |first2=K. |last3=Garland |first3=E.C. |last4=Takahasi |first4=M. |last5=Arnon |first5=I. |title=Language-like statistical structure arises in learned signaling: evidence from birdsong |journal=Science Advances |date=2026 |volume=12 |issue=32 |article-number=eaea3015 |doi=10.1126/sciadv.aea3015 |pmid=42566530 |pmc=13450306 }}
+</ref>
+
+<ref name=taot2012>
+{{cite journal |last1=Tao |first1=Terence |title=E pluribus unum: From Complexity, Universality |journal=Daedalus |date=July 2012 |volume=141 |issue=3 |pages=23–34 |doi=10.1162/DAED_a_00158
+|doi-access=free }}
+</ref>
+<ref name=droo2016>
+{{cite report
+ |first=Frans J. |last=van Droogenbroeck
+ |year=2016
+ |title=Handling the Zipf distribution in computerized authorship attribution
+ |url=https://www.academia.edu/24147736  |via=academia.edu
+ |archive-url=https://web.archive.org/web/20231004183920/https://www.academia.edu/24147736
+ |archive-date=2023-10-04
+}}
+</ref>
+<ref name=droo2019>
+{{cite report
+ |first=Frans J. |last=van Droogenbroeck
+ |year=2019
+ |title=An essential rephrasing of the Zipf-Mandelbrot law to solve authorship attribution applications by Gaussian statistics
+ |url=https://www.academia.edu/40029629  |via=academia.edu
+ |archive-url=https://web.archive.org/web/20230930174355/https://www.academia.edu/40029629
+ |archive-date=2023-09-30
+}}
+</ref>
+<ref name=dm2002>
+{{cite journal |last1=Dorogovtsev |first1=S. N. |last2=Mendes |first2=J. F. F. |title=Language as an evolving word web |journal=Proceedings of the Royal Society of London. Series B: Biological Sciences |date=22 December 2001 |volume=268 |issue=1485 |pages=2603–2606 |doi=10.1098/rspb.2001.1824 |pmc=1088922 |pmid=11749717
+}}
+</ref>
+<ref name=cancho2001>{{Cite journal |last1=Ferrer Cancho |first1=Ramon |last2=Solé |first2=Ricard V. |date=December 2001 |title=Two Regimes in the Frequency of Words and the Origins of Complex Lexicons: Zipf's Law Revisited |journal=Journal of Quantitative Linguistics |volume=8 |issue=3 |pages=165–173 |doi=10.1076/jqul.8.3.165.4101 |hdl=2117/180381 |hdl-access=free }}</ref>
+<ref name=axte2001>
+{{cite journal |last1=Axtell |first1=Robert L. |title=Zipf Distribution of U.S. Firm Sizes |journal=Science |date=7 September 2001 |volume=293 |issue=5536 |pages=1818–1820 |doi=10.1126/science.1062081
+|pmid=11546870 |bibcode=2001Sci...293.1818A }}
+</ref>
+<ref name=chen2011>
+{{cite conference
+ |first1=Ramu |last1=Chenna
+ |first2=Toby |last2=Gibson
+ |year=2011
+ |title=Evaluation of the suitability of a Zipfian gap model for pairwise sequence alignment
+ |id=BIC&nbsp;4329
+ |conference=International Conference on Bioinformatics Computational Biology
+ |url=http://www.worldcomp-proceedings.com/proc/p2011/BIC4329.pdf
+ |archive-url=https://web.archive.org/web/20140306154522/http://www.worldcomp-proceedings.com/proc/p2011/BIC4329.pdf
+ |archive-date=2014-03-06 }}
+</ref>
+
+}} <!-- end "refs=" -->
+
+==Further reading==
+* {{cite book |doi=10.1007/3-540-44686-9_33 |chapter=Zipf and Heaps Laws' Coefficients Depend on Language |title=Computational Linguistics and Intelligent Text Processing |series=Lecture Notes in Computer Science |date=2001 |last1=Gelbukh |first1=Alexander |last2=Sidorov |first2=Grigori |volume=2004 |pages=332–335 |isbn=978-3-540-41687-6 }}
+* {{cite journal |last1=Kali |first1=Raja |title=The city as a giant component: a random graph approach to Zipf's law |journal=Applied Economics Letters |date=15 September 2003 |volume=10 |issue=11 |pages=717–720 |doi=10.1080/1350485032000139006 }}
+* {{cite report |last1=Shyklo |first1=Alexandra Elizabeth |title=Simple Explanation of Zipf's Mystery via New Rank-Share Distribution, Derived from Combinatorics of the Ranking Process |date=2017 |ssrn=2918642 }}
+* {{cite journal |last1=Moskowitz |first1=Clara |last2=Ford |first2=Ni-ka |last3=Christiansen |first3=Jen |title=Cells by Count and Size |journal=Scientific American |date=January 2024 |volume=330 |issue=1 |page=94 |doi=10.1038/scientificamerican0124-94 |pmid=39017389 }}
+
+==External links==
+{{Library resources box}}
+{{Commons category}}
+*{{Cite news | last = Strogatz | first = Steven | author-link = Steven Strogatz | title = Guest Column: Math and the City | date = 2009-05-29 | url = http://judson.blogs.nytimes.com/2009/05/19/math-and-the-city/ | access-date = 2009-05-29 | work = The New York Times | archive-date = 2015-09-27 | archive-url = https://web.archive.org/web/20150927204318/http://judson.blogs.nytimes.com/2009/05/19/math-and-the-city/ }}—An article on Zipf's law applied to city populations
+*[https://www.theatlantic.com/issues/2002/04/rauch.htm Seeing Around Corners (Artificial societies turn up Zipf's law)]
+*[https://web.archive.org/web/20021018011011/http://planetmath.org/encyclopedia/ZipfsLaw.html PlanetMath article on Zipf's law]
+*[http://www.hubbertpeak.com/laherrere/fractal.htm Distributions de type "fractal parabolique" dans la Nature (French, with English summary)] {{Webarchive|url=https://web.archive.org/web/20041024144850/http://www.hubbertpeak.com/laherrere/fractal.htm |date=2004-10-24 }}
+*[https://www.newscientist.com/article.ns?id=mg18524904.300 An analysis of income distribution]
+*[http://www.lexique.org/listes/liste_mots.txt Zipf List of French words] {{Webarchive|url=https://web.archive.org/web/20070623154627/http://www.lexique.org/listes/liste_mots.txt |date=2007-06-23 }}
+*[http://1.1o1.in/en/webtools/semantic-depth Zipf list for English, French, Spanish, Italian, Swedish, Icelandic, Latin, Portuguese and Finnish from Gutenberg Project and online calculator to rank words in texts] {{Webarchive|url=https://web.archive.org/web/20110408115104/http://1.1o1.in/en/webtools/semantic-depth |date=2011-04-08 }}
+*{{cite arXiv |last1=Silagadze |first1=Z. K. |title=Citations and the Zipf-Mandelbrot's law |date=1999 |eprint=physics/9901035 }}
+*[http://www.geoffkirby.co.uk/ZIPFSLAW.pdf Zipf's Law examples and modelling (1985)]{{Dead link|date=September 2025 |bot=InternetArchiveBot }}
+*{{cite journal |last1=Adamic |first1=Lada |title=Unzipping Zipf's law |journal=Nature |date=2011 |volume=474 |issue=7350 |pages=164–165 |doi=10.1038/474164a |pmid=21654791 |bibcode=2011Natur.474..164A |url=https://www.nature.com/nature/journal/v474/n7350/full/474164a.html|url-access=subscription }}
+*[https://terrytao.wordpress.com/2009/07/03/benfords-law-zipfs-law-and-the-pareto-distribution/ Benford's law, Zipf's law, and the Pareto distribution] by [[Terence Tao]].
+*{{springer|title=Zipf law|id=p/z130110}}
+
+{{ProbDistributions|discrete-finite}}
+{{Authority control}}
+
+[[Category:Discrete distributions]]
+[[Category:Computational linguistics]]
+[[Category:Power laws]]
+[[Category:Statistical laws]]
+[[Category:Empirical laws]]
+[[Category:Eponymous rules]]
+[[Category:Tails of probability distributions]]
+[[Category:Quantitative linguistics]]
+[[Category:Bibliometrics]]
+[[Category:Corpus linguistics]]
+[[Category:1949 introductions]]

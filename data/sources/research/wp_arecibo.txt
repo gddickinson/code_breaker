@@ -1,0 +1,325 @@
+{{Short description|Radio message sent into space in 1974}}
+{{redirect|Arecibo Message|the 2009 Boxcutter album|Arecibo Message (album)}}
+[[Image:Arecibo message.svg|150px|right|thumb|This is a demonstration of the message with color added to highlight its separate parts. The binary transmission sent carried no color information.]]
+
+The '''Arecibo message''' is an [[interstellar radio message]] carrying basic information about humanity and Earth that was sent to the [[globular cluster]] [[Messier 13]] (M13) in 1974. It was meant as a demonstration of human technological achievement rather than a real attempt to enter into a conversation with extraterrestrials.<ref name="icarus">{{cite journal |last1=The Staff at the National Astronomy and Ionosphere Center |title=The Arecibo message of November, 1974 |journal=Icarus |date=December 1975 |volume=26 |issue=4 |pages=462–466 |doi=10.1016/0019-1035(75)90116-5|bibcode=1975Icar...26..462. }}</ref><ref name="phoneet" />
+
+The message was [[Broadcasting|broadcast]] into space a single time via [[frequency modulation|frequency-modulated]] [[radio waves]] at a ceremony to mark the remodeling of the [[Arecibo Telescope]] in [[Puerto Rico]] on 16 November 1974.<ref name="phoneet">{{cite web|url=https://news.cornell.edu/stories/1999/11/25th-anniversary-first-attempt-phone-et-0 |title=Cornell News: It's the 25th anniversary of Earth's first (and only) attempt to phone E.T. |date= 1999-11-12|last=Steele |first=Bill |access-date=2008-03-29 |archive-url=https://web.archive.org/web/20080802005337/http://www.news.cornell.edu/releases/Nov99/Arecibo.message.ws.html |archive-date=2008-08-02|url-status=live |website=Cornell News}}</ref><ref name="NYT-20170628">{{cite news |last=Johnson |first=Steven |title=Greetings, E.T. (Please Don't Murder Us.) |url=https://www.nytimes.com/2017/06/28/magazine/greetings-et-please-dont-murder-us.html |date=2017-06-28 |newspaper=[[The New York Times]]}}</ref> The message was aimed at the current location of M13, about 25,000 [[light year]]s from Earth, because M13 was a large and relatively close collection of stars that was available in the sky at the time and place of the ceremony.<ref>{{cite web|url=http://www.zwire.com/site/news.cfm?newsid=15663534 |title=Making Contact |first=Larry |last=Klaes |work=Ithaca Times |date=2005-11-30 |access-date=2007-07-27 |archive-url=https://web.archive.org/web/20090107165624/http://www.zwire.com/site/news.cfm?newsid=15663534 |archive-date=2009-01-07}}</ref> When correctly translated into graphics, characters, and spaces, the 1,679 bits of data contained within the message form the image shown here.<ref name=cassiday>{{cite web|url=http://www.physics.utah.edu/~cassiday/p1080/lec08.html|archive-url=https://archive.today/20131012215933/http://www.physics.utah.edu/~cassiday/p1080/lec08.html|url-status=dead|archive-date=October 12, 2013|title=The Arecibo Message|last=Cassiday|first=George|access-date=2013-10-13|website=University of Utah}}</ref>
+
+==Description==
+The content of the Arecibo message was designed by a group of [[Cornell University]] and Arecibo scientists: [[Frank Drake]], formulator of the [[Drake equation]]; [[James C. G. Walker]]; [[Linda M. French]]; and Richard Isaacman.<ref name="phoneet"/> [[Carl Sagan]] and others also contributed.<ref name="phoneet" /> The message was meant more as a demonstration of human technological achievement than a serious attempt to enter into a conversation with possible extraterrestrials.<ref name="phoneet" /> As globular cluster M13, at which the message was aimed, is more than 25,000 light-years from Earth, the message, traveling at the [[speed of light]], will take at least 25,000 years to arrive there. By that time, the core of M13 will no longer be in precisely the same location because of the orbit of the star cluster around the [[Galactic Center]].<ref name="phoneet" /> Even so, the [[proper motion]] of M13 is small, so the message will still arrive near the center of the cluster.<ref name="phoneet"/>
+
+The message consists of seven parts that encode the following (from the top down in the image):<ref name=cassiday/>
+*The numbers one to ten (white; left to right)
+*The [[atomic numbers]] of the elements [[hydrogen]], [[carbon]], [[nitrogen]], [[oxygen]], and [[phosphorus]], which make up [[deoxyribonucleic acid]] (DNA) (purple)
+*The formulas for the [[chemical compound]]s that make up the [[nucleotide]]s of DNA (green)
+*The estimated number of DNA nucleotides in the [[human genome]], and a graphic of the [[double helix]] structure of DNA (white and blue, respectively)
+*The dimension (physical height, 5'9") of an average man (blue/white), a graphic figure of a human being (red), and the human population of Earth which was about 4 billion at the time (white)
+*A graphic of the [[Solar System]] (including [[Pluto]]), indicating which of the planets the message is coming from (yellow). The Sun is on the left and the third planet, Earth, raised toward the human figure
+*A graphic of the [[Arecibo Observatory|Arecibo radio telescope]] and the dimension (the physical diameter) of the transmitting antenna dish (purple, white, and blue)
+
+The entire message consisted of 1,679 [[bit|binary digits]], approximately 210 [[byte]]s, transmitted at a frequency of 2,380&nbsp;[[hertz|MHz]] and [[Frequency-shift keying|modulated]] by shifting the frequency by 10&nbsp;Hz, with a power of 450 [[kilowatt|kW]]. The "ones" and "zeros" were transmitted by frequency shifting at the rate of 10 bits per second. The total broadcast was less than three minutes.<ref name="phoneet" /><ref>{{cite book|date=2006-03-03 |first1=Jay M. |last1=Pasachoff|first2=Alex |last2=Filippenko |title= The Cosmos: Astronomy in the New Millennium| chapter=Chapter 20: Life in the Universe|publisher=Cengage Learning |location=Boston |isbn=9780495013037 |url=http://www.williams.edu/Astronomy/jay/ETU5/chapter20_5th.html| access-date=2007-05-05}}</ref>
+
+The number 1,679 was chosen because it is a [[semiprime]] (the product of two [[prime number]]s), to be [[raster scan|arranged rectangularly]] as 73 rows by 23 columns.<ref>{{cite book |last1=Oberhaus |first1=Daniel |title=Extraterrestrial Languages |date=2019-10-22 |publisher=MIT Press |isbn=978-0-262-04306-9 |page=171 |url=https://books.google.com/books?id=2CWzDwAAQBAJ |language=en}}</ref> [[:File:AreciboMessageShifted.svg|The alternative arrangement]], 23 rows by 73 columns, produces an unintelligible set of characters.
+
+===Message as binary string===
+The message as a binary string is included below. Note that the choice of 1 representing higher frequency and 0 representing lower frequency is entirely arbitrary and the line breaks after every 23 bits are only included to allow for some ease in human readability.<ref>{{Cite web |date=2015-03-26 |title=Arecibo Message as (73 by 23) |last=Brau |first=Jim |url=https://pages.uoregon.edu/jimbrau/astr123/Notes/ch28/73by23.html |website=University of Oregon |access-date=2022-06-01}}</ref>
+{{Collapse top|Full binary message}}
+<pre>
+00000010101010000000000
+00101000001010000000100
+10001000100010010110010
+10101010101010100100100
+00000000000000000000000
+00000000000011000000000
+00000000001101000000000
+00000000001101000000000
+00000000010101000000000
+00000000011111000000000
+00000000000000000000000
+11000011100011000011000
+10000000000000110010000
+11010001100011000011010
+11111011111011111011111
+00000000000000000000000
+00010000000000000000010
+00000000000000000000000
+00001000000000000000001
+11111000000000000011111
+00000000000000000000000
+11000011000011100011000
+10000000100000000010000
+11010000110001110011010
+11111011111011111011111
+00000000000000000000000
+00010000001100000000010
+00000000001100000000000
+00001000001100000000001
+11111000001100000011111
+00000000001100000000000
+00100000000100000000100
+00010000001100000001000
+00001100001100000010000
+00000011000100001100000
+00000000001100110000000
+00000011000100001100000
+00001100001100000010000
+00010000001000000001000
+00100000001100000000100
+01000000001100000000100
+01000000000100000001000
+00100000001000000010000
+00010000000000001100000
+00001100000000110000000
+00100011101011000000000
+00100000001000000000000
+00100000111110000000000
+00100001011101001011011
+00000010011100100111111
+10111000011100000110111
+00000000010100000111011
+00100000010100000111111
+00100000010100000110000
+00100000110110000000000
+00000000000000000000000
+00111000001000000000000
+00111010100010101010101
+00111000000000101010100
+00000000000000101000000
+00000000111110000000000
+00000011111111100000000
+00001110000000111000000
+00011000000000001100000
+00110100000000010110000
+01100110000000110011000
+01000101000001010001000
+01000100100010010001000
+00000100010100010000000
+00000100001000010000000
+00000100000000010000000
+00000001001010000000000
+01111001111101001111000</pre>
+{{Collapse bottom}}
+
+===Numbers===
+[[Image:Arecibo message part 1.png|Part 1 — The numbers from 1 to 10|right]]
+
+ 1 2 3 4 5 6 7  8  9 10
+ ----------------------
+ 0 0 0 1 1 1 1 00 00 00
+ 0 1 1 0 0 1 1 00 00 10
+ 1 0 1 0 1 0 1 01 11 01
+ X X X X X X X X  X  X <-Least-significant-digit marker.
+
+The numbers from [[1 (number)|1]] to [[10 (number)|10]] appear in [[Binary numeral system|binary]] format, to be read from the top down. The bottom row contains markers which indicate the column from which the binary code for each number is intended to begin.
+
+Even assuming that any extraterrestrial recipients would recognize binary, the encoding of the numbers may not be immediately obvious because of the way they have been written. To read the first seven digits, ignore the bottom row, and read them as three binary digits from top to bottom, with the top digit being the most significant. The readings for 8, 9, and 10 are a little different, as their binary code has been distributed across an additional column next to the first (to the right in the image). This is intended to show that numbers too large to fit in a single column can be written in several contiguous ones (a scheme which is used elsewhere in the message). The additional columns are not marked by the least-significant-digit marker.
+
+=== DNA elements ===
+[[Image:Arecibo message part 2.png|Part 2 — The elements constituting DNA|right]]
+
+ H C N O P
+ 1 6 7 8 15
+ ----------
+ 0 0 0 1 1
+ 0 1 1 0 1
+ 0 1 1 0 1
+ 1 0 1 0 1
+ X X X X X
+
+The numbers 1, 6, 7, 8, and 15 appear, denoting the [[atomic numbers]] of [[hydrogen]] (H), [[carbon]] (C), [[nitrogen]] (N), [[oxygen]] (O), and [[phosphorus]] (P), the elements from which [[DNA]] is composed.
+
+===Nucleotides===
+
+{| style="width: 100%; font-size: 16px; line-height: 20px"
+|-
+| rowspan="6" style="width: 0%; height: 306px" | [[Image:Arecibo message part 3.png|Part 3 — The nucleotides of DNA]]
+| colspan="5" style="width: 100%; height: 59px" |
+|-
+| style="padding-left: 1.5em" | [[Deoxyribose]]<br />(C<sub>5</sub>H<sub>7</sub>O)
+| style="padding-left: 1.5em" | [[Adenine]]<br />(C<sub>5</sub>H<sub>4</sub>N<sub>5</sub>)
+| style="padding-left: 1.5em" | [[Thymine]]<br />(C<sub>5</sub>H<sub>5</sub>N<sub>2</sub>O<sub>2</sub>)
+| style="padding-left: 1.5em" | [[Deoxyribose]]<br />(C<sub>5</sub>H<sub>7</sub>O)
+| style="width: 100%; height: 47px" |
+|-
+| style="padding-left: 1.5em" | [[Phosphate]]<br />(PO<sub>4</sub>)
+|
+|
+| style="padding-left: 1.5em" | [[Phosphate]]<br />(PO<sub>4</sub>)
+| style="width: 100%; height: 47px" |
+|-
+| style="padding-left: 1.5em" | [[Deoxyribose]]<br />(C<sub>5</sub>H<sub>7</sub>O)
+| style="padding-left: 1.5em" | [[Cytosine]]
+
+(C<sub>4</sub>H<sub>4</sub>N<sub>3</sub>O)
+| style="padding-left: 1.5em" | [[Guanine]]
+
+(C<sub>5</sub>H<sub>4</sub>N<sub>5</sub>O)
+| style="padding-left: 1.5em" | [[Deoxyribose]]<br />(C<sub>5</sub>H<sub>7</sub>O)
+| style="width: 100%; height: 47px" |
+|-
+| style="padding-left: 1.5em" | [[Phosphate]]<br />(PO<sub>4</sub>)
+|
+|
+| style="padding-left: 1.5em" | [[Phosphate]]<br />(PO<sub>4</sub>)
+| style="width: 100%; height: 47px" |
+|-
+| colspan="5" style="width: 100%; height: 59px" |
+|}
+
+The chemical groups from which the [[nucleotide]]s of polymeric DNA sequences are built – the sugar [[deoxyribose]], [[phosphate]], and the four canonical [[nucleobase]]s used in DNA – are then described as sequences of the five elements that appear on the preceding line. Each sequence represents the [[molecular formula]] of the chemical as it exists when incorporated into DNA (as opposed to the free form).
+
+For example, the compound in the top left in the image is deoxyribose (C<sub>5</sub>H<sub>7</sub>O in DNA, C<sub>5</sub>H<sub>10</sub>O<sub>4</sub> when free), whose formula is read as:
+
+ 11000
+ 10000
+ 11010
+ XXXXX
+ -----
+ 75010
+
+i.e., 7 atoms of hydrogen, 5 atoms of carbon, 0 atoms of nitrogen, 1 atom of oxygen, and 0 atoms of phosphorus.
+
+It is displayed in this order because the DNA Elements in the previous section (Purple image as reference) describe [[hydrogen]] (H), [[carbon]] (C), [[nitrogen]] (N), [[oxygen]] (O), and [[phosphorus]] (P) in that order as well.
+
+===Double helix===
+[[Image:Arecibo message part 4.png|Part 4 — The DNA double helix structure|right]]
+
+ 11
+ 11
+ 11
+ 11
+ 11
+ 01
+ 11
+ 11
+ 01
+ 11
+ 01
+ 11
+ 10
+ 11
+ 11
+ 01
+ X
+
+ 11111111 11110111 11111011 01011110 (binary) [Using the double vertical columns above, read from top to bottom starting from the right column first, and then top to bottom from the left column.]
+ = 4,294,441,822 (decimal)
+
+A graphic of the approximate shape of the [[double helix]] in which double-stranded DNA polymers naturally exist; the vertical bar in the middle is a binary representation of the number of nucleotide [[base pair]]s in the [[human genome]]. The value depicted is around 4.3 billion, which was believed to be the case when the message was transmitted in 1974; it is now known that there are only approximately 3.2 billion base pairs in the human genome.
+
+===Humanity===
+
+{|
+| style="vertical-align: top" |[[Image:Arecibo message part 5.png|Part 5 — Human form, the height and population of humans|thumb]]
+|<pre style="width:35em">  ʌ             X011011
+  |              111111
+  |              110111
+X0111            111011
+  |              111111
+  v              110000
+</pre>
+ 1110 (binary) = 14 (decimal)
+
+ 000011 111111 110111 111011 111111 110110 (binary)
+ = 4,292,853,750 (decimal)
+|}
+
+The graphic in the center is a simple illustration of a human being. The element on the left (in the image) indicates the average height of an [[Average human height by country|adult male in the US]]: {{cvt|1.764|m|ftin|1}}. This value is indicated by a horizontally written binary representation of the number 14, which is intended to be multiplied by the [[wavelength]] of the message (126&nbsp;mm); 14 × 126 = 1,764 millimeters.
+
+The element on the right of the image indicates the size of the global human population in 1974, approximately 4.3&nbsp;billion (which, coincidentally, is within 0.1% of the number of DNA base pairs suggested for the size of the human genome earlier in the message). In this case, the number is oriented in the data horizontally rather than vertically. The least-significant-digit marker is in the upper left in the image, with bits going to the right and more significant digits below.
+
+===Planets===
+[[Image:Arecibo message part 6.png|Part 6 — The Sun and the planets|left]]
+<pre style="width: 60em">                  Earth
+Sun Mercury Venus       Mars Jupiter Saturn Uranus Neptune Pluto</pre>
+{{clear}}
+
+A graphic depicting the [[Solar System]], showing the [[Sun]] and the (then) nine planets in the order of their distance from the Sun: [[Mercury (planet)|Mercury]], [[Venus]], [[Earth]], [[Mars]], [[Jupiter]], [[Saturn]], [[Uranus]], [[Neptune]], and [[Pluto]] (Pluto was [[Pluto#IAU classification|reclassified]] in 2006 as a [[dwarf planet]] by the [[International Astronomical Union]]). Earth is the third planet from the [[Sun]]; its graphic is shifted up to identify it as the planet from which the signal was sent. Additionally, the human figure is shown just above the Earth graphic.
+
+In addition to showing position, the graphic provides a general, not-to-scale size reference of each planet and the Sun.
+
+===Telescope===
+
+[[Image:Arecibo message part 7.png|Part 7 — The Arecibo radio telescope|left]]
+<pre style="max-width: 35em">bottom middle two rows shown in White as reference in the image:
+     100101
+<--- 111110X ---></pre><pre style="max-width: 35em">100101 111110 (binary) = 2,430 (decimal)</pre>
+
+{{clear}}
+
+[[Image:AreciboMessageShifted.svg|The Arecibo message depicted as 23 rows and 73 columns. The meaningful shapes that appear in the intended format (73 rows and 23 columns) are not visible.|thumb|right]]
+
+The last part is a graphic representing the [[Arecibo radio telescope]] and indicating its [[diameter]] with a binary representation of the number 2,430; multiplying by the wavelength of 126&nbsp;mm gives {{cvt|306.18|m|ftin|0}}. In this case, the number is oriented horizontally, with the least-significant-digit marker to the lower right in the image.
+
+The part of the image that resembles a letter "M" is there to demonstrate that the curved line is a concave [[curved mirror]].
+
+== Arecibo Answer crop circle hoax ==
+<!-- DO NOT remove the word “hoax” from the section title without a consensus on the talk page -->
+{{anchor|Arecibo reply}}
+[[Image:Chilbolton_crop_circle.svg|125px|right|thumb|The ''Arecibo reply'' was the name given to a crop circle that was made in the farmland next to the Chilbolton radio telescope in Hampshire, UK, on 19 August 2001. It was 75 feet wide and 120 feet long.]]
+
+The "Hampshire pattern" or "Chilbolton Code formation" or "Arecibo answer" was a [[crop circle]] that appeared in 2001 near the [[Chilbolton Observatory|Chilbolton radio telescope]] in [[Hampshire, UK]], which echoed the visual representation and most of the information from the original Arecibo message with some significant differences including location/origin, DNA configuration, and appearance.
+
+The SETI Institute Online rebutted the idea that this was a genuine extraterrestrial response, by saying, "This is highly improbable. There is no evidence to suggest an other-than-earthly origin for these graphics."<ref name="Griffin2018">{{Cite web |url=https://www.independent.co.uk/tech/arecibo-message-decoded-meaning-google-doodle-reply-audio-response-explained-a8636856.html |title=Arecibo message: What happened when people claimed aliens contacted them – and why we might never want to |date=2018-11-16 |first=Andrew |last=Griffin |access-date=2022-05-13 |newspaper=[[The Independent]]|location=London|archiveurl=https://web.archive.org/web/20250731160031/https://www.the-independent.com/tech/arecibo-message-decoded-meaning-google-doodle-reply-audio-response-explained-a8636856.html|archivedate=2025-07-31|url-status=live}}</ref><ref>{{Cite web|title=Is the Latest Crop Circle a Message from E.T?|publisher=[[SETI|SETI Institute Online]]|work=General Information |url=http://seti.org/general/ao_message_crop.html|archive-url=https://web.archive.org/web/20041013062350/http://seti.org/general/ao_message_crop.html|archive-date=2004-10-13|access-date=2019-11-18}}</ref> The crop circle is a near replica of the Arecibo message, with the same 23 × 73 grid. Most of the chemical data remains the same, with the exception that in the section detailing important chemical elements, [[Hypothetical types of biochemistry#Silicon biochemistry|silicon]] has been added, and the diagram of DNA has been rewritten. At the bottom, the pictogram of a human is replaced with a [[grey alien|figure with a large, bulbous head]].<ref>{{cite web|url=https://livenewsdaily.in/arecibo-message/|last=Chitnavis|first=Urvashi|title=The Arecibo Message: What happened when humanity tried to communicate with aliens|date=2018-03-30|website=Qrius|language=en-GB|access-date=2019-11-18|archiveurl=https://web.archive.org/web/20250226123900/https://livenewsdaily.in/arecibo-message/|archivedate=2025-02-26|url-status=live}}</ref><ref name="Griffin2018" /> A solar system with nine planets is also depicted, with emphasis placed on the 3rd, 4th, and 5th planets of the system. The Arecibo telescope is replaced by a replica of a crop circle that appeared in the same field one year before, and the binary representation of the transmitter's diameter is altered.<ref>{{Cite web |last=Schnabel |first=Jim |date=2002-08-08 |title=Top of the crops 2001 |work=Circlemakers}} (''circlemakers.org/totc2001.html'').</ref><ref>{{Cite web|title=The Chilbolton 'Arecibo message' Formation| last=Vigay | first=Paul |date=2001-08-26 |url=http://www.cropcircleresearch.com/articles/arecibo.html|access-date=2020-12-05|website=Cropcircle Research |location=Hampshire, UK|archiveurl=https://web.archive.org/web/20240113183015/https://www.cropcircleresearch.com/articles/arecibo.html|archivedate=2024-01-13|url-status=dead}}</ref>
+
+== Computational analysis ==
+Some researchers have analysed whether the Arecibo signal could be identified as a carrying message by some [[Information theory|information theoretic]] measure that was agnostic in the sense that it does not know the particular shapes of a human or double-helix etc. Presumably such an agnostic measure would be all that any potential ETI could apply to this signal. It is also a useful testbed for humanity's own ability to detect potential extraterrestrial signals, as we would presumably be similarly agnostic about any shapes particularly special to the broadcasting ETI.
+
+Mahon (2025)<ref>{{Cite journal
+ | last1 = Mahon | first1 = Louis
+ | title = Local Compositional Complexity: how to detect a human-readable message
+ | journal = Entropy
+ | date = 2025-03-25
+ | volume = 27
+ | issue = 4
+ | page = 339
+ | doi = 10.3390/e27040339
+ | pmid = 40282574
+ | pmc = 12025590
+ | arxiv = 2501.03664
+ | bibcode = 2025Entrp..27..339M
+ | doi-access = free
+ }}</ref> described an information theoretic measure of complexity, the LCC score, that gives a high score to human language and meaningful images (such as photographs or drawings), and to the Arecibo message, while also giving a low score to random noise signals and simple repetitive signals. This measure also identified the correct aspect ratio of 73 by 23. Other attempts have been made with varying degrees of success. Zenil et al. (2023)<ref>{{Cite arXiv|title=An optimal, universal and agnostic decoding method for message reconstruction, bio and technosignature detection |last=Zenil |first=Hector |date=2025-10-01 |class=cs.IT |eprint=2303.16045 }}</ref> also identified the correct aspect ratio and distinguished it from random noise signals, but not from uniform or repetitive signals. McCowan et al. (1999) described a measure called entropic slope,<ref>{{Cite journal
+ | last1 = McCowan | first1 = Brenda
+ | last2 = Hanser | first2 = Sean F.
+ | last3 = Doyle | first3 = Laurance R.
+ | title = Quantitative tools for comparing animal communication systems: information theory applied to bottlenose dolphin whistle repertoires
+ | journal = Animal Behaviour
+ | date = 1999-02-01
+ | volume = 57
+ | issue = 2
+ | pages = 409–419
+ | doi = 10.1006/anbe.1998.1000
+ | pmid = 10049481
+ | url = https://www.sciencedirect.com/science/article/abs/pii/S0003347298910004
+| url-access = subscription
+ }}</ref> which could differentiate between random noise or repetitive signals, and meaningful vocalisations by multiple species including humans, but did not detect a message in the Arecibo signal.
+
+==See also==
+* [[Active SETI]]
+* [[Communication with extraterrestrial intelligence]] (CETI)
+* ''[[Cosmos (2019 film)|Cosmos]]'', a 2019 science fiction film featuring a response to the Arecibo message
+* [[List of interstellar radio messages]]
+* [[METI (Messaging Extraterrestrial Intelligence)]] (organization)
+* [[Pioneer plaque]]
+* [[Voyager Golden Record]]
+* [[Wow! signal]]
+
+== References ==
+{{Reflist|30em}}
+
+== External links ==
+* {{Commons category-inline|Arecibo message}}
+
+{{Interstellar messages}}
+{{Portal bar|Astronomy| Biology|Radio|Stars|Spaceflight|Solar System|Language|Society}}
+
+[[Category:Interstellar messages]]
+[[Category:Search for extraterrestrial intelligence]]
+[[Category:Time capsules]]
+[[Category:Technology in society]]
+[[Category:1974 in science]]
+[[Category:1974 in Puerto Rico]]
+[[Category:Hercules (constellation)]]
+[[Category:Arecibo, Puerto Rico]]
