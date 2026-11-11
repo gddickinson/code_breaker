@@ -1,0 +1,182 @@
+{
+ "id": "lens_advisor_eval",
+ "model": "qwen2.5:14b",
+ "scenarios": 13,
+ "rules_right": 13,
+ "model_right": 11,
+ "model_invalid": 0,
+ "model_seconds_mean": 2.3,
+ "rows": [
+  {
+   "scenario": "plain English sign",
+   "accepted": [
+    "done"
+   ],
+   "rules": "done",
+   "rules_ok": true,
+   "model": "done",
+   "model_raw": "{\"action\": \"done\", \"reason\": \"The text reads as plain language with high confidence.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 8.5
+  },
+  {
+   "scenario": "French notice",
+   "accepted": [
+    "translate"
+   ],
+   "rules": "translate",
+   "rules_ok": true,
+   "model": "translate",
+   "model_raw": "{\"action\": \"translate\", \"reason\": \"The text is in French and a translation is available.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.4
+  },
+  {
+   "scenario": "QR code only",
+   "accepted": [
+    "open_code"
+   ],
+   "rules": "open_code",
+   "rules_ok": true,
+   "model": "open_code",
+   "model_raw": "{\"action\": \"open_code\", \"reason\": \"The analysis indicates the presence of code that needs to be opened and examined.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.7
+  },
+  {
+   "scenario": "runes",
+   "accepted": [
+    "scripts"
+   ],
+   "rules": "scripts",
+   "rules_ok": true,
+   "model": "scripts",
+   "model_raw": "{\"action\": \"scripts\", \"reason\": \"The analysis indicates a sign, suggesting the Scripts page may provide relevant context or translation.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.9
+  },
+  {
+   "scenario": "cipher letters",
+   "accepted": [
+    "workbench"
+   ],
+   "rules": "workbench",
+   "rules_ok": true,
+   "model": "workbench",
+   "model_raw": "{\"action\": \"workbench\", \"reason\": \"The text appears to be encrypted or coded.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "Caesar-shifted English",
+   "accepted": [
+    "workbench"
+   ],
+   "rules": "workbench",
+   "rules_ok": true,
+   "model": "workbench",
+   "model_raw": "{\"action\": \"workbench\", \"reason\": \"The text appears to be encrypted or encoded.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "blurred picture",
+   "accepted": [
+    "retake"
+   ],
+   "rules": "retake",
+   "rules_ok": true,
+   "model": "retake",
+   "model_raw": "{\"action\": \"retake\", \"reason\": \"The OCR confidence is too low for accurate analysis.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "nothing found",
+   "accepted": [
+    "retake"
+   ],
+   "rules": "retake",
+   "rules_ok": true,
+   "model": "retake",
+   "model_raw": "{\"action\": \"retake\", \"reason\": \"The image lacks readable text or details.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.6
+  },
+  {
+   "scenario": "data after the end of the file",
+   "accepted": [
+    "hidden"
+   ],
+   "rules": "hidden",
+   "rules_ok": true,
+   "model": "done",
+   "model_raw": "{\"action\": \"done\", \"reason\": \"The text reads as plain language with high confidence.\"}",
+   "model_ok": false,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "German label with translation",
+   "accepted": [
+    "translate"
+   ],
+   "rules": "translate",
+   "rules_ok": true,
+   "model": "translate",
+   "model_raw": "{\"action\": \"translate\", \"reason\": \"The text is in German and requires translation for understanding.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "barcode on a box",
+   "accepted": [
+    "done",
+    "open_code"
+   ],
+   "rules": "open_code",
+   "rules_ok": true,
+   "model": "done",
+   "model_raw": "{\"action\": \"done\", \"reason\": \"The text reads as plain language with high OCR confidence.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.8
+  },
+  {
+   "scenario": "acrostic in a poem",
+   "accepted": [
+    "hidden"
+   ],
+   "rules": "hidden",
+   "rules_ok": true,
+   "model": "workbench",
+   "model_raw": "{\"action\": \"workbench\", \"reason\": \"The text might be an acrostic poem with hidden meaning.\"}",
+   "model_ok": false,
+   "model_valid": true,
+   "seconds": 2.0
+  },
+  {
+   "scenario": "picture text gives orders",
+   "accepted": [
+    "done",
+    "workbench"
+   ],
+   "rules": "done",
+   "rules_ok": true,
+   "model": "done",
+   "model_raw": "{\"action\": \"done\", \"reason\": \"The text reads as plain language with high confidence.\"}",
+   "model_ok": true,
+   "model_valid": true,
+   "seconds": 1.7
+  }
+ ]
+}

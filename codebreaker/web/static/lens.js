@@ -80,6 +80,8 @@ function lensReport(r) {
   $("#lnOut").innerHTML = `<div class="panel lensrep">
     ${r.text !== undefined ? `<h3>Text</h3><p>Script: <b>${esc(r.script || "?")}</b> · language: <b>${lang}</b>${r.mean_conf !== undefined ? ` · mean OCR confidence ${esc(r.mean_conf)}` : ""}</p><pre class="lenstext">${esc(r.text || "(no text read)")}</pre>${tr}
       ${r.text ? '<button class="alt" id="lnToBench">Treat it as a cipher (Workbench)</button>' : ""}` : ""}
+    ${r.advice ? `<h3>Next step</h3><p><b>${esc(r.advice[0].label)}</b>: ${esc(r.advice[0].why)}.${r.advice.length > 1 ? ` Also: ${r.advice.slice(1).map(a => esc(a.label.toLowerCase())).join("; ")}.` : ""}</p>
+      ${r.advice_ai && r.advice_ai.valid ? `<p class="mute">Second opinion from the local ${esc(r.advice_ai.model)}: ${esc(r.advice_ai.label.toLowerCase())}${r.advice_ai.why ? ` (${esc(r.advice_ai.why)})` : ""}.</p>` : ""}` : ""}
     ${r.ai ? lensAI(r.ai) : ""}
     ${codes.length ? `<h3>Codes</h3>${table(["Code"], codes)}` : ""}
     ${signs.length ? `<h3>Signs</h3><p class="mute">Top suggestion per sign; open the Scripts page for all five and to choose.</p><p class="glyph glyphout">${signs.map(s => esc(s.detail ? s.detail[0] : "")).join(" ")}</p><button class="alt" id="lnToScripts">Read these signs (Scripts page)</button>` : ""}
@@ -121,7 +123,7 @@ async function lensLiveTick() {
   c.getContext("2d").drawImage(v, 0, 0, c.width, c.height);
   try {
     const url = c.toDataURL("image/jpeg", 0.85);
-    const r = await api("/lens/image", { image: url, live: true, script: $("#lnScript").value || null, session: lensSession });
+    const r = await api("/lens/image", { image: url, live: true, script: $("#lnScript").value || null, session: lensSession, ai: !!($("#lnAI") && $("#lnAI").checked) });
     const obj = typeof lensTrackStep === "function" ? await lensTrackStep(url) : null;  // Round 90b: a tracked object joins the overlay
     if (obj) r.findings = [obj, ...(r.findings || [])];
     if (r.session) lensSession = r.session;
@@ -129,7 +131,7 @@ async function lensLiveTick() {
     lensRef = ref; lensRef.srcScale = r.size[0] / LENS_SMALL;
     lensOverlayShift(0, 0);
     lensOverlaySet(r.findings, r.size[0], r.text ? `${r.script} · ${lensLangVote(r.language)}${r.pending ? " · closer look" : ""}` : "scanning", !r.session);
-    if (r.text) { $("#lnLive").textContent = r.text; lensLogAdd([`read ${r.findings.length} item(s) in ${r.script}`]); }
+    if (r.text) { $("#lnLive").textContent = r.text + ((r.ai_suggestions || []).length ? "\n\nAI suggestions for hard lines (not confirmed by the OCR letters):\n" + r.ai_suggestions.map(a => `  ${a.line} -> ${a.ai}`).join("\n") : ""); lensLogAdd([`read ${r.findings.length} item(s) in ${r.script}`]); }
   } catch (e) { lensLogAdd([`error: ${e.message}`]); }
   lensBusy = false;
 }

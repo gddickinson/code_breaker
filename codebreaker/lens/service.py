@@ -52,20 +52,21 @@ def text_findings(o: dict) -> list[dict]:
     return out
 
 
-def live(data: bytes, session: str | None) -> dict:
+def live(data: bytes, session: str | None, ai: bool = False) -> dict:
     """A live frame through its session (live_session): lines compiled across frames, with tips for the user."""
     from . import live_session
 
     img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_GRAYSCALE)
     if img is None:
         raise ValueError("The picture could not be read.")
-    r = live_session.live_frame(session, img)
+    r = live_session.live_frame(session, img, ai)
     findings = [{"kind": "text", "label": l["text"], "box": l["box"], "quad": l["quad"], "confidence": l["agreement"], "status": l["status"]} for l in r["lines"]]
     findings += codes(img)
     text = "\n".join(l["text"] for l in sorted(r["lines"], key=lambda l: (l["box"][1], l["box"][0])))
     lang = ocr.language(text, "Latin") if text else None
     return {"size": [int(img.shape[1]), int(img.shape[0])], "session": r["session"], "findings": findings, "text": text, "script": "Latin",
-            "language": lang, "tips": r["tips"], "pending": r["pending"], "log": [f"frame {r['frame']}: {len(r['lines'])} line(s) tracked"]}
+            "language": lang, "tips": r["tips"], "pending": r["pending"], "log": [f"frame {r['frame']}: {len(r['lines'])} line(s) tracked"],
+            "ai_suggestions": [{"line": l["text"], "ai": l["ai"]["text"], "ai_only": l["ai"]["ai_only"]} for l in r["lines"] if l.get("ai") and l["ai"]["ai_only"]]}
 
 
 def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None, ai: bool = False) -> dict:
@@ -133,6 +134,11 @@ def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: 
     res["stego_channels"] = {k: {a: b for a, b in v.items() if a != "bit_plane"} for k, v in st["channels"].items()}
     findings += st["findings"] + textscan.scan(o["text"])
     res["log"].append(f"hidden-message checks: {len(st['findings'])} in the file, {len(findings) - len(st['findings'])} other findings")
+    from .advisor import ask_model, rules  # what to do next (Round 90c): rules always, the local text model if asked
+
+    res["advice"] = rules(res)
+    if ai:
+        res["advice_ai"] = ask_model(res)
     return res
 
 

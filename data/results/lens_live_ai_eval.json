@@ -1,0 +1,66 @@
+{
+ "id": "lens_live_ai_eval",
+ "model": "qwen2.5vl:7b",
+ "results": {
+  "real words, text 14 px": {
+   "lines": 6,
+   "ocr_recall": 1.0,
+   "ai_recall": 1.0,
+   "joined_vote": 6,
+   "joined_and_exact": 6,
+   "ai_only_words": 0,
+   "invented_dictionary_words": 0,
+   "ai_seconds_mean": 6.4
+  },
+  "real words, text 10 px": {
+   "lines": 6,
+   "ocr_recall": 0.458,
+   "ai_recall": 1.0,
+   "joined_vote": 2,
+   "joined_and_exact": 2,
+   "ai_only_words": 12,
+   "invented_dictionary_words": 0,
+   "ai_seconds_mean": 6.6
+  },
+  "real words, text 8 px": {
+   "lines": 6,
+   "ocr_recall": 0.0,
+   "ai_recall": 0.958,
+   "joined_vote": 0,
+   "joined_and_exact": 0,
+   "ai_only_words": 23,
+   "invented_dictionary_words": 1,
+   "ai_seconds_mean": 6.7
+  },
+  "nonsense, text 14 px": {
+   "lines": 6,
+   "ocr_recall": 0.333,
+   "ai_recall": 0.875,
+   "joined_vote": 4,
+   "joined_and_exact": 3,
+   "ai_only_words": 5,
+   "invented_dictionary_words": 0,
+   "ai_seconds_mean": 6.8
+  },
+  "nonsense, text 10 px": {
+   "lines": 6,
+   "ocr_recall": 0.417,
+   "ai_recall": 0.833,
+   "joined_vote": 1,
+   "joined_and_exact": 1,
+   "ai_only_words": 14,
+   "invented_dictionary_words": 0,
+   "ai_seconds_mean": 6.6
+  },
+  "nonsense, text 8 px": {
+   "lines": 6,
+   "ocr_recall": 0.0,
+   "ai_recall": 0.583,
+   "joined_vote": 0,
+   "joined_and_exact": 0,
+   "ai_only_words": 24,
+   "invented_dictionary_words": 0,
+   "ai_seconds_mean": 6.1
+  }
+ }
+}

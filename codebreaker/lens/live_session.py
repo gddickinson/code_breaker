@@ -52,6 +52,7 @@ class Track:
     def __init__(self, quad: np.ndarray):
         self.quad, self.votes, self.seen, self.last = quad, Counter(), 0, 0
         self.best_view, self.best_sharp, self.deep, self.deep_pending, self.frames_conf = None, -1.0, None, False, []
+        self.ai = None  # the vision model's reading of a hard line (live_ai.py, Round 90c)
 
     def text(self) -> str:
         return self.votes.most_common(1)[0][0] if self.votes else ""
@@ -63,6 +64,8 @@ class Track:
     def status(self) -> str:
         if self.deep and self.deep == self.text():
             return "confirmed by the thorough analyser"
+        if self.ai and not self.ai["ai_only"] and self.ai["text"] == self.text():
+            return "confirmed by the vision model and the OCR letters"
         if self.seen >= 3 and self.agreement() >= 0.6:
             return "agreed over frames"
         return "reading"
@@ -146,6 +149,10 @@ def _deep(session: Session, track: Track) -> None:
             if txt:
                 track.votes[txt] += DEEP_WEIGHT
                 track.deep = txt
+        if getattr(session, "ai", False):  # the user switched the second reader on
+            from .live_ai import ask
+
+            ask(session, track)
     finally:
         track.deep_pending = False
 
@@ -192,9 +199,10 @@ def coach(gray: np.ndarray, lines: list[tuple], session: "Session") -> list[str]
     return tips
 
 
-def live_frame(sid: str | None, gray: np.ndarray) -> dict:
+def live_frame(sid: str | None, gray: np.ndarray, ai: bool = False) -> dict:
     """One live frame: align, vote, maybe hand a line to the thorough analyser; lines in this frame's pixels."""
     s = get(sid)
+    s.ai = ai
     lines = rapid_lines(gray)
     with s.lock:
         s.frame += 1
@@ -213,7 +221,8 @@ def live_frame(sid: str | None, gray: np.ndarray) -> dict:
             q = cv2.perspectiveTransform(t.quad.reshape(-1, 1, 2), Hinv).reshape(-1, 2)
             x, y, w, h = _rect(q)
             out.append({"text": t.text(), "box": [round(x), round(y), round(w), round(h)], "quad": q.round(1).tolist(), "seen": t.seen,
-                        "agreement": round(t.agreement(), 2), "status": t.status(), "stale": s.frame - t.last})
+                        "agreement": round(t.agreement(), 2), "status": t.status(), "stale": s.frame - t.last,
+                        "ai": t.ai and {k: t.ai[k] for k in ("text", "ai_only")}})
         tips = coach(gray, lines, s)
     return {"session": s.id, "frame": s.frame, "resets": s.resets, "lines": out, "pending": sum(t.deep_pending for t in s.tracks), "tips": tips}
 
