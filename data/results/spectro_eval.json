@@ -1,0 +1,84 @@
+{
+ "id": "spectro_eval",
+ "trials": 8,
+ "carriers": {
+  "noise": {
+   "structure_threshold": 0.494,
+   "ocr_false_alarms_on_clean": 0.0,
+   "by_level_db": {
+    "0": {
+     "ocr_read_word": 1.0,
+     "structure_detected": 1.0
+    },
+    "-10": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 1.0
+    },
+    "-15": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 0.12
+    },
+    "-20": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 0.0
+    },
+    "-25": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 0.0
+    }
+   }
+  },
+  "song": {
+   "structure_threshold": 37.518,
+   "ocr_false_alarms_on_clean": 0.0,
+   "by_level_db": {
+    "0": {
+     "ocr_read_word": 0.88,
+     "structure_detected": 1.0
+    },
+    "-10": {
+     "ocr_read_word": 0.62,
+     "structure_detected": 0.25
+    },
+    "-15": {
+     "ocr_read_word": 0.5,
+     "structure_detected": 0.0
+    },
+    "-20": {
+     "ocr_read_word": 0.12,
+     "structure_detected": 0.0
+    },
+    "-25": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 0.0
+    }
+   }
+  },
+  "sweep": {
+   "structure_threshold": 7.282,
+   "ocr_false_alarms_on_clean": 0.0,
+   "by_level_db": {
+    "0": {
+     "ocr_read_word": 1.0,
+     "structure_detected": 1.0
+    },
+    "-10": {
+     "ocr_read_word": 1.0,
+     "structure_detected": 1.0
+    },
+    "-15": {
+     "ocr_read_word": 1.0,
+     "structure_detected": 1.0
+    },
+    "-20": {
+     "ocr_read_word": 0.88,
+     "structure_detected": 1.0
+    },
+    "-25": {
+     "ocr_read_word": 0.0,
+     "structure_detected": 1.0
+    }
+   }
+  }
+ }
+}

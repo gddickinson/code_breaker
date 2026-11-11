@@ -30,6 +30,29 @@ async function sndRun(body) {
   sndShow(r);
 }
 
+
+/* Pictures hidden in sound (Round 82): write text into a spectrogram, or look for one in any recording. */
+function hiddenPanel() {
+  return `<h2>Pictures hidden in sound</h2><div class="panel"><p>A spectrogram shows loudness over frequency and time, so a picture can be written into sound: each moment's frequencies set to one column of the picture. You hear a hiss or a chirp; the spectrogram shows the words. Measured on generated sound: words hidden in noise are read by OCR down to 0 dB and spotted by a structure test down to -10 dB; in birdsong OCR reads half of them at -15 dB; under a tone almost to -20 dB. Clean audio never produced a false word.</p>
+    <div class="row"><div><label for="hdText">Text to hide</label><input id="hdText" value="CODE BREAKER" maxlength="40"></div>
+    <div><label for="hdCar">Carrier</label><select id="hdCar"><option value="noise">Noise</option><option value="song">Synthetic birdsong</option><option value="sweep">Tone sweep</option><option value="none">Nothing (picture only)</option></select></div>
+    <div><label for="hdLvl">Level, dB below the carrier</label><input id="hdLvl" type="number" value="-10" min="-40" max="10"></div></div>
+    <button id="hdGo">Hide it</button><div id="hdOut" aria-live="polite"></div>
+    <h3>Look for a hidden picture</h3><label class="filebtn">Choose a recording<input id="hdFile" type="file" accept="audio/*"></label><div id="hdRev" aria-live="polite"></div></div>`;
+}
+
+function hiddenWire() {
+  $("#hdGo").onclick = ev => busy(ev.target, $("#hdOut"), async () => {
+    const r = await api("/sounds/hide", { text: $("#hdText").value, carrier: $("#hdCar").value, level: +$("#hdLvl").value });
+    $("#hdOut").innerHTML = `<audio controls src="${r.wav}"></audio> <a href="${r.wav}" download="hidden.wav">Save the sound</a><img src="${r.spectrogram}" alt="Spectrogram of the sound" style="width:100%;margin-top:8px">`;
+  });
+  $("#hdFile").onchange = e => { const f = e.target.files[0]; if (!f) return; const rd = new FileReader(); rd.onload = () => busy($("#hdGo"), $("#hdRev"), async () => {
+    const r = await api("/sounds/reveal", { data: rd.result });
+    $("#hdRev").innerHTML = `<img src="${r.image}" alt="Spectrogram of the recording" style="width:100%">
+      <p>${r.words.length ? `Words read in the spectrogram: <b>${r.words.map(w => esc(w.text)).join(", ")}</b>.` : "No words read in the spectrogram."} Structure score ${esc(r.structure)} (clean noise stays under 0.5, synthetic birdsong under 38, a tone sweep under 7.3; a hidden picture raises it, but the score depends on the kind of sound, so judge it against similar recordings).</p>`;
+  }); rd.readAsDataURL(f); };
+}
+
 route(/^\/sounds$/, async () => {
   view().innerHTML = `<p class="kicker">// SOUND LAB</p><h1>Sound Lab</h1><p class="lead">Birdsong is a signal with an alphabet of syllables and rules for ordering them. This page turns a recording into that sequence, measures it, and asks two neural networks what made the sound.</p>
     <div class="panel"><div class="row"><div><label for="sndX">Example recording</label><select id="sndX"></select></div></div><button id="sndGo">Analyse example</button>
@@ -63,4 +86,6 @@ route(/^\/sounds$/, async () => {
   };
   const leave = () => { if (!location.hash.startsWith("#/sounds")) { stopRec(); removeEventListener("hashchange", leave); } };
   addEventListener("hashchange", leave);
+  view().insertAdjacentHTML("beforeend", hiddenPanel());
+  hiddenWire();
 }, "sounds");
