@@ -251,6 +251,8 @@ def _adfg(labels, alphabet, n):
         return "".join(s[labels.index(f[i]) * n + labels.index(f[i + 1])] for i in range(0, len(f) - 1, 2))
 
     def attack(ct, lang="en"):
+        if set(letters(ct)) - set(labels):  # anything else is not this cipher: pairs of 25 letters overfit to any reading (Round 87)
+            raise ValueError(f"not {labels} ciphertext")
         best = (-1.0, None)
         for w in keywords(lang, 2500, 4):
             f = col_decrypt(ct, w)

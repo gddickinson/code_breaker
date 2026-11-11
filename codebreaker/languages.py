@@ -16,7 +16,8 @@ FILES = {"en": ["en.txt", "en2.txt"], "fr": ["fr.txt"], "de": ["de.txt"], "it": 
 # Round 85b: extra cipher languages, corpora from Project Gutenberg fetched by scripts/fetch_corpora.py (not committed).
 # LANGS stays the six core languages that whole-corpus analyses loop over; the crack chooses among all with a corpus.
 EXTRA = {"nl": "Dutch", "pt": "Portuguese", "sv": "Swedish", "da": "Danish", "nb": "Norwegian", "fi": "Finnish", "hu": "Hungarian",
-         "pl": "Polish", "cs": "Czech", "eo": "Esperanto", "ca": "Catalan", "tl": "Tagalog"}
+         "pl": "Polish", "cs": "Czech", "eo": "Esperanto", "ca": "Catalan", "tl": "Tagalog",
+         "frad": "French (Le Figaro ads)"}  # frad: telegraphic French of the solved ads (mysteries/figaro_adlang.py, Round 87)
 FILES.update({c: [f"extra/{'no' if c == 'nb' else c}.txt"] for c in EXTRA})
 
 
