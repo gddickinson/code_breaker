@@ -16,6 +16,7 @@ class ImageIn(BaseModel):
     signs: str = "auto"
     script: str | None = None
     session: str | None = None
+    ai: bool = False
 
 
 class TextIn(BaseModel):
@@ -61,11 +62,18 @@ def image(body: ImageIn):
             from ..lens.service import live
             res = live(data, body.session)
         else:
-            res = analyse_image(data, body.live, body.signs, body.script or None, body.session)
+            res = analyse_image(data, body.live, body.signs, body.script or None, body.session, body.ai)
         _keep(json.dumps({k: res.get(k) for k in ("script", "language", "text", "mean_conf", "translation")}, ensure_ascii=False).encode(), f"{'live' if body.live else 'still'}_result")
         return res
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(400, str(exc)) from exc
+
+
+@router.get("/api/ai/status")
+def ai_status():
+    from ..ai_local import status
+
+    return status()
 
 
 @router.post("/api/lens/text")

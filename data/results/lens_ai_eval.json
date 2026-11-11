@@ -1,0 +1,47 @@
+{
+ "id": "lens_ai_eval",
+ "model": "qwen2.5vl:7b",
+ "results": {
+  "real words": {
+   "pictures": 6,
+   "truth_words": 72,
+   "ocr_recall": 1.0,
+   "ai_recall": 1.0,
+   "confirmed_precision": 1.0,
+   "ai_only_precision": 0.0,
+   "ai_words": 72,
+   "ai_invented_dictionary_words": 0,
+   "ocr_seconds_mean": 7.4,
+   "ai_seconds_mean": 6.4
+  },
+  "nonsense strings": {
+   "pictures": 6,
+   "truth_words": 72,
+   "ocr_recall": 0.556,
+   "ai_recall": 1.0,
+   "confirmed_precision": 1.0,
+   "ai_only_precision": 1.0,
+   "ai_words": 72,
+   "ai_invented_dictionary_words": 0,
+   "ocr_seconds_mean": 7.9,
+   "ai_seconds_mean": 7.2
+  },
+  "blank paper": {
+   "pictures": 3,
+   "ai_words": 0,
+   "ocr_words": 49
+  },
+  "tin photo (user's, by-eye words)": {
+   "pictures": 1,
+   "truth_words": 53,
+   "ocr_recall": 0.66,
+   "ai_recall": 0.925,
+   "confirmed_precision": 0.631,
+   "ai_only_precision": 0.727,
+   "ai_words": 76,
+   "ai_invented_dictionary_words": 0,
+   "ocr_seconds_mean": 4.8,
+   "ai_seconds_mean": 12.4
+  }
+ }
+}

@@ -62,6 +62,13 @@ function lensShowImage(dataUrl, cb, keepSession = false) {
 const KIND_NAME = { text: "text", code: "code", sign: "sign", lsb: "hidden: pixel bits", trailing: "hidden: after the end", embedded: "hidden: file inside",
   metadata: "metadata", zero_width: "hidden: invisible characters", whitespace: "hidden: whitespace", homoglyph: "look-alike letters", acrostic: "acrostic" };
 
+function lensAI(a) {  /* Round 90a: the local vision model's words, split by whether the OCR letters agree */
+  if (!a.confirmed) return `<h3>Second reader</h3><p class="mute">${esc(a.mode)}. ${esc(a.note || "")}</p>`;
+  return `<h3>Second reader</h3><p>Mode: <b>${esc(a.mode)}</b> (${esc(a.seconds)} s). ${esc(a.note)}</p>
+    <p><b>Confirmed by the OCR letters:</b> ${esc(a.confirmed.join(" ") || "none")}</p>
+    <p><b>AI only (a suggestion, may be invented):</b> <span class="mute">${esc(a.ai_only.join(" ") || "none")}</span></p>`;
+}
+
 function lensReport(r) {
   const fs = r.findings || [];
   const hidden = fs.filter(f => !["text", "code", "sign"].includes(f.kind));
@@ -73,6 +80,7 @@ function lensReport(r) {
   $("#lnOut").innerHTML = `<div class="panel lensrep">
     ${r.text !== undefined ? `<h3>Text</h3><p>Script: <b>${esc(r.script || "?")}</b> · language: <b>${lang}</b>${r.mean_conf !== undefined ? ` · mean OCR confidence ${esc(r.mean_conf)}` : ""}</p><pre class="lenstext">${esc(r.text || "(no text read)")}</pre>${tr}
       ${r.text ? '<button class="alt" id="lnToBench">Treat it as a cipher (Workbench)</button>' : ""}` : ""}
+    ${r.ai ? lensAI(r.ai) : ""}
     ${codes.length ? `<h3>Codes</h3>${table(["Code"], codes)}` : ""}
     ${signs.length ? `<h3>Signs</h3><p class="mute">Top suggestion per sign; open the Scripts page for all five and to choose.</p><p class="glyph glyphout">${signs.map(s => esc(s.detail ? s.detail[0] : "")).join(" ")}</p><button class="alt" id="lnToScripts">Read these signs (Scripts page)</button>` : ""}
     <h3>Hidden-message checks</h3>${hidden.length ? table(["Finding", "What it is", "Detail"], hidden.map(f => [KIND_NAME[f.kind] || f.kind, f.label, typeof f.detail === "string" ? f.detail.slice(0, 200) : ""])) : "<p>Nothing found by the checks that ran.</p>"}
@@ -84,7 +92,9 @@ function lensReport(r) {
 async function lensAnalyseImage(dataUrl) {
   lensLogAdd(["picture received", "full analysis: text, codes, signs, translation, hidden messages"]);
   lensOv.status = "analysing";
-  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null, session: lensSession });
+  const ai = !!($("#lnAI") && $("#lnAI").checked);
+  if (ai) lensLogAdd(["asking the local vision model as a second reader (can take a minute)"]);
+  const r = await api("/lens/image", { image: dataUrl, signs: $("#lnSigns").value, script: $("#lnScript").value || null, session: lensSession, ai });
   lensOverlaySet(r.findings, r.size[0], `${r.findings.length} findings`);
   lensLogAdd(r.log.reverse());
   lensReport(r);
@@ -123,10 +133,12 @@ async function lensLiveTick() {
 
 route(/^\/lens(\/demo)?$/, async demo => {
   const scripts = await api("/lens/scripts");
+  const aiSt = await api("/ai/status").catch(() => ({}));
   view().innerHTML = `<p class="kicker">// LENS</p><h1>Lens</h1>
     <p class="lead">Point the camera at a sign, a page or a carving, or drop in a picture or file. The lens reads printed text in over a hundred languages and scripts, codes, and runes, hieroglyphs and other signs; translates what it can; and looks for messages hidden in the picture or the text.</p>
     <p class="mute">Translation covers the languages with an installed translator (more are coming). Hidden-message checks report what the tests measure, with their false-alarm rates; nothing is claimed as a secret message without a reading.</p>
     <div class="panel"><div class="row"><div><label for="lnScript">Script</label><select id="lnScript"><option value="">Detect automatically</option>${scripts.map(s => `<option>${esc(s)}</option>`).join("")}</select></div>
+      <div id="lnAIBox" hidden><label style="display:flex;gap:8px;align-items:flex-start;margin-top:24px"><input type="checkbox" id="lnAI" style="width:auto;margin-top:3px"> Second reader: the local vision model (slower; the picture stays on this machine)</label></div>
       <div><label for="lnSigns">Runes, hieroglyphs and other signs</label><select id="lnSigns"><option value="auto">Confident signs outside the text</option><option value="always">Every sign found</option><option value="never">Never</option></select></div></div>
       <button id="lnCam">Start live camera</button> <button id="lnSnap" class="alt" disabled>Capture and analyse</button>
       <label class="filebtn" id="lnFileBtn">Upload a picture or file<input id="lnFile" type="file"></label> <button id="lnDemo" class="alt">Try a sample picture</button>
@@ -153,6 +165,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
   };
   $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d)), true); $("#lnCam").textContent = "Start live camera"; $("#lnSnap").disabled = true; };
   $("#lnFile").onchange = e => { const f = e.target.files[0]; if (f) busy($("#lnFileBtn"), $("#lnMsg"), () => lensFile(f)); };
+  if (aiSt.vision) { $("#lnAIBox").hidden = false; $("#lnAI").title = `Local model ${aiSt.vision}`; }
   $("#lnTextGo").onclick = ev => busy(ev.target, $("#lnMsg"), async () => { const r = await api("/lens/text", { text: $("#lnText").value }); lensLogAdd(r.log.reverse()); lensReport(r); });
   const runDemo = async () => { const d = (await api("/lens/sample")).image; lensShowImage(d, () => busy($("#lnDemo"), $("#lnMsg"), () => lensAnalyseImage(d))); };
   $("#lnDemo").onclick = runDemo;

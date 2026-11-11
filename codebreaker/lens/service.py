@@ -68,8 +68,9 @@ def live(data: bytes, session: str | None) -> dict:
             "language": lang, "tips": r["tips"], "pending": r["pending"], "log": [f"frame {r['frame']}: {len(r['lines'])} line(s) tracked"]}
 
 
-def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None) -> dict:
-    """signs: 'auto' (confident signs outside the text and codes), 'always' (every sign found) or 'never'."""
+def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: str | None = None, session: str | None = None, ai: bool = False) -> dict:
+    """signs: 'auto' (confident signs outside the text and codes), 'always' (every sign found) or 'never'.
+    ai: also ask the local vision model, its words checked against the OCR letters (lens/ai_check.py, Round 90a)."""
     img = cv2.imdecode(np.frombuffer(data, np.uint8), cv2.IMREAD_COLOR)
     if img is None:
         raise ValueError("The picture could not be read.")
@@ -93,6 +94,11 @@ def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: 
                                                                          f"{len(o['words'])} words, mean confidence {o['mean_conf']}"]}
     if live:
         return res
+    if ai:
+        from .ai_check import second_reader
+
+        res["ai"] = second_reader(gray, o)
+        res["log"].append(f"second reader: {res['ai']['mode']}")
     if signs in ("always", "auto"):
         try:
             from ..writing.glyph_scan import scan
