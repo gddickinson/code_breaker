@@ -7,6 +7,8 @@
 |---|---|---|
 | `text.py` | Normalising letters and integers | `letters`, `to_ints`, `to_text`, `keyed_alphabet`, `similarity` |
 | `languages.py` | Quadgram and frequency models for en, fr, de, it, es, la, plus 12 extra cipher languages (`EXTRA`, corpora from `scripts/fetch_corpora.py`); cached in `data/models` | `model`, `score`, `detect`, `keywords`, `corpus_text`, `cipher_langs` |
+| `alphabets.py` / `kernels_a.py` / `alphabets_eval.py` | Models over each language's own alphabet (ru, uk, bg, el, he, ar, fa, ur; 10% held out), numba kernels for any alphabet size, and their controls | `model`, `normalise`, `coverage`, `detect_script`, `held_out`, `quad_score_a`, `anneal_sub_a` |
+| `crack_alpha.py` | Workbench crack branch for Cyrillic, Greek, Hebrew and Arabic-script text | `applies`, `run` |
 | `langchoice.py` | The 3 languages the crack tries, staged by what the cipher did (unchanged letters, periodic, substitution solved per language) | `choose`, `distances` |
 | `kernels.py` | Numba loops | `quad_score`, `anneal_mapping`, `climb_columnar`, `anneal_playfair`, `book_offset_scan`, `enigma_run`, `enigma_scan` |
 | `analysis.py` | IC, entropy, Kasiski, cipher-type guess | `report`, `identify`, `ic` |
@@ -49,7 +51,7 @@ Adapted from the textview project: `file_inspector.py` (magic bytes, extension h
 `machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `scripts.py` (runes, Ogham, hieroglyph alphabet, rune substitution) · `runic.py` (branch runes and futhark shift, checked against the Rök stone) · `music.py` (German and French note cryptograms, note substitution; staves and playback in `static/music.js`) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
 
 ## codebreaker/attacks/
-`classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography
+`classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography · `alphabet.py` Caesar, Vigenere and substitution in other alphabets, with the three gates
 
 ## codebreaker/mysteries/
 `beale.py`, `dagapeyeff.py`, `tamam.py`, `kryptos.py`, `voynich.py`: each has `run()` returning JSON saved in `data/results/`.
@@ -63,7 +65,7 @@ Adapted from the textview project: `file_inspector.py` (magic bytes, extension h
 `LICENSE` (MIT, code) · `THIRD_PARTY.md` (sources and licences of data, models, fonts) · `codebreaker/third_party.py` `need()` (clear message when a not-redistributed file is missing) · `scripts/fetch_sources.py` (downloads Müller's Le Figaro tables and ads index and Schmeh's list) · `tests/conftest.py` (skips tests whose third-party data is absent).
 
 ## scripts/, tests/, data/
-`scripts/run_mysteries.py [names]` regenerates results. `scripts/fetch_corpora.py` downloads the extra-language Gutenberg corpora. `scripts/extract_sources.py` extracts Beale numbers. `scripts/install_translation_models.py` installs Argos models. `scripts/check.py` runs all attack demos. `scripts/hunt.py --minutes N` seeds and runs the hunt. `scripts/benchmark_gpu.py` records GPU vs CPU. `scripts/train_classifier.py` trains the classifier. `scripts/find_problems.py` finds new codes. `scripts/harvest_publications.py` rebuilds publications. `scripts/check_community.py` rechecks links.
+`scripts/run_mysteries.py [names]` regenerates results. `scripts/fetch_corpora.py` downloads the extra-language Gutenberg corpora; `scripts/fetch_wiki_corpora.py` Wikipedia extracts (backs off on refusal). `scripts/extract_sources.py` extracts Beale numbers. `scripts/install_translation_models.py` installs Argos models. `scripts/check.py` runs all attack demos. `scripts/hunt.py --minutes N` seeds and runs the hunt. `scripts/benchmark_gpu.py` records GPU vs CPU. `scripts/train_classifier.py` trains the classifier. `scripts/find_problems.py` finds new codes. `scripts/harvest_publications.py` rebuilds publications. `scripts/check_community.py` rechecks links.
 `tests/`: ciphers, source integrity, web API. `data/`: `corpora`, `sources`, `models`, `mysteries`, `results`.
 
 Flow: `web.app` -> `ciphers.REGISTRY` -> `attacks` -> `kernels` + `languages`. `mysteries` use `validation` and save JSON that `casefiles` displays.

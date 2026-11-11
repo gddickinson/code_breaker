@@ -12,7 +12,11 @@ def _probs(lang: str) -> dict:
 
 
 def segment(text: str, lang: str = "en", max_word: int = 18) -> str:
-    probs = _probs(lang)
+    return viterbi(text, _probs(lang), max_word)
+
+
+def viterbi(text: str, probs: dict, max_word: int = 18) -> str:
+    """Most probable split into words, given log10 word probabilities (unknown words cost by length)."""
     n = len(text)
     best = [0.0] + [-1e18] * n
     back = [0] * (n + 1)

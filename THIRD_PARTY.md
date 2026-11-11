@@ -8,7 +8,8 @@ own terms. If you hold rights in anything listed here and want it credited diffe
 | Path | Source | Terms |
 |---|---|---|
 | `data/corpora/` | Project Gutenberg texts (language models), Gutenberg headers kept | Public domain in the USA; Project Gutenberg licence for the files |
-| `data/corpora/extra/` | Project Gutenberg books in 12 more languages, downloaded by `scripts/fetch_corpora.py` (ids in `data/sources/corpora_extra.json`); not redistributed | Public domain in the USA; Project Gutenberg licence |
+| `data/corpora/extra/*_wiki.txt` | Wikipedia article extracts (Russian so far), `scripts/fetch_wiki_corpora.py`; not redistributed | CC BY-SA 4.0 |
+| `data/corpora/extra/` | Project Gutenberg books in 16 more languages (also el, ru, bg, he), downloaded by `scripts/fetch_corpora.py` (ids in `data/sources/corpora_extra.json`); not redistributed | Public domain in the USA; Project Gutenberg licence |
 | `data/sources/key_*.txt`, `declaration.txt`, `beale_try8` | Public-domain texts used as book-cipher keys (US founding documents, King James Bible, Shakespeare, Smith, Paine, FitzGerald), the Beale pamphlet via Wikisource | Public domain |
 | `data/sources/wp_*.txt`, `data/sources/research/`, `data/sources/scripts/` (`sources.json` lists titles, URLs and dates) | Wikipedia article text | CC BY-SA 4.0: attribution to Wikipedia contributors; share-alike applies to these files |
 | `data/sources/langid/` (`sources.json`) | Wikipedia article introductions in 50 languages, for language identification | CC BY-SA 4.0 |

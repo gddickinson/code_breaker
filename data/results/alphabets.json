@@ -1,0 +1,109 @@
+{
+ "id": "alphabets",
+ "languages": {
+  "ru": {
+   "name": "Russian",
+   "alphabet": "абвгдежзийклмнопрстуфхцчшщъыьэюяіѣ",
+   "letters": 34,
+   "held_out_letters": 33618,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.946,
+   "substitution_300": 0.991,
+   "random_letters_readable": "0 of 3"
+  },
+  "uk": {
+   "name": "Ukrainian",
+   "alphabet": "абвгдежзийклмнопрстуфхцчшщьюяєії",
+   "letters": 32,
+   "held_out_letters": 3536,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 0.885,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.888,
+   "substitution_300": 0.985,
+   "random_letters_readable": "0 of 3"
+  },
+  "bg": {
+   "name": "Bulgarian",
+   "alphabet": "абвгдежзийклмнопрстуфхцчшщъюя",
+   "letters": 29,
+   "held_out_letters": 40688,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.768,
+   "substitution_300": 0.931,
+   "random_letters_readable": "0 of 3"
+  },
+  "el": {
+   "name": "Greek",
+   "alphabet": "αβγδεζηθικλμνξοπρστυφχψω",
+   "letters": 24,
+   "held_out_letters": 108882,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.986,
+   "substitution_300": 0.999,
+   "random_letters_readable": "0 of 3"
+  },
+  "he": {
+   "name": "Hebrew",
+   "alphabet": "אבגדהוזחטיכלמנסעפצקרשת",
+   "letters": 22,
+   "held_out_letters": 80078,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 0.862,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.542,
+   "substitution_300": 0.712,
+   "random_letters_readable": "0 of 3"
+  },
+  "ar": {
+   "name": "Arabic",
+   "alphabet": "ءابتثجحخدذرزسشصضطظعغفقكلمنهوي",
+   "letters": 29,
+   "held_out_letters": 3132,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.889,
+   "substitution_300": 0.887,
+   "random_letters_readable": "0 of 3"
+  },
+  "fa": {
+   "name": "Persian",
+   "alphabet": "ابتثجحخدذرزسشصضطظعغفقلمنهوپچژکگی",
+   "letters": 32,
+   "held_out_letters": 3073,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.969,
+   "substitution_300": 0.985,
+   "random_letters_readable": "0 of 3"
+  },
+  "ur": {
+   "name": "Urdu",
+   "alphabet": "ءابتثجحخدذرزسشصضطظعغفقلمنوٹپچڈڑکگںھہیے",
+   "letters": 38,
+   "held_out_letters": 2487,
+   "caesar_150": 1.0,
+   "caesar_300": 1.0,
+   "vigenere_150": 1.0,
+   "vigenere_300": 1.0,
+   "substitution_150": 0.658,
+   "substitution_300": 0.995,
+   "random_letters_readable": "0 of 3"
+  }
+ }
+}

@@ -81,7 +81,7 @@ def positive_control(symbols, lang="en", homophonic=False, seed=0, iters=None, r
 READABLE = "Readable candidate"
 
 
-def verdict(pc: dict, z: float, tests: int = 1, plaintext: str = "", score: float | None = None, lang: str = "en") -> str:
+def verdict(pc: dict, z: float, tests: int = 1, plaintext: str = "", score: float | None = None, lang: str = "en", cov_fn=None) -> str:
     """Three gates: the solver works at this size, it beats shuffles, and the output reads like text.
 
     Beating a shuffled copy only proves sequential structure. Many unsolved texts have that
@@ -92,7 +92,7 @@ def verdict(pc: dict, z: float, tests: int = 1, plaintext: str = "", score: floa
         return f"Inconclusive: this solver recovers only {pc['mean']:.0%} of a known message of this size, so a failure here says little."
     if z < bar:
         return f"No evidence: the solver can read a text of this size ({pc['mean']:.0%}), but the real ciphertext scores like scrambled symbols (z={z:.1f})."
-    cov = coverage(plaintext, lang) if plaintext else 0.0
+    cov = (cov_fn or coverage)(plaintext, lang) if plaintext else 0.0  # cov_fn: other alphabets (Round 86)
     # Very high word coverage overrides the quadgram gate: real ciphers with errors score low there.
     clean = score is not None and score >= pc["solved_score"] - 0.2 and cov >= 0.8 * pc["true_coverage"]
     if clean or cov >= 0.95 * pc["true_coverage"]:

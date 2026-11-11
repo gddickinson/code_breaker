@@ -20,6 +20,7 @@ Everything runs on your computer; nothing is sent anywhere. Some features need d
 |---|---|
 | Le Figaro work and the full test suite (third-party data, see `THIRD_PARTY.md`) | `.venv/bin/python scripts/fetch_sources.py` |
 | Cracking in 12 more languages (Dutch, Portuguese, Swedish, Danish, Norwegian, Finnish, Hungarian, Polish, Czech, Esperanto, Catalan, Tagalog; about 25 MB from Project Gutenberg) | `.venv/bin/python scripts/fetch_corpora.py` |
+| Ciphers in Greek, Russian, Bulgarian and Hebrew letters (Ukrainian, Arabic, Persian and Urdu work from the samples already included) | `.venv/bin/python scripts/fetch_corpora.py el ru bg he` |
 | Lens OCR | `brew install tesseract` (or your system's package), then `git clone --depth 1 https://github.com/tesseract-ocr/tessdata_fast data/models/tessdata_fast` |
 | Translation | `.venv/bin/python scripts/install_translation_models.py` (6 languages) and `scripts/install_more_translators.py` (about 49 languages into English, a few GB) |
 | Glyph scanner | `PYTHONPATH=. .venv/bin/python -m codebreaker.writing.glyph_model` (trains in about 15 minutes; uses the GPU if available) |

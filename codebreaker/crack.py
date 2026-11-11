@@ -103,6 +103,17 @@ def crack(raw: str, budget: float = 45, lang: str | None = None, workers: int = 
     if not raw:
         raise ValueError("Paste some ciphertext first.")
     start = time.time()
+    from . import crack_alpha
+
+    if crack_alpha.applies(raw) and depth == 0:  # Cyrillic, Greek, Hebrew or Arabic letters: their own alphabets (Round 86)
+        for ev in crack_alpha.run(raw, lang):
+            if ev["event"] != "finish":
+                yield ev
+            elif ev["verdict"]["level"] == "readable":
+                yield ev
+                return
+            else:  # no reading in the script's languages: the letters may be symbols standing for A-Z
+                yield step("script_fallback", "Treat the letters as symbols", f"{ev['verdict']['why']} Next: the letters as cipher symbols for the A-Z languages.")
     order, info, plain, found = [], {}, None, []
     for ev in _prelude(raw, lang):
         if ev["event"] == "_decoded":

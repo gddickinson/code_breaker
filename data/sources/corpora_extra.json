@@ -426,5 +426,149 @@
   "source": "https://www.gutenberg.org",
   "licence": "public domain in the USA (Project Gutenberg licence for the files)",
   "fetched": "2026-11-11"
+ },
+ "el": {
+  "books": [
+   {
+    "id": "4100",
+    "title": "Όραμα και Μεταμόρφωση : Μια εισαγωγή στο Ευγενές Οκταπλό Μονοπάτι του Βούδδα"
+   },
+   {
+    "id": "17814",
+    "title": "Λυσιστράτη"
+   },
+   {
+    "id": "17839",
+    "title": "Οιδίπους Τύραννος"
+   },
+   {
+    "id": "17995",
+    "title": "Ηλέκτρα"
+   },
+   {
+    "id": "17996",
+    "title": "Επτά επί Θήβας"
+   },
+   {
+    "id": "20175",
+    "title": "Φθινόπωρο"
+   },
+   {
+    "id": "26731",
+    "title": "Αντιγόνη"
+   },
+   {
+    "id": "26784",
+    "title": "Ιφιγένεια εν Αυλίδι"
+   },
+   {
+    "id": "27073",
+    "title": "Η Κερένια κούκλα: Αθηναϊκό μυθιστόρημα"
+   }
+  ],
+  "characters": 1587680,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "ru": {
+  "books": [
+   {
+    "id": "5316",
+    "title": "Красавице, которая нюхала табак"
+   },
+   {
+    "id": "14741",
+    "title": "Духовные оды"
+   },
+   {
+    "id": "16527",
+    "title": "1001 задача для умственного счета"
+   },
+   {
+    "id": "30774",
+    "title": "Московия в представлении иностранцев XVI-XVII в."
+   },
+   {
+    "id": "37196",
+    "title": "Женское международное движение: Сборник статей"
+   }
+  ],
+  "characters": 443605,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "bg": {
+  "books": [
+   {
+    "id": "2790",
+    "title": "Христо Ботев, Стихотворения"
+   },
+   {
+    "id": "2890",
+    "title": "Епопея на забравените"
+   },
+   {
+    "id": "2894",
+    "title": "Short Stories"
+   },
+   {
+    "id": "3433",
+    "title": "Епически песни"
+   },
+   {
+    "id": "4909",
+    "title": "Олаф ван Гелдерн"
+   },
+   {
+    "id": "10752",
+    "title": "Мислите в главите"
+   }
+  ],
+  "characters": 634678,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "he": {
+  "books": [
+   {
+    "id": "4778",
+    "title": "Sipurim (Stories)"
+   },
+   {
+    "id": "5139",
+    "title": "Tales"
+   },
+   {
+    "id": "18291",
+    "title": "Hunger: Book One"
+   },
+   {
+    "id": "43740",
+    "title": "בית נכות ההלכות\nאו תורתן של ראשונים, חלק ראשון"
+   },
+   {
+    "id": "45252",
+    "title": "הצופה לבית ישראל\nתשליך"
+   },
+   {
+    "id": "61024",
+    "title": "צל העולם"
+   }
+  ],
+  "characters": 1167242,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "ru_wiki": {
+  "articles": 79,
+  "characters": 81709,
+  "requests": 400,
+  "source": "https://ru.wikipedia.org (random articles, plain-text extracts)",
+  "licence": "CC BY-SA 4.0; not redistributed",
+  "fetched": "2026-11-11"
  }
 }
