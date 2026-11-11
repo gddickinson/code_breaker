@@ -1,0 +1,941 @@
+{
+ "id": "figaro_second_reader",
+ "model": "qwen2.5vl:7b",
+ "minutes": 2.2,
+ "queue": 60,
+ "ads": 128,
+ "letters": 5725,
+ "summary": {
+  "vlm": {
+   "mean_cer": 0.036,
+   "weighted_cer": 0.033,
+   "best_on": 112,
+   "perfect": 77
+  },
+  "rapidocr": {
+   "mean_cer": 0.167,
+   "weighted_cer": 0.188,
+   "best_on": 68,
+   "perfect": 57
+  },
+  "tesseract": {
+   "mean_cer": 0.281,
+   "weighted_cer": 0.33,
+   "best_on": 14,
+   "perfect": 12
+  },
+  "best_of_vlm_and_rapidocr": 0.032,
+  "held_out_40": {
+   "vlm": 0.042,
+   "rapidocr": 0.187,
+   "tesseract": 0.316
+  }
+ },
+ "agreement": {
+  "agreed_right": 4736,
+  "agreed_wrong": 81,
+  "disputed_right": 879,
+  "disputed_wrong": 86,
+  "agreed_share": 0.833,
+  "agreed_accuracy": 0.9832,
+  "disputed_accuracy": 0.911
+ },
+ "rows": [
+  {
+   "ad": "1876_18760206-bonjour.jpg",
+   "letters": 40,
+   "vlm": 0.075,
+   "rapidocr": 1.0,
+   "tesseract": 0.325
+  },
+  {
+   "ad": "1876_18760915-2S.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.13333333333333333,
+   "tesseract": 0.36666666666666664
+  },
+  {
+   "ad": "1876_18761220-24J.jpg",
+   "letters": 22,
+   "vlm": 0.0,
+   "rapidocr": 0.045454545454545456,
+   "tesseract": 0.2727272727272727
+  },
+  {
+   "ad": "1877_18770828-VTAJ.jpg",
+   "letters": 48,
+   "vlm": 0.0625,
+   "rapidocr": 0.5416666666666666,
+   "tesseract": 0.2708333333333333
+  },
+  {
+   "ad": "1877_18770901-VTA.jpg",
+   "letters": 31,
+   "vlm": 0.03225806451612903,
+   "rapidocr": 0.25806451612903225,
+   "tesseract": 0.06451612903225806
+  },
+  {
+   "ad": "1877_18770914-VTA.jpg",
+   "letters": 35,
+   "vlm": 0.34285714285714286,
+   "rapidocr": 0.37142857142857144,
+   "tesseract": 0.9142857142857143
+  },
+  {
+   "ad": "1877_18770918-VTA.jpg",
+   "letters": 15,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.8666666666666667
+  },
+  {
+   "ad": "1877_18770927-VTA.jpg",
+   "letters": 35,
+   "vlm": 0.02857142857142857,
+   "rapidocr": 0.14285714285714285,
+   "tesseract": 0.37142857142857144
+  },
+  {
+   "ad": "1877_18771003-VTA.jpg",
+   "letters": 142,
+   "vlm": 0.06338028169014084,
+   "rapidocr": 0.19718309859154928,
+   "tesseract": 0.8450704225352113
+  },
+  {
+   "ad": "1877_18771004-VTA.jpg",
+   "letters": 69,
+   "vlm": 0.2318840579710145,
+   "rapidocr": 0.5362318840579711,
+   "tesseract": 0.2608695652173913
+  },
+  {
+   "ad": "1877_18771009-VTA.jpg",
+   "letters": 19,
+   "vlm": 0.42105263157894735,
+   "rapidocr": 0.42105263157894735,
+   "tesseract": 0.42105263157894735
+  },
+  {
+   "ad": "1877_18771012-VTA.jpg",
+   "letters": 29,
+   "vlm": 0.0,
+   "rapidocr": 0.3103448275862069,
+   "tesseract": 0.7586206896551724
+  },
+  {
+   "ad": "1877_18771017-VTA.jpg",
+   "letters": 76,
+   "vlm": 0.039473684210526314,
+   "rapidocr": 0.5789473684210527,
+   "tesseract": 1.0
+  },
+  {
+   "ad": "1877_18771020-VTA.jpg",
+   "letters": 24,
+   "vlm": 0.16666666666666666,
+   "rapidocr": 0.2916666666666667,
+   "tesseract": 0.75
+  },
+  {
+   "ad": "1877_18771023-VTA.jpg",
+   "letters": 13,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.07692307692307693
+  },
+  {
+   "ad": "1877_18771031-VTA.jpg",
+   "letters": 28,
+   "vlm": 0.2857142857142857,
+   "rapidocr": 0.42857142857142855,
+   "tesseract": 0.35714285714285715
+  },
+  {
+   "ad": "1877_18771106-VTA.jpg",
+   "letters": 50,
+   "vlm": 0.42,
+   "rapidocr": 0.54,
+   "tesseract": 0.56
+  },
+  {
+   "ad": "1877_18771109-VTA.jpg",
+   "letters": 16,
+   "vlm": 0.0625,
+   "rapidocr": 0.0,
+   "tesseract": 0.9375
+  },
+  {
+   "ad": "1877_18771111-VTA.jpg",
+   "letters": 57,
+   "vlm": 0.017543859649122806,
+   "rapidocr": 0.17543859649122806,
+   "tesseract": 1.0
+  },
+  {
+   "ad": "1877_18771207-VTA.jpg",
+   "letters": 76,
+   "vlm": 0.0,
+   "rapidocr": 0.23684210526315788,
+   "tesseract": 0.06578947368421052
+  },
+  {
+   "ad": "1877_18771220-VTA.jpg",
+   "letters": 77,
+   "vlm": 0.03896103896103896,
+   "rapidocr": 0.16883116883116883,
+   "tesseract": 0.8181818181818182
+  },
+  {
+   "ad": "1877_18771222-VTA.jpg",
+   "letters": 38,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.18421052631578946
+  },
+  {
+   "ad": "1878_18781010-Valentin.jpg",
+   "letters": 48,
+   "vlm": 0.14583333333333334,
+   "rapidocr": 0.125,
+   "tesseract": 0.2708333333333333
+  },
+  {
+   "ad": "1878_18781226-Valentin.jpg",
+   "letters": 37,
+   "vlm": 0.05405405405405406,
+   "rapidocr": 0.8648648648648649,
+   "tesseract": 0.4594594594594595
+  },
+  {
+   "ad": "1879_18790114-Valentin.jpg",
+   "letters": 46,
+   "vlm": 0.0,
+   "rapidocr": 0.41304347826086957,
+   "tesseract": 0.13043478260869565
+  },
+  {
+   "ad": "1879_18790309b.jpg",
+   "letters": 39,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.05128205128205128
+  },
+  {
+   "ad": "1879_18790311b.jpg",
+   "letters": 39,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.05128205128205128
+  },
+  {
+   "ad": "1879_18790318.jpg",
+   "letters": 39,
+   "vlm": 0.0,
+   "rapidocr": 0.02564102564102564,
+   "tesseract": 0.15384615384615385
+  },
+  {
+   "ad": "1879_18790410.jpg",
+   "letters": 25,
+   "vlm": 0.04,
+   "rapidocr": 0.04,
+   "tesseract": 0.08
+  },
+  {
+   "ad": "1879_18790809-LC15.jpg",
+   "letters": 35,
+   "vlm": 0.0,
+   "rapidocr": 0.02857142857142857,
+   "tesseract": 0.6571428571428571
+  },
+  {
+   "ad": "1879_18790816-LRG.jpg",
+   "letters": 77,
+   "vlm": 0.025974025974025976,
+   "rapidocr": 0.012987012987012988,
+   "tesseract": 1.0
+  },
+  {
+   "ad": "1879_18790829-LRG.jpg",
+   "letters": 75,
+   "vlm": 0.0,
+   "rapidocr": 0.02666666666666667,
+   "tesseract": 0.06666666666666667
+  },
+  {
+   "ad": "1879_18790902-LRG.jpg",
+   "letters": 37,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.02702702702702703
+  },
+  {
+   "ad": "1879_18790915-LRG.jpg",
+   "letters": 77,
+   "vlm": 0.012987012987012988,
+   "rapidocr": 0.0,
+   "tesseract": 0.23376623376623376
+  },
+  {
+   "ad": "1879_18790917-LC15.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.3548387096774194
+  },
+  {
+   "ad": "1879_18790924-LC15.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.20588235294117646
+  },
+  {
+   "ad": "1879_18790925-LRG.jpg",
+   "letters": 77,
+   "vlm": 0.012987012987012988,
+   "rapidocr": 0.025974025974025976,
+   "tesseract": 0.14285714285714285
+  },
+  {
+   "ad": "1879_18791005-LRG.jpg",
+   "letters": 37,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.10810810810810811
+  },
+  {
+   "ad": "1879_18791007-LC15.jpg",
+   "letters": 71,
+   "vlm": 0.014084507042253521,
+   "rapidocr": 0.0,
+   "tesseract": 0.4788732394366197
+  },
+  {
+   "ad": "1879_18791015-LC15.jpg",
+   "letters": 33,
+   "vlm": 0.030303030303030304,
+   "rapidocr": 0.0,
+   "tesseract": 0.09090909090909091
+  },
+  {
+   "ad": "1879_18791021-LC15.jpg",
+   "letters": 32,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.15625
+  },
+  {
+   "ad": "1880_18800705-LRG.jpg",
+   "letters": 29,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1880_18800828-LC15.jpg",
+   "letters": 29,
+   "vlm": 0.0,
+   "rapidocr": 0.034482758620689655,
+   "tesseract": 0.13793103448275862
+  },
+  {
+   "ad": "1880_18800905-LC15.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.8064516129032258
+  },
+  {
+   "ad": "1880_18800912-LC15.jpg",
+   "letters": 29,
+   "vlm": 0.034482758620689655,
+   "rapidocr": 0.0,
+   "tesseract": 0.5517241379310345
+  },
+  {
+   "ad": "1880_18800919-LC15.jpg",
+   "letters": 27,
+   "vlm": 0.037037037037037035,
+   "rapidocr": 0.0,
+   "tesseract": 0.14814814814814814
+  },
+  {
+   "ad": "1880_18800926-LC15.jpg",
+   "letters": 32,
+   "vlm": 0.0625,
+   "rapidocr": 0.03125,
+   "tesseract": 0.46875
+  },
+  {
+   "ad": "1880_18801003-LC15.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.2
+  },
+  {
+   "ad": "1880_18801010-LC15.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.16666666666666666
+  },
+  {
+   "ad": "1880_18801019-LC15.jpg",
+   "letters": 29,
+   "vlm": 0.0,
+   "rapidocr": 0.034482758620689655,
+   "tesseract": 0.13793103448275862
+  },
+  {
+   "ad": "1880_18801026-LC15.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.5666666666666667
+  },
+  {
+   "ad": "1880_18801125-7.jpg",
+   "letters": 49,
+   "vlm": 0.04081632653061224,
+   "rapidocr": 0.04081632653061224,
+   "tesseract": 0.4897959183673469
+  },
+  {
+   "ad": "1881_18810202.jpg",
+   "letters": 32,
+   "vlm": 0.03125,
+   "rapidocr": 0.03125,
+   "tesseract": 0.125
+  },
+  {
+   "ad": "1881_18810424-LC15.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 0.06451612903225806,
+   "tesseract": 0.16129032258064516
+  },
+  {
+   "ad": "1881_18810731-LB48.jpg",
+   "letters": 41,
+   "vlm": 0.024390243902439025,
+   "rapidocr": 0.21951219512195122,
+   "tesseract": 0.1951219512195122
+  },
+  {
+   "ad": "1881_18810816-LC15.jpg",
+   "letters": 24,
+   "vlm": 0.041666666666666664,
+   "rapidocr": 0.0,
+   "tesseract": 0.041666666666666664
+  },
+  {
+   "ad": "1881_18810830-LC15.jpg",
+   "letters": 26,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.038461538461538464
+  },
+  {
+   "ad": "1881_18810918-LC15.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 0.03225806451612903,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1881_18810928-LC15.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.13333333333333333
+  },
+  {
+   "ad": "1881_18810929-38.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 1.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1881_18810930-38.jpg",
+   "letters": 98,
+   "vlm": 0.01020408163265306,
+   "rapidocr": 0.29591836734693877,
+   "tesseract": 0.21428571428571427
+  },
+  {
+   "ad": "1881_18811007.jpg",
+   "letters": 40,
+   "vlm": 0.1,
+   "rapidocr": 0.325,
+   "tesseract": 0.25
+  },
+  {
+   "ad": "1881_18811012.jpg",
+   "letters": 35,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.05714285714285714
+  },
+  {
+   "ad": "1881_18811013-38.jpg",
+   "letters": 64,
+   "vlm": 0.0,
+   "rapidocr": 0.015625,
+   "tesseract": 1.0
+  },
+  {
+   "ad": "1881_18811016-J.jpg",
+   "letters": 12,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1881_18811018-38.jpg",
+   "letters": 105,
+   "vlm": 0.0,
+   "rapidocr": 0.0761904761904762,
+   "tesseract": 0.638095238095238
+  },
+  {
+   "ad": "1881_18811018-LC15.jpg",
+   "letters": 33,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.09090909090909091
+  },
+  {
+   "ad": "1881_18811023-38.jpg",
+   "letters": 68,
+   "vlm": 0.0,
+   "rapidocr": 0.11764705882352941,
+   "tesseract": 0.9117647058823529
+  },
+  {
+   "ad": "1881_18811107.jpg",
+   "letters": 32,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.09375
+  },
+  {
+   "ad": "1881_18811119-ZZ.jpg",
+   "letters": 78,
+   "vlm": 0.02564102564102564,
+   "rapidocr": 0.5128205128205128,
+   "tesseract": 0.1794871794871795
+  },
+  {
+   "ad": "1882_18820601-5.jpg",
+   "letters": 37,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.08108108108108109
+  },
+  {
+   "ad": "1882_18820604-B.jpg",
+   "letters": 78,
+   "vlm": 0.0,
+   "rapidocr": 0.5384615384615384,
+   "tesseract": 0.9487179487179487
+  },
+  {
+   "ad": "1882_18820701-5.jpg",
+   "letters": 39,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.23076923076923078
+  },
+  {
+   "ad": "1882_18820702-LC15.jpg",
+   "letters": 36,
+   "vlm": 0.027777777777777776,
+   "rapidocr": 0.0,
+   "tesseract": 0.08333333333333333
+  },
+  {
+   "ad": "1882_18820708-B.jpg",
+   "letters": 33,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.06060606060606061
+  },
+  {
+   "ad": "1882_18820822-B.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.06666666666666667
+  },
+  {
+   "ad": "1882_18820908-B.jpg",
+   "letters": 37,
+   "vlm": 0.0,
+   "rapidocr": 1.0,
+   "tesseract": 0.02702702702702703
+  },
+  {
+   "ad": "1882_18821111-CH.jpg",
+   "letters": 24,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.20833333333333334
+  },
+  {
+   "ad": "1882_18821224-5.jpg",
+   "letters": 77,
+   "vlm": 0.025974025974025976,
+   "rapidocr": 0.4935064935064935,
+   "tesseract": 0.6623376623376623
+  },
+  {
+   "ad": "1883_18830101-B.jpg",
+   "letters": 33,
+   "vlm": 0.0,
+   "rapidocr": 0.030303030303030304,
+   "tesseract": 0.06060606060606061
+  },
+  {
+   "ad": "1883_18830119-B.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.029411764705882353
+  },
+  {
+   "ad": "1883_18830304-X.jpg",
+   "letters": 24,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.16666666666666666
+  },
+  {
+   "ad": "1883_18830605-7.jpg",
+   "letters": 77,
+   "vlm": 0.0,
+   "rapidocr": 0.24675324675324675,
+   "tesseract": 0.6233766233766234
+  },
+  {
+   "ad": "1883_18830725.jpg",
+   "letters": 20,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.1
+  },
+  {
+   "ad": "1883_18831226-J.jpg",
+   "letters": 78,
+   "vlm": 0.0,
+   "rapidocr": 0.5256410256410257,
+   "tesseract": 0.14102564102564102
+  },
+  {
+   "ad": "1883_18831230-R.jpg",
+   "letters": 73,
+   "vlm": 0.0,
+   "rapidocr": 0.1232876712328767,
+   "tesseract": 1.0
+  },
+  {
+   "ad": "1884_18840101-B.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 1.0,
+   "tesseract": 0.06666666666666667
+  },
+  {
+   "ad": "1884_18840109-N.jpg",
+   "letters": 78,
+   "vlm": 0.05128205128205128,
+   "rapidocr": 1.0,
+   "tesseract": 0.1794871794871795
+  },
+  {
+   "ad": "1884_18840113-B.jpg",
+   "letters": 32,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.03125
+  },
+  {
+   "ad": "1884_18840331-CH.jpg",
+   "letters": 22,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.7727272727272727
+  },
+  {
+   "ad": "1884_18840427-H.jpg",
+   "letters": 36,
+   "vlm": 0.0,
+   "rapidocr": 0.027777777777777776,
+   "tesseract": 0.05555555555555555
+  },
+  {
+   "ad": "1884_18840605-I.jpg",
+   "letters": 35,
+   "vlm": 0.0,
+   "rapidocr": 1.0,
+   "tesseract": 0.11428571428571428
+  },
+  {
+   "ad": "1884_18840730-CH.jpg",
+   "letters": 29,
+   "vlm": 0.06896551724137931,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1884_18840805-CH.jpg",
+   "letters": 17,
+   "vlm": 0.4117647058823529,
+   "rapidocr": 0.35294117647058826,
+   "tesseract": 0.35294117647058826
+  },
+  {
+   "ad": "1884_18840806-ArH.jpg",
+   "letters": 15,
+   "vlm": 0.4,
+   "rapidocr": 0.4,
+   "tesseract": 0.4666666666666667
+  },
+  {
+   "ad": "1884_18841113-78.jpg",
+   "letters": 31,
+   "vlm": 0.03225806451612903,
+   "rapidocr": 0.0967741935483871,
+   "tesseract": 0.22580645161290322
+  },
+  {
+   "ad": "1884_18841221-S.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.11764705882352941
+  },
+  {
+   "ad": "1885_18850212-E.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.20588235294117646
+  },
+  {
+   "ad": "1885_18850703-B.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.058823529411764705
+  },
+  {
+   "ad": "1886_18860101-B.jpg",
+   "letters": 31,
+   "vlm": 0.03225806451612903,
+   "rapidocr": 0.06451612903225806,
+   "tesseract": 0.06451612903225806
+  },
+  {
+   "ad": "1886_18860121-E.jpg",
+   "letters": 36,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.1388888888888889
+  },
+  {
+   "ad": "1886_18860307-2F.jpg",
+   "letters": 36,
+   "vlm": 0.0,
+   "rapidocr": 0.027777777777777776,
+   "tesseract": 0.19444444444444445
+  },
+  {
+   "ad": "1886_18860401-B.jpg",
+   "letters": 35,
+   "vlm": 0.02857142857142857,
+   "rapidocr": 0.22857142857142856,
+   "tesseract": 0.14285714285714285
+  },
+  {
+   "ad": "1886_18860629-CH.jpg",
+   "letters": 32,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1886_18860906-Jane.jpg",
+   "letters": 179,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.4134078212290503
+  },
+  {
+   "ad": "1886_18860908-Jane.jpg",
+   "letters": 230,
+   "vlm": 0.008695652173913044,
+   "rapidocr": 0.0,
+   "tesseract": 0.33043478260869563
+  },
+  {
+   "ad": "1887_18870111-5.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.058823529411764705
+  },
+  {
+   "ad": "1887_18870125-2F.jpg",
+   "letters": 74,
+   "vlm": 0.0,
+   "rapidocr": 0.013513513513513514,
+   "tesseract": 0.5405405405405406
+  },
+  {
+   "ad": "1888_18880803-930.jpg",
+   "letters": 71,
+   "vlm": 0.014084507042253521,
+   "rapidocr": 0.04225352112676056,
+   "tesseract": 0.08450704225352113
+  },
+  {
+   "ad": "1888_18881028-Fin.jpg",
+   "letters": 61,
+   "vlm": 0.09836065573770492,
+   "rapidocr": 1.0,
+   "tesseract": 0.16393442622950818
+  },
+  {
+   "ad": "1889_18891101-VE3.jpg",
+   "letters": 24,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1890_18900619-GEO.jpg",
+   "letters": 33,
+   "vlm": 0.06060606060606061,
+   "rapidocr": 1.0,
+   "tesseract": 0.7272727272727273
+  },
+  {
+   "ad": "1890_18901026-VE3.jpg",
+   "letters": 24,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.041666666666666664
+  },
+  {
+   "ad": "1891_18910611-VE3.jpg",
+   "letters": 13,
+   "vlm": 0.0,
+   "rapidocr": 0.23076923076923078,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1891_18911226-VE3.jpg",
+   "letters": 13,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1892_18920721-VE3.jpg",
+   "letters": 15,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.2
+  },
+  {
+   "ad": "1892_18920804.jpg",
+   "letters": 36,
+   "vlm": 0.0,
+   "rapidocr": 0.027777777777777776,
+   "tesseract": 0.05555555555555555
+  },
+  {
+   "ad": "1893_18930610-Mimi.jpg",
+   "letters": 32,
+   "vlm": 0.0,
+   "rapidocr": 0.0625,
+   "tesseract": 0.90625
+  },
+  {
+   "ad": "1894_18940911-25.jpg",
+   "letters": 33,
+   "vlm": 0.0,
+   "rapidocr": 0.06060606060606061,
+   "tesseract": 0.09090909090909091
+  },
+  {
+   "ad": "1894_18940920-25.jpg",
+   "letters": 35,
+   "vlm": 0.05714285714285714,
+   "rapidocr": 0.05714285714285714,
+   "tesseract": 0.2857142857142857
+  },
+  {
+   "ad": "1896_18960715.jpg",
+   "letters": 97,
+   "vlm": 0.020618556701030927,
+   "rapidocr": 0.31958762886597936,
+   "tesseract": 0.030927835051546393
+  },
+  {
+   "ad": "1896_18960823.jpg",
+   "letters": 72,
+   "vlm": 0.0,
+   "rapidocr": 0.5138888888888888,
+   "tesseract": 0.08333333333333333
+  },
+  {
+   "ad": "1896_18960909-57E.jpg",
+   "letters": 15,
+   "vlm": 0.13333333333333333,
+   "rapidocr": 0.0,
+   "tesseract": 0.06666666666666667
+  },
+  {
+   "ad": "1896_18960918-23.jpg",
+   "letters": 31,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1896_18961106-KP.jpg",
+   "letters": 159,
+   "vlm": 0.12578616352201258,
+   "rapidocr": 0.12578616352201258,
+   "tesseract": 0.1949685534591195
+  },
+  {
+   "ad": "1898_18980511.jpg",
+   "letters": 30,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  },
+  {
+   "ad": "1899_18990701-P.jpg",
+   "letters": 38,
+   "vlm": 0.02631578947368421,
+   "rapidocr": 0.0,
+   "tesseract": 0.02631578947368421
+  },
+  {
+   "ad": "1899_18991014-P.jpg",
+   "letters": 34,
+   "vlm": 0.0,
+   "rapidocr": 0.0,
+   "tesseract": 0.0
+  }
+ ]
+}

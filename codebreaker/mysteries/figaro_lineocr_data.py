@@ -164,7 +164,7 @@ def local_align(t: str, o: str) -> tuple[int, int, int]:
             v, s = min(opts)
             cur.append(v)
             cur_start.append(s)
-        if cur[n] < best[0]:
+        if cur[n] <= best[0]:  # on equal edits the longer match, so a wrong last character is counted
             best = (cur[n], cur_start[n], j)
         prev, prev_start = cur, cur_start
         cols.append(cur)
