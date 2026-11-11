@@ -1,0 +1,66 @@
+{
+ "id": "nomenclator_eval",
+ "lang": "en",
+ "trials": 3,
+ "results": {
+  "homophonic only, 600": {
+   "symbols_right": 0.989,
+   "letters_right": 0.984,
+   "divider_found": 3
+  },
+  "homophonic only, 1200": {
+   "symbols_right": 0.994,
+   "letters_right": 0.991,
+   "divider_found": 3
+  },
+  "with nulls, 600": {
+   "symbols_right": 0.985,
+   "letters_right": 0.978,
+   "divider_found": 3
+  },
+  "with nulls, 1200": {
+   "symbols_right": 0.984,
+   "letters_right": 0.97,
+   "divider_found": 3
+  },
+  "with divider, 600": {
+   "symbols_right": 0.983,
+   "letters_right": 0.966,
+   "divider_found": 3
+  },
+  "with divider, 1200": {
+   "symbols_right": 0.993,
+   "letters_right": 0.983,
+   "divider_found": 3
+  },
+  "with code words, 600": {
+   "symbols_right": 0.93,
+   "letters_right": 0.889,
+   "divider_found": 3
+  },
+  "with code words, 1200": {
+   "symbols_right": 0.942,
+   "letters_right": 0.923,
+   "divider_found": 3
+  },
+  "all four, 600": {
+   "symbols_right": 0.908,
+   "letters_right": 0.867,
+   "divider_found": 3
+  },
+  "all four, 1200": {
+   "symbols_right": 0.955,
+   "letters_right": 0.906,
+   "divider_found": 3
+  },
+  "all four, 600, solver without nulls or code words": {
+   "symbols_right": 0.777,
+   "letters_right": 0.681
+  },
+  "null: shuffled symbols": {
+   "real_score": -156.4,
+   "shuffled_mean": -699.5,
+   "z": 6.7
+  }
+ }
+}

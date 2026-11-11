@@ -51,7 +51,7 @@ Adapted from the textview project: `file_inspector.py` (magic bytes, extension h
 `machines.py` (Enigma, Jefferson, Lorenz model, book, homophonic) · `scripts.py` (runes, Ogham, hieroglyph alphabet, rune substitution) · `runic.py` (branch runes and futhark shift, checked against the Rök stone) · `music.py` (German and French note cryptograms, note substitution; staves and playback in `static/music.js`) · `aca.py` (Quagmires, Nicodemus, Fractionated Morse, Slidefair, Gromark, Alberti, M-209) · `modern_symmetric.py` · `modern_public.py`
 
 ## codebreaker/attacks/
-`classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography · `alphabet.py` Caesar, Vigenere and substitution in other alphabets, with the three gates
+`classical.py` general solvers, taking decrypt functions so that ciphers can import it · `modern.py` worked attacks on weak or misused cryptography · `alphabet.py` Caesar, Vigenere and substitution in other alphabets, with the three gates · `nomenclator.py` archive ciphers: homophones, nulls, word dividers, code words (kernel `kernels_nom.py`, controls `nomenclator_eval.py`)
 
 ## codebreaker/mysteries/
 `beale.py`, `dagapeyeff.py`, `tamam.py`, `kryptos.py`, `voynich.py`: each has `run()` returning JSON saved in `data/results/`.
