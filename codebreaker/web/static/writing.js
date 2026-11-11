@@ -64,6 +64,7 @@ route(/^\/scripts$/, async () => {
     <h2>Read</h2><div class="panel"><label for="wrText">Signs: paste Unicode text, use the palette, or type Gardiner numbers such as <code>G1 D21 N35</code></label><textarea id="wrText" class="glyph" rows="3">ᚠᚢᚦᚨᚱᚲ ᚷᚹ</textarea>
     <button id="wrRead">Read it</button><button class="alt" id="wrClear">Clear</button><div id="wrOut" aria-live="polite"></div></div>
     ${wsPanel(wrScripts)}
+    ${padPanel(wrScripts)}
     <h2>Ciphers in old scripts</h2><div class="panel"><p>People hid messages inside these scripts long before modern ciphers. A Mesopotamian glaze recipe of about 1500 BC used cuneiform signs in their rarest sound values. The Rök runestone (about 800 AD) wrote runes as their neighbours in the futhark and as numbered pairs (ætt and position), and Irish scholars listed dozens of secret Ogham forms. Try them in the Library: <a href="#/cipher/branch_runes">Branch runes</a>, <a href="#/cipher/futhark_shift">Futhark shift</a>, <a href="#/cipher/rune_substitution">Rune substitution</a>, <a href="#/cipher/runes">Runic alphabet</a>, <a href="#/cipher/ogham">Ogham</a>, <a href="#/cipher/hieroglyph_alphabet">Hieroglyph alphabet</a>. Background is in the <a href="#/history">History</a> timeline.</p></div>
     <h2>Gloss the words</h2><div class="panel"><p class="mute">Dictionary meanings of each word on its own, from Wiktionary (CC BY-SA). A gloss is not a translation: grammar, word order and the choice between senses are left to you. Egyptian written without spaces is cut into dictionary words, and that cut is only one possibility.</p>
     <div class="row"><div><label for="wrGLang">Language</label><select id="wrGLang"><option value="egyptian">Egyptian (transliteration, e.g. ꜥnḫ wḏꜣ snb)</option><option value="mycenaean">Mycenaean Greek (Linear B signs)</option><option value="old_norse">Old Norse (Latin letters or runes)</option></select></div>
@@ -81,5 +82,6 @@ route(/^\/scripts$/, async () => {
   $("#wrFind").oninput = wrPalette;
   $("#wrWrite").onclick = ev => busy(ev.target, $("#wrWMsg"), wrWrite);
   wsWire();
+  padWire();
   await wrLoadPalette();
 }, "scripts");

@@ -1,0 +1,27 @@
+{
+ "id": "glyph_photo_eval",
+ "photos": 4019,
+ "labels_known": 167,
+ "labels_not_in_recogniser": {
+  "P98": 5,
+  "M195": 3,
+  "D156": 3,
+  "P13": 1
+ },
+ "chance_top1_most_common_sign": 0.111,
+ "results": {
+  "as is": {
+   "top1": 0.003,
+   "top5": 0.015
+  },
+  "inverted": {
+   "top1": 0.016,
+   "top5": 0.052
+  },
+  "both views averaged": {
+   "top1": 0.012,
+   "top5": 0.045
+  }
+ },
+ "note": "Font-trained recogniser, no photographs in training; Pyramid of Unas photographs (Franken and van Gemert)."
+}

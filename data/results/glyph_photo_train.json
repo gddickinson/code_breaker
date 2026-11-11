@@ -1,0 +1,25 @@
+{
+ "id": "glyph_photo_train",
+ "test_pictures": [
+  "9",
+  "41"
+ ],
+ "train_photos": 3230,
+ "test_photos": 789,
+ "test_labels_unseen_in_train": 9,
+ "before": {
+  "photos_top1_top5": [
+   0.025,
+   0.076
+  ],
+  "font_top1": 0.995
+ },
+ "after": {
+  "photos_top1_top5": [
+   0.918,
+   0.967
+  ],
+  "font_top1": 0.993
+ },
+ "replaced_model": true
+}

@@ -1,0 +1,52 @@
+{
+ "id": "sketch_eval",
+ "per_script": 25,
+ "by_script": {
+  "cuneiform": {
+   "top1": 0.88,
+   "top5": 0.92,
+   "top5_within_script": 0.96
+  },
+  "egyptian": {
+   "top1": 0.72,
+   "top5": 1.0,
+   "top5_within_script": 1.0
+  },
+  "gothic": {
+   "top1": 0.36,
+   "top5": 0.8,
+   "top5_within_script": 0.96
+  },
+  "linear_b": {
+   "top1": 0.92,
+   "top5": 1.0,
+   "top5_within_script": 1.0
+  },
+  "ogham": {
+   "top1": 0.6,
+   "top5": 0.84,
+   "top5_within_script": 1.0
+  },
+  "old_persian": {
+   "top1": 0.76,
+   "top5": 1.0,
+   "top5_within_script": 1.0
+  },
+  "phoenician": {
+   "top1": 0.72,
+   "top5": 0.76,
+   "top5_within_script": 1.0
+  },
+  "runic": {
+   "top1": 0.64,
+   "top5": 0.76,
+   "top5_within_script": 0.88
+  },
+  "ugaritic": {
+   "top1": 0.52,
+   "top5": 0.72,
+   "top5_within_script": 1.0
+  }
+ },
+ "mean_top5_within_script": 0.978
+}

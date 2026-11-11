@@ -79,3 +79,34 @@ def scan(body: ScanIn):
         return scan_data_url(body.image, body.scripts or None)
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(400, str(exc)) from exc
+
+
+class SketchIn(BaseModel):
+    image: str
+    scripts: list[str] = []
+
+
+@router.post("/api/writing/sketch")
+def sketch(body: SketchIn):
+    from ..writing.glyph_model import load
+    from ..writing.glyph_scan import decode_image
+    from ..writing.sketch import identify_sketch
+
+    if load() is None:
+        raise HTTPException(400, "The glyph recogniser is not trained yet: run python -m codebreaker.writing.glyph_model.")
+    return identify_sketch(decode_image(body.image), body.scripts or None)
+
+
+class SignsIn(BaseModel):
+    signs: str
+
+
+@router.post("/api/writing/script_of")
+def script_of(body: SignsIn):
+    """Which script a typed or scanned set of signs belongs to: Unicode tells for known signs (no recogniser needed)."""
+    from collections import Counter
+
+    from ..writing.signs import SCRIPTS, script_of as which
+
+    c = Counter(which(ch) for ch in body.signs if not ch.isspace())
+    return {"counts": {(SCRIPTS[k][0] if k else "not a supported script"): v for k, v in c.most_common()}}

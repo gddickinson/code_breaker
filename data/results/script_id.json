@@ -1,0 +1,176 @@
+{
+ "id": "script_id",
+ "scripts": [
+  "cuneiform",
+  "egyptian",
+  "gothic",
+  "linear_b",
+  "ogham",
+  "old_persian",
+  "phoenician",
+  "runic",
+  "ugaritic"
+ ],
+ "results": {
+  "clean_1": {
+   "accuracy": 0.97,
+   "abstained": 0.026,
+   "by_script": {
+    "cuneiform": 0.97,
+    "egyptian": 1.0,
+    "gothic": 1.0,
+    "linear_b": 1.0,
+    "ogham": 0.97,
+    "old_persian": 1.0,
+    "phoenician": 0.93,
+    "runic": 0.97,
+    "ugaritic": 0.9
+   }
+  },
+  "clean_2": {
+   "accuracy": 1.0,
+   "abstained": 0.0,
+   "by_script": {
+    "cuneiform": 1.0,
+    "egyptian": 1.0,
+    "gothic": 1.0,
+    "linear_b": 1.0,
+    "ogham": 1.0,
+    "old_persian": 1.0,
+    "phoenician": 1.0,
+    "runic": 1.0,
+    "ugaritic": 1.0
+   }
+  },
+  "clean_4": {
+   "accuracy": 1.0,
+   "abstained": 0.0,
+   "by_script": {
+    "cuneiform": 1.0,
+    "egyptian": 1.0,
+    "gothic": 1.0,
+    "linear_b": 1.0,
+    "ogham": 1.0,
+    "old_persian": 1.0,
+    "phoenician": 1.0,
+    "runic": 1.0,
+    "ugaritic": 1.0
+   }
+  },
+  "clean_8": {
+   "accuracy": 1.0,
+   "abstained": 0.0,
+   "by_script": {
+    "cuneiform": 1.0,
+    "egyptian": 1.0,
+    "gothic": 1.0,
+    "linear_b": 1.0,
+    "ogham": 1.0,
+    "old_persian": 1.0,
+    "phoenician": 1.0,
+    "runic": 1.0,
+    "ugaritic": 1.0
+   }
+  },
+  "clean_12": {
+   "accuracy": 1.0,
+   "abstained": 0.0,
+   "by_script": {
+    "cuneiform": 1.0,
+    "egyptian": 1.0,
+    "gothic": 1.0,
+    "linear_b": 1.0,
+    "ogham": 1.0,
+    "old_persian": 1.0,
+    "phoenician": 1.0,
+    "runic": 1.0,
+    "ugaritic": 1.0
+   }
+  },
+  "unseen_1": {
+   "accuracy": 0.496,
+   "abstained": 0.481,
+   "by_script": {
+    "cuneiform": 0.43,
+    "egyptian": 0.4,
+    "gothic": 0.57,
+    "linear_b": 0.47,
+    "ogham": 0.6,
+    "old_persian": 0.7,
+    "phoenician": 0.37,
+    "runic": 0.43,
+    "ugaritic": 0.5
+   }
+  },
+  "unseen_2": {
+   "accuracy": 0.644,
+   "abstained": 0.311,
+   "by_script": {
+    "cuneiform": 0.57,
+    "egyptian": 0.43,
+    "gothic": 0.57,
+    "linear_b": 0.8,
+    "ogham": 0.73,
+    "old_persian": 0.7,
+    "phoenician": 0.8,
+    "runic": 0.73,
+    "ugaritic": 0.47
+   }
+  },
+  "unseen_4": {
+   "accuracy": 0.619,
+   "abstained": 0.363,
+   "by_script": {
+    "cuneiform": 0.43,
+    "egyptian": 0.53,
+    "gothic": 0.53,
+    "linear_b": 0.83,
+    "ogham": 0.6,
+    "old_persian": 0.93,
+    "phoenician": 0.6,
+    "runic": 0.7,
+    "ugaritic": 0.4
+   }
+  },
+  "unseen_8": {
+   "accuracy": 0.767,
+   "abstained": 0.215,
+   "by_script": {
+    "cuneiform": 0.53,
+    "egyptian": 0.63,
+    "gothic": 0.67,
+    "linear_b": 1.0,
+    "ogham": 0.87,
+    "old_persian": 0.93,
+    "phoenician": 0.83,
+    "runic": 0.9,
+    "ugaritic": 0.53
+   }
+  },
+  "unseen_12": {
+   "accuracy": 0.652,
+   "abstained": 0.326,
+   "by_script": {
+    "cuneiform": 0.33,
+    "egyptian": 0.43,
+    "gothic": 0.7,
+    "linear_b": 0.9,
+    "ogham": 0.57,
+    "old_persian": 0.87,
+    "phoenician": 0.83,
+    "runic": 0.7,
+    "ugaritic": 0.53
+   }
+  }
+ },
+ "non_script_controls": {
+  "blobs": {
+   "sets_of_6": 90,
+   "named_a_script": 0.0
+  },
+  "latin_letters": {
+   "sets_of_6": 90,
+   "named_a_script": 0.167
+  }
+ }
+}
