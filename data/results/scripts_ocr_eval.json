@@ -1,0 +1,40 @@
+{
+ "id": "scripts_ocr_eval",
+ "results": {
+  "Cyrillic": {
+   "tesseract": 0.0,
+   "paddle_detected": 0.166,
+   "paddle_line": 0.508,
+   "vision_model": 0.0,
+   "lines": 8
+  },
+  "Arabic": {
+   "tesseract": 0.218,
+   "paddle_detected": 0.256,
+   "paddle_line": 0.248,
+   "vision_model": 0.066,
+   "lines": 8
+  },
+  "Devanagari": {
+   "tesseract": 0.015,
+   "paddle_detected": 0.617,
+   "paddle_line": 0.364,
+   "vision_model": 0.037,
+   "lines": 8
+  },
+  "Japanese": {
+   "tesseract": 0.133,
+   "paddle_detected": 0.188,
+   "paddle_line": 0.094,
+   "vision_model": 0.023,
+   "lines": 8
+  },
+  "Hangul": {
+   "tesseract": 0.06,
+   "paddle_detected": 0.262,
+   "paddle_line": 0.141,
+   "vision_model": 0.021,
+   "lines": 8
+  }
+ }
+}
