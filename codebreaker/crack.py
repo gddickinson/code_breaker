@@ -39,6 +39,8 @@ def verdict(best: dict | None, nulls: list, letters_n: int, tried: int) -> dict:
         return {"level": "none", "label": "Not cracked", "why": f"The closest result came from {best['cipher']}, but {letters_n} letters are too few for that method: with so many possible keys, almost any short text can be made to look like words. No method with few enough keys produced a reading."}
     if best["coverage"] >= READABLE and top is not None and best["coverage"] - top >= MARGIN and letters_n >= MIN_LETTERS:
         return {"level": "readable", "label": "Readable result", "why": f"{best['cipher']} reads at {best['coverage']:.0%} dictionary coverage. The same attack on shuffled letters reached at most {top:.0%}. {tried} attempts were made, so read the text yourself to confirm."}
+    if top is not None and best["coverage"] <= top + 0.02:  # shuffled letters read as well: no evidence of a reading
+        return {"level": "none", "label": "Not cracked", "why": f"The best reading ({best['cipher']}, {best['coverage']:.0%} coverage) is no better than the same attacks on shuffled letters ({top:.0%}), so it is what chance gives."}
     if best["coverage"] >= 0.5:
         return {"level": "partial", "label": "Possible reading, not proven", "why": f"Best coverage is {best['coverage']:.0%}" + (f", with shuffled letters reaching {top:.0%}." if top is not None else ". The null test could not run.") + (" The text is too short to be sure." if letters_n < MIN_LETTERS else " Check it by eye.")}
     return {"level": "none", "label": "Not cracked", "why": f"The best of {tried} attempts covers only {best['coverage']:.0%} of the text with real words. The system may not be one of those tried, or the text may be too short."}
@@ -141,10 +143,13 @@ def crack(raw: str, budget: float = 45, lang: str | None = None, workers: int = 
         jobs.append(("beam", raw))
     if not info["letters"] or info["symbols"] > 26 or (re.search(r"\d", raw) and not re.search(r"[A-Za-z]", raw)):
         jobs += [("symbols", raw, l) for l in ([lang] if lang else ["en", "fr"])]
-    langs = [lang] if lang else list(LANGS)
+    from .langchoice import distances
+
+    stage = distances(raw)[0] if not lang and len(letters(raw)) >= 20 else ""
+    langs = [lang] if lang else S.choose_langs(raw)  # the 3 closest of all languages with a corpus (Round 85b)
     for l in langs:
         jobs += [("attack", cid, raw, l) for cid in order]
-    yield step("attack", "Try every method", f"{len(order)} attacks in {len(langs)} language(s), most likely first, for up to {budget:.0f} seconds.", planned=len([j for j in jobs if j[0] == "attack"]))
+    yield step("attack", "Try every method", f"{len(order)} attacks in {len(langs)} language(s) ({', '.join(langs)}{'; chosen as ' + stage if stage else ''}), most likely first, for up to {budget:.0f} seconds.", planned=len([j for j in jobs if j[0] == "attack"]))
     reserve = max(2.0, budget * 0.12)
     failed, done = 0, 0
     best = max(attempts, key=_quality, default=None)

@@ -105,8 +105,11 @@ def natural(text: str) -> dict | None:
     t = letters(text)
     if len(t) < 6:
         return None
-    best = max(LANGS, key=lambda c: score(t, c))
-    return {"lang": best, "name": LANGS[best]} if score(t, best) >= NATURAL_SCORE or coverage(t[:500], best) >= 0.6 else None
+    from .languages import cipher_langs
+
+    names = cipher_langs()  # every language with a corpus (Round 85b), so a decoded Dutch message is recognised too
+    best = max(names, key=lambda c: score(t, c))
+    return {"lang": best, "name": names[best]} if score(t, best) >= NATURAL_SCORE or coverage(t[:500], best) >= 0.6 else None
 
 
 def caesar_sweep(raw: str, lang: str) -> dict:
@@ -162,6 +165,13 @@ def frequency_guess(raw: str, lang: str) -> dict:
     common = [A[i] for i in np.argsort(-np.asarray(model(lang)["letter"]))]
     m = dict(zip(freq, common))
     return {"pairs": [{"cipher": c, "plain": m[c], "count": t.count(c)} for c in freq[:10]], "text": "".join(m.get(c, c) for c in t)[:120]}
+
+
+def choose_langs(raw: str, k: int = 3) -> list[str]:
+    """The k closest of all languages with a corpus (Round 85b; staged by what the cipher did, see langchoice)."""
+    from .langchoice import choose
+
+    return choose(raw, k)
 
 
 def language_guess(raw: str) -> list[dict]:

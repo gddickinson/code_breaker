@@ -1,0 +1,430 @@
+{
+ "nl": {
+  "books": [
+   {
+    "id": "2838",
+    "title": "De Beurs Lacht"
+   },
+   {
+    "id": "2839",
+    "title": "Franse Toestanden"
+   },
+   {
+    "id": "2840",
+    "title": "De Franse Pers"
+   },
+   {
+    "id": "3455",
+    "title": "Nederlandsche Sagen en Legenden"
+   },
+   {
+    "id": "6712",
+    "title": "Akbar: een oosterse roman"
+   },
+   {
+    "id": "6748",
+    "title": "Fulco de Minstreel: Een historisch verhaal uit den tijd van Graaf Jan I voor jon"
+   }
+  ],
+  "characters": 1699273,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "pt": {
+  "books": [
+   {
+    "id": "2837",
+    "title": "Lendas do sul"
+   },
+   {
+    "id": "3333",
+    "title": "Os Lusíadas"
+   },
+   {
+    "id": "7384",
+    "title": "Carta da Companhia de Jesus para o seráfico São Francisco"
+   },
+   {
+    "id": "8698",
+    "title": "O Livro de Cesario Verde"
+   },
+   {
+    "id": "9654",
+    "title": "Lendas e Narrativas (Tomo I)"
+   },
+   {
+    "id": "11299",
+    "title": "O cancioneiro portuguez da Vaticana"
+   },
+   {
+    "id": "12579",
+    "title": "As Farpas: Chronica Mensal da Politica, das Letras e dos Costumes (1883-06)"
+   },
+   {
+    "id": "13092",
+    "title": "As Farpas: Chronica Mensal da Politica, das Letras e dos Costumes (1878-01)"
+   },
+   {
+    "id": "13093",
+    "title": "As Farpas: Chronica Mensal da Politica, das Letras e dos Costumes (1878-02/05)"
+   },
+   {
+    "id": "13630",
+    "title": "As Farpas: Chronica Mensal da Politica, das Letras e dos Costumes (1882-06/07)"
+   }
+  ],
+  "characters": 1562010,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "sv": {
+  "books": [
+   {
+    "id": "2100",
+    "title": "Bibeln, Gamla och Nya Testamentet"
+   }
+  ],
+  "characters": 4944825,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "da": {
+  "books": [
+   {
+    "id": "2143",
+    "title": "Bibelen, Det nye Testamente"
+   },
+   {
+    "id": "2144",
+    "title": "Det Gamle Testamente af 1931"
+   }
+  ],
+  "characters": 4124544,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "no": {
+  "books": [
+   {
+    "id": "11293",
+    "title": "Jan van Huysums Blomsterstykke: En Buket"
+   },
+   {
+    "id": "12844",
+    "title": "Den engelske Lods"
+   },
+   {
+    "id": "13041",
+    "title": "Vildanden"
+   },
+   {
+    "id": "14686",
+    "title": "Hærmændene på Helgeland\nMed anmerkninger av stud. mag. Birger Knudsen"
+   },
+   {
+    "id": "15291",
+    "title": "Gildet på Solhaug"
+   },
+   {
+    "id": "15669",
+    "title": "Fru Inger til Østråt"
+   },
+   {
+    "id": "15748",
+    "title": "Kærlighedens Komedie"
+   },
+   {
+    "id": "16665",
+    "title": "Catilina"
+   },
+   {
+    "id": "20550",
+    "title": "Presten som ikke kunde brukes"
+   },
+   {
+    "id": "30027",
+    "title": "Sult"
+   }
+  ],
+  "characters": 1652576,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "fi": {
+  "books": [
+   {
+    "id": "7000",
+    "title": "Kalevala"
+   },
+   {
+    "id": "7078",
+    "title": "Kanteletar: Suomen kansan wanhoja lauluja ja wirsiä"
+   }
+  ],
+  "characters": 1635109,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "hu": {
+  "books": [
+   {
+    "id": "18365",
+    "title": "Az arany szalamandra"
+   },
+   {
+    "id": "19040",
+    "title": "Takáts Sándor Szalai Barkóczy Krisztina 1671-1724 czímű könyvének ismertetése"
+   },
+   {
+    "id": "19433",
+    "title": "Történet\nA Lógody-utcáról, a tavaszról, a halálról és a messzeségről"
+   },
+   {
+    "id": "19744",
+    "title": "A mester"
+   },
+   {
+    "id": "19749",
+    "title": "Thury Zoltán összes művei (1. kötet)\nKetty és egyéb elbeszélések"
+   },
+   {
+    "id": "20169",
+    "title": "A bihari remete, és egyéb történetek"
+   },
+   {
+    "id": "20942",
+    "title": "Vasárnapi Könyv. 1914. Első félév 10. füzet"
+   },
+   {
+    "id": "27546",
+    "title": "Különféle magyarok meg egyéb népek"
+   },
+   {
+    "id": "27565",
+    "title": "Magyar élet: Elbeszélések"
+   }
+  ],
+  "characters": 1644020,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "pl": {
+  "books": [
+   {
+    "id": "6000",
+    "title": "Ironia Pozorów"
+   },
+   {
+    "id": "8119",
+    "title": "Sklepy cynamonowe"
+   },
+   {
+    "id": "15201",
+    "title": "Szachy i Warcaby: Droga do mistrzostwa"
+   },
+   {
+    "id": "17473",
+    "title": "Przyjaciel Dziatek\nWierszyki dla — Dziatwy Polskiej w Ameryce"
+   },
+   {
+    "id": "27062",
+    "title": "Romeo i Julia\nTragedya w 5 Aktach"
+   },
+   {
+    "id": "27081",
+    "title": "Sonety Adama Mickiewicza"
+   },
+   {
+    "id": "27178",
+    "title": "Na śmierć, 1863"
+   },
+   {
+    "id": "27208",
+    "title": "Threny"
+   }
+  ],
+  "characters": 1517666,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "cs": {
+  "books": [
+   {
+    "id": "13083",
+    "title": "R.U.R."
+   },
+   {
+    "id": "16843",
+    "title": "Cvičení maličkých ve svatém náboženství křesťansko-katolickém"
+   },
+   {
+    "id": "27960",
+    "title": "Hore dědinú: A jiné povídky"
+   },
+   {
+    "id": "27974",
+    "title": "Vlci proti Mustangům"
+   },
+   {
+    "id": "29592",
+    "title": "Pasáček Ali: Pověst z východu"
+   },
+   {
+    "id": "29648",
+    "title": "Štafeta"
+   },
+   {
+    "id": "34225",
+    "title": "Zápisky z mrtvého domu"
+   },
+   {
+    "id": "37525",
+    "title": "Dvojník. Nétička Nezvánova a Malinký Hrdina"
+   }
+  ],
+  "characters": 2160498,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "eo": {
+  "books": [
+   {
+    "id": "8224",
+    "title": "Fundamenta Krestomatio"
+   },
+   {
+    "id": "11307",
+    "title": "El la Biblio\nElektitaj ĉapitroj de la Psalmaro, Sentencoj de Salomono kaj Predik"
+   },
+   {
+    "id": "11511",
+    "title": "Robinsono Kruso"
+   },
+   {
+    "id": "17425",
+    "title": "La Falo de Uŝero-Domo"
+   },
+   {
+    "id": "17482",
+    "title": "La Aventuroj de Alicio en Mirlando"
+   },
+   {
+    "id": "17665",
+    "title": "Mia kontrabandulo"
+   },
+   {
+    "id": "17945",
+    "title": "Mark Twain: Tri Noveloj"
+   },
+   {
+    "id": "18178",
+    "title": "Rakontoj"
+   }
+  ],
+  "characters": 1737084,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "ca": {
+  "books": [
+   {
+    "id": "14768",
+    "title": "La Parada"
+   },
+   {
+    "id": "14816",
+    "title": "La Mare-Balena"
+   },
+   {
+    "id": "15346",
+    "title": "Pinya de Rosa. Volume 1, Books 1-3"
+   },
+   {
+    "id": "15347",
+    "title": "Pinya de Rosa. Volume 2, Book 4"
+   },
+   {
+    "id": "17046",
+    "title": "Les alegres comares de Windsor"
+   },
+   {
+    "id": "17219",
+    "title": "La creació d'Eva i altres contes"
+   },
+   {
+    "id": "17410",
+    "title": "Ànimes atuïdes"
+   }
+  ],
+  "characters": 1716740,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ },
+ "tl": {
+  "books": [
+   {
+    "id": "13156",
+    "title": "Alamat ng Ilang-Ilang"
+   },
+   {
+    "id": "13233",
+    "title": "Ang Tunay na Búhay ni P. Dr. José Burgos at Nang Manga Nacasama Niya na Sina P. "
+   },
+   {
+    "id": "13320",
+    "title": "Juan Masili o Ang pinuno ng tulisan"
+   },
+   {
+    "id": "13683",
+    "title": "Justicia Nang Dios"
+   },
+   {
+    "id": "13686",
+    "title": "Nang Bata Pa Kami"
+   },
+   {
+    "id": "13687",
+    "title": "Dakilang Asal"
+   },
+   {
+    "id": "13773",
+    "title": "Ang Mestisa. Ikalawang Bahagi (Second Volume)"
+   },
+   {
+    "id": "13915",
+    "title": "Novena sa Maloualhating Ama,t, Doctor at Ilao nang Santa Iglesia na si San Agust"
+   },
+   {
+    "id": "14205",
+    "title": "Ang Katipunan"
+   },
+   {
+    "id": "14215",
+    "title": "Landas na Tuntunin"
+   },
+   {
+    "id": "14270",
+    "title": "Panayam ng Tatlong Binata — Unang Hati"
+   },
+   {
+    "id": "14271",
+    "title": "Panayam ng Tatlong Binata — Ikalawang Hati"
+   }
+  ],
+  "characters": 909426,
+  "source": "https://www.gutenberg.org",
+  "licence": "public domain in the USA (Project Gutenberg licence for the files)",
+  "fetched": "2026-11-11"
+ }
+}

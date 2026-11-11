@@ -13,6 +13,16 @@ ROOT = Path(__file__).resolve().parent.parent
 CORPORA, MODELS = ROOT / "data/corpora", ROOT / "data/models"
 LANGS = {"en": "English", "fr": "French", "de": "German", "it": "Italian", "es": "Spanish", "la": "Latin"}
 FILES = {"en": ["en.txt", "en2.txt"], "fr": ["fr.txt"], "de": ["de.txt"], "it": ["it.txt"], "es": ["es.txt"], "la": ["la.txt"]}
+# Round 85b: extra cipher languages, corpora from Project Gutenberg fetched by scripts/fetch_corpora.py (not committed).
+# LANGS stays the six core languages that whole-corpus analyses loop over; the crack chooses among all with a corpus.
+EXTRA = {"nl": "Dutch", "pt": "Portuguese", "sv": "Swedish", "da": "Danish", "nb": "Norwegian", "fi": "Finnish", "hu": "Hungarian",
+         "pl": "Polish", "cs": "Czech", "eo": "Esperanto", "ca": "Catalan", "tl": "Tagalog"}
+FILES.update({c: [f"extra/{'no' if c == 'nb' else c}.txt"] for c in EXTRA})
+
+
+def cipher_langs() -> dict:
+    """Every language with a corpus on disk: the six core ones and the extras fetched."""
+    return {**LANGS, **{c: n for c, n in EXTRA.items() if all((CORPORA / f).exists() for f in FILES[c])}}
 
 
 def corpus_text(lang: str) -> str:
@@ -20,9 +30,13 @@ def corpus_text(lang: str) -> str:
     parts = []
     for name in FILES[lang]:
         raw = (CORPORA / name).read_text(encoding="utf-8", errors="ignore")
-        start = re.search(r"\*\*\* START OF.*?\*\*\*", raw)
-        end = re.search(r"\*\*\* END OF", raw)
-        parts.append(raw[start.end() if start else 0 : end.start() if end else None])
+        starts = list(re.finditer(r"\*\*\* ?START OF.*?\*\*\*", raw))
+        if not starts:  # no Gutenberg markers: the whole file
+            end = re.search(r"\*\*\* ?END OF", raw)
+            parts.append(raw[: end.start() if end else None])
+        for s in starts:  # a file may hold several books, each with its own header and licence
+            end = re.compile(r"\*\*\* ?END OF").search(raw, s.end())
+            parts.append(raw[s.end() : end.start() if end else None])
     return "\n".join(parts)
 
 

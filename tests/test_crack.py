@@ -27,6 +27,7 @@ def test_verdict_needs_margin_length_and_a_null():
     assert crack.verdict(best, [0.1], 20, 50)["level"] == "partial"
     assert crack.verdict(best, [], 100, 50)["level"] == "partial"
     assert crack.verdict({"cipher": "X", "coverage": 0.2}, [0.1], 100, 50)["level"] == "none"
+    assert crack.verdict({"cipher": "X", "coverage": 0.66}, [0.66], 300, 50)["level"] == "none"  # no better than shuffled
 
 
 def test_ties_are_credited_to_the_simplest_system():

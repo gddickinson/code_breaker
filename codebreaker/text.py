@@ -4,7 +4,8 @@ import unicodedata
 import numpy as np
 
 A = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-_SPECIAL = str.maketrans({"ß": "SS", "Æ": "AE", "æ": "AE", "Œ": "OE", "œ": "OE"})
+_SPECIAL = str.maketrans({"ß": "SS", "Æ": "AE", "æ": "AE", "Œ": "OE", "œ": "OE",
+                           "Ø": "O", "ø": "o", "Ł": "L", "ł": "l", "Đ": "D", "đ": "d", "ı": "i", "Þ": "TH", "þ": "th", "Ð": "D", "ð": "d"})
 
 
 def strip_accents(text: str) -> str:
