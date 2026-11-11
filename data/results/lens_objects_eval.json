@@ -1,0 +1,468 @@
+{
+ "id": "lens_objects_eval",
+ "model": "qwen2.5vl:7b",
+ "results": {
+  "naming": {
+   "pictures": 43,
+   "ai_named": 36,
+   "classical_top5": 15,
+   "shuffled_named_original": 0,
+   "shuffled_said_none": 41,
+   "rows": [
+    {
+     "picture": "8ball",
+     "ai": "billiard ball",
+     "ai_hit": false,
+     "classical": "coil",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.7
+    },
+    {
+     "picture": "Baseball",
+     "ai": "baseball",
+     "ai_hit": true,
+     "classical": "baseball",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 8.4
+    },
+    {
+     "picture": "Basketball",
+     "ai": "basketball",
+     "ai_hit": true,
+     "classical": "basketball",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 8.6
+    },
+    {
+     "picture": "Bowling",
+     "ai": "bowling ball",
+     "ai_hit": true,
+     "classical": "saltshaker",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Cactus",
+     "ai": "cactus",
+     "ai_hit": true,
+     "classical": "ladybug",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 8.2
+    },
+    {
+     "picture": "Chalk",
+     "ai": "",
+     "ai_hit": false,
+     "classical": "nematode",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.1
+    },
+    {
+     "picture": "Dahlia",
+     "ai": "flower",
+     "ai_hit": false,
+     "classical": "bee",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.5
+    },
+    {
+     "picture": "Dandelion",
+     "ai": "dandelion",
+     "ai_hit": true,
+     "classical": "daisy",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 8.0
+    },
+    {
+     "picture": "Drum",
+     "ai": "drum",
+     "ai_hit": true,
+     "classical": "drum",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.8
+    },
+    {
+     "picture": "Eagle",
+     "ai": "eagle",
+     "ai_hit": true,
+     "classical": "bald eagle",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Earth",
+     "ai": "Earth",
+     "ai_hit": true,
+     "classical": "chambered nautilus",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Flower",
+     "ai": "flower",
+     "ai_hit": true,
+     "classical": "daisy",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.3
+    },
+    {
+     "picture": "Football",
+     "ai": "football",
+     "ai_hit": true,
+     "classical": "clog",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.8
+    },
+    {
+     "picture": "Fortune Cookie",
+     "ai": "fortune cookie",
+     "ai_hit": true,
+     "classical": "French loaf",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 2.0
+    },
+    {
+     "picture": "Gingerbread Man",
+     "ai": "gingerbread man",
+     "ai_hit": true,
+     "classical": "chocolate sauce",
+     "classical_hit": false,
+     "shuffled_said": "noise",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Golf",
+     "ai": "golf ball",
+     "ai_hit": true,
+     "classical": "golf ball",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.4
+    },
+    {
+     "picture": "Guitar",
+     "ai": "guitar",
+     "ai_hit": true,
+     "classical": "electric guitar",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 2.3
+    },
+    {
+     "picture": "Hockey",
+     "ai": "hockey stick",
+     "ai_hit": true,
+     "classical": "swab",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.8
+    },
+    {
+     "picture": "Leaf",
+     "ai": "leaf",
+     "ai_hit": true,
+     "classical": "walking stick",
+     "classical_hit": true,
+     "shuffled_said": "grass",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Lightning",
+     "ai": "lightning",
+     "ai_hit": true,
+     "classical": "volcano",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Lotus",
+     "ai": "lotus",
+     "ai_hit": true,
+     "classical": "pinwheel",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.8
+    },
+    {
+     "picture": "Medal",
+     "ai": "medal",
+     "ai_hit": true,
+     "classical": "shield",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Nest",
+     "ai": "nest",
+     "ai_hit": true,
+     "classical": "ping-pong ball",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.2
+    },
+    {
+     "picture": "Owl",
+     "ai": "owl",
+     "ai_hit": true,
+     "classical": "great grey owl",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.8
+    },
+    {
+     "picture": "Parrot",
+     "ai": "parrot",
+     "ai_hit": true,
+     "classical": "macaw",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.8
+    },
+    {
+     "picture": "Penguin",
+     "ai": "penguin",
+     "ai_hit": true,
+     "classical": "king penguin",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 2.0
+    },
+    {
+     "picture": "Piano",
+     "ai": "piano",
+     "ai_hit": true,
+     "classical": "upright",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Poppy",
+     "ai": "flower",
+     "ai_hit": false,
+     "classical": "bee",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 6.8
+    },
+    {
+     "picture": "Red Rose",
+     "ai": "rose",
+     "ai_hit": true,
+     "classical": "velvet",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.7
+    },
+    {
+     "picture": "Sandollar",
+     "ai": "sand dollar",
+     "ai_hit": true,
+     "classical": "custard apple",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.1
+    },
+    {
+     "picture": "Smack",
+     "ai": "lipstick",
+     "ai_hit": true,
+     "classical": "hair slide",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Snowflake",
+     "ai": "snowflake",
+     "ai_hit": true,
+     "classical": "jellyfish",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Soccer",
+     "ai": "soccer ball",
+     "ai_hit": true,
+     "classical": "soccer ball",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Sunflower",
+     "ai": "sunflower",
+     "ai_hit": true,
+     "classical": "bee",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 1.9
+    },
+    {
+     "picture": "Target",
+     "ai": "target",
+     "ai_hit": true,
+     "classical": "balloon",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Tennis",
+     "ai": "tennis ball",
+     "ai_hit": true,
+     "classical": "tennis ball",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.6
+    },
+    {
+     "picture": "Turntable",
+     "ai": "record",
+     "ai_hit": false,
+     "classical": "washer",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Violin",
+     "ai": "violin",
+     "ai_hit": true,
+     "classical": "violin",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Whiterose",
+     "ai": "rose",
+     "ai_hit": true,
+     "classical": "anemone fish",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Yellow Daisy",
+     "ai": "flower",
+     "ai_hit": false,
+     "classical": "daisy",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Yin-Yang",
+     "ai": "yin-yang",
+     "ai_hit": true,
+     "classical": "toilet tissue",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.5
+    },
+    {
+     "picture": "Zebra",
+     "ai": "zebra",
+     "ai_hit": true,
+     "classical": "zebra",
+     "classical_hit": true,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 2.0
+    },
+    {
+     "picture": "Zen",
+     "ai": "",
+     "ai_hit": false,
+     "classical": "coil",
+     "classical_hit": false,
+     "shuffled_said": "",
+     "shuffled_named_original": false,
+     "ai_seconds": 7.9
+    }
+   ]
+  },
+  "noise pictures": {
+   "pictures": 3,
+   "said_none": 3,
+   "labels": [
+    "",
+    "",
+    ""
+   ]
+  },
+  "boxes": {
+   "pictures": 10,
+   "ai_mean_iou": 0.864,
+   "grabcut_mean_iou": 0.926,
+   "ai_iou_over_0.5": 9,
+   "grabcut_iou_over_0.5": 10
+  },
+  "tracking": {
+   "sequences": 5,
+   "mean_iou": 0.888,
+   "frames_lost": 0,
+   "frames": 195,
+   "null_object_removed_reported_lost": 1.0
+  }
+ }
+}

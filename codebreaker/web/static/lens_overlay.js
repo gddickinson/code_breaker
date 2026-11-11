@@ -1,5 +1,5 @@
 /* Lens overlay: neon brackets, labels, a sweeping scan line and lock-on animation, drawn over a video or picture. */
-const LENS_COLORS = { text: "#00f0ff", code: "#f5e642", sign: "#ff2a6d", lsb: "#ff5c7a", trailing: "#ff5c7a", embedded: "#ff5c7a", metadata: "#c084fc",
+const LENS_COLORS = { object: "#7CFC00", text: "#00f0ff", code: "#f5e642", sign: "#ff2a6d", lsb: "#ff5c7a", trailing: "#ff5c7a", embedded: "#ff5c7a", metadata: "#c084fc",
   zero_width: "#ff5c7a", whitespace: "#ff5c7a", homoglyph: "#ff5c7a", acrostic: "#39ff88" };
 const lensOv = { canvas: null, items: [], born: 0, sweep: 0, raf: 0, scale: 1, status: "", hud: [], dx: 0, dy: 0 };
 

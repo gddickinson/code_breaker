@@ -120,7 +120,10 @@ async function lensLiveTick() {
   c.width = v.videoWidth * s; c.height = v.videoHeight * s;
   c.getContext("2d").drawImage(v, 0, 0, c.width, c.height);
   try {
-    const r = await api("/lens/image", { image: c.toDataURL("image/jpeg", 0.85), live: true, script: $("#lnScript").value || null, session: lensSession });
+    const url = c.toDataURL("image/jpeg", 0.85);
+    const r = await api("/lens/image", { image: url, live: true, script: $("#lnScript").value || null, session: lensSession });
+    const obj = typeof lensTrackStep === "function" ? await lensTrackStep(url) : null;  // Round 90b: a tracked object joins the overlay
+    if (obj) r.findings = [obj, ...(r.findings || [])];
     if (r.session) lensSession = r.session;
     $("#lnTips").innerHTML = (r.tips || []).map(t => `<li>${esc(t)}</li>`).join("");
     lensRef = ref; lensRef.srcScale = r.size[0] / LENS_SMALL;
@@ -141,8 +144,8 @@ route(/^\/lens(\/demo)?$/, async demo => {
       <div id="lnAIBox" hidden><label style="display:flex;gap:8px;align-items:flex-start;margin-top:24px"><input type="checkbox" id="lnAI" style="width:auto;margin-top:3px"> Second reader: the local vision model (slower; the picture stays on this machine)</label></div>
       <div><label for="lnSigns">Runes, hieroglyphs and other signs</label><select id="lnSigns"><option value="auto">Confident signs outside the text</option><option value="always">Every sign found</option><option value="never">Never</option></select></div></div>
       <button id="lnCam">Start live camera</button> <button id="lnSnap" class="alt" disabled>Capture and analyse</button>
-      <label class="filebtn" id="lnFileBtn">Upload a picture or file<input id="lnFile" type="file"></label> <button id="lnDemo" class="alt">Try a sample picture</button>
-      <p id="lnMsg" aria-live="polite"></p>
+      <label class="filebtn" id="lnFileBtn">Upload a picture or file<input id="lnFile" type="file"></label> <button id="lnDemo" class="alt">Try a sample picture</button> <button id="lnObj" class="alt">What is this object?</button>
+      <p id="lnMsg" aria-live="polite"></p><div id="lnObjOut" aria-live="polite"></div>
       <div class="lensstage" id="lnStage"><video id="lnVid" playsinline muted hidden></video><img id="lnImg" alt="The picture being analysed" hidden><canvas id="lnCanvas" aria-hidden="true"></canvas></div>
       <p id="lnLive" class="lenslive" aria-live="polite"></p><ul id="lnTips" class="lenstips" aria-live="polite"></ul>
       <details open><summary>Scan log</summary><pre id="lnLog" class="lenslog"></pre></details>
@@ -165,6 +168,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
   };
   $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d)), true); $("#lnCam").textContent = "Start live camera"; $("#lnSnap").disabled = true; };
   $("#lnFile").onchange = e => { const f = e.target.files[0]; if (f) busy($("#lnFileBtn"), $("#lnMsg"), () => lensFile(f)); };
+  $("#lnObj").onclick = lensObject;
   if (aiSt.vision) { $("#lnAIBox").hidden = false; $("#lnAI").title = `Local model ${aiSt.vision}`; }
   $("#lnTextGo").onclick = ev => busy(ev.target, $("#lnMsg"), async () => { const r = await api("/lens/text", { text: $("#lnText").value }); lensLogAdd(r.log.reverse()); lensReport(r); });
   const runDemo = async () => { const d = (await api("/lens/sample")).image; lensShowImage(d, () => busy($("#lnDemo"), $("#lnMsg"), () => lensAnalyseImage(d))); };

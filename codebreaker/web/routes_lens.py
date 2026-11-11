@@ -19,6 +19,18 @@ class ImageIn(BaseModel):
     ai: bool = False
 
 
+class ObjectIn(BaseModel):
+    image: str
+    ai: bool = True
+    session: str | None = None
+    track: bool = False
+
+
+class TrackIn(BaseModel):
+    image: str
+    session: str
+
+
 class TextIn(BaseModel):
     text: str
 
@@ -67,6 +79,43 @@ def image(body: ImageIn):
         return res
     except (ValueError, RuntimeError) as exc:
         raise HTTPException(400, str(exc)) from exc
+
+
+def _img(data_url: str):
+    import cv2
+    import numpy as np
+
+    if len(data_url) > MAX:
+        raise HTTPException(400, "Send a picture under about 15 MB.")
+    img = cv2.imdecode(np.frombuffer(base64.b64decode(data_url.split(",", 1)[-1]), np.uint8), cv2.IMREAD_COLOR)
+    if img is None:
+        raise HTTPException(400, "The picture could not be read.")
+    return img
+
+
+@router.post("/api/lens/object")
+def lens_object(body: ObjectIn):
+    """What the main object is and where (Round 90b); with track=True its box starts a tracker for the live view."""
+    from ..lens.objects import understand
+    from ..lens.objects_track import start
+
+    img = _img(body.image)
+    r = understand(img, body.ai)
+    r["size"] = [int(img.shape[1]), int(img.shape[0])]
+    if body.track and body.session and r.get("box"):
+        start(body.session, img, r["box"])
+        r["tracking"] = True
+    return r
+
+
+@router.post("/api/lens/track")
+def lens_track(body: TrackIn):
+    from ..lens.objects_track import step
+
+    r = step(body.session, _img(body.image))
+    if r is None:
+        raise HTTPException(404, "No object is being tracked in this session.")
+    return r
 
 
 @router.get("/api/ai/status")

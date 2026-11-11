@@ -48,3 +48,5 @@ Dorabella study cited on its case page.
 | YAMNet | Apache 2.0 | downloaded on first use |
 | Ollama models (optional, e.g. qwen2.5vl) | Each model's licence | installed by the user with Ollama |
 | Python packages | Each package's licence | `requirements.txt` |
+| `data/models/objects/` | MobileNetV2 (mobilenetv2-12.onnx, 13.96 MB) and the ImageNet synset list from the ONNX model zoo (github.com/onnx/models), the Lens's classical object fallback; not redistributed | Apache-2.0 |
+| `data/lens_debug/objects/` | macOS account pictures converted locally for the object controls; never committed | Apple's images, used locally only |
