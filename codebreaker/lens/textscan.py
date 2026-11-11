@@ -105,4 +105,14 @@ def scan(text: str) -> list[dict]:
             best[a["reading"]] = a
     for a in best.values():
         findings.append({"kind": "acrostic", "label": f"{a['reading']} spell '{a['word']}' ({LANGS[a['lang']]}, shuffled lines p={a['p']})", "detail": a["letters"]})
+    if len(letters_only(text)) >= 120:  # longer texts: every reading, with the Bonferroni bar of the acrostic finder
+        from ..acrostic import find
+
+        for f in find(text, max_letters=300)["findings"][:3]:
+            if f["reading"] not in best:
+                findings.append({"kind": "acrostic", "label": f"{f['reading']} read as {f['language']} ({f['coverage']:.0%} in words, p={f['p']:.1e})", "detail": f["letters"][:120]})
     return findings
+
+
+def letters_only(text: str) -> str:
+    return "".join(c for c in text if c.isalpha())

@@ -1,0 +1,72 @@
+{
+ "id": "acrostic_eval",
+ "positive_controls": {
+  "acrostic poem": {
+   "planted": 5,
+   "found": 3
+  },
+  "null cipher": {
+   "planted": 5,
+   "found": 4
+  },
+  "every 5th letter": {
+   "planted": 5,
+   "found": 2
+  }
+ },
+ "plain_passages_with_findings": "0 of 10",
+ "hypnerotomachia": {
+  "letters": "POLIAMFRATERFRANCISCVSCOLVMNAPERAMAVIT",
+  "as printed (V for U)": {
+   "latin_coverage": 0.158,
+   "segmented": "POL IAM FRATER FRANCISCVSCOLVMNA PER A M A VI T",
+   "shuffled_max": 0.211,
+   "p": 0.008
+  },
+  "U for the vowel": {
+   "latin_coverage": 0.158,
+   "segmented": "POL IAM FRATER FRANCISCUSCOLUMNA PER A M A VI T",
+   "shuffled_max": 0.237,
+   "p": 0.006
+  }
+ },
+ "dday": {
+  "codewords": {
+   "UTAH": "2 May 1944",
+   "OMAHA": "22 May 1944",
+   "OVERLORD": "27 May 1944",
+   "MULBERRY": "30 May 1944",
+   "NEPTUNE": "1 June 1944"
+  },
+  "base_rate": {
+   "corpus_counts": {
+    "UTAH": 0,
+    "OMAHA": 0,
+    "OVERLORD": 0,
+    "MULBERRY": 0,
+    "NEPTUNE": 0
+   },
+   "eligible_tokens": 181274,
+   "600": {
+    "each": {
+     "UTAH": "1.65e-03",
+     "OMAHA": "1.65e-03",
+     "OVERLORD": "1.65e-03",
+     "MULBERRY": "1.65e-03",
+     "NEPTUNE": "1.65e-03"
+    },
+    "all_five": "1.24e-14"
+   },
+   "900": {
+    "each": {
+     "UTAH": "2.48e-03",
+     "OMAHA": "2.48e-03",
+     "OVERLORD": "2.48e-03",
+     "MULBERRY": "2.48e-03",
+     "NEPTUNE": "2.48e-03"
+    },
+    "all_five": "9.37e-14"
+   }
+  }
+ }
+}

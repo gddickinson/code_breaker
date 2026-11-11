@@ -1,0 +1,155 @@
+{{short description|1499 book by Francesco Colonna}}
+{{Infobox book|
+| name           = The Strife of Love in a Dream
+| original_title = Hypnerotomachia Poliphili, ubi humana omnia non nisi somnium esse docet. Atque obiter plurima scitu sane quam digna commemorat.
+| translator     = [[Joscelyn Godwin]]
+| image          = Hypne2pg.jpg
+| caption        = First edition
+| author         = [[Francesco Colonna (writer)|Francesco Colonna]]
+| illustrator    =
+| cover_artist   =
+| publication_place = Italy
+| language       = Italian / [[Latin]]
+| series         =
+| genre          = Romance, allegorical fantasy
+| publisher      = [[Aldus Manutius]]
+| publication_date = 1499
+| english_publication_date = 1999
+| media_type     = Print 
+| pages          =
+| isbn           =
+| preceded_by    =
+| followed_by    =
+}}
+
+'''''Hypnerotomachia Poliphili''''' ({{IPAc-en|h|iː|p|,|n|ɛər|oʊ|t|ə|'|m|ɑː|k|iː|ə|_|p|ə|'|l|iː|f|ə|,|l|iː}}; {{etymology|grc|''ὕπνος'' (hýpnos)|sleep|<!--grc-->|''ἔρως'' (érōs)|love|<!--grc-->|''μάχη'' (máchē)|fight}}), called in English '''''Poliphilo's Strife of Love in a Dream''''' or '''''The Dream of Poliphilus''''', is a book attributed to the 15th-century Italian monk [[Francesco Colonna (writer)|Francesco Colonna]]. 
+''Hypnerotomachia Poliphili'' presents a mysterious arcane [[allegory]] in which the main [[protagonist]], Poliphilo, pursues his love, Polia, through a dreamlike landscape. In the end, he is reconciled with her by the "Fountain of Venus".
+
+It is a famous example of an [[incunable]] (a work of early printing). The work was first published in 1499 in [[Venice]] by [[Aldus Manutius]] as a sort of graphic novel. This first edition has an elegant page layout, with refined [[woodcut]] illustrations in an [[Early Renaissance]] style. 
+The [[Aldine Press]] issued a second edition after the death of Aldus.
+
+==History==
+[[File:Houghton WKR 3.5.4 - Hypnerotomachia Poliphili, k6.jpg|thumb|Triumphal Car]]
+The ''Hypnerotomachia Poliphili'' was printed by [[Aldus Manutius]] in [[Venice]] in December 1499. The author of the book is [[Anonymous work|anonymous]]. An [[acrostic]] formed by the first, elaborately decorated letter in each chapter reads "POLIAM FRATER FRANCISCVS COLVMNA PERAMAVIT" 'Brother [[Francesco Colonna (writer)|Francesco Colonna]] has dearly loved Polia'. Despite this clue, the book has also been attributed to [[Leon Battista Alberti]], and earlier, to [[Lorenzo de' Medici]]. Manutius himself claimed{{cn|date=January 2019}} that the author was a different Francesco Colonna, a wealthy [[Roman governor]]. The identity of the [[illustrator]] has at times been attributed to [[Benedetto Montagna]], and [[Sandro Botticelli]].<ref>{{Cite web|last=Patton|first=Maggie|date=July 2008|title=Rare Books, a Tale of Love. SL : State Library of New South Wales magazine.|url=https://nla.gov.au/nla.obj-1207522726|access-date=2021-05-27|website=Trove|language=en}}</ref>
+[[File:Houghton WKR 3.5.4 - Hypnerotomachia Poliphili, k4.jpg|thumb|The [[Rape of Europa]]]]
+The subject matter of the book lies within the tradition (or [[genre]]) of the [[Romance (heroic literature)|Romance]]. It follows the conventions of [[courtly love]], which in 1499 continued to provide engaging thematic matter for the [[Quattrocento]] aristocrats. The ''Hypnerotomachia Poliphili'' also draws from [[Renaissance humanism]] where arcane writings are a demonstration of [[Classical antiquity|classical]] thought.
+
+The text of the book is written in a bizarre [[Latin]]ate [[Italian language|Italian]]. Without explanation, the text is full of words based on Latin and [[Greek language|Greek]] [[Root (linguistics)|roots]]. The book, however, also includes words from the Italian language and illustrations which include [[Arabic]] and [[Hebrew language|Hebrew]] words. Moreover, Colonna would invent new forms of language when those available to him were inaccurate.{{clarification needed |date=April 2022}}{{citation needed |date=April 2022}} The book also contains some uses of [[Ancient Egypt|Egyptian]] [[hieroglyph]]s, but they are not authentic. Most of them have been drawn from a [[Late Antiquity|late antique]] text of dubious origin called ''[[Horapollo|Hieroglyphica]]''.
+
+The ''Hypnerotomachia Poliphili'', set in 1467, consists of a series of precious and elaborate scenes involving the title character, Poliphilo ("friend of many things" from the Greek words ''poly-'' meaning "many" and ''philos'' meaning "friend"). In these scenes, Poliphilo wanders a [[pastoral|bucolic]]-classical dreamland in search of his love, Polia ("many things"). The author's style is elaborately descriptive and unsparing in its use of superlatives. The text makes frequent references to classical geography and mythology, mostly by way of comparison.
+
+The book has long been sought after as one of the most beautiful [[incunabulum|incunabula]] ever printed.<ref>{{cite news|url=https://www.nytimes.com/2012/07/24/books/rare-book-school-at-the-university-of-virginia.html?_r=1&hpw|title=Rare Book School at the University of Virginia|last=Schuessler|first=Jennifer|date=23 July 2012|work=[[The New York Times]]|access-date=24 July 2012}}</ref> The [[typography]] is famous for its quality and clarity. Its roman<!--no capital is required--> typeface, cut by [[Francesco Griffo]], is a revised version of a type which Aldus had first used in 1496 for the ''De Aetna'' of [[Pietro Bembo]]. The type is thought to be one of the first examples of the roman typeface, and in incunabula, it is unique to the Aldine Press. The type was revived by the [[Monotype Corporation]] in 1923 as "Poliphilus".<ref>[http://www.linotype.com/157685/poliphilus-family.html Poliphilus Font Family by Monotype Design Studio.]</ref> In 1929, [[Stanley Morison]] directed another revival of the earlier version of Griffo's type. It was called "[[Bembo]]".
+
+The ''Hypnerotomachia Poliphili'' is illustrated with 168 [[woodcut]]s showing the scenery, architectural settings, and some of the characters Poliphilo encounters in his dreams. They depict scenes from Poliphilo's adventures and the architectural features over which the author rhapsodizes, in a stark and ornate [[line art]] style.<!--Perhaps the second part of the sentence should be replaced with a reference to "typographic art" - how about this?-->
+
+The illustrations are interesting because they shed light on the [[Renaissance]] man's taste in the [[aesthetics|æsthetic]] qualities of [[Greece|Greek]] and [[Rome|Roman]] antiquities. In the United States, a book on the life and works of Aldus Manutius by [[Helen Barolini]] was set within pages that reproduce all the illustrations and many of the full pages from the original work, reconstructing the original layout.<ref>Barolini, Helen. [https://www.amazon.com/Aldus-Dream-Book-Helen-Barolini/dp/0934977224 ''Aldus and His Dream Book: An Illustrated Essay.''] New York: Italica Press, 1992.</ref>
+
+The [[psychologist]] [[Carl Jung]] admired the book, believing the dream images presaged his theory of [[Jungian archetypes|archetypes]]. The style of the woodcut illustrations had a great influence on late nineteenth century English illustrators, such as [[Aubrey Beardsley]], [[Walter Crane]], and [[Robert Anning Bell]].
+
+==Translations==
+A French translation or rather adaptation appeared in the 1540s.
+
+In 1592, in a [[London]] edition, "R. D." (who is believed to be [[Robert Dallington]]) partially translated the ''Hypnerotomachia Poliphili''. Here, it was given its best known English title, ''The Strife of Love in a Dream''.<ref name=dall>Robert Dallington [presumed] (1592), ''The Strife of Love in a Dream''. In 1890 a limited (500 copies) edition of the first book was published by David Nutt in the Strand. This was edited by [[Andrew Lang]]. [https://archive.org/details/hypnerot00colluoft Online version] at the Internet Archive, accessed on 2010-02-08.</ref> In 1999, a first complete English translation by musicologist [[Joscelyn Godwin]] was published.<ref name=godw>Joscelyn Godwin (transl.) (1999), ''Hypnerotomachia Poliphili, the Strife of Love in a Dream'', a modern English translation, set in the Poliphilus typeface. Thames & Hudson. {{ISBN|0-500-01942-8}}. Paperback edition published in 2005.</ref> However his translation uses standard, modern language, rather than following the original text's pattern of coining and borrowing words.
+
+Since the 500th anniversary in 1999, several other modern translations have been published. These include a translation into modern Italian as part of the (volume 1: fac-simile; volume 2: translation, introductory essays and more than 700 pages of [[Commentary (philology)|commentary]]) edition by Marco Ariani and Mino Gabriele;<ref>Marco Ariani, Mino Gabriel (edd., transl., comm.) (1998sqq.), ''Francesco Colonna: Hypnerotomachia Poliphili'', Milan: Adelphi (Classici 66) {{ISBN|978-8-845-91424-9}}. Paperback edition {{ISBN|978-8-845-91941-1}}.</ref> into Spanish by [[Pilar Pedraza|Pilar Pedraza Martínez]];<ref>[[Pilar Pedraza|Pilar Pedraza Martínez]] (transl.) (1999), ''Francesco Colonna: Sueño de Polífilo'', Barcelona: El Acantilado 17, {{ISBN|978-8-495-35905-6}}.</ref> into Dutch with one volume of [[Commentary (philology)|commentary]] by Ike Cialona;<ref>Ike Cialona (transl., comm.) (2006), ''Francesco Colonna: De droom van Poliphilus (Hypnerotomachia Poliphili)'', Amsterdam: Athenaeum – Polak & Van Gennep, {{ISBN|978-9-025-30668-7}}.</ref> into German, with [[Commentary (philology)|commentary]] inserted into the text, by [[Thomas Reiser]];<ref>Thomas Reiser (transl., comm.) (2014), ''Francesco Colonna: Hypnerotomachia Poliphili, Interlinearkommentarfassung'', Breitenbrunn: Theon Lykos 1a, {{ISBN|978-1-499-20611-1}}.</ref> and partly into Polish by Anna Klimkiewicz.<ref>About the first 100 pages concluding a monograph by Anna Klimkiewicz (transl., comm.) (2015), ''Hypnerotomachia Poliphili Francesca Colonny'', Kraków: Wydawnictwo Uniwersytetu Jagiellońskiego, {{ISBN|978-83-233-3908-3}}.</ref>
+
+A complete Russian translation by the art historian Boris Sokolov is now in progress, of which the "Cythera Island" part was published in 2005 and is available online. The book is planned as a precise reconstruction of the original layout, with [[Cyrillic script|Cyrillic]] types and typography by Sergei Egorov.<ref>{{Cite web |last=Kahl |first=Julia |title=Neacademia Small Text / Rosetta |url=https://www.slanted.de/story/neacademia-small-text-rosetta/ |access-date=2025-09-22 |website=slanted |language=en-US}}</ref>
+
+Ten of the monuments described in the ''Hypnerotomachia'' were reconstructed with [[computer graphics]] and were first published by Esteban A. Cruz in 2006<ref>Esteban Alejandro Cruz (2007), ''Hypnerotomachia Poliphili: Re-Discovering Antiquity Through The Dreams Of Poliphilus''</ref> and in 2012.<ref>Esteban Alejandro Cruz (2012), "Hypnerotomachia Poliphili: An Architectural Vision from the First Renaissance"</ref> In 2007, Cruz established a full, design-study project ''Formas Imaginisque Poliphili'', an ongoing independent research project with the objective of reconstructing the content of the ''Hypnerotomachia Poliphili'', through a multi-disciplinary approach, and with the aid of virtual and traditional reconstruction technology and methods.
+
+==Plot summary==
+[[Image:Poliphilo.jpg|thumb|right|alt=woodcut of Poliphilo encountering a dragon from a page of the ''Hypnerotomachia Poliphili''|Poliphilo from a page of the ''Hypnerotomachia Poliphili'']]
+
+The book begins with Poliphilo, who is spending a restless dream-filled night because his beloved, Polia, has shunned him. Poliphilo is transported into a wild forest, where he becomes lost, encounters dragons, wolves and maidens and a large variety of architectural forms. He escapes, and falls asleep once more.
+
+He then awakens in a second dream, a dream within the first. He is taken by [[nymphs]] to meet their queen, and there he is asked to declare his love for Polia, which he does. He is then directed by two nymphs to three gates. He chooses the third, and there he discovers his beloved. They are taken by some more nymphs to a temple to be engaged. Along the way they come across five triumphal processions celebrating their union. They are then taken to the island of [[Cythera (island)|Cythera]] by barge, on which [[Cupid]] is the [[boatswain]]. On Cythera, they see another triumphal procession celebrating their union. The narrative is interrupted, and assumed by a second voice, as Polia describes Poliphilo's [[erotomania]] from her own point of view.
+
+[[Image:Poliphilo and Polia.jpg|thumb|right|alt=woodcut of Polia kissing Poliphilo back to life|Polia kisses Poliphilo back to life]]
+
+Poliphilo then resumes his narrative (from one-fifth of the way through the book). Polia rejects Poliphilo, but Cupid appears to her in a vision and compels her to return and kiss Poliphilo, who has fallen into a deathlike swoon at her feet. Her kiss revives him. Venus blesses their love, and Poliphilo and Polia are united at last. As Poliphilo is about to take Polia into his arms, Polia vanishes into thin air and Poliphilo wakes up.
+
+==Gallery==
+<gallery widths="200px" heights="200px">
+Image:hypnero.png|Poliphilo kneels before Queen Eleuterylida
+Image:Hypneroto2.jpg|Two pages of the Hypnerotomachia Poliphili
+Image:HypnerotomachiaPoliphili0018.jpg|Page of the Hypnerotomachia Poliphili
+Image:Hypnerotomachia Poliphili pag055.jpg|Magna Porta
+Image:Hypnérotomachie - éd. Martin - p28r.jpeg|Fountain of a [[puer mingens]]
+</gallery>
+
+==In other works==
+* [[Liane Lefaivre]] and other scholars regard the 16th century [[Gardens of Bomarzo]] to be illustrations of the ''Hypnerotomachia Poliphili''.<ref>[http://www.2xd.ch/2014/10/hypnerotomachia-poliphili-an-object-of-material-culture/ An object of material culture] 2XD website October 2014.</ref>
+* The German composer [[Alexander Moosbrugger]] took the text of his 2021 opera ''Wind'', staging the search of Poliphilo for Polia, from the ''Hypnerotomachia's'' German translation by [[Thomas Reiser]] and the English one by [[Joscelyn Godwin]].<ref>Premiere at the [https://bibliothek.bregenzerfestspiele.com/hauptprospekt-2020/63093463/36 Bregenz Festival (Lake Constance) in 2021].</ref>
+* In [[Umberto Eco]]'s ''[[The Mysterious Flame of Queen Loana]]'', the protagonist has written a diploma thesis about the ''Hypnerotomachia Poliphili.''
+* In the novel ''[[The Rule of Four]]'' by [[Ian Caldwell]] and [[Dustin Thomason]] the protagonists decode hidden meanings in the ''Hypnerotomachia Poliphili.''
+
+==Notes==
+{{reflist|2}}
+
+==References==
+* [[Anthony Blunt|Blunt, Anthony]], "The Hypnerotomachia Poliphili in Seventeenth Century France", Journal of Warburg and Courtauld, October 1937
+* Fiertz-David, Linda. ''The Dream of Poliphilo: The Soul in Love'', Spring Publications, Dallas, 1987 (Bollingen Lectures).
+* [[E.H. Gombrich|Gombrich, E.H.]], ''Symbolic Images'', Phaidon, Oxford, 1975, "Hypnerotomachiana".
+* Lefaivre, Liane. ''Leon Battista Alberti's ''Hypnerotomachia Poliphili'': Re-cognizing the architectural body in the early Italian Renaissance''. Cambridge, Massachusetts [u.a.]: MIT Press 1997. {{ISBN|0-262-12204-9}}.
+* Pérez-Gómez, Alberto. ''Polyphilo or The Dark Forest Revisited: An Erotic Epiphany of Architecture.'' Cambridge, Massachusetts: MIT Press 1992. {{ISBN|0-262-16129-X}}, Introduction by Alberto Pérez-Gómez.
+* Schmeiser, Leonhard. ''Das Werk des Druckers. Untersuchungen zum Buch'' Hypnerotomachia Poliphili. Maria Enzersdorf: Edition Roesner 2003. {{ISBN|3-902300-10-8}}, Austrian philosopher argues for [[Aldus Manutius]]' authorship.
+* Tufte, Edward. Chapter in [https://www.edwardtufte.com/tufte/books_be Beautiful Evidence]
+* Cruz, Esteban Alejandro, ''Hypnerotomachia Poliphili: Re-discovering Antiquity Through the Dreams of Poliphilus'' Victoria: Trafford Publishing, 2006. {{ISBN|1-4120-5324-2}}. Artist reconstructions of the architecture and landscapes described by Poliphilus during his amorous quest through Antiquity.
+* Cruz, Esteban Alejandro, "Hypnerotomachia Poliphili: An Architectural Vision from the First Renaissance" London: Xlibris Publishing, 2012. VOL 1: 978-1-4628-7247-3, VOL 2: 978-1-4771-0069-1. A second book of what seems to become a series of publications on the subject.{{Self-published inline|certain=yes|date=December 2017}}
+
+==External links==
+{{Commons category|Hypnerotomachia Poliphili}}
+
+===The original 1499 edition===
+* [https://archive.org/details/hypnerotomachiap00colo Hypnerotomachia Poliphili : ubi humana omnia non nisisomnium esse docet atque obiter plurima scitu sane quam digna commemorat]: digital version, from the [https://archive.org/details/bostonpubliclibrary Boston Public Library collection at Archive.org]
+* [http://mitpress2.mit.edu/e-books/HP/index.htm The Electronic Hypnerotomachia]: facsimile and discussion, from the [[MIT Press]]
+* [http://www.rarebookroom.org/Control/colhyp/index.html High-resolution photographs] from the [https://www.loc.gov/rr/rarebook/ Rare Book and Special Collections Division] at the [[Library of Congress]]
+* [https://digitalcollections.rit.edu/luna/servlet/s/xhm5k8 High-resolution photographs of the full book] from the [[Cary Graphic Arts Collection]]
+* [http://portal.getty.edu/books/menil_54048 Complete digital surrogate]: of copy in the [https://www.menil.org/research/menil-library Menil Collection Library] in Houston Texas.
+* [http://diglib.hab.de/wdb.php?dir=inkunabeln/13-1-eth-2f high-resolution scan] of a copy in the [[Herzog August Bibliothek]] Wolfenbüttel
+* In [http://www.liberliber.it/mediateca/libri/c/colonna/hypnerotomachia_poliphili_etc/pdf/hypner_p.pdf PDF], [http://www.liberliber.it/mediateca/libri/c/colonna/hypnerotomachia_poliphili_etc/txt/hypnerot.zip TXT (ZIP)], and [http://www.liberliber.it/mediateca/libri/c/colonna/hypnerotomachia_poliphili_etc/rtf/hypner_r.zip RTF (ZIP)] formats from Liber Liber
+* [https://web.archive.org/web/20120318060225/http://mirroroftheworld.com.au/inspiration/printed/hypnerotomachia.php Facsimile of thirteen pages], with a five-minute reading from Godwin's 1999 translation (from the [[State Library of Victoria]])
+* {{cite video
+|url=http://vimeo.com/28198568
+|title=Hypnerotomachia Poliphili
+|first=Peter
+|last=van der Lee
+|publisher=vimeo.com
+}}
+* Colonna, Francesco, et al. Poliphili Hypnerotomachia, 1499. Partially digitised at the [[State Library of New South Wales]], [https://search.sl.nsw.gov.au/permalink/f/s8mhc3/SLNSW_ALMA21100011570002626 SAFE/RB/LQ0002/C]
+
+===The 1592 English edition===
+* [http://www.gutenberg.org/ebooks/18459 Hypnerotomachia] at [[Project Gutenberg]]
+* [https://archive.org/details/hypnerot00colluoft The Strife of Love in a Dreame] In PDF or DJVU, and beta flip-book formats
+* [https://www.exclassics.com/poliphilus/poliphilusintro.htm Poliphilus' Dream of Love] at The Ex-Classics Project. Contains the 1592 edition, and a summary of the rest of the book, with all the illustrations from the original, notes and glossary; available in various formats or can be read online.
+
+===The French editions===
+* [http://architectura.cesr.univ-tours.fr/Traite/Auteur/Colonna.asp?param= Les Livres D’Architecture] at Architectura
+* [https://dx.doi.org/10.3931/e-rara-4320 1600 Edition created by Béroalde de Verville] at e-rara.ch, Swiss digital library's C.G. Jung collection
+* [http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=54 1600 edition by Béroalde de Verville] at Bibliothèques Virtuelles Humanistes
+* [http://warburg.sas.ac.uk/vpc/VPC_search/subcats.php?cat_1=8&cat_2=16&cat_3=1670&cat_4=2245&cat_5=5364 Woodcuts from the French edition with iconographic descriptions] {{Webarchive|url=https://web.archive.org/web/20151017101251/http://warburg.sas.ac.uk/vpc/VPC_search/subcats.php?cat_1=8&cat_2=16&cat_3=1670&cat_4=2245&cat_5=5364 |date=2015-10-17 }} in the Warburg Institute Iconographic Database
+
+===The Russian edition===
+* [http://www.gardenhistory.ru/page.php?pageid=94 Travel to Cythera Island]
+
+===Background and interpretation===
+* [http://special.lib.gla.ac.uk/exhibns/month/feb2004.html Book of the Month article] from the [[University of Glasgow|Glasgow University]] Library's Special Collections Department
+* [http://libmma.contentdm.oclc.org/cdm/compoundobject/collection/p15324coll10/id/94303/rec/1 Prints & People: A Social History of Printed Pictures], an exhibition catalog from The Metropolitan Museum of Art (fully available online as PDF), which contains material on ''Hypnerotomachia Poliphili'' (see index)
+
+===Research Projects===
+* {{Deprecated archive|url=https://archive.today/20130629114929/http://www.hp1499.com/about.html|title=Formas Imaginisque Poliphili|sec=el}}: ''Imaginary models of Poliphilus revealed.''  Reconstruction of the architecture, gardens, landscapes, monuments, interiors, accessories, and objects as described in the ''Hypnerotomachia Poliphili'' through a multi-disciplinary research platform, and with the aid of virtual applications and methods used in the Cultural Heritage Industry.
+
+{{Authority control}}
+[[Category:1499 books]]
+[[Category:15th-century novels]]
+[[Category:15th-century prints]]
+[[Category:15th-century Latin-language books]]
+[[Category:Italian fantasy novels]]
+[[Category:Italian romance novels]]
+[[Category:Romantic fantasy novels]]
+[[Category:Allegorical novels]]
+[[Category:Woodcut novels]]
+[[Category:Renaissance literature]]
+[[Category:Renaissance prints]]
+[[Category:Incunabula]]
+[[Category:Novels about dreams]]

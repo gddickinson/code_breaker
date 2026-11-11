@@ -1,0 +1,305 @@
+{{Short description|Text formed from parts of another text}}
+{{About|a type of poem or writing|the word puzzle|Acrostic (puzzle)}}
+{{Use dmy dates|date=July 2021}}
+{{Use British English|date=July 2021}}
+[[File:1850 acrostic Dearborn.png|thumb|upright=1.3|An 1850 acrostic by [[Nathaniel Dearborn]], the first letter of each line spelling the name "[[Jenny Lind|JENNY LIND]]"]]
+An '''acrostic''' is a [[poetry|poem]] or other word composition in which the ''first'' letter (or syllable, or word) of each new line (or [[paragraph]], or other recurring feature in the text) spells out a word, message or the alphabet.<ref name="acrostic">{{Cite web |title=Acrostic Poetry |url=http://outstandingwriting.com/acrostic-the-many-pleasures-of-acrostic-poetry/ |url-status=dead |archive-url=https://web.archive.org/web/20161010233051/http://outstandingwriting.com/acrostic-the-many-pleasures-of-acrostic-poetry/ |archive-date=2016-10-10 |access-date=2011-04-30 |publisher=OutstandingWriting.com}}</ref> The term comes from the French {{Lang|fr|acrostiche}} from post-classical [[Latin]] {{Lang|la|acrostichis}}, from [[Koine Greek]] {{Lang|grc|ἀκροστιχίς}}, from [[Ancient Greek]] {{Lang|grc|ἄκρος}} "highest, topmost" and {{Lang|grc|στίχος}} "verse".<ref>{{Cite encyclopedia |title=s.v. ''acrostic'' |encyclopedia=[[Oxford English Dictionary]] |edition=3rd |quote=The expected spelling of the English word, on the n., ''monostich'' n.}}</ref> As a form of [[constrained writing]], an acrostic can be used as a [[mnemonic]] device to aid memory retrieval.  When the ''last'' letter of each new line (or other recurring feature) forms a word it is called a '''telestich''' (or '''telestic'''); the combination of an acrostic and a telestich in the same composition is called a '''double acrostic''' (e.g. the first-century Latin [[Sator Square]]).
+
+Acrostics are common in medieval literature, where they usually serve to highlight the name of the poet or his patron, or to make a prayer to a saint. They are most frequent in verse works but can also appear in prose. The Middle High German poet [[Rudolf von Ems]] for example opens all his great works with an acrostic of his name, and his world chronicle marks the beginning of each age with an acrostic of the key figure (Moses, David, etc.). In chronicles, acrostics are common in German and English but rare in other languages.<ref>{{emc1||Acrostics|8-10}}</ref>
+
+== Form ==
+Relatively simple acrostics may merely spell out the letters of the alphabet in order; such an acrostic may be called an 'alphabetical acrostic' or [[abecedarius]]. These acrostics occur in the [[Hebrew Bible]] in the first four of the five chapters of the [[Book of Lamentations]], in the praise of the good wife in [[Proverbs 31]][[Proverbs 31#The Good Wife (31:10–31)|:10-31]], and in [[Psalm]]s 9-10, [[Psalm 25|25]], [[Psalm 34|34]], [[Psalm 37|37]], [[Psalm 111|111]], [[Psalm 112|112]], [[Psalm 119|119]] and [[Psalm 145|145]].<ref name="biblicalhebrew">{{Cite web |title=Acrostic Psalms |url=http://www.biblicalhebrew.com/alphabet.htm |url-status=live |archive-url=https://web.archive.org/web/20080917055036/http://www.biblicalhebrew.com/alphabet.htm |archive-date=17 September 2008 |access-date=2008-09-09 |website=biblicalhebrew.com}}</ref>
+Notable among the acrostic Psalms is the long [[Psalm 119]], which typically is printed in subsections named after the 22 letters of the [[Hebrew alphabet]], each section consisting of 8 verses, each of which begins with the same letter of the alphabet and the entire psalm consisting of 22 x 8 = 176 verses; and [[Ashrei|Psalm 145]], which is recited three times a day in the [[Jewish services]]. Some acrostic psalms are technically imperfect. For example, [[Psalm 9]] and [[Psalm 10]] appear to constitute a single acrostic psalm together, but the length assigned to each letter is unequal and five of the 22 letters of the Hebrew alphabet are not represented and the sequence of two letters is reversed. In Psalm 25 one Hebrew letter is not represented, the following letter ({{Lang|he|Resh}}) repeated. In Psalm 34 the current final verse, 23, does fit verse 22 in content, but adds an additional line to the poem. In Psalms 37 and 111 the numbering of verses and the division into lines are interfering with each other; as a result in Psalm 37, for the letters {{Lang|he|Daleth}} and {{Lang|he|Kaph}} there is only one verse, and the letter {{Lang|he|Ayin}} is not represented. Psalm 111 and 112 have 22 lines, but 10 verses. Psalm 145 does not represent the letter {{Lang|he|Nun}}, having 21 one verses, but one Qumran manuscript of this Psalm does have that missing line, which agrees with the [[Septuagint]].  Some,  like O Palmer Robertson,  see the acrostic Psalms of book 1 and book 5 of Psalms as teaching and memory devices as well as transitions between subjects in the structure of the Psalms.<ref>{{Cite book |last=Robertson |first=O. Palmer |title=The Flow of the Psalms |date=2015 |publisher=P&R Publishing |isbn=978-1-62995-133-1 |pages=80–81}}</ref>
+
+Often the ease of detectability of an acrostic can depend on the intention of its creator. In some cases an author may desire an acrostic to have a better chance of being perceived by an observant reader, such as the acrostic contained in the ''[[Hypnerotomachia Poliphili]]'' (where the key capital letters are decorated with ornate embellishments). However, acrostics may also be used as a form of [[steganography]], where the author seeks to conceal the message rather than proclaim it. This might be achieved by making the key letters uniform in appearance with the surrounding text, or by aligning the words in such a way that the relationship between the key letters is less obvious. These are referred to as ''[[null cipher]]s'' in steganography, using the first letter of each word to form a hidden message in an otherwise innocuous text.<ref name="Garykessler">{{Cite web |title=Steganography |url=http://www.garykessler.net/library/steganography.html |url-status=live |archive-url=https://web.archive.org/web/20080908083126/http://www.garykessler.net/library/steganography.html |archive-date=8 September 2008 |access-date=2008-09-09 |publisher=Garykessler.net}}</ref> Using letters to hide a message, as in acrostic ciphers, was popular during the [[Renaissance]], and could employ various methods of enciphering, such as selecting other letters than initials based on a repeating pattern ([[equidistant letter sequences]]), or even concealing the message by starting at the end of the text and working backwards.<ref name="cryptology">{{Cite web |title=Cryptology |url=http://home.att.net/~tleary/cryptolo.htm |url-status=dead |archive-url=https://web.archive.org/web/20080917142151/http://home.att.net/~tleary/cryptolo.htm |archive-date=17 September 2008 |access-date=2008-09-09}}</ref>
+
+==Examples==
+===Greek===
+[[File:Acrostic poem on tombstone in Kilfane.jpg|thumb|Acrostic poem on a tombstone in [[Kilfane Church]], Ireland]]
+A well-known acrostic in Greek is for the phrase ''JESUS CHRIST, GOD’S SON, SAVIOUR'', the initial letters of which spell {{Lang|grc|ΙΧΘΥΣ}} ([[Ichthys|ICHTHYS]]), which means ''fish'':
+ '''Ι'''ησοῦς    I  {{Not a typo|ēsoûs}}   Jesus
+ '''Χ'''ριστός   CH {{Not a typo|ristós}}  Christ
+ '''Θ'''εοῦ      TH {{Not a typo|eoû}}     God's
+ '''Υ'''ἱός      Y  {{Not a typo|iós}}     Son
+ '''Σ'''ωτήρ     S  {{Not a typo|ōtḗr}}    Saviour
+
+According to [[Cicero]], acrostics were a regular feature of [[Sibylline Books|Sibylline prophecies]] (which were written in Greek [[hexameter]]s. The type of acrostic is that known as a “gamma acrostic” (from the shape of the Greek letter {{lang|grc|Γ}}), where the same words are found both horizontally and vertically.<ref>{{lang|la|de Divinatione}} (2.111–112). The passage is quoted and translated in {{harvnb|Hejduk|2018|pp=75–76}}</ref> Cicero refers to an acrostic in this passage using the Greek word {{lang|grc|ἀκροστιχίς}}.
+
+The 3rd-century BC didactic poet [[Aratus]], who was much admired and imitated by Cicero, Virgil and other Latin writers, appears to have started a fashion for using acrostics. One example is the famous passage in ''Phaenomena'' 783–7 where the word {{lang|grc|λεπτή}} {{gloss|slender, subtle}} occurs as a gamma acrostic and also twice in the text, as well as diagonally in the text and even cryptically taking the initial letters of certain words in lines 2 and 1:<ref>{{Cite journal |last=Danielewicz |first=J. |year=2015 |title=One sign after another: the fifth λεπτή in Aratus ''Phaen.'' 783–4? |url=http://journals.cambridge.org/abstract_S0009838814000780 |journal=The Classical Quarterly |volume=65 |issue=1 |pages=387–390|doi=10.1017/S0009838814000780 |url-access=subscription }}</ref>
+
+:{{lang|grc|'''λεπτὴ''' μὲν καθαρή τε '''π'''ερὶ '''τ'''ρίτον '''ἦ'''μαρ ἐοῦσα}}
+:{{lang|grc|'''ε'''ὔδιός κ’ '''ε'''ἴη, '''λεπτὴ''' δὲ καὶ εὖ μάλ’ ἐρευθὴς}}
+:{{lang|grc|'''π'''νευματίη, '''π'''αχίων δὲ καὶ ἀμβλείῃσι κεραίαις}}
+:{{lang|grc|'''τ'''έτρατον ἐκ '''τ'''ριτάτοιο φόως ἀμενηνὸν ἔχουσα}}
+:{{lang|grc|'''ἢ''' νότῳ ἄμβλυνται '''ἢ''' ὕδατος ἐγγὺς ἐόντος.}}
+
+:{{grc-transl|'''λεπτὴ''' μὲν καθαρή τε '''π'''ερὶ '''τ'''ρίτον '''ἦ'''μαρ ἐοῦσα}}
+:{{grc-transl|'''ε'''ὔδιός κ’ '''ε'''ἴη, '''λεπτὴ''' δὲ καὶ εὖ μάλ’ ἐρευθὴς}}
+:{{grc-transl|'''π'''νευματίη, '''π'''αχίων δὲ καὶ ἀμβλείῃσι κεραίαις}}
+:{{grc-transl|'''τ'''έτρατον ἐκ '''τ'''ριτάτοιο φόως ἀμενηνὸν ἔχουσα}}
+:{{grc-transl|'''ἢ''' νότῳ ἄμβλυνται '''ἢ''' ὕδατος ἐγγὺς ἐόντος.}}
+
+:“If (the moon is) slender and clear about the third day,
+:she will bode fair weather; if slender and very red,
+:wind; if the crescent is thickish, with blunted horns,
+:having a feeble fourth-day light after the third day,
+:either it is blurred by a southerly or because rain is in the offing.” (trans. Jerzy Danielewicz)
+
+===Latin===
+Several acrostics have recently been discovered in Roman poets, especially in [[Virgil]]. Among others, in [[Eclogue 9|''Eclogue'' 9]] the acrostic {{lang|la|VNDIS}} {{gloss|in the waves}} (lines 34–38) immediately precedes the words {{lang|la|quis est nam ludus in undis?}} {{gloss|for what is your game in the waves?'}}, and {{lang|la|DEA DIO}} (i.e. {{lang|la|dea Dione}} {{gloss|the goddess Dione}}) (lines 46–51) in a passage which mentions the goddess [[Dione (Titaness)|Dione]] (another name for [[Venus (mythology)|Venus]]).<ref name="Adk">{{harvnb|Adkin|2014|pp=45–46}}, citing {{harvnb|Grishin|2008}}</ref> In [[Eclogue 8|''Eclogue'' 8]], alongside a passage dedicating the poem to an unnamed person and asking him to accept it, Neil Adkin reads the words {{lang|la|TV SI ES ACI}} (i.e. {{lang|la|accipe}}) ({{gloss|if you are the one, accept!}}).<ref name="Adk" />
+
+In ''Aeneid'' 7.601–4, a passage which mentions [[Mars (mythology)|Mars]] and war, describing the custom of opening the gates of the [[Temple of Janus (Roman Forum)|Temple of Janus]], the name {{lang|la|MARS}} (the god of war) appears in acrostic form as well as in the text as follows:<ref>Pointed out by {{Cite journal |last=Fowler |first=D. P. |year=1983 |title=An Acrostic in Vergil (Aeneid 7.601-604)? |journal=Classical Quarterly |volume=33 |page=298|doi=10.1017/S0009838800034522 }}</ref>
+
+:{{lang|la|'''M'''os erat Hesperio in Latio, quem protinus urbes}}
+:{{lang|la|'''A'''lbanae coluere sacrum, nunc maxima rerum}}
+:{{lang|la|'''R'''oma colit, cum prima movent in proelia '''Martem''',}}
+:{{lang|la|'''S'''ive Getis inferre manu lacrimabile bellum&nbsp;…}}
+
+:“It was a custom in [[Hesperia (mythology)|Hesperia]]n [[Latium]], which originally the [[Alba Longa|Alban]]
+:cities kept as sacred, and now, greatest of entities,
+:Rome keeps, whenever they move [[Mars (mythology)|Mars]] to the first battles,
+:whether (they are preparing) to bring tearful war to the [[Getae]]&nbsp;…”
+
+In ''Georgics'' 1 429–433, next to a passage which contains the words {{lang|la|namque is certissimus auctor}} {{gloss|for he is the most certain author}}, the double-letter reverse acrostic ''MA VE PV'' (i.e. Publius Vergilius Maro) is found on alternate lines.<ref name="Adk" />
+
+In [[Eclogue 6]], 13–24 Virgil uses a double acrostic, with the same word {{lang|la|LAESIS}} {{gloss|for those who have been harmed}} going both upwards and downwards starting from the same letter L in line 19.<ref>Discovered by {{harvnb|Adkin|2014|p=46}}</ref> Another double acrostic is found in ''Aeneid 2'', where the word ''PITHI'' (i.e. {{lang|grc|πείθει}}, Greek for he ‘persuades’ or ‘he deceives’) is found first backwards at 103–107, then forwards at 142–146, at the beginning and end of a speech by Sinon persuading the Trojans to bring the wooden horse into the city.{{sfn|Adkin|2014|p=57}} The discoverer of this acrostic, Neil Adkin, points out that the same word {{lang|grc|πείθει}} occurs at more or less exactly the same line-numbers in a repeated line describing how Odysseus’ wife Penelope deceived the suitors in ''[[Odyssey]]'' 2.106 and 24.141.
+
+Another transliterated Greek word used as an acrostic in a pseudo-Sibylline prophecy has recently been noticed in the syllables ''DE CA TE'' (i.e. Greek {{lang|grc|δεκάτη}} {{gloss|tenth}}) in [[Eclogue 4]], 9–11, with the same ''DEC A TE'' repeated cryptically both forwards and backwards in line 11.<ref>{{Cite journal |last=Kronenberg |first=Leah |date=2017 |title=The Tenth of Age of Apollo and a New Acrostic in ''Eclogue'' 4 |url=https://www.degruyter.com/document/doi/10.1515/phil-2016-0120/html |journal=Philologus |volume=161 |issue=2 |pages=337–339 |doi=10.1515/phil-2016-0120|url-access=subscription }}</ref>
+
+In another pseudo-Sibylline prophecy in poem 5 of [[Tibullus book 2]] the words {{lang|la|AVDI ME}} ‘hear me!’ are picked out in the first letters of alternate lines at the beginning of the prophecy.<ref>{{Cite journal |last=Kronenberg |first=L. |year=2018 |title=Tibullus the Elegiac Vates: Acrostics in Tibullus 2.5 |journal=Mnemosyne |volume=71 |issue=3 |pages=508–514 |doi=10.1163/1568525X-12342338 |jstor=26572934}}</ref>
+
+Virgil’s friend [[Horace]] also made occasional use of acrostics, but apparently much less than Virgil. Examples are {{lang|la|DISCE}} ‘learn!’ (''Odes'' 1.18.11–15) (forming a gamma acrostic with the word {{lang|la|discernunt}} {{gloss|they discern}} in line 18) and {{lang|la|OTIA}} {{gloss|leisure}} in ''Satires'' 1.2.7–10, which appears just after Horace has been advised to take a rest from writing satire. The acrostic {{lang|la|OTIA}} also occurs in [[Ovid]], ''Metamorphoses'' 15.478–81, a passage describing the return of the peace-loving king [[Numa Pompilius]] to Rome.<ref>{{Cite journal |last=Kearey |first=Talitha |date=2019 |title=Two Acrostics in Horace's ''Satires'' (1.9.24-8, 2.1.7-10) |journal=Classical Quarterly |volume=69 |doi=10.17863/CAM.44645 |hdl=1810/297591}}</ref> ''Odes'' 4.2, which starts with the word {{lang|la|Pindarum}} '(the poet) Pindar' has next to it the truncated acrostic PIN in a gamma formation.<ref>Thomas, R. F. (Ed.). (2011). ''Horace: Odes IV and Carmen Saeculare''. Cambridge University Press.</ref> In the first poem of Horace's ''Epodes'' (which were also known as {{lang|la|Iambi}} 'iambics'), the first two lines begin {{lang|la|ibis ... amice}}, and it has been suggested that these words were deliberately chosen so that their initial letters IBI ... AM could be rearranged to read IAMBI.<ref>Evans, B. (2023). "Τwo Beginnings: Acrostic Commencements in Horace (Epod. 1.1–2) and Ovid (Met. 1.1–3)". ''The Classical Quarterly'', 73(2), 699-713.</ref> In his famous lines in the {{lang|la|Ars Poetica}}, lines 136–9, containing the proverb "mountains will give birth, but there will be born (nothing but) a ridiculous mouse", Horace writes a telestic MVS joined to the word {{lang|la|mus}} 'mouse', adding to the humour of the passage. (See [[The Mountain in Labour]].)<ref>Mitchell, K. (2020). "Acrostics and telestichs in Augustan poetry: Ovid's edgy and subversive sideswipes". ''The Cambridge Classical Journal'', 66, 165-81; at 166.</ref>
+
+Towards the end of the 2nd century AD<ref>{{Cite book |last1=MacCary |title=Plautus: Casina |last2=Willcock |year=1976 |page=96}}</ref> a verse-summary of the plot was added to each of the plays of [[Plautus]]. Each of these has an acrostic of the name of the play, for example:
+
+:{{lang|la|'''C'''onservam uxorem duo conservi expetunt.}} 
+:{{lang|la|'''A'''lium senex allēgat, alium filius.}}
+:{{lang|la|'''S'''enem adiuvat sors: verum decipitur dolis.}}
+:{{lang|la|'''I'''ta ei subicitur pro puella servolus}}
+:{{lang|la|'''N'''equam, qui dominum mulcat atque vilicum.}}
+:{{lang|la|'''A'''dulescens ducit civem '''Casinam''' cognitam.}}
+
+:“Two fellow slaves seek a fellow female slave as a wife;
+:The old man commissions one of them, his son the other.
+:A lottery helps the old man; but he is deceived by tricks.
+:So, instead of the girl, a young slave is substituted,
+:a naughty one, who beats up the master and the farm-manager.
+:The young man marries Casina after she is recognised as a citizen.”
+
+The 3rd century AD poet [[Commodian]] wrote a series of 80 short poems on Christian themes called {{lang|la|Instructiones}}. Each of these is fully acrostic (with the exception of poem 60, where the initial letters are in alphabetical order), starting with {{lang|la|PRAEFATIO}} ‘preface’ and {{lang|la|INDIGNATIO DEI}} ‘the wrath of God’. The initials of poem 80, read backwards, give {{lang|la|COMMODIANUS MENDICUS CHRISTI}} ‘Commodian, Christ’s beggar’.
+
+===Mandaean===
+Chapters 2–5 of Book 12 in the ''[[Right Ginza]]'', a [[List of Mandaean texts|Mandaic text]], are acrostic hymns, with each stanza ordered according to a letter of the [[Mandaic alphabet]].<ref name="GR Gelbert">{{Cite book |last=Gelbert |first=Carlos |url=https://livingwaterbooks.com.au/product/ginza-rba/ |title=Ginza Rba |publisher=Living Water Books |year=2011 |isbn=9780958034630 |location=Sydney}}</ref>
+
+===Dutch===
+There is an acrostic secreted in the Dutch national anthem ''[[Wilhelmus]]''<ref name="HetWilhelmus">{{Cite web |title=Het Wilhelmus:Dutch National Anthem |url=http://www.dordt.nl/diversen/wilhelmus/english.htm |url-status=dead |archive-url=https://web.archive.org/web/20090421102543/http://www.dordt.nl/diversen/wilhelmus/english.htm |archive-date=21 April 2009 |access-date=2009-05-13 |website=Dordt.nl}}</ref> (''William''): the first letters of its fifteen stanzas spell WILLEM VAN NASSOV (the then name for Nassau). This was one of the hereditary titles of [[William the Silent]], who introduces himself in the poem to the Dutch people. This title also returned in the 2010 [[speech from the throne]], during the [[Prinsjesdag|Dutch State Opening of Parliament]], whose first 15 lines also formed WILLEM VAN NASSOV.
+
+===English===
+[[Vladimir Nabokov]]'s short story "[[The Vane Sisters#Acrostic|The Vane Sisters]]" is known for its acrostic final paragraph, which contains a message from beyond the grave.
+
+In 1829, [[Edgar Allan Poe]] wrote an acrostic and simply titled it "An Acrostic", possibly dedicated to his cousin Elizabeth Rebecca Herring (though the initials L.E.L. refer to [[Letitia Elizabeth Landon]]):{{cn|date=October 2025}}
+<poem style="margin-left: 2em">
+'''E'''lizabeth it is in vain you say
+"'''L'''ove not" — thou sayest it in so sweet a way:
+'''I'''n vain those words from thee or L.E.L.
+'''Z'''antippe's talents had enforced so well:
+'''A'''h! if that language from thy heart arise,
+'''B'''reath it less gently forth — and veil thine eyes.
+'''E'''ndymion, recollect, when Luna tried
+'''T'''o cure his love — was cured of all beside —
+'''H'''is folly — pride — and passion — for he died.
+</poem>
+An even more complicated{{cn|date=October 2025}} acrostic was his sonnet [[:s:The Works of the Late Edgar Allan Poe (1859)/Volume 2/An Enigma|"An Enigma"]] (1848) containing the hidden name of [[Sarah Anna Lewis]] (first letter of the first line, second letter of the second line, etc.).
+
+In 1939, [[Rolfe Humphries]] received a lifelong ban from contributing to [[Poetry (magazine)|''Poetry'' magazine]] after he penned and attempted to publish "a poem containing a concealed scurrilous phrase aimed at a well-known person", namely [[Nicholas Murray Butler]].  The poem, entitled "An ode for a Phi Beta Kappa affair", was in [[blank verse|unrhymed iambic pentameter]], contained one [[Ancient Greece|classical]] [[Ancient Rome|reference]] per line, and ran as follows:
+
+<poem style="margin-left: 2em">
+[[Niobe|'''N'''iobe]]'s daughters yearn to the womb again,
+[[Ionians|'''I'''onians]] bright and fair, to the chill stone;
+'''C'''haos in cry, [[Actaeon]]'s angry pack,
+'''H'''ounds of [[Molossus (dog)|Molossus]], shaggy wolves driven
+
+'''O'''ver [[Ampsanctus]]' vale and [[Pentheus]]' glade,
+[[Laelaps (mythology)|'''L'''aelaps]] and [[Ladon (mythology)|Ladon]], Dromas, [[Canace]],
+'''A'''s these in fury harry brake and hill
+'''S'''o the great dogs of evil bay the world.
+
+'''M'''emory, Mother of [[Muse]]s, be resigned
+'''U'''ntil King [[Saturn (god)|Saturn]] comes to rule again!
+'''R'''emember now no more the golden day
+'''R'''emember now no more the fading gold,
+[[Astraea|'''A'''straea]] fled, [[Proserpina]] in [[Hades|hell]];
+'''Y'''ou searchers of the earth be reconciled!
+
+'''B'''ecause, through all the blight of human woe,
+'''U'''nder [[Robigo]]'s rust, and [[Clotho]]'s shears,
+'''T'''he mind of man still keeps its argosies,
+'''L'''acedaemonian Helen wakes her tower,
+
+[[Echo (nymph)|'''E'''cho]] replies, and lamentation loud
+'''R'''everberates from [[Thrace]] to [[Delos]] Isle;
+[[Itylus|'''I'''tylus]] grieves, for whom the [[nightingale]]
+'''S'''weetly as ever tunes her Daulian strain.
+'''A'''nd over [[Tenedos]] the flagship burns.
+
+'''H'''ow shall men loiter when the great moon shines
+'''O'''paque upon the sail, and [[Argive]] seas
+'''R'''ear like blue dolphins their cerulean curves?
+[[Samos|'''S'''amos]] is fallen, [[Lesbos]] streams with fire,
+'''E'''tna in rage, [[Canopus]] cold in hate,
+'''S'''ummon the Orphic bard to stranger dreams.
+
+'''A'''nd so for us who raise [[Athene]]'s torch.
+'''S'''ufficient to her message in this hour:
+'''S'''ons of [[Columbia (name)|Columbia]], awake, arise!
+</poem>
+'''Acrostic''': Nicholas Murray Butler is a horse's ass.
+
+In an October 2009 [[veto message]] by [[California]] [[Governor of California|governor]] [[Arnold Schwarzenegger]], rejecting a bill introduced by assemblyman [[Tom Ammiano]], the first letters of lines 3–9 spelled "Fuck You"; Schwarzenegger claimed that the acrostic message was coincidental, which mathematicians Stephen Devlin and Philip Stark disputed as statistically implausible.<ref name="Shapiro 2010">{{Cite web |last=Shapiro |first=Lila |date=March 18, 2010 |title=Schwarzenegger: F-Bomb In Veto Letter Was "Wild Coincidence" |url=https://www.huffpost.com/entry/schwarzenegger-f-bomb-in_n_340579 |access-date=13 May 2022 |website=HuffPost |publisher=BuzzFeed |ref=Shapiro 2010}}</ref><ref name="Adams 2009">{{Cite web |last=Adams |first=Guy |date=29 October 2009 |title=Arnie claims X-rated email was in fact an 8 billion-to-1 coincidence |url=https://www.independent.co.uk/news/world/americas/arnie-claims-xrated-email-was-in-fact-an-8-billionto1-coincidence-1811129.html |access-date=13 May 2022 |website=The Independent |publisher=Independent Digital News & Media Ltd |ref=Adams 2009}}</ref><ref name="Stark 2009">{{Cite web |last=Stark |first=Philip |date=3 November 2009 |title=Null and Vetoed: "Chance Coincidence"? |url=https://www.stat.berkeley.edu/~stark/Preprints/acrosticVeto09.htm |url-status=live |archive-url=https://web.archive.org/web/20100715064238/https://www.stat.berkeley.edu/~stark/Preprints/acrosticVeto09.htm |archive-date=15 July 2010 |access-date=2 October 2023 |website=[[UC Berkeley]] Department of Statistics |publisher=[[University of California Berkeley]] |ref=Stark 2009}}</ref>
+
+In January 2010, [[Jonathan I. Schwartz]], the CEO of [[Sun Microsystems]], sent an email to Sun employees on the completion of the acquisition of Sun by [[Oracle Corporation]]. The initial letters of the first seven paragraphs spelled "Beat [[IBM]]".<ref name="daily1">{{Cite news |last=Paczkowski |first=John |date=2010-01-21 |title=Sun CEO: Go Oracle! |url=http://digitaldaily.allthingsd.com/20100121/sun-ceo-go-oracle-internal-memo/ |url-status=live |archive-url=https://web.archive.org/web/20100125143635/http://digitaldaily.allthingsd.com/20100121/sun-ceo-go-oracle-internal-memo/ |archive-date=25 January 2010 |access-date=2010-01-22 |publisher=Wall Street Journal}}</ref>
+
+[[James May]], who would later become a presenter on the BBC program ''[[Top Gear (2002 TV series)|Top Gear]]'', was fired from the publication ''[[Autocar (magazine)|Autocar]]'' for spelling out a message using the large red [[initial]] at the beginning of each review in the publication's ''Road Test Yearbook Issue'' for 1992.  Properly punctuated, the message reads: "So you think it's really good, yeah? You should try making the bloody thing up; it's a real pain in the arse."<ref>{{Cite news |date=2008-06-19 |title=Captain Slow takes the fast lane - TV & Radio - Entertainment |url=https://www.theage.com.au/entertainment/captain-slow-takes-the-fast-lane-20080619-ge766h.html |url-status=live |archive-url=https://web.archive.org/web/20100130095648/http://www.theage.com.au/news/tv--radio/captain-slow-takes-the-fast-lane/2008/06/18/1213468491019.html |archive-date=30 January 2010 |access-date=25 Jan 2010 |publisher=The Age |location=Melbourne}}</ref>
+
+In the 2012 third novel of his ''Caged Flower''<ref name="Caged Flower">{{Cite web |last=Wallace |first=Cullman |date=2012-04-28 |title=Caged Flower Series: Book Three |url=https://www.amazon.com/Caged-Flower-Three-Cullman-Wallace-ebook/dp/B007YV2SBC |access-date=2017-08-23 |publisher=Amazon Digital Services LLC}}</ref> series, author Cullman Wallace used acrostics as a plot device. The parents of a protagonist send e-mails where the first letters of the lines reveal their situation in a concealed message.
+
+On 19 August 2017, the members of president [[Donald Trump]]'s [[President's Committee on the Arts and Humanities|Committee on Arts and Humanities]] resigned in protest over his response to the [[Unite the Right rally]] incident in Charlottesville, Virginia. The members' letter of resignation contained the acrostic "RESIST" formed from the first letter of each paragraph.<ref>{{Cite web |last1=Hylton |first1=Antonia |last2=Dolven |first2=Taylor |date=18 August 2017 |title=Trump's arts council puts hidden "RESIST" message in resignation letter |url=https://www.vice.com/en/article/trump-arts-committee-resist/ |access-date=2017-08-19 |website=Vice News}}</ref>
+
+On 23 August 2017, [[University of California, Berkeley]] energy professor Daniel Kammen resigned from his position as a State Department science envoy with a resignation letter in which the word "IMPEACH" was spelled out by the first letters of each paragraph.<ref>{{Cite news |last1=Koran |first1=Laura |last2=Kosinski |first2=Michelle |last3=Gaouette |first3=Nicole |title=US science envoy steps down, spells out "impeach" in resignation letter |url=https://www.cnn.com/2017/08/23/politics/science-envoy-impeach-resignation-letter/index.html |access-date=2017-08-23 |work=[[CNN]]}}</ref>
+
+In the video game ''[[Zork]]'' the first letters of sentences in a prayer spelled "[[Odysseus]]" which was a possible solution to a [[Cyclopes|Cyclops]] encounter in another room.<ref name="zorkgame">{{Cite web |last=Maher |first=Jimmy |title=Exploring Zork, Part 3 The Digital Antiquarian |url=https://www.filfre.net/2012/01/exploring-zork-part-3/ |access-date=2013-10-06}}{{self-published source|date=July 2024}}</ref>
+
+All three seasons of the American animated series ''[[The Owl House]]'' use acrostics in their episode titles. The first two seasons use the first letters to spell out "A WITCH LOSES A TRUE WAY"<ref>{{Cite web|title=Review: The Owl House "Young Blood, Old Souls"|url=https://www.bubbleblabber.com/review-the-owl-house-young-blood-old-souls/|last=Kaldor|first=David|work=Bubbleblabber|date=August 30, 2020|access-date=October 6, 2025|language=en-US|archive-url=https://web.archive.org/web/20200831075222/https://www.bubbleblabber.com/review-the-owl-house-young-blood-old-souls/|archive-date=August 31, 2020|url-status=live}}</ref> and "SEEK THE KEY, FEAR THE LOCK,"<ref>{{Cite web |last=Betti |first=Tony |date=March 19, 2022 |title=Fans Get More Questions Than Answers With The Long-Awaited Return of "The Owl House" |url=https://www.laughingplace.com/w/articles/2022/03/19/the-owl-house-season-2-episode-11/ |access-date=October 6, 2025 |website=Laughing Place}}</ref> respectively; while, the third season uses the first words to spell out "Thanks For Watching."
+
+After the [[San Jose Sharks]] defeated the [[Vegas Golden Knights]] in an April 24, 2022 game, the following Tuesday night during a Sharks home game saw messages on the jumbotron being shared by the team during the intermissions. One of them was a message mentioning the recent win which containing an acrostic that spelled out "Fuck the Knights".<ref>{{Cite web |last= |first= |date=2022-04-28 |title=Sharks fan gets creative with latest troll of hated Golden Knights |url=https://ca.sports.yahoo.com/news/nhl-sharks-get-creative-with-latest-troll-of-hated-golden-knights-031222140.html |access-date=2026-06-24 |website=www.ca.sports.yahoo.com |language=en-US}}</ref>
+
+In 2023, pop singer [[Shakira]] released the song "[[Acróstico]]", which spells out the names of her children Milan and Sasha in the first letters of each line.<ref>{{Cite magazine |last=Fajardo |first=Ingrid |date=May 12, 2023 |title=Shakira's New Song 'Acróstico' Is an Emotional Open Letter to Her Children |url=https://www.billboard.com/music/latin/shakira-acrostico-open-letter-kids-1235328565/ |access-date=August 17, 2023 |magazine=[[Billboard (magazine)|Billboard]] |language=en-US}}</ref>
+
+On 4 May 2024, [[Noelia Voigt]] resigned as [[Miss USA 2023]] with a resignation letter containing an acrostic spelling out "I am silenced".<ref name="miss_usa_2023_resignation">{{Cite news |last1=Lane |first1=Brittany |last2=Madani |first2=Doha |date=2024-05-09 |title=Miss USA's resignation letter accuses the organization of toxic work culture |url=https://www.nbcnews.com/news/us-news/miss-usa-resignation-letter-toxic-work-culture-rcna151582 |access-date=2024-05-15 |work=NBC News}}</ref>
+
+== Multiple acrostics ==
+
+===Double acrostics===
+[[File:Sator Square at Oppède.jpg|thumb|right|A Sator square (in SATOR-form), on a wall in the medieval fortress town of [[Oppède|Oppède-le-Vieux]], France]]
+A '''double acrostic''', may have words at the beginning and end of its lines, as in this example, on the name of [[Stroud, Gloucestershire|Stroud]], by Paul Hansford:
+  '''S''' et among hills in the midst of  five valley '''S''',
+  '''T''' his peaceful little   market town we inhabi '''T'''
+  '''R''' efuses  (vociferously!) to  be  a  conforme '''R'''.
+  '''O''' nce home  of  the cloth  it gave its name t '''O''',
+  '''U''' phill and down again its  streets  lead  yo '''U'''.
+  '''D''' espite its faults it leaves  us all  charme '''D'''.
+
+The first letters make up the acrostic and the last letters the telestich; in this case they are identical.
+
+Another example of a double acrostic is the first-century Latin [[Sator Square]].<ref name="EB">{{Cite web |title=Sator square |url=https://www.britannica.com/topic/SATOR-square |access-date=17 September 2022 |website=[[Encyclopedia Britannica]]}}</ref>
+
+{| style="font-family: monospace; margin: 0 0 0 0; line-height:90%"
+|style="padding-left: 2em;"|S A T O R
+|-
+|style="padding-left: 2em;"|A R E P O
+|-
+|style="padding-left: 2em;"|T E N E T
+|-
+|style="padding-left: 2em;"|O P E R A
+|-
+|style="padding-left: 2em;"|R O T A S
+|}
+As well as being a double acrostic, the square contains several [[palindromes]], and it can be read as a 25-letter palindromic sentence (of an obscure meaning).<ref name="MRS">{{Cite journal |last=Sheldon |first=Rose Mary |author-link=Rose Mary Sheldon |date=2003 |title=The Sator Rebus: An unsolved cryptogram? |url=https://indexarticles.com/reference/cryptologia/sator-rebus-an-unsolved-cryptogram-the/ |journal=[[Cryptologia]] |volume=27 |issue=3 |pages=233–287 |doi=10.1080/0161-110391891919 |s2cid=218542154 |accessdate=10 September 2022|url-access=subscription }}</ref><ref>{{Cite journal |last=Griffiths, J. Gwyn |date=March 1971 |title='Arepo' in the Magic 'Sator' Square |journal=The Classical Review |series=New Series |volume=21 |issue=1 |pages=6–8 |doi=10.1017/S0009840X00262999 |s2cid=161291159}}</ref>
+
+===Complex acrostics===
+[[image:Triple Acrostic by Thomas Browne.jpg|right|200px]]
+The poem ''Behold, O God!'', by [[William Browne (poet)|William Browne]],<ref name="WilliamBrowne">{{Cite web |title=William Browne: Behold O God! |url=https://www.presscom.co.uk/leepriory/leebrowne.html |access-date=2009-05-15 |website=Presscom.co.uk}}</ref> can be considered a complex kind of acrostic. 
+In a document held in the [[Church of St Michael, Withington]], Gloucestershire, some letters are capitalized and written extra-large, non-italic, and in red, and the lines are shifted left or right and internally spaced out as necessary to position the red letters within three crosses that extend through all the lines of the poem. 
+The letters within each cross spell out a verse from the [[New Testament]]:
+*left: [[Luke 23]]:42: "'''Lord, remember me when thou comest into thy kingdom.'''"  
+*middle: [[Matthew 27]]:46: "'''O God, my God, why hast thou forsaken me'''?" 
+*right: [[Luke 23]]:39: "'''If thou art the Christ, save thyself and us.'''"
+The "[[INRI]]" at the top of the middle cross stands for {{Lang|la|Iēsus Nazarēnus}}'','' {{Lang|la|Rēx Iūdaeōrum}}, Latin for "Jesus of Nazareth, King of the Jews" ([[wikisource:Bible (American Standard)/John#19:19|John 19:19]]). The three quotes represent the three figures crucified on Golgotha, as recorded in the gospels of Matthew and Luke.
+
+(The text of the document shown differs significantly from the text usually published, including in the reference.<ref name="WilliamBrowne" /> Many of the lines have somewhat different wording; and while the acrostics are the same as far as they go, the published text is missing the last four lines, truncating the acrostics to "Lord, remember me when thou comest into thy kin", "O God, my God, why hast thou forsak", and "If thou art the Christ, save thyself". The manuscript text is printed below, first as normal poetry, then spaced and bolded to bring out the acrostics. The word "Thou" in line 8 is not visible in this photograph, but is in the published version and is included in a cross-stitch sampler of the poem from 1793.<ref>{{Cite web |last=Legg |first=Sarah |date=April 2014 |title=a piece of antiquity: on the crucifixion of our saviour and the two thieves |url=https://i.imgur.com/kur6Oeg.jpg |access-date=24 May 2014}}{{better source needed|date=July 2024}}</ref>)
+
+<poem style="margin-left: 2em">
+Behold, O God! In rivers of my tears
+I come to thee! bow down thy blessed ears
+To hear my Plaint; and let thine eyes which keep
+Continual watch behold a Sinner weep:
+Let not, O God my God my Sins, tho' great,
+And numberless, between thy Mercy's-Seat
+And my poor Soul have place; since we are taught,
+''[Thou]'' Lord, remember'st thyne, if Thou art sought.
+I come not, Lord, with any other merit
+Than what I by my Saviour Christ inherit:
+Be then his wounds my balm— his stripes my Bliss;
+His thorns my crown; my death be blest in his.
+And thou, my blest Redeemer, Saviour, God,
+Quit my accounts, withhold thy vengeful rod!
+O beg for me, my hopes on Thee are set;
+And Christ forgive me, since thou'st paid my debt
+The living font, the Life, the Way, I know,
+And but to thee, O whither shall I go?
+All other helps are vain: grant thine to me,
+For in thy cross my saving health I see.
+O hearken then, that I with faith implore,
+Lest Sin and Death sink me to rise no more.
+Lastly, O God, my course direct and guide,
+In Death defend me, that I never slide;
+And at Doomsday let me be rais'd again,
+To live with thee sweet Jesus say, Amen.
+</poem>
+
+                   Behold,  O  God!  '''IN RI'''  vers of my tears
+                I come to thee! bow         down thy blessed ears
+                 To hear my Plaint;         and let thine eyes which keep
+                    Continual watch         behold a Sinner weep:
+                   Let not,      '''O GOD my GOD'''        my Sins, tho' great,
+                   And numberless, bet-'''W'''-een thy Mercy's-Seat
+       And my    poor             Soul '''H'''-ave place; since      we are taught,
+ ''[Thou]'' '''Lord, remember''' st           th-'''Y'''-ne,            '''If Thou art''' sought.
+         I co-'''ME''' not, Lord,        wit-'''H''' any             o-'''THE'''-r merit
+        Than  '''WH'''-at I by          my S-'''A'''-viour             '''CH'''-rist inherit:
+        Be th-'''EN''' his             Wound-'''S'''  my Balm—  his St-'''RI'''-pes my Bliss;
+          His '''TH'''-orns my crown; my dea-'''T'''-h       be    ble-'''ST''' in his.
+       And th-'''OU''',              my bles-'''T''' Redeemer,         '''SA'''-viour, God,
+   Quit my ac-'''CO'''-unts,            with-'''H'''-old           thy '''VE'''-ngeful rod!
+    O beg for '''ME''',                 my h-'''O'''-pes             on '''T'''-hee are set;
+     And Chri-'''ST'''                 forgi-'''V'''-e   me,   since  t-'''H'''-ou'st paid my debt
+      The liv-'''IN'''-g        font, the Li-'''F'''-e,     the      Wa-'''Y''', I know,
+      And but '''TO''' thee,                 '''O''' whither            '''S'''-hall I go?
+        All o-'''TH'''-er            helps a-'''R'''-e vain: grant thin-'''E''' to me,
+    For in th-'''Y'''  cross             my  '''S'''-aving          hea-'''L'''-th I see.
+       O hear-'''K'''-en then,            th-'''A'''-t       I    with  '''F'''-aith implore,
+       Lest S-'''IN''' and        Death  sin-'''K''' me    to      rise '''+''' no more.
+    Lastly, O '''G'''-od,          my  cours-'''E''' direct             '''A'''-nd guide,
+           In '''D'''-eath              defe-'''N'''-d me,   that     I '''N'''-ever slide;
+    And at Do-'''OM'''-sday              let '''M'''-e    be      rais'-'''D'''  again,
+      To live '''+''' with               the-'''E''' sweet         Jes-'''US'''  say, Amen.
+
+==See also==
+
+* {{annotated link|Acronym}}
+* {{annotated link|Backronym}}
+* {{annotated link|Canon (hymnography)#Poetic and musical structure|Canon}}
+* {{annotated link|Easter egg (media)}}
+* {{annotated link|Golden shovel}}
+* {{annotated link|Mesostic}}
+* {{annotated link|Mnemonic}}
+* {{annotated link|O Antiphons}}
+* {{annotated link|Rikei}}
+* {{annotated link|Steganography}}
+* {{annotated link|Word square}}
+
+==Notes==
+{{reflist}}
+
+==References==
+* {{Cite journal |last=Adkin |first=N. |year=2014 |title='Read the edge' Acrostics in Virgil's Sinon Episode |url=https://ojs.lib.unideb.hu/classica/article/view/7983 |journal=Acta Classica Universitatis Scientiarum Debreceniensis |volume=50 |pages=45–72}}
+* {{cite journal |last=Grishin |first=Alexei A. |date=2008 |title={{lang|la|Ludus in undis}}: an acrostic in Eclogue 9 |journal=Harvard Studies in Classical Philology |volume=104 |pages=237–240 |jstor=27809339}}
+* {{Cite journal |last=Hejduk |first=J. D. |year=2018 |title=Was Vergil reading the Bible? Original sin and an astonishing acrostic in the Orpheus and Eurydice |journal=Vergilius |volume=64 |pages=71–102 |jstor=26542626}}
+* Tepox, Alfredo. "Translating acrostics as acrostics." ''The Bible Translator'' 55 (2004): 233-243.
+
+{{Commons category}}
+{{wiktionary}}
+
+[[Category:Graphic poetry]]
+[[Category:Word games]]
+[[Category:Poetic forms]]

@@ -1,0 +1,32 @@
+{
+ "hypnerotomachia": {
+  "title": "Hypnerotomachia Poliphili",
+  "url": "https://en.wikipedia.org/wiki/Hypnerotomachia_Poliphili",
+  "bytes": 21499,
+  "fetched": "2026-11-11"
+ },
+ "leonard_dawe": {
+  "title": "Leonard Dawe",
+  "url": "https://en.wikipedia.org/wiki/Leonard_Dawe",
+  "bytes": 11323,
+  "fetched": "2026-11-11"
+ },
+ "acrostic": {
+  "title": "Acrostic",
+  "url": "https://en.wikipedia.org/wiki/Acrostic",
+  "bytes": 39751,
+  "fetched": "2026-11-11"
+ },
+ "null_cipher": {
+  "title": "Null cipher",
+  "url": "https://en.wikipedia.org/wiki/Null_cipher",
+  "bytes": 11136,
+  "fetched": "2026-11-11"
+ },
+ "dday_crossword": {
+  "title": "D-Day Daily Telegraph crossword security alarm",
+  "url": "https://en.wikipedia.org/wiki/D-Day_Daily_Telegraph_crossword_security_alarm",
+  "bytes": 7984,
+  "fetched": "2026-11-11"
+ }
+}

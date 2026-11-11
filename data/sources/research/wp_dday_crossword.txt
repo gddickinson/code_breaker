@@ -1,0 +1,43 @@
+{{italic title|string=Daily Telegraph}}
+{{Short description|Suspected espionage case during WW2}}
+{{dmy|date=August 2026}}
+In 1944, codenames related to the [[D-Day]] plans appeared as solutions in [[crossword]]s in the British newspaper ''[[The Daily Telegraph]]'', which the [[British Secret Services]] initially suspected to be a form of espionage.
+
+==Background==
+[[Leonard Dawe]], ''Telegraph'' crossword compiler, created these puzzles at his home in [[Leatherhead]]. Dawe was headmaster of [[Strand School]], which had been evacuated to [[Effingham, Surrey|Effingham]], [[Surrey]]. Adjacent to the school was a large camp of US and Canadian troops preparing for D-Day, and as security around the camp was lax, there was unrestricted contact between the schoolboys and soldiers. Some of the soldiers' chatter, including D-Day codewords, may thus have been heard and learnt by some of the schoolboys.{{Citation needed|date=June 2019}}
+
+Dawe had developed a habit of saving his crossword-compiling work time by calling boys into his study to fill crossword blanks with words; afterwards Dawe would provide clues for those words. As a result, war-related words including those codenames got into the crosswords; Dawe said later that at the time he did not know that these words were military codewords.{{Citation needed|date=June 2019}}
+
+On 18 August 1942, a day before the [[Dieppe raid]], 'Dieppe' appeared as an answer in ''The Daily Telegraph'' crossword (set on 17 August 1942) (clued "French port"), causing a security alarm. The [[War Office]] suspected that the crossword had been used to pass intelligence to the enemy and called upon [[John Buchan, 2nd Baron Tweedsmuir|Lord Tweedsmuir]], then a senior intelligence officer attached to the [[Canadian Army]], to investigate the crossword. Tweedsmuir, the son of author [[John Buchan]], later commented: "We noticed that the crossword contained the word "Dieppe", and there was an immediate and exhaustive inquiry which also involved MI5. But in the end it was concluded that it was just a remarkable coincidence – a complete fluke".<ref>{{cite book |title= A Display of Lights (9): The Lives and Puzzles of the Telegraph's Six Greatest Cryptic Crossword Setters|last=Gilbert |first=Val |author2=Telegraph Group Limited   |year= 2008 |publisher=Macmillan |isbn= 978-0-230-71446-5|page=20 }}</ref>
+
+==D-Day alarm==
+In the months before D-Day the solution words 'Gold' and 'Sword' (codenames for the two D-Day beaches assigned to the British) and 'Juno' (codename for the D-Day beach assigned to Canada) appeared in ''The Daily Telegraph'' crossword solutions, but they are common words in crosswords, and were treated as coincidences. The run of D-Day codewords as ''The Daily Telegraph'' crossword solutions continued:{{Citation needed|date=June 2019}}
+* 2 May 1944: '[[Utah]]' (17 across, clued as "One of the U.S."): code name for the D-Day beach assigned to the US 4th Infantry Division ([[Utah Beach]]). This would have been treated as another coincidence.
+* 22 May 1944: '[[Omaha people|Omaha]]' (3 down, clued as "Red Indian on the [[Missouri River|Missouri]]"): code name for the D-Day beach to be taken by the US 1st Infantry Division ([[Omaha Beach]]).
+* 27 May 1944: 'Overlord' (11 across, clued as "[''common'']... but some bigwig like this has stolen some of it at times.", code name for the whole [[D-Day]] operation: [[Operation Overlord]])
+* 30 May 1944: '[[Morus (plant)|Mulberry]]' (11 across, clued as "This bush is a centre of [[Here We Go Round the Mulberry Bush|nursery revolutions]].", [[Mulberry harbour]])
+* 1 June 1944: '[[Neptune (mythology)|Neptune]]' (15 down, clued as "[[Britannia]] and he hold to the same thing.", codeword for the naval phase: [[Operation Neptune]]).
+==Investigation==
+[[MI5]] became involved and arrested Dawe and a senior colleague, crossword compiler Melville Jones. Both were interrogated intensively, but it was decided that they were innocent, although Dawe nearly lost his job as a headmaster. Afterwards, Dawe asked at least one of the boys (Ronald French) where he had got these codewords from, and he was alarmed at the contents of the boy's notebook.{{Citation needed|date=June 2019}}
+
+He gave him a severe reprimand about secrecy and national security during wartime, ordered the notebook to be burnt, and ordered the boy to swear secrecy on the Bible. It was announced publicly that the leakage of codenames was a coincidence. Dawe kept his interrogation secret until he described it in a BBC interview in 1958.{{Citation needed|date=June 2019}}
+
+==Aftermath==
+In 1984, the approach of the 40th anniversary of D-Day reminded people of the crossword incident, causing a check for any codewords related to the 1982 [[Falklands War]] in ''The Daily Telegraph'' crosswords set around the time of that war; none were found.<ref>{{cite news|last=Rowley|first=Tom|title=Who put secret D-Day clues in the 'Telegraph' crossword?|url=https://www.telegraph.co.uk/news/features/10789884/Who-put-secret-D-Day-clues-in-the-Telegraph-crossword.html|archive-url=https://web.archive.org/web/20140427200530/http://www.telegraph.co.uk/news/features/10789884/Who-put-secret-D-Day-clues-in-the-Telegraph-crossword.html|url-status=dead|archive-date=27 April 2014|newspaper=[[Sunday Telegraph]]|date= 27 April 2014|page=16}}</ref> That induced Ronald French, then a property manager in [[Wolverhampton]], to come forward to say that in 1944, when he was a 14-year-old at the Strand School, he inserted D-Day codenames into crosswords. He believed that hundreds of children must have known what he knew.<ref name="TelDDay">{{Cite news|url= https://www.telegraph.co.uk/news/uknews/1460892/D-Day-crosswords-are-still-a-few-clues-short-of-a-solution.html|title= D-Day crosswords are still a few clues short of a solution|first= Val|last= Gilbert|date= 3 May 2004|newspaper= [[The Daily Telegraph]]|access-date= 25 October 2009|archive-date= 28 November 2020|archive-url= https://web.archive.org/web/20201128082041/https://www.telegraph.co.uk/news/uknews/1460892/D-Day-crosswords-are-still-a-few-clues-short-of-a-solution.html|url-status= live}}</ref><ref>{{cite book |last= Mayo |first= Jonathan  |title= D-Day: Minute by Minute  |year= 2014  |publisher= Marble Arch Press |location= New York |isbn= 978-1-4767-7294-3 |pages= 30, 31 }}</ref>
+
+A fictionalised version of the story appeared in ''The Mountain and the Molehill'' in series 1 of the [[BBC One]] ''[[Screen One]]'' anthology series, first broadcast on 15 October 1989. Written by [[David Reid (screenwriter)|David Reid]] and directed by [[Moira Armstrong]], it starred [[Michael Gough]] as Mr Maggs, a school headmaster based on Dawe. Another fictionalised version appeared in the Norwegian children's book ''Kodeord Overlord'' ''(Codeword Overlord)'', written by Tor Arve Røssland and published by Vigmostad&Bjørke publishing house in 2019, whose main character is also based on Dawe.{{Citation needed|date=June 2019}}
+
+A book by Richard Denham - ''Weird War Two'' - questions the veracity of the accepted account: “In a country so paranoid as to verge on obsession, where ‘careless talk costs lives,’ how feasible is it that the local troops would have known those codes, spoken openly about them, and that the schoolboys would have found the random names so convincing as to have unknowingly passed them on to Dawe?”<ref>{{ cite book | last = Denham | first = Richard | last2= Trow | first2 = M. J. | year =2020 | title = Weird War Two: Strange Facts and Tales from the World's Weirdest Conflict | edition =2 | publisher = BLKDOG | page =76 | isbn =978-1913762148}} </ref>
+
+==References==
+{{reflist}}
+
+[[Category:Operation Overlord]]
+[[Category:Coincidence]]
+[[Category:Crosswords]]
+[[Category:National security]]
+[[Category:1944 in the United Kingdom]]
+[[Category:Telegraph Media Group]]
+[[Category:Espionage scandals and incidents]]
+[[Category:May 1944 in the United Kingdom]]
+[[Category:June 1944 in the United Kingdom]]

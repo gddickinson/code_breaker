@@ -1,0 +1,80 @@
+{{Short description|Simple form of encryption}}
+{{About|the classical encryption method|the configuration option in modern communication systems|Null encryption}}
+{{more citations needed|date=June 2023}}
+
+A '''null cipher''', also known as '''concealment cipher''', is an ancient form of [[encryption]] where the [[plaintext]] is mixed with a large amount of non-cipher material. Today it is regarded as a simple form of [[steganography]], which can be used to hide ciphertext.<ref name=":0">{{Cite book|title=Official (ISC)2 Guide to the CISSP CBK - Fourth Edition|last=Gordon|first=Adam|publisher=(ISC)2 Press|year=2015|isbn=978-1939572066|pages=349}}</ref>
+
+This is one of three categories of cipher used in [[Classical cipher|classical cryptography]] along with [[substitution cipher]]s and [[transposition cipher]]s.<ref name=":2" />
+
+== Classical cryptography ==
+In [[Classical cipher|classical cryptography]], a ''null'' is an extra character intended to confuse the [[cryptanalyst]]. In the most common form of a null cipher, the [[plaintext]] is included within the [[ciphertext]] and one needs to discard certain characters in order to decrypt the message (such as first letter, last letter, third letter of every second word, etc.)<ref name=":0" /> Most characters in such a cryptogram are nulls, only some are significant, and some others can be used as pointers to the significant ones.<ref name=":2">{{Cite book |last=Gaines |first=Helen F. |title=Cryptanalysis: A Study of Ciphers and Their Solution |publisher=Courier Corporation |year=2014 |isbn=9780486800592 |pages=}}</ref>
+
+Here is an example null cipher message, sent by a German during [[World War I]]:<ref>{{cite book |last1=Kahn |first1=David |title=The Codebreakers: The Comprehensive History of Secret Communication from Ancient Times to the Internet |date=5 December 1996 |publisher=Simon and Schuster |isbn=978-1-4391-0355-5 |url=https://books.google.com/books?id=3S8rhOEmDIIC&pg=PT547 |access-date=12 October 2021 |language=en}}</ref>
+
+{{blockquote|PRESIDENT'S EMBARGO RULING SHOULD HAVE IMMEDIATE NOTICE. GRAVE SITUATION AFFECTING INTERNATIONAL LAW. STATEMENT FORESHADOWS RUIN OF MANY NEUTRALS. YELLOW JOURNALS UNIFYING NATIONAL EXCITEMENT IMMENSELY.}}
+
+Taking the first letter of every word reveals the hidden message "[[John J. Pershing|Pershing]] sails from N.Y. June I".
+
+Following is a more complicated example from [[English Civil War|England's Civil War]] which aided Royalist Sir John Trevanian in his escape from a Puritan castle in [[Colchester]]:<ref name=":1">{{Cite book |last=Janeczko |first=Paul B. |title=Top Secret: a Handbook of Codes, Ciphers, and Secret Writing |publisher=Candlewick Press |year=2004 |isbn=9780763629724}}</ref><blockquote>WORTHIE SIR JOHN,
+
+HOPE, THAT IS YE BESTE COMFORT OF YE AFFLICTED, CANNOT MUCH, I FEAR ME, HELP YOU NOW. THAT I WOULD SAY TO YOU, IS THIS ONLY: IF EVER I MAY BE ABLE TO REQUITE THAT I DO OWE YOU, STAND NOT UPON ASKING ME. TIS NOT MUCH THAT I CAN DO; BUT WHAT I CAN DO, BEE YE VERY SURE I WILL. I KNOW THAT, IF DETHE COMES, IF ORDINARY MEN FEAR IT, IT FRIGHTS NOT YOU, ACCOUNTING IT FOR A HIGH HONOUR, TO HAVE SUCH A REWARDE OF YOUR LOYALTY. PRAY YET YOU MAY BE SPARED THIS SOE BITTER, CUP. I FEAR NOT THAT YOU WILL GRUDGE ANY SUFFERINGS; ONLY IF BIE SUBMISSIONS YOU CAN TURN THEM AWAY, TIS THE PART OF A WISE MAN. TELL ME, AN IF YOU CAN, TO DO FOR YOU ANYTHINGE THAT YOU WOLDE HAVE DONE. THE GENERAL GOES BACK ON WEDNESDAY. RESTINGE YOUR SERVANT TO COMMAND.</blockquote>The third letter after each punctuation reveals "Panel at East end of Chapel slides".
+
+A similar technique is to hide entire words, such as in this seemingly innocent message  written by a prison inmate but deciphered by the FBI:<ref name=fbi>{{Cite web|url=https://www.fbi.gov/news/stories/breaking-codes-to-stop-crime-part-1|title=Cryptanalysts: Breaking Codes to Stop Crime, Part 1|date=March 21, 2011|website=[[Federal Bureau of Investigation]]|language=en-us|access-date=2018-09-30}}</ref>
+
+{{poem quote|SALUDOS LOVED ONE
+&nbsp;&nbsp;&nbsp;SO TODAY I HEARD FROM UNCLE MOE OVER THE PHONE. HE TOLD ME THAT YOU AND ME GO THE SAME BIRTHDAY. HE SAYS YOUR TIME THERE TESTED YOUR STRENGTH SO STAY POSITIVE AT SUCH TIMES. I'M FOR ALL THAT CLEAN LIVING! METHAMPHETAMINES WAS MY DOWN FALL. THE PROGRAM I'M STARTING THE NINTH IS ONE I HEARD OF A COUPLE WEEKS BEFORE SEPTEMBER THROUGH MY COUNSELOR BARRIOS. BUT MY MEDICAL INSURANCE COVERAGE DENIES THEY COVER IT. I'M USING MY TIME TO CHECK AND IF THE INSURANCE AGENT DENIES STILL MY COVERAGE I'M GETTING TOGETHER PAPERWORK SAYING I TESTED FOR THIS TREATMENT REQUIRED ON THE CHILD CUSTODY. THE NINTH WILL MEAN I HAVE TESTED MY DETERMINATION TO CHANGE. ON THE NEXT FREE WEEKEND THE KIDS ARE COMING, BUT FIRST I GOTTA SHOW CAROLINA I'M STAYING OUT OF TROUBLE WAITING TO GET MYSELF ADMITTED ON THE PROGRAM. THE SUPPORTING PAPERWORK THAT THE FAMILY COURTS GOT WILL ALSO PROVE THERE'S NO REASON NEITHER FOR A WITNESS ON MY CHILDREN'S VISITS. OF COURSE MY BRO HAS HIS MIND MADE UP OF RECENT THAT ALL THIS DRUG USAGE DON'T CONCERN OUR VISITS. I THINK THAT MY KIDS FEEL I NEED THEIR LOVE IF I'M GONNA BE COOL. GUILTY FEELINGS RISE ON ACCOUNT OF THE MISTAKES I COULD WRITEUP. FOR DAYS I'M HERE. HE GOT A GOOD HEART. SHOULD YOU BE HAVING PROBLEMS BE ASSURED THAT WHEN YOU HIT THE STREETS WE'LL BE CONSIDERING YOU...}}
+
+Taking only every fifth word, one can reconstruct the hidden text which recommends a "hit" on someone:
+
+{{poem quote|TODAY MOE TOLD ME HE TESTED POSITIVE FOR METHAMPHETAMINES THE NINTH OF SEPTEMBER BUT DENIES USING AND DENIES GETTING TESTED ON NINTH 
+TESTED ON THE FIRST 
+I'M WAITING ON PAPERWORK
+GOT NO WITNESS OF HIS RECENT USAGE 
+I FEEL IF GUILTY OF WRITEUP HE SHOULD BE HIT}}
+
+Historically, users of concealment ciphers often used [[Substitution cipher|substitution]] and [[transposition cipher]]s on the data prior to concealment. For example, [[Cardinal Richelieu]] is said to have used a [[Grille (cryptography)|grille]] to write secret messages, after which the blank spaces were filled out with extraneous matter to create the impression of a continuous text.<ref name=":2" />
+
+== Dot concealment cipher ==
+A dot or pinprick concealment cipher is a common classical encryption method in which dot or pinprick is placed above or below certain letters in a piece of writing.<ref name=":1" /> An early reference to this appears in [[Aeneas Tacticus]]'s  book ''On the Defense of Fortifications.''<ref name=":3">{{Cite web |title=Aeneas Tacticus • Siege Defense, XXI‑XXXI |url=https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Aeneas_Tacticus/E*.html |access-date=2022-05-28 |website=penelope.uchicago.edu}}</ref> The Germans improved upon this, using a dot of [[invisible ink]] during [[World War I]] and [[World War II]].
+
+In 19th-century England, pinpricks in newspapers were once a popular way to send letters with little or no cost.{{clarify|reason=How did this work? Could you send a newspaper to someone else for free?|date=November 2024}}
+
+If dots were placed far apart, this cipher could be used effectively. The dots should be small and the null text must make sense in the context of the senders and their relationship. Both also must have agreed on the page, chapter, article, or section to be used, typically several.<ref name=":1" /> Another option is to have an indicator, such as the date in a newspaper, which shows which page the message is on.<ref name=":4">{{Cite book |last1=Travis |first1=Falcon |title=The Spy's Guidebook |last2=Hindley |first2=Judy |last3=Thomson |first3=Ruth |last4=Amery |first4=Heather |last5=Rawson |first5=Christopher |last6=Harper |first6=Anita |publisher=Usborne Pocketbooks |year=1978}}</ref> This version is less secure.
+
+== Acrostics ==
+{{main|Acrostic}}
+
+The [[Acrostic (puzzle)|acrostic puzzle]] is an extended form of null cipher, but not an anacrostic (which uses a set of lettered clues with numbered blanks representing the letters of the answer to figure out the second part, a long series of numbered blanks and spaces representing a message into which the answers for the clues fit). Hidden or otherwise unmentioned acrostics are a type of null cipher.<ref>{{Cite web |title=Steganography |url=https://www.garykessler.net/library/steganography.html |access-date=2023-09-24 |website=www.garykessler.net}}</ref>
+
+This method can be used to secretly insult a famous or important individual. For example, [[Rolfe Humphries]] received a lifelong ban from contributing to [[Poetry Magazine]] after he wrote and tried to publish "a poem containing a concealed scurrilous phrase aimed at a well-known person", namely [[Nicholas Murray Butler]].{{Citation needed|date=June 2023}}
+
+== Definition of a null ==
+Put simply, a null cipher is any cipher which involves a number of ''nulls,'' or decoy letters. As well as the methods shown above, a null cipher could be plaintext words with nulls placed in designated areas or even a plaintext message broken up in different positions with a null at the end of each word.<ref name=":4" /><ref>{{Cite book |last=Moore |first=Gareth |title=Explorer Academy Codebreaking Activity Adventure |year=2019 |publisher=National Geographic Books |isbn=9781426333071}}</ref> However, a message with only a couple nulls (for example, one at the beginning and one at the end) is ''not'' a null cipher.
+
+A null cipher is technically only a term for hidden letters or words within an otherwise unimportant message, however, it is occasionally used for the entire category of concealment ciphers.<ref name=":2" />
+
+== Usage ==
+In general, it is difficult and time-consuming to produce covert texts that seem natural and would not raise suspicion, but a null cipher is an option if one is unable to use an advanced encryption method and has ample time. If no key or additional encryption is involved, the security of the message relies entirely on the secrecy of the concealment method. In the present day, null ciphers are used by prison inmates in an attempt to have their messages pass inspection.<ref name=fbi /><ref>{{Cite news|url=https://www.businessinsider.com/60-days-in-fbi-decrypt-secret-letter-2018-2|title=An Atlanta jail intercepted a letter from an inmate who was using a secret code to orchestrate a murder|first=Mark|last=Adabi|date=February 5, 2018|work=[[Business Insider]]|access-date=2018-09-30}}</ref>
+
+Null ciphers are one of three major cipher types in classical cryptography (the other types being substitution and [[Transposition cipher|transposition]]), but they are less well known than the others.<ref name=":2" /> They are often marked as a subcategory of transposition ciphers,<ref name=":2" /> but that is not true, as transposition ciphers are scrambled messages.
+
+== See also ==
+* [[Transposition cipher]]
+* [[Substitution ciphers]]
+* [[Acrostic]]
+* [[Null (SQL)|Nulls]]
+* [[Cipher]]
+* [[Code (cryptography)|Code]]
+* [[Classical cipher|Classical Cryptography]]
+* [[Cryptanalysis]]
+* [[Steganography]]
+
+== References ==
+{{Reflist}}
+
+{{Clear}}
+{{Cryptography classical}}
+
+[[Category:Classical ciphers]]
+[[Category:Steganography]]
+[[Category:Cardinal Richelieu]]
