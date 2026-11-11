@@ -11,10 +11,10 @@
   },
   "egyptian": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.722,
-   "top5": 0.944,
-   "extra_boxes_per_page": 0.33,
+   "found": 0.958,
+   "top1": 0.75,
+   "top5": 0.861,
+   "extra_boxes_per_page": 0.17,
    "pages_in_order": 1.0
   },
   "gothic": {
@@ -22,56 +22,56 @@
    "found": 1.0,
    "top1": 1.0,
    "top5": 1.0,
-   "extra_boxes_per_page": 0.0,
+   "extra_boxes_per_page": 0.17,
    "pages_in_order": 1.0
   },
   "linear_b": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.986,
-   "top5": 1.0,
+   "found": 0.972,
+   "top1": 0.931,
+   "top5": 0.944,
    "extra_boxes_per_page": 0.0,
    "pages_in_order": 1.0
   },
   "ogham": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.819,
-   "top5": 1.0,
+   "found": 0.986,
+   "top1": 0.958,
+   "top5": 0.972,
    "extra_boxes_per_page": 0.0,
    "pages_in_order": 1.0
   },
   "old_persian": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.944,
-   "top5": 0.972,
-   "extra_boxes_per_page": 0.0,
+   "found": 0.986,
+   "top1": 0.833,
+   "top5": 0.917,
+   "extra_boxes_per_page": 2.67,
    "pages_in_order": 1.0
   },
   "phoenician": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.972,
-   "top5": 1.0,
+   "found": 0.944,
+   "top1": 0.875,
+   "top5": 0.931,
    "extra_boxes_per_page": 0.0,
    "pages_in_order": 1.0
   },
   "runic": {
    "signs": 72,
    "found": 1.0,
-   "top1": 0.917,
-   "top5": 0.986,
-   "extra_boxes_per_page": 0.17,
+   "top1": 0.958,
+   "top5": 1.0,
+   "extra_boxes_per_page": 0.0,
    "pages_in_order": 1.0
   },
   "ugaritic": {
    "signs": 72,
-   "found": 1.0,
-   "top1": 0.903,
-   "top5": 0.972,
-   "extra_boxes_per_page": 0.67,
-   "pages_in_order": 0.833
+   "found": 0.986,
+   "top1": 0.833,
+   "top5": 0.944,
+   "extra_boxes_per_page": 3.33,
+   "pages_in_order": 1.0
   }
  },
  "blank_pages_boxes": [

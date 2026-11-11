@@ -122,3 +122,11 @@ nav.groups { display:flex; gap:20px; flex-wrap:wrap; align-items:center; } nav.g
 .glyph { font-family:"Noto Sans Egyptian Hieroglyphs","Noto Sans Linear B","Noto Sans Cuneiform","Noto Sans Phoenician","Noto Sans Gothic","Noto Sans Ugaritic","Noto Sans Old Persian","Noto Sans Runic","Noto Sans Ogham","Segoe UI Historic","Apple Symbols",sans-serif; }
 .palette { display:flex; flex-wrap:wrap; gap:4px; max-height:320px; overflow:auto; margin-top:10px; } .palette button { margin:0; padding:4px 6px; min-width:44px; background:transparent; color:var(--ink); border:1px solid var(--line); font-size:24px; line-height:1.1; } .palette button, .palette button small { text-transform:none; letter-spacing:0; } .palette button small { display:block; font:11px var(--mono); color:var(--mute); } .palette button:hover { border-color:var(--accent); }
 textarea.glyph, .glyphout { font-size:26px; line-height:1.4; }
+.lensstage { position:relative; margin-top:12px; background:#000; border:1px solid var(--accent); box-shadow:0 0 18px rgba(0,240,255,.25), inset 0 0 30px rgba(255,42,109,.12); max-width:960px; min-height:60px; }
+.lensstage video, .lensstage img { display:block; width:100%; height:auto; }
+.lensstage canvas { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.lensstage::after { content:""; position:absolute; inset:0; pointer-events:none; background:repeating-linear-gradient(0deg, rgba(0,0,0,.18) 0 1px, transparent 1px 3px); mix-blend-mode:multiply; }
+.lenslog { background:#05040c; color:var(--good); font:12px/1.4 var(--mono); max-height:180px; overflow:auto; padding:8px; border-left:2px solid var(--pink); white-space:pre-wrap; }
+.lenslive { font:15px var(--mono); color:var(--accent); text-shadow:0 0 8px rgba(0,240,255,.6); min-height:1.4em; }
+.lenstext { white-space:pre-wrap; background:#05040c; padding:10px; border:1px solid var(--line); }
+.lensstage [hidden] { display:none; }

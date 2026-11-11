@@ -36,6 +36,9 @@ def ink_mask(gray: np.ndarray) -> np.ndarray:
     return m
 
 
+JOIN = 0.08  # join radius as a share of the typical part height; chosen on the page control with tight gaps (Round 78b)
+
+
 def boxes(mask: np.ndarray) -> list[tuple[int, int, int, int]]:
     """Bounding boxes (x, y, w, h) of whole signs."""
     h, w = mask.shape
@@ -44,7 +47,7 @@ def boxes(mask: np.ndarray) -> list[tuple[int, int, int, int]]:
     if not len(sizes):
         return []
     typical = float(np.median(sizes[sizes >= max(3, 0.01 * max(h, w))])) if (sizes >= max(3, 0.01 * max(h, w))).any() else 8.0
-    k = max(1, int(typical * 0.12))
+    k = max(1, int(typical * JOIN))
     keep = np.zeros_like(mask)  # specks are removed before parts are joined, so they cannot merge into a false sign
     for i, (x, y, bw, bh, area) in enumerate(stats[1:], 1):
         if max(bw, bh) >= 0.15 * typical and area >= 6:
@@ -56,6 +59,121 @@ def boxes(mask: np.ndarray) -> list[tuple[int, int, int, int]]:
         if bh < 0.25 * typical and bw < 0.25 * typical:
             continue  # specks
         out.append((int(x), int(y), int(bw), int(bh)))
+    return out
+
+
+def _runs(on: np.ndarray) -> list[tuple[int, int]]:
+    """(start, end) of each run of True."""
+    d = np.diff(np.concatenate([[0], on.astype(np.int8), [0]]))
+    return list(zip(np.where(d == 1)[0], np.where(d == -1)[0]))
+
+
+def projection_boxes(mask: np.ndarray) -> list[tuple[int, int, int, int]] | None:
+    """Rows of ink, then cuts at empty columns within each row. Gaps inside a sign (Old Persian wedges) and between
+    signs are told apart by splitting the gap widths in two (Otsu) when they differ enough; otherwise every gap
+    separates signs. None for layouts this does not suit (a single tall column, as in vertical writing)."""
+    m = mask > 0
+    n, lab, st, _ = cv2.connectedComponentsWithStats(mask, 8)
+    if n <= 1:
+        return []
+    th = float(np.median(st[1:, cv2.CC_STAT_HEIGHT]))
+    smear = cv2.dilate(mask, np.ones((1, max(3, int(2 * th))), np.uint8))  # sideways only: tilted rows stay apart
+    ln, llab, lst, _ = cv2.connectedComponentsWithStats(smear, 8)
+    lines = [(int(lst[i, cv2.CC_STAT_TOP]), i) for i in range(1, ln) if lst[i, cv2.CC_STAT_HEIGHT] >= 3]
+    rows = []
+    out = []
+    for _, li in sorted(lines):
+        x, y, w, h = (int(v) for v in lst[li, :4])
+        band = m[y:y + h, x:x + w] & (llab[y:y + h, x:x + w] == li)
+        rows.append((y, y + h))
+        y0 = y
+        cols = band.sum(0) > 0
+        segs = [c for c in _runs(cols)]
+        if len(segs) > 1:
+            gaps = np.array([segs[i + 1][0] - segs[i][1] for i in range(len(segs) - 1)], float)
+            if gaps.max() >= 1.8 * max(gaps.min(), 1):
+                vals = np.sort(gaps)
+                best, thr = -1.0, vals[-1]
+                for t in np.unique(vals)[1:]:  # Otsu on the gap widths
+                    a, b = vals[vals < t], vals[vals >= t]
+                    v = len(a) * len(b) * (a.mean() - b.mean()) ** 2
+                    if v > best:
+                        best, thr = v, t
+                cut = gaps >= min(thr, 0.22 * h)  # a gap of a fifth of the sign height always separates signs
+            else:
+                cut = np.ones(len(gaps), bool)
+            groups, cur = [], [segs[0]]
+            for g, sg, c in zip(gaps, segs[1:], cut):
+                if c:
+                    groups.append(cur)
+                    cur = [sg]
+                else:
+                    cur.append(sg)
+            groups.append(cur)
+        else:
+            groups = [segs]
+        for gr in groups:
+            x0, x1 = gr[0][0], gr[-1][1]
+            ys = np.where(band[:, x0:x1].any(1))[0]
+            out.append((int(x + x0), int(y0 + ys.min()), int(x1 - x0), int(ys.max() - ys.min() + 1)))
+    hs = np.median([b[3] for b in out])
+    if len(rows) == 1 and (rows[0][1] - rows[0][0]) > 3 * np.median([b[2] for b in out]) and len(out) < 3:
+        return None  # one tall column: leave it to the joining method
+    return [b for b in out if max(b[2], b[3]) >= 0.2 * hs]
+
+
+def merge_fragments(bx: list[tuple[int, int, int, int]]) -> list[tuple[int, int, int, int]]:
+    """Signs made of separate strokes (Old Persian wedges) come out of a small join radius in pieces: a box much
+    smaller than the typical sign joins its nearest neighbour when the union stays sign-sized (Round 78b)."""
+    bx = list(bx)
+    for _ in range(4 * len(bx)):
+        if len(bx) < 2:
+            break
+        hs, ws = np.median([b[3] for b in bx]), np.median([b[2] for b in bx])
+        big = max(np.percentile([b[3] for b in bx], 75), hs)
+        bigw = max(np.percentile([b[2] for b in bx], 75), ws)
+        small = [i for i, b in enumerate(bx) if b[3] < 0.6 * big and b[2] < 0.6 * bigw]
+        merged = False
+        for i in small:
+            x, y, w, h = bx[i]
+            cx, cy = x + w / 2, y + h / 2
+            best, bd = None, None
+            for j, (x2, y2, w2, h2) in enumerate(bx):
+                if j == i:
+                    continue
+                ux, uy = min(x, x2), min(y, y2)
+                uw, uh = max(x + w, x2 + w2) - ux, max(y + h, y2 + h2) - uy
+                if uw > 1.25 * bigw or uh > 1.25 * big:
+                    continue
+                d = (cx - x2 - w2 / 2) ** 2 + (cy - y2 - h2 / 2) ** 2
+                if bd is None or d < bd:
+                    best, bd = (j, (ux, uy, uw, uh)), d
+            if best:
+                j, u = best
+                bx = [b for k, b in enumerate(bx) if k not in (i, j)] + [u]
+                merged = True
+                break
+        if not merged:
+            break
+    return bx
+
+
+def split_wide(bx: list[tuple[int, int, int, int]], mask: np.ndarray) -> list[tuple[int, int, int, int]]:
+    """Two signs joined across a tight gap make a box much wider than typical: cut it at its emptiest column gap."""
+    if len(bx) < 3:
+        return bx
+    mw = np.median([b[2] for b in bx])
+    out = []
+    for x, y, w, h in bx:
+        if w > 1.7 * mw:
+            cols = (mask[y:y + h, x:x + w] > 0).sum(0)
+            lo, hi = int(0.25 * w), int(0.75 * w)
+            if hi > lo and cols[lo:hi].min() == 0:
+                zero = np.where(cols[lo:hi] == 0)[0] + lo
+                cut = int(zero[len(zero) // 2])
+                out += [(x, y, cut, h), (x + cut, y, w - cut, h)]
+                continue
+        out.append((x, y, w, h))
     return out
 
 
@@ -77,6 +195,19 @@ def reading_order(bx: list[tuple]) -> list[tuple]:
     return [b for _, r in rows for b in sorted(r, key=lambda b: b[0])]
 
 
+def segment(mask: np.ndarray) -> list[tuple[int, int, int, int]]:
+    """Sign boxes in reading order: rows cut at empty columns, or parts joined, whichever suits the page."""
+    pb = projection_boxes(mask)
+    proj = merge_fragments(pb) if pb is not None else []
+    join = split_wide(merge_fragments(boxes(mask)), mask)
+    # each method fails where the other does not (tight gaps merge signs in rows; signs on a shared stem have no empty
+    # column): joining wins only with more boxes of full height, since signs merged side by side keep their height
+    # while a sign broken into strokes (Old Persian wedges) does not
+    med_h = lambda bs: float(np.median([b[3] for b in bs])) if bs else 0.0
+    use_join = len(join) > len(proj) and med_h(join) >= 0.85 * med_h(proj)
+    return reading_order(join if use_join else proj)[:300]
+
+
 def threshold() -> float:
     return json.loads(RESULT.read_text()).get("threshold", 0.2) if RESULT.exists() else 0.2
 
@@ -85,7 +216,7 @@ def scan(gray: np.ndarray, scripts: list[str] | None = None, top: int = 5) -> di
     if load() is None:
         raise RuntimeError("The glyph recogniser is not trained yet: run python -m codebreaker.writing.glyph_model.")
     mask = ink_mask(gray)
-    order = reading_order(boxes(mask))[:300]
+    order = segment(mask)
     g = cv2.GaussianBlur(gray, (3, 3), 0)
     ink_dark = mask.any() and g[mask > 0].mean() < g[mask == 0].mean()
     bright = 255 - gray if ink_dark else gray  # ink bright, as in training

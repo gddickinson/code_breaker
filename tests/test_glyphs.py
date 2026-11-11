@@ -33,7 +33,7 @@ def test_distortions_keep_the_sign():
 
 def test_segmentation_and_order_on_a_page():
     img, truth = page("linear_b", np.random.default_rng(3))
-    bx = S.reading_order(S.boxes(S.ink_mask(img)))
+    bx = S.segment(S.ink_mask(img))
     assert len(bx) == len(truth)
     assert [b[1] < img.shape[0] / 2 for b in bx] == [True] * 6 + [False] * 6
 
@@ -41,7 +41,7 @@ def test_segmentation_and_order_on_a_page():
 def test_blank_paper_has_no_signs():
     rnd = np.random.default_rng(5)
     img = np.clip(rnd.normal(215, 12, (180, 420)) + cv2.GaussianBlur(rnd.normal(0, 25, (180, 420)), (0, 0), 6), 0, 255).astype(np.uint8)
-    assert not S.boxes(S.ink_mask(img))
+    assert not S.segment(S.ink_mask(img))
 
 
 @needs_model
@@ -61,3 +61,9 @@ def test_recorded_evaluation():
     res = json.loads(M.RESULT.read_text())
     assert res["held_out"]["top5"] > 0.95 and res["threshold"] < 0.8 and res["unseen"]["top5"] > 0.8
     assert "unseen" in res
+
+
+def test_tight_runes_and_wedge_signs_segment():
+    for script, seed in (("runic", 4), ("old_persian", 5)):
+        img, truth = page(script, np.random.default_rng(seed), gap=8)
+        assert abs(len(S.segment(S.ink_mask(img))) - len(truth)) <= 2

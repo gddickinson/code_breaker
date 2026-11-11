@@ -15,9 +15,9 @@ from .glyph_scan import scan
 RESULT = ROOT / "data/results/glyph_scan_eval.json"
 
 
-def page(script: str, rnd: np.random.Generator, rows: int = 2, per_row: int = 6, size: int = 64) -> tuple[np.ndarray, list]:
+def page(script: str, rnd: np.random.Generator, rows: int = 2, per_row: int = 6, size: int = 64, gap: int | None = None) -> tuple[np.ndarray, list]:
     pool = [k for k, c in enumerate(classes()) if c["script"] == script]
-    gap = size // 3
+    gap = size // 3 if gap is None else gap
     h, w = rows * (size + gap) + gap, per_row * (size + gap) + gap
     paper = np.clip(rnd.normal(215, 12, (h, w)) + cv2.GaussianBlur(rnd.normal(0, 25, (h, w)), (0, 0), 6), 0, 255)
     truth = []
@@ -48,8 +48,8 @@ def run(pages_per_script: int = 6, seed: int = 78) -> dict:
     rnd, cls, out = np.random.default_rng(seed), classes(), {}
     for script in sorted({c["script"] for c in cls}):
         found = top1 = top5 = total = extra = ordered = 0
-        for _ in range(pages_per_script):
-            img, truth = page(script, rnd)
+        for i in range(pages_per_script):
+            img, truth = page(script, rnd, gap=None if i % 2 == 0 else 8)  # every other page with tight gaps (Round 78b)
             res = scan(img, [script])
             got = [s["box"] for s in res["signs"]]
             used, seq = set(), []

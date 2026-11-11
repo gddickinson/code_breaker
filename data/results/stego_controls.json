@@ -1,0 +1,39 @@
+{
+ "id": "stego_controls",
+ "jpeg_history_images": 30,
+ "false_alarms_on_former_jpegs": 0.9,
+ "lossless_images": 80,
+ "usable_lossless": 80,
+ "clean_spa_median": 0.0,
+ "clean_spa_p99": 0.067,
+ "spa_alarm": 0.07,
+ "rates": {
+  "0.02": {
+   "detected": 0.037,
+   "estimate_median": 0.014
+  },
+  "0.05": {
+   "detected": 0.212,
+   "estimate_median": 0.047
+  },
+  "0.1": {
+   "detected": 0.825,
+   "estimate_median": 0.1
+  },
+  "0.25": {
+   "detected": 1.0,
+   "estimate_median": 0.245
+  },
+  "0.5": {
+   "detected": 1.0,
+   "estimate_median": 0.5
+  },
+  "1.0": {
+   "detected": 0.487,
+   "estimate_median": 0.0
+  }
+ },
+ "chi_clean_false_alarms": 0.0,
+ "chi_sequential_half_detected": 0.963,
+ "note": "Generated scenes stand in for clean lossless photographs; real camera images may differ. Full embedding (rate 1.0) is a blind spot of sample pair analysis."
+}

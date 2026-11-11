@@ -423,3 +423,6 @@ app.include_router(_codes)
 from .routes_writing import router as _writing  # noqa: E402
 
 app.include_router(_writing)
+from .routes_lens import router as _lens  # noqa: E402
+
+app.include_router(_lens)
