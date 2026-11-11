@@ -1,0 +1,56 @@
+{{short description|Piano composition by Robert Schumann}}{{Missing information|article|an analysis of the work|date=August 2026}}{{no footnotes|date=April 2022}}
+{{italic title}}
+
+{{Infobox musical composition
+| name                = ''Variations on the name "Abegg"''
+| composer            = [[Robert Schumann]]
+| image               = Portrait of A Young Age of Robert Schumann.png
+| caption             = Schumann as an adolescent
+| key                 = F major
+| opus                = 1
+| composed            = 1829–30
+| duration            = 8 minutes
+| movements           = Theme with 5 variations
+| scoring             = Solo piano
+}}
+
+The '''''Variations on the name "Abegg"''''' in [[F major]], Op. 1, is a piece ([[Variation (music)|theme with variations]]) for [[piano]] by [[Robert Schumann]], composed between 1829 and 1830, while as a student in [[Heidelberg]].<ref>{{Cite web |title=Schumann in Heidelberg |url=https://www.schumann-portal.de/schumann_in_heidelberg.html |website=Schumann-Netzwerk}}</ref> The name is believed to refer to Schumann's fictitious friend, Meta Abegg, whose surname Schumann used through a [[musical cryptogram]] as the [[Motif (music)|motivic]] basis for the piece. The name Meta is considered to be an anagram of the word "[[theme (music)|tema]]" (''Latin''). Another suggestion is Pauline von Abegg. Apparently, when he was twenty years old, Schumann met her and dedicated this work to her, as witnessed in [[Clara Schumann]]'s edition of her husband's piano works.
+
+The first five [[Musical note|note]]s of the theme are A, B{{music|b}} (B), E, G, and G. This use of pitch names as letters was also used by Schumann in other compositions, such as his ''[[Carnaval (Schumann)|Carnaval]]''.
+
+It is composed of:
+
+: Thema (Animato) ([[F major]])
+: Variations:
+:# (''energico,'' F major)
+:# (''il Basso parlando,'' F major)
+:# (''corrente,'' F major)
+:# (''cantabile,'' [[A-flat major]])
+:# (''Finale alla Fantasia. Vivace,'' F major)
+The opening measures are as follows:
+
+<score>\relative c'' {\new PianoStaff<<\new Staff{\key f \major\time 3/4\partial 4\tempo "Animato"<<a\mf a'(>> <<bes, bes'>> <<e, e'>> <<g, g'>> <<g,2-> g')>> <<gis,,4 gis'(>> <<a, a'>> <<c, c'>> <<f, f'>> \hideNotes f)}\new Staff{\clef "bass"\key f \major r4 e,,,8 <<bes' c e>> <<bes c e>> <<bes c e>> <<bes c e>> <<bes c e>> e, <<bes' c e>> <<bes c e>> <<bes c e>> <<bes c e>> <<bes c e>> f, <<a c f>> <<a, c f>> <<a, c f>> <<a, c f>> <<a, c f>> \hideNotes f}>>}</score>
+
+== References ==
+{{reflist}}
+
+==External links==
+*Pérez, Francisco Javier Plaza. Robert Schumann’s cyclic works: structural coherence and a new poetic approach to piano writing: Kinderzenen op. 15, Waldszenen op. 82, Abegg-Variationen op. 1 and Faschingswank aus Wien op. 26. Diss. Instituto Politécnico de Lisboa-Escola Superior de Música de Lisboa, 2018.
+*{{IMSLP|work=Abegg Variations, Op.1 (Schumann, Robert)|cname=''Abegg Variations''}}
+*[http://traffic.libsyn.com/gardnermuseum/schumann_variationsonthenameabegg_jumppanen_.mp3 Performance of ''Variations on the name "Abegg"'' by Paavali Jumppanen] from the [[Isabella Stewart Gardner Museum]] in [[MP3]] format
+* {{YouTube|id=UqOvdlthl8E|Schumann: Abegg Variation, Op. 1}}, [[Clara Haskil]]
+* {{YouTube|35xNu4QzeO4|Performance with video format}}, Traum Piano
+
+{{Schumann solo piano}}
+{{Portal bar|Classical music}}
+{{Authority control}}
+
+{{DEFAULTSORT:Variations on the name Abegg}}
+[[Category:Piano music by Robert Schumann]]
+[[Category:Compositions for solo piano]]
+[[Category:1830 compositions]]
+[[Category:Variations|Abegg]]
+[[Category:Compositions in F major]]
+[[Category:Articles with quotation marks in the title]]
+
+{{classical-composition-stub}}

@@ -13,7 +13,7 @@ from .text import letters
 
 EXCLUDE = {"running", "book"}  # need a whole key book per message, and are numeric lists anyway
 # Signs of other scripts are outside the network's Latin vocabulary; the crack's script layer handles them (Round 76).
-CLASSES = sorted(k for k, c in REGISTRY.items() if not c.modern and c.keygen and k not in EXCLUDE and c.family != "Scripts") + ["plaintext"]
+CLASSES = sorted(k for k, c in REGISTRY.items() if not c.modern and c.keygen and k not in EXCLUDE and c.family not in ("Scripts", "Music")) + ["plaintext"]
 VOCAB = {c: i + 1 for i, c in enumerate("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 .-+/")}
 MAX_LEN = 480
 PATH = MODELS / "classifier.pt"

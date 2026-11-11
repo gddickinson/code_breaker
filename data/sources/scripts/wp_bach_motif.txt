@@ -1,0 +1,201 @@
+{{Short description|Musical motif spelling BACH}}
+{{Redirect|BACH|other uses|Bach (disambiguation)}}
+[[File:B-a-c-h Reger.jpg|thumb|upright=1.35|"b–a–c–h is beginning and end of all music" ([[Max Reger]] 1912)]]
+In [[music]], the '''BACH motif''' is a succession of [[Musical note|notes]] important or characteristic to a [[musical composition|piece]], which consists of the notes B{{music|flat}}, A, C, B{{music|natural}}, forming a [[cruciform melody]]:
+
+:<score sound="1">
+{
+\override Score.TimeSignature#'stencil = ##f
+  \set Score.proportionalNotationDuration = #(ly:make-moment 2/1)
+    \relative c'' {
+        \time 4/1
+        \set Score.tempoHideNote = ##t \tempo 1 = 60
+        bes1 a c b!
+    }
+}
+</score>
+
+In [[Letter notation|German musical nomenclature]], in which the note ''B natural'' is named ''H'' and the ''B-flat'' named ''B'', it forms [[Johann Sebastian Bach]]'s [[family name]]. One of the most frequently occurring examples of a [[musical cryptogram]], the [[motif (music)|motif]] has been used by countless composers, especially after the [[Bach Revival]] in the first half of the 19th century.
+
+==Origin==
+[[Johann Gottfried Walther]]'s ''Musicalisches Lexikon'' (1732) contains the only biographical sketch of Johann Sebastian Bach published during the composer's lifetime. There the motif is mentioned thus:<ref>[[Johann Gottfried Walther]] [https://archive.org/stream/bub_gb_7_k-AAAAcAAJ#page/n85/mode/1up ''Musicalisches Lexicon oder Musicalische Bibliothec'', p. 64.] Leipzig, W. Deer. 1732.</ref>{{quotation|...all those who carried the name [Bach] were as far as known committed to music, which may be explained by the fact that even the letters '''b&nbsp;a&nbsp;c&nbsp;h''' in this order form a melody. (This peculiarity was discovered by Mr. Bach of Leipzig.)}}This reference work thus indicates Bach as the inventor of the motif.
+
+==Usage in compositions==
+In a comprehensive study published in the catalogue for the 1985 exhibition "300 Jahre Johann Sebastian Bach" ("300 years of Johann Sebastian Bach") in [[Stuttgart|Stuttgart, Germany]], Ulrich Prinz lists 409 works by 330 composers from the 17th to the 20th century using the BACH motif.<ref>Ulrich Prinz, Joachim Dorfmüller and [[Konrad Küster]] (1985). ''Die Tonfolge B–A–C–H in Kompositionen des 17. bis 20. Jahrhunderts: ein Verzeichnis'', in: ''300 Jahre Sebastian Bach'' (exhibition catalogue), pp.&nbsp;389–419. {{ISBN|3-7952-0459-3}}</ref> A similar list is available in Malcolm Boyd's volume on Bach: it also contains some 400 works.<ref>Malcolm Boyd (1999). ''Bach''. Oxford University Press. 2006 edition: {{ISBN|0-19-530771-2}}.</ref>{{page needed|date=November 2019}}
+
+===Johann Sebastian Bach===
+[[File:Bachscross.svg|thumb|A single note in a cross, a common motif in J. S. Bach's music,<ref>[https://www.bach-cantatas.com/Articles/Esoteric.htm "The Esoteric Bach"] by Thomas Braatz (April 2001), ''bach-cantatas.com''</ref> formed by four [[Staff (music)|stave]]s, using three [[clef]]s and two [[Key (music)|key]]s, that, when read clockwise, result in B–A–C–H; treble clef in F major: B, tenor clef=A, alto clef=C, treble in C major: H. This [[rebus]] is of early 20th-century origin. Composer [[Matthew King (composer, born 1967)|Matthew King]] appears in his YouTube lectures on Bach in a T-shirt featuring this design.<ref>{{YouTube|0Jhih06rv8Y|t=38s|Prelude 2 in C minor – Bach Can't Help Himself}}</ref>]]
+Johann Sebastian Bach used the motif in a number of works, most famously as a [[fugue]] subject in the last ''Contrapunctus'' of ''[[The Art of Fugue]]''. The motif also appears in other pieces.<ref name="grove">{{Cite Grove |last=Boyd |first=Malcolm |title=B–A–C–H}}</ref> Later commentators wrote: "The figure occurs so often in Bach's bass lines that it cannot have been accidental."<ref>Marshall, Robert (2003). ''Eighteenth-Century Keyboard Music'', p. 201 and p. 224n18. {{ISBN|0-415-96642-6}}. See Godt 1979.</ref>
+
+Instances of B–A–C–H appearing in Johann Sebastian Bach's compositions and arrangements:
+* Sarabande from his [[Cello Suites (Bach)|Cello Suite in C major, BWV 1009]] (Beat 1 & 2 of bars 21 & 22)
+* Fugue from his BWV 898
+* [[Brandenburg Concerto No. 2]], BWV 1047 (the continuo part at bar 109)
+* Gigue from his [[English Suites (Bach)|English Suite No. 6]] for keyboard
+* The subject of the ''[[Inventions and Sinfonias|Sinfonia in F minor]]'' BWV 795 "incorporates"<ref>Schulenberg, David (2006). ''The Keyboard Music of J.S. Bach'', p. 197. {{ISBN|0-415-97399-6}}.</ref> a version of the motif. This five-note version appears transposed: a{{music|b}}'–g' (rest) g'–b{{music|b}}'–a'. Eventually, in measure 17, the piece makes its way to a passage in which the five-note version of the motif starts on B{{music|b}}: as B–A–(rest)–A–C–H.
+* [[Der Gerechte kömmt um (motet)|His arrangement of a motet]] for [[SATB|SSATB]] singers
+[[File:Kuhnau.tristis.jpg|thumb|center|upright=2.6|Excerpt of the [[Tristis est anima mea (attributed to Kuhnau)|''Tristis est anima mea'' motet attributed to Kuhnau]] ([[F&nbsp;minor]])]]
+[[File:Musik.beispiel.b-a-c-h.jpg|thumb|center|upright=2.6|Bach's [[E&nbsp;minor]] arrangement of the same passage: B–A–C–H appears in the alto voice]]
+* Near the end of the [[Augmentation canon|Augmentation Canon]] of Bach's [[Canonic Variations on "Vom Himmel hoch da komm' ich her"]], BWV&nbsp;769:<ref name="grove" />
+[[File:B.W.XL.p145 - BACH motif in end of Augmentation Canon of Canonic Variations, BWV 769.jpg|thumb|center|upright=2.6|B–A–C–H (and its inversion) in the last bars of the Augmentation Canon of BWV&nbsp;769]]
+* Near the end of Contrapunctus IV of ''The Art of Fugue'':{{sfn|Cumming|2000|p=[https://books.google.com/books?id=rXLXEhrBFLcC&pg=PA256 256]}}
+[[File:B.W.XXV.(1)p18 - Bach motif in last bars of Contrapunctus IV of Art of Fugue.jpg|thumb|center|upright=2.6|B–A–C–H in the tenor part of the last bars of Contrapunctus IV of ''The Art of Fugue'']]
+* As first four notes of the third and last subject of the final unfinished fugue of ''The Art of Fugue'':{{sfn|Brandstätter|1990}}
+[[File:B.W.XXV.(1)p100 - third subject of the unfinished fugue of Art of Fugue.jpg|thumb|center|upright=2.6|B–A–C–H opening the third and last subject of the unfinished fugue of ''The Art of Fugue'']]
+* In the Fugue in C♯ minor (BWV 849) from the first book of the [[Well-Tempered Clavier]], the main subject begins with C♯-B♯-E-D♯, a transposed and altered version of the B-A-C-H motif.
+* In the last bar of Komm, Gott, Schöpfer, heiliger Geist, BWV 667
+* In the Dorian Toccata (at the exact midpoint in bars 49 and 50) and Fugue (many references, but the most obvious is probably in the pedal in bars 175 and 176)
+
+[[Hans Heinrich Eggebrecht]] goes as far as to reconstruct Bach's putative intentions as an expression of [[Lutheranism|Lutheran]] thought, imagining Bach to be saying, "I am identified with the tonic and it is my desire to reach it&nbsp;... Like you I am human. I am in need of salvation; I am certain in the hope of salvation, and have been saved by grace,"<ref>{{harvnb|Eggebrecht|1985|p=15}} {{in lang|de}}, or {{harvnb|Eggebrecht|1993|p=8}} (translated), cited in {{harvnb|Brandstätter|1990|p=[https://books.google.com/books?id=gfXMDgAAQBAJ&pg=PA163 163]}}, {{harvnb|Kivy|2000|p=[https://books.google.com/books?id=pgnLU09qaEYC&pg=PA380 380]}}, and {{harvnb|Cumming|2000|p=[https://books.google.com/books?id=rXLXEhrBFLcC&pg=PA256 256]}}.</ref> through his use of the motif rather than a standard [[changing tone]] figure (B{{music|b}}–A–C–B{{music|b}}) in the final measures of the fourth fugue of ''[[The Art of Fugue]]''.{{sfn|Brandstätter|1990}}{{sfn|Kivy|2000|loc="The Solution", pp.&nbsp;[https://books.google.com/books?id=pgnLU09qaEYC&pg=PA380 380]–[https://books.google.com/books?id=pgnLU09qaEYC&pg=PA381 381]}}{{sfn|Cumming|2000|pp=[https://books.google.com/books?id=rXLXEhrBFLcC&pg=PA256 256]–[https://books.google.com/books?id=rXLXEhrBFLcC&pg=PA257 257]}}
+
+===Other composers===
+[[File:Schumann, Sechs Fugen über den Namen B-A-C-H, op. 60, no. 4, mm. 1-3.png|thumb|upright=1.75|BACH motif followed by transposed version from Schumann's ''Sechs Fugen über den Namen B–A–C–H'', Op. 60, No. 4, mm. 1–3<ref name="Reynolds">Christopher Alan Reynolds (2003). ''Motives for Allusion: Context and Content in Nineteenth-Century Music'', p. 31. {{ISBN|0-674-01037-X}}.</ref>[[File:Schumann, Sechs Fugen über den Namen B-A-C-H, op. 60, no. 4, mm. 1-3.mid]]<br>Note that C and H are transposed down, leaving the spelling unaffected but changing the melodic [[contour (music)|contour]].]]
+[[File:Schumann, Sechs Fugen for organ, op. 60, no. 5, mm. 1-4.png|thumb|upright=1.75|Schumann, Sechs Fugen for organ, Op. 60, No. 5, mm. 1–4[[File:Schumann, Sechs Fugen for organ, op. 60, no. 5, mm. 1-4.mid]]<br>The motif may be used in different ways: here it is only the beginning of an extended melody.<ref>Daverio, John (1997). ''Robert Schumann: Herald of a "New Poetic Age"'', p. 309. {{ISBN|0-19-509180-9}}.</ref>]]
+[[File:Charles Ives, 3-Page Sonata, 1st mvt., Bach motif.png|thumb|upright=1.75|[[Charles Ives]], ''3-Page Sonata'' (1905), first mvt., first fugal complex[[File:Charles Ives, 3-Page Sonata, 1st mvt., Bach motif.mid]]<br>The BACH motif from ''[[The Art of Fugue]]'' Contrapunctus XIXc is the "1st Theme'/fugue subject" of Ives' combined sonata-allegro and fugal procedures.<ref>Crist, Stephen (2002). ''Bach Perspectives: Vol. 5: Bach in America'', p. 175. {{ISBN|0-252-02788-4}}. "The reference could not be more clear."</ref>]]
+{{Image frame|content=<score sound="1">
+{
+#(set-global-staff-size 17.5)
+\override Score.TimeSignature
+#'stencil = ##f
+\override Score.SpacingSpanner.strict-note-spacing = ##t
+  \set Score.proportionalNotationDuration = #(ly:make-moment 3/1)
+    \relative c'' {
+        \time 4/1
+        \set Score.tempoHideNote = ##t \tempo 1 = 60
+        bes1 a c b!
+        dis e cis d
+        ges, f aes g
+    }
+}
+</score>|width=390|caption=Webern's String Quartet, Op. 28, tone row, composed of three [[tetrachord]]s: P I RI, with P = the BACH motif, I = it inverted, and RI = it inverted and backwards.{{citation needed|date=November 2019}}|max-width=}}
+
+The motif was used as a fugue subject by Bach's son [[Johann Christian Bach|Johann Christian]], and by his pupil [[Johann Ludwig Krebs]]. It also appears in a work by [[Georg Philipp Telemann]].<ref>{{cite web |last1=Jones |first1=Ben |title=B–A–C–H motif in Oboe Concerto, TWV 51:D6 (Telemann, Georg Philipp) |url=https://imslp.org/index.php?title=Special:WikiForum&thread=24600 |website=IMSLP |access-date=1 October 2019 |quote=there is a clear B.A.C.H. motif at the beginning of the Adagio}}</ref>
+
+The motif's wide popularity came only after the start of the [[Bach Revival]] in the first half of the 19th century.<ref name="grove"/> A few mid-19th century works that feature the motif prominently are:
+*1845 – [[Robert Schumann]]: ''Sechs Fugen über den Namen: Bach'', for organ, pedal piano, or harmonium, Op. 60<ref name="Reynolds"/><ref name="Platt">Platt, Heather Anne (2003). ''Johannes Brahms'', p. 243. {{ISBN|0-8153-3850-3}}.</ref>
+*1855 – [[Franz Liszt]]: ''[[Fantasy and Fugue on the Theme B-A-C-H]]'', for organ (later revised, 1870, and arranged, 1871, for piano)<ref>Arnold, Ben (2002). ''The Liszt Companion'', p. 173. {{ISBN|0-313-30689-3}}.</ref>
+*1856 – [[Johannes Brahms]]: ''Fugue in A-flat minor for organ'', WoO 8<ref name="Platt"/>
+*1878 – [[Nicolai Rimsky-Korsakov]] – {{lang|fr|Valse, Intermezzo, Scherzo, Nocturne, Prelude et Fugue (Six Variations) sur le thème B–A–C–H}}
+Composers found that the motif could be easily incorporated not only into the advanced harmonic writing of the 19th century, but also into the totally [[Chromaticism|chromatic]] idiom of the [[Second Viennese School]]; so it was used by [[Arnold Schoenberg]], [[Anton Webern]], and their disciples and followers. A few 20th-century works that feature the motif prominently are:
+*1926–28 – [[Arnold Schoenberg]]: ''[[Variations for Orchestra (Schoenberg)|Variations for Orchestra]]'', Op. 31<ref>Stein, Erwin (ed.). 1987. ''Arnold Schoenberg letters'', p. 206. University of California Press. {{ISBN|978-0-520-06009-8}}</ref>
+*1937–38 – [[Anton Webern]]: [[String Quartet (Webern)|String Quartet]] (the [[tone row]] is based on the BACH motif)<ref>Bailey, Kathryn. 2006. ''The Twelve-note Music of Anton Webern: Old Forms In a New Language'', p. 24. Cambridge University Press. {{ISBN|978-0-521-54796-3}}</ref>
+*1942 – Charles Koechlin: ''Offrande musicale sur le nom de Bach'', Op. 187{{sfn|Orledge|1989|pp=197–198}}
+* 1951–55 – [[Luigi Dallapiccola]]:
+** 1951–55: "Canti di liberazione"<ref name="Fearn">Fearn, Raymond (2003). ''The Music of Luigi Dallapiccola''. 2005: {{ISBN|1-58046-078-X}}.</ref>{{page needed|date=November 2019}}
+** 1952: ''Quaderno musicale di Annalibera'' for piano <ref name="Fearn" />{{page needed|date=November 2019}}
+** 1954: ''Variazioni'' ("Variations" 1942, orchestral version of ''Quaderno musicale di Annalibera'')<ref name="Fearn" />{{page needed|date=November 2019}}
+*1966 – [[Krzysztof Penderecki]]: ''[[St_Luke_Passion_(Penderecki)|St Luke Passion]]''
+* 1968–81 – [[Alfred Schnittke]]:
+**1968:
+*** ''The Glass Harmonica'' soundtrack (repeated motif)<ref>{{cite book |last1=Schmelz |first1=Peter J |title=Such Freedom, If Only Musical: Unofficial Soviet Music During the Thaw |date=2009 |publisher=Oxford University Press, USA |page=255 <!--|access-date=16 April 2023-->}}</ref>
+*** ''Quasi Una Sonata'' (repeated motif borrowed from ''The Glass Harmonica'', one reviewer, "noting that B–A–C–H is the victor of the composition")<ref>Schmelz, Peter J. (2009). ''Such Freedom, If Only Musical'', p.&nbsp;255–256. {{ISBN|0-19-534193-7}}.</ref>
+**1981: [[Symphony No. 3 (Schnittke)|Symphony No. 3]] – used alongside the monograms of several other composers.<ref>Ivashkin, Alexander (2009) Liner notes to BIS complete symphony cycle, BIS-CD-1767-68</ref>
+* 1971–2000 – [[Bertold Hummel]]:
+**1971: ''Metamorphoses on B-A-C-H for Organ and winds op. 40''
+**2000: ''Aphorisms on B-A-C-H for Percussion solo and Strings, op. 105''
+*1974 – [[Jon Lord]] and [[Eberhard Schoener]]: ''Continuo On B.A.C.H.'' on the album ''[[Windows (Jon Lord album)|Windows]]''
+*1992 – [[Ron Nelson (composer)|Ron Nelson]]: ''Passacaglia (Homage on B–A–C–H)'' for wind ensemble
+
+In the 21st century, composers continue writing works using the motif, frequently in homage to Johann Sebastian Bach.<ref name="grove" /> , among others :
+*2014 - [[Santiago Lanchares]]: ''Sobre BACH'' for piano solo
+*2015 - [[Ananda Sukarlan]]: ''Fantasy & Fugue on B.A.C.H'' for piano solo (commissioned by Fundacion Juan March, Madrid)
+
+==References==
+{{reflist}}
+
+==Sources==
+* {{cite book
+ |last1                = Brandstätter
+ |first1               = Ursula
+ |author-link1         = :de:Brandstätter
+ |date                 = 1990
+ |chapter              = Hans Heinrich Eggebrechts deutung der 'Kunst der Fuge' von J.&nbsp;S. Bach
+ |trans-chapter        = Hans Heinrich Eggebrecht's interpretation of 'The Art of Fugue' by J.&nbsp;S. Bach
+ |chapter-url          = https://books.google.com/books?id=gfXMDgAAQBAJ&pg=PA163
+ |title                = Musik im Spiegel der Sprache: Theorie und Analyse des Sprechens über Musik
+ |trans-title          = Music reflected in language: theory and analysis of the discourse about music
+ |url                  = https://books.google.com/books?id=gfXMDgAAQBAJ
+ |language             = de
+ |edition              = eBook
+ |publisher            = Springer
+ |publication-date     = 2017
+ |pages                = 163–180
+ |isbn                 = 9783476044600
+}}
+* {{cite book
+ |last1                = Cumming
+ |first1               = Naomi
+ |author-link1         =
+ |date                 = 2000
+ |chapter              = 8. Culturally Embedded Signs", subsection "2. Skeptical Issues", part "a. Humpty Dumpty and the New Musicology
+ |chapter-url          = https://books.google.com/books?id=rXLXEhrBFLcC&pg=PA254
+ |title                = The Sonic Self: Musical Subjectivity and Signification
+ |url                  = https://books.google.com/books?id=rXLXEhrBFLcC
+ |publisher            = Indiana University Press
+ |pages                = 254–258
+ |isbn                 = 0253337542
+}}
+* {{cite book
+ |last1                = Eggebrecht
+ |first1               = Hans Heinrich
+ |author-link1         = Hans Heinrich Eggebrecht
+ |date                 = 1985
+ |orig-year            = 1984
+ |title                = Bachs Kunst der Fuge: Erscheinung und Deutung
+ |url                  = https://books.google.com/books?id=aigZAQAAIAAJ
+ |language             = de
+ |edition              = 4th
+ |publisher            = Noetzel
+ |publication-date     = 1998
+ |isbn                 = 379590725X
+}}
+* {{cite book
+ |last1                = Eggebrecht
+ |first1               = Hans Heinrich<!--
+ |author-link1         = Hans Heinrich Eggebrecht -->
+ |translator-last1     = Prater
+ |translator-first1    = Jeffrey L.
+ |date                 = 1993
+ |title                = J.S. Bach's The Art of Fugue: The Work and Its Interpretation
+ |publisher            = Iowa State University Press
+ |isbn                 = 0813814898
+}}
+* {{cite book
+ |last1                = Kivy
+ |first1               = Peter
+ |author-link1         = Peter Kivy
+ |date                 = 2000
+ |chapter              = 'Absolute Music' and the 'New Musicology'
+ |chapter-url          = https://books.google.com/books?id=pgnLU09qaEYC&pg=PA378
+ |editor1-last         = Greer
+ |editor1-first        = David
+ |editor2-last         = Rumbold
+ |editor2-first        = Ian
+ |editor2-link         = :d:Q95347516
+ |editor3-last         = King
+ |editor3-first        = Jonathan
+ |title                = Musicology and Sister Disciplines: Past, Present, Future
+ |url                  = https://books.google.com/books?id=pgnLU09qaEYC
+ |publisher            = Oxford University Press
+ |pages                = 378–388
+ |isbn                 = 0198167342
+}}
+* {{cite book|last=Orledge|first=Robert|author-link=Robert Orledge|year=1989|title=Charles Koechlin (1867–1950) His Life and Works|publisher=Harwood Academic Publishers|oclc=18833927|isbn=3-7186-0609-7}}
+
+==Further reading==
+* Seyoung Jeong (2009). ''Four Modern Piano Compositions Incorporating the B–A–C–H Motive''. {{ISBN|3-8364-9768-9}}.
+* Schuyler Watrous Robinson (1972). ''The B–A–C–H Motive in German Keyboard Compositions from the Time of J.S. Bach to the Present'' (thesis, University of Illinois)
+
+==External links==
+* {{Commons category-inline|BACH motif}}
+* {{IMSLP|work=List of compositions with the theme "B-A-C-H"|cname=List of compositions with the theme "B–A–C–H"}}
+
+{{Johann Sebastian Bach}}
+{{Motives (music)}}
+{{Portal bar|Classical music}}
+
+{{DEFAULTSORT:Bach Motif}}
+[[Category:Motifs (music)]]
+[[Category:Melodic sections]]
+[[Category:Johann Sebastian Bach]]
+[[Category:Musical cryptograms]]

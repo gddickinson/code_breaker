@@ -1,0 +1,322 @@
+{{short description|Musical composition by Edward Elgar}}
+{{Italic title}}
+{{for|the Enigma Records compilation album|Enigma Variations (album)}}
+{{Use British English|date=September 2013}}
+{{Use dmy dates|date=January 2023}}
+[[File:Edward Elgar, ca. 1903, by Charles Frederick Grindrod.jpg|thumb|Elgar in 1903]]
+[[Edward Elgar]] composed his '''''Variations on an Original Theme''''', [[Opus number|Op.]] 36, popularly known as the '''''Enigma Variations''''',{{refn|Also published as ''Variations for Orchestra''|group=n}} between October 1898 and February 1899. It is an orchestral work comprising fourteen [[variation (music)|variations]] on an original [[Theme (music)|theme]]. After its 1899 premiere in London, the variations quickly achieved popularity and helped establish Elgar's growing reputation in Britain and internationally. It is now a staple of the orchestral repertoire globally.
+
+Elgar dedicated the work "to my friends pictured within", each variation being a musical sketch of – or a musical idea related to – one of his circle. Those musically sketched include Elgar's wife [[Caroline Alice Elgar|Alice]], his friend and publisher [[August Jaeger]] and, in the final variation, Elgar himself.
+
+In addition to the miniature depictions of his friends, Elgar said that the main theme, which he called "Enigma", referred in some way to a larger, unspecified theme. By doing so he posed a challenge that has generated much speculation but has never been conclusively answered. The Enigma theme is widely believed to involve a hidden melody, although some commentators have taken it to represent an abstract idea rather than a musical theme.
+{{TOC limit|2}}
+
+==Background==
+
+Elgar was a largely self-taught composer with no influential patrons or sponsors and from the 1870s to the late 1890s he struggled for artistic recognition and financial success. He supplemented the modest income from his early compositions by giving violin lessons.<ref name=grove>McVeagh, Diana. [https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000008709 "Elgar, Sir Edward"], ''Grove Music Online'', Oxford University Press, 2001 {{subscription}} {{Webarchive|url=https://web.archive.org/web/20210822111129/https://www.oxfordmusiconline.com/grovemusic/view/10.1093/gmo/9781561592630.001.0001/omo-9781561592630-e-0000008709 |date=22 August 2021 }}</ref> During the 1890s he composed the concert overture ''[[Froissart Overture (Elgar)|Froissart]]'' and a [[Serenade for Strings (Elgar)|Serenade for Strings]], but such modest fame as he acquired by the end of the decade derived mainly from four large-scale works for chorus and orchestra: ''[[The Black Knight (Elgar)|The Black Knight]]'', ''[[The Light of Life (Elgar)|The Light of Life]]'', ''[[Scenes from the Saga of King Olaf|King Olaf]]'' and ''Caractacus''.<ref name=grove/>
+
+== Composition and premiere ==
+
+Elgar described how, on the evening of 21 October 1898, after a tiring day's teaching, he sat down at the piano. A melody he played caught the attention of his wife and he began to improvise [[variation (music)|variations]] on it, in styles which reflected the character of some of his friends. These improvisations, expanded and orchestrated, became the ''Enigma Variations''.<ref>Moore, pp. 247–252</ref>
+
+In a letter to his close friend, his publisher at [[Novello and Co]], [[August Jaeger]], Elgar wrote:
+
+{{blockindent|I have sketched a set of Variations (orchestra) on an original theme: the Variations have amused me because I've labelled 'em with the nicknames of my particular friends – you are Nimrod. That is to say I've written the variations each one to represent the mood of the 'party' – I've liked to imagine the 'party' writing the var: him (or her) self and have written what I think they wd. have written – if they were asses enough to compose. It's a quaint idea & the result is amusing to those behind the scenes & won't affect the hearer who 'nose nuffin'. What think you?<ref>Young, p. 27</ref>}}
+
+Elgar considered including variations portraying [[Arthur Sullivan]] and [[Hubert Parry]], but was unable to assimilate their musical styles without [[pastiche]] and dropped the idea.<ref>Moore, p. 252</ref>
+
+The work was fully scored by 18 February 1899.<ref name=mk2003/> While the full score was being made ready for the printers, Jaeger wrote "Enigma" above the opening [[andante (tempo)|andante]] theme, following the lead of the composer, who included the word in his original manuscript and later in his piano arrangement of the score – referring specifically to the theme and not to the whole work.<ref name=grove/><ref name=nobil>Fallows, David and Michael Kennedy. [https://doi.org/10.1093/gmo/9781561592630.article.19998 "Nobilmente"], ''Grove Music Online'', Oxford University Press, 2001 {{subscription}}</ref>
+
+The variations were first performed at [[St James's Hall]] in London on 19 June 1899, conducted by [[Hans Richter (conductor)|Hans Richter]].<ref name=m271>Moore, p. 271</ref> Elgar was twice called onto the platform to acknowledge the enthusiastic applause.<ref>"Music", ''The Queen'', 24 June 1899, p. 1079</ref> A few critics complained about the layer of mystification,{{refn|The reviewer in ''The World'' said of Elgar's programme note, "Mr Elgar ought to be above talking such egregious nonsense and ought to let his brilliant music talk for itself".<ref>"Music", ''The World'', 28 June 1899, p. 31</ref>|group=n}} but most praised the substance, structure and orchestration of the work,<ref name=m271/>
+
+Jaeger felt that the final variation – depicting Elgar himself – was too short to make its full effect, and persuaded the extremely reluctant composer, who prided himself on never having to alter any of his compositions, to enlarge it.<ref>Kennedy, p. 26; and Rushton, p. 4</ref> Ninety-six bars and an organ part were added for the third performance of the variations.<ref name=mk2003/><ref>Anderson, p. 3</ref>{{refn|The second had been given at [[New Brighton, Merseyside|New Brighton]] conducted by [[Granville Bantock]] in July 1898.<ref>Kennedy, p. 87</ref>|group=n}} The new version (which is usually played today) was first heard at the [[Worcester, England|Worcester]] [[Three Choirs Festival]] on 13 September 1899, with Elgar conducting.<ref name=grove/> A reviewer wrote that after the London premiere "Mr Elgar received the compliment, rarely paid to a composer, that he had 'not written enough'". The reviewer continued:
+
+{{blockindent|This fault has now been amended by the addition of a brilliant finale to the last variation, and the result is a decided improvement. Concluding bars largely influence the judgment of the listener, and those which were heard for the first time on this occasion decidedly add to the importance of this masterly and attractive work".<ref>"The Worcester Festival", ''The Referee'', 17 September 1899, p. 4</ref>}}
+
+The European continental premiere was given in [[Düsseldorf]], Germany on 7 February 1901, under [[Julius Buths]] (who conducted the German premiere of ''[[The Dream of Gerontius]]'' in December of the same year).<ref>Moore, p. 350</ref> The work quickly achieved many international performances: from Saint Petersburg, where it delighted [[Alexander Glazunov]] and [[Nikolai Rimsky-Korsakov]] in 1904; to New York, where [[Gustav Mahler]] conducted it in 1910.<ref>Kennedy, p. 179</ref>
+
+The French premiere took place on 17 December 1916 at the [[Concerts Colonne|Concerts Colonne-Lamoureux]] at [[Paris]]'s [[Salle Gaveau]], under the baton of [[Gabriel Pierné]].<ref>{{Cite web |title=Sunday 17 December 1916 |url=https://dezede.org/evenements/id/103534/ |website=Dezede}}</ref>
+
+==Instrumentation==
+
+The work is scored for an orchestra consisting of 2 [[flute]]s (one doubling [[piccolo]]), 2 [[oboe]]s, 2 [[clarinet]]s in B{{music|flat}}, 2 [[bassoon]]s, [[contrabassoon]], 4 [[French horn|horn]]s in F, 3 [[trumpet]]s in F, 3 [[trombone]]s, [[tuba]], [[timpani]], [[Snare drum|side drum]], [[triangle (musical instrument)|triangle]], [[bass drum]], [[cymbal]]s, [[organ (music)|organ]] ([[ad lib]]) and [[string section|string]]s.
+
+==Structure==
+{{Listen|type=music
+|filename=Elgar;_Enigma_variations,_Theme_I._C.A.E.ogg|title=Theme (Enigma: Andante)
+|filename2=Elgar;_Enigma_variations,_Theme_II._H.D.S.-P.ogg|title2=Variation II (Allegro) "H.D.S-P."
+|filename3=Elgar;_Enigma_variations,_Theme_III._R.B.T.ogg|title3=Variation III (Allegretto) "R.B.T."
+|filename4=Elgar;_Enigma_variations,_Theme_IV._W.M.B.ogg|title4=Variation IV (Allegro di molto) "W.M.B."
+|filename5=Elgar;_Enigma_variations,_Theme_V._R.P.A.ogg|title5=Variation V (Moderato) "R.P.A."
+|filename6=Elgar;_Enigma_variations,_Theme_VI._Ysobel.ogg|title6=Variation VI (Andantino) "Ysobel"
+|filename7=Elgar;_Enigma_variations,_Theme_VII._Troyte.ogg|title7=Variation VII (Presto) "Troyte"
+|description7=Performed by the [[Hallé Orchestra]], conducted by [[Sir John Barbirolli]]}}
+The theme is followed by 14 variations. The variations spring from the theme's melodic, harmonic and rhythmic elements, and the extended fourteenth variation forms a grand finale.
+
+Elgar dedicated the piece to "my friends pictured within" and in the score each variation is prefaced the initials, name or nickname of the friend depicted. As was common with painted portraits of the time, Elgar's musical portraits depict their subjects at two levels. Each movement conveys a general impression of its subject's personality. In addition, many of them contain a musical reference to a specific characteristic or event, such as a laugh, a habit of speech or a memorable conversation. The sections of the work are as follows.
+
+===Theme (Enigma: ''Andante'')===
+In a programme note for a performance in [[Turin]] in 1911, Elgar wrote:
+{{blockquote|This work, commenced in a spirit of humour & continued in deep seriousness, contains sketches of the composer's friends. It may be understood that these personages comment or reflect on the original theme & each one attempts a solution of the Enigma, for so the theme is called. The sketches are not 'portraits' but each variation contains a distinct idea founded on some particular personality or perhaps on some incident known only to two people. This is the basis of the composition, but the work may be listened to as a 'piece of music' apart from any extraneous consideration.<ref name=turin>Moore p. 260; and Moore and Kent, p. v</ref>}}
+
+The unusual melodic contours of the G minor opening theme convey a sense of searching introspection: Elgar later said that the theme symbolised "the loneliness of the artist".<ref name=grove/><ref name=odnb>Kennedy, Michael. [https://www.oxforddnb.com/view/10.1093/ref:odnb/9780198614128.001.0001/odnb-9780198614128-e-32988 "Elgar, Sir Edward William, baronet (1857–1934), composer and conductor]", ''Oxford Dictionary of National Biography'', Oxford University Press, 2015 {{ODNBsub}}</ref>
+
+<score sound="1">
+\relative c'' { \clef treble \time 4/4 \tempo "Andante" 4 = 63 \key g \minor
+ r4^"legato e sostenuto" bes8--\p_"molto espress." g-- c4( a) | r d(^"ten." bes) a8-- c-- | r4 bes8--\< d--\! g4(\> a,\!) |
+ r\pp f'\>( g,)\! a8-- bes-- | r4 a8--_"cresc." g-- d'4( bes)| r bes(^"ten."_"dim." g) a8-- g-- \bar "||" b4}
+</score>
+A switch to the major key introduces a flowing motif which briefly lightens the mood before the first theme returns, now accompanied by a sustained bass line and emotionally charged counterpoints. The theme leads into Variation I without a pause.
+
+===Variation I (''L'istesso tempo'') "C.A.E."===
+[[File:Elgar-Alice-c1891.jpg|thumb|Edward and Alice Elgar, 1891]]
+[[Caroline Alice Elgar]], Elgar's wife. After her death, Elgar wrote, "The variation is really a prolongation of the theme with what I wished to be romantic and delicate additions; those who knew C.A.E. will understand this reference to one whose life was a romantic and delicate inspiration".<ref>Elgar, I: CAE</ref>
+
+<score sound="1">
+  \relative c'' { \clef treble \key g \minor \time 4/4 \tempo "L'istesso tempo." 4 = 63 r4\f^"largamente"_"espress." \times 2/3 {d8( bes d)} c4. r8 }
+</score>
+
+===Variation II (''Allegro'') "H.D.S-P."===
+Hew David Steuart-Powell. Elgar wrote, "Hew David Steuart-Powell was a well-known amateur pianist and a great player of chamber music. He was associated with B.G.N. (cello) and the composer (violin) for many years in this playing. His characteristic diatonic run over the keys before beginning to play is here humorously travestied in the semiquaver passages; these should suggest a [[Toccata]], but chromatic beyond H.D.S-P.'s liking".<ref>Elgar, II: H.D.S.-P.</ref>
+
+<score sound="1">
+  \relative c'' { \clef treble \key g \minor \time 3/8 \tempo "Allegro." r16 g-.]\p_"stacc." d'-.[ gis,-.] cis-.[ a-.] | c!-.[ a-.] bes-.[ g!-.] es-.[ c!-.] | cis-. d-. }
+</score>
+
+'''<big>Variation III (Allegretto) "R.B.T."</big>'''
+
+Richard Baxter Townshend, Oxford [[University don|don]] and author of the ''Tenderfoot'' series of books; brother-in-law of the W.M.B. depicted in Variation IV. According to Elgar, the variation "has a reference R.B.T's presentation of an old man in some amateur theatricals ‒ the low voice flying off occasionally into 'soprano' timbre. The oboe gives a somewhat pert version of the theme, and the growing grumpiness of the bassoons is important".<ref>Elgar, III: R.B.T.</ref>
+
+===Variation IV (''Allegro di molto'') "W.M.B."===
+
+[[William Meath Baker]], [[squire]] of [[Hasfield]], Gloucestershire and benefactor of several public buildings in [[Fenton, Staffordshire|Fenton]], [[Stoke-on-Trent]], brother-in-law of R.B.T. depicted in Variation III, and (step) uncle of Dora Penny in Variation X. This is the shortest of the variations. Elgar wrote that it depicts Baker hurriedly leaving a room with an inadvertent bang of the door and the teasing attitude of some of his guests.<ref>Elgar, IV: W.M.B.</ref>
+
+===Variation V (''Moderato'') "R.P.A."===
+
+Richard Penrose Arnold, the son of the poet [[Matthew Arnold]], and an amateur pianist, who, according to Elgar, played in "a self-taught manner, evading difficulties but suggesting in a mysterious way the real feeling". Arnold's serious conversation "was continually broken up by whimsical and witty remarks". The theme is given by the basses "with solemnity and in the ensuing major portion there is much light-hearted badinage among the wind instruments".<ref>Elgar, V: R.P.A</ref> This variation leads into the next without pause.
+
+===Variation VI (''Andantino'') "Ysobel"===
+
+Isabel Fitton, a [[viola]] pupil of Elgar. Elgar explained, "It may be noticed that the opening bar, a phrase made use of throughout the variation, is an 'exercise' for crossing the strings – a difficulty for beginners; on this is built a pensive and, for a moment, romantic movement".<ref>Elgar, VI: Ysobel</ref>
+
+===Variation VII (''Presto'') "Troyte"===
+
+[[Troyte Griffith]], a Malvern architect and one of Elgar's firmest friends. The variation, with a time signature of {{music|time|1|1}}, good-naturedly mimics his enthusiastic incompetence on the piano. It may also refer to an occasion when Griffith and Elgar were out walking and got caught in a thunderstorm. The pair took refuge in the house of Winifred and Florence Norbury (Sherridge, Leigh Sinton, near Malvern), to which the next variation refers.<ref>Elgar, VII: Troyte</ref>
+{{Listen
+| type         = music
+| help         = no
+| filename     = Elgar;_Enigma_variations,_Theme_VIII._W.N.ogg
+| title        = Variation VIII (Allegretto) "W.N."
+| filename2    = Elgar;_Enigma_variations,_Theme_IX._Nimrod.ogg
+| title2       = Variation IX (Adagio) "Nimrod"
+| filename3    = Elgar;_Enigma_variations,_Theme_X._Intermezzo_Dorabella.ogg
+| title3       = Variation X (Intermezzo: Allegretto) "Dorabella"
+| filename4    = Elgar;_Enigma_variations,_Theme_XI._G.R.S.ogg
+| title4       = Variation XI (Allegro di molto) "G.R.S."
+| filename5    = Elgar;_Enigma_variations,_Theme_XII._B.G.N.ogg
+| title5       = Variation XII (Andante) "B.G.N."
+| filename6    = Elgar;_Enigma_variations,_Theme_XIII._Romanza.ogg
+| title6       = Variation XIII (Romanza: Moderato) " * * * "
+| filename7    = Elgar;_Enigma_variations,_Theme_XIV._Finale_E.D.U.ogg
+| title7       = Variation XIV (Finale: Allegro) "E.D.U."
+| description7 = Performed by the [[Hallé Orchestra]], conducted by [[Sir John Barbirolli]]
+}}
+
+===Variation VIII (''Allegretto'') "W.N."===
+
+Winifred Norbury, one of the secretaries of the Worcester Philharmonic Society. "Really suggested by an eighteenth-century house. The gracious personalities of the ladies are sedately shown. W.N. was more connected with the music than others of the family, and her initials head the movement; to justify this position a little suggestion of a characteristic laugh is given".<ref>Elgar, VIII: W. N.</ref>
+
+This variation is linked to the next by a single note held by the first violins.
+
+===Variation IX (''Adagio'') "Nimrod"===
+
+The name of the variation refers to [[August Jaeger]], who was employed as a music editor by the London publisher Novello & Co. [[Nimrod]] is described in the [[Old Testament]] as "a mighty hunter before the Lord", {{lang|de|Jaeger}} (or {{lang|de|Jäger}}) being German for hunter.<ref>Genesis 10:9 and Anderson, p. 3</ref>
+
+Jaeger was a close friend of Elgar's, giving him useful advice and sometimes severe criticism, something the composer greatly appreciated. Elgar later related how Jaeger had encouraged him as an artist and had stimulated him to continue composing despite setbacks, and wrote of him as "for years the dear friend, the valued adviser and the stern critic of many musicians besides the writer; his place has been occupied but never filled".<ref>Elgar, IX: Nimrod</ref>
+
+In 1904, Elgar told Dora Penny ("Dorabella") that this variation is not really a portrait, but "the story of something that happened", as she wrote later in her book.<ref name=powell>Powell, pp. 110–111</ref> Once, when Elgar had been very depressed and was about to give it all up and write no more music, Jaeger had visited him and encouraged him to continue composing. He referred to [[Ludwig van Beethoven]], who had a lot of worries, but wrote more and more beautiful music. "And that is what ''you'' must do", Jaeger said, and he sang the theme of the second movement of Beethoven's [[Piano Sonata No. 8 (Beethoven)|Piano Sonata No. 8 ''Pathétique'']]. Elgar disclosed to Dora that the opening bars of "Nimrod" were made to suggest that theme. "Can't you hear it at the beginning? Only a hint, not a quotation".<ref name=powell/>
+
+This variation is well-known in British culture, often used at funerals, memorial services and other ceremonial occasions. It is always played at the [[The Cenotaph, Whitehall|Cenotaph]], Whitehall in London at the annual [[National Service of Remembrance#Traditional music|National Service of Remembrance]].<ref>[https://www.bbc.co.uk/bitesize/articles/zc26s82 " The stories behind our Remembrance Day music"] {{Webarchive|url=https://web.archive.org/web/20231220114752/https://www.bbc.co.uk/bitesize/articles/zc26s82 |date=20 December 2023 }}, BBC. Retrieved 12 February 2026</ref> The musical direction {{lang|it|nobilmente}} (nobly, majestically) is much associated with the music of Elgar, but although  it appears on a sketch for "Nimrod" and on the published score (1899) of Elgar's piano transcription, it is not in the orchestral full score published some months later.<ref name=nobil/>
+
+===Variation X (''Intermezzo: Allegretto'') "Dorabella"===
+
+Dora Penny, a friend whose [[Stammering|stutter]] is gently parodied by the woodwinds. Dora, later Mrs Richard Powell, was the daughter of the Rev Alfred Penny. Her stepmother was the sister of William Meath Baker, the subject of Variation IV. She was the recipient of another of Elgar's enigmas, the so-called [[Dorabella Cipher]]. She described the "Friends Pictured Within" and "The Enigma" in two chapters of her book ''Edward Elgar, Memories of a Variation''. This variation features a melody for solo viola. Elgar called it an [[Intermezzo#Instrumental intermezzo|intermezzo]] and wrote, "The pseudonym is adopted from Mozart's ''[[Così fan tutte]]'' … The movement suggests a dance-like lightness. The inner sustained phrases at first on the viola and later on the flute should be noted".<ref>Elgar, X: Dorabella</ref>
+
+<score sound="1">
+  \relative c'' { \clef treble \time 3/4 \key g \major \tempo "Allegretto." 4 = 80
+  r4 r4 <b \accent g d>32 \pp (<c g d>32 <b g d>32 ) r32 r8 | <d \accent b g>32 (<e b g>32 <d b g>32) r32 r8 <g d b>16-- <fis d b>-. <fis d b>-. <e d b>-. }
+</score>
+
+===Variation XI (''Allegro di molto'') "G.R.S."===
+
+[[George Robertson Sinclair]], the energetic organist of [[Hereford Cathedral]]. In the words of Elgar, the variation "has nothing to do with organs or cathedrals, or, except remotely, with G.R.S. The first few bars were suggested by his great bulldog, Dan (a well-known character) falling down the steep bank into the [[River Wye]] (bar 1); his paddling upstream to find a landing place (bars 2 and 3); and his rejoicing bark on landing (second half of bar 5). G.R.S. said, 'Set that to music'. I did; here it is".<ref>Elgar, XI: G.R.S.</ref>
+
+===Variation XII (''Andante'') "B.G.N."===
+Basil George Nevinson, an accomplished amateur cellist who played chamber music with Elgar (violin) and Steuart-Powell (piano). The variation is introduced and concluded by a solo cello. The composer wrote, "The variation is a tribute to a very dear friend whose scientific and artistic attainments, and the whole-hearted way they were put at the disposal of his friends, particularly endeared him to the writer".<ref>Elgar, XII: B.G.N.</ref> This variation leads into the next without pause.
+
+===Variation XIII (''Romanza: Moderato'') "* * *"===
+Elgar wrote, "The asterisks take the place of the name of a lady who was, at the time of the composition, on a sea voyage.{{refn|The Elgar scholar [[Michael Kennedy (music critic)|Michael Kennedy]] comments that Elgar's memory failed him slightly when he wrote this note thirty years after the premiere. Lady Mary Lygon sailed for Australia after the completion of the variations but before their first performance.<ref>Kennedy, p. 95</ref>|group=n}} The drums suggest the distant throb of the engines of a liner, over which the clarinet quotes a phrase from [[Felix Mendelssohn|Mendelsson's]] ''[[Meeresstille und glückliche Fahrt (Mendelssohn)|Calm Sea and Prosperous Voyage]]''.
+
+<score sound="1">
+  \relative c'' { \clef treble \time 3/4 \key g \major \tempo "Moderato." 4 = 76 r4^"Solo" r c~(\pp | c^"molto espress." bes4. aes8) | aes4~ aes8 }
+</score> 
+This is generally understood to refer to [[Lady Mary Trefusis|Lady Mary Lygon]] of Madresfield Court near Malvern, a sponsor of a local music festival. Elgar's sketches for the variations show that Elgar originally planned to refer to her as "L.M.L.". The Elgar scholar [[Michael Kennedy (music critic)|Michael Kennedy]] surmises that Elgar substituted the asterisks for her initials because he was superstitious about the number thirteen and wished to avoid identifying anyone with this thirteenth variation.<ref>Kennedy, pp. 95–96</ref> In a 1999 study [[Jerrold Northrop Moore]] suggests that the composer may have felt uneasy about publicly associating the name of a prominent local figure with music that had taken on a powerful emotional intensity.<ref>Moore, Jerrold Northrop. "The Return of the Dove to the Ark: 'Enigma' Variations a Century on", ''Elgar Society Journal'', November 1999, p. 17</ref>
+
+Lady Mary's Family have a letter from Elgar to her dated July 25, 1899 in which he writes "The Variations, [especially " * * * No. 13], have been a great triumph for me under Richter & he is going to play them everywhere including Vienna".  At that time she was returning by sea from New South Wales.   In another letter to her dated November 25t 1899 he writes "We are very glad to have you back & please do not begin to talk of returning to N.S.W or even to think of it." He goes on to write "The Variations were repeated by Richter at his first concert in October - an honour never before accorded to an English piece of music: he is playing them at many big towns - Birmingham early next year & I hope you will very soon hear them"<Trefusis family archive>
+
+===Variation XIV (''Finale: Allegro'') "E.D.U."===
+Elgar himself. The initials are a paraphrase of "Edoo", his wife's name for him.{{refn|Kennedy suggests that EDU is "no doubt derived from the German Eduard".<ref>Kennedy, p. 98</ref>|group=n}} Elgar called the variation "bold and vigorous in general style":
+{{blockindent|Written at a time when friends were dubious and generally discouraging as to the composer's musical future, this variation is merely to show what E.D.U. (a paraphrase of a fond name) intended to do. References made to Var. I (C.A.E.) and to Var. IX (Nimrod), two great influences on the life and art of the composer, are entirely fitting to the intention of the piece. The whole of the work is summed up in the triumphant, broad presentation of the theme in the major.<ref>Elgar: XIV: E.D.U</ref>}}
+
+==Final inscription==
+
+At the end of the full score Elgar inscribed the words {{lang|it|Bramo assai, poco spero, nulla chieggio}}. This is a quotation from [[Torquato Tasso]]'s ''[[Jerusalem Delivered]]'', Book II, Stanza 16 (1595), albeit slightly altered from third to first person. It means: "I long for much, I hope for little, I ask nothing". Like Elgar's own name, this sentence too can be fitted easily into the Enigma theme.<ref>Parkin, Ernest. [https://www.elgarsociety.org/wp-content/uploads/2014/04/Vol.-13-No.-6-November-2004-Compressed.pdf Ernest Parkin, "Elgar and Literature"] {{Webarchive|url=https://web.archive.org/web/20211129232305/https://elgarsociety.org/wp-content/uploads/2014/04/Vol.-13-No.-6-November-2004-Compressed.pdf |date=29 November 2021 }}, ''The Elgar Society Journal'', November 2004</ref>
+
+==The Enigma==
+
+The word "Enigma", serving as a title for the theme of the variations, was added to the score at a late stage, after the manuscript had been delivered to the publisher. Despite a series of hints provided by Elgar, the precise nature of the implied puzzle remains unknown.<ref name=grove/><ref name=nobil/>
+
+Confirmation that Enigma is the name of the theme is provided by Elgar's 1911 programme note ("... Enigma, for so the theme is called")<ref name=turin/> and in a letter to Jaeger dated 30 June 1899 he associates this name specifically with what he calls the "principal motive" – the G minor theme heard in the work's opening bars, which (perhaps significantly) is terminated by a double bar.<ref>Young, p. 54</ref>
+
+Elgar's first public pronouncement on the Enigma appeared in Charles A. Barry's programme note for the first performance of the variations:
+
+{{blockquote|The Enigma I will not explain – its "dark saying" must be left unguessed, and I warn you that the connexion between the Variations and the Theme is often of the slightest texture; further, through and over the whole set another and larger theme "goes", but is not played . . . . So the principal Theme never appears, even as in some late dramas – e.g. [[Maurice Maeterlinck|Maeterlinck]]'s ''[[Intruder (play)|L'Intruse]]'' and ''Les sept Princesses'' – the chief character is never on the stage.<ref>Turner, p. 46</ref>}}
+
+Elgar provided another clue in an interview he gave in October 1900 to ''[[The Musical Times]]'', which reported:
+
+{{blockquote|Mr Elgar tells us that the heading Enigma is justified by the fact that it is possible to add another phrase, which is quite familiar, above the original theme that he has written. What that theme is no one knows except the composer. Thereby hangs the Enigma.<ref>Edwards, F. G. [https://doi.org/10.2307/1004288  "From the Archive: Keeper of Visions"], ''The Musical Times'', vol. 139, no. 1860, 1998, p. 21 {{subscription}}</ref>}}
+
+Five years later, Robert J. Buckley stated in his biography of Elgar (written with the composer's close cooperation), "What the solution of the 'Enigma' may be, nobody but the composer knows. The theme is a counterpoint on some well-known melody which is never heard…"<ref>Buckley, pp. 54–55</ref>
+
+Elgar accepted none of the solutions proposed in his lifetime, and took the secret with him to the grave. Attempted solutions commonly propose a well-known melody which is claimed to be either a counterpoint to Elgar's theme or in some other way linked to it. Musical solutions of this sort are supported by Dora Penny and Carice Elgar's testimony that the solution was generally understood to involve a tune,<ref>Powell, pp. 119–120</ref> and by the evidence from an anecdote describing how Elgar encoded the solution in a numbered sequence of piano keys.<ref>Turner, p. 50; and Atkins, p. 428</ref> A different school of thought holds that the "larger theme" which "goes" "through and over the whole set" is an abstract idea rather than a musical theme. The interpretation placed on the "larger theme" forms the basis of the grouping of solutions in the summary that follows.
+
+[[Julian Rushton]] has suggested that any solution should satisfy four criteria:<ref name=r66>Rushton, p. 66</ref>
+#a "dark saying" must be involved
+#the solution must find "another and a larger theme" that ''goes'' over the entire work
+#the theme should be well known
+#it should explain Elgar's remark that Dora Penny should have been, "of all people", the one to solve the Enigma
+
+Furthermore, in Rushton's view, the solution (if it exists) "must be multivalent, must deal with musical as well as cryptographic issues, must produce workable counterpoint within Elgar's stylistic range, and must at the same time seem obvious (and not just to its begetter)".<ref name=r77>Rushton, p. 77</ref>
+
+The prospect of gaining new insights into Elgar's character and composition methods, and perhaps revealing new music, continues to motivate the search for a definitive solution. But the conductor [[Norman Del Mar]] expressed the view that Elgar probably did not wish the solution to be found and that it would damage the great popularity of the work if the Enigma were solved:
+
+{{blockindent| It would be safe to say that had Elgar had any intention that the mystery should one day be solved, he would have helped to bring about such an end to the arguments instead of further confusing the issue by implying that the ‘theme’ forming a counterpoint need not necessarily be musical at all. Moreover there would be considerable loss if the solution were to be found, much of the work’s attraction lying in the impenetrability of the riddle itself.<ref>Del Mar, p. 1</ref>}}
+
+===Counterpoints===
+Solutions in this category suggest a well-known tune which (in the proponent's view) forms a counterpoint to the theme of the variations.
+*Several writers have proposed "[[Auld Lang Syne]]" as the countermelody{{refn|After Elgar's death in 1934 Richard Powell (husband of Dorabella) propounded this theory in ''[[Music & Letters]]''.<ref>'Powell, Richard C. [https://doi.org/10.1093/ml/XV.3.203 "Elgar's Enigma"],''Music and Letters'', Volume XV, Issue 3, July 1934, pp 203–208</ref> {{subscription}} It was later espoused by [[Roger Fiske]] (1969), [[Eric Sams]] (1970) and Derek Hudson (1984).<ref>Fiske, Roger. [https://doi.org/10.2307/951679 "The Enigma: A Solution"]. ''The Musical Times'', vol. 110, no. 1521, 1969, pp. 1124–1126; Sams, Eric. [https://doi.org/10.2307/957491 "Variations on an Original Theme (Enigma)"], ''The Musical Times'', vol. 111, no. 1525, 1970, pp. 258–262; and Hudson, Derek. [https://doi.org/10.2307/962081 "Elgar's Enigma: The Trail of Evidence"], ''The Musical Times'', vol. 125, no. 1701, 1984, pp. 636–39. All {{subscription}}</ref> [[Ernest Tomlinson]] revived the idea in 1976, providing his purported proof in the form of his set of variations ''[[Fantasia on Auld Lang Syne]]''.<ref name=g>Grant, M. J (2021). ''[https://books.google.com/books?id=w8tUEAAAQBAJ&dq=Fantasia+on+Auld+Lang+Syne+Tomlinson&pg=PT134 Auld Lang Syne: A Song and its Culture]'', end of Section 7.3</ref>|group=n}} Elgar himself, however, is on record as stating "'Auld Lang Syne' won't do".<ref name=westrup>Westrup, J. A., [https://www.jstor.org/stable/766020 "Elgar's Enigma"] {{Webarchive|url=https://web.archive.org/web/20181011221440/https://www.jstor.org/stable/766020 |date=11 October 2018 }}, ''Proceedings of the Royal Musical Association, 86th Sess. (1959–1960)'', pp. 79–97, Taylor & Francis for the Royal Musical Association {{subscription}}</ref>
+*Reviewing published Enigma solutions in 1939, [[Ernest Newman]] failed to identify any that met what he considered to be the required musical standard.<ref name=Newman1939>
+{{bulleted list|
+{{cite news|last=Newman |first=Ernest |date=16 April 1939 |newspaper = The Sunday Times |location = London |department = The World of Music |title=Elgar and his Variations: What was the "Enigma"? |page=5 |issue=((6,053)) |ref=none}} |
+{{cite news|last=Newman |first=Ernest |date=23 April 1939 |newspaper = The Sunday Times |location = London |department = The World of Music |title=Elgar and his Enigma – II: An Innocent Mystification |page=5 |issue=((6,054)) |ref=none}} |
+{{cite news|last=Newman |first=Ernest |date=30 April 1939 |newspaper = The Sunday Times |location = London |department = The World of Music |title=Elgar and his Enigma – III: Some Snags |page=5 |issue=((6,055)) |ref=none}} |
+{{cite news|last=Newman |first=Ernest |date=7 May 1939 |newspaper = The Sunday Times |location = London |department = The World of Music |title=Elgar and his Enigma – IV |page=7 |issue=((6,056)) |ref=none}}}}</ref>
+*A competition organized by the American magazine ''The Saturday Review'' in 1953 yielded one proposed counterpoint – the aria ''Una bella serenata'' from Mozart's ''[[Così fan tutte]]'' (transposed to the minor key).<ref name=SatRev2>{{cite journal|title=What is the Enigma?|journal=Saturday Review|date=30 May 1953}}</ref>
+*In 1993 [[Brian Trowell]], surmising that Elgar conceived the theme in E minor, proposed a simple counterpoint consisting of repeated semibreve E's doubled at the octave – a device occasionally used by Elgar as a signature, possibly because his name started with E.<ref>Trowell, B. ''Edward Elgar: Music and Literature'', in Monk, p. 307</ref>
+*In 1999 Julian Rushton<ref>Rushton, pp. 71–73</ref> reviewed solutions based on counterpoints with melodies including ''[[Home! Sweet Home!|Home, Sweet Home]]'', ''[[The Bonnie Banks of Loch Lomond|Loch Lomond]]'', a theme from Brahms's fourth symphony, the ''Meditation'' from Elgar's oratorio ''The Light of Life''<ref>{{cite journal|last=Rollet|first=J. M. |title=New Light on Elgar's Enigma |journal=Elgar Society Journal|date=November 1997|volume=10|issue=3}}</ref> and [[God Save the Queen]] – the last being Troyte Griffith's suggestion from 1924, which Elgar had dismissed with the words "Of course not, but it is so well-known that it is extraordinary no-one has found it".<ref name=Newman1939 />
+*In 2009 the composer Robert Padgett<ref>{{cite web |url=http://enigmathemeunmasked.blogspot.com/2016/04/evidence-for-ein-feste-burg-as-covert.html |title=Evidence for "Ein feste Burg" as the Covert Theme to Elgar's Enigma Variations |date=10 April 2016 |author=Padgett, Robert |access-date=21 February 2018 |archive-date=21 February 2018 |archive-url=https://web.archive.org/web/20180221222357/http://enigmathemeunmasked.blogspot.com/2016/04/evidence-for-ein-feste-burg-as-covert.html |url-status=live }}</ref> proposed [[Martin Luther]]'s "[[Ein feste Burg]]" as a solution, which was later described as "[lying] at the bottom of a rabbit hole of anagrams, cryptography, the poet [[Henry Wadsworth Longfellow|Longfellow]], the composer [[Mendelssohn]], the [[Shroud of Turin]], and [[Jesus]], all of which he believes he found hiding in plain sight in the music".<ref>{{cite magazine |url=https://newrepublic.com/article/139816/breaking-elgars-enigma |title=Breaking Elgar's Enigma |magazine=New Republic |date=1 February 2017 |author=Estrin, Daniel |access-date=21 February 2018 |archive-date=21 February 2018 |archive-url=https://web.archive.org/web/20180221222436/https://newrepublic.com/article/139816/breaking-elgars-enigma |url-status=live }}</ref>
+*In 2019, Edward Newton-Rex<ref>{{cite web |url=https://medium.com/world-of-music/pergolesis-stabat-mater-the-solution-to-elgar-s-enigma-variations-5f1f7dd2158a |title=Pergolesi's Stabat Mater: the solution to Elgar's Enigma Variations? |date=26 April 2019 |author=Newton-Rex, Ed |access-date=6 May 2025 |archive-date=6 May 2025 |archive-url=https://web.archive.org/web/20250506204312/https://medium.com/world-of-music/pergolesis-stabat-mater-the-solution-to-elgar-s-enigma-variations-5f1f7dd2158a |url-status=live }}</ref> proposed [[Giovanni Battista Pergolesi|Pergolesi's]] ''[[Stabat Mater (Pergolesi)|Stabat Mater]]'' as a solution, pointing to the close contrapuntal fit between this and the Enigma theme.<ref>Roberts, Maddy Shaw: [https://www.classicfm.com/composers/elgar/news/young-composer-solves-enigma/ Young composer "solves" Elgar's Enigma – and it's pretty convincing.] {{Webarchive|url=https://web.archive.org/web/20201107232853/https://www.classicfm.com/composers/elgar/news/young-composer-solves-enigma/ |date=7 November 2020 }} [[Classic FM (UK)|Classic FM]], 1 May 2019</ref><ref>Moore, Matthew: [https://www.thetimes.com/uk/history/article/composer-ed-newton-rex-solves-elgar-enigma-rnq98wf6x Composer Ed Newton-Rex ‘solves’ Elgar enigma] [[The Times]], 27 April 2019</ref> In a 2025 paper, he argued that the only criteria the hidden tune need meet are that it should fit with the Enigma theme, that it should have been well-known at the time, and that it should not have been unknown to Dora Penny; and that the ''Stabat Mater'' meets these.<ref>{{cite web |url=https://ed.newtonrex.com/enigma |title=Pergolesi's Stabat Mater: A Solution to Elgar's Enigma |date=May 2025 |author=Newton-Rex, Ed |access-date=2025-05-07 |archive-date=11 May 2025 |archive-url=https://web.archive.org/web/20250511141805/https://ed.newtonrex.com/enigma |url-status=live }}</ref>
+*In 2021, the architectural acoustician Zackery Belanger proposed Elgar's own "[[Like to the Damask Rose]]" as a solution, claiming that the fourteen deaths described in the song align with the fourteen variations. Belanger arrived at this conclusion in his attempt to solve Elgar's [[Dorabella Cipher]], which he proposes has a rose-shaped key assembled from the cipher's symbols.<ref>{{Cite web |last=Belanger |first=Zackery |date=2025-03-30 |title=An Enigma, a Cipher, and a Rose |url=https://www.dearcipher.space/enigma |access-date=2024-09-03 |website=Dear Cipher |language=en |archive-date=21 August 2025 |archive-url=https://web.archive.org/web/20250821200234/https://www.dearcipher.space/enigma |url-status=live }}</ref>
+
+A few more solutions of this type have been published in recent years. In the following three examples the counterpoints involve complete renditions of both the Enigma theme and the proposed "larger theme", and the associated texts have obvious "dark" connotations.
+*In his book on the variations Patrick Turner advanced a solution based on a counterpoint with a minor key version of the nursery rhyme ''[[Twinkle, twinkle, little star]]'' <!-- (from Ah! vous dirai-je maman) -->.<ref>{{harvnb|Turner|2007|pp=111–116}} (reviewed in [http://elgar.org/elgarsoc/wp-content/uploads/2014/04/Vol.11-No.1-March-1999-Compressed.pdf The Elgar Society Journal, March 1999] {{Webarchive|url=https://web.archive.org/web/20150201022257/http://elgar.org/elgarsoc/wp-content/uploads/2014/04/Vol.11-No.1-March-1999-Compressed.pdf |date=1 February 2015}}).</ref>
+*Clive McClelland has proposed a counterpoint with [[Sabine Baring-Gould]]'s tune for the hymn ''Now the Day Is Over'' (also transposed to the minor).<ref>{{cite journal|last=McClelland|first=Clive|title= Shadows of the evening: new light on Elgar's "dark saying"|journal=The Musical Times |year=2007|volume=148|issue=1901|pages=43–48|doi=10.2307/25434495|jstor=25434495}}</ref>
+*''[[Tunes for Archbishop Parker's Psalter|Tallis's canon]]'', the tune for the hymn ''Glory to Thee, my God, this night'', features as a [[cantus firmus]] in a solution which interprets the Enigma as a [[Canon (music)#Puzzle canon|puzzle canon]]. This reading is suggested by the words "for fuga", which appear among Elgar's annotations to his sketch of the theme.<ref>[http://elgar.org/elgarsoc/wp-content/uploads/2014/04/Vol.-18-No.-1-April-2013-Compressed.pdf {{cite journal|last=Gough|first=Martin |title=Variations on a Canonical Theme – Elgar and the Enigmatic Tradition|journal=Elgar Society Journal|date=April 2013|volume=18|issue=1|ref=none}} ]</ref>
+
+Another theory has been published in 2007 by Hans Westgeest. He has argued that the real theme of the work consists of only nine notes: G–E{{music|flat}}–A{{music|flat}}–F–B{{music|flat}}–F–F–A{{music|flat}}–G.<ref>See Westgeest, 2007. His book has been reviewed in the ''Elgar Society Journal'', vol. 15, no. 5 (July 2008), pp. 37–39, and no. 6 (November 2008), p. 64.</ref><ref>{{cite web |url=http://www.hanswestgeest.nl/uk_elgarsenigma.html |title=Hans Westgeest – Biografie |publisher=Hanswestgeest.nl |access-date=7 September 2012 |archive-date=16 March 2012 |archive-url=https://web.archive.org/web/20120316155658/http://www.hanswestgeest.nl/uk_elgarsenigma.html |url-status=live }}</ref> The rhythm of this theme (in {{music|time|4|4}} time, with a crotchet rest on the first beat of each bar) is based on the rhythm of Edward Elgar's own name ("Edward Elgar": short-short-long-long, then reversed long-long-short-short and a final note). Elgar meaningfully composed this short "Elgar theme" as a countermelody to the beginning of the hidden "principal Theme" of the piece, i.e. the theme of the slow movement of Beethoven's ''[[Piano Sonata No. 8 (Beethoven)|Pathétique]]'' sonata, a melody which indeed is "larger" and "well-known".
+
+[[File:Music_example.gif|thumb|right|482x145px|alt=Music Example.|The opening notes of the Beethoven theme (top) are repeated in the "Elgar theme" (bottom).]]
+
+When the two themes are combined each note of (the first part of) the Beethoven theme is followed by the same note in the Elgar theme. So musically Elgar "follows" Beethoven closely, as Jaeger told him to do (see above, Var. IX) and, by doing so, in the vigorous, optimistic Finale the artist triumphs over his sadness and loneliness, expressed in the minor melody from the beginning. The whole piece is based on this "Elgar theme", in which the Beethoven theme is hidden (and so the latter "goes through and over the whole set, but is not played"). Dora Penny could not solve the enigma. Elgar had expected she would: "I'm surprised. I thought that you of all people would guess it". Even later she could not when Elgar had told her in private about the Beethoven story and the ''[[Piano Sonata No. 8 (Beethoven)|Pathétique]]'' theme behind the Jaeger/Nimrod-variation (see above, Var. IX) because she did not see the connection between this and the enigma.
+
+===Other musical themes===
+
+If Buckley's statement about the theme being "a counterpoint to some well-known melody" (which is endorsed by what Elgar himself disclosed to F. G. Edwards in 1900) is disregarded or discounted the field opens up to admit other kinds of connection with well-known themes.
+*Entries in this category submitted to the ''Saturday Review'' competition included the suggestions: ''[[When I am laid in earth]]'' from Purcell's ''[[Dido and Aeneas]]'', the [[Mass in B minor structure#Agnus Dei|Agnus Dei]] from Bach's [[Mass in B minor]], the song ''None shall part us'' from ''[[Iolanthe]]'' and the theme from the slow movement of Beethoven's ''[[Piano Sonata No. 8 (Beethoven)|Pathétique]]'' sonata.<ref>"What is the Enigma?", ''Saturday Review'', 30 May 1953. The arguments which J. F. Wohlwill gave to sustain his Pathétique-solution are very vague and seem to be inspired just by what Elgar had written in the programme notes for the pianola rolls (1929); see {{harvnb|Westgeest|2007|pp=48–49}}.</ref> Elgar himself affirmed that this Beethoven theme is alluded to in variation IX.<ref>Powell, p. 11</ref>
+*In 1985 Marshall Portnoy suggested that the key to the Enigma is Bach's ''[[The Art of Fugue]]''.<ref>{{cite journal|last=Portnoy|first=Marshall A.|jstor=948136|title=The Answer to Elgar's 'Enigma'|journal=[[The Musical Quarterly]]|volume=71|number=2|year=1985|pages=205–210|publisher=Oxford University Press|doi=10.1093/mq/LXXI.2.205}} {{subscription required}}</ref> Contrapunctus XIV of that work contains the [[BACH motif]] (in English notation, B{{music|b}}–A–C–B{{music|natural}}) which, in Portnoy's view, can also be found in the variations. Moreover, the Art of Fugue consists of 14 individual fugues on the same subject (just as the Enigma variations are 14 variations on the same subject), and Bach signed his name "B-A-C-H" within the 14th fugue (just as Elgar signed his name "EDU" on the 14th variation), as well as other clues.
+*Theodore van Houten proposed in 1975 ''[[Rule, Britannia!]]'' as the hidden melody on the strength of a resemblance between one of its phrases and the opening of the Enigma theme. The word which is sung to this phrase – a thrice-repeated "never" – appears twice in Elgar's programme note, and the figure of Britannia on the [[Penny (British pre-decimal coin)|penny coin]] provides a link with Dora Penny.<ref>{{cite news|last=Hierck|first=Hans|newspaper=de Volkskrant|title=Geheim van Edward Elgar ontraadseld|date=30 December 1975|page=9}}<br>{{cite journal|last=Reichenfeld|first=J.|journal=Cultureel Supplement JRC Handelsblad|title=The Theme Never Appears|date=16 January 1976}}<br>{{cite journal|title=The Enigma – A Solution from Holland|journal=Elgar Society Newsletter|date=January 1976|pages=28–32}}<br>{{cite journal|last=van Houten|first=Theo|title=Het Enigma van Edward Elgar|journal=Mens&Melodie 31|date= 1976|pages=68–78}}<br>{{cite journal|last=van Houten|first=Theodore|title="You of all people": Elgar's Enigma|journal=The Music Review|date=May 1976|volume=37|issue=2|pages=132–142}}<br>{{cite journal|title="Correspondence"|journal=The Music Review|date=November 1976|pages=317–319}}<br>{{cite journal|last=van Houten|first=Theodore|title=The enigma I will not explain|journal=Mens & Melodie|year=2008|volume=63|issue=4|pages=14–17}}</ref> The credibility of the hypothesis has received a boost from a report that it was endorsed by Elgar himself.<ref>{{cite journal|last1=Walters|first1=Frank|first2=Christine|last2=Walters|title=Some Memories of Elgar: and a note on the Variations|journal=Elgar Society Journal|date=March 2010|volume=16|issue=4|pages=23–27|ref=none|url=https://www.elgarsociety.org/project/vol-16-no-4-march-2010/|archive-date=26 October 2023|access-date=26 October 2023|archive-url=https://web.archive.org/web/20231026155828/https://www.elgarsociety.org/project/vol-16-no-4-march-2010/|url-status=live}}</ref>
+*Other tunes that have been suggested on the basis of a postulated melodic or harmonic connection to Elgar's theme include [[Chopin]]'s Nocturne in G minor,<ref>Reed, p. 52</ref> the Benedictus from [[Charles Villiers Stanford|Stanford]]'s Requiem,<ref>{{cite news |newspaper=The Times |location=London |title=Enigma of Elgar's debt to a fellow composer: Comparisons show that much-admired theme may not be original |last=Berlins |first=Marcel |pages=1–2 |date=20 August 1977}}</ref> ''[[Pop Goes the Weasel]]'',<ref>"Pop Goes the Enigma", letter in ''Music and Musicians'', XXVI (1977), pp. 4–5.</ref> William Boyce's ''[[Heart of Oak]]'' (transposed to the minor),<ref>{{cite journal |last=Ross |first=Charles |title=A Key to the Enigma|journal=Elgar Society Journal|date=September 1994|volume=8|issue=6}}</ref> the [[Dies irae#Musical settings|Dies irae]] plainchant<ref>{{cite journal |last=Kingdon |first=Ben|title=The 'Enigma' – A Hidden 'Dark Saying'|journal=Elgar Society Journal|date=May 1979|volume=1|issue=2}}</ref> and [[Gounod]]'s ''March to Calvary''.<ref>{{cite journal |last=Edgecombe |first=Rodney|title= A Source for Elgar's Enigma|journal=Elgar Society Journal|date=November 1997|volume=10|issue=3}}</ref>
+
+===Non-musical themes===
+*[[Ian Parrott]] wrote in his book on Elgar<ref>Parrott, pp. 46–49</ref> that the "dark saying", and possibly the whole of the Enigma, had a biblical source, [[1 Corinthians]] 13:12, which in the [[Authorised Version]] reads, "For now we see through a glass, darkly (''enigmate'' in the Latin of the [[Vulgate]]); but then face to face: now I know in part; but then shall I know even as also I am known". The verse is from St. Paul's essay on love. Elgar was a practising Roman Catholic and on 12 February 1899, eight days before the completion of the variations, he attended a Mass at which this verse was read.<ref>Alice Elgar's diary, 12 February 1899: "E. to St. Joseph's"</ref>
+*Edmund Green suggested that the "larger theme" is Shakespeare's sixty-sixth sonnet and that the word "Enigma" stands for the real name of the [[The Dark Lady#The Dark Lady|Dark Lady of the Sonnets]].<ref>{{cite journal |last=Green |first=Edmund |title=Elgar's "Enigma": a Shakespearian solution |journal=Elgar Society Journal |date=November 2004|volume=13|issue=6|ref=none | url=https://www.elgarsociety.org/project/vol-13-no-6-november-2004/ | pages=35–40}}</ref>
+*Andrew Moodie, casting doubt on the idea of a hidden melody, postulated that Elgar constructed the Enigma theme using a cipher based on the name of his daughter, Carice.<ref>{{cite journal |last=Moodie |first=Andrew |title=Elgar's 'Enigma': the solution? |journal=Elgar Society Journal |date=November 2004 |volume=13 |issue=6 |ref=none |url=https://www.elgarsociety.org/project/vol-13-no-6-november-2004/ |pages=31–34 |archive-date=26 October 2023 |access-date=26 October 2023 |archive-url=https://web.archive.org/web/20231026155839/https://www.elgarsociety.org/project/vol-13-no-6-november-2004/ |url-status=live }}</ref>
+*In 2010 Charles and Matthew Santa argued that the enigma was based on [[pi]], following the misguided attempt by the Indiana House of Representatives to legislate the value of pi in 1897. Elgar created an original melody containing three references to Pi based on this humorous incident. The first four notes are scale degree 3–1–4–2, decimal pi, and fractional pi is hidden in the "two drops of a seventh" following the first 11 notes leading to {{frac|2|7}} × 11 = {{frac|22|7}}, fractional pi. His "dark saying" is a pun set off by an unexplained double bar after the first 24 notes (all black notes)..".Four and twenty blackbirds baked in a pie (pi)". Shortly before his death, Elgar wrote three sentences about the variations and each sentence contains a hint at pi.<ref name="pi">{{cite journal|last1=Santa|first1=Charles Richard|first2=Matthew | last2=Santa|title=Solving Elgar's Enigma|journal=Current Musicology|date=Spring 2010|issue=89}}</ref>
+*Some writers have argued that the "larger theme" is friendship, or an aspect of Elgar's personality, or that the Enigma is a private joke with little or no substance.<ref name="Newman1939" /><ref>Kennedy, p. 85</ref><ref>{{cite journal|last=Ling|first=John|title= The Prehistory of Elgar's Enigma|journal=Elgar Society Journal|date=July 2008|volume=15|issue=5|ref=none | url=https://www.elgarsociety.org/project/vol-15-no-5-july-2008/ | pages=8–10}}</ref>
+*Inspector Mark Pitt has recently suggested (as reported by the ''Sunday Telegraph'') that the larger theme is 'Prudentia' which in turn is related to the initials from the variation titles which then forms the Principal 'Enigma' Variations theme.<ref>{{Cite news|url=https://www.telegraph.co.uk/news/2019/01/12/police-inspector-claims-has-solved-mystery-behind-elgars-enigma/|title=Police inspector claims he has solved the mystery behind Elgar's Enigma Variations|last=Bird|first=Steve|date=2019-01-12|work=The Telegraph|access-date=2019-01-20|language=English |issn=0307-1235}}</ref>
+
+==Subsequent history==
+
+Elgar himself quoted many of his own works, including "Nimrod" (Variation IX), in his choral piece of 1912, ''[[The Music Makers (Elgar)|The Music Makers]]''. On 24 May 1912 Elgar conducted a performance of the variations at a memorial concert in aid of the family survivors of musicians who had been lost in the [[Sinking of the Titanic|Titanic disaster]].<ref>Moore, p. 634</ref>
+
+The newspaper ''[[The Guardian]]'' stated in 2017 that the [[Enigma machine|Enigma coding machine]] employed by [[Nazi Germany]] during the [[Second World War]] was named after Elgar's variations,<ref name= guardian>{{Cite news|date=2017-05-03|title=Has a Cleveland policeman cracked the secret of Elgar's ''Enigma Variations''?|url=http://www.theguardian.com/music/shortcuts/2017/may/03/has-a-cleveland-policeman-cracked-the-secret-of-elgars-enigma-variations|access-date=2021-04-16|work=[[The Guardian]]}}</ref> although books about the German Enigma by Michael Smith and Ralph Erskine (2002), Hugh Sebag-Montefiore (2017) and Michael Kerrigan (2018) make no mention of this.<ref>Sebag-Montefiore, Smith and Erskine, and Kerrigan ''passim''</ref>
+
+[[Frederick Ashton]]'s ballet ''[[Enigma Variations (ballet)|Enigma Variations (My Friends Pictured Within)]]'' is choreographed to Elgar's score with the exception of the finale, which uses Elgar's original shorter ending, transcribed from the manuscript by [[John Lanchbery]]. The ballet, which depicts the friends and Elgar as he awaits Richter's decision about conducting the premiere, received its first performance on 25 October 1968 at the [[Royal Opera House]], [[Covent Garden]], London, conducted by Lanchbery.<ref>[https://www.rohcollections.org.uk/performance.aspx?performance=11855&row=0&searchtype=workprodperf&title=Enigma%20Variations " Enigma Variations (My Friends Pictured Within)-25 October 1968 Evening"], Royal Opera House Performance Archive. Retrieved 13 February 2026</ref> The original shorter finale received its first recording in 2002 by the [[Hallé Orchestra]] conducted by [[Sir Mark Elder]].<ref name=mk2003>Kennedy, Michael. Notes to Hallé CD CDHLL7501 {{oclc| 811455227}} 2003</ref>
+
+== Recordings ==
+{{Main|Enigma Variations discography}}
+
+There have been more than sixty recordings of the variations since Elgar's first recording, made by the acoustic process in 1924. Elgar himself conducted the [[New Symphony Orchestra (London)|Royal Albert Hall Orchestra]] for its first electrical recording in 1926 on the [[His Master's Voice (British record label)|His Master's Voice]] label. That recording has been remastered for compact disc; the EMI CD couples it with Elgar's [[Violin Concerto (Elgar)|Violin Concerto]] conducted by the composer in 1932 with [[Yehudi Menuhin]] as the soloist.<ref>EMI Classics Great Recordings of the Century {{oclc|840332563}}, 1999</ref> More than fifty years later Menuhin took the baton to conduct the [[Royal Philharmonic Orchestra]] in the variations for [[Philips Classics Records|Philips]].<ref>Philips CD {{oclc|974813760}}, 1986</ref>
+
+Other conductors who have recorded the work include [[Daniel Barenboim]], [[Leonard Bernstein]], [[Pierre Monteux]], [[Eugene Ormandy]], [[André Previn]], [[Giuseppe Sinopoli]], [[Sir Georg Solti]], [[William Steinberg]], [[Leopold Stokowski]] and [[Arturo Toscanini]] as well as leading English conductors from [[Henry Wood|Sir Henry Wood]], [[Sir Adrian Boult]] and [[Sir John Barbirolli]] to [[Simon Rattle|Sir Simon Rattle]] and [[Sir Mark Elder]].<ref>[https://search.worldcat.org/search?q=Enigma+Variations&itemType=music&itemSubType=music-cd%2Cmusic-lp%2Cmusic-digital Enigma Variations"], WorldCat. Retrieved 13 February 2026</ref>
+
+== In popular culture ==
+
+[[Rob Dougan]] used parts of the Enigma Variations in several mixes of his track ''[[Clubbed to Death (instrumental)|Clubbed to Death]]''. The short strings introduction is an excerpt from the Enigma theme, and the piano solo is improvised around Elgar's theme. Via ''Clubbed to Death (Kurayamino Variation)'' Elgar's enigma made its way on the soundtrack of ''[[The Matrix]]''.
+
+==Notes, references and sources==
+===Notes===
+{{Reflist|group=n}}
+{{reflist|group=lower-alpha}}
+{{notelist}}
+
+===References===
+
+{{Reflist}}
+
+===Sources===
+* {{cite book | last = Atkins | first = Wulstan | title = The Elgar-Atkins Friendship | location = Newton Abbot | publisher = David & Charles | year = 1984 | isbn = 0-71-538583-6}}
+* {{cite book | last = Buckley | first = Robert J. | year = 1905 | title = Sir Edward Elgar | location = London | publisher = John Lane|oclc = 4167363}}
+* {{cite book | last = Del Mar | first = Norman | author-link = Norman Del Mar | title = Conducting Elgar | year = 1998 | location = Oxford | publisher = Clarendon Press | isbn = 0-19-816557-9}}
+* {{cite book | last = Elgar | first = Edward | title = My Friends Pictured Within. The subjects of the Enigma Variations as portrayed in contemporary photographs and Elgar's manuscript | year = 1946 | location = London | publisher = Novello | url=https://imslp.org/wiki/My_Friends_Pictured_Within_(Elgar%2C_Edward) | oclc = 1114247863}}
+* {{cite book | last = Kennedy | first = Michael | author-link = Michael Kennedy (music critic) | edition = Third | title = Portrait of Elgar | year = 1987 | location = Oxford | publisher = Clarendon Press | isbn = 0-19-284017-7}}
+* {{cite book | last= Kerrigan | first= Michael | title= Enigma Code Breakers | year= 2018 | location= London| publisher= Amber Books | isbn= 978-1-78-274647-8}}
+* {{cite book | last = McVeagh | first = Diana | author-link = Diana McVeagh | title = Elgar the Music Maker | url = https://archive.org/details/elgarmusicmaker0000mcve | url-access = registration | year = 2007 | location = Woodbridge | publisher = Boydell Press | isbn = 978-1-84383-295-9}}
+* {{cite book | editor-last = Monk | editor-first = Raymond | title = Edward Elgar: Music and Literature | location = Aldershot | publisher = Scolar Press | year = 1993}}
+* {{cite book | last = Moore | first = Jerrold Northrop | author-link = Jerrold Northrop Moore | year = 1984 | title = Edward Elgar: A Creative Life | publisher = Oxford University Press | isbn = 0-19-315447-1}}
+* {{cite book | editor-last = Moore | editor-first = Jerrold Northrop | editor2 = Christopher Kent | title = Elgar Complete Edition: "Enigma" Variations | year = 1981 | location = Borough Green | publisher = Novello | oclc = 910206965}}
+* {{cite book | last = Parrott | first = Ian | author-link = Ian Parrott | title = Master Musicians: Elgar | year = 1971 | location = London | publisher = J. M. Dent & Sons |isbn = 0-46-003109-0}}
+* {{cite book | last = Powell | first = Mrs Richard | year = 1947 | title = Edward Elgar: Memories of a Variation | location = London | edition = secondoclc = 1066171007}}
+* {{cite book | editor-last = Redwood | editor-first = Christopher | year = 1982 | title = An Elgar Companion | location = Ashbourne | publisher = Sequoia | isbn = 0-86-190024-3}}
+* {{cite book | last = Reed | first = W. H. | author-link = William Henry Reed | year = 1939 | title = Elgar | location = London | publisher = J. M. Dent and Sons|oclc = 869804}}
+* {{cite book | last = Rushton | first = Julian | author-link = Julian Rushton | title = Elgar: 'Enigma' Variations | year = 1999 | location = Cambridge | publisher = Cambridge University Press | isbn = 978-0-521-63637-7}}
+* {{cite book | last= Sebag-Montefiore| first= Hugh |authorlink=Hugh Sebag-Montefiore| title= Enigma: The Battle for the Code| year= 2017| location= London| publisher= Weidenfeld & Nicolson| isbn= 978-1-47-460832-9}}
+* {{cite book | last= Smith| first= Michael|author2= Ralph Erskine| title= Action This Day: Bletchley Park: From The Breaking of the Enigma Code to the Birth of the Modern Computer| year= 2002 | location= London| publisher= Bantam| isbn= 978-0-59-304982-2}}
+* {{cite book | last = Turner | first = Patrick | title = Elgar's 'Enigma' Variations: A Centenary Celebration | edition = second | location = London | publisher = Thames Publishing | year = 2007 | isbn = 978-0-90-521101-5}}
+* {{cite book | last = Westgeest | first = Hans | title = Elgar's Enigma Variations. The Solution | year = 2007 | location = Leidschendam-Voorburg | publisher = Corbulo Press | isbn = 978-90-79291-01-4}}
+* {{cite book | editor-last = Young | editor-first = Percy M. | title = Letters to Nimrod | year = 1965 | location = London | publisher = Dobson Books | oclc = 230232661}}
+
+==Further reading==
+* {{cite journal|last=Adams|first=Byron|author-link=Byron Adams|title=The 'Dark Saying' of the Enigma: Homoeroticism and the Elgarian Paradox |journal=[[19th-Century Music]]|volume=23 |issue=3 |date=Spring 2000 |pages=218–235|doi=10.2307/746879|jstor=746879|ref=none}}
+
+==External links==
+* [https://web.archive.org/web/20051111003316/http://users.rcn.com/rfinley/enigma.mid Piano adaptation of ''Enigma Variations'' in MIDI file] (104KB) The theme and its 14 variations are located at ca. [00:00, 00:55, 02:05, 02:55, 04:20, 04:50, 06:25, 07:30, 08:28, 09:50, 12:22, 14:55, 15:53, 17:38, 19:13] in this 24-min track.
+* {{IMSLP|work=Variations on an Original Theme 'Enigma', Op.36 (Elgar, Edward)|cname=''Enigma Variations''}}
+* John Pickard, "[https://www.bbc.co.uk/radio3/classical/elgar/notes/note_enigma.shtml Variations on an Original Theme (''Enigma'') (1898–9)]" from BBC Radio 3
+* [https://www.bbc.co.uk/radio4/enigmanotexplain/ ''The Enigma I Will Not Explain''] on [[BBC Radio 4]]
+* {{YouTube|7h9D9cj-wgE}}, [[Leonard Slatkin]] introduced Elgar's ''Enigma Variations'', from [[BBC Proms]] 1995 (includes original ending)
+* [https://web.archive.org/web/20140721063937/http://elgar.org/elgarsoc/archive Elgar Society Journal archive]
+* [https://musopen.org/fr/music/5279-enigma-variations-op-36/ Enigma variations, Op. 36] on [[Musopen]]
+*{{YouTube|aQWAO9d43LY|Complete variation IX}}, performed by the [[Berlin Philharmonic]] conducted by [[Simon Rattle]] in 2012
+
+{{Edward Elgar}}
+{{Elgar's Enigma Variations}}
+{{Authority control}}
+
+[[Category:Compositions by Edward Elgar]]
+[[Category:Variations]]
+[[Category:Music for orchestra and organ]]
+[[Category:Compositions for brass band]]
+[[Category:Concert band pieces]]
+[[Category:1899 compositions]]
+[[Category:Music dedicated to family or friends]]

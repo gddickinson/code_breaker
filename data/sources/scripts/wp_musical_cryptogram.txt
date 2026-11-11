@@ -1,0 +1,211 @@
+{{Short description|Message coding technique through music}}
+[[Image:b-a-c-h.svg|thumb|right|250px|The [[BACH motif]].]]
+
+A '''musical cryptogram''' is a [[cryptogram]]matic sequence of [[List of musical symbols|musical symbols]] which can be taken to refer to an extra-musical text by some 'logical' relationship, usually between note names and letters. The most common and best known examples result from composers using musically translated versions of their own or their friends' names (or initials) as [[Theme (music)|themes]] or [[Motif (music)|motifs]] in their compositions, with an early and commonly known example being the BACH sequence used by the composer. These are not really rigorous [[cipher]] algorithms in the formal sense, but more like musical monograms or labels using initials. The methods used historically by composers were either too incomplete (i.e., did not include all of the letters of the alphabet) or too simplistic to meaningfully encrypt long text messages. There is a separate history of [[music cipher]]s utilizing [[music notation]] to [[code (cryptography)|encode]] messages for reasons of [[espionage]] or personal security that involved [[encryption]] and/or [[steganography]].
+
+Because of the multitudinous ways in which various musical notes and textual letters and other elements can be related, or not, detecting hidden ciphers in music and proving accurate decipherment can be difficult.
+
+==History==
+From the initial assignment by Western music theorists of letter names to notes in the 9th century<ref>Hiley, David 'Notation III, 1 (vi)' in Sadie, Stanley (ed.), ''The New Grove dictionary of music and musicians'', Macmillan, 1980, (6th ed. of the Grove dictionary), vol.13, p. 348–349</ref> it became possible to reverse the procedure and assign notes to the letters of names. However, this does not seem to have become a widely recognized technique until the Romantic period. From the mid-19th century it has become quite common. Sporadic earlier encipherments used [[solmization]] syllables.
+
+==Systems==
+
+===Syllables to solmization names===
+It is believed that this method was first used by [[Josquin des Prez]] in his ''Missa Hercules Dux Ferrarie''. It was named [[Soggetto cavato]] by the later theorist [[Zarlino]]. Under this scheme the vowel sounds in the text are matched to the vowel sounds of the solmization syllables of [[Guido of Arezzo]] (where 'ut' is the root, which we now call 'do'). Thus the Latin name of the dedicatee 'Hercules Dux Ferrarie' ([[Ercole d'Este I|Ercole d'Este, Duke of Ferrara]]) becomes re-ut-re-ut-re-fa-mi-re, which translates as D-C-D-C-D-F-E-D in modern notation with C as 'ut'. This is used as the [[cantus firmus]] of the mass setting. Josquin's method was imitated by several of his contemporaries and successors, including [[Adrian Willaert]] and [[Costanzo Festa]].
+
+===Letters to note names===
+Since the note names only cover letters A to G (reflecting the octave repetition of these names), the problem arises as to how to cipher the rest of the alphabet. Historically there have been two main solutions, which may be labelled for convenience the 'German' and the 'French' methods.<ref>{{cite web |last1=Sandzer-Bell |first1=Ezra |title=What is a Musical Cryptogram? |url=https://www.audiocipher.com/post/musical-cryptogram |website=AudioCipher |access-date=17 November 2021}}</ref>
+
+====German====
+Because the development of note names took place within the framework of [[Musical mode|modes]], in the German-speaking world ''B{{music|flat}}'' was named 'B' and ''B{{music|natural}}'' was named  'H'. The most common musical cryptogram is the [[BACH motif|B-A-C-H motif]], which was used by [[Johann Sebastian Bach]] himself, by his contemporaries and by many later composers. Other note names were derived by sound, for example ''E{{music|flat}}'', 'Es' in German, could represent 'S' and ''A{{music|flat}}'' the digraph 'As'.
+
+Composers less fortunate than Bach usually seem to have chosen to ignore non-musical letters in generating their motifs. For example, [[Robert Schumann]], an inveterate user of cryptograms, has just S-C-H-A (''E{{music|flat}}, C, B{{music|natural}}, A'') to represent himself in ''[[Carnaval (Schumann)|Carnaval]]''. Sometimes phonetic substitution could be used, Schumann representing Bezeth by B-E-S-E-D-H. [[Johannes Brahms]] used B-A-H-S (''B{{music|flat}}, A, B{{music|natural}}, E{{music|flat}}'') for his surname in the A{{music|flat}} minor organ fugue, and the mixed language Gis-E-La (''G{{music|sharp}}, E, A'') for [[Gisela von Arnim]], among many examples.<ref name="sams">Sams, Eric 'Cryptography, musical' in Sadie, Stanley (ed.), ''The New Grove dictionary of music and musicians'', Macmillan, 1980, (6th ed. of the Grove dictionary), vol.5, p. 80</ref>
+
+====French====
+The 'French' method of generating cryptograms arose late in the 19th century and was more akin to normal [[Cipher|encipherment]]. The most popular version involved writing out the letters H–N, O–U and V–Z in lines under the original diatonic notes A–G, as follows:
+{| class="wikitable" border="1"
+|-
+! A
+! B
+! C
+! D
+! E
+! F
+! G
+|-
+| H
+| I
+| J
+| K
+| L
+| M
+| N
+|-
+| O
+| P
+| Q
+| R
+| S
+| T
+| U
+|-
+| V
+| W
+| X
+| Y
+| Z
+|colspan="2" {{n/a}} 
+|}
+so that A, H, O, and V are enciphered by note 'A', B, I, P and W by 'B' (flat or natural) and so on.<ref>{{cite web |title=An interactive tool to convert text into melodies using the 'French' music cipher |url=https://wmich.edu/mus-theo/ciphers/ecorcheville.html |website=wmich.edu |access-date=2025-01-10}}</ref> This scheme was used by [[Jules Écorcheville]], editor of the journal ''S.I.M.'', to solicit centenary commemorations of [[Joseph Haydn]] in 1909, except that he diverted the 'H' to B{{music|natural}}, presumably to avoid too many repeated notes.<ref name="sams" /> Writing to [[Gabriel Fauré]] about the invitation, [[Camille Saint-Saëns]] said he was writing to Écorcheville asking him to prove that Y and N could signify D and G as "it would be annoying to get mixed up in a farcical business which would make us a laughing stock in the German musical world."<ref>quoted in Nichols, Roger, ''Ravel'', Dent, 1977, {{ISBN|0-460-03146-5}}, page 66</ref>
+The many-to-one mapping of this method makes it more difficult to extract possible motifs from the musical score than the [[Bijection|one-to-one correspondence]] (apart from 'As') of the German system.
+
+===20th century===
+A French tradition of celebratory uses developed from the Haydn centenary, with tributes to Gabriel Fauré by [[Maurice Ravel]], [[Florent Schmitt]], [[Charles Koechlin]] and others in 1922 (added to in 1949 by [[Arnold Bax]]<ref>David Parlett, ed. [https://web.archive.org/web/20141124220401/http://www.davpar.eu/bax/bax4053.html "Baxworks"], ''Music by Arnold Bax''.</ref>), and to [[Albert Roussel]] by [[Francis Poulenc]], [[Arthur Honegger]], [[Darius Milhaud]] and others (using various ciphering schemes) in 1929. Honegger's system involved placing the letters after 'H' under sharpened and flattened notes,<ref name="sams" /> an example of how chromatic cryptograms could be more easily accommodated in [[20th-century music]].<ref>{{cite web |title=An interactive tool to convert text into melodies using Honegger's music cipher |url=https://wmich.edu/mus-theo/ciphers/honegger.html |website=wmich.edu |access-date=2025-01-10}}</ref>
+
+[[Olivier Messiaen]] developed his own full cipher, involving pitches and note lengths, for his organ work ''[[Méditations sur le mystère de la Sainte Trinité]]'' (1969).<ref>Halbreich, C., 'Ciphered creed', ''Music and musicians'', vol. 20 (1972) p. 18</ref><ref>{{cite web |title=An interactive tool to convert text into melodies using Messiean's music cipher |url=https://legacy.wmich.edu/mus-theo/ciphers/messiaen.html |website=wmich.edu |access-date=2025-01-10}}</ref>
+
+[[Dmitri Shostakovich]] used the German scheme for his personal motto D-Es-C-H (''D, E{{music|flat}}, C, B{{music|natural}}''), representing [[DSCH motif|D.SCH]], which appears in many of his works.
+
+[[Elliott Carter]] featured both a cryptogram for the last name "[[Pierre Boulez|Boulez]]" in his piece ''Réflexions'' (2004) and a sonic symbol of the first name "Pierre".<ref>Justin Wintle (2009). ''The Concise Makers of Modern Culture'', p.123. {{ISBN|0-415-47782-4}}.</ref>
+
+Cryptograms were less common in England, but [[Edward Elgar]], who was also interested in general cryptography and puzzles, wrote an early ''Allegretto'' for his pupils the Gedge sisters using G-E-D-G-E;<ref>[[Diana McVeagh|McVeagh, Diana]] (2007) ''Elgar the Music Maker''. Woodbridge, Suffolk: Boydell Press. p. 3. {{ISBN|978-1-84383-295-9}}. "The Allegretto on GEDGE (1885) is based, Schumann-like, on the musical letters of Elgar's pupils, the Gedge sisters."</ref> his ''[[Enigma Variations]]'' involves extensive use of abbreviations (friends' initials) and cryptograms and potentially even a broader enigma to be '[[Enigma Variations|solved]]'.
+
+[[Andersen Viana]] Brazilian multiartist has used the BbACB (Bach) cryptogram in his symphonic poem "Coeviaca: the messenger of fire".
+
+===21st century===
+English musician Jonathan Spybey uses Greek Bible characters when composing works under the artist name 'John Three Sixteen'<ref>{{Cite web |title=John Three Sixteen |url=https://john316.music |website=John Three Sixteen}}</ref>. The first piece published was 'For God So Loved The World' based on the Greek text for John 3:16. Later work also uses Biblica's NIV Audio Bible alongside the Greek originated music.<ref>{{Cite web |last=Spybey |first=Jonathan |date=2026 |title=John Three Sixteen |url=https://john316.music |website=John Three Sixteen}}</ref>
+
+===Others===
+In 1947 [[Friedrich Smend]] suggested that Bach enciphered significant numbers through methods including repetitions of a motif, [[lyrics|word]], or [[phrase (music)|phrase]]; the notes played on the [[basso continuo|continuo]]; the use of [[sequence (music)|sequence]]; and the notes played by the [[accompaniment]]. However, Ruth Tatlow has presented evidence questioning the plausibility of Smend's claims.<ref>{{Cite book |author=Tatlow, Ruth |date=1991 |title=Bach and the Riddle of the Number Alphabet |page=25 |isbn=0-521-36191-5}}</ref>
+
+During the first quarter of the 20th century, American author and occultist [[Paul Foster Case]] established an esoteric musical cryptogram for the purposes of ceremonial magick. The system was a derivative of a cipher used by an affiliated magical order called the [[Hermetic Order of the Golden Dawn]].<ref>{{Cite book |title = The Middle Pillar: The Balance Between Mind and Magic |url = https://books.google.com/books?id=KocDfK3cNpIC |publisher = Llewellyn Worldwide |date = 1998-01-01 |isbn = 9781567181401 |first1 = Israel|last1 = Regardie |first2 = Chic|last2 = Cicero |first3 = Sandra Tabatha|last3 = Cicero}}</ref> Each note of the 12 tone system was assigned a set of correspondences including colors, planets, zodiacal signs, and Hebrew letters. The holy names of biblical characters were translated letter by letter into a linear sequence of musical notes, so that each letter could be sung by the congregation in unison.
+
+Ezra Sandzer-Bell has written and published two books on this subject,<ref>{{Cite web |title = Books |url = http://www.audiomancy.net/books1/ |website = Music and Magick |access-date= 2015-12-30 |archive-url = https://web.archive.org/web/20160410185232/http://www.audiomancy.net/books1 |archive-date = 2016-04-10 |url-status = dead}}</ref> describing how Paul Foster Case's system of musical cryptography could be applied to songwriting. Any word can be translated phonetically into Hebrew and converted using Case's cryptogram to generate a series of notes. Sandzer-Bell's project involves the conversion of the common and Latin names of plants, trees, and mushrooms into melodies. Each song was composed by consuming the plant in tea or [[tincture]] form, then using the physical effects of the plant to determine what kind of rhythm, harmony, instruments, and dynamics to use.  A lengthy demonstration and proof concept is publicly available on the author's website.<ref>{{Cite web |title = Music |url = http://www.audiomancy.net/music/ |website = Music and Magick |access-date = 2015-12-30 |archive-date = 2016-03-04 |archive-url = https://web.archive.org/web/20160304000126/http://www.audiomancy.net/music/ |url-status = dead}}</ref>
+
+Solfa Cipher, invented in 2013, uses a combination of scale degrees and rhythms to represent letters of the alphabet with the goal generating encrypted texts which sound like relatively normal singable melodies.<ref>{{cite web |url=https://solfa-co.de |title=Solfa Cipher |website=solfa-co.de |access-date=2025-01-08}}</ref> As such, it has been used by musicians to create longer pieces with hidden messages. It has also been featured as a plot device in mysteries such as Gary McAvoy's ''Vivaldi Cipher''.<ref>{{Cite book |author=McAvoy, Gary |date=2021 |title=Vivaldi Cipher |publisher=Literati Editions |isbn=978-1-954123-07-6}}</ref> and purportedly the video game [[Fortnite]].<ref>{{cite web | url=https://www.gfinityesports.com/fortnite/fortnite-season-7-top-5-easter-eggs-hidden-in-the-cinematic-trailer/ | title=Fortnite Season 7: Top 5 Secrets Fans May Have Missed in the Cinematic Trailer | date=8 June 2021 }}</ref>
+
+Randy Gurule, American inventor and writer, associated with contemporary uses of the French musical cipher, including a patented text-to-music encoding system<ref>{{Cite patent|number=US8884148B2|title=Systems and methods for transforming character strings and musical input|gdate=2014-11-11|invent1=Gurule|inventor1-first=Randy|url=https://patents.google.com/patent/US8884148B2/en?oq=us8884148B2}}</ref>, and a copyrighted work<ref>{{Cite web |title=U.S. Copyright Office Public Records System |url=https://publicrecords.copyright.gov/detailed-record/voyager_23631704 |access-date=2026-01-13 |website=publicrecords.copyright.gov}}</ref> expressing the complete English alphabet through musical notation, implemented them in software and published musical and poetic works a JAVA-based implementation named ⨹SHER<ref>{{Cite web |title=⨹SHER - Apps on Google Play |url=https://play.google.com/store/apps/details?id=randyg.titlewaves&hl=en_US |access-date=2026-01-13 |website=play.google.com |language=en-US}}</ref>, and a published musical work<ref>{{Citation |title=The Sunshine Song (feat Chris Glenn) |url=https://soundcloud.com/randygurule/the-sunshine-song |access-date=2026-01-13 |language=en}}</ref>. 
+
+==Summary of signature motifs==
+[[Image:Aschbeg in op.19.png|thumb|right|350px|"Aschbeg" [[set (music)|set]] in Schoenberg's ''[[Sechs kleine Klavierstücke]]'', Op.19, no. 1, m.5<ref name="Taruskin"/> {{audio|Aschbeg in op.19.mid|Play}}. The notes do not come in spelling order but are all adjacent (not separated by other notes).]]
+
+[[Image:Schumann, Sechs Fugen über den Namen B-A-C-H, op. 60, no. 4, mm. 1-3.png|thumb|right|350px|BACH motif followed by transposed version from Schumann's ''[[Sechs Fugen über den Namen B-A-C-H]]'', op. 60, no. 4, mm. 1-3<ref name="Reynolds"/> {{audio|Schumann, Sechs Fugen über den Namen B-A-C-H, op. 60, no. 4, mm. 1-3.mid|Play}}. C and H are transposed down, leaving the spelling unaffected but changing the melodic [[contour (music)|contour]].]]
+
+[[Image:Boulez - Messagesquisse, Sacher hexachord.png|thumb|right|350px|Sacher hexachord:<ref>Whittall, Arnold. 2008. ''The Cambridge Introduction to Serialism'', p.206. Cambridge Introductions to Music. New York: Cambridge University Press. {{ISBN|978-0-521-86341-4}} (hardback) {{ISBN|978-0-521-68200-8}} (pbk).</ref> E{{music|b}} (Es) A C B (H) E D (Re) {{audio|Boulez - Messagesquisse, Sacher hexachord.mid|Play}}]]
+
+[[Image:Gade, Drei kleine Clavierstücke, no. 3, Alla marcia, mm.20-21.png|thumb|right|350px|Gade, ''[[Drei kleine Clavierstücke]]'', no. 3, Alla marcia, mm.20-21<ref name="Reynolds">{{Cite book |author=Christopher Alan Reynolds |date=2003 |title=Motives for Allusion: Context and Content in Nineteenth-Century Music |page=31 |publisher=Harvard University Press |isbn=0-674-01037-X}}</ref> {{audio|Gade, Drei kleine Clavierstücke, no. 3, Alla marcia, mm.20-21.mid|Play}}.]]
+
+[[File:Menuet sur le nom d'Haydn red.png|thumb|right|350px|Haydn, ''[[Menuet sur le nom d'Haydn (Ravel)|Menuet sur le nom d'Haydn]]'' by Ravel {{audio|Menuet sur le nom d'Haydn.mid|Play}}]]
+
+The following list includes only motifs which are known to have been used in published works.
+* A, B, E, B, A
+: for [[Aubrey Brain]], used in [[Gordon Jacob]]'s Sextet for Piano and Winds, which was inscribed "In memoriam Aubrey Brain"
+
+* A, B{{music|b}}, B{{music|natural}}, F (= '''A, B, H, F''')
+:for [[Alban Berg]] and [[Hanna Fuchs-Robettin]] ('''A'''. '''B'''. and '''H'''. '''F'''.), used in Berg's ''[[Lyric Suite (Berg)|Lyric Suite]]''<ref>Reel, James (2010). [{{AllMusic|class=work|id=c53893|pure_url=yes}} "Lyric Suite"], ''AllMusic.com''. accessed 2025-01-10</ref>
+
+*A, B{{music|b}}, E, G, G (= '''A, B, E, G, G''')
+:for Meta Abegg, the fictional inspiration for Robert Schumann's ''[[Variations on the name "Abegg"|Abegg Variations]]'', op. 1<ref name="Blom">{{Cite book |author=Blom, Eric |date=1961 |title=Some Great Composers |page=85 |publisher=Oxford University Press |isbn=0-19-315133-2}}</ref>
+
+*A, C, A, D, A, C, A
+:the nickname ("Acka Dacka") for [[AC/DC]], used in the guitar riff for the band's 1977 song [[Whole Lotta Rosie]]
+
+*A, D, A, A, F (= '''A, L, A, I, N''')
+:for [[Jehan Alain]], used by [[Maurice Duruflé]] in his ''Prélude et Fuge sur le nom d'Alain'' (op. 7) and derived on the [[#French|French system]] but leaving H = ''B{{music|natural}}'' and starting the second line with 'I'
+
+*A, D, E{{music|b}}, C, B, F, E (= '''A, D, S, C, H, F, E''')
+:for [[Alfred Schnittke]] and [[Vladimir Feltzmann]], used by Alfred Schnittke in his Sonata No. 1
+
+*A, E{{music|b}}, C, B{{music|natural}} (= '''A, S, C, H''') and A{{music|b}}, C, B{{music|natural}} (= '''As, C, H''')
+:used in Schumann's ''Carnaval'', Op. 9.<ref name="Blom"/> He was romantically involved with [[Ernestine von Fricken]], who came from the town of [[Aš]], in German "Asch". Every piece in the whole cycle is based on one or other of these motifs. The letters are also the note names from 'Schumann' and he added the motif ''E{{music|b}}, C, B, A'' (= '''S, C, H, A''') so that three are displayed in breves in the section 'Sphinxes'.  It has been noted that ASCH and SCHA also appear in the title of Schumann's ''[[Faschingsschwank aus Wien]]'', Op. 26.
+
+*[A], E{{music|b}}, C, B{{music|natural}}, B{{music|b}}, E({{music|natural}}), G (= '''[A], S, C, H, B, E, G''')
+:for [[Arnold Schoenberg]]  ('''A'''. '''Sch'''ön'''be'''r'''g'''),<ref name="Taruskin">{{Cite book |author=Taruskin, Richard |date=2009 |title=Music in the Early Twentieth Century |page=324 |publisher=Oxford University Press |isbn=978-0-19-538484-0 |quote="the 'Eschbeg set,' Schoenberg's musical signature." and "the 'A. Schbeg' (or 'Aschbeg') set."}}</ref> set [[Schoenberg hexachord|6-Z44]]
+
+*A, E{{music|b}}, G, E, B, B (= '''La, Es, Sol, Mi, Ti, Ti''')
+:for the initials of the [[London Symphony Orchestra]] (='''L'''a E'''s''' S'''o'''l) and [[Michael Tilson Thomas]] (='''M'''i '''T'''i '''T'''i), used by [[Oliver Knussen]] in ''Flourish with fireworks.'' Thomas commissioned Knussen for the opening concert of his first season as principal conductor of the London Symphony Orchestra - the piece is "affectionately dedicated to Michael Tilson Thomas and the London Symphony Orchestra."<ref>{{cite journal |last1=Anderson |first1=Julian |title=Harmonic Practices in Oliver Knussen's Music since 1988: Part I |journal=Tempo |date=July 2002 |issue=New Series, No. 221 |pages= 2–13 |doi=10.1017/S0040298200015618 |jstor=946777 |s2cid=145399155 }}</ref>
+
+*B{{music|b}}, A, B, E{{music|b}} (= '''B''', r, '''A, H''', m, '''Es''')
+:for '''B'''r'''ah'''m'''s''', used by Alfred Schnittke in his ''[[Quasi Una Sonata]]'' along with the B-A-C-H motif and other quotations, and allusions<ref>{{Cite book |author=Schmelz, Peter J. |date=2009 |title=Such Freedom, If Only Musical |page=254 |publisher=Oxford University Press, USA |isbn=978-0-19-534193-5}}</ref>
+
+*B{{music|b}}, A, C, B{{music|natural}} (= '''B, A, C, H''')
+:for Johann Sebastian Bach
+{{main|BACH motif}}
+
+*B, A, D, D, G (= '''H, A, Y, D, N''')
+:for Joseph Haydn, used by Maurice Ravel in his ''[[Menuet sur le nom d'Haydn]]'' and by other contributors to the ''S.I.M.'' commemoration and derived on the French system
+
+*B, A, F (= '''B, La, F''')
+:for [[Mitrofan Belyayev]], used by [[Nikolay Rimsky-Korsakov]], [[Alexander Borodin]], [[Anatoly Lyadov]] and [[Alexander Glazunov]] in a string quartet
+
+*B{{music|b}}, D, G{{music|#}}, A, C, F (= '''B, Re, Gis, La, Do, Fa''')
+:from the Russian phrase берегись Лядова (''beregis' [[Anatoly Lyadov|Lyadova]]'', beware of Lyadov), used by [[Nikolay Myaskovsky]] in his String Quartet No. 3
+
+*B, E, B, A or B, A, B, E
+:for [[Béla Bartók]] ('''Bé'''la '''Ba'''rtók, the latter motif recognizing the [[Hungarian language|Hungarian]] practice of placing the family name before the personal name)
+
+*C, A, G, E
+:for [[John Cage]], used by [[Pauline Oliveros]]<ref>{{cite web |title=Pauline Oliveros: Dear.John (Notes on the computer realization by Larry Polansky) |url=http://eamusic.dartmouth.edu/~larry/dear.john/DearJohnNotes.html |website=eamusic.dartmouth.edu |access-date=10 January 2025}}</ref> and, in the composition ''CAGE DEAD'', by [[Penguin Cafe Orchestra|Simon Jeffes]] of the Penguin Cafe Orchestra.<ref>{{cite web |url=https://books.google.com/books?id=u9A4AQAAIAAJ&q=%22cage+dead%22 |title=Gramophone Explorations (search on "cage dead") |work=Vol. II. Gramophone Explorations, Gramophone Publications Limited |via= books.google.com}}</ref>
+
+*C, F, E, B, A, C, H
+:for [[Carl Philipp Emanuel Bach]] with the initials of his name - '''C'''arl Philipp ('''F'''ilippo) '''E'''manuel '''Bach''' -. The motif is based on the German musical nomenclature, however the initials of the composer’s name appear partially in German and in Italian version, instead of Philipp as Filippo. The C. F. E. BACH motif appears in an unpublished Fughetta in F major of C. Ph. E. Bach, found in the [[Royal Conservatory of Brussels|Brussels Conservatorium]].<ref>{{cite book |last=Komlós|first= Katalin |title=Tanulmányok a 18. századi zene történetéből |trans-title=Studies in the history of 18th-century music |page=31 |publisher= Rózsavölgyi és Társa |year= 2015 |isbn=978-615-80071-7-7}}</ref>
+{{main|C. F. E. BACH motif}}
+
+*D, A, C, H, S
+:for [[Josef Dachs]]. He was a piano teacher at the Vienna conservatory. [[Hans Rott]] was probably one of his students at the conservatory when he composed his Dachs-Studie for string orchestra.
+
+*D, E{{music|b}}, C, B (= '''D, S, C, H''')
+:for Dmitri Shostakovich ('''D'''. '''Sch'''ostakowitsch)
+{{main|DSCH motif}}
+
+*E{{music|b}}, A, C, B, E, D (= '''Es, A, C, H, E, Re''')
+:for [[Paul Sacher]], known as the [[Hexachord#20th century|Sacher hexachord]]
+{{main|Sacher hexachord}}
+
+*E, A, E, D, A (= '''E, La, Mi, Re, A''')
+:for [[Elmira Nazirova]], pupil of Dmitri Shostakovich, used in his [[Symphony No. 10 (Shostakovich)|Symphony No. 10]]
+
+*E, B, G (= '''E, H, G''')
+:for [[Edvard Grieg]]; his full name being Edvard Hagerup Grieg, the motif is a descending E-minor arpeggio which opens his [[Piano Sonata (Grieg)]]
+
+*E{{music|b}}, C, B{{music|natural}}, A (= '''S, C, H, A''')
+:for Schumann, used in ''Carnaval'', it is a re-ordering of that piece's A-S-C-H motif
+
+*F, A, E and F, A, F
+:for ''Frei aber einsam'' and ''Frei aber froh'', "free but lonely" and "free but happy" in German; the former, his friend [[Joseph Joachim]]'s motto (''[[F-A-E Sonata]]''), described as "more romantic" than the latter, a "gender-separatist" motto of Johannes Brahms's<ref>{{Cite book |editor=Adam Krims |date=1998 |title=Music and Ideology: Resisting the Aesthetic |page=Z-69 |publisher=Psychology Press |isbn=90-5701-321-5}}</ref> ''[[Symphony No. 3 (Brahms)|Symphony No. 3]]''
+
+*F, E{{music|b}}, C, B (= '''F, S, C, H''')
+:for [[Franz Schubert]] ('''F'''. '''Sch'''ubert) {{citation needed|date=August 2009}}
+
+*G, A, B, D, B, E, E, F, A, G, D, E (= '''G, A, B, Re, H, E, Le - F, A, Ug, Re, E''')
+:for Gabriel Fauré, used by contributors to Henri Prunières' Fauré celebration in the October 1922 issue of ''La revue musicale''<ref>{{Cite book |author=Nectoux, Jean-Michel |translator=Roger Nichols |title=Gabriel Fauré: a musical life |publisher=Cambridge University Press |date=1991 |isbn=0-521-23524-3 |page=427}}</ref> (''F, A, G, D'' had also been used 20 years earlier for "Fauré" in a collaborative string quartet)
+
+*G, A, D, E
+:for [[Niels Gade]]; the motif is the basis of Robert Schumann's "Nordisches Lied", No. 41 from ''[[Album for the Young]]'', Op. 68.  Its subtitle is "Gruss an G."
+
+*G, E{{music|flat}}, A, B (= '''G, Es, A, H''')
+:for [[Gustav Holst]] ('''G'''u'''s'''t'''a'''v '''H'''olst), used as the opening motif in the movement ''Uranus'' from ''[[The Planets]]''.
+
+==See also==
+* [[Cross motif]]
+* [[Cruciform#Cruciform melody|Cruciform]]
+* [[Composer tributes (classical music)]]
+* [[Schoenberg hexachord]]
+
+==References==
+{{reflist}}
+
+==Further reading==
+*Code, David Løberg (2023). "Can musical encryption be both? A survey of music-based ciphers." ''Cryptologia'' Volume 47 - Issue 4, https://doi.org/10.1080/01611194.2021.2021565
+*Djossa, Christina Ayele (2018). "With Musical Cryptography, Composers Can Hide Messages in Their Melodies" ''Atlas Obscura'' March 26, 2018. https://www.atlasobscura.com/articles/musical-cryptography-codes
+*Young, Ondine Tobin (1996). ''Frei aber einsam, frei aber froh: cyphered motives and performance practice''. University of California, Santa Cruz.
+
+{{Commons category}}
+{{Motives (music)}}
+
+[[Category:Musical cryptograms| ]]
+[[Category:Cryptography]]
+[[Category:Motifs (music)]]
+[[Category:Musical composition]]
+[[Category:Musical techniques]]
+[[Category:Composer tributes (classical music)|Cryptogram]]

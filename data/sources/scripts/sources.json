@@ -160,5 +160,35 @@
   "url": "https://en.wikipedia.org/wiki/History_of_cryptography",
   "bytes": 55134,
   "fetched": "2026-11-10"
+ },
+ "musical_cryptogram": {
+  "title": "Musical cryptogram",
+  "url": "https://en.wikipedia.org/wiki/Musical_cryptogram",
+  "bytes": 26122,
+  "fetched": "2026-11-10"
+ },
+ "bach_motif": {
+  "title": "BACH motif",
+  "url": "https://en.wikipedia.org/wiki/BACH_motif",
+  "bytes": 18918,
+  "fetched": "2026-11-10"
+ },
+ "dsch_motif": {
+  "title": "DSCH motif",
+  "url": "https://en.wikipedia.org/wiki/DSCH_motif",
+  "bytes": 3925,
+  "fetched": "2026-11-10"
+ },
+ "abegg": {
+  "title": "Variations on the name \"Abegg\"",
+  "url": "https://en.wikipedia.org/wiki/Variations_on_the_name_%22Abegg%22",
+  "bytes": 3703,
+  "fetched": "2026-11-10"
+ },
+ "enigma_variations": {
+  "title": "Enigma Variations",
+  "url": "https://en.wikipedia.org/wiki/Enigma_Variations",
+  "bytes": 62512,
+  "fetched": "2026-11-10"
  }
 }

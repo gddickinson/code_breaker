@@ -1,0 +1,50 @@
+{{Short description|Musical monogram of Dmitri Shostakovich}}
+{{more citations needed|date=January 2021|reason=Contains claims for specific people and companies. Contains a quote by [[Danny Elfman]]. Contains general claims "used generally".}}{{Image frame|content=<score sound="1">
+{
+\override Score.TimeSignature #'stencil = ##f
+\relative c' {
+  \clef treble
+  \time 4/4 d es c b
+} }
+</score>|width=300|caption=The DSCH motif, consisting of the notes D-E{{music|flat}}-C-B}}
+
+'''DSCH''' is a [[Motif (music)|musical motif]] used by the composer [[Dmitri Shostakovich]] to represent himself. It is a [[musical cryptogram]] in the manner of the [[BACH motif]], consisting of the notes ''D, E{{music|flat}}, C, B{{music|natural}}'', or in [[Key signature names and translations|German musical notation]] ''D, Es, C, H'' (pronounced as "De-Es-Ce-Ha"{{Needs IPA|lang=de}}), thus standing for the composer's initials in [[German language|German]] transliteration: ''D. Sch.'' ('''D'''mitri '''Sch'''ostakowitsch).
+==Usage==
+===By Shostakovich===
+The motif occurs in many of his works, including:
+* [[Violin Concerto No. 1 (Shostakovich)|Violin Concerto No. 1 in A minor]], Op. 77
+* [[24 Preludes and Fugues (Shostakovich)|Fugue No. 15 in D{{music|flat}} major]], Op. 87 (only once, in the stretto)
+* [[String Quartet No. 5 (Shostakovich)|String Quartet No. 5 in B{{music|flat}} major]], Op. 92
+* [[Symphony No. 10 (Shostakovich)|Symphony No. 10 in E minor]], Op. 93
+* [[String Quartet No. 6 (Shostakovich)|String Quartet No. 6 in G major]], Op. 101 (Played all at once by the four instruments at the end of each movement)
+* [[String Quartet No. 8 (Shostakovich)|String Quartet No. 8 in C minor]], Op. 110 (appears in every single movement)
+* [[Symphony No. 14 (Shostakovich)|Symphony No. 14 in G minor]], Op. 135
+* [[Symphony No. 15 (Shostakovich)|Symphony No. 15 in A major]], Op. 141.
+* [[Piano Sonata No. 2 (Shostakovich)|Piano Sonata No. 2 in B minor]], Op. 61 (questionable){{Clarify|date=October 2013}}<!--Reason for questionability?-->
+
+===By others===
+Many homages to Shostakovich (such as [[Alfred Schnittke|Schnittke]]'s ''Prelude in memory of Dmitri Shostakovich'' or [[Sulkhan Tsintsadze|Tsintsadze]]'s 9th String Quartet) make extensive use of the motif.
+The British composer [[Ronald Stevenson]] composed a large [[Passacaglia on DSCH|Passacaglia]] on it. The 2nd movement of the Percussion Concerto (2022) by American composer [[Danny Elfman]] is entitled DSCH.
+Also [[Edison Denisov]] dedicated some works (1969 DSCH for clarinet, trombone, cello and piano, and his 1970 [[saxophone]] sonata) to Shostakovich, by quoting the motif several times and using it as the first four notes of a [[twelve tone technique|twelve-tone series]]. Denisov was Shostakovich's protégé for a long time.<ref>{{Cite book|last=Taruskin|first=Richard|url=https://books.google.com/books?id=mWFmDwAAQBAJ&q=Denisov+was+Shostakovich%27s+prot%C3%A9g%C3%A9+for+a+long+time&pg=PA463|title=Music in the Late Twentieth Century: The Oxford History of Western Music|publisher=Oxford University Press|year=2010|isbn=9780195384857|location=Oxford, New York|pages=463}}</ref>
+
+==See also==
+*[[Sacher hexachord]]
+
+==References==
+{{reflist}}
+
+==Bibliography==
+* Brown, Stephen C., “Tracing the Origins of Shostakovich’s Musical Motto,” ''Intégral'' 20 (2006): 69–103.
+*[http://ro.ecu.edu.au/theses/694 Gasser, Mark. "Ronald Stevenson, Composer-Pianist: An Exegetical Critique from a Pianistic Perspective"]. PhD diss. [Western Australia]: Edith Cowan University, 2013.
+
+==External links==
+* "[http://dschjournal.com/dsch-motif DSCH – Shostakovich's Motto]", ''DSCH journal''
+** "[http://dschjournal.com/dsch-motif/dsch-quotation-examples DSCH Quotation Examples]", ''DSCH journal''
+
+{{Motives (music)}}
+{{Dmitri Shostakovich}}
+
+[[Category:Melodic sections]]
+[[Category:Motifs (music)]]
+[[Category:Dmitri Shostakovich]]
+[[Category:Musical cryptograms]]

@@ -1,6 +1,6 @@
 /* Cipher library and the make / break page for each cipher. */
 const SIMS = ["enigma", "lorenz", "jefferson", "scytale", "grille", "railfence", "vigenere", "playfair"];
-const FAMILY_ORDER = ["Monoalphabetic", "Polyalphabetic", "Polygraphic", "Fractionating", "Transposition", "Book and homophonic", "Codes", "Scripts", "Machines", "Modern stream", "Modern symmetric", "Hashes", "Public key"];
+const FAMILY_ORDER = ["Monoalphabetic", "Polyalphabetic", "Polygraphic", "Fractionating", "Transposition", "Book and homophonic", "Codes", "Scripts", "Music", "Machines", "Modern stream", "Modern symmetric", "Hashes", "Public key"];
 
 route(/^\/$/, async () => {
   const byFam = {};
@@ -29,7 +29,7 @@ route(/^\/cipher\/([\w-]+)$/, async id => {
     <div class="panel">
       <h3>Message</h3><pre>${esc(c.example)}</pre>
       ${Object.keys(c.key).length ? `<h3>Key</h3><pre>${esc(JSON.stringify(c.key))}</pre>` : ""}
-      <h3>Result</h3><pre>${esc(c.example_cipher)}</pre>
+      <h3>Result</h3><pre>${esc(c.example_cipher)}</pre>${c.family === "Music" ? musicPanel(c.example_cipher, "playEx") : ""}
       ${c.example_back !== null ? `<h3>Decrypted again</h3><pre>${esc(c.example_back)}</pre>` : `<p class="mute">One-way: there is no decryption.</p>`}
     </div>
     <h2>Try it yourself</h2>
@@ -51,10 +51,12 @@ route(/^\/cipher\/([\w-]+)$/, async id => {
     const out = $("#out");
     await busy(ev.target, out, async () => {
       const r = await api(`/ciphers/${id}/run`, { op, text: $("#txt").value, key: keyVals() });
-      out.innerHTML = `<h3>Output</h3><pre>${esc(r.output)}</pre>`;
+      out.innerHTML = `<h3>Output</h3><pre>${esc(r.output)}</pre>${c.family === "Music" && op === "encrypt" ? musicPanel(r.output, "playOut") : ""}`;
+      if ($("#playOut")) $("#playOut").onclick = () => musicPlay(r.output);
     });
   };
   $("#enc").onclick = runOp("encrypt");
+  if ($("#playEx")) $("#playEx").onclick = () => musicPlay(c.example_cipher);
   if ($("#dec")) $("#dec").onclick = runOp("decrypt");
   if ($("#atk")) $("#atk").onclick = ev => busy(ev.target, $("#atkout"), async () => {
     const r = await api(`/ciphers/${id}/attack`, {});

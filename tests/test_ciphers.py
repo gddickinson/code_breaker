@@ -23,6 +23,9 @@ def test_round_trip(cid):
         assert back == expected
     elif cid == "tap":
         assert norm(back).replace("K", "C") == norm(c.example).replace("K", "C")
+    elif cid == "music_french":  # many letters per note: the most likely reading must give the same notes again
+        from codebreaker.ciphers.music import french_e
+        assert french_e(back) == french_e(c.example)
     elif cid == "book":
         assert similarity(norm(back), norm(c.example)) > 0.8
     else:
