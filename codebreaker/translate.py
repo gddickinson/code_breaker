@@ -1,4 +1,9 @@
 """Offline translation via Argos Translate models, plus language detection for solved text."""
+import os
+
+# Sentence splitting with MiniSBD (Round 85): the default splitter, Stanza, has no models for Azerbaijani, Bengali,
+# Esperanto, Malay, Swahili or Tagalog, so their translators returned nothing. Must be set before Argos is imported.
+os.environ.setdefault("ARGOS_CHUNK_TYPE", "MINISBD")
 from .languages import LANGS, detect
 from .segment import segment
 

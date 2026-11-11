@@ -40,8 +40,8 @@ function lensLogAdd(lines) {
   $("#lnLog").textContent = lensLog.join("\n");
 }
 
-function lensStop() {
-  lensVotes = []; lensSession = null;
+function lensStop(keepSession = false) {
+  lensVotes = []; if (!keepSession) lensSession = null;
   clearInterval(lensTimer); lensTimer = 0; clearInterval(lensFlow); lensFlow = 0; lensRef = null;
   if (lensStream) { lensStream.getTracks().forEach(t => t.stop()); lensStream = null; }
 }
@@ -52,8 +52,8 @@ function lensFit(w, h) {
   c.width = W; c.height = Math.round(W * h / w);
 }
 
-function lensShowImage(dataUrl, cb) {
-  lensStop(); $("#lnVid").hidden = true;
+function lensShowImage(dataUrl, cb, keepSession = false) {
+  lensStop(keepSession); $("#lnVid").hidden = true;
   const img = $("#lnImg");
   img.onload = () => { img.hidden = false; lensFit(img.naturalWidth, img.naturalHeight); lensOverlayStart($("#lnCanvas")); cb && cb(img); };
   img.src = dataUrl;
@@ -151,7 +151,7 @@ route(/^\/lens(\/demo)?$/, async demo => {
       }, 120);
     } catch (e) { $("#lnMsg").innerHTML = `<span class="err">The camera could not be opened: ${esc(e.message)}</span>`; }
   };
-  $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d))); };
+  $("#lnSnap").onclick = ev => { const v = $("#lnVid"), c = document.createElement("canvas"); c.width = v.videoWidth; c.height = v.videoHeight; c.getContext("2d").drawImage(v, 0, 0); const d = c.toDataURL("image/png"); lensShowImage(d, () => busy(ev.target, $("#lnMsg"), () => lensAnalyseImage(d)), true); $("#lnCam").textContent = "Start live camera"; $("#lnSnap").disabled = true; };
   $("#lnFile").onchange = e => { const f = e.target.files[0]; if (f) busy($("#lnFileBtn"), $("#lnMsg"), () => lensFile(f)); };
   $("#lnTextGo").onclick = ev => busy(ev.target, $("#lnMsg"), async () => { const r = await api("/lens/text", { text: $("#lnText").value }); lensLogAdd(r.log.reverse()); lensReport(r); });
   const runDemo = async () => { const d = (await api("/lens/sample")).image; lensShowImage(d, () => busy($("#lnDemo"), $("#lnMsg"), () => lensAnalyseImage(d))); };

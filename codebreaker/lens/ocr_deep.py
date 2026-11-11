@@ -5,8 +5,8 @@ live_words: RapidOCR alone (PaddleOCR detection and recognition), about 0.8 s a 
     is what the overlay and tracking need; words that it runs together are acceptable on a moving view.
 photo_words: for every line RapidOCR finds, several readings are compared: RapidOCR's own, Tesseract on the stacked
     line crops at two heights, and the words of three full-page Tesseract passes that fall inside the line. The kept
-    reading scores best on half dictionary words of the text's language (the app's six word lists; English if the
-    language has none) and half agreement with RapidOCR's letters, then confidence. Scored on the user's label."""
+    reading scores best on agreement with RapidOCR's letters scaled by dictionary support in the text's language (the
+    app's six word lists; English if the language has none), then confidence. Scored on the user's label photos."""
 import re
 
 import cv2
@@ -72,8 +72,9 @@ def _vocab(lang: str | None) -> frozenset:
 
 
 def _score(ws: list[dict], vocab: frozenset, ref: str) -> tuple:
-    """Half the share of letters in dictionary words (or numbers), half the agreement of the letters with RapidOCR's
-    reading of the line: junk made of short real words ('me em') cannot win on the dictionary alone."""
+    """0.7 x agreement of the letters with RapidOCR's reading of the line + 0.3 x the share of letters in dictionary
+    words or numbers. With equal weights, junk of short real words ('L ET ALTO YEO ne') beat an exact brand name
+    (ALTOIDS); weights compared on two of the user's label photos (Round 78b)."""
     from difflib import SequenceMatcher
 
     toks = [_plain(re.sub(r"[^\w]", "", w["text"])) for w in ws]
@@ -83,7 +84,7 @@ def _score(ws: list[dict], vocab: frozenset, ref: str) -> tuple:
     conf = float(np.mean([w["conf"] for w in ws])) if ws else 0.0
     accents = sum(1 for w in ws for c in w["text"] if c.isalpha() and not c.isascii())
     # accents only break ties: RapidOCR's reader has none, so an otherwise equal Tesseract reading keeps 'près'
-    return (round(0.5 * in_dict / letters + 0.5 * agree, 3), accents, conf)
+    return (round(0.7 * agree + 0.3 * in_dict / letters, 3), accents, conf)
 
 
 def _plain(t: str) -> str:
@@ -102,7 +103,9 @@ def _dedupe(ws: list[dict]) -> list[dict]:
     return out
 
 
-def photo_words(gray: np.ndarray) -> list[dict]:
+def photo_words(gray: np.ndarray, extra: list | None = None) -> list[dict]:
+    """extra: (rect, text) lines from the live session in this photo's pixels (live_session.consensus_for_photo).
+    Each joins the candidates of the line it overlaps; lines only the session saw are kept, labelled."""
     from ..langid import detect as identify
 
     lines = _lines(gray)
@@ -113,12 +116,26 @@ def photo_words(gray: np.ndarray) -> list[dict]:
     lang = identify(" ".join(t for _, t, _ in lines), 1)
     vocab = _vocab(lang[0]["lang"] if lang else None)
     st = [_stacked(gray, lines, h) for h in (48, 72)]
-    out = []
+    out, used = [], set()
     for i, (box, txt, conf) in enumerate(lines):
         inside = [{**w, "line": str(i)} for w in page if box[1] <= w["box"][1] + w["box"][3] / 2 <= box[1] + box[3]
                   and box[0] - 4 <= w["box"][0] + w["box"][2] / 2 <= box[0] + box[2] + 4]
         cands = [_spread(txt, box, conf * 100, str(i)), st[0][i], st[1][i], sorted(inside, key=lambda w: w["box"][0])]
+        for j, (r, t) in enumerate(extra or []):
+            if _iou(r, box) > 0.3:
+                cands.append([{**w, "source": "live view"} for w in _spread(t, [round(v) for v in r], 90.0, str(i))])
+                used.add(j)
         cands = [_dedupe(c) for c in cands if c]
         best = max(cands, key=lambda c: _score(c, vocab, txt))
-        out += [{**w, "conf": max(w["conf"], 60.0)} if _score(best, vocab, txt)[0] >= 0.6 else w for w in best]
+        out += [{**w, "conf": max(w["conf"], 60.0)} if _score(best, vocab, txt)[0] >= 0.55 else w for w in best]
+    for j, (r, t) in enumerate(extra or []):  # lines the live view read that this photo's detector missed
+        if j not in used:
+            out += [{**w, "source": "live view"} for w in _spread(t, [round(v) for v in r], 70.0, f"live{j}")]
     return out
+
+
+def _iou(a, b) -> float:
+    ix = max(0.0, min(a[0] + a[2], b[0] + b[2]) - max(a[0], b[0]))
+    iy = max(0.0, min(a[1] + a[3], b[1] + b[3]) - max(a[1], b[1]))
+    i = ix * iy
+    return i / max(1e-6, a[2] * a[3] + b[2] * b[3] - i)

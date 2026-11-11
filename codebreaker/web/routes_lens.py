@@ -32,7 +32,12 @@ DEBUG = Path(__file__).resolve().parents[2] / "data/lens_debug"
 
 def _keep(data: bytes, kind: str) -> None:
     """The last still picture and the last live frame, overwritten each time, for checking what the lens saw.
-    Local only and not committed (data/lens_debug is in .gitignore)."""
+    Local only and not committed (data/lens_debug is in .gitignore). Skipped under the test suite, whose sample
+    pictures used to overwrite the user's own captures."""
+    import os
+
+    if os.environ.get("PYTEST_CURRENT_TEST"):
+        return
     try:
         DEBUG.mkdir(parents=True, exist_ok=True)
         ext = "json" if kind.endswith("_result") else "png" if data[:8] == b"\x89PNG\r\n\x1a\n" else "jpg"

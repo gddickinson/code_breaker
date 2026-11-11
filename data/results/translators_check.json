@@ -1,0 +1,492 @@
+{
+ "id": "translators_check",
+ "date": "2026-11-10",
+ "installed": 49,
+ "working": [
+  "ar",
+  "az",
+  "bg",
+  "bn",
+  "ca",
+  "cs",
+  "da",
+  "de",
+  "el",
+  "eo",
+  "es",
+  "et",
+  "eu",
+  "fa",
+  "fi",
+  "fr",
+  "ga",
+  "gl",
+  "he",
+  "hi",
+  "hu",
+  "id",
+  "it",
+  "ja",
+  "ko",
+  "ky",
+  "lt",
+  "lv",
+  "ms",
+  "nb",
+  "nl",
+  "pb",
+  "pl",
+  "ro",
+  "ru",
+  "sk",
+  "sq",
+  "sv",
+  "sw",
+  "th",
+  "tl",
+  "tr",
+  "uk",
+  "ur",
+  "vi",
+  "zh",
+  "zt"
+ ],
+ "rows": {
+  "ar": {
+   "tested": true,
+   "ran": true,
+   "seconds": 4.5,
+   "english": true,
+   "note": "",
+   "input": "الغبيرات الدموية (Haemoconia) (أو هبوات الدم) هي جسيمات صغيرة من الدهنيات تتكون نتيجة تفتت سدى الكريات الحمراء (خلايا ال",
+   "output": "Bloody idiots. Oconia (or blood hybrids) are small particulates of fatigues formed by the disintegration of red cherry (red blood cells). It's being digested by"
+  },
+  "az": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.5,
+   "english": true,
+   "note": "",
+   "input": "Təzəkənd — Azərbaycan Respublikasının Biləsuvar rayonunun Təzəkənd kənd inzibati ərazi dairəsində kənd. Azərbaycan Respu",
+   "output": "Təzər Nöqtəsi On May 25, 1991 of the Supreme Soviet of the Supreme Soviet of the Republic of Azerbaijan was established the Soviet of the Soviet of the Caspian "
+  },
+  "bg": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.2,
+   "english": true,
+   "note": "",
+   "input": "Антифат е великан, герой от древногръцката митология. Според Омировата „Одисея“ е цар на човекоядците лестригони, на чии",
+   "output": "Antifat is a giant hero of ancient Greek mythology. According to Homer, the Odyssey is the king of the lestrigons, on whose shores it fell Odysseus during his w"
+  },
+  "bn": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.1,
+   "english": true,
+   "note": "",
+   "input": "ফাকুন্দো এসেকিয়েল ইন্সফ্রান লিরুসি (স্পেনীয়: Facundo Insfrán; জন্ম: ৪ জুন ২০০৬; ফাকুন্দো ইন্সফ্রান নামে সুপরিচিত) হলেন",
+   "output": "Fakudo Assunessian Libresie (Ectuary: Ferdoo Intern; birth: 4 June 2006; Fuldo Esconn) is a paragoian professional football player. He is currently a goalkeeper"
+  },
+  "ca": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "El gosset de les praderies cuanegre (Cynomys ludovicianus) és una espècie de rosegador esciüromorf de la família dels es",
+   "output": "The black-tailed prairie (Cynomys ludovicianus) is a species of schizomorph rodent found in the Great Plains of North America, from southern Canada to northern "
+  },
+  "cs": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Novohradská stupňovina je geomorfologický okrsek v jihozápadní části Loučenské tabule, ležící v okresech Ústí nad Orlicí",
+   "output": "The Neo-hrad tiered is a geomorphological district in the southwest part of the Loučenská Board, located in the districts of Ústí nad Orlicí, Svitavy and Chrudi"
+  },
+  "da": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Slangen (Serpens) er et stjernebillede på den nordlige himmelkugle. Slangen består som det eneste stjernebillede af to a",
+   "output": "The serpentine is a constellation of the northern celestial sphere. The snake is the only constellation of two separate areas, the head of the snake (Serpens Ca"
+  },
+  "de": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "John Riccitiello (* 1958 in den USA) ist ein US-amerikanischer Manager, der in der Lebensmittelwirtschaft und später in ",
+   "output": "John Riccitiello (* 1958 in the USA) is an American manager who worked in the food industry and later in the computer game industry."
+  },
+  "el": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "Για οικισμούς με το ίδιο όνομα δείτε το λήμμα: Μεγάλο Χωριό (αποσαφήνιση) Το Μεγάλο Χωριό, επίσημα Μέγα Χωρίον, είναι ορ",
+   "output": "For settlements with the same name see the entry: Great Village (declaration) Megalo Chorio, officially Megalo Chorio, is a mountainous settlement of Central Gr"
+  },
+  "eo": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.4,
+   "english": true,
+   "note": "",
+   "input": "Bence Mátyássy [mAtjAŝi], laŭ hungarlingve kutima nomordo Mátyássy Bence estas hungara aktoro, voĉoaktoro. Bence Mátyáss",
+   "output": "Bence Mátyássy is a Hungarian actor, a voice actor. Bence Mátyássy was born on February 19, 1981 in Budapest."
+  },
+  "es": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Pino gallego, pino royal, pino bermejo o pino borde puede referirse a: el nombre común de la planta Pinus pinaster; o el",
+   "output": "The common name of the Pinus pinaster plant or the common name of the Pinus sylvestris plant."
+  },
+  "et": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.1,
+   "english": true,
+   "note": "",
+   "input": "Lõkketule tänav on tänav Tartus Ihastes. Tänav algab Kraavikalda tänavalt, ristub Arukase tänava, Põhjatamme puiestee, E",
+   "output": "Fire Street is a street in Tartu Ihaste. The street starts at Kraavikalda Street, crosses Arukas Street, Põhja Oak Boulevard, Eluya, Kiigemäe, Kasesalu, Dawn St"
+  },
+  "eu": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "Calabazas de Fuentidueña Segoviako udalerria da, Tierra de Pinares eskualdean dagoena. Azken erroldaren arabera 23 bizta",
+   "output": "Calabazas de Fuentidueña is a municipality in the Tierra de Pinares region of Segovia. According to the last census, there were 23 inhabitants on the surface of"
+  },
+  "fa": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "شهرستان اولان (به قزاقی: Ұлан ауданы، ۇلان اۋدانى) یک شهرستان در قزاقستان است که در استان قزاقستان شرقی واقع شده‌است. شه",
+   "output": "The city of the firstan (to Kazakh:Ұлан,ۇ, ا) is a city in Kazakhstan, located in the province of eastern Kazakhstan. The first city has 9,160 square kilometers"
+  },
+  "fi": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Malesian Grand Prix 2015 oli Formula 1 -sarjan toinen osakilpailu kaudella 2015. Kilpailu ajettiin Sepang International ",
+   "output": "The Malaysian Grand Prix 2015 was the second round of the Formula 1 series in 2015. The competition took place on the Sepang International Circuit motorway on 2"
+  },
+  "fr": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.6,
+   "english": true,
+   "note": "",
+   "input": "Les flavokavaïnes sont une classe de chalconoïdes présent dans le kava. Jusqu'à présent trois composés ont été identifié",
+   "output": "Flavokavain are a class of chalconoids present in kava. To date, three compounds have been identified, flavokavain A, B and C."
+  },
+  "ga": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Coibhéis farraige an tornádó. Leathann tonnadóir aeir atá ag rothlú go han-tapa ó bhun na scamall go dromchla an uisce, ",
+   "output": "The sea equivalent of the tornádó. An air waver that is rotated very quickly from the bottom of the cloud to the surface of the water, collecting water all the "
+  },
+  "gl": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "A OU-525 (na provincia de Ourense), é unha estrada da Rede Primaria Básica da Xunta de Galicia que une as localidades de",
+   "output": "The OU-525 (in the province of Ourense), is a road of the Basic Primary Network of the Xunta de Galicia that links the towns of San Cibrao das Viñas and Allariz"
+  },
+  "he": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "רנה סמואל קסין (בצרפתית: René Samuel Cassin, ההיגוי בצרפתית - רנה קאסן, שמו העברי: שמואל קצין; 5 באוקטובר 1887 – 20 בפבר",
+   "output": "René Samuel Cassin (French: René Samuel Cassin) was a French Jewish jurist, a Nobel Peace Prize laureate. He served as a law professor at night University and l"
+  },
+  "hi": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.6,
+   "english": true,
+   "note": "",
+   "input": "उदयपुर संभाग अथवा उदयपुर प्रभाग राजस्थान की सात प्रशासनिक भौगोलिक इकाईयों में से एक है। 2011 की जनगणना के अनुसार इस संभा",
+   "output": "Udaipur Division or Udaipur Division is one of the seven administrative geographical units of Rajasthan. According to the 2011 census, the division is the highe"
+  },
+  "hu": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "A 21694 Allisowilson (ideiglenes jelöléssel 1999 RL48) a Naprendszer kisbolygóövében található aszteroida. A LINEAR proj",
+   "output": "21694 Allison (provisionally marked 1999 RL48) is an asteroid in the solar system's small belt. It was discovered in the Linear project on 7 September 1999."
+  },
+  "id": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Hotma Parapatuan Daniel Sitompul atau Hotma Sitompul (30 November 1956 – 16 April 2025) adalah seorang pengacara Indones",
+   "output": "The Hotel Parapama Daniel Sitompul or Hotma Sitompul (November 30, 1956 - April 16, 2025) was an Indonesian lawyer from North Sumatra who was quite well known f"
+  },
+  "it": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "La Coppa del Portogallo 2010-2011 è stata la 38ª edizione della principale coppa nazionale portoghese di hockey su pista",
+   "output": "The 2010-2011 Portugal Cup was the 38th edition of the main Portuguese national hockey cup on track. The competition took place from 8 December 2010 to 19 June "
+  },
+  "ja": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.1,
+   "english": true,
+   "note": "",
+   "input": "ノルトシュテンメン（ドイツ語: Nordstemmen, 発音）はドイツ連邦共和国ニーダーザクセン州ヒルデスハイム郡西部の町村（以下、本項では便宜上「町」と記述する）である。この町はニーダーザクセン南部地方のハノーファー＝ブラウンシュヴァイ",
+   "output": "Nordstemmen (German: Nordstemmen, pronunc ) is a town village in the west of Hildesム County, Nieder Saxony, Germany (hereinafter referred to as \"town\" for conve"
+  },
+  "ko": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.1,
+   "english": true,
+   "note": "",
+   "input": "여왕개미는 개미 군락에서 알을 낳는 암컷을 이르는 말이다. 대부분의 군락에서는 여왕개미가 개미 군락내의 모든 개미들의 어머니이다. 여왕개미와 일개미는 모두 암컷이지만, 여왕개미는 애벌레일 때 일반 애벌레들과는 다른 ",
+   "output": "The feminine speaks to the female that is born from the anterior monastery. In most crowds, the femdom is the mother of all the ants in the ants. Although the f"
+  },
+  "ky": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Потаскуй — Орусиядагы дарыя. Алтай крайы, Новосибирск облусу, Кемеров облусу жер аймактарын агып өтөт. Дарыянын куйган ж",
+   "output": "Potascuy is a river in Russia. Altai crai, Novosibirsk Oblast, Kerrov Oblast flows through land areas. The river's tail is located 19 km from the left bank of t"
+  },
+  "lt": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Čèrvenė (bltr. Чэрвень, rus. Червень; iki 1923 m. Ihùmenas, bltr. Ігумен, rus. Игумен) – miestas vidurio Baltarusijoje, ",
+   "output": "Chèrvene (bltr. (a.k.a. (a.k.a. Ihðmen, Bltr. All right. (Игумен) - city in central Belarus, east of Minsk, near the road Minskas-Mogilaikas. The center of Cher"
+  },
+  "lv": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Nikolajs Andriakopuls (grieķu: Νικόλαος Ανδριακόπουλος; dzimis 1878. gadā, miršanas gads nav zināms) bija grieķu vingrot",
+   "output": "Nikolai Andriakopoulos (Greek: Νικόλαος Ανδριακόπουλος; born in 1878; the year of death is unknown) was a Greek gymnastics and two Olympic medal winners. He is "
+  },
+  "ms": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.5,
+   "english": true,
+   "note": "",
+   "input": "Parashara (IAST: Parāśara) ialah salah seorang resi terkenal yang sering disebut dalam Itihasa dan Purana. Beliau merupa",
+   "output": "Parashara (IAST: Parāśara) is one of the famous resihs often referred to in Itihasa and Purana. He is the son of the Magician and grandson of Vasistha's grand r"
+  },
+  "nb": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.9,
+   "english": true,
+   "note": "",
+   "input": "Se også Shan (andre betydninger) Shan er en folkegruppe på cirka 4 millioner mennesker (2006) i nordøstre Burma, særlig ",
+   "output": "See also Shan (other meanings) Shan is a population of about 4 million people (2006) in northeastern Burma, especially in the state of Shan. There are also Shan"
+  },
+  "nl": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Zuphium pusillum is een keversoort uit de familie van de loopkevers (Carabidae). De wetenschappelijke naam van de soort ",
+   "output": "Zuphium punctatum is a species of ground beetle in the subfamily Carabinae. It is found in South Africa."
+  },
+  "pb": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Jugeals-Nazareth é uma comuna francesa na região administrativa da Nova Aquitânia, no departamento de Corrèze. Estende-s",
+   "output": "Jugeals-Nazareth is a commune in the Corrèze department in New Aquitaine in northwestern France. The area is 10.95 km2. In 2010 the municipality had 1 002 inhab"
+  },
+  "pl": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Herne (fr. Hérinnes, Hérinnes-lez-Enghien) – miejscowość i gmina (gemeente) w Belgii, w Regionie Flamandzkim, w prowincj",
+   "output": "Herne (fr. Hérinnes, Hérinnes-lez-Enghien) is a municipality and municipality (gemeente) in Belgium, in the Flemish Region, in the Province of Brabancja Flemish"
+  },
+  "pt": {
+   "tested": false,
+   "why": "no sample text"
+  },
+  "ro": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Ylä-Keitele este o arie protejată (arie specială de conservare — SAC, sit de importanță comunitară — SCI, arie de protec",
+   "output": "Ylä-Keitele is a protected area (special conservation area - SAC, site of Community importance - SCI, special aviation protection area (SPA) in Finland, lying o"
+  },
+  "ru": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Пилипы́ (укр. Пилипи) — село в Матеевецкой сельской общине Коломыйского района Ивано-Франковской области Украины. Населе",
+   "output": "Pilipy (Ukr. Pilipi) is a village in Mateyevets rural community of Kolomy district of Ivano-Frankivsk region of Ukraine. The population is 504 people. The popul"
+  },
+  "sk": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.5,
+   "english": true,
+   "note": "",
+   "input": "Liga Deportiva Universitaria známejší pod názvom LDU Quito je ekvádorský futbalový klub založený 11. januára 1930 v Quit",
+   "output": "Liga Deportiva Universitaria more known as LDU Quito is an Ecuadorian football club founded on January 11, 1930 in Quito. Home games are played at the Estadio d"
+  },
+  "sl": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": false,
+   "note": "",
+   "input": "U-29 je naziv več podmornic: U-29 - podmornica Kaiserliche Deutsche Marine U-29 - podmornica k.u.k Kriegsmarine U-29 - p",
+   "output": "U-29 is the name of several submarines: U-29 - Kaiserliche Deutsche Marine U-29 - submarine k.u.k Kriegsmarine U-29 - submarine Kriegsmarine U-29 - submarine Bu"
+  },
+  "sq": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Kantoni Rémalard (frëngjisht: Canton de Rémalard) është një kanton në departamentin Orne, rajonin Basse-Normandie në Fra",
+   "output": "Kanton Rémalard (French: Canton de Rémalard) is a canton in the Orne department, the Basse-Normadee region in France. The head of the canton is Rémalard. There "
+  },
+  "sv": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.4,
+   "english": true,
+   "note": "",
+   "input": "Skutören är en ö i Finland. Den ligger i Skärgårdshavet och i kommunen Pargas i landskapet Egentliga Finland, i den sydv",
+   "output": "The driver is an island in Finland. It is located in the Archipelago Sea and in the municipality of Pargas in the real Finland landscape, in the southwestern pa"
+  },
+  "sw": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "Giorgio Ballati (alizaliwa 2 Aprili 1946) ni mwanariadha mstaafu wa Italia aliyebobea katika mbio fupi. Alishinda medali",
+   "output": "Giorgio Ballati (born 2 April 1946) is a retired Italian athlete specializing in the short race. He won a bronze medal in a 4×400 m relay at the 1975 Mediterran"
+  },
+  "th": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.8,
+   "english": true,
+   "note": "",
+   "input": "เบรนดอน สมิธ (อังกฤษ: Brendon Smith; เกิด 4 กรกฎาคม พ.ศ. 2543) เป็นนักว่ายน้ำชาวออสเตรเลีย เขาได้เข้าแข่งขันในกีฬามหาวิท",
+   "output": "Brandon Smith; born July 4th, 2543) an Australian swimmer, he competed in summer and 2021 Australian Swimmming Treals and part of Australia's 2020 Olympics."
+  },
+  "tl": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.5,
+   "english": true,
+   "note": "",
+   "input": "Ang Bayan ng Guiguinto ay isang ika-2 klaseng bayan sa lalawigan ng Bulacan, Pilipinas. Ayon sa senso ng 2024, ito ay ma",
+   "output": "The Town of Guguinto is a 2nd - class town in the province of Bulacan, Philippines. According to thesenso of 2024, it has a population of 118,173 in its 28,070 "
+  },
+  "tr": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.6,
+   "english": true,
+   "note": "",
+   "input": "Dukalık (İtalyanca \"duca\" [ˈduka] sözcüğünden) veya düklük (Fransızca \"duc\" [dyk] sözcüğünden), bir dük veya düşes taraf",
+   "output": "Dukalik (from Italy \"duca\" [ sözcüğüduka] word) or düklik (French \"duc\" from the word [dyk]), is a country, region, earth or beylic name managed by a dük or dro"
+  },
+  "uk": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.0,
+   "english": true,
+   "note": "",
+   "input": "Микола Сергійович Огарков (нар. 18 лютого 2005, Добропілля, Донецька область, Україна) — український футболіст, лівий за",
+   "output": "A circle of Sergeyevich Ogarkow (fair. 18 February 2005, Dobrowa, Dannyville, Ukraine) - Ukrainian football player, left defender of the High School, which is t"
+  },
+  "ur": {
+   "tested": true,
+   "ran": true,
+   "seconds": 0.7,
+   "english": true,
+   "note": "",
+   "input": "سدیپا (اداکار) (انگریزی: Sudeepa) ایک اداکار، فلم ساز، فلم ہدایت کار، منظر نویس اور ٹیلی ویژن اداکار ہیں جن کا تعلق بھار",
+   "output": "Gerv (ادا) is an actor, film actor, film guide, background and television actor, associated with India. He has been active since 1997."
+  },
+  "vi": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.2,
+   "english": true,
+   "note": "",
+   "input": "Claidheamh mòr (tiếng Celt ở Scotland - có nghĩa là \"kiếm lớn\"), hay Claymore (tiếng Anh)) có thể là tên của hai loại ki",
+   "output": "Claidhemhmír (Celtin of Scotland – meaning \"great search\"), or Claymore (English)) may be the name of two Scottish swords: a type of cross-shaped sword with a p"
+  },
+  "zh": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.9,
+   "english": true,
+   "note": "",
+   "input": "寧波中緯半導體公司是中國的一間半導體公司，於2002年由中緯积積體電路（開曼）有限公司在寧波保税區成立。 寧波中緯是寧波市政府的一個項目，投資了30億元。在2004年5月，該廠首次出貨。用了兩年時間，产量才達到每個月1万片。該廠的設備是其6",
+   "output": "Ninbo’s semi-conductor company, a semi-conductor company in China, was established in 2002 in the Ninbo Bonded Area by China’s build-up circuit (Cayman) Ltd. Ni"
+  },
+  "zt": {
+   "tested": true,
+   "ran": true,
+   "seconds": 1.9,
+   "english": true,
+   "note": "",
+   "input": "寧波中緯半導體公司是中國的一間半導體公司，於2002年由中緯积積體電路（開曼）有限公司在寧波保税區成立。 寧波中緯是寧波市政府的一個項目，投資了30億元。在2004年5月，該廠首次出貨。用了兩年時間，产量才達到每個月1万片。該廠的設備是其6",
+   "output": "Ninbo’s semi-conductor company, a semi-conductor company in China, was established in 2002 in the Ninbo Bonded Area by China’s build-up circuit (Cayman) Ltd. Ni"
+  }
+ }
+}

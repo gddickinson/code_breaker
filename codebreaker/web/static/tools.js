@@ -38,7 +38,9 @@ route(/^\/translate$/, async () => {
   $("#go").onclick = ev => busy(ev.target, $("#o"), async () => {
     const r = await api("/translate", { text: $("#t").value, source: $("#l").value || null });
     const rows = r.detected.map(d => [d.name, d.p != null ? `${Math.round(d.p * 100)}%` : d.score]);
-    $("#o").innerHTML = `<div class="panel"><h3>Language</h3><p>${esc(r.source_name)}</p>${table(["Language", "Fit"], rows)}
+    const close = !$("#l").value && r.detected.length > 1 && r.detected[1].p != null && r.detected[1].p > 0.2
+      ? `<p class="err">Close call: ${esc(r.detected[0].name)} or ${esc(r.detected[1].name)}. Short texts in related languages are hard to tell apart; choose the language above if this is wrong.</p>` : "";
+    $("#o").innerHTML = `<div class="panel"><h3>Language</h3><p>${esc(r.source_name)}</p>${close}${table(["Language", "Fit"], rows)}
       ${r.spaced !== $("#t").value ? `<h3>With word breaks</h3><pre>${esc(r.spaced)}</pre>` : ""}
       ${r.translation ? `<h3>English</h3><pre>${esc(r.translation)}</pre>` : ""}${r.note ? `<p class="mute">${esc(r.note)}</p>` : ""}</div>`;
   });

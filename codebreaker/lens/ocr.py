@@ -172,7 +172,7 @@ def group_lines(ws: list[dict]) -> list[list[dict]]:
     return [sorted(l["words"], key=lambda w: w["box"][0]) for l in sorted(lines, key=lambda l: l["top"])]
 
 
-def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dict:
+def read(gray: np.ndarray, script: str | None = None, fast: bool = False, extra: list | None = None) -> dict:
     """OCR of a picture: script, words, lines, mean confidence and language. Latin script goes to ocr_deep: the fast
     RapidOCR reader for live frames, the thorough line-by-line comparison for photos. Other scripts: the candidate whose quick pass reads the most (total
     confidence of readable words), so a few confident junk words in a wrong script cannot win; stills then get three
@@ -182,12 +182,17 @@ def read(gray: np.ndarray, script: str | None = None, fast: bool = False) -> dic
     s = scale_for(gray)
     if script is None:
         osd, _ = detect_script(variant(gray, s, "clahe"))
-        if osd == "Latin" and rapid() is not None:
-            script = "Latin"  # no need for the quick-pass vote: the combined reader handles Latin script
+        if osd in ("Latin", None) and rapid() is not None:
+            from .ocr_deep import live_words
+
+            probe = "".join(w["text"] for w in live_words(gray))
+            alpha = [c for c in probe if c.isalpha()]
+            if osd == "Latin" or (alpha and sum(c.isascii() for c in alpha) / len(alpha) >= 0.7):
+                script = "Latin"  # detection unsure (it found nothing on a photographed label): RapidOCR's letters decide
     if script == "Latin" and rapid() is not None:  # two analysers (user's suggestion): fast for live, thorough for photos
         from .ocr_deep import live_words, photo_words
 
-        ws = live_words(gray) if fast else photo_words(gray)
+        ws = live_words(gray) if fast else photo_words(gray, extra)
         return _result(script, ws, [w for w in ws if readable(w)], [script])
     if script is None:
         cands = [osd] + (["Latin"] if osd != "Latin" else []) if osd else list(FALLBACK[:2] if fast else FALLBACK)

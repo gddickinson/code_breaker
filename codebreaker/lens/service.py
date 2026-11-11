@@ -74,10 +74,13 @@ def analyse_image(data: bytes, live: bool = False, signs: str = "auto", script: 
     if img is None:
         raise ValueError("The picture could not be read.")
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-    o = ocr.read(gray, script, fast=live)
-    if session and not live:  # share with the live session: the photo's lines join its vote
+    extra = []
+    if session and not live:  # the live session's agreed lines become candidates for the photo
         from . import live_session
 
+        extra = live_session.consensus_for_photo(session, gray)
+    o = ocr.read(gray, script, fast=live, extra=extra)
+    if session and not live:  # and the photo's lines join the session's vote
         live_session.share_photo(session, gray, o["words"])
     found_codes = codes(gray)
     inside = lambda w, b: b[0] <= w["box"][0] + w["box"][2] / 2 <= b[0] + b[2] and b[1] <= w["box"][1] + w["box"][3] / 2 <= b[1] + b[3]

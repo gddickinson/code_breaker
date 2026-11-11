@@ -218,9 +218,8 @@ def live_frame(sid: str | None, gray: np.ndarray) -> dict:
     return {"session": s.id, "frame": s.frame, "resets": s.resets, "lines": out, "pending": sum(t.deep_pending for t in s.tracks), "tips": tips}
 
 
-def share_photo(sid: str | None, gray: np.ndarray, words: list[dict]) -> list[tuple]:
-    """A captured photo and its session: the photo's lines join the session's vote as thorough readings, and the
-    session's consensus lines (in the photo's pixels) come back as extra candidates for the photo analyser."""
+def consensus_for_photo(sid: str | None, gray: np.ndarray) -> list[tuple]:
+    """The session's agreed lines in a captured photo's pixels: (rect, text) for lines seen in two or more frames."""
     if not sid or sid not in SESSIONS:
         return []
     s = SESSIONS[sid]
@@ -228,14 +227,25 @@ def share_photo(sid: str | None, gray: np.ndarray, words: list[dict]) -> list[tu
         H = s.align(gray)
         if H is None:
             return []
+        Hinv = np.linalg.inv(H)
+        return [(_rect(cv2.perspectiveTransform(t.quad.reshape(-1, 1, 2), Hinv).reshape(-1, 2)), t.text()) for t in s.tracks if t.seen >= 2 and t.text()]
+
+
+def share_photo(sid: str | None, gray: np.ndarray, words: list[dict]) -> None:
+    """The photo's lines join the session's vote as one more good view (weight 1: a photo reading is not trusted
+    above the frames' agreement, which it used to outweigh)."""
+    if not sid or sid not in SESSIONS:
+        return
+    s = SESSIONS[sid]
+    with s.lock:
+        H = s.align(gray)
+        if H is None:
+            return
         lines = []
-        for line in ocr.group_lines([w for w in words if ocr.readable(w)]):
+        for line in ocr.group_lines([w for w in words if ocr.readable(w) and w.get("source") != "live view"]):
             x0 = min(w["box"][0] for w in line)
             y0 = min(w["box"][1] for w in line)
             x1 = max(w["box"][0] + w["box"][2] for w in line)
             y1 = max(w["box"][1] + w["box"][3] for w in line)
-            lines.append((np.float32([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]), " ".join(w["text"] for w in line), 1.0))
-        s.add(gray, lines, H, DEEP_WEIGHT, deep=True)
-        Hinv = np.linalg.inv(H)
-        return [(_rect(cv2.perspectiveTransform(t.quad.reshape(-1, 1, 2), Hinv).reshape(-1, 2)), t.text())
-                for t in s.tracks if t.seen >= 2]
+            lines.append((np.float32([[x0, y0], [x1, y0], [x1, y1], [x0, y1]]), " ".join(w["text"] for w in line), 0.9))
+        s.add(gray, lines, H, 1.0)
